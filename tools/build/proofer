@@ -5,4 +5,4 @@ scriptDir=$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )
 dstDir=$scriptDir/../../_site
 
 echo "Checking html..."
-htmlproof ${dstDir}
+htmlproof --check-html ${dstDir}
