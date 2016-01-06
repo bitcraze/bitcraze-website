@@ -4,9 +4,4 @@ source: src
 destination: _site
 
 gems:
-  - jekyll-feed
   - jekyll-compass
-
-keep_files:
-  - fonts
-  - javascripts

@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en-US">
+    {% include head.html %}
+
+    <body class="page">
+
+        <div id="page" class="hfeed site">
+
+            {% include nav.html %}
+            {% include header-banner.html %}
+
+            <a id="pagetop"></a>
+
+            <div class="container-fluid content-area-fluid">
+                <section id="primary" class="row content-area page-product">
+                    <div class="col-md-12">
+                        {{content}}
+                    </div>
+                </section>
+            </div>
+
+            {% include footer.html %}
+
+        </div>
+    </body>
+</html>

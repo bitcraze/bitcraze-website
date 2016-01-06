@@ -1,0 +1,11 @@
+{% assign items = include.items %}
+
+<ul class="dropdown-menu">
+{% for item in items %}
+  <li class="menu-item">
+    {% assign p = site.pages | where:"title",item | first %}
+    <a title="{{p.title}}"
+       href="{{p.url}}">{{p.title}}</a>
+  </li>
+{% endfor %}
+</ul>

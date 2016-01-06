@@ -1,0 +1,42 @@
+- title: Home
+
+- title: Blog
+
+- title: Products
+  subs:
+  - Crazyflie 2.0
+  - Crazyradio PA
+  - LED-ring deck
+  - Qi charger deck
+  - Prototyping deck
+  - Breakout deck
+  - Debug adapter kit
+  - Old products
+
+- title: Buy
+  subs:
+  - Buy online
+  - Local distributors
+
+- title: Getting started
+  subs:
+  - Crazyflie 2.0
+  - Expansion decks
+  - Crazyflie
+
+- title: Support
+  subs:
+  - Downloads
+  - Forum
+
+- title: Development
+  subs:
+  - Overview
+  - Github
+  - Wiki
+
+- title: About
+  subs:
+  - Bitcraze
+  - Team
+  - Contact

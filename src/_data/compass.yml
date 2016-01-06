@@ -1,5 +1,9 @@
 sass_dir: _scss
-output_style: compressed
+javascripts_dir: javascripts
+fonts_dir: fonts
+
 additional_import_paths:
   - .
   - ../tmp/bootstrap/assets/stylesheets
+
+output_style: compressed

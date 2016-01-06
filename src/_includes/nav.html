@@ -1,0 +1,75 @@
+<div class="container-fluid navigation-fluid">
+    <div class="row">
+        <div class="col-md-12">
+            <nav id="site-navigation" class="main-navigation"
+                 role="navigation">
+                <div class="navbar navbar-default navbar-static-top">
+                    <div class="navbar-brand">
+                        <a href="https://www.bitcraze.io/" rel="home"> <img
+                                src="https://www.bitcraze.io/wp-content/themes/kraken/images/navLogo.png"
+                                title="Bitcraze"/></a></div>
+
+                    <div class="navbar-right navbar-menu-section">
+                        <div class="navbar-social-search">
+                            <div class="social-bar">
+                                <a href="https://github.com/bitcraze"><i
+                                        class="fa fa-github-alt"></i></a>
+                                <a href="https://twitter.com/bitcraze_se"><i
+                                        class="fa fa-twitter"></i></a>
+                                <a href="https://www.facebook.com/bitcraze"><i
+                                        class="fa fa-facebook"></i></a>
+                                <a href="https://plus.google.com/115721472821530986219"><i
+                                        class="fa fa-google-plus"></i></a>
+                                <a href="https://www.bitcraze.io/feed/"><i
+                                        class="fa fa-rss"></i></a>
+                            </div>
+                            <form role="search" method="get"
+                                  class="search-form form-inline"
+                                  action="https://www.bitcraze.io/">
+                                <div class="form-group">
+                                    <label>
+                                        <span class="screen-reader-text sr-only">Search for:</span>
+                                        <i class="fa fa-search"></i>
+                                        <input type="search"
+                                               class="search-field form-control"
+                                               placeholder="Search &hellip;"
+                                               value="" name="s">
+                                    </label>
+                                    <input type="submit"
+                                           class="search-submit btn btn-primary"
+                                           value="Search">
+                                </div>
+                            </form>
+                        </div>
+
+                        <button type="button" class="navbar-toggle"
+                                data-toggle="collapse"
+                                data-target=".navbar-collapse">
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                        </button>
+
+                        <div class="navbar-collapse collapse">
+                            <ul id="menu-newmenuqnd" class="nav navbar-nav">
+                                {% for top_menu in site.data.menu %}
+                                <li class="menu-item">
+                                    {% if top_menu.subs %}
+                                    <a title="{{top_menu.title}}" href="#"
+                                       data-target="#" data-toggle="dropdown"
+                                       class="dropdown-toggle">{{top_menu.title}}<span class="caret"></span></a>
+                                        {% include menu_ul.html items=top_menu.subs %}
+                                    {% else %}
+                                        {% assign p = site.pages | where:"title",top_menu.title | first %}
+                                    <a title="{{p.title}}" href="{{p.url}}">{{p.title}}</a>
+                                    {% endif %}
+                                </li>
+                                {% endfor %}
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </nav>
+        </div>
+    </div>
+</div>
