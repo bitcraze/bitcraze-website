@@ -1,0 +1,309 @@
+// Required WordPress Alignment
+
+.alignleft, .align-left {
+	display: inline;
+	float: left;
+	margin-right: 10px;
+	margin-bottom: 10px;
+}
+.alignright, .align-right {
+	display: inline;
+	float: right;
+	margin-left: 10px;
+	margin-bottom: 10px;
+}
+.aligncenter, .align-center {
+	clear: both;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+	margin-bottom: 10px;
+}
+.nocenter {
+	text-align: left;
+}
+
+// Normal WordPress captions
+.wp-caption {
+	max-width: 100%;
+}
+.wp-caption-text,
+.gallery-caption {
+	text-shadow: none;
+	font-weight: 500;
+	text-align: center;
+	margin-bottom: 22px;
+}
+
+// Center the thumbnails since WordPress centers the caption text
+.gallery-icon img {
+	margin: auto;
+}
+
+// Mark "sticky" (featured) posts as "Featured"
+.sticky .entry-title:after {
+	content: "Featured";
+	display: inine-block;
+	font-size: 20px;
+	margin-left: 15px;
+	padding: 10px;
+	vertical-align: middle;
+}
+
+.page .entry-content {
+	padding-top: 0;
+}
+
+.youtubeWrapper {
+	position: relative;
+	padding-bottom: 56.25%; /* 16:9 */
+	padding-top: 25px;
+	height: 0;
+
+  iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+  }
+}
+
+
+// Add some space between images in the same <p>, for mobile devices.
+.entry-content img {
+  margin-bottom: 5px;
+}
+
+.entry-summary {
+	margin-bottom: 25px;
+}
+
+article.post {
+	margin-bottom: 25px;
+}
+
+// Get rid of bullets on comment <ul> and set some padding and indenting
+.comment-list,
+.comment-list .children {
+	list-style-type: none;
+	padding: 0;
+}
+
+.comment-list .children {
+	margin-left: 25px;
+}
+
+.reply {
+	margin-bottom: 25px;
+}
+
+// Get rid of the word "says" from comments
+.says {
+	display: none;
+}
+
+li.pingback {
+	margin-bottom: 15px;
+}
+
+.cat-links, .tags-links {
+	margin-right: 10px;
+}
+
+.posted-on {
+	margin-right: 5px;
+}
+
+.by-line, .comments-link {
+	margin-left: 5px;
+	margin-right: 5px;
+}
+
+
+// Get rid of bullets on sidebars, footer, page top, and page bottom
+#secondary,
+#sidebar-pagetop,
+#sidebar-pagebottom,
+footer#colophon.site-footer {
+  ul {
+	  list-style: none;
+	  padding-left: 0;
+
+	  ul {
+      list-style: none;
+      padding-left: 25px;
+	  }
+  }
+}
+
+#secondary,
+footer#colophon.site-footer {
+  ul li {
+	  margin-top: 10px;
+  }
+}
+
+
+// Style comments
+.comment-list .children {
+	margin-left: 5%;
+}
+
+.comment-form {
+  [for="author"],
+  [for="email"],
+  [for="url"],
+  [for="comment"] {
+	  float: left;
+	  width: 80px;
+  }
+
+  input[type="text"],
+  .comment-form input[type="email"],
+  .comment-form input[type="url"] {
+    max-width: 310px;
+    width: 70%;
+  }
+}
+
+.comment-form,
+.comment-textarea,
+textarea {
+	max-width: 100%;
+	border-color: #ccc;
+}
+
+// Styles for default WordPress comments
+textarea#comment {
+	max-width: 743px; // largest width of content area w/sidebar
+	width: 100%;
+	max-height: 140px;
+}
+
+// Hide the label "Comment" above the comment box as its pretty obvious already
+.comment-form-comment label {
+	display: none;
+}
+p.comment-subscription-form {
+	margin-bottom: 10px;
+}
+
+
+// Style the WordPress calendar widget because Bootstrap doesn't even add a 'table'
+// class to tables
+
+#calendar_wrap {
+	font-size: 14px;
+	max-width: 300px;
+}
+
+.widget_calendar {
+  #wp-calendar {
+    color: #555;
+    width: 95%;
+    text-align: center;
+  }
+
+  #wp-calendar {
+    caption,
+    td,
+    th {
+	    text-align: center;
+    }
+
+    caption {
+      font-weight: 500;
+      padding: 5px 0 5px 0;
+      text-transform: uppercase;
+    }
+
+    th {
+    	background: #f4f4f4;
+    	border-top: 1px solid #ccc;
+    	border-bottom: 1px solid #ccc;
+    	font-weight: bold;
+    }
+
+    td {
+      background: #f4f4f4;
+      border-top: 1px solid #ccc;
+      border-bottom: 1px solid #ccc;
+    }
+  }
+}
+
+// Style <code> tag like <pre> tag so its white instead of red
+code {
+    word-break: break-all;
+    word-wrap: break-word;
+    color: #2f2f2f;
+    background-color: #f5f5f5;
+    border: 1px solid #ccc;
+	-webkit-border-radius: 4px;
+	-moz-border-radius: 4px;
+	border-radius: 4px;
+}
+
+// use <span> tags for glpyicons because WordPress visual editor strips empty <i> tags.
+// to make them large as in using for icons, add "icon-lg" class.
+span.icon-lg,
+span.icon-xlg,
+i.icon-lg,
+i.icon-xlg {
+  font-size: 50px;
+	padding: 20px;
+}
+
+// Style tables like TwentyEleven theme with lines between entries
+.entry-content table,
+.comment-content table {
+	border-bottom: 1px solid #ddd;
+	margin: 0 0 1.625em;
+	width: 100%;
+}
+.entry-content th,
+.comment-content th {
+	font-weight: 500;
+	letter-spacing: 0.1em;
+	line-height: 2.6em;
+	text-transform: uppercase;
+}
+.entry-content td,
+.comment-content td {
+	border-top: 1px solid #ddd;
+	padding: 6px 10px 6px 0;
+}
+
+/* Bootstrap uses "active" style on the <li>, but WordPress paginate_links() uses
+ * "current" in a <span> tag on the link. Also set the hover to match the primary button
+ * color.
+ */
+.pagination>li>a,
+.pagination>li>span,
+span.page-numbers.current {
+	color: $brand-primary;
+}
+.pagination>li>a:hover,
+.pagination>li>span:hover,
+.pagination>li>a:focus,
+.pagination>li>span:focus,
+span.page-numbers.current {
+	z-index: 2;
+	color: #fff;
+    background-color: $brand-primary;
+    border-color: $brand-primary;
+}
+
+// Widget titles
+
+.widget-title {
+  border-width: 0 0 1px 0;
+  border-style: solid;
+}
+
+// Hide "With Google+ plugin by Geoff Janes" that is added at the bottom of the page
+.footer-link {
+  display: none;
+}

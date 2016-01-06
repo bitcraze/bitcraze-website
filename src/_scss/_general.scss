@@ -1,0 +1,63 @@
+// General styling
+
+
+// We use a .container-fluid outside all rows to enable us to have wide plates.
+// Set the width of all rows inside
+.container-fluid > .row {
+  max-width: $site-width;
+	margin: 0 auto;
+}
+
+
+b, strong {
+  font-weight: $font-weight-strong;
+}
+
+a {
+    word-wrap: break-word;
+
+    -webkit-transition: color .1s ease-in, background .1s ease-in;
+    -moz-transition: color .1s ease-in, background .1s ease-in;
+    -ms-transition: color .1s ease-in, background .1s ease-in;
+    -o-transition: color .1s ease-in, background .1s ease-in;
+    transition: color .1s ease-in, background .1s ease-in;
+}
+
+a:hover,
+a:focus {
+    color: $focusColor;
+    text-decoration: none;
+    outline: 0;
+}
+a:before,
+a:after,
+a:hover i:before,
+a:focus i:before {
+    -webkit-transition: color .1s ease-in, background .1s ease-in;
+    -moz-transition: color .1s ease-in, background .1s ease-in;
+    -ms-transition: color .1s ease-in, background .1s ease-in;
+    -o-transition: color .1s ease-in, background .1s ease-in;
+    transition: color .1s ease-in, background .1s ease-in;
+}
+
+p {
+    line-height: $paragraph-line-height;
+}
+
+blockquote {
+	border-color: $bcGreen;
+}
+
+hr {
+  display: block;
+  height: 1px;
+  border: 0;
+  border-top: 1px solid #ccc;
+  margin: 1em 0;
+  padding: 0;
+}
+
+.centered {
+    text-align: center;
+}
+

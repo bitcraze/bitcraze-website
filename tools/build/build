@@ -3,5 +3,6 @@ set -e
 
 scriptDir=$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )
 
-. ${scriptDir}/html
+. ${scriptDir}/download_deps
+. ${scriptDir}/generate
 . ${scriptDir}/proofer

@@ -1,0 +1,343 @@
+// All pages
+
+.content-area {
+	padding-top: $content-area-padding-top;
+	padding-bottom: $content-area-padding-bottom;
+
+  // Make sure images and video are not wider than the page
+  img {
+    max-width: 100%;
+    height: auto;
+  }
+}
+
+
+// 404 page
+
+.img-404 img {
+  width: 100%;
+}
+
+
+
+// Front page
+
+.front-page-image {
+  width: 100%
+}
+
+
+
+// Page - Product
+
+.page-product {
+  padding-bottom: 20px;
+
+  .pp-main-image-base {
+    margin-bottom: 10px;
+    width: 100%;
+  }
+
+  .pp-main-image-narrow {
+    @extend .pp-main-image-base;
+    @media (min-width: $screen-xs-min) {
+      width: 20%;
+      margin-left: 40%;
+    }
+  }
+
+  .pp-main-image-medium {
+    @extend .pp-main-image-base;
+    @media (min-width: $screen-xs-min) {
+      width: 50%;
+      margin-left: 25%;
+    }
+  }
+
+  .pp-main-image-wide {
+    @extend .pp-main-image-base;
+    width: 80%;
+    margin-left: 10%;
+  }
+
+  .pp-catch-phrase {
+    @extend h4;
+  }
+
+  .pp-specs {
+    margin-top: 20px;
+    padding-top: 10px;
+
+    border-top-width: 1px;
+    border-top-style: solid;
+    border-color: #bbb;
+
+    a {
+      line-height: 2;
+    }
+  }
+}
+
+
+
+// Page - Left menu
+
+// Modifier class for 1:1 aspect ratio
+.embed-responsive-1by1 {
+  padding-bottom: 100%;
+}
+
+.page-left-menu {
+  .media-row-base {
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+
+  // TODO krri Clean up!
+  .plm-img-row-narrow {
+    @extend .media-row-base;
+    img {
+      width: 100%;
+    }
+    @media (min-width: $screen-xs-min) {
+      width: 20%;
+      margin-left: 40%;
+    }
+  }
+
+  .plm-img-row, .plm-img-row-medium {
+    @extend .media-row-base;
+    img {
+      width: 100%;
+    }
+    @media (min-width: $screen-xs-min) {
+      width: 50%;
+      margin-left: 25%;
+    }
+  }
+
+  .plm-img-row-wide {
+    @extend .media-row-base;
+    img {
+      width: 100%;
+    }
+    @media (min-width: $screen-xs-min) {
+      width: 100%;
+      margin-left: 0;
+    }
+  }
+
+  .plm-vine-row {
+    @extend .media-row-base;
+    @media (min-width: $screen-xs-min) {
+      width: 50%;
+      margin-left: 25%;
+    }
+  }
+
+  .plm-outer-vine {
+    @extend .embed-responsive;
+    @extend .embed-responsive-1by1;
+  }
+
+  .plm-inner-vine {
+    @extend .embed-responsive-item;
+  }
+
+  .plm-nav-s-1 {
+    background-color: $bcGreen;
+  }
+
+  .plm-nav-s-2 {
+    background-color: $bcMidGreen;
+  }
+
+  .plm-nav-s-3 {
+    background-color: $bcDarkGreen;
+  }
+
+  .plm-nav-s-extra {
+    background-color: $bcDarkGrey;
+  }
+
+  .plm-nav-space {
+    margin-top: 10px;
+  }
+
+  .plm-content-space-small {
+    @media (min-width: $screen-xs-min) {
+      margin-top: 20px;
+    }
+
+    @media (min-width: $screen-md-min) {
+      margin-top: 50px;
+    }
+  }
+
+  .plm-content-space-medium {
+    @media (min-width: $screen-xs-min) {
+      margin-top: 30px;
+    }
+
+    @media (min-width: $screen-md-min) {
+      margin-top: 100px;
+    }
+  }
+
+  .plm-content-space-large {
+    @media (min-width: $screen-xs-min) {
+      margin-top: 50px;
+    }
+
+    @media (min-width: $screen-md-min) {
+      margin-top: 150px;
+    }
+  }
+
+  .plm-content li { 
+    padding-bottom: 7px;
+  }
+
+  .plm-content-logo {
+    width: 100%;
+    max-width: 300px;
+    max-height: 300px;
+
+    margin-right: auto;
+    margin-left: auto;
+    display: block;
+  }
+
+  .plm-content-info-step {
+    @media (min-width: $screen-xs-min) {
+      margin-bottom: 100px;
+    }
+  }
+    
+    .plm-content-intro-text {
+   
+      p {
+        font-weight:400;
+      }   
+    }
+
+  .plm-download-list {
+    width: 100%;
+    display: table;
+    table-layout: fixed;
+    list-style-type: none;
+    padding-left: 0;
+
+    margin-top: 10px;
+    padding-top: 4px;
+
+    margin-bottom: 10px;
+    padding-bottom: 4px;
+
+    border-top: solid 1px $table-line-color;
+    border-bottom: solid 1px $table-line-color;
+    text-align: center;
+
+
+    li {
+      @media (min-width: $screen-xs-min) {
+        display: table-cell;
+      }
+    }
+  }
+
+  h3 {
+    border-width: 0 0 1px 0;
+    border-style: solid;
+  }
+
+  $padding-menu-top: 28px;
+
+  .affix {
+    $nav-cols-width: 4;
+
+    // This width (for floating menu) is NOT the same as for the menu in "top" position. The reason is that
+    // at the top position it is based on bs columns that have gutter, while when floating it is bsaed on the
+    // body width. This width is just the body width deivided by the number of columns. The difference is
+    // compensated for by the padding below. The width must be a relative (%) measurement, that's why it
+    // becomes a bit complicated.
+    width: percentage(($nav-cols-width / $grid-columns));
+
+    $bs-full-width-without-outer-gutter: $site-width - $grid-gutter-width;
+    $bs-4-cols-width-no-gutter: ($bs-full-width-without-outer-gutter * $nav-cols-width / $grid-columns) - $grid-gutter-width;
+
+    $full-width-4-cols: $site-width * $nav-cols-width / $grid-columns;
+
+    $diff: $full-width-4-cols - $bs-4-cols-width-no-gutter;
+    padding-right: $diff;
+
+    top: $content-area-padding-top + $padding-menu-top;
+
+    @media (min-width: $site-width + $grid-gutter-width) {
+      width: ($site-width * $nav-cols-width / $grid-columns) - $grid-gutter-width + $diff;
+    }
+  }
+
+  .affix-bottom {
+    position: relative;
+  }
+
+  nav {
+    text-align: right;
+    margin-top: $padding-menu-top;
+
+    a {
+      padding: 0;
+      color: white;
+      font-weight: $nav-font-weight;
+    }
+
+    li {
+      padding-right: 30px;
+      padding-top: 10px;
+      padding-bottom: 10px;
+      list-style-type: none;
+
+      ul {
+        display: none;
+
+        li {
+          padding-bottom: 0;
+        }
+      }
+
+      :hover, :focus {
+        background-color: inherit;
+      }
+
+      :hover {
+        color: black;
+      }
+    }
+
+    .active {
+      ul {
+        display: block;
+      }
+
+      >a::before {
+        content: "[ ";
+      }
+
+      >a::after {
+        content: " ]";
+      }
+
+      .active {
+        >a::before {
+          content: "< ";
+        }
+
+        >a::after {
+          content: " >";
+        }
+      }
+    }
+
+  }
+}

@@ -1,0 +1,47 @@
+/*
+ * Our own build of bootsrap. It enables us to change properties such as
+ * colors and sizes
+ */
+
+// Override variables in bootstrap here
+
+$body-bg:               white;
+$text-color:            #222;
+$font-size-base:        16px;
+
+$brand-primary:         $themeColor;
+$brand-success:         #58d68d;
+$brand-info:            #428bca;
+$brand-warning:         #efc30f;
+$brand-danger:          #dc4939;
+
+
+// Menu
+
+$navbar-height:         75px;
+$navbar-margin-bottom:  0px;
+$navbar-padding-vertical: 5px;
+
+$navbar-default-color:  white;
+$navbar-default-bg:     $bcDarkGrey;
+
+$navbar-default-link-color:                white;
+$navbar-default-link-hover-color:          $menuColor;
+$navbar-default-link-active-color:         $menuColor;
+$navbar-default-link-active-bg:            $navbar-default-bg;
+$navbar-default-link-disabled-color:       #ccc;
+
+
+// Drop downs
+
+$dropdown-bg:                    lighten($navbar-default-bg, 15%);
+$dropdown-link-color:            $navbar-default-link-color;
+$dropdown-link-hover-color:      $navbar-default-link-hover-color;
+$dropdown-link-hover-bg:         $dropdown-bg;
+$dropdown-link-active-color:     $dropdown-link-color;
+$dropdown-link-active-bg:        $dropdown-bg;
+$dropdown-link-disabled-color:   $navbar-default-link-disabled-color;
+
+
+@import "bootstrap-compass";
+@import "bootstrap";

@@ -1,0 +1,59 @@
+// Footer
+
+.site-footer,
+.site-footer-fluid {
+  background-color: $footer-background-color;
+
+	padding-top: 15px;
+}
+
+.footer-nav,
+.footer-nav-fluid {
+	background-color: $footer-nav-background-color;
+
+  padding-top: 10px;
+  padding-bottom: 5px;
+}
+
+.site-footer,
+.footer-nav {
+  color: $footer-text-color;
+
+  h1,
+  h2,
+  h3 {
+    margin-top: 0;
+    padding-bottom: 15px;
+  }
+
+  a:not(.btn),
+  a:not(.btn) {
+	  color: $footer-link-color;
+  }
+
+  a:hover:not(.btn),
+  a:focus:not(.btn) {
+	  color: $footer-hover-color;
+  }
+
+  // Dividers between footer menu items
+  #footer-navigation ul.dividers > li:nth-child(n+2):before {
+    content: "";
+    display: inline-block;
+    height: 10px;
+    margin-right: 10px;
+    border-left: 1px solid #dddddd;
+  }
+
+  .site-credits img {
+    margin-left: 10px;
+  }
+
+  // Center menu and credits for phones
+  @media (max-width: 640px) {
+    .footer-nav-menu, .site-credits {
+      text-align: center;
+      float: none !important;
+    }
+  }
+}

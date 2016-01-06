@@ -1,0 +1,177 @@
+// Navigation
+
+.navigation-fluid {
+  background-color: $navbar-default-bg;
+}
+
+.navbar-nav>li {
+  >a,
+  >a:hover,
+  >a:focus {
+    color: inherit;
+    font-weight: $nav-font-weight;
+  }
+}
+
+
+$break-point-two-line-mobile-menu: 550px;
+$break-point-reduced-menu-spacing: 1120px;
+$break-point-small-logo: 1030px;
+
+.navbar-default {
+  .navbar-brand {
+  	height: auto;
+    padding-left: 0;
+
+    @media (min-width: $break-point-two-line-mobile-menu) {
+      position: absolute;
+    }
+
+    img {
+      height: 47px;
+    }
+
+    @media (min-width: $break-point-small-logo) {
+      padding-top: 24px;
+
+      img {
+        height: 60px;
+      }
+    }
+  }
+}
+
+.navbar-collapse {
+	text-align: left;
+}
+
+$reduced-menu-spacing: 8px;
+.navbar-menu-section {
+	text-align: right;
+  display: inline-block;
+  float: right;
+  margin-top: 10px;
+	width: 100%;
+
+  @media (min-width: $grid-float-breakpoint) {
+		width: auto;
+	}
+
+  // Reduced menu spacing
+  @media (max-width: $break-point-reduced-menu-spacing) {
+    .nav > li > a {
+      padding-left: $reduced-menu-spacing;
+      padding-right: $reduced-menu-spacing;
+    }
+    .nav {
+      padding-right: floor(($grid-gutter-width / 2)) - $reduced-menu-spacing;
+    }
+  }
+}
+
+.navbar-toggle {
+	margin-top: 0;
+	margin-right: 0;
+}
+
+.navbar-social-search {
+  i {
+    font-size: 20px;
+    color: $navbar-social-icon-color;
+    vertical-align: middle;
+  }
+}
+
+
+// Search bar
+
+$serach-field-width: 210px;
+$serach-field-width-narrow: 160px;
+$search-field-padding: 12px;
+
+.navbar-menu-section  {
+  .search-form,
+  .navbar-social-search {
+    display: inline-block;
+  }
+
+  .navbar-social-search {
+    padding-right: floor(($grid-gutter-width / 2));
+  }
+
+  .search-submit {
+    display: none;
+  }
+
+  .search-field {
+    display: inline-block;
+    border: 0px;
+    cursor: pointer;
+    height: 26px;
+    -webkit-transition: width 400ms ease, background 400ms ease;
+    transition:         width 400ms ease, background 400ms ease;
+    vertical-align: middle;
+
+    // Gross hack! The width should be 0 but Safari does not want to set focus
+    // on an imput without width. 0.1px is not visible, but accepts focus.
+    width: 0.1px;
+    padding-left: 0;
+    padding-right: 0;
+    margin-top: 4px;
+
+    @media (min-width: $grid-float-breakpoint) {
+      width: $serach-field-width;
+      padding-left: $search-field-padding;
+      padding-right: $search-field-padding;
+    }
+  }
+
+  .search-field:focus {
+    cursor: text;
+    outline: 0;
+    opacity: 1;
+    width: $serach-field-width;
+    @media (max-width: $grid-float-breakpoint) {
+      width: $serach-field-width-narrow;
+    }
+    padding-left: $search-field-padding;
+    padding-right: $search-field-padding;
+
+    margin-top: 4px;
+  }
+
+  .search-field:hover {
+    opacity: 1;
+  }
+
+  .search-form {
+    i {
+      margin-top: 6px;
+      @media (min-width: $grid-float-breakpoint) {
+        display: none;
+      }
+    }
+  }
+
+  // Force search field to not be rounded on iOS devices
+  input.search-field {
+    -webkit-appearance: none !important;
+    -webkit-border-radius: 0 !important;
+    -moz-border-radius: 0 !important;
+    border-radius: 0 !important;
+  }
+}
+
+
+// Social bar
+
+.social-bar {
+  display: none;
+  @media (min-width: $grid-float-breakpoint) {
+    display: inline-block;
+  }
+
+  i {
+    padding-right: 10px;
+  }
+}

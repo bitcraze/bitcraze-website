@@ -1,0 +1,35 @@
+// Typography
+
+body {
+	font-family: "Lato", "Helvetica Neue", Arial, sans-serif;
+    font-weight: $font-weight;
+
+    -webkit-font-smoothing: antialiased;
+    -webkit-overflow-scrolling: touch;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-family: "Raleway", Arial, "Helvetica Neue", sans-serif;
+}
+
+
+// Font awesome icons first on headings
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  .fa {
+    font-size: 2em;
+    padding-right: 0.2em;
+    vertical-align: middle;
+  }
+}
+

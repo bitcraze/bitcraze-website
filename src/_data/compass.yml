@@ -1,0 +1,5 @@
+sass_dir: _scss
+output_style: compressed
+additional_import_paths:
+  - .
+  - ../tmp/bootstrap/assets/stylesheets

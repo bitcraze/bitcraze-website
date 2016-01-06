@@ -1,0 +1,23 @@
+#!/usr/bin/env bash
+set -e
+
+scriptDir=$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )
+
+dstDir="${scriptDir}/../../_site"
+
+tmp="${scriptDir}/../../tmp"
+mkdir -p ${tmp}
+
+downloadFile="bootsrap.tar.gz"
+if [ -e ${tmp}/${downloadFile} ]; then
+  echo "Bootsrap already downloaded"
+else
+  echo "Downloading bootsrap"
+  curl -L -o ${tmp}/${downloadFile} "https://github.com/twbs/bootstrap-sass/archive/v3.3.6.tar.gz"
+  tar zxf ${tmp}/${downloadFile} --directory ${tmp}
+  mv ${tmp}/bootstrap-sass-3.3.6 ${tmp}/bootstrap
+fi
+
+mkdir -p ${dstDir}
+cp -r ${tmp}/bootstrap/assets/fonts ${dstDir}
+cp -r ${tmp}/bootstrap/assets/javascripts ${dstDir}

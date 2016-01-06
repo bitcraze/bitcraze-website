@@ -1,0 +1,13 @@
+.content-header,
+.content-header-fluid {
+	background-color: $bcGreen;
+}
+
+header.content-header {
+	min-height: $header-height;
+}
+
+.content-header i {
+    font-size: $header-font-size;
+    text-align: center;
+}
