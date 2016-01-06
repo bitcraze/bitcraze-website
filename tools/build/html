@@ -1,0 +1,9 @@
+#!/usr/bin/env bash
+set -e
+
+scriptDir=$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )
+srcDir=$scriptDir/../../src
+dstDir=$scriptDir/../../_site
+
+echo "Generating html..."
+jekyll build
