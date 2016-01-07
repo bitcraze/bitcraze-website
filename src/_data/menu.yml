@@ -26,12 +26,12 @@
 
 - title: Support
   subs:
-#  - {title: Downloads}
+  - {page_id: supoort-downloads}
   - {title: Forum, url: "https://forum.bitcraze.io"}
 
 - title: Development
   subs:
-#  - {title: Overview}
+  - {page_id: development-overview}
   - {title: Github, url: "https://github.com/bitcraze"}
   - {title: Wiki, url: "https://wiki.bitcraze.io"}
 
