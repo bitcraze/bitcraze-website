@@ -3,9 +3,16 @@
 <ul class="dropdown-menu">
 {% for sub in subs %}
   <li class="menu-item">
-    {% assign p = site.pages | where:"page_id",sub.page_id | first %}
-    <a title="{{p.title}}"
-       href="{{p.url}}">{{p.title}}</a>
+    {% if sub.page_id %}
+      {% assign p = site.pages | where:"page_id",sub.page_id | first %}
+      {% assign m_title = p.title %}
+      {% assign m_url = p.url %}
+    {% else %}
+      {% assign m_title = sub.title %}
+      {% assign m_url = sub.url %}
+    {% endif %}
+    <a title="{{m_title}}"
+       href="{{m_url}}">{{m_title}}</a>
   </li>
 {% endfor %}
 </ul>

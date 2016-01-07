@@ -13,5 +13,5 @@ stable state.
 
 * Add marker for the current menu
 * Old products
-* How to add menu with link to external url?
 * Add all content from the current site.
+* Add edit button on all pages

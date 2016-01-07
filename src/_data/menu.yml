@@ -13,9 +13,9 @@
   - {page_id: product-debug-adapter-kit}
 #  - Old products
 
-#- title: Buy
-#  subs:
-#  - {title: Buy online}
+- title: Buy
+  subs:
+  - {title: Buy online, url: "http://www.seeedstudio.com/depot/bitcraze-m-64.html"}
 #  - {title: Local distributors}
 
 - title: Getting started
@@ -24,16 +24,16 @@
 #  - {title: Expansion decks}
 #  - {title: Crazyflie}
 
-#- title: Support
-#  subs:
+- title: Support
+  subs:
 #  - {title: Downloads}
-#  - {title: Forum}
+  - {title: Forum, url: "https://forum.bitcraze.io"}
 
-#- title: Development
-#  subs:
+- title: Development
+  subs:
 #  - {title: Overview}
-#  - {title: Github}
-#  - {title: Wiki}
+  - {title: Github, url: "https://github.com/bitcraze"}
+  - {title: Wiki, url: "https://wiki.bitcraze.io"}
 
 - title: About
   subs:
