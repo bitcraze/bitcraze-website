@@ -1,5 +1,5 @@
 ---
-layout: page-base
+layout: page
 title: Downloads
 permalink: /download/
 page_id: supoort-downloads

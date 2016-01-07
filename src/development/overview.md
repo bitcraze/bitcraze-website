@@ -1,5 +1,5 @@
 ---
-layout: page-base
+layout: page
 title: Overview
 permalink: /development-overview/
 page_id: development-overview

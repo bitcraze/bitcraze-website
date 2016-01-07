@@ -1,5 +1,5 @@
 ---
-layout: page-base
+layout: page
 title: Home
 permalink: /
 page_id: home

@@ -1,5 +1,5 @@
 ---
-layout: page-base
+layout: page
 title: Contact
 permalink: /contact/
 page_id: about-contact
