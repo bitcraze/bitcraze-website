@@ -1,8 +1,9 @@
 ---
-layout: page
+layout: page-blog
 title: Blog
 permalink: /blog/
 page_id: blog
 ---
 
-<!-- inject blog -->
+<!-- This content is not injected into the template -->
+<!-- This is just a placeholder for content injected by wordpress elsewhere -->
