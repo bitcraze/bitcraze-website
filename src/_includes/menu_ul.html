@@ -2,22 +2,22 @@
 
 <ul class="dropdown-menu">
 {% for sub in subs %}
-  {% assign is_active = "" %}
+  {% assign is_active = false %}
 
   {% if sub.page_id %}
     {% assign p = site.pages | where:"page_id",sub.page_id | first %}
     {% assign m_title = p.title %}
     {% assign m_url = p.url %}
-  
+
     {% if sub.page_id == page.page_id %}
-      {% assign is_active = "active" %}
+      {% assign is_active = true %}
     {% endif %}
   {% else %}
     {% assign m_title = sub.title %}
     {% assign m_url = sub.url %}
   {% endif %}
 
-  <li class="menu-item {{is_active}}">
+  <li class="menu-item {% if is_active %}active{% endif %}">
     <a title="{{m_title}}"
        href="{{m_url}}">{{m_title}}</a>
   </li>

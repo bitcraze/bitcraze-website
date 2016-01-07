@@ -1,16 +1,20 @@
 <div class="navbar-collapse collapse">
     <ul id="menu-newmenuqnd" class="nav navbar-nav">
         {% for top_menu in site.data.menu %}
-            {% assign is_active = "" %}
+            {% assign is_active = false %}
 
             {% if top_menu.subs %}
                 {% assign p = top_menu.subs | where:"page_id",page.page_id | first %}
                 {% if p %}
-                    {% assign is_active = "active" %}
+                    {% assign is_active = true %}
+                {% endif %}
+            {% else %}
+                {% if top_menu.page_id == page.page_id %}
+                    {% assign is_active = true %}
                 {% endif %}
             {% endif %}
 
-        <li class="menu-item {{is_active}}">
+        <li class="menu-item {% if is_active %}active{% endif %}">
             {% if top_menu.subs %}
             <a title="{{top_menu.title}}" href="#"
                data-target="#" data-toggle="dropdown"
