@@ -5,7 +5,7 @@ permalink: /crazyflie-2/
 ---
 
 <img class="pp-main-image-medium"
-     src="/images/crazyflie.png"/>
+     src="/images/crazyflie.png" alt="Crazyflie 2.0"/>
 <div>
     <h2><i class="fa fa-lightbulb-o"></i>Your imagination sets the limits</h2>
     <div class="pp-catch-phrase">Be creative. In addition to being a flying development platform we&#8217;ve
@@ -397,11 +397,10 @@ permalink: /crazyflie-2/
 
         <div id="Res" class="collapse">
             <ul>
-                <li><a href="http://www.bitcraze.se/">Bitcraze</a></li>
-                <li><a href="http://wiki.bitcraze.se/">Wiki</a></li>
-                <li><a href="http://forum.bitcraze.se/">Forum</a></li>
+                <li><a href="https://wiki.bitcraze.io/">Wiki</a></li>
+                <li><a href="https://forum.bitcraze.io/">Forum</a></li>
                 <li>
-                    <a href="http://www.bitcraze.se/getting-started-with-the-crazyflie-2-0/">Getting
+                    <a href="/getting-started-with-the-crazyflie-2-0/">Getting
                         started and Assembly instructions</a></li>
             </ul>
         </div>

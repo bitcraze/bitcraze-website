@@ -6,7 +6,8 @@
                 <div class="navbar navbar-default navbar-static-top">
                     <div class="navbar-brand">
                         <a href="https://www.bitcraze.io/" rel="home"> <img
-                                src="https://www.bitcraze.io/wp-content/themes/kraken/images/navLogo.png"
+                                src="/images/navLogo.png"
+                                alt="Bitcraze logo"
                                 title="Bitcraze"/></a></div>
 
                     <div class="navbar-right navbar-menu-section">
@@ -20,7 +21,7 @@
                                         class="fa fa-facebook"></i></a>
                                 <a href="https://plus.google.com/115721472821530986219"><i
                                         class="fa fa-google-plus"></i></a>
-                                <a href="https://www.bitcraze.io/feed/"><i
+                                <a href="/feed/" data-proofer-ignore><i
                                         class="fa fa-rss"></i></a>
                             </div>
                             <form role="search" method="get"
@@ -50,23 +51,7 @@
                             <span class="icon-bar"></span>
                         </button>
 
-                        <div class="navbar-collapse collapse">
-                            <ul id="menu-newmenuqnd" class="nav navbar-nav">
-                                {% for top_menu in site.data.menu %}
-                                <li class="menu-item">
-                                    {% if top_menu.subs %}
-                                    <a title="{{top_menu.title}}" href="#"
-                                       data-target="#" data-toggle="dropdown"
-                                       class="dropdown-toggle">{{top_menu.title}}<span class="caret"></span></a>
-                                        {% include menu_ul.html items=top_menu.subs %}
-                                    {% else %}
-                                        {% assign p = site.pages | where:"title",top_menu.title | first %}
-                                    <a title="{{p.title}}" href="{{p.url}}">{{p.title}}</a>
-                                    {% endif %}
-                                </li>
-                                {% endfor %}
-                            </ul>
-                        </div>
+                        {% include menu.html %}
                     </div>
                 </div>
             </nav>

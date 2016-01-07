@@ -11,29 +11,29 @@
   - Prototyping deck
   - Breakout deck
   - Debug adapter kit
-  - Old products
+#  - Old products
 
-- title: Buy
-  subs:
-  - Buy online
-  - Local distributors
+#- title: Buy
+#  subs:
+#  - Buy online
+#  - Local distributors
 
-- title: Getting started
-  subs:
-  - Crazyflie 2.0
-  - Expansion decks
-  - Crazyflie
+#- title: Getting started
+#  subs:
+#  - Crazyflie 2.0
+#  - Expansion decks
+#  - Crazyflie
 
-- title: Support
-  subs:
-  - Downloads
-  - Forum
+#- title: Support
+#  subs:
+#  - Downloads
+#  - Forum
 
-- title: Development
-  subs:
-  - Overview
-  - Github
-  - Wiki
+#- title: Development
+#  subs:
+#  - Overview
+#  - Github
+#  - Wiki
 
 - title: About
   subs:

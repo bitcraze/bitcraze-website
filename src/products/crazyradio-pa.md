@@ -5,7 +5,7 @@ permalink: /crazyradio-pa/
 ---
 
 <img class="pp-main-image-wide"
-     src="/wp-content/themes/kraken/images/crazyradio-pa.png"/>
+     src="/images/crazyradio-pa.png" alt="Crazyradio PA"/>
 <div>
     <h2><i class="fa fa-wifi"></i>The longer the merrier</h2>
     <div class="pp-catch-phrase">Range of more than 1km</div>
@@ -114,10 +114,8 @@ permalink: /crazyradio-pa/
         <div id="ResPA" class="collapse">
             <ul>
                 <li><a class="reference external"
-                       href="https://www.bitcraze.io">Bitcraze</a></li>
-                <li><a class="reference external"
-                       href="http://wiki.bitcraze.se">Wiki</a></li>
-                <li><a href="http://forum.bitcraze.se">Forum</a></li>
+                       href="https://wiki.bitcraze.io">Wiki</a></li>
+                <li><a href="https://forum.bitcraze.io">Forum</a></li>
             </ul>
         </div>
     </div>

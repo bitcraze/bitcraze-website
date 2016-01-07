@@ -12,7 +12,7 @@ our stuff is open. Go play with it!
 ## What we do
 
 We develop and manufacture a small quadcopter called the <a
-        href="http://www.bitcraze.io/crazyflie-2/">Crazyfile</a>. We also
+        href="/crazyflie-2/">Crazyfile</a>. We also
 develop and maintain a supporting infrastructure with various clients,
 expansion decks, debuggers, development environments and tools to enable
 the end users to modify the Crazyflie in any way they want.
