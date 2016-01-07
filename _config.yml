@@ -1,4 +1,4 @@
-name: Bitcraze web
+name: Bitcraze website
 
 source: src
 destination: _site
