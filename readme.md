@@ -13,4 +13,3 @@ stable state.
 
 * Old products
 * Add all content from the current site.
-* Add edit button on all pages
