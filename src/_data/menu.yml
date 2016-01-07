@@ -1,42 +1,42 @@
-- title: Home
+- page_id: home
 
-- title: Blog
+- page_id: blog
 
 - title: Products
   subs:
-  - Crazyflie 2.0
-  - Crazyradio PA
-  - LED-ring deck
-  - Qi charger deck
-  - Prototyping deck
-  - Breakout deck
-  - Debug adapter kit
+  - {page_id: product-crazyflie-2}
+  - {page_id: product-crazyradio-pa}
+  - {page_id: product-led-ring-deck}
+  - {page_id: product-qi-charger}
+  - {page_id: product-prototyping-deck}
+  - {page_id: product-breakout-deck}
+  - {page_id: product-debug-adapter-kit}
 #  - Old products
 
 #- title: Buy
 #  subs:
-#  - Buy online
-#  - Local distributors
+#  - {title: Buy online}
+#  - {title: Local distributors}
 
-#- title: Getting started
-#  subs:
-#  - Crazyflie 2.0
-#  - Expansion decks
-#  - Crazyflie
+- title: Getting started
+  subs:
+  - {page_id: getting-started-crazyflie-2}
+#  - {title: Expansion decks}
+#  - {title: Crazyflie}
 
 #- title: Support
 #  subs:
-#  - Downloads
-#  - Forum
+#  - {title: Downloads}
+#  - {title: Forum}
 
 #- title: Development
 #  subs:
-#  - Overview
-#  - Github
-#  - Wiki
+#  - {title: Overview}
+#  - {title: Github}
+#  - {title: Wiki}
 
 - title: About
   subs:
-  - Bitcraze
-  - Team
-  - Contact
+  - {page_id: about-bitcraze}
+  - {page_id: about-team}
+  - {page_id: about-contact}

@@ -2,6 +2,7 @@
 layout: page-product
 title: LED-ring deck
 permalink: /led-ring-deck/
+page_id: product-led-ring-deck
 ---
 
 <div class="col-md-12">

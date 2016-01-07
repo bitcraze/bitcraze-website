@@ -2,6 +2,7 @@
 layout: page-product
 title: Crazyradio PA
 permalink: /crazyradio-pa/
+page_id: product-crazyradio-pa
 ---
 
 <img class="pp-main-image-wide"

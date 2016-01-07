@@ -2,6 +2,7 @@
 layout: page-base
 title: Bitcraze
 permalink: /about/
+page_id: about-bitcraze
 ---
 
 We are passionate about hardware, software and technology in general, and we

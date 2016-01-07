@@ -2,6 +2,7 @@
 layout: page-product
 title: Qi charger deck
 permalink: /qi-charger-deck/
+page_id: product-qi-charger
 ---
 
 <img class="pp-main-image-narrow" src="/images/qi-charger-deck.jpg"

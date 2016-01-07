@@ -2,6 +2,7 @@
 layout: page-product
 title: Prototyping deck
 permalink: /prototyping-deck/
+page_id: product-prototyping-deck
 ---
 
 <img class="pp-main-image-narrow" src="/images/prototyping-deck.png"

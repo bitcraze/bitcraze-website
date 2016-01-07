@@ -2,6 +2,7 @@
 layout: page-base
 title: Team
 permalink: /team/
+page_id: about-team
 ---
 
 * Marcus Eliasson

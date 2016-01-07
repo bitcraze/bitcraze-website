@@ -1,9 +1,9 @@
-{% assign items = include.items %}
+{% assign subs = include.subs %}
 
 <ul class="dropdown-menu">
-{% for item in items %}
+{% for sub in subs %}
   <li class="menu-item">
-    {% assign p = site.pages | where:"title",item | first %}
+    {% assign p = site.pages | where:"page_id",sub.page_id | first %}
     <a title="{{p.title}}"
        href="{{p.url}}">{{p.title}}</a>
   </li>

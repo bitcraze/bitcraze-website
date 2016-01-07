@@ -2,6 +2,7 @@
 layout: page-base
 title: Contact
 permalink: /contact/
+page_id: about-contact
 ---
 
 We have a number of communication channels you can use to get more

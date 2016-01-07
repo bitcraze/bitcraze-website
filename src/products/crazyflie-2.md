@@ -2,6 +2,7 @@
 layout: page-product
 title: Crazyflie 2.0
 permalink: /crazyflie-2/
+page_id: product-crazyflie-2
 ---
 
 <img class="pp-main-image-medium"

@@ -2,6 +2,7 @@
 layout: page-product
 title: Breakout deck
 permalink: /breakout-deck/
+page_id: product-breakout-deck
 ---
 
 <img class="pp-main-image-narrow"

@@ -2,6 +2,7 @@
 layout: page-product
 title: Debug adapter kit
 permalink: /debug-adapter-kit/
+page_id: product-debug-adapter-kit
 ---
 
 <img class="pp-main-image-narrow"
