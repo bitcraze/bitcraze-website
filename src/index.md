@@ -39,7 +39,7 @@ page_id: home
     <div class="col-md-6">
       <a href="/crazyflie-2">
         <div>
-          <img class="front-page-image" src="//www.bitcraze.io/wp-content/uploads/2015/12/FrontPicHand2.png">
+          <img class="front-page-image" src="/images/FrontPicHand2.png" alt="Crayflie 2.0 in hand">
         </div>
       </a>
     </div>
