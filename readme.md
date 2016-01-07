@@ -11,7 +11,6 @@ stable state.
 
 # TODO
 
-* Add marker for the current menu
 * Old products
 * Add all content from the current site.
 * Add edit button on all pages
