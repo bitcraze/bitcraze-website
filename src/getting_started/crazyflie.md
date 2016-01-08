@@ -11,7 +11,11 @@ The Crazyflie is sold as a kit, it requires some assembly and soldering. The
 wiki contains [Assembly instructions](//wiki.bitcraze.io/projects:crazyflie:mechanics:assembly). 
 There is also a video describing the assembly steps:
 
-<iframe width="1170" height="658" src="https://www.youtube.com/embed/KeqiUPIDpV8?feature=oembed" frameborder="0" allowfullscreen=""></iframe>
+<div class="embed-row-medium">
+  <div class="embed-responsive embed-responsive-16by9">
+    <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/KeqiUPIDpV8?feature=oembed" allowfullscreen=""></iframe>
+  </div>
+</div>
 
 ## Required hardware
 
