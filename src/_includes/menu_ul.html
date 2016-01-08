@@ -6,10 +6,15 @@
 
   {% if sub.page_id %}
     {% assign p = site.pages | where:"page_id",sub.page_id | first %}
-    {% assign m_title = p.title %}
     {% assign m_url = p.url %}
 
-    {% if sub.page_id == page.page_id %}
+    {% if sub.title %}
+      {% assign m_title = sub.title %}
+    {% else %}
+      {% assign m_title = p.title %}
+    {% endif %}
+
+  {% if sub.page_id == page.page_id %}
       {% assign is_active = true %}
     {% endif %}
   {% else %}

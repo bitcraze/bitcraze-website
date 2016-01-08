@@ -21,7 +21,7 @@
 - title: Getting started
   subs:
   - {page_id: getting-started-crazyflie-2}
-#  - {title: Expansion decks}
+  - {page_id: getting-started-expansion-decks, title: Expansion decks}
 #  - {title: Crazyflie}
 
 - title: Support
