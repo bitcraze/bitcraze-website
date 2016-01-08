@@ -288,8 +288,12 @@
 
     a {
       padding: 0;
-      color: white;
+      color: $side-menu-link-color;
       font-weight: $nav-font-weight;
+    }
+
+    ul {
+      background-color: $side-menu-background-color;
     }
 
     li {

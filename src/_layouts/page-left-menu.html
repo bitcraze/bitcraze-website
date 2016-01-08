@@ -1,0 +1,46 @@
+---
+layout: page-base
+---
+
+{% include header-banner.html %}
+<div class="container-fluid content-area-fluid" >
+    <section id="primary" class="row content-area page-left-menu" >
+        <div class="col-md-4 plm-menu">
+            <nav id="tracking-menu" class="hidden-print hidden-xs hidden-sm">
+                {% build_left_menu_from_content %}
+            </nav>
+        </div>
+        <div class="col-md-8 plm-content">
+            {{ content }}
+        </div>
+    </section>
+</div>
+
+<!-- JS to handle position and update of the menu -->
+<script type="text/javascript">
+( function( $ ) {
+
+  $('body').scrollspy({ target: '#tracking-menu' })
+
+  $('#tracking-menu').affix({
+    offset: {
+      top: function () {
+        this.top = $('.navigation-fluid').outerHeight(true) +
+          $('.content-header-fluid').outerHeight(true);
+
+        return this.top;
+      }
+      ,
+      bottom: function () {
+        this.bottom = $('.site-footer-fluid').outerHeight(true) +
+          $('.footer-nav-fluid').outerHeight(true) + 20;
+
+        return this.bottom;
+      }
+    }
+  });
+
+  $('#tracking-menu a').smoothScroll();
+
+} )( jQuery );
+</script>
