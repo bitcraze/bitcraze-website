@@ -11,7 +11,7 @@
   - {page_id: product-prototyping-deck}
   - {page_id: product-breakout-deck}
   - {page_id: product-debug-adapter-kit}
-#  - Old products
+  - {page_id: product-old}
 
 - title: Buy
   subs:

@@ -11,5 +11,6 @@ stable state.
 
 # TODO
 
-* Migrate content for old products
 * Integrate with Wordpress
+* 404 page
+* There is an old page at /controllers/. Do we want it? Are there other hidden pages?
