@@ -395,7 +395,7 @@ page_id: getting-started-crazyflie-2
                     <li>In the bottom right corner click the usb icon and
                         choose “Bitcraze Crazyradio PA USB dongle”.
                     </li>
-                   <div class="plm-img-row"> <img src="/images/SwPic5Final.png alt="USB settings""></div>
+                    <div class="plm-img-row"><img src="/images/SwPic5Final.png" alt="USB settings"></div>
                     <li>Now choose your game controller in
                         the same list.
                     </li>
