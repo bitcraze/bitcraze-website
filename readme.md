@@ -11,5 +11,5 @@ stable state.
 
 # TODO
 
-* Old products
-* Add all content from the current site.
+* Migrate content for old products
+* Integrate with Wordpress
