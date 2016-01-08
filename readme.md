@@ -1,4 +1,4 @@
-# The Bitcraze website
+# The Bitcraze website [![Build Status](https://api.travis-ci.org/bitcraze/bitcraze-website.svg)](https://travis-ci.org/bitcraze/bitcraze-website)
 
 This is the source code for the Bitcraze website. The web has been running on 
 Wordpress but we now want to move as much as possible to git to enable the 
