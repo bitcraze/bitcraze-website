@@ -5,7 +5,7 @@
 
             {% if top_menu.subs %}
                 {% assign p = top_menu.subs | where:"page_id",page.page_id | first %}
-                {% if p %}
+                {% if p.page_id != nil %}
                     {% assign is_active = true %}
                 {% endif %}
             {% else %}
