@@ -1,5 +1,5 @@
 ---
-layout: page-base
+layout: page-front
 title: Home
 permalink: /
 page_id: home
@@ -49,10 +49,10 @@ page_id: home
   <section id="secondary" class="row">
     <div class="col-md-8">
       <h2 class="widget-title">From the blog</h2>
-      <!-- inject post -->
+      <!-- inject wp blog -->
     </div>
     <div class="col-md-4 widget-area" role="complementary">
-      <!-- inject sidebar -->
+      <!-- inject wp sidebar -->
     </div>
   </section>
 </div>    
