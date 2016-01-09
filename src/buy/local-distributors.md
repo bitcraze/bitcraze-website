@@ -85,4 +85,4 @@ page_id: buy-distributors
 
 
 <h2 id="distributor">For distributors</h2>
-<p>All distributors are handled by Seeedstudio, so if you would like to distribute our products then please have a look at the <a title="Seeedstudio Distribution" href="http://www.seeedstudio.com/depot/index.php?main_page=become_a_distributor" target="_blank">Seeedstudio distributor page</a>. If you are already distributing our products but you are not in the list above, <a title="Contact" href="//www.bitcraze.io/contact/" target="_blank">drop us an email</a> and we will add you.</p>
+<p>All distributors are handled by Seeedstudio, so if you would like to distribute our products then please have a look at the <a title="Seeedstudio Distribution" href="http://www.seeedstudio.com/depot/index.php?main_page=become_a_distributor" target="_blank">Seeedstudio distributor page</a>. If you are already distributing our products but you are not in the list above, <a title="Contact" href="/contact/" target="_blank">drop us an email</a> and we will add you.</p>
