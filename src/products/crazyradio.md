@@ -4,6 +4,8 @@ title: Crazyradio
 permalink: /crazyradio/
 ---
 
+**Note! This prodict is discontinued and has been replaced with [Crazyradio PA](/crazyradio-pa/)** 
+
 The Crayradio 2.4GHz radio USB dongle is based on the 
 [Nordic Semiconductor](http://www.nordicsemi.com/)
 [nRF24LU1+](http://www.nordicsemi.com/eng/Products/2.4GHz-RF/nRF24LU1P) SoC. 
