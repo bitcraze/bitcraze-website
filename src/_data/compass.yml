@@ -4,6 +4,6 @@ fonts_dir: fonts
 
 additional_import_paths:
   - .
-  - ../tmp/bootstrap/assets/stylesheets
+  - ../bootstrap/bootstrap/assets/stylesheets
 
 output_style: compressed

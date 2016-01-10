@@ -5,19 +5,19 @@ scriptDir=$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )
 
 dstDir="${scriptDir}/../../src"
 
-tmp="${scriptDir}/../../tmp"
-mkdir -p ${tmp}
+bootstrap="${scriptDir}/../../bootstrap"
+mkdir -p ${bootstrap}
 
 downloadFile="bootsrap.tar.gz"
-if [ -e ${tmp}/${downloadFile} ]; then
+if [ -e ${bootstrap}/${downloadFile} ]; then
   echo "Bootsrap already downloaded"
 else
   echo "Downloading bootsrap"
-  curl -L -o ${tmp}/${downloadFile} "https://github.com/twbs/bootstrap-sass/archive/v3.3.6.tar.gz"
-  tar zxf ${tmp}/${downloadFile} --directory ${tmp}
-  mv ${tmp}/bootstrap-sass-3.3.6 ${tmp}/bootstrap
+  curl -L -o ${bootstrap}/${downloadFile} "https://github.com/twbs/bootstrap-sass/archive/v3.3.6.tar.gz"
+  tar zxf ${bootstrap}/${downloadFile} --directory ${bootstrap}
+  mv ${bootstrap}/bootstrap-sass-3.3.6 ${bootstrap}/bootstrap
 fi
 
 mkdir -p ${dstDir}
-cp -r ${tmp}/bootstrap/assets/fonts ${dstDir}
-cp -r ${tmp}/bootstrap/assets/javascripts ${dstDir}
+cp -r ${bootstrap}/bootstrap/assets/fonts ${dstDir}
+cp -r ${bootstrap}/bootstrap/assets/javascripts ${dstDir}
