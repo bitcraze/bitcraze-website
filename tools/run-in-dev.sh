@@ -1,6 +1,11 @@
 #!/usr/bin/env bash
 set -e
 
+# Start a web server (in a docker container) that serves the generated content.
+# Continuously updates the generated html and css when the source is changed.
+#
+# The server serves the content on port 80.
+
 scriptDir=$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )
 rootDir=$scriptDir/..
 

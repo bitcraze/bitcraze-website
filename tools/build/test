@@ -1,6 +1,8 @@
 #!/usr/bin/env bash
 set -e
 
+# Run ruby unit tests
+
 scriptDir=$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )
 testDir=$scriptDir/../../test
 

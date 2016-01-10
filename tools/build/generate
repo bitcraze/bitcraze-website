@@ -1,6 +1,9 @@
 #!/usr/bin/env bash
 set -e
 
+# Jekyll build
+# Generates html and css from the source code.
+
 scriptDir=$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )
 srcDir=$scriptDir/../../src
 dstDir=$scriptDir/../../_site

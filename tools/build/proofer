@@ -1,6 +1,10 @@
 #!/usr/bin/env bash
 set -e
 
+# Verify the integrity of the generated html. Checks syntax, that links are
+# pointing at something valid and that images exists.
+
+
 scriptDir=$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )
 dstDir=$scriptDir/../../_site
 

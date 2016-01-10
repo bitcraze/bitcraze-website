@@ -1,6 +1,8 @@
 #!/usr/bin/env bash
 set -e
 
+# Do it all. Download dependencies, generate and test.
+
 scriptDir=$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )
 
 . ${scriptDir}/test

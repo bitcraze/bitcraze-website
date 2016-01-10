@@ -1,6 +1,8 @@
 #!/usr/bin/env bash
 set -e
 
+# Download Bootstrap and copy fonts and javascript into the src directory.
+
 scriptDir=$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )
 
 dstDir="${scriptDir}/../../src"
