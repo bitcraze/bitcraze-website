@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: page-left-menu
 title: Getting started with the Crazyflie
 permalink: /getting-started-with-the-crazyflie/
 page_id: getting-started-crazyflie
