@@ -76,6 +76,23 @@
       line-height: 2;
     }
   }
+
+  button {
+    font-size: 20px;
+    font-weight: bold;
+
+    padding: 12px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+
+    a {
+      color: white;
+    }
+
+    i {
+      padding-right: 30px;
+    }
+  }
 }
 
 

@@ -61,4 +61,4 @@ page_id: product-qi-charger
     </div>
 </div>
 
-
+{{ 'http://www.seeedstudio.com/depot/Crazyflie-20-Qi-inductive-charging-expansion-board-p-2112.html' | buy_online }}

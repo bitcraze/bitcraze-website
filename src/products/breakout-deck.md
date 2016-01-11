@@ -64,3 +64,5 @@ page_id: product-breakout-deck
         </div>
     </div>
 </div>
+
+{{ 'http://www.seeedstudio.com/depot/Crazyflie-20-Breakout-expansion-board-p-2108.html' | buy_online }}

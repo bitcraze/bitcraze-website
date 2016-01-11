@@ -121,3 +121,5 @@ page_id: product-crazyradio-pa
         </div>
     </div>
 </div>
+
+{{ 'http://www.seeedstudio.com/depot/Crazyradio-PA-long-range-24Ghz-USB-radio-dongle-with-antenna-p-2104.html' | buy_online }}

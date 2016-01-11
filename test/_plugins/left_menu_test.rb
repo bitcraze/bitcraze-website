@@ -3,8 +3,6 @@ require 'src/_plugins/left_menu'
 include Jekyll::LeftMenu
 
 class TestLeftMenu < Minitest::Test
-  def setup
-  end
 
   def test_that_ul_is_rendered_on_empty_input
     markup = ''

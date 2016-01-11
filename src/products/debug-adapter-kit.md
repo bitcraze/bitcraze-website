@@ -60,4 +60,4 @@ page_id: product-debug-adapter-kit
     </div>
 </div>
 
-
+{{ 'http://www.seeedstudio.com/depot/Crazyflie-20-debug-adapter-kit-p-2114.html' | buy_online }}
