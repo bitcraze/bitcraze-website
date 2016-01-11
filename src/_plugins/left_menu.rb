@@ -1,17 +1,8 @@
 require 'nokogiri'
 
 module Jekyll
-  class LeftMenuTag < Liquid::Tag
-
-    def initialize(tag_name, text, tokens)
-      super
-    end
-
-    def render(context)
-      render_from_content(context.registers[:page]['content'])
-    end
-
-    def render_from_content(content)
+  module LeftMenu
+    def bc_left_menu(content)
       doc = Nokogiri::HTML(content)
       tags = doc.css('h2, h3')
 
@@ -32,6 +23,8 @@ module Jekyll
       result << transition(prevLevel, '')
       result
     end
+
+    private
 
     def transition(prevLevel, level)
       top_ul = '<ul class="nav">'
@@ -67,4 +60,4 @@ module Jekyll
   end
 end
 
-Liquid::Template.register_tag('build_left_menu_from_content', Jekyll::LeftMenuTag)
+Liquid::Template.register_filter(Jekyll::LeftMenu)

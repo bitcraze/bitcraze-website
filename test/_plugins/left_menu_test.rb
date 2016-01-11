@@ -1,5 +1,6 @@
 require 'jekyll'
 require 'src/_plugins/left_menu'
+include Jekyll::LeftMenu
 
 class TestLeftMenu < Minitest::Test
   def setup
@@ -127,7 +128,7 @@ class TestLeftMenu < Minitest::Test
   end
 
 
-  def test_that_tags_with_id_are_rendered
+  def test_that_only_tags_with_ids_are_rendered
     # Fixture
     markup = '
       <h2 id="id1">title1</h2>
@@ -153,10 +154,9 @@ class TestLeftMenu < Minitest::Test
 
   def assert_tag(markup, expected)
     # Fixture
-    sut = Jekyll::LeftMenuTag.parse('', '', nil, nil)
 
     # Test
-    actual = sut.render_from_content(markup)
+    actual = bc_left_menu(markup)
 
     # Assert
     assert_html expected, actual

@@ -7,7 +7,7 @@ layout: page-base
     <section id="primary" class="row content-area page-left-menu" >
         <div class="col-md-4 plm-menu">
             <nav id="tracking-menu" class="hidden-print hidden-xs hidden-sm">
-                {% build_left_menu_from_content %}
+                {{ content | bc_left_menu }}
             </nav>
         </div>
         <div class="col-md-8 plm-content">
