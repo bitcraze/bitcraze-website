@@ -10,14 +10,14 @@ test environment based on Docker to reduce the amount of software required.
 
 1. Clone this repository
 
-        git clone git@github.com:bitcraze/bitcraze-website.git
+        git clone https://github.com/bitcraze/bitcraze-website.git
 
 1. Go to the root of the repository. All tools should be run from here.
 
         cd bitcraze-website
         
 1. Build the site. This will download Bootstrap, set things up, generate the 
-tite and test it.
+site and run tests.
         
         ./tools/do build
 
