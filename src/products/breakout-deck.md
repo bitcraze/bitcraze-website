@@ -20,22 +20,16 @@ the breakout expansion board. Just build the curcuit on a breadboard
 and attach the Crazyflie 2.0 to it.
 
 <div class="pp-specs">
-    <div>
-        <a href="#Feat" data-toggle="collapse"><strong>Features</strong></a>
 
-        <div id="Feat" class="collapse">
+{% collapse_section Features %}
             <ul>
                 <li>All expansion connector pins available</li>
                 <li>Screen print with pin names for easy usage</li>
                 <li>2.54mm header that fits a breadboard (not included)</li>
             </ul>
-        </div>
-    </div>
-    <div>
-        <a href="#Spec" data-toggle="collapse"><strong>Specifications</strong></a>
+{% endcollapse_section %}
 
-        <div id="Spec" class="collapse" style="text-align: left;">
-
+{% collapse_section Specifications %}
             <strong>Electrical specification:</strong>
             <ul>
                 <li>All 20 pins in the expansion port exposed</li>
@@ -58,8 +52,8 @@ and attach the Crazyflie 2.0 to it.
             <ul>
                 <li>1 x Breakout expansion deck</li>
             </ul>
-        </div>
-    </div>
+{% endcollapse_section %}
+
 </div>
 
 {% buy_online http://www.seeedstudio.com/depot/Crazyflie-20-Breakout-expansion-board-p-2108.html %}

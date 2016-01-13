@@ -37,10 +37,8 @@ with the first generation of the Crazyflie, but will not give the same
 range increase as with the Crazyflie 2.0.
 
 <div class="pp-specs">
-    <div>
-        <a href="#FeatPA" data-toggle="collapse"><strong>Features</strong></a>
 
-        <div id="FeatPA" class="collapse">
+{% collapse_section Features %}
             <ul>
                 <li>Radio power amplifier giving 20dBm output power</li>
                 <li>Up to 1km range LOS with Crazyflie 2.0</li>
@@ -53,12 +51,9 @@ range increase as with the Crazyflie 2.0.
                 <li>Firmware upgrade via USB</li>
                 <li>Low latency</li>
             </ul>
-        </div>
-    </div>
-    <div>
-        <a href="#SpecPA" data-toggle="collapse"><strong>Specification</strong></a>
+{% endcollapse_section %}
 
-        <div id="SpecPA" class="collapse">
+{% collapse_section Specification %}
             <strong>General specification:</strong>
             <ul>
                 <li>Based on nRF24LU1+ chip from Nordic Semiconductor</li>
@@ -97,30 +92,23 @@ range increase as with the Crazyflie 2.0.
                 <li>Weight: 6g</li>
                 <li>Size (WxHxD): 58x16x6.5mm (including connectors)</li>
             </ul>
-        </div>
-    </div>
-    <div>
-        <a href="#PackPA" data-toggle="collapse"><strong>Package
-            contents</strong></a>
+{% endcollapse_section %}
 
-        <div id="PackPA" class="collapse">
+{% collapse_section Package contents %}
             <ul>
                 <li>1 x Crazyradio PA</li>
                 <li>1 x Duck antenna 2dBi</li>
             </ul>
-        </div>
-    </div>
-    <div>
-        <a href="#ResPA" data-toggle="collapse"><strong>Resources</strong></a>
+{% endcollapse_section %}
 
-        <div id="ResPA" class="collapse">
+{% collapse_section Resources %}
             <ul>
                 <li><a class="reference external"
                        href="https://wiki.bitcraze.io">Wiki</a></li>
                 <li><a href="https://forum.bitcraze.io">Forum</a></li>
             </ul>
-        </div>
-    </div>
+{% endcollapse_section %}
+
 </div>
 
 {% buy_online http://www.seeedstudio.com/depot/Crazyradio-PA-long-range-24Ghz-USB-radio-dongle-with-antenna-p-2104.html %}

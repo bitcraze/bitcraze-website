@@ -23,22 +23,16 @@ easier, by converting the connector pinouts to standard JTAG and SWD
 pinouts.
 
 <div class="pp-specs">
-    <div>
-        <a href="#Feat" data-toggle="collapse"><strong>Features</strong></a>
 
-        <div id="Feat" class="collapse">
+{% collapse_section Features %}
             <ul>
                 <li>Includes everything needed to easily debug the MCUs (STM32F4 and nRF51)</li>
                 <li>Multiple debug pinouts supported</li>
                 <li>Reset button with jumper for reset of either STM32F4 and nRF51</li>
             </ul>
-        </div>
-    </div>
-    <div>
-        <a href="#Spec" data-toggle="collapse"><strong>Specifications</strong></a>
+{% endcollapse_section %}
 
-        <div id="Spec" class="collapse" style="text-align: left;">
-
+{% collapse_section Specifications %}
             <strong>Supported debugger pinouts:</strong>
             <ul>
                 <li>Custom pinout that matches ST Discovery board debug interfaces</li>
@@ -56,8 +50,8 @@ pinouts.
                 <li>1 x Nylon screw and nut for nRF51 debug connector</li>
                 <li>1 x 6-pin debug cable for connecting to the Crazyflie 2.0</li>
             </ul>
-        </div>
-    </div>
+{% endcollapse_section %}
+
 </div>
 
 {% buy_online http://www.seeedstudio.com/depot/Crazyflie-20-debug-adapter-kit-p-2114.html %}

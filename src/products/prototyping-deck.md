@@ -20,19 +20,15 @@ into the air. Just solder directly on the expansion deck and plug it
 into the expansion port.
 
 <div class="pp-specs">
-    <div>
-        <a href="#Feat" data-toggle="collapse"><strong>Features</strong></a>
-        <div id="Feat" class="collapse">
+
+{% collapse_section Features %}
             <ul>
                 <li>Makes all 20 pins in the Crazyflie 2.0 expansion port available</li>
                 <li>40 pads/holes for prototyping</li>
             </ul>
-        </div>
-    </div>
-    <div>
-        <a href="#Spec" data-toggle="collapse"><strong>Specifications</strong></a>
-        <div id="Spec" class="collapse" style="text-align: left;">
+{% endcollapse_section %}
 
+{% collapse_section Specifications %}
             <strong>Electrical specification:</strong>
             <ul>
                 <li>40 pads for prototyping</li>
@@ -54,8 +50,8 @@ into the expansion port.
             <ul>
                 <li>1 x Prototyping expansion deck</li>
             </ul>
-        </div>
-    </div>
+{% endcollapse_section %}
+
 </div>
 
 {% buy_online http://www.seeedstudio.com/depot/Crazyflie-20-Prototyping-expansion-board-p-2111.html %}

@@ -25,6 +25,19 @@ page_id: product-crazyflie-2
         the interface the user can access the normal buses, like UART, I2C, SPI
         as well as PWM, analog in/out and GPIO.
     </div>
+    
+%{ collapse_section Read more;
+We designed the Crazyflie 2.0 to be as flexible as we possibly
+could. For us this means adding as much features as we could fit and
+interconnecting as much things as we could. In addition to the
+functionality that comes with the Crazyflie 2.0 by default we have
+added a flexible expansion interface where multiple expansion decks
+can be added, both on the top and the bottom of the Crazyflie 2.0. From
+the interface the user can access the normal buses, like UART, I2C, SPI
+as well as PWM, analog in/out and GPIO.
+%}
+    
+    
 </div>
 <div>
     <h2><i class="fa fa-paper-plane-o"></i>Weight matters</h2>

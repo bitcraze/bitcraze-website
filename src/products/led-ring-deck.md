@@ -21,10 +21,8 @@ Two additional strong front facing LEDs can be switched on and off to
 act as headlights.
 
 <div class="pp-specs">
-    <div>
-        <a href="#Feat" data-toggle="collapse"><strong>Features</strong></a>
 
-        <div id="Feat" class="collapse">
+{% collapse_section Features %}
             <ul>
                 <li>Stable light independent of battery voltage</li>
                 <li>12 RGB LEDs facing downwards in ring configuration</li>
@@ -32,13 +30,9 @@ act as headlights.
                 <li>2 super strong white LEDs facing forward</li>
                 <li>Automatic detection of expansion deck</li>
             </ul>
-        </div>
-    </div>
-    <div>
-        <a href="#Spec" data-toggle="collapse"><strong>Specifications</strong></a>
+{% endcollapse_section %}
 
-        <div id="Spec" class="collapse" style="text-align: left;">
-
+{% collapse_section Specifications %}
             <strong>Electrical specification:</strong>
             <ul>
                 <li>DC-DC step-up/down gives up to 1A at 3.8V from input
@@ -65,8 +59,8 @@ act as headlights.
             <ul>
                 <li>1 x LED-ring expansion deck</li>
             </ul>
-        </div>
-    </div>
+{% endcollapse_section %}
+
 </div>
 
 {% buy_online http://www.seeedstudio.com/depot/Crazyflie-20-LEDring-expansion-board-p-2105.html %}

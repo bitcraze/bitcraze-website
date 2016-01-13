@@ -22,19 +22,15 @@ WPC V1.1 specification and is able to supply up to 1A at 5V to the
 Crazyflie 2.0.
 
 <div class="pp-specs">
-    <div>
-        <a href="#Feat" data-toggle="collapse"><strong>Features</strong></a>
-        <div id="Feat" class="collapse">
+
+{% collapse_section Features %}
             <ul>
                 <li>Wireless charging</li>
                 <li>Automatic detection of expansion deck</li>
             </ul>
-        </div>
-    </div>
-    <div>
-        <a href="#Spec" data-toggle="collapse"><strong>Specifications</strong></a>
-        <div id="Spec" class="collapse" style="text-align: left;">
+{% endcollapse_section %}
 
+{% collapse_section Specifications %}
             <strong>Electrical specification:</strong>
             <ul>
                 <li>Supports the Qi wireless charging standard WPC V1.1</li>
@@ -56,8 +52,8 @@ Crazyflie 2.0.
             <ul>
                 <li>1 x Qi inductive charging expansion deck</li>
             </ul>
-        </div>
-    </div>
+{% endcollapse_section %}
+
 </div>
 
 {% buy_online http://www.seeedstudio.com/depot/Crazyflie-20-Qi-inductive-charging-expansion-board-p-2112.html %}
