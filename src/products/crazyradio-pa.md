@@ -7,34 +7,35 @@ page_id: product-crazyradio-pa
 
 <img class="pp-main-image-wide"
      src="/images/crazyradio-pa.png" alt="Crazyradio PA"/>
-<div>
-    <h2><i class="fa fa-wifi"></i>The longer the merrier</h2>
-    <div class="pp-catch-phrase">Range of more than 1km</div>
+     
+{% product_highlight 
+fa-wifi;
+The longer the merrier;
+Range of more than 1km
+%}
 
-    <div>
-        Crazyradio PA is a long range open USB radio dongle based on the
-        nRF24LU1+ from Nordic Semiconductor. It features a 20dBm power
-        amplifier, LNA and comes pre-programmed with Crazyflie compatible
-        firmware. The power amplifier boosts the range, giving a range of up to
-        1km (line of sight) together with the Crazyflie 2.0 and up to 2km
-        Crazyradio PA to Crazyradio PA (line of sight).
-    </div>
-</div>
-<div>
-    <h2><i class="fa fa-unlock"></i>Open project</h2>
-    <div class="pp-catch-phrase">The Crazyradio PA is not only for the Crazyflie 2.0.</div>
+Crazyradio PA is a long range open USB radio dongle based on the
+nRF24LU1+ from Nordic Semiconductor. It features a 20dBm power
+amplifier, LNA and comes pre-programmed with Crazyflie compatible
+firmware. The power amplifier boosts the range, giving a range of up to
+1km (line of sight) together with the Crazyflie 2.0 and up to 2km
+Crazyradio PA to Crazyradio PA (line of sight).
 
-    <div>
-        Since it&#8217;s an open project with firmware written from scratch and
-        a Python API to control it,  it&#8217;s a great building block for systems
-        that require longer range than WiFi and doesn&#8217;t have the same
-        requirements for bandwidth. The hardware comes shipped with the latest
-        firmware as well as a bootloader that enables firmware upgrades via USB
-        without any additional hardware needed. The Crazyflie PA is compatible
-        with the first generation of the Crazyflie, but will not give the same
-        range increase as with the Crazyflie 2.0.
-    </div>
-</div>
+{% product_highlight 
+fa-unlock;
+Open project;
+The Crazyradio PA is not only for the Crazyflie 2.0.
+%}
+
+Since it's an open project with firmware written from scratch and
+a Python API to control it, it's a great building block for systems
+that require longer range than WiFi and doesn't have the same
+requirements for bandwidth. The hardware comes shipped with the latest
+firmware as well as a bootloader that enables firmware upgrades via USB
+without any additional hardware needed. The Crazyflie PA is compatible
+with the first generation of the Crazyflie, but will not give the same
+range increase as with the Crazyflie 2.0.
+
 <div class="pp-specs">
     <div>
         <a href="#FeatPA" data-toggle="collapse"><strong>Features</strong></a>

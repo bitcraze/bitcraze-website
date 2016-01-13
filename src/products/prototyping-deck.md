@@ -8,17 +8,17 @@ page_id: product-prototyping-deck
 <img class="pp-main-image-narrow" src="/images/prototyping-deck.png"
      alt="Prototyping deck"/>
 <div>
-    <h2><i class="fa fa-wrench"></i>Add your own hardware</h2>
 
-    <div class="pp-catch-phrase">
-        Build your own expansion deck and add to your Crazyflie 2.0.
-    </div>
-    <div>
-        Add a prototyping area to your Crazyflie 2.0 and lift your electronics
-        into the air. Just solder directly on the expansion deck and plug it
-        into the expansion port.
-    </div>
-</div>
+{% product_highlight 
+fa-wrench;
+Add your own hardware;
+Build your own expansion deck and add to your Crazyflie 2.0.
+%}
+
+Add a prototyping area to your Crazyflie 2.0 and lift your electronics
+into the air. Just solder directly on the expansion deck and plug it
+into the expansion port.
+
 <div class="pp-specs">
     <div>
         <a href="#Feat" data-toggle="collapse"><strong>Features</strong></a>

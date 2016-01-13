@@ -7,21 +7,20 @@ page_id: product-qi-charger
 
 <img class="pp-main-image-narrow" src="/images/qi-charger-deck.jpg"
      alt="Qi charger deck"/>
-<div>
-    <h2><i class="fa fa-flash"></i>Wireless charging</h2>
+     
+{% product_highlight 
+fa-flash;
+Wireless charging;
+Charge your Crazyflie 2.0 without plugging in a USB cable.
+%}
 
-    <div class="pp-catch-phrase">
-        Charge your Crazyflie 2.0 without plugging in a USB cable.
-    </div>
-    <div>
-        Want to charge your Crazyflie 2.0 without connecting the &mu;USB cable?
-        Then the Crazyflie 2.0 Qi inductive charging expansion board is a great
-        option. It supports the Qi standard and can be used with the same Qi
-        charger you have for your phone or tablet. It also supports the latest
-        WPC V1.1 specification and is able to supply up to 1A at 5V to the
-        Crazyflie 2.0.
-    </div>
-</div>
+Want to charge your Crazyflie 2.0 without connecting the &mu;USB cable?
+Then the Crazyflie 2.0 Qi inductive charging expansion board is a great
+option. It supports the Qi standard and can be used with the same Qi
+charger you have for your phone or tablet. It also supports the latest
+WPC V1.1 specification and is able to supply up to 1A at 5V to the
+Crazyflie 2.0.
+
 <div class="pp-specs">
     <div>
         <a href="#Feat" data-toggle="collapse"><strong>Features</strong></a>

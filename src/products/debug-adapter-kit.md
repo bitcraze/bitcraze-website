@@ -8,20 +8,20 @@ page_id: product-debug-adapter-kit
 <img class="pp-main-image-narrow"
      src="/images/debug-adapter-kit.png"
      alt="Debug adapter kit"/>
-<div>
-    <h2><i class="fa fa-eye"></i>Debug firmware with ease</h2>
-    <div class="pp-catch-phrase">
-        Connect a standard JTAG and SWD deugger to the Crazyflie 2.0.
-    </div>
-    <div>
-        One of our goals is to make development with the Crazyflie 2.0 as easy
-        as possible. But due to the platforms small size there are limitations
-        in what connectors we can have. Therefore we designed a debug-adapter
-        kit that makes connecting a debugger to either of the MCUs a lot
-        easier, by converting the connector pinouts to standard JTAG and SWD
-        pinouts.
-    </div>
-</div>
+     
+{% product_highlight 
+fa-eye;
+Debug firmware with ease;
+Connect a standard JTAG and SWD deugger to the Crazyflie 2.0.
+%}
+
+One of our goals is to make development with the Crazyflie 2.0 as easy
+as possible. But due to the platforms small size there are limitations
+in what connectors we can have. Therefore we designed a debug-adapter
+kit that makes connecting a debugger to either of the MCUs a lot
+easier, by converting the connector pinouts to standard JTAG and SWD
+pinouts.
+
 <div class="pp-specs">
     <div>
         <a href="#Feat" data-toggle="collapse"><strong>Features</strong></a>

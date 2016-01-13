@@ -8,20 +8,17 @@ page_id: product-breakout-deck
 <img class="pp-main-image-narrow"
      src="/images/breakout-deck.jpg"
      alt="Breakout deck"/>
-<div>
-    <h2><i class="fa fa-share"></i>Development and test of hardware made simple
-    </h2>
+     
+{% product_highlight 
+fa-share; 
+Development and test of hardware made simple; 
+Easily connect to the Crazyflie 2.0 expansion port when developing new hardware. 
+%}
 
-    <div class="pp-catch-phrase">
-        Easily connect to the Crazyflie 2.0 expansion port when developing new
-        hardware.
-    </div>
-    <div>
-        Test and develop new hardware designs easily without soldering by using
-        the breakout expansion board. Just build the curcuit on a breadboard
-        and attach the Crazyflie 2.0 to it.
-    </div>
-</div>
+Test and develop new hardware designs easily without soldering by using
+the breakout expansion board. Just build the curcuit on a breadboard
+and attach the Crazyflie 2.0 to it.
+
 <div class="pp-specs">
     <div>
         <a href="#Feat" data-toggle="collapse"><strong>Features</strong></a>

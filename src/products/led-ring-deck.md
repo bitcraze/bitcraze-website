@@ -5,25 +5,21 @@ permalink: /led-ring-deck/
 page_id: product-led-ring-deck
 ---
 
-<div class="col-md-12">
-  <img class="pp-main-image-narrow"
+<img class="pp-main-image-narrow"
  src="/images/led-ring.png"
  alt="LED-ring deck"/>
- 
-<div>
-    <h2><i class="fa fa-lightbulb-o"></i>Add lights to your Crazyflie 2.0</h2>
 
-    <div class="pp-catch-phrase">
-        Light up the dark with custom patterns using the Crazyflie 2.0 LED-ring
-        expansion deck.
-    </div>
-    <div>
-        Featuring 12 powerful RGB LEDs facing downwards, you can
-        create custom patterns in firmware that you control from your computer.
-        Two additional strong front facing LEDs can be switched on and off to
-        act as headlights.
-    </div>
-</div>
+{% product_highlight 
+fa-lightbulb-o;
+Add lights to your Crazyflie 2.0;
+Light up the dark with custom patterns using the Crazyflie 2.0 LED-ring expansion deck.
+%}
+
+Featuring 12 powerful RGB LEDs facing downwards, you can
+create custom patterns in firmware that you control from your computer.
+Two additional strong front facing LEDs can be switched on and off to
+act as headlights.
+
 <div class="pp-specs">
     <div>
         <a href="#Feat" data-toggle="collapse"><strong>Features</strong></a>
