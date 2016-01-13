@@ -23,42 +23,35 @@ act as headlights.
 <div class="pp-specs">
 
 {% collapse_section Features %}
-            <ul>
-                <li>Stable light independent of battery voltage</li>
-                <li>12 RGB LEDs facing downwards in ring configuration</li>
-                <li>The RGB LEDs can be controlled individually</li>
-                <li>2 super strong white LEDs facing forward</li>
-                <li>Automatic detection of expansion deck</li>
-            </ul>
+* Stable light independent of battery voltage*
+* 12 RGB LEDs facing downwards in ring configuration*
+* The RGB LEDs can be controlled individually*
+* 2 super strong white LEDs facing forward*
+* Automatic detection of expansion deck*
 {% endcollapse_section %}
 
 {% collapse_section Specifications %}
-            <strong>Electrical specification:</strong>
-            <ul>
-                <li>DC-DC step-up/down gives up to 1A at 3.8V from input
-                    between 2-5.5V
-                </li>
-                <li>12 independently addressable RGB LED modules, W2812B</li>
-                <li>2 white LEDs facing forward, emitting more than 1800 mcd
-                </li>
-                <li>1-wire memory for automatic expansion deck detection</li>
-            </ul>
-            <strong>Mechanical specification:</strong>
-            <ul>
-                <li>Weight: 3.3g</li>
-                <li>Size (WxHxD): 33x33x5.5mm</li>
-                <li>Designed for mounting under the Crazyflie 2.0 facing
-                    downwards
-                </li>
-            </ul>
-            <strong>Compatibility:</strong>
-            <ul>
-                <li>Works with the Crazyflie 2.0</li>
-            </ul>
-            <strong>Package contents:</strong>
-            <ul>
-                <li>1 x LED-ring expansion deck</li>
-            </ul>
+##### Electrical specification:
+
+* DC-DC step-up/down gives up to 1A at 3.8V from input between 2-5.5V
+* 12 independently addressable RGB LED modules, W2812B
+* 2 white LEDs facing forward, emitting more than 1800 mcd
+* 1-wire memory for automatic expansion deck detection
+
+##### Mechanical specification:
+
+* Weight: 3.3g
+* Size (WxHxD): 33x33x5.5mm
+* Designed for mounting under the Crazyflie 2.0 facing downwards
+
+##### Compatibility:
+
+* Works with the Crazyflie 2.0
+
+##### Package contents:
+
+* 1 x LED-ring expansion deck
+
 {% endcollapse_section %}
 
 </div>

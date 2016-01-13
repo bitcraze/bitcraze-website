@@ -22,36 +22,30 @@ and attach the Crazyflie 2.0 to it.
 <div class="pp-specs">
 
 {% collapse_section Features %}
-            <ul>
-                <li>All expansion connector pins available</li>
-                <li>Screen print with pin names for easy usage</li>
-                <li>2.54mm header that fits a breadboard (not included)</li>
-            </ul>
+* All expansion connector pins available
+* Screen print with pin names for easy usage
+* 2.54mm header that fits a breadboard (not included)
 {% endcollapse_section %}
 
 {% collapse_section Specifications %}
-            <strong>Electrical specification:</strong>
-            <ul>
-                <li>All 20 pins in the expansion port exposed</li>
-                <li>SOT-23 footprint for 1-wire memory used for automatic
-                    detection (not mounted)
-                </li>
-            </ul>
-            <strong>Mechanical specification:</strong>
-            <ul>
-                <li>Weight: 1.5g</li>
-                <li>Size (WxHxD): 27x28x4mm</li>
-                <li>Designed for mounting under or on top of the Crazyflie 2.0
-                </li>
-            </ul>
-            <strong>Compatibility:</strong>
-            <ul>
-                <li>Works with the Crazyflie 2.0</li>
-            </ul>
-            <strong>Package contents:</strong>
-            <ul>
-                <li>1 x Breakout expansion deck</li>
-            </ul>
+##### Electrical specification
+
+* All 20 pins in the expansion port exposed
+* SOT-23 footprint for 1-wire memory used for automatic detection (not mounted)
+
+##### Mechanical specification
+
+* Weight: 1.5g
+* Size (WxHxD): 27x28x4mm
+* Designed for mounting under or on top of the Crazyflie 2.0
+
+##### Compatibility
+
+* Works with the Crazyflie 2.0
+
+##### Package contents
+
+* 1 x Breakout expansion deck
 {% endcollapse_section %}
 
 </div>

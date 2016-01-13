@@ -22,34 +22,33 @@ into the expansion port.
 <div class="pp-specs">
 
 {% collapse_section Features %}
-            <ul>
-                <li>Makes all 20 pins in the Crazyflie 2.0 expansion port available</li>
-                <li>40 pads/holes for prototyping</li>
-            </ul>
+
+* Makes all 20 pins in the Crazyflie 2.0 expansion port available
+* 40 pads/holes for prototyping
+
 {% endcollapse_section %}
 
 {% collapse_section Specifications %}
-            <strong>Electrical specification:</strong>
-            <ul>
-                <li>40 pads for prototyping</li>
-                <li>Soldering pads support both though hole and SMD components</li>
-                <li>SOT-23 footprint for 1-wire memory used for automatic detection (not mounted)</li>
-            </ul>
-            <strong>Mechanical specification:</strong>
-            <ul>
-                <li>Weight: 1.5g</li>
-                <li>Size (WxHxD): 28x28x4mm</li>
-                <li>Designed for mounting under or on top of the Crazyflie 2.0
-                </li>
-            </ul>
-            <strong>Compatibility:</strong>
-            <ul>
-                <li>Works with the Crazyflie 2.0</li>
-            </ul>
-            <strong>Package contents:</strong>
-            <ul>
-                <li>1 x Prototyping expansion deck</li>
-            </ul>
+##### Electrical specification:
+
+* 40 pads for prototyping
+* Soldering pads support both though hole and SMD components
+* SOT-23 footprint for 1-wire memory used for automatic detection (not mounted)
+
+##### Mechanical specification:
+
+* Weight: 1.5g
+* Size (WxHxD): 28x28x4mm
+* Designed for mounting under or on top of the Crazyflie 2.0
+
+##### Compatibility:
+
+* Works with the Crazyflie 2.0
+
+##### Package contents:
+
+* 1 x Prototyping expansion deck
+
 {% endcollapse_section %}
 
 </div>

@@ -25,31 +25,28 @@ pinouts.
 <div class="pp-specs">
 
 {% collapse_section Features %}
-            <ul>
-                <li>Includes everything needed to easily debug the MCUs (STM32F4 and nRF51)</li>
-                <li>Multiple debug pinouts supported</li>
-                <li>Reset button with jumper for reset of either STM32F4 and nRF51</li>
-            </ul>
+* Includes everything needed to easily debug the MCUs (STM32F4 and nRF51)
+* Multiple debug pinouts supported
+* Reset button with jumper for reset of either STM32F4 and nRF51
 {% endcollapse_section %}
 
 {% collapse_section Specifications %}
-            <strong>Supported debugger pinouts:</strong>
-            <ul>
-                <li>Custom pinout that matches ST Discovery board debug interfaces</li>
-                <li>Standard Cortex SWV debug 2 x 6 1.27mm (50mil) SWV interface</li>
-                <li>Standard 2 x 10 2.54mm (100mil) JTAG interface</li>
-            </ul>
-            <strong>Compatibility:</strong>
-            <ul>
-                <li>Works with the Crazyflie 2.0</li>
-            </ul>
-            <strong>Package contents:</strong>
-            <ul>
-                <li>1 x Crazyflie 2.0 debug adapter</li>
-                <li>1 x nRF51 debug connector</li>
-                <li>1 x Nylon screw and nut for nRF51 debug connector</li>
-                <li>1 x 6-pin debug cable for connecting to the Crazyflie 2.0</li>
-            </ul>
+##### Supported debugger pinouts
+
+* Custom pinout that matches ST Discovery board debug interfaces
+* Standard Cortex SWV debug 2 x 6 1.27mm (50mil) SWV interface
+* Standard 2 x 10 2.54mm (100mil) JTAG interface
+
+##### Compatibility
+
+* Works with the Crazyflie 2.0
+
+##### Package contents
+
+* 1 x Crazyflie 2.0 debug adapter
+* 1 x nRF51 debug connector
+* 1 x Nylon screw and nut for nRF51 debug connector
+* 1 x 6-pin debug cable for connecting to the Crazyflie 2.0
 {% endcollapse_section %}
 
 </div>

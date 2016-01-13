@@ -4,7 +4,7 @@ module Jekyll
   #
   # Example:
   # {% collapse_section My title %}
-  # Some content that is collapsed
+  # Some content that is collapsed (supports markdown)
   # {% endcollapse_section %}
 
   class CollapseSection < Liquid::Block
@@ -16,13 +16,19 @@ module Jekyll
     end
 
     def render(context)
-        opening_tags = '<div><a href="#CollapseSection%1$s" data-toggle="collapse"><strong>%2$s</strong></a><div id="CollapseSection%1$s" class="collapse">' % [@@id, @text]
-        markup = super
-        closing_tags = '</div></div>'
+      opening_tags = '<div><a href="#CollapseSection%1$s" data-toggle="collapse"><strong>%2$s</strong></a><div id="CollapseSection%1$s" class="collapse">' % [@@id, @text]
+      markup = markdownify(super, context)
+      closing_tags = '</div></div>'
 
-        @@id += 1
+      @@id += 1
 
-        "#{opening_tags}#{markup}#{closing_tags}"
+      "#{opening_tags}#{markup}#{closing_tags}"
+    end
+
+    def markdownify(md, context)
+      site = context.registers[:site]
+      converter = site.find_converter_instance(Jekyll::Converters::Markdown)
+      converter.convert(md)
     end
 
     def self.reset_id_counter()
