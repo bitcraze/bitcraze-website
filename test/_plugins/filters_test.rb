@@ -1,8 +1,10 @@
 require 'jekyll'
+require 'test/testbase'
+
 require 'src/_plugins/filters'
 include Jekyll::BcFilters
 
-class TestLeftMenu < Minitest::Test
+class TestFilters < Testbase
 
   def test_that_links_to_the_online_shop_is_rendered_correctly
     # Fixture

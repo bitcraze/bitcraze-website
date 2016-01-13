@@ -1,8 +1,10 @@
 require 'jekyll'
+require 'test/testbase'
+
 require 'src/_plugins/left_menu'
 include Jekyll::LeftMenu
 
-class TestLeftMenu < Minitest::Test
+class TestLeftMenu < Testbase
 
   def test_that_ul_is_rendered_on_empty_input
     markup = ''
@@ -158,13 +160,5 @@ class TestLeftMenu < Minitest::Test
 
     # Assert
     assert_html expected, actual
-  end
-
-  def assert_html(expected, actual)
-    assert_equal(clean_html(expected), clean_html(actual))
-  end
-
-  def clean_html(markup)
-    markup.gsub(/\s+/, ' ').gsub(/> </, '><').strip
   end
 end
