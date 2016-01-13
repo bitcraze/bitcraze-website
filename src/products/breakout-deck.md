@@ -62,4 +62,4 @@ and attach the Crazyflie 2.0 to it.
     </div>
 </div>
 
-{{ 'http://www.seeedstudio.com/depot/Crazyflie-20-Breakout-expansion-board-p-2108.html' | buy_online }}
+{% buy_online http://www.seeedstudio.com/depot/Crazyflie-20-Breakout-expansion-board-p-2108.html %}

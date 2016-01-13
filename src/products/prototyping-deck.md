@@ -58,4 +58,4 @@ into the expansion port.
     </div>
 </div>
 
-{{ 'http://www.seeedstudio.com/depot/Crazyflie-20-Prototyping-expansion-board-p-2111.html' | buy_online }}
+{% buy_online http://www.seeedstudio.com/depot/Crazyflie-20-Prototyping-expansion-board-p-2111.html %}

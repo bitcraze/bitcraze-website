@@ -60,4 +60,4 @@ pinouts.
     </div>
 </div>
 
-{{ 'http://www.seeedstudio.com/depot/Crazyflie-20-debug-adapter-kit-p-2114.html' | buy_online }}
+{% buy_online http://www.seeedstudio.com/depot/Crazyflie-20-debug-adapter-kit-p-2114.html %}

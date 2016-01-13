@@ -60,4 +60,4 @@ Crazyflie 2.0.
     </div>
 </div>
 
-{{ 'http://www.seeedstudio.com/depot/Crazyflie-20-Qi-inductive-charging-expansion-board-p-2112.html' | buy_online }}
+{% buy_online http://www.seeedstudio.com/depot/Crazyflie-20-Qi-inductive-charging-expansion-board-p-2112.html %}

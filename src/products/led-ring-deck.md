@@ -69,4 +69,4 @@ act as headlights.
     </div>
 </div>
 
-{{ 'http://www.seeedstudio.com/depot/Crazyflie-20-LEDring-expansion-board-p-2105.html' | buy_online }}
+{% buy_online http://www.seeedstudio.com/depot/Crazyflie-20-LEDring-expansion-board-p-2105.html %}

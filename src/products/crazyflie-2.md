@@ -408,4 +408,4 @@ page_id: product-crazyflie-2
     </div>
 </div>
 
-{{ 'http://www.seeedstudio.com/depot/Crazyflie-20-p-2103.html' | buy_online }}
+{% buy_online http://www.seeedstudio.com/depot/Crazyflie-20-p-2103.html %}
