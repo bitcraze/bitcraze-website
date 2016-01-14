@@ -5,8 +5,9 @@ permalink: /crazyradio-pa/
 page_id: product-crazyradio-pa
 ---
 
-<img class="pp-main-image-wide"
-     src="/images/crazyradio-pa.png" alt="Crazyradio PA"/>
+{% product_img Crazyradio PA;
+/images/crazyradio-pa.png: wide: front 
+%}
      
 {% product_highlight 
 fa-wifi;

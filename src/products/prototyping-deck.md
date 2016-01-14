@@ -5,9 +5,9 @@ permalink: /prototyping-deck/
 page_id: product-prototyping-deck
 ---
 
-<img class="pp-main-image-narrow" src="/images/prototyping-deck.png"
-     alt="Prototyping deck"/>
-<div>
+{% product_img Prototyping deck;
+/images/prototyping-deck.png: narrow: front 
+%}
 
 {% product_highlight 
 fa-wrench;

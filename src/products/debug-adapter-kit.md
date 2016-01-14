@@ -5,9 +5,9 @@ permalink: /debug-adapter-kit/
 page_id: product-debug-adapter-kit
 ---
 
-<img class="pp-main-image-narrow"
-     src="/images/debug-adapter-kit.png"
-     alt="Debug adapter kit"/>
+{% product_img Debug adapter kit;
+/images/debug-adapter-kit.png: narrow: front 
+%}
      
 {% product_highlight 
 fa-eye;

@@ -5,9 +5,9 @@ permalink: /breakout-deck/
 page_id: product-breakout-deck
 ---
 
-<img class="pp-main-image-narrow"
-     src="/images/breakout-deck.jpg"
-     alt="Breakout deck"/>
+{% product_img Breakout deck;
+/images/breakout-deck.jpg: narrow: front 
+%}
      
 {% product_highlight 
 fa-share; 

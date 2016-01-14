@@ -5,8 +5,9 @@ permalink: /qi-charger-deck/
 page_id: product-qi-charger
 ---
 
-<img class="pp-main-image-narrow" src="/images/qi-charger-deck.jpg"
-     alt="Qi charger deck"/>
+{% product_img Qi charger deck;
+/images/qi-charger-deck.jpg: narrow: view 
+%}
      
 {% product_highlight 
 fa-flash;

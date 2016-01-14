@@ -16,9 +16,9 @@ two status LEDs and an expansion header for programming and expanding.
 
 ## Specification
 
-* 2.4GHz radio communication</li>
-* 0dBm output power (1mW)</li>
-* 125 radio channels</li>
+* 2.4GHz radio communication
+* 0dBm output power (1mW)
+* 125 radio channels
 * 2Mbps, 1Mbps and 250Kps communication data-rate
 * Sends and receives data packets of up to 32 bytes
 * Automatically handles addresses and packet ACK

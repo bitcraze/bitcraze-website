@@ -5,9 +5,9 @@ permalink: /led-ring-deck/
 page_id: product-led-ring-deck
 ---
 
-<img class="pp-main-image-narrow"
- src="/images/led-ring.png"
- alt="LED-ring deck"/>
+{% product_img LED-ring deck;
+/images/led-ring.png: narrow: front 
+%}
 
 {% product_highlight 
 fa-lightbulb-o;

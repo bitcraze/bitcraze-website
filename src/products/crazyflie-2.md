@@ -5,9 +5,10 @@ permalink: /crazyflie-2/
 page_id: product-crazyflie-2
 ---
 
-<img class="pp-main-image-medium"
-     src="/images/crazyflie.png" alt="Crazyflie 2.0"/>
-     
+{% product_img Crazyflie 2.0;
+/images/crazyflie.png: medium: view 
+%}
+
 {% product_highlight 
 fa-gears; 
 9cm2 packed with functionality;
@@ -91,8 +92,9 @@ and utilities have functionality such as logging and real-time parameter setting
 wireless firmware update. The complete development environment for 
 most of the projects is available in a virtual machine, so you 
 don't need to install any toolchains to start developing and the 
-virtual machine can just as well be used for flying.</p><p>Once you
-have made the modifications you want, just flash the new firmware
+virtual machine can just as well be used for flying.
+
+Once you have made the modifications you want, just flash the new firmware
 over the radio and you are ready to go. 
 For anyone interested in doing more advanced development there is a
 development adapter kit that supports easy JTAG/SWD connection to
@@ -134,7 +136,7 @@ the STM32F405 for doing experiments, improvements and new features.
 Finally we have the expansion port that allows you to easily experiment,
 prototype and design your own hardware.
 
-Take a look in the <a href="/development-overview/">Development secton</a> to get started.
+Take a look in the [Development secton](/development-overview/) to get started.
 
 By the way, it fun to just fly it too!
 {% endcollapse_section %}
