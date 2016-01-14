@@ -6,7 +6,11 @@ page_id: product-crazyflie-2
 ---
 
 {% product_img Crazyflie 2.0; medium;
-/images/crazyflie.png
+/images/crazyflie.png;
+/images/CrazyFlieHand.png
+
+
+
 %}
 
 {% product_highlight 

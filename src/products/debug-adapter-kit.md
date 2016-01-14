@@ -7,6 +7,7 @@ page_id: product-debug-adapter-kit
 
 {% product_img Debug adapter kit; medium;
 /images/DebugAdapterSide.png;
+/images/DebugerAdapterMounted.png;
 /images/DebugAdapterTop.png
 %}
      
