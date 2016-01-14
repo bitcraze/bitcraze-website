@@ -5,8 +5,10 @@ permalink: /led-ring-deck/
 page_id: product-led-ring-deck
 ---
 
-{% product_img LED-ring deck; narrow;
-/images/led-ring.png
+{% product_img LED-ring deck; medium;
+/images/led-ring.png;
+/images/led-ringBack.png;
+/images/led-ring-dark.png
 %}
 
 {% product_highlight 
