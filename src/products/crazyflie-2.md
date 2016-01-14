@@ -11,21 +11,21 @@ page_id: product-crazyflie-2
 
 {% product_highlight 
 fa-gears; 
-9cm2 packed with functionality;
-The Crazyflie 2.0 comes with an accelerometer, gyroscope, magnetometer and a high precision pressure sensor.
+Packed with functionality;
+All you need and a bit more
 %}
 
 {% collapse_section Read more %}
-Even though the Crazyflie 2.0 is made to be expandable and the
-firmware is made to be modified, everything you need to fly is already
-there. The Crazyflie 2.0 is equipped with low-latency/long-range
+
+It's not only a good flyer, the Crazyflie 2.0 is also equipped with low-latency/long-range
 radio as well as Bluetooth LE. This gives you the versatility of
 using your computer to display data and being able to fly it with a game
 pad, or download our app and use your smart phone as a controller. 
 
 The Crazyflie 2.0 is charged via uUSB so you don't need a additional charger 
 for your Crazyflie 2.0 just connect it to your computer.
-The board contains a EEPROM memory for storing configuration parameters and a 10-DOF IMU with accelerometer, gyro,
+
+The board contains an EEPROM memory for storing configuration parameters and a 10-DOF IMU with accelerometer, gyro,
 magnetometer and a high precision pressure sensor.
 {% endcollapse_section %}
 
@@ -33,12 +33,11 @@ magnetometer and a high precision pressure sensor.
 {% product_highlight 
 fa-lightbulb-o; 
 Your imagination sets the limits;
-The Crazyflie 2.0 comes with a flexible expansion interface where multiple expansion decks can be attached.
+Expansion decks let's you add what you want
 %}
 
 {% collapse_section Read more %}
-We designed the Crazyflie 2.0 to be as flexible as we possibly could, for us this means adding as much features as we could fit. 
-In addition to the default functionality that comes with the Crazyflie 2.0 we have added a flexible expansion interface where a variety of expansion 
+We designed the Crazyflie 2.0 to be as flexible as we possibly could, for us this means adding as much features as we could fit and writing firmware made to be modified. In addition to the default functionality that comes with the Crazyflie 2.0 we have added a flexible expansion interface where a variety of expansion 
 decks can be attached, both on the top and the bottom of the Crazyflie 2.0. From the interface the user can access the buses, 
 like UART, I2C, SPI as well as PWM, analog in/out and GPIO.
 {% endcollapse_section %}
@@ -47,25 +46,27 @@ like UART, I2C, SPI as well as PWM, analog in/out and GPIO.
 {% product_highlight 
 fa-paper-plane-o;
 Weight matters;
-The Crazyflie 2.0 only weighs 27g and fits in the palm of your hand. The size makes it’s ideal to fly inside a lab, office or your living room without trashing half of the interior.
+Only 27 grams and fits in the palm of your hand
 %}
 
 {% collapse_section Read more %}
+
 Having a nano quadcopter that only weighs 27g has a lot of
-advantages. For us the most important one is safety, durability and being
-usable inside. Even though the propellers spin at high RPMs, they are soft
+advantages. The size makes it’s ideal for fly inside a lab, office or your living room without trashing half of the interior. 
+Even though the propellers spin at high RPMs, they are soft
 and the torque in the motors are very low compared to a brushless
 motor. 
 
 The Crazyflie 2.0 is pretty fast if you let it be, but even if it
-crashes it's still only 27g which means the kinetic energy involved in a crash is fairly low. The system is designed to         break at the cheapest part, the motor mount, that are availible as spare parts.
+crashes it's still only 27g which means the kinetic energy involved in a crash is fairly low. 
+The system is designed to break at the cheapest part, the motor mount, that are availible as spare parts.
 {% endcollapse_section %}
         
 
 {% product_highlight 
 fa-arrows;
 Small size, big performance;
-Even though the Crazyflie 2.0 is very small and only weighs 27g, it packs a lot of power.
+9cm2 with a lot of power
 %}
 
 {% collapse_section Read more %}
@@ -82,7 +83,7 @@ can lower them to make it easier to start out with.
 {% product_highlight 
 fa-code;
 Designed with development in mind;
-We have put a lot of effort into making development easier.
+Made by developers for developers
 %}
 
 {% collapse_section Read more %}
@@ -121,7 +122,7 @@ supported APIs written in Java, Ruby, C/C++, C# and Javascript.
 {% product_highlight 
 fa-heart-o;
 Something for everyone;
-Develop it, change it and experiment or just fly around!
+Develop, change and experiment - or just fly
 %}
 
 {% collapse_section Read more %}
@@ -131,9 +132,7 @@ in Ruby, C#, C/C++, JavaScript, Node.JS, Cylon.JS or Java.
 Or why not clone our iOS repository and get into some ObjectiveC/Swift.
 
 If you are into embedded systems, there is a lot of processor power that you can use in
-the STM32F405 for doing experiments, improvements and new features.
-
-Finally we have the expansion port that allows you to easily experiment,
+the STM32F405 for doing experiments, improvements and new features. The expansion decks allow you to experiment,
 prototype and design your own hardware.
 
 Take a look in the [Development secton](/development-overview/) to get started.
@@ -145,12 +144,12 @@ By the way, it fun to just fly it too!
 {% product_highlight 
 fa-random;
 Always evolving;
-The firmware and software are continuously being updated with various improvements and new features.
+Continuously updated and improved
 %}
 
 {% collapse_section Read more %}
 We continuously work on the firmware, software, documentation and new creative ways of using 
-the system. We also continuously design new expansion decks that adds new functionality, 
+the system. We also design new expansion decks that adds new functionality, 
 posibilities and expands the Crazyflie eco system.
 The platform supports wireless firmware
 updates via radio and Bluetooth LE, so when a new firmware is released
@@ -160,90 +159,96 @@ it's a breeze to update.
 ---
 
 {% collapse_section Features %}
-*  Durable design
-*  Easy to assemble and no soldering required
-*  Supports expansion boards with automatic detection
-*  Supports flying from iOS and Android with Bluetooth LE support as well as from Windows/MacOSX/Linux with the Crazyradio or Crazyradio PA
-*  Tested to above 1 km radio range LOS with Crazyradio PA
-*  Wireless firmware update
-*  On-board charging via standard uUSB
-*  Dual-MCU architecture with dedicated radio/power management SoC for advanced applications
-*  Using Crazyradio or Crazyradio PA together with a computer the user can log/graph/set variables in real-time via the radio and make full use of the expansion boards
+* Durable design
+* Easy to assemble and no soldering required
+* Supports expansion boards with automatic detection
+* Supports flying from iOS and Android with Bluetooth LE support as well as from Windows/MacOSX/Linux with the Crazyradio or Crazyradio PA
+* Tested to above 1 km radio range LOS with Crazyradio PA
+* Wireless firmware update
+* On-board charging via standard uUSB
+* Dual-MCU architecture with dedicated radio/power management SoC for advanced applications
+* Using Crazyradio or Crazyradio PA together with a computer the user can log/graph/set variables in real-time via the radio and make full use of the expansion boards
 {% endcollapse_section %}
 
 {% collapse_section Specification %}
 #####  Mechanical specs
 
-*  Weight: 27g
-*  Size (WxHxD): 92x92x29mm (motor-to-motor and including motor mount feet)
+* Weight: 27g
+* Size (WxHxD): 92x92x29mm (motor-to-motor and including motor mount feet)
 
 ##### Radio specs
 
-*  20 dBm radio amplifier tested to &gt; 1 km range LOS with Crazyradio PA
-*  Bluetooth Low Energy support with iOS and Android clients available (tested on iOS 7.1+ and Android 4.4+)
-*  Radio backwards compatible with original Crazyflie and Crazyradio
+* 20 dBm radio amplifier tested to &gt; 1 km range LOS with Crazyradio PA
+* Bluetooth Low Energy support with iOS and Android clients available (tested on iOS 7.1+ and Android 4.4+)
+* Radio backwards compatible with original Crazyflie and Crazyradio
 
 #####  Microcontrollers
 
-*  STM32F405 main application MCU (Cortex-M4, 168MHz, 192kb SRAM, 1Mb flash)
-*  nRF51822 radio and power management MCU (Cortex-M0, 32Mhz, 16kb SRAM, 128kb flash)
-*  uUSB connector
-*  On-board LiPo charger with 100mA, 500mA and 980mA modes available
-*  Full speed USB device interface
-*  Partial USB OTG capability (Usb OTG present but no 5V output)
+* STM32F405 main application MCU (Cortex-M4, 168MHz, 192kb SRAM, 1Mb flash)
+* nRF51822 radio and power management MCU (Cortex-M0, 32Mhz, 16kb SRAM, 128kb flash)
+* uUSB connector
+* On-board LiPo charger with 100mA, 500mA and 980mA modes available
+* Full speed USB device interface
+* Partial USB OTG capability (Usb OTG present but no 5V output)
 
 ##### IMU
 
-*  3 axis gyro (MPU-9250)
-*  3 axis accelerometer (MPU-9250)
-*  3 axis magnetometer (MPU-9250)
-*  high precision pressure sensor (LPS25H)
+* 3 axis gyro (MPU-9250)
+* 3 axis accelerometer (MPU-9250)
+* 3 axis magnetometer (MPU-9250)
+* high precision pressure sensor (LPS25H)
 
 ##### Flight specification
 
-*  Flight time with stock battery: 7 minutes
-*  Chraging time with stock battery: 40 minutes
-*  Max recommended payload weight: 15 g
+* Flight time with stock battery: 7 minutes
+* Chraging time with stock battery: 40 minutes
+* Max recommended payload weight: 15 g
 
 ##### Expansion connector
 
-*  VCC (3.0V, max 100mA)
-*  GND
-*  VCOM (unregulated VBAT or VUSB, max 1A)
-*  VUSB (both for input and output)
-*  I2C (400kHz)
-*  SPI
-*  2 x UART
-*  4 x GPIO/CS for SPI
-*  1-wire bus for expansion identification
-*  2 x GPIO connected to nRF51
-*  8KB EEPROM
+* VCC (3.0V, max 100mA)
+* GND
+* VCOM (unregulated VBAT or VUSB, max 1A)
+* VUSB (both for input and output)
+* I2C (400kHz)
+* SPI
+* 2 x UART
+* 4 x GPIO/CS for SPI
+* 1-wire bus for expansion identification
+* 2 x GPIO connected to nRF51
+* 8KB EEPROM
 {% endcollapse_section %}
 
 {% collapse_section Package Contents %}
-*  1 x Crazyflie 2.0 control board with all components mounted
-*  5 x CW propellers
-*  5 x CCW propellers
-*  5 x Motor mounts
-*  1 x LiPo battery (240mAh)
-*  5 x Coreless DC motors
-*  2 x Short expansion connector pins (1&#215;10, 2mm spacing, 8 mm long)
-*  2 x Long expansion connector pins (1&#215;10, 2mm spacing, 14 mm long)
+
+* 1 x Crazyflie 2.0 control board with all components mounted
+* 5 x CW propellers
+* 5 x CCW propellers
+* 5 x Motor mounts
+* 1 x LiPo battery (240mAh)
+* 5 x Coreless DC motors
+* 2 x Short expansion connector pins (1&#215;10, 2mm spacing, 8 mm long)
+* 2 x Long expansion connector pins (1&#215;10, 2mm spacing, 14 mm long)
 * 1 x Battery holder expansion board
+
 {% endcollapse_section %}
 
 {% collapse_section Spare parts %}
+
 * [Propellers](http://www.seeedstudio.com/depot/Crazyflie-Nano-Quadcopter-4-x-CWCCW-spare-propellers-BCCWP01A-and-BCCCWP01A-p-1361.html?cPath=84_114)
 * [LiPo battery (240mAh)](http://www.seeedstudio.com/depot/Crazyflie-20-Spare-240mAh-LiPo-battery-p-2116.html?cPath=84_147)
 * [Coreless DC motor](http://www.seeedstudio.com/depot/Crazyflie-20-Spare-7x16-mm-coreless-DC-motor-with-connector-p-2115.html?cPath=84_147)
 * [Motor mount](http://www.seeedstudio.com/depot/Crazyflie-20-4-x-spare-7-mm-motor-mounts-p-2113.html?cPath=84_147)
 * [Battery holder expansion board](http://www.seeedstudio.com/depot/Crazyflie-20-Battery-holder-expansion-board-p-2107.html?cPath=84_147)
+
 {% endcollapse_section %}
 
 {% collapse_section Resources %}
+
 * [Wiki](//wiki.bitcraze.io/)
 * [Forum](//forum.bitcraze.io/)
 * [Getting started and Assembly instructions](/getting-started-with-the-crazyflie-2-0/)
+
 {% endcollapse_section %}
 
 {% buy_online http://www.seeedstudio.com/depot/Crazyflie-20-p-2103.html %}
