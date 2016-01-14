@@ -19,7 +19,7 @@ Test and develop new hardware designs easily without soldering by using
 the breakout expansion board. Just build the curcuit on a breadboard
 and attach the Crazyflie 2.0 to it.
 
-<div class="pp-specs">
+---
 
 {% collapse_section Features %}
 * All expansion connector pins available
@@ -47,7 +47,5 @@ and attach the Crazyflie 2.0 to it.
 
 * 1 x Breakout expansion deck
 {% endcollapse_section %}
-
-</div>
 
 {% buy_online http://www.seeedstudio.com/depot/Crazyflie-20-Breakout-expansion-board-p-2108.html %}

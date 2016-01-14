@@ -21,7 +21,7 @@ charger you have for your phone or tablet. It also supports the latest
 WPC V1.1 specification and is able to supply up to 1A at 5V to the
 Crazyflie 2.0.
 
-<div class="pp-specs">
+---
 
 {% collapse_section Features %}
 * Wireless charging
@@ -51,7 +51,5 @@ Crazyflie 2.0.
 * 1 x Qi inductive charging expansion deck
 
 {% endcollapse_section %}
-
-</div>
 
 {% buy_online http://www.seeedstudio.com/depot/Crazyflie-20-Qi-inductive-charging-expansion-board-p-2112.html %}

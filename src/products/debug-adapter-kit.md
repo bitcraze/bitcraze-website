@@ -22,7 +22,7 @@ kit that makes connecting a debugger to either of the MCUs a lot
 easier, by converting the connector pinouts to standard JTAG and SWD
 pinouts.
 
-<div class="pp-specs">
+---
 
 {% collapse_section Features %}
 * Includes everything needed to easily debug the MCUs (STM32F4 and nRF51)
@@ -48,7 +48,5 @@ pinouts.
 * 1 x Nylon screw and nut for nRF51 debug connector
 * 1 x 6-pin debug cable for connecting to the Crazyflie 2.0
 {% endcollapse_section %}
-
-</div>
 
 {% buy_online http://www.seeedstudio.com/depot/Crazyflie-20-debug-adapter-kit-p-2114.html %}

@@ -33,6 +33,10 @@
 .page-product {
   padding-bottom: 20px;
 
+  a {
+    line-height: 2;
+  }
+
   .pp-main-image-base {
     margin-bottom: 10px;
     width: 100%;
@@ -64,24 +68,10 @@
     @extend h4;
   }
 
-  .pp-specs {
-    margin-top: 20px;
-    padding-top: 10px;
-
-    border-top-width: 1px;
-    border-top-style: solid;
-    border-color: #bbb;
-
-    a {
-      line-height: 2;
-    }
-  }
-
   button {
     font-size: 20px;
     font-weight: bold;
 
-    padding: 12px;
     margin-top: 10px;
     margin-bottom: 10px;
 

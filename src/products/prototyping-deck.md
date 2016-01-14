@@ -19,7 +19,7 @@ Add a prototyping area to your Crazyflie 2.0 and lift your electronics
 into the air. Just solder directly on the expansion deck and plug it
 into the expansion port.
 
-<div class="pp-specs">
+---
 
 {% collapse_section Features %}
 
@@ -50,7 +50,5 @@ into the expansion port.
 * 1 x Prototyping expansion deck
 
 {% endcollapse_section %}
-
-</div>
 
 {% buy_online http://www.seeedstudio.com/depot/Crazyflie-20-Prototyping-expansion-board-p-2111.html %}

@@ -155,8 +155,7 @@ updates via radio and Bluetooth LE, so when a new firmware is released
 it's a breeze to update.
 {% endcollapse_section %}
 
-
-<div class="pp-specs">
+---
 
 {% collapse_section Features %}
 *  Durable design
@@ -244,7 +243,5 @@ it's a breeze to update.
 * [Forum](//forum.bitcraze.io/)
 * [Getting started and Assembly instructions](/getting-started-with-the-crazyflie-2-0/)
 {% endcollapse_section %}
-
-</div>
 
 {% buy_online http://www.seeedstudio.com/depot/Crazyflie-20-p-2103.html %}

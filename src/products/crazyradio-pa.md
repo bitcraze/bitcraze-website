@@ -36,7 +36,7 @@ without any additional hardware needed. The Crazyflie PA is compatible
 with the first generation of the Crazyflie, but will not give the same
 range increase as with the Crazyflie 2.0.
 
-<div class="pp-specs">
+---
 
 {% collapse_section Features %}
 * Radio power amplifier giving 20dBm output power
@@ -94,7 +94,5 @@ range increase as with the Crazyflie 2.0.
 * [Wiki](//wiki.bitcraze.io)
 * [Forum](//forum.bitcraze.io)
 {% endcollapse_section %}
-
-</div>
 
 {% buy_online http://www.seeedstudio.com/depot/Crazyradio-PA-long-range-24Ghz-USB-radio-dongle-with-antenna-p-2104.html %}

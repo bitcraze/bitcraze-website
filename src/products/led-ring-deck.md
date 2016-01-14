@@ -20,7 +20,7 @@ create custom patterns in firmware that you control from your computer.
 Two additional strong front facing LEDs can be switched on and off to
 act as headlights.
 
-<div class="pp-specs">
+---
 
 {% collapse_section Features %}
 * Stable light independent of battery voltage*
@@ -53,7 +53,5 @@ act as headlights.
 * 1 x LED-ring expansion deck
 
 {% endcollapse_section %}
-
-</div>
 
 {% buy_online http://www.seeedstudio.com/depot/Crazyflie-20-LEDring-expansion-board-p-2105.html %}
