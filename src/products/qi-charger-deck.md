@@ -5,8 +5,8 @@ permalink: /qi-charger-deck/
 page_id: product-qi-charger
 ---
 
-{% product_img Qi charger deck;
-/images/qi-charger-deck.jpg: narrow: view 
+{% product_img Qi charger deck; narrow;
+/images/qi-charger-deck.jpg
 %}
      
 {% product_highlight 

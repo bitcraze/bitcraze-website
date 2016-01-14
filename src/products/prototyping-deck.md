@@ -5,8 +5,8 @@ permalink: /prototyping-deck/
 page_id: product-prototyping-deck
 ---
 
-{% product_img Prototyping deck;
-/images/prototyping-deck.png: narrow: front 
+{% product_img Prototyping deck; narrow;
+/images/prototyping-deck.png 
 %}
 
 {% product_highlight 

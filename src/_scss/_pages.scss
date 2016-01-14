@@ -83,6 +83,33 @@
       padding-right: 30px;
     }
   }
+
+  .carousel {
+    margin-bottom: 30px
+  }
+
+  .carousel-control {
+    background-image: initial;
+    color: $bcGreen;
+    opacity: initial;
+    text-shadow: none;
+  }
+
+  .carousel-inner {
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .carousel-indicators {
+    bottom: -30px;
+    .active {
+      background-color: $bcGreen;
+    }
+    li {
+      border-color: $bcLightGrey;
+    }
+  }
 }
 
 

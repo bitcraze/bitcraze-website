@@ -5,8 +5,9 @@ permalink: /breakout-deck/
 page_id: product-breakout-deck
 ---
 
-{% product_img Breakout deck;
-/images/breakout-deck.jpg: narrow: front 
+
+{% product_img Breakout deck; narrow;
+/images/breakout-deck.jpg 
 %}
      
 {% product_highlight 

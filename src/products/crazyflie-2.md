@@ -5,8 +5,8 @@ permalink: /crazyflie-2/
 page_id: product-crazyflie-2
 ---
 
-{% product_img Crazyflie 2.0;
-/images/crazyflie.png: medium: view 
+{% product_img Crazyflie 2.0; medium;
+/images/crazyflie.png
 %}
 
 {% product_highlight 
