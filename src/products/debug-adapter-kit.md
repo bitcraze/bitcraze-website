@@ -5,8 +5,9 @@ permalink: /debug-adapter-kit/
 page_id: product-debug-adapter-kit
 ---
 
-{% product_img Debug adapter kit; narrow;
-/images/debug-adapter-kit.png
+{% product_img Debug adapter kit; medium;
+/images/DebugAdapterSide.png;
+/images/DebugAdapterTop.png
 %}
      
 {% product_highlight 
