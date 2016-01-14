@@ -1,6 +1,7 @@
 ---
 layout: page
 title: License
+permalink: /license/
 ---
 
 The content, code and samples in this project are licensed under the 
