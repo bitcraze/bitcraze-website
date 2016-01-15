@@ -17,6 +17,7 @@
   subs:
   - {title: Buy online, url: "http://www.seeedstudio.com/depot/bitcraze-m-64.html"}
   - {page_id: buy-distributors}
+  - {page_id: buy-guide}
 
 - title: Getting started
   subs:
