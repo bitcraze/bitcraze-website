@@ -3,6 +3,7 @@
 <ul class="dropdown-menu">
 {% for sub in subs %}
   {% assign is_active = false %}
+  {% assign m_external = '' %}
 
   {% if sub.page_id %}
     {% assign p = site.pages | where:"page_id",sub.page_id | first %}
@@ -14,17 +15,18 @@
       {% assign m_title = p.title %}
     {% endif %}
 
-  {% if sub.page_id == page.page_id %}
+    {% if sub.page_id == page.page_id %}
       {% assign is_active = true %}
     {% endif %}
   {% else %}
     {% assign m_title = sub.title %}
     {% assign m_url = sub.url %}
+    {% assign m_external = '&nbsp;&nbsp;<i class="fa fa-angle-right"></i>' %}
   {% endif %}
 
   <li class="menu-item {% if is_active %}active{% endif %}">
     <a title="{{m_title}}"
-       href="{{m_url}}">{{m_title}}</a>
+       href="{{m_url}}">{{m_title}}{{m_external}}</a>
   </li>
 {% endfor %}
 </ul>
