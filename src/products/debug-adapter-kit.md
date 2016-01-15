@@ -8,7 +8,8 @@ page_id: product-debug-adapter-kit
 {% product_img Debug adapter kit; medium;
 /images/DebugerAdapterMounted.png;
 /images/DebugAdapterSide.png;
-/images/DebugAdapterTop.png
+/images/DebugAdapterTop.png;
+/images/DebugAdapterBottom.png
 %}
      
 {% product_highlight 
