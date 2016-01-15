@@ -22,7 +22,7 @@
   subs:
   - {page_id: getting-started-crazyflie-2, title: Crazflie 2.0}
   - {page_id: getting-started-expansion-decks, title: Expansion decks}
-  - {page_id: getting-started-crazyflie, title: Crazflie}
+  - {page_id: getting-started-crazyflie, title: Crazyflie}
 
 - title: Support
   subs:
