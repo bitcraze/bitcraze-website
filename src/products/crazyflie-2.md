@@ -208,6 +208,14 @@ it's a breeze to update.
 * Chraging time with stock battery: 40 minutes
 * Max recommended payload weight: 15 g
 
+##### Supported clients/controllers
+
+* Win/Linux/OSX python client 
+  * The gamepads used by the Xbox 360 and the Playstation 3 are used as reference controllers
+  * Any gamepad/controller with at least 4 analog axis 
+* Android smartphone
+* IOS smartphone
+
 ##### Expansion connector
 
 * VCC (3.0V, max 100mA)
