@@ -5,8 +5,9 @@ permalink: /crazyradio-pa/
 page_id: product-crazyradio-pa
 ---
 
-{% product_img Crazyradio PA; wide;
-/images/crazyradio-pa.png
+{% product_img Crazyradio PA; medium;
+/images/RadioSide.png
+
 %}
      
 {% product_highlight 
