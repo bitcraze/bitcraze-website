@@ -27,3 +27,22 @@ page_id: getting-started-expansion-decks
              alt="Deck orientation"/>
     </div>
 </div>
+
+<div class="plm-content-info-step">
+    <h3 id="pins-to-use">Which pin headers to use</h3>
+    <p>
+    Below are three schematics showing three different use cases of expansion boards and what male expansion pins to use with them.
+    </p>
+    <div class="plm-img-row-wide">
+        <img src="/images/pinheaders-usage-short.png"
+             alt="Short pin headers"/>
+    </div>
+    <div class="plm-img-row-wide">
+        <img src="/images/pinheaders-usage-long-2-top.png"
+             alt="Long pin headers 2 on top"/>
+    </div>
+    <div class="plm-img-row-wide">
+        <img src="/images/pinheaders-usage-long-1-top-one-bottom.png"
+             alt="Long pin headers top and bottom"/>
+    </div>
+</div>
