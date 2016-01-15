@@ -15,10 +15,6 @@ page_id: development-overview
 
 ## What can you develop?
 
-The Crazyflie Nano Quadcopter is developed with developers in mind. We wanted 
-developers to be able to quickly get into the development and at the same time 
-to have lots of different areas to explore and work with.
-
 The Crazyflie platform is much more than just a quadcopter. It consists of lots 
 of different parts working together to complete the system. That means that 
 developers can dive into any given area and experiment, learn and improve. Each 
