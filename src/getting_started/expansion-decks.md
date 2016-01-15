@@ -29,7 +29,7 @@ page_id: getting-started-expansion-decks
 </div>
 
 <div class="plm-content-info-step">
-    <h3 id="pins-to-use">Which pin headers to use</h3>
+    <h3 id="pins-to-use">which pin headers to use</h3>
     <p>
     Below are three schematics showing three different use cases of expansion boards and what male expansion pins to use with them.
     </p>
