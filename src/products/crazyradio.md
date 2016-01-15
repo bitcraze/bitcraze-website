@@ -4,7 +4,7 @@ title: Crazyradio
 permalink: /crazyradio/
 ---
 
-**Note! This prodict is discontinued and has been replaced with [Crazyradio PA](/crazyradio-pa/)** 
+{% notice_info This prodict is discontinued and has been replaced with <a href="/crazyradio-pa/">Crazyradio PA</a> %} 
 
 The Crayradio 2.4GHz radio USB dongle is based on the 
 [Nordic Semiconductor](http://www.nordicsemi.com/)
