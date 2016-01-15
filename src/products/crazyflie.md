@@ -4,7 +4,8 @@ title: Crazyflie
 permalink: /crazyflie/
 ---
 
-**Note! This product is discontinued and has been replaced with [Crazyflie 2.0](/crazyflie-2/)** 
+ 
+{% notice_info This product is discontinued and has been replaced with <a href="/crazyflie-2/">Crazyflie 2.0</a> %}
 
 <img class="pp-main-image-medium" src="/images/crazyflie_page.png" alt="Crazyflie"/>
 
