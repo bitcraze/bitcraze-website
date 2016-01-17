@@ -16,12 +16,12 @@ test environment based on Docker to reduce the amount of software required.
 
         cd bitcraze-website
         
-1. Build the site. This will download Bootstrap, set things up, generate the 
-site and run tests.
+1. Download dependencies. This will download Bootstrap and set things up.
         
-        ./tools/do build
+        ./tools/do download_deps
 
-1. Start the development server 
+1. Start the development server. The development server in Jekyll continuously 
+builds the site when the source changes.
 
         ./tools/run-in-dev.sh
         
