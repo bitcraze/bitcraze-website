@@ -6,6 +6,8 @@ require 'src/_plugins/collapse_section'
 class TestCollapseSection < Testbase
 
   def setup
+    Jekyll::CollapseSection.reset_id_counter
+
     @converter_mock = MiniTest::Mock.new()
     @converter_mock.expect(:convert, 'converted md', ['md'])
     @converter_mock.expect(:convert, 'converted md', ['md'])
@@ -17,8 +19,6 @@ class TestCollapseSection < Testbase
 
   def test_that_open_tag_is_rendered
     # Fixture
-    Jekyll::CollapseSection.reset_id_counter
-
     tag = '{% collapse_section Read more %}md{% endcollapse_section %}'
 
     expected = '
@@ -35,8 +35,6 @@ class TestCollapseSection < Testbase
 
   def test_that_ids_are_different
     # Fixture
-    Jekyll::CollapseSection.reset_id_counter
-
     tag = '{% collapse_section first %}md{% endcollapse_section %}
     {% collapse_section second %}md{% endcollapse_section %}'
 
