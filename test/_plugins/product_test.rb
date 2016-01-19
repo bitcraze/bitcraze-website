@@ -3,7 +3,7 @@ require 'test/testbase'
 
 require 'src/_plugins/product'
 
-class TestProductImg < Testbase
+class TestProduct < Testbase
 
   def test_that_img_tag_is_rendered_with_one_image
     # Fixture

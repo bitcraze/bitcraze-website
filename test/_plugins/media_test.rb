@@ -3,7 +3,7 @@ require 'test/testbase'
 
 require 'src/_plugins/media'
 
-class TestProductImg < Testbase
+class TestMedia < Testbase
 
   def test_that_img_is_rendered
     # Fixture
