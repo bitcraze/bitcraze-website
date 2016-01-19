@@ -28,7 +28,7 @@ module Jekyll
 
       def initialize(tag_name, text, tokens)
         super
-        @params = split_strip(text, ';')
+        @params = parse_args(text)
       end
 
       def render(context)
@@ -64,13 +64,13 @@ module Jekyll
 
       def initialize(tag_name, text, tokens)
         super
-        @text = text
+        @params = parse_args(text)
       end
 
       def render(context)
         markup = markdownify(super, context)
 
-        result = '<div class="plm-content-info-step"><h3 id="infostep%1$i">%2$s</h3>%3$s</div>' % [@@id, @text.strip, markup]
+        result = '<div class="plm-content-info-step"><h3 id="infostep%1$i">%2$s</h3>%3$s</div>' % [@@id, @params[0], markup]
         @@id += 1
 
         result

@@ -19,7 +19,7 @@ module Jekyll
 
       def initialize(tag_name, text, tokens)
         super
-        @params = split_strip(text, ';')
+        @params = parse_args(text)
       end
 
       def render(context)
@@ -29,6 +29,8 @@ module Jekyll
 
 
     class Continent < Liquid::Tag
+      include Jekyll::PluginHelper
+
       # Use this tag on distributors page for continent headers
       #
       # Takes 1 arguments
@@ -41,14 +43,14 @@ module Jekyll
 
       def initialize(tag_name, text, tokens)
         super
-        @text = text
+        @params = parse_args(text)
       end
 
       def render(context)
         full_id = 'continent' + @@id.to_s
         @@id += 1
 
-        '<h2 class="plm-distributor-continent" id="%1$s">%2$s</h2>' % [full_id, @text]
+        '<h2 class="plm-distributor-continent" id="%1$s">%2$s</h2>' % [full_id, @params[0]]
       end
 
       def self.reset_id_counter()
@@ -58,6 +60,8 @@ module Jekyll
 
 
     class Country < Liquid::Tag
+      include Jekyll::PluginHelper
+
       # Use this tag on distributors page for country headers
       #
       # Takes 1 arguments
@@ -70,14 +74,14 @@ module Jekyll
 
       def initialize(tag_name, text, tokens)
         super
-        @text = text
+        @params = parse_args(text)
       end
 
       def render(context)
         full_id = 'country' + @@id.to_s
         @@id += 1
 
-        '<h3 id="%1$s">%2$s</h3>' % [full_id, @text]
+        '<h3 id="%1$s">%2$s</h3>' % [full_id, @params[0]]
       end
 
       def self.reset_id_counter()

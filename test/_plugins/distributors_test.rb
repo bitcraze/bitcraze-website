@@ -22,7 +22,7 @@ class TestDistributors < Testbase
     # Fixture
     Jekyll::Distributors::Continent.reset_id_counter
     tag = '{% continent Asia %}'
-    expected = '<h2 class="plm-distributor-continent" id="continent1">Asia </h2>'
+    expected = '<h2 class="plm-distributor-continent" id="continent1">Asia</h2>'
 
     # Test
     actual = Liquid::Template.parse(tag).render
@@ -36,7 +36,7 @@ class TestDistributors < Testbase
     # Fixture
     Jekyll::Distributors::Country.reset_id_counter
     tag = '{% country Sweden %}'
-    expected = '<h3 id="country1">Sweden </h3>'
+    expected = '<h3 id="country1">Sweden</h3>'
 
     # Test
     actual = Liquid::Template.parse(tag).render

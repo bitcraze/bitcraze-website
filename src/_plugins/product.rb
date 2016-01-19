@@ -25,7 +25,7 @@ module Jekyll
 
       def initialize(tag_name, text, tokens)
         super
-        params = split_strip(text, ';')
+        params = parse_args(text)
 
         @title = params[0]
         @width = params[1]
@@ -93,11 +93,11 @@ module Jekyll
 
       def initialize(tag_name, text, tokens)
         super
-        @parts = text.split(';')
+        @params = parse_args(text)
       end
 
       def render(context)
-          '<h2><i class="fa %1$s fa-fw"></i>%2$s</h2><div class="pp-catch-phrase">%3$s</div>' % @parts
+          '<h2><i class="fa %1$s fa-fw"></i>%2$s</h2><div class="pp-catch-phrase">%3$s</div>' % @params
       end
     end
   end

@@ -1,5 +1,8 @@
+require_relative 'plugin_helper'
+
 module Jekyll
   class BuyOnline < Liquid::Tag
+    include Jekyll::PluginHelper
 
     # Use this tag on product pages to generated the buy online button
     #
@@ -11,11 +14,11 @@ module Jekyll
 
     def initialize(tag_name, text, tokens)
       super
-      @text = text
+      @params = parse_args(text)
     end
 
     def render(context)
-        '<button type="button"><i class="fa fa-shopping-cart fa-fw"></i><a href="' + @text + '">Buy online</a></button>'
+        '<button type="button"><i class="fa fa-shopping-cart fa-fw"></i><a href="' + @params[0] + '">Buy online</a></button>'
     end
   end
 end

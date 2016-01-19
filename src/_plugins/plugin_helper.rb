@@ -6,8 +6,8 @@ module Jekyll
         converter.convert(md)
       end
 
-      def split_strip(str, token)
-        parts = str.split(token)
+      def parse_args(str)
+        parts = str.split(';')
         parts.map {|part| part.strip}
       end
   end

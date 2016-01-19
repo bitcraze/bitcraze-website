@@ -19,7 +19,7 @@ module Jekyll
 
       def initialize(tag_name, text, tokens)
         super
-        params = split_strip(text, ';')
+        params = parse_args(text)
 
         @title = params[0]
         @width = params[1]
@@ -32,6 +32,7 @@ module Jekyll
     end
 
     class Vine < Liquid::Tag
+      include Jekyll::PluginHelper
 
       # Use this tag to add a vine
       #
@@ -40,11 +41,11 @@ module Jekyll
 
       def initialize(tag_name, text, tokens)
         super
-        @text = text
+        @params = parse_args(text)
       end
 
       def render(context)
-        '<div class="vine-row"><div class="outer-vine"><iframe class="inner-vine vine-embed" src="https://vine.co/v/%1$s/embed/simple"></iframe><script src="//platform.vine.co/static/scripts/embed.js"></script></div></div>' % [@text.strip]
+        '<div class="vine-row"><div class="outer-vine"><iframe class="inner-vine vine-embed" src="https://vine.co/v/%1$s/embed/simple"></iframe><script src="//platform.vine.co/static/scripts/embed.js"></script></div></div>' % @params
       end
     end
   end

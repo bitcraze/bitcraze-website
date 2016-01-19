@@ -1,5 +1,8 @@
+require_relative 'plugin_helper'
+
 module Jekyll
   class NoticeInfo < Liquid::Tag
+    include Jekyll::PluginHelper
 
     # Use this tag to display an info block
     #
@@ -11,15 +14,17 @@ module Jekyll
 
     def initialize(tag_name, text, tokens)
       super
-      @text = text
+        @params = parse_args(text)
     end
 
     def render(context)
-        '<div class="alert alert-success"><i class="fa fa-info fa-fw"></i>%1$s</div>' % [@text]
+        '<div class="alert alert-success"><i class="fa fa-info fa-fw"></i>%1$s</div>' % @params
     end
   end
 
   class NoticeImportant < Liquid::Tag
+    include Jekyll::PluginHelper
+
     # Use this tag to display an info block
     #
     # Takes 1 arguments
@@ -30,11 +35,11 @@ module Jekyll
 
     def initialize(tag_name, text, tokens)
       super
-      @text = text
+        @params = parse_args(text)
     end
 
     def render(context)
-        '<div class="alert alert-danger"><i class="fa fa-exclamation-triangle fa-fw"></i>%1$s</div>' % [@text]
+        '<div class="alert alert-danger"><i class="fa fa-exclamation-triangle fa-fw"></i>%1$s</div>' % @params
     end
   end
 end

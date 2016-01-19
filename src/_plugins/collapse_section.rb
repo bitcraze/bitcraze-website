@@ -16,11 +16,11 @@ module Jekyll
 
     def initialize(tag_name, text, tokens)
       super
-      @text = text
+      @params = parse_args(text)
     end
 
     def render(context)
-      opening_tags = '<div><a href="#CollapseSection%1$s" data-toggle="collapse"><strong>%2$s</strong></a><div id="CollapseSection%1$s" class="collapse">' % [@@id, @text]
+      opening_tags = '<div><a href="#CollapseSection%1$s" data-toggle="collapse"><strong>%2$s</strong></a><div id="CollapseSection%1$s" class="collapse">' % [@@id, @params[0]]
       markup = markdownify(super, context)
       closing_tags = '</div></div>'
 
