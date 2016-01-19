@@ -198,37 +198,7 @@
     margin-top: 10px;
   }
 
-  .plm-content-space-small {
-    @media (min-width: $screen-xs-min) {
-      margin-top: 20px;
-    }
-
-    @media (min-width: $screen-md-min) {
-      margin-top: 50px;
-    }
-  }
-
-  .plm-content-space-medium {
-    @media (min-width: $screen-xs-min) {
-      margin-top: 30px;
-    }
-
-    @media (min-width: $screen-md-min) {
-      margin-top: 100px;
-    }
-  }
-
-  .plm-content-space-large {
-    @media (min-width: $screen-xs-min) {
-      margin-top: 50px;
-    }
-
-    @media (min-width: $screen-md-min) {
-      margin-top: 150px;
-    }
-  }
-
-  .plm-content li { 
+  .plm-content li {
     padding-bottom: 7px;
   }
 
@@ -244,6 +214,16 @@
     margin-bottom: 20px;
 
     display: block;
+  }
+
+  .plm-distributor-continent:not(:first-of-type) {
+    @media (min-width: $screen-xs-min) {
+      margin-top: 30px;
+    }
+
+    @media (min-width: $screen-md-min) {
+      margin-top: 100px;
+    }
   }
 
   .plm-content-info-step {
