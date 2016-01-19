@@ -7,7 +7,7 @@ permalink: /crazyflie/
  
 {% notice_info This product is discontinued and has been replaced with <a href="/crazyflie-2/">Crazyflie 2.0</a> %}
 
-<img class="pp-main-image-medium" src="/images/crazyflie_page.png" alt="Crazyflie"/>
+{% img Crazyflie; medium; /images/crazyflie_page.png %}
 
 The Crazyflie Nano Quadcopter is a miniature quadcopter that fits in your hand. 
 It only weights about 19 grams and is 9 cm motor-to-motor. Aside from being fun 

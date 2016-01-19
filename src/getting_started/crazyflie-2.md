@@ -131,7 +131,9 @@ two short ones and insert them into the expansion connector.
 Place the battery between the headers inserted into the expansion connector
 and insert the battery holder board onto the headers. Watch out for the
 pins that can be a bit sharp when inserting it. The friction should hold
-the battery in place so tighten it until it does.</p><p>Now connect the battery
+the battery in place so tighten it until it does.
+
+Now connect the battery
 and you are finished with the assembly. The battery wires can preferably be
 bent and placed underneath the PCB to be out of the way.
 {% vine OrLAtap1mzr %}    
