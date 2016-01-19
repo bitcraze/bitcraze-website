@@ -16,6 +16,13 @@ else
   extra_args=""
 fi
 
-cmd="docker run --rm -it --volume=${rootDir}:/module -p 80:4000 bitcraze/web-builder jekyll serve --host 0.0.0.0 ${extra_args}"
+port=${1:-80}
+
+cmd="docker run --rm -it --volume=${rootDir}:/module -p ${port}:${port} bitcraze/web-builder jekyll serve --host 0.0.0.0 --port ${port} ${extra_args}"
 echo "$cmd"
-$cmd
+if $cmd; then
+  true
+else
+  echo
+  echo "Launch '$0 [port]' to set a different listening port."
+fi
