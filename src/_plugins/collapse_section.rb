@@ -1,3 +1,5 @@
+require_relative 'plugin_helper'
+
 module Jekyll
 
   # Use this tag to create a collapsed section with a link to open it
@@ -8,6 +10,8 @@ module Jekyll
   # {% endcollapse_section %}
 
   class CollapseSection < Liquid::Block
+    include Jekyll::PluginHelper
+
     @@id = 1
 
     def initialize(tag_name, text, tokens)
@@ -23,12 +27,6 @@ module Jekyll
       @@id += 1
 
       "#{opening_tags}#{markup}#{closing_tags}"
-    end
-
-    def markdownify(md, context)
-      site = context.registers[:site]
-      converter = site.find_converter_instance(Jekyll::Converters::Markdown)
-      converter.convert(md)
     end
 
     def self.reset_id_counter()

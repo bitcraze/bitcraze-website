@@ -1,3 +1,5 @@
+require_relative 'plugin_helper'
+
 module Jekyll
   module GettingStarted
     #
@@ -20,6 +22,8 @@ module Jekyll
     # {% gs_intro %}
 
     class Intro < Liquid::Block
+      include Jekyll::PluginHelper
+
       @@id = 1
 
       def initialize(tag_name, text, tokens)
@@ -40,17 +44,6 @@ module Jekyll
         '<div class="plm-content-intro-text"><h2 id="%1$s">%2$s</h2>%3$s</div>' % [full_id, @params[0], markup]
       end
 
-      def markdownify(md, context)
-        site = context.registers[:site]
-        converter = site.find_converter_instance(Jekyll::Converters::Markdown)
-        converter.convert(md)
-      end
-
-      def split_strip(str, token)
-        parts = str.split(token)
-        parts.map {|part| part.strip}
-      end
-
       def self.reset_id_counter()
         @@id = 1
       end
@@ -65,6 +58,8 @@ module Jekyll
     # {% gs_step %}
 
     class Step < Liquid::Block
+      include Jekyll::PluginHelper
+
       @@id = 1
 
       def initialize(tag_name, text, tokens)
@@ -79,12 +74,6 @@ module Jekyll
         @@id += 1
 
         result
-      end
-
-      def markdownify(md, context)
-        site = context.registers[:site]
-        converter = site.find_converter_instance(Jekyll::Converters::Markdown)
-        converter.convert(md)
       end
 
       def self.reset_id_counter()

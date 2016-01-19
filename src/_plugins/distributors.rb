@@ -1,6 +1,9 @@
+require_relative 'plugin_helper'
+
 module Jekyll
   module Distributors
     class Distributor < Liquid::Tag
+      include Jekyll::PluginHelper
 
       # Use this tag on distributors page to display a distributor logo with link
       #
@@ -22,15 +25,18 @@ module Jekyll
       def render(context)
           '<a href="%2$s"><img class="plm-content-logo" src="%3$s" alt="%1$s"/></a>' % @params
       end
-
-      def split_strip(str, token)
-        parts = str.split(token)
-        parts.map {|part| part.strip}
-      end
     end
 
 
     class Continent < Liquid::Tag
+      # Use this tag on distributors page for continent headers
+      #
+      # Takes 1 arguments
+      # - Continent
+      #
+      # Example
+      # {% continent Asia %}
+
       @@id = 1
 
       def initialize(tag_name, text, tokens)
@@ -45,11 +51,6 @@ module Jekyll
         '<h2 class="plm-distributor-continent" id="%1$s">%2$s</h2>' % [full_id, @text]
       end
 
-      def split_strip(str, token)
-        parts = str.split(token)
-        parts.map {|part| part.strip}
-      end
-
       def self.reset_id_counter()
         @@id = 1
       end
@@ -57,6 +58,14 @@ module Jekyll
 
 
     class Country < Liquid::Tag
+      # Use this tag on distributors page for country headers
+      #
+      # Takes 1 arguments
+      # - Country
+      #
+      # Example
+      # {% country Sweden %}
+
       @@id = 1
 
       def initialize(tag_name, text, tokens)
@@ -69,11 +78,6 @@ module Jekyll
         @@id += 1
 
         '<h3 id="%1$s">%2$s</h3>' % [full_id, @text]
-      end
-
-      def split_strip(str, token)
-        parts = str.split(token)
-        parts.map {|part| part.strip}
       end
 
       def self.reset_id_counter()

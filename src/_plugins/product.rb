@@ -1,6 +1,9 @@
+require_relative 'plugin_helper'
+
 module Jekyll
   module Product
     class ProductImg < Liquid::Tag
+      include Jekyll::PluginHelper
 
       # Use this tag on product pages for the images at the top
       #
@@ -70,15 +73,11 @@ module Jekyll
   </div>'
 
       end
-
-      def split_strip(str, token)
-        parts = str.split(token)
-        parts.map {|part| part.strip}
-      end
     end
 
 
     class ProductHighlight < Liquid::Tag
+      include Jekyll::PluginHelper
 
       # Use this tag on product pages to generated the highlight headers with an icon
       #

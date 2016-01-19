@@ -1,8 +1,11 @@
+require_relative 'plugin_helper'
+
 module Jekyll
   module Media
     class Img < Liquid::Tag
+      include Jekyll::PluginHelper
 
-      # Use this tag for iamges
+      # Use this tag for images
       #
       # ; is used as separator
       #
@@ -25,11 +28,6 @@ module Jekyll
 
       def render(context)
         '<div class="img-row-%1$s"><img src="%2$s" alt="%3$s" title="%3$s"/></div>' % [@width, @image, @title]
-      end
-
-      def split_strip(str, token)
-        parts = str.split(token)
-        parts.map {|part| part.strip}
       end
     end
 
