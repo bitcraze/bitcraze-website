@@ -12,8 +12,7 @@ our stuff is open. Go play with it!
 
 ## What we do
 
-We develop and manufacture a small quadcopter called the <a
-        href="/crazyflie-2/">Crazyfile</a>. We also
+We develop and manufacture a small quadcopter called the [Crazyfile](/crazyflie-2/). We also
 develop and maintain a supporting infrastructure with various clients,
 expansion decks, debuggers, development environments and tools to enable
 the end users to modify the Crazyflie in any way they want.

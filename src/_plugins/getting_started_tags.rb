@@ -4,23 +4,6 @@ module Jekyll
     # Use these tags on gettings started pages
     #
 
-    class Vine < Liquid::Tag
-
-      # Use this tag to add a vine
-      #
-      # Example:
-      # {% gs_vine 123-vine-id-456 %}
-
-      def initialize(tag_name, text, tokens)
-        super
-        @text = text
-      end
-
-      def render(context)
-        '<div class="plm-vine-row"><div class="plm-outer-vine"><iframe class="plm-inner-vine vine-embed" src="https://vine.co/v/%1$s/embed/simple"></iframe><script src="//platform.vine.co/static/scripts/embed.js"></script></div></div>' % [@text.strip]
-      end
-    end
-
     # Use this tag to create an intro section
     #
     # ; is used as separator
@@ -112,6 +95,5 @@ module Jekyll
   end
 end
 
-Liquid::Template.register_tag('gs_vine', Jekyll::GettingStarted::Vine)
 Liquid::Template.register_tag('gs_intro', Jekyll::GettingStarted::Intro)
 Liquid::Template.register_tag('gs_step', Jekyll::GettingStarted::Step)

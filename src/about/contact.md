@@ -9,9 +9,9 @@ We have a number of communication channels you can use to get more
 information or to contact us. It is important to use the right channel to
 get the best possible support.
 
-* Check out the <a href="//wiki.bitcraze.io" target="_blank">wiki</a> for details on our projects
-* If you are having a question or a problem, start by reading the <a href="//forum.bitcraze.io">forum</a> to see if anyone else already had the same problem and found a solution.
-* You can find source code and other documents on <a href="https://github.com/bitcraze">github</a>
+* Check out the [wiki](//wiki.bitcraze.io) for details on our projects
+* If you are having a question or a problem, start by reading the [forum](//forum.bitcraze.io) to see if anyone else already had the same problem and found a solution.
+* You can find source code and other documents on [github](https://github.com/bitcraze)
 
 ## Other topics
 
@@ -21,7 +21,7 @@ You can email us on <a href="mailto:contact@bitcraze.io">contact@bitcraze.io</a>
 
 Bitcraze AB<br/>
 Bredgatan 4<br/>
-SE &#8211; 211 30 MALM&Ouml;<br/>
+SE &#8211; 211 30 MALMÖ<br/>
 SWEDEN<br>
 
 <div class="embed-row-medium">

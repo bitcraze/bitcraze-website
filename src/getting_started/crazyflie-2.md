@@ -38,13 +38,13 @@ Before you start assembling anything, run the power on self-test by
 connecting the Crazyflie 2.0 to a uUSB power source. The LEDs M1 and M4
 will indicate the result of the test. If the M4 LED blinks GREEN five times
 fast, then the test has passed.    
-{% gs_vine Or3Evd9neVX %}    
+{% vine Or3Evd9neVX %}    
 {% endgs_step %}
     
 {% gs_step self-test fails %}
 If the self-test fails, then the M1 LED blink 5 times fast RED, then pauses
 and does it again. Go to our support forum to get help.
-{% gs_vine Or39eVaZxr1 %}    
+{% vine Or39eVaZxr1 %}    
 {% endgs_step %}
 
 
@@ -57,7 +57,7 @@ there are a few pitfalls. So make sure to follow the instructions below!
 {% gs_step twisting the wires %}
 Start by twisting the wires of the four motors. This will reduce electronic
 noise an make the wires fit better in the motor mount “hooks”.
-{% gs_vine Or3VHHFmg7Q %}    
+{% vine Or3VHHFmg7Q %}    
 {% endgs_step %}
 
 {% gs_step mount the motors %}
@@ -66,13 +66,13 @@ insert them. If it is difficult doing it as in the video try putting the
 motor can towards an table edge and press on the mount, however don’t press
 on the motor axis while inserting them as it might damage the motor.The
 motor should be inserted all the way to the stop in the mount.
-{% gs_vine Or3YpMHuXmd %}    
+{% vine Or3YpMHuXmd %}    
 {% endgs_step %}
 
 {% gs_step attach the twisted wire %}
 Attach the twisted wire into the two small “hooks” that are underneath the
 motor mount.
-{% gs_vine Or3LaJrMMbj %}    
+{% vine Or3LaJrMMbj %}    
 {% endgs_step %}
 
 {% gs_step insert the motor %}
@@ -80,7 +80,7 @@ Insert the motor mounts on the Crazyflie 2.0 wings. They are press fit and
 might need a small amount of force. Make sure they go all the way to the
 stop. It’s not important which motor you put where. After it’s been
 inserted, connect the motor connectors to the Crazyflie 2.0.
-{% gs_vine Or3l3lYJaFb %}    
+{% vine Or3l3lYJaFb %}    
 {% endgs_step %}
 
 {% gs_step checking the propellers %}
@@ -89,27 +89,27 @@ placing a propeller on a needle. Hold the propeller in a horizontal
 position and then release it, if it tilts over it is unbalanced. Balance
 the propeller by attaching a small piece of tape on the side that is
 pointing upwards.    
-{% gs_vine O6J2bgHdTvJ %}    
+{% vine O6J2bgHdTvJ %}    
 {% endgs_step %}
 
 {% gs_step balancing the propellers %}
 If the propeller is unbalanced attach tape to the convex side of the
 propeller as shown in the video. The amount of tape that should be used
 varies and you might need some tries to find the correct amount.
-{% gs_vine O6J2LUeF65W %}    
+{% vine O6J2LUeF65W %}    
 {% endgs_step %}
 
 {% gs_step add more tape if needed %}
 After you have placed the first bit of tape try shaking the propellers a
 bit, if the propeller isn't tilting over anymore it's balanced.
-{% gs_vine O6JPPxqVZOe %}    
+{% vine O6JPPxqVZOe %}    
 {% endgs_step %}
 
 {% gs_step attach the propellers %}
 Now it’s time to attach the propellers. Note: There are two kinds of
 propellers, the clock wise (CW) and counter clock wise (CCW) propellers,
 each kind has their own bag in the box. Here we are attaching the CW propellers.
-{% gs_vine OrLaQ7TElb2 %}    
+{% vine OrLaQ7TElb2 %}    
 Here’s a detailed view of where to attach CW and CCW propellers.
 {% img Crazyflie 2.0 propeller mounting; medium; /images/cf2_props.png %}
 {% endgs_step %}
@@ -118,13 +118,13 @@ Here’s a detailed view of where to attach CW and CCW propellers.
 The rubber pad should be attached to the Crazyflie 2.0 between the
 expansion headers. This will create friction and keep the battery from
 slipping out, as well as protecting the electronics.
-{% gs_vine OrL7u7aKw5w %}    
+{% vine OrL7u7aKw5w %}    
 {% endgs_step %}
 
 {% gs_step attach headers %}
 There are two types of headers in the box, long and short ones. Find the
 two short ones and insert them into the expansion connector.
-{% gs_vine OrL7TxphWBW %}    
+{% vine OrL7TxphWBW %}    
 {% endgs_step %}
 
 {% gs_step attach the battery %}
@@ -134,7 +134,7 @@ pins that can be a bit sharp when inserting it. The friction should hold
 the battery in place so tighten it until it does.</p><p>Now connect the battery
 and you are finished with the assembly. The battery wires can preferably be
 bent and placed underneath the PCB to be out of the way.
-{% gs_vine OrLAtap1mzr %}    
+{% vine OrLAtap1mzr %}    
 {% endgs_step %}
 
 {% gs_step power on! %}
@@ -142,7 +142,7 @@ The assembly is finished, now it’s time to power it on! Note that the power
 button is a push button, not a sliding button. During the power-on
 self-test all the propellers will spin in sequence. Make sure they all
 spin, if they don’t then check the motor connections.
-{% gs_vine OgzwVPTpnHl %}    
+{% vine OgzwVPTpnHl %}    
 {% endgs_step %}
 
 
@@ -272,7 +272,7 @@ for all projects.
                 <li>In the bottom right corner click the usb icon and
                     choose “Bitcraze Crazyradio PA USB dongle”.
                 </li>
-                <div class="plm-img-row"><img src="/images/SwPic5Final.png" alt="USB settings"></div>
+{% img USB settings; medium; /images/SwPic5Final.png %}      
                 <li>Now choose your game controller in
                     the same list.
                 </li>
@@ -284,17 +284,16 @@ for all projects.
                 <li>In the bottom right corner click the usb icon, then click
                     “USB settings".
                 </li>
-                <div class="plm-img-row-medium"> <img src="/images/SwPic2.1Final.png" alt="USB settings"></div>
+{% img USB settings; medium; /images/SwPic2.1Final.png %}      
                 <li>Click the USB filter "+" icon.
                 </li>
-                  <div class="plm-img-row-wide"> <img src="/images/SwPic3Final.png" alt="USB settings"></div>
-
+{% img USB settings; wide; /images/SwPic3Final.png %}      
                 <li>Choose your game controller from the list. Click OK.
                 </li>
-              <div class="plm-img-row-wide"> <img src="/images/SwPic4Final.png" alt="USB settings"></div>
+{% img USB settings; wide; /images/SwPic4Final.png %}      
                 <li>Now click the USB icon again and choose the “Bitcraze Crazyradio PA USB dongle”.
                 </li>
-                <div class="plm-img-row-medium"> <img src="/images/SwPic5Final.png" alt="USB settings"></div>
+{% img USB settings; medium; /images/SwPic5Final.png %}      
                 <li>Now choose your game controller in the same list.
                 </li>
             </ul>
@@ -387,7 +386,7 @@ The controlls on the gamepad or mobile app have the following mapping:
 When thrusting without touching any other controls, this is what it might
 look like. The Crazyflie usually drifts in some direction if not
 compensated for, that is completely normal.
-{% gs_vine imF9eEIxUiK %}    
+{% vine imF9eEIxUiK %}    
 {% endgs_step %}
 
 {% gs_step the ground effect %}

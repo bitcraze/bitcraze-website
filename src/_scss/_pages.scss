@@ -11,6 +11,62 @@
   }
 }
 
+.media-row-base {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.img-row-narrow {
+  @extend .media-row-base;
+  img {
+    width: 100%;
+  }
+  @media (min-width: $screen-xs-min) {
+    width: 20%;
+    margin-left: 40%;
+  }
+}
+
+.img-row-medium {
+  @extend .media-row-base;
+  img {
+    width: 100%;
+  }
+  @media (min-width: $screen-xs-min) {
+    width: 50%;
+    margin-left: 25%;
+  }
+}
+
+.img-row-wide {
+  @extend .media-row-base;
+  img {
+    width: 100%;
+  }
+  @media (min-width: $screen-xs-min) {
+    width: 100%;
+    margin-left: 0;
+  }
+}
+
+.vine-row {
+  @extend .media-row-base;
+  @media (min-width: $screen-xs-min) {
+    width: 50%;
+    margin-left: 25%;
+  }
+}
+
+.outer-vine {
+  @extend .embed-responsive;
+  @extend .embed-responsive-1by1;
+}
+
+.inner-vine {
+  @extend .embed-responsive-item;
+}
+
+
 
 // 404 page
 
@@ -122,62 +178,6 @@
 }
 
 .page-left-menu {
-  .media-row-base {
-    margin-top: 20px;
-    margin-bottom: 20px;
-  }
-
-  // TODO krri Clean up!
-  .plm-img-row-narrow {
-    @extend .media-row-base;
-    img {
-      width: 100%;
-    }
-    @media (min-width: $screen-xs-min) {
-      width: 20%;
-      margin-left: 40%;
-    }
-  }
-
-  .plm-img-row, .plm-img-row-medium {
-    @extend .media-row-base;
-    img {
-      width: 100%;
-    }
-    @media (min-width: $screen-xs-min) {
-      width: 50%;
-      margin-left: 25%;
-    }
-  }
-
-  .plm-img-row-wide {
-    @extend .media-row-base;
-    img {
-      width: 100%;
-    }
-    @media (min-width: $screen-xs-min) {
-      width: 100%;
-      margin-left: 0;
-    }
-  }
-
-  .plm-vine-row {
-    @extend .media-row-base;
-    @media (min-width: $screen-xs-min) {
-      width: 50%;
-      margin-left: 25%;
-    }
-  }
-
-  .plm-outer-vine {
-    @extend .embed-responsive;
-    @extend .embed-responsive-1by1;
-  }
-
-  .plm-inner-vine {
-    @extend .embed-responsive-item;
-  }
-
   .plm-nav-s-1 {
     background-color: $bcGreen;
   }
@@ -252,12 +252,12 @@
     }
   }
     
-    .plm-content-intro-text {
-   
-      p {
-        font-weight:400;
-      }   
+  .plm-content-intro-text {
+
+    p {
+      font-weight:400;
     }
+  }
 
   .plm-download-list {
     width: 100%;

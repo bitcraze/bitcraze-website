@@ -13,24 +13,6 @@ class TestGettingStartedTags < Testbase
     @site_mock.expect(:find_converter_instance, @converter_mock, [Jekyll::Converters::Markdown])
   end
 
-  def test_that_vine_is_rendered
-    # Fixture
-    tag = '{% gs_vine vine-id %}'
-    expected = '<div class="plm-vine-row">
-                  <div class="plm-outer-vine">
-                    <iframe class="plm-inner-vine vine-embed" src="https://vine.co/v/vine-id/embed/simple"></iframe>
-                    <script src="//platform.vine.co/static/scripts/embed.js"></script>
-                  </div>
-                </div>'
-
-    # Test
-    actual = Liquid::Template.parse(tag).render
-
-    # Assert
-    assert_html(expected, actual)
-  end
-
-
   def test_that_intro_is_rendered
     # Fixture
     Jekyll::GettingStarted::Intro.reset_id_counter
