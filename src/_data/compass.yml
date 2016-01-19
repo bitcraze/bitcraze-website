@@ -7,3 +7,5 @@ additional_import_paths:
   - ../bootstrap/bootstrap/assets/stylesheets
 
 output_style: compressed
+
+sourcemap: true
