@@ -8,13 +8,13 @@ permalink: /balancing-propellers/
 Well balanced propellers reduces the vibrations in the copter and the noise in the
 sensors, improving the stability of the Crazyflie. In most cases there is no 
 need to balance the propellers, but if you want to do it this is how it's done.
+{% endgs_intro %}
 
-You need:
-
+{% gs_step You need: %}
 * A small round pin or needle
 * Tape. Normal transparent office tape works well
 * A pair of Scissors
-{% endgs_intro %}
+{% endgs_step %}
 
 {% gs_step checking the propeller %}
 Start by checking if the propeller is well balanced. Do this by
