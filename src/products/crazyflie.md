@@ -58,11 +58,7 @@ the main usage is as a development, teaching or experimentation platform. To
 get some ideas of what's possible to work with have a look at 
 [our development page](/development-overview/) or at our release video below.
 
-<div class="embed-row-medium">
-  <div class="embed-responsive embed-responsive-16by9">
-    <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/3WBUVYZkODI?feature=oembed" allowfullscreen=""></iframe>
-  </div>
-</div>
+{% youtube 3WBUVYZkODI; medium; 16by9 %}
 
 ## How do I assemble the Crazyflie?
 
@@ -72,8 +68,4 @@ the motor mounts and battery. Please have a look at the
 [detailed assembly instructions on our wiki](//wiki.bitcraze.se/projects:crazyflie:mechanics:assembly)
 and the assembly video before you start assembling your Crazyflie.
 
-<div class="embed-row-medium">
-  <div class="embed-responsive embed-responsive-16by9">
-    <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/KeqiUPIDpV8?feature=oembed" allowfullscreen=""></iframe>
-  </div>
-</div>
+{% youtube KeqiUPIDpV8; medium; 16by9 %}

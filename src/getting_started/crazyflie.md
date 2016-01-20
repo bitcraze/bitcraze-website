@@ -11,11 +11,7 @@ The Crazyflie is sold as a kit, it requires some assembly and soldering. The
 wiki contains [Assembly instructions](//wiki.bitcraze.io/projects:crazyflie:mechanics:assembly). 
 There is also a video describing the assembly steps:
 
-<div class="embed-row-medium">
-  <div class="embed-responsive embed-responsive-16by9">
-    <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/KeqiUPIDpV8?feature=oembed" allowfullscreen=""></iframe>
-  </div>
-</div>
+{% youtube KeqiUPIDpV8; medium; 16by9 %}
 
 ## Required hardware
 
@@ -74,7 +70,7 @@ machine to start using it.
 When the virtual machine is started, the Crazyradio and your gamepad should be 
 connected to it:
 
-<img src="/images/bitcraze_vm_setup-1024x684.jpg" alt="bitcraze vm setup"/>
+{% img bitcraze vm setup; wide; /images/bitcraze_vm_setup-1024x684.jpg %}
 
 ## Flying
 

@@ -16,7 +16,7 @@
   margin-bottom: 20px;
 }
 
-.img-row-narrow {
+.media-row-narrow {
   @extend .media-row-base;
   img {
     width: 100%;
@@ -27,7 +27,7 @@
   }
 }
 
-.img-row-medium {
+.media-row-medium {
   @extend .media-row-base;
   img {
     width: 100%;
@@ -38,7 +38,7 @@
   }
 }
 
-.img-row-wide {
+.media-row-wide {
   @extend .media-row-base;
   img {
     width: 100%;
@@ -46,14 +46,6 @@
   @media (min-width: $screen-xs-min) {
     width: 100%;
     margin-left: 0;
-  }
-}
-
-.vine-row {
-  @extend .media-row-base;
-  @media (min-width: $screen-xs-min) {
-    width: 50%;
-    margin-left: 25%;
   }
 }
 

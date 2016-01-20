@@ -27,7 +27,7 @@ module Jekyll
       end
 
       def render(context)
-        '<div class="img-row-%1$s"><img src="%2$s" alt="%3$s" title="%3$s"/></div>' % [@width, @image, @title]
+        '<div class="media-row-%1$s"><img src="%2$s" alt="%3$s" title="%3$s"/></div>' % [@width, @image, @title]
       end
     end
 
@@ -45,7 +45,31 @@ module Jekyll
       end
 
       def render(context)
-        '<div class="vine-row"><div class="outer-vine"><iframe class="inner-vine vine-embed" src="https://vine.co/v/%1$s/embed/simple"></iframe><script src="//platform.vine.co/static/scripts/embed.js"></script></div></div>' % @params
+        '<div class="media-row-medium"><div class="outer-vine"><iframe class="inner-vine vine-embed" src="https://vine.co/v/%1$s/embed/simple"></iframe><script src="//platform.vine.co/static/scripts/embed.js"></script></div></div>' % @params
+      end
+    end
+
+
+    class Youtube < Liquid::Tag
+      include Jekyll::PluginHelper
+
+      # Use this tag to add a youtube video
+      #
+      # Takes 3 arguments
+      # - The id, you can find it in the url
+      # - The width: narrow, medium or wide
+      # - Aspect ratio: 4by3, 16by9 or 1by1
+      #
+      # Example:
+      # {% youtube 123-youtube-id-456; medium; 16by9 %}
+
+      def initialize(tag_name, text, tokens)
+        super
+        @params = parse_args(text)
+      end
+
+      def render(context)
+        '<div class="media-row-%2$s"><div class="embed-responsive embed-responsive-%3$s"><iframe class="embed-responsive-item" src="https://www.youtube.com/embed/%1$s" allowfullscreen></iframe></div></div>' % @params
       end
     end
   end
@@ -53,3 +77,4 @@ end
 
 Liquid::Template.register_tag('img', Jekyll::Media::Img)
 Liquid::Template.register_tag('vine', Jekyll::Media::Vine)
+Liquid::Template.register_tag('youtube', Jekyll::Media::Youtube)
