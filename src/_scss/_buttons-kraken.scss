@@ -16,6 +16,17 @@ input[type="submit"] {
     outline: 0;
 }
 
+button:disabled,
+html input[type="button"]:disabled,
+input[type="submit"]:disabled{
+  background-color: $bcGrey;
+  border-color: $bcGrey;
+  a {
+    pointer-events: none;
+    cursor: default;
+  }
+}
+
 button:hover,
 button:focus,
 html input[type="button"]:hover,
@@ -25,5 +36,17 @@ input[type="submit"]:focus {
     color: #fff;
     background-color: $brand-primary;
     border-color: $brand-primary;
+    outline: 0;
+}
+
+button:disabled:hover,
+button:disabled:focus,
+html input[type="button"]:disabled:hover,
+html input[type="button"]:disabled:focus,
+input[type="submit"]:disabled:hover,
+input[type="submit"]:disabled:focus {
+    color: #fff;
+    background-color: $bcGrey;
+    border-color: $bcGrey;
     outline: 0;
 }
