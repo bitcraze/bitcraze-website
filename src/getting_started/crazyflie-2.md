@@ -148,7 +148,6 @@ spin, if they don’t then check the motor connections.
 {% endgs_step %}
 
 
-<!--Hardware tutorial ends her-->
 
 
 {% gs_intro Controlling the Crazyflie 2.0 %}
@@ -157,8 +156,7 @@ smartphone is the fastest way to get into the air, but it might require
 som more pilot skills compared to the computer option.
 
 Continue reading for instructions on how to install the app on your phone or
-<a href="#inst-comp">jump to the "Installing on a computer" section</a> if
-you want to use your computer.
+[Installing on a computer](#inst-comp) if you want to use your computer.
 {% endgs_intro %}
 
 
@@ -183,7 +181,7 @@ The Crazyflie client is avalable for Android and iOS.
 Start the app and click the connect button. The buttons have different
 appearances in the Android and iOS apps, you can see them bellow.
 {% img Connect buttons; medium; /images/connect-icons.png %}
-Continue reading the <a href="#flying">Flying section.</a>
+Continue reading the [Flying section.](#flying)
 {% endgs_step %}
 
 
