@@ -54,4 +54,21 @@ class TestMedia < Testbase
     # Assert
     assert_html(expected, actual)
   end
+
+
+  def test_that_map_is_rendered
+    # Fixture
+    tag = '{% map id; wide %}'
+    expected = '<div class="media-row-wide">
+                    <div class="embed-responsive embed-responsive-1by1">
+                        <iframe class="embed-responsive-item-medium" src="https://www.google.com/maps/embed?pb=id" allowfullscreen="allowfullscreen"></iframe>
+                    </div>
+                </div>'
+
+    # Test
+    actual = Liquid::Template.parse(tag).render
+
+    # Assert
+    assert_html(expected, actual)
+  end
 end

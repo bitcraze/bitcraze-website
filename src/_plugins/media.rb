@@ -72,9 +72,34 @@ module Jekyll
         '<div class="media-row-%2$s"><div class="embed-responsive embed-responsive-%3$s"><iframe class="embed-responsive-item" src="https://www.youtube.com/embed/%1$s" allowfullscreen></iframe></div></div>' % @params
       end
     end
+
+
+    class GoogleMaps < Liquid::Tag
+      include Jekyll::PluginHelper
+
+      # Use this tag to add a youtube video
+      #
+      # Takes 2 arguments
+      # - The id, you can find it in the url
+      # - The width: narrow, medium or wide
+      #
+      # Example:
+      # {% map 123-map-id-456; medium %}
+
+      def initialize(tag_name, text, tokens)
+        super
+        @params = parse_args(text)
+      end
+
+      def render(context)
+        '<div class="media-row-%2$s"><div class="embed-responsive embed-responsive-1by1"><iframe class="embed-responsive-item-medium" src="https://www.google.com/maps/embed?pb=%1$s" allowfullscreen="allowfullscreen"></iframe></div></div>' % @params
+      end
+    end
+
   end
 end
 
 Liquid::Template.register_tag('img', Jekyll::Media::Img)
 Liquid::Template.register_tag('vine', Jekyll::Media::Vine)
 Liquid::Template.register_tag('youtube', Jekyll::Media::Youtube)
+Liquid::Template.register_tag('map', Jekyll::Media::GoogleMaps)
