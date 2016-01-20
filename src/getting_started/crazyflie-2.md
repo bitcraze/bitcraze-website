@@ -209,21 +209,14 @@ preconfigured virtual machine.
 {% gs_step download the Bitcraze virtual machine %}
 Ones you have installed Virtualbox you can download the virtual machine
 using one of these links.
-<ul class="plm-download-list">
-    <li>Bitcraze VM 0.6</li>
-    <li>
-        <a href="http://files.bitcraze.se/dl/Bitcraze_VM_0.6.ova.torrent"
-           rel="nofollow">torrent</a>
-    </li>
-    <li>
-        <a href="http://files.bitcraze.se/dl/Bitcraze_VM_0.6.ova"
-           rel="nofollow">direct download 1</a>
-    </li>
-    <li>
-        <a href="https://mega.co.nz/#!3YhyFBAI!WO2yKBE-x_9PesM37k79sGdo_1-LVpbHTyexGmYnm3A"
-           rel="nofollow">direct download 2</a>
-    </li>
-</ul>
+
+{{ "
+* Bitcraze VM 0.6
+* [torrent](http://files.bitcraze.se/dl/Bitcraze_VM_0.6.ova.torrent)
+* [direct download 1](http://files.bitcraze.se/dl/Bitcraze_VM_0.6.ova)
+* [direct download 2](https://mega.co.nz/#!3YhyFBAI!WO2yKBE-x_9PesM37k79sGdo_1-LVpbHTyexGmYnm3A)
+" | markdownify | add_class_to_top: "plm-download-list" }}
+
 {% endgs_step %}
 
 {% gs_step installing the virtual machine %}
