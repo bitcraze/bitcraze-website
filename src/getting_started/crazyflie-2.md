@@ -257,51 +257,24 @@ for all projects.
 {% endgs_step %}
 
 {% gs_step configure USB on the virtual machine %}
-<div>
-    <ul class="nav nav-tabs" role="tablist">
-         <li role="presentation" class="active">
-            <a href="#conf-usb-wu" role="tab" data-toggle="tab">Windows/Linux</a>
-        </li>
-        <li role="presentation" >
-            <a href="#conf-usb-osx" role="tab" data-toggle="tab">OS X</a>
-        </li>
-
-    </ul>
-    <div class="tab-content">
-
-        <div role="tabpanel" class="tab-pane fade in active" id="conf-usb-wu">
-            <ul>
-                <li>In the bottom right corner click the usb icon and
-                    choose “Bitcraze Crazyradio PA USB dongle”.
-                </li>
+{% tabgroup %}
+{% tab Windows/Linux %}
+* In the bottom right corner click the usb icon and choose “Bitcraze Crazyradio PA USB dongle”.
 {% img USB settings; medium; /images/SwPic5Final.png %}      
-                <li>Now choose your game controller in
-                    the same list.
-                </li>
-            </ul>
-        </div>
-                <div role="tabpanel" class="tab-pane fade"
-             id="conf-usb-osx">
-            <ul>
-                <li>In the bottom right corner click the usb icon, then click
-                    “USB settings".
-                </li>
+* Now choose your game controller in the same list.
+{% endtab %}
+{% tab OS X %}
+* In the bottom right corner click the usb icon, then click “USB settings".
 {% img USB settings; medium; /images/SwPic2.1Final.png %}      
-                <li>Click the USB filter "+" icon.
-                </li>
+* Click the USB filter "+" icon.
 {% img USB settings; wide; /images/SwPic3Final.png %}      
-                <li>Choose your game controller from the list. Click OK.
-                </li>
-{% img USB settings; wide; /images/SwPic4Final.png %}      
-                <li>Now click the USB icon again and choose the “Bitcraze Crazyradio PA USB dongle”.
-                </li>
+* Choose your game controller from the list. Click OK.
+{% img USB settings; wide; /images/SwPic4Final.png %}     
+* Now click the USB icon again and choose the “Bitcraze Crazyradio PA USB dongle”.
 {% img USB settings; medium; /images/SwPic5Final.png %}      
-                <li>Now choose your game controller in the same list.
-                </li>
-            </ul>
-        </div>
-    </div>
-</div>
+* Now choose your game controller in the same list.
+{% endtab %}
+{% endtabgroup %}
 {% endgs_step %}
 
 {% gs_step start the Crazyflie client %}
