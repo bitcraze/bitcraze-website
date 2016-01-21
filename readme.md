@@ -27,7 +27,7 @@ builds the site when the source changes.
         
 1. Open a web browser and go to http://localhost. If you are not on Linux you 
 will have to use docker-machine to figure out your address.
-1. Make your changes. The site will automatically rebuild when you mdify a 
+1. Make your changes. The site will automatically rebuild when you modify a 
 file, so all you have to do is to reload the page in your browser to see the 
 results.
 1. Commit and issue a pull request
