@@ -1,0 +1,17 @@
+{% assign member = include.member %}
+{% assign role = include.role %}
+{% assign bio = include.bio %}
+{% assign img = include.img %}
+
+<div class="row">
+    <div class="col-md-3 team"><img src="{{img}}" class="img-responsive center-block" alt="Team members"></div>
+
+    <div class="col-md-9 team">
+
+
+        <h2>{{member}}</h2>
+        <h3 class="text-muted">{{role}}</h3> {{ bio | markdownify }}
+
+    </div>
+
+</div>

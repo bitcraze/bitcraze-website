@@ -58,7 +58,20 @@
   @extend .embed-responsive-item;
 }
 
+// Team member
 
+.team {
+    margin-bottom: 50px;
+    h2 {
+        margin-top: 0px;
+    }
+}
+
+.team img {
+    border: 2px solid #8dbd42;
+    border-radius: 20%;
+   
+}
 
 // 404 page
 
