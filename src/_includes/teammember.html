@@ -3,14 +3,19 @@
 {% assign bio = include.bio %}
 {% assign img = include.img %}
 
-<div class="row">
-    <div class="col-md-3 team"><img src="{{img}}" class="img-responsive center-block" alt="Team members"></div>
+<div class="row team">
 
-    <div class="col-md-9 team">
+    <div class="col-xs-6 col-sm-3 col-md-3">
+        
+        <img src="{{img}}" class="img-responsive center-block" alt="Team members">
+    </div>
+
+
+    <div class="col-xs-12 col-sm-9 col-md-8">
 
 
         <h2>{{member}}</h2>
-        <h3 class="text-muted">{{role}}</h3> {{ bio | markdownify }}
+        <h4 class="text-muted">{{role}}</h4> {{ bio | markdownify }}
 
     </div>
 
