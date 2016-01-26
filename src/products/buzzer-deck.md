@@ -28,7 +28,7 @@ melodies pre-programmed that you can use.
 ---
 
 {% collapse_section Features %}
-* Piezo buzzer for tone and melody generation
+* Low profile piezo buzzer for tone and melody generation
 * Automatic detection of deck
 {% endcollapse_section %}
 
