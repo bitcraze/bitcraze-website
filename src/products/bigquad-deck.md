@@ -60,4 +60,4 @@ With the BigQuad deck you can transform your Crazyflie 2.0 to a bigger quad by c
 
 {% endcollapse_section %}
 
-{% buy_online http://www.seeedstudio.com/depot/Crazyflie-20-Qi-inductive-charging-expansion-board-p-2112.html %}
+{% coming_soon http://www.seeedstudio.com/depot/Crazyflie-20-Qi-inductive-charging-expansion-board-p-2112.html %}
