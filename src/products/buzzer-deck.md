@@ -15,7 +15,7 @@ page_id: product-buzzer-deck
 {% product_highlight 
 fa-volume-up;
 Play some tunes;
-Get audio feedback and get creative by composing and playing melodies your own melodies.
+Get audio feedback and get creative by composing and playing your own melodies.
 %}
 
 Sometimes LED feedback isn't enough, like when you're flying around in a lab and livingroom. With the
