@@ -88,10 +88,10 @@
 }
 
 .used_by {
-  width: 100px;
   vertical-align: middle;
   margin: 15px;
   display: inline-block;
+  font-size: 35px;
 
   filter: grayscale(100%);
   -webkit-filter: grayscale(100%);
@@ -104,6 +104,13 @@
   }
 }
 
+.used_by_narrow {
+  width: 100px;
+}
+
+.used_by_medium {
+  width: 200px;
+}
 
 
 // Page - Product

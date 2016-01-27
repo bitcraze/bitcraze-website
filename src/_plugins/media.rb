@@ -102,11 +102,14 @@ module Jekyll
 
       # Use this tag to add a logo that is grey scale, but color when hoovered
       #
-      # Takes 1 argument
-      # - The image
+      # Takes 1 or 3 argument
+      # - The company
+      # - The image (optional)
+      # - Width (narrow or medium)
       #
       # Example:
-      # {% used_by /images/my_logo.png %}
+      # {% used_by Company; /images/my_logo.png; narrow %}
+      # {% used_by Company %}
 
       def initialize(tag_name, text, tokens)
         super
@@ -114,7 +117,13 @@ module Jekyll
       end
 
       def render(context)
-        '<div class="used_by"><img class="img-responsive" src="%2$s" alt="%1$s" title="%1$s"/></div>' % @params
+        element = @params[0]
+        width_class = ''
+        if (@params.length > 1)
+          element = '<img class="img-responsive" src="%2$s" alt="%1$s" title="%1$s"/>' % @params
+          width_class = ' used_by_%3$s' % @params
+        end
+        '<div class="used_by%1$s">%2$s</div>' % [width_class, element]
       end
     end
 
