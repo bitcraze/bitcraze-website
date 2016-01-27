@@ -5,7 +5,7 @@ permalink: /
 page_id: home
 ---
 
-<div class="container-fluid content-area-fluid">
+<div class="container-fluid">
   <section id="primary" class="row content-area">
     <div class="col-md-6">
     
@@ -56,3 +56,5 @@ page_id: home
     </div>
   </section>
 </div>    
+
+
