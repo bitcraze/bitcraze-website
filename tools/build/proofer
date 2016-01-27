@@ -9,4 +9,4 @@ scriptDir=$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )
 dstDir=$scriptDir/../../_site
 
 echo "Checking html..."
-htmlproof --check-html --allow-hash-href ${dstDir}
+htmlproof --check-html --allow-hash-href --disable-external ${dstDir}
