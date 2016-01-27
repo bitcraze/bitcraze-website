@@ -87,6 +87,23 @@
   width: 100%
 }
 
+.used_by {
+  width: 100px;
+  vertical-align: middle;
+  margin: 15px;
+  display: inline-block;
+
+  filter: grayscale(100%);
+  -webkit-filter: grayscale(100%);
+  transition: filter 0.5s, -webkit-filter 0.5s;
+
+  &:hover {
+    filter: grayscale(0%);
+    -webkit-filter: grayscale(0%);
+    transition: filter 0.5s, -webkit-filter 0.5s;
+  }
+}
+
 
 
 // Page - Product

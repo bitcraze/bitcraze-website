@@ -96,6 +96,28 @@ module Jekyll
       end
     end
 
+
+    class UsedBy < Liquid::Tag
+      include Jekyll::PluginHelper
+
+      # Use this tag to add a logo that is grey scale, but color when hoovered
+      #
+      # Takes 1 argument
+      # - The image
+      #
+      # Example:
+      # {% used_by /images/my_logo.png %}
+
+      def initialize(tag_name, text, tokens)
+        super
+        @params = parse_args(text)
+      end
+
+      def render(context)
+        '<div class="used_by"><img class="img-responsive" src="%2$s" alt="%1$s" title="%1$s"/></div>' % @params
+      end
+    end
+
   end
 end
 
@@ -103,3 +125,4 @@ Liquid::Template.register_tag('img', Jekyll::Media::Img)
 Liquid::Template.register_tag('vine', Jekyll::Media::Vine)
 Liquid::Template.register_tag('youtube', Jekyll::Media::Youtube)
 Liquid::Template.register_tag('map', Jekyll::Media::GoogleMaps)
+Liquid::Template.register_tag('used_by', Jekyll::Media::UsedBy)

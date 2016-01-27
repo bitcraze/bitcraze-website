@@ -71,4 +71,19 @@ class TestMedia < Testbase
     # Assert
     assert_html(expected, actual)
   end
+
+
+  def test_that_used_by_is_rendered
+    # Fixture
+    tag = '{% used_by company; my_image %}'
+    expected = '<div class="used_by">
+                  <img class="img-responsive" src="my_image" alt="company" title="company"/>
+                </div>'
+
+    # Test
+    actual = Liquid::Template.parse(tag).render
+
+    # Assert
+    assert_html(expected, actual)
+  end
 end
