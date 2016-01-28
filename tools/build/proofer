@@ -10,3 +10,8 @@ dstDir=$scriptDir/../../_site
 
 echo "Checking html..."
 htmlproof --check-html --allow-hash-href --disable-external ${dstDir}
+
+echo "Checking external references..."
+if ! htmlproof --external_only ${dstDir}
+then echo -e "\e[31mWARNING: All external references could not be validated. The reference(s) might be faulty or the external site is maybe down?\e[0m"
+fi
