@@ -3,13 +3,16 @@
 {% assign portaltext = include.portaltext %}
 
 
-<div class="container-fluid">
+<div class="container-fluid portal-right">
     <div class="row content-area">
+        <div class="col-md-2"></div>
         <div class="col-md-6">
-            <img src="{{portalimg}}" class="front-page-image" alt="portalheader">
+            <h2>{{portalheader}}</h2>
+            <p>{{ portaltext | markdownify }}
+            </p>
         </div>
-        <div class="col-md-6">
-            <h2>{{portalheader}}</h2> {{ portaltext | markdownify }}
+        <div class="col-md-4">
+            <img src="{{portalimg}}" class="img-responsive" alt="portalheader">
         </div>
     </div>
 </div>

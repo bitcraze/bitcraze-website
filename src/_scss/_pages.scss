@@ -83,9 +83,6 @@
 
 // Front page
 
-.front-page-image {
-  width: 100%
-}
 
 .front-top-banner {
   background-image: url("/images/top-gradient.png");
@@ -127,13 +124,40 @@
 .header_text {
     h1 {
         font-size: 450%;
+        color: #8dbd42;
     }
     p {
         font-size: 150%;
     }
 }
 
+.portal-left {
+    
+    background-color: white;
+    
+    h2 {
+        margin-top: 10px;
+        text-align: left;
+        color: #8dbd42;
+    }
+    p {
+        text-align: left;
+    }
+}
 
+.portal-right {
+    
+    background-color: #f6f6f6;
+    
+    h2 {
+        margin-top: 10px;
+        text-align: right;
+        color: #8dbd42;
+    }
+    p {
+        text-align: right;
+    }
+}
 
 // Page - Product
 
