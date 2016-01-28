@@ -87,6 +87,17 @@
   width: 100%
 }
 
+.front-top-banner {
+  background-image: url("/images/top-gradient.png");
+  background-size: 100%;
+  background-position: bottom;
+  background-repeat: no-repeat;
+}
+
+.semi-transparent {
+  background-color: rgba(255, 255, 255, 0.8);
+}
+
 .used_by {
   vertical-align: middle;
   margin: 15px;
