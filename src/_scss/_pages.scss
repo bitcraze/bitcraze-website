@@ -1,117 +1,112 @@
 // All pages
-
 .content-area {
-	padding-top: $content-area-padding-top;
-	padding-bottom: $content-area-padding-bottom;
-
-  // Make sure images and video are not wider than the page
-  img {
-    max-width: 100%;
-    height: auto;
-  }
+    padding-top: $content-area-padding-top;
+    padding-bottom: $content-area-padding-bottom;
+    // Make sure images and video are not wider than the page
+    img {
+        max-width: 100%;
+        height: auto;
+    }
 }
 
 .media-row-base {
-  margin-top: 20px;
-  margin-bottom: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
 
 .media-row-narrow {
-  @extend .media-row-base;
-  img {
-    width: 100%;
-  }
-  @media (min-width: $screen-xs-min) {
-    width: 20%;
-    margin-left: 40%;
-  }
+    @extend .media-row-base;
+    img {
+        width: 100%;
+    }
+    @media (min-width: $screen-xs-min) {
+        width: 20%;
+        margin-left: 40%;
+    }
 }
 
 .media-row-medium {
-  @extend .media-row-base;
-  img {
-    width: 100%;
-  }
-  @media (min-width: $screen-xs-min) {
-    width: 50%;
-    margin-left: 25%;
-  }
+    @extend .media-row-base;
+    img {
+        width: 100%;
+    }
+    @media (min-width: $screen-xs-min) {
+        width: 50%;
+        margin-left: 25%;
+    }
 }
 
 .media-row-wide {
-  @extend .media-row-base;
-  img {
-    width: 100%;
-  }
-  @media (min-width: $screen-xs-min) {
-    width: 100%;
-    margin-left: 0;
-  }
+    @extend .media-row-base;
+    img {
+        width: 100%;
+    }
+    @media (min-width: $screen-xs-min) {
+        width: 100%;
+        margin-left: 0;
+    }
 }
 
 .outer-vine {
-  @extend .embed-responsive;
-  @extend .embed-responsive-1by1;
+    @extend .embed-responsive;
+    @extend .embed-responsive-1by1;
 }
 
 .inner-vine {
-  @extend .embed-responsive-item;
+    @extend .embed-responsive-item;
 }
 
 // Team member
-
 .team {
     margin-bottom: 50px;
     h2 {
         margin-top: 0px;
     }
-     img {
-    border: 2px solid #8dbd42;
-    border-radius: 20%;
-   
+    img {
+        border: 2px solid #8dbd42;
+        border-radius: 20%;
+    }
 }
-}
-
 
 // 404 page
-
 .img-404 {
-  width: 100%;
+    width: 100%;
 }
 
-
-
 // Front page
-
+.front-page {
+    h1,
+    h2,
+    h3 {
+        color: #8dbd42;
+    }
+}
 
 .front-top-banner {
-  background-image: url("/images/top-gradient.png");
-  background-size: 100%;
-  background-position: bottom;
-  background-repeat: no-repeat;
+    background-image: url("/images/top-gradient.png");
+    background-size: 100%;
+    background-position: bottom;
+    background-repeat: no-repeat;
 }
 
 .semi-transparent {
-  background-color: rgba(255, 255, 255, 0.8);
+    background-color: rgba(255, 255, 255, 0.8);
 }
 
 .used_by {
-  vertical-align: middle;
-  margin: 15px;
-  display: inline-block;
-  font-size: 35px;
-
-  filter: grayscale(100%);
-  -webkit-filter: grayscale(100%);
-  transition: filter 0.5s, -webkit-filter 0.5s;
-
-  &:hover {
-    filter: grayscale(0%);
-    -webkit-filter: grayscale(0%);
+    vertical-align: middle;
+    margin: 15px;
+    display: inline-block;
+    font-size: 35px;
+    filter: grayscale(100%);
+    -webkit-filter: grayscale(100%);
     transition: filter 0.5s, -webkit-filter 0.5s;
-  }
+    &:hover {
+        filter: grayscale(0%);
+        -webkit-filter: grayscale(0%);
+        transition: filter 0.5s, -webkit-filter 0.5s;
+    }
 }
-
 
 .used_by_narrow {
     width: 100px;
@@ -124,7 +119,6 @@
 .header_text {
     h1 {
         font-size: 450%;
-        color: #8dbd42;
     }
     p {
         font-size: 150%;
@@ -132,13 +126,9 @@
 }
 
 .portal-left {
-    
-    background-color: white;
-    
     h2 {
         margin-top: 10px;
         text-align: left;
-        color: #8dbd42;
     }
     p {
         text-align: left;
@@ -146,295 +136,234 @@
 }
 
 .portal-right {
-    
-    background-color: #F5FBF4;
-    
     h2 {
         margin-top: 10px;
         text-align: right;
-        color: #8dbd42;
     }
     p {
         text-align: right;
     }
 }
 
-// Page - Product
-
-.page-product {
-  padding-bottom: 20px;
-
-  a {
-    line-height: 2;
-  }
-
-  .pp-main-image-base {
-    margin-bottom: 10px;
-    width: 100%;
-  }
-
-  .pp-main-image-narrow {
-    @extend .pp-main-image-base;
-    @media (min-width: $screen-xs-min) {
-      width: 20%;
-      margin-left: 40%;
-    }
-  }
-
-  .pp-main-image-medium {
-    @extend .pp-main-image-base;
-    @media (min-width: $screen-xs-min) {
-      width: 50%;
-      margin-left: 25%;
-    }
-  }
-
-  .pp-main-image-wide {
-    @extend .pp-main-image-base;
-    width: 80%;
-    margin-left: 10%;
-  }
-
-  .pp-catch-phrase {
-    @extend h4;
-  }
-
-  button {
-    font-size: 20px;
-    font-weight: bold;
-
-    margin-top: 10px;
-    margin-bottom: 10px;
-
-    a {
-      color: white;
-    }
-
-    i {
-      padding-right: 30px;
-    }
-  }
-
-  .carousel {
-    margin-bottom: 30px
-  }
-
-  .carousel-control {
-    background-image: initial;
-    color: $bcGreen;
-    opacity: initial;
-    text-shadow: none;
-  }
-
-  .carousel-inner {
-    width: 70%;
-    margin-left: auto;
-    margin-right: auto;
-  }
-
-  .carousel-indicators {
-    bottom: -30px;
-    .active {
-      background-color: $bcGreen;
-    }
-    li {
-      border-color: $bcLightGrey;
-    }
-  }
+.portal-bg-color {
+    background-color: #FAFFF5;
 }
 
-
+// Page - Product
+.page-product {
+    padding-bottom: 20px;
+    a {
+        line-height: 2;
+    }
+    .pp-main-image-base {
+        margin-bottom: 10px;
+        width: 100%;
+    }
+    .pp-main-image-narrow {
+        @extend .pp-main-image-base;
+        @media (min-width: $screen-xs-min) {
+            width: 20%;
+            margin-left: 40%;
+        }
+    }
+    .pp-main-image-medium {
+        @extend .pp-main-image-base;
+        @media (min-width: $screen-xs-min) {
+            width: 50%;
+            margin-left: 25%;
+        }
+    }
+    .pp-main-image-wide {
+        @extend .pp-main-image-base;
+        width: 80%;
+        margin-left: 10%;
+    }
+    .pp-catch-phrase {
+        @extend h4;
+    }
+    button {
+        font-size: 20px;
+        font-weight: bold;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        a {
+            color: white;
+        }
+        i {
+            padding-right: 30px;
+        }
+    }
+    .carousel {
+        margin-bottom: 30px
+    }
+    .carousel-control {
+        background-image: initial;
+        color: $bcGreen;
+        opacity: initial;
+        text-shadow: none;
+    }
+    .carousel-inner {
+        width: 70%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .carousel-indicators {
+        bottom: -30px;
+        .active {
+            background-color: $bcGreen;
+        }
+        li {
+            border-color: $bcLightGrey;
+        }
+    }
+}
 
 // Page - Left menu
-
 // Modifier class for 1:1 aspect ratio
 .embed-responsive-1by1 {
-  padding-bottom: 100%;
+    padding-bottom: 100%;
 }
 
 .page-left-menu {
-  .plm-nav-s-1 {
-    background-color: $bcGreen;
-  }
-
-  .plm-nav-s-2 {
-    background-color: $bcMidGreen;
-  }
-
-  .plm-nav-s-3 {
-    background-color: $bcDarkGreen;
-  }
-
-  .plm-nav-s-extra {
-    background-color: $bcDarkGrey;
-  }
-
-  .plm-nav-space {
-    margin-top: 10px;
-  }
-
-  .plm-content li {
-    padding-bottom: 7px;
-  }
-
-  .plm-content-logo {
-    width: 100%;
-    max-width: 300px;
-    max-height: 300px;
-
-    margin-right: auto;
-    margin-left: auto;
-
-    margin-top: 20px;
-    margin-bottom: 20px;
-
-    display: block;
-  }
-
-  .plm-distributor-continent:not(:first-of-type) {
-    @media (min-width: $screen-xs-min) {
-      margin-top: 30px;
+    .plm-nav-s-1 {
+        background-color: $bcGreen;
     }
-
-    @media (min-width: $screen-md-min) {
-      margin-top: 100px;
+    .plm-nav-s-2 {
+        background-color: $bcMidGreen;
     }
-  }
-
-  .plm-content-info-step {
-    @media (min-width: $screen-xs-min) {
-      margin-bottom: 100px;
+    .plm-nav-s-3 {
+        background-color: $bcDarkGreen;
     }
-  }
-    
-  .plm-content-intro-text {
-
-    p {
-      font-weight:400;
+    .plm-nav-s-extra {
+        background-color: $bcDarkGrey;
     }
-  }
-
-  .plm-download-list {
-    width: 100%;
-    display: table;
-    table-layout: fixed;
-    list-style-type: none;
-    padding-left: 0;
-
-    margin-top: 10px;
-    padding-top: 4px;
-
-    margin-bottom: 10px;
-    padding-bottom: 4px;
-
-    border-top: solid 1px $table-line-color;
-    border-bottom: solid 1px $table-line-color;
-    text-align: center;
-
-
-    li {
-      @media (min-width: $screen-xs-min) {
-        display: table-cell;
-      }
+    .plm-nav-space {
+        margin-top: 10px;
     }
-  }
-
-  h3 {
-    border-width: 0 0 1px 0;
-    border-style: solid;
-  }
-
-  $padding-menu-top: 28px;
-
-  .affix {
-    $nav-cols-width: 4;
-
-    // This width (for floating menu) is NOT the same as for the menu in "top" position. The reason is that
-    // at the top position it is based on bs columns that have gutter, while when floating it is bsaed on the
-    // body width. This width is just the body width deivided by the number of columns. The difference is
-    // compensated for by the padding below. The width must be a relative (%) measurement, that's why it
-    // becomes a bit complicated.
-    width: percentage(($nav-cols-width / $grid-columns));
-
-    $bs-full-width-without-outer-gutter: $site-width - $grid-gutter-width;
-    $bs-4-cols-width-no-gutter: ($bs-full-width-without-outer-gutter * $nav-cols-width / $grid-columns) - $grid-gutter-width;
-
-    $full-width-4-cols: $site-width * $nav-cols-width / $grid-columns;
-
-    $diff: $full-width-4-cols - $bs-4-cols-width-no-gutter;
-    padding-right: $diff;
-
-    top: $content-area-padding-top + $padding-menu-top;
-
-    @media (min-width: $site-width + $grid-gutter-width) {
-      width: ($site-width * $nav-cols-width / $grid-columns) - $grid-gutter-width + $diff;
+    .plm-content li {
+        padding-bottom: 7px;
     }
-  }
-
-  .affix-bottom {
-    position: relative;
-  }
-
-  nav {
-    text-align: right;
-    margin-top: $padding-menu-top;
-
-    a {
-      padding: 0;
-      color: $side-menu-link-color;
-      font-weight: $nav-font-weight;
-    }
-
-    ul {
-      background-color: $side-menu-background-color;
-    }
-
-    li {
-      padding-right: 30px;
-      padding-top: 10px;
-      padding-bottom: 10px;
-      list-style-type: none;
-
-      ul {
-        display: none;
-
-        li {
-          padding-bottom: 0;
-        }
-      }
-
-      :hover, :focus {
-        background-color: inherit;
-      }
-
-      :hover {
-        color: black;
-      }
-    }
-
-    .active {
-      ul {
+    .plm-content-logo {
+        width: 100%;
+        max-width: 300px;
+        max-height: 300px;
+        margin-right: auto;
+        margin-left: auto;
+        margin-top: 20px;
+        margin-bottom: 20px;
         display: block;
-      }
-
-      >a::before {
-        content: "[ ";
-      }
-
-      >a::after {
-        content: " ]";
-      }
-
-      .active {
-        >a::before {
-          content: "< ";
-        }
-
-        >a::after {
-          content: " >";
-        }
-      }
     }
-
-  }
+    .plm-distributor-continent:not(:first-of-type) {
+        @media (min-width: $screen-xs-min) {
+            margin-top: 30px;
+        }
+        @media (min-width: $screen-md-min) {
+            margin-top: 100px;
+        }
+    }
+    .plm-content-info-step {
+        @media (min-width: $screen-xs-min) {
+            margin-bottom: 100px;
+        }
+    }
+    .plm-content-intro-text {
+        p {
+            font-weight: 400;
+        }
+    }
+    .plm-download-list {
+        width: 100%;
+        display: table;
+        table-layout: fixed;
+        list-style-type: none;
+        padding-left: 0;
+        margin-top: 10px;
+        padding-top: 4px;
+        margin-bottom: 10px;
+        padding-bottom: 4px;
+        border-top: solid 1px $table-line-color;
+        border-bottom: solid 1px $table-line-color;
+        text-align: center;
+        li {
+            @media (min-width: $screen-xs-min) {
+                display: table-cell;
+            }
+        }
+    }
+    h3 {
+        border-width: 0 0 1px 0;
+        border-style: solid;
+    }
+    $padding-menu-top: 28px;
+    .affix {
+        $nav-cols-width: 4;
+        // This width (for floating menu) is NOT the same as for the menu in "top" position. The reason is that
+        // at the top position it is based on bs columns that have gutter, while when floating it is bsaed on the
+        // body width. This width is just the body width deivided by the number of columns. The difference is
+        // compensated for by the padding below. The width must be a relative (%) measurement, that's why it
+        // becomes a bit complicated.
+        width: percentage(($nav-cols-width / $grid-columns));
+        $bs-full-width-without-outer-gutter: $site-width - $grid-gutter-width;
+        $bs-4-cols-width-no-gutter: ($bs-full-width-without-outer-gutter * $nav-cols-width / $grid-columns) - $grid-gutter-width;
+        $full-width-4-cols: $site-width * $nav-cols-width / $grid-columns;
+        $diff: $full-width-4-cols - $bs-4-cols-width-no-gutter;
+        padding-right: $diff;
+        top: $content-area-padding-top + $padding-menu-top;
+        @media (min-width: $site-width + $grid-gutter-width) {
+            width: ($site-width * $nav-cols-width / $grid-columns) - $grid-gutter-width + $diff;
+        }
+    }
+    .affix-bottom {
+        position: relative;
+    }
+    nav {
+        text-align: right;
+        margin-top: $padding-menu-top;
+        a {
+            padding: 0;
+            color: $side-menu-link-color;
+            font-weight: $nav-font-weight;
+        }
+        ul {
+            background-color: $side-menu-background-color;
+        }
+        li {
+            padding-right: 30px;
+            padding-top: 10px;
+            padding-bottom: 10px;
+            list-style-type: none;
+            ul {
+                display: none;
+                li {
+                    padding-bottom: 0;
+                }
+            }
+            :hover,
+            :focus {
+                background-color: inherit;
+            }
+            :hover {
+                color: black;
+            }
+        }
+        .active {
+            ul {
+                display: block;
+            }
+            >a::before {
+                content: "[ ";
+            }
+            >a::after {
+                content: " ]";
+            }
+            .active {
+                >a::before {
+                    content: "< ";
+                }
+                >a::after {
+                    content: " >";
+                }
+            }
+        }
+    }
 }
