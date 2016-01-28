@@ -104,13 +104,24 @@
   }
 }
 
+
 .used_by_narrow {
-  width: 100px;
+    width: 100px;
 }
 
 .used_by_medium {
-  width: 200px;
+    width: 200px;
 }
+
+.header_text {
+    h1 {
+        font-size: 450%;
+    }
+    p {
+        font-size: 150%;
+    }
+}
+
 
 
 // Page - Product
