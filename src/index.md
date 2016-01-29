@@ -5,56 +5,95 @@ permalink: /
 page_id: home
 ---
 
-<div class="container-fluid">
-  <section id="primary" class="row content-area">
-    <div class="col-md-6">
-    
-      <h1 class="title">Bitcraze and the Crazyflie</h1>
-      
-      <p>
-      Ever wanted a development-kit that flies? We did, so we developed the Crazyflie 
-      Nano Quadcopter! The goal with the Crazyflie was to give users a flying base for 
-      their development. We wanted to create an open source platform that would be fun 
-      to use, as well as give the users the possibility to work on and experiment with 
-      a wide range of features and areas.
-      </p>
-      
-      <p>
-      In order for users to quickly get going with their flying and development we 
-      provide a virtual machine with everything that is needed, documentation of the 
-      project and design as well as a range of different software. Flying is done 
-      from our main client software where you can use a variety of joysticks as well 
-      as the Leap Motion. You can also use our custom SD-card image for flying from 
-      the Raspberry Pi or our Android client for flying from your smartphone.
-      </p>
-      
-      <p>
-      We are constantly working on improving the design and trying to come up with 
-      fun new hacks and experiments that we implement and show users how to do. 
-      Through our community everyone get the chance to join in the discussion and 
-      development as well as take part and contribute to all the documentation.
-      </p>
-
-    </div>
-    <div class="col-md-6">
-      <a href="/crazyflie-2">
-        <div>
-          <img class="img-responsive" src="/images/FrontPicHand2.png" alt="Crayflie 2.0 in hand">
+<div class="front-page">
+    <div class="container-fluid front-top-banner">
+        <div class="row content-area">
+            <div class="col-md-9 header_text">
+                  <h1>Make your ideas fly!</h1> 
+                    <h3>A flying open development platform</h3>
+            </div>
+            <div class="col-md-3 semi-transparent">
+                <h1>From the blog</h1>
+                    <!-- inject wp blog -->
+                </p>
+            </div>
         </div>
-      </a>
     </div>
-  </section>
+
+
+    <div class="container-fluid">
+        <div class="row content-area">
+            <div class="col-md-12">
+                <img src="/images/front-page-portal-pic-2.jpg" class="img-responsive" alt="front"/>
+            </div>
+        </div>
+    </div>
+
+
+{% include index-portal-left.html portalheader="Used in research" portalimg="/images/BreakOutMounted2.png" portaltext="
+The Crazyflie is ideal for many areas of research. The source code and hardware
+is open, making it possible to tap into any
+part of the system for complete control and full flexibility. New hardware or sensors can be added
+through the versatile expansion ports, enabling the addition of the latest sensors.
+The small size and light weight reduces the need for safety equipment and increases
+productvity.
+
+Example applications: autonomous flight, path finding, sensor fusion, swarms and
+environment scanning
+"%}
+
+{% include index-portal-right.html portalheader="Used in education" portalimg="/images/FrontPicHand2.png" portaltext="
+The popularity of quadcopters makes the Crazyflie a perfect tool for higher eductaion.
+The source code is open making it easy to investigated or modified any part of the system,
+giving the students a direct connection from theory to the real world.
+
+Examples areas: realtime systems, automatic control and signal processing
+"%}
+
+{% include index-portal-left.html portalheader="Used in development" portalimg="/images/BreakOutMounted.png" portaltext="
+Prototype your flying application in the comfort of your lab and usual development
+environment on a small and handy Crazyflie. Add sensors and other hardware as needed
+through the expansion ports. When everything is tested and working as expected,
+move to a larger platform and go outdors.
+Try out if your favourite programming language is doing well for drones
+or investigate how to use sensor data to understand the real world.
+
+Examples: remote control, sensor integration, autonomous flight
+
+"%}
+
+{% include index-portal-right.html portalheader="DIY" portalimg="/images/d-i-y-portal.jpg" portaltext="
+Love to fly? Like to tinker with toys? Want to modify and explore? Hate limitations and closed
+systems? The Crazyflie is for you!
+
+Add decks for light and sound effects, or why not build your own deck? Create a
+skin to make it look like your favourite flying creature or add a camera and
+do First Person Flying. Use the Crazyflie on a bigger quadcopter frame and build
+the optimal drone, tailored for your needs.
+
+Example applications: flying for fun, FPV racing, flying art, application skinning and explore quadcopters
+"%}
+
+
+    <div class="container-fluid used-by-section">
+        <div class="row content-area">
+            <div class="col-md-12">
+                <h2>Used by</h2>
+
+                {% used_by NASA; /images/logos/nasa.png; narrow %}
+                {% used_by Stanford %}
+                {% used_by Microsoft; /images/logos/microsoft.jpg; medium %}
+                {% used_by Chalmers %}
+                {% used_by LTH; /images/logos/lth.png; narrow  %}
+                {% used_by IBM %}
+                {% used_by AdaCore %}
+                {% used_by University of Bologna %}
+                {% used_by USC; /images/logos/usc.png; medium %}
+                {% used_by MIT; /images/logos/mit.svg; narrow %}
+                {% used_by Bell Labs %}
+
+                <p class="text-right">Is your organization missing? <a href="https://github.com/bitcraze/bitcraze-website/edit/master/src/{{page.path}}"><i class="fa fa-pencil"></i> &nbsp;Improve this page</a></p>
+            </div>
+        </div>
+    </div>
 </div>
-<div class="container-fluid">
-  <section id="secondary" class="row">
-    <div class="col-md-8">
-      <h2 class="widget-title">From the blog</h2>
-      <!-- inject wp blog -->
-    </div>
-    <div class="col-md-4 widget-area" role="complementary">
-      <!-- inject wp sidebar -->
-    </div>
-  </section>
-</div>    
-
-
