@@ -123,8 +123,7 @@
         }
 
         h3 {
-
-            color: dimgrey;
+            color: $bcDarkGrey;
             font-weight: 600;
         }
 
@@ -138,9 +137,6 @@
     .header_text {
         h1 {
             font-size: 450%;
-        }
-        p {
-            font-size: 150%;
         }
     }
 
@@ -168,7 +164,12 @@
         background-color: $portal-background-color;
     }
     
-    
+    .portalexample {
+        p {
+            color: $bcGreen;
+            font-weight: bold;
+        }
+    }
 }
 
 // Page - Product
