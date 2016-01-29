@@ -22,9 +22,11 @@ page_id: home
 
     <div class="container-fluid">
         <div class="row content-area">
-            <div class="col-md-12">
+            <div class="col-sm-2"></div>
+            <div class="col-sm-8">
                 <img src="/images/front-page-portal-pic-2.jpg" class="img-responsive" alt="front"/>
             </div>
+            <div class="col-sm-2"></div>
         </div>
     </div>
 
