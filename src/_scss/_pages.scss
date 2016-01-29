@@ -63,7 +63,7 @@
         margin-top: 0px;
     }
     img {
-        border: 2px solid #8dbd42;
+        border: 2px solid $bcGreen;
         border-radius: 20%;
     }
 }
@@ -80,7 +80,7 @@
     h1,
     h2,
     h3 {
-        color: #8dbd42;
+        color: $bcGreen;
     }
 
     .front-top-banner {
@@ -167,7 +167,7 @@
     }
 
     .portal-bg-color {
-        background-color: #FAFFF5;
+        background-color: $portal-background-color;
     }
 }
 
