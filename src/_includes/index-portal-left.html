@@ -5,13 +5,13 @@
 
 <div class="container-fluid portal-left portal-bg-color">
     <div class="row content-area">
-        <div class="col-md-4">
+        <div class="hidden-xs col-sm-4 col-md-4">
             <img src="{{portalimg}}" class="img-responsive img-circle" alt="portalheader"/>
         </div>
-        <div class="col-md-6">
+        <div class="col-xs-12 col-sm-8 col-md-6">
             <h2>{{portalheader}}</h2> {{ portaltext | markdownify }}
             <span class="portalexample">{{ portalexample | markdownify }}</span>
         </div>
-        <div class="col-md-2"></div>
+        <div class="hidden-sm col-md-2"></div>
     </div>
 </div>
