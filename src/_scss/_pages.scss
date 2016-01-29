@@ -80,73 +80,73 @@
     h3 {
         color: #8dbd42;
     }
-}
 
-.front-top-banner {
-    background-image: url("/images/top-gradient.png");
-    background-size: 100%;
-    background-position: bottom;
-    background-repeat: no-repeat;
-}
+    .front-top-banner {
+        background-image: url("/images/top-gradient.png");
+        background-size: 100%;
+        background-position: bottom;
+        background-repeat: no-repeat;
+    }
 
-.semi-transparent {
-    background-color: rgba(255, 255, 255, 0.8);
-}
+    .semi-transparent {
+        background-color: rgba(255, 255, 255, 0.8);
+    }
 
-.used_by {
-    vertical-align: middle;
-    margin: 15px;
-    display: inline-block;
-    font-size: 35px;
-    filter: grayscale(100%);
-    -webkit-filter: grayscale(100%);
-    transition: filter 0.5s, -webkit-filter 0.5s;
-    &:hover {
-        filter: grayscale(0%);
-        -webkit-filter: grayscale(0%);
+    .used_by {
+        vertical-align: middle;
+        margin: 15px;
+        display: inline-block;
+        font-size: 35px;
+        filter: grayscale(100%);
+        -webkit-filter: grayscale(100%);
         transition: filter 0.5s, -webkit-filter 0.5s;
+        &:hover {
+            filter: grayscale(0%);
+            -webkit-filter: grayscale(0%);
+            transition: filter 0.5s, -webkit-filter 0.5s;
+        }
     }
-}
 
-.used_by_narrow {
-    width: 100px;
-}
+    .used_by_narrow {
+        width: 100px;
+    }
 
-.used_by_medium {
-    width: 200px;
-}
+    .used_by_medium {
+        width: 200px;
+    }
 
-.header_text {
-    h1 {
-        font-size: 450%;
+    .header_text {
+        h1 {
+            font-size: 450%;
+        }
+        p {
+            font-size: 150%;
+        }
     }
-    p {
-        font-size: 150%;
-    }
-}
 
-.portal-left {
-    h2 {
-        margin-top: 10px;
-        text-align: left;
+    .portal-left {
+        h2 {
+            margin-top: 10px;
+            text-align: left;
+        }
+        p {
+            text-align: left;
+        }
     }
-    p {
-        text-align: left;
-    }
-}
 
-.portal-right {
-    h2 {
-        margin-top: 10px;
-        text-align: right;
+    .portal-right {
+        h2 {
+            margin-top: 10px;
+            text-align: right;
+        }
+        p {
+            text-align: right;
+        }
     }
-    p {
-        text-align: right;
-    }
-}
 
-.portal-bg-color {
-    background-color: #FAFFF5;
+    .portal-bg-color {
+        background-color: #FAFFF5;
+    }
 }
 
 // Page - Product
