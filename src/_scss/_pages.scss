@@ -74,6 +74,8 @@
 }
 
 // Front page
+
+
 .front-page {
     h1,
     h2,
@@ -114,6 +116,22 @@
     .used_by_narrow {
         width: 100px;
     }
+    
+    .header_text {
+        h1 {
+            font-size: 450%;
+            font-weight: 600;
+            letter-spacing: 4px;
+        }
+
+        h3 {
+
+            color: dimgrey;
+            font-weight: 600;
+        }
+
+    }
+
 
     .used_by_medium {
         width: 200px;
