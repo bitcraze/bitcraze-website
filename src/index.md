@@ -24,7 +24,7 @@ page_id: home
         <div class="row content-area">
             <div class="col-sm-2"></div>
             <div class="col-sm-8">
-                <img src="/images/front-page-portal-pic-2.jpg" class="img-responsive" alt="front"/>
+                <img src="/images/fp-pics/front-page-portal-pic-5.jpg" class="img-responsive" alt="front"/>
             </div>
             <div class="col-sm-2"></div>
         </div>
@@ -45,7 +45,7 @@ environment scanning"%}
 
 {% include index-portal-right.html portalheader="Used in education" portalimg="/images/fp-pics/front-page-portal-pic-3.jpg" portaltext="
 The popularity of quadcopters makes the Crazyflie a perfect tool for higher eductaion.
-The source code is open making it easy to investigated or modified any part of the system,
+The source code is open making it easy to investigate or modify any part of the system,
 giving the students a direct connection from theory to the real world."
 
 portalexample="Examples areas: realtime systems, automatic control and signal processing
