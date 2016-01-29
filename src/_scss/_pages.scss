@@ -164,6 +164,12 @@
         background-color: $portal-background-color;
     }
     
+    .portaltext {
+        p {
+            font-size: 18px;
+        }
+    }
+    
     .portalexample {
         p {
             color: $bcGreen;
