@@ -12,13 +12,13 @@
 .media-row-base {
     margin-top: 20px;
     margin-bottom: 20px;
+    img {
+        width: 100%;
+    }
 }
 
 .media-row-narrow {
     @extend .media-row-base;
-    img {
-        width: 100%;
-    }
     @media (min-width: $screen-xs-min) {
         width: 20%;
         margin-left: 40%;
@@ -27,9 +27,6 @@
 
 .media-row-medium {
     @extend .media-row-base;
-    img {
-        width: 100%;
-    }
     @media (min-width: $screen-xs-min) {
         width: 50%;
         margin-left: 25%;
@@ -38,9 +35,6 @@
 
 .media-row-wide {
     @extend .media-row-base;
-    img {
-        width: 100%;
-    }
     @media (min-width: $screen-xs-min) {
         width: 100%;
         margin-left: 0;
@@ -83,6 +77,10 @@
         color: $bcGreen;
     }
 
+    img {
+        width: 100%;    
+    }
+    
     .front-top-banner {
         background-image: url("/images/top-gradient.png");
         background-size: 100%;
@@ -120,7 +118,7 @@
     .header_text {
         h1 {
             font-size: 450%;
-            font-weight: 600;
+            font-weight: 550;
             letter-spacing: 4px;
         }
 
@@ -169,6 +167,8 @@
     .portal-bg-color {
         background-color: $portal-background-color;
     }
+    
+    
 }
 
 // Page - Product

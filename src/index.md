@@ -15,7 +15,6 @@ page_id: home
             <div class="col-md-3 semi-transparent">
                 <h1>From the blog</h1>
                     <!-- inject wp blog -->
-                </p>
             </div>
         </div>
     </div>
