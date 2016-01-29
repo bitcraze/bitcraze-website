@@ -41,7 +41,7 @@ Expansion decks let's you add what you want
 %}
 
 {% collapse_section Read more %}
-We designed the Crazyflie 2.0 to be as flexible as we possibly could, for us this means adding as much features as we could fit and writing firmware made to be modified. In addition to the default functionality that comes with the Crazyflie 2.0 we have added a flexible expansion interface where a variety of expansion 
+We designed the Crazyflie 2.0 to be as flexible as we possibly could, for us this means adding as many features as we could fit and writing firmware made to be modified. In addition to the default functionality that comes with the Crazyflie 2.0 we have added a flexible expansion interface where a variety of expansion 
 decks can be attached, both on the top and the bottom of the Crazyflie 2.0. From the interface the user can access the buses, 
 like UART, I2C, SPI as well as PWM, analog in/out and GPIO.
 {% endcollapse_section %}
@@ -56,14 +56,14 @@ Only 27 grams and fits in the palm of your hand
 {% collapse_section Read more %}
 
 Having a nano quadcopter that only weighs 27g has a lot of
-advantages. The size makes it’s ideal for fly inside a lab, office or your living room without trashing half of the interior. 
+advantages. The size makes it ideal for flying inside a lab, office or your living room without trashing half of the interior. 
 Even though the propellers spin at high RPMs, they are soft
-and the torque in the motors are very low compared to a brushless
+and the torque in the motors is very low compared to a brushless
 motor. 
 
 The Crazyflie 2.0 is pretty fast if you let it be, but even if it
 crashes it's still only 27g which means the kinetic energy involved in a crash is fairly low. 
-The system is designed to break at the cheapest part, the motor mount, that are availible as spare parts.
+The system is designed to break at the cheapest part, the motor mounts, which are available as spare parts.
 {% endcollapse_section %}
         
 
@@ -130,7 +130,7 @@ Develop, change and experiment - or just fly
 %}
 
 {% collapse_section Read more %}
-There are ampel oportunities to play with the code regardless of which language you prefer. 
+There are ample oportunities to play with the code regardless of which language you prefer. 
 Our client API is written in Python, while there are many other client-side implementations on GitHub written
 in Ruby, C#, C/C++, JavaScript, Node.JS, Cylon.JS or Java.
 Or why not clone our iOS repository and get into some ObjectiveC/Swift.
@@ -153,7 +153,7 @@ Continuously updated and improved
 
 {% collapse_section Read more %}
 We continuously work on the firmware, software, documentation and new creative ways of using 
-the system. We also design new expansion decks that adds new functionality, 
+the system. We also design new expansion decks that add new functionality, 
 posibilities and expands the Crazyflie eco system.
 The platform supports wireless firmware
 updates via radio and Bluetooth LE, so when a new firmware is released
@@ -205,7 +205,7 @@ it's a breeze to update.
 ##### Flight specification
 
 * Flight time with stock battery: 7 minutes
-* Chraging time with stock battery: 40 minutes
+* Charging time with stock battery: 40 minutes
 * Max recommended payload weight: 15 g
 
 ##### Supported clients/controllers
