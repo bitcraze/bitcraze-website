@@ -54,4 +54,4 @@ melodies pre-programmed that you can use.
 
 {% endcollapse_section %}
 
-{% coming_soon http://www.seeedstudio.com/depot/Crazyflie-20-Qi-inductive-charging-expansion-board-p-2112.html %}
+{% buy_online http://www.seeedstudio.com/depot/Crazyflie-20-Buzzer-deck-p-2619.html %}
