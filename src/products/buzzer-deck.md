@@ -6,10 +6,10 @@ page_id: product-buzzer-deck
 ---
 
 {% product_img Buzzer deck; medium;
-/images/BuzzerDeckCrazyflie.jpg;
-/images/BuzzerDeckSide.jpg;
-/images/BuzzerDeckTop.jpg;
-/images/BuzzerDeckBottom.jpg
+/images/buzzer-deck/BuzzerDeckCrazyflie.jpg;
+/images/buzzer-deck/BuzzerDeckSide.jpg;
+/images/buzzer-deck/BuzzerDeckTop.jpg;
+/images/buzzer-deck/BuzzerDeckBottom.jpg
 %}
      
 {% product_highlight 

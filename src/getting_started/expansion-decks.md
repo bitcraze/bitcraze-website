@@ -22,13 +22,13 @@ The arrow indicates the forward direction and should point towards the front.
 
 Decks that are mounted on top of the Crazyflie 2.0 replaces the battery holder.
 
-{% img Deck orientation; wide; /images/deck-orientation.png %}
+{% img Deck orientation; wide; /images/getting-started/deck-orientation.png %}
 {% endgs_step %}
 
 
 {% gs_step which pin headers to use %}
 Below are three schematics showing three different use cases of expansion boards and what male expansion pins to use with them.
-{% img Short pin headers; wide; /images/pinheaders-usage-short.png %}
-{% img Long pin headers 2 on top; wide; /images/pinheaders-usage-long-2-top.png %}
-{% img Long pin headers top and bottom; wide; /images/pinheaders-usage-long-1-top-one-bottom.png %}
+{% img Short pin headers; wide; /images/getting-started/pinheaders-usage-short.png %}
+{% img Long pin headers 2 on top; wide; /images/getting-started/pinheaders-usage-long-2-top.png %}
+{% img Long pin headers top and bottom; wide; /images/getting-started/pinheaders-usage-long-1-top-one-bottom.png %}
 {% endgs_step %}

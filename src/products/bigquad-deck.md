@@ -6,13 +6,13 @@ page_id: product-bigquad-deck
 ---
 
 {% product_img BigQuad deck; medium;
-/images/BigQuadDeck/BigQuadDeck-4.jpg;
-/images/BigQuadDeck/BigQuadDeck-5.jpg;
-/images/BigQuadDeck/BigQuadDeck-6.jpg;
-/images/BigQuadDeck/BigQuadDeck-7.jpg;
-/images/BigQuadDeck/BigQuadDeck-1.jpg;
-/images/BigQuadDeck/BigQuadDeck-2.jpg;
-/images/BigQuadDeck/BigQuadDeck-3.jpg
+/images/bigquad-deck/BigQuadDeck-4.jpg;
+/images/bigquad-deck/BigQuadDeck-5.jpg;
+/images/bigquad-deck/BigQuadDeck-6.jpg;
+/images/bigquad-deck/BigQuadDeck-7.jpg;
+/images/bigquad-deck/BigQuadDeck-1.jpg;
+/images/bigquad-deck/BigQuadDeck-2.jpg;
+/images/bigquad-deck/BigQuadDeck-3.jpg
 %}
      
 {% product_highlight 

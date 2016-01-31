@@ -6,9 +6,9 @@ page_id: product-led-ring-deck
 ---
 
 {% product_img LED-ring deck; medium;
-/images/led-ring.png;
-/images/led-ringBack.png;
-/images/led-ring-dark.png
+/images/led-ring/led-ring.png;
+/images/led-ring/led-ringBack.png;
+/images/led-ring/led-ring-dark.png
 %}
 
 {% product_highlight 

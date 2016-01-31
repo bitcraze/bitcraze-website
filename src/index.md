@@ -24,14 +24,14 @@ page_id: home
         <div class="row content-area">
             <div class="col-sm-2"></div>
             <div class="col-sm-8">
-                <img src="/images/fp-pics/front-page-portal-pic-5.jpg" class="img-responsive" alt="front"/>
+                <img src="/images/frontpage/front-page-portal-pic-5.jpg" class="img-responsive" alt="front"/>
             </div>
             <div class="col-sm-2"></div>
         </div>
     </div>
 
 
-{% include index-portal-left.html portalheader="Used in research" portalimg="/images/fp-pics/front-page-portal-pic-2.jpg" portaltext="
+{% include index-portal-left.html portalheader="Used in research" portalimg="/images/frontpage/front-page-portal-pic-2.jpg" portaltext="
 The Crazyflie is ideal for many areas of research. The source code and hardware
 is open, making it possible to tap into any
 part of the system for complete control and full flexibility. New hardware or sensors can be added
@@ -43,7 +43,7 @@ portalexample="
 Example applications: autonomous flight, path finding, sensor fusion, swarms and
 environment scanning"%}
 
-{% include index-portal-right.html portalheader="Used in education" portalimg="/images/fp-pics/front-page-portal-pic-3.jpg" portaltext="
+{% include index-portal-right.html portalheader="Used in education" portalimg="/images/frontpage/front-page-portal-pic-3.jpg" portaltext="
 The popularity of quadcopters makes the Crazyflie a perfect tool for higher eductaion.
 The source code is open making it easy to investigate or modify any part of the system,
 giving the students a direct connection from theory to the real world."
@@ -51,7 +51,7 @@ giving the students a direct connection from theory to the real world."
 portalexample="Examples areas: realtime systems, automatic control and signal processing
 "%}
 
-{% include index-portal-left.html portalheader="Used in development" portalimg="/images/fp-pics/front-page-portal-pic-1.jpg" portaltext="
+{% include index-portal-left.html portalheader="Used in development" portalimg="/images/frontpage/front-page-portal-pic-1.jpg" portaltext="
 Prototype your flying application in the comfort of your lab and usual development
 environment on a small and handy Crazyflie. Add sensors and other hardware as needed
 through the expansion ports. When everything is tested and working as expected,
@@ -63,7 +63,7 @@ portalexample="Examples: remote control, sensor integration, autonomous flight
 
 "%}
 
-{% include index-portal-right.html portalheader="DIY" portalimg="/images/fp-pics/front-page-portal-pic-4.jpg" portaltext="
+{% include index-portal-right.html portalheader="DIY" portalimg="/images/frontpage/front-page-portal-pic-4.jpg" portaltext="
 Love to fly? Like to tinker with toys? Want to modify and explore? Hate limitations and closed
 systems? The Crazyflie is for you!
 

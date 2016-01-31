@@ -6,10 +6,10 @@ page_id: product-prototyping-deck
 ---
 
 {% product_img Prototyping deck; medium;
-/images/PrototypingDeckInAction.png;
-/images/PrototypingDeckFront.png;
-/images/PrototypingDeckTop.png;
-/images/PrototypingDeckBack.png
+/images/prototyping-deck/PrototypingDeckInAction.png;
+/images/prototyping-deck/PrototypingDeckFront.png;
+/images/prototyping-deck/PrototypingDeckTop.png;
+/images/prototyping-deck/PrototypingDeckBack.png
 
 
 

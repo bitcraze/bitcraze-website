@@ -111,7 +111,7 @@ propellers, the clock wise (CW) and counter clock wise (CCW) propellers,
 each kind has their own bag in the box. Here we are attaching the CW propellers.
 {% vine OrLaQ7TElb2 %}    
 Here’s a detailed view of where to attach CW and CCW propellers.
-{% img Crazyflie 2.0 propeller mounting; medium; /images/cf2_props.png %}
+{% img Crazyflie 2.0 propeller mounting; medium; /images/getting-started/cf2_props.png %}
 {% endgs_step %}
 
 {% gs_step attach the rubber pad %}
@@ -174,13 +174,13 @@ The Crazyflie client is avalable for Android and iOS.
 
 [For iPhone, from Apple iTunes](https://itunes.apple.com/us/app/crazyflie-2.0/id946151480?mt=8)
 
-{% img Crazyflie 2.0 app; narrow; /images/cf-mobile-app.png %}
+{% img Crazyflie 2.0 app; narrow; /images/getting-started/cf-mobile-app.png %}
 {% endgs_step %}
 
 {% gs_step connect to the Crazyflie 2.0 %}
 Start the app and click the connect button. The buttons have different
 appearances in the Android and iOS apps, you can see them bellow.
-{% img Connect buttons; medium; /images/connect-icons.png %}
+{% img Connect buttons; medium; /images/getting-started/connect-icons.png %}
 Continue reading the [Flying section.](#flying)
 {% endgs_step %}
 
@@ -233,7 +233,7 @@ highlight the Bitcraze VM and start it.
 In the virtual machine double click the "update all projects" icon on the
 desktop. This pulls down the latest source code from github
 for all projects.
-{% img Update all projects icon; narrow; /images/update-all-projects-icon.png %}
+{% img Update all projects icon; narrow; /images/getting-started/update-all-projects-icon.png %}
 {% endgs_step %}
 
 {% gs_step download latest firmware %}
@@ -251,18 +251,18 @@ for all projects.
 {% tabgroup %}
 {% tab Windows/Linux %}
 * In the bottom right corner click the usb icon and choose “Bitcraze Crazyradio PA USB dongle”.
-{% img USB settings; medium; /images/SwPic5Final.png %}      
+{% img USB settings; medium; /images/getting-started/SwPic5Final.png %}      
 * Now choose your game controller in the same list.
 {% endtab %}
 {% tab OS X %}
 * In the bottom right corner click the usb icon, then click “USB settings".
-{% img USB settings; medium; /images/SwPic2.1Final.png %}      
+{% img USB settings; medium; /images/getting-started/SwPic2.1Final.png %}      
 * Click the USB filter "+" icon.
-{% img USB settings; wide; /images/SwPic3Final.png %}      
+{% img USB settings; wide; /images/getting-started/SwPic3Final.png %}      
 * Choose your game controller from the list. Click OK.
-{% img USB settings; wide; /images/SwPic4Final.png %}     
+{% img USB settings; wide; /images/getting-started/SwPic4Final.png %}     
 * Now click the USB icon again and choose the “Bitcraze Crazyradio PA USB dongle”.
-{% img USB settings; medium; /images/SwPic5Final.png %}      
+{% img USB settings; medium; /images/getting-started/SwPic5Final.png %}      
 * Now choose your game controller in the same list.
 {% endtab %}
 {% endtabgroup %}
@@ -270,20 +270,20 @@ for all projects.
 
 {% gs_step start the Crazyflie client %}
 Double click the “Crazyflie client” icon on the VM desktop
-{% img Crazyflie client icon; narrow; /images/SwPic6Final.png %}
+{% img Crazyflie client icon; narrow; /images/getting-started/SwPic6Final.png %}
 {% endgs_step %}
 
 {% gs_step configure your controller %}
 In the client, open the input device settings. Check if the correct device
 mapping is chosen, otherwise pick your device type.
-{% img Controller settings; wide; /images/SwPic7Final.png %}
+{% img Controller settings; wide; /images/getting-started/SwPic7Final.png %}
 {% endgs_step %}
 
 {% gs_step update firmware in the Crazyflie %}
 * Turn the Crazyflie off.
 * Start the Crazyflie in bootloader mode by pressing the power button for 3 seconds. Both the blue LEDs will blink.
 * Go back to the Crazyflie client in the VM and click the Crazyflie -> Bootloader menu. 
-{% img Update firmware dialog; wide; /images/SwPic8Final.png %}
+{% img Update firmware dialog; wide; /images/getting-started/SwPic8Final.png %}
 * Click the “Initiate bootloader cold boot” button. After a few seconds the status should read “Connected to bootloader”.
 * Click the “Browse” button and go to home/bitcraze/Downloads and select the file you downloaded earlier.
 * Click the “Program” button. The progress bar will go from 0% to 100% twice, as 
@@ -296,7 +296,7 @@ and is not updated.
 {% gs_step connect to the Crazyflie %}
 * In the Crazyflie client, click the “Connect” button in top left corner.
 * In the connect dialog, click the “Scan” button. The radio settings for you Crazyflie is displayed.
-{% img Connect dialog; wide; /images/SwPic9Final.png %}
+{% img Connect dialog; wide; /images/getting-started/SwPic9Final.png %}
 * Click the “Connect” button.
 
 Now that you have connected your Crazyflie to your client, telemetry data
@@ -315,7 +315,7 @@ Now it's time to do some flying, but first there are som basics you need to know
 First of all, you need to understand where the front is, it is much easier
 to fly with the copter pointing away from you. The blue LEDs are in the
 back end, so keep them pointing in your direction when starting to fly.
-{% img Crazyflie board from the top; medium; /images/frontCF.png %}
+{% img Crazyflie board from the top; medium; /images/getting-started/frontCF.png %}
 You also need to understand what the LEDs mean.
 
 * **Power on and all is good:** The blue LEDs (2 and 3) are fully lit and the 
@@ -331,7 +331,7 @@ red pulses with a longer pause between groups.
 
 {% gs_step maneuvering a quadcopter %}
 When flying a quadcopter there are four main dimensions of controls; roll, pitch, yaw and thrust.
-{% img Axis; wide; /images/AxisImage.png %}
+{% img Axis; wide; /images/getting-started/AxisImage.png %}
 
 * **Roll -** is the rotation around a horizontal axis going through the quadcopter 
 from back to front. This literally rolls the Crazyflie and moves it left or right.
@@ -345,7 +345,7 @@ of the Crazyflie in different directions.
 
 {% gs_step the mobile app / gamecontroller %}
 The controlls on the gamepad or mobile app have the following mapping:
-{% img Control mapping; medium; /images/controller.png %}
+{% img Control mapping; medium; /images/getting-started/controller.png %}
 {% endgs_step %}
 
 {% gs_step normal flight %}

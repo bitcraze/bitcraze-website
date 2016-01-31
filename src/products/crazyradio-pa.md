@@ -6,9 +6,9 @@ page_id: product-crazyradio-pa
 ---
 
 {% product_img Crazyradio PA; medium;
-/images/CrazyRadioSide.png;
-/images/CrazyRadioFront.png;
-/images/CrazyRadioBack.png
+/images/crazyradio-pa/CrazyRadioSide.png;
+/images/crazyradio-pa/CrazyRadioFront.png;
+/images/crazyradio-pa/CrazyRadioBack.png
 
 %}
      

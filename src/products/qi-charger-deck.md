@@ -6,10 +6,10 @@ page_id: product-qi-charger
 ---
 
 {% product_img Qi charger deck; medium;
-/images/qi-charger-deck-front.png;
-/images/qi-charger-deck-top.png;
-/images/qi-charger-deck-back.png;
-/images/qi-charger-deck-mounted.png
+/images/qi-charger/qi-charger-deck-front.png;
+/images/qi-charger/qi-charger-deck-top.png;
+/images/qi-charger/qi-charger-deck-back.png;
+/images/qi-charger/qi-charger-deck-mounted.png
 %}
      
 {% product_highlight 

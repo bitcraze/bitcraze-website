@@ -7,10 +7,10 @@ page_id: product-breakout-deck
 
 
 {% product_img Breakout deck; medium;
-/images/BreakOutMounted2.png;
-/images/BreakOutMounted.png;
-/images/BreakOutTop.png;
-/images/BreakOutBack.png
+/images/breakout-deck/BreakOutMounted2.png;
+/images/breakout-deck/BreakOutMounted.png;
+/images/breakout-deck/BreakOutTop.png;
+/images/breakout-deck/BreakOutBack.png
 
 
 

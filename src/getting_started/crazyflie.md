@@ -70,7 +70,7 @@ machine to start using it.
 When the virtual machine is started, the Crazyradio and your gamepad should be 
 connected to it:
 
-{% img bitcraze vm setup; wide; /images/bitcraze_vm_setup-1024x684.jpg %}
+{% img bitcraze vm setup; wide; /images/getting-started/bitcraze_vm_setup-1024x684.jpg %}
 
 ## Flying
 

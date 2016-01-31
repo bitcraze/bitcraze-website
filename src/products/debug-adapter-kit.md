@@ -6,10 +6,10 @@ page_id: product-debug-adapter-kit
 ---
 
 {% product_img Debug adapter kit; medium;
-/images/DebugerAdapterMounted.png;
-/images/DebugAdapterSide.png;
-/images/DebugAdapterTop.png;
-/images/DebugAdapterBottom.png
+/images/debug-adapter/DebugerAdapterMounted.png;
+/images/debug-adapter/DebugAdapterSide.png;
+/images/debug-adapter/DebugAdapterTop.png;
+/images/debug-adapter/DebugAdapterBottom.png
 %}
      
 {% product_highlight 
