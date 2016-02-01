@@ -2,6 +2,7 @@
 layout: page-left-menu
 title: Balancing propellers
 permalink: /balancing-propellers/
+page_id: balancing-propellers
 ---
 
 {% gs_intro Balancing propellers %}
@@ -10,7 +11,9 @@ sensors, improving the stability of the Crazyflie. In most cases there is no
 need to balance the propellers, but if you want to do it this is how it's done.
 {% endgs_intro %}
 
-{% gs_step You need: %}
+{% gs_step preparations %}
+You need:
+
 * A small round pin or needle
 * Tape. Normal transparent office tape works well
 * A pair of Scissors

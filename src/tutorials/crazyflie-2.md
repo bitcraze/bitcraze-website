@@ -83,28 +83,6 @@ inserted, connect the motor connectors to the Crazyflie 2.0.
 {% vine Or3l3lYJaFb %}    
 {% endgs_step %}
 
-{% gs_step checking the propellers %}
-Before attaching the propellers check if they are well balanced. Do this by
-placing a propeller on a needle. Hold the propeller in a horizontal
-position and then release it, if it tilts over it is unbalanced. Balance
-the propeller by attaching a small piece of tape on the side that is
-pointing upwards.    
-{% vine O6J2bgHdTvJ %}    
-{% endgs_step %}
-
-{% gs_step balancing the propellers %}
-If the propeller is unbalanced attach tape to the convex side of the
-propeller as shown in the video. The amount of tape that should be used
-varies and you might need some tries to find the correct amount.
-{% vine O6J2LUeF65W %}    
-{% endgs_step %}
-
-{% gs_step add more tape if needed %}
-After you have placed the first bit of tape try shaking the propellers a
-bit, if the propeller isn't tilting over anymore it's balanced.
-{% vine O6JPPxqVZOe %}    
-{% endgs_step %}
-
 {% gs_step attach the propellers %}
 Now it’s time to attach the propellers. Note: There are two kinds of
 propellers, the clock wise (CW) and counter clock wise (CCW) propellers,
@@ -368,7 +346,7 @@ when taking off and then ease off for level flight.
 {% endgs_step %}
 
 {% gs_step if the Crazyflie is unbalanced %}
-If your Crazyflie drifts a lot when taking off, there are two things you should check.
+If your Crazyflie drifts a lot when taking off, there are a few things you should check.
     
 * Make sure the battery is centered. If it has slipped
 too far to either side, the Crazyflie might have a hard time
@@ -377,6 +355,7 @@ compensating for it.
 and verify that they turn. A a common problem is that hair is jammed between the 
 propeller and motor. If this is the problem. just pull the propeller off from the
 motor, remove the hair and reinstall the propeller.
+* Check that the propellers are balanced, [see the balancing propellers guide](/balancing-propellers/)
 {% endgs_step %}
 
 {% gs_step charging the battery %}

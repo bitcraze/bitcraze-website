@@ -21,11 +21,12 @@
   - {page_id: buy-distributors}
   - {page_id: buy-guide}
 
-- title: Getting started
+- title: Tutorials
   subs:
-  - {page_id: getting-started-crazyflie-2, title: Crazflie 2.0}
-  - {page_id: getting-started-expansion-decks, title: Expansion decks}
-  - {page_id: getting-started-crazyflie, title: Crazyflie}
+  - {page_id: getting-started-crazyflie-2}
+  - {page_id: getting-started-expansion-decks}
+  - {page_id: balancing-propellers}
+  - {page_id: getting-started-crazyflie}
 
 - title: Support
   subs:
