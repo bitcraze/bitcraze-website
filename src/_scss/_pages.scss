@@ -80,7 +80,12 @@
     img {
         width: 100%;    
     }
-    
+
+    .fp-blog {
+        border-top: 1px solid $bcLightGrey;
+        border-bottom: 1px solid $bcLightGrey;
+    }
+
     .front-top-banner {
         background-image: url("/images/frontpage/top-gradient.png");
         background-size: 100%;

@@ -12,7 +12,7 @@ page_id: home
                   <h1>Make your ideas fly!</h1> 
                     <h3>A flying open development platform</h3>
             </div>
-            <div class="col-md-3 semi-transparent">
+            <div class="col-md-3 semi-transparent fp-blog">
                 <h1>From the blog</h1>
                     <!-- inject wp blog -->
             </div>
