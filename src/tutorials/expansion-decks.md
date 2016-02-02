@@ -6,7 +6,7 @@ page_id: getting-started-expansion-decks
 ---
 
 {% gs_intro Expansion decks %}
-The Crazyflie 2.0 is equipeed with a flexible expansion port that enables new 
+The Crazyflie 2.0 is equipped with a flexible expansion port that enables new 
 hardware to be connected. The port is available from both sides of the Crazyflie 
 to keep as many options open as possible. The port is used by expansion decks 
 to provide new functionality to the Crazyflie 2.0 and since the port is 
