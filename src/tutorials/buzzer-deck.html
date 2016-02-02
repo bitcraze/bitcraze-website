@@ -1,0 +1,99 @@
+---
+layout: page-left-menu
+title: Getting started with the buzzer deck 
+permalink: /getting-started-with-buzzer-deck/
+page_id: getting-started-buzzer-deck
+---
+
+{% gs_intro The buzzer deck %}
+The buzzer deck contains a low profile piezo buzzer and have a 1-wire memory which enables the Crazyflie to automatically detect the buzzer, 
+the deck can be installed both on the top and the bottom of the Crazyflie.
+To be able to use the buzzer you need to update the Crazyflie to the [latest firmware](https://github.com/bitcraze/crazyflie-release/releases).
+
+If you need more information on how to install the latest firmware go to the [download latest firmware](https://www.bitcraze.io/getting-started-with-the-crazyflie-2-0/#infostep27) section in our getting started with Crazyflie 2.0 tutorial and follow the steps. 
+For more information about how to mount an expansion deck please see the [Getting started with expansion decks](https://github.com/bitcraze/crazyflie-release/releases) tutorial.  
+Note that the buzzer board should always be mounted before powering on the Crazyflie 2.0.
+{% endgs_intro %}
+
+{% gs_step playing your first melody %}
+To start out with the buzzer deck the Crazyflie is pre-programmed with system sounds and some melodies.
+To play them you need to first open up the client and set up a connection with your Crazyflie.
+For more information about how to set up your Crazyflie and install the client go to [Getting started with the Crazyflie 2.0](https://www.bitcraze.io/getting-started-with-the-crazyflie-2-0/).
+
+In the client go to view, choose tabs and check parameters.
+{% img Buzzer deck tutorial; wide; /images/buzzer-deck-tutorial/buzzer-deck-tut1.png %}
+{% endgs_step %}
+
+{% gs_step choose a sound %}
+Click the parameters tab and scroll down to sounds. 
+In the effects row double click the number in the value column and type the number of the sound you want to play.
+You can find the list of sounds below
+{% img Buzzer deck tutorial2; wide; /images/buzzer-deck-tutorial/buzzer-deck-tut3.png %}
+{% endgs_step %}
+
+{% gs_step list of sounds %}
+Here is a list of the pre-programmed sounds you can choose from:
+
+<table class="table table-bordered table-condensed">
+  <tr>
+    <td><strong>Number</strong></td>
+    <td><strong>Function</strong></td>		
+  </tr>
+  <tr>
+    <td>0</td>
+    <td>sound off</td>		
+  </tr>
+  <tr>
+    <td>1</td>
+    <td>factory test</td>		
+  </tr>
+    <tr>
+    <td>2</td>
+    <td>usb connected</td>		
+  </tr>
+    <tr>
+    <td>3</td>
+    <td>usb disconnected</td>		
+  </tr>
+    <tr>
+    <td>4</td>
+    <td>charing done</td>		
+  </tr>
+    <tr>
+    <td>5</td>
+    <td>low battery</td>		
+  </tr>
+    <tr>
+    <td>6</td>
+    <td>start up</td>		
+  </tr>
+    <tr>
+    <td>7</td>
+    <td>calibrated</td>		
+  </tr>
+    <tr>
+    <td>8</td>
+    <td>range slow</td>		
+  </tr>
+     <tr>
+    <td>9</td>
+    <td>range fast</td>		
+  </tr>
+     <tr>
+    <td>10</td>
+    <td>star wars</td>		
+  </tr>
+     <tr>
+    <td>11</td>
+    <td>bypass - change sound pitch by changing value in the freq row</td>		
+  </tr>
+     <tr>
+    <td>12</td>
+    <td>siren</td>		
+  </tr>
+     <tr>
+    <td>13</td>
+    <td>tilt - tilt the Crazyflie to play the sound</td>		
+  </tr>
+</table>
+{% endgs_step %}
