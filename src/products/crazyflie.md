@@ -1,6 +1,6 @@
 ---
 layout: page-product
-title: Crazyflie
+title: Crazyflie 1.0
 permalink: /crazyflie/
 ---
 

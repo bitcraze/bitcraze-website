@@ -7,9 +7,9 @@ page_id: product-old
 
 Some distributors are still carrying these products, but they are no longer in production.
 
-### Crazyflie Nano Quadcopter
+### Crazyflie 1.0
 
-<a href="/crazyflie/"><img width="150" height="150" src="/images/cf_800-150x150.jpg" alt="Crazyflie Nano Quadcopter"/></a>
+<a href="/crazyflie/"><img width="150" height="150" src="/images/cf_800-150x150.jpg" alt="Crazyflie 1.0"/></a>
 
 [Read more](/crazyflie/)
 
