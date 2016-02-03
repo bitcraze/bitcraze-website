@@ -15,7 +15,8 @@ available from both sides it is possible to attach two decks at the same time.
 
 {% gs_step attaching a deck %}
 **BE AWARE** that it is very important to mount an expansion deck with the 
-**CORRECT ORIENTATION**, or the deck might be damaged.
+**CORRECT ORIENTATION**, or the deck might be damaged. Always make sure the 
+Crazyflie 2.0 is powered off before mounting or unmounting a deck.
 
 Look for the small symbols that shows which side is up and down, the dot is up and the cross is down.
 The arrow indicates the forward direction and should point towards the front.

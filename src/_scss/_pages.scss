@@ -50,6 +50,11 @@
     @extend .embed-responsive-item;
 }
 
+table {
+    @extend .table;
+    @extend .table-bordered;
+}
+
 // Team member
 .team {
     margin-bottom: 50px;

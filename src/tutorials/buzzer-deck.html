@@ -1,30 +1,39 @@
 ---
 layout: page-left-menu
-title: Getting started with the buzzer deck 
+title: Getting started with the Buzzer deck 
 permalink: /getting-started-with-buzzer-deck/
 page_id: getting-started-buzzer-deck
 ---
 
 {% gs_intro The buzzer deck %}
-The buzzer deck contains a low profile piezo buzzer and have a 1-wire memory which enables the Crazyflie to automatically detect the buzzer, 
-the deck can be installed both on the top and the bottom of the Crazyflie.
-To be able to use the buzzer you need to update the Crazyflie to the [latest firmware](https://github.com/bitcraze/crazyflie-release/releases).
+The buzzer deck contains a low profile piezo buzzer and have a 1-wire memory which enables the Crazyflie to automatically detect the buzzer.
+The deck can be installed both on the top and the bottom of the Crazyflie. For more information about how to mount an expansion deck please see the [Getting started with expansion decks](https://github.com/bitcraze/crazyflie-release/releases) tutorial.
 
-If you need more information on how to install the latest firmware go to the [download latest firmware](https://www.bitcraze.io/getting-started-with-the-crazyflie-2-0/#infostep27) section in our getting started with Crazyflie 2.0 tutorial and follow the steps. 
-For more information about how to mount an expansion deck please see the [Getting started with expansion decks](https://github.com/bitcraze/crazyflie-release/releases) tutorial.  
-Note that the buzzer board should always be mounted before powering on the Crazyflie 2.0.
+To be able to use the buzzer you need to update the Crazyflie to the latest firmware. For more information on how to update the firmware, see the [download latest firmware](https://www.bitcraze.io/getting-started-with-the-crazyflie-2-0/#infostep27) section in our getting started with Crazyflie 2.0 tutorial. 
+  
 {% endgs_intro %}
 
-{% gs_step playing your first melody %}
-To start out with the buzzer deck the Crazyflie is pre-programmed with system sounds and some melodies.
-To play them you need to first open up the client and set up a connection with your Crazyflie.
-For more information about how to set up your Crazyflie and install the client go to [Getting started with the Crazyflie 2.0](https://www.bitcraze.io/getting-started-with-the-crazyflie-2-0/).
+{% gs_step system sounds %}
+When the Buzzer deck is installed, the Crazyflie 2.0 will play sounds at various events, for intsance when the battery is charged. The events are
 
-In the client go to view, choose tabs and check parameters.
-{% img Buzzer deck tutorial; wide; /images/buzzer-deck-tutorial/buzzer-deck-tut1.png %}
+* Start up
+* Sensors calibrated
+* Low battery
+* Charging completed
+* USB connected
+* USB disconnected
+
 {% endgs_step %}
 
-{% gs_step choose a sound %}
+
+{% gs_step play a sound from the client %}
+To start out with the Buzzer deck the Crazyflie is pre-programmed with system sounds and some melodies.
+To play them you need to use the python client and set up a connection with your Crazyflie.
+For more information about how to set up your Crazyflie and install the client go to [Getting started with the Crazyflie 2.0](https://www.bitcraze.io/getting-started-with-the-crazyflie-2-0/).
+
+In the client, go to the view menu and choose tabs. Check "parameters" to enable the tab.
+{% img Buzzer deck tutorial; wide; /images/buzzer-deck-tutorial/buzzer-deck-tut1.png %}
+
 Click the parameters tab and scroll down to sounds. 
 In the effects row double click the number in the value column and type the number of the sound you want to play.
 You can find the list of sounds below
@@ -34,66 +43,22 @@ You can find the list of sounds below
 {% gs_step list of sounds %}
 Here is a list of the pre-programmed sounds you can choose from:
 
-<table class="table table-bordered table-condensed">
-  <tr>
-    <td><strong>Number</strong></td>
-    <td><strong>Function</strong></td>		
-  </tr>
-  <tr>
-    <td>0</td>
-    <td>sound off</td>		
-  </tr>
-  <tr>
-    <td>1</td>
-    <td>factory test</td>		
-  </tr>
-    <tr>
-    <td>2</td>
-    <td>usb connected</td>		
-  </tr>
-    <tr>
-    <td>3</td>
-    <td>usb disconnected</td>		
-  </tr>
-    <tr>
-    <td>4</td>
-    <td>charing done</td>		
-  </tr>
-    <tr>
-    <td>5</td>
-    <td>low battery</td>		
-  </tr>
-    <tr>
-    <td>6</td>
-    <td>start up</td>		
-  </tr>
-    <tr>
-    <td>7</td>
-    <td>calibrated</td>		
-  </tr>
-    <tr>
-    <td>8</td>
-    <td>range slow</td>		
-  </tr>
-     <tr>
-    <td>9</td>
-    <td>range fast</td>		
-  </tr>
-     <tr>
-    <td>10</td>
-    <td>star wars - who doesn't love star wars!</td>		
-  </tr>
-     <tr>
-    <td>11</td>
-    <td>bypass - change sound pitch by changing value in the freq row</td>		
-  </tr>
-     <tr>
-    <td>12</td>
-    <td>siren</td>		
-  </tr>
-     <tr>
-    <td>13</td>
-    <td>tilt - tilt the Crazyflie to play the sound</td>		
-  </tr>
-</table>
+
+|Number|Name            |Function                                                |
+|------|----------------|--------------------------------------------------------|
+|0     |Silent          |                                                        |
+|1     |Factory test    |                                                        |
+|2     |USB connected   |                                                        |
+|3     |USB disconntectd|                                                        |
+|4     |Charging done   |                                                        |
+|5     |Low battery     |                                                        |
+|6     |Start up        |                                                        |
+|7     |Calibrated      |                                                        |
+|8     |Range slow      |                                                        |
+|9     |Range fast      |                                                        |
+|10    |Star Wars       |Who doesn't love Star Wars!                             |
+|11    |Bypass          |Change sound pitch by changing the value in the freq row|
+|12    |Siren           |                                                        |
+|13    |Tilt            |Tilt the Crazyflie to play the sound                    |
+
 {% endgs_step %}
