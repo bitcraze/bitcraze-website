@@ -154,9 +154,11 @@ table {
         h2 {
             margin-top: 10px;
             text-align: left;
+            width: 100%;
         }
         p {
             text-align: left;
+            font-size: 18px;
         }
     }
 
@@ -164,20 +166,16 @@ table {
         h2 {
             margin-top: 10px;
             text-align: right;
+            width: 100%;
         }
         p {
             text-align: right;
+            font-size: 18px;
         }
     }
 
     .portal-bg-color {
         background-color: $portal-background-color;
-    }
-    
-    .portaltext {
-        p {
-            font-size: 18px;
-        }
     }
     
     .portalexample {
@@ -186,7 +184,18 @@ table {
             font-weight: bold;
         }
     }
+    
+    .col-content-center {
+            height: 370px;
+            display: flex;
+            flex-wrap: wrap;
+            align-content: center;
+    }
+   
 }
+
+
+ 
 
 // Page - Product
 .page-product {

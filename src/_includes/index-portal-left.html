@@ -4,15 +4,18 @@
 {% assign portalexample = include.portalexample %}
 
 <div class="container-fluid portal-left portal-bg-color">
+    
     <div class="row content-area">
         <div class="hidden-xs col-sm-4 col-md-4">
             <img src="{{portalimg}}" class="img-responsive img-circle" alt="portalheader"/>
         </div>
-        <div class="col-xs-12 col-sm-8 col-md-6">
+      
+        <div class="col-xs-12 col-sm-8 col-md-6 col-content-center">
             <h2>{{portalheader}}</h2> 
-            <span class="portaltext">{{ portaltext | markdownify }}</span>
+            <span>{{ portaltext | markdownify }}</span>
             <span class="portalexample">{{ portalexample | markdownify }}</span>
         </div>
         <div class="hidden-sm col-md-2"></div>
     </div>
+        
 </div>
