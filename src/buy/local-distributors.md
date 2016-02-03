@@ -80,6 +80,7 @@ but the products are also available from a number of local distributors word-wid
 
 {% country Switzerland %}
 {% distributor Boxtec; http://shop.boxtec.ch/advanced_search_result.php?keywords=crazyflie&x=-1126&y=-15; /images/distributors/boxtec-logo.png %}
+{% distributor Maker shop; https://www.maker-shop.ch/crazyflie-2-0; /images/distributors/maker-shop.png %}
 
 {% country United Kingdom %}
 {% distributor Digitalmeans; https://digitalmeans.co.uk/shop/index.php?route=product/search&search=crazyflie; /images/distributors/digitalmeans.png %}
