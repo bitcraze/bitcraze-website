@@ -18,10 +18,10 @@ available from both sides it is possible to attach two decks at the same time.
 **CORRECT ORIENTATION**, or the deck might be damaged. Always make sure the 
 Crazyflie 2.0 is powered off before mounting or unmounting a deck.
 
-Look for the small symbols that shows which side is up and down, the dot is up and the cross is down.
+Look for the small symbols that show which side is up and down, the dot is up and the cross is down.
 The arrow indicates the forward direction and should point towards the front.
 
-Decks that are mounted on top of the Crazyflie 2.0 replaces the battery holder.
+Decks that are mounted on top of the Crazyflie 2.0 replace the battery holder.
 
 {% img Deck orientation; wide; /images/getting-started/deck-orientation.png %}
 {% endgs_step %}

@@ -11,7 +11,7 @@ get the best possible support.
 
 * Check out the [wiki](//wiki.bitcraze.io) for details on our projects
 * If you are having a question or a problem, start by reading the [forum](//forum.bitcraze.io) to see if anyone else already had the same problem and found a solution.
-* You can find source code and other documents on [github](https://github.com/bitcraze)
+* You can find source code and other documents on [GitHub](https://github.com/bitcraze)
 
 ## Other topics
 

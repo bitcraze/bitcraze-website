@@ -28,7 +28,7 @@ these need signal processing and tuning to optimize performance.
 create the best possible measurement of the platform orientation.
 * **Control theory:** The platform consists of a number of different 
 control-loops. Both for controlling roll/pitch/yaw onboard the Crazyflie, but 
-also for controling the platform if you use external equipment like a Kinect to 
+also for controlling the platform if you use external equipment like a Kinect to 
 fly [see our blog](/blog/).
 * **Radio protocols:** The Crazyflie communicates via radio with the host. The 
 protocol is very basic but has the potential to be expanded with more features.

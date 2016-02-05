@@ -23,7 +23,7 @@ Easily connect to the Crazyflie 2.0 expansion port when developing new hardware.
 %}
 
 Test and develop new hardware designs easily without soldering by using
-the breakout expansion board. Just build the curcuit on a breadboard
+the breakout expansion board. Just build the circuit on a breadboard
 and attach the Crazyflie 2.0 to it.
 
 ---

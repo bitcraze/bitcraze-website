@@ -34,7 +34,7 @@ At an early age Marcus was always eager to find out how things worked and manage
 After a few years as a Java developer Marcus wanted to change directions in order to get closer to hardware. Mostly doing C and system design, the best spot for him to be in, is right between hardware and software, getting the first prototype in your lap and starting to write the firmware for it. 
 
 After a few years of embedded systems consulting Marcus founded Bitcraze together with his two friends and colleagues Tobias and Arnaud.
-Being an all arounder Marcus does most things from high level scripting down to low level firmware and hardware design. His favorite thing is being involved in lots of different areas and making a complete system work.
+Being an allrounder Marcus does most things from high level scripting down to low level firmware and hardware design. His favorite thing is being involved in lots of different areas and making a complete system work.
 "%}
 
 
