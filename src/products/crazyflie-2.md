@@ -24,7 +24,7 @@ All you need and a bit more
 It's not only a good flyer, the Crazyflie 2.0 is also equipped with low-latency/long-range
 radio as well as Bluetooth LE. This gives you the versatility of
 using your computer to display data and being able to fly it with a game
-pad, or download our app and use your smart phone as a controller. 
+pad, or download our app and use your mobile device as a controller. 
 
 The Crazyflie 2.0 is charged via uUSB so you don't need a additional charger 
 for your Crazyflie 2.0 just connect it to your computer.
@@ -213,8 +213,8 @@ it's a breeze to update.
 * Win/Linux/OSX python client 
   * The gamepads used by the Xbox 360 and the Playstation 3 are used as reference controllers
   * Any gamepad/controller with at least 4 analog axes 
-* Android smartphone
-* iOS smartphone
+* Android mobile device
+* iOS mobile device
 
 ##### Expansion connector
 

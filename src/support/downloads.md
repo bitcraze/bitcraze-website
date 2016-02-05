@@ -16,7 +16,7 @@ Latest stable release can be found
 [here](https://github.com/bitcraze/crazyflie-release/releases "GitHub releases for crazyflie-firmware").
 
 [Update](//wiki.bitcraze.io/doc:crazyflie:client:pycfclient:index?&amp;#firmware_upgrade) 
-using the python client and a Crazyradio, or from a smartphone. To 
+using the python client and a Crazyradio, or from a mobile device. To 
 [update over USB](//wiki.bitcraze.io/projects:crazyflie2:development:dfu) 
 (only STM32 in Crazyflie 2.0) use the DFU or BIN from the latest STM32 
 [release](https://github.com/bitcraze/crazyflie-firmware/releases).
