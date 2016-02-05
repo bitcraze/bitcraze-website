@@ -15,7 +15,7 @@ page_id: product-debug-adapter-kit
 {% product_highlight 
 fa-eye;
 Debug firmware with ease;
-Connect a standard JTAG and SWD deugger to the Crazyflie 2.0.
+Connect a standard JTAG and SWD debugger to the Crazyflie 2.0.
 %}
 
 One of our goals is to make development with the Crazyflie 2.0 as easy

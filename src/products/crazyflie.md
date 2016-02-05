@@ -65,7 +65,7 @@ get some ideas of what's possible to work with have a look at
 The Crazyflie is shipped as a kit, which means that you will have to do some 
 assembly. This includes soldering the motors to the PCB as well as attaching 
 the motor mounts and battery. Please have a look at the 
-[detailed assembly instructions on our wiki](//wiki.bitcraze.se/projects:crazyflie:mechanics:assembly)
+[detailed assembly instructions on our wiki](//wiki.bitcraze.io/projects:crazyflie:mechanics:assembly)
 and the assembly video before you start assembling your Crazyflie.
 
 {% youtube KeqiUPIDpV8; medium; 16by9 %}

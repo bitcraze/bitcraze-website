@@ -6,7 +6,7 @@ page_id: getting-started-buzzer-deck
 ---
 
 {% gs_intro The buzzer deck %}
-The buzzer deck contains a low profile piezo buzzer and have a 1-wire memory which enables the Crazyflie to automatically detect the buzzer.
+The buzzer deck contains a low profile piezo buzzer and has a 1-wire memory which enables the Crazyflie to automatically detect the buzzer.
 The deck can be installed both on the top and the bottom of the Crazyflie. For more information about how to mount an expansion deck please see the [Getting started with expansion decks](https://github.com/bitcraze/crazyflie-release/releases) tutorial.
 
 To be able to use the buzzer you need to update the Crazyflie to the latest firmware. For more information on how to update the firmware, see the [download latest firmware](https://www.bitcraze.io/getting-started-with-the-crazyflie-2-0/#infostep27) section in our getting started with Crazyflie 2.0 tutorial. 
@@ -14,7 +14,7 @@ To be able to use the buzzer you need to update the Crazyflie to the latest firm
 {% endgs_intro %}
 
 {% gs_step system sounds %}
-When the Buzzer deck is installed, the Crazyflie 2.0 will play sounds at various events, for intsance when the battery is charged. The events are
+When the Buzzer deck is installed, the Crazyflie 2.0 will play sounds at various events, for instance when the battery is charged. The events are
 
 * Start up
 * Sensors calibrated
@@ -28,7 +28,7 @@ When the Buzzer deck is installed, the Crazyflie 2.0 will play sounds at various
 
 {% gs_step play a sound from the client %}
 To start out with the Buzzer deck the Crazyflie is pre-programmed with system sounds and some melodies.
-To play them you need to use the python client and set up a connection with your Crazyflie.
+To play them you need to use the Python client and set up a connection with your Crazyflie.
 For more information about how to set up your Crazyflie and install the client go to [Getting started with the Crazyflie 2.0](https://www.bitcraze.io/getting-started-with-the-crazyflie-2-0/).
 
 In the client, go to the view menu and choose tabs. Check "parameters" to enable the tab.
@@ -49,7 +49,7 @@ Here is a list of the pre-programmed sounds you can choose from:
 |0     |Silent          |                                                        |
 |1     |Factory test    |                                                        |
 |2     |USB connected   |                                                        |
-|3     |USB disconntectd|                                                        |
+|3     |USB disconnected|                                                        |
 |4     |Charging done   |                                                        |
 |5     |Low battery     |                                                        |
 |6     |Start up        |                                                        |

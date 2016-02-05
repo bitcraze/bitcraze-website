@@ -18,4 +18,4 @@ is a good idea. This enables you to make use of the APIs for the computer which
 contains our logging and parameter framework that makes development a lot 
 easier. If you are planning on doing lots of firmware development, then it’s 
 always a good idea to get JTAG/SWD access to the platform for debugging. With 
-our Debug adapter kit you can connect your normal JTAG/SWD debugger easily.
+our debug adapter kit you can connect your normal JTAG/SWD debugger easily.

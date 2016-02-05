@@ -130,7 +130,7 @@ Develop, change and experiment - or just fly
 %}
 
 {% collapse_section Read more %}
-There are ample oportunities to play with the code regardless of which language you prefer. 
+There are ample opportunities to play with the code regardless of which language you prefer. 
 Our client API is written in Python, while there are many other client-side implementations on GitHub written
 in Ruby, C#, C/C++, JavaScript, Node.JS, Cylon.JS or Java.
 Or why not clone our iOS repository and get into some ObjectiveC/Swift.
@@ -139,7 +139,7 @@ If you are into embedded systems, there is a lot of processor power that you can
 the STM32F405 for doing experiments, improvements and new features. The expansion decks allow you to experiment,
 prototype and design your own hardware.
 
-Take a look in the [Development secton](/development-overview/) to get started.
+Take a look in the [Development section](/development-overview/) to get started.
 
 By the way, it fun to just fly it too!
 {% endcollapse_section %}
@@ -154,7 +154,7 @@ Continuously updated and improved
 {% collapse_section Read more %}
 We continuously work on the firmware, software, documentation and new creative ways of using 
 the system. We also design new expansion decks that add new functionality, 
-posibilities and expands the Crazyflie eco system.
+possibilities and expands the Crazyflie eco system.
 The platform supports wireless firmware
 updates via radio and Bluetooth LE, so when a new firmware is released
 it's a breeze to update.
@@ -193,7 +193,7 @@ it's a breeze to update.
 * uUSB connector
 * On-board LiPo charger with 100mA, 500mA and 980mA modes available
 * Full speed USB device interface
-* Partial USB OTG capability (Usb OTG present but no 5V output)
+* Partial USB OTG capability (USB OTG present but no 5V output)
 
 ##### IMU
 
@@ -212,9 +212,9 @@ it's a breeze to update.
 
 * Win/Linux/OSX python client 
   * The gamepads used by the Xbox 360 and the Playstation 3 are used as reference controllers
-  * Any gamepad/controller with at least 4 analog axis 
+  * Any gamepad/controller with at least 4 analog axes 
 * Android smartphone
-* IOS smartphone
+* iOS smartphone
 
 ##### Expansion connector
 

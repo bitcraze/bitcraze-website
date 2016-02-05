@@ -15,15 +15,15 @@ There is also a video describing the assembly steps:
 
 ## Required hardware
 
-Once assembled you will need a computer a gamepad and the Crazyradio dongle to fly the Crazyflie.
+Once assembled you will need a computer, a gamepad and the Crazyradio dongle to fly the Crazyflie.
 
-Any gamepad with at least four axis will work. The following gamepad are supported out of the box:
+Any gamepad with at least four axes will work. The following gamepads are supported out of the box:
 
-* PS3 USB controller (Tricky for windows, works on linux, mac and the bitcraze Virtual machine).
+* PS3 USB controller (Tricky for windows, works on Linux, Mac and the Bitcraze virtual machine).
 * PS4 USB controller
 * XBox 360 USB controller
 
-Other gamepad can be configured into the Crazyflie client software.
+Other gamepads can be configured in the Crazyflie client software.
 
 The Crazyradio dongle shall also be connected to the computer. The wiki 
 contains the [Windows driver installation instructions](//wiki.bitcraze.io/doc:crazyradio:install_windows_zadig). 
@@ -34,34 +34,34 @@ Mac and Linux does not require drivers but Linux requires
 
 The Crazyflie is controlled using a software named Crazyflie PC client 
 (cfclient in short). There are two possibilities to fly the Crazyflie: Either 
-running running the software directly on your machine or using our virtual machine.
+running the software directly on your machine or using our virtual machine.
 
 * If you want to develop for the Crazyflie or if you do not want to install software and drivers directly on your computer the Bitcraze virtual machine is the way to go
-* Otherwise installing directly on the computer is lighter to download and use.
+* Otherwise installing it directly on the computer is lighter to download and use.
 
 ### Windows
 
 The windows installer can be downloaded from 
-[github](https://github.com/bitcraze/crazyflie-clients-python/releases)
+[GitHub](https://github.com/bitcraze/crazyflie-clients-python/releases)
 It installs the Crazyflie PC client. The Crazyradio USB dongle driver has to be 
 [installed independently](//wiki.bitcraze.io/doc:crazyradio:install_windows_zadig).
 
 ### Linux and Mac
 
-Instruction for Linux and Mac can be found in the crazyflie client 
+Instruction for Linux and Mac can be found in the Crazyflie client 
 [readme](https://github.com/bitcraze/crazyflie-clients-python/blob/master/README.md) 
-file. The package for Linux and Mac can be downloaded 
-[github](https://github.com/bitcraze/crazyflie-clients-python/releases)
+file. The package for Linux and Mac can be downloaded from 
+[GitHub](https://github.com/bitcraze/crazyflie-clients-python/releases)
 
-### Using the Virtual machine
+### Using the virtual machine
 
 We provide a virtual machine running a Linux distribution pre-installed with 
 all the software required to use the Crazyflie but also to develop with it. The 
-virtual machine download link can be found in the 
+virtual machine download link can be found on the 
 [virtual machine wiki page](//wiki.bitcraze.io/projects:virtualmachine:index).
 
-The virtual machine comes in a standard OVA file which means that it can run 
-with many visualization software. However it has been setup and mostly tested 
+The virtual machine comes as a standard OVA file which means that it can run 
+with many virtualization applications. However it has been setup and mostly tested 
 on Virtualbox. You can 
 [donwnload VirtualBox](https://www.virtualbox.org/wiki/Downloads)
 for you computer, install it and then double-click on the Bitcraze virtual 
@@ -75,25 +75,25 @@ connected to it:
 ## Flying
 
 Now you should  have the client launched, the gamepad and the Crazyradio 
-plugged and working.
+plugged in and working.
 
-* Select in the "Input device" menu the gamepad and the mapping. Check by moving the axis that the Thrust, Pitch, Roll and Yaw fields are showing meaningful values.
-* You can verify in Help/About/Debug that the Crazyradio is recognize. It should show something like: "radio: Crazyradio version 0.52"
+* In the "Input device" menu select the gamepad and the mapping. Check by moving the axes that the Thrust, Pitch, Roll and Yaw fields are showing meaningful values.
+* You can verify in Help/About/Debug that the Crazyradio is recognized. It should show something like: "radio: Crazyradio version 0.52"
 
-Switch ON the Crazyflie and put it on a stable surface (it needs to calibrate 
+Switch the Crazyflie ON and put it on a stable surface (it needs to calibrate 
 its sensors). In the client, click connect and select your Crazyflie in the 
 list (should look like "radio://0/42/2M") and finally click connect. The 
 Crazyflie is now ready to fly!
 
 ## More information
 
-The main sources of information for the Crazyflie are the Wiki and the Forum. 
-The wiki is open to contribution just drop us a mail for an account. The forum 
+The main sources of information for the Crazyflie are the wiki and the forum. 
+The wiki is open to contribution, just drop us a mail for an account. The forum 
 is the first line of support and you can register online to it.
 
-More information are present in our [wiki](//wiki.bitcraze.io):
+More information can be found in our [wiki](//wiki.bitcraze.io):
 
 * [Assembly instruction](//wiki.bitcraze.io/projects:crazyflie:mechanics:assembly)
 * [GUI user guide](//wiki.bitcraze.io/doc:crazyflie:client:pycfclient:index)
-* [More in-depth stating instruction](//wiki.bitcraze.io/projects:crazyflie:userguide:index)
-* [Software and Firmware  download](//wiki.bitcraze.io/misc:downloads:index)
+* [More in-depth user guide](//wiki.bitcraze.io/projects:crazyflie:userguide:index)
+* [Software and firmware download](//wiki.bitcraze.io/misc:downloads:index)
