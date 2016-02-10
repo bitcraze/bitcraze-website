@@ -186,16 +186,24 @@ table {
     }
     
     .col-content-center {
+        @media (min-width: $screen-md-min) {
             height: 370px;
+            display: -webkit-flex;
             display: flex;
+            -webkit-flex-wrap: wrap;
             flex-wrap: wrap;
+            -webkit-align-content: center;
             align-content: center;
+        }
     }
    
 }
 
+    .pp-glyph {
+            text-align: center;
+            font-size: 100px;         
+    }
 
- 
 
 // Page - Product
 .page-product {
