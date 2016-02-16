@@ -15,7 +15,7 @@ page_id: product-crazyradio-pa
 {% product_highlight 
 fa-wifi;
 The longer the merrier;
-Range of more than 1km
+Range of up to 1km
 %}
 
 Crazyradio PA is a long range open USB radio dongle based on the
