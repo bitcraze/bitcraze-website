@@ -38,6 +38,7 @@
 - title: Development
   subs:
   - {page_id: development-overview}
+  - {page_id: product-cycle}
   - {title: Github, url: "https://github.com/bitcraze"}
   - {title: Wiki, url: "https://wiki.bitcraze.io"}
 
