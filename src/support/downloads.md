@@ -28,9 +28,5 @@ Latest stable releases can be found [here](https://github.com/bitcraze/crazyradi
 
 ## Bitcraze Virtual Machine
 
-Latest version (0.6) can be downloaded [here](http://files.bitcraze.se/dl/Bitcraze_VM_0.6.ova) 
-or [from Mega](https://mega.co.nz/#!3YhyFBAI!WO2yKBE-x_9PesM37k79sGdo_1-LVpbHTyexGmYnm3A) 
-(for older releases see [wiki](//wiki.bitcraze.io/projects:virtualmachine:index#download))
-
-For information about the VM please see the 
-[Bitcraze VM wiki page](//wiki.bitcraze.io/projects:virtualmachine:index "Bitcraze VM wiki").
+See the VM download section on the [wiki](//wiki.bitcraze.io/projects:virtualmachine:index#download)
+for the latest version. You will also find older versions there if you need them.

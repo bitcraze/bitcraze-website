@@ -188,10 +188,10 @@ Ones you have installed Virtualbox you can download the virtual machine
 using one of these links.
 
 {{ "
-* Bitcraze VM 0.6
-* [torrent](http://files.bitcraze.se/dl/Bitcraze_VM_0.6.ova.torrent)
-* [direct download 1](http://files.bitcraze.se/dl/Bitcraze_VM_0.6.ova)
-* [direct download 2](https://mega.co.nz/#!3YhyFBAI!WO2yKBE-x_9PesM37k79sGdo_1-LVpbHTyexGmYnm3A)
+* Bitcraze VM 0.8
+* [torrent](http://files.bitcraze.se/dl/Bitcraze_VM_0.8.ova.torrent)
+* [direct download 1](http://files.bitcraze.se/dl/Bitcraze_VM_0.8.ova)
+* [direct download 2](https://mega.nz/#!XdYnDI6R!wp5mSKoaBIyPd0aWds6EhInZNnKy9eHC2LM1DzqYacc)
 " | markdownify | add_class_to_top: "plm-download-list" }}
 
 {% endgs_step %}
