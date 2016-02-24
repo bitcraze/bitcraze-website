@@ -53,4 +53,8 @@ melodies pre-programmed that you can use.
 
 {% endcollapse_section %}
 
+---
+
+[Getting started with the Buzzer deck](https://www.bitcraze.io/getting-started-with-buzzer-deck/)
+
 {% buy_online http://www.seeedstudio.com/depot/Crazyflie-20-Buzzer-deck-p-2619.html %}

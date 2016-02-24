@@ -55,4 +55,8 @@ and attach the Crazyflie 2.0 to it.
 * 1 x Breakout expansion deck
 {% endcollapse_section %}
 
+---
+
+[Getting started with expansion decks](https://www.bitcraze.io/getting-started-with-expansion-decks/)
+
 {% buy_online http://www.seeedstudio.com/depot/Crazyflie-20-Breakout-expansion-board-p-2108.html %}
