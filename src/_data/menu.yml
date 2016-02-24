@@ -38,12 +38,13 @@
 - title: Development
   subs:
   - {page_id: development-overview}
-  - {page_id: product-cycle}
   - {title: Github, url: "https://github.com/bitcraze"}
   - {title: Wiki, url: "https://wiki.bitcraze.io"}
+  - {page_id: early-access}
 
 - title: About
   subs:
   - {page_id: about-bitcraze}
   - {page_id: about-team}
   - {page_id: about-contact}
+  - {page_id: product-cycle}
