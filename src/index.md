@@ -92,6 +92,8 @@ portalexample="Example applications: flying for fun, FPV racing, flying art, app
                 {% used_by MIT; /images/logos/mit.svg; narrow %}
                 {% used_by Bell Labs %}
                 {% used_by Adacore; /images/logos/adacore.png; medium %}
+                {% used_by ETH Zurich %}
+                {% used_by Ericsson %}
 
                 <p class="text-right">Is your organization missing? <a href="https://github.com/bitcraze/bitcraze-website/edit/master/src/{{page.path}}"><i class="fa fa-pencil"></i> &nbsp;Improve this page</a></p>
             </div>
