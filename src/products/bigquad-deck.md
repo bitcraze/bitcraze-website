@@ -14,7 +14,7 @@ page_id: product-bigquad-deck
 /images/bigquad-deck-early-access/big-quad-early-access-6.jpg;
 /images/bigquad-deck-early-access/big-quad-early-access-7.jpg
 %}
-     
+
 {% product_highlight 
 fa-expand;
 Go big!;
@@ -66,5 +66,6 @@ With the BigQuad deck you can transform your Crazyflie 2.0 to a bigger quad by c
 * 2 x M2x6 hex spacer
 
 {% endcollapse_section %}
+[Learn more about our Early access program](https://www.bitcraze.io/early-access/)
 
 {% coming_soon http://www.seeedstudio.com/depot/Crazyflie-20-Qi-inductive-charging-expansion-board-p-2112.html %}
