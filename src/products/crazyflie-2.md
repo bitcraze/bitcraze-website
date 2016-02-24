@@ -22,9 +22,11 @@ All you need and a bit more
 {% collapse_section Read more %}
 
 It's not only a good flyer, the Crazyflie 2.0 is also equipped with low-latency/long-range
-radio as well as Bluetooth LE. This gives you the versatility of
-using your computer to display data and being able to fly it with a game
-pad, or download our app and use your mobile device as a controller. 
+radio as well as Bluetooth LE. This gives you the option of downloading our app and use your mobile device as a controller, or
+in combination with the [Crazyradio PA](https://www.bitcraze.io/crazyradio-pa/) use your computer to display data and being able to fly it with a game
+pad.
+
+
 
 The Crazyflie 2.0 is charged via uUSB so you don't need a additional charger 
 for your Crazyflie 2.0 just connect it to your computer.
