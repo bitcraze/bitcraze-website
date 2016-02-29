@@ -26,10 +26,10 @@ development platform.
 
 ### The initial project
 
-We started the work on the Crazyflie quadcopter late 2009 as a competence
+We started the work on the Crazyflie quadcopter in late 2009 as a competence
 development project called Daedalus in the Swedish consulting company
 Epsilon AB, where all three founders where employed at the time. The work
-was done during our free time with component costs payed by Epsilon. In
+was done during our free time with component costs paid by Epsilon. In
 2010 we finally decided to send a video of the Crazyflie to Hackaday.com
 and that’s when things really took off. More development was done and we
 decided to make a Crazyflie kit that could be manufactured and sold as an
@@ -40,10 +40,10 @@ Bitcraze.io.
 
 ### Crazyflie
 
-Crazyflie is a small quadcopter that stated with a simple idea: get an
+Crazyflie is a small quadcopter that started with a simple idea: get an
 electronic board to fly. We were three embedded engineers from Sweden and
-we wanted to make a small flying machine that could be used indoor (it is
+we wanted to make a small flying machine that could be used indoors (it is
 often cold outside in Sweden ;-)) and with as few mechanical parts as
-possible. The result of this idea was a small quadcopter that uses its
-electronic board as main mechanical frame and with motors glued to the PCB.
-At that point this was the smallest quadcopter in the world.
+possible. The result of this idea was a small quadcopter that used its
+printed circuit board (PCB) as the main mechanical frame with motors glued to the PCB.
+At that point it was the smallest quadcopter in the world.

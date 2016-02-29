@@ -31,10 +31,10 @@ He is a strong believer in lean thinking, the agile movement as well as self org
 
 {% include teammember.html member="Marcus Eliasson" role="Developer & Co-founder" img="/images/team/BcTeam-2.jpg" bio="
 At an early age Marcus was always eager to find out how things worked and managed to take apart quite a few toys without being able to put them back together. He’s always been interested in technology, science and engineering, but the focus of his interest has mostly been software development.
-After a few years as a Java developer Marcus wanted to change directions in order to get closer to hardware. Mostly doing C and system design, the best spot for him to be in, is right between hardware and software, getting the first prototype in your lap and starting to write the firmware for it. 
+After a few years as a Java developer Marcus wanted to change directions in order to get closer to hardware. Mostly doing C and system design, the best spot for him to be in is right between hardware and software, getting the first prototype in your lap and starting to write the firmware for it. 
 
 After a few years of embedded systems consulting Marcus founded Bitcraze together with his two friends and colleagues Tobias and Arnaud.
-Being an allrounder Marcus does most things from high level scripting down to low level firmware and hardware design. His favorite thing is being involved in lots of different areas and making a complete system work.
+Being an all-rounder Marcus does most things from high level scripting down to low level firmware and hardware design. His favorite thing is being involved in lots of different areas and making a complete system work.
 "%}
 
 
