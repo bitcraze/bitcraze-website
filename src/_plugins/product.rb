@@ -97,7 +97,7 @@ module Jekyll
       end
 
       def render(context)
-          '<h2><i class="fa %1$s fa-fw"></i>%2$s</h2><div class="pp-catch-phrase">%3$s</div>' % @params
+          '<h2><i class="fa %1$s bc-fa-fw"></i>%2$s</h2><div class="pp-catch-phrase">%3$s</div>' % @params
       end
     end
   end
