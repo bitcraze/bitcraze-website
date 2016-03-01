@@ -73,4 +73,4 @@ With the BigQuad deck you can transform your Crazyflie 2.0 to a bigger quad by c
 
 [Learn more about our Early access program](https://www.bitcraze.io/early-access/)
 
-{% coming_soon http://www.seeedstudio.com/depot/Crazyflie-20-Qi-inductive-charging-expansion-board-p-2112.html %}
+{% buy_online http://www.seeedstudio.com/depot/Crazyflie-20-BigQuad-deck-p-2626.html %}
