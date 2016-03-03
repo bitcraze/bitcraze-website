@@ -210,7 +210,7 @@ highlight the Bitcraze VM and start it.
 In the virtual machine double click the "update all projects" icon on the
 desktop. This pulls down the latest source code from GitHub
 for all projects.
-{% img Update all projects icon; narrow; /images/getting-started/update-all-projects-icon.png %}
+{% img Update all projects icon; narrow; /images/getting-started/update-all-projects-icon.png; circle-border %}
 {% endgs_step %}
 
 {% gs_step download latest firmware %}
@@ -247,7 +247,7 @@ for all projects.
 
 {% gs_step start the Crazyflie client %}
 Double click the “Crazyflie client” icon on the VM desktop
-{% img Crazyflie client icon; narrow; /images/getting-started/SwPic6Final.png %}
+{% img Crazyflie client icon; narrow; /images/getting-started/cf-client-icon.png; circle-border %}
 {% endgs_step %}
 
 {% gs_step configure your controller %}

@@ -26,7 +26,7 @@ For this tutorial you need:
 * A computer with the Virtual Machine (VM) installed. 
 
 For details on how to install the VM and Crazyradio see  
-[Getting started with the Crazyflie 2.0](/getting-started-with-the-crazyflie-2-0/).
+[Getting started with the Crazyflie 2.0](/getting-started-with-the-crazyflie-2-0/#inst-comp).
 {% endgs_step %}
 
 {% gs_step start the VM %}
@@ -40,7 +40,7 @@ virtual machine.
 {% gs_step update source code %}
 Double click the "update all projects" icon on the desktop. This pulls down the 
 latest source code from GitHub for all projects.
-{% img Update all projects icon; narrow; /images/getting-started/update-all-projects-icon.png %}
+{% img Update all projects icon; narrow; /images/getting-started/update-all-projects-icon.png; circle-border %}
 {% endgs_step %}
 
 
@@ -52,8 +52,7 @@ minimalistic, we will change the color of the front right LED from red to green.
 {% gs_step start the editor %}
 The pre-installed IDE (Integrated Development Environment) is [Eclipse](https://eclipse.org/ide/).
 Double click the "Eclipse" icon on the desctop to start it.
-
-TODO image
+{% img Eclipse icon; narrow; /images/getting-started/eclipse-icon.png; circle-border %}
 {% endgs_step %}
 
 {% gs_step open the file %}
