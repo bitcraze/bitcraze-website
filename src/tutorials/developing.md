@@ -56,11 +56,10 @@ Double click the "Eclipse" icon on the desctop to start it.
 {% endgs_step %}
 
 {% gs_step open the file %}
-On the left side you find some projects in the "Project explorer" window, 
-expand the "crazyflie-firmware" project.
+Find the "Project explorer" window on the left side and expand the 
+"crazyflie-firmware" project.
+{% img Project explorer; medium; /images/getting-started/eclipse-project-explorer.png %}
 Navigate to `drivers/interface/led.h` and double click to open it.
-
-TODO image
 {% endgs_step %}
 
 {% gs_step change the code %}
@@ -79,7 +78,7 @@ and change it to
 {% endgs_step %}
 
 {% gs_step save %}
-Save the file through the menu or by pressing CRTL + S
+Save the file through the File menu or by pressing CTRL + S
 {% endgs_step %}
 
 
@@ -92,12 +91,12 @@ downloaded to the Crazyflie.
 Locate the "Make target" window on the left side. Expand "crazyflie-firmware"
 and double click "Make DEBUG"
 
-TODO image
+{% img Project explorer; medium; /images/getting-started/eclipse-make-target.png %}
 
 The compilation result should be displayed in the "console" tab under the editor
 window.
 
-TODO image
+{% img Project explorer; medium; /images/getting-started/eclipse-console.png %}
 {% endgs_step %}
 
 {% gs_intro Flash the Crazyflie %}
@@ -111,23 +110,21 @@ Crazyflie with an [official release](https://github.com/bitcraze/crazyflie-firmw
 {% gs_step prepare the Crazyflie %}
 Turn your Crazyflie 2.0 off.
 
-Start it in bootloader mode by pressing the power button for 3 
+Start it in bootloader mode by pressing and holding the power button for 3 
 seconds. Both the blue LEDs will blink.
 {% endgs_step %}
 
 {% gs_step flashing %}
 In the "Make target" window double click "Flash using radio".
 
-Printouts in the "Consolose" window shows the progress.
+Printouts in the "Console" window shows the progress and the LEDs on the 
+Crazyflie flickers.
 
-TODO image
 {% endgs_step %}
 
 {% gs_step That's it! %}
 The front right LED of your Crazyflie should now be green instead of the normal
 red. 
-
-TODO image
 
 Congratulations to your first Crazyflie hack!
 {% endgs_step %}
