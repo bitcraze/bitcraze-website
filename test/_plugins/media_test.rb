@@ -21,6 +21,22 @@ class TestMedia < Testbase
   end
 
 
+  def test_that_img_is_rendered_with_circle
+    # Fixture
+    tag = '{% img The title; narrow; /images/fancy-product-front.jpg; circle-border %}'
+
+    expected = '<div class="media-row-narrow">
+        <img src="/images/fancy-product-front.jpg" alt="The title" title="The title" class="img-circle-border"/>
+      </div>'
+
+    # Test
+    actual = Liquid::Template.parse(tag).render
+
+    # Assert
+    assert_html(expected, actual)
+  end
+
+
   def test_that_vine_is_rendered
     # Fixture
     tag = '{% vine vine-id %}'

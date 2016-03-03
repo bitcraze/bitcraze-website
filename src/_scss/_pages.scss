@@ -41,6 +41,11 @@
     }
 }
 
+.img-circle-border {
+    @extend .img-circle;
+    border: 6px solid $bcGreen;
+}
+
 .outer-vine {
     @extend .embed-responsive;
     @extend .embed-responsive-1by1;

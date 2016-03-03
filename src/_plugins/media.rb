@@ -9,13 +9,15 @@ module Jekyll
       #
       # ; is used as separator
       #
-      # Takes 3 arguments
+      # Takes 3 or 4 arguments
       # - Product name
       # - Image width (narrow, medium, wide)
       # - Image path
+      # - circle-border (optional)
       #
       # Example
       # {% img The fancy product; medium; /images/fancy-product-front.jpg %}
+      # {% img The fancy product; medium; /images/fancy-product-front.jpg; circle-border %}
 
       def initialize(tag_name, text, tokens)
         super
@@ -24,10 +26,16 @@ module Jekyll
         @title = params[0]
         @width = params[1]
         @image = params[2]
+        @style = params[3]
       end
 
       def render(context)
-        '<div class="media-row-%1$s"><img src="%2$s" alt="%3$s" title="%3$s"/></div>' % [@width, @image, @title]
+        cls = ''
+        if @style == 'circle-border'
+          cls = ' class="img-circle-border"'
+        end
+
+        '<div class="media-row-%1$s"><img src="%2$s" alt="%3$s" title="%3$s"%4$s/></div>' % [@width, @image, @title, cls]
       end
     end
 
