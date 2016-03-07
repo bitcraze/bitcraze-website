@@ -87,15 +87,18 @@ Now it's time to build the source code into binary files that can be
 downloaded to the Crazyflie.
 {% endgs_intro %}
 
-{% gs_step start the build %}
+{% gs_step clean %}
 Locate the "Make target" window on the left side. Expand "crazyflie-firmware"
-and double click "Make DEBUG"
-
+and double click "clean"
 {% img Project explorer; medium; /images/getting-started/eclipse-make-target.png %}
 
-The compilation result should be displayed in the "console" tab under the editor
-window.
+The result should be displayed in the "console" tab under the editor window.
+{% endgs_step %}
 
+{% gs_step start the build %}
+In the toolbar click the "Build all" icon, or press CRTL + B
+{% img Build all icon; narrow; /images/getting-started/build-all-icon.png; circle-border %}
+Again, the result should be displayed in the "console" tab under the editor window.
 {% img Project explorer; medium; /images/getting-started/eclipse-console.png %}
 {% endgs_step %}
 
@@ -123,8 +126,8 @@ Crazyflie flickers.
 {% endgs_step %}
 
 {% gs_step That's it! %}
-The front right LED of your Crazyflie should now be green instead of the normal
-red. 
+The Crazyfile should restart whwn the flashing is complete and the front right LED 
+of your Crazyflie should now be green instead of the normal red. 
 
 Congratulations to your first Crazyflie hack!
 {% endgs_step %}
