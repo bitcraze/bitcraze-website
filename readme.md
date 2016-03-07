@@ -35,14 +35,14 @@ results.
 
 ## prerequisites
 
-All you need to contribute is
+To contribute you only need:
 
 * [Docker](https://www.docker.com/)
 * [git](https://git-scm.com/) and a [github](https://github.com/) account
 * Any text editor
 
 If you don't want to use docker you will need ruby on you system. We have not 
-set our systems up this way but is should not be a big deal. Uf you do, please 
+set our systems up this way but is should not be a big deal. If you do, please 
 add documentation for it here.
 
 ## Technologies
@@ -81,9 +81,14 @@ where needed, you will find tags in the source code indicating where. For
 instance 
 
         <!-- inject wp blog -->
-               
-# TODO
 
-* Convert as much of the content as possible to markdown. Write Jekyll plugins
-that generate the approprate html.
+## Using the toolbelt
 
+Instead of running the ```tools/do``` script you can use the [toolbelt](https://github.com/bitcraze/toolbelt).
+For instance, downloading dependencies would be 
+ 
+        tb download_deps 
+
+or running the proofer
+
+        tb proofer
