@@ -17,7 +17,7 @@ module Jekyll
     # Some content (supports markdown)
     # {% gs_intro %}
     #
-    # {% gs_intro My title; optional id %}
+    # {% gs_intro My title; optional-id %}
     # Some content (supports markdown)
     # {% gs_intro %}
 
@@ -52,8 +52,16 @@ module Jekyll
 
     # Use this tag to create an info step section
     #
+    # ; is used as separator
+    #
+    # The optional id is used if given, otherwise an id is created
+    #
     # Example:
     # {% gs_step My title %}
+    # Some content (supports markdown)
+    # {% gs_step %}
+    #
+    # {% gs_step My title; optional-id %}
     # Some content (supports markdown)
     # {% gs_step %}
 
@@ -70,10 +78,14 @@ module Jekyll
       def render(context)
         markup = markdownify(super, context)
 
-        result = '<div class="plm-content-info-step"><h3 id="infostep%1$i">%2$s</h3>%3$s</div>' % [@@id, @params[0], markup]
-        @@id += 1
+        if (@params.length > 1)
+          full_id = @params[1]
+        else
+          full_id = 'infostep' + @@id.to_s
+          @@id += 1
+        end
 
-        result
+        '<div class="plm-content-info-step"><h3 id="%1$s">%2$s</h3>%3$s</div>' % [full_id, @params[0], markup]
       end
 
       def self.reset_id_counter()

@@ -24,7 +24,7 @@ have all of them before you start assembling.
 
 
 
-{% gs_intro Testing %}
+{% gs_intro Testing; test %}
 The Crazyflie 2.0 is tested extensively in the production, but to make sure 
 nothing has happened during shipping/storage you should run the tests before 
 starting the assembly. Power on the Crazyflie 2.0 using a USB source (either 
@@ -49,7 +49,7 @@ and does it again. Go to our support forum to get help.
 
 
 
-{% gs_intro Assembling %}
+{% gs_intro Assembling; assembling %}
 Assembling your Crazyflie 2.0 will probably take less than 10 minutes, but
 there are a few pitfalls. So make sure to follow the instructions below!
 {% endgs_intro %}
@@ -174,7 +174,7 @@ We have created a virtual machine (VM) to help you get into the air as quickly a
 The VM has all software you need for flight and development pre-installed.
 {% endgs_intro %}
 
-{% gs_step install Virtualbox %}
+{% gs_step install Virtualbox; inst-virtualbox %}
 Before downloading the virtual machine you must have VirtualBox or some
 other virtualization application installed on your computer. Virtualbox is
 a cross-platform virtualization application that imports and runs our
@@ -183,7 +183,7 @@ preconfigured virtual machine.
 [Download and install Oracle VirtualBox.](https://www.virtualbox.org/)
 {% endgs_step %}
 
-{% gs_step download the Bitcraze virtual machine %}
+{% gs_step download the Bitcraze virtual machine; download-vm %}
 Ones you have installed Virtualbox you can download the virtual machine
 using one of these links.
 
@@ -196,7 +196,7 @@ using one of these links.
 
 {% endgs_step %}
 
-{% gs_step installing the virtual machine %}
+{% gs_step installing the virtual machine; inst-vm %}
 After downloading the virtual machine, double click it. VirtualBox is now
 going to start, and ask you to import the virtual machine. Click import.
 {% endgs_step %}
@@ -206,17 +206,11 @@ Now it&#8217;s time to start the Bitcraze virtual machine. in VirtualBox,
 highlight the Bitcraze VM and start it.
 {% endgs_step %}
 
-{% gs_step update source code %}
+{% gs_step update source code; update-src %}
 In the virtual machine double click the "update all projects" icon on the
 desktop. This pulls down the latest source code from GitHub
 for all projects.
 {% img Update all projects icon; narrow; /images/getting-started/update-all-projects-icon.png; circle-border %}
-{% endgs_step %}
-
-{% gs_step download latest firmware %}
-* Open the web browser in the virtual machine, go to [https://github.com/bitcraze/crazyflie-release/releases](https://github.com/bitcraze/crazyflie-release/releases)
-* download the zip file named crazyflie-xxx.zip from the latest relase.
-* close the browser when the download is finished.
 {% endgs_step %}
 
 {% gs_step install hardware %}
@@ -224,7 +218,7 @@ for all projects.
 * Insert game controller to a USB port.
 {% endgs_step %}
 
-{% gs_step configure USB on the virtual machine %}
+{% gs_step configure USB on the virtual machine; config-usb-vm %}
 {% tabgroup %}
 {% tab Windows/Linux %}
 * In the bottom right corner click the USB icon and choose “Bitcraze Crazyradio PA USB dongle”.
@@ -250,13 +244,19 @@ Double click the “Crazyflie client” icon on the VM desktop
 {% img Crazyflie client icon; narrow; /images/getting-started/cf-client-icon.png; circle-border %}
 {% endgs_step %}
 
-{% gs_step configure your controller %}
+{% gs_step configure your controller; config-controller %}
 In the client, open the input device settings. Check if the correct device
 mapping is chosen, otherwise pick your device type.
 {% img Controller settings; wide; /images/getting-started/SwPic7Final.png %}
 {% endgs_step %}
 
-{% gs_step update firmware in the Crazyflie %}
+{% gs_step download latest firmware; latest-fw %}
+* Open the web browser in the virtual machine, go to [https://github.com/bitcraze/crazyflie-release/releases](https://github.com/bitcraze/crazyflie-release/releases)
+* download the zip file named crazyflie-xxx.zip from the latest relase.
+* close the browser when the download is finished.
+{% endgs_step %}
+
+{% gs_step update firmware in the Crazyflie; udate-fw %}
 * Turn the Crazyflie off.
 * Start the Crazyflie in bootloader mode by pressing the power button for 3 seconds. Both the blue LEDs will blink.
 * Go back to the Crazyflie client in the VM and click the Crazyflie -> Bootloader menu. 
@@ -270,7 +270,7 @@ and is not updated.
 * Close the bootloader window.
 {% endgs_step %}
 
-{% gs_step connect to the Crazyflie %}
+{% gs_step connect to the Crazyflie; connect-pc-client %}
 * In the Crazyflie client, click the “Connect” button in top left corner.
 * In the connect dialog, click the “Scan” button. The radio settings for you Crazyflie is displayed.
 {% img Connect dialog; wide; /images/getting-started/SwPic9Final.png %}
@@ -288,7 +288,7 @@ well as battery status and the link quality.
 Now it's time to do some flying, but first there are some basics you need to know about.
 {% endgs_intro %}
 
-{% gs_step getting to know your Crazyflie %}
+{% gs_step getting to know your Crazyflie; leds %}
 First of all, you need to understand where the front is, it is much easier
 to fly with the copter pointing away from you. The blue LEDs are in the
 back, so keep them pointing in your direction when starting to fly.
@@ -310,7 +310,7 @@ approximately once every second.
 red pulses with a longer pause between groups.
 {% endgs_step %}
 
-{% gs_step maneuvering a quadcopter %}
+{% gs_step maneuvering a quadcopter; maneuvering %}
 When flying a quadcopter there are four main dimensions of controls; roll, pitch, yaw and thrust.
 {% img Axis; wide; /images/getting-started/AxisImage.png %}
 
@@ -336,7 +336,7 @@ compensated for, this is completely normal.
 {% vine imF9eEIxUiK %}    
 {% endgs_step %}
 
-{% gs_step the ground effect %}
+{% gs_step the ground effect; ground-effect %}
 When the copter is flying close to the ground (less than a few decimeters
 above the ground) it is effected by what is called the ground effect. The
 feeling is that the air is slippery, almost as if it is gliding on ice.
@@ -344,7 +344,7 @@ To avoid this, particularly when learning to fly, use a lot of thrust just
 when taking off and then ease off for level flight.
 {% endgs_step %}
 
-{% gs_step if the Crazyflie is unbalanced %}
+{% gs_step if the Crazyflie is unbalanced; unbalanced %}
 If your Crazyflie drifts a lot when taking off, there are a few things you should check.
     
 * Make sure the battery is centered. If it has slipped
@@ -357,7 +357,7 @@ motor, remove the hair and reinstall the propeller.
 * Check that the propellers are balanced, [see the balancing propellers guide](/balancing-propellers/)
 {% endgs_step %}
 
-{% gs_step charging the battery %}
+{% gs_step charging the battery; charging %}
 To charge the battery of the Crazyflie 2.0, just plug in a micro USB cable. Make 
 sure the Crazyflie is powered on. While the battery is charging, the back left 
 blue LED will blink. When the LED is fully lit the battery is charged.

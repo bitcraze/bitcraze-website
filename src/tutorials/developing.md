@@ -37,7 +37,7 @@ From this point on in the tutorial, all steps refer to actions in the
 virtual machine.
 {% endgs_step %}
 
-{% gs_step update source code %}
+{% gs_step update source code; update %}
 Double click the "update all projects" icon on the desktop. This pulls down the 
 latest source code from GitHub for all projects.
 {% img Update all projects icon; narrow; /images/getting-started/update-all-projects-icon.png; circle-border %}
@@ -49,7 +49,7 @@ We will start out by modifying the source code. The update of the code is
 minimalistic, we will change the color of the front right LED from red to green. 
 {% endgs_intro %}
 
-{% gs_step start the editor %}
+{% gs_step start the editor; editor %}
 The pre-installed IDE (Integrated Development Environment) is [Eclipse](https://eclipse.org/ide/).
 Double click the "Eclipse" icon on the desctop to start it.
 {% img Eclipse icon; narrow; /images/getting-started/eclipse-icon.png; circle-border %}
@@ -82,7 +82,7 @@ Save the file through the File menu or by pressing CTRL + S
 {% endgs_step %}
 
 
-{% gs_intro Build the source code %}
+{% gs_intro Build the source code; make %}
 Now it's time to build the source code into binary files that can be 
 downloaded to the Crazyflie.
 {% endgs_intro %}
@@ -95,14 +95,14 @@ and double click "clean"
 The result should be displayed in the "console" tab under the editor window.
 {% endgs_step %}
 
-{% gs_step start the build %}
+{% gs_step start the build; build %}
 In the toolbar click the "Build all" icon, or press CRTL + B
 {% img Build all icon; narrow; /images/getting-started/build-all-icon.png; circle-border %}
 Again, the result should be displayed in the "console" tab under the editor window.
 {% img Project explorer; medium; /images/getting-started/eclipse-console.png %}
 {% endgs_step %}
 
-{% gs_intro Flash the Crazyflie %}
+{% gs_intro Flash the Crazyflie; new-fw %}
 Now we have the binary files and it is time to download them to the Crazyflie
 and save them in the flash memory, often called flashing. Our new modified 
 version of the firmware will replace what ever version you currently have 
@@ -110,14 +110,14 @@ installed. If you want to go back to the official firmware just re-flash the
 Crazyflie with an [official release](https://github.com/bitcraze/crazyflie-firmware/releases).
 {% endgs_intro %}
 
-{% gs_step prepare the Crazyflie %}
+{% gs_step prepare the Crazyflie; bootload %}
 Turn your Crazyflie 2.0 off.
 
 Start it in bootloader mode by pressing and holding the power button for 3 
 seconds. Both the blue LEDs will blink.
 {% endgs_step %}
 
-{% gs_step flashing %}
+{% gs_step flashing; flash %}
 In the "Make target" window double click "Flash using radio".
 
 Printouts in the "Console" window shows the progress and the LEDs on the 

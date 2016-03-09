@@ -59,4 +59,20 @@ class TestGettingStartedTags < Testbase
     # Assert
     assert_html(expected, actual)
   end
+
+
+  def test_that_step_is_rendered_with_specific_id
+    # Fixture
+    Jekyll::GettingStarted::Intro.reset_id_counter
+
+    tag = '{% gs_step My title; my-id %}md{% endgs_step %}'
+
+    expected = '<div class="plm-content-info-step"><h3 id="my-id">My title</h3>converted md</div>'
+
+    # Test
+    actual = Liquid::Template.parse(tag).render(nil, registers: {site: @site_mock})
+
+    # Assert
+    assert_html(expected, actual)
+  end
 end
