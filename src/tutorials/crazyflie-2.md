@@ -213,12 +213,6 @@ for all projects.
 {% img Update all projects icon; narrow; /images/getting-started/update-all-projects-icon.png; circle-border %}
 {% endgs_step %}
 
-{% gs_step download latest firmware %}
-* Open the web browser in the virtual machine, go to [https://github.com/bitcraze/crazyflie-release/releases](https://github.com/bitcraze/crazyflie-release/releases)
-* download the zip file named crazyflie-xxx.zip from the latest relase.
-* close the browser when the download is finished.
-{% endgs_step %}
-
 {% gs_step install hardware %}
 * Insert CrazyRadio PA into a USB port.
 * Insert game controller to a USB port.
@@ -254,6 +248,12 @@ Double click the “Crazyflie client” icon on the VM desktop
 In the client, open the input device settings. Check if the correct device
 mapping is chosen, otherwise pick your device type.
 {% img Controller settings; wide; /images/getting-started/SwPic7Final.png %}
+{% endgs_step %}
+
+{% gs_step download latest firmware %}
+* Open the web browser in the virtual machine, go to [https://github.com/bitcraze/crazyflie-release/releases](https://github.com/bitcraze/crazyflie-release/releases)
+* download the zip file named crazyflie-xxx.zip from the latest relase.
+* close the browser when the download is finished.
 {% endgs_step %}
 
 {% gs_step update firmware in the Crazyflie %}
