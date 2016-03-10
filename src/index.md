@@ -9,7 +9,7 @@ page_id: home
     <div class="container-fluid front-top-banner">
         <div class="row content-area">
             <div class="col-md-9 header_text">
-                  <h1>Make your ideas fly!</h1> 
+                  <h1>Make your ideas fly!</h1>
                     <h3>A flying open development platform</h3>
             </div>
             <div class="col-md-3 semi-transparent fp-blog">
@@ -84,7 +84,7 @@ portalexample="Example applications: flying for fun, FPV racing, flying art, app
                 {% used_by NASA; /images/logos/nasa.png; narrow %}
                 {% used_by Stanford %}
                 {% used_by Microsoft; /images/logos/microsoft.jpg; medium %}
-                {% used_by Chalmers %}
+                {% used_by Chalmers; /images/logos/chalmers.png; medium %}
                 {% used_by LTH; /images/logos/lth.png; narrow  %}
                 {% used_by IBM %}
                 {% used_by University of Bologna %}
