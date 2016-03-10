@@ -42,6 +42,7 @@
   - {page_id: development-overview}
   - {title: Github, url: "https://github.com/bitcraze"}
   - {title: Wiki, url: "https://wiki.bitcraze.io"}
+  - {title: Forum, url: "https://forum.bitcraze.io"}
   - {page_id: early-access}
 
 - title: About
