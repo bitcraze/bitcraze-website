@@ -59,7 +59,7 @@ Double click the "Eclipse" icon on the desctop to start it.
 Find the "Project explorer" window on the left side and expand the 
 "crazyflie-firmware" project.
 {% img Project explorer; medium; /images/getting-started/eclipse-project-explorer.png %}
-Navigate to `drivers/interface/led.h` and double click to open it.
+Navigate to `src/drivers/interface/led.h` and double click to open it.
 {% endgs_step %}
 
 {% gs_step change the code %}
