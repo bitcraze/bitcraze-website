@@ -2,12 +2,16 @@
 {% assign portalimg = include.portalimg %}
 {% assign portaltext = include.portaltext %}
 {% assign portalexample = include.portalexample %}
+{% assign portallink = include.portallink %}
 
 
 <div class="container-fluid portal-right">
     <div class="row content-area">
+        {% if portallink %}
+        <a href="{{portallink}}">
+        {% endif %}
         <div class="hidden-sm col-md-2"></div>
-        <div class="col-xs-12 col-sm-8 col-md-6 col-content-center portal-right">
+        <div class="col-xs-12 col-sm-8 col-md-6 col-content-center">
             <h2>{{portalheader}}</h2>
             <span>{{ portaltext | markdownify }}</span>
             <span class="portalexample">{{ portalexample | markdownify }}</span>
@@ -15,5 +19,8 @@
         <div class="hidden-xs col-sm-4 col-md-4">
             <img src="{{portalimg}}" class="img-responsive img-circle" alt="portalheader"/>
         </div>
+        {% if portallink %}
+        </a>
+        {% endif %}
     </div>
 </div>

@@ -130,8 +130,6 @@ table {
         width: 100px;
         }
         
-    
-    
     .header_text {
         h1 {
             font-size: 450%;
@@ -157,35 +155,44 @@ table {
         }
     }
 
-    .portal-left {
+    .portal-section {
         h2 {
             margin-top: 10px;
-            text-align: left;
             width: 100%;
+        }
+        p {
+            font-size: 18px;
+        }
+        a {
+          color: $text-color;
+        }
+    }
+
+    .portal-left {
+        @extend .portal-section;
+
+        background-color: $portal-background-color;
+
+        h2 {
+            text-align: left;
         }
         
         p {
             text-align: left;
-            font-size: 18px;
         }
     }
 
     .portal-right {
+        @extend .portal-section;
+
         h2 {
-            margin-top: 10px;
             text-align: right;
-            width: 100%;
         }
         p {
             text-align: right;
-            font-size: 18px;
         }
     }
 
-    .portal-bg-color {
-        background-color: $portal-background-color;
-    }
-    
     .portalexample {
         p {
             color: $bcGreen;

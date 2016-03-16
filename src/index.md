@@ -63,8 +63,8 @@ portalexample="Examples: remote control, sensor integration, autonomous flight
 
 "%}
 
-{% include index-portal-right.html portalheader="DIY" portalimg="/images/frontpage/front-page-portal-pic-4.jpg" portaltext="
-Love to fly? Like to tinker with toys? Want to modify and explore? Hate limitations and closed
+{% include index-portal-right.html portalheader="DIY" portalimg="/images/frontpage/front-page-portal-pic-4.jpg" 
+portaltext="Love to fly? Like to tinker with toys? Want to modify and explore? Hate limitations and closed
 systems? The Crazyflie is for you!
 
 Add decks for light and sound effects, or why not build your own deck? Create a
@@ -72,8 +72,10 @@ skin to make it look like your favourite flying creature or add a camera and
 do First Person Flying. Use the Crazyflie on a bigger quadcopter frame and build
 the optimal drone, tailored for your needs."
 
-portalexample="Example applications: flying for fun, FPV racing, flying art, application skinning and explore quadcopters
-"%}
+portalexample="Example applications: flying for fun, FPV racing, flying art, application skinning and explore quadcopters"
+
+portallink="/diy/"
+%}
 
 
     <div class="container-fluid used-by-section">
