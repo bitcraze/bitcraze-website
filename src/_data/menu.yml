@@ -36,6 +36,7 @@
   - {page_id: support-getting-help}
   - {title: Forum, url: "https://forum.bitcraze.io"}
   - {page_id: support-downloads}
+  - {page_id: frequently-asked-questions-Crazyflie-2.0}
 
 - title: Development
   subs:
