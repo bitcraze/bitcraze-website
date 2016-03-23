@@ -20,7 +20,7 @@ module Jekyll
     end
 
     def render(context)
-      opening_tags = '<div><a href="#CollapseSection%1$s" data-toggle="collapse"><strong>%2$s</strong></a><div id="CollapseSection%1$s" class="collapse">' % [@@id, @params[0]]
+      opening_tags = '<div class="collapse-section"><a href="#CollapseSection%1$s" data-toggle="collapse"><strong>%2$s</strong></a><div id="CollapseSection%1$s" class="collapse">' % [@@id, @params[0]]
       markup = markdownify(super, context)
       closing_tags = '</div></div>'
 

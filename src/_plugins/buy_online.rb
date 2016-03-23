@@ -18,7 +18,7 @@ module Jekyll
     end
 
     def render(context)
-        '<button type="button"><i class="fa fa-shopping-cart fa-fw"></i><a href="' + @params[0] + '">Buy online</a></button>'
+        '<button type="button" class="buy-button"><i class="fa fa-shopping-cart fa-fw"></i><a href="' + @params[0] + '">Buy online</a></button>'
     end
   end
 end

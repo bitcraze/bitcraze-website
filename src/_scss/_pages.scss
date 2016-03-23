@@ -60,6 +60,16 @@ table {
     @extend .table-bordered;
 }
 
+.collapse-section {
+  a {
+    line-height: 2;
+  }
+}
+
+.buy-button {
+  line-height: 2;
+}
+
 // Team member
 .team {
     margin-bottom: 50px;
@@ -223,9 +233,6 @@ table {
 // Page - Product
 .page-product {
     padding-bottom: 20px;
-    a {
-        line-height: 2;
-    }
     .pp-main-image-base {
         margin-bottom: 10px;
         width: 100%;
