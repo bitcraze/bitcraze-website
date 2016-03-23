@@ -6,13 +6,13 @@ page_id: product-qi-charger
 ---
 
 {% product_img Qi charger deck; medium;
-/images/qi-charger/qi-charger-deck-front.png;
-/images/qi-charger/qi-charger-deck-top.png;
-/images/qi-charger/qi-charger-deck-back.png;
+/images/qi-charger/qi-charger-deck-front.jpg;
+/images/qi-charger/qi-charger-deck-top.jpg;
+/images/qi-charger/qi-charger-deck-back.jpg;
 /images/qi-charger/qi-charger-deck-mounted.png
 %}
-     
-{% product_highlight 
+
+{% product_highlight
 fa-flash;
 Wireless charging;
 Charge your Crazyflie 2.0 without plugging in a USB cable.

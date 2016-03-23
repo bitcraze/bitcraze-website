@@ -6,12 +6,13 @@ page_id: product-led-ring-deck
 ---
 
 {% product_img LED-ring deck; medium;
-/images/led-ring/led-ring.png;
-/images/led-ring/led-ringBack.png;
+/images/led-ring/ledring-side.jpg;
+/images/led-ring/led-ring.jpg;
+/images/led-ring/led-ringBack.jpg;
 /images/led-ring/led-ring-dark.png
 %}
 
-{% product_highlight 
+{% product_highlight
 fa-lightbulb-o;
 Add lights to your Crazyflie 2.0;
 Light up the dark with custom patterns using the Crazyflie 2.0 LED-ring expansion deck.

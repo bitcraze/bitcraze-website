@@ -7,15 +7,15 @@ page_id: product-prototyping-deck
 
 {% product_img Prototyping deck; medium;
 /images/prototyping-deck/PrototypingDeckInAction.png;
-/images/prototyping-deck/PrototypingDeckFront.png;
-/images/prototyping-deck/PrototypingDeckTop.png;
-/images/prototyping-deck/PrototypingDeckBack.png
+/images/prototyping-deck/prototyping-deck.jpg;
+/images/prototyping-deck/PrototypingDeckTop.jpg;
+/images/prototyping-deck/PrototypingDeckBack.jpg
 
 
 
 %}
 
-{% product_highlight 
+{% product_highlight
 fa-wrench;
 Add your own hardware;
 Build your own expansion deck and add to your Crazyflie 2.0.

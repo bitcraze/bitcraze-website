@@ -6,13 +6,13 @@ page_id: product-crazyradio-pa
 ---
 
 {% product_img Crazyradio PA; medium;
-/images/crazyradio-pa/CrazyRadioSide.png;
-/images/crazyradio-pa/CrazyRadioFront.png;
-/images/crazyradio-pa/CrazyRadioBack.png
+/images/crazyradio-pa/CrazyRadioSide.jpg;
+/images/crazyradio-pa/CrazyRadioFront.jpg;
+/images/crazyradio-pa/CrazyRadioBack.jpg
 
 %}
-     
-{% product_highlight 
+
+{% product_highlight
 fa-wifi;
 The longer the merrier;
 Range of up to 1km
@@ -25,7 +25,7 @@ firmware. The power amplifier boosts the range, giving a range of up to
 1km (line of sight) together with the Crazyflie 2.0 and up to 2km
 Crazyradio PA to Crazyradio PA (line of sight).
 
-{% product_highlight 
+{% product_highlight
 fa-unlock;
 Open project;
 The Crazyradio PA is not only for the Crazyflie 2.0.
@@ -47,7 +47,7 @@ range increase as with the Crazyflie 2.0.
 * Up to 1km range LOS with Crazyflie 2.0
 * 2&#215;5 2.54mm header for prototyping (not mounted)
 * Hardware support for PPM
-* Same mechanical footprint as the first generation Crazyradio 
+* Same mechanical footprint as the first generation Crazyradio
 * Open source firmware
 * Firmware upgrade via USB
 * Low latency
@@ -55,7 +55,7 @@ range increase as with the Crazyflie 2.0.
 
 {% collapse_section Specification %}
 ##### General specification
-            
+
 * Based on nRF24LU1+ chip from Nordic Semiconductor
 * 8051 MCU at up to 16MHz with 32Kb flash and 2Kb SRAM
 * 2.4GHz ISM band radio
@@ -65,7 +65,7 @@ range increase as with the Crazyflie 2.0.
 * Sends and receives data packets of up to 32 bytes payload
 * Automatically handles addresses and packet ack
 * Hardware SPI and UART
-* Compatible with Enhanced ShockBurst protocol from Nordic Semiconductor 
+* Compatible with Enhanced ShockBurst protocol from Nordic Semiconductor
 
 ##### Radio specification
 
