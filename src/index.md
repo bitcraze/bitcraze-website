@@ -41,7 +41,10 @@ productvity."
 
 portalexample="
 Example applications: autonomous flight, path finding, sensor fusion, swarms and
-environment scanning"%}
+environment scanning"
+
+portallink="/research/"
+%}
 
 {% include index-portal-right.html portalheader="Used in education" portalimg="/images/frontpage/front-page-portal-pic-3.jpg" portaltext="
 The popularity of quadcopters makes the Crazyflie a perfect tool for higher education.

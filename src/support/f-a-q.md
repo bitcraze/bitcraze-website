@@ -92,10 +92,8 @@ For example this video was made using this ros driver:
 [Crazyflie 2.0 Swarm](https://www.youtube.com/watch?v=gH1Fcf597So)
 {% endcollapse_section %}
 
-<div class="container-fluid used-by-section">
-        <div class="row content-area">
-            <div class="col-md-12">
+
+ <div class="col-md-12">
                 <p class="text-right">Want to add a FAQ for Crazyflie 2.0? <a href="https://github.com/bitcraze/bitcraze-website/edit/master/src/{{page.path}}"><i class="fa fa-pencil"></i> &nbsp;Improve this page</a></p>
-            </div>
-        </div>
-    </div>
+</div>
+    
