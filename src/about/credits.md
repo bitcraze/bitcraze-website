@@ -7,7 +7,7 @@ page_id: credits
 
 ## Open source tools
 
-**One of the goals in our projects is to use open source tools as much as possible for development. We think that it's great that so many good tools are available and using these tools in our projects means that the community can contribute to all parts of the projects. Here's a list of the tools that we have used so far.**
+**One of our goals is to only use open source software when developing and so far we have managed to stick to it using tools for design of electronics, software and web. We think that it's great that so many good tools are available and using these tools in our projects means that the community can contribute to all parts of the projects. Here's a list of the tools that we have used so far.**
 
 ### Electronics
 * [KiCad](http://www.kicad-pcb.org/display/KICAD/KiCad+EDA+Software+Suite)
