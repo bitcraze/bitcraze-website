@@ -27,13 +27,15 @@ page_id: credits
 * [Docker](https://www.docker.com/)
 * [GitHub](https://github.com/)
 * [Bitbucket](https://bitbucket.org/)
+* [Git](https://git-scm.com/)
 
 ### Web
 * [Wordpress](https://wordpress.org/)
 * [Dokuwiki](https://www.dokuwiki.org/dokuwiki)
 * [phpBB](https://www.phpbb.com/)
-* [Git](https://git-scm.com/)
 * [Piwik](http://piwik.org/)
+* [Nginx](http://nginx.org/)
+* [MySQL](https://www.mysql.com/)
 * [Jekyll](https://jekyllrb.com/)
 * [Compass](http://compass-style.org/)
 * [Bootstrap](http://getbootstrap.com/)
