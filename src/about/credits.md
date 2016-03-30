@@ -23,17 +23,21 @@ page_id: credits
 * [SDCC](http://sdcc.sourceforge.net/)
 * [FreeRTOS](http://www.freertos.org/)
 * [PySDL2](https://pysdl2.readthedocs.org/en/latest/)
-* [TortoiseHG](http://tortoisehg.bitbucket.org/)
 * [ØMQ](http://zeromq.org/)
+* [Docker](https://www.docker.com/)
+* [GitHub](https://github.com/)
+* [Bitbucket](https://bitbucket.org/)
 
 ### Web
 * [Wordpress](https://wordpress.org/)
 * [Dokuwiki](https://www.dokuwiki.org/dokuwiki)
-* [Redmine](http://www.redmine.org/)
-* [Mercurial](https://www.mercurial-scm.org/)
 * [phpBB](https://www.phpbb.com/)
 * [Git](https://git-scm.com/)
-* [GitHub](https://github.com/)
+* [Piwik](http://piwik.org/)
+* [Jekyll](https://jekyllrb.com/)
+* [Compass](http://compass-style.org/)
+* [Bootstrap](http://getbootstrap.com/)
+* [HTML Proofer](https://github.com/gjtorikian/html-proofer)
 
 ### Media
 * [Audacity](https://sourceforge.net/projects/audacity/)
