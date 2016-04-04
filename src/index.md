@@ -94,7 +94,6 @@ portallink="/diy/"
                 {% used_by IBM %}
                 {% used_by University of Bologna %}
                 {% used_by USC; /images/logos/usc.png; medium %}
-                {% used_by UC Berkley %}
                 {% used_by MIT; /images/logos/mit.svg; narrow %}
                 {% used_by Bell Labs %}
                 {% used_by Adacore; /images/logos/adacore.png; medium %}
