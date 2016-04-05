@@ -30,7 +30,7 @@ why not connect to [ROS](http://www.ros.org/) or use the
 [ZeroMQ](http://zeromq.org/) messaging buss? The community has 
 created a wide array of frameworks and tools to connect and control the system.
 
-To make it super easy to get started with development, we have created a 
+To make it super easy to [get started with development](/getting-started-with-development/), we have created a 
 virtual machine where all the tools you need are installed and pre configured.
 No problems of setting up your compiler for the right CPU architecture or 
 installation of tools, it is woking out of the box.
