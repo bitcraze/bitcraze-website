@@ -65,9 +65,9 @@ move to a larger platform and go outdoors.
 Try out if your favourite programming language is doing well for drones
 or investigate how to use sensor data to understand the real world."
 
-portalexample="Examples: remote control, sensor integration, autonomous flight
-
-"%}
+portalexample="Examples: remote control, sensor integration, autonomous flight"
+portallink="/development/"
+%}
 
 {% include index-portal-right.html portalheader="DIY" portalimg="/images/frontpage/front-page-portal-pic-4.jpg" 
 portaltext="Love to fly? Like to tinker with toys? Want to modify and explore? Hate limitations and closed
