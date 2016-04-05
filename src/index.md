@@ -51,14 +51,17 @@ The popularity of quadcopters makes the Crazyflie a perfect tool for higher educ
 The source code is open making it easy to investigate or modify any part of the system,
 giving the students a direct connection from theory to the real world."
 
-portalexample="Examples areas: realtime systems, automatic control and signal processing
-"%}
+portalexample="Examples areas: realtime systems, automatic control and signal processing"
+
+portallink="/diy/"
+
+%}
 
 {% include index-portal-left.html portalheader="Used in development" portalimg="/images/frontpage/front-page-portal-pic-1.jpg" portaltext="
 Prototype your flying application in the comfort of your lab and usual development
 environment on a small and handy Crazyflie. Add sensors and other hardware as needed
 through the expansion ports. When everything is tested and working as expected,
-move to a larger platform and go outdors.
+move to a larger platform and go outdoors.
 Try out if your favourite programming language is doing well for drones
 or investigate how to use sensor data to understand the real world."
 
