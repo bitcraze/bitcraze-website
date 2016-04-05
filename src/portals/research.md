@@ -5,6 +5,9 @@ permalink: /research/
 page_id: research
 ---
 
+The Crazyflie is used in research of various areas for instance swarms, 
+control algorithms and path finding. 
+
 ### Publications involving Crazyflie 2.0
 ---
 * **"Planning and Control for Quadrotor Flight through Cluttered Environments"**, B. Landry,  Master's thesis, Massachusetts Institute of Technology, USA, June 2015.
@@ -37,6 +40,6 @@ page_id: research
 [PDF](http://bdml.stanford.edu/uploads/Main/PerchingPublications/IROS_2015_Recovery.pdf) 
 [Video](https://m.youtube.com/watch?v=xhtbprB5Rqs)
 
- <div class="col-md-12">
-                <p class="text-right">Want to add a publication? <a href="https://github.com/bitcraze/bitcraze-website/edit/master/src/{{page.path}}"><i class="fa fa-pencil"></i> &nbsp;Improve this page</a></p>
+<div class="col-md-12">
+  <p class="text-right">Want to add a publication? <a href="https://github.com/bitcraze/bitcraze-website/edit/master/src/{{page.path}}"><i class="fa fa-pencil"></i> &nbsp;Improve this page</a></p>
 </div>
