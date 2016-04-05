@@ -3,6 +3,30 @@ require_relative 'plugin_helper'
 module Jekyll
   module Tabs
 
+    # These tags are used to generate tabed sections. The "tabgroup" block tag
+    # is used as an outer tag and the "tab" tag to define each tab.
+    #
+    # Example:
+    # {% tabgroup %}
+    # {% tab Title of first tab %}
+    # Tab content (markdown)
+    # {% endtab %}
+    # {% tab Title of first tab %}
+    # Tab content (markdown)
+    # {% endtab %}
+    # ...
+    # {% endtabgroup %}
+
+
+    # Use this tag block as an outer block for tags
+    #
+    # Takes no argumants
+    #
+    # Example:
+    # {% tabgroup %}
+    # Tabs ...
+    # {% endtabgroup %}
+
     class Group < Liquid::Block
       include Jekyll::PluginHelper
 
@@ -58,6 +82,18 @@ module Jekyll
       end
     end
 
+
+    # Use this tag to define a tab
+    #
+    # ; is used as separator
+    #
+    # Takes 1 argumant
+    # - Tab title
+    #
+    # Example
+    # {% tab Title of tab %}
+    # Tab content (markdown)
+    # {% endtab %}
 
     class Tab < Liquid::Block
       include Jekyll::PluginHelper
