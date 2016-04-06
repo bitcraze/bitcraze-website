@@ -53,7 +53,7 @@ giving the students a direct connection from theory to the real world."
 
 portalexample="Examples areas: realtime systems, automatic control and signal processing"
 
-portallink="/diy/"
+portallink="/education/"
 
 %}
 
