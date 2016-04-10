@@ -7,6 +7,6 @@
       tag = tools.tagForRelease()
 
       // Trigger next build
-      build job: 'Release-docker-int-web', parameters: [[$class: 'StringParameterValue', name: 'BITCRAZE_WEB_TAG', value: tag]], wait: false
+      tools.triggerBuildOfWebDockerImage(tag)
     }
 }
