@@ -37,7 +37,7 @@ module Jekyll
           @@id += 1
         end
 
-        '<div class="plm-content-intro-text"><h2 id="%1$s">%2$s</h2>%3$s</div>' % [full_id, @params[0], markup]
+        '<div class="plm-content-gen-intro-text"><h2 id="%1$s">%2$s</h2>%3$s</div>' % [full_id, @params[0], markup]
       end
 
       def self.reset_id_counter()
@@ -78,7 +78,7 @@ module Jekyll
           @@id += 1
         end
 
-        '<div class="plm-content-info-step"><h3 id="%1$s">%2$s</h3>%3$s</div>' % [full_id, @params[0], markup]
+        '<div class="plm-content-gen-info-step"><h3 id="%1$s">%2$s</h3>%3$s</div>' % [full_id, @params[0], markup]
       end
 
       def self.reset_id_counter()
