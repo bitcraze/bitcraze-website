@@ -2,7 +2,7 @@
 layout: page-left-menu
 title: Troubleshooting
 permalink: /troubleshooting/
-page_id: getting-started-development
+page_id: support-troubleshooting
 ---
 
 {% gen_intro Crazyflie 2.0 connects but does not communicate %}

@@ -2,7 +2,7 @@
 layout: page
 title: FAQ for Crazyflie 2.0
 permalink: /frequently-asked-questions-Crazyflie-2.0/
-page_id: frequently-asked-questions-Crazyflie-2.0
+page_id: support-frequently-asked-questions-Crazyflie-2.0
 ---
 
 {% collapse_section For how long can it fly? %}
