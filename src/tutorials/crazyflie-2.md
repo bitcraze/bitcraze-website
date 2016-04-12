@@ -256,7 +256,7 @@ mapping is chosen, otherwise pick your device type.
 * close the browser when the download is finished.
 {% endgs_step %}
 
-{% gs_step update firmware in the Crazyflie; udate-fw %}
+{% gs_step update firmware in the Crazyflie; update-fw %}
 * Turn the Crazyflie off.
 * Start the Crazyflie in bootloader mode by pressing the power button for 3 seconds. Both the blue LEDs will blink.
 * Go back to the Crazyflie client in the VM and click the Crazyflie -> Bootloader menu. 
