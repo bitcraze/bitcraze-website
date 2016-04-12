@@ -19,7 +19,7 @@ module Jekyll
     #
     # {% gs_intro My title; optional-id %}
     # Some content (supports markdown)
-    # {% gs_intro %}
+    # {% endgs_step %}
 
     class Intro < Liquid::Block
       include Jekyll::PluginHelper
@@ -63,7 +63,7 @@ module Jekyll
     #
     # {% gs_step My title; optional-id %}
     # Some content (supports markdown)
-    # {% gs_step %}
+    # {% endgs_step %}
 
     class Step < Liquid::Block
       include Jekyll::PluginHelper
