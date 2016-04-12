@@ -30,4 +30,3 @@ Check that the propellers are mounted correctly by using [this](https://www.bitc
 {% gen_step make sure propellers are mounted with right side up %}
 Check that you can see a little "ring" on every propeller's center otherwise the propellers are mounted upside down.
 {% endgen_step %}
-
