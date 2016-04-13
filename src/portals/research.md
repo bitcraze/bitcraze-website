@@ -5,10 +5,12 @@ permalink: /research/
 page_id: research
 ---
 
-The Crazyflie is used in research of various areas for instance swarms, 
-control algorithms and path finding. 
+{% img education header; wide; /images/portals/portal-research-header.jpg %}
 
-### Publications involving Crazyflie 2.0
+
+The Crazyflie is used in research of various areas for instance swarms, control algorithms and path finding. 
+
+#### Publications involving Crazyflie 2.0
 ---
 * **"Planning and Control for Quadrotor Flight through Cluttered Environments"**, B. Landry,  Master's thesis, Massachusetts Institute of Technology, USA, June 2015.
 [PDF](http://groups.csail.mit.edu/robotics-center/public_papers/Landry15.pdf) 
@@ -20,8 +22,10 @@ control algorithms and path finding.
 [Video](https://www.youtube.com/watch?v=px9iHkA0nOI)
 
 
-### Publications involving Crazyflie 1.0
+#### Publications involving Crazyflie 1.0
 ---
+
+
 * **“Development of a wireless video transfer system for remote control of a lightweight UAV”**, J. Tosteberg and T. Axelsson, Master’s thesis, Linköping University, Sweden, June 2012. 
 [PDF](http://liu.diva-portal.org/smash/get/diva2:534744/FULLTEXT01.pdf)
   
