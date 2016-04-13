@@ -23,7 +23,7 @@ module Jekyll
       end
 
       def render(context)
-          '<a href="%2$s"><img class="plm-content-logo" src="%3$s" alt="%1$s"/></a>' % @params
+          '<a href="%2$s"><img class="distributor-logo" src="%3$s" alt="%1$s"/></a>' % @params
       end
     end
 
@@ -50,7 +50,7 @@ module Jekyll
         full_id = 'continent' + @@id.to_s
         @@id += 1
 
-        '<h2 class="plm-distributor-continent" id="%1$s">%2$s</h2>' % [full_id, @params[0]]
+        '<h2 class="distributor-continent" id="%1$s">%2$s</h2>' % [full_id, @params[0]]
       end
 
       def self.reset_id_counter()

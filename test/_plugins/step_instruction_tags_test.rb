@@ -1,9 +1,9 @@
 require 'jekyll'
 require 'test/testbase'
 
-require 'src/_plugins/getting_started_tags'
+require 'src/_plugins/step_instruction_tags'
 
-class TestGettingStartedTags < Testbase
+class TestStepInstructionTags < Testbase
 
   def setup
     @converter_mock = MiniTest::Mock.new()
@@ -15,11 +15,11 @@ class TestGettingStartedTags < Testbase
 
   def test_that_intro_is_rendered
     # Fixture
-    Jekyll::GettingStarted::Intro.reset_id_counter
+    Jekyll::StepInstruction::Intro.reset_id_counter
 
-    tag = '{% gs_intro My title %}md{% endgs_intro %}'
+    tag = '{% si_intro My title %}md{% endsi_intro %}'
 
-    expected = '<div class="plm-content-intro-text"><h2 id="intro1">My title</h2>converted md</div>'
+    expected = '<div class="step-instruction-intro"><h2 id="intro1">My title</h2>converted md</div>'
 
     # Test
     actual = Liquid::Template.parse(tag).render(nil, registers: {site: @site_mock})
@@ -31,11 +31,11 @@ class TestGettingStartedTags < Testbase
 
   def test_that_intro_is_rendered_with_specific_id
     # Fixture
-    Jekyll::GettingStarted::Intro.reset_id_counter
+    Jekyll::StepInstruction::Intro.reset_id_counter
 
-    tag = '{% gs_intro My title; my-id %}md{% endgs_intro %}'
+    tag = '{% si_intro My title; my-id %}md{% endsi_intro %}'
 
-    expected = '<div class="plm-content-intro-text"><h2 id="my-id">My title</h2>converted md</div>'
+    expected = '<div class="step-instruction-intro"><h2 id="my-id">My title</h2>converted md</div>'
 
     # Test
     actual = Liquid::Template.parse(tag).render(nil, registers: {site: @site_mock})
@@ -47,11 +47,11 @@ class TestGettingStartedTags < Testbase
 
   def test_that_step_is_rendered
     # Fixture
-    Jekyll::GettingStarted::Intro.reset_id_counter
+    Jekyll::StepInstruction::Intro.reset_id_counter
 
-    tag = '{% gs_step My title %}md{% endgs_step %}'
+    tag = '{% si_step My title %}md{% endsi_step %}'
 
-    expected = '<div class="plm-content-info-step"><h3 id="infostep1">My title</h3>converted md</div>'
+    expected = '<div class="step-instruction-info-step"><h3 id="infostep1">My title</h3>converted md</div>'
 
     # Test
     actual = Liquid::Template.parse(tag).render(nil, registers: {site: @site_mock})
@@ -63,11 +63,11 @@ class TestGettingStartedTags < Testbase
 
   def test_that_step_is_rendered_with_specific_id
     # Fixture
-    Jekyll::GettingStarted::Intro.reset_id_counter
+    Jekyll::StepInstruction::Intro.reset_id_counter
 
-    tag = '{% gs_step My title; my-id %}md{% endgs_step %}'
+    tag = '{% si_step My title; my-id %}md{% endsi_step %}'
 
-    expected = '<div class="plm-content-info-step"><h3 id="my-id">My title</h3>converted md</div>'
+    expected = '<div class="step-instruction-info-step"><h3 id="my-id">My title</h3>converted md</div>'
 
     # Test
     actual = Liquid::Template.parse(tag).render(nil, registers: {site: @site_mock})

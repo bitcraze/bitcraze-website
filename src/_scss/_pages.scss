@@ -7,6 +7,9 @@
         max-width: 100%;
         height: auto;
     }
+    li {
+        padding-bottom: 7px;
+    }
 }
 
 .media-row-base {
@@ -221,13 +224,7 @@ table {
             align-content: center;
         }
     }
-   
 }
-
-    .pp-glyph {
-            text-align: center;
-            font-size: 100px;         
-    }
 
 
 // Page - Product
@@ -300,98 +297,82 @@ table {
     }
 }
 
-// Page - Left menu
 // Modifier class for 1:1 aspect ratio
 .embed-responsive-1by1 {
     padding-bottom: 100%;
 }
 
-.page-left-menu {
-    .plm-nav-s-1 {
-        background-color: $bcGreen;
+// Distributors
+.distributor-continent:not(:first-of-type) {
+    @media (min-width: $screen-xs-min) {
+        margin-top: 30px;
     }
-    .plm-nav-s-2 {
-        background-color: $bcMidGreen;
+    @media (min-width: $screen-md-min) {
+        margin-top: 100px;
     }
-    .plm-nav-s-3 {
-        background-color: $bcDarkGreen;
+}
+.content-area .distributor-logo {
+    width: 100%;
+    max-width: 300px;
+    max-height: 300px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    display: block;
+}
+
+
+// Step instruction
+.step-instruction-intro {
+    p {
+        font-weight: 400;
     }
-    .plm-nav-s-extra {
-        background-color: $bcDarkGrey;
+
+    h2 {
+        font-size: 200%;
+        font-weight: 500;
     }
-    .plm-nav-space {
-        margin-top: 10px;
+}
+.step-instruction-info-step {
+    margin-bottom: 50px;
+
+    @media (min-width: $screen-xs-min) {
+        margin-bottom: 100px;
     }
-    .plm-content li {
-        padding-bottom: 7px;
-    }
-    .plm-content-logo {
-        width: 100%;
-        max-width: 300px;
-        max-height: 300px;
-        margin-right: auto;
-        margin-left: auto;
-        margin-top: 20px;
-        margin-bottom: 20px;
-        display: block;
-    }
-    .plm-distributor-continent:not(:first-of-type) {
-        @media (min-width: $screen-xs-min) {
-            margin-top: 30px;
-        }
-        @media (min-width: $screen-md-min) {
-            margin-top: 100px;
-        }
-    }
-    .plm-content-info-step {
-        @media (min-width: $screen-xs-min) {
-            margin-bottom: 100px;
-        }
-    }
-    .plm-content-intro-text {
-        p {
-            font-weight: 400;
-        }
-    }
-    
-    .plm-content-gen-intro-text {
-        h2 {
-            font-size: 200%;
-            font-weight: 500;
-        }
-        
-    }
-    .plm-content-gen-info-step {
-            margin-bottom: 50px;
-            
-        h3 {
-            font-size: 150%; 
-        }
-    }
- 
-    .plm-download-list {
-        width: 100%;
-        display: table;
-        table-layout: fixed;
-        list-style-type: none;
-        padding-left: 0;
-        margin-top: 10px;
-        padding-top: 4px;
-        margin-bottom: 10px;
-        padding-bottom: 4px;
-        border-top: solid 1px $table-line-color;
-        border-bottom: solid 1px $table-line-color;
-        text-align: center;
-        li {
-            @media (min-width: $screen-xs-min) {
-                display: table-cell;
-            }
-        }
-    }
+
     h3 {
+        font-size: 150%;
         border-width: 0 0 1px 0;
         border-style: solid;
     }
+}
+
+
+// Tutorials
+.tutorial-download-list {
+    width: 100%;
+    display: table;
+    table-layout: fixed;
+    list-style-type: none;
+    padding-left: 0;
+    margin-top: 10px;
+    padding-top: 4px;
+    margin-bottom: 10px;
+    padding-bottom: 4px;
+    border-top: solid 1px $table-line-color;
+    border-bottom: solid 1px $table-line-color;
+    text-align: center;
+    li {
+        @media (min-width: $screen-xs-min) {
+            display: table-cell;
+        }
+    }
+}
+
+
+// Left menu
+.left-menu {
     $padding-menu-top: 28px;
     .affix {
         $nav-cols-width: 4;

@@ -1,7 +1,7 @@
 require_relative 'plugin_helper'
 
 module Jekyll
-  module GettingStarted
+  module StepInstruction
     #
     # Use these tags on gettings started pages
     #
@@ -13,13 +13,13 @@ module Jekyll
     # The optional id is used if given, otherwise an id is created
     #
     # Examples:
-    # {% gs_intro My title %}
+    # {% si_intro My title %}
     # Some content (supports markdown)
-    # {% gs_intro %}
+    # {% si_intro %}
     #
-    # {% gs_intro My title; optional-id %}
+    # {% si_intro My title; optional-id %}
     # Some content (supports markdown)
-    # {% endgs_step %}
+    # {% endsi_intro %}
 
     class Intro < Liquid::Block
       include Jekyll::PluginHelper
@@ -41,7 +41,7 @@ module Jekyll
           @@id += 1
         end
 
-        '<div class="plm-content-intro-text"><h2 id="%1$s">%2$s</h2>%3$s</div>' % [full_id, @params[0], markup]
+        '<div class="step-instruction-intro"><h2 id="%1$s">%2$s</h2>%3$s</div>' % [full_id, @params[0], markup]
       end
 
       def self.reset_id_counter()
@@ -57,13 +57,13 @@ module Jekyll
     # The optional id is used if given, otherwise an id is created
     #
     # Example:
-    # {% gs_step My title %}
+    # {% si_step My title %}
     # Some content (supports markdown)
-    # {% gs_step %}
+    # {% si_step %}
     #
-    # {% gs_step My title; optional-id %}
+    # {% si_step My title; optional-id %}
     # Some content (supports markdown)
-    # {% endgs_step %}
+    # {% endsi_step %}
 
     class Step < Liquid::Block
       include Jekyll::PluginHelper
@@ -85,7 +85,7 @@ module Jekyll
           @@id += 1
         end
 
-        '<div class="plm-content-info-step"><h3 id="%1$s">%2$s</h3>%3$s</div>' % [full_id, @params[0], markup]
+        '<div class="step-instruction-info-step"><h3 id="%1$s">%2$s</h3>%3$s</div>' % [full_id, @params[0], markup]
       end
 
       def self.reset_id_counter()
@@ -96,5 +96,5 @@ module Jekyll
   end
 end
 
-Liquid::Template.register_tag('gs_intro', Jekyll::GettingStarted::Intro)
-Liquid::Template.register_tag('gs_step', Jekyll::GettingStarted::Step)
+Liquid::Template.register_tag('si_intro', Jekyll::StepInstruction::Intro)
+Liquid::Template.register_tag('si_step', Jekyll::StepInstruction::Step)
