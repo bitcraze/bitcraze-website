@@ -14,7 +14,7 @@
         $full-width-4-cols: $site-width * $nav-cols-width / $grid-columns;
         $diff: $full-width-4-cols - $bs-4-cols-width-no-gutter;
         padding-right: $diff;
-        top: $content-area-padding-top + $padding-menu-top;
+        top: $content-area-padding-top;
         @media (min-width: $site-width + $grid-gutter-width) {
             width: ($site-width * $nav-cols-width / $grid-columns) - $grid-gutter-width + $diff;
         }
