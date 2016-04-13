@@ -36,7 +36,10 @@ Don't pair the Crazyflie 2.0, just connect directly through the app. If so unpai
 {% endsi_intro %}
 
 {% si_step make sure propellers are mounted correctly %}
-Check that the propellers are mounted correctly by using [this](/wp-content/uploads/2014/09/cf2_props.png) detailed view.
+Check that the propellers are mounted on the correct motor. Check each propeller 
+to see if it is a clock wise or counter clock wise turning propeller and mount it
+according to the detailed view bellow.
+{% img Crazyflie 2.0 propeller mounting; medium; /images/getting-started/cf2_props.png %}
 {% endsi_step %}
 
 {% si_step make sure propellers are mounted with right side up %}
