@@ -6,7 +6,6 @@ page_id: support-troubleshooting
 ---
 
 {% si_intro Crazyflie 2.0 cfclient connects but does not communicate %}
-&#32;
 {% endsi_intro %}
 
 {% si_step update to latest cfclient %}
@@ -20,7 +19,6 @@ Then proceed with [updating](/getting-started-with-the-crazyflie-2-0/#update-fw)
 {% endsi_step %}
 
 {% si_intro Crazyflie 2.0 android client doesn't connect %}
-&#32;
 {% endsi_intro %}
 
 {% si_step Check compatibility %}
@@ -32,7 +30,6 @@ Don't pair the Crazyflie 2.0, just connect directly through the app. If so unpai
 {% endsi_step %}
 
 {% si_intro Crazyflie 2.0 doesn't take off %}
-&#32;
 {% endsi_intro %}
 
 {% si_step make sure propellers are mounted correctly %}
@@ -47,7 +44,6 @@ Check that you can see a little "ring" on every propeller's center otherwise the
 {% endsi_step %}
 
 {% si_intro Crazyflie 2.0 flies badly %}
-&#32;
 {% endsi_intro %}
 
 {% si_step Balance propellers %}

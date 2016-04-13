@@ -47,6 +47,11 @@ module Jekyll
       def self.reset_id_counter()
         @@id = 1
       end
+
+      # Allow for empty body. Liquid will not output the rendered result otherwise
+      def blank?
+        false
+      end
     end
 
 
