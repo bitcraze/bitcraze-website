@@ -58,6 +58,6 @@ Crazyflie 2.0.
 
 ---
 
-[Getting started with expansion decks](https://www.bitcraze.io/getting-started-with-expansion-decks/)
+[Getting started with expansion decks](/getting-started-with-expansion-decks/)
 
 {% buy_online http://www.seeedstudio.com/depot/Crazyflie-20-Qi-inductive-charging-expansion-board-p-2112.html %}

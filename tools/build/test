@@ -4,7 +4,9 @@ set -e
 # Run ruby unit tests
 
 scriptDir=$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )
-testDir=$scriptDir/../../test
+pluginTestDir=${scriptDir}/../../test
+buildToolsTestDir=${scriptDir}/../validate/test
+
 
 echo "Running ruby tests..."
-ruby -I . -e "require 'minitest/autorun'; Dir.glob('${testDir}/**/*test.rb') { |f| require(f) }"
+ruby -I . -e "require 'minitest/autorun'; Dir.glob('${pluginTestDir}/**/*test.rb') { |f| require(f) }; Dir.glob('${buildToolsTestDir}/**/*test.rb') { |f| require(f) }"

@@ -30,6 +30,10 @@ will have to use docker-machine to figure out your address.
 1. Make your changes. The site will automatically rebuild when you modify a 
 file, so all you have to do is to reload the page in your browser to see the 
 results.
+1. Make sure all tests and validations passes
+
+        ./tools/do build
+
 1. Commit and issue a pull request
 1. Done!
 
@@ -99,7 +103,7 @@ For instance, downloading dependencies would be
  
         tb download_deps 
 
-or running the proofer
+or running the validations
 
-        tb proofer
+        tb validate
         

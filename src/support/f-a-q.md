@@ -46,7 +46,7 @@ As with all radio communication it depends. It depends on the environment, radio
 {% endcollapse_section %}
 
 {% collapse_section Can't I use a normal R/C transmitter? %}
-This can be done with the [BigQuad expansion deck](https://www.bitcraze.io/bigquad-deck/). It's working, but not yet a turn-key solution.
+This can be done with the [BigQuad expansion deck](/bigquad-deck/). It's working, but not yet a turn-key solution.
 {% endcollapse_section %}
 
 {% collapse_section How durable is the Crazyflie 2.0? %}
@@ -58,7 +58,7 @@ Yes the firmware and the communication protocol is backward compatible. All libr
 {% endcollapse_section %}
 
 {% collapse_section Can the Crazyflie 2.0 be used to control a bigger quadcopter? %}
-Yes, it can. With the [BigQuad expansion deck](https://www.bitcraze.io/bigquad-deck/).
+Yes, it can. With the [BigQuad expansion deck](/bigquad-deck/).
 {% endcollapse_section %}
 
 {% collapse_section Can I do FPV (first person view) flying with a Crazyflie 2.0? %}
