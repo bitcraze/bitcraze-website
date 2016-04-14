@@ -33,7 +33,3 @@ Do you want to share your experiments and hacks with the Bitcraze community? Go 
 {% hackster chromebookbob/long-exposure-light-painting-2c4106 %}
 
 {% hackster fredg/crazyflie-2-0-fpv-setup-d2fc25 %}
-
-<div class="col-md-12">
-  <p class="text-right">Missing your Bitcraze project? <a href="https://github.com/bitcraze/bitcraze-website/edit/master/src/{{page.path}}"><i class="fa fa-pencil"></i> &nbsp;Improve this page</a></p>
-</div>
