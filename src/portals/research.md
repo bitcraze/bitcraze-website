@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: page-portal
 title: Research
 permalink: /research/
 page_id: research
@@ -9,6 +9,20 @@ page_id: research
 
 
 The Crazyflie is used in research of various areas for instance swarms, control algorithms and path finding. 
+
+
+
+#### Videos
+
+{% youtube bAhLW1eq8eM; medium; 16by9 %}
+{% youtube gH1Fcf597So; medium; 16by9 %}
+{% youtube px9iHkA0nOI; medium; 16by9 %}
+{% youtube JoWU8qoAk84; medium; 16by9 %}
+{% youtube ZrQbruTtzfQ; medium; 16by9 %}
+{% youtube oreVFqRntXY; medium; 16by9 %}
+{% youtube QjxF9zUlIx0; medium; 16by9 %}
+{% youtube NwxOwYi0jFQ; medium; 16by9 %}
+
 
 #### Publications involving Crazyflie 2.0
 ---
@@ -24,8 +38,6 @@ The Crazyflie is used in research of various areas for instance swarms, control 
 
 #### Publications involving Crazyflie 1.0
 ---
-
-
 * **“Development of a wireless video transfer system for remote control of a lightweight UAV”**, J. Tosteberg and T. Axelsson, Master’s thesis, Linköping University, Sweden, June 2012. 
 [PDF](http://liu.diva-portal.org/smash/get/diva2:534744/FULLTEXT01.pdf)
   

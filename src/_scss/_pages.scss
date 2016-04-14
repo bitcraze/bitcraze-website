@@ -369,3 +369,17 @@ table {
         }
     }
 }
+
+ // Page-Portals
+.page-portal {
+    .media-row-medium {
+        width: 49.6%;
+        display: inline-block;
+        margin-left: 0;
+
+        @media (max-width: $screen-xs-max) {
+            width: 100%;            
+        }
+    }
+}
+
