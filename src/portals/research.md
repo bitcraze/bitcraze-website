@@ -5,14 +5,37 @@ permalink: /research/
 page_id: research
 ---
 
-{% img education header; wide; /images/portals/portal-research-header.jpg %}
+{% img research header; wide; /images/portals/portal-research-header.jpg %}
 
+## The Crazyflie is ideal for many areas of research
+---
 
-The Crazyflie is used in research of various areas for instance swarms, control algorithms and path finding. 
+#### Flexible
 
+The Crazyflie is the ideal tool for research in many areas, for instance control algorithms,
+swarms, path finding, agriculture or failure recovery. The platform is designed to be as
+flexible and versatile as possible to enable the user to explore the area of interest. 
 
+#### Extendable
 
-#### Videos
+Add new sensors or other hardware to support your needs, the expansion port supports a variety 
+of interfaces and there is plenty of power in the processors for you to use. If you need 
+more lifting capacity, use the BigQuad deck and move your application to a bigger frame,
+while still being able to develop it in the comfort of your lab.
+
+#### Tools
+
+The Crazyflie can be controlled from a number of programming languages and also integrates with 
+tools and frameworks such as ROS or ZeroMQ. It works well with standard development tools to make
+your work a breeze. 
+
+#### Open
+
+It is all open to allow you to change what you need to change, you will never be locked in
+by limited APIs or closed software. Never.
+
+### Crazyflie used in research
+---
 
 {% youtube bAhLW1eq8eM; medium; 16by9 %}
 {% youtube gH1Fcf597So; medium; 16by9 %}
@@ -24,7 +47,7 @@ The Crazyflie is used in research of various areas for instance swarms, control 
 {% youtube NwxOwYi0jFQ; medium; 16by9 %}
 
 
-#### Publications involving Crazyflie 2.0
+### Publications involving Crazyflie 2.0
 ---
 * **"Planning and Control for Quadrotor Flight through Cluttered Environments"**, B. Landry,  Master's thesis, Massachusetts Institute of Technology, USA, June 2015.
 [PDF](http://groups.csail.mit.edu/robotics-center/public_papers/Landry15.pdf) 
@@ -36,7 +59,7 @@ The Crazyflie is used in research of various areas for instance swarms, control 
 [Video](https://www.youtube.com/watch?v=px9iHkA0nOI)
 
 
-#### Publications involving Crazyflie 1.0
+### Publications involving Crazyflie 1.0
 ---
 * **“Development of a wireless video transfer system for remote control of a lightweight UAV”**, J. Tosteberg and T. Axelsson, Master’s thesis, Linköping University, Sweden, June 2012. 
 [PDF](http://liu.diva-portal.org/smash/get/diva2:534744/FULLTEXT01.pdf)
