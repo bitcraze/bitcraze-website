@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: page-portal
 title: Education
 permalink: /education/
 page_id: education

@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: page-portal
 title: DIY
 permalink: /diy/
 page_id: diy

@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: page-portal
 title: Development
 permalink: /development/
 page_id: development
