@@ -176,8 +176,8 @@ table {
         p {
             font-size: 18px;
         }
-        a {
-          color: $text-color;
+        .learn-more a {
+          font-weight: 400;
         }
     }
 
@@ -186,11 +186,7 @@ table {
 
         background-color: $portal-background-color;
 
-        h2 {
-            text-align: left;
-        }
-        
-        p {
+        h2, p {
             text-align: left;
         }
     }
@@ -198,11 +194,15 @@ table {
     .portal-right {
         @extend .portal-section;
 
-        h2 {
+        h2, p {
             text-align: right;
         }
-        p {
-            text-align: right;
+
+        .learn-more {
+          width: 100%;
+          a {
+            float: right;
+          }
         }
     }
 
