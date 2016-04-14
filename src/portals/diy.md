@@ -5,19 +5,22 @@ permalink: /diy/
 page_id: diy
 ---
 
-{% img Dragon; medium; /images/frontpage/front-page-portal-pic-4.jpg %}
+{% img education header; wide; /images/portals/portal-diy-header.jpg %}
 
-**Love to fly? Like to tinker with toys? Want to modify and explore? Hate limitations and closed
-systems? The Crazyflie is for you!**
+## Love to fly? Want to modify and explore? Hate limitations and closed systems? The Crazyflie is for you!
+------
 
+#### Tinker
 Add decks for light and sound effects, or why not build your own deck? Create a
 skin to make it look like your favourite flying creature or add a camera and
 do First Person Flying. Use the Crazyflie on a bigger quadcopter frame and build
 the optimal drone, tailored for your needs.
 
-## DIY Projects
+#### Share
 
-We collect cool projects on [hackster.io](https://www.hackster.io/bitcraze):
+Do you want to share your experiments and hacks with the Bitcraze community? Go to our [hackster community platform](https://www.hackster.io/bitcraze) and add your project.
+
+#### Collection
 
 {% hackster ataffanel/crazyfblimp-6a081b %}
 
@@ -32,5 +35,5 @@ We collect cool projects on [hackster.io](https://www.hackster.io/bitcraze):
 {% hackster fredg/crazyflie-2-0-fpv-setup-d2fc25 %}
 
 <div class="col-md-12">
-  <p class="text-right">Want to add a project? <a href="https://github.com/bitcraze/bitcraze-website/edit/master/src/{{page.path}}"><i class="fa fa-pencil"></i> &nbsp;Improve this page</a></p>
+  <p class="text-right">Missing your Bitcraze project? <a href="https://github.com/bitcraze/bitcraze-website/edit/master/src/{{page.path}}"><i class="fa fa-pencil"></i> &nbsp;Improve this page</a></p>
 </div>
