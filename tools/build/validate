@@ -4,6 +4,8 @@
 # pointing at something valid and that images exists.
 
 
+STDOUT.sync = true
+
 require 'html-proofer'
 
 # Add checks for our urls
