@@ -102,6 +102,7 @@ portallink="/diy/"
                 {% used_by Adacore; /images/logos/adacore.png; medium %}
                 {% used_by ETH Zurich %}
                 {% used_by Ericsson %}
+		{% used_by UIUC; images/logos/uiuc.jpg; small %}
 
                 <p class="text-right">Is your organization missing? <a href="https://github.com/bitcraze/bitcraze-website/edit/master/src/{{page.path}}"><i class="fa fa-pencil"></i> &nbsp;Improve this page</a></p>
             </div>
