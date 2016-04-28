@@ -8,7 +8,7 @@ class TestBuyOnline < Testbase
   def test_that_tag_is_rendered
     # Fixture
     tag = '{% buy_online http://some.url %}'
-    expected = '<button type="button" class="buy-button"><i class="fa fa-shopping-cart fa-fw"></i><a href="http://some.url">Buy online</a></button>'
+    expected = '<a href="http://some.url"><button type="button" class="buy-button"><i class="fa fa-shopping-cart fa-fw"></i>Buy online</button></a>'
 
     # Test
     actual = Liquid::Template.parse(tag).render

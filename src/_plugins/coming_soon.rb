@@ -13,7 +13,7 @@ module Jekyll
     end
 
     def render(context)
-        '<button type="button" class="buy-button" disabled><i class="fa fa-gift fa-fw"></i><a href="#">Coming soon</a></button>'
+        '<a href="#"><button type="button" class="buy-button" disabled><i class="fa fa-gift fa-fw"></i>Coming soon</button></a>'
     end
   end
 end

@@ -8,7 +8,7 @@ class TestComingSoon < Testbase
   def test_that_tag_is_rendered
     # Fixture
     tag = '{% coming_soon %}'
-    expected = '<button type="button" class="buy-button" disabled><i class="fa fa-gift fa-fw"></i><a href="#">Coming soon</a></button>'
+    expected = '<a href="#"><button type="button" class="buy-button" disabled><i class="fa fa-gift fa-fw"></i>Coming soon</button></a>'
 
     # Test
     actual = Liquid::Template.parse(tag).render
