@@ -8,8 +8,8 @@ page_id: buy-distributors
 {% continent Main distributor - world wide %}
 {% distributor Seeedstudio; http://www.seeedstudio.com/depot/bitcraze-m-64.html?ref=side; /images/distributors/seeed.png %}
 
-Products designed by Bitcraze are retailed though the 
-[Seeedstudio webshop](http://www.seeedstudio.com/depot/bitcraze-m-64.html?ref=side), 
+Products designed by Bitcraze are retailed though the
+[Seeedstudio webshop](http://www.seeedstudio.com/depot/bitcraze-m-64.html?ref=side),
 but the products are also available from a number of local distributors word-wide.
 
 
@@ -23,7 +23,6 @@ but the products are also available from a number of local distributors word-wid
 
 {% country USA %}
 {% distributor Epic Thinker; http://www.epictinker.com/category-s/1863.htm; /images/distributors/epictink.logo_.small_.220x174.png %}
-{% distributor Makershed; http://www.makershed.com/pages/search-results?q=crazyflie&p=1; /images/distributors/makershed-300x75.png %}
 {% distributor Hackaday; http://store.hackaday.com/search?q=crazyflie; /images/distributors/hackaday.png %}
 {% distributor Nkc_logo_only; http://www.amazon.com/s/ref=nb_sb_noss?url=me%3DA1LHQ5G6ONPXVT&field-keywords=crazyflie; /images/distributors/nkc_logo_only.png %}
 {% distributor Diigiit; http://www.us.diigiit.com/bitcraze; /images/distributors/diigiit_logo-300x103.png %}
@@ -44,7 +43,6 @@ but the products are also available from a number of local distributors word-wid
 
 {% country India %}
 {% distributor Proto Central; http://www.protocentral.com/search?controller=search&orderby=position&orderway=desc&search_query=crazyflie; /images/distributors/proto_central.jpg %}
-{% distributor CrazyPi; https://www.crazypi.com/index.php?route=product/search&search=crazyflie; /images/distributors/crazypi.png %}
 {% distributor RhydoLABZ; http://www.rhydolabz.com/index.php?main_page=advanced_search_result&search_in_description=1&zenid=b1621fa24d22a251847471f0d0fe0d3b&keyword=crazyflie; /images/distributors/RhydoLABZ.png %}
 
 {% country New Zealand %}
@@ -91,9 +89,9 @@ but the products are also available from a number of local distributors word-wid
 
 {% continent For distributors %}
 
-All distributors are handled by Seeedstudio, so if you would like to distribute 
-our products then please have a look at the 
+All distributors are handled by Seeedstudio, so if you would like to distribute
+our products then please have a look at the
 [Seeedstudio distributor page](http://www.seeedstudio.com/depot/index.php?main_page=become_a_distributor).
 
-If you are already distributing our products but you are not in the list above, 
+If you are already distributing our products but you are not in the list above,
 [drop us an email](/contact/) and we will add you.
