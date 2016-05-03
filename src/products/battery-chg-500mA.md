@@ -13,7 +13,7 @@ page_id: battery-charger-500mA
 {% product_highlight
 fa-battery-full;
 Battery charger;
-Make sure you're batteries are always ready for action!
+Make sure your batteries are always ready for action!
 %}
 
 Use the Bitcraze battery charger to always have your spare batteries full
