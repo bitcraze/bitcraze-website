@@ -21,13 +21,13 @@ always a good idea to get JTAG/SWD access to the platform for debugging. With
 our **debug adapter kit** you can connect your normal JTAG/SWD debugger easily.
 
 ## Used in
-* [Research](https://www.bitcraze.io/research/)
-* [Education](https://www.bitcraze.io/education/)
-* [Development](https://www.bitcraze.io/development/)
-* [Do-it-yourself](https://www.bitcraze.io/diy/)
+* [Research](/research/)
+* [Education](/education/)
+* [Development](/development/)
+* [Do-it-yourself](/diy/)
 
 ## More information
-* [Frequently asked questions](https://www.bitcraze.io/frequently-asked-questions-Crazyflie-2.0/)
-* [Getting started with the Crazyflie 2.0](https://www.bitcraze.io/getting-started-with-the-crazyflie-2-0/)
-* [Getting started with expansion decks](https://www.bitcraze.io/getting-started-with-expansion-decks/)
-* [Getting started with development](https://www.bitcraze.io/getting-started-with-development/)
+* [Frequently asked questions](/frequently-asked-questions-Crazyflie-2.0/)
+* [Getting started with the Crazyflie 2.0](/getting-started-with-the-crazyflie-2-0/)
+* [Getting started with expansion decks](/getting-started-with-expansion-decks/)
+* [Getting started with development](/getting-started-with-development/)
