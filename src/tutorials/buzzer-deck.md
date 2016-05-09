@@ -7,9 +7,9 @@ page_id: getting-started-buzzer-deck
 
 {% si_intro The buzzer deck %}
 The buzzer deck contains a low profile piezo buzzer and has a 1-wire memory which enables the Crazyflie to automatically detect the buzzer.
-The deck can be installed both on the top and the bottom of the Crazyflie. For more information about how to mount an expansion deck please see the [Getting started with expansion decks](https://github.com/bitcraze/crazyflie-release/releases) tutorial.
+The deck can be installed both on the top and the bottom of the Crazyflie. For more information about how to mount an expansion deck please see the [Getting started with expansion decks](/getting-started-with-expansion-decks/) tutorial.
 
-To be able to use the buzzer you need to update the Crazyflie to the latest firmware. For more information on how to update the firmware, see the [download latest firmware](/getting-started-with-the-crazyflie-2-0/#infostep27) section in our getting started with Crazyflie 2.0 tutorial. 
+To be able to use the buzzer you need to update the Crazyflie to the latest firmware. For more information on how to update the firmware, see the [download latest firmware](/getting-started-with-the-crazyflie-2-0/#latest-fw) section in our getting started with Crazyflie 2.0 tutorial. 
   
 {% endsi_intro %}
 

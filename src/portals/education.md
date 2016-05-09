@@ -28,10 +28,10 @@ Since the crazyflie fits in the palm of your hand and only weighs 27g it’s ide
 ------
 <img class="img-responsive img-float-left" src="/images/portals/education/user-story-education.jpg" alt="user-story-education">
 
-#### Associate Professor Knut Åkesson have chosen to incorporate the Crazyflie 2.0 as an educational platform for the course "Embedded control systems" at Chalmers University of Technology. 
+#### Associate Professor Knut Åkesson have chosen to incorporate the Crazyflie 2.0 as an educational platform for the course ["Embedded control systems"](https://student.portal.chalmers.se/en/chalmersstudies/courseinformation/Pages/SearchCourse.aspx?course_id=21540&parsergrp=3) at Chalmers University of Technology. 
 
 
-During 8 weeks the students at **Chalmers** gets introduced to the principles of design, specification, modeling, analysis and implementation of embedded control systems. The course is part of the **"Systems, control and mechatronics"** master program.
+During 8 weeks the students at **Chalmers** gets introduced to the principles of design, specification, modeling, analysis and implementation of embedded control systems. The course is part of the **["Systems, control and mechatronics"](https://student.portal.chalmers.se/en/chalmersstudies/courseinformation/Pages/SearchCourse.aspx?program_id=1353&parsergrp=5)** master program.
 The Crazyflie 2.0 is introduced to the students when the course progresses from a theoretical level towards practical realization. Using the Crazyflie 2.0 as an educational platform gives the students the opportunity to test their work in real-life. 
 As an example the students build dynamic models of the Crazyflie 2.0 in the modelling language Modelica. They then design control algorithms based on the model and finally implement it on the Crazyflie 2.0.
 
@@ -43,8 +43,14 @@ Using an open source tool also saves the teachers from the hassle dealing with l
 Another advantage is that traditional lab equipment is often very expensive and the time each student get to spend with the equipment is limited. 
 Because of the Crazyflies price point the university can provide more students with the platform and let them bring it home and keep during the whole 8 week course. This also goes hand in hand with the safety issue that's been taken into consideration according to Knut. Because of the Crazyflies small size the teachers don’t have to prepare any major precautions before the students can start working with the platform and it makes it possible at all for the students to bring the Crazyflie 2.0 home.
 
+https://student.portal.chalmers.se/en/chalmersstudies/courseinformation/Pages/SearchCourse.aspx?program_id=1353&parsergrp=5
+
+
 
 #### Key points
 * **An open platform**
-* **The price point**
+* **Price point**
 * **Safety because of size**
+
+
+
