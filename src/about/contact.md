@@ -5,17 +5,50 @@ permalink: /contact/
 page_id: about-contact
 ---
 
-We have a number of communication channels you can use to get more
-information or to contact us. It is important to use the right channel to
-get the best possible support.
+<div class="row">
+    <div class="col-md-6">
+{% product_highlight 
+fa fa-comments-o; 
+Forum;
+%} 
+If you are having a question or a problem, start by reading the 
 
-* Check out the [wiki](//wiki.bitcraze.io) for details on our projects
-* If you are having a question or a problem, start by reading the [forum](//forum.bitcraze.io) to see if anyone else already had the same problem and found a solution.
-* You can find source code and other documents on [GitHub](https://github.com/bitcraze)
+<a href="//forum.bitcraze.io">forum</a> to see if anyone else already had the same problem and found a solution.
+    </div>
+   
+   
+      <div class="col-md-6">
+{% product_highlight 
+fa fa-wikipedia-w; 
+Wiki;
+%} 
+Check out the <a href="//wiki.bitcraze.io">wiki</a> for details on our projects.
+    </div>
+   
 
-## Other topics
+</div>
 
-You can email us on <a href="mailto:contact@bitcraze.io">contact@bitcraze.io</a>
+<div class="row">
+
+    
+    <div class="col-md-6">
+{% product_highlight 
+fa fa-envelope-o; 
+Email;
+%} 
+You can email us at <a href="mailto:contact@bitcraze.io">contact@bitcraze.io</a>
+    </div>
+    
+    <div class="col-md-6">
+{% product_highlight 
+fa fa-github; 
+Github;
+%} 
+You can find source code and other documents on <a href="https://github.com/bitcraze">GitHub</a>
+    </div>
+</div>
+
+<br>
 
 ## Visiting address
 

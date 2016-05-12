@@ -43,10 +43,6 @@ Using an open source tool also saves the teachers from the hassle dealing with l
 Another advantage is that traditional lab equipment is often very expensive and the time each student get to spend with the equipment is limited. 
 Because of the Crazyflies price point the university can provide more students with the platform and let them bring it home and keep during the whole 8 week course. This also goes hand in hand with the safety issue that's been taken into consideration according to Knut. Because of the Crazyflies small size the teachers don’t have to prepare any major precautions before the students can start working with the platform and it makes it possible at all for the students to bring the Crazyflie 2.0 home.
 
-https://student.portal.chalmers.se/en/chalmersstudies/courseinformation/Pages/SearchCourse.aspx?program_id=1353&parsergrp=5
-
-
-
 #### Key points
 * **An open platform**
 * **Price point**
