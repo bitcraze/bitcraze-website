@@ -79,6 +79,9 @@ by limited APIs or closed software. Never.
 [PDF](http://bdml.stanford.edu/uploads/Main/PerchingPublications/IROS_2015_Recovery.pdf) 
 [Video](https://m.youtube.com/watch?v=xhtbprB5Rqs)
 
+* **"Nonlinear control strategies for quadrotors and CubeSats"**, Giri Prashanth Subramanian, Master’s thesis, University of Illinois at Urbana-Champaign, USA, July 2015.
+[PDF](https://www.ideals.illinois.edu/bitstream/handle/2142/88078/SUBRAMANIAN-THESIS-2015.pdf?sequence=1) 
+
 <div class="col-md-12">
   <p class="text-right">Want to add a publication? <a href="https://github.com/bitcraze/bitcraze-website/edit/master/src/{{page.path}}"><i class="fa fa-pencil"></i> &nbsp;Improve this page</a></p>
 </div>
