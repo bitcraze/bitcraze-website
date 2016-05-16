@@ -26,11 +26,11 @@ act as headlights.
 ---
 
 {% collapse_section Features %}
-* Stable light independent of battery voltage*
-* 12 RGB LEDs facing downwards in ring configuration*
-* The RGB LEDs can be controlled individually*
-* 2 super strong white LEDs facing forward*
-* Automatic detection of expansion deck*
+* Stable light independent of battery voltage
+* 12 RGB LEDs facing downwards in ring configuration
+* The RGB LEDs can be controlled individually
+* 2 super strong white LEDs facing forward
+* Automatic detection of expansion deck
 {% endcollapse_section %}
 
 {% collapse_section Specifications %}
