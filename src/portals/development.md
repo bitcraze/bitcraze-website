@@ -41,3 +41,8 @@ Connect a debugger to the Crazyflie to easily debug and investigate what is
 going on in the firmware. The CPU is over powered to give your application the 
 CPU time it needs to its job. Our goal has been to make the Crazyflie a versatile development platform that gives you the power to try your ideas out. 
 **Go play!**
+
+### Crazyflie used in development
+---
+
+{% youtube T_22q7x0mcw; medium; 16by9 %}
