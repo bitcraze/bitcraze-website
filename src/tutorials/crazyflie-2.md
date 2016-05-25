@@ -125,6 +125,40 @@ spin, if they don’t then check the motor connections.
 {% vine OgzwVPTpnHl %}    
 {% endsi_step %}
 
+{% si_step getting to know your Crazyflie; leds %}
+First of all, lets look at what is front and back, this is important when flying
+and also when mounting expansion decks. The small "bump" (the antenna) is on the front
+and the blue LEDs are at the back. 
+{% img Crazyflie board from the top; medium; /images/getting-started/frontCF.png %}
+
+#### Start up sequence
+
+When the Crazyflie 2.0 is powered on it will automatically go through a short 
+sequence of events to get ready for flight.
+
+1. **Run self tests** - the Crazyflie 2.0 checks that the hardware is OK
+1. **Calibrate sensors** - the Crayflie 2.0 reads its sensors to get base values. 
+It must be *absolutely still* to do this, put it on a level surface for a second.
+1. **Ready to fly!**
+
+#### Understanding LEDs
+
+You also need to understand what the LEDs mean.
+
+* **Power on and all is good:** The blue LEDs (2 and 3) are fully lit and the 
+front right LED (1) is blinking red twice every second.
+* **Power on and all is good but sensors are not yet calibrated:** The blue LEDs 
+(2 and 3) are fully lit and the front right LED (1) is blinking red with 2 seconds interval.
+Put the crazyflie 2.0 on a level surface and keep it absolutely still to calibrate.
+* **Radio connected:** The front left LED (4) is flickering in read and/or green.
+* **Battery low:** The front right LED (1) is fully lit in red. It's time to 
+land and re-charge the battery.
+* **Charging:** The back left blue LED (3) is blinking while the right back blue LED (4) is lit.
+* **Boot loader mode:** The blue LEDs (2 and 3) at the back are blinking 
+approximately once every second.
+* **Self test fail:** The right front LED (1) is repeatedly blinking five short 
+red pulses with a longer pause between groups.
+{% endsi_step %}
 
 
 
@@ -288,26 +322,10 @@ well as battery status and the link quality.
 Now it's time to do some flying, but first there are some basics you need to know about.
 {% endsi_intro %}
 
-{% si_step getting to know your Crazyflie; leds %}
-First of all, you need to understand where the front is, it is much easier
-to fly with the copter pointing away from you. The blue LEDs are in the
-back, so keep them pointing in your direction when starting to fly.
-{% img Crazyflie board from the top; medium; /images/getting-started/frontCF.png %}
-You also need to understand what the LEDs mean.
-
-* **Power on and all is good:** The blue LEDs (2 and 3) are fully lit and the 
-front right LED (1) is blinking red twice every second.
-* **Power on and all is good but sensors are not yet calibrated:** The blue LEDs 
-(2 and 3) are fully lit and the front right LED (1) is blinking red with 2 seconds interval.
-Put the crazyflie on a level surface and keep it absolutely still to calibrate.
-* **Radio connected:** The front left LED (4) is flickering in read and/or green.
-* **Battery low:** The front right LED (1) is fully lit in red. It's time to 
-land and re-charge the battery.
-* **Charging:** The back left blue LED (3) is blinking while the right back blue LED (4) is lit.
-* **Boot loader mode:** The blue LEDs (2 and 3) at the back are blinking 
-approximately once every second.
-* **Self test fail:** The right front LED (1) is repeatedly blinking five short 
-red pulses with a longer pause between groups.
+{% si_step orientation; orientation %}
+First of all, it is much easier to fly when the copter is pointing away from you. 
+The blue LEDs are on the back, so keep them pointing in your direction when 
+starting to fly.
 {% endsi_step %}
 
 {% si_step maneuvering a quadcopter; maneuvering %}
