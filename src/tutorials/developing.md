@@ -96,8 +96,8 @@ The result should be displayed in the "console" tab under the editor window.
 {% endsi_step %}
 
 {% si_step start the build; build %}
-In the toolbar click the "Build all" icon, or press CRTL + B
-{% img Build all icon; narrow; /images/getting-started/build-all-icon.png; circle-border %}
+In the toolbar, click the hammer icon
+{% img Build all icon; narrow; /images/getting-started/build-icon.jpg; circle-border %}
 Again, the result should be displayed in the "console" tab under the editor window.
 {% img Project explorer; medium; /images/getting-started/eclipse-console.png %}
 {% endsi_step %}
