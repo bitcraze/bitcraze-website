@@ -88,7 +88,7 @@ downloaded to the Crazyflie.
 {% endsi_intro %}
 
 {% si_step clean %}
-Locate the "Make target" window on the left side. Expand "crazyflie-firmware"
+Locate the "Make target" tab on the right side at the top. Expand "crazyflie-firmware"
 and double click "clean"
 {% img Project explorer; medium; /images/getting-started/eclipse-make-target.png %}
 
@@ -126,7 +126,7 @@ Crazyflie flickers.
 {% endsi_step %}
 
 {% si_step That's it! %}
-The Crazyfile should restart whwn the flashing is complete and the front right LED 
+The Crazyfile should restart when the flashing is complete and the front right LED 
 of your Crazyflie should now be green instead of the normal red. 
 
 Congratulations to your first Crazyflie hack!
