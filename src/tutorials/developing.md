@@ -88,7 +88,8 @@ downloaded to the Crazyflie.
 {% endsi_intro %}
 
 {% si_step clean %}
-Locate the "Make target" tab on the right side at the top. Expand "crazyflie-firmware"
+Locate the "Make target" tab on the right side at the top (or bottom left if you are
+using an older VM). Expand "crazyflie-firmware"
 and double click "clean"
 {% img Project explorer; medium; /images/getting-started/eclipse-make-target.png %}
 
