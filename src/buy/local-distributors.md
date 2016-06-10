@@ -59,6 +59,7 @@ but the products are also available from a number of local distributors word-wid
 
 {% country Czech Republic %}
 {% distributor HW Kitchen; http://www.hwkitchen.com/robotics/crazyflie-2-0/; /images/distributors/HW-Kitchen_logo-300x261.jpg %}
+{% distributor Nanotrik; http://shop.nanotrik.cz/; /images/distributors/nanotrik.png %}
 
 {% country France %}
 {% distributor LaDroneShop; http://www.ladroneshop.com/fr/87-crazyflie; /images/distributors/logo-ds2-copie-300x42.jpg %}
