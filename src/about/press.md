@@ -7,7 +7,7 @@ page_id: about-press
 
 ## Hi press!
 
-We love to help journalists, blogers and so on that need high resolution images
+We love to help journalists, bloggers and so on that need high resolution images
 for publication. Don't hesitate to contact us at contact@bitcraze.io for any
 questions or if there is something missing.
 

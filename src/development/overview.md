@@ -20,7 +20,7 @@ of different parts working together to complete the system. That means that
 developers can dive into any given area and experiment, learn and improve. Each 
 of these areas can be explored separately using other boards, but with the 
 Crazyflie you have a complete system built around what you are experimenting 
-with. Here’s examples of a  few areas that you can explore:
+with. Here’s examples of a few areas that you can explore:
 
 * **Sensors:** The platform consists of a number of different sensors. All of 
 these need signal processing and tuning to optimize performance.
@@ -33,7 +33,7 @@ fly [see our blog](/blog/).
 * **Radio protocols:** The Crazyflie communicates via radio with the host. The 
 protocol is very basic but has the potential to be expanded with more features.
 * **USB:** The Crazyradio uses USB device to communication with the host
-Real-time systems: The Crazyflie firmware is very time critical.
+real-time systems: The Crazyflie firmware is very time critical.
 * **Image processing:** When using for instance the Kinect to fly you need image 
 processing to detect and calculate where the Crazyflie is.
 * **Android:** Using your USB OTH/HOST enabled Android device you can use the 
@@ -43,7 +43,7 @@ The different systems use different languages. So if you are looking at using a
 specific language there are a few to choose from:
 
 * C for the Crazyradio and Crazyflie firmware
-* Python for the Crazyflie PC API and client (the also have Ruby and C/C++ APIs 
+* Python for the Crazyflie PC API and client (they also have Ruby and C/C++ APIs 
 maintained by the community)
 * Java for the Crazyflie Android Client
 
@@ -54,7 +54,7 @@ the Crazyflie platform, this can be a hassle. To make it as easy as possible
 for developers to start developing we provide a virtual machine that contains 
 everything needed. All you need is the virtual machine handler of your choice 
 then download and import the virtual machine that we have prepared. Since the 
-platform is developed using only open tools you will have access to everything 
+platform is developed using only open source tools you will have access to everything 
 you need for development. This includes build-systems, compilers, EDA software, 
 firmware libraries and debugging tools.
 
@@ -88,7 +88,7 @@ any external equipment.
 
 The parameter and logging frameworks enables developers to easily (via macros 
 in the firmware) define a special usage for variables. When the host connects 
-to the Crazyflie a list of these are downloaded and they can be used. The 
+to the Crazyflie a list of them is downloaded and they can be used. The 
 parameters are used to change variables in the Crazyflie in real-time. This is 
 very useful when working with the regulation, then you can change the tuning on 
 the fly. The logging framework is used to set up logging of variables from the 
@@ -119,4 +119,4 @@ The forum is used to get support, discuss our platform or just show off some
 project that they have done. If you feel like contributing we accept 
 pull-requests for all our software/firmware (after review and testing) and also 
 let users get write access to our wiki. This is a great resource for us since 
-there’s lot’s of things we miss and need help fixing.
+there are lots of things we miss and need help fixing.

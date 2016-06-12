@@ -66,7 +66,7 @@ virtual machine download link can be found on the
 
 The virtual machine comes as a standard OVA file which means that it can run 
 with many virtualization applications. However it has been setup and mostly tested 
-on Virtualbox. You can 
+on VirtualBox. You can 
 [donwnload VirtualBox](https://www.virtualbox.org/wiki/Downloads)
 for you computer, install it and then double-click on the Bitcraze virtual 
 machine to start using it.
@@ -80,7 +80,7 @@ connected to it:
 
 
 {% si_intro Flying %}
-Now you should  have the client launched, the gamepad and the Crazyradio 
+Now you should have the client launched, the gamepad and the Crazyradio 
 plugged in and working.
 
 * In the "Input device" menu select the gamepad and the mapping. Check by moving the axes that the Thrust, Pitch, Roll and Yaw fields are showing meaningful values.

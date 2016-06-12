@@ -37,7 +37,7 @@ is open, making it possible to tap into any
 part of the system for complete control and full flexibility. New hardware or sensors can be added
 through the versatile expansion ports, enabling the addition of the latest sensors.
 The small size and light weight reduces the need for safety equipment and increases
-productvity."
+productivity."
 
 portalexample="
 Example applications: autonomous flight, path finding, sensor fusion, swarms and
@@ -75,10 +75,10 @@ systems? The Crazyflie is for you!
 
 Add decks for light and sound effects, or why not build your own deck? Create a
 skin to make it look like your favourite flying creature or add a camera and
-do First Person Flying. Use the Crazyflie on a bigger quadcopter frame and build
-the optimal drone, tailored for your needs."
+do First Person View (FPV) flying. Use the Crazyflie on a bigger quadcopter frame and build
+the optimal drone, tailored to your needs."
 
-portalexample="Example applications: flying for fun, FPV racing, flying art, application skinning and explore quadcopters"
+portalexample="Example applications: flying for fun, FPV racing, flying art, application skinning and exploring quadcopters"
 
 portallink="/diy/"
 %}

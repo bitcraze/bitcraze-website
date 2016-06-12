@@ -28,8 +28,7 @@ controller.
 
 
 
-The Crazyflie 2.0 is charged via uUSB so you don't need a additional charger 
-for your Crazyflie 2.0 just connect it to your computer.
+The Crazyflie 2.0 is charged via uUSB so you don't need an additional charger, you just connect it to your computer.
 
 The board contains an EEPROM memory for storing configuration parameters and a 10-DOF IMU with accelerometer, gyro,
 magnetometer and a high precision pressure sensor.
@@ -67,7 +66,7 @@ The Crazyflie 2.0 is quite fast if you let it be, but even if it
 crashes it's still only 27g which means the kinetic energy involved in a crash is fairly low. 
 During hard impact, the system is designed to break at the cheapest component, the motor mounts, which are available as spare parts.
 {% endcollapse_section %}
-        
+
 
 {% product_highlight 
 fa-arrows;
@@ -80,7 +79,7 @@ The Crazyflie 2.0 features 4 x 7mm coreless DC-motors that give the Crazyflie a
 maximum takeoff weight of 42g. This capacity enables it to carry multiple expansion decks, maybe with one of your own
 experiments.
 Performance parameters can be set in real-time from our clients.
-By tuning these parameters you control the angles of the platform. Set them  high to give you more speed and aggressiveness when flying, or set them low to make flying easier to learn when starting out.
+By tuning these parameters you control the angles of the platform. Set them high to give you more speed and aggressiveness when flying, or set them low to make flying easier to learn when starting out.
 {% endcollapse_section %}
 
 
@@ -96,7 +95,7 @@ just making the code available, therefore our software, firmware
 and utilities have functionality such as logging, real-time parameter setting and
 wireless firmware updates. The complete development environment for 
 most of the subsystems is available in a virtual machine, so you 
-don't need to install any toolchains to start developing. Also the 
+don't need to install any tool chains to start developing. Also the 
 virtual machine works just as well for flying.
 
 Once you have made some modifications, simply flash the new firmware

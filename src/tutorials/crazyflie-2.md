@@ -29,7 +29,7 @@ The Crazyflie 2.0 is tested extensively in the production, but to make sure
 nothing has happened during shipping/storage you should run the tests before 
 starting the assembly. Power on the Crazyflie 2.0 using a USB source (either 
 computer or charger) and check the results of the test below. Note that it’s 
-important to keep the Crazyflie 2.0 still during the test and away from strong 
+important to hold the Crazyflie 2.0 steady during the test and away from strong 
 magnetic sources.
 {% endsi_intro %}
 
@@ -37,14 +37,14 @@ magnetic sources.
 Before you start assembling anything, run the power on self-test by
 connecting the Crazyflie 2.0 to a uUSB power source. The LEDs M1 and M4
 will indicate the result of the test. If the M4 LED blinks GREEN five times
-fast, then the test has passed.    
-{% vine Or3Evd9neVX %}    
+fast, then the test has passed.
+{% vine Or3Evd9neVX %}
 {% endsi_step %}
-    
+
 {% si_step self-test fails %}
 If the self-test fails, then the M1 LED blinks 5 times fast RED, then pauses
 and does it again. Go to our support forum to get help.
-{% vine Or39eVaZxr1 %}    
+{% vine Or39eVaZxr1 %}
 {% endsi_step %}
 
 
@@ -63,16 +63,16 @@ noise and make the wires fit better in the motor mount “hooks”.
 {% si_step mount the motors %}
 Push the four motors into the motor mounts. You will need some force to
 insert them. If it is difficult doing it as in the video try putting the
-motor can towards an table edge and press on the mount, however don’t press
+motor can towards a table edge and press on the mount, however don’t press
 on the motor axis while inserting them as it might damage the motor. The
 motor should be inserted all the way to the stop in the mount.
-{% vine Or3YpMHuXmd %}    
+{% vine Or3YpMHuXmd %}
 {% endsi_step %}
 
 {% si_step attach the twisted wire %}
 Attach the twisted wire into the two small “hooks” that are underneath the
 motor mount.
-{% vine Or3LaJrMMbj %}    
+{% vine Or3LaJrMMbj %}
 {% endsi_step %}
 
 {% si_step insert the motor %}
@@ -80,29 +80,29 @@ Insert the motor mounts on the Crazyflie 2.0 wings. They are press fit and
 might need a small amount of force. Make sure they go all the way to the
 stop. It’s not important which motor you put where. After it’s been
 inserted, connect the motor connectors to the Crazyflie 2.0.
-{% vine Or3l3lYJaFb %}    
+{% vine Or3l3lYJaFb %}
 {% endsi_step %}
 
 {% si_step attach the propellers %}
 Now it’s time to attach the propellers. Note: There are two kinds of
 propellers, the clock wise (CW) and counter clock wise (CCW) propellers,
 each kind has their own bag in the box. Here we are attaching the CW propellers.
-{% vine OrLaQ7TElb2 %}    
+{% vine OrLaQ7TElb2 %}
 Here’s a detailed view of where to attach CW and CCW propellers.
 {% img Crazyflie 2.0 propeller mounting; medium; /images/getting-started/cf2_props.png %}
 {% endsi_step %}
 
 {% si_step attach the rubber pad %}
 The rubber pad should be attached to the Crazyflie 2.0 between the
-expansion headers. This will create friction and keep the battery from
-slipping out, as well as protecting the electronics.
-{% vine OrL7u7aKw5w %}    
+expansion headers. This will create friction, keep the battery from
+slipping out and also protect the electronics.
+{% vine OrL7u7aKw5w %}
 {% endsi_step %}
 
 {% si_step attach headers %}
 There are two types of headers in the box, long and short ones. Find the
 two short ones and insert them into the expansion connector.
-{% vine OrL7TxphWBW %}    
+{% vine OrL7TxphWBW %}
 {% endsi_step %}
 
 {% si_step attach the battery %}
@@ -114,7 +114,7 @@ the battery in place so tighten it until it does.
 Now connect the battery
 and you are finished with the assembly. The battery wires can preferably be
 bent and placed underneath the PCB to be out of the way.
-{% vine OrLAtap1mzr %}    
+{% vine OrLAtap1mzr %}
 {% endsi_step %}
 
 {% si_step power on! %}
@@ -122,7 +122,7 @@ The assembly is finished, now it’s time to power it on! Note that the power
 button is a push button, not a sliding button. During the power-on
 self-test all the propellers will spin in sequence. Make sure they all
 spin, if they don’t then check the motor connections.
-{% vine OgzwVPTpnHl %}    
+{% vine OgzwVPTpnHl %}
 {% endsi_step %}
 
 {% si_step getting to know your Crazyflie; leds %}
@@ -138,7 +138,7 @@ sequence of events to get ready for flight.
 
 1. **Run self tests** - the Crazyflie 2.0 checks that the hardware is OK
 1. **Calibrate sensors** - the Crayflie 2.0 reads its sensors to get base values. 
-It must be *absolutely still* to do this, put it on a level surface for a second.
+It must be *absolutely still* to do this, so it's best to put it on a level surface for a second.
 1. **Ready to fly!**
 
 #### Understanding LEDs
@@ -210,7 +210,7 @@ The VM has all software you need for flight and development pre-installed.
 
 {% si_step install Virtualbox; inst-virtualbox %}
 Before downloading the virtual machine you must have VirtualBox or some
-other virtualization application installed on your computer. Virtualbox is
+other virtualization application installed on your computer. VirtualBox is
 a cross-platform virtualization application that imports and runs our
 preconfigured virtual machine.
 
@@ -218,7 +218,7 @@ preconfigured virtual machine.
 {% endsi_step %}
 
 {% si_step download the Bitcraze virtual machine; download-vm %}
-Ones you have installed Virtualbox you can download the virtual machine
+Once you have installed VirtualBox you can download the virtual machine
 using one of these links.
 
 {{ "
@@ -256,18 +256,18 @@ for all projects.
 {% tabgroup %}
 {% tab Windows/Linux %}
 * In the bottom right corner click the USB icon and choose “Bitcraze Crazyradio PA USB dongle”.
-{% img USB settings; medium; /images/getting-started/SwPic5Final.png %}      
+{% img USB settings; medium; /images/getting-started/SwPic5Final.png %}
 * Now choose your game controller in the same list.
 {% endtab %}
 {% tab OS X %}
 * In the bottom right corner click the USB icon, then click “USB settings".
-{% img USB settings; medium; /images/getting-started/SwPic2.1Final.png %}      
+{% img USB settings; medium; /images/getting-started/SwPic2.1Final.png %}
 * Click the USB filter "+" icon.
-{% img USB settings; wide; /images/getting-started/SwPic3Final.png %}      
+{% img USB settings; wide; /images/getting-started/SwPic3Final.png %}
 * Choose your game controller from the list. Click OK.
-{% img USB settings; wide; /images/getting-started/SwPic4Final.png %}     
+{% img USB settings; wide; /images/getting-started/SwPic4Final.png %}
 * Now click the USB icon again and choose the “Bitcraze Crazyradio PA USB dongle”.
-{% img USB settings; medium; /images/getting-started/SwPic5Final.png %}      
+{% img USB settings; medium; /images/getting-started/SwPic5Final.png %}
 * Now choose your game controller in the same list.
 {% endtab %}
 {% endtabgroup %}
@@ -351,7 +351,7 @@ The controls on the gamepad or mobile app have the following mapping:
 When thrusting without touching any other controls, this is what it might
 look like. The Crazyflie usually drifts in some direction if not
 compensated for, this is completely normal.
-{% vine imF9eEIxUiK %}    
+{% vine imF9eEIxUiK %}
 {% endsi_step %}
 
 {% si_step the ground effect; ground-effect %}
@@ -364,12 +364,12 @@ when taking off and then ease off for level flight.
 
 {% si_step if the Crazyflie is unbalanced; unbalanced %}
 If your Crazyflie drifts a lot when taking off, there are a few things you should check.
-    
+
 * Make sure the battery is centered. If it has slipped
 too far to either side, the Crazyflie might have a hard time
 compensating for it.
 * Check that the propellers are spinning freely. Blow lightly on them, one by one, 
-and verify that they turn. A a common problem is that hair is jammed between the 
+and verify that they turn. A common problem is that hair is jammed between the 
 propeller and motor. If this is the problem. just pull the propeller off from the
 motor, remove the hair and reinstall the propeller.
 * Check that the propellers are balanced, [see the balancing propellers guide](/balancing-propellers/)

@@ -27,8 +27,7 @@ for people in the community. At this stage we probably manufacture a small test
 batch of the hardware, that we and a few selected users can try out. The 
 firmware/software is on an experimental prototyping level in this phase. The
 main goal here is to get feedback from the users and understand if the hardware 
-design is good enough, and to probe what kind of software support that is 
-needed.
+design is good enough, and to probe what kind of software support is needed.
 
 ## Early access phase
 
@@ -58,4 +57,4 @@ or example for further exploration.
 
 We are still more than happy to accept updates, modifications and improvements 
 from the community at this point. Please share your cool work through pull 
-requests on github.
+requests on Github.

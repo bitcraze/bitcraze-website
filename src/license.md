@@ -22,7 +22,7 @@ The license for the content of wiki.bitcraze.io is [CC BY-SA 3.0](http://creativ
 ## Licenses for other projects
 
 The license for each project is documented in the source code in the 
-repositories on [github](https://github.com/bitcraze). 
+repositories on [Github](https://github.com/bitcraze). 
   
   
 THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
