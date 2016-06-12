@@ -25,7 +25,7 @@ can even solder multiple chargers together for multi-battery charging.
 {% collapse_section Features %}
 * 500mA single-cell Li-Po battery charger
 * Charging indicator
-* Connection points for chaining of multiple chargers
+* Connection points for chaining together multiple chargers
 {% endcollapse_section %}
 
 {% collapse_section Specifications %}

@@ -8,7 +8,7 @@ page_id: getting-started-development
 {% si_intro Programming the Crazyflie %}
 In this tutorial we show the steps needed to change the software running in the
 Crazyflie, often called firmware. We will show how to modify the source code , 
-how to build it and finaly download and flash it to your Crazyflie.
+how to build it and finally download and flash it to your Crazyflie.
 These are the necessary steps to write your own code and change the behaviour
 of your Crazyflie.
 
@@ -33,8 +33,7 @@ For details on how to install the VM and Crazyradio see
 Fire up the virtual machine to get started. It comes with all
 tools you need pre-installed and configured to make programming simple.
 
-From this point on in the tutorial, all steps refer to actions in the 
-virtual machine.
+From this point on in the tutorial, all steps refer to actions in the virtual machine.
 {% endsi_step %}
 
 {% si_step update source code; update %}
@@ -51,7 +50,7 @@ minimalistic, we will change the color of the front right LED from red to green.
 
 {% si_step start the editor; editor %}
 The pre-installed IDE (Integrated Development Environment) is [Eclipse](https://eclipse.org/ide/).
-Double click the "Eclipse" icon on the desctop to start it.
+Double click the "Eclipse" icon on the desktop to start it.
 {% img Eclipse icon; narrow; /images/getting-started/eclipse-icon.png; circle-border %}
 {% endsi_step %}
 
@@ -115,14 +114,14 @@ Crazyflie with an [official release](https://github.com/bitcraze/crazyflie-firmw
 Turn your Crazyflie 2.0 off.
 
 Start it in bootloader mode by pressing and holding the power button for 3 
-seconds. Both the blue LEDs will blink.
+seconds. Both blue LEDs will blink.
 {% endsi_step %}
 
 {% si_step flashing; flash %}
 In the "Make target" window double click "Flash using radio".
 
 Printouts in the "Console" window shows the progress and the LEDs on the 
-Crazyflie flickers.
+Crazyflie flicker.
 
 {% endsi_step %}
 

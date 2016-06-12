@@ -5,60 +5,59 @@ permalink: /troubleshooting/
 page_id: support-troubleshooting
 ---
 
-{% si_intro Crazyflie 2.0 cfclient connects but does not communicate %}
+{% si_intro Crazyflie 2.0 Python cfclient connects but does not communicate %}
 {% endsi_intro %}
 
-{% si_step update to latest cfclient %}
+{% si_step Update to latest cfclient %}
 Follow this guide to update to the [latest cfclient.](/getting-started-with-the-crazyflie-2-0/#update-src)
 Then proceed with [updating](/getting-started-with-the-crazyflie-2-0/#update-fw) the firmware.
 {% endsi_step %}
 
-{% si_step update to latest firmware %}
+{% si_step Update to latest firmware %}
 Follow this guide to download the [latest firmware.](/getting-started-with-the-crazyflie-2-0/#latest-fw)
 Then proceed with [updating](/getting-started-with-the-crazyflie-2-0/#update-fw) the firmware.
 {% endsi_step %}
 
-{% si_intro Crazyflie 2.0 android client doesn't connect %}
+{% si_intro Crazyflie 2.0 Android client does not connect %}
 {% endsi_intro %}
 
 {% si_step Check compatibility %}
-Check that you android device supports bluetooth smart/low energy.
+Check that your Android device supports Bluetooth smart/low energy and your Android version is equal or greater than 4.4. Also check the [compatibility list](https://wiki.bitcraze.io/doc:crazyflie:client:cfandroid:index#android_device_compatibility) in the wiki.
 {% endsi_step %}
 
-{% si_step Don't pair%}
-Don't pair the Crazyflie 2.0, just connect directly through the app. If so unpair it and try again.
+{% si_step Do not pair%}
+Do not pair your Android device to the Crazyflie 2.0 like other Bluetooth devices. Just connect directly through the app. If you have paired it already, unpair it and try again.
 {% endsi_step %}
 
-{% si_intro Crazyflie 2.0 doesn't take off %}
+{% si_intro Crazyflie 2.0 does not take off %}
 {% endsi_intro %}
 
-{% si_step make sure propellers are mounted correctly %}
+{% si_step Make sure propellers are mounted correctly %}
 Check that the propellers are mounted on the correct motor. Check each propeller 
-to see if it is a clock wise or counter clock wise turning propeller and mount it
-according to the detailed view bellow.
+to see if it is a clock wise or a counter clock wise turning propeller and mount it according to the detailed view below.
 {% img Crazyflie 2.0 propeller mounting; medium; /images/getting-started/cf2_props.png %}
 {% endsi_step %}
 
-{% si_step make sure propellers are mounted with right side up %}
+{% si_step Make sure propellers are mounted with right side up %}
 Check that you can see a little "ring" on every propeller's center otherwise the propellers are mounted upside down.
 {% endsi_step %}
 
 {% si_intro Crazyflie 2.0 flies badly %}
 {% endsi_intro %}
 
+{% si_step Check center of gravity %}
+Check that the Crazyflie 2.0 is well balanced and adjust the battery and connector until it is. Holding the Crazyflie 2.0 in the small "ears" is a easy way to test it.
+{% endsi_step %}
+
 {% si_step Balance propellers %}
 Vibration is a normal cause for decreased flight performance. Try balancing the propellers using [this](/balancing-propellers) guide
 {% endsi_step %}
 
-{% si_step Center of gravity %}
-Check that the Crayflie 2.0 is well balanced and adjust the battery and connector until it is. Holding the Crazyflie 2.0 in the small "ears" is a easy way to test it.
-{% endsi_step %}
-
-{% si_step It doesn't take of straight %}
-Check center of gravity. Check for hair stuck in any of the propellers/motors. It can also be that one of the motors are worn out or damaged. This is a bit harder to check. It is most likely the motor towards the direction the Crazyflie 2.0 takes off. Try to listen for strange sound when blowing on the proppeller attached to it.  
+{% si_step Check that all propellers turn freely%}
+Check for hair stuck in any of the propellers/motors. It can also be that one of the motors are worn out or damaged. This is a bit harder to check. It is most likely the motor towards the direction the Crazyflie 2.0 takes off. Try to listen for strange sounds when blowing on the propeller attached to it.
 {% endsi_step %}
 
 {% si_step Check for bent motor axis %}
-Check each motor axis if it is bent as it causes vibration. This can be done by either applying a bit of thrust from a client or by blowing on the propeller and looking at the axis from above. If it is bent it might possible to straighten it with a pair of pliers. If that doesn't work the motor can be changed.
+Check each motor axis if it is bent as it causes vibration. This can be done by either applying a bit of thrust from a client or by blowing on the propeller and looking at the axis from above. If it is bent it might be possible to straighten it with a pair of pliers. If that doesn't work the motor needs to be replaced.
 {% endsi_step %}
 

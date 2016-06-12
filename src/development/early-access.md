@@ -32,7 +32,7 @@ collaborating with others in the spirit of open source and sharing knowledge.
 
 ## Contribute
 
-We run each "early access" project as an open project on github with a 
+We run each "early access" project as an open project on Github with a 
 a repository named "early-access-XXX" as the focal point. Since many changes 
 in the Bitcraze software stack spans over multiple repositories (firmware, 
 clients, radio and so on), this "early-access" repo is where to post issues or
@@ -46,7 +46,7 @@ get your hands dirty! If you need help, ask for it in the focus repo.
 ## Communication
 
 We use the blog to communicate new "Early access" projects and we mark
-products on the product pages whith an "Early access" logo. 
+products on the product pages with an "Early access" logo. 
 
 ## Should I buy an "Early access" product?
 
@@ -55,4 +55,4 @@ dive into the code to make stuff work - then you should.
 
 If you prefer a more finalized product that you can simply plug in and use, or
 feel that you need documentation and example code, then you should probably not
-buy - yet.
+buy it - yet.

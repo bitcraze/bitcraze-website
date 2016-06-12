@@ -13,8 +13,8 @@ page_id: diy
 #### Tinker
 Add decks for light and sound effects, or why not build your own deck? Create a
 skin to make it look like your favourite flying creature or add a camera and
-do First Person Flying. Use the Crazyflie on a bigger quadcopter frame and build
-the optimal drone, tailored for your needs.
+do First Person View (FPV) flying. Use the Crazyflie on a bigger quadcopter frame and build
+the optimal drone, tailored to your needs.
 
 #### Share
 

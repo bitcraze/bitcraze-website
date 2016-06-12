@@ -21,7 +21,7 @@ Get audio feedback and get creative by composing and playing your own melodies.
 Sometimes LED feedback isn't enough, like when you're flying around in a lab and living room. With the
 buzzer deck you'll get audio feedback on system events, like low battery or
 charging completed.
-Or why not create your own melodies that will play while you're buzzing around. If you're tapped out on creativity there's already a few
+Or why not create your own melodies that will play while you're buzzing around. If you're tapped out on creativity there are already a few
 melodies pre-programmed that you can use.
 
 ---

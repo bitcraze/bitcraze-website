@@ -43,7 +43,7 @@ Positioning Tag functionality. Read more on the [Loco Positioning Deck page.](/l
 #### The Loco Positioning Node
 
 The Loco Positioning Node is a multi functional node in a Loco Positioning system,
-it can act either as an Anchor ot Tag. As an Anchor it is part of the reference base for
+it can act either as an Anchor or Tag. As an Anchor it is part of the reference base for
 the system while running in Tag mode it can be attached to an object to track,
 for instance a robot. Read more on the [Loco Positioning Node page.](/loco-pos-node/)
 

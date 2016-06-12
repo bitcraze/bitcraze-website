@@ -6,11 +6,11 @@ permalink: /crazyradio/
 
 {% notice_info This product is discontinued and has been replaced with <a href="/crazyradio-pa/">Crazyradio PA</a> %} 
 
-The Crayradio 2.4GHz radio USB dongle is based on the 
+The Crazyradio 2.4GHz radio USB dongle is based on the 
 [Nordic Semiconductor](http://www.nordicsemi.com/)
 [nRF24LU1+](http://www.nordicsemi.com/eng/Products/2.4GHz-RF/nRF24LU1P) SoC. 
 In the Crazyflie platform it's used for communication between the host and the 
-Crazyflie, but this dongle can be used separately for other projects. It had 
+Crazyflie, but this dongle can be used separately for other projects. It has 
 two status LEDs and an expansion header for programming and expanding.
 
 

@@ -6,7 +6,7 @@ page_id: support-frequently-asked-questions-Crazyflie-2.0
 ---
 
 {% collapse_section For how long can it fly? %}
-It can fly up to 7min and depending on how you fly it, the time will decrease.
+It can fly up to 7 minutes and depending on how you fly it, the time will decrease.
 {% endcollapse_section %}
 
 {% collapse_section How is it charged? %}
@@ -18,7 +18,7 @@ Yes, you can hot swap batteries.
 {% endcollapse_section %}
 
 {% collapse_section Can I use a bigger battery? %}
-Yes, as long as it is not to heavy, it is a single cell (3.7V), it fits and that the polarity is correct you can do so. A higher capacity battery will give you longer flight times but will also decrease agility. We recommend batteries with at least 15C continuous discharge rate.
+Yes, as long as it is not too heavy, it is a single cell (3.7V), it fits and the polarity is correct you can do so. A higher capacity battery will give you longer flight times but will also decrease agility. We recommend batteries with at least 15C continuous discharge rate.
 {% endcollapse_section %}
 
 {% collapse_section What radio is used for the Crazyflie 2.0? %}
@@ -45,7 +45,7 @@ As with all radio communication it depends. It depends on the environment, radio
 * Mobile device: Up to about 20 meters range (The uplink, mobile device is limiting the range).
 {% endcollapse_section %}
 
-{% collapse_section Can't I use a normal R/C transmitter? %}
+{% collapse_section Can I use a normal R/C transmitter? %}
 This can be done with the [BigQuad expansion deck](/bigquad-deck/). It's working, but not yet a turn-key solution.
 {% endcollapse_section %}
 
@@ -54,7 +54,7 @@ The Crazyflie 2.0 is using the PCB itself as the frame. The PCB is made of [FR4]
 {% endcollapse_section %}
 
 {% collapse_section Is the Crazyflie 2.0 backward compatible with the Crazyflie Nano? %}
-Yes the firmware and the communication protocol is backward compatible. All libraries that have been made in Python, Ruby, C, C++, Java, etc. will be able to control the Crazyflie 2.0 the same way.
+Yes, the firmware and the communication protocol is backward compatible. All libraries that have been made in Python, Ruby, C, C++, Java, etc. will be able to control the Crazyflie 2.0 the same way.
 {% endcollapse_section %}
 
 {% collapse_section Can the Crazyflie 2.0 be used to control a bigger quadcopter? %}
@@ -68,27 +68,24 @@ There is ongoing development in this area:
 {% endcollapse_section %}
 
 {% collapse_section Can the Crazyflie 2.0 fly autonomously? %}
-Crazyflie 2.0 does not have enough sensor to locate itself in the environment. Though with an external location system Crazyflie 2.0 has been successfully flown autonomously. Outdoors Crazyflie can use a GPS receiver to achieve autonomous flight. A deck is in development so stay tuned on our website for more information about it.
+Crazyflie 2.0 does not have enough sensors to locate itself in the environment. Though with an external location system Crazyflie 2.0 has been successfully flown autonomously. Outdoors Crazyflie can use a GPS receiver to achieve autonomous flight. A deck is in development so stay tuned on our website for more information about it.
 
-Researcher uses motion capture system, like vicon, to fly the Crazyflie autonomously, usually controlling it from an outside computer. For example this research from MIT is using such a system together with powerful control algorithm: <https://www.youtube.com/watch?v=v-s564NoAu0>
+Researchers use motion capture system, like [Vicon](http://www.vicon.com/), to fly the Crazyflie autonomously, usually controlling it from an outside computer. For example this research from MIT is using such a system together with a powerful control algorithm: <https://www.youtube.com/watch?v=v-s564NoAu0>
 
-We have been using camera systems like the Microsoft kinect to achieve autonomous flight just on top of the camera:  <https://www.bitcraze.io/2015/05/autonomous-flight-using-kinect2-for-position-control/>
+We have been using camera systems like the Microsoft Kinect to achieve autonomous flight just on top of the camera:  <https://www.bitcraze.io/2015/05/autonomous-flight-using-kinect2-for-position-control/>
 
-Finally we are developing a ultra-wide-band radio-based local positioning system that will allow Crazyflie 2.0 to be autonomous in a room without requiring expensive motion capture system. Stay tuned on the Bitcraze website for more information about it.
+Finally we are developing a ultra-wide-band radio-based local positioning system that will allow Crazyflie 2.0 to be autonomous in a room without requiring expensive motion capture system. Stay tuned and check the Bitcraze website for more information about it.
 
-* [Working FPV setup for Crazyflie 2.0](https://forum.bitcraze.io/viewtopic.php?f=6&p=8295).
 {% endcollapse_section %}
 
 {% collapse_section Is it possible to control a swarm of Crazyflies? %}
 Yes, it is possible to control multiple Crazyflie at the same time. The best way to do so right now is to use ROS and the ROS driver:
 [ROS integration for Crazyflie](http://wiki.ros.org/crazyflie)
 
-
 Here is an example launch file to connect and control multiple Crazyflies:
 [crazyflie_ros](https://github.com/whoenig/crazyflie_ros/blob/master/crazyflie_demo/launch/multi_hover_vicon.launch)
 
-
-For example this video was made using this ros driver: 
+For example this video was made using this ROS driver: 
 [Crazyflie 2.0 Swarm](https://www.youtube.com/watch?v=gH1Fcf597So)
 {% endcollapse_section %}
 
@@ -96,4 +93,3 @@ For example this video was made using this ros driver:
  <div class="col-md-12">
                 <p class="text-right">Want to add a FAQ for Crazyflie 2.0? <a href="https://github.com/bitcraze/bitcraze-website/edit/master/src/{{page.path}}"><i class="fa fa-pencil"></i> &nbsp;Improve this page</a></p>
 </div>
-    
