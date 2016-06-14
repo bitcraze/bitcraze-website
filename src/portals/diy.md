@@ -33,3 +33,9 @@ Do you want to share your experiments and hacks with the Bitcraze community? Go 
 {% hackster chromebookbob/long-exposure-light-painting-2c4106 %}
 
 {% hackster fredg/crazyflie-2-0-fpv-setup-d2fc25 %}
+
+{% hackster crazyflie-net/walkera-devo-7e-transmitter-crazyflie-2-mod-c32aa5 %}
+
+{% hackster pitchstone/apollo-guidance-computer-interface-for-inertial-navigation-242fd2 %}
+
+
