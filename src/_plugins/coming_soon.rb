@@ -13,7 +13,11 @@ module Jekyll
     end
 
     def render(context)
-        '<a href="#"><button type="button" class="buy-button" disabled><i class="fa fa-gift fa-fw"></i>Coming soon</button></a>'
+        '<div class="row">
+            <div class="col-md-12 text-center">
+                <h4>Soon available in stores, sign up for our newsletter.</h4>
+            </div>
+        </div>'
     end
   end
 end

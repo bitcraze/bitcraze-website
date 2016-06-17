@@ -58,3 +58,11 @@ redundancy.
 
 The Loco Positioning system has mainly been designed for indoor use.
 
+<div class="alert alert-success" role="alert">
+    <i class="fa fa-info fa-fw"></i>
+    This product is in the Early access stage. Learn more about our <a href="/early-access/" class="alert-link">early access </a>program.
+</div>
+
+{% coming_soon %}
+
+{% stay_updated http://eepurl.com/b2v_fj %}

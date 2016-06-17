@@ -20,9 +20,11 @@ The Loco Positioning Node is a versatile positioning device that can run either
 as an Anchor or Tag in a Loco Positioning system. The system measures
 the distance between Nodes and Tags, and from those distances the 
 absolute position of objects carrying Tags can be calculated.
- 
+
 [Read more about the Loco Positioning system](/loco-pos-system/)
- 
+
+
+
 ---
 
 {% collapse_section Features %}
@@ -73,7 +75,11 @@ or more nodes acting as Tags
 
 ---
 
-{% notice_info This product is in the Early access stage. %}
-[Learn more about our Early access program](/early-access/)
+<div class="alert alert-success" role="alert">
+    <i class="fa fa-info fa-fw"></i>
+    This product is in the Early access stage. Learn more about our <a href="/early-access/" class="alert-link">early access </a>program.
+</div>
 
 {% coming_soon %}
+
+{% stay_updated http://eepurl.com/b2v_fj %}
