@@ -12,6 +12,7 @@ Arnaud has been passionate about technology since his childhood. He has worked i
 Arnaud likes embedded systems and beautiful code. He likes it best when he is able to design the hardware, write the bootstrap code, and finally design the software that runs on it. He also enjoys playing with bigger systems like the Bitcraze web servers.
 "%}
 
+
 {% include teammember.html member="Björn Mauritz" role="Interaction designer" img="/images/team/bjorn_mauritz.jpg" bio="
 Björn was a big fantasy nerd growing up, spending most of his time playing computer games and role-playing “Dragons and demons”. During high school he started acting and continued after high school working with theater both on and off stage. Besides acting he also did stage design construction, lighting design and worked as a bartender.
 
@@ -42,6 +43,7 @@ Being an all-rounder Marcus does most things from high level scripting down to l
 Tobias Antonsson is a born computer and embedded nerd. Ever since he got his first electronics lab kit at an age of eight he has been hooked. He is an all-rounder with experience from computer graphics down to electronic hardware design and thrives best just in between, which makes embedded hardware and software a natural choice. 
 He loves being creative and a lot of his spare time is being spent on various robotic and R/C projects. One of them, the Crazyflie, has become his livelihood in his co-founded company Bitcraze AB. Work experience includes mobile, medical and electromechanical industries as well as open source/hardware. 
 "%}
+
 
 {% include teammember.html member="Aman Sharma" role="Intern" img="/images/team/aman_sharma.jpg" bio="
 Aman always had a curiosity to figure out how things worked which is why he 

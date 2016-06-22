@@ -62,4 +62,4 @@ Battery and charger bundle:
 
 ---
 
-{% coming_soon %}
+{% buy_online https://www.seeedstudio.com/item_detail.html?p_id=2657 %}
