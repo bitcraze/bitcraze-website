@@ -6,10 +6,10 @@ page_id: buy-distributors
 ---
 
 {% continent Main distributor - world wide %}
-{% distributor Seeedstudio; http://www.seeedstudio.com/depot/bitcraze-m-64.html?ref=side; /images/distributors/seeed.png %}
+{% distributor Seeedstudio; http://www.seeedstudio.com/item_list.html?category=108; /images/distributors/seeed.png %}
 
 Products designed by Bitcraze are retailed though the
-[Seeedstudio webshop](http://www.seeedstudio.com/depot/bitcraze-m-64.html?ref=side),
+[Seeedstudio webshop](http://www.seeedstudio.com/item_list.html?category=108),
 but the products are also available from a number of local distributors word-wide.
 
 

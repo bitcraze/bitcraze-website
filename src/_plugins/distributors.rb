@@ -15,7 +15,7 @@ module Jekyll
       # ; is used as separator
       #
       # Example
-      # {% distributor Seeed; http://www.seeedstudio.com/depot/bitcraze-m-64.html?ref=side; /images/seeed.png %}
+      # {% distributor Seeed; http://www.seeedstudio.com/item_list.html?category=108; /images/seeed.png %}
 
       def initialize(tag_name, text, tokens)
         super
