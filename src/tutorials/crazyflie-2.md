@@ -137,7 +137,7 @@ When the Crazyflie 2.0 is powered on it will automatically go through a short
 sequence of events to get ready for flight.
 
 1. **Run self tests** - the Crazyflie 2.0 checks that the hardware is OK
-1. **Calibrate sensors** - the Crayflie 2.0 reads its sensors to get base values. 
+1. **Calibrate sensors** - the Crazyflie 2.0 reads its sensors to get base values.
 It must be *absolutely still* to do this, so it's best to put it on a level surface for a second.
 1. **Ready to fly!**
 
@@ -149,7 +149,7 @@ You also need to understand what the LEDs mean.
 front right LED (1) is blinking red twice every second.
 * **Power on and all is good but sensors are not yet calibrated:** The blue LEDs 
 (2 and 3) are fully lit and the front right LED (1) is blinking red with 2 seconds interval.
-Put the crazyflie 2.0 on a level surface and keep it absolutely still to calibrate.
+Put the Crazyflie 2.0 on a level surface and keep it absolutely still to calibrate.
 * **Radio connected:** The front left LED (4) is flickering in read and/or green.
 * **Battery low:** The front right LED (1) is fully lit in red. It's time to 
 land and re-charge the battery.
@@ -208,7 +208,7 @@ We have created a virtual machine (VM) to help you get into the air as quickly a
 The VM has all software you need for flight and development pre-installed.
 {% endsi_intro %}
 
-{% si_step install Virtualbox; inst-virtualbox %}
+{% si_step install VirtualBox; inst-virtualbox %}
 Before downloading the virtual machine you must have VirtualBox or some
 other virtualization application installed on your computer. VirtualBox is
 a cross-platform virtualization application that imports and runs our
@@ -248,7 +248,7 @@ for all projects.
 {% endsi_step %}
 
 {% si_step install hardware %}
-* Insert CrazyRadio PA into a USB port.
+* Insert Crazyradio PA into a USB port.
 * Insert game controller to a USB port.
 {% endsi_step %}
 
@@ -286,7 +286,7 @@ mapping is chosen, otherwise pick your device type.
 
 {% si_step download latest firmware; latest-fw %}
 * Open the web browser in the virtual machine, go to [https://github.com/bitcraze/crazyflie-release/releases](https://github.com/bitcraze/crazyflie-release/releases)
-* download the zip file named crazyflie-xxx.zip from the latest relase.
+* download the zip file named crazyflie-xxx.zip from the latest release.
 * close the browser when the download is finished.
 {% endsi_step %}
 
@@ -342,7 +342,7 @@ of the Crazyflie in different directions.
 * **Thrust -** adjusts the altitude, or height, of the Crazyflie.
 {% endsi_step %}
 
-{% si_step the mobile app / gamecontroller %}
+{% si_step the mobile app / game controller %}
 The controls on the gamepad or mobile app have the following mapping:
 {% img Control mapping; medium; /images/getting-started/controller.png %}
 {% endsi_step %}
