@@ -75,6 +75,4 @@ This product is intended to be used together with
     This product is in the Early access stage. Learn more about our <a href="/early-access/" class="alert-link">early access </a>program.
 </div>
 
-{% coming_soon %}
-
-{% stay_updated http://eepurl.com/b2v_fj %}
+{% buy_online https://store.bitcraze.io/collections/positioning/products/loco-positioning-deck %}
