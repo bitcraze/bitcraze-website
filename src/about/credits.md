@@ -18,7 +18,7 @@ page_id: credits
 * [Python](https://www.python.org/)
 * [QT](http://www.qt.io/developers/)
 * [Meld](http://meldmerge.org/)
-* [libUSB](http://www.libusb.org/)
+* [libUSB](http://libusb.info/)
 * [openOCD](http://openocd.org/)
 * [SDCC](http://sdcc.sourceforge.net/)
 * [FreeRTOS](http://www.freertos.org/)
