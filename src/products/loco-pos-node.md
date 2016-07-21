@@ -75,9 +75,6 @@ or more nodes acting as Tags
 
 ---
 
-<div class="alert alert-success" role="alert">
-    <i class="fa fa-info fa-fw"></i>
-    This product is in the Early access stage. Learn more about our <a href="/early-access/" class="alert-link">early access </a>program.
-</div>
+{% include early-access-info.html %}
 
 {% buy_online https://store.bitcraze.io/collections/positioning/products/loco-positioning-node %}
