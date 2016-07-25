@@ -5,30 +5,29 @@ permalink: /
 page_id: home
 ---
 
-<div class="front-page">
-    <div class="container-fluid front-top-banner">
-        <div class="row content-area">
-            <div class="col-md-9 header_text">
-                  <h1>Make your ideas fly!</h1>
-                    <h3>A flying open development platform</h3>
-            </div>
-            <div class="col-md-3 semi-transparent fp-blog">
-                <h1>From the blog</h1>
-                    <!-- inject wp blog -->
-            </div>
+<div class="container-fluid front-top-banner">
+    <div class="row content-area">
+        <div class="col-md-9 header_text">
+              <h1>Make your ideas fly!</h1>
+                <h3>A flying open development platform</h3>
+        </div>
+        <div class="col-md-3 semi-transparent fp-blog">
+            <h1>From the blog</h1>
+                <!-- inject wp blog -->
         </div>
     </div>
+</div>
 
 
-    <div class="container-fluid">
-        <div class="row content-area">
-            <div class="col-sm-2"></div>
-            <div class="col-sm-8">
-                <img src="/images/frontpage/front-page-portal-pic-5.jpg" class="img-responsive" alt="front"/>
-            </div>
-            <div class="col-sm-2"></div>
+<div class="container-fluid">
+    <div class="row content-area">
+        <div class="col-sm-2"></div>
+        <div class="col-sm-8">
+            <img src="/images/frontpage/front-page-portal-pic-5.jpg" class="img-responsive" alt="front"/>
         </div>
+        <div class="col-sm-2"></div>
     </div>
+</div>
 
 
 {% include index-portal-left.html portalheader="Used in research" portalimg="/images/frontpage/front-page-portal-pic-2.jpg" portaltext="
@@ -84,29 +83,28 @@ portallink="/diy/"
 %}
 
 
-    <div class="container-fluid used-by-section">
-        <div class="row content-area">
-            <div class="col-md-12">
-                <h2>Used by</h2>
+<div class="container-fluid used-by-section">
+    <div class="row content-area">
+        <div class="col-md-12">
+            <h2>Used by</h2>
 
-                {% used_by NASA; /images/logos/nasa.png; narrow %}
-                {% used_by Stanford %}
-                {% used_by Microsoft; /images/logos/microsoft.jpg; medium %}
-                {% used_by Chalmers; /images/logos/chalmers.png; medium %}
-                {% used_by LTH; /images/logos/lth.png; narrow  %}
-                {% used_by IBM %}
-                {% used_by University of Bologna %}
-                {% used_by USC; /images/logos/usc.png; medium %}
-                {% used_by MIT; /images/logos/mit.svg; narrow %}
-                {% used_by Bell Labs %}
-                {% used_by Adacore; /images/logos/adacore.png; medium %}
-                {% used_by ETH Zurich %}
-                {% used_by Ericsson %}
-		        {% used_by UIUC; images/logos/uiuc.jpg; small %}
-                {% used_by Polytechnique Montreal; images/logos/polymtl.png; small %}
+            {% used_by NASA; /images/logos/nasa.png; narrow %}
+            {% used_by Stanford %}
+            {% used_by Microsoft; /images/logos/microsoft.jpg; medium %}
+            {% used_by Chalmers; /images/logos/chalmers.png; medium %}
+            {% used_by LTH; /images/logos/lth.png; narrow  %}
+            {% used_by IBM %}
+            {% used_by University of Bologna %}
+            {% used_by USC; /images/logos/usc.png; medium %}
+            {% used_by MIT; /images/logos/mit.svg; narrow %}
+            {% used_by Bell Labs %}
+            {% used_by Adacore; /images/logos/adacore.png; medium %}
+            {% used_by ETH Zurich %}
+            {% used_by Ericsson %}
+        {% used_by UIUC; images/logos/uiuc.jpg; small %}
+            {% used_by Polytechnique Montreal; images/logos/polymtl.png; small %}
 
-                <p class="text-right">Is your organization missing? <a href="https://github.com/bitcraze/bitcraze-website/edit/master/src/{{page.path}}"><i class="fa fa-pencil"></i> &nbsp;Improve this page</a></p>
-            </div>
+            <p class="text-right">Is your organization missing? <a href="https://github.com/bitcraze/bitcraze-website/edit/master/src/{{page.path}}"><i class="fa fa-pencil"></i> &nbsp;Improve this page</a></p>
         </div>
     </div>
 </div>
