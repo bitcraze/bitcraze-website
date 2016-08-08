@@ -43,15 +43,3 @@ Being an all-rounder Marcus does most things from high level scripting down to l
 Tobias Antonsson is a born computer and embedded nerd. Ever since he got his first electronics lab kit at an age of eight he has been hooked. He is an all-rounder with experience from computer graphics down to electronic hardware design and thrives best just in between, which makes embedded hardware and software a natural choice. 
 He loves being creative and a lot of his spare time is being spent on various robotic and R/C projects. One of them, the Crazyflie, has become his livelihood in his co-founded company Bitcraze AB. Work experience includes mobile, medical and electromechanical industries as well as open source/hardware. 
 "%}
-
-
-{% include teammember.html member="Aman Sharma" role="Intern" img="/images/team/aman_sharma.jpg" bio="
-Aman always had a curiosity to figure out how things worked which is why he 
-decided to pursue engineering during his bachelors degree. In his bachelors, he 
-discovered an always-present interest in robotics and space. Following this 
-passion, he landed in Europe pursuing a Masters that combined these two 
-interests through the SpaceMaster program. Currently, he is doing a summer 
-internship at Bitcraze in order to further experience what it takes to be a 
-real robotocist and enjoy Sweden a bit more."%}
-
-
