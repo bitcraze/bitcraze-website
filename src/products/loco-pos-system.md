@@ -58,6 +58,14 @@ redundancy.
 
 The Loco Positioning system has mainly been designed for indoor use.
 
+## Getting started with Loco positioning
+
+**We have made a video about how to get started with the Loco positioning system. The video is showing the process from receiving the Loco Positioning system up to having an autonomous flying Crazyflie. The written information can be found on the [wiki](https://wiki.bitcraze.io/doc:lps:index).**
+
+{% youtube eKgVNE0Ozo8; medium; 16by9 %}
+
 {% include early-access-info.html %}
 
 {% buy_online https://store.bitcraze.io/collections/positioning/products/indoor-explorer-bundle %}
+
+
