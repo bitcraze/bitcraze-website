@@ -46,6 +46,7 @@ by limited APIs or closed software. Never.
 {% youtube oreVFqRntXY; medium; 16by9 %}
 {% youtube QjxF9zUlIx0; medium; 16by9 %}
 {% youtube NwxOwYi0jFQ; medium; 16by9 %}
+{% youtube CP-fBvcUAls; medium; 16by9 %}
 
 
 ### Publications involving Crazyflie 2.0
