@@ -7,8 +7,6 @@ page_id: product-bigquad-deck
 
 {% product_img BigQuad deck; medium;
 /images/bigquad-deck-early-access/big-quad-early-access-4.jpg;
-/images/bigquad-deck-early-access/big-quad-early-access-2.jpg;
-/images/bigquad-deck-early-access/big-quad-early-access-3.jpg;
 /images/bigquad-deck-early-access/big-quad-early-access-1.jpg;
 /images/bigquad-deck-early-access/big-quad-early-access-5.jpg;
 /images/bigquad-deck-early-access/big-quad-early-access-6.jpg;
