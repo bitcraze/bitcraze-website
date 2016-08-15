@@ -78,7 +78,7 @@ by limited APIs or closed software. Never.
 [PDF](https://rekimotolab.files.wordpress.com/2014/02/a13-nitta.pdf)
   
 * **"Perching Failure Detection and Recovery with Onboard Sensing"**, Hao Jiang, Morgan T. Pope, Matthew A. Estrada, Bobby Edwards, Mark Cuson, Elliot W. Hawkes and Mark R. Cutkosky, IROS, 2015. 
-[PDF](http://bdml.stanford.edu/uploads/Main/PerchingPublications/IROS_2015_Recovery.pdf) 
+[PDF](http://ieeexplore.ieee.org/xpl/login.jsp?tp=&arnumber=7353531&url=http%3A%2F%2Fieeexplore.ieee.org%2Fxpls%2Fabs_all.jsp%3Farnumber%3D7353531) 
 [Video](https://m.youtube.com/watch?v=xhtbprB5Rqs)
 
 * **"Nonlinear control strategies for quadrotors and CubeSats"**, Giri Prashanth Subramanian, Master’s thesis, University of Illinois at Urbana-Champaign, USA, July 2015.
