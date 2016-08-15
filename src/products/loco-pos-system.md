@@ -59,13 +59,22 @@ redundancy.
 The Loco Positioning system has mainly been designed for indoor use.
 
 ## Getting started with Loco positioning
-
+------
 **We have made a video about how to get started with the Loco positioning system. The video is showing the process from receiving the Loco Positioning system up to having an autonomous flying Crazyflie. The written information can be found on the [wiki](https://wiki.bitcraze.io/doc:lps:index).**
 
 {% youtube eKgVNE0Ozo8; medium; 16by9 %}
 
+## Used by Lund University
+------
+
+**At the [Centre for Mathematical Sciences](http://www.maths.lu.se/english) at [Lund University](https://www.lth.se/english) PhD student Kenneth Bastone and professor Kalle Åström are currently using the Crazyflie and the Bitcraze ultra-wide band based Loco Positioning system as part of their research. We visited them and wrote a blog post about their work.**
+
+{% img Centre for Mathematical Sciences; medium; /images/portals/research/lps-research-loco-positioning-kalle-åström-768x512.jpg %}
+
+**To read the blog post go [here](https://www.bitcraze.io/2016/06/loco-positioning-in-lth-math-department/).**
+
+------
+
 {% include early-access-info.html %}
 
 {% buy_online https://store.bitcraze.io/collections/positioning/products/indoor-explorer-bundle %}
-
-

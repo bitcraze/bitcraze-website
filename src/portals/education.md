@@ -26,7 +26,7 @@ Since the Crazyflie fits in the palm of your hand and only weighs 27g it’s ide
 
 ## Used by Chalmers
 ------
-<img class="img-responsive img-float-left" src="/images/portals/education/user-story-education.jpg" alt="user-story-education">
+<img class="img-responsive img-float-right" src="/images/portals/education/user-story-education.jpg" alt="user-story-education">
 
 #### Associate Professor Knut Åkesson have chosen to incorporate the Crazyflie 2.0 as an educational platform for the course ["Embedded control systems"](https://student.portal.chalmers.se/en/chalmersstudies/courseinformation/Pages/SearchCourse.aspx?course_id=21540&parsergrp=3) at Chalmers University of Technology. 
 
