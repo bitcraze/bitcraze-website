@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Bitcraze Video gallery
+title: Video gallery
 permalink: /videogallery/
 page_id: videogallery
 ---
