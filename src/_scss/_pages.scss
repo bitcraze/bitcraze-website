@@ -131,11 +131,11 @@ table {
         font-size: 35px;
         filter: grayscale(100%);
         -webkit-filter: grayscale(100%);
-        transition: filter 0.5s, -webkit-filter 0.5s;
+        transition: filter 2.0s, -webkit-filter 2.0s;
         &:hover {
             filter: grayscale(0%);
             -webkit-filter: grayscale(0%);
-            transition: filter 0.5s, -webkit-filter 0.5s;
+            transition: filter 0.1s, -webkit-filter 0.1s;
         }
     }
 
