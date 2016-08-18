@@ -71,4 +71,4 @@ With the BigQuad deck you can transform your Crazyflie 2.0 to a bigger quad by c
 
 {% include early-access-info.html %}
 
-{% buy_online http://www.seeedstudio.com/depot/Crazyflie-20-BigQuad-deck-p-2626.html %}
+{% buy_online http://www.seeedstudio.com/Crazyflie-20-BigQuad-deck-p-2626.html %}

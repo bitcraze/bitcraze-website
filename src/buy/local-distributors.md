@@ -95,7 +95,7 @@ but the products are also available from a number of local distributors word-wid
 
 All distributors are handled by Seeedstudio, so if you would like to distribute
 our products then please have a look at the
-[Seeedstudio distributor page](http://www.seeedstudio.com/depot/index.php?main_page=become_a_distributor).
+[Seeedstudio distributor page](http://www.seeedstudio.com/distributors.html).
 
 If you are already distributing our products but you are not in the list above,
 [drop us an email](/contact/) and we will add you.

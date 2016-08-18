@@ -99,4 +99,4 @@ range increase as with the Crazyflie 2.0.
 * [Forum](//forum.bitcraze.io)
 {% endcollapse_section %}
 
-{% buy_online http://www.seeedstudio.com/depot/Crazyradio-PA-long-range-24Ghz-USB-radio-dongle-with-antenna-p-2104.html %}
+{% buy_online http://www.seeedstudio.com/Crazyradio-PA-long-range-24Ghz-USB-radio-dongle-with-antenna-p-2104.html %}

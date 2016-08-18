@@ -61,4 +61,4 @@ into the expansion port.
 
 [Getting started with expansion decks](/getting-started-with-expansion-decks/)
 
-{% buy_online http://www.seeedstudio.com/depot/Crazyflie-20-Prototyping-expansion-board-p-2111.html %}
+{% buy_online http://www.seeedstudio.com/Crazyflie-20-Prototyping-expansion-board-p-2111.html %}

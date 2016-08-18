@@ -52,4 +52,4 @@ pinouts.
 * 1 x 6-pin debug cable for connecting to the Crazyflie 2.0
 {% endcollapse_section %}
 
-{% buy_online http://www.seeedstudio.com/depot/Crazyflie-20-debug-adapter-kit-p-2114.html %}
+{% buy_online http://www.seeedstudio.com/Crazyflie-20-debug-adapter-kit-p-2114.html %}
