@@ -75,11 +75,14 @@ but the products are also available from a number of local distributors word-wid
 {% distributor Antratek; http://www.antratek.nl/bitcraze; /images/distributors/Antratek-EEM_logo-nieuw-300x56.jpg %}
 
 {% country Sweden %}
-{% distributor LOGO-electrokit-logo-embossed; http://www.electrokit.com/productsearch?id=1&q=crazyflie&cathandle=search; /images/distributors/LOGO-electrokit-logo-embossed.png %}
+{% distributor Electrokit; http://www.electrokit.com/productsearch?id=1&q=crazyflie&cathandle=search; /images/distributors/LOGO-electrokit-logo-embossed.png %}
 
 {% country Switzerland %}
 {% distributor Boxtec; http://shop.boxtec.ch/advanced_search_result.php?keywords=crazyflie&x=-1126&y=-15; /images/distributors/boxtec-logo.png %}
 {% distributor Maker shop; https://www.maker-shop.ch/crazyflie-2-0; /images/distributors/maker-shop.png %}
+
+{% country Turkey %}
+{% distributor Robotistan; http://www.robotistan.com/bitcraze; /images/distributors/robotistan.png %}
 
 {% country United Kingdom %}
 {% distributor Digitalmeans; https://digitalmeans.co.uk/shop/index.php?route=product/search&search=crazyflie; /images/distributors/digitalmeans.png %}
