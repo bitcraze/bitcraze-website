@@ -61,6 +61,9 @@ by limited APIs or closed software. Never.
 [PDF](http://www-bcf.usc.edu/~ayanian/files/Ayanian_IROS2015a.pdf)
 [Video](https://www.youtube.com/watch?v=px9iHkA0nOI)
 
+* **"Stippling with aerial robots"**, B. Galea and E. Kia and N. Aird and P. G. Kry, 2016.
+[PDF](http://www.cs.mcgill.ca/~kry/pubs/stippling/stippling.pdf)
+[Video](https://www.youtube.com/watch?v=CP-fBvcUAls)
 
 ### Publications involving Crazyflie 1.0
 ---
