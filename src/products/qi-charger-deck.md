@@ -5,6 +5,8 @@ permalink: /qi-charger-deck/
 page_id: product-qi-charger
 ---
 
+{% buy_online http://www.seeedstudio.com/Crazyflie-20-Qi-inductive-charging-expansion-board-p-2112.html %}
+
 {% product_img Qi charger deck; medium;
 /images/qi-charger/qi-charger-deck-front.jpg;
 /images/qi-charger/qi-charger-deck-top.jpg;
@@ -59,5 +61,3 @@ Crazyflie 2.0.
 ---
 
 [Getting started with expansion decks](/getting-started-with-expansion-decks/)
-
-{% buy_online http://www.seeedstudio.com/Crazyflie-20-Qi-inductive-charging-expansion-board-p-2112.html %}

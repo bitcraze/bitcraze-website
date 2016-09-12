@@ -5,6 +5,8 @@ permalink: /crazyflie-2/
 page_id: product-crazyflie-2
 ---
 
+{% buy_online http://www.seeedstudio.com/Crazyflie-20-p-2103.html %}
+
 {% product_img Crazyflie 2.0; medium;
 /images/crazyflie.png;
 /images/CrazyFlieHand.png
@@ -13,8 +15,8 @@ page_id: product-crazyflie-2
 
 %}
 
-{% product_highlight 
-fa-gears; 
+{% product_highlight
+fa-gears;
 Packed with functionality;
 All you need and a bit more
 %}
@@ -35,20 +37,20 @@ magnetometer and a high precision pressure sensor.
 {% endcollapse_section %}
 
 
-{% product_highlight 
-fa-lightbulb-o; 
+{% product_highlight
+fa-lightbulb-o;
 Your imagination sets the limits;
 Expansion decks let you add what you want
 %}
 
 {% collapse_section Read more %}
-We designed the Crazyflie 2.0 to be as flexible as possible. For us, this meant adding as many features as we could fit and writing firmware made to be modified. In addition to the default functionality that comes with the Crazyflie 2.0 we added a flexible expansion interface where a variety of expansion 
-decks can be attached, both on the top and the bottom of the Crazyflie 2.0. From this expansion interface the user can access buses 
+We designed the Crazyflie 2.0 to be as flexible as possible. For us, this meant adding as many features as we could fit and writing firmware made to be modified. In addition to the default functionality that comes with the Crazyflie 2.0 we added a flexible expansion interface where a variety of expansion
+decks can be attached, both on the top and the bottom of the Crazyflie 2.0. From this expansion interface the user can access buses
 such as UART, I2C and SPI as well as PWM, analog in/out and GPIO.
 {% endcollapse_section %}
-    
 
-{% product_highlight 
+
+{% product_highlight
 fa-paper-plane-o;
 Weight matters;
 Only 27 grams and fits in the palm of your hand
@@ -57,18 +59,18 @@ Only 27 grams and fits in the palm of your hand
 {% collapse_section Read more %}
 
 Having a nano quadcopter that weighs only 27g has many
-advantages. The size makes it ideal for flying inside a lab, office, or your living room without trashing half the interior. 
+advantages. The size makes it ideal for flying inside a lab, office, or your living room without trashing half the interior.
 Even though the propellers spin at high RPMs, they are soft
 and the torque in the motors is very low when compared to a brushless
-motor. 
+motor.
 
 The Crazyflie 2.0 is quite fast if you let it be, but even if it
-crashes it's still only 27g which means the kinetic energy involved in a crash is fairly low. 
+crashes it's still only 27g which means the kinetic energy involved in a crash is fairly low.
 During hard impact, the system is designed to break at the cheapest component, the motor mounts, which are available as spare parts.
 {% endcollapse_section %}
 
 
-{% product_highlight 
+{% product_highlight
 fa-arrows;
 Small size, big performance;
 9 cm<sup>2</sup> with a lot of power
@@ -83,7 +85,7 @@ By tuning these parameters you control the angles of the platform. Set them high
 {% endcollapse_section %}
 
 
-{% product_highlight 
+{% product_highlight
 fa-code;
 Designed with development in mind;
 Made by developers for developers
@@ -91,22 +93,22 @@ Made by developers for developers
 
 {% collapse_section Read more %}
 We think that a development platform should be something more than
-just making the code available, therefore our software, firmware 
+just making the code available, therefore our software, firmware
 and utilities have functionality such as logging, real-time parameter setting and
-wireless firmware updates. The complete development environment for 
-most of the subsystems is available in a virtual machine, so you 
-don't need to install any tool chains to start developing. Also the 
+wireless firmware updates. The complete development environment for
+most of the subsystems is available in a virtual machine, so you
+don't need to install any tool chains to start developing. Also the
 virtual machine works just as well for flying.
 
 Once you have made some modifications, simply flash the new firmware
-over the radio and you are ready to go. 
+over the radio and you are ready to go.
 For those interested in more advanced development, there is a
 development adapter kit that supports an easy JTAG/SWD connection to
 both of the MCUs on the Crazyflie 2.0.
 {% endcollapse_section %}
 
 
-{% product_highlight 
+{% product_highlight
 fa-unlock;
 Open source;
 Share with others, never locked in
@@ -114,7 +116,7 @@ Share with others, never locked in
 
 {% collapse_section Read more %}
 The Crazyflie 2.0 is an open source project, with source code and
-hardware design both documented and available. 
+hardware design both documented and available.
 Since all of our development tools are open source (except for iOS) we are
 allowed to redistribute them in an easy way for our users. Aside from the
 firmware and software projects, there are a number of community
@@ -122,14 +124,14 @@ supported APIs written in Java, Ruby, C/C++, C# and Javascript.
 {% endcollapse_section %}
 
 
-{% product_highlight 
+{% product_highlight
 fa-heart-o;
 Something for everyone;
 Develop, change and experiment - or just fly
 %}
 
 {% collapse_section Read more %}
-There are ample opportunities to play with the code regardless of which language you prefer. 
+There are ample opportunities to play with the code regardless of which language you prefer.
 Our client API is written in Python, while there are many other client-side implementations on GitHub written
 in Ruby, C#, C/C++, JavaScript, Node.JS, Cylon.JS or Java.
 Or, why not clone our iOS repository and get into some ObjectiveC/Swift.
@@ -142,15 +144,15 @@ By the way, it's fun to just fly it too!
 {% endcollapse_section %}
 
 
-{% product_highlight 
+{% product_highlight
 fa-random;
 Always evolving;
 Continuously updated and improved
 %}
 
 {% collapse_section Read more %}
-We continuously work on the firmware, software, documentation and new, creative ways of using 
-the system. We also design new expansion decks that add new functionality, 
+We continuously work on the firmware, software, documentation and new, creative ways of using
+the system. We also design new expansion decks that add new functionality,
 and possibilities and expands the Crazyflie ecosystem.
 The platform supports wireless firmware
 updates via radio and Bluetooth LE, so when a new firmware is released,
@@ -207,9 +209,9 @@ it's a breeze to update.
 
 ##### Supported clients/controllers
 
-* Win/Linux/OSX python client 
+* Win/Linux/OSX python client
   * The gamepads used by the Xbox 360 and the Playstation 3 are used as reference controllers
-  * Any gamepad/controller with at least 4 analog axes 
+  * Any gamepad/controller with at least 4 analog axes
 * Android mobile device
 * iOS mobile device
 
@@ -259,5 +261,3 @@ it's a breeze to update.
 * [Getting started and Assembly instructions](/getting-started-with-the-crazyflie-2-0/)
 
 {% endcollapse_section %}
-
-{% buy_online http://www.seeedstudio.com/Crazyflie-20-p-2103.html %}

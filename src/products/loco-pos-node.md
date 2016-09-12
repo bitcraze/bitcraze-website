@@ -5,6 +5,8 @@ permalink: /loco-pos-node/
 page_id: product-loco-pos-node
 ---
 
+{% buy_online https://store.bitcraze.io/collections/positioning/products/loco-positioning-node %}
+
 {% product_img Loco Positioning node; medium;
 /images/loco-pos-node/Loco-positioning-node-400px-Early-access-1.jpg;
 /images/loco-pos-node/Loco-positioning-node-400px-Early-access-2.jpg
@@ -13,12 +15,12 @@ page_id: product-loco-pos-node
 {% product_highlight
 fa-anchor;
 The reference;
-The base of a Loco Positioning system 
+The base of a Loco Positioning system
 %}
 
 The Loco Positioning Node is a versatile positioning device that can run either
 as an Anchor or Tag in a Loco Positioning system. The system measures
-the distance between Nodes and Tags, and from those distances the 
+the distance between Nodes and Tags, and from those distances the
 absolute position of objects carrying Tags can be calculated.
 
 [Read more about the Loco Positioning system](/loco-pos-system/)
@@ -44,7 +46,7 @@ or more nodes acting as Tags
 * High precision pressure sensor (LPS25H)
 * uUSB connector
 * Full speed USB device interface
-* Powered by USB, 6 mm barrel jack (5 - 12V) or screw terminal (5 - 12V) 
+* Powered by USB, 6 mm barrel jack (5 - 12V) or screw terminal (5 - 12V)
 * FTDI debug port (not populated)
 * Serial connector compatible with ESP8266 module (not populated)
 
@@ -76,5 +78,3 @@ or more nodes acting as Tags
 ---
 
 {% include early-access-info.html %}
-
-{% buy_online https://store.bitcraze.io/collections/positioning/products/loco-positioning-node %}

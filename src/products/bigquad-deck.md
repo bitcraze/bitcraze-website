@@ -5,6 +5,8 @@ permalink: /bigquad-deck/
 page_id: product-bigquad-deck
 ---
 
+{% buy_online http://www.seeedstudio.com/Crazyflie-20-BigQuad-deck-p-2626.html %}
+
 {% product_img BigQuad deck; medium;
 /images/bigquad-deck-early-access/big-quad-early-access-4.jpg;
 /images/bigquad-deck-early-access/big-quad-early-access-1.jpg;
@@ -13,7 +15,7 @@ page_id: product-bigquad-deck
 /images/bigquad-deck-early-access/big-quad-early-access-7.jpg
 %}
 
-{% product_highlight 
+{% product_highlight
 fa-expand;
 Go big!;
 Build a quadcopter the size you need, while still running the same code.
@@ -41,7 +43,7 @@ With the BigQuad deck you can transform your Crazyflie 2.0 to a bigger quad by c
 * BiqQuad deck inputs are 5V tolerant.
 * Battery voltage monitoring divider scaled for input up to 23V.
 * Current monitoring input 0V - 3V.
-* BiqQuad deck and Crazyflie 2.0 current consumption: 
+* BiqQuad deck and Crazyflie 2.0 current consumption:
    * ~120mA without any additional decks.
    * Up to 500mA if Crazyflie 2.0 battery is connected and charging.
 * 1-wire memory for automatic expansion deck detection.
@@ -70,5 +72,3 @@ With the BigQuad deck you can transform your Crazyflie 2.0 to a bigger quad by c
 [Getting started with expansion decks](/getting-started-with-expansion-decks/)
 
 {% include early-access-info.html %}
-
-{% buy_online http://www.seeedstudio.com/Crazyflie-20-BigQuad-deck-p-2626.html %}

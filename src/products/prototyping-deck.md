@@ -5,6 +5,8 @@ permalink: /prototyping-deck/
 page_id: product-prototyping-deck
 ---
 
+{% buy_online http://www.seeedstudio.com/Crazyflie-20-Prototyping-expansion-board-p-2111.html %}
+
 {% product_img Prototyping deck; medium;
 /images/prototyping-deck/PrototypingDeckInAction.png;
 /images/prototyping-deck/prototyping-deck.jpg;
@@ -60,5 +62,3 @@ into the expansion port.
 ---
 
 [Getting started with expansion decks](/getting-started-with-expansion-decks/)
-
-{% buy_online http://www.seeedstudio.com/Crazyflie-20-Prototyping-expansion-board-p-2111.html %}

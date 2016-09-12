@@ -5,6 +5,7 @@ permalink: /breakout-deck/
 page_id: product-breakout-deck
 ---
 
+{% buy_online http://www.seeedstudio.com/Crazyflie-20-Breakout-expansion-board-p-2108.html %}
 
 {% product_img Breakout deck; medium;
 /images/breakout-deck/BreakOutMounted2.png;
@@ -15,11 +16,11 @@ page_id: product-breakout-deck
 
 
 %}
-     
-{% product_highlight 
-fa-share; 
-Development and test of hardware made simple; 
-Easily connect to the Crazyflie 2.0 expansion port when developing new hardware. 
+
+{% product_highlight
+fa-share;
+Development and test of hardware made simple;
+Easily connect to the Crazyflie 2.0 expansion port when developing new hardware.
 %}
 
 Test and develop new hardware designs easily without soldering by using
@@ -58,5 +59,3 @@ and attach the Crazyflie 2.0 to it.
 ---
 
 [Getting started with expansion decks](/getting-started-with-expansion-decks/)
-
-{% buy_online http://www.seeedstudio.com/Crazyflie-20-Breakout-expansion-board-p-2108.html %}

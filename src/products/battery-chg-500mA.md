@@ -5,6 +5,8 @@ permalink: /battery-charger-500mA/
 page_id: battery-charger-500mA
 ---
 
+{% buy_online https://www.seeedstudio.com/item_detail.html?p_id=2657 %}
+
 {% product_img Battery charger; medium;
 /images/battery-charger/batt-chg-proto.jpg;
 /images/battery-charger/batt-chg-proto-combo.jpg
@@ -61,5 +63,3 @@ Battery and charger bundle:
 {% endcollapse_section %}
 
 ---
-
-{% buy_online https://www.seeedstudio.com/item_detail.html?p_id=2657 %}

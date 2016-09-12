@@ -5,6 +5,8 @@ permalink: /led-ring-deck/
 page_id: product-led-ring-deck
 ---
 
+{% buy_online http://www.seeedstudio.com/Crazyflie-20-LEDring-expansion-board-p-2105.html %}
+
 {% product_img LED-ring deck; medium;
 /images/led-ring/ledring-side.jpg;
 /images/led-ring/led-ring.jpg;
@@ -60,5 +62,3 @@ act as headlights.
 ---
 
 [Getting started with expansion decks](/getting-started-with-expansion-decks/)
-
-{% buy_online http://www.seeedstudio.com/Crazyflie-20-LEDring-expansion-board-p-2105.html %}

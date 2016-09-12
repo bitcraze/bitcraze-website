@@ -5,6 +5,8 @@ permalink: /debug-adapter-kit/
 page_id: product-debug-adapter-kit
 ---
 
+{% buy_online http://www.seeedstudio.com/Crazyflie-20-debug-adapter-kit-p-2114.html %}
+
 {% product_img Debug adapter kit; medium;
 /images/debug-adapter/DebugerAdapterMounted.png;
 /images/debug-adapter/DebugAdapterSide.jpg;
@@ -51,5 +53,3 @@ pinouts.
 * 1 x Nylon screw and nut for nRF51 debug connector
 * 1 x 6-pin debug cable for connecting to the Crazyflie 2.0
 {% endcollapse_section %}
-
-{% buy_online http://www.seeedstudio.com/Crazyflie-20-debug-adapter-kit-p-2114.html %}
