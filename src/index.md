@@ -18,6 +18,23 @@ page_id: home
     </div>
 </div>
 
+<div class="container-fluid">
+    <div class="row content-area" style="border-bottom: 1px solid #ccc; display: flex; align-items: center;">
+        <div class="col-sm-3">
+            <a href="http://en.maker-faire.de/berlin/">
+              <img src="/images/mf-berlin2016/icon_Berlin_dt.png" alt="Maker Faire Berlin 2016" class="center-block" style="max-height: 10em; width: auto;"/>
+             </a>
+        </div>
+        <div class="col-sm-6">            
+          <p>Meet us at Maker Faire Berlin this weekend, we will be in Hall 3, stand 149.</p>       
+        </div>
+        <div class="col-sm-3">
+            <a href="http://en.maker-faire.de/berlin/">
+              <img src="/images/mf-berlin2016/MakerFaire_Berlin.png" alt="Maker Faire Berlin 2016" class="center-block" style="max-height: 7em; width: auto;"/> 
+            </a>
+        </div>
+    </div>
+</div>
 
 <div class="container-fluid">
     <div class="row content-area">
