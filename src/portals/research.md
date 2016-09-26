@@ -61,9 +61,16 @@ by limited APIs or closed software. Never.
 [PDF](http://www-bcf.usc.edu/~ayanian/files/Ayanian_IROS2015a.pdf)
 [Video](https://www.youtube.com/watch?v=px9iHkA0nOI)
 
-* **"Stippling with aerial robots"**, B. Galea and E. Kia and N. Aird and P. G. Kry, 2016.
+* **"System Identification of the Crazyflie 2.0 Nano Quadrocopter"**, J. Förster,  Bachelor's thesis, ETH Zürich, 2015.
+
+* **"Stippling with aerial robots"**, B. Galea, E. Kia, N. Aird, and P. G. Kry, Computational Aesthetics / Expressive, 2016.
 [PDF](http://www.cs.mcgill.ca/~kry/pubs/stippling/stippling.pdf)
-[Video](https://www.youtube.com/watch?v=CP-fBvcUAls)
+[Video1](https://www.youtube.com/watch?v=CP-fBvcUAls)
+[Video2](https://www.youtube.com/watch?v=N_B6Fs9U_go)
+
+* **"Crazyswarm: A Large Nano-Quadcopter Swarm (Extended Abstract)"**, J. A. Preiss, W. Hönig, G. S. Sukhatme, and N. Ayanian, IROS (Late Breaking), 2016.
+[PDF](http://usc-actlab.github.io/publications/Preiss_IROSLateBreaking2016.pdf)
+[Video](https://youtu.be/ezTayb76x9U)
 
 ### Publications involving Crazyflie 1.0
 ---
