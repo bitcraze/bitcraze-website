@@ -62,6 +62,7 @@ by limited APIs or closed software. Never.
 [Video](https://www.youtube.com/watch?v=px9iHkA0nOI)
 
 * **"System Identification of the Crazyflie 2.0 Nano Quadrocopter"**, J. Förster,  Bachelor's thesis, ETH Zürich, 2015.
+[PDF](https://polybox.ethz.ch/index.php/s/20dde63ee00ffe7085964393a55a91c7)
 
 * **"Stippling with aerial robots"**, B. Galea, E. Kia, N. Aird, and P. G. Kry, Computational Aesthetics / Expressive, 2016.
 [PDF](http://www.cs.mcgill.ca/~kry/pubs/stippling/stippling.pdf)
