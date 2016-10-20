@@ -105,33 +105,65 @@ module Jekyll
     end
 
 
-    class UsedBy < Liquid::Tag
+    class UsedByText < Liquid::Tag
       include Jekyll::PluginHelper
 
-      # Use this tag to add a logo that is grey scale, but color when hoovered
+      # Use this tag to add a "used by" text when we can not use a logo
       #
-      # Takes 1 or 3 argument
-      # - The company
-      # - The image (optional)
-      # - Width (narrow or medium)
+      # Takes 1 or 2 arguments
+      # - The company name
+      # - A link url to the company (optional)
       #
       # Example:
-      # {% used_by Company; /images/my_logo.png; narrow %}
-      # {% used_by Company %}
+      # {% used_by_text Company %}
+      # {% used_by_text Company; http://cool.company.com %}
 
       def initialize(tag_name, text, tokens)
         super
         @params = parse_args(text)
       end
 
+
       def render(context)
-        element = @params[0]
-        width_class = ''
-        if (@params.length > 1)
-          element = '<img class="img-responsive" src="%2$s" alt="%1$s" title="%1$s"/>' % @params
-          width_class = ' used_by_%3$s' % @params
+        if (@params.length == 1)
+          '<div class="used_by">%1$s</div>' % @params
+        elsif (@params.length == 2)
+          '<div class="used_by"><a href="%2$s">%1$s</a></div>' % @params
         end
-        '<div class="used_by%1$s">%2$s</div>' % [width_class, element]
+      end
+    end
+
+    class UsedByLogo < Liquid::Tag
+      include Jekyll::PluginHelper
+
+      # Use this tag to add a logo that is grey scale, but color when hoovered
+      #
+      # Takes 3 or 4 arguments
+      # - The company name
+      # - The image
+      # - Width (narrow or medium)
+      # - A link url to the company (optional)
+      #
+      # Example:
+      # {% used_by_logo Company; /images/my_logo.png; narrow %}
+      # {% used_by_logo Company; /images/my_logo.png; narrow; http://cool.company.com %}
+
+      def initialize(tag_name, text, tokens)
+        super
+        @params = parse_args(text)
+      end
+
+
+      def render(context)
+        img_element = '<img class="img-responsive" src="%2$s" alt="%1$s" title="%1$s"/>' % @params
+        width_class = ' used_by_%3$s' % @params
+
+        if (@params.length == 3)
+          '<div class="used_by%1$s">%2$s</div>' % [width_class, img_element]
+        elsif (@params.length == 4)
+          url = @params[3]
+          '<div class="used_by%1$s"><a href="%3$s">%2$s</a></div>' % [width_class, img_element, url]
+        end
       end
     end
 
@@ -142,4 +174,5 @@ Liquid::Template.register_tag('img', Jekyll::Media::Img)
 Liquid::Template.register_tag('vine', Jekyll::Media::Vine)
 Liquid::Template.register_tag('youtube', Jekyll::Media::Youtube)
 Liquid::Template.register_tag('map', Jekyll::Media::GoogleMaps)
-Liquid::Template.register_tag('used_by', Jekyll::Media::UsedBy)
+Liquid::Template.register_tag('used_by_text', Jekyll::Media::UsedByText)
+Liquid::Template.register_tag('used_by_logo', Jekyll::Media::UsedByLogo)

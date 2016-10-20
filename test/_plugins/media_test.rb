@@ -89,9 +89,35 @@ class TestMedia < Testbase
   end
 
 
-  def test_that_used_by_is_rendered
+  def test_that_used_by_text_is_rendered
     # Fixture
-    tag = '{% used_by company; my_image; narrow %}'
+    tag = '{% used_by_text company %}'
+    expected = '<div class="used_by">company</div>'
+
+    # Test
+    actual = Liquid::Template.parse(tag).render
+
+    # Assert
+    assert_html(expected, actual)
+  end
+
+
+  def test_that_used_by_text_is_rendered_with_link
+    # Fixture
+    tag = '{% used_by_text company; http://the.url %}'
+    expected = '<div class="used_by"><a href="http://the.url">company</a></div>'
+
+    # Test
+    actual = Liquid::Template.parse(tag).render
+
+    # Assert
+    assert_html(expected, actual)
+  end
+
+
+  def test_that_used_by_logo_is_rendered
+    # Fixture
+    tag = '{% used_by_logo company; my_image; narrow %}'
     expected = '<div class="used_by used_by_narrow">
                   <img class="img-responsive" src="my_image" alt="company" title="company"/>
                 </div>'
@@ -104,10 +130,14 @@ class TestMedia < Testbase
   end
 
 
-  def test_that_used_by_is_rendered_without_logo
+  def test_that_used_by_logo_is_rendered_with_link
     # Fixture
-    tag = '{% used_by company %}'
-    expected = '<div class="used_by">company</div>'
+    tag = '{% used_by_logo company; my_image; narrow; http://the.url %}'
+    expected = '<div class="used_by used_by_narrow">
+                  <a href="http://the.url">
+                    <img class="img-responsive" src="my_image" alt="company" title="company"/>
+                  </a>
+                </div>'
 
     # Test
     actual = Liquid::Template.parse(tag).render

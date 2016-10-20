@@ -77,14 +77,30 @@ If you would like to distribute our products or if you already are distributing 
 {% distributor Antratek; http://www.antratek.nl/bitcraze; /images/distributors/Antratek-EEM_logo-nieuw-300x56.jpg %}
 
 {% country Sweden %}
-{% distributor LOGO-electrokit-logo-embossed; http://www.electrokit.com/productsearch?id=1&q=crazyflie&cathandle=search; /images/distributors/LOGO-electrokit-logo-embossed.png %}
+{% distributor Electrokit; http://www.electrokit.com/productsearch?id=1&q=crazyflie&cathandle=search; /images/distributors/LOGO-electrokit-logo-embossed.png %}
 
 {% country Switzerland %}
 {% distributor Boxtec; http://shop.boxtec.ch/advanced_search_result.php?keywords=crazyflie&x=-1126&y=-15; /images/distributors/boxtec-logo.png %}
 {% distributor Maker shop; https://www.maker-shop.ch/crazyflie-2-0; /images/distributors/maker-shop.png %}
+
+{% country Turkey %}
+{% distributor Robotistan; http://www.robotistan.com/bitcraze; /images/distributors/robotistan.png %}
 
 {% country United Kingdom %}
 {% distributor Digitalmeans; https://digitalmeans.co.uk/shop/index.php?route=product/search&search=crazyflie; /images/distributors/digitalmeans.png %}
 {% distributor Active Robotics; http://www.active-robots.com/catalogsearch/result/?q=crazyflie; /images/distributors/activerobots.png %}
 {% distributor Coolcomponents; https://www.coolcomponents.co.uk/catalogsearch/result/?q=crazyflie; /images/distributors/coolcomponents-300x46.gif %}
 {% distributor Unmanned techshop; http://www.unmannedtechshop.co.uk/search.php?search_query=crazyflie; /images/distributors/unmanned_tech.png %}
+<<<<<<< HEAD
+=======
+
+
+{% continent For distributors %}
+
+All distributors are handled by Seeedstudio, so if you would like to distribute
+our products then please have a look at the
+[Seeedstudio distributor page](http://www.seeedstudio.com/distributors.html).
+
+If you are already distributing our products but you are not in the list above,
+[drop us an email](/contact/) and we will add you.
+>>>>>>> 5bc3f02c562251c30f50948ad4b32592ba4b5bbc

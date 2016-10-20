@@ -50,6 +50,10 @@
   - {title: Forum, url: "https://forum.bitcraze.io"}
   - {page_id: early-access}
 
+- title: Media
+  subs:
+  - {page_id: videogallery}
+
 - title: About
   subs:
   - {page_id: about-bitcraze}

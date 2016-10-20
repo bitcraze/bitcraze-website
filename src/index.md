@@ -88,22 +88,22 @@ portallink="/diy/"
         <div class="col-md-12">
             <h2>Used by</h2>
 
-            {% used_by NASA; /images/logos/nasa.png; narrow %}
-            {% used_by Stanford %}
-            {% used_by Microsoft; /images/logos/microsoft.jpg; medium %}
-            {% used_by Chalmers; /images/logos/chalmers.png; medium %}
-            {% used_by LTH; /images/logos/lth.png; narrow  %}
-            {% used_by IBM %}
-            {% used_by University of Bologna %}
-            {% used_by USC; /images/logos/usc.png; medium %}
-            {% used_by MIT; /images/logos/mit.svg; narrow %}
-            {% used_by Bell Labs %}
-            {% used_by Adacore; /images/logos/adacore.png; medium %}
-            {% used_by ETH Zurich %}
-            {% used_by Ericsson %}
-            {% used_by UIUC; images/logos/uiuc.jpg; medium %}
-            {% used_by Polytechnique Montreal; images/logos/polymtl.png; medium %}
-            {% used_by McGill University; images/logos/mcgill.jpg; medium %}
+            {% used_by_logo NASA; /images/logos/nasa.png; narrow; https://www.nasa.gov/ %}
+            {% used_by_text Stanford; https://www.stanford.edu/ %}
+            {% used_by_logo Microsoft; /images/logos/microsoft.jpg; medium; https://www.microsoft.com/ %}
+            {% used_by_logo Chalmers; /images/logos/chalmers.png; medium; http://www.chalmers.se/en/ %}
+            {% used_by_logo LTH; /images/logos/lth.png; narrow; https://www.lth.se/english %}
+            {% used_by_text IBM; http://www.ibm.com/ %}
+            {% used_by_text University of Bologna; http://www.unibo.it/en/homepage %}
+            {% used_by_logo USC; /images/logos/usc.png; medium; http://www.usc.edu/ %}
+            {% used_by_logo MIT; /images/logos/mit.svg; narrow; http://web.mit.edu/ %}
+            {% used_by_text Bell Labs; http://www.bell-labs.com/ %}
+            {% used_by_logo Adacore; /images/logos/adacore.png; medium; http://www.adacore.com/ %}
+            {% used_by_text ETH Zurich; https://www.ethz.ch/en.html %}
+            {% used_by_text Ericsson; https://www.ericsson.com/ %}
+            {% used_by_logo University of Illinois at Urbana-Champaign; images/logos/uiuc.jpg; medium; http://illinois.edu/ %}
+            {% used_by_logo Polytechnique Montreal; images/logos/polymtl.png; medium; http://www.polymtl.ca/en %}
+            {% used_by_logo McGill University; images/logos/mcgill.jpg; medium; https://www.mcgill.ca/ %}
 
             <p class="text-right">Is your organization missing? <a href="https://github.com/bitcraze/bitcraze-website/edit/master/src/{{page.path}}"><i class="fa fa-pencil"></i> &nbsp;Improve this page</a></p>
         </div>

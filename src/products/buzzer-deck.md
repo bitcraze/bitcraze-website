@@ -5,14 +5,16 @@ permalink: /buzzer-deck/
 page_id: product-buzzer-deck
 ---
 
+{% buy_online http://www.seeedstudio.com/Crazyflie-20-Buzzer-deck-p-2619.html %}
+
 {% product_img Buzzer deck; medium;
 /images/buzzer-deck/buzzer-deck-1.jpg;
 /images/buzzer-deck/buzzer-deck-2.jpg;
 /images/buzzer-deck/buzzer-deck-3.jpg;
 /images/buzzer-deck/buzzer-deck-4.jpg
 %}
-     
-{% product_highlight 
+
+{% product_highlight
 fa-volume-up;
 Play some tunes;
 Get audio feedback and get creative by composing and playing your own melodies.
@@ -56,5 +58,3 @@ melodies pre-programmed that you can use.
 ---
 
 [Getting started with the Buzzer deck](/getting-started-with-buzzer-deck/)
-
-{% buy_online http://www.seeedstudio.com/depot/Crazyflie-20-Buzzer-deck-p-2619.html %}

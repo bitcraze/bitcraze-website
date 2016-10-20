@@ -71,6 +71,7 @@ table {
 
 .buy-button {
   line-height: 2;
+  float: right;
 }
 
 // Team member
@@ -101,7 +102,7 @@ table {
     }
 
     img {
-        width: 100%;    
+        width: 100%;
     }
 
     .fp-blog {
@@ -131,18 +132,18 @@ table {
         font-size: 35px;
         filter: grayscale(100%);
         -webkit-filter: grayscale(100%);
-        transition: filter 0.5s, -webkit-filter 0.5s;
+        transition: filter 2.0s, -webkit-filter 2.0s;
         &:hover {
             filter: grayscale(0%);
             -webkit-filter: grayscale(0%);
-            transition: filter 0.5s, -webkit-filter 0.5s;
+            transition: filter 0.1s, -webkit-filter 0.1s;
         }
     }
 
     .used_by_narrow {
         width: 100px;
         }
-        
+
     .header_text {
         h1 {
             font-size: 450%;
@@ -212,7 +213,7 @@ table {
             font-weight: bold;
         }
     }
-    
+
     .col-content-center {
         @media (min-width: $screen-md-min) {
             height: 370px;
@@ -370,27 +371,34 @@ table {
     }
 }
 
- // Page-Portals
-.page-portal {
+
+.page-portal, .page-product {
     .media-row-medium {
         width: 49.6%;
         display: inline-block;
         margin-left: 0;
 
         @media (max-width: $screen-xs-max) {
-            width: 100%;            
+            width: 100%;
         }
     }
 }
 
 
-.img-float-left {
-    
-    width:300px; 
-    height:388px;
+.img-float-right {
+
+    width:35%;
+    height:35%;
     float: right;
     margin-top: 0px;
     margin-bottom: 30px;
     margin-right: 0px;
     margin-left: 30px;
+}
+
+ // font awesome
+
+.font-awesome-color i {
+
+    color:blue;
 }

@@ -5,6 +5,8 @@ permalink: /crazyradio-pa/
 page_id: product-crazyradio-pa
 ---
 
+{% buy_online http://www.seeedstudio.com/Crazyradio-PA-long-range-24Ghz-USB-radio-dongle-with-antenna-p-2104.html %}
+
 {% product_img Crazyradio PA; medium;
 /images/crazyradio-pa/CrazyRadioSide.jpg;
 /images/crazyradio-pa/CrazyRadioFront.jpg;
@@ -98,5 +100,3 @@ range increase as with the Crazyflie 2.0.
 * [Wiki](//wiki.bitcraze.io)
 * [Forum](//forum.bitcraze.io)
 {% endcollapse_section %}
-
-{% buy_online http://www.seeedstudio.com/depot/Crazyradio-PA-long-range-24Ghz-USB-radio-dongle-with-antenna-p-2104.html %}

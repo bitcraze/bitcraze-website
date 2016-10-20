@@ -5,6 +5,8 @@ permalink: /loco-pos-deck/
 page_id: product-loco-pos-deck
 ---
 
+{% buy_online https://store.bitcraze.io/collections/positioning/products/loco-positioning-deck %}
+
 {% product_img Loco Positioning deck; medium;
 /images/loco-pos-deck/Loco-positioning-deck-400px-Early-access-1.jpg;
 /images/loco-pos-deck/Loco-positioning-deck-400px-Early-access-2.jpg;
@@ -17,14 +19,14 @@ Absolute position;
 Let your Crazyflie 2.0 know where it is using the Loco Positioning expansion deck
 %}
 
-The Loco Positioning Deck is a Tag in a Loco Positioning system and measures 
-the distances to Anchors. The distances are used to estimate the 
-absolute position of the Crazyflie 2.0 in the room, which can be used for 
+The Loco Positioning Deck is a Tag in a Loco Positioning system and measures
+the distances to Anchors. The distances are used to estimate the
+absolute position of the Crazyflie 2.0 in the room, which can be used for
 autonomous flight.
 
 [Read more about the Loco Positioning system](/loco-pos-system/)
 
-This product is intended to be used together with 
+This product is intended to be used together with
 [Loco Positioning Nodes](/loco-pos-node/) and can not be used standalone.
 
 ---
@@ -71,5 +73,3 @@ This product is intended to be used together with
 [Getting started with expansion decks](/getting-started-with-expansion-decks/)
 
 {% include early-access-info.html %}
-
-{% buy_online https://store.bitcraze.io/collections/positioning/products/loco-positioning-deck %}
