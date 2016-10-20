@@ -12,6 +12,8 @@ Products designed by Bitcraze are retailed though the
 [Seeedstudio webshop](http://www.seeedstudio.com/item_list.html?category=108),
 but the products are also available from a number of local distributors word-wide.
 
+{% continent For distributors %}
+If you would like to distribute our products or if you already are distributing our products but you are not in the list then please [drop us an email](/contact/).
 
 {% continent Americas %}
 
@@ -86,13 +88,3 @@ but the products are also available from a number of local distributors word-wid
 {% distributor Active Robotics; http://www.active-robots.com/catalogsearch/result/?q=crazyflie; /images/distributors/activerobots.png %}
 {% distributor Coolcomponents; https://www.coolcomponents.co.uk/catalogsearch/result/?q=crazyflie; /images/distributors/coolcomponents-300x46.gif %}
 {% distributor Unmanned techshop; http://www.unmannedtechshop.co.uk/search.php?search_query=crazyflie; /images/distributors/unmanned_tech.png %}
-
-
-{% continent For distributors %}
-
-All distributors are handled by Seeedstudio, so if you would like to distribute
-our products then please have a look at the
-[Seeedstudio distributor page](http://www.seeedstudio.com/depot/index.php?main_page=become_a_distributor).
-
-If you are already distributing our products but you are not in the list above,
-[drop us an email](/contact/) and we will add you.
