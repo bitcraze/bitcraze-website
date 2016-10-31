@@ -13,7 +13,7 @@ Latest stable releases for Win/Mac OSX/Linux can be found
 ## Crazyflie mobile clients
 
 * [Android client](https://play.google.com/store/apps/details?id=se.bitcraze.crazyfliecontrol2)
-* [iOS client](https://itunes.apple.com/en/app/crazyflie-2.0/id946151480)
+* [iOS client](https://itunes.apple.com/us/app/crazyflie-2.0/id946151480)
 
 ## Crazyflie Nano Quadcopter (1.0) and Crazyflie 2.0 firmware
 
