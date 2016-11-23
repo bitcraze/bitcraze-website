@@ -91,16 +91,3 @@ If you would like to distribute our products or if you already are distributing 
 {% distributor Active Robotics; http://www.active-robots.com/catalogsearch/result/?q=crazyflie; /images/distributors/activerobots.png %}
 {% distributor Coolcomponents; https://www.coolcomponents.co.uk/catalogsearch/result/?q=crazyflie; /images/distributors/coolcomponents-300x46.gif %}
 {% distributor Unmanned techshop; http://www.unmannedtechshop.co.uk/search.php?search_query=crazyflie; /images/distributors/unmanned_tech.png %}
-<<<<<<< HEAD
-=======
-
-
-{% continent For distributors %}
-
-All distributors are handled by Seeedstudio, so if you would like to distribute
-our products then please have a look at the
-[Seeedstudio distributor page](http://www.seeedstudio.com/distributors.html).
-
-If you are already distributing our products but you are not in the list above,
-[drop us an email](/contact/) and we will add you.
->>>>>>> 5bc3f02c562251c30f50948ad4b32592ba4b5bbc
