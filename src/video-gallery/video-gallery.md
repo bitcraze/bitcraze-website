@@ -9,6 +9,25 @@ page_id: videogallery
 <div class="row">
         <div class="col-md-6">
             
+            <h3>Drone&Bass at Øredev 2016</h3>
+            <div>{% youtube EIWUbchfT-U; wide; 16by9 %}</div>
+                       
+        </div>
+        
+        <div class="col-md-6">
+        
+            <h3>Crazyswarm</h3>
+            <div>{% youtube ezTayb76x9U; wide; 16by9 %}</div>
+   
+        </div>
+    </div>
+
+
+----
+
+<div class="row">
+        <div class="col-md-6">
+            
             <h3>Planning and Navigation for Drone Flight</h3>
             <div>{% youtube dpNV-zmjvkc; wide; 16by9 %}</div>
             
@@ -111,13 +130,6 @@ page_id: videogallery
             <h3>Crazyflie 2.0 controlled with HoloLens</h3>
             <div>{% youtube T_22q7x0mcw; wide; 16by9 %}</div>
                        
-        </div>
-        
-        <div class="col-md-6">
-        
-            <h3>Crazyswarm</h3>
-            <div>{% youtube ezTayb76x9U; wide; 16by9 %}</div>
-   
         </div>
     </div>
 
