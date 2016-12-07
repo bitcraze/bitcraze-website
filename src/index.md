@@ -104,7 +104,7 @@ portallink="/diy/"
             {% used_by_logo University of Illinois at Urbana-Champaign; images/logos/uiuc.jpg; medium; http://illinois.edu/ %}
             {% used_by_logo Polytechnique Montreal; images/logos/polymtl.png; medium; http://www.polymtl.ca/en %}
             {% used_by_logo McGill University; images/logos/mcgill.jpg; medium; https://www.mcgill.ca/ %}
-            {% used_by_logo Bosch Sensortec; images/logos/BST.jpg; medium; https://www.bosch-sensortec.com/ %}
+            {% used_by_logo Bosch Sensortec; images/logos/bosch.png; medium; https://www.bosch-sensortec.com/ %}
 
             <p class="text-right">Is your organization missing? <a href="https://github.com/bitcraze/bitcraze-website/edit/master/src/{{page.path}}"><i class="fa fa-pencil"></i> &nbsp;Improve this page</a></p>
         </div>
