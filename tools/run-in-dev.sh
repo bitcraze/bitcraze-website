@@ -9,16 +9,16 @@ set -e
 scriptDir=$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )
 rootDir=$scriptDir/..
 
-# On OSX we need to pull the file system
-if [ "$(uname)" == "Darwin" ]; then
-  extra_args="--force_polling"
-else
+# On OSX and Windows we need to poll the file system
+if [ "$(uname)" == "Linux" ]; then
   extra_args=""
+else
+  extra_args="--force_polling"
 fi
 
 port=${1:-80}
 
-cmd="docker run --rm -it --volume=${rootDir}:/module -p ${port}:${port} bitcraze/web-builder jekyll serve --host 0.0.0.0 --port ${port} ${extra_args}"
+cmd="docker run --rm -it --volume=${rootDir}:/module -p ${port}:${port} bitcraze/web-builder jekyll serve --host 0.0.0.0 --port ${port} ${extra_args} --incremental"
 echo "$cmd"
 if $cmd; then
   true
