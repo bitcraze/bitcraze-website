@@ -27,6 +27,7 @@
 
 - title: Tutorials
   subs:
+  - {page_id: getting-started-start}
   - {page_id: getting-started-crazyflie-2}
   - {page_id: getting-started-expansion-decks}
   - {page_id: getting-started-buzzer-deck}
