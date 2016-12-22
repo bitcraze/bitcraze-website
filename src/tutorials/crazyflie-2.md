@@ -300,7 +300,7 @@ mapping is chosen, otherwise pick your device type.
 * Click the “Program” button. The progress bar will go from 0% to 100% twice, as 
 the firmware for the two processors is uploaded to the Crazyflie.
 * Click the “Restart in firmware mode” button. The Crazyflie reboots
-and is not updated.
+and is now updated.
 * Close the bootloader window.
 {% endsi_step %}
 
