@@ -126,9 +126,9 @@ module Jekyll
 
       def render(context)
         if (@params.length == 1)
-          '<div class="used_by">%1$s</div>' % @params
+          '<div class="col-xs-3 col-sm-2 col-md-2 used_by_box_text">%1$s</div>' % @params
         elsif (@params.length == 2)
-          '<div class="used_by"><a href="%2$s">%1$s</a></div>' % @params
+          '<div class="col-xs-3 col-sm-2 col-md-2 used_by_box_text"><a href="%2$s">%1$s</a></div>' % @params
         end
       end
     end
@@ -138,15 +138,14 @@ module Jekyll
 
       # Use this tag to add a logo that is grey scale, but color when hoovered
       #
-      # Takes 3 or 4 arguments
+      # Takes 2 or 3 arguments
       # - The company name
       # - The image
-      # - Width (narrow or medium)
       # - A link url to the company (optional)
       #
       # Example:
-      # {% used_by_logo Company; /images/my_logo.png; narrow %}
-      # {% used_by_logo Company; /images/my_logo.png; narrow; http://cool.company.com %}
+      # {% used_by_logo Company; /images/my_logo.png %}
+      # {% used_by_logo Company; /images/my_logo.png; http://cool.company.com %}
 
       def initialize(tag_name, text, tokens)
         super
@@ -156,13 +155,12 @@ module Jekyll
 
       def render(context)
         img_element = '<img class="img-responsive" src="%2$s" alt="%1$s" title="%1$s"/>' % @params
-        width_class = ' used_by_%3$s' % @params
 
-        if (@params.length == 3)
-          '<div class="used_by%1$s">%2$s</div>' % [width_class, img_element]
-        elsif (@params.length == 4)
-          url = @params[3]
-          '<div class="used_by%1$s"><a href="%3$s">%2$s</a></div>' % [width_class, img_element, url]
+        if (@params.length == 2)
+          '<div class="col-xs-3 col-sm-2 col-md-2 used_by_box">%1$s</div>' % [img_element]
+        elsif (@params.length == 3)
+          url = @params[2]
+          '<div class="col-xs-3 col-sm-2 col-md-2 used_by_box"><a href="%2$s">%1$s</a></div>' % [img_element, url]
         end
       end
     end

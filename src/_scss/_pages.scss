@@ -125,25 +125,6 @@ table {
         border-top: 1px solid $bcLightGrey;
     }
 
-    .used_by {
-        vertical-align: middle;
-        margin: 15px;
-        display: inline-block;
-        font-size: 35px;
-        filter: grayscale(100%);
-        -webkit-filter: grayscale(100%);
-        transition: filter 2.0s, -webkit-filter 2.0s;
-        &:hover {
-            filter: grayscale(0%);
-            -webkit-filter: grayscale(0%);
-            transition: filter 0.1s, -webkit-filter 0.1s;
-        }
-    }
-
-    .used_by_narrow {
-        width: 100px;
-        }
-
     .header_text {
         h1 {
             font-size: 450%;
@@ -159,9 +140,7 @@ table {
     }
 
 
-    .used_by_medium {
-        width: 200px;
-    }
+
 
     .header_text {
         h1 {
@@ -226,6 +205,88 @@ table {
         }
     }
 }
+
+// box for used by section
+
+.used_by_box {
+    padding: 1%;
+    background-color: #F1F1F1;
+    border: 2px solid white;
+
+    img {
+      object-position: 50% 50%;
+      object-fit: contain;
+      height: 100%;
+    }
+
+    filter: grayscale(100%);
+    -webkit-filter: grayscale(100%);
+    transition: filter 2.0s, -webkit-filter 2.0s;
+    height: 100%;
+    &:hover {
+        filter: grayscale(0%);
+        -webkit-filter: grayscale(0%);
+        transition: filter 0.1s, -webkit-filter 0.1s;
+    }
+}
+
+.used_by_box_text {
+    padding: 1%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #F1F1F1;
+    border: 2px solid white;
+
+    filter: grayscale(100%);
+    -webkit-filter: grayscale(100%);
+    transition: filter 2.0s, -webkit-filter 2.0s;
+    height: 100%;
+    &:hover {
+        filter: grayscale(0%);
+        -webkit-filter: grayscale(0%);
+        transition: filter 0.1s, -webkit-filter 0.1s;
+    }
+}
+
+@media (max-width: $screen-xs-max) {
+    .used_by_box {
+        height: 100px;
+    }
+    .used_by_box_text {
+        height: 100px;
+        font-size: 12px;
+    }
+}
+
+@media (min-width: $screen-sm-min) {
+    .used_by_box {
+        height: 75px;
+    }
+    .used_by_box_text {
+        height: 75px;
+    }
+}
+
+@media (min-width: $screen-md-min) {
+    .used_by_box{
+        height: 100px;
+    }
+    .used_by_box_text {
+        height: 100px;
+    }
+}
+
+@media (min-width: $screen-lg-min) {
+    .used_by_box {
+        height: 150px;
+    }
+    .used_by_box_text {
+        height: 150px;
+        font-size: 18px;
+    }
+}
+
 
 
 // Page - Product
