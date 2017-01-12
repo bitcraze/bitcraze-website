@@ -254,7 +254,13 @@ for all projects.
 
 {% si_step configure USB on the virtual machine; config-usb-vm %}
 {% tabgroup %}
-{% tab Windows/Linux %}
+{% tab Windows %}
+* Install the [Crazyradio Windows USB driver](https://wiki.bitcraze.io/doc:crazyradio:install_windows_zadig).
+* In the bottom right corner click the USB icon and choose “Bitcraze Crazyradio PA USB dongle”.
+{% img USB settings; medium; /images/getting-started/SwPic5Final.png %}
+* Now choose your game controller in the same list.
+{% endtab %}
+{% tab Linux %}
 * In the bottom right corner click the USB icon and choose “Bitcraze Crazyradio PA USB dongle”.
 {% img USB settings; medium; /images/getting-started/SwPic5Final.png %}
 * Now choose your game controller in the same list.
