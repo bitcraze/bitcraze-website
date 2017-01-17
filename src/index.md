@@ -100,7 +100,7 @@ portallink="/diy/"
         {% used_by_logo MIT; /images/logos/mit.svg; http://web.mit.edu/ %}
         {% used_by_text Bell Labs; http://www.bell-labs.com/ %}
         {% used_by_logo Adacore; /images/logos/adacore.png; http://www.adacore.com/ %}
-        {% used_by_text ETH Zurich; https://www.ethz.ch/en.html %}
+        {% used_by_logo ETH Zurich; \images\logos\Eth-zurich_logo_1.png; https://www.ethz.ch/en.html %}
         {% used_by_text Ericsson; https://www.ericsson.com/ %}
         {% used_by_logo University of Illinois at Urbana-Champaign; images/logos/uiuc.jpg; http://illinois.edu/ %}
         {% used_by_logo Polytechnique Montreal; images/logos/polymtl.png; http://www.polymtl.ca/en %}
