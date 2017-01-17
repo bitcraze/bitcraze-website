@@ -91,7 +91,7 @@ portallink="/diy/"
 
         {% used_by_logo NASA; /images/logos/nasa.png; https://www.nasa.gov/ %}
         {% used_by_text Stanford; https://www.stanford.edu/ %}
-        {% used_by_logo Microsoft; /images/logos/microsoft.jpg; https://www.microsoft.com/ %}
+        {% used_by_logo Microsoft; /images/logos/microsoft.png; https://www.microsoft.com/ %}
         {% used_by_logo Chalmers; /images/logos/chalmers.png; http://www.chalmers.se/en/ %}
         {% used_by_logo LTH; /images/logos/lth.png; https://www.lth.se/english %}
         {% used_by_text IBM; http://www.ibm.com/ %}
