@@ -95,7 +95,7 @@ portallink="/diy/"
         {% used_by_logo Chalmers; /images/logos/chalmers.png; http://www.chalmers.se/en/ %}
         {% used_by_logo LTH; /images/logos/lth.png; https://www.lth.se/english %}
         {% used_by_text IBM; http://www.ibm.com/ %}
-        {% used_by_text University of Bologna; http://www.unibo.it/en/homepage %}
+        {% used_by_logo University of Bologna; \images\logos\Seal_of_the_University_of_Bologna.png; http://www.unibo.it/en/homepage %}
         {% used_by_logo USC; /images/logos/usc.png; http://www.usc.edu/ %}
         {% used_by_logo MIT; /images/logos/mit.svg; http://web.mit.edu/ %}
         {% used_by_text Bell Labs; http://www.bell-labs.com/ %}
