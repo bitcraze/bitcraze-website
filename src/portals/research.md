@@ -39,6 +39,7 @@ by limited APIs or closed software. Never.
 
 {% youtube ezTayb76x9U; medium; 16by9 %}
 {% youtube CP-fBvcUAls; medium; 16by9 %}
+{% youtube DJ1IZRL5t1Q; medium; 16by9 %}
 {% youtube bAhLW1eq8eM; medium; 16by9 %}
 {% youtube dpNV-zmjvkc; medium; 16by9 %}
 {% youtube gH1Fcf597So; medium; 16by9 %}
@@ -72,6 +73,12 @@ by limited APIs or closed software. Never.
 * **"Crazyswarm: A Large Nano-Quadcopter Swarm (Extended Abstract)"**, J. A. Preiss, W. Hönig, G. S. Sukhatme, and N. Ayanian, IROS (Late Breaking), 2016.
 [PDF](http://usc-actlab.github.io/publications/Preiss_IROSLateBreaking2016.pdf)
 [Video](https://youtu.be/ezTayb76x9U)
+
+* **"A Hybrid Method for Online Trajectory Planning of Mobile Robots in Cluttered Environments"**, 
+Leobardo Campos-Macías, David Gómez-Gutiérrez, Rodrigo Aldana-López, Rafael de la Guardia and José I. Parra Vilchis, Multi-Agent Autonomous Systems - Intel Labs, 2017.
+[PDF](/papers/online-trajectory-planning-in-cluttered-environments.pdf)
+[Video](https://youtu.be/DJ1IZRL5t1Q)
+
 
 ### Publications involving Crazyflie 1.0
 ---
