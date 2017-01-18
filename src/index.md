@@ -92,15 +92,15 @@ portallink="/diy/"
         {% used_by_logo NASA; /images/logos/nasa.png; https://www.nasa.gov/ %}
         {% used_by_text Stanford; https://www.stanford.edu/ %}
         {% used_by_logo Microsoft; /images/logos/microsoft.png; https://www.microsoft.com/ %}
-        {% used_by_logo Chalmers; /images/logos/chalmers.png; http://www.chalmers.se/en/ %}
+        {% used_by_logo Chalmers University of Technology; /images/logos/chalmers.png; http://www.chalmers.se/en/ %}
         {% used_by_logo LTH; /images/logos/lth.png; https://www.lth.se/english %}
         {% used_by_text IBM; http://www.ibm.com/ %}
-        {% used_by_logo University of Bologna; \images\logos\Seal_of_the_University_of_Bologna.png; http://www.unibo.it/en/homepage %}
+        {% used_by_logo University of Bologna; /images/logos/Seal_of_the_University_of_Bologna.png; http://www.unibo.it/en/homepage %}
         {% used_by_logo USC; /images/logos/usc.png; http://www.usc.edu/ %}
         {% used_by_logo MIT; /images/logos/mit.svg; http://web.mit.edu/ %}
         {% used_by_text Bell Labs; http://www.bell-labs.com/ %}
         {% used_by_logo Adacore; /images/logos/adacore.png; http://www.adacore.com/ %}
-        {% used_by_logo ETH Zurich; \images\logos\Eth-zurich_logo_1.png; https://www.ethz.ch/en.html %}
+        {% used_by_logo ETH Zurich; /images/logos/Eth-zurich_logo_1.png; https://www.ethz.ch/en.html %}
         {% used_by_text Ericsson; https://www.ericsson.com/ %}
         {% used_by_logo University of Illinois at Urbana-Champaign; images/logos/uiuc.jpg; http://illinois.edu/ %}
         {% used_by_logo Polytechnique Montreal; images/logos/polymtl.png; http://www.polymtl.ca/en %}
