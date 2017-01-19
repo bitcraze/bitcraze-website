@@ -39,6 +39,7 @@ module Jekyll
       end
     end
 
+
     class Vine < Liquid::Tag
       include Jekyll::PluginHelper
 
@@ -85,7 +86,7 @@ module Jekyll
     class GoogleMaps < Liquid::Tag
       include Jekyll::PluginHelper
 
-      # Use this tag to add a youtube video
+      # Use this tag to add a google map
       #
       # Takes 2 arguments
       # - The id, you can find it in the url
@@ -165,6 +166,108 @@ module Jekyll
       end
     end
 
+
+
+
+    # These tags are used to generate a media gallery. The "media_gallery" block tag
+    # is used as an outer tag and the "gallery_youtube" tag to define each media item.
+    #
+    # Example:
+    # {% media_gallery %}
+    # {% gallery_youtube id1; 16by9; First video %}
+    # {% gallery_youtube id1; 16by9; Second video %}
+    # ...
+    # {% endmedia_gallery %}
+
+
+    # Use this tag block as an outer block for media galleries
+    #
+    # Takes no argumants
+    #
+    # Example:
+    # {% media_gallery %}
+    # Media items ...
+    # {% endmedia_gallery %}
+
+    class MediaGallery < Liquid::Block
+      include Jekyll::PluginHelper
+
+      @@group_id = 0
+
+      def initialize(tag_name, text, tokens)
+        super
+        @items = []
+      end
+
+      def render(context)
+        context.stack do
+          context['media_gallery'] = self
+
+          markup = super
+
+          result ='<div class="media-gallery">'
+
+          counter = 0
+          result = @items.reduce(result) do |memo, item|
+            if counter % 2 == 0
+              r = '<div class="row">' + item
+            else
+              r = item + '</div>'
+            end
+
+            counter += 1
+            memo + r
+          end
+          if counter % 2 == 1
+            result += '</div>'
+          end
+
+          result += '</div>'
+
+          result
+        end
+      end
+
+      def add_item(html)
+        @items << html
+      end
+
+      def to_liquid()
+        self
+      end
+    end
+
+
+    class GalleryYoutube < Liquid::Tag
+      include Jekyll::PluginHelper
+
+      # Use this tag to add a youtube video to a media gallery
+      #
+      # Takes 2 or 3 arguments
+      # - The id, you can find it in the url
+      # - Aspect ratio: 4by3, 16by9 or 1by1
+      # - Optional header
+      #
+      # Example:
+      # {% gallery_youtube 123-youtube-id-456; 16by9; My video %}
+
+      def initialize(tag_name, text, tokens)
+        super
+        @params = parse_args(text)
+      end
+
+      def render(context)
+        header = ''
+        if @params.length >= 3
+          header = '<div><h3>%3$s</h3></div>' % @params
+        end
+
+        html = '<div class="col-md-6">%1$s<div class="embed-responsive embed-responsive-%3$s"><iframe class="embed-responsive-item" src="https://www.youtube.com/embed/%2$s" allowfullscreen></iframe></div></div>' % ([header] + @params)
+        context['media_gallery'].add_item(html)
+        html
+      end
+    end
+
   end
 end
 
@@ -174,3 +277,5 @@ Liquid::Template.register_tag('youtube', Jekyll::Media::Youtube)
 Liquid::Template.register_tag('map', Jekyll::Media::GoogleMaps)
 Liquid::Template.register_tag('used_by_text', Jekyll::Media::UsedByText)
 Liquid::Template.register_tag('used_by_logo', Jekyll::Media::UsedByLogo)
+Liquid::Template.register_tag('media_gallery', Jekyll::Media::MediaGallery)
+Liquid::Template.register_tag('gallery_youtube', Jekyll::Media::GalleryYoutube)

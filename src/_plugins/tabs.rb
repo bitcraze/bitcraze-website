@@ -85,8 +85,6 @@ module Jekyll
 
     # Use this tag to define a tab
     #
-    # ; is used as separator
-    #
     # Takes 1 argumant
     # - Tab title
     #

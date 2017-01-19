@@ -36,19 +36,20 @@ by limited APIs or closed software. Never.
 
 ### Crazyflie used in research
 ---
-
-{% youtube ezTayb76x9U; medium; 16by9 %}
-{% youtube CP-fBvcUAls; medium; 16by9 %}
-{% youtube DJ1IZRL5t1Q; medium; 16by9 %}
-{% youtube bAhLW1eq8eM; medium; 16by9 %}
-{% youtube dpNV-zmjvkc; medium; 16by9 %}
-{% youtube gH1Fcf597So; medium; 16by9 %}
-{% youtube px9iHkA0nOI; medium; 16by9 %}
-{% youtube JoWU8qoAk84; medium; 16by9 %}
-{% youtube ZrQbruTtzfQ; medium; 16by9 %}
-{% youtube oreVFqRntXY; medium; 16by9 %}
-{% youtube QjxF9zUlIx0; medium; 16by9 %}
-{% youtube NwxOwYi0jFQ; medium; 16by9 %}
+{% media_gallery %}
+{% gallery_youtube ezTayb76x9U; 16by9 %}
+{% gallery_youtube CP-fBvcUAls; 16by9 %}
+{% gallery_youtube DJ1IZRL5t1Q; 16by9 %}
+{% gallery_youtube bAhLW1eq8eM; 16by9 %}
+{% gallery_youtube dpNV-zmjvkc; 16by9 %}
+{% gallery_youtube gH1Fcf597So; 16by9 %}
+{% gallery_youtube px9iHkA0nOI; 16by9 %}
+{% gallery_youtube JoWU8qoAk84; 16by9 %}
+{% gallery_youtube ZrQbruTtzfQ; 16by9 %}
+{% gallery_youtube oreVFqRntXY; 16by9 %}
+{% gallery_youtube QjxF9zUlIx0; 16by9 %}
+{% gallery_youtube NwxOwYi0jFQ; 16by9 %}
+{% endmedia_gallery %}
 
 
 ### Publications involving Crazyflie 2.0
@@ -76,7 +77,7 @@ by limited APIs or closed software. Never.
 
 * **"A Hybrid Method for Online Trajectory Planning of Mobile Robots in Cluttered Environments"**, 
 Leobardo Campos-Macías, David Gómez-Gutiérrez, Rodrigo Aldana-López, Rafael de la Guardia and José I. Parra Vilchis, Multi-Agent Autonomous Systems - Intel Labs, 2017.
-[PDF](/papers/online-trajectory-planning-in-cluttered-environments.pdf)
+[PDF](http://dx.doi.org/10.1109/LRA.2017.2655145)
 [Video](https://youtu.be/DJ1IZRL5t1Q)
 
 

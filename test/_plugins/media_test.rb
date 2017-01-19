@@ -145,4 +145,78 @@ class TestMedia < Testbase
     # Assert
     assert_html(expected, actual)
   end
+
+
+  def test_that_single_gallery_youtube_is_rendered
+    # Fixture
+    tag = '{% media_gallery %}{% gallery_youtube id; 16by9; Some header %}{% endmedia_gallery %}'
+    expected = '<div class="media-gallery">
+                  <div class="row">
+                    <div class="col-md-6">
+                      <div>
+                        <h3>Some header</h3>
+                      </div>
+                      <div class="embed-responsive embed-responsive-16by9">
+                        <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/id" allowfullscreen></iframe>
+                      </div>
+                    </div>
+                  </div>
+                </div>'
+
+    # Test
+    actual = Liquid::Template.parse(tag).render
+
+    # Assert
+    assert_html(expected, actual)
+  end
+
+
+  def test_that_multiple_gallery_youtube_is_rendered
+    # Fixture
+    tag = '{% media_gallery %}{% gallery_youtube id1; 16by9; Some header %}{% gallery_youtube id2; 16by9; Other header %}{% gallery_youtube id3; 16by9; Some header %}{% gallery_youtube id4; 16by9; Some header %}{% endmedia_gallery %}'
+    expected = '<div class="media-gallery">
+                  <div class="row">
+                    <div class="col-md-6">
+                      <div>
+                        <h3>Some header</h3>
+                      </div>
+                      <div class="embed-responsive embed-responsive-16by9">
+                        <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/id1" allowfullscreen></iframe>
+                      </div>
+                    </div>
+                    <div class="col-md-6">
+                      <div>
+                        <h3>Other header</h3>
+                      </div>
+                      <div class="embed-responsive embed-responsive-16by9">
+                        <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/id2" allowfullscreen></iframe>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="row">
+                    <div class="col-md-6">
+                      <div>
+                        <h3>Some header</h3>
+                      </div>
+                      <div class="embed-responsive embed-responsive-16by9">
+                        <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/id3" allowfullscreen></iframe>
+                      </div>
+                    </div>
+                    <div class="col-md-6">
+                      <div>
+                        <h3>Some header</h3>
+                      </div>
+                      <div class="embed-responsive embed-responsive-16by9">
+                        <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/id4" allowfullscreen></iframe>
+                      </div>
+                    </div>
+                  </div>
+                </div>'
+
+    # Test
+    actual = Liquid::Template.parse(tag).render
+
+    # Assert
+    assert_html(expected, actual)
+  end
 end

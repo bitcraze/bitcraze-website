@@ -15,7 +15,7 @@ module Jekyll
     # Examples:
     # {% si_intro My title %}
     # Some content (supports markdown)
-    # {% si_intro %}
+    # {% endsi_intro %}
     #
     # {% si_intro My title; optional-id %}
     # Some content (supports markdown)
@@ -64,7 +64,7 @@ module Jekyll
     # Example:
     # {% si_step My title %}
     # Some content (supports markdown)
-    # {% si_step %}
+    # {% endsi_step %}
     #
     # {% si_step My title; optional-id %}
     # Some content (supports markdown)
