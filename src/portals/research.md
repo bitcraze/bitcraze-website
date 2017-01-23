@@ -77,7 +77,8 @@ by limited APIs or closed software. Never.
 
 * **"A Hybrid Method for Online Trajectory Planning of Mobile Robots in Cluttered Environments"**, 
 Leobardo Campos-Macías, David Gómez-Gutiérrez, Rodrigo Aldana-López, Rafael de la Guardia and José I. Parra Vilchis, Multi-Agent Autonomous Systems - Intel Labs, 2017.
-[PDF](http://dx.doi.org/10.1109/LRA.2017.2655145)
+[PDF](http://dx.doi.org/10.1109/LRA.2017.2655145) or
+[PDF](/papers/online-trajectory-planning-in-cluttered-environments.pdf)
 [Video](https://youtu.be/DJ1IZRL5t1Q)
 
 
