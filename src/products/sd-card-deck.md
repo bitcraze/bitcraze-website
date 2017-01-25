@@ -15,7 +15,7 @@ page_id: product-sd-card-deck
 
 {% product_highlight
 fa-file-o;
-Micro SD card;
+File your data;
 Read and write data to a micro SD card
 %}
 
