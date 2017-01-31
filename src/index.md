@@ -89,7 +89,7 @@ portallink="/diy/"
             <h2>Used by</h2>
         </div>
 
-        {% used_by_logo NASA; /images/logos/nasa.png; https://www.nasa.gov/ %}
+        {% used_by_logo NASA; /images/logos/NASA_logo.png; https://www.nasa.gov/ %}
         {% used_by_text Stanford; https://www.stanford.edu/ %}
         {% used_by_logo Microsoft; /images/logos/microsoft.png; https://www.microsoft.com/ %}
         {% used_by_logo Chalmers University of Technology; /images/logos/chalmers.png; http://www.chalmers.se/en/ %}
@@ -102,9 +102,9 @@ portallink="/diy/"
         {% used_by_logo Adacore; /images/logos/adacore.png; http://www.adacore.com/ %}
         {% used_by_logo ETH Zurich; /images/logos/Eth-zurich_logo_1.png; https://www.ethz.ch/en.html %}
         {% used_by_text Ericsson; https://www.ericsson.com/ %}
-        {% used_by_logo University of Illinois at Urbana-Champaign; images/logos/uiuc.jpg; http://illinois.edu/ %}
+        {% used_by_logo University of Illinois at Urbana-Champaign; images/logos/Illinois.gif; http://illinois.edu/ %}
         {% used_by_logo Polytechnique Montreal; images/logos/polymtl.png; http://www.polymtl.ca/en %}
-        {% used_by_logo McGill University; images/logos/mcgill.jpg; https://www.mcgill.ca/ %}
+        {% used_by_logo McGill University; images/logos/mcgill.svg; https://www.mcgill.ca/ %}
         {% used_by_logo Bosch Sensortec; images/logos/bosch.png; https://www.bosch-sensortec.com/ %}
       </div>
       <div class="row content-area">
