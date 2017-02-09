@@ -25,11 +25,11 @@ have all of them before you start assembling.
 
 
 {% si_intro Testing; test %}
-The Crazyflie 2.0 is tested extensively in the production, but to make sure 
-nothing has happened during shipping/storage you should run the tests before 
-starting the assembly. Power on the Crazyflie 2.0 using a USB source (either 
-computer or charger) and check the results of the test below. Note that it’s 
-important to hold the Crazyflie 2.0 steady during the test and away from strong 
+The Crazyflie 2.0 is tested extensively in the production, but to make sure
+nothing has happened during shipping/storage you should run the tests before
+starting the assembly. Power on the Crazyflie 2.0 using a USB source (either
+computer or charger) and check the results of the test below. Note that it’s
+important to hold the Crazyflie 2.0 steady during the test and away from strong
 magnetic sources.
 {% endsi_intro %}
 
@@ -38,13 +38,15 @@ Before you start assembling anything, run the power on self-test by
 connecting the Crazyflie 2.0 to a uUSB power source. The LEDs M1 and M4
 will indicate the result of the test. If the M4 LED blinks GREEN five times
 fast, then the test has passed.
-{% vine Or3Evd9neVX %}
+
+{% tutorialVideo \videos\self_test_pass.mp4 %}
 {% endsi_step %}
 
 {% si_step self-test fails %}
 If the self-test fails, then the M1 LED blinks 5 times fast RED, then pauses
 and does it again. Go to our support forum to get help.
-{% vine Or39eVaZxr1 %}
+
+{% tutorialVideo \videos\self_test_fails.mp4 %}
 {% endsi_step %}
 
 
@@ -57,7 +59,9 @@ there are a few pitfalls. So make sure to follow the instructions below!
 {% si_step twisting the wires %}
 Start by twisting the wires of the four motors. This will reduce electronic
 noise and make the wires fit better in the motor mount “hooks”.
-{% vine Or3VHHFmg7Q %}    
+
+{% tutorialVideo \videos\twisting_the_wires.mp4 %}
+
 {% endsi_step %}
 
 {% si_step mount the motors %}
@@ -66,13 +70,17 @@ insert them. If it is difficult doing it as in the video try putting the
 motor can towards a table edge and press on the mount, however don’t press
 on the motor axis while inserting them as it might damage the motor. The
 motor should be inserted all the way to the stop in the mount.
-{% vine Or3YpMHuXmd %}
+
+{% tutorialVideo \videos\mount_the_motors.mp4 %}
+
 {% endsi_step %}
 
 {% si_step attach the twisted wire %}
 Attach the twisted wire into the two small “hooks” that are underneath the
 motor mount.
-{% vine Or3LaJrMMbj %}
+
+{% tutorialVideo \videos\attach_the_twisted wire.mp4 %}
+
 {% endsi_step %}
 
 {% si_step insert the motor %}
@@ -80,14 +88,16 @@ Insert the motor mounts on the Crazyflie 2.0 wings. They are press fit and
 might need a small amount of force. Make sure they go all the way to the
 stop. It’s not important which motor you put where. After it’s been
 inserted, connect the motor connectors to the Crazyflie 2.0.
-{% vine Or3l3lYJaFb %}
+{% tutorialVideo \videos\insert_the_motor.mp4 %}
 {% endsi_step %}
 
 {% si_step attach the propellers %}
 Now it’s time to attach the propellers. Note: There are two kinds of
 propellers, the clock wise (CW) and counter clock wise (CCW) propellers,
 each kind has their own bag in the box. Here we are attaching the CW propellers.
-{% vine OrLaQ7TElb2 %}
+
+{% tutorialVideo \videos\attach_the_propellers.mp4 %}
+
 Here’s a detailed view of where to attach CW and CCW propellers.
 {% img Crazyflie 2.0 propeller mounting; medium; /images/getting-started/cf2_props.png %}
 {% endsi_step %}
@@ -96,13 +106,13 @@ Here’s a detailed view of where to attach CW and CCW propellers.
 The rubber pad should be attached to the Crazyflie 2.0 between the
 expansion headers. This will create friction, keep the battery from
 slipping out and also protect the electronics.
-{% vine OrL7u7aKw5w %}
+{% tutorialVideo \videos\attach_the_rubber_pad.mp4 %}
 {% endsi_step %}
 
 {% si_step attach headers %}
 There are two types of headers in the box, long and short ones. Find the
 two short ones and insert them into the expansion connector.
-{% vine OrL7TxphWBW %}
+{% tutorialVideo \videos\attach_headers.mp4 %}
 {% endsi_step %}
 
 {% si_step attach the battery %}
@@ -114,7 +124,7 @@ the battery in place so tighten it until it does.
 Now connect the battery
 and you are finished with the assembly. The battery wires can preferably be
 bent and placed underneath the PCB to be out of the way.
-{% vine OrLAtap1mzr %}
+{% tutorialVideo \videos\attach_the_battery.mp4 %}
 {% endsi_step %}
 
 {% si_step power on! %}
@@ -122,18 +132,18 @@ The assembly is finished, now it’s time to power it on! Note that the power
 button is a push button, not a sliding button. During the power-on
 self-test all the propellers will spin in sequence. Make sure they all
 spin, if they don’t then check the motor connections.
-{% vine OgzwVPTpnHl %}
+{% tutorialVideo \videos\power_on.mp4 %}
 {% endsi_step %}
 
 {% si_step getting to know your Crazyflie; leds %}
 First of all, lets look at what is front and back, this is important when flying
 and also when mounting expansion decks. The small "bump" (the antenna) is on the front
-and the blue LEDs are at the back. 
+and the blue LEDs are at the back.
 {% img Crazyflie board from the top; medium; /images/getting-started/frontCF.png %}
 
 #### Start up sequence
 
-When the Crazyflie 2.0 is powered on it will automatically go through a short 
+When the Crazyflie 2.0 is powered on it will automatically go through a short
 sequence of events to get ready for flight.
 
 1. **Run self tests** - the Crazyflie 2.0 checks that the hardware is OK
@@ -145,18 +155,18 @@ It must be *absolutely still* to do this, so it's best to put it on a level surf
 
 You also need to understand what the LEDs mean.
 
-* **Power on and all is good:** The blue LEDs (2 and 3) are fully lit and the 
+* **Power on and all is good:** The blue LEDs (2 and 3) are fully lit and the
 front right LED (1) is blinking red twice every second.
-* **Power on and all is good but sensors are not yet calibrated:** The blue LEDs 
+* **Power on and all is good but sensors are not yet calibrated:** The blue LEDs
 (2 and 3) are fully lit and the front right LED (1) is blinking red with 2 seconds interval.
 Put the Crazyflie 2.0 on a level surface and keep it absolutely still to calibrate.
 * **Radio connected:** The front left LED (4) is flickering in read and/or green.
-* **Battery low:** The front right LED (1) is fully lit in red. It's time to 
+* **Battery low:** The front right LED (1) is fully lit in red. It's time to
 land and re-charge the battery.
 * **Charging:** The back left blue LED (3) is blinking while the right back blue LED (4) is lit.
-* **Boot loader mode:** The blue LEDs (2 and 3) at the back are blinking 
+* **Boot loader mode:** The blue LEDs (2 and 3) at the back are blinking
 approximately once every second.
-* **Self test fail:** The right front LED (1) is repeatedly blinking five short 
+* **Self test fail:** The right front LED (1) is repeatedly blinking five short
 red pulses with a longer pause between groups.
 {% endsi_step %}
 
@@ -299,11 +309,11 @@ mapping is chosen, otherwise pick your device type.
 {% si_step update firmware in the Crazyflie; update-fw %}
 * Turn the Crazyflie off.
 * Start the Crazyflie in bootloader mode by pressing the power button for 3 seconds. Both the blue LEDs will blink.
-* Go back to the Crazyflie client in the VM and click the Crazyflie -> Bootloader menu. 
+* Go back to the Crazyflie client in the VM and click the Crazyflie -> Bootloader menu.
 {% img Update firmware dialog; wide; /images/getting-started/SwPic8Final.png %}
 * Click the “Initiate bootloader cold boot” button. After a few seconds the status should read “Connected to bootloader”.
 * Click the “Browse” button and go to home/bitcraze/Downloads and select the file you downloaded earlier.
-* Click the “Program” button. The progress bar will go from 0% to 100% twice, as 
+* Click the “Program” button. The progress bar will go from 0% to 100% twice, as
 the firmware for the two processors is uploaded to the Crazyflie.
 * Click the “Restart in firmware mode” button. The Crazyflie reboots
 and is now updated.
@@ -329,8 +339,8 @@ Now it's time to do some flying, but first there are some basics you need to kno
 {% endsi_intro %}
 
 {% si_step orientation; orientation %}
-First of all, it is much easier to fly when the copter is pointing away from you. 
-The blue LEDs are on the back, so keep them pointing in your direction when 
+First of all, it is much easier to fly when the copter is pointing away from you.
+The blue LEDs are on the back, so keep them pointing in your direction when
 starting to fly.
 {% endsi_step %}
 
@@ -338,12 +348,12 @@ starting to fly.
 When flying a quadcopter there are four main dimensions of controls; roll, pitch, yaw and thrust.
 {% img Axis; wide; /images/getting-started/AxisImage.png %}
 
-* **Roll -** is the rotation around a horizontal axis going through the quadcopter 
+* **Roll -** is the rotation around a horizontal axis going through the quadcopter
 from back to front. This literally rolls the Crazyflie and moves it left or right.
-* **Pitch -** is the rotation around a horizontal axis going through the quadcopter 
+* **Pitch -** is the rotation around a horizontal axis going through the quadcopter
 from left to right. This tilts the Crazyflie and moves it forwards or backwards.
-* **Yaw -** is the rotation around a vertical axis. This rotates the quadcopter 
-left or right. Yaw is used when changing flying direction by pointing the front 
+* **Yaw -** is the rotation around a vertical axis. This rotates the quadcopter
+left or right. Yaw is used when changing flying direction by pointing the front
 of the Crazyflie in different directions.
 * **Thrust -** adjusts the altitude, or height, of the Crazyflie.
 {% endsi_step %}
@@ -357,7 +367,7 @@ The controls on the gamepad or mobile app have the following mapping:
 When thrusting without touching any other controls, this is what it might
 look like. The Crazyflie usually drifts in some direction if not
 compensated for, this is completely normal.
-{% vine imF9eEIxUiK %}
+{% tutorialVideo \videos\normal_flight.mp4 %}
 {% endsi_step %}
 
 {% si_step the ground effect; ground-effect %}
@@ -374,16 +384,16 @@ If your Crazyflie drifts a lot when taking off, there are a few things you shoul
 * Make sure the battery is centered. If it has slipped
 too far to either side, the Crazyflie might have a hard time
 compensating for it.
-* Check that the propellers are spinning freely. Blow lightly on them, one by one, 
-and verify that they turn. A common problem is that hair is jammed between the 
+* Check that the propellers are spinning freely. Blow lightly on them, one by one,
+and verify that they turn. A common problem is that hair is jammed between the
 propeller and motor. If this is the problem. just pull the propeller off from the
 motor, remove the hair and reinstall the propeller.
 * Check that the propellers are balanced, [see the balancing propellers guide](/balancing-propellers/)
 {% endsi_step %}
 
 {% si_step charging the battery; charging %}
-To charge the battery of the Crazyflie 2.0, just plug in a micro USB cable. Make 
-sure the Crazyflie is powered on. While the battery is charging, the back left 
+To charge the battery of the Crazyflie 2.0, just plug in a micro USB cable. Make
+sure the Crazyflie is powered on. While the battery is charging, the back left
 blue LED will blink. When the LED is fully lit the battery is charged.
 {% endsi_step %}
 

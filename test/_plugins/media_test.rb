@@ -37,15 +37,10 @@ class TestMedia < Testbase
   end
 
 
-  def test_that_vine_is_rendered
+  def test_that_tutorial_video_is_rendered
     # Fixture
-    tag = '{% vine vine-id %}'
-    expected = '<div class="media-row-medium">
-                  <div class="outer-vine">
-                    <iframe class="inner-vine vine-embed" src="https://vine.co/v/vine-id/embed/simple"></iframe>
-                    <script src="//platform.vine.co/static/scripts/embed.js"></script>
-                  </div>
-                </div>'
+    tag = '{% tutorialVideo /video/plop.mp4 %}'
+    expected = '<video class="tutorial" autobuffer controls autoplay muted loop><source src="/video/plop.mp4" type="video/mp4"></video>'
 
     # Test
     actual = Liquid::Template.parse(tag).render

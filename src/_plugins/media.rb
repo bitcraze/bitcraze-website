@@ -39,14 +39,13 @@ module Jekyll
       end
     end
 
-
-    class Vine < Liquid::Tag
+    class TutorialVideo < Liquid::Tag
       include Jekyll::PluginHelper
 
-      # Use this tag to add a vine
+      # Use this tag to add a tutorial video
       #
       # Example:
-      # {% vine 123-vine-id-456 %}
+      # {% tutorialVideo /video/plop.mp4 %}
 
       def initialize(tag_name, text, tokens)
         super
@@ -54,7 +53,7 @@ module Jekyll
       end
 
       def render(context)
-        '<div class="media-row-medium"><div class="outer-vine"><iframe class="inner-vine vine-embed" src="https://vine.co/v/%1$s/embed/simple"></iframe><script src="//platform.vine.co/static/scripts/embed.js"></script></div></div>' % @params
+        "<video class=\"tutorial\" autobuffer controls autoplay muted loop><source src=\"#{@params[0]}\" type=\"video/mp4\"></video>"
       end
     end
 
@@ -272,7 +271,7 @@ module Jekyll
 end
 
 Liquid::Template.register_tag('img', Jekyll::Media::Img)
-Liquid::Template.register_tag('vine', Jekyll::Media::Vine)
+Liquid::Template.register_tag('tutorialVideo', Jekyll::Media::TutorialVideo)
 Liquid::Template.register_tag('youtube', Jekyll::Media::Youtube)
 Liquid::Template.register_tag('map', Jekyll::Media::GoogleMaps)
 Liquid::Template.register_tag('used_by_text', Jekyll::Media::UsedByText)
