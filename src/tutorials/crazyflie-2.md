@@ -44,7 +44,7 @@ fast, then the test has passed.
 
 {% si_step self-test fails %}
 If the self-test fails, then the M1 LED blinks 5 times fast RED, then pauses
-and does it again. Go to our support forum to get help.
+and does it again. Go to our [support forum](//forum.bitcraze.io) to get help.
 
 {% tutorialVideo \videos\self_test_fails.mp4 %}
 {% endsi_step %}
