@@ -15,7 +15,7 @@
 .media-row-base {
     margin-top: 20px;
     margin-bottom: 20px;
-    img {
+    img, video {
         width: 100%;
     }
 }
@@ -424,7 +424,6 @@ table {
 
 
 .img-float-right {
-
     width:35%;
     height:35%;
     float: right;
@@ -437,13 +436,5 @@ table {
  // font awesome
 
 .font-awesome-color i {
-
     color:blue;
-}
-
-//Tutorial videos
-
-video.tutorial {
-  width: 400px;
-  height: 400px;
 }

@@ -40,7 +40,9 @@ class TestMedia < Testbase
   def test_that_tutorial_video_is_rendered
     # Fixture
     tag = '{% tutorialVideo /video/plop.mp4 %}'
-    expected = '<video class="tutorial" autobuffer controls autoplay muted loop><source src="/video/plop.mp4" type="video/mp4"></video>'
+    expected = '<div class="media-row-medium">
+        <video autobuffer controls autoplay muted loop><source src="/video/plop.mp4" type="video/mp4"></video>
+      </div>'
 
     # Test
     actual = Liquid::Template.parse(tag).render

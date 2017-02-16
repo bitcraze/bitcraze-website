@@ -53,7 +53,7 @@ module Jekyll
       end
 
       def render(context)
-        "<video class=\"tutorial\" autobuffer controls autoplay muted loop><source src=\"#{@params[0]}\" type=\"video/mp4\"></video>"
+        '<div class="media-row-medium"><video autobuffer controls autoplay muted loop><source src="%1$s" type="video/mp4"></video></div>' % @params
       end
     end
 
