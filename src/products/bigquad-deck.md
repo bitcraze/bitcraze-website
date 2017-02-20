@@ -5,7 +5,7 @@ permalink: /bigquad-deck/
 page_id: product-bigquad-deck
 ---
 
-{% buy_online http://www.seeedstudio.com/Crazyflie-20-BigQuad-deck-p-2626.html %}
+{% buy_online https://store.bitcraze.io/collections/decks/products/bigquad-deck %}
 
 {% product_img BigQuad deck; medium;
 /images/bigquad-deck-early-access/big-quad-early-access-4.jpg;

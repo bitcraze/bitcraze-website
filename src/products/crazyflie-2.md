@@ -5,7 +5,7 @@ permalink: /crazyflie-2/
 page_id: product-crazyflie-2
 ---
 
-{% buy_online http://www.seeedstudio.com/Crazyflie-20-p-2103.html %}
+{% buy_online https://store.bitcraze.io/collections/kits/products/crazyflie-2-0 %}
 
 {% product_img Crazyflie 2.0; medium;
 /images/crazyflie.png;
@@ -246,11 +246,11 @@ it's a breeze to update.
 
 {% collapse_section Spare parts %}
 
-* [Propellers](http://www.seeedstudio.com/Crazyflie-Nano-Quadcopter-4-x-CWCCW-spare-propellers-BCCWP01A-and-BCCCWP01A-p-1361.html?cPath=84_114)
-* [LiPo battery (240mAh)](http://www.seeedstudio.com/Crazyflie-20-Spare-240mAh-LiPo-battery-p-2116.html?cPath=84_147)
-* [Coreless DC motor](http://www.seeedstudio.com/Crazyflie-20-Spare-7x16-mm-coreless-DC-motor-with-connector-p-2115.html?cPath=84_147)
-* [Motor mount](http://www.seeedstudio.com/Crazyflie-20-4-x-spare-7-mm-motor-mounts-p-2113.html?cPath=84_147)
-* [Battery holder expansion board](http://www.seeedstudio.com/Crazyflie-20-Battery-holder-expansion-board-p-2107.html?cPath=84_147)
+* [Propellers](https://store.bitcraze.io/collections/spare-parts-crazyflie-2-0/products/propeller-pack)
+* [LiPo battery (240mAh)](https://store.bitcraze.io/collections/spare-parts-crazyflie-2-0/products/240mah-lipo-battery-including-500ma-usb-charger)
+* [Coreless DC motor](https://store.bitcraze.io/collections/spare-parts-crazyflie-2-0/products/4-x-7-mm-dc-motor-pack-for-crazyflie-2)
+* [Motor mount](https://store.bitcraze.io/collections/spare-parts-crazyflie-2-0/products/crazyflie-2-0-4-x-spare-7-mm-motor-mounts)
+* [Battery holder expansion board](https://store.bitcraze.io/collections/spare-parts-crazyflie-2-0/products/battery-holder-deck)
 
 {% endcollapse_section %}
 

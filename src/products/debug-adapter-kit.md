@@ -5,7 +5,7 @@ permalink: /debug-adapter-kit/
 page_id: product-debug-adapter-kit
 ---
 
-{% buy_online http://www.seeedstudio.com/Crazyflie-20-debug-adapter-kit-p-2114.html %}
+{% buy_online https://store.bitcraze.io/collections/accessories/products/debug-adapter %}
 
 {% product_img Debug adapter kit; medium;
 /images/debug-adapter/DebugerAdapterMounted.png;

@@ -5,7 +5,7 @@ permalink: /battery-charger-500mA/
 page_id: battery-charger-500mA
 ---
 
-{% buy_online https://www.seeedstudio.com/item_detail.html?p_id=2657 %}
+{% buy_online https://store.bitcraze.io/collections/accessories/products/500ma-lipo-usb-charger %}
 
 {% product_img Battery charger; medium;
 /images/battery-charger/batt-chg-proto.jpg;

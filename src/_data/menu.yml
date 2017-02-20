@@ -22,7 +22,7 @@
 
 - title: Buy
   subs:
-  - {title: Buy online, url: "http://www.seeedstudio.com/item_list.html?category=108"}
+  - {title: Buy online, url: "https://store.bitcraze.io/"}
   - {page_id: buy-distributors}
   - {page_id: buy-guide}
 

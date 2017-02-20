@@ -5,7 +5,7 @@ permalink: /qi-charger-deck/
 page_id: product-qi-charger
 ---
 
-{% buy_online http://www.seeedstudio.com/Crazyflie-20-Qi-inductive-charging-expansion-board-p-2112.html %}
+{% buy_online https://store.bitcraze.io/collections/decks/products/qi-wireless-charging-deck %}
 
 {% product_img Qi charger deck; medium;
 /images/qi-charger/qi-charger-deck-front.jpg;

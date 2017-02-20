@@ -5,7 +5,7 @@ permalink: /buzzer-deck/
 page_id: product-buzzer-deck
 ---
 
-{% buy_online http://www.seeedstudio.com/Crazyflie-20-Buzzer-deck-p-2619.html %}
+{% buy_online https://store.bitcraze.io/collections/decks/products/buzzer-deck %}
 
 {% product_img Buzzer deck; medium;
 /images/buzzer-deck/buzzer-deck-1.jpg;

@@ -5,7 +5,7 @@ permalink: /prototyping-deck/
 page_id: product-prototyping-deck
 ---
 
-{% buy_online http://www.seeedstudio.com/Crazyflie-20-Prototyping-expansion-board-p-2111.html %}
+{% buy_online https://store.bitcraze.io/collections/decks/products/prototyping-deck %}
 
 {% product_img Prototyping deck; medium;
 /images/prototyping-deck/PrototypingDeckInAction.png;

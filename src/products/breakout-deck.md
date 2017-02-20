@@ -5,7 +5,7 @@ permalink: /breakout-deck/
 page_id: product-breakout-deck
 ---
 
-{% buy_online http://www.seeedstudio.com/Crazyflie-20-Breakout-expansion-board-p-2108.html %}
+{% buy_online https://store.bitcraze.io/collections/decks/products/breakout-deck %}
 
 {% product_img Breakout deck; medium;
 /images/breakout-deck/BreakOutMounted2.png;

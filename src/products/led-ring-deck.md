@@ -5,7 +5,7 @@ permalink: /led-ring-deck/
 page_id: product-led-ring-deck
 ---
 
-{% buy_online http://www.seeedstudio.com/Crazyflie-20-LEDring-expansion-board-p-2105.html %}
+{% buy_online https://store.bitcraze.io/collections/decks/products/led-ring-deck %}
 
 {% product_img LED-ring deck; medium;
 /images/led-ring/ledring-side.jpg;
