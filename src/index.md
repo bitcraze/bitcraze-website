@@ -106,6 +106,7 @@ portallink="/diy/"
         {% used_by_logo Polytechnique Montreal; images/logos/polymtl.png; http://www.polymtl.ca/en %}
         {% used_by_logo McGill University; images/logos/mcgill.svg; https://www.mcgill.ca/ %}
         {% used_by_logo Bosch Sensortec; images/logos/bosch.png; https://www.bosch-sensortec.com/ %}
+        {% used_by_logo Invensense; images/logos/invensense.png; https://www.invensense.com/ %}
       </div>
       <div class="row content-area">
         <div class="col-md-12"><p class="text-right">Is your organization missing? <a href="https://github.com/bitcraze/bitcraze-website/edit/master/src/{{page.path}}"><i class="fa fa-pencil"></i> &nbsp;Improve this page</a></p>
