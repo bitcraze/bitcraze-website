@@ -71,8 +71,8 @@ by limited APIs or closed software. Never.
 [Video1](https://www.youtube.com/watch?v=CP-fBvcUAls)
 [Video2](https://www.youtube.com/watch?v=N_B6Fs9U_go)
 
-* **"Crazyswarm: A Large Nano-Quadcopter Swarm (Extended Abstract)"**, J. A. Preiss, W. Hönig, G. S. Sukhatme, and N. Ayanian, IROS (Late Breaking), 2016.
-[PDF](http://usc-actlab.github.io/publications/Preiss_IROSLateBreaking2016.pdf)
+* **"Crazyswarm: A Large Nano-Quadcopter Swarm"**, James A. Preiss, Wolfgang Honig, Gaurav S. Sukhatme and Nora Ayanian, in Proc. IEEE International Conference on Robotics and Automation, 2017.
+[PDF](http://usc-actlab.github.io/publications/Preiss_ICRA2017.pdf)
 [Video](https://youtu.be/ezTayb76x9U)
 
 * **"A Hybrid Method for Online Trajectory Planning of Mobile Robots in Cluttered Environments"**, 
