@@ -30,7 +30,21 @@ page_id: home
 </div>
 
 
-{% include index-portal-left.html portalheader="Used in research" portalimg="/images/frontpage/front-page-portal-pic-2.jpg" portaltext="
+{% include index-portal-left.html portalheader="DIY" portalimg="/images/frontpage/front-page-portal-pic-4.jpg"
+portaltext="Love to fly? Like to tinker with toys? Want to modify and explore? Hate limitations and closed
+systems? The Crazyflie is for you!
+
+Add decks for light and sound effects, or why not build your own deck? Create a
+skin to make it look like your favourite flying creature or add a camera and
+do First Person View (FPV) flying. Use the Crazyflie on a bigger quadcopter frame and build
+the optimal drone, tailored to your needs."
+
+portalexample="Example applications: flying for fun, FPV racing, flying art, application skinning and exploring quadcopters"
+
+portallink="/diy/"
+%}
+
+{% include index-portal-right.html portalheader="Used in research" portalimg="/images/frontpage/front-page-portal-pic-2.jpg" portaltext="
 The Crazyflie is ideal for many areas of research. The source code and hardware
 is open, making it possible to tap into any
 part of the system for complete control and full flexibility. New hardware or sensors can be added
@@ -45,18 +59,17 @@ environment scanning"
 portallink="/research/"
 %}
 
-{% include index-portal-right.html portalheader="Used in education" portalimg="/images/frontpage/front-page-portal-pic-3.jpg" portaltext="
+{% include index-portal-left.html portalheader="Used in education" portalimg="/images/frontpage/front-page-portal-pic-3.jpg" portaltext="
 The popularity of quadcopters makes the Crazyflie a perfect tool for higher education.
 The source code is open making it easy to investigate or modify any part of the system,
 giving the students a direct connection from theory to the real world."
 
-portalexample="Examples areas: realtime systems, automatic control and signal processing"
+portalexample="Example areas: realtime systems, automatic control and signal processing"
 
 portallink="/education/"
-
 %}
 
-{% include index-portal-left.html portalheader="Used in development" portalimg="/images/frontpage/front-page-portal-pic-1.jpg" portaltext="
+{% include index-portal-right.html portalheader="Used in development" portalimg="/images/frontpage/front-page-portal-pic-1.jpg" portaltext="
 Prototype your flying application in the comfort of your lab and usual development
 environment on a small and handy Crazyflie. Add sensors and other hardware as needed
 through the expansion ports. When everything is tested and working as expected,
@@ -68,19 +81,15 @@ portalexample="Examples: remote control, sensor integration, autonomous flight"
 portallink="/development/"
 %}
 
-{% include index-portal-right.html portalheader="DIY" portalimg="/images/frontpage/front-page-portal-pic-4.jpg"
-portaltext="Love to fly? Like to tinker with toys? Want to modify and explore? Hate limitations and closed
-systems? The Crazyflie is for you!
-
-Add decks for light and sound effects, or why not build your own deck? Create a
-skin to make it look like your favourite flying creature or add a camera and
-do First Person View (FPV) flying. Use the Crazyflie on a bigger quadcopter frame and build
-the optimal drone, tailored to your needs."
-
-portalexample="Example applications: flying for fun, FPV racing, flying art, application skinning and exploring quadcopters"
-
-portallink="/diy/"
+{% include index-portal-left.html portalheader="Used by the industry" portalimg="/images/frontpage/Industry-portal-400px.JPG" portaltext="
+The posibility to add expansion decks in combination with the open source 
+firmware/software makes the Crazyflie the perfect platform for sensor manufacturers 
+to demonstrate the performance of sensors as well as a base for evaluation or reference boards.
+"
+portalexample="Examples areas: demonstrator and evaluation boards for sensors"
+portallink="/industry/"
 %}
+
 
 
 <div class="container-fluid used-by-section">
