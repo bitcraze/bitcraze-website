@@ -9,8 +9,8 @@ set -e
 scriptDir=$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )
 rootDir=$scriptDir/..
 
-# On OSX and Windows we need to poll the file system
-if [ "$(uname)" == "Linux" ]; then
+# On Windows we need to poll the file system
+if [ "$(uname)" == "Linux" -o "$(uname)" == "Darwin" ]; then
   extra_args=""
 else
   extra_args="--force_polling"
