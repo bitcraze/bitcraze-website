@@ -5,7 +5,7 @@ permalink: /diy/
 page_id: diy
 ---
 
-{% img education header; wide; /images/portals/portal-diy-header.jpg %}
+{% img Paper dragon shell; wide; /images/portals/portal-diy-header.jpg %}
 
 ## Love to fly? Want to modify and explore? Hate limitations and closed systems? The Crazyflie is for you!
 ------

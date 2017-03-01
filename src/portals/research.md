@@ -1,11 +1,11 @@
 ---
 layout: page-portal
-title: Research
+title: Used in research
 permalink: /research/
 page_id: research
 ---
 
-{% img research header; wide; /images/portals/portal-research-header.jpg %}
+{% img Flight lab; wide; /images/portals/portal-research-header.jpg %}
 
 ## The Crazyflie is ideal for many areas of research
 ---

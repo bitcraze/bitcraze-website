@@ -1,11 +1,11 @@
 ---
 layout: page-portal
-title: Development
+title: Used in development
 permalink: /development/
 page_id: development
 ---
 
-{% img Dev board; wide; /images/portals/portal-development-header.jpg %}
+{% img Crazyflie in development environment; wide; /images/portals/portal-development-header.jpg %}
 
 ## The Crazyflie is the perfect development tool for your flying application 
 ------

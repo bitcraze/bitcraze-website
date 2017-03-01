@@ -1,11 +1,11 @@
 ---
 layout: page-portal
-title: Education
+title: Used in education
 permalink: /education/
 page_id: education
 ---
 
-{% img education header; wide; /images/portals/education/portal-education-header.jpg %}
+{% img Lecture; wide; /images/portals/education/portal-education-header.jpg %}
 
 ## Bring the latest in robotics to your students 
 ------
