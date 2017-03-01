@@ -1,13 +1,13 @@
 ---
 layout: page
-title: Theses
-permalink: /theses/
-page_id: theses
+title: Thesis
+permalink: /thesis/
+page_id: thesis
 ---
 
-Are you about to do your bachelor or master theses work? Interested in collaborating
+Are you about to do your bachelor or master thesis work? Interested in collaborating
 with us at Bitcraze? On this page we list a few possible subjects that you might
-find interesting or that might give you new ideas. Don't hesitate to contact us
+find interesting or that may give you new ideas. Don't hesitate to contact us
 at <a href="mailto:contact@bitcraze.io">contact@bitcraze.io</a> to discuss what 
 you want to do.
 
@@ -19,7 +19,7 @@ processing. Possible to combine with vision algorithms like Slam or communicatio
 theory to find ways to transfer images/video over the limited radio bandwith
 that is available.
 
-Electronics, firmware, signal processing
+***Electronics, firmware, signal processing***
 
 ### Support for swarming
  
@@ -28,7 +28,7 @@ problems. How do you find a specific copter out of 100? Which batteries need
 to be recharged? How do you recharge 100 
 batteries? What is the health of the hardware? 
 
-Mechanics, electronics, software
+***Mechanics, electronics, software***
 
 ### Safe research quad
 
@@ -38,7 +38,7 @@ the lifting capacity is only 27g which is on the low side in some applications.
 Look at how the lifting capacity can be increased while keeping it safe. 
 The solution could be hardware, software, mechanics or a combination. 
 
-Electronics, software, mechanics
+***Electronics, software, mechanics***
 
 ### Communication with big swarm
 
@@ -46,7 +46,7 @@ Find ways to communicate with 100+ Crazyflies. Look at radio communication,
 protocols, handling of packet/data loss, secure communication to prevent hostile
 takeover of a swarm and related issues.
 
-Radio, software
+***Radio, software***
 
 ### Failsafe/recovery handling
 
@@ -58,4 +58,4 @@ or do a controlled landing.
 This could also be extended to managing situation when hardware (a motor) is
 failing.  
 
-Signal processing, control theory, software
+***Signal processing, control theory, software***
