@@ -5,7 +5,7 @@ permalink: /industry/
 page_id: industry
 ---
 
-{% img Evaluation and reference platform; wide; \images\portals\portal-industry-header.JPG %}
+{% img Evaluation and reference platform; wide; /images/portals/portal-industry-header.JPG %}
 
 ## Use the Crazyflie as an evaluation and reference platform
 ------
