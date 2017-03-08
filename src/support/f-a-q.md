@@ -21,7 +21,7 @@ Yes, you can hot swap batteries.
 Yes, as long as it is not too heavy, it is a single cell (3.7V), it fits and the polarity is correct you can do so. A higher capacity battery will give you longer flight times but will also decrease agility. We recommend batteries with at least 15C continuous discharge rate.
 {% endcollapse_section %}
 
-{% collapse_section What radio is used for with the Crazyflie 2.0? %}
+{% collapse_section What radio is used with the Crazyflie 2.0? %}
 The Crazyflie 2.0 can be controlled with the Crazyradio or Crazyradio PA from a PC or with a mobile device using Bluetooth Low Energy.
 {% endcollapse_section %}
 
@@ -33,7 +33,7 @@ Here is a list of requirements for the mobile device:
 * Runs iOS 7.1 or newer
 
 Since Android is available on many different devices, it is not certain it works even though it fulfills the requirements above. We have therefore created a [list of devices](https://wiki.bitcraze.io/doc:crazyflie:client:cfandroid:index#android_device_compatibility)
-it has been tested on. 
+it has been tested on.
 {% endcollapse_section %}
 
 {% collapse_section What is the range of the Crazyradio? %}
@@ -72,25 +72,18 @@ There is ongoing development in this area:
 {% endcollapse_section %}
 
 {% collapse_section Can the Crazyflie 2.0 fly autonomously? %}
-Crazyflie 2.0 does not have enough sensors to locate itself in the environment. Though with an external location system Crazyflie 2.0 has been successfully flown autonomously. Outdoors Crazyflie can use a GPS receiver to achieve autonomous flight. A deck is in development so stay tuned on our website for more information about it.
+Crazyflie 2.0 does not have enough sensors to locate itself in the environment as is, but with an external location system it has been successfully flown autonomously. Outdoors Crazyflie can use a GPS receiver to achieve autonomous flight but indoors some other positioning system is required.
 
-Researchers use motion capture system, like [Vicon](http://www.vicon.com/), to fly the Crazyflie autonomously, usually controlling it from an outside computer. For example this research from MIT is using such a system together with a powerful control algorithm: <https://www.youtube.com/watch?v=v-s564NoAu0>
+Bitcraze is manufacturing a radio based local positioning system called the [Loco Positioning system](/loco-pos-system/) that allows the Crazyflie 2.0 to fly autonomously in a room. Find out more on the [product page](/loco-pos-system/).
 
-We have been using camera systems like the Microsoft Kinect to achieve autonomous flight just on top of the camera:  <https://www.bitcraze.io/2015/05/autonomous-flight-using-kinect2-for-position-control/>
+Researchers often use motion capture systems, like [Vicon](http://www.vicon.com/), to fly the Crazyflie autonomously, usually controlling it from an outside computer. For example this research from MIT is using such a system together with a powerful control algorithm: <https://www.youtube.com/watch?v=v-s564NoAu0>
 
-We are currently developing a local positioning system that allows the Crazyflie 2.0 to fly autonomously in a room without requiring an expensive motion capture system. Read about the [Loco Positioning system](/loco-pos-system/) to find out more.
-
+We have been using camera systems like the Microsoft Kinect to achieve autonomous flight above the camera:  <https://www.bitcraze.io/2015/05/autonomous-flight-using-kinect2-for-position-control/>
 {% endcollapse_section %}
 
 {% collapse_section Is it possible to control a swarm of Crazyflies? %}
-Yes, it is possible to control multiple Crazyflie at the same time. The best way to do so right now is to use ROS and the ROS driver:
-[ROS integration for Crazyflie](http://wiki.ros.org/crazyflie)
-
-Here is an example launch file to connect and control multiple Crazyflies:
-[crazyflie_ros](https://github.com/whoenig/crazyflie_ros/blob/master/crazyflie_demo/launch/multi_hover_vicon.launch)
-
-For example this video was made using this ROS driver: 
-[Crazyflie 2.0 Swarm](https://www.youtube.com/watch?v=gH1Fcf597So)
+Yes, it is possible to control multiple Crazyflies simultaneously. It can be done with the Loco Positioning system and our [python library](https://github.com/bitcraze/crazyflie-lib-python/blob/master/examples/swarmSequence.py) or using [ROS and the ROS driver.](http://wiki.ros.org/crazyflie) For example this video was made using the ROS driver:
+[Crazyflie 2.0 Swarm](https://www.youtube.com/watch?v=ezTayb76x9U)
 {% endcollapse_section %}
 
 
