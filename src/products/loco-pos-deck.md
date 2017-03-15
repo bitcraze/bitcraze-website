@@ -8,10 +8,9 @@ page_id: product-loco-pos-deck
 {% buy_online https://store.bitcraze.io/collections/positioning/products/loco-positioning-deck %}
 
 {% product_img Loco Positioning deck; medium;
-/images/loco-pos-deck/Loco-positioning-deck-400px-Early-access-1.jpg;
-/images/loco-pos-deck/Loco-positioning-deck-400px-Early-access-2.jpg;
-/images/loco-pos-deck/Loco-positioning-deck-400px-Early-access-3.jpg
+/images/loco-pos-deck/Loco-positioning-deck-400px-Early-access-1.jpg
 %}
+
 
 {% product_highlight
 fa-map-marker;
@@ -31,45 +30,29 @@ This product is intended to be used together with
 
 ---
 
-{% collapse_section Features %}
-* Measures distances to Loco Positioning Node Anchors
-* 4 status LEDs
-{% endcollapse_section %}
 
-{% collapse_section Specifications %}
-##### Electrical specification:
+#### Resources
 
-* Based on the Decawave DWM1000 module
-* Implements IEEE 802.15.4 UWB
-* 1-wire memory for automatic expansion deck detection
-
-##### Ranging specification:
-
-* Ranging accuracy ±10 cm
-
-##### Radio specification:
-
-* Operates at 3.2 - 7 GHz
-* Channel bandwith 500 MHz
-
-##### Mechanical specification:
-
-* Weight: 3.3 g
-* Size (WxHxD): 28x35x4 mm
-* Designed for mounting above or under the Crazyflie 2.0
-
-##### Compatibility:
-
-* Works with the Crazyflie 2.0 and the Loco Positioning Nodes
-
-##### Package contents:
-
-* 1 x Loco Positioning deck
-
-{% endcollapse_section %}
+- [Loco positioning system](/loco-pos-system/)
+- [Start here](/start/)
+- [Buyers guide](/crazyflie-2-0-buyers-guide/)
+- [Development](/development-overview/)
+- [FAQ](/frequently-asked-questions-Crazyflie-2.0/)
+- [Getting help](/getting-help/)
+- [Wiki](https://wiki.bitcraze.io/projects:lps:deck)
+- [Specifications](https://store.bitcraze.io/collections/decks/products/loco-positioning-deck)
 
 ---
 
+
+#### Tutorials
+
+{% youtube ZgH4bLZdq2A; medium; 16by9 %}
+
 [Getting started with expansion decks](/getting-started-with-expansion-decks/)
+
+
+
+---
 
 {% include early-access-info.html %}
