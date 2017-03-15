@@ -8,11 +8,7 @@ page_id: product-crazyflie-2
 {% buy_online https://store.bitcraze.io/collections/kits/products/crazyflie-2-0 %}
 
 {% product_img Crazyflie 2.0; medium;
-/images/crazyflie.png;
-/images/CrazyFlieHand.png
-
-
-
+/images/Crazyflie2.0/CF-1000px.JPG
 %}
 
 {% product_highlight
@@ -161,103 +157,18 @@ it's a breeze to update.
 
 ---
 
-{% collapse_section Features %}
-* Durable design
-* Easy to assemble and no soldering required
-* Supports expansion boards with automatic detection
-* Supports flying from iOS and Android with Bluetooth LE, as well as from Windows/Mac OSX/Linux with the Crazyradio or Crazyradio PA
-* Tested to further than 1 km radio range line-of-sight (LOS) with the Crazyradio PA
-* Wireless firmware updates
-* On-board charging via standard uUSB
-* Dual-MCU architecture with dedicated radio/power management SoC for advanced applications
-* Real-time logging, graphing and variable setting in addition to full use of expansion boards when using a Crazyradio or Crazyradio PA and a computer
-{% endcollapse_section %}
+#### Resources
 
-{% collapse_section Specification %}
-#####  Mechanical specs
+- [Start here](/start/)
+- [Buyers guide](/crazyflie-2-0-buyers-guide/)
+- [Development](/development-overview/)
+- [FAQ](/frequently-asked-questions-Crazyflie-2.0/)
+- [Getting help](/getting-help/)
+- [Wiki](https://wiki.bitcraze.io/projects:crazyflie2:index)
+- [Specifications](https://store.bitcraze.io/products/crazyflie-2-0)
 
-* Weight: 27g
-* Size (WxHxD): 92x92x29mm (motor-to-motor and including motor mount feet)
+---
 
-##### Radio specs
+#### Tutorials
 
-* 20 dBm radio amplifier tested to &gt; 1 km range LOS with Crazyradio PA
-* Bluetooth Low Energy support with iOS and Android clients available (tested on iOS 7.1+ and Android 4.4+)
-* Radio backwards compatible with original Crazyflie Nano and Crazyradio
-
-#####  Microcontrollers
-
-* STM32F405 main application MCU (Cortex-M4, 168MHz, 192kb SRAM, 1Mb flash)
-* nRF51822 radio and power management MCU (Cortex-M0, 32Mhz, 16kb SRAM, 128kb flash)
-* uUSB connector
-* On-board LiPo charger with 100mA, 500mA and 980mA modes available
-* Full speed USB device interface
-* Partial USB OTG capability (USB OTG present but no 5V output)
-
-##### IMU
-
-* 3 axis gyro (MPU-9250)
-* 3 axis accelerometer (MPU-9250)
-* 3 axis magnetometer (MPU-9250)
-* high precision pressure sensor (LPS25H)
-
-##### Flight specification
-
-* Flight time with stock battery: 7 minutes
-* Charging time with stock battery: 40 minutes
-* Max recommended payload weight: 15 g
-
-##### Supported clients/controllers
-
-* Win/Linux/OSX python client
-  * The gamepads used by the Xbox 360 and the Playstation 3 are used as reference controllers
-  * Any gamepad/controller with at least 4 analog axes
-* Android mobile device
-* iOS mobile device
-
-##### Expansion connector
-
-* VCC (3.0V, max 100mA)
-* GND
-* VCOM (unregulated VBAT or VUSB, max 1A)
-* VUSB (both for input and output)
-* I2C (400kHz)
-* SPI
-* 2 x UART
-* 4 x GPIO/CS for SPI
-* 1-wire bus for expansion identification
-* 2 x GPIO connected to nRF51
-* 8KB EEPROM
-{% endcollapse_section %}
-
-{% collapse_section Package Contents %}
-
-* 1 x Crazyflie 2.0 control board with all components mounted
-* 5 x CW propellers
-* 5 x CCW propellers
-* 5 x Motor mounts
-* 1 x LiPo battery (240mAh)
-* 5 x Coreless DC motors
-* 2 x Short expansion connector pins (1&#215;10, 2mm spacing, 8 mm long)
-* 2 x Long expansion connector pins (1&#215;10, 2mm spacing, 14 mm long)
-* 1 x Battery holder expansion board
-
-{% endcollapse_section %}
-
-{% collapse_section Spare parts %}
-
-* [Propellers](https://store.bitcraze.io/collections/spare-parts-crazyflie-2-0/products/propeller-pack)
-* [LiPo battery (240mAh)](https://store.bitcraze.io/collections/spare-parts-crazyflie-2-0/products/240mah-lipo-battery-including-500ma-usb-charger)
-* [Coreless DC motor](https://store.bitcraze.io/collections/spare-parts-crazyflie-2-0/products/4-x-7-mm-dc-motor-pack-for-crazyflie-2)
-* [Motor mount](https://store.bitcraze.io/collections/spare-parts-crazyflie-2-0/products/crazyflie-2-0-4-x-spare-7-mm-motor-mounts)
-* [Battery holder expansion board](https://store.bitcraze.io/collections/spare-parts-crazyflie-2-0/products/battery-holder-deck)
-
-{% endcollapse_section %}
-
-{% collapse_section Resources %}
-
-* [Wiki](//wiki.bitcraze.io/)
-* [Forum](//forum.bitcraze.io/)
-* [Getting started and Assembly instructions](/getting-started-with-the-crazyflie-2-0/)
-
-{% endcollapse_section %}
+[Getting started with the Crazyflie 2.0](/getting-started-with-the-crazyflie-2-0/)
