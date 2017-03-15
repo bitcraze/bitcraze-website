@@ -8,13 +8,7 @@ page_id: product-prototyping-deck
 {% buy_online https://store.bitcraze.io/collections/decks/products/prototyping-deck %}
 
 {% product_img Prototyping deck; medium;
-/images/prototyping-deck/PrototypingDeckInAction.png;
-/images/prototyping-deck/prototyping-deck.jpg;
-/images/prototyping-deck/PrototypingDeckTop.jpg;
-/images/prototyping-deck/PrototypingDeckBack.jpg
-
-
-
+/images/prototyping-deck/PrototypingDeckInAction.png
 %}
 
 {% product_highlight
@@ -25,40 +19,23 @@ Build your own expansion deck and add to your Crazyflie 2.0.
 
 Add a prototyping area to your Crazyflie 2.0 and lift your electronics
 into the air. Just solder directly on the expansion deck and plug it
-into the expansion port.
+into the expansion port. Maybe try to add a few LEDs or a new sensor to detect
+properties of the world around the Crazyflie?
 
 ---
 
-{% collapse_section Features %}
+#### Resources
 
-* Makes all 20 pins in the Crazyflie 2.0 expansion port available
-* 40 pads/holes for prototyping
-
-{% endcollapse_section %}
-
-{% collapse_section Specifications %}
-##### Electrical specification:
-
-* 40 pads for prototyping
-* Soldering pads support both though hole and SMD components
-* SOT-23 footprint for 1-wire memory used for automatic detection (not mounted)
-
-##### Mechanical specification:
-
-* Weight: 1.5g
-* Size (WxHxD): 28x28x4mm
-* Designed for mounting under or on top of the Crazyflie 2.0
-
-##### Compatibility:
-
-* Works with the Crazyflie 2.0
-
-##### Package contents:
-
-* 1 x Prototyping expansion deck
-
-{% endcollapse_section %}
+- [Start here](/start/)
+- [Buyers guide](/crazyflie-2-0-buyers-guide/)
+- [Development](/development-overview/)
+- [FAQ](/frequently-asked-questions-Crazyflie-2.0/)
+- [Getting help](/getting-help/)
+- [Wiki](https://wiki.bitcraze.io/projects:crazyflie2:expansionboards:proto)
+- [Specifications](https://store.bitcraze.io/products/prototyping-deck)
 
 ---
 
-[Getting started with expansion decks](/getting-started-with-expansion-decks/)
+#### Tutorials
+
+[Getting started with expansion deck](/getting-started-with-expansion-decks/)
