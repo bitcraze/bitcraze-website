@@ -45,4 +45,4 @@ facing downwards.
 
 #### Tutorials
 
-[Getting started with expansion deck](/getting-started-with-expansion-decks/)
+[Getting started with expansion decks](/getting-started-with-expansion-decks/)
