@@ -2,7 +2,7 @@
 layout: page-product
 title: Battery charger
 permalink: /battery-charger-500mA/
-page_id: battery-charger-500mA
+page_id: product-battery-charger-500mA
 ---
 
 {% buy_online https://store.bitcraze.io/collections/accessories/products/500ma-lipo-usb-charger %}
