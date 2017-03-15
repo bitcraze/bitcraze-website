@@ -8,9 +8,7 @@ page_id: product-sd-card-deck
 {% buy_online https://store.bitcraze.io/collections/decks/products/sd-card-deck %}
 
 {% product_img Micro SD card deck; medium;
-/images/sd-card-deck/SD-deck-400px-3.JPG;
-/images/sd-card-deck/SD-deck-400px-1.JPG;
-/images/sd-card-deck/SD-deck-400px-2.JPG
+/images/sd-card-deck/SD-deck-400px-3.JPG
 %}
 
 {% product_highlight
@@ -29,34 +27,18 @@ of them.
 
 ---
 
-{% collapse_section Features %}
-* Micro SD card reader
-* Support for FAT file system in the Crazyflie 2.0 firmware
-* Automatic detection of expansion deck
-{% endcollapse_section %}
+#### Resources
 
-{% collapse_section Specifications %}
-##### Electrical specification:
-
-* Standard Micro SD card reader
-* 1-wire memory for automatic expansion deck detection
-
-##### Mechanical specification:
-
-* Weight: 1.7g
-* Size (WxHxD): 21x28x4mm
-* Designed for mounting above or under the Crazyflie 2.0
-
-##### Compatibility:
-
-* Works with the Crazyflie 2.0
-
-##### Package contents:
-
-* 1 x SD-card expansion deck
-
-{% endcollapse_section %}
+- [Start here](/start/)
+- [Buyers guide](/crazyflie-2-0-buyers-guide/)
+- [Development](/development-overview/)
+- [FAQ](/frequently-asked-questions-Crazyflie-2.0/)
+- [Getting help](/getting-help/)
+- [Wiki](https://wiki.bitcraze.io/projects:crazyflie2:expansionboards:microsd)
+- [Specifications](https://store.bitcraze.io/products/sd-card-deck)
 
 ---
 
-[Getting started with expansion decks](/getting-started-with-expansion-decks/)
+#### Tutorials
+
+[Getting started with expansion deck](/getting-started-with-expansion-decks/)
