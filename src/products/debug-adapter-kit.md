@@ -8,10 +8,7 @@ page_id: product-debug-adapter-kit
 {% buy_online https://store.bitcraze.io/collections/accessories/products/debug-adapter %}
 
 {% product_img Debug adapter kit; medium;
-/images/debug-adapter/DebugerAdapterMounted.png;
-/images/debug-adapter/DebugAdapterSide.jpg;
-/images/debug-adapter/DebugAdapterTop.jpg;
-/images/debug-adapter/DebugAdapterBottom.jpg
+/images/debug-adapter/DebugerAdapterMounted.png
 %}
 
 {% product_highlight
@@ -21,35 +18,27 @@ Connect a standard JTAG and SWD debugger to the Crazyflie 2.0.
 %}
 
 One of our goals is to make development with the Crazyflie 2.0 as easy
-as possible. But due to the platforms small size there are limitations
-in what connectors we can have. Therefore we designed a debug-adapter
+as possible. Due to the small size of the platform there are limitations
+in what connectors we can have and therefore we designed a debug-adapter
 kit that makes connecting a debugger to either of the MCUs a lot
 easier, by converting the connector pinouts to standard JTAG and SWD
 pinouts.
 
 ---
 
-{% collapse_section Features %}
-* Includes everything needed to easily debug the MCUs (STM32F4 and nRF51)
-* Multiple debug pinouts supported
-* Reset button with jumper for reset of either STM32F4 and nRF51
-{% endcollapse_section %}
+#### Resources
 
-{% collapse_section Specifications %}
-##### Supported debugger pinouts
+- [Start here](/start/)
+- [Buyers guide](/crazyflie-2-0-buyers-guide/)
+- [Development](/development-overview/)
+- [FAQ](/frequently-asked-questions-Crazyflie-2.0/)
+- [Getting help](/getting-help/)
+- [Wiki](https://wiki.bitcraze.io/projects:crazyflie2:debugadapter:index)
+- [Specifications](https://store.bitcraze.io/products/debug-adapter)
 
-* Custom pinout that matches ST Discovery board debug interfaces
-* Standard Cortex SWV debug 2 x 6 1.27mm (50mil) SWV interface
-* Standard 2 x 10 2.54mm (100mil) JTAG interface
+---
 
-##### Compatibility
+#### Tutorials
 
-* Works with the Crazyflie 2.0
+[Getting started with development](/getting-started-with-development/)
 
-##### Package contents
-
-* 1 x Crazyflie 2.0 debug adapter
-* 1 x nRF51 debug connector
-* 1 x Nylon screw and nut for nRF51 debug connector
-* 1 x 6-pin debug cable for connecting to the Crazyflie 2.0
-{% endcollapse_section %}
