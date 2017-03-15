@@ -8,10 +8,7 @@ page_id: product-led-ring-deck
 {% buy_online https://store.bitcraze.io/collections/decks/products/led-ring-deck %}
 
 {% product_img LED-ring deck; medium;
-/images/led-ring/ledring-side.jpg;
-/images/led-ring/led-ring.jpg;
-/images/led-ring/led-ringBack.jpg;
-/images/led-ring/led-ring-dark.png
+/images/led-ring/ledring-side.jpg
 %}
 
 {% product_highlight
@@ -25,40 +22,27 @@ create custom patterns in firmware that you control from your computer.
 Two additional strong front facing LEDs can be switched on and off to
 act as headlights.
 
----
-
-{% collapse_section Features %}
-* Stable light independent of battery voltage
-* 12 RGB LEDs facing downwards in ring configuration
-* The RGB LEDs can be controlled individually
-* 2 super strong white LEDs facing forward
-* Automatic detection of expansion deck
-{% endcollapse_section %}
-
-{% collapse_section Specifications %}
-##### Electrical specification:
-
-* DC-DC step-up/down gives up to 1A at 3.8V from input between 2-5.5V
-* 12 independently addressable RGB LED modules, W2812B
-* 2 white LEDs facing forward, emitting more than 1800 mcd
-* 1-wire memory for automatic expansion deck detection
-
-##### Mechanical specification:
-
-* Weight: 3.3g
-* Size (WxHxD): 33x33x5.5mm
-* Designed for mounting under the Crazyflie 2.0 facing downwards
-
-##### Compatibility:
-
-* Works with the Crazyflie 2.0
-
-##### Package contents:
-
-* 1 x LED-ring expansion deck
-
-{% endcollapse_section %}
+The color and light sequence of the LED-ring can be controlled from your client 
+while in flight. Why not show starboard/port with red and green colors or paint 
+with light in the dark?
+  
+The LED-ring expansion deck is designed for mounting under the Crazyflie 2.0 
+facing downwards.
 
 ---
 
-[Getting started with expansion decks](/getting-started-with-expansion-decks/)
+#### Resources
+
+- [Start here](/start/)
+- [Buyers guide](/crazyflie-2-0-buyers-guide/)
+- [Development](/development-overview/)
+- [FAQ](/frequently-asked-questions-Crazyflie-2.0/)
+- [Getting help](/getting-help/)
+- [Wiki](https://wiki.bitcraze.io/projects:crazyflie2:expansionboards:ledring)
+- [Specifications](https://store.bitcraze.io/products/led-ring-deck)
+
+---
+
+#### Tutorials
+
+[Getting started with expansion deck](/getting-started-with-expansion-decks/)
