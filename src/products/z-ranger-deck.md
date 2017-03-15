@@ -5,7 +5,7 @@ permalink: /z-ranger-deck/
 page_id: product-z-ranger-deck
 ---
 
-{% buy_online https://store.bitcraze.io/collections/decks/products/buzzer-deck %}
+{% buy_online https://store.bitcraze.io/products/z-ranger-deck %}
 
 {% product_img Z-ranger deck; medium;
 /images/buzzer-deck/buzzer-deck-4.jpg
@@ -17,7 +17,13 @@ Laser ranging;
 Adds the possibility to fly with precise height control.
 %}
 
-Using the time-of-flight sensor VL53L0x the Crazyflie 2.0 can measure the distance from the sensor to a ground object at up two 2 meters.
+The Z-ranger deck uses a laser sensor to measure the distance to the ground. 
+The deck enables the Crazyflie to automatically maintain a constant distance to the 
+objects under it when flying in automatic mode. Over a floor it will stay on the 
+same height, but will follow the flow of a stair case up or down when going on 
+adventures. 
+
+The maximum range for the ranger is 2 meters.
 
 ---
 
@@ -29,7 +35,7 @@ Using the time-of-flight sensor VL53L0x the Crazyflie 2.0 can measure the distan
 - [FAQ](/frequently-asked-questions-Crazyflie-2.0/)
 - [Getting help](/getting-help/)
 - [Wiki](https://wiki.bitcraze.io/projects:crazyflie2:expansionboards:zranger)
-- [Specifications](//)
+- [Specifications](https://store.bitcraze.io/products/z-ranger-deck)
 
 ---
 
