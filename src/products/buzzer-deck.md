@@ -8,10 +8,7 @@ page_id: product-buzzer-deck
 {% buy_online https://store.bitcraze.io/collections/decks/products/buzzer-deck %}
 
 {% product_img Buzzer deck; medium;
-/images/buzzer-deck/buzzer-deck-1.jpg;
-/images/buzzer-deck/buzzer-deck-2.jpg;
-/images/buzzer-deck/buzzer-deck-3.jpg;
-/images/buzzer-deck/buzzer-deck-4.jpg
+/images/buzzer-deck/buzzer-deck-1.jpg
 %}
 
 {% product_highlight
@@ -28,33 +25,18 @@ melodies pre-programmed that you can use.
 
 ---
 
-{% collapse_section Features %}
-* Low profile piezo buzzer for tone and melody generation
-* Automatic detection of deck
-{% endcollapse_section %}
+#### Resources
 
-{% collapse_section Specifications %}
-##### Electrical specification:
-
-* Based on the [CMT-1203-SMT](http://www.cui.com/product/resource/cmt-1203-smt.pdf)
-* 1-wire memory for automatic deck detection
-
-##### Mechanical specification:
-
-* Weight: 1.8g
-* Size (WxHxD): 25x27x4mm
-* Designed for mounting above or under the Crazyflie 2.0
-
-##### Compatibility:
-
-* Works with the Crazyflie 2.0
-
-##### Package contents:
-
-* 1 x Buzzer deck
-
-{% endcollapse_section %}
+- [Start here](/start/)
+- [Buyers guide](/crazyflie-2-0-buyers-guide/)
+- [Development](/development-overview/)
+- [FAQ](/frequently-asked-questions-Crazyflie-2.0/)
+- [Getting help](/getting-help/)
+- [Wiki](https://wiki.bitcraze.io/projects:crazyflie2:expansionboards:buzzer)
+- [Specifications](https://store.bitcraze.io/products/buzzer-deck)
 
 ---
 
-[Getting started with the Buzzer deck](/getting-started-with-buzzer-deck/)
+#### Tutorials
+
+[Getting started with expansion deck](/getting-started-with-expansion-decks/)
