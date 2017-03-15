@@ -17,7 +17,8 @@
   - {page_id: product-prototyping-deck}
   - {page_id: product-breakout-deck}
   - {page_id: product-debug-adapter-kit}
-  - {page_id: battery-charger-500mA}
+  - {page_id: product-battery-charger-500mA}
+  # - {page_id: product-z-ranger-deck}
   - {page_id: product-old}
 
 - title: Buy
