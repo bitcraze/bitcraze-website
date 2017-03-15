@@ -8,10 +8,7 @@ page_id: product-qi-charger
 {% buy_online https://store.bitcraze.io/collections/decks/products/qi-wireless-charging-deck %}
 
 {% product_img Qi charger deck; medium;
-/images/qi-charger/qi-charger-deck-front.jpg;
-/images/qi-charger/qi-charger-deck-top.jpg;
-/images/qi-charger/qi-charger-deck-back.jpg;
-/images/qi-charger/qi-charger-deck-mounted.png
+/images/qi-charger/qi-charger-deck-585px.jpg
 %}
 
 {% product_highlight
@@ -29,35 +26,17 @@ Crazyflie 2.0.
 
 ---
 
-{% collapse_section Features %}
-* Wireless charging
-* Automatic detection of expansion deck
-{% endcollapse_section %}
+#### Resources
 
-{% collapse_section Specifications %}
-##### Electrical specification:
-
-* Supports the Qi wireless charging standard WPC V1.1
-* Can supply up to 1A at 5V
-* Based on the TI BQ51013B
-* 1-wire memory for automatic expansion deck detection
-
-##### Mechanical specification:
-
-* Weight: 5.0g
-* Size (WxHxD): 30x30x5.5mm
-* Designed for mounting under the Crazyflie 2.0
-
-##### Compatibility:
-
-* Works with the Crazyflie 2.0
-
-##### Package contents:
-
-* 1 x Qi inductive charging expansion deck
-
-{% endcollapse_section %}
+- [Start here](/start/)
+- [Buyers guide](/crazyflie-2-0-buyers-guide/)
+- [FAQ](/frequently-asked-questions-Crazyflie-2.0/)
+- [Getting help](/getting-help/)
+- [Wiki](https://wiki.bitcraze.io/projects:crazyflie2:expansionboards:qi)
+- [Specifications](https://store.bitcraze.io/collections/decks/products/qi-wireless-charging-deck)
 
 ---
 
-[Getting started with expansion decks](/getting-started-with-expansion-decks/)
+#### Tutorials
+
+- [Getting started with expansion deck](/getting-started-with-expansion-decks/)
