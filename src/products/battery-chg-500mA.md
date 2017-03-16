@@ -8,7 +8,7 @@ page_id: product-battery-charger-500mA
 {% buy_online https://store.bitcraze.io/collections/accessories/products/500ma-lipo-usb-charger %}
 
 {% product_img Battery charger; medium;
-/images/battery-charger/batt-chg-proto.jpg
+/images/battery-charger/Charger-585px.JPG
 %}
 
 {% product_highlight

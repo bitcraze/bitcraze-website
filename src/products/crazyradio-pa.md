@@ -8,7 +8,7 @@ page_id: product-crazyradio-pa
 {% buy_online https://store.bitcraze.io/collections/kits/products/crazyradio-pa %}
 
 {% product_img Crazyradio PA; medium;
-/images/crazyradio-pa/Radio-PA-585px-4.jpg
+/images/crazyradio-pa/Radio-PA-585px.JPG
 %}
 
 {% product_highlight
@@ -52,4 +52,3 @@ range increase as with the Crazyflie 2.0.
 - [Specifications](https://store.bitcraze.io/products/crazyradio-pa)
 
 ---
-

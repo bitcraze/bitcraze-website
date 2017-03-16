@@ -8,7 +8,7 @@ page_id: product-debug-adapter-kit
 {% buy_online https://store.bitcraze.io/collections/accessories/products/debug-adapter %}
 
 {% product_img Debug adapter kit; medium;
-/images/debug-adapter/DebugerAdapterMounted.png
+/images/debug-adapter/Debug-adapter-kit-585px.JPG
 %}
 
 {% product_highlight
@@ -41,4 +41,3 @@ pinouts.
 #### Tutorials
 
 [Getting started with development](/getting-started-with-development/)
-
