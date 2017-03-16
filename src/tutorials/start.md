@@ -5,10 +5,14 @@ permalink: /start/
 page_id: getting-started-start
 ---
 
-## Congratulations to your new Crazyflie!
+## Let's get started!
 
-Start out by reading the [Getting started with the Crazyflie 2.0](/getting-started-with-the-crazyflie-2-0/) guide
-to see how to assemble the kit and take off for your first flight.
+If you just bought a Crazyflie 2.0 a good way to start is to head over to the
+[Getting started with the Crazyflie 2.0](/getting-started-with-the-crazyflie-2-0/) guide
+to see how to assemble the kit and take off for your first flight. If you want to add one of our many expansion decks to the Crazyflie 2.0 and need help getting started we have made a [Getting started with expansion decks](/getting-started-with-expansion-decks/) tutorial. Just follow the steps and you are ready to go.
+
+Just bought our Loco positioning system? Go to our [Loco Positioning system
+page](/loco-pos-system/) for more information and how to setup the system.
 
 We have collected all getting started guides in the Tutorials menu, this is the
 place to look for instructions.
@@ -17,14 +21,12 @@ place to look for instructions.
 
 When you are comfortable flying the Crazyflie you might feel that it is time for
 the next step, to make use of the flexibility of the platform. After all it is
-designed to be modified!
-
-Check out the [Getting started with development](/getting-started-with-development/)
-tutorial to set up your development environment, build your first custom firmware and
-download it to the copter. If you want to add one of our many expansion decks to the Crazyflie 2.0 and need help getting started we have made a [Getting started with expansion decks](/getting-started-with-expansion-decks/) tutorial. Just follow the steps and you are ready to go. 
+designed to be modified! Check out the [Getting started with development](/getting-started-with-development/)
+tutorial to setup your development environment, build your first custom firmware and
+download it to the copter.
 
 Maybe you want to add a sensor or some other hardware? Heat up your soldering
-iron and dive in to it! Find more information about the [expansion bus on the
+iron and dive into it! Find more information about the [expansion bus on the
 wiki](//wiki.bitcraze.io/projects:crazyflie2:expansionboards:index). The [wiki](//wiki.bitcraze.io)
 is the place to look for documentation related to products and projects.
 
@@ -58,7 +60,7 @@ discoveries.
 
 ## Need help?
 
-Can not find the solution to a problem? Don't understand how or what to do?
+Can’t find the solution to a problem? Don't understand how or what to do?
 Have you read all documentation and are still confused?
 
 Don't worry, head over to the [forum](//forum.bitcraze.io) and check if someone
