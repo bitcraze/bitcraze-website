@@ -8,7 +8,7 @@ page_id: product-loco-pos-deck
 {% buy_online https://store.bitcraze.io/collections/positioning/products/loco-positioning-deck %}
 
 {% product_img Loco Positioning deck; medium;
-/images/loco-pos-deck/Loco-positioning-deck-585px-Early-access-1.jpg
+/images/loco-pos-deck/Loco-positioning-deck-585px-Early-access.JPG
 %}
 
 

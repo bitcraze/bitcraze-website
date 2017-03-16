@@ -8,7 +8,7 @@ page_id: product-buzzer-deck
 {% buy_online https://store.bitcraze.io/collections/decks/products/buzzer-deck %}
 
 {% product_img Buzzer deck; medium;
-/images/buzzer-deck/buzzer-deck.jpg
+/images/buzzer-deck/Buzzer-deck-585px.JPG
 %}
 
 {% product_highlight
