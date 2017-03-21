@@ -8,7 +8,7 @@ page_id: product-z-ranger-deck
 {% buy_online https://store.bitcraze.io/products/z-ranger-deck %}
 
 {% product_img Z-ranger deck; medium;
-/images/crazyflie.png
+/images/z-ranger-deck/z-ranger-deck-585px.jpg
 %}
 
 {% product_highlight
@@ -17,11 +17,11 @@ Laser ranging;
 Adds the possibility to fly with precise height control.
 %}
 
-The Z-ranger deck uses a laser sensor to measure the distance to the ground. 
-The deck enables the Crazyflie to automatically maintain a constant distance to the 
-objects under it when flying in automatic mode. Over a floor it will stay on the 
-same height, but will follow the flow of a stair case up or down when going on 
-adventures. 
+The Z-ranger deck uses a laser sensor to measure the distance to the ground.
+The deck enables the Crazyflie to automatically maintain a constant distance to the
+objects under it when flying in automatic mode. Over a floor it will stay on the
+same height, but will follow the flow of a stair case up or down when going on
+adventures.
 
 The maximum range for the ranger is 2 meters.
 
