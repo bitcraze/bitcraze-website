@@ -5,7 +5,7 @@ permalink: /z-ranger-deck/
 page_id: product-z-ranger-deck
 ---
 
-{% buy_online https://store.bitcraze.io/products/z-ranger-deck %}
+{% coming_soon %}
 
 {% product_img Z-ranger deck; medium;
 /images/z-ranger-deck/z-ranger-deck-585px.jpg
