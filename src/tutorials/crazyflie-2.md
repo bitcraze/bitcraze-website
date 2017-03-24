@@ -232,10 +232,10 @@ Once you have installed VirtualBox you can download the virtual machine
 using one of these links.
 
 {{ "
-* Bitcraze VM 2016-06
-* [torrent](http://files.bitcraze.se/dl/Bitcraze_VM_2016-06.ova.torrent)
-* [direct download 1](http://files.bitcraze.se/dl/Bitcraze_VM_2016-06.ova)
-* [direct download 2](https://mega.nz/#!XJw2kDya!48mCn7rw-Or1E-jnA-5FYFdqGm5xe4gzmdsM87bgm24)
+* Bitcraze VM 2017.03
+* [torrent](http://files.bitcraze.se/dl/BitcrazeVM_2017.03.ova.torrent)
+* [direct download 1](http://files.bitcraze.se/dl/BitcrazeVM_2017.03.ova)
+* [direct download 2](https://mega.nz/#!iRBUTLQT!Rb4GhehAcewn2MuNT60wD7j8-Jow9lF1HOAhQWZAxfI)
 " | markdownify | add_class_to_top: "tutorial-download-list" }}
 
 {% endsi_step %}
