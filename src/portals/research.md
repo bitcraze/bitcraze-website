@@ -5,7 +5,7 @@ permalink: /research/
 page_id: research
 ---
 
-{% img Flight lab; wide; /images/portals/portal-research-header.jpg %}
+{% img Flight lab; wide; /images/portals/research/industry_portal.JPG %}
 
 ## The Crazyflie is ideal for many areas of research
 ---
@@ -75,7 +75,7 @@ by limited APIs or closed software. Never.
 [PDF](http://usc-actlab.github.io/publications/Preiss_ICRA2017.pdf)
 [Video](https://youtu.be/ezTayb76x9U)
 
-* **"A Hybrid Method for Online Trajectory Planning of Mobile Robots in Cluttered Environments"**, 
+* **"A Hybrid Method for Online Trajectory Planning of Mobile Robots in Cluttered Environments"**,
 Leobardo Campos-Macías, David Gómez-Gutiérrez, Rodrigo Aldana-López, Rafael de la Guardia and José I. Parra Vilchis, Multi-Agent Autonomous Systems - Intel Labs, 2017.
 [PDF](http://dx.doi.org/10.1109/LRA.2017.2655145) or
 [PDF](/papers/online-trajectory-planning-in-cluttered-environments.pdf)
