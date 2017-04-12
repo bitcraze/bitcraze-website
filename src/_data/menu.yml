@@ -19,7 +19,7 @@
   - {page_id: product-z-ranger-deck}
   - {page_id: product-debug-adapter-kit}
   - {page_id: product-battery-charger-500mA}
-  # - {page_id: product-z-ranger-deck}
+
   - {page_id: product-old}
 
 - title: Buy
@@ -34,6 +34,7 @@
   - {page_id: getting-started-crazyflie-2}
   - {page_id: getting-started-expansion-decks}
   - {page_id: getting-started-buzzer-deck}
+  - {page_id: getting-started-z-ranger-deck}
   - {page_id: balancing-propellers}
   - {page_id: getting-started-crazyflie}
   - {page_id: getting-started-development}
