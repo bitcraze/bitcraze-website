@@ -17,11 +17,50 @@ To be able to use the Z-ranger deck you need to update the Crazyflie to the late
 
 To use the Z-Ranger deck you need to use the Python client and set up a connection with your Crazyflie.
 For more information about how to set up your Crazyflie and install the client go to [Getting started with the Crazyflie 2.0](/getting-started-with-the-crazyflie-2-0/).
-In the client you can enable the Height-hold mode, which when activated keeps the Crazyflie at 40cm above the ground.
 
-In the client, go to Assist mode and choose Height-hold mode in the dropdown menu. The assisted mode is enabled when the assisted mode button is pressed on the Gamepad.
+In the client, go to Assist mode and choose Height-hold mode in the dropdown menu.
 {% img Z-ranger deck tutorial; wide; /images/tutorials/height-hold.png %}
 
+Place the Crazyflie 2.0 on the floor in an area with lots of floor space for flying, then
+press the assisted mode button on the gamepad to activate the height-hold mode.
+The Crazyflie will now take off and hover at a height of 40 cm.
+
+To control the Crazyflie use roll/pitch as normal and use the thrust to change
+the height-hold set-point. Releasing the height-hold button will de-activate
+the mode and the thrust input will work as normal (i.e you will have to give
+thrust for the Crazyflie not to drop).
+
+Each time height-hold mode is re-activated the set-point is reset to 40 cm.
+
+{% endsi_step %}
+
+{% si_step  User-interface guide %}
+
+Below is a short explanation of the user-interface.
+
+{% img Z-ranger deck tutorial; wide; /images/tutorials/client.png %}
+
+1. Set-point height (in meters)
+2. Height error (in meters). I.e difference between the set-point and measured height.
+3. Set-point height (in meters)
+4. Measured height (in meters)
+
+{% endsi_step %}
+
+{% si_step Flight video using Z-ranger and height-hold mode %}
+
+{% youtube 0CwcaiZ79JE; large; 16by9 %}
+
+{% endsi_step %}
+
+{% si_step  Measurement details %}
+
+When the sensor measures the distance to the ground it will not use a single point.
+Instead the detection will use a cone (see below) where the sensor will report the
+closest detection. This means that the higher the Crazyflie is the larger the
+area of detection. For instance this could be an issue if the Crazyflie gets
+close to a wall, then it will report the distance to the wall instead of the
+floor.
 
 {% img Z-ranger deck tutorial; wide; /images/tutorials/sensor.png %}
 
