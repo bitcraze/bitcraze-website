@@ -321,9 +321,10 @@ and is now updated.
 {% endsi_step %}
 
 {% si_step connect to the Crazyflie; connect-pc-client %}
-* In the Crazyflie client, click the “Connect” button in top left corner.
-* In the connect dialog, click the “Scan” button. The radio settings for you Crazyflie is displayed.
-{% img Connect dialog; wide; /images/getting-started/SwPic9Final.png %}
+* In the Crazyflie client click the “Scan” button in top left corner. The radio settings for you Crazyflie is displayed in the drop-down list.
+* Choose your Crazyflie from the drop-down list.
+
+{% img Connect dialog; wide; /images/getting-started/connect_to_the_crazyflie.PNG %}
 * Click the “Connect” button.
 
 Now that you have connected your Crazyflie to your client, telemetry data
@@ -331,8 +332,6 @@ is continuously sent from the copter to the client. When you move the
 Crazyflie around you will see the flight data being updated in realtime, as
 well as battery status and the link quality.
 {% endsi_step %}
-
-
 
 {% si_intro Flying; flying %}
 Now it's time to do some flying, but first there are some basics you need to know about.
