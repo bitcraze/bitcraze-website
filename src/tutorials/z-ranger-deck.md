@@ -18,7 +18,8 @@ To be able to use the Z-ranger deck you need to update the Crazyflie to the late
 To use the Z-Ranger deck you need to use the Python client and set up a connection with your Crazyflie.
 For more information about how to set up your Crazyflie and install the client go to [Getting started with the Crazyflie 2.0](/getting-started-with-the-crazyflie-2-0/).
 
-In the client, go to Assist mode and choose Height-hold mode in the dropdown menu.
+In the client, go to Assist mode and choose Height-hold mode in the drop-down menu. Also make sure that the assist mode button is [configured](https://wiki.bitcraze.io/doc:crazyflie:client:pycfclient:index#input_devices).
+
 {% img Z-ranger deck tutorial; wide; /images/tutorials/height-hold.png %}
 
 Place the Crazyflie 2.0 on the floor in an area with lots of floor space for flying, then
@@ -62,6 +63,6 @@ area of detection. For instance this could be an issue if the Crazyflie gets
 close to a wall, then it will report the distance to the wall instead of the
 floor.
 
-{% img Z-ranger deck tutorial; wide; /images/tutorials/sensor.png %}
+{% img Z-ranger deck tutorial; wide; /images/tutorials/z-ranger_deck_angle.png %}
 
 {% endsi_step %}
