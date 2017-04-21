@@ -297,7 +297,7 @@ Double click the “Crazyflie client” icon on the VM desktop
 {% si_step configure your controller; config-controller %}
 In the client, open the input device settings. Check if the correct device
 mapping is chosen, otherwise pick your device type.
-{% img Controller settings; wide; /images/getting-started/SwPic7Final.png %}
+{% img Controller settings; wide; /images/getting-started/configure_your_controller.PNG %}
 {% endsi_step %}
 
 {% si_step download latest firmware; latest-fw %}
@@ -309,8 +309,8 @@ mapping is chosen, otherwise pick your device type.
 {% si_step update firmware in the Crazyflie; update-fw %}
 * Turn the Crazyflie off.
 * Start the Crazyflie in bootloader mode by pressing the power button for 3 seconds. Both the blue LEDs will blink.
-* Go back to the Crazyflie client in the VM and click the Crazyflie -> Bootloader menu.
-{% img Update firmware dialog; wide; /images/getting-started/SwPic8Final.png %}
+* Go back to the Crazyflie client in the VM and click the Connect -> Bootloader menu.
+{% img Update firmware dialog; wide; /images/getting-started/update_firmware.PNG %}
 * Click the “Initiate bootloader cold boot” button. After a few seconds the status should read “Connected to bootloader”.
 * Click the “Browse” button and go to home/bitcraze/Downloads and select the file you downloaded earlier.
 * Click the “Program” button. The progress bar will go from 0% to 100% twice, as
