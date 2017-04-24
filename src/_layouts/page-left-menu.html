@@ -40,7 +40,11 @@ layout: page-base
     }
   });
 
-  $('#tracking-menu a').smoothScroll();
+  $('#tracking-menu a').smoothScroll({
+    afterScroll: function(options) {
+      window.location.hash = options.scrollTarget;
+    }
+  });
 
 } )( jQuery );
 </script>
