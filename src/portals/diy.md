@@ -36,4 +36,4 @@ Do you want to share your experiments and hacks with the Bitcraze community? Go 
 
 {% hackster crazyflie-net/walkera-devo-7e-transmitter-crazyflie-2-mod-c32aa5 %}
 
-{% hackster ataffanel/fixing-crazyradio-usb-boorloader-with-a-raspberry-pi-08796b %}
+{% hackster ataffanel/fixing-crazyradio-usb-bootloader-with-a-raspberry-pi-08796b %}
