@@ -173,14 +173,26 @@ red pulses with a longer pause between groups.
 
 
 {% si_intro Controlling the Crazyflie 2.0 %}
-You can fly the Crazyflie 2.0 either from a mobile device or a computer. Using a
-mobile device is the fastest way to get into the air, but it might require
-some more pilot skills compared to the computer option.
-
-Continue reading for instructions on how to install the app on your phone or
-[installing on a computer](#inst-comp) if you want to use your computer.
+You can fly the Crazyflie 2.0 either from a mobile device or a computer.
 {% endsi_intro %}
 
+{% si_step choose controller device %}
+{% tabgroup %}
+{% tab Mobile device %}
+Using a mobile device is the fastest way to get into the air, but it might require
+some more piloting skills. 
+
+Continue reading the next section for instructions on how to install the app on your phone
+{% endtab %}
+{% tab Computer %}
+Using your computer requires a Crazyradio PA and a gamepad but give you more options
+and greater control.
+
+Continue reading the [installing on a computer](#inst-comp) section if you
+want to use your computer.
+{% endtab %}
+{% endtabgroup %}
+{% endsi_step %}
 
 
 
@@ -213,9 +225,56 @@ Continue reading the [flying section.](#flying)
 When using a computer to fly the Crazyflie, you also need a standard
 gamepad ([more information](//wiki.bitcraze.io/projects:crazyflie:pc_utils:inputdevices))
 for maneuvering and a Crazyradio PA for communication.
+{% endsi_intro %}
 
+{% si_step installation flavour %}
+There are a few options of how to run the PC client
+
+{% tabgroup %}
+{% tab VM %}
 We have created a virtual machine (VM) to help you get into the air as quickly as possible.
-The VM has all software you need for flight and development pre-installed.
+The VM has all software you need for flight and development pre-installed. Since 
+it runs on a virtual machine it should work the same way on most operating systems 
+and this is also why our documentation is based on the virtual machine. 
+{% endtab %}
+{% tab Windows %}
+There is an installer for native installation on Windows. This option will install
+the latest version as a binary and is a great option for flying, but will not add
+support for development.
+
+Read more in the [install on Windows](#inst-win) section.
+{% endtab %}
+{% tab Linux %}
+On Linux it is possible to run the client from source code. With this option you 
+are required to clone the source code from git and install a few software packages. 
+If you are interested in this solution, read more about how to set it up on 
+[github](https://github.com/bitcraze/crazyflie-clients-python/blob/master/README.md).
+
+
+When you have set up the client, insert the Crazyradio PA and your gamepad in 
+your USB-ports and start the client. Continue reading about how to [configure the client](#config-client) 
+{% endtab %}
+{% tab OS X %}
+On OS X it is possible to run the client from source code. With this option you 
+are required to clone the source code from git and install a few software packages. 
+If you are interested in this solution, read more about how to set it up on 
+[github](https://github.com/bitcraze/crazyflie-clients-python/blob/master/README.md).
+
+When you have set up the client, insert the Crazyradio PA and your gamepad in 
+your USB-ports and start the client. Continue reading about how to [configure the client](#config-client) 
+{% endtab %}
+{% endtabgroup %}
+{% endsi_step %}
+
+
+
+
+{% si_intro Installing on VM; inst-vm %}
+The virtual machine (VM) to help you get into the air as quickly as possible, 
+it has all software you need for flight and development pre-installed. 
+
+Unfortunately there have been some reports lately of problems using the VM with USB.
+If you experience problems when flying, consider a native solution. 
 {% endsi_intro %}
 
 {% si_step install VirtualBox; inst-virtualbox %}
@@ -258,8 +317,8 @@ for all projects.
 {% endsi_step %}
 
 {% si_step install hardware %}
-* Insert Crazyradio PA into a USB port.
-* Insert game controller to a USB port.
+* Insert Crazyradio PA in a USB port.
+* Insert game controller in a USB port.
 {% endsi_step %}
 
 {% si_step configure USB on the virtual machine; config-usb-vm %}
@@ -292,7 +351,44 @@ for all projects.
 {% si_step start the Crazyflie client %}
 Double click the “Crazyflie client” icon on the VM desktop
 {% img Crazyflie client icon; narrow; /images/getting-started/cf-client-icon.png; circle-border %}
+
+Continue reading about [configuring the client](#config-client) 
 {% endsi_step %}
+
+
+
+
+{% si_intro Installing on Windows; inst-win %}
+The windows installer installs the Crazyflie client on your Windows machine. 
+{% endsi_intro %}
+
+{% si_step download installer %}
+* Open a web browser and go to [https://github.com/bitcraze/crazyflie-clients-python/releases](https://github.com/bitcraze/crazyflie-clients-python/releases).
+* Download the file named cfclient-win32-install-XXX.exe from the latest release.
+{% endsi_step %}
+
+{% si_step Install %}
+Run the installer
+{% endsi_step %}
+
+{% si_step install hardware %}
+* Insert Crazyradio PA in a USB port.
+* Insert game controller in a USB port.
+{% endsi_step %}
+
+{% si_step Install USB drivers %}
+Install the [Crazyradio Windows USB driver](https://wiki.bitcraze.io/doc:crazyradio:install_windows_zadig).
+{% endsi_step %}
+
+{% si_step start the Crazyflie client %}
+Start the Crazyflie client from the start menu 
+{% endsi_step %}
+
+
+
+
+{% si_intro Configure the client; config-client %}
+{% endsi_intro %}
 
 {% si_step configure your controller; config-controller %}
 In the client, open the input device settings. Check if the correct device
@@ -301,15 +397,15 @@ mapping is chosen, otherwise pick your device type.
 {% endsi_step %}
 
 {% si_step download latest firmware; latest-fw %}
-* Open the web browser in the virtual machine, go to [https://github.com/bitcraze/crazyflie-release/releases](https://github.com/bitcraze/crazyflie-release/releases)
+* Open the web browser and go to [https://github.com/bitcraze/crazyflie-release/releases](https://github.com/bitcraze/crazyflie-release/releases).
+If you are on the VM, open the browser in the VM.
 * download the zip file named crazyflie-xxx.zip from the latest release.
-* close the browser when the download is finished.
 {% endsi_step %}
 
 {% si_step update firmware in the Crazyflie; update-fw %}
 * Turn the Crazyflie off.
 * Start the Crazyflie in bootloader mode by pressing the power button for 3 seconds. Both the blue LEDs will blink.
-* Go back to the Crazyflie client in the VM and click the Connect -> Bootloader menu.
+* Go back to the Crazyflie client and click the Connect -> Bootloader menu.
 {% img Update firmware dialog; wide; /images/getting-started/update_firmware.PNG %}
 * Click the “Initiate bootloader cold boot” button. After a few seconds the status should read “Connected to bootloader”.
 * Click the “Browse” button and go to home/bitcraze/Downloads and select the file you downloaded earlier.
