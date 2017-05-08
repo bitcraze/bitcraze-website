@@ -269,7 +269,7 @@ your USB-ports and start the client. Continue reading about how to [configure th
 
 
 
-{% si_intro Installing on VM; inst-vm %}
+{% si_intro Installing on VM; inst-virtualmachine %}
 The virtual machine (VM) to help you get into the air as quickly as possible, 
 it has all software you need for flight and development pre-installed. 
 
