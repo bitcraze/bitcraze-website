@@ -6,6 +6,7 @@ page_id: videogallery
 ---
 
 {% media_gallery %}
+{% gallery_youtube T9fkjAp942A; 16by9; Target Following on Crazyflie 2.0 %}
 {% gallery_youtube YnGZ-arUwgc; 16by9; Downwash-aware Trajectory planning %}
 {% gallery_youtube EIWUbchfT-U; 16by9; Drone&Bass at Øredev 2016 %}
 {% gallery_youtube ezTayb76x9U; 16by9; Crazyswarm %}
