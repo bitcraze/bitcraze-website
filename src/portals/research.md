@@ -37,6 +37,7 @@ by limited APIs or closed software. Never.
 ### Crazyflie used in research
 ---
 {% media_gallery %}
+{% gallery_youtube T9fkjAp942A; 16by9 %}
 {% gallery_youtube YnGZ-arUwgc; 16by9 %}
 {% gallery_youtube ezTayb76x9U; 16by9 %}
 {% gallery_youtube CP-fBvcUAls; 16by9 %}
