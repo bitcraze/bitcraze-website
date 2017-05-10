@@ -19,6 +19,14 @@ page_id: home
 </div>
 
 
+{% comment %}
+{% announcement Bitcraze at Fosdem; /images/box.png %}
+We are going to Fosdem next week
+
+Meet us in room 101       
+{% endannouncement %}
+{% endcomment %}
+
 <div class="container-fluid">
     <div class="row content-area">
         <div class="col-sm-2"></div>

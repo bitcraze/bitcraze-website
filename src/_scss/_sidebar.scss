@@ -1,0 +1,26 @@
+.sidebar-container {
+  background-color: $sidebar-background-color;
+}
+
+.sidebar-col {
+  img.img-responsive {
+    max-width: 300px;
+  }
+}
+
+@media (min-width: $screen-sm-max) {
+  .sidebar-container {
+    float: left;
+  }
+
+  .sidebar-row {
+    width: 200px;
+  }
+
+  .sidebar-col {
+    width: 100%;
+    img.img-responsive {
+      max-width: 300px;
+    }
+  }
+}

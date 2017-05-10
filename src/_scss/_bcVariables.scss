@@ -2,6 +2,7 @@ $bcGreen: #95C941;
 $bcMidGreen: #00cd28;
 $bcDarkGreen: #009900;
 
+$bcLighterGrey: #F1F1F1;
 $bcLightGrey: #ccc;
 $bcGrey: #868686;
 $bcDarkGrey: #666666;
@@ -22,7 +23,7 @@ $footer-text-color: white;
 $footer-link-color: #ccc;
 $footer-hover-color: $bcGrey;
 
-$used-by-background-color: #F1F1F1;
+$used-by-background-color: $bcLighterGrey;
 
 $font-weight: 300;
 $font-weight-strong: 400;
@@ -39,5 +40,7 @@ $table-line-color: $bcLightGrey;
 
 $side-menu-link-color: #444;
 $side-menu-background-color: #eee;
+
+$sidebar-background-color: $bcLighterGrey;
 
 $portal-background-color: #FAFFF5;
