@@ -19,13 +19,14 @@ page_id: home
 </div>
 
 
-{% comment %}
-{% announcement Bitcraze at Fosdem; /images/box.png %}
-We are going to Fosdem next week
+{% announcement Bitcraze at ICRA; /images/frontpage/icra2017.jpg %}
+We are going to the [2017 IEEE International Conference on Robotics and Automation](http://www.icra2017.org/)
+in Singapore Tuesday May 30 - Thursday June 1.
 
-Meet us in room 101       
+Meet us in booth C08 where we will show the Loco Positionsing System, autonomous flight
+with the Crazyflie and possibly some ohter goodies.       
 {% endannouncement %}
-{% endcomment %}
+
 
 <div class="container-fluid">
     <div class="row content-area">
@@ -90,8 +91,8 @@ portallink="/development/"
 %}
 
 {% include index-portal-left.html portalheader="Used by the industry" portalimg="/images/frontpage/Industry-portal-400px.JPG" portaltext="
-The posibility to add expansion decks in combination with the open source 
-firmware/software makes the Crazyflie the perfect platform for sensor manufacturers 
+The posibility to add expansion decks in combination with the open source
+firmware/software makes the Crazyflie the perfect platform for sensor manufacturers
 to demonstrate the performance of sensors as well as a base for evaluation or reference boards.
 "
 portalexample="Examples areas: demonstrator and evaluation boards for sensors"
