@@ -82,6 +82,9 @@ Leobardo Campos-Macías, David Gómez-Gutiérrez, Rodrigo Aldana-López, Rafael 
 [PDF](/papers/online-trajectory-planning-in-cluttered-environments.pdf)
 [Video](https://youtu.be/DJ1IZRL5t1Q)
 
+* **"Target Following on Nano-sized UAV"**, Jaskirat Singh, Master Thesis at ETH Zurich.
+[PDF](https://drive.google.com/open?id=0B25OtRh9Sj8PYTh6MDlFZ1o2blU)
+[Video](https://www.youtube.com/playlist?list=PLjVmOOHPDGkDay3pz_ElfohVTDqN4aBiS)
 
 ### Publications involving Crazyflie 1.0
 ---
