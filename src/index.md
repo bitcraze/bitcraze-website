@@ -24,7 +24,9 @@ We are going to the [2017 IEEE International Conference on Robotics and Automati
 in Singapore Tuesday May 30 - Thursday June 1.
 
 Meet us in booth C08 where we will show the Loco Positionsing System, autonomous flight
-with the Crazyflie and possibly some ohter goodies.       
+with the Crazyflie and possibly some other goodies. 
+
+See you there!       
 {% endannouncement %}
 
 
