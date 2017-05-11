@@ -56,7 +56,11 @@ accuracy in the 10 cm range.
 
 A theoretical minimum of 4 Anchors are required to
 calculate the 3D position of a Tag, but a more realistic number is 6 to add
-redundancy.
+redundancy and accuracy.
+
+The current implementation is using the 2-way ranging mode and supports positioning 
+of one Tag. The hardware supports other modes that can track multiple Tags (swarming) 
+but the software is still experimental.
 
 The Loco Positioning system has mainly been designed for indoor use.
 
