@@ -53,7 +53,8 @@ discoveries.
 * Add an issue to one of the [repos on github](https://github.com/bitcraze) with a
   suggestion for an improvement or a bug report. Or maybe get involved in the
   discussion on an issue?
-* Add or update the [wiki](//wiki.bitcraze.io)
+* Add or update the [wiki](//wiki.bitcraze.io). Send us an email at contact@bitcraze.io 
+  to get a user account and get started.
 * Improve this web site. [The source code is on github](https://github.com/bitcraze/bitcraze-website),
   submit a pull request for your improvements.
 * Comment a [blog post](/blog/)
