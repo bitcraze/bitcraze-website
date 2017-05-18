@@ -74,10 +74,8 @@ To get a good position there are some rules of thumb for the placement of the si
 
 In our reference setup we have placed 3 anchors above and 3 anchors below the flight area, shaped in inverse triangles. This gives good accuracy in X, Y and Z.
 
-[Isometric drawing]
-[crazyflie_isometric_drawing]
+{% img reference system; wide; /images/tutorials/getting_started_with_lps/reference_system.png %}
 
-To
 {% endsi_step %}
 
 {% si_step Powering the anchors %}
