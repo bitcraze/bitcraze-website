@@ -77,15 +77,19 @@ In our reference setup we have placed 3 anchors above and 3 anchors below the fl
 [Isometric drawing]
 [crazyflie_isometric_drawing]
 
-To 
+To
 {% endsi_step %}
 
 {% si_step Powering the anchors %}
-The anchor can be powered in three different ways. They can be connected at the same time so the anchor can still be power from the skrew terminal when connecting the micro USB cable to do an update or when changing the configuration. All powering options can handle 5-12V and should be able to supply at least 100mA of current.
+The anchor can be powered in three different ways.
+
+{% img Powering the anchors; wide; /images/tutorials/getting_started_with_lps/power.png %}
 
 * Micro USB. Good for fixed and portable setups were a external battery or power adapter is used.
 * Barrel jack. Good for fixed and portable setup were power adapter is used.
 * Skrew terminal. Good for fixed installation and for chaining. Cable size up to 0,5mm2.
+
+They can be connected at the same time so the anchor can still be power from the skrew terminal when connecting the micro USB cable to do an update or when changing the configuration. All powering options can handle 5-12V and should be able to supply at least 100mA of current.
 {% endsi_step %}
 
 {% si_intro Configure and verify the system %}
