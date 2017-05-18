@@ -51,9 +51,14 @@ Go here to download the LPS node firmware
 * Repeat the same procedure for all the nodes before configuring the nodes.
 {% endsi_step %}
 
-{% si_step Configuring the node %}
-Now it’s time set the mode for the node turning them into anchors and setting the individual addresses for each anchor. Remember to mark each node with their individual anchor number [Image].
+{% si_step Configuring the node into anchors %}
+Now it’s time set the mode for the node turning them into anchors and setting the individual addresses for each anchor. Remember to mark each node with their individual anchor number.
 {% img LPS configuration tool; medium; /images/tutorials/getting_started_with_lps/configure.png %}
+
+* Start by setting the individual IDs, number them sequentially from 0-5.
+* Choose "Anchor (TWR)"
+* Click Apply
+
 {% endsi_step %}
 
 {% si_intro Place the anchors in the room %}
