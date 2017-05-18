@@ -35,24 +35,25 @@ Go here to download the LPS node firmware
 {% endsi_step %}
 
 {% si_step Update the node %}
-To update the node start by opening up the LPS configuration tool. Keep the DFU button pressed while connecting to your computer via USB.
+* To update the node start by opening up the LPS configuration tool. Keep the DFU button pressed while connecting to your computer via USB.
 
-{% img LPS configuration tool; medium; /images/tutorials/getting_started_with_lps/help_2.png %}
+{% img LPS configuration tool; medium; /images/tutorials/getting_started_with_lps/press_dfu.png %}
 
-Click browse and choose the LPS node firmware
-[LPS_tool_image_2]
+* Click browse and choose the LPS node firmware
+{% img LPS configuration tool; medium; /images/tutorials/getting_started_with_lps/browse.png %}
 
-Now update the node.
-[LPS_tool_image_3]
+* Now update the node.
+{% img LPS configuration tool; medium; /images/tutorials/getting_started_with_lps/update.png %}
 
-Once the node is updated press reset.
-[LPS_tool_image_4]
+* Once the node is updated press reset.
+{% img LPS configuration tool; medium; /images/tutorials/getting_started_with_lps/reset.png %}
 
-Repeat the same procedure for all the nodes.
+* Repeat the same procedure for all the nodes before configuring the nodes.
 {% endsi_step %}
 
 {% si_step Configuring the node %}
 Now it’s time set the mode for the node turning them into anchors and setting the individual addresses for each anchor. Remember to mark each node with their individual anchor number [Image].
+{% img LPS configuration tool; medium; /images/tutorials/getting_started_with_lps/configure.png %}
 {% endsi_step %}
 
 {% si_intro Place the anchors in the room %}
