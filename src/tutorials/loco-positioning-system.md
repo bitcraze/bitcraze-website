@@ -17,10 +17,8 @@ The reference system is based on the  [Indoor explorer bundle](https://store.bit
 
 {% endsi_intro %}
 
-{% si_step  Update the Crazyflie to the latest firmware %}
-To be able to use the Loco positioning system you need to update the Crazyflie to the latest firmware.
-For more information on how to get started with the Crazyfle 2.0 and how to update to the latest firmware  
-see the [Getting started with Crazyflie 2.0](/getting-started-with-the-crazyflie-2-0/) tutorial.
+{% si_step  Update the Crazyflie to the latest loco positioning firmware %}
+To be able to use the Loco positioning system you need to update the Crazyflie to the latest loco positioning firmware. The firmware can be downloaded here. For instructions on how to update the firmware you can follow the [Getting started with Crazyflie 2.0](/getting-started-with-the-crazyflie-2-0/) tutorial. It also a good resource to find more information on how to get started with the Crazyfle 2.0.
 
 For mounting the Loco positioning deck check out the [Getting started with expansion decks](/getting-started-with-expansion-decks/) tutorial.
 {% endsi_step %}
@@ -87,7 +85,7 @@ The anchor can be powered in three different ways.
 * Barrel jack. Good for fixed and portable setup were power adapter is used.
 * Skrew terminal. Good for fixed installation and for chaining. Cable size up to 0,5mm2.
 
-They can be connected at the same time so the anchor can still be power from the skrew terminal when connecting the micro USB cable to do an update or when changing the configuration. All powering options can handle 5-12V and should be able to supply at least 100mA of current.
+They can be connected at the same time so the anchor can still be power from the skrew terminal when connecting the micro USB cable to do an update or when changing the configuration. All power options can handle 5-12V and the supply should be able to provide at least 150mA of current.
 {% endsi_step %}
 
 {% si_intro Configure and verify the system %}
@@ -95,25 +93,29 @@ They can be connected at the same time so the anchor can still be power from the
 {% endsi_intro %}
 
 {% si_step Open the Crazyflie client %}
+Now when everything is mounted and powered it is time to configure the system.
+
+* Place your Crazyflie 2.0 in the middle of the flying area.
 * Open the CF client and connect
 
 {% img open the crazyflie client; wide; /images/tutorials/getting_started_with_lps/open_the_crazyflie_client.PNG %}
 {% endsi_step %}
 
 {% si_step Click the LPS tab %}
-* Choose the LPS tab
+* Choose the LPS tab. It might have to be made visible from the menu View->Tabs->Loco Positioning Tab
 
 {% img click the lps tab; wide; /images/tutorials/getting_started_with_lps/click_the_lps_tab.PNG%}
 {% endsi_step %}
 
 {% si_step Check anchor status %}
-[describe the relation between CF and anchors]
+* Have a look in the Anchor ranging status box and check that there are six green boxes. If any of them are red it means that the Crazyflie 2.0 can not communicate with that anchor and thus not get any range.
 
 {% img check the anchor status; wide; /images/tutorials/getting_started_with_lps/check_the_anchor_status.PNG%}
 {% endsi_step %}
 
 {% si_step Enter anchor positions %}
-[describe colors and get positon button]
+* Before you start entering any anchor positions make sure the boxes are green or red. If for some reason they stay white restart the cfclient.
+* Now it is time to enter the positions. The boxes will become red as soon as that specific position differes from the system position.
 
 {% img enter anchor positions; wide; /images/tutorials/getting_started_with_lps/enter_anchor_positions.PNG%}
 {% endsi_step %}
