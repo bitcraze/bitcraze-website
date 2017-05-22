@@ -114,16 +114,22 @@ They can be connected at the same time so the anchor can still be power from the
 
 {% si_step Enter anchor positions %}
 [describe colors and get positon button]
+
+{% img enter anchor positions; wide; /images/tutorials/getting_started_with_lps/enter_anchor_positions.PNG%}
 {% endsi_step %}
 
 {% si_step Write position to anchors %}
 [Verify all green within 5 seconds]
+
+{% img write position to anchors; wide; /images/tutorials/getting_started_with_lps/write_position_to_anchors.png%}
 {% endsi_step %}
 
 
 {% si_step Verify anchors position %}
 * Switch to anchor identification
 * Move the Crazyflie close to the anchor
+
+{% img Verify anchors position; wide; /images/tutorials/getting_started_with_lps/verify_anchors_position.PNG%}
 {% endsi_step %}
 
 {% si_step Verify estimated position %}
