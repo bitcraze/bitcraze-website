@@ -96,14 +96,20 @@ They can be connected at the same time so the anchor can still be power from the
 
 {% si_step Open the Crazyflie client %}
 * Open the CF client and connect
+
+{% img open the crazyflie client; wide; /images/tutorials/getting_started_with_lps/open_the_crazyflie_client.PNG %}
 {% endsi_step %}
 
 {% si_step Click the LPS tab %}
 * Choose the LPS tab
+
+{% img click the lps tab; wide; /images/tutorials/getting_started_with_lps/click_the_lps_tab.PNG%}
 {% endsi_step %}
 
 {% si_step Check anchor status %}
 [describe the relation between CF and anchors]
+
+{% img check the anchor status; wide; /images/tutorials/getting_started_with_lps/check_the_anchor_status.PNG%}
 {% endsi_step %}
 
 {% si_step Enter anchor positions %}
