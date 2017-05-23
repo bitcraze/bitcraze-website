@@ -148,6 +148,8 @@ Now when everything is mounted and powered it is time to configure the system.
 {% si_step Restart the Crazyflie %}
  Place the copter in the middle of your flying areas
  facing x
+
+ {% img Restart the Crazyflie; wide; /images/tutorials/getting_started_with_lps/restart_the_crazyflie.png%}
 {% endsi_step %}
 
 {% si_step Connect to the client %}
