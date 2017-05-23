@@ -104,26 +104,26 @@ Now when everything is mounted and powered it is time to configure the system.
 {% si_step Click the LPS tab %}
 * Choose the LPS tab. It might have to be made visible from the menu View->Tabs->Loco Positioning Tab
 
-{% img click the lps tab; wide; /images/tutorials/getting_started_with_lps/click_the_lps_tab.PNG%}
+{% img click the lps tab; wide; /images/tutorials/getting_started_with_lps/click_the_lps_tab.PNG %}
 {% endsi_step %}
 
 {% si_step Check anchor status %}
 * Have a look in the Anchor ranging status box and check that there are six green boxes. If any of them are red it means that the Crazyflie 2.0 can not communicate with that anchor and thus not get any range.
 
-{% img check the anchor status; wide; /images/tutorials/getting_started_with_lps/check_the_anchor_status.PNG%}
+{% img check the anchor status; wide; /images/tutorials/getting_started_with_lps/check_the_anchor_status.PNG %}
 {% endsi_step %}
 
 {% si_step Enter anchor positions %}
 * Before you start entering any anchor positions make sure the boxes are green or red. If for some reason they stay white restart the cfclient.
 * Now it is time to enter the positions. The boxes will become red as soon as that specific position differes from the system position.
 
-{% img enter anchor positions; wide; /images/tutorials/getting_started_with_lps/enter_anchor_positions.PNG%}
+{% img enter anchor positions; wide; /images/tutorials/getting_started_with_lps/enter_anchor_positions.PNG %}
 {% endsi_step %}
 
 {% si_step Write position to anchors %}
 [Verify all green within 5 seconds]
 
-{% img write position to anchors; wide; /images/tutorials/getting_started_with_lps/write_position_to_anchors.png%}
+{% img write position to anchors; wide; /images/tutorials/getting_started_with_lps/write_position_to_anchors.png %}
 {% endsi_step %}
 
 
@@ -131,14 +131,14 @@ Now when everything is mounted and powered it is time to configure the system.
 * Switch to anchor identification
 * Move the Crazyflie close to the anchor
 
-{% img Verify anchors position; wide; /images/tutorials/getting_started_with_lps/verify_anchors_position.PNG%}
+{% img Verify anchors position; wide; /images/tutorials/getting_started_with_lps/verify_anchors_position.PNG %}
 {% endsi_step %}
 
 {% si_step Verify estimated position %}
 * Switch back to position estimate mode
 * Move the CF around and..
 
-{% img Verify estimated position; wide; /images/tutorials/getting_started_with_lps/verify_estimated_position.PNG%}
+{% img Verify estimated position; wide; /images/tutorials/getting_started_with_lps/verify_estimated_position.PNG %}
 {% endsi_step %}
 
 {% si_intro Flying with the system %}
@@ -149,7 +149,7 @@ Now when everything is mounted and powered it is time to configure the system.
  Place the copter in the middle of your flying areas
  facing x
 
- {% img Restart the Crazyflie; wide; /images/tutorials/getting_started_with_lps/restart_the_crazyflie.png%}
+ {% img Restart the Crazyflie; wide; /images/tutorials/getting_started_with_lps/restart_the_crazyflie.png %}
 {% endsi_step %}
 
 {% si_step Connect to the client %}
@@ -160,9 +160,10 @@ Now when everything is mounted and powered it is time to configure the system.
 
 {% endsi_step %}
 
-{% si_step Fly with gamepad %}
+{% si_step Flying with a gamepad %}
 Press assisted button
-[gamepad images]
+
+ {% img Flying with a gamepad; wide; /images/tutorials/getting_started_with_lps/flying_with_a_gamepad.png %}
 {% endsi_step %}
 
 {% si_intro Next step %}
