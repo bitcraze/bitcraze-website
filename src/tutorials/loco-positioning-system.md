@@ -53,9 +53,9 @@ Go here to download the LPS node firmware
 Now it’s time set the mode for the node turning them into anchors and setting the individual addresses for each anchor. Remember to mark each node with their individual anchor number.
 {% img LPS configuration tool; medium; /images/tutorials/getting_started_with_lps/configure.png %}
 
-* Start by setting the individual IDs, number them sequentially from 0-5.
-* Choose "Anchor (TWR)"
-* Click Apply
+1. Start by setting the individual IDs, number them sequentially from 0-5.
+2. Choose "Anchor (TWR)"
+3. Click Apply
 
 {% endsi_step %}
 
@@ -164,6 +164,8 @@ Now when everything is mounted and powered it is time to configure the system.
 Press assisted button
 
  {% img Flying with a gamepad; wide; /images/tutorials/getting_started_with_lps/flying_with_a_gamepad.png %}
+
+{% tutorialVideo /videos/flying_with_position_hold.mp4 %}
 {% endsi_step %}
 
 {% si_intro Next step %}
