@@ -135,6 +135,8 @@ They can be connected at the same time so the anchor can still be power from the
 {% si_step Verify estimated position %}
 * Switch back to position estimate mode
 * Move the CF around and..
+
+{% img Verify estimated position; wide; /images/tutorials/getting_started_with_lps/verify_estimated_position.PNG%}
 {% endsi_step %}
 
 {% si_intro Flying with the system %}
