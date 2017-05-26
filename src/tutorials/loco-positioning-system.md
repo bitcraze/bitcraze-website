@@ -43,10 +43,9 @@ Go here to download the LPS node firmware
 * Now update the node.
 {% img LPS configuration tool; medium; /images/tutorials/getting_started_with_lps/update.png %}
 
-* Once the node is updated press reset.
+* When the update is done press reset. Repeat the same procedure for all the nodes before configuring them.
 {% img LPS configuration tool; medium; /images/tutorials/getting_started_with_lps/reset.png %}
 
-* Repeat the same procedure for all the nodes before configuring the nodes.
 {% endsi_step %}
 
 {% si_step Configuring the node into anchors %}
@@ -165,7 +164,7 @@ Verifying the anchor positions is good to rule out problems with the positioning
 {% si_step Set assisted mode to Position hold %}
 Position hold mode lets you control the Crazyflie in position mode instead of attitude mode. This means instead of controlling roll/pitch/yaw/thrust you will control x/y/yaw/height. Thus releasing the sticks will leave the Crazyflie in its current position.
 
-* Open the flight tab and select position hold mode from the assisted mode drop down list. 
+* Open the flight tab and select position hold mode from the assisted mode drop down list.
 {% endsi_step %}
 
 {% si_step Flying with a gamepad %}
