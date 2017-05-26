@@ -163,17 +163,25 @@ Verifying the anchor positions is good to rule out problems with the positioning
 {% endsi_step %}
 
 {% si_step Set assisted mode to Position hold %}
-* Open the flight tab and select position hold mode from the assisted mode drop down list.
+Position hold mode lets you control the Crazyflie in position mode instead of attitude mode. This means instead of controlling roll/pitch/yaw/thrust you will control x/y/yaw/height. Thus releasing the sticks will leave the Crazyflie in its current position.
+
+* Open the flight tab and select position hold mode from the assisted mode drop down list. 
 {% endsi_step %}
 
 {% si_step Flying with a gamepad %}
-Press assisted button
+Before flying check that the gamepad reports Pitch [0.0] and Roll [0.0] when the sticks are centered in the Tartet values in the flight tab. If they are not zero the consequence will be that the Crazyflie slowly moves when the sticks are released which might not be the wanted behavior.
 
- {% img Flying with a gamepad; wide; /images/tutorials/getting_started_with_lps/flying_with_a_gamepad.png %}
+* Press and hold the assisted mode button to activate the selected assisted mode.
+* Press up to take off and go up. While testing keep close to the ground but higher then 20cm to avoid ground turbulence.
+* Now you can fly around using the x/y stick as shown in the image below. Pressing +X will move the Crazyflie in the +X axis of your system, and the same for the other axis.
+* If somethings goes out of control release the sticks and the assisted mode button to have the Crazyflie drop to the ground.
 
+{% img Flying with a gamepad; wide; /images/tutorials/getting_started_with_lps/flying_with_a_gamepad.png %}
+
+* As a reference please have a look at this video showing the somewhat expected flying behavior.
 {% tutorialVideo /videos/flying_with_position_hold.mp4 %}
 {% endsi_step %}
 
 {% si_intro Next step %}
-read more here..
+Now when you got the basic functionality of the system up and running you might want to start flying preprogrammed flight paths. To do that start reading the more techy documentation on the [Loco positioning wiki page](https://wiki.bitcraze.io/doc:lps:index).
 {% endsi_intro %}
