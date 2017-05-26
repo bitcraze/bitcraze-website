@@ -29,7 +29,7 @@ To do this download and run the [LPS configuration tool](https://github.com/bitc
 {% endsi_step %}
 
 {% si_step Download the LPS node firmware %}
-For updating the LPS node firmware go [here](https://github.com/bitcraze/lps-node-firmware/releases) and download the "lps-node-firmware.dfu" file.
+For updating the LPS node firmware go [here](https://github.com/bitcraze/lps-node-firmware/releases) and download the **"lps-node-firmware.dfu"** file.
 {% endsi_step %}
 
 {% si_step Update the node %}
@@ -43,9 +43,9 @@ For updating the LPS node firmware go [here](https://github.com/bitcraze/lps-nod
 * Now update the node.
 {% img LPS configuration tool; medium; /images/tutorials/getting_started_with_lps/update.png %}
 
-* When the update is done press reset. Disconnect the node from the USB and repeat the same procedure for all the nodes before configuring them.
+* When the update is done press reset.
 {% img LPS configuration tool; medium; /images/tutorials/getting_started_with_lps/reset.png %}
-
+ Disconnect the node from the USB and repeat the same procedure for all the nodes before configuring them.
 {% endsi_step %}
 
 {% si_step Configuring the node into anchors %}
@@ -53,8 +53,8 @@ Now it’s time to set the mode for the node turning them into anchors and setti
 {% img LPS configuration tool; medium; /images/tutorials/getting_started_with_lps/configure.png %}
 
 1. Start by setting the individual IDs, number them sequentially from 0-5.
-2. Choose "Anchor (TWR)"
-3. Click Apply
+2. Choose **"Anchor (TWR)"**
+3. Click **Apply**
 
 {% endsi_step %}
 
@@ -80,9 +80,9 @@ The anchor can be powered in three different ways.
 
 {% img Powering the anchors; wide; /images/tutorials/getting_started_with_lps/power.png %}
 
-* Micro USB. Good for fixed and portable setups were a external battery or power adapter is used.
-* Barrel jack. Good for fixed and portable setup were power adapter is used.
-* Skrew terminal. Good for fixed installation and for chaining. Cable size up to 0,5mm2.
+* __Micro USB__. Good for fixed and portable setups were a external battery or power adapter is used.
+* __Barrel jack__. Good for fixed and portable setup were power adapter is used.
+* __Skrew terminal__. Good for fixed installation and for chaining. Cable size up to 0,5mm2.
 
 They can be connected at the same time so the anchor can still be power from the skrew terminal when connecting the micro USB cable to do an update or when changing the configuration. All power options can handle 5-12V and the supply should be able to provide at least 150mA of current.
 {% endsi_step %}
@@ -120,7 +120,7 @@ Now when everything is mounted and powered it is time to configure the system.
 {% endsi_step %}
 
 {% si_step Write position to anchors %}
-* Now to save the new anchor position to the anchors press the "write to anchors" button.
+* Now to save the new anchor position to the anchors press the __"write to anchors"__ button.
 * Verify that the anchor position boxes changes from red to green. If no change has occurred within 5 seconds try it again.
 
 {% img write position to anchors; wide; /images/tutorials/getting_started_with_lps/write_position_to_anchors.png %}
@@ -175,7 +175,7 @@ Here you can see that the Pitch and Roll is not [0.0] which might result in the 
 
 * Press and hold the assisted mode button to activate the selected assisted mode.
 * Press up to take off and go up. While testing keep close to the ground but higher then 20cm to avoid ground turbulence.
-* Now you can fly around using the x/y stick as shown in the image below. Pressing +X will move the Crazyflie in the +X axis of your system, and the same for the other axis.
+* Now you can fly around using the x/y stick as shown in the image below. Pressing X+ will move the Crazyflie in the X+ axis of your system, and the same for the other axis.
 * If somethings goes out of control release the sticks and the assisted mode button to have the Crazyflie drop to the ground.
 
 {% img Flying with a gamepad; wide; /images/tutorials/getting_started_with_lps/flying_with_a_gamepad.png %}
