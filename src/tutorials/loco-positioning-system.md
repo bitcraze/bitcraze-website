@@ -96,7 +96,7 @@ They can be connected at the same time so the anchor can still be power from the
 Now when everything is mounted and powered it is time to configure the system.
 
 * Place your Crazyflie 2.0 in the middle of the flying area.
-* Open the CF client and connect
+* Open the CF client and connect to the Crazyflie 2.0
 
 {% img open the crazyflie client; wide; /images/tutorials/getting_started_with_lps/open_the_crazyflie_client.PNG %}
 {% endsi_step %}
@@ -108,35 +108,40 @@ Now when everything is mounted and powered it is time to configure the system.
 {% endsi_step %}
 
 {% si_step Check anchor status %}
-* Have a look in the Anchor ranging status box and check that there are six green boxes. If any of them are red it means that the Crazyflie 2.0 can not communicate with that anchor and thus not get any range.
+* Have a look in the Anchor ranging status box and check that there are six green boxes. If any of them are red it means that the Crazyflie 2.0 can not communicate with that anchor and thus not get any range. If any anchor is constantly red please check that anchors power and configuration.
 
 {% img check the anchor status; wide; /images/tutorials/getting_started_with_lps/check_the_anchor_status.PNG %}
 {% endsi_step %}
 
 {% si_step Enter anchor positions %}
 * Before you start entering any anchor positions make sure the boxes are green or red. If for some reason they stay white restart the cfclient.
-* Now it is time to enter the positions. The boxes will become red as soon as that specific position differes from the system position.
+* Now it is time to enter the positions. The boxes will become red as soon as that position differs from the position saved in the anchor.
 
 {% img enter anchor positions; wide; /images/tutorials/getting_started_with_lps/enter_anchor_positions.PNG %}
 {% endsi_step %}
 
 {% si_step Write position to anchors %}
-[Verify all green within 5 seconds]
+* Now to save the new anchor position to the anchors press the "write to anchors" button.
+* Verify that the anchor position boxes changes from red to green. If no change has occurred within 5 seconds try it again.
 
 {% img write position to anchors; wide; /images/tutorials/getting_started_with_lps/write_position_to_anchors.png %}
 {% endsi_step %}
 
 
 {% si_step Verify anchors position %}
-* Switch to anchor identification
-* Move the Crazyflie close to the anchor
+Verifying the anchor positions is good to rule out problems with the positioning later.
+
+* Switch mode to anchor identification
+* Move the Crazyflie close to one anchor
+* Verify that the correct anchor is highlighted.
+* Do this for all six anchors and correct any wrongly configured anchor address.
 
 {% img Verify anchors position; wide; /images/tutorials/getting_started_with_lps/verify_anchors_position.PNG %}
 {% endsi_step %}
 
 {% si_step Verify estimated position %}
 * Switch back to position estimate mode
-* Move the CF around and..
+* Move the CF around and verify that the movement in the graphs correspond to the physical movement.
 
 {% img Verify estimated position; wide; /images/tutorials/getting_started_with_lps/verify_estimated_position.PNG %}
 {% endsi_step %}
@@ -146,18 +151,19 @@ Now when everything is mounted and powered it is time to configure the system.
 {% endsi_intro %}
 
 {% si_step Restart the Crazyflie %}
- Place the copter in the middle of your flying areas
- facing x
-
- {% img Restart the Crazyflie; wide; /images/tutorials/getting_started_with_lps/restart_the_crazyflie.png %}
+* Place the copter in the middle of your flying areas on a level surface facing the anchor systems positive x-axis.
+* Turn on or restart the Crazyflie 2.0.
+{% img Restart the Crazyflie; wide; /images/tutorials/getting_started_with_lps/restart_the_crazyflie.png %}
 {% endsi_step %}
 
-{% si_step Connect to the client %}
+{% si_step Connect to the Crazyflie 2.0 %}
+* Connect to the Crazyflie 2.0
+* It might take a couple of seconds for the position estimate to stabilize. You can verify that it has stabilized by checking that the position in the LPS tab corresponds to the physical position.
 
 {% endsi_step %}
 
 {% si_step Set assisted mode to Position hold %}
-
+* Open the flight tab and select position hold mode from the assisted mode drop down list.
 {% endsi_step %}
 
 {% si_step Flying with a gamepad %}
