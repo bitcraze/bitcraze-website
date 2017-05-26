@@ -18,22 +18,22 @@ The reference system is based on the  [Indoor explorer bundle](https://store.bit
 {% endsi_intro %}
 
 {% si_step  Update the Crazyflie to the latest loco positioning firmware %}
-To be able to use the Loco positioning system you need to update the Crazyflie to the latest loco positioning firmware. The firmware can be downloaded here. For instructions on how to update the firmware you can follow the [Getting started with Crazyflie 2.0](/getting-started-with-the-crazyflie-2-0/) tutorial. It also a good resource to find more information on how to get started with the Crazyfle 2.0.
+To be able to use the Loco positioning system you need to update the Crazyflie to the latest firmware. The firmware can be downloaded here. For instructions on how to start with the Crazyflie and how to update the firmware you can follow the [Getting started with Crazyflie 2.0](/getting-started-with-the-crazyflie-2-0/) tutorial.
 
 For mounting the Loco positioning deck check out the [Getting started with expansion decks](/getting-started-with-expansion-decks/) tutorial.
 {% endsi_step %}
 
 {% si_step Download the LPS configuration tool %}
 Before setting up the system you need to update the firmware and set the addresses of the nodes from 0-5.
-To do this download and run the [LPS configuration tool](https://github.com/bitcraze/lps-tools).
+To do this download and run the [LPS configuration tool](https://github.com/bitcraze/lps-tools/releases) exe file.
 {% endsi_step %}
 
 {% si_step Download the LPS node firmware %}
-Go here to download the LPS node firmware
+For updating the LPS node firmware go [here](https://github.com/bitcraze/lps-node-firmware/releases) and download the "lps-node-firmware.dfu" file.
 {% endsi_step %}
 
 {% si_step Update the node %}
-* To update the node start by opening up the LPS configuration tool. Keep the DFU button pressed while connecting to your computer via USB.
+* To update the node start by opening up the LPS configuration tool. Keep the DFU button on the node pressed while connecting to your computer via USB.
 
 {% img LPS configuration tool; medium; /images/tutorials/getting_started_with_lps/press_dfu.png %}
 
@@ -43,13 +43,13 @@ Go here to download the LPS node firmware
 * Now update the node.
 {% img LPS configuration tool; medium; /images/tutorials/getting_started_with_lps/update.png %}
 
-* When the update is done press reset. Repeat the same procedure for all the nodes before configuring them.
+* When the update is done press reset. Disconnect the node from the USB and repeat the same procedure for all the nodes before configuring them.
 {% img LPS configuration tool; medium; /images/tutorials/getting_started_with_lps/reset.png %}
 
 {% endsi_step %}
 
 {% si_step Configuring the node into anchors %}
-Now it’s time set the mode for the node turning them into anchors and setting the individual addresses for each anchor. Remember to mark each node with their individual anchor number.
+Now it’s time to set the mode for the node turning them into anchors and setting the individual addresses for each anchor. To facilitate setting up the system in a room a tip is to mark each node with their individual anchor number for easier identification.
 {% img LPS configuration tool; medium; /images/tutorials/getting_started_with_lps/configure.png %}
 
 1. Start by setting the individual IDs, number them sequentially from 0-5.
@@ -67,7 +67,7 @@ To get a good position there are some rules of thumb for the placement of the si
 
 * The anchors should be evenly distributed around the flying volume and at least 2m apart.
 * The anchors should have line of site with the flying volume.
-* The anchor antenna should be placed 15cm from any wall, ceiling or metal object to avoid interfering reflections.
+* The anchor antenna should be placed 15cm from any wall, ceiling or metal object to avoid interfering reflections. In our reference set-up we accomplish this by using these [3D printed stands](https://github.com/bitcraze/bitcraze-mechanics/blob/master/LPS-anchor-stand/anchor-stand.stl). In the repository click "Raw" and then choose "save as" and save the file as a stl file.
 
 In our reference setup we have placed 3 anchors above and 3 anchors below the flight area, shaped in inverse triangles. This gives good accuracy in X, Y and Z.
 
@@ -169,6 +169,9 @@ Position hold mode lets you control the Crazyflie in position mode instead of at
 
 {% si_step Flying with a gamepad %}
 Before flying check that the gamepad reports Pitch [0.0] and Roll [0.0] when the sticks are centered in the Tartet values in the flight tab. If they are not zero the consequence will be that the Crazyflie slowly moves when the sticks are released which might not be the wanted behavior.
+
+{% img Crazyflie pitch roll; wide; /images/tutorials/getting_started_with_lps/crazyflie_pitch_roll.png %}
+Here you can see that the Pitch and Roll is not [0.0] which might result in the Crazyflie drifting when the sticks are released.
 
 * Press and hold the assisted mode button to activate the selected assisted mode.
 * Press up to take off and go up. While testing keep close to the ground but higher then 20cm to avoid ground turbulence.
