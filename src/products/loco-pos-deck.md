@@ -7,9 +7,7 @@ page_id: product-loco-pos-deck
 
 {% buy_online https://store.bitcraze.io/collections/positioning/products/loco-positioning-deck %}
 
-{% product_img Loco Positioning deck; medium;
-/images/loco-pos-deck/Loco-positioning-deck-585px-Early-access.JPG
-%}
+{% product_img Loco Positioning deck; medium; /images/loco-pos-deck/locoPositioning_deck_585px_side.JPG %}
 
 
 {% product_highlight
@@ -47,12 +45,5 @@ This product is intended to be used together with
 
 #### Tutorials
 
-{% youtube ZgH4bLZdq2A; medium; 16by9 %}
-
-[Getting started with expansion decks](/getting-started-with-expansion-decks/)
-
-
-
----
-
-{% include early-access-info.html %}
+* [Getting started with expansion decks](/getting-started-with-expansion-decks/)
+* [Getting started with the Loco Positioning system](/getting-started-with-the-loco-positioning-system/)

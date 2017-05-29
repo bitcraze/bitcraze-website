@@ -8,7 +8,7 @@ page_id: product-loco-pos-node
 {% buy_online https://store.bitcraze.io/collections/positioning/products/loco-positioning-node %}
 
 {% product_img Loco Positioning node; medium;
-/images/loco-pos-node/Loco-node-585px-early-access-1.jpg
+/images/loco-pos-node/locoPositioning_node_585px_side.JPG
 %}
 
 {% product_highlight
@@ -38,7 +38,4 @@ absolute position of objects carrying Tags can be calculated.
 
 #### Tutorials
 
-{% youtube ZgH4bLZdq2A; medium; 16by9 %}
-
----
-{% include early-access-info.html %}
+* [Getting started with the Loco Positioning system](/getting-started-with-the-loco-positioning-system/)
