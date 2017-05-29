@@ -26,7 +26,7 @@ absolute position of objects carrying Tags can be calculated.
 
 #### Resources
 
-- [Read more about the Loco Positioning system](/loco-pos-system/)
+- [Loco Positioning system](/loco-pos-system/)
 - [Start here](/start/)
 - [Buyers guide](/crazyflie-2-0-buyers-guide/)
 - [FAQ](/frequently-asked-questions-Crazyflie-2.0/)
