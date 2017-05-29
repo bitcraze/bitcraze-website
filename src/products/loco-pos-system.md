@@ -58,31 +58,23 @@ A theoretical minimum of 4 Anchors are required to
 calculate the 3D position of a Tag, but a more realistic number is 6 to add
 redundancy and accuracy.
 
-The current implementation is using the 2-way ranging mode and supports positioning 
-of one Tag. The hardware supports other modes that can track multiple Tags (swarming) 
+The current implementation is using the 2-way ranging mode and supports positioning
+of one Tag. The hardware supports other modes that can track multiple Tags (swarming)
 but the software is still experimental.
 
 The Loco Positioning system has mainly been designed for indoor use.
 
 ## Getting started with Loco positioning
 
-The video below is showing the process from receiving the Loco Positioning system 
-up to having an autonomous flying Crazyflie. More information is also available 
-on the [wiki](https://wiki.bitcraze.io/doc:lps:index).
-
-{% youtube ZgH4bLZdq2A; medium; 16by9 %}
+We have created a easy to follow step-by-step guide for setting up the Loco positioning system that you will find [here](/getting-started-with-the-loco-positioning-system/). In the tutorial we use the [Indoor explorer bundle](/getting-started-with-the-loco-positioning-system/) that you can buy directly from our [E-shop](https://store.bitcraze.io/). For more technical information about the Loco positioning system please visit our [wiki](https://wiki.bitcraze.io/doc:lps:index).
 
 ## Used by Lund University
 
-At the [Centre for Mathematical Sciences](http://www.maths.lu.se/english) at [Lund University](https://www.lth.se/english) 
-PhD student Kenneth Bastone and professor Kalle Åström are currently using the 
-Crazyflie and the Bitcraze ultra-wide band based Loco Positioning system as part 
+At the [Centre for Mathematical Sciences](http://www.maths.lu.se/english) at [Lund University](https://www.lth.se/english)
+PhD student Kenneth Bastone and professor Kalle Åström are currently using the
+Crazyflie and the Bitcraze ultra-wide band based Loco Positioning system as part
 of their research. We visited them and wrote a blog post about their work.
 
 {% img Centre for Mathematical Sciences; medium; /images/portals/research/lps-research-loco-positioning-kalle-åström-768x512.jpg %}
 
 To read the blog post go [here](https://www.bitcraze.io/2016/06/loco-positioning-in-lth-math-department/).
-
-------
-
-{% include early-access-info.html %}
