@@ -18,7 +18,7 @@ The reference system is based on the  [Indoor explorer bundle](https://store.bit
 {% endsi_intro %}
 
 {% si_step  Update the Crazyflie to the latest loco positioning firmware %}
-To be able to use the Loco positioning system you need to update the Crazyflie with the firmware configured for the Loco positioning system. Go [here](https://github.com/bitcraze/crazyflie-release/releases) and download the __cf2-kalman-xxxx.xx.bin__.
+To be able to use the Loco positioning system you need to update the Crazyflie with the firmware configured for the Loco positioning system. Go [here](https://github.com/bitcraze/crazyflie-release/releases) and download the __crazyflie-kalman-xxxx.xx.zip__.
 
 For instructions on how to start with the Crazyflie and how to update the firmware you can follow the [Getting started with Crazyflie 2.0](/getting-started-with-the-crazyflie-2-0/) tutorial.
 
