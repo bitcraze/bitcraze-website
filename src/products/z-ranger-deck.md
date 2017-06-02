@@ -8,7 +8,7 @@ page_id: product-z-ranger-deck
 {% buy_online https://store.bitcraze.io/collections/decks/products/z-ranger-deck %}
 
 {% product_img Z-ranger deck; medium;
-/images/z-ranger-deck/z-ranger-deck-585px.jpg
+/images/z-ranger-deck/z-ranger_deck_side_585px.JPG
 %}
 
 {% product_highlight
