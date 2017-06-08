@@ -19,16 +19,11 @@ page_id: home
 </div>
 
 
-{% announcement Bitcraze at ICRA; /images/frontpage/icra2017.jpg %}
-We are going to the [2017 IEEE International Conference on Robotics and Automation](http://www.icra2017.org/)
-in Singapore Tuesday May 30 - Thursday June 1.
-
-Meet us in booth C08 where we will show the Loco Positionsing System, autonomous flight
-with the Crazyflie and possibly some other goodies. 
-
-See you there!       
+{% comment %}
+{% announcement Header goes here; /images/frontpage/someImage.jpg %}
+Some information here
 {% endannouncement %}
-
+{% endcomment %}
 
 <div class="container-fluid">
     <div class="row content-area">
