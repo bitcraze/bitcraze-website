@@ -33,6 +33,10 @@ object(s) that are to be tracked. By sending short high frequency radio
 messages between the Anchors and Tags, the system measures the distance from
 each Anchor to the Tags and calculates the position of the Tags from that
 information.
+All information needed to calculate the position is available in the Tag which 
+enables position estimation on board of the Crazyflie, as opposed to many other
+positioning systems where the position is calculated in an external computer
+and sent to the Crazyflie.
 By adding knowledge of its position to a Crazyflie 2.0 it is capable of flying
 autonomously without manual control. This opens up an array of exciting use
 cases and applications.
