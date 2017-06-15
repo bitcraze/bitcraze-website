@@ -5,7 +5,7 @@ permalink: /flow-deck/
 page_id: product-flow-deck
 ---
 
-{% coming_soon https://store.bitcraze.io/collections/decks/products/z-ranger-deck %}
+{% coming_soon %}
 
 {% product_img Flow deck; medium;
 /images/flow_deck/flow_deck_585px-1.JPG
@@ -15,7 +15,7 @@ page_id: product-flow-deck
 {% product_highlight
 fa fa-arrows;
 Optical navigation;
-Enabled positioning in the air with optical motion detection.
+Enable positioning in the air with optical motion detection.
 %}
 
 The Flow deck gives the Crazyflie 2.0 the ability to understand when it's moving in any direction.
@@ -31,12 +31,14 @@ This creates a flying 3D robot that can be pre-programmed to fly distances in an
 - [Development](/development-overview/)
 - [FAQ](/frequently-asked-questions-Crazyflie-2.0/)
 - [Getting help](/getting-help/)
-- [Wiki](https://wiki.bitcraze.io/projects:crazyflie2:expansionboards:zranger)
 {% comment %}
-- [Specifications](https://store.bitcraze.io/products/z-ranger-deck)
+- [Wiki](https://wiki.bitcraze.io/projects:crazyflie2:expansionboards:flow)
+- [Specifications](https://store.bitcraze.io/products/flow-deck)
 {% endcomment %}
 ---
 
+{% comment %}
 #### Tutorials
 
 [Getting started with the Flow deck](/getting-started-with-flow-deck/)
+{% endcomment %}
