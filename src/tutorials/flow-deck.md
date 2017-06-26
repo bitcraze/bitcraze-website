@@ -21,9 +21,9 @@ To be able to use the Flow deck you need to update the Crazyflie to the latest f
 To use the Flow deck you need to use the Python client and set up a connection with your Crazyflie.
 For more information about how to set up your Crazyflie and install the client go to [Getting started with the Crazyflie 2.0](/getting-started-with-the-crazyflie-2-0/).
 
-In the client, go to Assist mode and choose hover mode in the drop-down menu. Also make sure that the assist mode button is [configured](https://wiki.bitcraze.io/doc:crazyflie:client:pycfclient:index#input_devices).
+* In the client, go to Assist mode and choose hover mode in the drop-down menu. Also make sure that the assist mode button is [configured](https://wiki.bitcraze.io/doc:crazyflie:client:pycfclient:index#input_devices).
 
-{% img Hover mode; wide; /images/tutorials/height-hold.png %}
+{% img Hover mode; wide; /images/tutorials/getting_started_with_flow/hover.PNG %}
 
 * Place the Crazyflie 2.0 on a level surface area with lots of space for flying.
 Make sure the Crazyflie is pointing away from you, the blue LEDs are on the back so keep them pointing in your direction when starting to fly.
