@@ -42,7 +42,7 @@ Make sure the Crazyflie is pointing away from you, the blue LEDs are on the back
 
 Below is a short explanation of the user-interface.
 
-{% img User-interface guide; wide; /images/tutorials/client.png %}
+{% img User-interface guide; wide; /images/tutorials/getting_started_with_flow/interface.png %}
 
 1. Set-point height (in meters)
 2. Height error (in meters). I.e difference between the set-point and measured height.
