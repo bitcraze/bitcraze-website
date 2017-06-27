@@ -63,3 +63,9 @@ floor.
 {% img Sensor angle; wide; /images/tutorials/z-ranger_deck_angle.png %}
 
 {% endsi_step %}
+
+{% si_step The Flow deck in action! %}
+
+{% youtube 64LOEAQJamw; large; 16by9 %}
+
+{% endsi_step %}
