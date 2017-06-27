@@ -48,11 +48,6 @@ Below is a short explanation of the user-interface.
 
 {% endsi_step %}
 
-{% si_step Flight video using Z-ranger and height-hold mode %}
-
-{% youtube 0CwcaiZ79JE; large; 16by9 %}
-
-{% endsi_step %}
 
 {% si_step  Measurement details %}
 
@@ -64,5 +59,11 @@ close to a wall, then it will report the distance to the wall instead of the
 floor.
 
 {% img Z-ranger deck tutorial; wide; /images/tutorials/z-ranger_deck_angle.png %}
+
+{% endsi_step %}
+
+{% si_step Flight video using Z-ranger and height-hold mode %}
+
+{% youtube 0CwcaiZ79JE; large; 16by9 %}
 
 {% endsi_step %}
