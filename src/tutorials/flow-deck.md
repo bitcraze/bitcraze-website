@@ -19,9 +19,9 @@ You will also need the latest version of the [Crazyflie client](https://github.c
 {% si_step  Using the hover mode %}
 
 To use the Flow deck you need to use the Python client and set up a connection with your Crazyflie.
-For more information about how to set up your Crazyflie and install the client go to [Getting started with the Crazyflie 2.0](/getting-started-with-the-crazyflie-2-0/).
+For more information go to the [Getting started with the Crazyflie 2.0](/getting-started-with-the-crazyflie-2-0/).
 
-* In the client, go to Assist mode and choose hover mode in the drop-down menu. Also make sure that the assist mode button is [configured](https://wiki.bitcraze.io/doc:crazyflie:client:pycfclient:index#input_devices).
+* In the client, go to **Assist mode** and choose **Hover** mode in the drop-down menu. Also make sure that the assist mode button is [configured](https://wiki.bitcraze.io/doc:crazyflie:client:pycfclient:index#input_devices).
 
 {% img Hover mode; wide; /images/tutorials/getting_started_with_flow/hover.PNG %}
 

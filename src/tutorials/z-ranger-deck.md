@@ -16,21 +16,22 @@ To be able to use the Z-ranger deck you need to update the Crazyflie to the late
 {% si_step  Using the height-hold mode %}
 
 To use the Z-Ranger deck you need to use the Python client and set up a connection with your Crazyflie.
-For more information go to [Getting started with the Crazyflie 2.0](/getting-started-with-the-crazyflie-2-0/).
-In the client, go to **Assist mode** and choose **Height-hold** mode in the drop-down menu. Also make sure that the assist mode button is [configured](https://wiki.bitcraze.io/doc:crazyflie:client:pycfclient:index#input_devices).
+For more information go to the [Getting started with the Crazyflie 2.0](/getting-started-with-the-crazyflie-2-0/).
+
+* In the client, go to **Assist mode** and choose **Height-hold** mode in the drop-down menu. Also make sure that the assist mode button is [configured](https://wiki.bitcraze.io/doc:crazyflie:client:pycfclient:index#input_devices).
 
 {% img Z-ranger deck tutorial; wide; /images/tutorials/height-hold.png %}
 
-Place the Crazyflie 2.0 on the floor in an area with lots of floor space for flying, then
+* Place the Crazyflie 2.0 on the floor in an area with lots of floor space for flying, then
 press the assisted mode button on the gamepad to activate the height-hold mode.
 The Crazyflie will now take off and hover at a height of 40 cm.
 
-To control the Crazyflie use roll/pitch as normal and use the thrust to change
+* To control the Crazyflie use roll/pitch as normal and use the thrust to change
 the height-hold set-point. Releasing the height-hold button will de-activate
 the mode and the thrust input will work as normal (i.e you will have to give
 thrust for the Crazyflie not to drop).
 
-Each time height-hold mode is re-activated the set-point is reset to 40 cm.
+* Each time height-hold mode is re-activated the set-point is reset to 40 cm.
 
 {% endsi_step %}
 
