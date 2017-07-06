@@ -37,7 +37,8 @@ For updating the LPS node firmware go [here](https://github.com/bitcraze/lps-nod
 {% endsi_step %}
 
 {% si_step Update the node %}
-* To update the node start by opening up the LPS configuration tool. Keep the DFU button on the node pressed while connecting to your computer via USB.
+* To update the node start by opening up the LPS configuration tool. Keep the DFU button on the node pressed while connecting to your computer via USB. This will start the node in DFU mode.
+* If you are using Windows, the node will not be recognized the first time. You need to [follow the instruction to install its USB driver using Zadig](https://github.com/bitcraze/lps-node-firmware/releases). In DFU mode, the node will be displayed as "STM32 BOOTLOADER" in Zadig.
 
 {% img LPS configuration tool; medium; /images/tutorials/getting_started_with_lps/press_dfu.png %}
 
