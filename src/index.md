@@ -123,6 +123,9 @@ portallink="/industry/"
         {% used_by_logo Bosch Sensortec; images/logos/bosch.png; https://www.bosch-sensortec.com/ %}
         {% used_by_logo Invensense; images/logos/invensense.png; https://www.invensense.com/ %}
         {% used_by_logo PixArt; images/logos/pixart.png; http://www.pixart.com/ %}
+        {% used_by_text Carnegie Mellon University; https://www.bitcraze.io/2017/06/towards-persistent-adaptive-multi-robot-systems/ %}
+        {% used_by_text DLR; http://www.dlr.de/ %}
+
       </div>
       <div class="row content-area">
         <div class="col-md-12"><p class="text-right">Is your organization missing? <a href="https://github.com/bitcraze/bitcraze-website/edit/master/src/{{page.path}}"><i class="fa fa-pencil"></i> &nbsp;Improve this page</a></p>
