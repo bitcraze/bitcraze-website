@@ -34,12 +34,38 @@ your work a breeze.
 It is all open to allow you to change what you need to change, you will never be locked in
 by limited APIs or closed software. Never.
 
-### Crazyflie used in research
+## How the Crazyflie 2.0 is used by Universities
+---
+__Universities around the world are using the Crazyflie 2.0 in different types of research fields. Here we have collected guest blog posts from our [blog](https://www.bitcraze.io/blog/) to show some examples.__
+
+
+
+### Crazyflie used by Carnegie Mellon University
+---
+__*"We use the Crazyflie platform to evaluate our algorithms because the hardware is robust and the user community has helped make firmware available on which we can base our own systems"*__
+-Ellen Cappo, researcher at Carnegie Mellon University.
+
+Read about how the researchers at Carnegie Mellon University are using the Crazyflie 2.0 to test theory on real world systems.
+[Towards persistent, adaptive multi-robot systems](https://www.bitcraze.io/2017/06/towards-persistent-adaptive-multi-robot-systems/).
+
+{% youtube kr99SU22jDY; medium; 16by9 %}
+
+### Crazyflie used by MIT
+---
+__*"The Crazyflie is easily obtainable, safe, and (we can certify ourselves) very robust. Moreover, since it is open-source and fully programmable, we were able to easily modify the Crazyflie to fit our needs."*__
+-Brandon Araki, researcher at MIT.
+
+In [Multi-robot Path Planning for Flying-and-Driving Vehicles](https://www.bitcraze.io/2017/07/multi-robot-path-planning-for-flying-and-driving-vehicles/)
+you can read about how the researchers at MIT are using the Crazyflie 2.0 to study the coordination of multiple robots.
+
+{% youtube s-oFD5X-QtQ; medium; 16by9 %}
+
+## Crazyflie used in research
 ---
 {% media_gallery %}
 {% gallery_youtube T9fkjAp942A; 16by9 %}
 {% gallery_youtube YnGZ-arUwgc; 16by9 %}
-{% gallery_youtube ezTayb76x9U; 16by9 %}
+{% gallery_youtube D0CrjoYDt9w; 16by9 %}
 {% gallery_youtube CP-fBvcUAls; 16by9 %}
 {% gallery_youtube DJ1IZRL5t1Q; 16by9 %}
 {% gallery_youtube bAhLW1eq8eM; 16by9 %}
