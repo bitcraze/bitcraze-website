@@ -123,8 +123,8 @@ portallink="/industry/"
         {% used_by_logo Bosch Sensortec; images/logos/bosch.png; https://www.bosch-sensortec.com/ %}
         {% used_by_logo Invensense; images/logos/invensense.png; https://www.invensense.com/ %}
         {% used_by_logo PixArt; images/logos/pixart.png; http://www.pixart.com/ %}
-        {% used_by_text Carnegie Mellon University; https://www.bitcraze.io/2017/06/towards-persistent-adaptive-multi-robot-systems/ %}
-        {% used_by_text DLR; http://www.dlr.de/ %}
+        {% used_by_logo Carnegie Mellon University; /images/logos/CMU.png; /2017/06/towards-persistent-adaptive-multi-robot-systems/ %}
+        {% used_by_logo DLR; /images/logos/DLR_Logo.png; https://www.youtube.com/watch?v=LXng1v8lwbk%}
 
       </div>
       <div class="row content-area">
