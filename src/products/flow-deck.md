@@ -5,7 +5,7 @@ permalink: /flow-deck/
 page_id: product-flow-deck
 ---
 
-{% coming_soon %}
+{% buy_online https://store.bitcraze.io/collections/decks/products/flow-deck %}
 
 {% product_img Flow deck; medium;
 /images/flow_deck/flow_deck_585px-1.JPG
