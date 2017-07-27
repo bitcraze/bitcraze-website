@@ -71,6 +71,6 @@ The optical flow sensor is a camera and works by tracking how patterns are movin
 
 {% si_step The Flow deck in action! %}
 
-{% youtube 64LOEAQJamw; large; 16by9 %}
+{% youtube 64LOEAQJamw; wide; 16by9 %}
 
 {% endsi_step %}

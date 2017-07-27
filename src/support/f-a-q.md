@@ -72,11 +72,17 @@ There is ongoing development in this area:
 {% endcollapse_section %}
 
 {% collapse_section Can the Crazyflie 2.0 fly autonomously? %}
-Crazyflie 2.0 does not have enough sensors to locate itself in the environment as is, but with an external location system it has been successfully flown autonomously. Outdoors Crazyflie can use a GPS receiver to achieve autonomous flight but indoors some other positioning system is required.
+The Crazyflie 2.0 does not have enough sensors to locate itself in the environment as is, it requires more information to do that.
+The easiest way to acheive that is to add the [Flow deck](/flow-deck/). It tells the Crazyflie how it moves relative to the floor and
+thus enables it to fly autonomously. See the [product page](/flow-deck/) for more information.
+
+With an external positioning system the Crazyflie will even understand its absolute
+position which gives it even more possibilities when it comes to autonomous flight.
+Outdoors the Crazyflie could use a GPS receiver to achieve autonomous flight but indoors some other positioning system is required.
 
 Bitcraze is manufacturing a radio based local positioning system called the [Loco Positioning system](/loco-pos-system/) that allows the Crazyflie 2.0 to fly autonomously in a room. Find out more on the [product page](/loco-pos-system/).
 
-Researchers often use motion capture systems, like [Vicon](http://www.vicon.com/), to fly the Crazyflie autonomously, usually controlling it from an outside computer. For example this research from MIT is using such a system together with a powerful control algorithm: <https://www.youtube.com/watch?v=v-s564NoAu0>
+Researchers often use motion capture systems, like [Qualisys](https://www.qualisys.com) or [Vicon](http://www.vicon.com/), to fly the Crazyflie autonomously, usually controlling it from an outside computer. For example this research from MIT is using such a system together with a powerful control algorithm: <https://www.youtube.com/watch?v=v-s564NoAu0>
 
 We have been using camera systems like the Microsoft Kinect to achieve autonomous flight above the camera:  <https://www.bitcraze.io/2015/05/autonomous-flight-using-kinect2-for-position-control/>
 {% endcollapse_section %}
