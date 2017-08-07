@@ -5,10 +5,10 @@ permalink: /flow-breakout/
 page_id: product-flow-breakout
 ---
 
-{% coming_soon %}
+{% buy_online https://store.bitcraze.io/collections/decks/products/flow-breakout %}
 
 {% product_img Flow breakout; medium;
-/images/flow_breakout/flow_breakout_model.png
+/images/flow_breakout/flow_breakout_585px-1.jpg
 %}
 
 
@@ -18,11 +18,14 @@ Motion tracking;
 Optical flow breakout board for motion detection
 %}
 
-The Flow breakout can easily be connected to any robotics or other designs where motion tracking might be interesting.
-It has a pre-made Arduino library to read out movements and has a large voltage range for IO and power supply.
+The Flow breakout board is used for motion tracking and can easily be connected to any robotics project or other design.
+
+The motion of a surface, usually the ground, is measured and is reported as 
+delta X and delta Y by the optical flow sensor. The absolute distance (Z) is measured 
+by the Time of Flight ranging sensor. It comes with an Arduino library to easily 
+read the movement data and has a large voltage range for IO and power supply.
 
 The Flow breakout features the VL53L0x ToF sensor and the PMW3901 optical flow sensor.
-Together they enable you to measure the movement and distances.
 
 ---
 
@@ -37,11 +40,9 @@ Together they enable you to measure the movement and distances.
 {% endcomment %}
 
 
-{% comment %}
 ---
 
 
 #### Tutorials
 
-[Getting started with the Flow breakout board](/getting-started-with-flow-breakout/)
-{% endcomment %}
+[Getting started with the Flow breakout board](/getting-started-flow-breakout/)
