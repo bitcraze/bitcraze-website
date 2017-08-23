@@ -75,6 +75,7 @@ you can read about how the researchers at MIT are using the Crazyflie 2.0 to stu
 {% gallery_youtube oreVFqRntXY; 16by9 %}
 {% gallery_youtube QjxF9zUlIx0; 16by9 %}
 {% gallery_youtube NwxOwYi0jFQ; 16by9 %}
+{% gallery_youtube LXng1v8lwbk; 16by9 %}
 {% endmedia_gallery %}
 
 
