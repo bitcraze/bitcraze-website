@@ -1,7 +1,8 @@
 // Buttons
 button,
 html input[type="button"],
-input[type="submit"] {
+input[type="submit"],
+.button-link {
     color: #fff;
     background-color: $brand-primary;
     border-color: $brand-primary;
