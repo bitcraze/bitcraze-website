@@ -14,13 +14,13 @@ var cookiepopup = {
     acceptCookiePolicy: function () {
         var date = new Date();
         date.setFullYear(date.getFullYear() + 1);
-        document.cookie = cookiepopup.name + "=yes;expires=" + date.toGMTString() + ";path=/" + ";host=bitcraze.io";
+        document.cookie = cookiepopup.name + "=yes;expires=" + date.toGMTString() + ";path=/;domain=bitcraze.io";
         element = document.getElementById("cookiePolicyPopup");
         element.style.display = "none";
     },
     clearCookie: function () {
         var date = new Date(1970);
-        document.cookie = cookiepopup.name + "=;expires=" + date.toGMTString() + ";path=/" + ";host=bitcraze.io";
+        document.cookie = cookiepopup.name + "=;expires=" + date.toGMTString() + ";path=/;domain=bitcraze.io";
     },
 };
 window.onload = cookiepopup.start;
