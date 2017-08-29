@@ -44,7 +44,7 @@ __*"We use the Crazyflie platform to evaluate our algorithms because the hardwar
 -Ellen Cappo, researcher at Carnegie Mellon University.
 
 Read about how the researchers at Carnegie Mellon University are using the Crazyflie 2.0 to test theory on real world systems.
-[Towards persistent, adaptive multi-robot systems](/2017/06/towards-persistent-adaptive-multi-robot-systems/).
+[Towards persistent, adaptive multi-robot systems](https://bitcraze.io/2017/06/towards-persistent-adaptive-multi-robot-systems/).
 
 {% youtube kr99SU22jDY; medium; 16by9 %}
 
@@ -53,7 +53,7 @@ Read about how the researchers at Carnegie Mellon University are using the Crazy
 __*"The Crazyflie is easily obtainable, safe, and (we can certify ourselves) very robust. Moreover, since it is open-source and fully programmable, we were able to easily modify the Crazyflie to fit our needs."*__
 -Brandon Araki, researcher at MIT.
 
-In [Multi-robot Path Planning for Flying-and-Driving Vehicles](/2017/07/multi-robot-path-planning-for-flying-and-driving-vehicles/)
+In [Multi-robot Path Planning for Flying-and-Driving Vehicles](https://bitcraze.io/2017/07/multi-robot-path-planning-for-flying-and-driving-vehicles/)
 you can read about how the researchers at MIT are using the Crazyflie 2.0 to study the coordination of multiple robots.
 
 {% youtube s-oFD5X-QtQ; medium; 16by9 %}
@@ -75,6 +75,7 @@ you can read about how the researchers at MIT are using the Crazyflie 2.0 to stu
 {% gallery_youtube oreVFqRntXY; 16by9 %}
 {% gallery_youtube QjxF9zUlIx0; 16by9 %}
 {% gallery_youtube NwxOwYi0jFQ; 16by9 %}
+{% gallery_youtube LXng1v8lwbk; 16by9 %}
 {% endmedia_gallery %}
 
 

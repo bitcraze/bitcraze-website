@@ -20,6 +20,7 @@
   - {page_id: product-flow-deck}
   - {page_id: product-debug-adapter-kit}
   - {page_id: product-battery-charger-500mA}
+  - {page_id: product-flow-breakout}
 
   - {page_id: product-old}
 
@@ -41,6 +42,7 @@
   - {page_id: getting-started-crazyflie}
   - {page_id: getting-started-development}
   - {page_id: getting-started-with-the-loco-positioning-system}
+  - {page_id: getting-started-flow-breakout}
 
 - title: Support
   subs:
@@ -49,6 +51,7 @@
   - {page_id: support-downloads}
   - {page_id: support-frequently-asked-questions-Crazyflie-2.0}
   - {page_id: support-troubleshooting}
+  - {page_id: external-projects}
 
 - title: Development
   subs:

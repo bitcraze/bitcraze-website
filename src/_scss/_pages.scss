@@ -44,6 +44,20 @@
     }
 }
 
+// Keep media to the left on portal and product pages. The slightly smaller
+// width is to keep media the same size as in the video gallery that uses 2 columns
+.page-portal, .page-product {
+    .media-row-medium {
+        width: 48.5%;
+        margin-left: 0;
+
+        @media (max-width: $screen-xs-max) {
+            width: 100%;
+        }
+    }
+}
+
+
 .media-gallery > div > div {
   padding-bottom: 20px;
 }
@@ -408,20 +422,6 @@ table {
         }
     }
 }
-
-
-.page-portal, .page-product {
-    .media-row-medium {
-        width: 49.6%;
-        display: inline-block;
-        margin-left: 0;
-
-        @media (max-width: $screen-xs-max) {
-            width: 100%;
-        }
-    }
-}
-
 
 .img-float-right {
     width:35%;

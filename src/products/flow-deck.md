@@ -5,7 +5,7 @@ permalink: /flow-deck/
 page_id: product-flow-deck
 ---
 
-{% coming_soon %}
+{% buy_online https://store.bitcraze.io/collections/decks/products/flow-deck %}
 
 {% product_img Flow deck; medium;
 /images/flow_deck/flow_deck_585px-1.JPG
@@ -24,6 +24,8 @@ This creates a flying 3D robot that can be pre-programmed to fly distances in an
 
 ---
 
+{% youtube 90Eho7ocZfg; medium; 16by9 %}
+
 #### Resources
 
 - [Start here](/start/)
@@ -31,12 +33,10 @@ This creates a flying 3D robot that can be pre-programmed to fly distances in an
 - [Development](/development-overview/)
 - [FAQ](/frequently-asked-questions-Crazyflie-2.0/)
 - [Getting help](/getting-help/)
-{% comment %}
 - [Wiki](https://wiki.bitcraze.io/projects:crazyflie2:expansionboards:flow)
 - [Specifications](https://store.bitcraze.io/products/flow-deck)
-{% endcomment %}
----
 
+---
 
 #### Tutorials
 

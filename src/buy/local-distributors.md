@@ -38,7 +38,7 @@ If you would like to distribute our products or if you already are distributing 
 {% country Australia %}
 {% distributor Pakronics; http://www.pakronics.com/search?type=product&q=crazyflie; /images/distributors/pakronics.png %}
 {% distributor Sedonia; http://www.sedoniatech.com.au/catalogsearch/result/?q=crazyflie; /images/distributors/Sedonia-Logo.gif %}
-{% distributor Little Bird Electronics; http://littlebirdelectronics.com/search?type=product&q=crazyflie; /images/distributors/littlebird_electronics.png %}
+{% distributor Little Bird Electronics; https://littlebirdelectronics.com.au/?rf=kw&kw=bitcraze; /images/distributors/littlebird_electronics.png %}
 
 {% country Hong Kong %}
 {% distributor Selfbuilt; http://selfbuilt.net/shop/index.php?route=product/search&search=crazyflie; /images/distributors/selfbuilt-logo.png %}
@@ -57,7 +57,7 @@ If you would like to distribute our products or if you already are distributing 
 {% continent Europe %}
 
 {% country Belgium %}
-{% distributor Antratek; http://www.antratek.com/bitcraze; /images/distributors/Antratek-EEM_logo-nieuw-300x56.jpg %}
+{% distributor Antratek; https://www.antratek.com/catalogsearch/result/?q=+bitcraze; /images/distributors/Antratek-EEM_logo-nieuw-300x56.jpg %}
 
 {% country Czech Republic %}
 {% distributor HW Kitchen; http://www.hwkitchen.com/robotics/crazyflie-2-0/; /images/distributors/HW-Kitchen_logo-300x261.jpg %}
@@ -68,12 +68,12 @@ If you would like to distribute our products or if you already are distributing 
 {% distributor Hackspark; https://hackspark.fr/fr/catalogsearch/result/?q=crazyflie; /images/distributors/hackspark.png %}
 
 {% country Germany %}
-{% distributor Antratek; http://www.antratek.de/bitcraze; /images/distributors/Antratek-EEM_logo-nieuw-300x56.jpg %}
+{% distributor Antratek; https://www.antratek.de/catalogsearch/result/?q=+bitcraze; /images/distributors/Antratek-EEM_logo-nieuw-300x56.jpg %}
 {% distributor Watterott; http://www.watterott.com/index.php?page=search&page_action=query&desc=on&sdesc=on&keywords=crazyflie&x=-1232&y=-27; /images/distributors/wetterott.jpg %}
 {% distributor Exp-tech; http://www.exp-tech.de/catalogsearch/result/?q=crazyflie; /images/distributors/exp_tech_square.jpg %}
 
 {% country Netherlands %}
-{% distributor Antratek; http://www.antratek.nl/bitcraze; /images/distributors/Antratek-EEM_logo-nieuw-300x56.jpg %}
+{% distributor Antratek; https://www.antratek.nl/catalogsearch/result/?q=+bitcraze; /images/distributors/Antratek-EEM_logo-nieuw-300x56.jpg %}
 
 {% country Sweden %}
 {% distributor Electrokit; http://www.electrokit.com/productsearch?id=1&q=crazyflie&cathandle=search; /images/distributors/LOGO-electrokit-logo-embossed.png %}

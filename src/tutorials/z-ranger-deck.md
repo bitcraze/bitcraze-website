@@ -64,6 +64,6 @@ floor.
 
 {% si_step Flight video using Z-ranger and height-hold mode %}
 
-{% youtube 0CwcaiZ79JE; large; 16by9 %}
+{% youtube 0CwcaiZ79JE; wide; 16by9 %}
 
 {% endsi_step %}
