@@ -25,6 +25,8 @@ melodies pre-programmed that you can use.
 
 ---
 
+{% youtube m6rL3y-gLG4; medium; 16by9 %}
+
 #### Resources
 
 - [Start here](/start/)
