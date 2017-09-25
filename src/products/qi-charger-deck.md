@@ -26,6 +26,8 @@ Crazyflie 2.0.
 
 ---
 
+{% youtube F6_pLpQB-Kw; medium; 16by9 %}
+
 #### Resources
 
 - [Start here](/start/)
