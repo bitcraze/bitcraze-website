@@ -23,6 +23,8 @@ and attach the Crazyflie 2.0 to it.
 
 ---
 
+{% youtube q5CcfNx1egs; medium; 16by9 %}
+
 #### Resources
 
 - [Start here](/start/)
