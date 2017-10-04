@@ -67,13 +67,16 @@
     border: 6px solid $bcGreen;
 }
 
-.outer-vine {
-    @extend .embed-responsive;
-    @extend .embed-responsive-1by1;
-}
+.video-item-delayed-load {
+  background-size: 100%!important;
+  background-position: center!important;
+  text-align: center;
 
-.inner-vine {
-    @extend .embed-responsive-item;
+  i {
+    color: white;
+    top: 39%;
+    position: relative;
+  }
 }
 
 table {

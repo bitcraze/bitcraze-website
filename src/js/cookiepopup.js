@@ -1,6 +1,6 @@
 /*
 This script is used to display a cookie policy popup. It is used on all bitcraze.io
-sites and must be self containes (not use any styling from css files).
+sites and must be self contained (not use any styling from css files).
 
 On www.bitcraze.io it is loaded and started from html, while it is loaded and
 triggered from Google Tag Manager on the other sub domains.

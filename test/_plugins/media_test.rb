@@ -57,7 +57,9 @@ class TestMedia < Testbase
     tag = '{% youtube id; narrow; 16by9 %}'
     expected = '<div class="media-row-narrow">
                   <div class="embed-responsive embed-responsive-16by9">
-                    <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/id" allowfullscreen></iframe>
+                    <div class="embed-responsive-item video-item-delayed-load" data-video-id="id" style="background:url(https://i1.ytimg.com/vi/id/0.jpg);" onclick="kraken.loadYoutubeVideo(this)">
+                      <i class="fa fa-play-circle fa-3x"></i>
+                    </div>
                   </div>
                 </div>'
 
@@ -154,7 +156,9 @@ class TestMedia < Testbase
                         <h3>Some header</h3>
                       </div>
                       <div class="embed-responsive embed-responsive-16by9">
-                        <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/id" allowfullscreen></iframe>
+                        <div class="embed-responsive-item video-item-delayed-load" data-video-id="id" style="background:url(https://i1.ytimg.com/vi/id/0.jpg);" onclick="kraken.loadYoutubeVideo(this)">
+                          <i class="fa fa-play-circle fa-3x"></i>
+                        </div>
                       </div>
                     </div>
                   </div>
@@ -178,7 +182,9 @@ class TestMedia < Testbase
                         <h3>Some header</h3>
                       </div>
                       <div class="embed-responsive embed-responsive-16by9">
-                        <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/id1" allowfullscreen></iframe>
+                        <div class="embed-responsive-item video-item-delayed-load" data-video-id="id1" style="background:url(https://i1.ytimg.com/vi/id1/0.jpg);" onclick="kraken.loadYoutubeVideo(this)">
+                          <i class="fa fa-play-circle fa-3x"></i>
+                        </div>
                       </div>
                     </div>
                     <div class="col-md-6">
@@ -186,7 +192,9 @@ class TestMedia < Testbase
                         <h3>Other header</h3>
                       </div>
                       <div class="embed-responsive embed-responsive-16by9">
-                        <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/id2" allowfullscreen></iframe>
+                        <div class="embed-responsive-item video-item-delayed-load" data-video-id="id2" style="background:url(https://i1.ytimg.com/vi/id2/0.jpg);" onclick="kraken.loadYoutubeVideo(this)">
+                          <i class="fa fa-play-circle fa-3x"></i>
+                        </div>
                       </div>
                     </div>
                   </div>
@@ -196,7 +204,9 @@ class TestMedia < Testbase
                         <h3>Some header</h3>
                       </div>
                       <div class="embed-responsive embed-responsive-16by9">
-                        <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/id3" allowfullscreen></iframe>
+                        <div class="embed-responsive-item video-item-delayed-load" data-video-id="id3" style="background:url(https://i1.ytimg.com/vi/id3/0.jpg);" onclick="kraken.loadYoutubeVideo(this)">
+                          <i class="fa fa-play-circle fa-3x"></i>
+                        </div>
                       </div>
                     </div>
                     <div class="col-md-6">
@@ -204,7 +214,9 @@ class TestMedia < Testbase
                         <h3>Some header</h3>
                       </div>
                       <div class="embed-responsive embed-responsive-16by9">
-                        <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/id4" allowfullscreen></iframe>
+                        <div class="embed-responsive-item video-item-delayed-load" data-video-id="id4" style="background:url(https://i1.ytimg.com/vi/id4/0.jpg);" onclick="kraken.loadYoutubeVideo(this)">
+                          <i class="fa fa-play-circle fa-3x"></i>
+                        </div>
                       </div>
                     </div>
                   </div>
