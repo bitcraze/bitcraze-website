@@ -81,35 +81,43 @@ you can read about how the researchers at MIT are using the Crazyflie 2.0 to stu
 
 ### Publications involving Crazyflie 2.0
 ---
+* **"Crazyflie 2.0 Quadrotor as a Platform for Research and Education in Robotics and Control Engineering"**,
+Wojciech Giernacki, Mateusz Skwierczyński, Wojciech Witwicki, Paweł Wroński and Piotr Kozierski, Faculty of Electrical Engineering, Institute of Control and Information Engineering Poznan University of Technology, Poland, 2017.
+[PDF, ](/papers/giernacki_draft_crazyflie2.0.pdf)
+[Video 1, ](https://www.youtube.com/watch?v=BQJHj0SBhys)
+[Video 2, ](https://www.youtube.com/watch?v=c2HkxI_KMcY)
+[Video 3, ](https://www.youtube.com/watch?v=3r1ks7B15AA)
+[Video 4](https://www.youtube.com/watch?v=IAwlL2Y9XHA)
+
 * **"Planning and Control for Quadrotor Flight through Cluttered Environments"**, B. Landry,  Master's thesis, Massachusetts Institute of Technology, USA, June 2015.
-[PDF](http://groups.csail.mit.edu/robotics-center/public_papers/Landry15.pdf)
-[Video](https://www.youtube.com/watch?v=v-s564NoAu0)
+[PDF, ](http://groups.csail.mit.edu/robotics-center/public_papers/Landry15.pdf)
+[Video, ](https://www.youtube.com/watch?v=v-s564NoAu0)
 [Code](https://github.com/blandry/crazyflie-tools)
 
 * **"Mixed Reality for Robotics"**, W. Hönig, C. Milanes, L. Scaria, T. Phan, M. Bolas, and N. Ayanian, IROS, 2015.
-[PDF](http://www-bcf.usc.edu/~ayanian/files/Ayanian_IROS2015a.pdf)
+[PDF, ](http://www-bcf.usc.edu/~ayanian/files/Ayanian_IROS2015a.pdf)
 [Video](https://www.youtube.com/watch?v=px9iHkA0nOI)
 
 * **"System Identification of the Crazyflie 2.0 Nano Quadrocopter"**, J. Förster,  Bachelor's thesis, ETH Zürich, 2015.
-[PDF](https://polybox.ethz.ch/index.php/s/20dde63ee00ffe7085964393a55a91c7)
+[PDF, ](https://polybox.ethz.ch/index.php/s/20dde63ee00ffe7085964393a55a91c7)
 
 * **"Stippling with aerial robots"**, B. Galea, E. Kia, N. Aird, and P. G. Kry, Computational Aesthetics / Expressive, 2016.
-[PDF](http://www.cs.mcgill.ca/~kry/pubs/stippling/stippling.pdf)
-[Video1](https://www.youtube.com/watch?v=CP-fBvcUAls)
-[Video2](https://www.youtube.com/watch?v=N_B6Fs9U_go)
+[PDF, ](http://www.cs.mcgill.ca/~kry/pubs/stippling/stippling.pdf)
+[Video 1, ](https://www.youtube.com/watch?v=CP-fBvcUAls)
+[Video 2](https://www.youtube.com/watch?v=N_B6Fs9U_go)
 
 * **"Crazyswarm: A Large Nano-Quadcopter Swarm"**, James A. Preiss, Wolfgang Honig, Gaurav S. Sukhatme and Nora Ayanian, in Proc. IEEE International Conference on Robotics and Automation, 2017.
-[PDF](http://usc-actlab.github.io/publications/Preiss_ICRA2017.pdf)
+[PDF, ](http://usc-actlab.github.io/publications/Preiss_ICRA2017.pdf)
 [Video](https://youtu.be/ezTayb76x9U)
 
 * **"A Hybrid Method for Online Trajectory Planning of Mobile Robots in Cluttered Environments"**,
 Leobardo Campos-Macías, David Gómez-Gutiérrez, Rodrigo Aldana-López, Rafael de la Guardia and José I. Parra Vilchis, Multi-Agent Autonomous Systems - Intel Labs, 2017.
-[PDF](http://dx.doi.org/10.1109/LRA.2017.2655145) or
-[PDF](/papers/online-trajectory-planning-in-cluttered-environments.pdf)
+[PDF, ](http://dx.doi.org/10.1109/LRA.2017.2655145) or
+[PDF, ](/papers/online-trajectory-planning-in-cluttered-environments.pdf)
 [Video](https://youtu.be/DJ1IZRL5t1Q)
 
 * **"Target Following on Nano-sized UAV"**, Jaskirat Singh, Master Thesis at ETH Zurich.
-[PDF](https://drive.google.com/open?id=0B25OtRh9Sj8PYTh6MDlFZ1o2blU)
+[PDF, ](https://drive.google.com/open?id=0B25OtRh9Sj8PYTh6MDlFZ1o2blU)
 [Video](https://www.youtube.com/playlist?list=PLjVmOOHPDGkDay3pz_ElfohVTDqN4aBiS)
 
 ### Publications involving Crazyflie 1.0
@@ -118,18 +126,18 @@ Leobardo Campos-Macías, David Gómez-Gutiérrez, Rodrigo Aldana-López, Rafael 
 [PDF](http://liu.diva-portal.org/smash/get/diva2:534744/FULLTEXT01.pdf)
 
 * **“Visual inertial control of a nano-quadrotor”**, O. M. W. Dunkley, Master’s thesis, Technical University Munich, Germany, Sept. 2014.
-[PDF](https://vision.in.tum.de/_media/spezial/bib/dunkley14msc.pdf)
+[PDF, ](https://vision.in.tum.de/_media/spezial/bib/dunkley14msc.pdf)
 [Code](https://github.com/omwdunkley/crazyflieROS)
 
 * **“Visual-inertial navigation for a camera-equipped 25g nano-quadrotor”**, O. Dunkley, J. Engel, J. Sturm, and D. Cremers,  in IROS2014 Aerial Open Source Robotics Workshop, 2014.
-[PDF](https://vision.in.tum.de/_media/spezial/bib/dunkley14iros.pdf)
+[PDF, ](https://vision.in.tum.de/_media/spezial/bib/dunkley14iros.pdf)
 [Video](https://vision.in.tum.de/_media/spezial/bib/dunkley14iros.mp4)
 
 * **“HoverBall : Augmented Sports with a Flying Ball”**, Kei Nitta, Keita Higuchi and Jun Rekimoto, 5th International Conference on Augmented Human (AH 2014), 2014.
 [PDF](https://rekimotolab.files.wordpress.com/2014/02/a13-nitta.pdf)
 
 * **"Perching Failure Detection and Recovery with Onboard Sensing"**, Hao Jiang, Morgan T. Pope, Matthew A. Estrada, Bobby Edwards, Mark Cuson, Elliot W. Hawkes and Mark R. Cutkosky, IROS, 2015.
-[PDF](http://ieeexplore.ieee.org/xpl/login.jsp?tp=&arnumber=7353531&url=http%3A%2F%2Fieeexplore.ieee.org%2Fxpls%2Fabs_all.jsp%3Farnumber%3D7353531)
+[PDF, ](http://ieeexplore.ieee.org/xpl/login.jsp?tp=&arnumber=7353531&url=http%3A%2F%2Fieeexplore.ieee.org%2Fxpls%2Fabs_all.jsp%3Farnumber%3D7353531)
 [Video](https://m.youtube.com/watch?v=xhtbprB5Rqs)
 
 * **"Nonlinear control strategies for quadrotors and CubeSats"**, Giri Prashanth Subramanian, Master’s thesis, University of Illinois at Urbana-Champaign, USA, July 2015.
