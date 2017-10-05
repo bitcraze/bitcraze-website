@@ -105,15 +105,12 @@ portallink="/industry/"
         </div>
 
         {% used_by_logo NASA; /images/logos/NASA_logo.png; https://www.nasa.gov/ %}
-        {% used_by_text Stanford; https://www.stanford.edu/ %}
         {% used_by_logo Microsoft; /images/logos/microsoft.png; https://www.microsoft.com/ %}
         {% used_by_logo Chalmers University of Technology; /images/logos/chalmers.png; http://www.chalmers.se/en/ %}
         {% used_by_logo LTH; /images/logos/lund.png; https://www.lth.se/english %}
-        {% used_by_text IBM; http://www.ibm.com/ %}
         {% used_by_logo University of Bologna; /images/logos/Seal_of_the_University_of_Bologna.png; http://www.unibo.it/en/homepage %}
         {% used_by_logo USC; /images/logos/usc.png; http://www.usc.edu/ %}
         {% used_by_logo MIT; /images/logos/mit.svg; http://web.mit.edu/ %}
-        {% used_by_text Bell Labs; http://www.bell-labs.com/ %}
         {% used_by_logo AdaCore; /images/logos/adacore.png; http://www.adacore.com/ %}
         {% used_by_logo ETH Zurich; /images/logos/Eth-zurich_logo_1.png; https://www.ethz.ch/en.html %}
         {% used_by_logo Ericsson; /images/logos/ericsson_logo.png; https://www.ericsson.com/ %}
@@ -123,7 +120,6 @@ portallink="/industry/"
         {% used_by_logo Bosch Sensortec; images/logos/bosch.png; https://www.bosch-sensortec.com/ %}
         {% used_by_logo Invensense; images/logos/invensense.png; https://www.invensense.com/ %}
         {% used_by_logo PixArt; images/logos/pixart.png; http://www.pixart.com/ %}
-        {% used_by_logo Carnegie Mellon University; /images/logos/CMU.png; http://www.cmu.edu/ %}
         {% used_by_logo DLR; /images/logos/DLR_Logo.png; http://www.dlr.de/ %}
 
       </div>
