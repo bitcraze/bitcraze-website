@@ -81,6 +81,13 @@ you can read about how the researchers at MIT are using the Crazyflie 2.0 to stu
 
 ### Publications involving Crazyflie 2.0
 ---
+* **"Downwash-Aware Trajectory Planning for Large Quadrotor Teams"**, James A. Preiss, Wolfgang Hönig, Nora Ayanian, and Gaurav S. Sukhatme, in Proc. IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS), 2017. 
+[PDF, ](http://usc-actlab.github.io/publications/Preiss_IROS2017.pdf)
+[Video](http://youtu.be/YnGZ-arUwgc)
+
+* **"Modelling and Control of the Crazyflie Quadrotor for Aggressive and Autonomous Flight by Optical Flow Driven State Estimation"**, M. Greiff, Master's thesis, Lund University, 2017.
+[PDF](http://lup.lub.lu.se/student-papers/record/8905295/file/8905299.pdf)
+
 * **"Crazyflie 2.0 Quadrotor as a Platform for Research and Education in Robotics and Control Engineering"**,
 Wojciech Giernacki, Mateusz Skwierczyński, Wojciech Witwicki, Paweł Wroński and Piotr Kozierski, Faculty of Electrical Engineering, Institute of Control and Information Engineering Poznan University of Technology, Poland, 2017.
 [PDF, ](/papers/giernacki_draft_crazyflie2.0.pdf)
@@ -106,7 +113,7 @@ Wojciech Giernacki, Mateusz Skwierczyński, Wojciech Witwicki, Paweł Wroński a
 [Video 1, ](https://www.youtube.com/watch?v=CP-fBvcUAls)
 [Video 2](https://www.youtube.com/watch?v=N_B6Fs9U_go)
 
-* **"Crazyswarm: A Large Nano-Quadcopter Swarm"**, James A. Preiss, Wolfgang Honig, Gaurav S. Sukhatme and Nora Ayanian, in Proc. IEEE International Conference on Robotics and Automation, 2017.
+* **"Crazyswarm: A Large Nano-Quadcopter Swarm"**, James A. Preiss, Wolfgang Hönig, Gaurav S. Sukhatme and Nora Ayanian, in Proc. IEEE International Conference on Robotics and Automation, 2017.
 [PDF, ](http://usc-actlab.github.io/publications/Preiss_ICRA2017.pdf)
 [Video](https://youtu.be/ezTayb76x9U)
 
@@ -116,7 +123,7 @@ Leobardo Campos-Macías, David Gómez-Gutiérrez, Rodrigo Aldana-López, Rafael 
 [PDF, ](/papers/online-trajectory-planning-in-cluttered-environments.pdf)
 [Video](https://youtu.be/DJ1IZRL5t1Q)
 
-* **"Target Following on Nano-sized UAV"**, Jaskirat Singh, Master Thesis at ETH Zurich.
+* **"Study and Development of Target Following Capability on Nano-Sized Unmanned Aerial Vehicles"**, Jaskirat Singh, Master's Thesis, ETH Zürich, 2017.
 [PDF, ](https://drive.google.com/open?id=0B25OtRh9Sj8PYTh6MDlFZ1o2blU)
 [Video](https://www.youtube.com/playlist?list=PLjVmOOHPDGkDay3pz_ElfohVTDqN4aBiS)
 
