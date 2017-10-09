@@ -7,6 +7,7 @@ firstScriptTag.parentNode.insertBefore(tag, firstScriptTag);
 var kraken = {
   loadYoutubeVideo: function(element) {
     var id = $(element).attr('data-video-id');
+    ga('send', 'event', 'video', 'play', id);
     var player = new YT.Player(element, {
       videoId: id,
       playerVars: { 'autoplay': 1}
