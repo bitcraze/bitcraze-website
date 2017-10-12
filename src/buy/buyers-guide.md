@@ -16,7 +16,7 @@ system.
 ## I just want to fly the Crazyflie 2.0 from my mobile device
 
 The Crazyflie 2.0 comes with everything you need for flying from a Bluetooth LE 
-enabled mobile device. Currently [Android]((https://play.google.com/store/apps/details?id=se.bitcraze.crazyfliecontrol2)) 
+enabled mobile device. Currently [Android](https://play.google.com/store/apps/details?id=se.bitcraze.crazyfliecontrol2) 
 and [IOS](https://itunes.apple.com/us/app/crazyflie-2.0/id946151480?mt=8) devices are supported.
 
 **What to buy:** [Crazyflie 2.0](https://store.bitcraze.io/collections/kits/products/crazyflie-2-0)
