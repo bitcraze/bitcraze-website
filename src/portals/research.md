@@ -127,6 +127,9 @@ Leobardo Campos-Macías, David Gómez-Gutiérrez, Rodrigo Aldana-López, Rafael 
 [PDF, ](https://drive.google.com/open?id=0B25OtRh9Sj8PYTh6MDlFZ1o2blU)
 [Video](https://www.youtube.com/playlist?list=PLjVmOOHPDGkDay3pz_ElfohVTDqN4aBiS)
 
+* **"Smoothing and Mapping of an Unmanned Aerial Vehicle Using Ultra-wideband Sensors"**, Erik Strömberg's Master Thesis, KTH, Stockholm, 2017.
+[PDF](http://kth.diva-portal.org/smash/record.jsf?pid=diva2%3A1148538&dswid=390)
+
 ### Publications involving Crazyflie 1.0
 ---
 * **“Development of a wireless video transfer system for remote control of a lightweight UAV”**, J. Tosteberg and T. Axelsson, Master’s thesis, Linköping University, Sweden, June 2012.
