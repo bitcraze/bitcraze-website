@@ -160,7 +160,7 @@ front right LED (1) is blinking red twice every second.
 * **Power on and all is good but sensors are not yet calibrated:** The blue LEDs
 (2 and 3) are fully lit and the front right LED (1) is blinking red with 2 seconds interval.
 Put the Crazyflie 2.0 on a level surface and keep it absolutely still to calibrate.
-* **Radio connected:** The front left LED (4) is flickering in read and/or green.
+* **Radio connected:** The front left LED (4) is flickering in red and/or green.
 * **Battery low:** The front right LED (1) is fully lit in red. It's time to
 land and re-charge the battery.
 * **Charging:** The back left blue LED (3) is blinking while the right back blue LED (4) is lit.
