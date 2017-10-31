@@ -42,22 +42,7 @@ some really cool stuff as well as our [You Tube channel](https://www.youtube.com
 ## Contribute!
 
 Open source is about sharing, creating something awesome together and contribute
-to the greater good! Whenever you do something that you think someone else could
-benefit from, please contribute it! If you were curious or confused about something,
-someone else probably will too. Help them by sharing your thoughts, insights and
-discoveries.
-
-* Answer a question on the [forum](//forum.bitcraze.io)
-* Add a hack to [Hackster](https://www.hackster.io/bitcraze)
-* Submit a pull request to on of the [repos on github](https://github.com/bitcraze)
-* Add an issue to one of the [repos on github](https://github.com/bitcraze) with a
-  suggestion for an improvement or a bug report. Or maybe get involved in the
-  discussion on an issue?
-* Add or update the [wiki](//wiki.bitcraze.io). Send us an email at contact@bitcraze.io 
-  to get a user account and get started.
-* Improve this web site. [The source code is on github](https://github.com/bitcraze/bitcraze-website),
-  submit a pull request for your improvements.
-* Comment a [blog post](/blog/)
+to the greater good! It is easy, fun and anyone can do it, read more about [how to contribute](/contribute/).
 
 ## Need help?
 

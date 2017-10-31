@@ -56,6 +56,7 @@
 - title: Development
   subs:
   - {page_id: development-overview}
+  - {page_id: contribute}
   - {title: Github, url: "https://github.com/bitcraze"}
   - {title: Wiki, url: "https://wiki.bitcraze.io"}
   - {title: Forum, url: "https://forum.bitcraze.io"}
