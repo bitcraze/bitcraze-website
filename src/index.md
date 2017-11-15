@@ -19,15 +19,11 @@ page_id: home
 </div>
 
 
-{% announcement Maker Faire Shenzhen; /images/frontpage/mf-shenzhen-banner-2017-2.png %}
-We are going to [Maker Faire Shenzhen](http://www.shenzhenmakerfaire.com/)
-Saturday Nov 11 - Sunday Nov 12.
-
-Meet us in Seeed Studio's booth where we will show the Flow deck, autonomous flight
-with the Crazyflie and possibly some other goodies. 
-
-See you there!        
+{% comment %}
+{% announcement Header goes here; /images/frontpage/someImage.jpg %}
+Some information here
 {% endannouncement %}
+{% endcomment %}
 
 <div class="container-fluid">
     <div class="row content-area">
