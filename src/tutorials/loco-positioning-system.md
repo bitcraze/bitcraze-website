@@ -101,7 +101,7 @@ Now when everything is mounted and powered it is time to configure the system.
 
 * Place your Crazyflie 2.0 in the middle of the flying area.
 * Open the CF client and connect to the Crazyflie 2.0
-
+* If not already done, [configure](https://wiki.bitcraze.io/doc:crazyflie:client:pycfclient:index#firmware_configuration) the Crazyflie 2.0 in __2Mbit__ radio mode. This reduces interference with the UWB radio. If the configuration is changed a restart of the Crazyflie 2.0 is required.
 {% img open the crazyflie client; wide; /images/tutorials/getting_started_with_lps/open_the_crazyflie_client.PNG %}
 {% endsi_step %}
 
