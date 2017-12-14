@@ -29,7 +29,9 @@ The flow deck needs to be mounted underneath the Crazyflie 2.0 using the long pi
 For more information about how to mount an expansion decks please see the [Getting started with expansion decks](/getting-started-with-expansion-decks/) tutorial.
 {% endsi_step %}
 
-{% si_step  Installing Python and the cflib on Windows%}
+{% si_step  Installing Python and the cflib%}
+{% tabgroup %}
+{% tab Windows %}
 The backend library to control the Crazyflie 2.0 is built using python 3 and thus pyhton 3 in needed. Pyhton 3 can be downloaded [here](http://www.python.org).
 
 Install using the standard settings and for convenience tick the Add to PATH checkbox.
@@ -38,12 +40,35 @@ Install using the standard settings and for convenience tick the Add to PATH che
 When python 3 is installed open a command prompt and install the cflib using pip
 **pip3 install cflib**
 {% img cflib install; wide; /images/tutorials/getting_started_stem/pip_cflib.png %}
+{% endtab %}
+{% tab Ubuntu %}
+The following instructions have been tested on Ubuntu 16.04.
+
+To install Python, pip and the Crazyflie library run the following commands:
+
+``` bash
+sudo apt-get install python3 python3-pip python3-usb idle3
+pip3 install cflib
+```
+
+Your user needs access to USB devices in order to use the Crazyradio, run the
+following lines to grant access. After the command is run the Crazyradio needs
+to be inserted again for the rules to take effect.
+
+``` bash
+sudo groupadd plugdev
+sudo usermod -a -G plugdev $USER
+echo 'SUBSYSTEM=="usb", ATTRS{idVendor}=="1915", ATTRS{idProduct}=="7777", MODE="0664", GROUP="plugdev"' | sudo tee /etc/udev/rules.d/99-crazyradio.rules
+```
+
+{% endtab %}
+{% endtabgroup %}
 {% endsi_step %}
 
 {% si_step  Running your first flight script %}
-Now when everything is setup and installed fire up your preferred python editor.
-Here we are using the editor that comes with the python environment.
-Copy the code below into you editor.
+Now when everything is setup and installed start the Python editor IDLE3.
+Select *File->New* and copy/past the script below into the new script. Save
+the script with a suitable name.
 
 ``` python
 """
@@ -106,7 +131,7 @@ if __name__ == '__main__':
 ```
 {% img cflib install; wide; /images/tutorials/getting_started_stem/python_script_example.png %}
 
-Then run it, in our case by pressing F5, and the output should be similar to this.
+Run the script by pressing F5, the output should be similar to this.
 {% img cflib install; wide; /images/tutorials/getting_started_stem/python_cmd_output.png %}
 
 {% endsi_step %}
