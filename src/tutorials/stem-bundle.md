@@ -129,10 +129,12 @@ if __name__ == '__main__':
 
             # We land when the MotionCommander goes out of scope
 ```
-{% img cflib install; wide; /images/tutorials/getting_started_stem/python_script_example.png %}
-
 Run the script by pressing F5, the output should be similar to this.
-{% img cflib install; wide; /images/tutorials/getting_started_stem/python_cmd_output.png %}
+
+```
+Connecting to radio://0/33/2M
+Connected to radio://0/33/2M
+```
 
 {% endsi_step %}
 
