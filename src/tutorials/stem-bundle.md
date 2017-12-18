@@ -80,7 +80,7 @@ the script with a suitable name.
 
 ``` python
 """
-This script shows the basic use of the MotionCommander class.
+This script shows a simple scripted flight path using the MotionCommander class.
 
 Simple example that connects to the crazyflie at `URI` and runs a
 sequence. Change the URI variable to your Crazyflie configuration.
@@ -105,43 +105,54 @@ if __name__ == '__main__':
     with SyncCrazyflie(URI) as scf:
         # We take off when the commander is created
         with MotionCommander(scf) as mc:
+            print('Taking off!')
             time.sleep(1)
-
+            
             # There is a set of functions that move a specific distance
             # We can move in all directions
+            print('Moving forward 0.5m')
             mc.forward(0.5)
             # Wait a bit
             time.sleep(1)
 
-            # Move up 0.2 meters
+            print('Moving up 0.2m')
             mc.up(0.2)
             # Wait a bit
             time.sleep(1)
 
-            # We can do circles or parts of circles
+            print('Doing a 270deg circle');
             mc.circle_right(0.5, velocity=0.5, angle_degrees=270)
 
-            # Move down 0.2 meters
+            print('Moving down 0.2m')
             mc.down(0.2)
             # Wait a bit
             time.sleep(1)
 
-            # Move left 0.2 meters
+            print('Rolling left 0.2m at 0.6m/s')
             mc.left(0.2, velocity=0.6)
             # Wait a bit
             time.sleep(1)
 
+            print('Moving forward 0.5m')
             mc.forward(0.5)
-            # And we can stop
-            mc.stop()
 
             # We land when the MotionCommander goes out of scope
+            print('Landing!')
 ```
-Run the script by pressing F5, the output should be similar to this.
+
+Run the script by pressing F5. The output should look similar to this.
 
 ```
-Connecting to radio://0/33/2M
-Connected to radio://0/33/2M
+Connecting to radio://0/80/250K
+Connected to radio://0/80/250K
+Taking off!
+Moving forward 0.5m
+Moving up 0.2m
+Doing a 270deg circle
+Moving down 0.2m
+Rolling left 0.2m at 0.6m/s
+Moving forward 0.5m
+Landing!
 ```
 
 {% endsi_step %}
@@ -151,3 +162,12 @@ Connected to radio://0/33/2M
 {% youtube qKGjWWvjRt0; wide; 16by9 %}
 
 {% endsi_step %}
+
+{% si_step what's next? %}
+* Explore the [motion commander](https://github.com/bitcraze/crazyflie-lib-python/blob/master/cflib/positioning/motion_commander.py) class. The class can do more then simple directional commands such as scripting using speed and time or together with events.
+* Try out the logging and parameter framework. The [basic logging](https://github.com/bitcraze/crazyflie-lib-python/blob/master/examples/basiclogSync.py) is a good example to start from or digg into the details on the [wiki](https://wiki.bitcraze.io/doc:crazyflie:dev:arch:logparam).
+* Connect a gamepad and with the [flow deck](/getting-started-with-flow-deck/) try optical flow stabilized flight.
+* Add one of the many [expansion deck boards](https://store.bitcraze.io/collections/decks), build your own deck using [prototyping deck](https://www.bitcraze.io/prototyping-deck/) or even design it from ground up using the KiCad [deck template](https://github.com/bitcraze/crazyflie2-exp-template-electronics).
+{% endsi_step %}
+
+
