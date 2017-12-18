@@ -6,39 +6,47 @@ page_id: getting-started-stem-drone-bundle
 ---
 
 {% si_intro The STEM drone bundle %}
-The STEM (Science Technology Engineering Mathematics) drone bundle contains everything you need to start scripting and learning how to operate a robot in 3 dimensions. Thus an inspiring way of learning STEM. This getting started guide will help you get up and running.
+The STEM (Science Technology Engineering Mathematics) drone bundle is based on a
+Crazyflie 2.0 with a Flow Deck. It is an autonomous drone that can be controlled
+from a simple python script to explore and operate a robot in 3 dimensions.
+
+This getting started guide will help you set up the system and make your first
+autonomous flight.
 {% endsi_intro %}
 
-{% si_step package contents %}
+{% si_step required hardware %}
 * 1 x Crazyflie 2.0 Kit
 * 1 x Crazyradio PA
 * 1 x Flow deck
-* 1 x Micro USB cable
 {% endsi_step %}
 
-{% si_step Prerequisite %}
+{% si_step prerequisites %}
 This getting started guide assumes you have already assembled your Crazyflie 2.0. If that is not the case please follow the [Getting started with the Crazyflie 2.0](/getting-started-with-the-crazyflie-2-0/)
 
 This guide also requires that you have updated the Crazyflie to the latest firmware. For more information on how to update the firmware, see the [download latest firmware](/getting-started-with-the-crazyflie-2-0/#latest-fw) section in our getting started with Crazyflie 2.0 tutorial.
 {% endsi_step %}
 
-{% si_step  Mounting the flow deck %}
-The flow deck needs to be mounted underneath the Crazyflie 2.0 using the long pin-headers supplied with the Crazyflie 2.0 Kit. See the below picture
-**Insert flow deck mounted image**
+{% si_step  mounting the flow deck %}
+Mount the Flow Deck underneath the Crazyflie 2.0 using the long pin-headers supplied with the Crazyflie 2.0 Kit.
+{% img Mounting the Flow deck; wide; /images/tutorials/getting_started_stem/stem_bundle_mounted_deck.jpg %}
 
-For more information about how to mount an expansion decks please see the [Getting started with expansion decks](/getting-started-with-expansion-decks/) tutorial.
+For more information about how to mount an expansion deck please see the [Getting started with expansion decks](/getting-started-with-expansion-decks/) tutorial.
 {% endsi_step %}
 
-{% si_step  Installing Python and the cflib%}
+{% si_step installing Python and the cflib%}
 {% tabgroup %}
 {% tab Windows %}
-The backend library to control the Crazyflie 2.0 is built using python 3 and thus pyhton 3 in needed. Pyhton 3 can be downloaded [here](http://www.python.org).
+The backend library used to control the Crazyflie 2.0 is called cflib and is written
+in python 3. To us it you must have Pyhton 3 installed on the computer and it can
+be downloaded [here](http://www.python.org).
 
-Install using the standard settings and for convenience tick the Add to PATH checkbox.
+Install python using the standard settings, and for convenience tick the Add to PATH checkbox.
 {% img Python install; wide; /images/tutorials/getting_started_stem/python3_toPATH.png %}
 
-When python 3 is installed open a command prompt and install the cflib using pip
-**pip3 install cflib**
+When python 3 is installed, open a command prompt and install the cflib using pip.
+
+Type ```pip3 install cflib``` in the command prompt
+
 {% img cflib install; wide; /images/tutorials/getting_started_stem/pip_cflib.png %}
 {% endtab %}
 {% tab Ubuntu %}
@@ -65,7 +73,7 @@ echo 'SUBSYSTEM=="usb", ATTRS{idVendor}=="1915", ATTRS{idProduct}=="7777", MODE=
 {% endtabgroup %}
 {% endsi_step %}
 
-{% si_step  Running your first flight script %}
+{% si_step  running your first flight script %}
 Now when everything is setup and installed start the Python editor IDLE3.
 Select *File->New* and copy/past the script below into the new script. Save
 the script with a suitable name.
@@ -138,8 +146,8 @@ Connected to radio://0/33/2M
 
 {% endsi_step %}
 
-{% si_step The Flow deck script in action! %}
+{% si_step the script in action! %}
 
-{% youtube 64LOEAQJamw; wide; 16by9 %}
+{% youtube qKGjWWvjRt0; wide; 16by9 %}
 
 {% endsi_step %}
