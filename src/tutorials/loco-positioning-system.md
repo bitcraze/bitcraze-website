@@ -69,7 +69,13 @@ To get a good position there are some rules of thumb for the placement of the an
 
 In our TWR reference setup we have placed 3 anchors above and 3 anchors below the flight area, shaped in inverse triangles. This gives good accuracy in X, Y and Z. In our TDoA reference setup we have placed the nodes in the corners of a box as the position in best withing the convex hull.
 
-{% img reference system; wide; /images/tutorials/getting_started_with_lps/reference_system.png %}
+<br>
+
+##### Two Way Ranging mode (TWR)
+{% img reference system; wide; /images/tutorials/getting_started_with_lps/loco_ref_system_6_anchors.png %}
+
+##### Time Difference of Arrival mode (TDoA)
+{% img reference system; wide; /images/tutorials/getting_started_with_lps/loco_ref_system_8_anchors.png %}
 
 {% endsi_step %}
 
@@ -101,27 +107,27 @@ Now when everything is mounted and powered it is time to configure the system.
 {% si_step Click the LPS tab %}
 * Choose the LPS tab. It might have to be made visible from the menu View->Tabs->Loco Positioning Tab
 
-{% img click the lps tab; wide; /images/tutorials/getting_started_with_lps/click_the_lps_tab.PNG %}
+{% img click the lps tab; wide; /images/tutorials/getting_started_with_lps/Click the LPS tab.png %}
 {% endsi_step %}
 
 {% si_step Check anchor status %}
 * Have a look in the Anchor ranging status box and check that there are as many green boxes as there are anchors. If any of them are red it means that the Crazyflie 2.0 can not communicate with that anchor and thus not get any range. If any anchor is constantly red please check that anchors power and configuration.
 
-{% img check the anchor status; wide; /images/tutorials/getting_started_with_lps/check_the_anchor_status.PNG %}
+{% img check the anchor status; wide; /images/tutorials/getting_started_with_lps/Check anchor status.png %}
 {% endsi_step %}
 
 {% si_step Enter anchor positions %}
 * Before you start entering any anchor positions make sure the boxes are green or red. If for some reason they stay white restart the cfclient.
 * Now it is time to enter the positions. The boxes will become red as soon as that position differs from the position saved in the anchor.
 
-{% img enter anchor positions; wide; /images/tutorials/getting_started_with_lps/enter_anchor_positions.PNG %}
+{% img enter anchor positions; wide; /images/tutorials/getting_started_with_lps/Enter anchor positions.png %}
 {% endsi_step %}
 
 {% si_step Write position to anchors %}
-* Now to save the new anchor position to the anchors press the __"write to anchors"__ button.
+* Now to save the new anchor position to the anchors press the __"Write"__ button.
 * Verify that the anchor position boxes changes from red to green. If no change has occurred within 5 seconds try it again.
 
-{% img write position to anchors; wide; /images/tutorials/getting_started_with_lps/write_position_to_anchors.png %}
+{% img write position to anchors; wide; /images/tutorials/getting_started_with_lps/Write position to anchors.png %}
 {% endsi_step %}
 
 
@@ -133,14 +139,14 @@ Verifying the anchor positions is good to rule out problems with the positioning
 * Verify that the correct anchor is highlighted.
 * Do this for all anchors and correct any wrongly configured anchor address.
 
-{% img Verify anchors position; wide; /images/tutorials/getting_started_with_lps/verify_anchors_position.PNG %}
+{% img Verify anchors position; wide; /images/tutorials/getting_started_with_lps/Verify anchors position.png %}
 {% endsi_step %}
 
 {% si_step Verify estimated position %}
 * Switch back to position estimate mode
 * Move the CF around and verify that the movement in the graphs correspond to the physical movement.
 
-{% img Verify estimated position; wide; /images/tutorials/getting_started_with_lps/verify_estimated_position.PNG %}
+{% img Verify estimated position; wide; /images/tutorials/getting_started_with_lps/Verify estimated position.png %}
 {% endsi_step %}
 
 {% si_intro Flying with the system %}
