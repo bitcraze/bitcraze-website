@@ -5,15 +5,8 @@ permalink: /getting-started-with-the-loco-positioning-system/
 page_id: getting-started-with-the-loco-positioning-system
 ---
 
-{% si_intro Update and configure the nodes  %}
-In order to illustrate how to set up a system we have documented a reference system and how we've set it up.
-The reference system is based on the  [Indoor explorer bundle](https://store.bitcraze.io/collections/bundles/products/indoor-explorer-bundle) which contains the following:
-
-* 6 x Loco positioning nodes
-* 1 x Loco positioning deck
-* 1 x Crazyflie 2.0 kit
-* 1 x Crazyradio PA
-* 1 x micro-USB cable
+{% si_intro Introduction %}
+The loco positioning system can be configured in two modes. In Two Way Ranging (TWR) mode and in Time Difference of Arrival (TDoA) mode. In order to illustrate how to setup the system we have documented two reference systems. One in TWR mode based on the [Indoor explorer bundle](https://store.bitcraze.io/collections/bundles/products/indoor-explorer-bundle) that contains 6 nodes and the other one in TDoA based on the [Swarm bundle](https://store.bitcraze.io/collections/bundles/products/swarm-bundle) containing 8 nodes. For the TDoA installation start with a 8 anchor TWR setup. Switching to TDoA can be done easily afterwards.
 
 {% endsi_intro %}
 
@@ -28,7 +21,7 @@ For mounting the Loco positioning deck check out the [Getting started with expan
 {% endsi_step %}
 
 {% si_step Download the LPS configuration tool %}
-Before setting up the system you need to update the firmware and set the addresses of the nodes from 0-5.
+Before setting up the system you need to update the firmware and set the addresses of the nodes starting from 0 up to.
 To do this download and run the [LPS configuration tool](https://github.com/bitcraze/lps-tools/releases) exe file.
 {% endsi_step %}
 
@@ -57,7 +50,7 @@ For updating the LPS node firmware go [here](https://github.com/bitcraze/lps-nod
 Now it’s time to set the mode for the node turning them into anchors and setting the individual addresses for each anchor. To facilitate setting up the system in a room a tip is to mark each node with their individual anchor number for easier identification.
 {% img LPS configuration tool; medium; /images/tutorials/getting_started_with_lps/configure.png %}
 
-1. Start by setting the individual IDs, number them sequentially from 0-5.
+1. Start by setting the individual IDs, number them sequentially from 0.
 2. Choose **"Anchor (TWR)"**
 3. Click **Apply**
 
@@ -68,13 +61,13 @@ Now it’s time to set the mode for the node turning them into anchors and setti
 {% endsi_intro %}
 
 {% si_step Anchor positions %}
-To get a good position there are some rules of thumb for the placement of the six anchors.
+To get a good position there are some rules of thumb for the placement of the anchors.
 
 * The anchors should be evenly distributed around the flying volume and at least 2m apart.
 * The anchors should have line of site with the flying volume.
 * The anchor antenna should be placed 15cm from any wall, ceiling or metal object to avoid interfering reflections. In our reference set-up we accomplish this by using these [3D printed stands](https://github.com/bitcraze/bitcraze-mechanics/blob/master/LPS-anchor-stand/anchor-stand.stl). In the repository click "Raw" and then choose "save as" and save the file as a stl file.
 
-In our reference setup we have placed 3 anchors above and 3 anchors below the flight area, shaped in inverse triangles. This gives good accuracy in X, Y and Z.
+In our TWR reference setup we have placed 3 anchors above and 3 anchors below the flight area, shaped in inverse triangles. This gives good accuracy in X, Y and Z. In our TDoA reference setup we have placed the nodes in the corners of a box as the position in best withing the convex hull.
 
 {% img reference system; wide; /images/tutorials/getting_started_with_lps/reference_system.png %}
 
@@ -93,7 +86,7 @@ They can be connected at the same time so the anchor can still be power from the
 {% endsi_step %}
 
 {% si_intro Configure and verify the system %}
-
+The following section will show a 8 anchor system but the procedure is very similar for a 6 anchor setup were anchor 6 & 7 will be grayed out.
 {% endsi_intro %}
 
 {% si_step Open the Crazyflie client %}
@@ -112,7 +105,7 @@ Now when everything is mounted and powered it is time to configure the system.
 {% endsi_step %}
 
 {% si_step Check anchor status %}
-* Have a look in the Anchor ranging status box and check that there are six green boxes. If any of them are red it means that the Crazyflie 2.0 can not communicate with that anchor and thus not get any range. If any anchor is constantly red please check that anchors power and configuration.
+* Have a look in the Anchor ranging status box and check that there are as many green boxes as there are anchors. If any of them are red it means that the Crazyflie 2.0 can not communicate with that anchor and thus not get any range. If any anchor is constantly red please check that anchors power and configuration.
 
 {% img check the anchor status; wide; /images/tutorials/getting_started_with_lps/check_the_anchor_status.PNG %}
 {% endsi_step %}
@@ -138,7 +131,7 @@ Verifying the anchor positions is good to rule out problems with the positioning
 * Switch mode to anchor identification
 * Move the Crazyflie close to one anchor
 * Verify that the correct anchor is highlighted.
-* Do this for all six anchors and correct any wrongly configured anchor address.
+* Do this for all anchors and correct any wrongly configured anchor address.
 
 {% img Verify anchors position; wide; /images/tutorials/getting_started_with_lps/verify_anchors_position.PNG %}
 {% endsi_step %}
