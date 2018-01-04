@@ -8,7 +8,7 @@ page_id: product-breakout-deck
 {% buy_online https://store.bitcraze.io/collections/decks/products/breakout-deck %}
 
 {% product_img Breakout deck; medium;
-/images/breakout-deck/Breakout-deck-585px.jpg
+/images/breakout-deck/breakout_deck_585px-1.JPG
 %}
 
 {% product_highlight
