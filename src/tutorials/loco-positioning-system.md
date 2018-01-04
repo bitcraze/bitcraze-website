@@ -67,14 +67,14 @@ To get a good position there are some rules of thumb for the placement of the an
 * The anchors should have line of site with the flying volume.
 * The anchor antenna should be placed 15cm from any wall, ceiling or metal object to avoid interfering reflections. In our reference set-up we accomplish this by using these [3D printed stands](https://github.com/bitcraze/bitcraze-mechanics/blob/master/LPS-anchor-stand/anchor-stand.stl). In the repository click "Raw" and then choose "save as" and save the file as a stl file.
 
-In our TWR reference setup we have placed 3 anchors above and 3 anchors below the flight area, shaped in inverse triangles. This gives good accuracy in X, Y and Z. In our TDoA reference setup we have placed the nodes in the corners of a box as the position in best withing the convex hull.
+In our TWR reference setup we have placed 3 anchors above and 3 anchors below the flight area, shaped in inverse triangles. This gives good accuracy in X, Y and Z. In our TDoA reference setup we have placed the nodes in the corners of a box as the position estimation for TDoA works best within the convex hull.
 
 <br>
 
-##### Two Way Ranging mode (TWR)
+##### 6 anchor setup. Most common in Two Way Ranging mode (TWR)
 {% img reference system; wide; /images/tutorials/getting_started_with_lps/loco_ref_system_6_anchors.png %}
 
-##### Time Difference of Arrival mode (TDoA)
+##### 8 anchor setup. Usually for Time Difference of Arrival mode (TDoA)
 {% img reference system; wide; /images/tutorials/getting_started_with_lps/loco_ref_system_8_anchors.png %}
 
 {% endsi_step %}
