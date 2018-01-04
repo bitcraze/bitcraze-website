@@ -22,14 +22,19 @@ create custom patterns in firmware that you control from your computer.
 Two additional strong front facing LEDs can be switched on and off to
 act as headlights.
 
-The color and light sequence of the LED-ring can be controlled from your client 
-while in flight. Why not show starboard/port with red and green colors or paint 
+The color and light sequence of the LED-ring can be controlled from your client
+while in flight. Why not show starboard/port with red and green colors or paint
 with light in the dark?
-  
-The LED-ring expansion deck is designed for mounting under the Crazyflie 2.0 
+
+The LED-ring expansion deck is designed for mounting under the Crazyflie 2.0
 facing downwards.
 
 ---
+
+#### Projects
+{% hackster krichardsson/light-paint-with-a-drone-d050af %}
+{% hackster krichardsson/bike-turning-signal-75d988 %}
+{% hackster chromebookbob/long-exposure-light-painting-2c4106 %}
 
 #### Resources
 

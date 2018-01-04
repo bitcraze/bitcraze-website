@@ -28,6 +28,10 @@ The Flow breakout features the VL53L0x ToF sensor and the PMW3901 optical flow s
 
 ---
 
+#### Projects
+
+{% hackster 57245/touchless-mouse-e3053e %}
+
 #### Resources
 
 - [Getting help](/getting-help/)

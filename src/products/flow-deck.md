@@ -24,7 +24,16 @@ This creates a flying 3D robot that can be pre-programmed to fly distances in an
 
 ---
 
+#### Showcase video
 {% youtube 90Eho7ocZfg; medium; 16by9 %}
+
+---
+
+#### Projects
+{% hackster krichardsson/light-paint-with-a-drone-d050af %}
+{% hackster chathuranga-liyanage/beginner-s-guide-to-autonomous-quadcopters-9b5382 %}
+
+---
 
 #### Resources
 
