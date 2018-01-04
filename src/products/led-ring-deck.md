@@ -36,6 +36,8 @@ facing downwards.
 {% hackster krichardsson/bike-turning-signal-75d988 %}
 {% hackster chromebookbob/long-exposure-light-painting-2c4106 %}
 
+---
+
 #### Resources
 
 - [Start here](/start/)

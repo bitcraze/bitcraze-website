@@ -169,6 +169,8 @@ it's a breeze to update.
 {% hackster fredg/crazyflie-2-0-fpv-setup-d2fc25 %}
 {% hackster crazyflie-net/walkera-devo-7e-transmitter-crazyflie-2-mod-c32aa5 %}
 
+---
+
 #### Resources
 
 - [Start here](/start/)

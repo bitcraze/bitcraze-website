@@ -53,6 +53,8 @@ range increase as with the Crazyflie 2.0.
 {% hackster chromebookbob/long-exposure-light-painting-2c4106 %}
 {% hackster fredg/crazyflie-2-0-fpv-setup-d2fc25 %}
 
+---
+
 #### Resources
 
 - [Start here](/start/)

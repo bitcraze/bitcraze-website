@@ -29,6 +29,8 @@ properties of the world around the Crazyflie?
 {% hackster evoggy/flying-traffic-light-8be87d %}
 {% hackster fredg/crazyflie-2-0-fpv-setup-d2fc25 %}
 
+---
+
 #### Resources
 
 - [Start here](/start/)
