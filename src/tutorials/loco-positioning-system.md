@@ -71,10 +71,10 @@ In our TWR reference setup we have placed 3 anchors above and 3 anchors below th
 
 <br>
 
-##### 6 anchor setup. Most common in Two Way Ranging mode (TWR)
+##### Two Way Ranging, 6 anchor reference setup (TWR)
 {% img reference system; wide; /images/tutorials/getting_started_with_lps/loco_ref_system_6_anchors.png %}
 
-##### 8 anchor setup. Usually for Time Difference of Arrival mode (TDoA)
+##### Time Difference of Arrival, 8 anchor reference setup (TDoA)
 {% img reference system; wide; /images/tutorials/getting_started_with_lps/loco_ref_system_8_anchors.png %}
 
 {% endsi_step %}
@@ -130,7 +130,6 @@ Now when everything is mounted and powered it is time to configure the system.
 {% img write position to anchors; wide; /images/tutorials/getting_started_with_lps/Write position to anchors.png %}
 {% endsi_step %}
 
-
 {% si_step Verify anchors position %}
 Verifying the anchor positions is good to rule out problems with the positioning later.
 
@@ -140,6 +139,15 @@ Verifying the anchor positions is good to rule out problems with the positioning
 * Do this for all anchors and correct any wrongly configured anchor address.
 
 {% img Verify anchors position; wide; /images/tutorials/getting_started_with_lps/Verify anchors position.png %}
+{% endsi_step %}
+
+{% si_step Switch to TDoA mode if this is wanted %}
+* In the crazyflie status section tick the TWR checkbox. This will enable the "Switch to mode TDoA" in the anchor status section.
+* Press the "Switch to mode TDoA" to switch the anchor modes to TDoA
+* As a last step confirm the mode by ticking the Auto button in the crazyflie status section and confirm that the TDoA box turns green
+
+***Add correct image***
+{% img write position to anchors; wide; /images/tutorials/getting_started_with_lps/Write position to anchors.png %}
 {% endsi_step %}
 
 {% si_step Verify estimated position %}
