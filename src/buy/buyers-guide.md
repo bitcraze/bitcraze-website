@@ -209,7 +209,8 @@ computer. The location precision of the loco positioning system is about +/-10cm
 
 ### Camera based system
 
-Camera based systems such as solutions from Qualisys or Vicon can be used to
+Positioning systems that use external cameras (often called MoCap) 
+such as solutions from Qualisys or Vicon can be used to
 measure the position of a Crazyflie with high precision. In these systems the
 position is calculated in an external computer and either the position or commands
 for pitch/roll/yaw/thrust must be sent to the Crazyflie in real time via radio.
@@ -241,10 +242,9 @@ and [Flow decks](https://store.bitcraze.io/collections/decks/products/flow-deck?
 ### The Loco Positioning System
 
 The default mode (Two way ranging) of the Loco Positioning system supports
-positioning of one Crazyflie and to position multiple Crazyflies the TDoA mode
-must be used. The TDoA mode is available in the source code but is still considered
-experimental and requires some extra configuration. The TDoA mode works like an
-indoor GPS system and each Crazyflie only listens to positioning information from the
+positioning of only one Crazyflie so to position multiple Crazyflies the system must 
+be switched to the TDoA mode. The TDoA mode works like an
+indoor GPS system where the Crazyflies only listens to positioning information from the
 anchors which makes it possible to position a large number of drones.
 Due to the nature of TDoA the position estimation works best in the space
 inside the anchors (the convex hull) and we recommend using 8 anchors for TDoA.
