@@ -6,6 +6,7 @@ page_id: videogallery
 ---
 
 {% media_gallery %}
+{% gallery_youtube Cg6V3qrSguk; 16by9; Les Sphères Curieuses  %}
 {% gallery_youtube T9fkjAp942A; 16by9; Target Following on Crazyflie 2.0 %}
 {% gallery_youtube YnGZ-arUwgc; 16by9; Downwash-aware Trajectory planning %}
 {% gallery_youtube EIWUbchfT-U; 16by9; Drone&Bass at Øredev 2016 %}
@@ -21,7 +22,7 @@ page_id: videogallery
 {% gallery_youtube NwxOwYi0jFQ; 16by9; Multi-flipping maneuvers %}
 {% gallery_youtube CP-fBvcUAls; 16by9; Dot-drawing with drones %}
 {% gallery_youtube T_22q7x0mcw; 16by9; Crazyflie 2.0 controlled with HoloLens %}
-{% gallery_youtube DJ1IZRL5t1Q; 16by9; Online Planning and Navigation %} 
+{% gallery_youtube DJ1IZRL5t1Q; 16by9; Online Planning and Navigation %}
 {% endmedia_gallery %}
 
 ---
