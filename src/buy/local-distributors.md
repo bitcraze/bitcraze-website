@@ -5,15 +5,9 @@ permalink: /distributors/
 page_id: buy-distributors
 ---
 
-{% continent Main distributor - world wide %}
+{% continent World Wide %}
+{% distributor Bitcraze; https://store.bitcraze.io; /images/distributors/bitcraze-store.png %}
 {% distributor Seeedstudio; http://www.seeedstudio.com/item_list.html?category=108; /images/distributors/seeed.png %}
-
-Products designed by Bitcraze are retailed though the
-[Seeedstudio webshop](http://www.seeedstudio.com/item_list.html?category=108),
-but the products are also available from a number of local distributors word-wide.
-
-{% continent For distributors %}
-If you would like to distribute our products or if you already are distributing our products but you are not in the list then please [drop us an email](/contact/).
 
 {% continent Americas %}
 
@@ -70,7 +64,7 @@ If you would like to distribute our products or if you already are distributing 
 {% country Germany %}
 {% distributor Antratek; https://www.antratek.de/catalogsearch/result/?q=+bitcraze; /images/distributors/Antratek-EEM_logo-nieuw-300x56.jpg %}
 {% distributor Watterott; http://www.watterott.com/index.php?page=search&page_action=query&desc=on&sdesc=on&keywords=crazyflie&x=-1232&y=-27; /images/distributors/wetterott.jpg %}
-{% distributor Exp-tech; http://www.exp-tech.de/catalogsearch/result/?q=crazyflie; /images/distributors/exp_tech_square.jpg %}
+{% distributor Exp-tech; https://www.exp-tech.de/search?sSearch=crazyflie; /images/distributors/exp_tech_square.jpg %}
 
 {% country Netherlands %}
 {% distributor Antratek; https://www.antratek.nl/catalogsearch/result/?q=+bitcraze; /images/distributors/Antratek-EEM_logo-nieuw-300x56.jpg %}
@@ -88,5 +82,8 @@ If you would like to distribute our products or if you already are distributing 
 {% country United Kingdom %}
 {% distributor Digitalmeans; https://digitalmeans.co.uk/shop/index.php?route=product/search&search=crazyflie; /images/distributors/digitalmeans.png %}
 {% distributor Active Robotics; http://www.active-robots.com/catalogsearch/result/?q=crazyflie; /images/distributors/activerobots.png %}
-{% distributor Coolcomponents; https://www.coolcomponents.co.uk/catalogsearch/result/?q=crazyflie; /images/distributors/coolcomponents-300x46.gif %}
+{% distributor Coolcomponents; https://coolcomponents.co.uk/search?type=article%2Cpage%2Cproduct&q=crazyflie*; /images/distributors/coolcomponents-300x46.gif %}
 {% distributor Unmanned techshop; http://www.unmannedtechshop.co.uk/search.php?search_query=crazyflie; /images/distributors/unmanned_tech.png %}
+
+{% continent For distributors %}
+If you would like to distribute our products or if you already are distributing our products but you are not in the list then please [drop us an email](/contact/).
