@@ -55,23 +55,24 @@ for instance a robot. Read more on the [Loco Positioning Node page.](/loco-pos-n
 
 #### Positioning modes
 
-Loco Positioning System implements two different positioning modes, **Two Way Ranging (TWR)** and **Time Difference of Arrival (TDoA)**.
+The Loco Positioning System implements two different positioning modes, **Two Way Ranging (TWR)** and **Time Difference of Arrival (TDoA)**.
 
-In **TWR mode**, the tag pings each anchors in sequence, this allows to measure the distance between the tag and the anchors.
+In **TWR mode**, the tag pings the anchors in sequence, this allows it to measure the distance between the tag and the anchors.
 Using this information, a theoretical minimum of 4 Anchors are required to calculate the 3D position of a Tag, but a more realistic number is 6 to add redundancy and accuracy.
 One advantage of this mode is that it stays accurate even when the tag leaves the space delimited by the anchors.
 In this mode it is also very easy to add more anchors to extend the reach of the system, for example to cover multiple rooms.
 The main disadvantage is that the tag is actively communicating with the anchors, this means that adding tags will use more radio bandwidth and requires each tag to share the system.
 TWR has been used successfully for one Crazyflie.
-Flying more Crazyflie in this mode is using an experimental TDMA mode that has been tested for up to 4 Crazyflies with reduced performance.
+Flying multiple Crazyflies in this mode is possible using the experimental TDMA mode which that has been tested for up to 4 Crazyflies with reduced performance.
 
 In **TDoA mode**, the anchor system is continuously sending synchronization packets.
-A tag listening to these packets is able to calculate its relative distance in between two anchor by measuring the packets time difference of arrival.
-The great advantage of this mode is that the tag only passively listen, so new tags do not add load to the system, which allows to position any number of tags or Crazyflies.
+A tag listening to these packets can calculate the relative distance to two anchors by measuring the time difference of arrival of the packets.
+From the TDoA information it is possible to calculate the 3D position in space.
+The great advantage of this mode is that the tag is only passively listening, so new tags do not add any load to the system, which allows to position any number of tags or Crazyflies.
 This makes it a perfect mode for swarming.
 One disadvantage is that TDoA is more sensitive to anchor placement, ideally the tag should always be within, or very close to, the space delimited by the anchor system.
-This means that TDoA works best with 8 anchors placed on each corner of the space.
-Also, since the anchor system is synchronized, it is not easy to add anchor to expand the system reach.
+This means that TDoA works best with 8 anchors placed in corners of the flying space.
+Also, since the anchor system is synchronized, it is not possible (at least not not easy) to use more than 8 anchors to expand the reach of the system.
 
 #### Performance
 
