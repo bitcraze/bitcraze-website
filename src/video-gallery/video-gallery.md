@@ -7,6 +7,7 @@ page_id: videogallery
 
 {% media_gallery %}
 {% gallery_youtube Cg6V3qrSguk; 16by9; Les Sphères Curieuses  %}
+{% gallery_youtube uWKJrYQ6gf4; 16by9; Introduction to Control of UAVs  %}
 {% gallery_youtube T9fkjAp942A; 16by9; Target Following on Crazyflie 2.0 %}
 {% gallery_youtube YnGZ-arUwgc; 16by9; Downwash-aware Trajectory planning %}
 {% gallery_youtube EIWUbchfT-U; 16by9; Drone&Bass at Øredev 2016 %}
