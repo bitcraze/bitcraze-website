@@ -35,7 +35,14 @@ Before setting up the system you need to update the firmware and configure the t
 {% endsi_intro %}
 
 {% si_step Download the LPS configuration tool %}
-Download and run the [LPS configuration tool](https://github.com/bitcraze/lps-tools/releases) exe file.
+{% tabgroup %}
+{% tab Windows native installation %}
+Download and run the [LPS configuration tool](https://github.com/bitcraze/lps-tools/releases) .exe installer to install the LPS tools.
+{% endtab %}
+{% tab Installing from source (Linux/Mac/Windows) %}
+Clone the [LPS configuration tool GIT repo](https://github.com/bitcraze/lps-tools) and follow the [readme instruction](https://github.com/bitcraze/lps-tools#running-instruction) to run the tool.
+{% endtab %}
+{% endtabgroup %}
 {% endsi_step %}
 
 {% si_step Download the LPS node firmware %}
