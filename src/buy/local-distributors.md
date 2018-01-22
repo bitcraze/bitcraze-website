@@ -69,6 +69,9 @@ page_id: buy-distributors
 {% country Netherlands %}
 {% distributor Antratek; https://www.antratek.nl/catalogsearch/result/?q=+bitcraze; /images/distributors/Antratek-EEM_logo-nieuw-300x56.jpg %}
 
+{% country Spain %}
+{% distributor Corzotech; https://corzotech.com/en/65-crazyflie-bitcraze; /images/distributors/CORZOTECH.jpg %}
+
 {% country Sweden %}
 {% distributor Electrokit; http://www.electrokit.com/productsearch?id=1&q=crazyflie&cathandle=search; /images/distributors/LOGO-electrokit-logo-embossed.png %}
 
