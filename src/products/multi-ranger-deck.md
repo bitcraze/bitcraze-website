@@ -7,6 +7,12 @@ page_id: product-multi-ranger-deck
 
 {% coming_soon %}
 
+{% product_img Flow deck; medium;
+/images/multi-ranger/multi-ranger_deck_585px.jpg
+%}
+
+
+
 {% product_highlight
 fa-arrows;
 Laser ranging;
