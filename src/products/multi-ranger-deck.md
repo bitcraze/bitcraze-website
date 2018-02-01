@@ -30,11 +30,14 @@ Interact with the world around
 With the Multi-ranger deck and the [Flow deck](/flow-deck), the Crazyflie becomes an interactive autonomous platform.
 It has the capability to sense the space around it and to react to it.
 
-This allows for simple interactivity like obstacle avoidance.
-Thanks to the Crazyflie python API, it is easy to read the distance sensor measurements like in the push example described in the [getting started guide](/getting-started-with-stem-plus-drone-bundle).
+This allows for interactivity like obstacle avoidance.
 
 It also allows to start working on environment-aware problems like Simultaneous Localization And Mapping (SLAM) algorithms.
 
+---
+
+#### Showcase video
+{% youtube tQ9ygfUFOz8; medium; 16by9 %}
 
 ---
 
