@@ -6,7 +6,7 @@ page_id: getting-started-stem-plus-drone-bundle
 ---
 
 {% si_intro The STEM plus drone bundle %}
-The STEM (Science Technology Engineering Mathematics) plus drone bundle is based on a Crazyflie 2.0 with a Flow Deck and a MultiRanger deck.
+The STEM (Science Technology Engineering Mathematics) plus drone bundle is based on a Crazyflie 2.0 with a Flow Deck and a Multi-ranger deck.
 It is an autonomous drone that can be controlled from a simple python script to explore and operate a robot in 3 dimensions.
 It has the ability to detect obstacles around it.
 
@@ -17,7 +17,7 @@ This getting started guide will help you set up the system and make your first a
 * 1 x Crazyflie 2.0 Kit
 * 1 x Crazyradio PA
 * 1 x Flow deck
-* 1 x MultiRanger deck
+* 1 x Multi-ranger deck
 {% endsi_step %}
 
 {% si_step prerequisites %}
@@ -27,8 +27,9 @@ This guide also requires that you have updated the Crazyflie to the latest firmw
 {% endsi_step %}
 
 {% si_step  mounting the flow deck %}
-Mount the Flow Deck underneath and the Multiranger deck above the Crazyflie 2.0 using the long pin-headers supplied with the Crazyflie 2.0 Kit.
-{% img Mounting the Flow deck; wide; /images/tutorials/getting_started_stem/stem_bundle_mounted_deck.jpg %}
+Mount the Flow Deck underneath and the Multi-ranger deck above the Crazyflie 2.0 using the long pin-headers supplied with the Crazyflie 2.0 Kit.
+{% img Mounting the Flow deck; wide; /images/tutorials/getting_started_stem_plus/getting_started_with_stem_plus_770px.jpg %}
+{% img Mounting the Flow deck; wide; /images/tutorials/getting_started_stem_plus/getting_started_with_stem_plus_770px-2.jpg %}
 
 For more information about how to mount an expansion deck please see the [Getting started with expansion decks](/getting-started-with-expansion-decks/) tutorial.
 {% endsi_step %}
@@ -98,7 +99,7 @@ import cflib.crtp
 from cflib.crazyflie import Crazyflie
 from cflib.crazyflie.syncCrazyflie import SyncCrazyflie
 from cflib.positioning.motion_commander import MotionCommander
-from cflib.utils.multi_ranger import MultiRanger
+from cflib.utils.multi_ranger import Multi-ranger
 
 URI = 'radio://0/80/2M'
 
@@ -125,7 +126,7 @@ if __name__ == '__main__':
     cf = Crazyflie(rw_cache='./cache')
     with SyncCrazyflie(URI, cf=cf) as scf:
         with MotionCommander(scf) as motion_commander:
-            with MultiRanger(scf) as multi_ranger:
+            with Multi-ranger(scf) as multi_ranger:
                 keep_flying = True
 
                 while keep_flying:
@@ -166,7 +167,7 @@ Demo terminated!
 
 {% si_step the script in action! %}
 
-{% youtube qKGjWWvjRt0; wide; 16by9 %}
+{% youtube tQ9ygfUFOz8; wide; 16by9 %}
 
 {% endsi_step %}
 
