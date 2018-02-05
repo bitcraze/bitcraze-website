@@ -180,7 +180,7 @@ You can fly the Crazyflie 2.0 either from a mobile device or a computer.
 {% tabgroup %}
 {% tab Mobile device %}
 Using a mobile device is the fastest way to get into the air, but it might require
-some more piloting skills. 
+some more piloting skills.
 
 Continue reading the next section for instructions on how to install the app on your phone
 {% endtab %}
@@ -233,9 +233,9 @@ There are a few options of how to run the PC client
 {% tabgroup %}
 {% tab VM %}
 We have created a virtual machine (VM) to help you get into the air as quickly as possible.
-The VM has all software you need for flight and development pre-installed. Since 
-it runs on a virtual machine it should work the same way on most operating systems 
-and this is also why our documentation is based on the virtual machine. 
+The VM has all software you need for flight and development pre-installed. Since
+it runs on a virtual machine it should work the same way on most operating systems
+and this is also why our documentation is based on the virtual machine.
 {% endtab %}
 {% tab Windows %}
 There is an installer for native installation on Windows. This option will install
@@ -245,23 +245,23 @@ support for development.
 Read more in the [install on Windows](#inst-win) section.
 {% endtab %}
 {% tab Linux %}
-On Linux it is possible to run the client from source code. With this option you 
-are required to clone the source code from git and install a few software packages. 
-If you are interested in this solution, read more about how to set it up on 
+On Linux it is possible to run the client from source code. With this option you
+are required to clone the source code from git and install a few software packages.
+If you are interested in this solution, read more about how to set it up on
 [github](https://github.com/bitcraze/crazyflie-clients-python/blob/master/README.md).
 
 
-When you have set up the client, insert the Crazyradio PA and your gamepad in 
-your USB-ports and start the client. Continue reading about how to [configure the client](#config-client) 
+When you have set up the client, insert the Crazyradio PA and your gamepad in
+your USB-ports and start the client. Continue reading about how to [configure the client](#config-client)
 {% endtab %}
 {% tab OS X %}
-On OS X it is possible to run the client from source code. With this option you 
-are required to clone the source code from git and install a few software packages. 
-If you are interested in this solution, read more about how to set it up on 
+On OS X it is possible to run the client from source code. With this option you
+are required to clone the source code from git and install a few software packages.
+If you are interested in this solution, read more about how to set it up on
 [github](https://github.com/bitcraze/crazyflie-clients-python/blob/master/README.md).
 
-When you have set up the client, insert the Crazyradio PA and your gamepad in 
-your USB-ports and start the client. Continue reading about how to [configure the client](#config-client) 
+When you have set up the client, insert the Crazyradio PA and your gamepad in
+your USB-ports and start the client. Continue reading about how to [configure the client](#config-client)
 {% endtab %}
 {% endtabgroup %}
 {% endsi_step %}
@@ -270,11 +270,11 @@ your USB-ports and start the client. Continue reading about how to [configure th
 
 
 {% si_intro Installing on VM; inst-virtualmachine %}
-The virtual machine (VM) to help you get into the air as quickly as possible, 
-it has all software you need for flight and development pre-installed. 
+The virtual machine (VM) to help you get into the air as quickly as possible,
+it has all software you need for flight and development pre-installed.
 
 Unfortunately there have been some reports lately of problems using the VM with USB.
-If you experience problems when flying, consider a native solution. 
+If you experience problems when flying, consider a native solution.
 {% endsi_intro %}
 
 {% si_step install VirtualBox; inst-virtualbox %}
@@ -288,14 +288,7 @@ preconfigured virtual machine.
 
 {% si_step download the Bitcraze virtual machine; download-vm %}
 Once you have installed VirtualBox you can download the virtual machine
-using one of these links.
-
-{{ "
-* Bitcraze VM 2017.03
-* [torrent](http://files.bitcraze.se/dl/BitcrazeVM_2017.03.ova.torrent)
-* [direct download 1](http://files.bitcraze.se/dl/BitcrazeVM_2017.03.ova)
-* [direct download 2](https://mega.nz/#!iRBUTLQT!Rb4GhehAcewn2MuNT60wD7j8-Jow9lF1HOAhQWZAxfI)
-" | markdownify | add_class_to_top: "tutorial-download-list" }}
+from the [Bitcraze VM release page](https://github.com/bitcraze/bitcraze-vm/releases/).
 
 {% endsi_step %}
 
@@ -352,14 +345,14 @@ for all projects.
 Double click the “Crazyflie client” icon on the VM desktop
 {% img Crazyflie client icon; narrow; /images/getting-started/cf-client-icon.png; circle-border %}
 
-Continue reading about [configuring the client](#config-client) 
+Continue reading about [configuring the client](#config-client)
 {% endsi_step %}
 
 
 
 
 {% si_intro Installing on Windows; inst-win %}
-The windows installer installs the Crazyflie client on your Windows machine. 
+The windows installer installs the Crazyflie client on your Windows machine.
 {% endsi_intro %}
 
 {% si_step download installer %}
@@ -381,7 +374,7 @@ Install the [Crazyradio Windows USB driver](https://wiki.bitcraze.io/doc:crazyra
 {% endsi_step %}
 
 {% si_step start the Crazyflie client %}
-Start the Crazyflie client from the start menu 
+Start the Crazyflie client from the start menu
 {% endsi_step %}
 
 
