@@ -96,23 +96,6 @@ Wojciech Giernacki, Mateusz Skwierczyński, Wojciech Witwicki, Paweł Wroński a
 [Video 3, ](https://www.youtube.com/watch?v=3r1ks7B15AA)
 [Video 4](https://www.youtube.com/watch?v=IAwlL2Y9XHA)
 
-* **"Planning and Control for Quadrotor Flight through Cluttered Environments"**, B. Landry,  Master's thesis, Massachusetts Institute of Technology, USA, June 2015.
-[PDF, ](http://groups.csail.mit.edu/robotics-center/public_papers/Landry15.pdf)
-[Video, ](https://www.youtube.com/watch?v=v-s564NoAu0)
-[Code](https://github.com/blandry/crazyflie-tools)
-
-* **"Mixed Reality for Robotics"**, W. Hönig, C. Milanes, L. Scaria, T. Phan, M. Bolas, and N. Ayanian, IROS, 2015.
-[PDF, ](http://www-bcf.usc.edu/~ayanian/files/Ayanian_IROS2015a.pdf)
-[Video](https://www.youtube.com/watch?v=px9iHkA0nOI)
-
-* **"System Identification of the Crazyflie 2.0 Nano Quadrocopter"**, J. Förster,  Bachelor's thesis, ETH Zürich, 2015.
-[PDF, ](https://polybox.ethz.ch/index.php/s/20dde63ee00ffe7085964393a55a91c7)
-
-* **"Stippling with aerial robots"**, B. Galea, E. Kia, N. Aird, and P. G. Kry, Computational Aesthetics / Expressive, 2016.
-[PDF, ](http://www.cs.mcgill.ca/~kry/pubs/stippling/stippling.pdf)
-[Video 1, ](https://www.youtube.com/watch?v=CP-fBvcUAls)
-[Video 2](https://www.youtube.com/watch?v=N_B6Fs9U_go)
-
 * **"Crazyswarm: A Large Nano-Quadcopter Swarm"**, James A. Preiss, Wolfgang Hönig, Gaurav S. Sukhatme and Nora Ayanian, in Proc. IEEE International Conference on Robotics and Automation, 2017.
 [PDF, ](http://usc-actlab.github.io/publications/Preiss_ICRA2017.pdf)
 [Video](https://youtu.be/ezTayb76x9U)
@@ -130,28 +113,46 @@ Leobardo Campos-Macías, David Gómez-Gutiérrez, Rodrigo Aldana-López, Rafael 
 * **"Smoothing and Mapping of an Unmanned Aerial Vehicle Using Ultra-wideband Sensors"**, Erik Strömberg's Master Thesis, KTH, Stockholm, 2017.
 [PDF](http://kth.diva-portal.org/smash/record.jsf?pid=diva2%3A1148538&dswid=390)
 
+* **"Stippling with aerial robots"**, B. Galea, E. Kia, N. Aird, and P. G. Kry, Computational Aesthetics / Expressive, 2016.
+[PDF, ](http://www.cs.mcgill.ca/~kry/pubs/stippling/stippling.pdf)
+[Video 1, ](https://www.youtube.com/watch?v=CP-fBvcUAls)
+[Video 2](https://www.youtube.com/watch?v=N_B6Fs9U_go)
+
+* **"Planning and Control for Quadrotor Flight through Cluttered Environments"**, B. Landry,  Master's thesis, Massachusetts Institute of Technology, USA, June 2015.
+[PDF, ](http://groups.csail.mit.edu/robotics-center/public_papers/Landry15.pdf)
+[Video, ](https://www.youtube.com/watch?v=v-s564NoAu0)
+[Code](https://github.com/blandry/crazyflie-tools)
+
+* **"Mixed Reality for Robotics"**, W. Hönig, C. Milanes, L. Scaria, T. Phan, M. Bolas, and N. Ayanian, IROS, 2015.
+[PDF, ](http://www-bcf.usc.edu/~ayanian/files/Ayanian_IROS2015a.pdf)
+[Video](https://www.youtube.com/watch?v=px9iHkA0nOI)
+
+* **"System Identification of the Crazyflie 2.0 Nano Quadrocopter"**, J. Förster,  Bachelor's thesis, ETH Zürich, 2015.
+[PDF, ](https://polybox.ethz.ch/index.php/s/20dde63ee00ffe7085964393a55a91c7)
+
+
 ### Publications involving Crazyflie 1.0
 ---
-* **“Development of a wireless video transfer system for remote control of a lightweight UAV”**, J. Tosteberg and T. Axelsson, Master’s thesis, Linköping University, Sweden, June 2012.
-[PDF](http://liu.diva-portal.org/smash/get/diva2:534744/FULLTEXT01.pdf)
-
-* **“Visual inertial control of a nano-quadrotor”**, O. M. W. Dunkley, Master’s thesis, Technical University Munich, Germany, Sept. 2014.
-[PDF, ](https://vision.in.tum.de/_media/spezial/bib/dunkley14msc.pdf)
-[Code](https://github.com/omwdunkley/crazyflieROS)
-
-* **“Visual-inertial navigation for a camera-equipped 25g nano-quadrotor”**, O. Dunkley, J. Engel, J. Sturm, and D. Cremers,  in IROS2014 Aerial Open Source Robotics Workshop, 2014.
-[PDF, ](https://vision.in.tum.de/_media/spezial/bib/dunkley14iros.pdf)
-[Video](https://vision.in.tum.de/_media/spezial/bib/dunkley14iros.mp4)
-
-* **“HoverBall : Augmented Sports with a Flying Ball”**, Kei Nitta, Keita Higuchi and Jun Rekimoto, 5th International Conference on Augmented Human (AH 2014), 2014.
-[PDF](https://rekimotolab.files.wordpress.com/2014/02/a13-nitta.pdf)
+* **"Nonlinear control strategies for quadrotors and CubeSats"**, Giri Prashanth Subramanian, Master’s thesis, University of Illinois at Urbana-Champaign, USA, July 2015.
+[PDF](https://www.ideals.illinois.edu/bitstream/handle/2142/88078/SUBRAMANIAN-THESIS-2015.pdf?sequence=1)
 
 * **"Perching Failure Detection and Recovery with Onboard Sensing"**, Hao Jiang, Morgan T. Pope, Matthew A. Estrada, Bobby Edwards, Mark Cuson, Elliot W. Hawkes and Mark R. Cutkosky, IROS, 2015.
 [PDF, ](http://ieeexplore.ieee.org/xpl/login.jsp?tp=&arnumber=7353531&url=http%3A%2F%2Fieeexplore.ieee.org%2Fxpls%2Fabs_all.jsp%3Farnumber%3D7353531)
 [Video](https://m.youtube.com/watch?v=xhtbprB5Rqs)
 
-* **"Nonlinear control strategies for quadrotors and CubeSats"**, Giri Prashanth Subramanian, Master’s thesis, University of Illinois at Urbana-Champaign, USA, July 2015.
-[PDF](https://www.ideals.illinois.edu/bitstream/handle/2142/88078/SUBRAMANIAN-THESIS-2015.pdf?sequence=1)
+* **“HoverBall : Augmented Sports with a Flying Ball”**, Kei Nitta, Keita Higuchi and Jun Rekimoto, 5th International Conference on Augmented Human (AH 2014), 2014.
+[PDF](https://rekimotolab.files.wordpress.com/2014/02/a13-nitta.pdf)
+
+* **“Visual-inertial navigation for a camera-equipped 25g nano-quadrotor”**, O. Dunkley, J. Engel, J. Sturm, and D. Cremers,  in IROS2014 Aerial Open Source Robotics Workshop, 2014.
+[PDF, ](https://vision.in.tum.de/_media/spezial/bib/dunkley14iros.pdf)
+[Video](https://vision.in.tum.de/_media/spezial/bib/dunkley14iros.mp4)
+
+* **“Visual inertial control of a nano-quadrotor”**, O. M. W. Dunkley, Master’s thesis, Technical University Munich, Germany, Sept. 2014.
+[PDF, ](https://vision.in.tum.de/_media/spezial/bib/dunkley14msc.pdf)
+[Code](https://github.com/omwdunkley/crazyflieROS)
+
+* **“Development of a wireless video transfer system for remote control of a lightweight UAV”**, J. Tosteberg and T. Axelsson, Master’s thesis, Linköping University, Sweden, June 2012.
+[PDF](http://liu.diva-portal.org/smash/get/diva2:534744/FULLTEXT01.pdf)
 
 <div class="col-md-12">
   <p class="text-right">Want to add a publication? <a href="https://github.com/bitcraze/bitcraze-website/edit/master/src/{{page.path}}"><i class="fa fa-pencil"></i> &nbsp;Improve this page</a></p>
