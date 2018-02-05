@@ -81,6 +81,10 @@ you can read about how the researchers at MIT are using the Crazyflie 2.0 to stu
 
 ### Publications involving Crazyflie 2.0
 ---
+* **"Development of a multi-agent quadrotor research platform with distributed computational capabilities"**, Ian S. McInerney, Master's thesis, Iowa State University, 2017.
+[PDF, ](https://lib.dr.iastate.edu/etd/15575)
+[Code](https://git.ece.iastate.edu/danc/Custom_CrazyFlie_Software/tags/McInerney_Thesis_Code)
+
 * **"Downwash-Aware Trajectory Planning for Large Quadrotor Teams"**, James A. Preiss, Wolfgang Hönig, Nora Ayanian, and Gaurav S. Sukhatme, in Proc. IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS), 2017. 
 [PDF, ](http://usc-actlab.github.io/publications/Preiss_IROS2017.pdf)
 [Video](http://youtu.be/YnGZ-arUwgc)
@@ -112,6 +116,9 @@ Leobardo Campos-Macías, David Gómez-Gutiérrez, Rodrigo Aldana-López, Rafael 
 
 * **"Smoothing and Mapping of an Unmanned Aerial Vehicle Using Ultra-wideband Sensors"**, Erik Strömberg's Master Thesis, KTH, Stockholm, 2017.
 [PDF](http://kth.diva-portal.org/smash/record.jsf?pid=diva2%3A1148538&dswid=390)
+
+* **"Development of a swarm control platform for educational and research applications"**, Justin Noronha, Master's Thesis, Iowa State University, 2016.
+[PDF](https://lib.dr.iastate.edu/etd/15783/)
 
 * **"Stippling with aerial robots"**, B. Galea, E. Kia, N. Aird, and P. G. Kry, Computational Aesthetics / Expressive, 2016.
 [PDF, ](http://www.cs.mcgill.ca/~kry/pubs/stippling/stippling.pdf)
