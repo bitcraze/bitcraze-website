@@ -41,7 +41,6 @@ page_id: buy-distributors
 {% distributor Selfbuilt; http://selfbuilt.net/shop/index.php?route=product/search&search=crazyflie; /images/distributors/selfbuilt-logo.png %}
 
 {% country India %}
-{% distributor Proto Central; http://www.protocentral.com/search?controller=search&orderby=position&orderway=desc&search_query=crazyflie; /images/distributors/proto_central.jpg %}
 {% distributor RhydoLABZ; http://www.rhydolabz.com/index.php?main_page=advanced_search_result&search_in_description=1&zenid=b1621fa24d22a251847471f0d0fe0d3b&keyword=crazyflie; /images/distributors/RhydoLABZ.png %}
 
 {% country New Zealand %}
