@@ -33,6 +33,7 @@ page_id: buy-distributors
 {% distributor Pakronics; http://www.pakronics.com/search?type=product&q=crazyflie; /images/distributors/pakronics.png %}
 {% distributor Sedonia; http://www.sedoniatech.com.au/catalogsearch/result/?q=crazyflie; /images/distributors/Sedonia-Logo.gif %}
 {% distributor Little Bird Electronics; https://littlebirdelectronics.com.au/?rf=kw&kw=bitcraze; /images/distributors/littlebird_electronics.png %}
+{% distributor The IoT Store; https://www.iot-store.com.au/pages/search-results-page?q=bitcraze; /images/distributors/iot_store_au.png %}
 
 {% country China %}
 {% distributor Seeedstudio; https://seeedstudio.taobao.com/; /images/distributors/seeed.png %}
