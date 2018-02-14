@@ -47,7 +47,6 @@ range increase as with the Crazyflie 2.0.
 {% hackster ataffanel/fixing-crazyradio-usb-bootloader-with-a-raspberry-pi-08796b %}
 {% hackster ataffanel/sniffing-crazyflie-s-radio-with-hackrf-blue-4d77df %}
 {% hackster ataffanel/crazyfblimp-6a081b %}
-{% hackster krichardsson/bike-turning-signal-75d988 %}
 {% hackster evoggy/crazycar-3c14b6 %}
 {% hackster evoggy/flying-traffic-light-8be87d %}
 {% hackster chromebookbob/long-exposure-light-painting-2c4106 %}
