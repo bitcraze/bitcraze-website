@@ -140,6 +140,14 @@ Leobardo Campos-Macías, David Gómez-Gutiérrez, Rodrigo Aldana-López, Rafael 
 
 ### Publications involving Crazyflie 1.0
 ---
+* **"Lyapunov-based Controller Synthesis and Stability Analysis for the Execution of High-speed Multi-flip Quadrotor Maneuvers"**, in Proc. American Control Conference, Seattle, USA, May 2017.
+[PDF, ](http://www.uscamsl.com/Publications/Conference/ACC2017aChen.pdf)
+[Video](http://www.uscamsl.com/resources/MultiFlipACC.mp4)
+
+* **"Generation and Real-Time Implementation of High-Speed Controlled Maneuvers Using an Autonomous 19-Gram Quadrotor"**, Y. Chen and N. O. Pérez-Arancibia, in Proc. 2016 IEEE Int. Conf. Robot. Autom. (ICRA 2016), Stockholm, Sweden, May 2016. 
+[PDF, ](http://www.uscamsl.com/Publications/Conference/ICRA2016.pdf)
+[Video](http://www.uscamsl.com/resources/ICRA2016/MultiFlip.mp4)
+
 * **"Nonlinear control strategies for quadrotors and CubeSats"**, Giri Prashanth Subramanian, Master’s thesis, University of Illinois at Urbana-Champaign, USA, July 2015.
 [PDF](https://www.ideals.illinois.edu/bitstream/handle/2142/88078/SUBRAMANIAN-THESIS-2015.pdf?sequence=1)
 
