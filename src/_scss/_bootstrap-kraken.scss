@@ -43,6 +43,5 @@ $dropdown-link-active-color:     $navbar-default-link-active-color;
 $dropdown-link-active-bg:        $dropdown-bg;
 $dropdown-link-disabled-color:   $navbar-default-link-disabled-color;
 
-
-@import "bootstrap-compass";
-@import "bootstrap";
+@import "../../bootstrap/bootstrap/assets/stylesheets/bootstrap-compass";
+@import "../../bootstrap/bootstrap/assets/stylesheets/bootstrap";

@@ -53,10 +53,8 @@ add documentation for it here.
 
 You can find more information about the technologies used here
 
-* [Jekyll](https://jekyllrb.com/) - we use Jekyll to generate static html from 
-markdown or html
-* [Compass](http://compass-style.org/) - Compass is used (through a Jekyll 
-plugin) to compile SCSS into CSS
+* [Jekyll](https://jekyllrb.com/) - we use Jekyll to generate static html and
+css from markdown, html and scss
 * [Bootstrap](http://getbootstrap.com/) - The CSS is based on Bootrstrap
 * [Docker](https://www.docker.com/) - Docker is used to create a consistent 
 development and test environment

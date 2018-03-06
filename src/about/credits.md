@@ -37,7 +37,6 @@ page_id: credits
 * [Nginx](http://nginx.org/)
 * [MySQL](https://www.mysql.com/)
 * [Jekyll](https://jekyllrb.com/)
-* [Compass](http://compass-style.org/)
 * [Bootstrap](http://getbootstrap.com/)
 * [HTML Proofer](https://github.com/gjtorikian/html-proofer)
 
