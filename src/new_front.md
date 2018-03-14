@@ -118,7 +118,7 @@ page_id: new_front
 
   <div class="row content-area portal-section_2">
     <div class="col-md-7 col-md-offset-1 portal_padding portal_img_development">
-      <img src="images/new_front/development_portal.png" alt="portal 1">
+      <img src="images/new_front/development_portal.jpg" alt="portal 1">
     </div>
 
     <div class="col-md-4 portal_padding">
@@ -142,7 +142,7 @@ page_id: new_front
     </div>
 
     <div class="col-md-8 portal_padding">
-      <img src="images/new_front/research_portal.png" alt="portal 1">
+      <img src="images/new_front/research_portal.jpg" alt="portal 1">
     </div>
   </div>
 
@@ -150,7 +150,7 @@ page_id: new_front
 
   <div class="row content-area portal-section_2">
     <div class="col-md-7 col-md-offset-1 portal_padding">
-      <img src="images/new_front/education_portal.png" alt="portal 1">
+      <img src="images/new_front/education_portal.jpg" alt="portal 1">
     </div>
 
     <div class="col-md-4 portal_padding">
@@ -174,7 +174,7 @@ page_id: new_front
     </div>
 
     <div class="col-md-8 portal_padding">
-      <img src="images/new_front/diy_portal.png" alt="portal 1">
+      <img src="images/new_front/diy_portal.jpg" alt="portal 1">
     </div>
   </div>
 </div>
