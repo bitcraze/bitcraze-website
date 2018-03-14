@@ -40,7 +40,8 @@ page_id: new_front
 
 <div class="container-fluid">
   <div class="row content-area blog-section">
-    ## The latest from the blog
+    <h2>The latest from the blog</h2>
+
     <div class="col-md-4"> <!-- inject wp blog img 0 --> </div>
     <div class="col-md-4"> <!-- inject wp blog img 1 --> </div>
     <div class="col-md-4"> <!-- inject wp blog img 2 --> </div>
