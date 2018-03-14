@@ -40,26 +40,10 @@ page_id: new_front
 
 <div class="container-fluid">
   <div class="row content-area blog-section">
-    <div class="col-md-4">
-      <img src="images/new_front/ant-bridge_2302146k.png" alt="blog 1">
-      <br>
-      <br>
-      <b>ModQuad – Self-Assemble Flying Structures</b>
-    </div>
-
-    <div class="col-md-4">
-      <img src="images/new_front/ant-bridge_2302146k.png" alt="blog 2">
-      <br>
-      <br>
-      <b>ModQuad – Self-Assemble Flying Structures</b>
-    </div>
-
-    <div class="col-md-4">
-      <img src="images/new_front/ant-bridge_2302146k.png" alt="blog 3">
-      <br>
-      <br>
-      <b>ModQuad – Self-Assemble Flying Structures</b>
-    </div>
+    ## The latest from the blog
+    <div class="col-md-4"> <!-- inject wp blog img 0 --> </div>
+    <div class="col-md-4"> <!-- inject wp blog img 1 --> </div>
+    <div class="col-md-4"> <!-- inject wp blog img 2 --> </div>
   </div>
 
 <!--Testimonials-->

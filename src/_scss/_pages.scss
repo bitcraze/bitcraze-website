@@ -259,10 +259,30 @@ table {
 
   //Blog
 
-      .blog-section {
-        margin-top: 400px;
-        margin-bottom: 100px;
+    .blog-section {
+      margin-top: 400px;
+      margin-bottom: 100px;
+
+      h2 {
+        margin-bottom: 50px;
       }
+
+      h3 {
+        font-size: 22px;
+      }
+
+      .blog-img-container {
+        height: 250px;
+        vertical-align: middle;
+        display: table-cell;
+      }
+
+      img {
+        max-height: 250px;
+        width: 100%;
+        object-fit: cover;
+      }
+    }
 
   //Testimonials
 
