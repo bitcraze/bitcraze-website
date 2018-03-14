@@ -8,22 +8,22 @@ page_id: new_front
 <div class="container-fluid front-top-banner">
   <div class="row content-area">
       <div class="col-md-9 header_text">
-            <h1>Bitcraze</h1>
+            <div class="hide_element"><h1>Bitcraze</h1></div>
             <h3>Make your ideas fly!</h3>
       </div>
   </div>
 
   <div class="row">
     <div class="col-md-2">
-      <button type="button" class="btn btn-primary btn-lg btn-block btn-color-primary">Shop</button>
+      <button type="button" class="btn btn-primary btn-block btn-color-primary">Shop</button>
     </div>
 
     <div class="col-md-2">
-      <button type="button" class="btn btn-primary btn-lg btn-block btn-color-secondary">Getting started</button>
+      <button type="button" class="btn btn-primary btn-block btn-color-secondary">Getting started</button>
     </div>
 
     <div class="col-md-2">
-      <button type="button" class="btn btn-primary btn-lg btn-block btn-color-secondary">Github</button>
+      <button type="button" class="btn btn-primary btn-block btn-color-secondary">Github</button>
     </div>
   </div>
 

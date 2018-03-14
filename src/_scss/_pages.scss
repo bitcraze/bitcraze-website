@@ -221,40 +221,114 @@ table {
 
 
 // New front page
+
 .front-page-new {
+
     .front-top-banner {
       background-image: url("/images/new_front/front.jpg");
       background-size: 100%;
-      height: 1000px;
       background-position: inherit;
       background-repeat: no-repeat;
     }
 
     .header_text {
         h1 {
-          font-size: 80px;
-          font-weight: 800;
           padding-top: 10%;
-          -webkit-text-stroke-color: #222222;
+          color: #95C941;
         }
 
         h3 {
           color:white;
-          font-size: 80px;
-          font-weight: 800;
         }
       }
 
       .text-box_value_proposition {
-
         h3{
           color: white;
-          line-height: 45px;
         }
-          margin-top: 200px;
           background: blue;
-          padding: 3em;
-          height: 35em;
+      }
+
+    @media (max-width: $screen-xs-max) {
+      .front-top-banner {
+        background-image: url("/images/new_front/Flow_breakout.png");
+        height: 550px;
+      }
+      .hide_element {
+        h1 {
+          display: none;
+        }
+      }
+      .header_text {
+          h3 {
+            font-size: 30px;
+            font-weight: 800;
+            text-align: center;
+        }
+      }
+    }
+
+    @media (min-width: $screen-sm-min) {
+      .front-top-banner {
+        height: 600px;
+      }
+      .header_text {
+          h1 {
+            font-size: 60px;
+            font-weight: 800;
+          }
+
+          h3 {
+            font-size: 60px;
+            font-weight: 800;
+        }
+      }
+    }
+
+    @media (min-width: $screen-md-min) {
+      .front-top-banner {
+        height: 800px;
+      }
+      .header_text {
+          h1 {
+            font-size: 60px;
+            font-weight: 800;
+          }
+
+          h3 {
+            font-size: 60px;
+            font-weight: 800;
+        }
+      }
+      .text-box_value_proposition {
+        h3{
+          line-height: 40px;
+        }
+          margin-top: 37px;
+          padding: 2em;
+          height: 30em;
+      }
+    }
+
+    @media (min-width: 1600px) {
+      .front-top-banner {
+        height: 1000px;
+        }
+      .header_text {
+        h1, h3 {
+            font-size: 80px;
+            font-weight: 800;
+          }
+        }
+
+        .text-box_value_proposition {
+          h3{
+            line-height: 45px;
+          }
+            margin-top: 230px;
+            padding: 2em;
+            height: 35em;
+        }
       }
 
   //Blog
