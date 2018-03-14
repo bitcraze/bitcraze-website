@@ -161,15 +161,6 @@ table {
 
     }
 
-
-
-
-    .header_text {
-        h1 {
-            font-size: 450%;
-        }
-    }
-
     .portal-section {
         h2 {
             margin-top: 10px;
@@ -225,6 +216,138 @@ table {
             -webkit-align-content: center;
             align-content: center;
         }
+    }
+}
+
+
+// New front page
+.front-page-new {
+    .front-top-banner {
+      background-image: url("/images/new_front/front.jpg");
+      background-size: 100%;
+      height: 1000px;
+      background-position: inherit;
+      background-repeat: no-repeat;
+    }
+
+    .header_text {
+        h1 {
+          font-size: 80px;
+          font-weight: 800;
+          padding-top: 10%;
+          -webkit-text-stroke-color: #222222;
+        }
+
+        h3 {
+          color:white;
+          font-size: 80px;
+          font-weight: 800;
+        }
+      }
+
+      .text-box_value_proposition {
+
+        h3{
+          color: white;
+          line-height: 45px;
+        }
+          margin-top: 200px;
+          background: blue;
+          padding: 3em;
+          height: 35em;
+      }
+
+  //Blog
+
+      .blog-section {
+        margin-top: 400px;
+        margin-bottom: 100px;
+      }
+
+  //Testimonials
+
+      .text-box_testimonial {
+
+        h3{
+          color: white;
+          line-height: 45px;
+          padding-top: 70px;
+        }
+          background: #FF0077;
+          padding: 3em;
+          height: 35em;
+      }
+
+      .testimonial-section {
+        margin-top: 80px;
+      }
+
+      .testimonial_top {
+        margin-top: 150px;
+      }
+      .testimonial_bottom {
+        margin-top: 30px;
+      }
+
+      //Portals
+
+      .portal-section_2 {
+        margin-top: 100px;
+        margin-bottom: 100px;
+      }
+
+      .portal_padding {
+        padding-left: 0px;
+        padding-right: 0px;
+      }
+
+      .text-box_portals {
+        p, h3 {
+          color: white;
+        }
+        h3 {
+          line-height: 45px;
+        }
+          padding: 3em;
+      }
+
+      .portal_img_development {
+        margin-top: 70px;
+
+      }
+
+      .text-box_development {
+          background: #FD9724;
+          height: 40em;
+          margin-top: -100px;
+          padding-top: 9em;
+      }
+
+      .text-box_research {
+          background: #9600CC;
+          height: 37em;
+          margin-top: 100px;
+      }
+
+      .text-box_education {
+          background: #1B7032;
+          height: 30em;
+          //margin-top: 300px;
+      }
+
+      .text-box_diy {
+          background: #FF4400;
+          height: 25em;
+      }
+
+
+    // Call to action buttons
+    .btn-color-primary {
+      background-color: #95C941;
+    }
+
+    .btn-color-secondary {
+      background-color: #00BAFF;
     }
 }
 
