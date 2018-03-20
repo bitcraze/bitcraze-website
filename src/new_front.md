@@ -54,9 +54,36 @@ page_id: new_front
       </div>
   </div>
   <div class="row">
-    <div class="col-md-4"> <!-- inject wp blog img 0 --> </div>
-    <div class="col-md-4"> <!-- inject wp blog img 1 --> </div>
-    <div class="col-md-4"> <!-- inject wp blog img 2 --> </div>
+    <div class="col-md-4"> 
+      <!-- inject wp blog img 0 begin -->
+      <div class="blog-img-container">
+        <a><img src="images/new_front/ant-bridge_2302146k.png"></a>
+      </div>
+      <h3 class="blog-title">
+        <a>Placeholder post 1</a>
+      </h3>      
+      <!-- inject wp blog img 0 end -->       
+    </div>
+    <div class="col-md-4"> 
+      <!-- inject wp blog img 1 begin -->
+      <div class="blog-img-container">
+        <a><img src="images/new_front/ant-bridge_2302146k.png"></a>
+      </div>
+      <h3 class="blog-title">
+        <a>Placeholder post 2</a>
+      </h3>      
+      <!-- inject wp blog img 1 end -->       
+    </div>
+    <div class="col-md-4"> 
+      <!-- inject wp blog img 2 begin -->
+      <div class="blog-img-container">
+        <a><img src="images/new_front/ant-bridge_2302146k.png"></a>
+      </div>
+      <h3 class="blog-title">
+        <a>Placeholder post 3</a>
+      </h3>      
+      <!-- inject wp blog img 2 end -->       
+    </div>
   </div>
 </div>
 
