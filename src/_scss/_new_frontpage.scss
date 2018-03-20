@@ -134,9 +134,18 @@
       }
 
       .menu-blog-container {
-        .menu-item {}
+        margin-top: 30px;
+        text-align: right;
+
+        .menu-item {
+          list-style: none;
+          display: inline-block;
+          font-size: 1.2em;
+          font-weight: 400;
+          padding-left: 10px;
+          padding-right: 10px;
+        }
       }
-      .menu-blog {}
     }
 
   //Testimonials

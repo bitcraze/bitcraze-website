@@ -37,18 +37,31 @@ page_id: new_front
 </div>
 
 <!--Blog-->
-
-<div class="container-fluid">
-  <div class="row content-area blog-section">
-    <h2>The latest from the blog</h2>
-
+<div class="container-fluid blog-section content-area">
+  <div class="row">
+      <div class="col-md-6">
+          <h2>The latest from the blog</h2>
+      </div>
+      <div class="col-md-6">
+          <div class="menu-blog-container">
+              <ul class="menu-blog">
+                  <li class="menu-item"><a href="/blog/">All posts</a></li>
+                  <li class="menu-item"><a href="/category/crazyflie/">Crazyflie</a></li>
+                  <li class="menu-item"><a href="/category/loco-positioning/">Loco positioning</a></li>
+                  <li class="menu-item"><a href="/category/guest-blogger/">Guest blogger</a></li>
+              </ul>
+          </div>
+      </div>
+  </div>
+  <div class="row">
     <div class="col-md-4"> <!-- inject wp blog img 0 --> </div>
     <div class="col-md-4"> <!-- inject wp blog img 1 --> </div>
     <div class="col-md-4"> <!-- inject wp blog img 2 --> </div>
   </div>
+</div>
 
 <!--Testimonials-->
-
+<div class="container-fluid">
   <div class="row content-area testimonial-section">
     <div class="col-md-4">
       <div class="text-box_testimonial">
