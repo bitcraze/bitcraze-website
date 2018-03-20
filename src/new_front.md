@@ -6,7 +6,7 @@ page_id: new_front
 ---
 
 <div class="container-fluid front-top-banner">
-  <div class="row content-area">
+  <div class="row">
       <div class="col-md-9 header_text">
             <div class="hide_element"><h1>Bitcraze</h1></div>
             <h3>Make your ideas fly!</h3>
@@ -27,31 +27,31 @@ page_id: new_front
     </div>
   </div>
 
-<div class="row content-area">
-      <div class="col-md-4 pull-right">
-        <div class="text-box_value_proposition">
-          <h3>We create open platforms that enable people to explore the world of flying robotics</h3>
-        </div>
+  <div class="row">
+    <div class="col-md-4 pull-right">
+      <div class="text-box_value_proposition">
+        <h3>We create open platforms that enable people to explore the world of flying robotics</h3>
+      </div>
     </div>
   </div>
 </div>
 
 <!--Blog-->
-<div class="container-fluid blog-section content-area">
+<div class="container-fluid blog-section">
   <div class="row">
-      <div class="col-md-6">
-          <h2>The latest from the blog</h2>
+    <div class="col-md-6">
+      <h2>The latest from the blog</h2>
+    </div>
+    <div class="col-md-6">
+      <div class="menu-blog-container">
+        <ul class="menu-blog">
+          <li class="menu-item"><a href="/blog/">All posts</a></li>
+          <li class="menu-item"><a href="/category/crazyflie/">Crazyflie</a></li>
+          <li class="menu-item"><a href="/category/loco-positioning/">Loco positioning</a></li>
+          <li class="menu-item"><a href="/category/guest-blogger/">Guest blogger</a></li>
+        </ul>
       </div>
-      <div class="col-md-6">
-          <div class="menu-blog-container">
-              <ul class="menu-blog">
-                  <li class="menu-item"><a href="/blog/">All posts</a></li>
-                  <li class="menu-item"><a href="/category/crazyflie/">Crazyflie</a></li>
-                  <li class="menu-item"><a href="/category/loco-positioning/">Loco positioning</a></li>
-                  <li class="menu-item"><a href="/category/guest-blogger/">Guest blogger</a></li>
-              </ul>
-          </div>
-      </div>
+    </div>
   </div>
   <div class="row">
     <div class="col-md-4"> 
@@ -88,8 +88,8 @@ page_id: new_front
 </div>
 
 <!--Testimonials-->
-<div class="container-fluid">
-  <div class="row content-area testimonial-section">
+<div class="container-fluid testimonial-section">
+  <div class="row">
     <div class="col-md-4">
       <div class="text-box_testimonial">
         <h3>Makers, developers and resechers from all around the world are using our stuff. Here are a few examples of why the Crazyflie 2.0 is an awesome platform</h3>
@@ -136,12 +136,13 @@ page_id: new_front
         <b>-Ellen Cappo, researcher at Carnegie Mellon University.</b>
      </div>
    </div>
+</div>
 
 <!-- Portals -->
 
 <!-- Development portal -->
-
-  <div class="row content-area portal-section_2">
+<div class="container-fluid portal-section_2">
+  <div class="row portal-section_2">
     <div class="col-md-7 col-md-offset-1 portal_padding portal_img_development">
       <img src="images/new_front/development_portal.jpg" alt="portal 1">
     </div>
@@ -154,10 +155,11 @@ page_id: new_front
       </div>
     </div>
   </div>
+</div>
 
 <!-- Research portal -->
-
-  <div class="row content-area portal-section_2">
+<div class="container-fluid portal-section_2">
+  <div class="row">
     <div class="col-md-4 portal_padding">
       <div class="text-box_portals text-box_research">
         <h3>ideal for many areas of research</h3>
@@ -170,10 +172,11 @@ page_id: new_front
       <img src="images/new_front/research_portal.jpg" alt="portal 1">
     </div>
   </div>
+</div>
 
-  <!-- Education portal -->
-
-  <div class="row content-area portal-section_2">
+<!-- Education portal -->
+<div class="container-fluid portal-section_2">
+  <div class="row">
     <div class="col-md-7 col-md-offset-1 portal_padding">
       <img src="images/new_front/education_portal.jpg" alt="portal 1">
     </div>
@@ -186,10 +189,11 @@ page_id: new_front
       </div>
     </div>
   </div>
+</div>
 
-    <!-- DIY portal -->
-
-  <div class="row content-area portal-section_2">
+<!-- DIY portal -->
+<div class="container-fluid portal-section_2">
+  <div class="row">
     <div class="col-md-4 portal_padding">
       <div class="text-box_portals text-box_diy">
         <h3>Do it yourself</h3>
@@ -208,7 +212,7 @@ page_id: new_front
 
 
 <div class="container-fluid used-by-section">
-    <div class="row content-area">
+    <div class="row">
         <div class="col-md-12">
             <h2>Used by</h2>
         </div>
@@ -232,7 +236,7 @@ page_id: new_front
         {% used_by_logo DLR; /images/logos/DLR_Logo.png; http://www.dlr.de/ %}
 
       </div>
-      <div class="row content-area">
+      <div class="row">
         <div class="col-md-12"><p class="text-right">Is your organization missing? <a href="https://github.com/bitcraze/bitcraze-website/edit/master/src/{{page.path}}"><i class="fa fa-pencil"></i> &nbsp;Improve this page</a></p>
           </div>
       </div>
