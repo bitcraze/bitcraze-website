@@ -124,7 +124,8 @@
       .blog-img-container {
         height: 250px;
         vertical-align: middle;
-        display: table-cell;
+        display: flex;
+        justify-content: center;
       }
 
       img {
