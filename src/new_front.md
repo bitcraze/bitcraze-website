@@ -57,7 +57,7 @@ page_id: new_front
     <div class="col-md-4"> 
       <!-- inject wp blog img 0 begin -->
       <div class="blog-img-container">
-        <a><img src="images/new_front/ant-bridge_2302146k.png"></a>
+        <a><img src="images/new_front/ant-bridge_2302146k.png" alt="-"></a>
       </div>
       <h3 class="blog-title">
         <a>Placeholder post 1</a>
@@ -67,7 +67,7 @@ page_id: new_front
     <div class="col-md-4"> 
       <!-- inject wp blog img 1 begin -->
       <div class="blog-img-container">
-        <a><img src="images/new_front/ant-bridge_2302146k.png"></a>
+        <a><img src="images/new_front/ant-bridge_2302146k.png" alt="-"></a>
       </div>
       <h3 class="blog-title">
         <a>Placeholder post 2</a>
@@ -77,7 +77,7 @@ page_id: new_front
     <div class="col-md-4"> 
       <!-- inject wp blog img 2 begin -->
       <div class="blog-img-container">
-        <a><img src="images/new_front/ant-bridge_2302146k.png"></a>
+        <a><img src="images/new_front/ant-bridge_2302146k.png" alt="-"></a>
       </div>
       <h3 class="blog-title">
         <a>Placeholder post 3</a>

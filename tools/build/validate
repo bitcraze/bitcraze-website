@@ -11,8 +11,8 @@ require 'html-proofer'
 # Add checks for our urls
 require_relative '../validate/src/url_check'
 
-puts 'Checking html...'
-HTMLProofer.check_directory("./_site", options = {:check_html => true, :allow_hash_href => true, :disable_external => true}).run
+puts 'Checking html and internal links...'
+HTMLProofer.check_directory("./_site", options = {:check_html => true, :allow_hash_href => true, :disable_external => true, :url_ignore => [/\/category\/.*/]}).run
 
 puts 'Checking external references...'
 begin
