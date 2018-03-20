@@ -136,6 +136,9 @@
       .menu-blog-container {
         margin-top: 30px;
         text-align: right;
+        ul > li:nth-child(n+2) {
+          border-left: 1px solid #dddddd;
+        }
 
         .menu-item {
           list-style: none;
