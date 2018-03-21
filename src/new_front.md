@@ -211,7 +211,7 @@ page_id: new_front
   <!-- Portals end -->
 
 
-<div class="container-fluid used-by-section">
+<div class="container-fluid used-by-section scroll-point">
     <div class="row">
         <div class="col-md-12">
             <h2>Used by</h2>
@@ -245,3 +245,7 @@ page_id: new_front
 <div class="section-scroller" onclick="kraken.scrollToNextScrollPoint()">
   <i class="fa fa-chevron-down"></i>
 </div>
+
+<script type='text/javascript'>
+  kraken.registerSectionScrollerSpy();
+</script>

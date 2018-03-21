@@ -50,4 +50,16 @@ var kraken = {
     });
   },
 
+  registerSectionScrollerSpy: function() {
+    window.addEventListener('scroll', kraken.scrollEventSectionScroller);
+  },
+
+  scrollEventSectionScroller: function(e) {
+    var rect = $('body')[0].getBoundingClientRect();
+    if (Math.abs(rect.bottom - $(window).height()) < 5) {
+      $('.section-scroller:visible').hide();
+    } else {
+      $('.section-scroller:hidden').show();
+    }
+  },
 };
