@@ -18,4 +18,39 @@ var kraken = {
       playerVars: { 'autoplay': 1}
     });
   },
+
+  scrollToNextScrollPoint: function() {
+    var scrollPoints = $('.scroll-point');
+    var firstVisible = kraken.findTopMostVisibleElement(scrollPoints);
+
+    if (firstVisible != null) {
+      var next = firstVisible + 1;
+      if (next < (scrollPoints.length - 1)) {
+        kraken.scrollToElement(scrollPoints[next]);
+      }
+    }
+  },
+
+  findTopMostVisibleElement: function(elements) {
+    var firstVisible = null;
+
+    for(var i = 0; i < elements.length; i++) {
+      var rect = elements[i].getBoundingClientRect();
+      if(rect.bottom >= 0) {
+        firstVisible = i;
+        break;
+      }
+    }
+
+    return firstVisible;
+  },
+
+  scrollToElement: function(element) {
+    element.scrollIntoView({
+      block: "start",
+      inline: "nearest",
+      behavior: 'smooth'
+    });
+  },
+
 };

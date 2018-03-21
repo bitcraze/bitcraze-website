@@ -5,7 +5,7 @@ permalink: /new_front
 page_id: new_front
 ---
 
-<div class="container-fluid front-top-banner">
+<div class="container-fluid front-top-banner scroll-point">
   <div class="row">
       <div class="col-md-9 header_text">
             <div class="hide_element"><h1>Bitcraze</h1></div>
@@ -37,7 +37,7 @@ page_id: new_front
 </div>
 
 <!--Blog-->
-<div class="container-fluid blog-section">
+<div class="container-fluid blog-section scroll-point">
   <div class="row">
     <div class="col-md-6">
       <h2>The latest from the blog</h2>
@@ -88,7 +88,7 @@ page_id: new_front
 </div>
 
 <!--Testimonials-->
-<div class="container-fluid testimonial-section">
+<div class="container-fluid testimonial-section scroll-point">
   <div class="row">
     <div class="col-md-4">
       <div class="text-box_testimonial">
@@ -141,7 +141,7 @@ page_id: new_front
 <!-- Portals -->
 
 <!-- Development portal -->
-<div class="container-fluid portal-section_2">
+<div class="container-fluid portal-section_2 scroll-point">
   <div class="row portal-section_2">
     <div class="col-md-7 col-md-offset-1 portal_padding portal_img_development">
       <img src="images/new_front/development_portal.jpg" alt="portal 1">
@@ -158,7 +158,7 @@ page_id: new_front
 </div>
 
 <!-- Research portal -->
-<div class="container-fluid portal-section_2">
+<div class="container-fluid portal-section_2 scroll-point">
   <div class="row">
     <div class="col-md-4 portal_padding">
       <div class="text-box_portals text-box_research">
@@ -175,7 +175,7 @@ page_id: new_front
 </div>
 
 <!-- Education portal -->
-<div class="container-fluid portal-section_2">
+<div class="container-fluid portal-section_2 scroll-point">
   <div class="row">
     <div class="col-md-7 col-md-offset-1 portal_padding">
       <img src="images/new_front/education_portal.jpg" alt="portal 1">
@@ -192,7 +192,7 @@ page_id: new_front
 </div>
 
 <!-- DIY portal -->
-<div class="container-fluid portal-section_2">
+<div class="container-fluid portal-section_2 scroll-point">
   <div class="row">
     <div class="col-md-4 portal_padding">
       <div class="text-box_portals text-box_diy">
