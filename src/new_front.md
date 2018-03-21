@@ -5,7 +5,7 @@ permalink: /new_front
 page_id: new_front
 ---
 
-<div class="container-fluid front-top-banner scroll-point">
+<div class="container-fluid front-top-banner">
   <div class="row">
       <div class="col-md-9 header_text">
             <div class="hide_element"><h1>Bitcraze</h1></div>
@@ -240,4 +240,8 @@ page_id: new_front
         <div class="col-md-12"><p class="text-right">Is your organization missing? <a href="https://github.com/bitcraze/bitcraze-website/edit/master/src/{{page.path}}"><i class="fa fa-pencil"></i> &nbsp;Improve this page</a></p>
           </div>
       </div>
+</div>
+
+<div class="section-scroller" onclick="kraken.scrollToNextScrollPoint()">
+  <i class="fa fa-chevron-down"></i>
 </div>

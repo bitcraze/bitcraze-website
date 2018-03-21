@@ -237,4 +237,20 @@
     .btn-color-secondary {
       background-color: #00BAFF;
     }
+
+    // Section scroller
+    .section-scroller {
+      position: fixed;
+      bottom: 0px;
+      left: 100px;
+      background: $bcGreen;
+      cursor: pointer;
+      font-size: 3em;
+      padding-left: 0.1em;
+      padding-right: 0.1em;
+      line-height: 0.8em;
+      border-top: solid 1px;
+      border-left: solid 1px;
+      border-right: solid 1px;
+    }
 }

@@ -24,10 +24,7 @@ var kraken = {
     var firstVisible = kraken.findTopMostVisibleElement(scrollPoints);
 
     if (firstVisible != null) {
-      var next = firstVisible + 1;
-      if (next < (scrollPoints.length - 1)) {
-        kraken.scrollToElement(scrollPoints[next]);
-      }
+      kraken.scrollToElement(scrollPoints[firstVisible]);
     }
   },
 
@@ -36,7 +33,7 @@ var kraken = {
 
     for(var i = 0; i < elements.length; i++) {
       var rect = elements[i].getBoundingClientRect();
-      if(rect.bottom >= 0) {
+      if(rect.top > 0) {
         firstVisible = i;
         break;
       }
