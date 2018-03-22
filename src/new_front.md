@@ -8,7 +8,7 @@ page_id: new_front
 <div class="container-fluid front-top-banner">
   <div class="row">
       <div class="col-md-9 header_text">
-            <div class="hide_element"><h1>Bitcraze</h1></div>
+        <div><h1>Bitcraze</h1></div>
             <h3>Make your ideas fly!</h3>
       </div>
   </div>
@@ -22,16 +22,16 @@ page_id: new_front
       <button type="button" class="btn btn-primary btn-block btn-color-secondary">Getting started</button>
     </div>
 
-    <div class="col-md-2">
+    <div class="col-md-2 button">
       <button type="button" class="btn btn-primary btn-block btn-color-secondary">Github</button>
     </div>
   </div>
 
-  <div class="row">
-    <div class="col-md-4 pull-right">
-      <div class="text-box_value_proposition">
-        <h3>We create open platforms that enable people to explore the world of flying robotics</h3>
-      </div>
+<div class="row">
+      <div class="col-md-4 pull-right">
+        <div class="text-box_value_proposition">
+          <h3>We create open platforms that enable people to explore the world of flying robotics</h3>
+        </div>
     </div>
   </div>
 </div>
@@ -54,38 +54,39 @@ page_id: new_front
     </div>
   </div>
   <div class="row">
-    <div class="col-md-4"> 
+    <div class="col-md-4">
       <!-- inject wp blog img 0 begin -->
       <div class="blog-img-container">
         <a><img src="images/new_front/ant-bridge_2302146k.png" alt="-"></a>
       </div>
       <h3 class="blog-title">
         <a>Placeholder post 1</a>
-      </h3>      
-      <!-- inject wp blog img 0 end -->       
+      </h3>
+      <!-- inject wp blog img 0 end -->
     </div>
-    <div class="col-md-4"> 
+    <div class="col-md-4">
       <!-- inject wp blog img 1 begin -->
       <div class="blog-img-container">
         <a><img src="images/new_front/ant-bridge_2302146k.png" alt="-"></a>
       </div>
       <h3 class="blog-title">
         <a>Placeholder post 2</a>
-      </h3>      
-      <!-- inject wp blog img 1 end -->       
+      </h3>
+      <!-- inject wp blog img 1 end -->
     </div>
-    <div class="col-md-4"> 
+    <div class="col-md-4">
       <!-- inject wp blog img 2 begin -->
       <div class="blog-img-container">
         <a><img src="images/new_front/ant-bridge_2302146k.png" alt="-"></a>
       </div>
       <h3 class="blog-title">
         <a>Placeholder post 3</a>
-      </h3>      
-      <!-- inject wp blog img 2 end -->       
+      </h3>
+      <!-- inject wp blog img 2 end -->
     </div>
   </div>
 </div>
+
 
 <!--Testimonials-->
 <div class="container-fluid testimonial-section scroll-point">

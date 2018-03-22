@@ -1,63 +1,99 @@
+// New front page
+
 .front-page-new {
-
-    .front-top-banner {
-      background-image: url("/images/new_front/front.jpg");
-      background-size: 100%;
-      background-position: inherit;
-      background-repeat: no-repeat;
+    img {
+       max-width: 100%;
+       height: auto;
     }
-
-    .header_text {
-        h1 {
-          padding-top: 10%;
-          color: #95C941;
+      .front-top-banner {
+        background-image: url("/images/new_front/Flow_breakout.png");
+        background-size: 100%;
+        background-position: inherit;
+        background-repeat: no-repeat;
+        height: 550px;
+      }
+      .header_text {
+          h1{
+            display: none;
+          }
+          h3 {
+            font-size: 3em;
+            line-height: 1.2em;
+            font-weight: 800;
+            text-align: center;
+            margin-top: 20%;
+            margin-bottom: 20%;
+            color:white;
         }
-
-        h3 {
-          color:white;
+      }
+      .button {
+          display: none;
+      }
+      .btn-block {
+        margin: auto;
+        width: 80%;
+        margin-bottom: 20px;
+      }
+      .text-box_value_proposition {
+        h3{
+          line-height: 24px;
+          font-size: 16px;
+          font-weight: 800;
+          text-align: center;
+          margin-top: 40px;
+          padding-left: 10%;
+          padding-right: 10%;
+          color: white;
         }
+          margin-top: 0px;
+          padding: 0em;
+          height: 0em;
+          background: blue;
+      }
+
+    @media (min-width: $screen-sm-min) {
+      .front-top-banner {
+        background-image: url("/images/new_front/front.jpg");
+        height: 600px;
+      }
+
+      .header_text {
+          h1{
+            display: none;
+          }
+          h3 {
+            margin-top: auto;
+            font-size: 45px;
+            font-weight: 800;
+            text-align: center;
+            margin-top: 100px;
+            margin-bottom: 70px;
+        }
+      }
+
+      .button {
+          display: none;
+      }
+
+      .btn-block {
+        margin: auto;
+        width: 50%;
+        margin-bottom: 20px;
       }
 
       .text-box_value_proposition {
         h3{
-          color: white;
+          line-height: 27px;
+          font-size: 17px;
+          font-weight: 800;
+          text-align: center;
+          margin-top: 20px;
+          padding-left: 24%;
+          padding-right: 24%;
         }
-          background: blue;
-      }
-
-    @media (max-width: $screen-xs-max) {
-      .front-top-banner {
-        background-image: url("/images/new_front/Flow_breakout.png");
-        height: 550px;
-      }
-      .hide_element {
-        h1 {
-          display: none;
-        }
-      }
-      .header_text {
-          h3 {
-            font-size: 30px;
-            font-weight: 800;
-            text-align: center;
-        }
-      }
-    }
-
-    @media (min-width: $screen-sm-min) {
-      .front-top-banner {
-        height: 600px;
-      }
-      .header_text {
-          h1 {
-            font-size: 60px;
-            font-weight: 800;
-          }
-
-          h3 {
-            font-size: 60px;
-            font-weight: 800;
-        }
+          margin-top: 0px;
+          padding: 0em;
+          height: 0em;
       }
     }
 
@@ -69,41 +105,95 @@
           h1 {
             font-size: 60px;
             font-weight: 800;
+            display: block;
+            margin-top: 150px;
+            color: #95C941;
           }
 
           h3 {
             font-size: 60px;
             font-weight: 800;
+            text-align: left;
+            margin-top: 0px;
+            margin-bottom: 30px;
         }
+      }
+      .button {
+          display: block;
+      }
+      .btn-block {
+        width: 100%;
       }
       .text-box_value_proposition {
         h3{
-          line-height: 40px;
+          line-height: 28px;
+          font-size: 18px;
+          font-weight: 800;
+          text-align: center;
+          padding-top: 10%;
+          padding-left: 5%;
+          padding-right: 5%;
         }
-          margin-top: 37px;
-          padding: 2em;
-          height: 30em;
+          margin-top: 6vw;
+          height: 280px;
+          width: 100%;
+          background: blue;
       }
     }
 
-    @media (min-width: 1600px) {
+    // @media (min-width: 1100px) {
+    //   .text-box_value_proposition {
+    //     margin-top: 120px;
+    //   }
+    // }
+
+    @media (min-width: 1200px) {
       .front-top-banner {
-        height: 1000px;
+        height: 750px;
+      }
+      .text-box_value_proposition {
+        h3{
+          line-height: 32px;
+          font-size: 21px;
+          padding-top: 10%;
+          padding-left: 5%;
+          padding-right: 5%;
         }
-      .header_text {
-        h1, h3 {
-            font-size: 80px;
-            font-weight: 800;
+        margin-top: 10vw;
+        height: 350px;
+        }
+      }
+
+      @media (min-width: 1400px) {
+        .front-top-banner {
+          height: 750px;
+        }
+        .text-box_value_proposition {
+          h3{
+            line-height: 35px;
+            font-size: 22px;
+            padding-top: 7%;
+            padding-left: 5%;
+            padding-right: 5%;
+          }
+          margin-top: 8vw;
           }
         }
 
+      @media (min-width: 1600px) {
+        .front-top-banner {
+          height: 950px;
+        }
         .text-box_value_proposition {
           h3{
-            line-height: 45px;
+            line-height: 36px;
+            font-size: 22px;
+            padding-top: 10%;
+            padding-left: 7%;
+            padding-right: 7%;
           }
-            margin-top: 230px;
-            padding: 2em;
-            height: 35em;
+          margin-top: 17vw;
+          height: 400px;
         }
       }
 
