@@ -54,7 +54,7 @@
     @media (min-width: $screen-sm-min) {
       .front-top-banner {
         background-image: url("/images/new_front/front.jpg");
-        height: 600px;
+        height: 450px;
       }
 
       .header_text {
@@ -141,12 +141,6 @@
       }
     }
 
-    // @media (min-width: 1100px) {
-    //   .text-box_value_proposition {
-    //     margin-top: 120px;
-    //   }
-    // }
-
     @media (min-width: 1200px) {
       .front-top-banner {
         height: 750px;
@@ -200,19 +194,26 @@
   //Blog
 
     .blog-section {
-      margin-top: 400px;
-      margin-bottom: 100px;
+      margin-top: 10vw;
+      margin-bottom: 10vw;
 
       h2 {
-        margin-bottom: 50px;
+        font-size: 25px;
+        margin-bottom: 3vw;
+        text-align: center;
       }
 
       h3 {
-        font-size: 22px;
+        font-size: 21px;
+        text-align: center;
+      }
+
+      .blog-container{
+        margin-bottom: 14vw;
       }
 
       .blog-img-container {
-        height: 250px;
+      //height: 250px;
         vertical-align: middle;
         display: flex;
         justify-content: center;
@@ -222,6 +223,10 @@
         max-height: 250px;
         width: 100%;
         object-fit: cover;
+      }
+
+      .display-menu{
+        display: none;
       }
 
       .menu-blog-container {
@@ -240,7 +245,33 @@
           padding-right: 10px;
         }
       }
+
+      // ≥992px
+      @media (min-width: $screen-md-min) {
+        h2 {
+          margin-bottom: 2vw;
+          text-align: left;
+        }
+
+        h3 {
+          text-align: left;
+        }
+        .display-menu{
+          display: block;
+        }
+      }
+
+      // ≥1200px
+      @media (min-width: $screen-lg-min) {
+        margin-top: 15vw;
+        margin-bottom: 15vw;
+
+        .display-menu{
+          display: block;
+        }
+      }
     }
+
 
   //Testimonials
 

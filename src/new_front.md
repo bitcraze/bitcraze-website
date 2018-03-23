@@ -39,10 +39,10 @@ page_id: new_front
 <!--Blog-->
 <div class="container-fluid blog-section scroll-point">
   <div class="row">
-    <div class="col-md-6">
+    <div class="col-md-4">
       <h2>The latest from the blog</h2>
     </div>
-    <div class="col-md-6">
+    <div class="col-md-8 display-menu">
       <div class="menu-blog-container">
         <ul class="menu-blog">
           <li class="menu-item"><a href="/blog/">All posts</a></li>
@@ -53,8 +53,9 @@ page_id: new_front
       </div>
     </div>
   </div>
+
   <div class="row">
-    <div class="col-md-4">
+    <div class="col-md-4 blog-container">
       <!-- inject wp blog img 0 begin -->
       <div class="blog-img-container">
         <a><img src="images/new_front/ant-bridge_2302146k.png" alt="-"></a>
@@ -64,7 +65,8 @@ page_id: new_front
       </h3>
       <!-- inject wp blog img 0 end -->
     </div>
-    <div class="col-md-4">
+
+    <div class="col-md-4 blog-container">
       <!-- inject wp blog img 1 begin -->
       <div class="blog-img-container">
         <a><img src="images/new_front/ant-bridge_2302146k.png" alt="-"></a>
@@ -74,7 +76,8 @@ page_id: new_front
       </h3>
       <!-- inject wp blog img 1 end -->
     </div>
-    <div class="col-md-4">
+
+    <div class="col-md-4 blog-container">
       <!-- inject wp blog img 2 begin -->
       <div class="blog-img-container">
         <a><img src="images/new_front/ant-bridge_2302146k.png" alt="-"></a>
@@ -243,10 +246,10 @@ page_id: new_front
       </div>
 </div>
 
-<div class="section-scroller" onclick="kraken.scrollToNextScrollPoint()">
+<!-- <div class="section-scroller" onclick="kraken.scrollToNextScrollPoint()">
   <i class="fa fa-chevron-down"></i>
 </div>
 
 <script type='text/javascript'>
   kraken.registerSectionScrollerSpy();
-</script>
+</script> -->
