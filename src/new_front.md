@@ -95,74 +95,83 @@ page_id: new_front
 <div class="container-fluid testimonial-section scroll-point">
   <div class="row">
     <div class="col-md-4">
-      <div class="text-box_testimonial">
-        <h3>Makers, developers and resechers from all around the world are using our stuff. Here are a few examples of why the Crazyflie 2.0 is an awesome platform</h3>
+      <div class="testimonial-header-text-wrapper">
+        <div class="testimonial-header-text">
+          <h3>Makers, developers and resechers from all around the world are using our stuff. Here are a few examples of why they are using our stuff.</h3>
+        </div>
       </div>
     </div>
 
-    <div class="col-md-4 testimonial_top">
-      <img src="images/new_front/ant-bridge_2302146k.png" alt="testimonial 1">
+    <div class="col-md-4 testimonial-group">
+      <div class="testimonial-img-container">
+        <a><img src="images/new_front/ant-bridge_2302146k.png" alt="-"></a>
+
         <article>“We use the Crazyflie platform to evaluate our algorithms because the hardware
                  is robust and the user community has helped make firmware available on which we can base our
                  own systems”
         </article>
-        <br>
-        <b>-Ellen Cappo, researcher at Carnegie Mellon University.</b>
+        <h4>-Ellen Cappo, researcher at Carnegie Mellon University.</h4>
+      </div>
     </div>
 
-    <div class="col-md-4 testimonial_top">
-      <img src="images/new_front/ant-bridge_2302146k.png" alt="testimonial 2">
+    <div class="col-md-4 testimonial-group">
+      <div class="testimonial-img-container">
+        <a><img src="images/new_front/ant-bridge_2302146k.png" alt="-"></a>
+
         <article>“We use the Crazyflie platform to evaluate our algorithms because the hardware
-                is robust and the user community has helped make firmware available on which we can base our
-                own systems”
+                 is robust and the user community has helped make firmware available on which we can base our
+                 own systems”
         </article>
-        <br>
-        <b>-Ellen Cappo, researcher at Carnegie Mellon University.</b>
+        <h4>-Ellen Cappo, researcher at Carnegie Mellon University.</h4>
+      </div>
     </div>
 
-    <div class="col-md-4 testimonial_bottom">
-      <img src="images/new_front/ant-bridge_2302146k.png" alt="testimonial 3">
+    <div class="col-md-4 testimonial-group testimonial-bottom ">
+      <div class="testimonial-img-container">
+        <a><img src="images/new_front/ant-bridge_2302146k.png" alt="-"></a>
+
         <article>“We use the Crazyflie platform to evaluate our algorithms because the hardware
-              is robust and the user community has helped make firmware available on which we can base our
-              own systems”
+                 is robust and the user community has helped make firmware available on which we can base our
+                 own systems”
         </article>
-        <br>
-        <b>-Ellen Cappo, researcher at Carnegie Mellon University.</b>
+        <h4>-Ellen Cappo, researcher at Carnegie Mellon University.</h4>
+      </div>
     </div>
 
-     <div class="col-md-4 testimonial_bottom">
-       <img src="images/new_front/ant-bridge_2302146k.png" alt="testimonial 4">
+    <div class="col-md-4 testimonial-group testimonial-bottom">
+      <div class="testimonial-img-container">
+        <a><img src="images/new_front/ant-bridge_2302146k.png" alt="-"></a>
+
         <article>“We use the Crazyflie platform to evaluate our algorithms because the hardware
-          is robust and the user community has helped make firmware available on which we can base our
-          own systems”
+                 is robust and the user community has helped make firmware available on which we can base our
+                 own systems”
         </article>
-        <br>
-        <b>-Ellen Cappo, researcher at Carnegie Mellon University.</b>
-     </div>
-   </div>
-</div>
+        <h4>-Ellen Cappo, researcher at Carnegie Mellon University.</h4>
+      </div>
+    </div>
 
 <!-- Portals -->
 
 <!-- Development portal -->
-<div class="container-fluid portal-section_2 scroll-point">
-  <div class="row portal-section_2">
-    <div class="col-md-7 col-md-offset-1 portal_padding portal_img_development">
-      <img src="images/new_front/development_portal.jpg" alt="portal 1">
-    </div>
+<div class="container-fluid portal-section scroll-point">
+  <div class="row">
 
-    <div class="col-md-4 portal_padding">
+    <div class="col-md-4 col-md-push-7 col-md-offset-1 portal_padding">
       <div class="text-box_portals text-box_development">
         <h3>The perfect development tool for your flying application</h3>
           <p>Prototype your flying application in the comfort of your lab. Add sensors and other hardware as needed through the expansion ports. Modify or extend the firmware of the quadcopter to access or control your hardware - it is all open source.
           </p>
       </div>
     </div>
+
+    <div class="col-md-7 col-md-pull-4 portal_padding portal_img_development">
+      <img src="images/new_front/development_portal.jpg" alt="portal 1">
+    </div>
   </div>
 </div>
 
 <!-- Research portal -->
-<div class="container-fluid portal-section_2 scroll-point">
+<div class="container-fluid portal-section scroll-point">
   <div class="row">
     <div class="col-md-4 portal_padding">
       <div class="text-box_portals text-box_research">
@@ -179,7 +188,7 @@ page_id: new_front
 </div>
 
 <!-- Education portal -->
-<div class="container-fluid portal-section_2 scroll-point">
+<div class="container-fluid portal-section scroll-point">
   <div class="row">
     <div class="col-md-7 col-md-offset-1 portal_padding">
       <img src="images/new_front/education_portal.jpg" alt="portal 1">
@@ -196,7 +205,7 @@ page_id: new_front
 </div>
 
 <!-- DIY portal -->
-<div class="container-fluid portal-section_2 scroll-point">
+<div class="container-fluid portal-section scroll-point">
   <div class="row">
     <div class="col-md-4 portal_padding">
       <div class="text-box_portals text-box_diy">
@@ -239,14 +248,14 @@ page_id: new_front
         {% used_by_logo PixArt; images/logos/pixart.png; http://www.pixart.com/ %}
         {% used_by_logo DLR; /images/logos/DLR_Logo.png; http://www.dlr.de/ %}
 
-      </div>
+      <!-- </div>
       <div class="row">
         <div class="col-md-12"><p class="text-right">Is your organization missing? <a href="https://github.com/bitcraze/bitcraze-website/edit/master/src/{{page.path}}"><i class="fa fa-pencil"></i> &nbsp;Improve this page</a></p>
           </div>
       </div>
 </div>
 
-<!-- <div class="section-scroller" onclick="kraken.scrollToNextScrollPoint()">
+<div class="section-scroller" onclick="kraken.scrollToNextScrollPoint()">
   <i class="fa fa-chevron-down"></i>
 </div>
 
