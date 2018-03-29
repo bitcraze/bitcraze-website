@@ -154,17 +154,18 @@ page_id: new_front
 
 <!-- Development portal -->
 <div class="container-fluid portal-section scroll-point">
-  <div class="row">
+  <div class="row portal-group">
 
     <div class="col-md-4 col-md-push-7 col-md-offset-1 portal_padding">
       <div class="text-box_portals text-box_development">
         <h3>The perfect development tool for your flying application</h3>
-          <p>Prototype your flying application in the comfort of your lab. Add sensors and other hardware as needed through the expansion ports. Modify or extend the firmware of the quadcopter to access or control your hardware - it is all open source.
+          <p>Prototype your flying application in the comfort of your lab.
+            Modify or extend the firmware of the quadcopter to access or control your hardware - it is all open source.
           </p>
       </div>
     </div>
 
-    <div class="col-md-7 col-md-pull-4 portal_padding portal_img_development">
+    <div class="col-md-7 col-md-pull-4 portal_img_development">
       <img src="images/new_front/development_portal.jpg" alt="portal 1">
     </div>
   </div>
@@ -172,11 +173,11 @@ page_id: new_front
 
 <!-- Research portal -->
 <div class="container-fluid portal-section scroll-point">
-  <div class="row">
+  <div class="row portal-group">
     <div class="col-md-4 portal_padding">
       <div class="text-box_portals text-box_research">
-        <h3>ideal for many areas of research</h3>
-          <p>The Crazyflie is the ideal tool for research in many areas, for instance control algorithms, swarms, path finding, agriculture or failure recovery. The platform is designed to be as flexible and versatile as possible to enable the user to explore the area of interest.
+        <h3>The ideal for many areas of research</h3>
+          <p>The platform is designed to be as flexible and versatile as possible to enable the user to explore the area of interest. for instance control algorithms, swarms, path finding, agriculture or failure recovery.
           </p>
       </div>
     </div>
@@ -189,28 +190,30 @@ page_id: new_front
 
 <!-- Education portal -->
 <div class="container-fluid portal-section scroll-point">
-  <div class="row">
-    <div class="col-md-7 col-md-offset-1 portal_padding">
-      <img src="images/new_front/education_portal.jpg" alt="portal 1">
-    </div>
+  <div class="row portal-group">
 
-    <div class="col-md-4 portal_padding">
+    <div class="col-md-4 col-md-push-7 col-md-offset-1 portal_padding">
       <div class="text-box_portals text-box_education">
         <h3>Bring the latest in robotics to your students</h3>
-          <p>The crazyflie is a versatile development platform that is made to engage people to learn about robotics and quadcopters. Help the students acquire knowledge in areas like control algorithms, embedded systems, aeronautics or robotics by verifying their insights on a real quadcopter. Source code and hardware design is open and available to allow exploration and modification.
+          <p>The crazyflie is a versatile platform that is made to engage people to learn about robotics and quadcopters.
+            Help the students learn control algorithms, embedded systems, aeronautics or robotics by verifying their insights on a real quadcopter.
           </p>
       </div>
+    </div>
+
+    <div class="col-md-7 col-md-pull-4 portal_padding">
+      <img src="images/new_front/education_portal.jpg" alt="portal 1">
     </div>
   </div>
 </div>
 
 <!-- DIY portal -->
 <div class="container-fluid portal-section scroll-point">
-  <div class="row">
+  <div class="row portal-group">
     <div class="col-md-4 portal_padding">
       <div class="text-box_portals text-box_diy">
         <h3>Do it yourself</h3>
-          <p>Love to fly? Like to tinker with toys? Want to modify and explore? Hate limitations and closed systems? The Crazyflie is for you!
+          <p>Love to fly? Like to tinker? Want to modify and explore? Hate limitations and closed systems? The Crazyflie is for you!
           </p>
       </div>
     </div>

@@ -2,7 +2,7 @@
 
 .front-page-new {
   $font-size-small-screen: 16px;
-  $line-height-small-screen: 24px;
+  $line-height-small-screen: 1.5;
   $font-weight-front-page: 800;
   $header-margin: 4vw;
 
@@ -391,54 +391,79 @@
     }
 
       //Portals
+      .portal-section {
+
       .text-box_portals {
-        p, h3 {
+        h3,p {
           color: white;
         }
-        // h3 {
-        //   line-height: 45px;
-        // }
-        //   padding: 3em;
+        p {
+          font-size: 15px;
+          line-height: 1.5;
+          text-align: center;
+        }
+        h3 {
+          font-size: 16px;
+          line-height: 1.5;
+          text-align: center;
+        }
+        padding: 1em;
       }
 
-      // .portal-section_2 {
-      //   margin-top: 100px;
-      //   margin-bottom: 100px;
-      // }
-
-      // .portal_padding {
-      //   padding-left: 0px;
-      //   padding-right: 0px;
-      // }
-
-      // .portal_img_development {
-      //   margin-top: 70px;
-      // }
+      .portal-group {
+        margin-bottom: 10vw;
+      }
 
       .text-box_development {
           background: #FD9724;
-          // height: 40em;
-          // margin-top: -100px;
-          // padding-top: 9em;
       }
 
       .text-box_research {
           background: #9600CC;
-          // height: 37em;
-          // margin-top: 100px;
       }
 
       .text-box_education {
           background: #1B7032;
-          // height: 30em;
-          //margin-top: 300px;
       }
 
       .text-box_diy {
           background: #FF4400;
-          // height: 25em;
       }
 
+      // ≥992px
+      @media (min-width: $screen-md-min) {
+        .text-box_portals {
+          p {
+            font-size: 16px;
+            line-height: 1.5;
+            text-align: center;
+          }
+          h3 {
+            font-size: 18px;
+            line-height: 1.5;
+            text-align: center;
+          }
+          padding: 2em;
+        }
+        .text-box_development {
+            margin-top: -10vw;
+            padding-top: 5em;
+            padding-bottom: 5em;
+        }
+        .text-box_research {
+            padding-top: 3em;
+            height: 27em;
+            margin-top: 10vw;
+        }
+        .text-box_education {
+          margin-top: -5vw;
+        }
+        .text-box_diy {
+          padding-top: 3em;
+          padding-bottom: 5em;
+        }
+      }
+    }
       //End portals
 
 
