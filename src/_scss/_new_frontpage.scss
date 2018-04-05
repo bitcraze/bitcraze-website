@@ -3,6 +3,7 @@
 .front-page-new {
   $font-size-small-screen: 16px;
   $line-height-small-screen: 1.5;
+  $line-height-big-screen: 1.8;
   $font-weight-front-page: 800;
   $header-margin: 4vw;
 
@@ -19,9 +20,6 @@
       }
       .header_text {
           h1 {
-            display: none;
-          }
-          h3 {
             font-size: 3em;
             line-height: 1.2em;
             font-weight: 800;
@@ -55,7 +53,7 @@
           height: 0em;
           background: blue;
       }
-
+      //≥768px
     @media (min-width: $screen-sm-min) {
       .front-top-banner {
         background-image: url("/images/new_front/front.jpg");
@@ -63,10 +61,7 @@
       }
 
       .header_text {
-          h1{
-            display: none;
-          }
-          h3 {
+          h1 {
             margin-top: auto;
             font-size: 45px;
             font-weight: 800;
@@ -101,7 +96,7 @@
           height: 0em;
       }
     }
-
+    //992px
     @media (min-width: $screen-md-min) {
       .front-top-banner {
         height: 800px;
@@ -110,18 +105,11 @@
           h1 {
             font-size: 60px;
             font-weight: 800;
-            display: block;
-            margin-top: 150px;
-            color: #95C941;
-          }
-
-          h3 {
-            font-size: 60px;
-            font-weight: 800;
             text-align: left;
-            margin-top: 0px;
-            margin-bottom: 30px;
-        }
+            margin-top: 16vw;
+            margin-bottom: 3vw;
+            color: white;
+          }
       }
       .button {
           display: block;
@@ -167,6 +155,13 @@
         .front-top-banner {
           height: 750px;
         }
+        .header_text {
+          h1 {
+            margin-top: 13vw;
+            margin-bottom: 3vw;
+          }
+        }
+
         .text-box_value_proposition {
           h3{
             line-height: 35px;
@@ -183,6 +178,14 @@
         .front-top-banner {
           height: 950px;
         }
+
+        .header_text {
+          h1 {
+            margin-top: 10vw;
+            margin-bottom: 3vw;
+          }
+        }
+
         .text-box_value_proposition {
           h3{
             line-height: 36px;
@@ -191,7 +194,7 @@
             padding-left: 7%;
             padding-right: 7%;
           }
-          margin-top: 17vw;
+          margin-top: 15vw;
           height: 400px;
         }
       }
@@ -288,7 +291,7 @@
 
       .testimonial-section {
       $testimonial-margin: 3vw;
-      $testimonial-margin-md: 1vw;
+      $testimonial-margin-md: 2vw;
 
       .testimonial-img-container {
         max-width: 432px;
@@ -353,11 +356,11 @@
            margin-bottom: 15vw;
         }
         .testimonial-header-text {
-          height: 42vw;
+          padding-bottom: 8vw;
           margin-top: -30%;
           padding-left: 2em;
           padding-right: 2em;
-          padding-top: 6em;
+          padding-top: 7vw;
           h3 {
           font-size: 21px;
           line-height: 33px;
@@ -369,13 +372,11 @@
       // ≥1200px
       @media (min-width: $screen-lg-min) {
         .testimonial-header-text {
-          height: 32vw;
           margin-top: -30%;
           padding-left: 2em;
           padding-right: 2em;
-          padding-top: 7em;
           h3 {
-            line-height: 36px;
+            line-height: $line-height-big-screen;
             font-size: 22px;
             font-weight: 500;
           }
@@ -383,7 +384,6 @@
       }
       @media (min-width: 1600px) {
         .testimonial-header-text {
-            height: 25vw;
             padding-left: 3em;
             padding-right: 3em;
         }
@@ -393,18 +393,23 @@
       //Portals
       .portal-section {
 
+        .portal-padding {
+          padding-left: 0px;
+          padding-right: 0px;
+        }
+
       .text-box_portals {
         h3,p {
           color: white;
         }
         p {
           font-size: 15px;
-          line-height: 1.5;
+          line-height: $line-height-small-screen;
           text-align: center;
         }
         h3 {
           font-size: 16px;
-          line-height: 1.5;
+          line-height: $line-height-small-screen;
           text-align: center;
         }
         padding: 1em;
@@ -435,32 +440,69 @@
         .text-box_portals {
           p {
             font-size: 16px;
-            line-height: 1.5;
+            line-height: $line-height-small-screen;
             text-align: center;
           }
           h3 {
             font-size: 18px;
-            line-height: 1.5;
+            line-height: $line-height-small-screen;
             text-align: center;
           }
           padding: 2em;
         }
         .text-box_development {
-            margin-top: -10vw;
-            padding-top: 5em;
-            padding-bottom: 5em;
+          padding-top: 9vw;
+          padding-bottom: 5vw;
+          margin-top: -10vw;
         }
         .text-box_research {
-            padding-top: 3em;
-            height: 27em;
+            padding-top: 4vw;
+            padding-bottom: 5vw;
             margin-top: 10vw;
         }
         .text-box_education {
+          padding-top: 4vw;
           margin-top: -5vw;
         }
         .text-box_diy {
-          padding-top: 3em;
-          padding-bottom: 5em;
+          padding-top: 4vw;
+          padding-bottom: 5vw;
+        }
+      }
+
+      //1200px
+      @media (min-width: $screen-lg-min) {
+        .text-box_portals {
+          p {
+            font-size: 20px;
+            line-height: $line-height-small-screen;
+            text-align: center;
+          }
+          h3 {
+            font-size: 22px;
+            line-height: $line-height-big-screen;
+            padding-bottom: 0.5em;
+            text-align: center;
+          }
+          padding: 2em;
+        }
+        .text-box_development {
+          padding-top: 9vw;
+          padding-bottom: 5vw;
+          margin-top: -10vw;
+        }
+        .text-box_research {
+            padding-top: 4vw;
+            padding-bottom: 8vw;
+            margin-top: 6vw;
+        }
+        .text-box_education {
+          padding-top: 4vw;
+          margin-top: -5vw;
+        }
+        .text-box_diy {
+          padding-top: 4vw;
+          padding-bottom: 5vw;
         }
       }
     }

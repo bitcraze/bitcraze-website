@@ -8,22 +8,21 @@ page_id: new_front
 <div class="container-fluid front-top-banner">
   <div class="row">
       <div class="col-md-9 header_text">
-        <div><h1>Bitcraze</h1></div>
-            <h3>Make your ideas fly!</h3>
+            <h1>Make your ideas fly!</h1>
       </div>
   </div>
 
   <div class="row">
     <div class="col-md-2">
-      <button type="button" class="btn btn-primary btn-block btn-color-primary">Shop</button>
+      <a href="https://store.bitcraze.io/"><button type="button" class="btn btn-primary btn-block btn-color-primary">Shop</button></a>
     </div>
 
     <div class="col-md-2">
-      <button type="button" class="btn btn-primary btn-block btn-color-secondary">Getting started</button>
+      <a href="/start/"><button type="button" class="btn btn-primary btn-block btn-color-secondary">Getting started</button></a>
     </div>
 
     <div class="col-md-2 button">
-      <button type="button" class="btn btn-primary btn-block btn-color-secondary">Github</button>
+      <a href="https://github.com/bitcraze"><button type="button" class="btn btn-primary btn-block btn-color-secondary">Github</button></a>
     </div>
   </div>
 
@@ -97,56 +96,49 @@ page_id: new_front
     <div class="col-md-4">
       <div class="testimonial-header-text-wrapper">
         <div class="testimonial-header-text">
-          <h3>Makers, developers and resechers from all around the world are using our stuff. Here are a few examples of why they are using our stuff.</h3>
+          <h3>Developers and resechers around the world are using our platforms for all kinds of research areas. Here we have collected a few guest blog posts to show some examples.</h3>
         </div>
       </div>
     </div>
-
     <div class="col-md-4 testimonial-group">
       <div class="testimonial-img-container">
-        <a><img src="images/new_front/ant-bridge_2302146k.png" alt="-"></a>
+        <a href="https://www.bitcraze.io/2017/06/towards-persistent-adaptive-multi-robot-systems/"><img src="images\testimonials\Carnegie Mellon_testimonial.jpg" alt="Carnegie Mellon"></a>
 
         <article>“We use the Crazyflie platform to evaluate our algorithms because the hardware
                  is robust and the user community has helped make firmware available on which we can base our
                  own systems”
         </article>
-        <h4>-Ellen Cappo, researcher at Carnegie Mellon University.</h4>
+        <h4>-Ellen Cappo, researcher at Carnegie Mellon University</h4>
       </div>
     </div>
 
     <div class="col-md-4 testimonial-group">
       <div class="testimonial-img-container">
-        <a><img src="images/new_front/ant-bridge_2302146k.png" alt="-"></a>
+        <a href="https://www.bitcraze.io/2017/07/multi-robot-path-planning-for-flying-and-driving-vehicles/"><img src="images\testimonials\MIT.jpg" alt="MIT"></a>
 
-        <article>“We use the Crazyflie platform to evaluate our algorithms because the hardware
-                 is robust and the user community has helped make firmware available on which we can base our
-                 own systems”
+        <article>“The Crazyflie is easily obtainable, safe, and (we can certify ourselves) very robust. Moreover, since it is open-source and fully programmable, we were able to easily modify the Crazyflie to fit our needs.”
         </article>
-        <h4>-Ellen Cappo, researcher at Carnegie Mellon University.</h4>
-      </div>
-    </div>
-
-    <div class="col-md-4 testimonial-group testimonial-bottom ">
-      <div class="testimonial-img-container">
-        <a><img src="images/new_front/ant-bridge_2302146k.png" alt="-"></a>
-
-        <article>“We use the Crazyflie platform to evaluate our algorithms because the hardware
-                 is robust and the user community has helped make firmware available on which we can base our
-                 own systems”
-        </article>
-        <h4>-Ellen Cappo, researcher at Carnegie Mellon University.</h4>
+        <h4>-Brandon Araki, researcher at MIT</h4>
       </div>
     </div>
 
     <div class="col-md-4 testimonial-group testimonial-bottom">
       <div class="testimonial-img-container">
-        <a><img src="images/new_front/ant-bridge_2302146k.png" alt="-"></a>
+          <a href="https://www.bitcraze.io/2017/11/modquad-self-assemble-flying-structures/"><img src="images\testimonials\UPenn University.jpg" alt="UPenn University"></a>
 
-        <article>“We use the Crazyflie platform to evaluate our algorithms because the hardware
-                 is robust and the user community has helped make firmware available on which we can base our
-                 own systems”
+        <article>“The ModQuad is propelled by a quadrotor platform. We use the Crazyflie 2.0. The vehicle was chosen because of its agility and scalability. The low-cost and total payload gives us an acceptable scenario for a large number of modules.”
         </article>
-        <h4>-Ellen Cappo, researcher at Carnegie Mellon University.</h4>
+        <h4>-David Saldaña, researcher at UPenn University</h4>
+      </div>
+    </div>
+
+    <div class="col-md-4 testimonial-group testimonial-bottom">
+      <div class="testimonial-img-container">
+        <a href="https://www.bitcraze.io/2016/08/crazyswarm/"><img src="images\testimonials\University of Southern California.jpg" alt="University of Southern California"></a>
+
+        <article>“The Crazyflie is a great platform for research because of its openness and extensibility; additionally, the size allows us to test algorithms on a swarm of robots even in space-limited indoor environments.”
+        </article>
+        <h4>-Wolfgang Hoenig, researcher at University of Southern California</h4>
       </div>
     </div>
 
@@ -155,8 +147,7 @@ page_id: new_front
 <!-- Development portal -->
 <div class="container-fluid portal-section scroll-point">
   <div class="row portal-group">
-
-    <div class="col-md-4 col-md-push-7 col-md-offset-1 portal_padding">
+    <div class="col-md-4 col-md-push-7 col-md-offset-1 portal-padding">
       <div class="text-box_portals text-box_development">
         <h3>The perfect development tool for your flying application</h3>
           <p>Prototype your flying application in the comfort of your lab.
@@ -165,8 +156,8 @@ page_id: new_front
       </div>
     </div>
 
-    <div class="col-md-7 col-md-pull-4 portal_img_development">
-      <img src="images/new_front/development_portal.jpg" alt="portal 1">
+    <div class="col-md-7 col-md-pull-4 portal_img_development portal-padding">
+      <a href="/development/"><img src="images/new_front/development_portal.jpg" alt="Used in development"></a>
     </div>
   </div>
 </div>
@@ -174,7 +165,7 @@ page_id: new_front
 <!-- Research portal -->
 <div class="container-fluid portal-section scroll-point">
   <div class="row portal-group">
-    <div class="col-md-4 portal_padding">
+    <div class="col-md-4 portal-padding">
       <div class="text-box_portals text-box_research">
         <h3>The ideal for many areas of research</h3>
           <p>The platform is designed to be as flexible and versatile as possible to enable the user to explore the area of interest. for instance control algorithms, swarms, path finding, agriculture or failure recovery.
@@ -182,8 +173,8 @@ page_id: new_front
       </div>
     </div>
 
-    <div class="col-md-8 portal_padding">
-      <img src="images/new_front/research_portal.jpg" alt="portal 1">
+    <div class="col-md-8 portal-padding">
+      <a href="/research/"><img src="images/new_front/research_portal.jpg" alt="Used in research"></a>
     </div>
   </div>
 </div>
@@ -191,8 +182,7 @@ page_id: new_front
 <!-- Education portal -->
 <div class="container-fluid portal-section scroll-point">
   <div class="row portal-group">
-
-    <div class="col-md-4 col-md-push-7 col-md-offset-1 portal_padding">
+    <div class="col-md-4 col-md-push-7 col-md-offset-1 portal-padding">
       <div class="text-box_portals text-box_education">
         <h3>Bring the latest in robotics to your students</h3>
           <p>The crazyflie is a versatile platform that is made to engage people to learn about robotics and quadcopters.
@@ -200,9 +190,8 @@ page_id: new_front
           </p>
       </div>
     </div>
-
-    <div class="col-md-7 col-md-pull-4 portal_padding">
-      <img src="images/new_front/education_portal.jpg" alt="portal 1">
+    <div class="col-md-7 col-md-pull-4 portal-padding">
+      <a href="/education/"><img src="images/new_front/education_portal.jpg" alt="Used in education"></a>
     </div>
   </div>
 </div>
@@ -210,16 +199,15 @@ page_id: new_front
 <!-- DIY portal -->
 <div class="container-fluid portal-section scroll-point">
   <div class="row portal-group">
-    <div class="col-md-4 portal_padding">
+    <div class="col-md-4 portal-padding">
       <div class="text-box_portals text-box_diy">
         <h3>Do it yourself</h3>
           <p>Love to fly? Like to tinker? Want to modify and explore? Hate limitations and closed systems? The Crazyflie is for you!
           </p>
       </div>
     </div>
-
-    <div class="col-md-8 portal_padding">
-      <img src="images/new_front/diy_portal.jpg" alt="portal 1">
+    <div class="col-md-8 portal-padding">
+      <a href="/diy/"><img src="images/new_front/diy_portal.jpg" alt="DIY"></a>
     </div>
   </div>
 </div>
