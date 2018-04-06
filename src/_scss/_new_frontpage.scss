@@ -16,7 +16,7 @@
         background-size: 100%;
         background-position: inherit;
         background-repeat: no-repeat;
-        height: 550px;
+        height: 100%;
       }
       .header_text {
           h1 {
@@ -51,13 +51,13 @@
           margin-top: 0px;
           padding: 0em;
           height: 0em;
-          background: blue;
+          background: #4c4cd2;
       }
       //≥768px
     @media (min-width: $screen-sm-min) {
       .front-top-banner {
-        background-image: url("/images/new_front/front.jpg");
-        height: 450px;
+        background-image: url("/images/new_front/front_2.jpg");
+        height: 100%;
       }
 
       .header_text {
@@ -98,15 +98,12 @@
     }
     //992px
     @media (min-width: $screen-md-min) {
-      .front-top-banner {
-        height: 800px;
-      }
       .header_text {
           h1 {
             font-size: 60px;
             font-weight: 800;
             text-align: left;
-            margin-top: 16vw;
+            margin-top: 10vw;
             margin-bottom: 3vw;
             color: white;
           }
@@ -127,17 +124,12 @@
           padding-left: 5%;
           padding-right: 5%;
         }
-          margin-top: 6vw;
-          height: 280px;
-          width: 100%;
-          background: blue;
+          margin-top: 10vw;
+          height: 20vw;
       }
     }
 
     @media (min-width: 1200px) {
-      .front-top-banner {
-        height: 750px;
-      }
       .text-box_value_proposition {
         h3{
           line-height: 32px;
@@ -147,17 +139,13 @@
           padding-right: 5%;
         }
         margin-top: 10vw;
-        height: 350px;
         }
       }
 
       @media (min-width: 1400px) {
-        .front-top-banner {
-          height: 750px;
-        }
         .header_text {
           h1 {
-            margin-top: 13vw;
+            margin-top: 12vw;
             margin-bottom: 3vw;
           }
         }
@@ -175,12 +163,10 @@
         }
 
       @media (min-width: 1600px) {
-        .front-top-banner {
-          height: 950px;
-        }
 
         .header_text {
           h1 {
+            font-size: 5em;
             margin-top: 10vw;
             margin-bottom: 3vw;
           }
@@ -190,12 +176,11 @@
           h3{
             line-height: 36px;
             font-size: 22px;
-            padding-top: 10%;
+            padding-top: 3vw;
             padding-left: 7%;
             padding-right: 7%;
           }
           margin-top: 15vw;
-          height: 400px;
         }
       }
 
@@ -274,8 +259,8 @@
 
       // ≥1200px
       @media (min-width: $screen-lg-min) {
-        margin-top: 15vw;
-        margin-bottom: 15vw;
+        margin-top: 10vw;
+        margin-bottom: 10vw;
 
         .display-menu{
           display: block;
@@ -534,4 +519,60 @@
       border-right: solid 1px;
       z-index: 10;
     }
+
+    // box for used by section
+
+    .used_by_box, .used_by_box_text {
+        padding: 1%;
+        background-color: $used-by-background-color;
+        border: 2px solid $body-bg;
+
+        filter: grayscale(100%);
+        -webkit-filter: grayscale(100%);
+        transition: filter 2.0s, -webkit-filter 2.0s;
+        &:hover {
+            filter: grayscale(0%);
+            -webkit-filter: grayscale(0%);
+            transition: filter 0.1s, -webkit-filter 0.1s;
+        }
+
+        height: 100px;
+    }
+
+    .used_by_box {
+        img {
+          object-position: 50% 50%;
+          object-fit: contain;
+          height: 100%;
+          width: 100%;
+        }
+    }
+
+    .used_by_box_text {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        font-size: 15px;
+    }
+
+    @media (min-width: $screen-sm-min) {
+        .used_by_box, .used_by_box_text {
+            height: 75px;
+        }
+    }
+
+    @media (min-width: $screen-md-min) {
+        .used_by_box, .used_by_box_text {
+            height: 100px;
+            font-size: 25px;
+        }
+    }
+
+    @media (min-width: $screen-lg-min) {
+        .used_by_box, .used_by_box_text {
+            height: 150px;
+        }
+    }
+
 }

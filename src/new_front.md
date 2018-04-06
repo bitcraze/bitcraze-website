@@ -239,14 +239,14 @@ page_id: new_front
         {% used_by_logo PixArt; images/logos/pixart.png; http://www.pixart.com/ %}
         {% used_by_logo DLR; /images/logos/DLR_Logo.png; http://www.dlr.de/ %}
 
-      <!-- </div>
+      </div>
       <div class="row">
         <div class="col-md-12"><p class="text-right">Is your organization missing? <a href="https://github.com/bitcraze/bitcraze-website/edit/master/src/{{page.path}}"><i class="fa fa-pencil"></i> &nbsp;Improve this page</a></p>
           </div>
       </div>
 </div>
 
-<div class="section-scroller" onclick="kraken.scrollToNextScrollPoint()">
+<!-- <div class="section-scroller" onclick="kraken.scrollToNextScrollPoint()">
   <i class="fa fa-chevron-down"></i>
 </div>
 
