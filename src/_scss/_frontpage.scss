@@ -1,6 +1,4 @@
-// New front page
-
-.front-page-new {
+.front-page {
   $font-size-small-screen: 16px;
   $line-height-small-screen: 1.5;
   $line-height-big-screen: 1.8;
@@ -12,7 +10,7 @@
        height: auto;
     }
       .front-top-banner {
-        background-image: url("/images/new_front/Flow_breakout.png");
+        background-image: url("/images/frontpage/Flow_breakout.png");
         background-size: 100%;
         background-position: inherit;
         background-repeat: no-repeat;
@@ -56,7 +54,7 @@
       //≥768px
     @media (min-width: $screen-sm-min) {
       .front-top-banner {
-        background-image: url("/images/new_front/front_2.jpg");
+        background-image: url("/images/frontpage/front_2.jpg");
         height: 100%;
       }
 

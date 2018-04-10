@@ -3,6 +3,6 @@
 /bootstrap
 /tmp
 
-/src/fonts
-/src/javascripts
+/src/bootstrap-js
 /src/.jekyll-metadata
+/.project

@@ -6,100 +6,217 @@ page_id: home
 ---
 
 <div class="container-fluid front-top-banner">
-    <div class="row content-area">
-        <div class="col-md-9 header_text">
-              <h1>Make your ideas fly!</h1>
-                <h3>A flying open development platform</h3>
-        </div>
-        <div class="col-md-3 semi-transparent fp-blog">
-            <h1>From the blog</h1>
-                <!-- inject wp blog -->
+  <div class="row">
+      <div class="col-md-9 header_text">
+            <h1>Make your ideas fly!</h1>
+      </div>
+  </div>
+
+  <div class="row">
+    <div class="col-md-2">
+      <a href="https://store.bitcraze.io/"><button type="button" class="btn btn-primary btn-block btn-color-primary">Shop</button></a>
+    </div>
+
+    <div class="col-md-2">
+      <a href="/start/"><button type="button" class="btn btn-primary btn-block btn-color-secondary">Getting started</button></a>
+    </div>
+
+    <div class="col-md-2 button">
+      <a href="https://github.com/bitcraze"><button type="button" class="btn btn-primary btn-block btn-color-secondary">Github</button></a>
+    </div>
+  </div>
+
+<div class="row">
+      <div class="col-md-4 pull-right">
+        <div class="text-box_value_proposition">
+          <h3>We create open platforms that enable people to explore the world of flying robotics</h3>
         </div>
     </div>
+  </div>
+</div>
+
+<!--Blog-->
+<div class="container-fluid blog-section scroll-point">
+  <div class="row">
+    <div class="col-md-4">
+      <h2>The latest from the blog</h2>
+    </div>
+    <div class="col-md-8 display-menu">
+      <div class="menu-blog-container">
+        <ul class="menu-blog">
+          <li class="menu-item"><a href="/blog/">All posts</a></li>
+          <li class="menu-item"><a href="/category/crazyflie/">Crazyflie</a></li>
+          <li class="menu-item"><a href="/category/loco-positioning/">Loco positioning</a></li>
+          <li class="menu-item"><a href="/category/guest-blogger/">Guest blogger</a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+
+  <div class="row">
+    <div class="col-md-4 blog-container">
+      <!-- inject wp blog img 0 begin -->
+      <div class="blog-img-container">
+        <a><img src="images/frontpage/ant-bridge_2302146k.png" alt="-"></a>
+      </div>
+      <h3 class="blog-title">
+        <a>Placeholder post 1</a>
+      </h3>
+      <!-- inject wp blog img 0 end -->
+    </div>
+
+    <div class="col-md-4 blog-container">
+      <!-- inject wp blog img 1 begin -->
+      <div class="blog-img-container">
+        <a><img src="images/frontpage/ant-bridge_2302146k.png" alt="-"></a>
+      </div>
+      <h3 class="blog-title">
+        <a>Placeholder post 2</a>
+      </h3>
+      <!-- inject wp blog img 1 end -->
+    </div>
+
+    <div class="col-md-4 blog-container">
+      <!-- inject wp blog img 2 begin -->
+      <div class="blog-img-container">
+        <a><img src="images/frontpage/ant-bridge_2302146k.png" alt="-"></a>
+      </div>
+      <h3 class="blog-title">
+        <a>Placeholder post 3</a>
+      </h3>
+      <!-- inject wp blog img 2 end -->
+    </div>
+  </div>
 </div>
 
 
-{% comment %}
-{% announcement Header goes here; /images/frontpage/someImage.jpg %}
-Some information here
-{% endannouncement %}
-{% endcomment %}
-
-<div class="container-fluid">
-    <div class="row content-area">
-        <div class="col-sm-2"></div>
-        <div class="col-sm-8">
-            <img src="/images/frontpage/front-page-portal-pic-5.jpg" class="img-responsive" alt="front"/>
+<!--Testimonials-->
+<div class="container-fluid testimonial-section scroll-point">
+  <div class="row">
+    <div class="col-md-4">
+      <div class="testimonial-header-text-wrapper">
+        <div class="testimonial-header-text">
+          <h3>Developers and resechers around the world are using our platforms for all kinds of research areas. Here we have collected a few guest blog posts to show some examples.</h3>
         </div>
-        <div class="col-sm-2"></div>
+      </div>
     </div>
+    <div class="col-md-4 testimonial-group">
+      <div class="testimonial-img-container">
+        <a href="https://www.bitcraze.io/2017/06/towards-persistent-adaptive-multi-robot-systems/"><img src="images/testimonials/Carnegie Mellon_testimonial.jpg" alt="Carnegie Mellon"></a>
+
+        <article>“We use the Crazyflie platform to evaluate our algorithms because the hardware
+                 is robust and the user community has helped make firmware available on which we can base our
+                 own systems”
+        </article>
+        <h4>-Ellen Cappo, researcher at Carnegie Mellon University</h4>
+      </div>
+    </div>
+
+    <div class="col-md-4 testimonial-group">
+      <div class="testimonial-img-container">
+        <a href="https://www.bitcraze.io/2017/07/multi-robot-path-planning-for-flying-and-driving-vehicles/"><img src="images/testimonials/MIT.jpg" alt="MIT"></a>
+
+        <article>“The Crazyflie is easily obtainable, safe, and (we can certify ourselves) very robust. Moreover, since it is open-source and fully programmable, we were able to easily modify the Crazyflie to fit our needs.”
+        </article>
+        <h4>-Brandon Araki, researcher at MIT</h4>
+      </div>
+    </div>
+
+    <div class="col-md-4 testimonial-group testimonial-bottom">
+      <div class="testimonial-img-container">
+          <a href="https://www.bitcraze.io/2017/11/modquad-self-assemble-flying-structures/"><img src="images/testimonials/UPenn University.jpg" alt="UPenn University"></a>
+
+        <article>“The ModQuad is propelled by a quadrotor platform. We use the Crazyflie 2.0. The vehicle was chosen because of its agility and scalability. The low-cost and total payload gives us an acceptable scenario for a large number of modules.”
+        </article>
+        <h4>-David Saldaña, researcher at UPenn University</h4>
+      </div>
+    </div>
+
+    <div class="col-md-4 testimonial-group testimonial-bottom">
+      <div class="testimonial-img-container">
+        <a href="https://www.bitcraze.io/2016/08/crazyswarm/"><img src="images/testimonials/University of Southern California.jpg" alt="University of Southern California"></a>
+
+        <article>“The Crazyflie is a great platform for research because of its openness and extensibility; additionally, the size allows us to test algorithms on a swarm of robots even in space-limited indoor environments.”
+        </article>
+        <h4>-Wolfgang Hoenig, researcher at University of Southern California</h4>
+      </div>
+    </div>
+
+<!-- Portals -->
+
+<!-- Development portal -->
+<div class="container-fluid portal-section scroll-point">
+  <div class="row portal-group">
+    <div class="col-md-4 col-md-push-7 col-md-offset-1 portal-padding">
+      <div class="text-box_portals text-box_development">
+        <h3>The perfect development tool for your flying application</h3>
+          <p>Prototype your flying application in the comfort of your lab.
+            Modify or extend the firmware of the quadcopter to access or control your hardware - it is all open source.
+          </p>
+      </div>
+    </div>
+
+    <div class="col-md-7 col-md-pull-4 portal_img_development portal-padding">
+      <a href="/development/"><img src="images/frontpage/development_portal.jpg" alt="Used in development"></a>
+    </div>
+  </div>
 </div>
 
+<!-- Research portal -->
+<div class="container-fluid portal-section scroll-point">
+  <div class="row portal-group">
+    <div class="col-md-4 portal-padding">
+      <div class="text-box_portals text-box_research">
+        <h3>The ideal for many areas of research</h3>
+          <p>The platform is designed to be as flexible and versatile as possible to enable the user to explore the area of interest. for instance control algorithms, swarms, path finding, agriculture or failure recovery.
+          </p>
+      </div>
+    </div>
 
-{% include index-portal-left.html portalheader="DIY" portalimg="/images/frontpage/front-page-portal-pic-4.jpg"
-portaltext="Love to fly? Like to tinker with toys? Want to modify and explore? Hate limitations and closed
-systems? The Crazyflie is for you!
+    <div class="col-md-8 portal-padding">
+      <a href="/research/"><img src="images/frontpage/research_portal.jpg" alt="Used in research"></a>
+    </div>
+  </div>
+</div>
 
-Add decks for light and sound effects, or why not build your own deck? Create a
-skin to make it look like your favourite flying creature or add a camera and
-do First Person View (FPV) flying. Use the Crazyflie on a bigger quadcopter frame and build
-the optimal drone, tailored to your needs."
+<!-- Education portal -->
+<div class="container-fluid portal-section scroll-point">
+  <div class="row portal-group">
+    <div class="col-md-4 col-md-push-7 col-md-offset-1 portal-padding">
+      <div class="text-box_portals text-box_education">
+        <h3>Bring the latest in robotics to your students</h3>
+          <p>The crazyflie is a versatile platform that is made to engage people to learn about robotics and quadcopters.
+            Help the students learn control algorithms, embedded systems, aeronautics or robotics by verifying their insights on a real quadcopter.
+          </p>
+      </div>
+    </div>
+    <div class="col-md-7 col-md-pull-4 portal-padding">
+      <a href="/education/"><img src="images/frontpage/education_portal.jpg" alt="Used in education"></a>
+    </div>
+  </div>
+</div>
 
-portalexample="Example applications: flying for fun, FPV racing, flying art, application skinning and exploring quadcopters"
+<!-- DIY portal -->
+<div class="container-fluid portal-section scroll-point">
+  <div class="row portal-group">
+    <div class="col-md-4 portal-padding">
+      <div class="text-box_portals text-box_diy">
+        <h3>Do it yourself</h3>
+          <p>Love to fly? Like to tinker? Want to modify and explore? Hate limitations and closed systems? The Crazyflie is for you!
+          </p>
+      </div>
+    </div>
+    <div class="col-md-8 portal-padding">
+      <a href="/diy/"><img src="images/frontpage/diy_portal.jpg" alt="DIY"></a>
+    </div>
+  </div>
+</div>
 
-portallink="/diy/"
-%}
-
-{% include index-portal-right.html portalheader="Used in research" portalimg="/images/frontpage/front-page-portal-pic-2.jpg" portaltext="
-The Crazyflie is ideal for many areas of research. The source code and hardware
-is open, making it possible to tap into any
-part of the system for complete control and full flexibility. New hardware or sensors can be added
-through the versatile expansion ports, enabling the addition of the latest sensors.
-The small size and light weight reduces the need for safety equipment and increases
-productivity."
-
-portalexample="
-Example applications: autonomous flight, path finding, sensor fusion, swarms and
-environment scanning"
-
-portallink="/research/"
-%}
-
-{% include index-portal-left.html portalheader="Used in education" portalimg="/images/frontpage/front-page-portal-pic-3.jpg" portaltext="
-The popularity of quadcopters makes the Crazyflie a perfect tool for higher education.
-The source code is open making it easy to investigate or modify any part of the system,
-giving the students a direct connection from theory to the real world."
-
-portalexample="Example areas: realtime systems, automatic control and signal processing"
-
-portallink="/education/"
-%}
-
-{% include index-portal-right.html portalheader="Used in development" portalimg="/images/frontpage/front-page-portal-pic-1.jpg" portaltext="
-Prototype your flying application in the comfort of your lab and usual development
-environment on a small and handy Crazyflie. Add sensors and other hardware as needed
-through the expansion ports. When everything is tested and working as expected,
-move to a larger platform and go outdoors.
-Try out if your favourite programming language is doing well for drones
-or investigate how to use sensor data to understand the real world."
-
-portalexample="Examples: remote control, sensor integration, autonomous flight"
-portallink="/development/"
-%}
-
-{% include index-portal-left.html portalheader="Used by the industry" portalimg="/images/frontpage/Industry-portal-400px.JPG" portaltext="
-The posibility to add expansion decks in combination with the open source
-firmware/software makes the Crazyflie the perfect platform for sensor manufacturers
-to demonstrate the performance of sensors as well as a base for evaluation or reference boards.
-"
-portalexample="Examples areas: demonstrator and evaluation boards for sensors"
-portallink="/industry/"
-%}
+  <!-- Portals end -->
 
 
-
-<div class="container-fluid used-by-section">
-    <div class="row content-area">
+<div class="container-fluid used-by-section scroll-point">
+    <div class="row">
         <div class="col-md-12">
             <h2>Used by</h2>
         </div>
@@ -123,8 +240,16 @@ portallink="/industry/"
         {% used_by_logo DLR; /images/logos/DLR_Logo.png; http://www.dlr.de/ %}
 
       </div>
-      <div class="row content-area">
+      <div class="row">
         <div class="col-md-12"><p class="text-right">Is your organization missing? <a href="https://github.com/bitcraze/bitcraze-website/edit/master/src/{{page.path}}"><i class="fa fa-pencil"></i> &nbsp;Improve this page</a></p>
           </div>
       </div>
 </div>
+
+<!-- <div class="section-scroller" onclick="kraken.scrollToNextScrollPoint()">
+  <i class="fa fa-chevron-down"></i>
+</div>
+
+<script type='text/javascript'>
+  kraken.registerSectionScrollerSpy();
+</script> -->
