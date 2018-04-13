@@ -204,16 +204,14 @@
       }
 
       .blog-img-container {
-       height: 250px;
-        vertical-align: middle;
+        height: 250px;
         display: flex;
         justify-content: center;
+        align-items: center;
       }
 
       img {
         max-height: 250px;
-        width: 100%;
-        object-fit: cover;
       }
 
       .display-menu{
