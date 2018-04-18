@@ -8,6 +8,15 @@
 	margin: 0 auto;
 }
 
+body {
+  background-color: #eee;
+}
+
+#page {
+  max-width: 2500px;
+  margin: auto;
+  background-color: white;
+}
 
 b, strong {
   font-weight: $font-weight-strong;

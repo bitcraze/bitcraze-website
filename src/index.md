@@ -6,6 +6,23 @@ page_id: home
 ---
 
 <div class="container-fluid front-top-banner">
+  <div class="with_flex row">
+    <div class="header_text">
+      <h1>Make your ideas fly!</h1>
+      <div class="header_buttons">
+        <a href="https://store.bitcraze.io/"><button type="button" class="btn btn-primary btn-block btn-color-primary">Shop</button></a>
+        <a href="/start/"><button type="button" class="btn btn-primary btn-block btn-color-secondary">Getting started</button></a>
+        <a href="https://github.com/bitcraze" class="mobile_hidden_button"><button type="button" class="btn btn-primary btn-block btn-color-secondary">Github</button></a>
+      </div>
+    </div>
+
+    <div class="value_proposition">
+      <h3>We create open platforms that enable people to explore the world of flying robotics</h3>
+    </div>
+  </div>
+</div>
+
+<!-- <div class="container-fluid front-top-banner">
   <div class="row">
       <div class="col-md-9 header_text">
             <h1>Make your ideas fly!</h1>
@@ -33,7 +50,7 @@ page_id: home
         </div>
     </div>
   </div>
-</div>
+</div> -->
 
 <!--Blog-->
 <div class="container-fluid blog-section scroll-point">
