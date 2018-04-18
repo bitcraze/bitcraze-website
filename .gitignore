@@ -6,3 +6,8 @@
 /src/bootstrap-js
 /src/.jekyll-metadata
 /.project
+src/javascripts/bootstrap/
+src/fonts/bootstrap/
+src/javascripts/bootstrap-sprockets.js
+src/javascripts/bootstrap.js
+src/javascripts/bootstrap.min.js

@@ -22,36 +22,6 @@ page_id: home
   </div>
 </div>
 
-<!-- <div class="container-fluid front-top-banner">
-  <div class="row">
-      <div class="col-md-9 header_text">
-            <h1>Make your ideas fly!</h1>
-      </div>
-  </div>
-
-  <div class="row">
-    <div class="col-md-2">
-      <a href="https://store.bitcraze.io/"><button type="button" class="btn btn-primary btn-block btn-color-primary">Shop</button></a>
-    </div>
-
-    <div class="col-md-2">
-      <a href="/start/"><button type="button" class="btn btn-primary btn-block btn-color-secondary">Getting started</button></a>
-    </div>
-
-    <div class="col-md-2 button">
-      <a href="https://github.com/bitcraze"><button type="button" class="btn btn-primary btn-block btn-color-secondary">Github</button></a>
-    </div>
-  </div>
-
-<div class="row">
-      <div class="col-md-4 pull-right">
-        <div class="text-box_value_proposition">
-          <h3>We create open platforms that enable people to explore the world of flying robotics</h3>
-        </div>
-    </div>
-  </div>
-</div> -->
-
 <!--Blog-->
 <div class="container-fluid blog-section scroll-point">
   <div class="row">
