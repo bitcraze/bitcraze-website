@@ -80,6 +80,7 @@ page_id: home
 <!--Testimonials-->
 <div class="container-fluid testimonial-section scroll-point">
   <div class="row">
+
     <div class="col-md-4">
       <div class="testimonial-header-text-wrapper">
         <div class="testimonial-header-text">
@@ -87,9 +88,10 @@ page_id: home
         </div>
       </div>
     </div>
+
     <div class="col-md-4 testimonial-group">
       <div class="testimonial-img-container">
-        <a href="https://www.bitcraze.io/2017/06/towards-persistent-adaptive-multi-robot-systems/"><img src="images/testimonials/Carnegie Mellon_testimonial.jpg" alt="Carnegie Mellon"></a>
+        <a href="https://www.bitcraze.io/2017/06/towards-persistent-adaptive-multi-robot-systems/"><img src="images/testimonials/carnegie.jpg" alt="Carnegie Mellon"></a>
 
         <article>“We use the Crazyflie platform to evaluate our algorithms because the hardware
                  is robust and the user community has helped make firmware available on which we can base our
@@ -99,19 +101,22 @@ page_id: home
       </div>
     </div>
 
+
     <div class="col-md-4 testimonial-group">
       <div class="testimonial-img-container">
-        <a href="https://www.bitcraze.io/2017/07/multi-robot-path-planning-for-flying-and-driving-vehicles/"><img src="images/testimonials/MIT.jpg" alt="MIT"></a>
+        <a href="https://www.bitcraze.io/2017/07/multi-robot-path-planning-for-flying-and-driving-vehicles/"><img src="images/testimonials/mit.jpg" alt="MIT"></a>
 
         <article>“The Crazyflie is easily obtainable, safe, and (we can certify ourselves) very robust. Moreover, since it is open-source and fully programmable, we were able to easily modify the Crazyflie to fit our needs.”
         </article>
         <h4>-Brandon Araki, researcher at MIT</h4>
       </div>
     </div>
+  </div>
 
+  <div class="row">
     <div class="col-md-4 testimonial-group testimonial-bottom">
       <div class="testimonial-img-container">
-          <a href="https://www.bitcraze.io/2017/11/modquad-self-assemble-flying-structures/"><img src="images/testimonials/UPenn University.jpg" alt="UPenn University"></a>
+          <a href="https://www.bitcraze.io/2017/11/modquad-self-assemble-flying-structures/"><img src="images/testimonials/modquad.jpg" alt="UPenn University"></a>
 
         <article>“The ModQuad is propelled by a quadrotor platform. We use the Crazyflie 2.0. The vehicle was chosen because of its agility and scalability. The low-cost and total payload gives us an acceptable scenario for a large number of modules.”
         </article>
@@ -121,13 +126,15 @@ page_id: home
 
     <div class="col-md-4 testimonial-group testimonial-bottom">
       <div class="testimonial-img-container">
-        <a href="https://www.bitcraze.io/2016/08/crazyswarm/"><img src="images/testimonials/University of Southern California.jpg" alt="University of Southern California"></a>
+        <a href="https://www.bitcraze.io/2016/08/crazyswarm/"><img src="images/testimonials/usc.jpg" alt="University of Southern California"></a>
 
         <article>“The Crazyflie is a great platform for research because of its openness and extensibility; additionally, the size allows us to test algorithms on a swarm of robots even in space-limited indoor environments.”
         </article>
         <h4>-Wolfgang Hoenig, researcher at University of Southern California</h4>
       </div>
     </div>
+  </div>
+</div>
 
 <!-- Portals -->
 
