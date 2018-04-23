@@ -1,15 +1,14 @@
 ---
 layout: page-left-menu
-title: Getting started with Position hold
+title: Getting started with Flying using LPS
 permalink: /getting-started-with-assisted-flight-position-hold/
 page_id: getting-started-with-assisted-flight-position-hold
 ---
 
-{% si_intro Assisted flight %}
-When the Crazyflie 2.0 is used together with the Loco Positioning System, it is
-possible to use the Position Hold mode in the Client. 
-Position hold lets you control the change of x/y/yaw/height instead of roll/pitch/yaw/thrust, 
-thus releasing the sticks will leave the Crazyflie in its current position.
+{% si_intro Start up %}
+When the Crazyflie 2.0 is used together with the Loco Positioning System, the 
+position information can be used for assisted flight and help the pilot to
+control the quadcopter, or it can be used for scripted autonomous flight. 
 {% endsi_intro %}
 
 {% si_step Restart the Crazyflie %}
@@ -17,6 +16,14 @@ thus releasing the sticks will leave the Crazyflie in its current position.
 * Turn on or restart the Crazyflie 2.0
 {% img Restart the Crazyflie; wide; /images/tutorials/getting_started_with_lps/restart_the_crazyflie.png %}
 {% endsi_step %}
+
+
+
+{% si_intro Assisted flight %}
+Use the Position Hold mode in the Client for assisted flight. 
+Position hold lets you control the change of x/y/yaw/height instead of roll/pitch/yaw/thrust, 
+thus releasing the sticks will leave the Crazyflie in its current position.
+{% endsi_intro %}
 
 {% si_step Connect to the Crazyflie 2.0 %}
 * Open the cfclient application
@@ -52,3 +59,32 @@ Here you can see that the Pitch and Roll is not [0.0] which might result in the 
 {% tutorialVideo /videos/flying_with_position_hold.mp4 %}
 {% endsi_step %}
 
+
+
+{% si_intro Autonomous flight %}
+Autonomous flight is when the Crazyflie flies without a pilot, usually using a 
+script to control it instead. This area is out of scope for this getting started 
+guide and we will only briefly cover the basics. 
+{% endsi_intro %}
+
+{% si_step Outline %}
+The easiest way to get started with autonomous flight is to use a python script
+running on a computer, it will replace the role of the Client as well as the 
+gamepad in the previous section.
+
+The python script runns in a computer and sends set points to the Crazyflie 
+using the Crazyradio. A set point contains information of where the Crazyflie
+should go and how fast to go there. Since the Crazyflie continuously gets its
+current position from the positioning system, it has all the information it needs
+to fly it self.
+{% endsi_step %}
+
+{% si_step Preparations %}
+You need python installed on your computer and you must know how to run a python
+script. Please read the relevant python documentation for your platform. 
+{% endsi_step %}
+
+{% si_step Find the example scripts %}
+There are example scripts in the bitcraze/crazyflie-lib-python github repo, please 
+see the [examples directory](https://github.com/bitcraze/crazyflie-lib-python/tree/master/examples).
+{% endsi_step %}

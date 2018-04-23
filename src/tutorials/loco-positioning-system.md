@@ -240,7 +240,7 @@ starts to receive data from the anchors.
 
 {% si_intro Next step %}
 Now when you got the basic functionality of the system up and running you might 
-want to try [assisted flight with Position hold](/getting-started-with-assisted-flight-position-hold). 
+want to try [to fly using Loco Positioning](/getting-started-with-assisted-flight-position-hold). 
 
 To read the more techy documentation go to the [Loco positioning wiki page](https://wiki.bitcraze.io/doc:lps:index).
 {% endsi_intro %}
