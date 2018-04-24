@@ -104,7 +104,7 @@ page_id: home
 
     <div class="col-md-4 testimonial-group">
       <div class="testimonial-img-container">
-        <a href="https://www.bitcraze.io/2017/07/multi-robot-path-planning-for-flying-and-driving-vehicles/"><img src="images/testimonials/mit.jpg" alt="MIT"></a>
+        <a href="https://www.bitcraze.io/2017/07/multi-robot-path-planning-for-flying-and-driving-vehicles/"><img src="images/testimonials/MIT.jpg" alt="MIT"></a>
 
         <article>“The Crazyflie is easily obtainable, safe, and (we can certify ourselves) very robust. Moreover, since it is open-source and fully programmable, we were able to easily modify the Crazyflie to fit our needs.”
         </article>
