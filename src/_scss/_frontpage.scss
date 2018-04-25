@@ -1,11 +1,11 @@
 .front-page {
-  $header-font-size-small-screen: 32px;
+  $header-font-size-small-screen: 45px;
   $header-line-height-small-screen: 1.5;
 
   $header-font-size-medium-screen: 60px;
   $header-line-height-medium-screen: 1.5;
 
-  $header-font-size-big-screen: 86px;
+  $header-font-size-big-screen: 75px;
   $header-line-height-big-screen: 1.8;
 
   $font-weight-front-page: 800;
@@ -17,9 +17,12 @@
   $line-height-medium-screen: 1.5;
 
   $font-size-big-screen: 22px;
-  $line-height-big-screen: 1.6;
+  $line-height-big-screen: 1.7;
 
   $header-margin: 4vw;
+
+  $section-margin-small-screen: 5vh;
+  $section-margin-big-screen: 20vh;
 
   img {
   max-width: 100%;
@@ -27,17 +30,18 @@
   }
 
   .front-top-banner {
-  background-image: url("/images/frontpage/Flow_breakout.png");
+  background-image: url("/images/frontpage/front-mobile.jpg");
   background-size: cover;
   background-position: center;
-  height: 90vh;
+  min-height: 420px;
   max-height: 1200px;
 
+    //(≥768px)
     @media (min-width: $screen-sm-min) {
-      background-image: url("/images/frontpage/front_2.jpg");
+      background-image: url("/images/frontpage/front.jpg");
       background-position-y: -75px;
       background-repeat-y: no-repeat;
-      height: 130vh;
+      min-height: 470px;
     }
     @media (min-width: $screen-md-min) {
       height: 100vh;
@@ -63,15 +67,16 @@
         line-height: $header-line-height-small-screen;
         font-weight: $font-weight-front-page;
         text-align: center;
-        margin-bottom: 20%;
+        margin-top: 10vh;
+        margin-bottom: 10vh;
         color:white;
         }
 
         //≥768px
       @media (min-width: $screen-sm-min) {
         h1 {
-        font-size: $header-font-size-medium-screen;
-        line-height: $header-line-height-medium-screen;
+        margin-top: 5vh;
+        margin-bottom: 5vh;
         }
       }
 
@@ -80,10 +85,18 @@
         align-self: flex-start;
         flex-grow: 1;
         h1 {
+        font-size: $header-font-size-medium-screen;
+        line-height: $header-line-height-medium-screen;
+        margin-top: 20vh;
+        margin-bottom: 2vh;
+        }
+      }
+
+      // ≥1200px
+      @media (min-width: $screen-lg-min) {
+        h1 {
         font-size: $header-font-size-big-screen;
         line-height: $header-line-height-big-screen;
-        margin-top: 10vw;
-        margin-bottom: 5%;
         }
       }
     }
@@ -175,8 +188,7 @@
   //Blog
 
     .blog-section {
-      margin-top: 10vw;
-      margin-bottom: 10vw;
+      margin-top: 2vh;
 
       h2 {
         font-size: 25px;
@@ -189,23 +201,34 @@
         text-align: center;
       }
 
-      .blog-container{
-        margin-bottom: 14vw;
-      }
-
       .blog-img-container {
-        height: 250px;
         display: flex;
         justify-content: center;
         align-items: center;
       }
 
       img {
-        max-height: 250px;
+        max-height: 267px;
       }
 
       .display-menu{
+        display: none
+      }
+
+      .display-blog {
         display: none;
+        @media (min-width: $screen-md-min) {
+          display: block;
+        }
+      }
+
+      .display-menu-2 {
+        a {
+          text-decoration: underline;
+        }
+        @media (min-width: $screen-md-min) {
+          display: none;
+        }
       }
 
       .menu-blog-container {
@@ -225,8 +248,17 @@
         }
       }
 
+      //(≥768px)
+      @media (min-width: $screen-md-min) {
+        margin-top: $section-margin-small-screen;
+        margin-bottom: $section-margin-small-screen;
+      }
+
       // ≥992px
       @media (min-width: $screen-md-min) {
+        margin-top: $section-margin-big-screen;
+        margin-bottom: $section-margin-big-screen;
+
         h2 {
           margin-bottom: 2vw;
           text-align: left;
@@ -245,8 +277,6 @@
 
       // ≥1200px
       @media (min-width: $screen-lg-min) {
-        margin-top: 10vw;
-        margin-bottom: 10vw;
 
         .display-menu{
           display: block;
@@ -261,224 +291,175 @@
   //Testimonials
 
   .testimonial-section {
-    $testimonial-margin: 3vw;
-    $testimonial-margin-md: 2vw;
+    $testimonial-margin: 2vh;
 
-    .testimonial-img-container {
-      //max-width: 432px;
-    }
+    margin-top: $section-margin-small-screen;
+    margin-bottom: $section-margin-small-screen;
 
-    .testimonial-header-text {
-      h3{
-        font-size: $font-size-small-screen;
-        line-height: $line-height-small-screen;
-        font-weight: $font-weight-front-page;
-        color: white;
-        text-align: center;
-        margin-top: 0px;
-        margin-bottom: 0px;
+    .flow-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+
+      .header-padding {
+      padding-left: 0px;
+      padding-right: 0px;
       }
-        background: #FF0077;
-        padding: 1em;
-        margin-bottom: $header-margin;
-        //max-width: 432px;
-    }
-    .testimonial-header-text-wrapper {
-      vertical-align: middle;
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-    }
 
-    .testimonial-group {
-      margin-top: $testimonial-margin;
-      margin-bottom: 10vw;
-      font-size: 13px;
-      line-height: 20px;
-
-      vertical-align: middle;
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-
-      article {
-        margin-top: $testimonial-margin;
-        margin-bottom: $testimonial-margin;
+      .background-wrapper {
+      background-color: black;
+      padding: 40px;
+      margin: -1px;
       }
-      h4 {
-        font-size: 14px;
-      }
-    }
-    // ≥992px
-    @media (min-width: $screen-md-min) {
-      .testimonial-group {
-        margin-top: 0;
-        margin-bottom: $testimonial-margin;
-        font-size: $font-size-small-screen;
-        line-height: $line-height-small-screen;
+
+      .testimonial-item {
+      font-size: $font-size-small-screen;
+      line-height: $line-height-small-screen;
+      color: white;
 
         article {
-          margin-top: $testimonial-margin-md;
-          margin-bottom: $testimonial-margin-md;
+        margin-top: $testimonial-margin;
+        margin-bottom: $testimonial-margin;
+        }
+        h4 {
+        font-size: $font-size-small-screen;
+        line-height: $line-height-small-screen;
         }
       }
-      .testimonial-bottom {
-         float: right !important;
-         margin-bottom: 15vw;
+    }
+
+    .testimonial-header-text {
+    background: #FF0077;
+      h3{
+      font-size: $font-size-small-screen;
+      line-height: $line-height-small-screen;
+      font-weight: $font-weight-front-page;
+      color: white;
+      text-align: center;
+      padding: 1em;
       }
+    }
+
+    // ≥992px
+    @media (min-width: $screen-md-min) {
+      margin-top: $section-margin-big-screen;
+      margin-bottom: $section-margin-big-screen;
+
+      .header-padding {
+      padding-left: 15px;
+      }
+
       .testimonial-header-text {
-        padding-bottom: 8vw;
-        margin-top: -30%;
+        h3 {
+        font-size: $font-size-big-screen;
+        line-height: $line-height-big-screen;
+        font-weight: 500;
+        padding-top: 150px;
         padding-left: 2em;
         padding-right: 2em;
-        padding-top: 7vw;
-        h3 {
-        font-size: 21px;
-        line-height: 33px;
-        font-weight: 500;
+        padding-bottom: 150px;
+        margin-top: -150px;
         }
       }
+    }
   }
 
-  // ≥1200px
-  @media (min-width: $screen-lg-min) {
-    .testimonial-header-text {
-      margin-top: -30%;
-      padding-left: 2em;
-      padding-right: 2em;
+  //Portals
+  .portal-section {
+    margin-top: $section-margin-small-screen;
+    margin-bottom: $section-margin-small-screen;
+
+    .portal-padding {
+    padding-left: 0px;
+    padding-right: 0px;
+    }
+
+    .text-box_portals {
+      h3,p {
+      color: white;
+      }
+      p {
+      font-size: 15px;
+      line-height: $line-height-small-screen;
+      text-align: center;
+      }
       h3 {
-        line-height: $line-height-big-screen;
-        font-size: 22px;
-        font-weight: 500;
+      font-size: $font-size-small-screen;
+      line-height: $line-height-small-screen;
+      text-align: center;
       }
+      padding: 1em;
     }
-  }
-  @media (min-width: 1600px) {
-    .testimonial-header-text {
-        padding-left: 3em;
-        padding-right: 3em;
+
+    .text-box_development {
+    background: #FD9724;
     }
-  }
-  }
 
-      //Portals
-      .portal-section {
+    .text-box_research {
+    background: #9600CC;
+    }
 
-        .portal-padding {
-          padding-left: 0px;
-          padding-right: 0px;
-        }
+    .text-box_education {
+    background: #1B7032;
+    }
+
+    .text-box_diy {
+    background: #FF4400;
+    }
+
+    // ≥992px
+    @media (min-width: $screen-md-min) {
+      margin-top: $section-margin-big-screen;
+      margin-bottom: $section-margin-big-screen;
 
       .text-box_portals {
-        h3,p {
-          color: white;
-        }
-        p {
-          font-size: 15px;
-          line-height: $line-height-small-screen;
-          text-align: center;
-        }
         h3 {
-          font-size: 16px;
-          line-height: $line-height-small-screen;
-          text-align: center;
+        font-size: $font-size-medium-screen;
+        line-height: $line-height-medium-screen;
+        text-align: center;
         }
-        padding: 1em;
-      }
-
-      .portal-group {
-        margin-bottom: 10vw;
+        padding: 2em;
       }
 
       .text-box_development {
-          background: #FD9724;
+      padding-top: 100px;
+      padding-bottom: 100px;
+      margin-top: -120px;
       }
-
       .text-box_research {
-          background: #9600CC;
+      padding-top: 100px;
+      padding-bottom: 100px;
+      margin-top: 120px;
       }
-
       .text-box_education {
-          background: #1B7032;
+      padding-top: 100px;
+      padding-bottom: 100px;
+      margin-top: -120px;
       }
-
       .text-box_diy {
-          background: #FF4400;
+      padding-top: 100px;
+      padding-bottom: 100px;
       }
+    }
 
-      // ≥992px
-      @media (min-width: $screen-md-min) {
-        .text-box_portals {
-          p {
-            font-size: 16px;
-            line-height: $line-height-small-screen;
-            text-align: center;
-          }
-          h3 {
-            font-size: 18px;
-            line-height: $line-height-small-screen;
-            text-align: center;
-          }
-          padding: 2em;
+    //1200px
+    @media (min-width: $screen-lg-min) {
+      .text-box_portals {
+        p {
+        font-size: 20px;
+        line-height: $line-height-medium-screen;
+        text-align: center;
         }
-        .text-box_development {
-          padding-top: 9vw;
-          padding-bottom: 5vw;
-          margin-top: -10vw;
-        }
-        .text-box_research {
-            padding-top: 4vw;
-            padding-bottom: 5vw;
-            margin-top: 10vw;
-        }
-        .text-box_education {
-          padding-top: 4vw;
-          margin-top: -5vw;
-        }
-        .text-box_diy {
-          padding-top: 4vw;
-          padding-bottom: 5vw;
-        }
-      }
-
-      //1200px
-      @media (min-width: $screen-lg-min) {
-        .text-box_portals {
-          p {
-            font-size: 20px;
-            line-height: $line-height-small-screen;
-            text-align: center;
-          }
-          h3 {
-            font-size: 22px;
-            line-height: $line-height-big-screen;
-            padding-bottom: 0.5em;
-            text-align: center;
-          }
-          padding: 2em;
-        }
-        .text-box_development {
-          padding-top: 9vw;
-          padding-bottom: 5vw;
-          margin-top: -10vw;
-        }
-        .text-box_research {
-            padding-top: 4vw;
-            padding-bottom: 8vw;
-            margin-top: 6vw;
-        }
-        .text-box_education {
-          padding-top: 4vw;
-          margin-top: -5vw;
-        }
-        .text-box_diy {
-          padding-top: 4vw;
-          padding-bottom: 5vw;
+        h3 {
+        font-size: $font-size-big-screen;
+        line-height: $line-height-big-screen;
         }
       }
     }
-      //End portals
+  }
 
+  //End portals
 
     // Call to action buttons
     .btn-color-primary {
