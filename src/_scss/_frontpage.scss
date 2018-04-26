@@ -41,7 +41,7 @@
       background-image: url("/images/frontpage/front.jpg");
       background-position-y: -75px;
       background-repeat-y: no-repeat;
-      min-height: 470px;
+      height: 800px;
     }
     @media (min-width: $screen-md-min) {
       height: 100vh;
@@ -147,6 +147,52 @@
           }
         }
       }
+
+    .header-wrapper {
+      display: flex;
+      flex-direction: column;
+    }
+
+    .announcements {
+      display: flex;
+      align-self:center;
+      flex-direction: column;
+      width: 100%;
+      color: white;
+      background: hotpink;
+      h3 {
+      font-size: $font-size-small-screen;
+      line-height: $line-height-small-screen;
+      font-weight: $font-weight-front-page;
+      text-align: center;
+      }
+      a {
+        align-self: center;
+        max-width: 60%;
+      }
+      p {
+        font-size: $font-size-small-screen;
+        line-height: $line-height-small-screen;
+        text-align: center;
+      }
+      //(≥768px)
+      @media (min-width: $screen-sm-min) {
+        width: 50%;
+        h3 {
+        font-size: $font-size-medium-screen;
+        line-height: $line-height-medium-screen;
+        font-weight: $font-weight-front-page;
+        text-align: center;
+        }
+        a {
+          max-width: 40%;
+        }
+        p {
+          font-size: $font-size-medium-screen;
+          line-height: $line-height-medium-screen;
+        }
+      }
+    }
 
     .value_proposition {
       align-self: center;

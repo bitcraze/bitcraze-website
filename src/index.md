@@ -7,20 +7,32 @@ page_id: home
 
 <div class="container-fluid front-top-banner">
   <div class="with_flex row">
-    <div class="header_text">
-      <h1>Make your ideas fly!</h1>
-      <div class="header_buttons">
-        <a href="https://store.bitcraze.io/"><button type="button" class="btn btn-primary btn-block btn-color-primary">Shop</button></a>
-        <a href="/start/"><button type="button" class="btn btn-primary btn-block btn-color-secondary">Getting started</button></a>
-        <a href="https://github.com/bitcraze" class="mobile_hidden_button"><button type="button" class="btn btn-primary btn-block btn-color-secondary">Github</button></a>
+    <div class="header-wrapper">
+      <div class="header_text">
+        <h1>Make your ideas fly!</h1>
+        <div class="header_buttons">
+          <a href="https://store.bitcraze.io/"><button type="button" class="btn btn-primary btn-block btn-color-primary">Shop</button></a>
+          <a href="/start/"><button type="button" class="btn btn-primary btn-block btn-color-secondary">Getting started</button></a>
+          <a href="https://github.com/bitcraze" class="mobile_hidden_button"><button type="button" class="btn btn-primary btn-block btn-color-secondary">Github</button></a>
+        </div>
+
+      </div>
+      <div class="announcements">
+        <h3>We are going to Maker faire Berlin!</h3>
+        <a><img src="images/frontpage/icon_Hannover_dt.png" alt="Announcement"></a>
+        <p>Come join us at booth H45 we love to meet people :-)</p>
       </div>
     </div>
+
+
 
     <div class="value_proposition">
       <h3>We create open platforms that enable people to explore the world of flying robotics</h3>
     </div>
   </div>
 </div>
+
+
 
 <!--Blog-->
 <div class="container-fluid blog-section scroll-point">
