@@ -15,8 +15,8 @@ page_id: home
           <a href="/start/"><button type="button" class="btn btn-primary btn-block btn-color-secondary">Getting started</button></a>
           <a href="https://github.com/bitcraze" class="mobile_hidden_button"><button type="button" class="btn btn-primary btn-block btn-color-secondary">Github</button></a>
         </div>
-
       </div>
+
       <div class="announcements">
         <h3>We are going to Maker faire Berlin!</h3>
         <a><img src="images/frontpage/icon_Hannover_dt.png" alt="Announcement"></a>

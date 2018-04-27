@@ -53,7 +53,6 @@
     flex-direction: column;
     justify-content: space-between;
     flex-wrap: nowrap;
-    height: 80%;
 
       //992px
       @media (min-width: $screen-md-min) {
@@ -89,6 +88,7 @@
         line-height: $header-line-height-medium-screen;
         margin-top: 20vh;
         margin-bottom: 2vh;
+        text-align: left;
         }
       }
 
@@ -132,7 +132,7 @@
     .header_buttons {
         display: flex;
         flex-direction: column;
-        justify-content: space-around;
+        justify-content: space-between;
 
         a > button {
         width: 100%;
@@ -151,12 +151,18 @@
     .header-wrapper {
       display: flex;
       flex-direction: column;
+
+      @media (min-width: $screen-md-min) {
+        flex-direction: row;
+      }
     }
 
     .announcements {
       display: flex;
       align-self:center;
       flex-direction: column;
+      justify-content: space-around;
+      padding:5px;
       width: 100%;
       color: white;
       background: hotpink;
@@ -165,6 +171,7 @@
       line-height: $line-height-small-screen;
       font-weight: $font-weight-front-page;
       text-align: center;
+      padding: 5px;
       }
       a {
         align-self: center;
@@ -174,6 +181,7 @@
         font-size: $font-size-small-screen;
         line-height: $line-height-small-screen;
         text-align: center;
+        padding: 5px;
       }
       //(≥768px)
       @media (min-width: $screen-sm-min) {
@@ -191,6 +199,12 @@
           font-size: $font-size-medium-screen;
           line-height: $line-height-medium-screen;
         }
+      }
+      @media (min-width: $screen-md-min) {
+        width: 30%;
+        margin-right: 2%;
+        align-self:flex-start;
+        margin-bottom: 50vh;
       }
     }
 
