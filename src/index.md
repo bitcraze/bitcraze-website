@@ -17,14 +17,12 @@ page_id: home
         </div>
       </div>
 
-      <div class="announcements">
-        <h3>We are going to Maker faire Berlin!</h3>
+      <div class="announcements display-announcment">
+        <h3>Header goes here</h3>
         <a><img src="images/frontpage/icon_Hannover_dt.png" alt="Announcement"></a>
-        <p>Come join us at booth H45 we love to meet people :-)</p>
+        <p>text explaining the context goes here</p>
       </div>
     </div>
-
-
 
     <div class="value_proposition">
       <h3>We create open platforms that enable people to explore the world of flying robotics</h3>

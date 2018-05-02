@@ -26,7 +26,7 @@
 
   img {
   max-width: 100%;
-  height: auto;
+  max-height: 240px;
   }
 
   .front-top-banner {
@@ -39,9 +39,7 @@
     //(≥768px)
     @media (min-width: $screen-sm-min) {
       background-image: url("/images/frontpage/front.jpg");
-      background-position-y: -75px;
       background-repeat-y: no-repeat;
-      height: 800px;
     }
     @media (min-width: $screen-md-min) {
       height: 100vh;
@@ -136,18 +134,24 @@
 
         a > button {
         width: 100%;
+        max-width: 400px;
         }
 
         //992px
         @media (min-width: $screen-md-min) {
-        flex-direction: row;
-        width: 80%;
+          flex-direction: row;
+          width: 80%;
+          max-width: 550px;
           a {
           width:28%;
           }
         }
+        //1200px
+        @media (min-width: $screen-lg-min) {
+          width: 100%;
+          max-width: 700px;
+        }
       }
-
     .header-wrapper {
       display: flex;
       flex-direction: column;
@@ -164,11 +168,13 @@
       justify-content: space-around;
       padding:5px;
       width: 100%;
+      max-width: 400px;
+      max-height: 400px;
       color: white;
       background: hotpink;
       h3 {
-      font-size: $font-size-small-screen;
-      line-height: $line-height-small-screen;
+      font-size: $font-size-medium-screen;
+      line-height: $line-height-medium-screen;
       font-weight: $font-weight-front-page;
       text-align: center;
       padding: 5px;
@@ -185,27 +191,29 @@
       }
       //(≥768px)
       @media (min-width: $screen-sm-min) {
-        width: 50%;
-        h3 {
-        font-size: $font-size-medium-screen;
-        line-height: $line-height-medium-screen;
-        font-weight: $font-weight-front-page;
-        text-align: center;
-        }
-        a {
-          max-width: 40%;
-        }
+        max-width: 400px;
+        max-height: 370px;
         p {
           font-size: $font-size-medium-screen;
           line-height: $line-height-medium-screen;
         }
       }
+      // ≥992px
       @media (min-width: $screen-md-min) {
         width: 30%;
         margin-right: 2%;
         align-self:flex-start;
-        margin-bottom: 50vh;
+        h3 {
+        font-size: $font-size-big-screen;
+        line-height: $line-height-big-screen;
+        font-weight: $font-weight-front-page;
+        text-align: center;
+        }
       }
+    }
+
+    .display-announcment {
+      display: none;
     }
 
     .value_proposition {
@@ -229,6 +237,7 @@
       background: #4c4cd2;
       width: 30%;
       margin-right: 2%;
+      margin-top: 30%;
       margin-bottom: -80px;
 
         h3 {
