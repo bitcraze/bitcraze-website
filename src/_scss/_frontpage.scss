@@ -26,14 +26,13 @@
 
   img {
   max-width: 100%;
-  max-height: 240px;
+  height: auto;
   }
 
   .front-top-banner {
   background-image: url("/images/frontpage/front-mobile.jpg");
   background-size: cover;
   background-position: center;
-  min-height: 420px;
   max-height: 1200px;
 
     //(≥768px)
@@ -64,18 +63,10 @@
         line-height: $header-line-height-small-screen;
         font-weight: $font-weight-front-page;
         text-align: center;
-        margin-top: 10vh;
-        margin-bottom: 10vh;
-        color:white;
-        }
-
-        //≥768px
-      @media (min-width: $screen-sm-min) {
-        h1 {
         margin-top: 5vh;
         margin-bottom: 5vh;
+        color:white;
         }
-      }
 
       //992px
       @media (min-width: $screen-md-min) {
@@ -172,6 +163,10 @@
       max-height: 400px;
       color: white;
       background: hotpink;
+      img {
+      max-width: 100%;
+      max-height: 240px;
+      }
       h3 {
       font-size: $font-size-medium-screen;
       line-height: $line-height-medium-screen;
@@ -385,15 +380,16 @@
       .testimonial-item {
       font-size: $font-size-small-screen;
       line-height: $line-height-small-screen;
-      color: white;
 
         article {
         margin-top: $testimonial-margin;
         margin-bottom: $testimonial-margin;
+        color: white;
         }
         h4 {
         font-size: $font-size-small-screen;
         line-height: $line-height-small-screen;
+        color: white;
         }
       }
     }

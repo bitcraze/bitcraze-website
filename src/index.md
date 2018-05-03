@@ -107,33 +107,37 @@ page_id: home
     </div>
 
     <div class="col-md-4 background-wrapper testimonial-item">
-      <a href="https://www.bitcraze.io/2017/06/towards-persistent-adaptive-multi-robot-systems/"><img src="images/testimonials/carnegie.jpg" alt="Carnegie Mellon"></a>
-      <article>“We use the Crazyflie platform to evaluate our algorithms because the hardware
-               is robust and the user community has helped make firmware available on which we can base our
-               own systems”
-      </article>
-      <h4>-Ellen Cappo, researcher at Carnegie Mellon University</h4>
+      <a href="https://www.bitcraze.io/2017/06/towards-persistent-adaptive-multi-robot-systems/"><img src="images/testimonials/carnegie.jpg" alt="Carnegie Mellon">
+        <article>“We use the Crazyflie platform to evaluate our algorithms because the hardware
+                 is robust and the user community has helped make firmware available on which we can base our
+                 own systems”
+        </article>
+        <h4>-Ellen Cappo, researcher at Carnegie Mellon University</h4>
+      </a>
     </div>
 
     <div class="col-md-4 background-wrapper testimonial-item">
-      <a href="https://www.bitcraze.io/2017/07/multi-robot-path-planning-for-flying-and-driving-vehicles/"><img src="images/testimonials/MIT.jpg" alt="MIT"></a>
-      <article>“The Crazyflie is easily obtainable, safe, and (we can certify ourselves) very robust. Moreover, since it is open-source and fully programmable, we were able to easily modify the Crazyflie to fit our needs.”
-      </article>
-      <h4>-Brandon Araki, researcher at MIT</h4>
+      <a href="https://www.bitcraze.io/2017/07/multi-robot-path-planning-for-flying-and-driving-vehicles/"><img src="images/testimonials/MIT.jpg" alt="MIT">
+        <article>“The Crazyflie is easily obtainable, safe, and (we can certify ourselves) very robust. Moreover, since it is open-source and fully programmable, we were able to easily modify the Crazyflie to fit our needs.”
+        </article>
+        <h4>-Brandon Araki, researcher at MIT</h4>
+      </a>
     </div>
 
     <div class="col-md-4 background-wrapper testimonial-item">
-      <a href="https://www.bitcraze.io/2017/11/modquad-self-assemble-flying-structures/"><img src="images/testimonials/modquad.jpg" alt="UPenn University"></a>
-    <article>“The ModQuad is propelled by a quadrotor platform. We use the Crazyflie 2.0. The vehicle was chosen because of its agility and scalability. The low-cost and total payload gives us an acceptable scenario for a large number of modules.”
-    </article>
-    <h4>-David Saldaña, researcher at UPenn University</h4>
+      <a href="https://www.bitcraze.io/2017/11/modquad-self-assemble-flying-structures/"><img src="images/testimonials/modquad.jpg" alt="UPenn University">
+        <article>“The ModQuad is propelled by a quadrotor platform. We use the Crazyflie 2.0. The vehicle was chosen because of its agility and scalability. The low-cost and total payload gives us an acceptable scenario for a large number of modules.”
+        </article>
+        <h4>-David Saldaña, researcher at UPenn University</h4>
+      </a>
     </div>
 
     <div class="col-md-4 background-wrapper testimonial-item">
-      <a href="https://www.bitcraze.io/2016/08/crazyswarm/"><img src="images/testimonials/usc.jpg" alt="University of Southern California"></a>
-      <article>“The Crazyflie is a great platform for research because of its openness and extensibility; additionally, the size allows us to test algorithms on a swarm of robots even in space-limited indoor environments.”
-      </article>
-      <h4>-Wolfgang Hoenig, researcher at University of Southern California</h4>
+      <a href="https://www.bitcraze.io/2016/08/crazyswarm/"><img src="images/testimonials/usc.jpg" alt="University of Southern California">
+        <article>“The Crazyflie is a great platform for research because of its openness and extensibility; additionally, the size allows us to test algorithms on a swarm of robots even in space-limited indoor environments.”
+        </article>
+        <h4>-Wolfgang Hoenig, researcher at University of Southern California</h4>
+      </a>
     </div>
   </div>
 </div>
@@ -144,12 +148,14 @@ page_id: home
 <div class="container-fluid portal-section scroll-point">
   <div class="row">
     <div class="col-md-4 col-md-push-7 col-md-offset-1 portal-padding">
-      <div class="text-box_portals text-box_development">
-        <h3>The perfect development tool for your flying application</h3>
-          <p>Prototype your flying application in the comfort of your lab.
-            Modify or extend the firmware of the quadcopter to access or control your hardware - it is all open source.
-          </p>
-      </div>
+      <a href="/development/">
+        <div class="text-box_portals text-box_development">
+          <h3>The perfect development tool for your flying application</h3>
+            <p>Prototype your flying application in the comfort of your lab.
+              Modify or extend the firmware of the quadcopter to access or control your hardware - it is all open source.
+            </p>
+        </div>
+      </a>
     </div>
 
     <div class="col-md-7 col-md-pull-4 portal_img_development portal-padding">
@@ -161,11 +167,13 @@ page_id: home
 <!-- Research portal -->
   <div class="row">
     <div class="col-md-4 portal-padding">
-      <div class="text-box_portals text-box_research">
-        <h3>The ideal for many areas of research</h3>
-          <p>The platform is designed to be as flexible and versatile as possible to enable the user to explore the area of interest. for instance control algorithms, swarms, path finding, agriculture or failure recovery.
-          </p>
-      </div>
+      <a href="/research/">
+        <div class="text-box_portals text-box_research">
+          <h3>The ideal for many areas of research</h3>
+            <p>The platform is designed to be as flexible and versatile as possible to enable the user to explore the area of interest. for instance control algorithms, swarms, path finding, agriculture or failure recovery.
+            </p>
+        </div>
+      </a>
     </div>
 
     <div class="col-md-8 portal-padding">
@@ -176,12 +184,14 @@ page_id: home
 <!-- Education portal -->
   <div class="row">
     <div class="col-md-4 col-md-push-7 col-md-offset-1 portal-padding">
-      <div class="text-box_portals text-box_education">
-        <h3>Bring the latest in robotics to your students</h3>
-          <p>The crazyflie is a versatile platform that is made to engage people to learn about robotics and quadcopters.
-            Help the students learn control algorithms, embedded systems, aeronautics or robotics by verifying their insights on a real quadcopter.
-          </p>
-      </div>
+      <a href="/education/">
+        <div class="text-box_portals text-box_education">
+          <h3>Bring the latest in robotics to your students</h3>
+            <p>The crazyflie is a versatile platform that is made to engage people to learn about robotics and quadcopters.
+              Help the students learn control algorithms, embedded systems, aeronautics or robotics by verifying their insights on a real quadcopter.
+            </p>
+        </div>
+      </a>
     </div>
     <div class="col-md-7 col-md-pull-4 portal-padding">
       <a href="/education/"><img src="images/frontpage/education_portal.jpg" alt="Used in education"></a>
@@ -191,11 +201,13 @@ page_id: home
 <!-- DIY portal -->
   <div class="row">
     <div class="col-md-4 portal-padding">
-      <div class="text-box_portals text-box_diy">
-        <h3>Do it yourself</h3>
-          <p>Love to fly? Like to tinker? Want to modify and explore? Hate limitations and closed systems? The Crazyflie is for you!
-          </p>
-      </div>
+      <a href="/diy/">
+        <div class="text-box_portals text-box_diy">
+          <h3>Do it yourself</h3>
+            <p>Love to fly? Like to tinker? Want to modify and explore? Hate limitations and closed systems? The Crazyflie is for you!
+            </p>
+        </div>
+      </a>
     </div>
     <div class="col-md-8 portal-padding">
       <a href="/diy/"><img src="images/frontpage/diy_portal.jpg" alt="DIY"></a>
