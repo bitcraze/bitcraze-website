@@ -17,11 +17,11 @@ page_id: home
         </div>
       </div>
 
-      <div class="announcements display-announcment">
+      <!-- <div class="announcements">
         <h3>Header goes here</h3>
         <a><img src="images/frontpage/icon_Hannover_dt.png" alt="Announcement"></a>
         <p>text explaining the context goes here</p>
-      </div>
+      </div> -->
     </div>
 
     <div class="value_proposition">

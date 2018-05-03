@@ -146,6 +146,7 @@
     .header-wrapper {
       display: flex;
       flex-direction: column;
+      height: 100%;
 
       @media (min-width: $screen-md-min) {
         flex-direction: row;
@@ -205,10 +206,6 @@
         text-align: center;
         }
       }
-    }
-
-    .display-announcment {
-      display: none;
     }
 
     .value_proposition {
