@@ -102,7 +102,7 @@ page_id: home
   <div class="row flow-container">
     <div class="col-md-4 header-padding">
         <div class="testimonial-header-text">
-          <h3>Developers and resechers around the world are using our platforms for all kinds of research areas. Here we have collected a few guest blog posts to show some examples.</h3>
+          <h3>Developers and resechers around the world are using our platforms for all kinds of research areas.</h3>
         </div>
     </div>
 
@@ -169,8 +169,8 @@ page_id: home
     <div class="col-md-4 portal-padding">
       <a href="/research/">
         <div class="text-box_portals text-box_research">
-          <h3>The ideal for many areas of research</h3>
-            <p>The platform is designed to be as flexible and versatile as possible to enable the user to explore the area of interest. for instance control algorithms, swarms, path finding, agriculture or failure recovery.
+          <h3>Ideal for many areas of research</h3>
+            <p>The platform is designed to be as flexible and versatile as possible to enable the user to explore any area of interest, for instance control algorithms, swarms, path finding, agriculture or failure recovery.
             </p>
         </div>
       </a>
@@ -187,8 +187,8 @@ page_id: home
       <a href="/education/">
         <div class="text-box_portals text-box_education">
           <h3>Bring the latest in robotics to your students</h3>
-            <p>The crazyflie is a versatile platform that is made to engage people to learn about robotics and quadcopters.
-              Help the students learn control algorithms, embedded systems, aeronautics or robotics by verifying their insights on a real quadcopter.
+            <p>The crazyflie is a versatile platform that is designed to engage people in learning about robotics and quadcopters.
+              Help the students understand control algorithms, embedded systems, aeronautics or robotics by experimenting on a real quadcopter.
             </p>
         </div>
       </a>
