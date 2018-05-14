@@ -123,7 +123,7 @@
         flex-direction: column;
         justify-content: space-between;
 
-        a > button {
+        a {
         width: 100%;
         max-width: 400px;
         }
@@ -250,6 +250,8 @@
 
     .blog-section {
       margin-top: 2vh;
+      padding-left: 15px;
+      padding-right: 15px;
 
       h2 {
         font-size: 25px;
@@ -262,14 +264,34 @@
         text-align: center;
       }
 
-      .blog-img-container {
+      .aspect-ratio-contatiner {
+        height: 0;
+        overflow: hidden;
+        padding-top: 66.66%;
+        position: relative;
+      }
+      .aspect-ratio-inner {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background: lightgrey;
+        a{
+          height: 100%;
+          width: 100%;
+            img {
+              height: 100%;
+          }
+        }
+      }
+
+      .flexbox-centering {
+        height: 100%;
         display: flex;
         justify-content: center;
         align-items: center;
-      }
-
-      img {
-        max-height: 267px;
+        align-content: center;
       }
 
       .display-menu{
@@ -362,6 +384,8 @@
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: flex-end;
+    padding-left: 15px;
+    padding-right: 15px;
 
       .header-padding {
       padding-left: 0px;
@@ -435,6 +459,10 @@
     .portal-padding {
     padding-left: 0px;
     padding-right: 0px;
+    }
+
+    .development-portal {
+      padding-right: 15px;
     }
 
     .text-box_portals {

@@ -11,9 +11,9 @@ page_id: home
       <div class="header_text">
         <h1>Make your ideas fly!</h1>
         <div class="header_buttons">
-          <a href="https://store.bitcraze.io/"><button type="button" class="btn btn-primary btn-block btn-color-primary">Shop</button></a>
-          <a href="/start/"><button type="button" class="btn btn-primary btn-block btn-color-secondary">Getting started</button></a>
-          <a href="https://github.com/bitcraze" class="mobile_hidden_button"><button type="button" class="btn btn-primary btn-block btn-color-secondary">Github</button></a>
+          <a href="https://store.bitcraze.io/" class="btn btn-primary btn-block btn-color-primary">Shop</a>
+          <a href="/start/" class="btn btn-primary btn-block btn-color-secondary">Getting started</a>
+          <a href="https://github.com/bitcraze" class="mobile_hidden_button btn btn-primary btn-block btn-color-secondary">Github</a>
         </div>
       </div>
 
@@ -29,8 +29,6 @@ page_id: home
     </div>
   </div>
 </div>
-
-
 
 <!--Blog-->
 <div class="container-fluid blog-section scroll-point">
@@ -53,8 +51,12 @@ page_id: home
   <div class="row">
     <div class="col-md-4 blog-container">
       <!-- inject wp blog img 0 begin -->
-      <div class="blog-img-container">
-        <a><img src="images/frontpage/ant-bridge_2302146k.png" alt="-"></a>
+      <div class="aspect-ratio-contatiner">
+        <div class="aspect-ratio-inner">
+          <a class="flexbox-centering">
+            <img src="images\team\bjorn_mauritz_400px.JPG" alt="-">
+          </a>
+        </div>
       </div>
       <h3 class="blog-title">
         <a>Placeholder post 1</a>
@@ -64,8 +66,12 @@ page_id: home
 
     <div class="col-md-4 blog-container display-blog">
       <!-- inject wp blog img 1 begin -->
-      <div class="blog-img-container">
-        <a><img src="images/frontpage/ant-bridge_2302146k.png" alt="-"></a>
+      <div class="aspect-ratio-contatiner">
+        <div class="aspect-ratio-inner">
+        <a class="flexbox-centering">
+          <img src="images\team\bjorn_mauritz_400px.JPG" alt="-">
+        </a>
+        </div>
       </div>
       <h3 class="blog-title">
         <a>Placeholder post 2</a>
@@ -75,8 +81,12 @@ page_id: home
 
     <div class="col-md-4 blog-container display-blog">
       <!-- inject wp blog img 2 begin -->
-      <div class="blog-img-container">
-        <a><img src="images/frontpage/ant-bridge_2302146k.png" alt="-"></a>
+      <div class="aspect-ratio-contatiner">
+        <div class="aspect-ratio-inner">
+          <a class="flexbox-centering">
+            <img src="images\team\bjorn_mauritz_400px.JPG" alt="-">
+          </a>
+        </div>
       </div>
       <h3 class="blog-title">
         <a>Placeholder post 3</a>
@@ -147,7 +157,7 @@ page_id: home
 <!-- Development portal -->
 <div class="container-fluid portal-section scroll-point">
   <div class="row">
-    <div class="col-md-4 col-md-push-7 col-md-offset-1 portal-padding">
+    <div class="col-md-4 col-md-push-7 col-md-offset-1 portal-padding development-portal">
       <a href="/development/">
         <div class="text-box_portals text-box_development">
           <h3>The perfect development tool for your flying application</h3>
