@@ -112,7 +112,7 @@ page_id: home
   <div class="row flow-container">
     <div class="col-md-4 header-padding">
         <div class="testimonial-header-text">
-          <h3>Developers and resechers around the world are using our platforms for all kinds of research areas.</h3>
+          <h3>Developers and researchers around the world are using our platforms for all kinds of research areas.</h3>
         </div>
     </div>
 
