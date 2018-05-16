@@ -26,14 +26,17 @@ A number of our pages use cookies to remember:
 
 Some videos embedded in our pages use a cookie to anonymously gather statistics on how you got there and what videos you visited.
 
-Cookies are also stored when we use Google Analytics to collect information on the usage of our site. 
-[Read more about how Google uses data when you use our site](https://www.google.com/policies/privacy/partners/).  
+Cookies are also stored when we use Google Analytics and Hotjar to collect 
+information on the usage of our site. 
+Read more about [how Google](https://www.google.com/policies/privacy/partners/)
+and [Hotjar](https://www.hotjar.com/legal/policies/cookie-information) uses 
+data when you use our site.  
 
 We use Shopify for our store. Read about cookies in the store on the [Shopify 
 cookie page](https://www.shopify.com/legal/cookies).
 
 Enabling these cookies is necessary for some parts of the website to work while 
-if will provide you with a better browsing experience on other parts. You can 
+it will provide you with a better browsing experience on other parts. You can 
 delete or block these cookies, but if you do that some features of this site 
 may not work as intended.
 
