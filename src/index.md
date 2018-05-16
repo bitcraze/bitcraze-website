@@ -250,6 +250,7 @@ page_id: home
         {% used_by_logo Invensense; images/logos/invensense.png; https://www.invensense.com/ %}
         {% used_by_logo PixArt; images/logos/pixart.png; http://www.pixart.com/ %}
         {% used_by_logo DLR; /images/logos/DLR_Logo.png; http://www.dlr.de/ %}
+        {% used_by_logo Insper; /images/logos/insper.png; http://www.insper.edu.br/ %}
 
       </div>
       <div class="row">
