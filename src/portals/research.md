@@ -81,6 +81,11 @@ you can read about how the researchers at MIT are using the Crazyflie 2.0 to stu
 
 ### Publications involving Crazyflie 2.0
 ---
+* **"CrazyS: a software-in-the-loop platform for the Crazyflie 2.0 nano-quadcopter"**, Giuseppe Silano, Emanuele Aucone and Luigi Iannelli, in Proc. 2018 26th Mediterranean Conference on Control and Automation (MED), Zadar, Croatia, 2018.
+[PDF, ](http://home.ing.unisannio.it/iannelli/papers/pdf/2018_MED_CrazyS.pdf)
+[Code, ](https://github.com/gsilano/CrazyS)
+[Video](https://www.youtube.com/watch?v=pda-tuULewM)
+
 * **"Development of a multi-agent quadrotor research platform with distributed computational capabilities"**, Ian S. McInerney, Master's thesis, Iowa State University, 2017.
 [PDF, ](https://lib.dr.iastate.edu/etd/15575)
 [Code](https://git.ece.iastate.edu/danc/Custom_CrazyFlie_Software/tags/McInerney_Thesis_Code)
