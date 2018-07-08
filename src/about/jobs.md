@@ -79,7 +79,9 @@ solutions, hardware and software.
 ## Location
 We are located in Malmö, Sweden. Even though there are a lot of really good 
 on-line collaboration tools, we prefer human contact and we are not interested in remote
-work solutions. You will have to be prepared to move to Malmö. 
+work solutions. You will have to be prepared to move to Malmö.
+We unfortunately do not have the capacity to handle applications from outside
+the EU due to visa and work permit administration.
 
 ## Language
 We use English in our everyday work.
