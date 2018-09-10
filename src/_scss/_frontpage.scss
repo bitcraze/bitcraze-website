@@ -163,7 +163,7 @@
       max-width: 400px;
       max-height: 400px;
       color: white;
-      background: hotpink;
+      background: rgba(255, 0, 140, 1);
       img {
       max-width: 100%;
       max-height: 240px;
@@ -178,6 +178,10 @@
       a {
         align-self: center;
         max-width: 60%;
+        color: #eee;
+      }
+      a:hover {
+        color: #333;
       }
       p {
         font-size: $font-size-small-screen;
