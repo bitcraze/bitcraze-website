@@ -17,19 +17,11 @@ page_id: home
         </div>
       </div>
 
-      <div class="announcements">
-        <!-- h3>Exhibiting at IROS 2018</h3 -->
-        <a href="https://www.iros2018.org/"><img src="images/frontpage/iros-2018.png" alt="Announcement"></a>
-        <p>
-        We are exhibiting at <a href="https://www.iros2018.org/">IROS</a> October 2-4. Come and meet us in booth #91 to 
-        see demos, discuss tech or just to say hi.
-        We will demo the <a href="https://github.com/USC-ACTLab/crazyswarm">Crazyswarm</a> 
-        in collaboration with <a href="https://www.qualisys.com/">Qualisys</a>, 
-        the Loco positioning system, show new positioning technologies and reveal 
-        new exciting products.<br>
-        See you there!
-        </p>
-      </div>
+      <!-- <div class="announcements">
+        <h3>Header goes here</h3>
+        <a><img src="images/frontpage/icon_Hannover_dt.png" alt="Announcement"></a>
+        <p>text explaining the context goes here</p>
+      </div> -->
     </div>
 
     <div class="value_proposition">
