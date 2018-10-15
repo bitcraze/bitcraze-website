@@ -61,6 +61,7 @@ you can read about how the researchers at MIT are using the Crazyflie 2.0 to stu
 ## Crazyflie used in research
 ---
 {% media_gallery %}
+{% gallery_youtube MSvoQT__c9U; 16by9 %}
 {% gallery_youtube T9fkjAp942A; 16by9 %}
 {% gallery_youtube YnGZ-arUwgc; 16by9 %}
 {% gallery_youtube D0CrjoYDt9w; 16by9 %}
@@ -81,6 +82,10 @@ you can read about how the researchers at MIT are using the Crazyflie 2.0 to stu
 
 ### Publications involving Crazyflie 2.0
 ---
+* **"Improved Quadcopter Disturbance Rejection Using Added Angular Momentum"**, Nathan Bucki and Mark W. Mueller, in Proc. IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS), 2018.
+[PDF, ](http://hiperlab.berkeley.edu/wp-content/uploads/2018/07/2018_ImprovedQuadcopter.pdf)
+[Video](https://www.youtube.com/watch?v=XcZh4_J4yGM)
+
 * **"CrazyS: a software-in-the-loop platform for the Crazyflie 2.0 nano-quadcopter"**, Giuseppe Silano, Emanuele Aucone and Luigi Iannelli, in Proc. 2018 26th Mediterranean Conference on Control and Automation (MED), Zadar, Croatia, 2018.
 [PDF, ](http://home.ing.unisannio.it/iannelli/papers/pdf/2018_MED_CrazyS.pdf)
 [Code, ](https://github.com/gsilano/CrazyS)
