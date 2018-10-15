@@ -7,6 +7,12 @@ page_id: product-old
 
 Some distributors are still carrying these products, but they are no longer in production.
 
+### Flow deck
+
+<a href="/flow-deck/"><img width="150" height="150" src="/images/flow_deck/flow_deck_585px-1.JPG" alt="Flow deck"/></a>
+
+[Read more](/flow-deck/)
+
 ### Crazyflie 1.0
 
 <a href="/crazyflie/"><img width="150" height="150" src="/images/cf_800-150x150.jpg" alt="Crazyflie 1.0"/></a>

@@ -1,14 +1,14 @@
 ---
 layout: page-product
-title: Flow deck
-permalink: /flow-deck/
-page_id: product-flow-deck
+title: Flow deck v2
+permalink: /flow-deck-v2/
+page_id: product-flow-deck-v2
 ---
 
-{% notice_info This product is discontinued and has been replaced with <a href="/flow-deck-v2/">Flow deck v2</a> %}
+{% buy_online https://store.bitcraze.io/collections/decks/products/flow-deck-v2 %}
 
 {% product_img Flow deck; medium;
-/images/flow_deck/flow_deck_585px-1.JPG
+/images/flow_deck_v2/flow_deck_v2_585px.jpg
 %}
 
 
@@ -19,7 +19,7 @@ Enable positioning in the air with optical motion detection.
 %}
 
 The Flow deck gives the Crazyflie 2.0 the ability to understand when it's moving in any direction.
-The VL53L0x ToF sensor measures the distance to the ground with high precision and the PMW3901 optical flow sensor measures movements in relation to the ground.
+The VL53L1x ToF sensor measures the distance to the ground with high precision and the PMW3901 optical flow sensor measures movements in relation to the ground.
 This creates a flying 3D robot that can be pre-programmed to fly distances in any direction or act as an aid for beginners where it creates a very stable flying platform.
 
 ---
@@ -42,8 +42,8 @@ This creates a flying 3D robot that can be pre-programmed to fly distances in an
 - [Development](/development-overview/)
 - [FAQ](/frequently-asked-questions-Crazyflie-2.0/)
 - [Getting help](/getting-help/)
-- [Wiki](https://wiki.bitcraze.io/projects:crazyflie2:expansionboards:flow)
-- [Specifications](https://store.bitcraze.io/products/flow-deck)
+- [Wiki](https://wiki.bitcraze.io/projects:crazyflie2:expansionboards:flow-v2)
+- [Specifications](https://store.bitcraze.io/products/flow-deck-v2)
 
 ---
 

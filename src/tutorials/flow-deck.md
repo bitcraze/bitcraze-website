@@ -29,7 +29,7 @@ For more information go to the [Getting started with the Crazyflie 2.0](/getting
 Make sure the Crazyflie is pointing away from you, the blue LEDs are on the back so keep them pointing in your direction when starting to fly.
 * Press and hold the assisted mode button on the gamepad to activate the hover mode. The Crazyflie will now take off and hover at a height of 40cm.
 * Now you can fly around using the x/y stick as shown in the image below. Pressing X+ will move the Crazyflie in the X+ axis of your system, and the same for the other axis.
-* You can use the up/down joystick to go up and down. The height is limited in the range 0.2m to 1.0m. if you happen to he over 1.0 meter, the crazyflie might hang there and not go down, in this case you can either force the Crazyflie to go down with the up/down joystick or release the assisted mode button to take over manually.
+* You can use the up/down joystick to go up and down. The height is limited in the range 0.2m to 3.0m (1.0m for Flow deck / Z-ranger deck v1). if you happen to he over 1.0 meter, the crazyflie might hang there and not go down, in this case you can either force the Crazyflie to go down with the up/down joystick or release the assisted mode button to take over manually.
 * If somethings goes out of control release the sticks and the assisted mode button to have the Crazyflie drop to the ground. Each time hover mode is re-activated the height set-point is reset to 40 cm.
 
 {% img Flying with a gamepad; wide; /images/tutorials/getting_started_with_lps/flying_with_a_gamepad.png %}
@@ -53,7 +53,7 @@ Below is a short explanation of the user-interface.
 
 {% si_step  Measurement details %}
 
-When the VL53L0x ToF sensor measures the distance to the ground it will not use a single point.
+When the sensor measures the distance to the ground it will not use a single point.
 Instead the detection will use a cone (see below) where the sensor will report the
 closest detection. This means that the higher the Crazyflie is the larger the
 area of detection. For instance this could be an issue if the Crazyflie gets
