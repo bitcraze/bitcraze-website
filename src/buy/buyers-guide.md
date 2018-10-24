@@ -11,7 +11,7 @@ The Flow breakout board is used for motion tracking and can easily be connected
 to any robotics project or other design. It works with Arduino or any other embedded
 system.
 
-**What to buy:** [The Flow Breakout board](https://store.bitcraze.io/collections/breakouts/products/flow-breakout)
+**What to buy:** [The Flow Breakout board](https://store.bitcraze.io/products/flow-breakout)
 
 ## I just want to fly the Crazyflie 2.0 from my mobile device
 
@@ -19,21 +19,21 @@ The Crazyflie 2.0 comes with everything you need for flying from a Bluetooth LE
 enabled mobile device. Currently [Android](https://play.google.com/store/apps/details?id=se.bitcraze.crazyfliecontrol2)
 and [IOS](https://itunes.apple.com/us/app/crazyflie-2.0/id946151480?mt=8) devices are supported.
 
-**What to buy:** [Crazyflie 2.0](https://store.bitcraze.io/collections/kits/products/crazyflie-2-0)
+**What to buy:** [Crazyflie 2.0](https://store.bitcraze.io/products/crazyflie-2-0)
 
 ## I want to fly the Crazyflie 2.0 from my computer using a gamepad
 
-The [Crazyradio PA](https://store.bitcraze.io/collections/kits/products/crazyradio-pa)
+The [Crazyradio PA](https://store.bitcraze.io/products/crazyradio-pa)
 enables you to connect the Crazyflie 2.0 to a computer. Connect
 a [gamepad](https://wiki.bitcraze.io/projects:crazyflie:pc_utils:inputdevices)
 to the computer and run our client software to control the Crazyflie 2.0.
 
-**What to buy:** [Getting started bundle](https://store.bitcraze.io/collections/bundles/products/getting-started-bundle)
+**What to buy:** [Getting started bundle](https://store.bitcraze.io/products/getting-started-bundle)
 Note: the gamepad is not included
 
 ## I want to use the Crazyflie 2.0 for development
 
-The [Crazyradio PA](https://store.bitcraze.io/collections/kits/products/crazyradio-pa)
+The [Crazyradio PA](https://store.bitcraze.io/products/crazyradio-pa)
 enables you to connect the Crazyflie 2.0
 to a computer wireless and download new firmware, modified to your liking. The logging and parameter
 frameworks provides APIs for getting and setting data in the Crazyflie 2.0 live,
@@ -44,7 +44,7 @@ source code is available for you to play with as you like.
 You probably also want a [gamepad](https://wiki.bitcraze.io/projects:crazyflie:pc_utils:inputdevices)
 to fly the Crazyflie 2.0 when connected to the computer.
 
-**What to buy:** [Getting started bundle](https://store.bitcraze.io/collections/bundles/products/getting-started-bundle)
+**What to buy:** [Getting started bundle](https://store.bitcraze.io/products/getting-started-bundle)
 
 Note: gamepad is not included
 
@@ -52,11 +52,11 @@ Note: gamepad is not included
 
 A lot can be achieved with the Crazyflie 2.0 and the Crazyradio PA only, but for
 advanced development JTAG/SWD access to the platform is useful.
-The [Debug adapter kit](https://store.bitcraze.io/collections/accessories/products/debug-adapter)
+The [Debug adapter kit](https://store.bitcraze.io/products/debug-adapter)
 enables you to connect your normal JTAG/SWD debugger to
 the Crazyflie 2.0 to set break points, single step and so on when debugging.
 
-**What to buy:** [Happy hacker bundle](https://store.bitcraze.io/collections/bundles/products/happy-hacker-bundle)
+**What to buy:** [Happy hacker bundle](https://store.bitcraze.io/products/happy-hacker-bundle)
 
 Note: JTAG/SWD debugger is not included
 
@@ -69,8 +69,8 @@ hardware design. When satisfied with the design you can transfer it to a Prototy
 deck for a more permanent implementation. If you want to take it even further,
 why not manufacture a [deck PCB](https://github.com/bitcraze/crazyflie2-exp-template-electronics) and add Female deck connectors.
 
-**What to buy:** [Breakout deck](https://store.bitcraze.io/collections/decks/products/breakout-deck),
-[Prototyping deck](https://store.bitcraze.io/collections/decks/products/prototyping-deck),
+**What to buy:** [Breakout deck](https://store.bitcraze.io/products/breakout-deck),
+[Prototyping deck](https://store.bitcraze.io/products/prototyping-deck),
 [Female deck connectors](https://store.bitcraze.io/products/female-deck-connector)
 
 ## I want to paint in the dark with a Crazyflie
@@ -82,7 +82,7 @@ on board sensors.
 Why not take photos with an open shutter of a moving Crayflie 2.0 and paint in
 the dark?
 
-**What to buy:** [The LED-ring deck](https://store.bitcraze.io/collections/decks/products/led-ring-deck)
+**What to buy:** [The LED-ring deck](https://store.bitcraze.io/products/led-ring-deck)
 
 ## I want the Crazyflie to give feedback using sound and light
 
@@ -90,8 +90,8 @@ The LED-ring deck can be used to display light in any color and the Buzzer deck
 can make sounds, useful for giving the user feedback. For automated implementation
 it can be very handy to indicate when the system is ready, error states or similar.
 
-**What to buy:** [The Artist bundle](https://store.bitcraze.io/collections/bundles/products/the-estetik-bundle),
-[the Buzzer deck](https://store.bitcraze.io/collections/decks/products/buzzer-deck)
+**What to buy:** [The Artist bundle](https://store.bitcraze.io/products/the-estetik-bundle),
+[the Buzzer deck](https://store.bitcraze.io/products/buzzer-deck)
 
 ## I want a bigger Crazyflie 2.0
 
@@ -101,8 +101,8 @@ frame. Connect the motor controllers (ESCs) for the brushless motors of the fram
 to the BigQuad deck and you are ready to go. You get the full echosystem of the
 Crazyflie 2.0 but super sized.
 
-**What to buy:** [Getting started bundle](https://store.bitcraze.io/collections/bundles/products/getting-started-bundle),
-[BigQuad deck](https://store.bitcraze.io/collections/decks/products/bigquad-deck)
+**What to buy:** [Getting started bundle](https://store.bitcraze.io/products/getting-started-bundle),
+[BigQuad deck](https://store.bitcraze.io/products/bigquad-deck)
 
 Note: the bigger frame, brushless motors and ESCs are not included
 
@@ -112,7 +112,7 @@ The Qi deck gives the Crazyflie wireless charging capabilities. The battery is
 automatically charged when the Crazyflie 2.0 is placed on top of a wireless charger,
 no need to connect a cable.
 
-**What to buy:** [Qi wireless charging deck](https://store.bitcraze.io/collections/decks/products/qi-wireless-charging-deck)
+**What to buy:** [Qi wireless charging deck](https://store.bitcraze.io/products/qi-wireless-charging-deck)
 
 Note: wireless charger not included
 
@@ -122,7 +122,7 @@ If large volumes of data needs to be recorded when flying, the Crazyradio PA mig
 not have sufficient bandwidth in some cases. The SD-card deck adds access to the
 filesystem of a SD card and enables storage of any data.
 
-**What to buy:** [SD-card deck](https://store.bitcraze.io/collections/decks/products/sd-card-deck)
+**What to buy:** [SD-card deck](https://store.bitcraze.io/products/sd-card-deck)
 
 Note: SD card is not included
 
@@ -135,7 +135,7 @@ SD-card is transferred to the Crazyflie before it is started. This is also a
 way to separate configuration from hardware/firmware and avoid flashing
 different firmware to Crazyflie individuals.   
 
-**What to buy:** [SD-card deck](https://store.bitcraze.io/collections/decks/products/sd-card-deck)
+**What to buy:** [SD-card deck](https://store.bitcraze.io/products/sd-card-deck)
 
 Note: SD card is not included
 
@@ -154,8 +154,8 @@ The Z-ranger deck measures the distance to the ground and can be used
 to automatically stay at a constant height, while the pilot can focus on the
 position.
 
-**What to buy:** [Getting started bundle](https://store.bitcraze.io/collections/bundles/products/getting-started-bundle)
-and [Z-ranger deck](https://store.bitcraze.io/collections/decks/products/z-ranger-deck)
+**What to buy:** [Getting started bundle](https://store.bitcraze.io/products/getting-started-bundle)
+and [Z-ranger deck](https://store.bitcraze.io/products/z-ranger-deck)
 
 Note: the gamepad is not included
 
@@ -166,10 +166,47 @@ relative to the ground. This enables a flight mode where the pilot tells
 the system which direction to go rather than the tilt of the quad copter, by
 releasing the controls the Crazyflie simply stays hovering on the spot.
 
-**What to buy:** [Getting started bundle](https://store.bitcraze.io/collections/bundles/products/getting-started-bundle)
+**What to buy:** [Getting started bundle](https://store.bitcraze.io/products/getting-started-bundle)
 and [Flow deck](https://store.bitcraze.io/products/flow-deck-v2)
 
 Note: the gamepad is not included
+
+## I want to add awareness of the surroundings to the Crazyflie
+
+The Multi-ranger deck measures the distance to objects forward/back/left/right and up.
+It can be used for obstacle avoidance, mapping a room or games where the 
+Crazyflie 2.0 "bounces" between the walls of a room.
+Combine with a Flow deck to measure the distance to the floor as well and 
+support autonomous flight.      
+
+**What to buy:** [Getting started bundle](https://store.bitcraze.io/products/getting-started-bundle),
+[Multi-ranger deck](https://store.bitcraze.io/products/multi-ranger-deck)
+and [Flow deck](https://store.bitcraze.io/products/flow-deck-v2) or 
+[STEM plus drone bundle](https://store.bitcraze.io/products/stem-plus-drone-bundle)
+
+## I want to use the Crazyflie 2.0 for education
+
+The Crazyflie is great for education, from younger kids getting acquainted with
+robotics and computers up to university level. 
+
+### The STEM drone bundle
+
+With the STEM drone bundle the Crayflie 2.0 can fly autonomously using the Flow
+deck and it can be controlled from a remote computer using simple python scripts,
+perfect for getting started with robotics.
+For higher education, students can for instance re-implement the controller 
+algorithms or similar for a real world robotics exercise. They can even bring
+the equipment home for extended studies and insights.  
+
+**What to buy:** [STEM drone bundle](https://store.bitcraze.io/products/stem-drone-bundle)
+
+### The STEM plus drone bundle   
+
+The STEM plus drone bundle contains everything in the STEM drone bundle with the 
+addition of the Multi-ranger deck. The Multi-ranger makes it possible to interact
+with the Crazyflie 2.0 or use it to map a room.
+
+**What to buy:** [STEM plus drone bundle](https://store.bitcraze.io/products/stem-plus-drone-bundle)
 
 ## I want to fly autonomously and control the Crazyflie 2.0 from a computer
 
@@ -194,7 +231,7 @@ where it is and any motion will be based on the starting position. Further more
 the position will drift over time, but in most cases autonomous flight can be
 maintained up to a minute.  
 
-**What to buy:** [Getting started bundle](https://store.bitcraze.io/collections/bundles/products/getting-started-bundle)
+**What to buy:** [Getting started bundle](https://store.bitcraze.io/products/getting-started-bundle)
 and [Flow deck](https://store.bitcraze.io/products/flow-deck-v2)
 
 ### The Loco Positioning System
@@ -205,7 +242,7 @@ always knows where it is and since the position estimation is done in the drone
 it is also possible to fly truly autonomously without a connection to an external
 computer. The location precision of the loco positioning system is about +/-10cm.
 
-**What to buy:** [Indoor Explorer bundle](https://store.bitcraze.io/collections/bundles/products/indoor-explorer-bundle)
+**What to buy:** [Indoor Explorer bundle](https://store.bitcraze.io/products/indoor-explorer-bundle)
 
 ### Camera based system
 
@@ -249,10 +286,10 @@ anchors which makes it possible to position a large number of drones.
 Due to the nature of TDoA the position estimation works best in the space
 inside the anchors (the convex hull) and we recommend using 8 anchors for TDoA.
 
-**What to buy:** [Indoor Explorer bundle](https://store.bitcraze.io/collections/bundles/products/indoor-explorer-bundle),
-2 x [Loco positioning node](https://store.bitcraze.io/collections/positioning/products/loco-positioning-node),
-[Crazyflies](https://store.bitcraze.io/collections/kits/products/crazyflie-2-0),
-[Loco Positioning decks](https://store.bitcraze.io/collections/positioning/products/loco-positioning-deck)
+**What to buy:** [Indoor Explorer bundle](https://store.bitcraze.io/products/indoor-explorer-bundle),
+2 x [Loco positioning node](https://store.bitcraze.io/products/loco-positioning-node),
+[Crazyflies](https://store.bitcraze.io/products/crazyflie-2-0),
+[Loco Positioning decks](https://store.bitcraze.io/products/loco-positioning-deck) or [Swarm bundle](https://store.bitcraze.io/products/the-swarm-bundle-1)
 
 ### Camera based system
 
