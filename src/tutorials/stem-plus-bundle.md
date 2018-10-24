@@ -16,7 +16,7 @@ This getting started guide will help you set up the system and make your first a
 {% si_step required hardware %}
 * 1 x Crazyflie 2.0 Kit
 * 1 x Crazyradio PA
-* 1 x Flow deck
+* 1 x Flow V2 deck
 * 1 x Multi-ranger deck
 {% endsi_step %}
 
@@ -26,10 +26,10 @@ This getting started guide assumes you have already assembled your Crazyflie 2.0
 This guide also requires that you have updated the Crazyflie to the latest firmware. For more information on how to update the firmware, see the [download latest firmware](/getting-started-with-the-crazyflie-2-0/#latest-fw) section in our getting started with Crazyflie 2.0 tutorial.
 {% endsi_step %}
 
-{% si_step  mounting the flow deck %}
-Mount the Flow Deck underneath and the Multi-ranger deck above the Crazyflie 2.0 using the long pin-headers supplied with the Crazyflie 2.0 Kit.
-{% img Mounting the Flow deck; wide; /images/tutorials/getting_started_stem_plus/getting_started_with_stem_plus_770px.jpg %}
-{% img Mounting the Flow deck; wide; /images/tutorials/getting_started_stem_plus/getting_started_with_stem_plus_770px-2.jpg %}
+{% si_step  mounting the Flow V2 deck %}
+Mount the Flow V2 Deck underneath and the Multi-ranger deck above the Crazyflie 2.0 using the long pin-headers supplied with the Crazyflie 2.0 Kit.
+{% img Mounting the Flow V2 deck; wide; /images/tutorials/getting_started_stem_plus/getting_started_with_stem_plus_770px.jpg %}
+{% img Mounting the Flow V2 deck; wide; /images/tutorials/getting_started_stem_plus/getting_started_with_stem_plus_770px-2.jpg %}
 
 For more information about how to mount an expansion deck please see the [Getting started with expansion decks](/getting-started-with-expansion-decks/) tutorial.
 {% endsi_step %}

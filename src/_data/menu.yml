@@ -18,6 +18,7 @@
   - {page_id: product-breakout-deck}
   - {page_id: product-z-ranger-deck-v2}
   - {page_id: product-flow-deck-v2}
+  - {page_id: product-multi-ranger-deck}
   - {page_id: product-debug-adapter-kit}
   - {page_id: product-battery-charger-500mA}
   - {page_id: product-flow-breakout}
@@ -45,6 +46,7 @@
   - {page_id: getting-started-with-assisted-flight-position-hold}
   - {page_id: getting-started-flow-breakout}
   - {page_id: getting-started-stem-drone-bundle}
+  - {page_id: getting-started-stem-plus-drone-bundle}
 - title: Support
   subs:
   - {page_id: support-getting-help}

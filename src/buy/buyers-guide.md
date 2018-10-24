@@ -167,7 +167,7 @@ the system which direction to go rather than the tilt of the quad copter, by
 releasing the controls the Crazyflie simply stays hovering on the spot.
 
 **What to buy:** [Getting started bundle](https://store.bitcraze.io/collections/bundles/products/getting-started-bundle)
-and [Flow deck](https://store.bitcraze.io/collections/decks/products/flow-deck?variant=42407121301)
+and [Flow deck](https://store.bitcraze.io/products/flow-deck-v2)
 
 Note: the gamepad is not included
 
@@ -195,7 +195,7 @@ the position will drift over time, but in most cases autonomous flight can be
 maintained up to a minute.  
 
 **What to buy:** [Getting started bundle](https://store.bitcraze.io/collections/bundles/products/getting-started-bundle)
-and [Flow deck](https://store.bitcraze.io/collections/decks/products/flow-deck?variant=42407121301)
+and [Flow deck](https://store.bitcraze.io/products/flow-deck-v2)
 
 ### The Loco Positioning System
 
@@ -236,8 +236,8 @@ the path each Crazyflie follows is relative to its starting position this soluti
 is sensitive to correct positioning and smooth take off. It is hard or impossible
 to recover from problems so it is not very reliable, but fun!  
 
-**What to buy:** [Getting started bundles](https://store.bitcraze.io/collections/bundles/products/getting-started-bundle)
-and [Flow decks](https://store.bitcraze.io/collections/decks/products/flow-deck?variant=42407121301)
+**What to buy:** [Getting started bundles](https://store.bitcraze.io/products/getting-started-bundle)
+and [Flow decks](https://store.bitcraze.io/products/flow-deck-v2)
 
 ### The Loco Positioning System
 
