@@ -82,6 +82,10 @@ you can read about how the researchers at MIT are using the Crazyflie 2.0 to stu
 
 ### Publications involving Crazyflie 2.0
 ---
+* **"Relative positioning system for UAVs in swarming applications"**, Andres Cecilia Luque, Master's thesis, Technical University of Denmark, 2018.
+[PDF, ](https://findit.dtu.dk/en/catalog/2439894045)
+[Video](https://youtu.be/4RpF8OThViY)
+
 * **"Improved Quadcopter Disturbance Rejection Using Added Angular Momentum"**, Nathan Bucki and Mark W. Mueller, in Proc. IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS), 2018.
 [PDF, ](http://hiperlab.berkeley.edu/wp-content/uploads/2018/07/2018_ImprovedQuadcopter.pdf)
 [Video](https://www.youtube.com/watch?v=XcZh4_J4yGM)
