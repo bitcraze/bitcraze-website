@@ -1,12 +1,12 @@
 ---
 layout: page-left-menu
-title: Getting started with the STEM plus drone bundle
-permalink: /getting-started-with-stem-plus-drone-bundle/
-page_id: getting-started-stem-plus-drone-bundle
+title: Getting started with the STEM ranging bundle
+permalink: /getting-started-with-stem-ranging-bundle/
+page_id: getting-started-stem-ranging-bundle
 ---
 
-{% si_intro The STEM plus drone bundle %}
-The STEM (Science Technology Engineering Mathematics) plus drone bundle is based on a Crazyflie 2.0 with a Flow Deck and a Multi-ranger deck.
+{% si_intro The STEM ranging bundle %}
+The STEM (Science Technology Engineering Mathematics) ranging bundle is based on a Crazyflie 2.0 with a Flow Deck and a Multi-ranger deck.
 It is an autonomous drone that can be controlled from a simple python script to explore and operate a robot in 3 dimensions.
 It has the ability to detect obstacles around it.
 
@@ -28,8 +28,8 @@ This guide also requires that you have updated the Crazyflie to the latest firmw
 
 {% si_step  mounting the Flow V2 deck %}
 Mount the Flow V2 Deck underneath and the Multi-ranger deck above the Crazyflie 2.0 using the long pin-headers supplied with the Crazyflie 2.0 Kit.
-{% img Mounting the Flow V2 deck; wide; /images/tutorials/getting_started_stem_plus/getting_started_with_stem_plus_770px.jpg %}
-{% img Mounting the Flow V2 deck; wide; /images/tutorials/getting_started_stem_plus/getting_started_with_stem_plus_770px-2.jpg %}
+{% img Mounting the Flow V2 deck; wide; /images/tutorials/getting_started_stem_ranging/getting_started_with_stem_ranging_770px.jpg %}
+{% img Mounting the Flow V2 deck; wide; /images/tutorials/getting_started_stem_ranging/getting_started_with_stem_ranging_770px-2.jpg %}
 
 For more information about how to mount an expansion deck please see the [Getting started with expansion decks](/getting-started-with-expansion-decks/) tutorial.
 {% endsi_step %}
