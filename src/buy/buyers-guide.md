@@ -182,7 +182,7 @@ support autonomous flight.
 **What to buy:** [Getting started bundle](https://store.bitcraze.io/products/getting-started-bundle),
 [Multi-ranger deck](https://store.bitcraze.io/products/multi-ranger-deck)
 and [Flow deck](https://store.bitcraze.io/products/flow-deck-v2) or 
-[STEM plus drone bundle](https://store.bitcraze.io/products/stem-plus-drone-bundle)
+[STEM ranging bundle](https://store.bitcraze.io/products/stem-ranging-bundle)
 
 ## I want to use the Crazyflie 2.0 for education
 
@@ -200,13 +200,13 @@ the equipment home for extended studies and insights.
 
 **What to buy:** [STEM drone bundle](https://store.bitcraze.io/products/stem-drone-bundle)
 
-### The STEM plus drone bundle   
+### The STEM ranging bundle   
 
-The STEM plus drone bundle contains everything in the STEM drone bundle with the 
+The STEM ranging bundle contains everything in the STEM drone bundle with the 
 addition of the Multi-ranger deck. The Multi-ranger makes it possible to interact
 with the Crazyflie 2.0 or use it to map a room.
 
-**What to buy:** [STEM plus drone bundle](https://store.bitcraze.io/products/stem-plus-drone-bundle)
+**What to buy:** [STEM ranging bundle](https://store.bitcraze.io/products/stem-ranging-bundle)
 
 ## I want to fly autonomously and control the Crazyflie 2.0 from a computer
 

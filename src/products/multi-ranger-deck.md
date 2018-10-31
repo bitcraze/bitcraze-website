@@ -52,4 +52,4 @@ It also allows to start working on environment-aware problems like Simultaneous 
 #### Tutorials
 
  - [Getting started with expansion decks](/getting-started-with-expansion-decks/)
- - [Getting started with the STEM plus drone bundle](/getting-started-with-stem-plus-drone-bundle)
+ - [Getting started with the STEM ranging bundle](/getting-started-with-stem-ranging-bundle)
