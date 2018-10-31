@@ -9,7 +9,7 @@ page_id: product-loco-pos-system
 
 {% product_highlight
 fa-location-arrow;
-Position awarenes;
+Position awareness;
 Add absolute position to your Crazyflie 2.0 using the Loco Positioning system.
 %}
 
@@ -55,24 +55,37 @@ for instance a robot. Read more on the [Loco Positioning Node page.](/loco-pos-n
 
 #### Positioning modes
 
-The Loco Positioning System implements two different positioning modes, **Two Way Ranging (TWR)** and **Time Difference of Arrival (TDoA)**.
+The Loco Positioning System implements three different positioning modes, **Two Way Ranging (TWR)**, **Time Difference of Arrival 2 (TDoA 2)** and **Time Difference of Arrival 3 (TDoA 3)**.
 
 In **TWR mode**, the tag pings the anchors in sequence, this allows it to measure the distance between the tag and the anchors.
-Using this information, a theoretical minimum of 4 Anchors are required to calculate the 3D position of a Tag, but a more realistic number is 6 to add redundancy and accuracy.
-One advantage of this mode is that it stays accurate even when the tag leaves the space delimited by the anchors.
-In this mode it is also very easy to add more anchors to extend the reach of the system, for example to cover multiple rooms.
-The main disadvantage is that the tag is actively communicating with the anchors, this means that adding tags will use more radio bandwidth and requires each tag to share the system.
-TWR has been used successfully for one Crazyflie.
-Flying multiple Crazyflies in this mode is possible using the experimental TDMA mode which that has been tested for up to 4 Crazyflies with reduced performance.
+Using this information, a theoretical minimum of 4 Anchors is required to calculate the 3D position of a Tag, but a more realistic number 
+is 6 to add redundancy and accuracy.
 
-In **TDoA mode**, the anchor system is continuously sending synchronization packets.
+This mode is the most accurate mode and also works when the tag or Crazyflie leaves the space delimited by the anchors.
+The tag is actively communicating with the anchors in a time slotted fashion and in this mode only one tag or Crazyflie 
+can be positioned with a maximum of 8 anchors. 
+
+In **TDoA 2 mode**, the anchor system is continuously sending synchronization packets.
 A tag listening to these packets can calculate the relative distance to two anchors by measuring the time difference of arrival of the packets.
 From the TDoA information it is possible to calculate the 3D position in space.
-The great advantage of this mode is that the tag is only passively listening, so new tags do not add any load to the system, which allows to position any number of tags or Crazyflies.
-This makes it a perfect mode for swarming.
-One disadvantage is that TDoA is more sensitive to anchor placement, ideally the tag should always be within, or very close to, the space delimited by the anchor system.
-This means that TDoA works best with 8 anchors placed in corners of the flying space.
-Also, since the anchor system is synchronized, it is not possible (at least not not easy) to use more than 8 anchors to expand the reach of the system.
+In this mode the tag is only passively listening, so new tags do not add any load to the system which 
+makes it possible to position any number of tags or Crazyflies simultaneously. This makes it a perfect mode for swarming.
+
+Compared to TWR, TDoA 2 is more restrictive when it comes to the space where positioning works, 
+ideally the tag should always be within, or very close to, the space delimited by the anchor system.
+This means that TDoA 2 works best with 8 anchors placed in the corners of the flying space.
+In this space the accuracy and precision is comparable to TWR. 
+
+In this mode the anchor system is time slotted and synchronized and the number of anchors is limited to 8.
+
+The **TDoA 3 mode** has many similarities with TDoA 2 and supports any number of tags or 
+Crazyflies. The main difference is that the time slotted scheme of TDoA 2 has been 
+replaced by a randomized transmission schedule which makes it possible to add more anchors.
+By adding more anchors the system can be scaled to larger spaces or span multiple
+rooms without line of sight between all anchors. It also makes it more robust and can
+handle loss or addition of anchors dynamically. 
+
+The estimated position in this mode is slightly more noisy compared to TDoA 2. 
 
 #### Performance
 
@@ -83,7 +96,7 @@ The Loco Positioning system has mainly been designed for indoor use.
 
 ## Getting started with Loco positioning
 
-We have created a easy to follow step-by-step guide for setting up the Loco positioning system that you will find [here](/getting-started-with-the-loco-positioning-system/). In the tutorial we use the [Indoor explorer bundle](https://store.bitcraze.io/collections/bundles/products/indoor-explorer-bundle) that you can buy directly from our [E-shop](https://store.bitcraze.io/). For more technical information about the Loco positioning system please visit our [wiki](https://wiki.bitcraze.io/doc:lps:index).
+We have created an easy to follow step-by-step guide for setting up the Loco positioning system that you will find [here](/getting-started-with-the-loco-positioning-system/). In the tutorial we use the [Indoor explorer bundle](https://store.bitcraze.io/collections/bundles/products/indoor-explorer-bundle) that you can buy directly from our [E-shop](https://store.bitcraze.io/). For more technical information about the Loco positioning system please visit our [wiki](https://wiki.bitcraze.io/doc:lps:index).
 
 ## Used by Lund University
 
