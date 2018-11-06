@@ -111,6 +111,9 @@ order of the IDs.
 {% img reference system; wide; /images/tutorials/getting_started_with_lps/loco_ref_system_8_anchors.png %}
 {% endtab %}
 {% endtabgroup %}
+
+If you have more than 8 anchors, we suggest you setup a system with 8 anchors first and then switch your 
+system to TDoA3 to add more anchors to the system. See the [tdoa3 setup page](https://wiki.bitcraze.io/doc:lps:toda3) on the wiki for more information.
 {% endsi_step %}
 
 {% si_step Powering the anchors %}
@@ -164,18 +167,21 @@ configured correctly, powered and in line of sight.
 {% endsi_step %}
 
 {% si_step Enter anchor positions %}
-Before you start entering any anchor positions make sure the boxes are green or red. If, for some reason, they stay white restart the cfclient.
+To start configuring the anchor position you need to click on the __"Configure positions"__ button.
 
-Now it is time to enter the anchor positions. The boxes will become red as soon as that position differs from the position saved in the anchor.
+{% img click configure positions; wide; /images/tutorials/getting_started_with_lps/Click configure positions.png %}
 
-{% img enter anchor positions; wide; /images/tutorials/getting_started_with_lps/Enter anchor positions.png %}
+A pop-up window will appear. Click the button __"Get from anchors"__ to get the list of anchors and fill up the positions.
+
+{% img click get from anchors; medium; /images/tutorials/getting_started_with_lps/Click get from anchors.png %}
+{% img enter anchor positions; medium ; /images/tutorials/getting_started_with_lps/Enter anchor positions.png %}
 {% endsi_step %}
 
 {% si_step Write position to anchors %}
-* To save the new anchor positions in the anchors press the __"Write"__ button
+* To save the new anchor positions in the anchors press the __"Write to anchors"__ button
 * Verify that the anchor position boxes changes from red to green. If no change has occurred within 5 seconds try to write again
 
-{% img write position to anchors; wide; /images/tutorials/getting_started_with_lps/Write position to anchors.png %}
+{% img write position to anchors; medium; /images/tutorials/getting_started_with_lps/Write position to anchors.png %}
 {% endsi_step %}
 
 {% si_step Verify anchor positions %}
@@ -203,36 +209,40 @@ Congratulations, the Loco Positioning System is now calibrated!
 
 
 {% si_intro Switching system mode to TDoA %}
-If you intend to use the system in TDoA mode it is now time to change the system mode.
+If you intend to use the system in TDoA mode to fly more than one Crazyflie it is now time to change the system mode. There exist two version of the TDoA ranging protocol.
+
+ - TDoA 2 works with 8 anchors.
+ - TDoA 3 does not have any limitation in the number of anchors and so it can be used
+for bigger system, thought it will be more noisy for a system of 8 anchors.
 {% endsi_intro %}
 
 {% si_step Force the Crazyflie to use TWR mode %}
-In the crazyflie status section tick the TWR radio button. 
+In the crazyflie status section tick the __TWR__ radio button. 
 
-This will enable the "Switch to mode TDoA" button in the anchor status section.
+This will enable the __"TDoA2"__ button in the anchor status section.
 
-{% img Force TWR mode; wide; /images/tutorials/getting_started_with_lps/lps-system-mode-switch-1.jpeg %}
+{% img Force TWR mode; wide; /images/tutorials/getting_started_with_lps/lps-system-mode-switch-1.png %}
 {% endsi_step %}
 
 {% si_step Switch anchors to TDoA mode %}
-Press the "Switch to mode TDoA" button to switch the anchors to TDoA mode.
+Press the __"TDoA 2"__ button to switch the anchors to TDoA mode.
 
 After a few seconds all anchor status boxes should turn red to indicate that the
 Crazyflie 2.0 is no longer receiving TWR data from the anchors.
 
-{% img Switch anchors to TDoA mode; wide; /images/tutorials/getting_started_with_lps/lps-system-mode-switch-2.jpeg %}
+{% img Switch anchors to TDoA mode; wide; /images/tutorials/getting_started_with_lps/lps-system-mode-switch-2.png %}
 
 For details on system mode switching and troubleshooting, please see [the wiki](https://wiki.bitcraze.io/doc:lps:configure-mode)
 {% endsi_step %}
 
 {% si_step Switch the Crazyflie back to auto mode %}
 As a last step, confirm the TDoA mode by ticking the Auto radio button in the Crazyflie 
-status section and verify that the TDoA box turns green.
+status section and verify that the TDoA2 box turns green.
 
 The anchor boxes should also turn green when the Crazyflie switches to TDoA mode and
 starts to receive data from the anchors.
 
-{% img Switch to auto mode; wide; /images/tutorials/getting_started_with_lps/lps-system-mode-switch-3.jpeg %}
+{% img Switch to auto mode; wide; /images/tutorials/getting_started_with_lps/lps-system-mode-switch-3.png %}
 {% endsi_step %}
 
 
