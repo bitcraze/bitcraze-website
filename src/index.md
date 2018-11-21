@@ -253,6 +253,7 @@ page_id: home
         {% used_by_logo Insper; /images/logos/insper.png; http://www.insper.edu.br/ %}
         {% used_by_logo Hanyang University; /images/logos/hanyang.png; http://www.hanyang.ac.kr/web/eng %}
         {% used_by_logo University of Sannio in Benevento; /images/logos/unisannio.png; https://www.unisannio.it/en %}
+        {% used_by_logo Saarland University; /images/logos/saarland_university.png; https://www.uni-saarland.de/nc/en/home.html %}  
 
       </div>
       <div class="row">
