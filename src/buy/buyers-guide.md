@@ -289,7 +289,7 @@ inside the anchors (the convex hull) and we recommend using 8 anchors for TDoA.
 **What to buy:** [Indoor Explorer bundle](https://store.bitcraze.io/products/indoor-explorer-bundle),
 2 x [Loco positioning node](https://store.bitcraze.io/products/loco-positioning-node),
 [Crazyflies](https://store.bitcraze.io/products/crazyflie-2-0),
-[Loco Positioning decks](https://store.bitcraze.io/products/loco-positioning-deck) or [Swarm bundle](https://store.bitcraze.io/products/the-swarm-bundle-1)
+[Loco Positioning decks](https://store.bitcraze.io/products/loco-positioning-deck) or [Swarm bundle](https://store.bitcraze.io/products/the-swarm-bundle)
 
 ### Camera based system
 
