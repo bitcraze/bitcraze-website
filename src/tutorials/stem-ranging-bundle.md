@@ -99,7 +99,7 @@ import cflib.crtp
 from cflib.crazyflie import Crazyflie
 from cflib.crazyflie.syncCrazyflie import SyncCrazyflie
 from cflib.positioning.motion_commander import MotionCommander
-from cflib.utils.multi_ranger import Multi-ranger
+from cflib.utils.multiranger import Multiranger
 
 URI = 'radio://0/80/2M'
 
@@ -126,7 +126,7 @@ if __name__ == '__main__':
     cf = Crazyflie(rw_cache='./cache')
     with SyncCrazyflie(URI, cf=cf) as scf:
         with MotionCommander(scf) as motion_commander:
-            with Multi-ranger(scf) as multi_ranger:
+            with Multiranger(scf) as multi_ranger:
                 keep_flying = True
 
                 while keep_flying:
