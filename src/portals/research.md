@@ -82,6 +82,11 @@ you can read about how the researchers at MIT are using the Crazyflie 2.0 to stu
 
 ### Publications involving Crazyflie 2.0
 ---
+* **"CrazyS: a software-in-the-loop simulation platform for the Crazyflie 2.0 nano-quadcopter"**, Giuseppe Silano and Luigi Iannelli, in Robot Operating System (ROS): The Complete Reference (Volume 4), K. Anis, Ed. Springer International Publishing, 2019.
+[PDF, ](https://www.researchgate.net/publication/329718540_CrazyS_a_software-in-the-loop_simulation_platform_for_the_Crazyflie_20_nano-quadcopter)
+[Code, ](https://github.com/gsilano/CrazyS)
+[Video](https://youtu.be/qsrYCUSQ-S4)
+
 * **"Relative positioning system for UAVs in swarming applications"**, Andres Cecilia Luque, Master's thesis, Technical University of Denmark, 2018.
 [PDF, ](https://findit.dtu.dk/en/catalog/2439894045)
 [Video](https://youtu.be/4RpF8OThViY)
@@ -93,7 +98,7 @@ you can read about how the researchers at MIT are using the Crazyflie 2.0 to stu
 * **"CrazyS: a software-in-the-loop platform for the Crazyflie 2.0 nano-quadcopter"**, Giuseppe Silano, Emanuele Aucone and Luigi Iannelli, in Proc. 2018 26th Mediterranean Conference on Control and Automation (MED), Zadar, Croatia, 2018.
 [PDF, ](http://home.ing.unisannio.it/iannelli/papers/pdf/2018_MED_CrazyS.pdf)
 [Code, ](https://github.com/gsilano/CrazyS)
-[Video](https://www.youtube.com/watch?v=pda-tuULewM)
+[Video](https://youtu.be/pda-tuULewM)
 
 * **"Development of a multi-agent quadrotor research platform with distributed computational capabilities"**, Ian S. McInerney, Master's thesis, Iowa State University, 2017.
 [PDF, ](https://lib.dr.iastate.edu/etd/15575)
