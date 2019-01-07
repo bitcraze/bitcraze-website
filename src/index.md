@@ -17,15 +17,11 @@ page_id: home
         </div>
       </div>
 
-      <div class="announcements">
-        <h3>Holidays</h3>
-        <!--<a><img src="images/frontpage/icon_Hannover_dt.png" alt="Announcement"></a>-->
-        <p>Most of us are on vacation between 2018-12-20 and 2019-01-07.<br>
-        For technical questions, plese visit <a href="https://forum.bitcraze.io/">the forum</a><br>
-        Orders placed after Wednesday 2018-12-19 may not be sent until Monday 2019-01-07.<br>
-        <b>Happy holidays!</b>  
-        </p>
-      </div>
+      <!-- <div class="announcements">
+        <h3>Header goes here</h3>
+        <a><img src="images/frontpage/icon_Hannover_dt.png" alt="Announcement"></a>
+        <p>text explaining the context goes here</p>
+      </div> -->
     </div>
 
     <div class="value_proposition">
