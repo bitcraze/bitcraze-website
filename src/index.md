@@ -327,7 +327,8 @@ page_id: home
 <!-- <div class="section-scroller" onclick="kraken.scrollToNextScrollPoint()">
   <i class="fa fa-chevron-down"></i>
 </div>
+ -->
 
-<script type='text/javascript'>
-  kraken.registerSectionScrollerSpy();
-</script> -->
+ <script type='text/javascript'>
+   $("a.smooth-link").smoothScroll();
+ </script>
