@@ -39,9 +39,16 @@ page_id: home
 
 <!--Blog-->
 <div id="what_we_do" class="container-fluid blog-section scroll-point">
+  <div class="row center-what">
+    <div class="col-md-12 style-what">
+      <h2>
+      Latest from the blog
+      </h2>
+    </div>
+  </div>
+
   <div class="row">
     <div class="col-md-4">
-      <h2>The latest from the blog</h2>
     </div>
     <div class="col-md-8 display-menu">
       <div class="menu-blog-container">
@@ -168,6 +175,15 @@ page_id: home
 </div>
 
 <!-- What we do end -->
+<div class="container-fluid testimonial-section">
+  <div class="row center-what">
+    <div class="col-md-12 style-what">
+      <h2>
+      How
+      </h2>
+    </div>
+  </div>
+</div>
 
 <!--Testimonials-->
 <div class="container-fluid testimonial-section scroll-point">
@@ -215,6 +231,16 @@ page_id: home
 </div>
 
 <!-- Portals -->
+
+<div class="container-fluid portal-section">
+  <div class="row center-what">
+    <div class="col-md-12 style-what">
+      <h2>
+      How
+      </h2>
+    </div>
+  </div>
+</div>
 
 <!-- Development portal -->
 <div class="container-fluid portal-section scroll-point">

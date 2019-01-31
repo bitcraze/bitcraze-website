@@ -303,8 +303,6 @@
       padding-right: 15px;
 
       h2 {
-        font-size: 25px;
-        margin-bottom: $header-margin;
         text-align: center;
       }
 
@@ -390,11 +388,6 @@
       @media (min-width: $screen-md-min) {
         margin-top: $section-margin-big-screen;
         margin-bottom: 5vh;
-
-        h2 {
-          margin-bottom: 2vw;
-          text-align: left;
-        }
 
         h3 {
           text-align: left;
