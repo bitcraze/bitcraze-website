@@ -7,6 +7,7 @@ page_id: home
 
 <div class="container-fluid front-top-banner">
   <div class="with_flex row">
+
     <div class="header-wrapper">
       <div class="header_text">
         <h1>Make your ideas fly!</h1>
@@ -22,16 +23,22 @@ page_id: home
         <a><img src="images/frontpage/icon_Hannover_dt.png" alt="Announcement"></a>
         <p>text explaining the context goes here</p>
       </div> -->
-    </div>
 
-    <div class="value_proposition">
-      <h3>We create open platforms that enable people to explore the world of flying robotics</h3>
+    </div>
+    <div class="header-col-wrapper">
+      <div class="what_we_do_arrow">
+        <a href="#what_we_do" class="smooth-link arrow-style"><i class="fa fa-arrow-circle-down"></i></a>
+      </div>
+
+      <div class="value_proposition">
+        <h3>We create open platforms that enable people to explore the world of flying robotics</h3>
+      </div>
     </div>
   </div>
 </div>
 
 <!--Blog-->
-<div class="container-fluid blog-section scroll-point">
+<div id="what_we_do" class="container-fluid blog-section scroll-point">
   <div class="row">
     <div class="col-md-4">
       <h2>The latest from the blog</h2>
@@ -106,6 +113,61 @@ page_id: home
   </div>
 </div>
 
+<!-- What we do -->
+<div class="container-fluid">
+  <div class="row center-what">
+    <div class="col-md-12 style-what">
+      <h2>
+      What we do
+      </h2>
+    </div>
+  </div>
+
+  <div class="row">
+    <div class="col-md-4 what_we_do_text_box text-box_quadcopter">
+      <h3>
+      Quadcopters
+      </h3>
+        <p>We develop and manufacture a small quadcopter called the Crazyflie.
+        We also develop and maintain a supporting infrastructure with expansion decks,
+        debuggers, development environments and tools.</p>
+    </div>
+    <div class="col-md-8 what_we_do_img_padding">
+      <img src="images/test/what_test_1.png" alt="test1">
+    </div>
+  </div>
+
+  <div class="row">
+    <div class="col-md-4 col-md-push-8 what_we_do_text_box text-box_lps">
+      <h3>
+        Local positioning system
+      </h3>
+        <p>We have created the Loco positioning system,
+          an indoor positioning system that is used to find the absolute 3D position of objects in space.
+          The loco positioning system enables the Crazyflie to fly autonomously.</p>
+    </div>
+    <div class="col-md-8 col-md-pull-4 what_we_do_img_padding">
+      <img src="images/test/what_test_2.png" alt="test1">
+    </div>
+  </div>
+
+  <div class="row">
+    <div class="col-md-4 what_we_do_text_box text-box_open_source">
+      <h3>
+        Open source
+      </h3>
+        <p>We are working closly togheter with our community.
+        All our projects are open and are hosted over at GitHub.
+        This is also the place where you can suggest new features,
+        report issues and find current issues that needs fixing.</p>
+    </div>
+    <div class="col-md-8 what_we_do_img_padding">
+      <img src="images/test/what_test_3.png" alt="test1">
+    </div>
+  </div>
+</div>
+
+<!-- What we do end -->
 
 <!--Testimonials-->
 <div class="container-fluid testimonial-section scroll-point">
@@ -253,7 +315,7 @@ page_id: home
         {% used_by_logo Insper; /images/logos/insper.png; http://www.insper.edu.br/ %}
         {% used_by_logo Hanyang University; /images/logos/hanyang.png; http://www.hanyang.ac.kr/web/eng %}
         {% used_by_logo University of Sannio in Benevento; /images/logos/unisannio.png; https://www.unisannio.it/en %}
-        {% used_by_logo Saarland University; /images/logos/saarland_university.png; https://www.uni-saarland.de/nc/en/home.html %}  
+        {% used_by_logo Saarland University; /images/logos/saarland_university.png; https://www.uni-saarland.de/nc/en/home.html %}
 
       </div>
       <div class="row">

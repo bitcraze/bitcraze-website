@@ -143,6 +143,7 @@
           max-width: 600px;
         }
       }
+
     .header-wrapper {
       display: flex;
       flex-direction: column;
@@ -163,8 +164,7 @@
       max-width: 400px;
       max-height: 400px;
       color: white;
-      background: #d00000;
-      border: white solid 1px;
+      background: hotpink;
       img {
       max-width: 100%;
       max-height: 240px;
@@ -179,10 +179,6 @@
       a {
         align-self: center;
         max-width: 60%;
-        color: #eee;
-      }
-      a:hover {
-        color: #333;
       }
       p {
         font-size: $font-size-small-screen;
@@ -213,11 +209,23 @@
       }
     }
 
+    .header-col-wrapper {
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-end;
+
+      @media (min-width: $screen-md-min) {
+        flex-direction: column;
+      }
+    }
+
     .value_proposition {
-      align-self: center;
+      align-self: flex-end;
+
       width: 70%;
       color: white;
       text-align: center;
+      align-self: center;
 
       h3 {
       line-height: $line-height-small-screen;
@@ -227,6 +235,7 @@
       //≥768px
       @media (min-width: $screen-sm-min) {
       width: 50%;
+      align-self: center;
       }
       //992px
       @media (min-width: $screen-md-min) {
@@ -234,8 +243,8 @@
       background: #4c4cd2;
       width: 30%;
       margin-right: 2%;
-      margin-top: 30%;
-      margin-bottom: -80px;
+      // margin-top: 17%;
+      // margin-bottom: -80px;
 
         h3 {
         line-height: $line-height-big-screen;
@@ -245,10 +254,45 @@
         padding-left: 5%;
         padding-right: 5%;
         padding-bottom: 5%;
-        margin-bottom: 160px;
+        margin-bottom: 77px;
         }
       }
     }
+  }
+
+  //What we do arrow
+
+  .what_we_do_arrow {
+    display: none;
+    @media (min-width: $screen-md-min) {
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-start;
+      align-items: center;
+      color: white;
+      font-size: 20px;
+      align-self: center;
+      transform: translate(0, 100%);
+    }
+  }
+
+  .arrow-style {
+    color: white;
+    font-size: 50px;
+  }
+
+  // Call to action buttons
+  .btn-color-primary {
+    color: black;
+    background-color: white;
+    border-color: white;
+    border-width: 2px;
+  }
+
+  .btn-color-secondary {
+    background-color:transparent;
+    border-color: white;
+    border-width: 2px;
   }
 
   //Blog
@@ -345,7 +389,7 @@
       // ≥992px
       @media (min-width: $screen-md-min) {
         margin-top: $section-margin-big-screen;
-        margin-bottom: $section-margin-big-screen;
+        margin-bottom: 5vh;
 
         h2 {
           margin-bottom: 2vw;
@@ -374,6 +418,84 @@
         }
       }
     }
+
+    //End blog
+
+    //What we do
+    .center-what{
+      display: flex;
+      justify-content: center;
+    }
+
+    .style-what {
+      background: black;
+      color: white;
+      width: 100%;
+      display: flex;
+      justify-content: center;
+      margin-bottom: 50px;
+    }
+
+  .what_we_do_text_box {
+      h3,p {
+      color: white;
+      }
+      p {
+      font-size: 15px;
+      line-height: $line-height-small-screen;
+      text-align: center;
+      }
+      h3 {
+      font-size: $font-size-small-screen;
+      line-height: $line-height-small-screen;
+      text-align: center;
+      }
+      padding: 1em;
+    }
+
+    .text-box_quadcopter {
+      background: #ffa801;
+    }
+    .text-box_lps {
+      background: #3d6de1;
+    }
+    .text-box_open_source {
+      background: #545353;
+    }
+
+    // ≥992px
+    @media (min-width: $screen-md-min) {
+      .what_we_do_text_box {
+        h3 {
+        font-size: $font-size-medium-screen;
+        line-height: $line-height-medium-screen;
+        text-align: center;
+        }
+        padding: 2em;
+      }
+    }
+
+    //1200px
+    @media (min-width: $screen-lg-min) {
+      .what_we_do_text_box {
+        p {
+        font-size: 20px;
+        line-height: $line-height-medium-screen;
+        text-align: center;
+        }
+        h3 {
+        font-size: $font-size-big-screen;
+        line-height: $line-height-big-screen;
+        }
+      }
+    }
+
+    .what_we_do_img_padding {
+    padding-left: 0px;
+    padding-right: 0px;
+    }
+
+    //What we do end
 
 
   //Testimonials
@@ -554,16 +676,7 @@
     }
   }
 
-  //End portals
-
-    // Call to action buttons
-    .btn-color-primary {
-      background-color: #95C941;
-    }
-
-    .btn-color-secondary {
-      background-color: #00BAFF;
-    }
+    //End portals
 
     // Section scroller
     .section-scroller {
