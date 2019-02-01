@@ -130,7 +130,7 @@ page_id: home
     </div>
   </div>
 
-  <div class="row">
+  <div class="row what-we-do-section">
     <div class="col-md-4 what_we_do_text_box text-box_quadcopter">
       <h3>
       Quadcopters
@@ -144,7 +144,7 @@ page_id: home
     </div>
   </div>
 
-  <div class="row">
+  <div class="row what-we-do-section">
     <div class="col-md-4 col-md-push-8 what_we_do_text_box text-box_lps">
       <h3>
         Local positioning system
@@ -158,7 +158,7 @@ page_id: home
     </div>
   </div>
 
-  <div class="row">
+  <div class="row what-we-do-section">
     <div class="col-md-4 what_we_do_text_box text-box_open_source">
       <h3>
         Open source
@@ -175,17 +175,18 @@ page_id: home
 </div>
 
 <!-- What we do end -->
+
+<!--Testimonials-->
 <div class="container-fluid testimonial-section">
   <div class="row center-what">
     <div class="col-md-12 style-what">
       <h2>
-      How
+      Who
       </h2>
     </div>
   </div>
 </div>
 
-<!--Testimonials-->
 <div class="container-fluid testimonial-section scroll-point">
   <div class="row flow-container">
     <div class="col-md-4 header-padding">
@@ -236,7 +237,7 @@ page_id: home
   <div class="row center-what">
     <div class="col-md-12 style-what">
       <h2>
-      How
+      Why
       </h2>
     </div>
   </div>

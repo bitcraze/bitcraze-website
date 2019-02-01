@@ -22,7 +22,7 @@
   $header-margin: 4vw;
 
   $section-margin-small-screen: 5vh;
-  $section-margin-big-screen: 20vh;
+  $section-margin-big-screen: 15vh;
 
   img {
   max-width: 100%;
@@ -415,6 +415,12 @@
     //End blog
 
     //What we do
+
+    .what-we-do-section {
+      padding-left: 15px;
+      padding-right: 15px;
+    }
+
     .center-what{
       display: flex;
       justify-content: center;
