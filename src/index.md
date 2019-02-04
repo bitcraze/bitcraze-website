@@ -153,8 +153,11 @@ page_id: home
           an indoor positioning system that is used to find the absolute 3D position of objects in space.
           The loco positioning system enables the Crazyflie to fly autonomously.</p>
     </div>
+
     <div class="col-md-8 col-md-pull-4 what_we_do_img_padding">
-      <img src="images/test/what_test_2.png" alt="test1">
+      <video  width="100%" height="auto" controls autoplay loop>
+        <source src="\videos\swarmVid.mp4" type="video/mp4">
+      </video>
     </div>
   </div>
 
@@ -237,7 +240,7 @@ page_id: home
   <div class="row center-what">
     <div class="col-md-12 style-what">
       <h2>
-      Why
+      Areas
       </h2>
     </div>
   </div>
