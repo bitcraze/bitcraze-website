@@ -266,8 +266,16 @@ page_id: home
       </a>
     </div>
 
-    <div class="col-md-7 col-md-pull-4 portal_img_development portal-padding">
-      <a href="/development/"><img src="images/frontpage/development_portal.jpg" alt="Used in development"></a>
+    <div class="col-md-7 col-md-pull-4 portal_img_development portal-padding video-style">
+      <a href="/development/">
+
+        <!-- <img src="images/frontpage/development_portal.jpg" alt="Used in development"> -->
+
+        <video  width="100%" height="auto" controls autoplay loop>
+          <source src="\videos\solderingVideo3.mp4" type="video/mp4">
+        </video>
+
+      </a>
     </div>
   </div>
 
