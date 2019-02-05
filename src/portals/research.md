@@ -82,6 +82,9 @@ you can read about how the researchers at MIT are using the Crazyflie 2.0 to stu
 
 ### Publications involving Crazyflie 2.0
 ---
+* **Smelling Nano Aerial Vehicle for Gas Source Localization and Mapping**, Burgués, J.; Hernández, V.; Lilienthal, A.J.; Marco, S. Smelling Nano Aerial Vehicle for Gas Source Localization and Mapping. Sensors 2019, 19, 478.
+[PDF](https://www.mdpi.com/1424-8220/19/3/478)
+
 * **"CrazyS: a software-in-the-loop simulation platform for the Crazyflie 2.0 nano-quadcopter"**, Giuseppe Silano and Luigi Iannelli, in Robot Operating System (ROS): The Complete Reference (Volume 4), K. Anis, Ed. Springer International Publishing, 2019.
 [PDF, ](https://www.researchgate.net/publication/329718540_CrazyS_a_software-in-the-loop_simulation_platform_for_the_Crazyflie_20_nano-quadcopter)
 [Code, ](https://github.com/gsilano/CrazyS)
