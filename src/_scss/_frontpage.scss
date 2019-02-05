@@ -748,4 +748,13 @@
             height: 150px;
         }
     }
+
+    //video-style
+
+    .video-style {
+      video::-webkit-media-controls{
+        display: none;
+        -webkit-appearance: none;
+      }
+    }
 }
