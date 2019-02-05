@@ -19,7 +19,7 @@ High precision positioning;
 Enabling high precision autonomous flying and swarming
 %}
 
-With the Lighthouse positioning deck, high precision autonomous flight becomes
+With Crazyflie and the Lighthouse positioning deck, high precision autonomous flight becomes
 available for everyone. On-board position calculation and low complexity makes
 it the ideal choice for everything from big laboratories to small classrooms.
 
