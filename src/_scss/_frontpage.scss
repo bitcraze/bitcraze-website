@@ -416,23 +416,23 @@
 
     //What we do
 
-    .what-we-do-section {
+    .what-we-do-section-padding {
       padding-left: 15px;
-      padding-right: 15px;
+      padding-right:15px;
     }
 
-    .center-what{
+    .center-section-header{
       display: flex;
       justify-content: center;
     }
 
-    .style-what {
+    .style-section-header{
       background: black;
       color: white;
       width: 100%;
       display: flex;
       justify-content: center;
-      margin-bottom: 50px;
+      margin-bottom: 2vh;
     }
 
   .what_we_do_text_box {
@@ -571,7 +571,6 @@
         padding-left: 2em;
         padding-right: 2em;
         padding-bottom: 150px;
-        margin-top: -150px;
         }
       }
     }
@@ -585,10 +584,6 @@
     .portal-padding {
     padding-left: 0px;
     padding-right: 0px;
-    }
-
-    .development-portal {
-      padding-right: 15px;
     }
 
     .text-box_portals {
@@ -641,7 +636,6 @@
       .text-box_development {
       padding-top: 100px;
       padding-bottom: 100px;
-      margin-top: -120px;
       }
       .text-box_research {
       padding-top: 100px;

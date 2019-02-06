@@ -39,8 +39,8 @@ page_id: home
 
 <!--Blog-->
 <div id="what_we_do" class="container-fluid blog-section scroll-point">
-  <div class="row center-what">
-    <div class="col-md-12 style-what">
+  <div class="row center-section-header">
+    <div class="col-md-12 style-section-header">
       <h2>
       Latest from the blog
       </h2>
@@ -122,15 +122,15 @@ page_id: home
 
 <!-- What we do -->
 <div class="container-fluid">
-  <div class="row center-what">
-    <div class="col-md-12 style-what">
+  <div class="row center-section-header">
+    <div class="col-md-12 style-section-header">
       <h2>
       What we do
       </h2>
     </div>
   </div>
 
-  <div class="row what-we-do-section">
+  <div class="row what-we-do-section-padding">
     <div class="col-md-4 what_we_do_text_box text-box_quadcopter">
       <h3>
       Quadcopters
@@ -144,7 +144,7 @@ page_id: home
     </div>
   </div>
 
-  <div class="row what-we-do-section">
+  <div class="row what-we-do-section-padding">
     <div class="col-md-4 col-md-push-8 what_we_do_text_box text-box_lps">
       <h3>
         Local positioning system
@@ -161,7 +161,7 @@ page_id: home
     </div>
   </div>
 
-  <div class="row what-we-do-section">
+  <div class="row what-we-do-section-padding">
     <div class="col-md-4 what_we_do_text_box text-box_open_source">
       <h3>
         Open source
@@ -180,17 +180,16 @@ page_id: home
 <!-- What we do end -->
 
 <!--Testimonials-->
-<div class="container-fluid testimonial-section">
-  <div class="row center-what">
-    <div class="col-md-12 style-what">
+<div class="container-fluid testimonial-section scroll-point">
+
+  <div class="row center-section-header">
+    <div class="col-md-12 style-section-header">
       <h2>
       Who
       </h2>
     </div>
   </div>
-</div>
 
-<div class="container-fluid testimonial-section scroll-point">
   <div class="row flow-container">
     <div class="col-md-4 header-padding">
         <div class="testimonial-header-text">
@@ -242,18 +241,27 @@ page_id: home
 
 <!-- Portals -->
 
-<div class="container-fluid portal-section">
-  <div class="row center-what">
-    <div class="col-md-12 style-what">
+<!-- <div class="container-fluid portal-section">
+  <div class="row center-section-header">
+    <div class="col-md-12 style-section-header">
       <h2>
       Areas
       </h2>
     </div>
   </div>
-</div>
+</div> -->
 
 <!-- Development portal -->
 <div class="container-fluid portal-section scroll-point">
+
+  <div class="row center-section-header">
+    <div class="col-md-12 style-section-header">
+      <h2>
+      Areas
+      </h2>
+    </div>
+  </div>
+
   <div class="row">
     <div class="col-md-4 col-md-push-7 col-md-offset-1 portal-padding development-portal">
       <a href="/development/">
@@ -272,7 +280,7 @@ page_id: home
         <!-- <img src="images/frontpage/development_portal.jpg" alt="Used in development"> -->
 
         <video  width="100%" height="auto" controls autoplay loop>
-          <source src="\videos\solderingVideo3.mp4" type="video/mp4">
+          <source src="\videos\solderingVideo.mp4" type="video/mp4">
         </video>
 
       </a>
@@ -334,38 +342,42 @@ page_id: home
 
 
 <div class="container-fluid used-by-section scroll-point">
+  <div class="row center-section-header">
+    <div class="col-md-12 style-section-header">
+      <h2>
+      Used by
+      </h2>
+    </div>
+  </div>
+
+  <div class="row">
+      {% used_by_logo NASA; /images/logos/NASA_logo.png; https://www.nasa.gov/ %}
+      {% used_by_logo Microsoft; /images/logos/microsoft.png; https://www.microsoft.com/ %}
+      {% used_by_logo Chalmers University of Technology; /images/logos/chalmers.png; http://www.chalmers.se/en/ %}
+      {% used_by_logo LTH; /images/logos/lund.png; https://www.lth.se/english %}
+      {% used_by_logo University of Bologna; /images/logos/Seal_of_the_University_of_Bologna.png; http://www.unibo.it/en/homepage %}
+      {% used_by_logo USC; /images/logos/usc.png; http://www.usc.edu/ %}
+      {% used_by_logo MIT; /images/logos/mit.svg; http://web.mit.edu/ %}
+      {% used_by_logo AdaCore; /images/logos/adacore.png; http://www.adacore.com/ %}
+      {% used_by_logo ETH Zurich; /images/logos/Eth-zurich_logo_1.png; https://www.ethz.ch/en.html %}
+      {% used_by_logo Ericsson; /images/logos/ericsson_logo.png; https://www.ericsson.com/ %}
+      {% used_by_logo University of Illinois at Urbana-Champaign; images/logos/Illinois.gif; http://illinois.edu/ %}
+      {% used_by_logo Polytechnique Montreal; images/logos/polymtl.png; http://www.polymtl.ca/en %}
+      {% used_by_logo McGill University; images/logos/mcgill.svg; https://www.mcgill.ca/ %}
+      {% used_by_logo Bosch Sensortec; images/logos/bosch.png; https://www.bosch-sensortec.com/ %}
+      {% used_by_logo Invensense; images/logos/invensense.png; https://www.invensense.com/ %}
+      {% used_by_logo PixArt; images/logos/pixart.png; http://www.pixart.com/ %}
+      {% used_by_logo DLR; /images/logos/DLR_Logo.png; http://www.dlr.de/ %}
+      {% used_by_logo Insper; /images/logos/insper.png; http://www.insper.edu.br/ %}
+      {% used_by_logo Hanyang University; /images/logos/hanyang.png; http://www.hanyang.ac.kr/web/eng %}
+      {% used_by_logo University of Sannio in Benevento; /images/logos/unisannio.png; https://www.unisannio.it/en %}
+      {% used_by_logo Saarland University; /images/logos/saarland_university.png; https://www.uni-saarland.de/nc/en/home.html %}
+
+    </div>
     <div class="row">
-        <div class="col-md-12">
-            <h2>Used by</h2>
+      <div class="col-md-12"><p class="text-right">Is your organization missing? <a href="https://github.com/bitcraze/bitcraze-website/edit/master/src/{{page.path}}"><i class="fa fa-pencil"></i> &nbsp;Improve this page</a></p>
         </div>
-
-        {% used_by_logo NASA; /images/logos/NASA_logo.png; https://www.nasa.gov/ %}
-        {% used_by_logo Microsoft; /images/logos/microsoft.png; https://www.microsoft.com/ %}
-        {% used_by_logo Chalmers University of Technology; /images/logos/chalmers.png; http://www.chalmers.se/en/ %}
-        {% used_by_logo LTH; /images/logos/lund.png; https://www.lth.se/english %}
-        {% used_by_logo University of Bologna; /images/logos/Seal_of_the_University_of_Bologna.png; http://www.unibo.it/en/homepage %}
-        {% used_by_logo USC; /images/logos/usc.png; http://www.usc.edu/ %}
-        {% used_by_logo MIT; /images/logos/mit.svg; http://web.mit.edu/ %}
-        {% used_by_logo AdaCore; /images/logos/adacore.png; http://www.adacore.com/ %}
-        {% used_by_logo ETH Zurich; /images/logos/Eth-zurich_logo_1.png; https://www.ethz.ch/en.html %}
-        {% used_by_logo Ericsson; /images/logos/ericsson_logo.png; https://www.ericsson.com/ %}
-        {% used_by_logo University of Illinois at Urbana-Champaign; images/logos/Illinois.gif; http://illinois.edu/ %}
-        {% used_by_logo Polytechnique Montreal; images/logos/polymtl.png; http://www.polymtl.ca/en %}
-        {% used_by_logo McGill University; images/logos/mcgill.svg; https://www.mcgill.ca/ %}
-        {% used_by_logo Bosch Sensortec; images/logos/bosch.png; https://www.bosch-sensortec.com/ %}
-        {% used_by_logo Invensense; images/logos/invensense.png; https://www.invensense.com/ %}
-        {% used_by_logo PixArt; images/logos/pixart.png; http://www.pixart.com/ %}
-        {% used_by_logo DLR; /images/logos/DLR_Logo.png; http://www.dlr.de/ %}
-        {% used_by_logo Insper; /images/logos/insper.png; http://www.insper.edu.br/ %}
-        {% used_by_logo Hanyang University; /images/logos/hanyang.png; http://www.hanyang.ac.kr/web/eng %}
-        {% used_by_logo University of Sannio in Benevento; /images/logos/unisannio.png; https://www.unisannio.it/en %}
-        {% used_by_logo Saarland University; /images/logos/saarland_university.png; https://www.uni-saarland.de/nc/en/home.html %}
-
-      </div>
-      <div class="row">
-        <div class="col-md-12"><p class="text-right">Is your organization missing? <a href="https://github.com/bitcraze/bitcraze-website/edit/master/src/{{page.path}}"><i class="fa fa-pencil"></i> &nbsp;Improve this page</a></p>
-          </div>
-      </div>
+    </div>
 </div>
 
 <!-- <div class="section-scroller" onclick="kraken.scrollToNextScrollPoint()">
