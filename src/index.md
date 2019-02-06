@@ -140,7 +140,7 @@ page_id: home
         debuggers, development environments and tools.</p>
     </div>
     <div class="col-md-8 what_we_do_img_padding">
-      <img src="images/test/what_test_1.png" alt="test1">
+      <img src="/images/what_we_do/wwd_quadcopters.jpg" alt="Quadcopters">
     </div>
   </div>
 
@@ -172,7 +172,7 @@ page_id: home
         report issues and find current issues that needs fixing.</p>
     </div>
     <div class="col-md-8 what_we_do_img_padding">
-      <img src="images/test/what_test_3.png" alt="test1">
+      <img src="/images/what_we_do/wwd_open_source.jpg" alt="Open source">
     </div>
   </div>
 </div>
