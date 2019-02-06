@@ -135,9 +135,9 @@ page_id: home
       <h3>
       Quadcopters
       </h3>
-        <p>We develop and manufacture a small quadcopter called the Crazyflie.
-        We also develop and maintain a supporting infrastructure with expansion decks,
-        debuggers, development environments and tools.</p>
+        <p>We develop and manufacture the Crazyflie, a small, versatile quadcopter
+           for research and education. We provide an ecosystem of expansion decks,
+         clients and development tools to enable rapid development, flexibility and ease of use.</p>
     </div>
     <div class="col-md-8 what_we_do_img_padding">
       <img src="/images/what_we_do/wwd_quadcopters.jpg" alt="Quadcopters">
@@ -147,11 +147,13 @@ page_id: home
   <div class="row what-we-do-section-padding">
     <div class="col-md-4 col-md-push-8 what_we_do_text_box text-box_lps">
       <h3>
-        Local positioning system
+        Positioning Technology
       </h3>
-        <p>We have created the Loco positioning system,
-          an indoor positioning system that is used to find the absolute 3D position of objects in space.
-          The loco positioning system enables the Crazyflie to fly autonomously.</p>
+        <p>
+          We support and manufacture a variety of positioning technologies to enable autonomous
+          flight and swarms with the Crazyflie. Our positioning systems are stand
+          alone and works equally well with other robots.
+        </p>
     </div>
 
     <div class="col-md-8 col-md-pull-4 what_we_do_img_padding video-style">
@@ -166,10 +168,11 @@ page_id: home
       <h3>
         Open source
       </h3>
-        <p>We are working closly togheter with our community.
-        All our projects are open and are hosted over at GitHub.
-        This is also the place where you can suggest new features,
-        report issues and find current issues that needs fixing.</p>
+        <p>
+          All our projects are open source and hosted at GitHub.
+          We work together with our community of talented people to constantly evolve the ecosystem and add new functionality.
+          We believe in transparency, complete freedom of modification and no lock-in effects in proprietary APIs.
+        </p>
     </div>
     <div class="col-md-8 what_we_do_img_padding">
       <img src="/images/what_we_do/wwd_open_source.jpg" alt="Open source">
@@ -185,7 +188,7 @@ page_id: home
   <div class="row center-section-header">
     <div class="col-md-12 style-section-header">
       <h2>
-      Who
+      Testimonials
       </h2>
     </div>
   </div>
@@ -241,52 +244,16 @@ page_id: home
 
 <!-- Portals -->
 
-<!-- <div class="container-fluid portal-section">
-  <div class="row center-section-header">
-    <div class="col-md-12 style-section-header">
-      <h2>
-      Areas
-      </h2>
-    </div>
-  </div>
-</div> -->
-
 <!-- Development portal -->
 <div class="container-fluid portal-section scroll-point">
 
   <div class="row center-section-header">
     <div class="col-md-12 style-section-header">
       <h2>
-      Areas
+        Usage Areas
       </h2>
     </div>
   </div>
-
-  <div class="row">
-    <div class="col-md-4 col-md-push-7 col-md-offset-1 portal-padding development-portal">
-      <a href="/development/">
-        <div class="text-box_portals text-box_development">
-          <h3>The perfect development tool for your flying application</h3>
-            <p>Prototype your flying application in the comfort of your lab.
-              Modify or extend the firmware of the quadcopter to access or control your hardware - it is all open source.
-            </p>
-        </div>
-      </a>
-    </div>
-
-    <div class="col-md-7 col-md-pull-4 portal_img_development portal-padding video-style">
-      <a href="/development/">
-
-        <!-- <img src="images/frontpage/development_portal.jpg" alt="Used in development"> -->
-
-        <video  width="100%" height="auto" controls autoplay loop>
-          <source src="\videos\solderingVideo.mp4" type="video/mp4">
-        </video>
-
-      </a>
-    </div>
-  </div>
-
 
 <!-- Research portal -->
   <div class="row">
@@ -319,6 +286,28 @@ page_id: home
     </div>
     <div class="col-md-7 col-md-pull-4 portal-padding">
       <a href="/education/"><img src="images/frontpage/education_portal.jpg" alt="Used in education"></a>
+    </div>
+  </div>
+
+  <div class="row">
+    <div class="col-md-4 col-md-push-7 col-md-offset-1 portal-padding development-portal">
+      <a href="/development/">
+        <div class="text-box_portals text-box_development">
+          <h3>The perfect development tool for your flying application</h3>
+            <p>Prototype your flying application in the comfort of your lab.
+              Modify or extend the firmware of the quadcopter to access or control your hardware - it is all open source.
+            </p>
+        </div>
+      </a>
+    </div>
+
+    <div class="col-md-7 col-md-pull-4 portal_img_development portal-padding video-style">
+      <a href="/development/">
+        <video  width="100%" height="auto" controls autoplay loop>
+          <source src="\videos\solderingVideo.mp4" type="video/mp4">
+        </video>
+
+      </a>
     </div>
   </div>
 
