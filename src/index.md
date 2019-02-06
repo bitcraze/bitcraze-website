@@ -201,16 +201,6 @@ page_id: home
     </div>
 
     <div class="col-md-4 background-wrapper testimonial-item">
-      <a href="https://www.bitcraze.io/2017/06/towards-persistent-adaptive-multi-robot-systems/"><img src="images/testimonials/carnegie.jpg" alt="Carnegie Mellon">
-        <article>“We use the Crazyflie platform to evaluate our algorithms because the hardware
-                 is robust and the user community has helped make firmware available on which we can base our
-                 own systems”
-        </article>
-        <h4>-Ellen Cappo, researcher at Carnegie Mellon University</h4>
-      </a>
-    </div>
-
-    <div class="col-md-4 background-wrapper testimonial-item">
       <a href="https://www.bitcraze.io/2017/07/multi-robot-path-planning-for-flying-and-driving-vehicles/"><img src="images/testimonials/MIT.jpg" alt="MIT">
         <article>“The Crazyflie is easily obtainable, safe, and (we can certify ourselves) very robust. Moreover, since it is open-source and fully programmable, we were able to easily modify the Crazyflie to fit our needs.”
         </article>
@@ -219,9 +209,22 @@ page_id: home
     </div>
 
     <div class="col-md-4 background-wrapper testimonial-item video-style">
+      <a href="https://www.bitcraze.io/2017/06/towards-persistent-adaptive-multi-robot-systems/">
+        <video  width="100%" height="auto" controls autoplay loop>
+          <source src="\videos\carnegie.mp4" type="video/mp4">
+        </video>
+
+        <article>“We use the Crazyflie platform to evaluate our algorithms because the hardware
+                 is robust and the user community has helped make firmware available on which we can base our
+                 own systems”
+        </article>
+        <h4>-Ellen Cappo, researcher at Carnegie Mellon University</h4>
+      </a>
+    </div>
+
+    <div class="col-md-4 background-wrapper testimonial-item video-style">
       <a href="https://www.bitcraze.io/2017/11/modquad-self-assemble-flying-structures/">
 
-        <!-- <img src="images/testimonials/modquad.jpg" alt="UPenn University"> -->
         <video  width="100%" height="auto" controls autoplay loop>
           <source src="\videos\modVideo.mp4" type="video/mp4">
         </video>
