@@ -157,8 +157,8 @@ page_id: home
     </div>
 
     <div class="col-md-8 col-md-pull-4 what_we_do_img_padding video-style">
-      <video  width="100%" height="auto" controls autoplay loop>
-        <source src="\videos\swarmVid.mp4" type="video/mp4">
+      <video autobuffer controls autoplay muted loop>
+        <source src="/videos/swarmVid.mp4" type="video/mp4">
       </video>
     </div>
   </div>
@@ -210,8 +210,8 @@ page_id: home
 
     <div class="col-md-4 background-wrapper testimonial-item video-style">
       <a href="https://www.bitcraze.io/2017/06/towards-persistent-adaptive-multi-robot-systems/">
-        <video  width="100%" height="auto" controls autoplay loop>
-          <source src="\videos\carnegie.mp4" type="video/mp4">
+        <video autobuffer controls autoplay muted loop>
+          <source src="/videos/carnegie.mp4" type="video/mp4">
         </video>
 
         <article>“We use the Crazyflie platform to evaluate our algorithms because the hardware
@@ -225,8 +225,8 @@ page_id: home
     <div class="col-md-4 background-wrapper testimonial-item video-style">
       <a href="https://www.bitcraze.io/2017/11/modquad-self-assemble-flying-structures/">
 
-        <video  width="100%" height="auto" controls autoplay loop>
-          <source src="\videos\modVideo.mp4" type="video/mp4">
+        <video autobuffer controls autoplay muted loop>
+          <source src="/videos/modVideo.mp4" type="video/mp4">
         </video>
 
         <article>“The ModQuad is propelled by a quadrotor platform. We use the Crazyflie 2.0. The vehicle was chosen because of its agility and scalability. The low-cost and total payload gives us an acceptable scenario for a large number of modules.”
@@ -306,8 +306,8 @@ page_id: home
 
     <div class="col-md-7 col-md-pull-4 portal_img_development portal-padding video-style">
       <a href="/development/">
-        <video  width="100%" height="auto" controls autoplay loop>
-          <source src="\videos\solderingVideo.mp4" type="video/mp4">
+        <video autobuffer controls autoplay muted loop>
+          <source src="/videos/solderingVideo.mp4" type="video/mp4">
         </video>
 
       </a>

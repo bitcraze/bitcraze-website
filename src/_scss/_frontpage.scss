@@ -746,7 +746,12 @@
     //video-style
 
     .video-style {
-      video::-webkit-media-controls{
+      video {
+        width: 100%;
+        height: auto;
+      }
+
+      video::-webkit-media-controls {
         display: none;
         -webkit-appearance: none;
       }
