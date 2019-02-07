@@ -34,7 +34,7 @@ It also allows to start working on environment-aware problems like Simultaneous 
 ---
 
 #### Showcase video
-{% youtube tQ9ygfUFOz8; medium; 16by9 %}
+{% youtube pIBM6RPggcs; medium; 16by9 %}
 
 ---
 
