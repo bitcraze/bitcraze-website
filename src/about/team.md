@@ -13,16 +13,6 @@ Arnaud likes embedded systems and beautiful code. He likes it best when he is ab
 "%}
 
 
-{% include teammember.html member="Björn Mauritz" role="Interaction designer" img="/images/team/bjorn_mauritz_400px.JPG" bio="
-Björn was a big fantasy nerd growing up, spending most of his time playing computer games and role-playing “Dragons and demons”. During high school he started acting and continued after high school working with theater both on and off stage. Besides acting he also did stage design construction, lighting design and worked as a bartender.
-
-In 2011 Björn started studying to be an interaction designer at Malmö University, graduating with a bachelor degree in 2014. Björn loves to be involved in creative projects and has a specific interest for combining technology and art.
-As a interaction designer his main interest is researching and understanding how different users behave and how their needs can be met when interacting with a product or a service.
-
-In his spare time he is currently creating short films and doing stand-up comedy.
-"%}
-
-
 {% include teammember.html member="Kristoffer Richardsson" role="Developer" img="/images/team/kristoffer_richardsson_400px.JPG" bio="
 With a passion for technology, Kristoffer has been working with various aspects of software development for over 20 years. He has worked on all levels, from shifting bits in low level firmware to the architecture of financial systems. In addition to coding, Kristoffer has also a strong interest in how we work, what makes a team tick, what makes us happy, efficient and create fantastic things.
 
