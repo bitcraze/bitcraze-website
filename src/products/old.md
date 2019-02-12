@@ -7,6 +7,12 @@ page_id: product-old
 
 Some distributors are still carrying these products, but they are no longer in production.
 
+### Qi wireless charging deck
+
+<a href="/qi-charger-deck/"><img width="150" height="150" src="/images/qi-charger/qi-charger-deck-585px.jpg" alt="Qi deck"/></a>
+
+[Read more](/qi-charger-deck/)
+
 ### Flow deck
 
 <a href="/flow-deck/"><img width="150" height="150" src="/images/flow_deck/flow_deck_585px-1.JPG" alt="Flow deck"/></a>
