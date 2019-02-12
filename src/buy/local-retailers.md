@@ -1,8 +1,8 @@
 ---
 layout: page-left-menu
-title: Local distributors
+title: Local retailers
 permalink: /distributors/
-page_id: buy-distributors
+page_id: buy-retailers
 ---
 
 {% continent World Wide %}
@@ -90,5 +90,5 @@ page_id: buy-distributors
 {% distributor Coolcomponents; https://coolcomponents.co.uk/search?type=article%2Cpage%2Cproduct&q=crazyflie*; /images/distributors/coolcomponents-300x46.gif %}
 {% distributor Unmanned techshop; http://www.unmannedtechshop.co.uk/search.php?search_query=crazyflie; /images/distributors/unmanned_tech.png %}
 
-{% continent For distributors %}
-If you would like to distribute our products or if you already are distributing our products but you are not in the list then please [drop us an email](/contact/).
+{% continent For retailers %}
+If you would like to sell our products or if you already are carrying our products but you are not in the list then please [drop us an email](/contact/).

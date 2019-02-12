@@ -30,7 +30,7 @@
 - title: Buy
   subs:
   - {title: Buy online, url: "https://store.bitcraze.io/"}
-  - {page_id: buy-distributors}
+  - {page_id: buy-retailers}
   - {page_id: buy-guide}
 
 - title: Tutorials
