@@ -26,7 +26,7 @@ For this tutorial you need:
 * A computer with the Virtual Machine (VM) installed. 
 
 For details on how to install the VM and Crazyradio see  
-[Getting started with the Crazyflie 2.0](/getting-started-with-the-crazyflie-2-0/#inst-comp).
+[Getting started with the Crazyflie 2.X](/getting-started-with-the-crazyflie-2-0/#inst-comp).
 {% endsi_step %}
 
 {% si_step start the VM %}
@@ -111,7 +111,7 @@ Crazyflie with an [official release](https://github.com/bitcraze/crazyflie-firmw
 {% endsi_intro %}
 
 {% si_step prepare the Crazyflie; bootload %}
-Turn your Crazyflie 2.0 off.
+Turn your Crazyflie 2.X off.
 
 Start it in bootloader mode by pressing and holding the power button for 3 
 seconds. Both blue LEDs will blink.

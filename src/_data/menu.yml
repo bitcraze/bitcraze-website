@@ -4,7 +4,7 @@
 
 - title: Products
   subs:
-  - {page_id: product-crazyflie-2}
+  - {page_id: product-crazyflie-2-1}
   - {page_id: product-crazyradio-pa}
   - {page_id: product-led-ring-deck}
   - {page_id: product-qi-1-2-charger}
@@ -54,7 +54,7 @@
   - {page_id: support-getting-help}
   - {title: Forum, url: "https://forum.bitcraze.io"}
   - {page_id: support-downloads}
-  - {page_id: support-frequently-asked-questions-Crazyflie-2.0}
+  - {page_id: support-frequently-asked-questions-Crazyflie-2.X}
   - {page_id: support-troubleshooting}
   - {page_id: external-projects}
 

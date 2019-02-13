@@ -13,8 +13,8 @@ page_id: product-led-ring-deck
 
 {% product_highlight
 fa-lightbulb-o;
-Add lights to your Crazyflie 2.0;
-Light up the dark with custom patterns using the Crazyflie 2.0 LED-ring expansion deck.
+Add lights to your Crazyflie 2.X;
+Light up the dark with custom patterns using the Crazyflie 2.X LED-ring expansion deck.
 %}
 
 Featuring 12 powerful RGB LEDs facing downwards, you can
@@ -26,7 +26,7 @@ The color and light sequence of the LED-ring can be controlled from your client
 while in flight. Why not show starboard/port with red and green colors or paint
 with light in the dark?
 
-The LED-ring expansion deck is designed for mounting under the Crazyflie 2.0
+The LED-ring expansion deck is designed for mounting under the Crazyflie 2.X
 facing downwards.
 
 ---

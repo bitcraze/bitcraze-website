@@ -37,7 +37,7 @@ Projects aiming at supporting swarms. They might also be useful for controling s
 | Crazyswarm | The ACT lab at USC has implemented a library to handle large swarms of Crazyflies. | <https://github.com/USC-ACTLab/crazyswarm> |
 | ![ROS](/images/icons/ros_32.png) || <https://github.com/whoenig/crazyflie_ros> |
 | Crazyserver | A server exposing a REST API to control a swarm of Crazyflies. Written in Go. | <https://github.com/mikehamer/crazyserver> |
-| LaMoucheFolle | Cross-platform OSC server for controlling multiple Crazyflies 2.0 | <https://github.com/benkuper/LaMoucheFolle> |
+| LaMoucheFolle | Cross-platform OSC server for controlling multiple Crazyflies 2.X | <https://github.com/benkuper/LaMoucheFolle> |
 
 ## Connectivity libraries
 

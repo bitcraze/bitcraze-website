@@ -6,12 +6,12 @@ page_id: getting-started-flow-deck
 ---
 
 {% si_intro The Flow deck %}
-The Flow deck gives the Crazyflie 2.0 the ability to understand when it's moving in any direction.
-With the Flow deck the Crazyflie 2.0 is able to hover and act as an aid for beginners where it creates a very stable flying platform.
+The Flow deck gives the Crazyflie 2.X the ability to understand when it's moving in any direction.
+With the Flow deck the Crazyflie 2.X is able to hover and act as an aid for beginners where it creates a very stable flying platform.
 
 For more information about how to mount an expansion deck please see the [Getting started with expansion decks](/getting-started-with-expansion-decks/) tutorial.
 
-To be able to use the Flow deck you need to update the Crazyflie to the latest firmware. For more information on how to update the firmware, see the [download latest firmware](/getting-started-with-the-crazyflie-2-0/#latest-fw) section in our getting started with Crazyflie 2.0 tutorial.
+To be able to use the Flow deck you need to update the Crazyflie to the latest firmware. For more information on how to update the firmware, see the [download latest firmware](/getting-started-with-the-crazyflie-2-0/#latest-fw) section in our getting started with Crazyflie 2.X tutorial.
 You will also need the latest version of the [Crazyflie client](https://github.com/bitcraze/crazyflie-clients-python/releases).
 
 {% endsi_intro %}
@@ -19,13 +19,13 @@ You will also need the latest version of the [Crazyflie client](https://github.c
 {% si_step  Using the hover mode %}
 
 To use the Flow deck you need to use the Python client and set up a connection with your Crazyflie.
-For more information go to the [Getting started with the Crazyflie 2.0](/getting-started-with-the-crazyflie-2-0/).
+For more information go to the [Getting started with the Crazyflie 2.X](/getting-started-with-the-crazyflie-2-0/).
 
 * In the client, go to **Assist mode** and choose **Hover** mode in the drop-down menu. Also make sure that the assist mode button is [configured](https://wiki.bitcraze.io/doc:crazyflie:client:pycfclient:index#input_devices).
 
 {% img Hover mode; wide; /images/tutorials/getting_started_with_flow/hover.PNG %}
 
-* Place the Crazyflie 2.0 on a level surface area with lots of space for flying.
+* Place the Crazyflie 2.X on a level surface area with lots of space for flying.
 Make sure the Crazyflie is pointing away from you, the blue LEDs are on the back so keep them pointing in your direction when starting to fly.
 * Press and hold the assisted mode button on the gamepad to activate the hover mode. The Crazyflie will now take off and hover at a height of 40cm.
 * Now you can fly around using the x/y stick as shown in the image below. Pressing X+ will move the Crazyflie in the X+ axis of your system, and the same for the other axis.

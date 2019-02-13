@@ -34,9 +34,9 @@ your work a breeze.
 It is all open to allow you to change what you need to change, you will never be locked in
 by limited APIs or closed software. Never.
 
-## How the Crazyflie 2.0 is used by universities
+## How the Crazyflie 2.X is used by universities
 ---
-__Universities around the world are using the Crazyflie 2.0 in different types of research fields. Here we have collected guest blog posts from our [blog](/blog/) to show some examples.__
+__Universities around the world are using the Crazyflie 2.X in different types of research fields. Here we have collected guest blog posts from our [blog](/blog/) to show some examples.__
 
 ### Crazyflie used by Carnegie Mellon University
 
@@ -80,7 +80,7 @@ you can read about how the researchers at MIT are using the Crazyflie 2.0 to stu
 {% endmedia_gallery %}
 
 
-### Publications involving Crazyflie 2.0
+### Publications involving Crazyflie 2.X
 ---
 * **Smelling Nano Aerial Vehicle for Gas Source Localization and Mapping**, Burgués, J.; Hernández, V.; Lilienthal, A.J.; Marco, S. Smelling Nano Aerial Vehicle for Gas Source Localization and Mapping. Sensors 2019, 19, 478.
 [PDF](https://www.mdpi.com/1424-8220/19/3/478)

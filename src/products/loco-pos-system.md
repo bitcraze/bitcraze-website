@@ -10,10 +10,10 @@ page_id: product-loco-pos-system
 {% product_highlight
 fa-location-arrow;
 Position awareness;
-Add absolute position to your Crazyflie 2.0 using the Loco Positioning system.
+Add absolute position to your Crazyflie 2.X using the Loco Positioning system.
 %}
 
-The Crazyflie 2.0 (as most other quadcopters and robots) has no real notion of
+The Crazyflie 2.X (as most other quadcopters and robots) has no real notion of
 its position in space. The on board sensors (accelerometers and gyros) can be
 used to give a rough idea of its movements but lacks the accuracy for long term
 position awareness. The solution is to use an external system that can provide
@@ -37,13 +37,13 @@ All information needed to calculate the position is available in the Tag which
 enables position estimation on board of the Crazyflie, as opposed to many other
 positioning systems where the position is calculated in an external computer
 and sent to the Crazyflie.
-By adding knowledge of its position to a Crazyflie 2.0 it is capable of flying
+By adding knowledge of its position to a Crazyflie 2.X it is capable of flying
 autonomously without manual control. This opens up an array of exciting use
 cases and applications.
 
 #### The Loco Positioning Deck
 
-The Loco Positioning Deck is a Crazyflie 2.0 expansion deck with the Loco
+The Loco Positioning Deck is a Crazyflie 2.X expansion deck with the Loco
 Positioning Tag functionality. Read more on the [Loco Positioning Deck page.](/loco-pos-deck/)
 
 #### The Loco Positioning Node

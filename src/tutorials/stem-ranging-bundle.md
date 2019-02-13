@@ -6,7 +6,7 @@ page_id: getting-started-stem-ranging-bundle
 ---
 
 {% si_intro The STEM ranging bundle %}
-The STEM (Science Technology Engineering Mathematics) ranging bundle is based on a Crazyflie 2.0 with a Flow Deck and a Multi-ranger deck.
+The STEM (Science Technology Engineering Mathematics) ranging bundle is based on a Crazyflie 2.X with a Flow Deck and a Multi-ranger deck.
 It is an autonomous drone that can be controlled from a simple python script to explore and operate a robot in 3 dimensions.
 It has the ability to detect obstacles around it.
 
@@ -14,20 +14,20 @@ This getting started guide will help you set up the system and make your first a
 {% endsi_intro %}
 
 {% si_step required hardware %}
-* 1 x Crazyflie 2.0 Kit
+* 1 x Crazyflie 2.X Kit
 * 1 x Crazyradio PA
 * 1 x Flow V2 deck
 * 1 x Multi-ranger deck
 {% endsi_step %}
 
 {% si_step prerequisites %}
-This getting started guide assumes you have already assembled your Crazyflie 2.0. If that is not the case please follow the [Getting started with the Crazyflie 2.0](/getting-started-with-the-crazyflie-2-0/)
+This getting started guide assumes you have already assembled your Crazyflie 2.X. If that is not the case please follow the [Getting started with the Crazyflie 2.X](/getting-started-with-the-crazyflie-2-0/)
 
-This guide also requires that you have updated the Crazyflie to the latest firmware. For more information on how to update the firmware, see the [download latest firmware](/getting-started-with-the-crazyflie-2-0/#latest-fw) section in our getting started with Crazyflie 2.0 tutorial.
+This guide also requires that you have updated the Crazyflie to the latest firmware. For more information on how to update the firmware, see the [download latest firmware](/getting-started-with-the-crazyflie-2-0/#latest-fw) section in our getting started with Crazyflie 2.X tutorial.
 {% endsi_step %}
 
 {% si_step  mounting the Flow V2 deck %}
-Mount the Flow V2 Deck underneath and the Multi-ranger deck above the Crazyflie 2.0 using the long pin-headers supplied with the Crazyflie 2.0 Kit.
+Mount the Flow V2 Deck underneath and the Multi-ranger deck above the Crazyflie 2.X using the long pin-headers supplied with the Crazyflie 2.X Kit.
 {% img Mounting the Flow V2 deck; wide; /images/tutorials/getting_started_stem_ranging/getting_started_with_stem_ranging_770px.jpg %}
 {% img Mounting the Flow V2 deck; wide; /images/tutorials/getting_started_stem_ranging/getting_started_with_stem_ranging_770px-2.jpg %}
 
@@ -37,7 +37,7 @@ For more information about how to mount an expansion deck please see the [Gettin
 {% si_step installing Python and the cflib%}
 {% tabgroup %}
 {% tab Windows %}
-The backend library used to control the Crazyflie 2.0 is called cflib and is written
+The backend library used to control the Crazyflie 2.X is called cflib and is written
 in python 3. To use it you must have Pyhton 3 installed on the computer and it can
 be downloaded [here](http://www.python.org).
 
@@ -81,7 +81,7 @@ the script with a suitable name.
 
 ``` python
 """
-Example script that allows a user to "push" the Crazyflie 2.0 around
+Example script that allows a user to "push" the Crazyflie 2.X around
 using your hands while it's hovering.
 
 This examples uses the Flow and Multi-ranger decks to measure distances

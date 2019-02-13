@@ -7,9 +7,9 @@ page_id: getting-started-start
 
 ## Let's get started!
 
-If you just bought a Crazyflie 2.0 a good way to start is to head over to the
-[Getting started with the Crazyflie 2.0](/getting-started-with-the-crazyflie-2-0/) guide
-to see how to assemble the kit and take off for your first flight. If you want to add one of our many expansion decks to the Crazyflie 2.0 and need help getting started we have made a [Getting started with expansion decks](/getting-started-with-expansion-decks/) tutorial. Just follow the steps and you are ready to go.
+If you just bought a Crazyflie 2.X a good way to start is to head over to the
+[Getting started with the Crazyflie 2.X](/getting-started-with-the-crazyflie-2-0/) guide
+to see how to assemble the kit and take off for your first flight. If you want to add one of our many expansion decks to the Crazyflie 2.X and need help getting started we have made a [Getting started with expansion decks](/getting-started-with-expansion-decks/) tutorial. Just follow the steps and you are ready to go.
 
 Just bought our Loco positioning system? Go to our [Loco Positioning system
 page](/loco-pos-system/) for more information and how to setup the system.

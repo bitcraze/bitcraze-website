@@ -1,17 +1,17 @@
 ---
 layout: page-left-menu
-title: Getting started with the Crazyflie 2.0
+title: Getting started with the Crazyflie 2.X
 permalink: /getting-started-with-the-crazyflie-2-0/
 page_id: getting-started-crazyflie-2
 ---
 
 {% si_intro Unpacking the Crazyflie %}
-The Crazyflie 2.0 packet contains the following items. Make sure that you
+The Crazyflie 2.X box contains the following items. Make sure that you
 have all of them before you start assembling.
 {% endsi_intro %}
 
 {% si_step package contents %}
-* 1 x Crazyflie 2.0 control board with all components mounted
+* 1 x Crazyflie 2.X control board with all components mounted
 * 5 x CW propellers
 * 5 x CCW propellers
 * 6 x Motor mounts
@@ -20,22 +20,23 @@ have all of them before you start assembling.
 * 2 x Short expansion connector pins (1×10, 2mm spacing, 8 mm long)
 * 2 x Long expansion connector pins (1×10, 2mm spacing, 14 mm long)
 * 1 x Battery holder expansion board
+* 1 x USB cable (only with the Crazyflie 2.1)
 {% endsi_step %}
 
 
 
 {% si_intro Testing; test %}
-The Crazyflie 2.0 is tested extensively in the production, but to make sure
+The Crazyflie 2.X is tested extensively when produced, but to make sure
 nothing has happened during shipping/storage you should run the tests before
-starting the assembly. Power on the Crazyflie 2.0 using a USB source (either
+starting the assembly. Power on the Crazyflie 2.X using a USB source (either
 computer or charger) and check the results of the test below. Note that it’s
-important to hold the Crazyflie 2.0 steady during the test and away from strong
+important to hold the Crazyflie 2.X steady during the test and away from strong
 magnetic sources.
 {% endsi_intro %}
 
 {% si_step self-test %}
 Before you start assembling anything, run the power on self-test by
-connecting the Crazyflie 2.0 to a uUSB power source. The LEDs M1 and M4
+connecting the Crazyflie 2.X to a uUSB power source. The LEDs M1 and M4
 will indicate the result of the test. If the M4 LED blinks GREEN five times
 fast, then the test has passed.
 
@@ -52,7 +53,7 @@ and does it again. Go to our [support forum](//forum.bitcraze.io) to get help.
 
 
 {% si_intro Assembling; assembling %}
-Assembling your Crazyflie 2.0 will probably take less than 10 minutes, but
+Assembling your Crazyflie 2.X will probably take less than 10 minutes, but
 there are a few pitfalls. So make sure to follow the instructions below!
 {% endsi_intro %}
 
@@ -84,10 +85,10 @@ motor mount.
 {% endsi_step %}
 
 {% si_step insert the motor %}
-Insert the motor mounts on the Crazyflie 2.0 wings. They are press fit and
+Insert the motor mounts on the Crazyflie 2.X wings. They are press fit and
 might need a small amount of force. Make sure they go all the way to the
 stop. It’s not important which motor you put where. After it’s been
-inserted, connect the motor connectors to the Crazyflie 2.0.
+inserted, connect the motor connectors to the Crazyflie 2.X.
 {% tutorialVideo \videos\insert_the_motor.mp4 %}
 {% endsi_step %}
 
@@ -99,11 +100,11 @@ each kind has their own bag in the box. Here we are attaching the CW propellers.
 {% tutorialVideo \videos\attach_the_propellers.mp4 %}
 
 Here’s a detailed view of where to attach CW and CCW propellers.
-{% img Crazyflie 2.0 propeller mounting; medium; /images/getting-started/cf2_props.png %}
+{% img Crazyflie 2.X propeller mounting; medium; /images/getting-started/cf2_props.png %}
 {% endsi_step %}
 
 {% si_step attach the rubber pad %}
-The rubber pad should be attached to the Crazyflie 2.0 between the
+The rubber pad should be attached to the Crazyflie 2.X between the
 expansion headers. This will create friction, keep the battery from
 slipping out and also protect the electronics.
 {% tutorialVideo \videos\attach_the_rubber_pad.mp4 %}
@@ -143,11 +144,11 @@ and the blue LEDs are at the back.
 
 #### Start up sequence
 
-When the Crazyflie 2.0 is powered on it will automatically go through a short
+When the Crazyflie 2.X is powered on it will automatically go through a short
 sequence of events to get ready for flight.
 
-1. **Run self tests** - the Crazyflie 2.0 checks that the hardware is OK
-1. **Calibrate sensors** - the Crazyflie 2.0 reads its sensors to get base values.
+1. **Run self tests** - the Crazyflie 2.X checks that the hardware is OK
+1. **Calibrate sensors** - the Crazyflie 2.X reads its sensors to get base values.
 It must be *absolutely still* to do this, so it's best to put it on a level surface for a second.
 1. **Ready to fly!**
 
@@ -159,7 +160,7 @@ You also need to understand what the LEDs mean.
 front right LED (1) is blinking red twice every second.
 * **Power on and all is good but sensors are not yet calibrated:** The blue LEDs
 (2 and 3) are fully lit and the front right LED (1) is blinking red with 2 seconds interval.
-Put the Crazyflie 2.0 on a level surface and keep it absolutely still to calibrate.
+Put the Crazyflie 2.X on a level surface and keep it absolutely still to calibrate.
 * **Radio connected:** The front left LED (4) is flickering in red and/or green.
 * **Battery low:** The front right LED (1) is fully lit in red. It's time to
 land and re-charge the battery.
@@ -172,8 +173,8 @@ red pulses with a longer pause between groups.
 
 
 
-{% si_intro Controlling the Crazyflie 2.0 %}
-You can fly the Crazyflie 2.0 either from a mobile device or a computer.
+{% si_intro Controlling the Crazyflie 2.X %}
+You can fly the Crazyflie 2.X either from a mobile device or a computer.
 {% endsi_intro %}
 
 {% si_step choose controller device %}
@@ -197,7 +198,7 @@ want to use your computer.
 
 
 {% si_intro Installing on a mobile device %}
-It is really easy to install the app and connect to the Crazyflie 2.0.
+It is really easy to install the app and connect to the Crazyflie 2.X.
 All you need is an Android or iOS device that supports Bluetooth Low Energy (BLE).
 {% endsi_intro %}
 
@@ -208,10 +209,10 @@ The Crazyflie client is available for Android and iOS.
 
 [For iPhone, from Apple iTunes](https://itunes.apple.com/us/app/crazyflie-2.0/id946151480?mt=8)
 
-{% img Crazyflie 2.0 app; narrow; /images/getting-started/cf-mobile-app.png %}
+{% img Crazyflie 2.X app; narrow; /images/getting-started/cf-mobile-app.png %}
 {% endsi_step %}
 
-{% si_step connect to the Crazyflie 2.0 %}
+{% si_step connect to the Crazyflie 2.X %}
 Start the app and click the connect button. The buttons have different
 appearances in the Android and iOS apps, you can see them below.
 {% img Connect buttons; medium; /images/getting-started/connect-icons.png %}
@@ -480,7 +481,7 @@ motor, remove the hair and reinstall the propeller.
 {% endsi_step %}
 
 {% si_step charging the battery; charging %}
-To charge the battery of the Crazyflie 2.0, just plug in a micro USB cable. Make
+To charge the battery of the Crazyflie 2.X, just plug in a micro USB cable. Make
 sure the Crazyflie is powered on. While the battery is charging, the back left
 blue LED will blink. When the LED is fully lit the battery is charged.
 {% endsi_step %}

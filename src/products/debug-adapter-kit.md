@@ -14,10 +14,10 @@ page_id: product-debug-adapter-kit
 {% product_highlight
 fa-eye;
 Debug firmware with ease;
-Connect a standard JTAG and SWD debugger to the Crazyflie 2.0.
+Connect a standard JTAG and SWD debugger to the Crazyflie 2.X.
 %}
 
-One of our goals is to make development with the Crazyflie 2.0 as easy
+One of our goals is to make development with the Crazyflie 2.X as easy
 as possible. Due to the small size of the platform there are limitations
 in what connectors we can have and therefore we designed a debug-adapter
 kit that makes connecting a debugger to either of the MCUs a lot

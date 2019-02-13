@@ -23,7 +23,7 @@ TWR use while we recommend 8 anchors for the TDoA mode.
 
 To be able to use the Loco positioning system you need to update the Crazyflie to the latest firmware.
 For more information on how to update the firmware, see the [download latest firmware](/getting-started-with-the-crazyflie-2-0/#latest-fw) section in our
-[Getting started with Crazyflie 2.0 tutorial](/getting-started-with-the-crazyflie-2-0/).
+[Getting started with Crazyflie 2.X tutorial](/getting-started-with-the-crazyflie-2-0/).
 
 You will also need the latest version of the [Crazyflie client](https://github.com/bitcraze/crazyflie-clients-python/releases).
 
@@ -140,11 +140,11 @@ Now when everything is mounted and powered it is time to configure the system, t
 is done from the Crazyflie client. Communication between the client and the anchors 
 is relayed through the Crazyflie and the LPS deck.
 
-* Place your Crazyflie 2.0 in the center of the flying area. 
-* Open the CF client and connect to the Crazyflie 2.0
+* Place your Crazyflie 2.X in the center of the flying area. 
+* Open the CF client and connect to the Crazyflie 2.X
 * If not already done, [configure](https://wiki.bitcraze.io/doc:crazyflie:client:pycfclient:index#firmware_configuration) 
-the Crazyflie 2.0 in __2Mbit__ radio mode. This reduces interference with the 
-UWB radio. If the configuration is changed a restart of the Crazyflie 2.0 is required.
+the Crazyflie 2.X in __2Mbit__ radio mode. This reduces interference with the 
+UWB radio. If the configuration is changed a restart of the Crazyflie 2.X is required.
 {% img open the crazyflie client; wide; /images/tutorials/getting_started_with_lps/open_the_crazyflie_client.PNG %}
 {% endsi_step %}
 
@@ -159,7 +159,7 @@ You may have to check it in the menu View->Tabs->Loco Positioning Tab to make it
 {% si_step Check anchor status %}
 In the Anchor ranging status box, check that there are as many green boxes as there are anchors. 
 
-A red box indicates that the Crazyflie 2.0 can not communicate with that anchor 
+A red box indicates that the Crazyflie 2.X can not communicate with that anchor 
 and does not get any ranging data. If this is the case, verify the anchor is 
 configured correctly, powered and in line of sight. 
 
@@ -228,7 +228,7 @@ This will enable the __"TDoA2"__ button in the anchor status section.
 Press the __"TDoA 2"__ button to switch the anchors to TDoA mode.
 
 After a few seconds all anchor status boxes should turn red to indicate that the
-Crazyflie 2.0 is no longer receiving TWR data from the anchors.
+Crazyflie 2.X is no longer receiving TWR data from the anchors.
 
 {% img Switch anchors to TDoA mode; wide; /images/tutorials/getting_started_with_lps/lps-system-mode-switch-2.png %}
 

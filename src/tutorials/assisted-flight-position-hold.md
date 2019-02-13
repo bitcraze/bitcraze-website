@@ -6,14 +6,14 @@ page_id: getting-started-with-assisted-flight-position-hold
 ---
 
 {% si_intro Start up %}
-When the Crazyflie 2.0 is used together with the Loco Positioning System, the 
+When the Crazyflie 2.X is used together with the Loco Positioning System, the 
 position information can be used for assisted flight and help the pilot to
 control the quadcopter, or it can be used for scripted autonomous flight. 
 {% endsi_intro %}
 
 {% si_step Restart the Crazyflie %}
 * Place the copter in the center of your flying areas on a level surface facing the positive x-axis of the coordinate system
-* Turn on or restart the Crazyflie 2.0
+* Turn on or restart the Crazyflie 2.X
 {% img Restart the Crazyflie; wide; /images/tutorials/getting_started_with_lps/restart_the_crazyflie.png %}
 {% endsi_step %}
 
@@ -25,9 +25,9 @@ Position hold lets you control the change of x/y/yaw/height instead of roll/pitc
 thus releasing the sticks will leave the Crazyflie in its current position.
 {% endsi_intro %}
 
-{% si_step Connect to the Crazyflie 2.0 %}
+{% si_step Connect to the Crazyflie 2.X %}
 * Open the cfclient application
-* Connect to the Crazyflie 2.0
+* Connect to the Crazyflie 2.X
 * It might take a couple of seconds for the position estimate to stabilize. You can 
 verify that it has stabilized by checking that the position in the LPS tab corresponds to the physical position.
 {% endsi_step %}

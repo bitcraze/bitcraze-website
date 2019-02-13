@@ -15,7 +15,7 @@ Latest stable releases for Win/Mac OSX/Linux can be found
 * [Android client](https://play.google.com/store/apps/details?id=se.bitcraze.crazyfliecontrol2)
 * [iOS client](https://itunes.apple.com/us/app/crazyflie-2.0/id946151480)
 
-## Crazyflie Nano Quadcopter (1.0) and Crazyflie 2.0 firmware
+## Crazyflie Nano Quadcopter (1.0) and Crazyflie 2.X firmware
 
 Latest stable release can be found 
 [here](https://github.com/bitcraze/crazyflie-release/releases "GitHub releases for crazyflie-firmware").
@@ -23,7 +23,7 @@ Latest stable release can be found
 [Update](//wiki.bitcraze.io/doc:crazyflie:client:pycfclient:index?&amp;#firmware_upgrade) 
 using the python client and a Crazyradio, or from a mobile device. To 
 [update over USB](//wiki.bitcraze.io/projects:crazyflie2:development:dfu) 
-(only STM32 in Crazyflie 2.0) use the DFU or BIN from the latest STM32 
+(only STM32 in Crazyflie 2.X) use the DFU or BIN from the latest STM32 
 [release](https://github.com/bitcraze/crazyflie-firmware/releases).
 
 ## Crazyradio and Crazyradio PA firmware
