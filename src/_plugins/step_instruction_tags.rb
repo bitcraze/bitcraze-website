@@ -3,7 +3,7 @@ require_relative 'plugin_helper'
 module Jekyll
   module StepInstruction
     #
-    # Use these tags on gettings started pages
+    # Use these tags on getting started pages
     #
 
     # Use this tag to create an intro section
@@ -24,8 +24,6 @@ module Jekyll
     class Intro < Liquid::Block
       include Jekyll::PluginHelper
 
-      @@id = 1
-
       def initialize(tag_name, text, tokens)
         super
         @params = parse_args(text)
@@ -37,15 +35,14 @@ module Jekyll
         if (@params.length > 1)
           full_id = @params[1]
         else
-          full_id = 'intro' + @@id.to_s
-          @@id += 1
+          full_id = generate_id(@params[0])
         end
 
-        '<div class="step-instruction-intro"><h2 id="%1$s">%2$s<a class ="anchor-link" href="#%1$s"><i class="fa fa-link"></i></a></h2>%3$s</div>' % [full_id, @params[0], markup]
-      end
+        plugin_data = page_plugin_data(context, 'used_ids')
+        raise 'Id "' + full_id + '" is already used!' if plugin_data.has_key?(full_id)
+        plugin_data[full_id] = true
 
-      def self.reset_id_counter()
-        @@id = 1
+        '<div class="step-instruction-intro"><h2 id="%1$s">%2$s<a class ="anchor-link" href="#%1$s"><i class="fa fa-link"></i></a></h2>%3$s</div>' % [full_id, @params[0], markup]
       end
 
       # Allow for empty body. Liquid will not output the rendered result otherwise
@@ -73,8 +70,6 @@ module Jekyll
     class Step < Liquid::Block
       include Jekyll::PluginHelper
 
-      @@id = 1
-
       def initialize(tag_name, text, tokens)
         super
         @params = parse_args(text)
@@ -86,15 +81,14 @@ module Jekyll
         if (@params.length > 1)
           full_id = @params[1]
         else
-          full_id = 'infostep' + @@id.to_s
-          @@id += 1
+          full_id = generate_id(@params[0])
         end
 
-        '<div class="step-instruction-info-step"><h3 id="%1$s">%2$s<a class ="anchor-link" href="#%1$s"><i class="fa fa-link"></i></a></h3>%3$s</div>' % [full_id, @params[0], markup]
-      end
+        plugin_data = page_plugin_data(context, 'used_ids')
+        raise 'Id "' + full_id + '" is already used!' if plugin_data.has_key?(full_id)
+        plugin_data[full_id] = true
 
-      def self.reset_id_counter()
-        @@id = 1
+        '<div class="step-instruction-info-step"><h3 id="%1$s">%2$s<a class ="anchor-link" href="#%1$s"><i class="fa fa-link"></i></a></h3>%3$s</div>' % [full_id, @params[0], markup]
       end
     end
 

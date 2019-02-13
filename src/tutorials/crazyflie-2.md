@@ -310,7 +310,7 @@ for all projects.
 {% img Update all projects icon; narrow; /images/getting-started/update-all-projects-icon.png; circle-border %}
 {% endsi_step %}
 
-{% si_step install hardware %}
+{% si_step install hardware; install-hardware-vm %}
 * Insert Crazyradio PA in a USB port.
 * Insert game controller in a USB port.
 {% endsi_step %}
@@ -342,7 +342,7 @@ for all projects.
 {% endtabgroup %}
 {% endsi_step %}
 
-{% si_step start the Crazyflie client %}
+{% si_step start the Crazyflie client; start-client-vm %}
 Double click the “Crazyflie client” icon on the VM desktop
 {% img Crazyflie client icon; narrow; /images/getting-started/cf-client-icon.png; circle-border %}
 
@@ -365,7 +365,7 @@ The windows installer installs the Crazyflie client on your Windows machine.
 Run the installer
 {% endsi_step %}
 
-{% si_step install hardware %}
+{% si_step install hardware; install-hardware-win %}
 * Insert Crazyradio PA in a USB port.
 * Insert game controller in a USB port.
 {% endsi_step %}
@@ -374,7 +374,7 @@ Run the installer
 Install the [Crazyradio Windows USB driver](https://wiki.bitcraze.io/doc:crazyradio:install_windows_zadig).
 {% endsi_step %}
 
-{% si_step start the Crazyflie client %}
+{% si_step start the Crazyflie client; start-client-win %}
 Start the Crazyflie client from the start menu
 {% endsi_step %}
 

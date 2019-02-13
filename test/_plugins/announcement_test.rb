@@ -14,7 +14,6 @@ class TestAnnouncement < Testbase
 
   def test_that_notification_is_rendered
     # Fixture
-    Jekyll::StepInstruction::Intro.reset_id_counter
     @converter_mock.expect(:convert, 'converted md', ['md'])
 
     tag = '{% announcement My title; img_url %}md{% endannouncement %}'

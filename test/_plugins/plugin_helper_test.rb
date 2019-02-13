@@ -41,4 +41,29 @@ class TestPluginHelper < Testbase
     # Assert
     assert_equal(expected, actual)
   end
+
+  def test_that_plugin_data_is_returned
+    # Fixture
+    context = {'page' => {}}
+    plugin_name = "some-name"
+    expected = 17
+
+    # Test
+    actual = page_plugin_data(context, plugin_name)
+    actual['param'] = expected
+
+    # Assert
+    assert_equal(expected, context['page']['bc_page_plugin_data'][plugin_name]['param'])
+  end
+
+  def test_that_id_is_generated_from_title()
+    # Fixture
+    expected = "my-title-123"
+
+    # Test
+    actual = generate_id("My title !'# 123")
+
+    # Assert
+    assert_equal(expected, actual)
+  end
 end
