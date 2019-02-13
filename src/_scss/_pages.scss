@@ -210,6 +210,13 @@ table {
 
 
 // Step instruction
+.anchor-link {
+    font-size: 0.7rem;
+    padding-left: 1rem;
+    vertical-align: middle;
+    visibility: hidden;
+    color: $bcLightGrey;
+}
 .step-instruction-intro {
     p {
         font-weight: 400;
@@ -218,6 +225,12 @@ table {
     h2 {
         font-size: 200%;
         font-weight: 500;
+    }
+
+    h2:hover {
+      .anchor-link {
+        visibility: visible;
+      }
     }
 }
 .step-instruction-info-step {
@@ -232,8 +245,13 @@ table {
         border-width: 0 0 1px 0;
         border-style: solid;
     }
-}
 
+    h3:hover {
+      .anchor-link {
+        visibility: visible;
+      }
+    }
+}
 
 // Tutorials
 .tutorial-download-list {

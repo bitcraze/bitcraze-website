@@ -19,7 +19,7 @@ class TestStepInstructionTags < Testbase
 
     tag = '{% si_intro My title %}md{% endsi_intro %}'
 
-    expected = '<div class="step-instruction-intro"><h2 id="intro1">My title</h2>converted md</div>'
+    expected = '<div class="step-instruction-intro"><h2 id="intro1">My title<a class ="anchor-link" href="#intro1"><i class="fa fa-link"></i></a></h2>converted md</div>'
 
     # Test
     actual = Liquid::Template.parse(tag).render(nil, registers: {site: @site_mock})
@@ -36,7 +36,7 @@ class TestStepInstructionTags < Testbase
 
     tag = '{% si_intro My title %}{% endsi_intro %}'
 
-    expected = '<div class="step-instruction-intro"><h2 id="intro1">My title</h2>converted md</div>'
+    expected = '<div class="step-instruction-intro"><h2 id="intro1">My title<a class ="anchor-link" href="#intro1"><i class="fa fa-link"></i></a></h2>converted md</div>'
 
     # Test
     actual = Liquid::Template.parse(tag).render(nil, registers: {site: @site_mock})
@@ -53,7 +53,7 @@ class TestStepInstructionTags < Testbase
 
     tag = '{% si_intro My title; my-id %}md{% endsi_intro %}'
 
-    expected = '<div class="step-instruction-intro"><h2 id="my-id">My title</h2>converted md</div>'
+    expected = '<div class="step-instruction-intro"><h2 id="my-id">My title<a class ="anchor-link" href="#my-id"><i class="fa fa-link"></i></a></h2>converted md</div>'
 
     # Test
     actual = Liquid::Template.parse(tag).render(nil, registers: {site: @site_mock})
@@ -70,7 +70,7 @@ class TestStepInstructionTags < Testbase
 
     tag = '{% si_step My title %}md{% endsi_step %}'
 
-    expected = '<div class="step-instruction-info-step"><h3 id="infostep1">My title</h3>converted md</div>'
+    expected = '<div class="step-instruction-info-step"><h3 id="infostep1">My title<a class ="anchor-link" href="#infostep1"><i class="fa fa-link"></i></a></h3>converted md</div>'
 
     # Test
     actual = Liquid::Template.parse(tag).render(nil, registers: {site: @site_mock})
@@ -87,7 +87,7 @@ class TestStepInstructionTags < Testbase
 
     tag = '{% si_step My title; my-id %}md{% endsi_step %}'
 
-    expected = '<div class="step-instruction-info-step"><h3 id="my-id">My title</h3>converted md</div>'
+    expected = '<div class="step-instruction-info-step"><h3 id="my-id">My title<a class ="anchor-link" href="#my-id"><i class="fa fa-link"></i></a></h3>converted md</div>'
 
     # Test
     actual = Liquid::Template.parse(tag).render(nil, registers: {site: @site_mock})
