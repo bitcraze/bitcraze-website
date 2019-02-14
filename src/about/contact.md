@@ -46,6 +46,15 @@ Github;
 %} 
 You can find source code and other documents on <a href="https://github.com/bitcraze">GitHub</a>
     </div>
+
+
+    <div class="col-md-6">
+{% product_highlight 
+fa fa-phone; 
+Phone;
+%} 
+You can call us on +46 40 22 32 00
+    </div>
 </div>
 
 <br>
