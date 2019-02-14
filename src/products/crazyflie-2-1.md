@@ -8,7 +8,7 @@ page_id: product-crazyflie-2-1
 {% buy_online https://store.bitcraze.io/products/crazyflie-2-1 %}
 
 {% product_img Crazyflie 2.1; medium;
-/images/crazyflie2-1/crazyflie_2.1_585px.JPG
+/images/crazyflie2-1/crazyflie_2.1_585px.jpg
 %}
 
 {% product_highlight
