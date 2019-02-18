@@ -6,6 +6,9 @@ page_id: videogallery
 ---
 
 {% media_gallery %}
+{% gallery_youtube Rb2a6lSQSas; 16by9; Generalization through Smulation %}
+{% gallery_youtube MSvoQT__c9U; 16by9; Design and Control of a Morphing Quadcopter %}
+{% gallery_youtube D0CrjoYDt9w; 16by9; Crazyswarm: a large nano-quadcopter swarm %}
 {% gallery_youtube Cg6V3qrSguk; 16by9; Les Sphères Curieuses  %}
 {% gallery_youtube uWKJrYQ6gf4; 16by9; Introduction to Control of UAVs  %}
 {% gallery_youtube T9fkjAp942A; 16by9; Target Following on Crazyflie 2.0 %}
@@ -24,6 +27,7 @@ page_id: videogallery
 {% gallery_youtube CP-fBvcUAls; 16by9; Dot-drawing with drones %}
 {% gallery_youtube T_22q7x0mcw; 16by9; Crazyflie 2.0 controlled with HoloLens %}
 {% gallery_youtube DJ1IZRL5t1Q; 16by9; Online Planning and Navigation %}
+{% gallery_youtube LXng1v8lwbk; 16by9; Swarm of Crazyflie 2.0 quadcopters %}
 {% endmedia_gallery %}
 
 ---

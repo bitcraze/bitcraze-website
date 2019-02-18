@@ -58,30 +58,16 @@ you can read about how the researchers at MIT are using the Crazyflie 2.0 to stu
 
 {% youtube s-oFD5X-QtQ; medium; 16by9 %}
 
-## Crazyflie used in research
----
-{% media_gallery %}
-{% gallery_youtube MSvoQT__c9U; 16by9 %}
-{% gallery_youtube T9fkjAp942A; 16by9 %}
-{% gallery_youtube YnGZ-arUwgc; 16by9 %}
-{% gallery_youtube D0CrjoYDt9w; 16by9 %}
-{% gallery_youtube CP-fBvcUAls; 16by9 %}
-{% gallery_youtube DJ1IZRL5t1Q; 16by9 %}
-{% gallery_youtube bAhLW1eq8eM; 16by9 %}
-{% gallery_youtube dpNV-zmjvkc; 16by9 %}
-{% gallery_youtube gH1Fcf597So; 16by9 %}
-{% gallery_youtube px9iHkA0nOI; 16by9 %}
-{% gallery_youtube JoWU8qoAk84; 16by9 %}
-{% gallery_youtube ZrQbruTtzfQ; 16by9 %}
-{% gallery_youtube oreVFqRntXY; 16by9 %}
-{% gallery_youtube QjxF9zUlIx0; 16by9 %}
-{% gallery_youtube NwxOwYi0jFQ; 16by9 %}
-{% gallery_youtube LXng1v8lwbk; 16by9 %}
-{% endmedia_gallery %}
 
-
-### Publications involving Crazyflie 2.X
+## Publications involving Crazyflie 2.X
 ---
+* **Generalization through Simulation: Integrating Simulated and Real Data into Deep Reinforcement Learning for Vision-Based Autonomous Flight**, Katie Kang, Suneel Belkhale, Gregory Kahn, Pieter Abbeel, Sergey Levine, Berkeley AI Research (BAIR), University of California, Berkeley, 2019. 
+[PDF, ](https://arxiv.org/pdf/1902.03701.pdf)
+[Video](https://www.youtube.com/watch?v=Rb2a6lSQSas)
+
+* **Low Level Control of a Quadrotor with Deep Model-Based Reinforcement Learning**, Nathan O. Lambert, Daniel S. Drew, Joseph Yaconelli, Roberto Calandra, Sergey Levine and Kristofer S. J. Pister, 2019.
+[PDF](https://arxiv.org/pdf/1901.03737.pdf)
+
 * **Smelling Nano Aerial Vehicle for Gas Source Localization and Mapping**, Burgués, J.; Hernández, V.; Lilienthal, A.J.; Marco, S. Smelling Nano Aerial Vehicle for Gas Source Localization and Mapping. Sensors 2019, 19, 478.
 [PDF](https://www.mdpi.com/1424-8220/19/3/478)
 
