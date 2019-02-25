@@ -62,8 +62,8 @@ You can call us on +46 40 22 32 00
 ## Visiting address
 
 Bitcraze AB  
-Bredgatan 4  
-SE &#8211; 211 30 MALMÖ  
+Södra Bulltoftavägen 46  
+SE &#8211; 212 22 MALMÖ  
 SWEDEN
 
-{% map !1m18!1m12!1m3!1d2253.6856386590944!2d13.01591261594548!3d55.60748458051474!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4653a3e6be990265%3A0x6849bd4efa9d41a4!2sBredgatan+4%2C+211+30+Malm%C3%B6!5e0!3m2!1sen!2sse!4v1446442518143; medium %}
+{% map !1m14!1m8!1m3!1d2253.6784145226525!2d13.0403514!3d55.6076103!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4653a3d0713a1de5%3A0xa8a15349e2a5c7d1!2sS%C3%B6dra+Bulltoftav%C3%A4gen+46%2C+212+22+Malm%C3%B6!5e0!3m2!1sen!2sse!4v1551111138683; medium %}
