@@ -93,9 +93,16 @@ inserted, connect the motor connectors to the Crazyflie 2.X.
 {% endsi_step %}
 
 {% si_step attach the propellers %}
-Now it’s time to attach the propellers. Note: There are two kinds of
+Now it’s time to attach the propellers. 
+
+Note: There are two kinds of
 propellers, the clock wise (CW) and counter clock wise (CCW) propellers,
-each kind has their own bag in the box. Here we are attaching the CW propellers.
+each kind has their own bag in the box. Notice the shape of the tips, the 
+sharper corner is on back side of the rotation direction. The CW propellers
+are also usually marked with an "A", "A1" or "A2", while the CCW propellers 
+are marked with "B", "B1" or "B2".
+
+Here we are attaching the CW propellers.
 
 {% tutorialVideo \videos\attach_the_propellers.mp4 %}
 
