@@ -66,7 +66,7 @@ page_id: buy-retailers
 {% country Germany %}
 {% distributor Antratek; https://www.antratek.de/catalogsearch/result/?q=+bitcraze; /images/distributors/Antratek-EEM_logo-nieuw-300x56.jpg %}
 {% distributor Watterott; http://www.watterott.com/index.php?page=search&page_action=query&desc=on&sdesc=on&keywords=crazyflie&x=-1232&y=-27; /images/distributors/wetterott.jpg %}
-{% distributor Exp-tech; http://www.exp-tech.de/search?sSearch=crazyflie; /images/distributors/exp_tech_square.jpg %}
+{% distributor Exp-tech; https://www.exp-tech.de/bitcraze/; /images/distributors/exp_tech_logo_600.png %}
 
 {% country Netherlands %}
 {% distributor Antratek; https://www.antratek.nl/catalogsearch/result/?q=+bitcraze; /images/distributors/Antratek-EEM_logo-nieuw-300x56.jpg %}
