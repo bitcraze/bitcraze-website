@@ -177,9 +177,9 @@ with the values currently stored in the anchors.
 {% img click get from anchors; medium; /images/tutorials/getting_started_with_lps/Click get from anchors.png %}
 {% img enter anchor positions; medium ; /images/tutorials/getting_started_with_lps/Enter anchor positions.png %}
 
-Update the positions (coordinates) of the anchors. Note: measurements in meters.
+Enter the positions (coordinates) of the anchors in your system. Note: measurements in meters.
 
-When a value differs from the currently configured value, the box turns red. 
+When you enter a new value, the box turns red to indicate that it differs from the current value stored in the anchor. 
 
 {% endsi_step %}
 
