@@ -171,15 +171,25 @@ To start configuring the anchor position you need to click on the __"Configure p
 
 {% img click configure positions; wide; /images/tutorials/getting_started_with_lps/Click configure positions.png %}
 
-A pop-up window will appear. Click the button __"Get from anchors"__ to get the list of anchors and fill up the positions.
+A pop-up window will appear. Click the button __"Get from anchors"__ to get the list of anchors and fill up the positions 
+with the values currently stored in the anchors.
 
 {% img click get from anchors; medium; /images/tutorials/getting_started_with_lps/Click get from anchors.png %}
 {% img enter anchor positions; medium ; /images/tutorials/getting_started_with_lps/Enter anchor positions.png %}
+
+Update the positions (coordinates) of the anchors. Note: measurements in meters.
+
+When a value differs from the currently configured value, the box turns red. 
+
 {% endsi_step %}
+
 
 {% si_step Write position to anchors %}
 * To save the new anchor positions in the anchors press the __"Write to anchors"__ button
-* Verify that the anchor position boxes changes from red to green. If no change has occurred within 5 seconds try to write again
+* Verify that the anchor position boxes changes from red to green, which indiates that the new position has been 
+written to the anchor and red back to the client. The read back process may take up to 5 seconds, please
+be patient. If no change has occurred after 5 to 10 seconds, the write did probably not work for all anchors, try to write again 
+by clicking the __"Write to anchors"__ button.
 
 {% img write position to anchors; medium; /images/tutorials/getting_started_with_lps/Write position to anchors.png %}
 {% endsi_step %}
@@ -243,6 +253,8 @@ The anchor boxes should also turn green when the Crazyflie switches to TDoA mode
 starts to receive data from the anchors.
 
 {% img Switch to auto mode; wide; /images/tutorials/getting_started_with_lps/lps-system-mode-switch-3.png %}
+
+If not all anchor boxes go green, please see the [wiki for touble shooting](https://wiki.bitcraze.io/doc:lps:configure-mode).
 {% endsi_step %}
 
 
