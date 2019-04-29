@@ -18,11 +18,11 @@ page_id: home
         </div>
       </div>
 
-      <!-- <div class="announcements">
-        <h3>Header goes here</h3>
-        <a><img src="images/frontpage/icon_Hannover_dt.png" alt="Announcement"></a>
-        <p>text explaining the context goes here</p>
-      </div> -->
+      <div class="announcements">
+        <h3>ICRA 2019</h3>
+        <a><img src="images/frontpage/icra2019.png" alt="Announcement"></a>
+        <p>Come and meet us in booth 101, May 20 - 22!</p>
+      </div>
 
     </div>
     <div class="header-col-wrapper">
