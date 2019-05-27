@@ -1,7 +1,7 @@
 { ->
     stage('Validate') {
       node {
-        tools.tb(args: "build")
+        tools.tb("build")
       }
     }
     stage('Release') {
