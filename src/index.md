@@ -18,12 +18,12 @@ page_id: home
         </div>
       </div>
 
-      <div class="announcements">
+      <!--- div class="announcements">
         <h3>ICRA 2019</h3>
         <a><img src="/images/events/icra2019/icra2019.png" alt="Announcement"></a>
         <p>Come and meet us in booth 101, May 20 - 22!<br>
         <a href="/events/icra2019">Read about the demo and new products.</a></p>
-      </div>
+      </div -->
 
     </div>
     <div class="header-col-wrapper">
