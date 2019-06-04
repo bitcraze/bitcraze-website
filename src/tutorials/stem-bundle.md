@@ -140,7 +140,13 @@ if __name__ == '__main__':
             print('Landing!')
 ```
 
-Run the script by pressing F5. The output should look similar to this.
+Run the script by pressing F5. 
+
+**Note**: If you have the python client open, make sure the Crazyflie is disconnected from it. 
+The Crazyradio does not support connections from multiple programs simultaneously and 
+the script will not work if the Crazyflie still is connected to the python client. 
+
+The output should look similar to this.
 
 ```
 Connecting to radio://0/80/250K
