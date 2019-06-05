@@ -166,15 +166,16 @@
       color: black;
       background: white;
       img {
-      max-width: 100%;
-      max-height: 240px;
-      }
+        max-width: 100%;
+        max-height: 240px;
+      } 
       h3 {
-      font-size: $font-size-medium-screen;
-      line-height: $line-height-medium-screen;
-      font-weight: $font-weight-front-page;
-      text-align: center;
-      padding: 5px;
+        font-size: $font-size-medium-screen;
+        line-height: $line-height-medium-screen;
+        font-weight: $font-weight-front-page;
+        text-align: center;
+        padding: 5px;
+        color: #4c4cd2;
       }
       a {
         align-self: center;
