@@ -100,7 +100,9 @@ propellers, the clock wise (CW) and counter clock wise (CCW) propellers,
 each kind has their own bag in the box. Notice the shape of the tips, the 
 sharper corner is on back side of the rotation direction. The CW propellers
 are also usually marked with an "A", "A1" or "A2", while the CCW propellers 
-are marked with "B", "B1" or "B2".
+are marked with "B", "B1" or "B2" (the number is irrelevant).
+
+Also make sure that the correct side is facing up, the top side should be convex.
 
 Here we are attaching the CW propellers.
 
@@ -401,6 +403,8 @@ mapping is chosen, otherwise pick your device type.
 * Open the web browser and go to [https://github.com/bitcraze/crazyflie-release/releases](https://github.com/bitcraze/crazyflie-release/releases).
 If you are on the VM, open the browser in the VM.
 * download the zip file named crazyflie-xxx.zip from the latest release.
+
+Note: You must have the zip file, some browsers automatically unzip after download.
 {% endsi_step %}
 
 {% si_step update firmware in the Crazyflie; update-fw %}
@@ -409,7 +413,7 @@ If you are on the VM, open the browser in the VM.
 * Go back to the Crazyflie client and click the Connect -> Bootloader menu.
 {% img Update firmware dialog; wide; /images/getting-started/update_firmware.PNG %}
 * Click the “Initiate bootloader cold boot” button. After a few seconds the status should read “Connected to bootloader”.
-* Click the “Browse” button and go to home/bitcraze/Downloads and select the file you downloaded earlier.
+* Click the “Browse” button and go to home/bitcraze/Downloads and select the zip file you downloaded earlier.
 * Click the “Program” button. The progress bar will go from 0% to 100% twice, as
 the firmware for the two processors is uploaded to the Crazyflie.
 * Click the “Restart in firmware mode” button. The Crazyflie reboots
