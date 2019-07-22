@@ -18,11 +18,11 @@ page_id: home
         </div>
       </div>
 
-      <div class="announcements">
+      <!-- div class="announcements">
         <h3>Summer vacations</h3>       
         <a><img src="/images/frontpage/beach.jpg" alt="Announcement"></a>
         <p>Due to vacations, there will be <b>limited support</b> on all our communication channels, and <b>no shipping</b> of products between 8 - 22 July.</p>
-      </div>
+      </div -->
 
     </div>
     <div class="header-col-wrapper">
