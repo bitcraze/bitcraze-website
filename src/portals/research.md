@@ -72,7 +72,7 @@ you can read about how the researchers at MIT are using the Crazyflie 2.0 to stu
 [PDF](https://www.mdpi.com/1424-8220/19/3/478)
 
 * **"CrazyS: a software-in-the-loop simulation platform for the Crazyflie 2.0 nano-quadcopter"**, Giuseppe Silano and Luigi Iannelli, in Robot Operating System (ROS): The Complete Reference (Volume 4), K. Anis, Ed. Springer International Publishing, 2019.
-[PDF, ](https://www.researchgate.net/publication/329718540_CrazyS_a_software-in-the-loop_simulation_platform_for_the_Crazyflie_20_nano-quadcopter)
+[PDF, ](https://giuseppesilano.net/publications/rosChapter19.pdf)
 [Code, ](https://github.com/gsilano/CrazyS)
 [Video](https://youtu.be/qsrYCUSQ-S4)
 
@@ -85,7 +85,7 @@ you can read about how the researchers at MIT are using the Crazyflie 2.0 to stu
 [Video](https://www.youtube.com/watch?v=XcZh4_J4yGM)
 
 * **"CrazyS: a software-in-the-loop platform for the Crazyflie 2.0 nano-quadcopter"**, Giuseppe Silano, Emanuele Aucone and Luigi Iannelli, in Proc. 2018 26th Mediterranean Conference on Control and Automation (MED), Zadar, Croatia, 2018.
-[PDF, ](http://home.ing.unisannio.it/iannelli/papers/pdf/2018_MED_CrazyS.pdf)
+[PDF, ](https://giuseppesilano.net/publications/med18.pdf)
 [Code, ](https://github.com/gsilano/CrazyS)
 [Video](https://youtu.be/pda-tuULewM)
 
