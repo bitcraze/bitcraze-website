@@ -33,6 +33,7 @@ function downloadGithubRepoDoc() {
 
 echo "Downloading repository documentation..."
 mkdir -p ${dstDir}
+mkdir -p ${tmp}
 downloadGithubRepoDoc "crazyflie-firmware"
 downloadGithubRepoDoc "crazyflie2-nrf-firmware"
 downloadGithubRepoDoc "crazyflie-lib-python"
