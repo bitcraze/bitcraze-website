@@ -11,3 +11,5 @@ src/fonts/bootstrap/
 src/javascripts/bootstrap-sprockets.js
 src/javascripts/bootstrap.js
 src/javascripts/bootstrap.min.js
+src/_data/docs_menu.yml
+src/docs/*

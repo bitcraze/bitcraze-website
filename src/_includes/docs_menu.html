@@ -1,0 +1,17 @@
+<ul>
+    {% for top_menu in site.data.docs_menu[page.ns] %}
+    {% if top_menu.subs %}
+    {% assign p = top_menu.subs | where:"page_id",page.page_id | first %}
+    {% endif %}
+
+    <li>
+        {% if top_menu.subs %}
+        <span>{{top_menu.title}}</span>
+        {% include docs_menu_ul.html subs=top_menu.subs %}
+        {% else %}
+        {% assign p = site.pages | where:"page_id",top_menu.page_id | first %}
+        <a title="{{p.title}}" href="{{p.url}}">{{p.title}}</a>
+        {% endif %}
+    </li>
+    {% endfor %}
+</ul>

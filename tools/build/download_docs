@@ -1,0 +1,39 @@
+#!/usr/bin/env bash
+set -e
+
+scriptDir=$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )
+dstDir="${scriptDir}/../../src/docs"
+dataDir="${scriptDir}/../../src/_data"
+tmp="${scriptDir}/../../tmp"
+downloadFile="${tmp}/download.zip"
+
+function downloadGithubRepoDoc() {
+  local name=$1
+  local repoDir=${dstDir}/${name}
+  local ns="repo-${name}"
+
+  if [ -d "${repoDir}" ]; then
+      echo "Seems as repo '${name}' is already downloaded - skipping"
+  else
+      echo "Downloading repo ${name}"
+      uri="https://github.com/bitcraze/${name}/archive/master.zip"
+      curl -L -o ${downloadFile} ${uri}
+      unzip -q -d ${tmp} ${downloadFile}
+      rm ${downloadFile}
+      mv ${tmp}/${name}-master/docs ${repoDir}
+      rm -r ${tmp}/${name}-master
+
+      # Massage data to move it into a namespace and genereate menus
+      echo "Updating docs source files"
+      ${scriptDir}/../docs/format_docs ${dstDir}/${name} ${repoDir}/_data/menu.yml ${ns} ${name} ${repoDir}/_data/menu.yml ${dataDir}/docs_menu.yml
+  fi
+}
+
+
+
+echo "Downloading repository documentation..."
+mkdir -p ${dstDir}
+downloadGithubRepoDoc "crazyflie-firmware"
+downloadGithubRepoDoc "crazyflie2-nrf-firmware"
+downloadGithubRepoDoc "crazyflie-lib-python"
+downloadGithubRepoDoc "crazyflie-clients-python"

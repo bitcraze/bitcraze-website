@@ -1,0 +1,30 @@
+{% assign subs = include.subs %}
+
+<ul class="">
+    {% for sub in subs %}
+    {% assign is_active = false %}
+
+    {% if sub.page_id %}
+    {% assign p = site.pages | where:"page_id",sub.page_id | first %}
+    {% assign m_url = p.url %}
+
+    {% if sub.title %}
+    {% assign m_title = sub.title %}
+    {% else %}
+    {% assign m_title = p.title %}
+    {% endif %}
+
+    {% if sub.page_id == page.page_id %}
+    {% assign is_active = true %}
+    {% endif %}
+    {% else %}
+    {% assign m_title = sub.title %}
+    {% assign m_url = sub.url %}
+    {% endif %}
+
+    <li class="{% if is_active %}active{% endif %}">
+        <a title="{{m_title}}"
+           href="{{m_url}}">{{m_title}}</a>
+    </li>
+    {% endfor %}
+</ul>

@@ -1,0 +1,24 @@
+---
+layout: page-base
+---
+
+<div class="container-fluid content-header-fluid">
+    <header class="row content-header">
+        <div class="col-md-12">
+            <h1 class="page-title">Documentation for {{page.repo_name}}</h1>
+        </div>
+    </header>
+</div>
+<div class="container-fluid" >
+    <section id="primary" class="row content-area" >
+        <div class="col-md-4 docs_menu">
+            <nav class="hidden-print">
+                {% include docs_menu.html repo_name=page.repo_name %}
+            </nav>
+        </div>
+        <div class="col-md-8" data-searchable="true">
+            <h1>{{page.title}}</h1>
+            {{ content }}
+        </div>
+    </section>
+</div>
