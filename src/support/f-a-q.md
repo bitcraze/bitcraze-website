@@ -88,7 +88,7 @@ We have been using camera systems like the Microsoft Kinect to achieve autonomou
 {% endcollapse_section %}
 
 {% collapse_section Is it possible to control a swarm of Crazyflies? %}
-Yes, it is possible to control multiple Crazyflies simultaneously. It can be done with the Loco Positioning system and our [python library](https://github.com/bitcraze/crazyflie-lib-python/blob/master/examples/swarmSequence.py) or using [ROS and the ROS driver.](http://wiki.ros.org/crazyflie) For example this video was made using the ROS driver:
+Yes, it is possible to control multiple Crazyflies simultaneously. It can be done with the Loco Positioning system and our [python library](https://github.com/bitcraze/crazyflie-lib-python/blob/master/examples/swarm/swarmSequence.py) or using [ROS and the ROS driver.](http://wiki.ros.org/crazyflie) For example this video was made using the ROS driver:
 [Crazyflie 2.0 Swarm](https://www.youtube.com/watch?v=ezTayb76x9U)
 {% endcollapse_section %}
 

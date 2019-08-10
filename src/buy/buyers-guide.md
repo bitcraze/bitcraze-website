@@ -90,7 +90,7 @@ The LED-ring deck can be used to display light in any color and the Buzzer deck
 can make sounds, useful for giving the user feedback. For automated implementation
 it can be very handy to indicate when the system is ready, error states or similar.
 
-**What to buy:** [The Artist bundle](https://store.bitcraze.io/products/the-estetik-bundle),
+**What to buy:** [The Artist bundle](https://store.bitcraze.io/products/the-estetik-bundle-1),
 [the Buzzer deck](https://store.bitcraze.io/products/buzzer-deck)
 
 ## I want a bigger Crazyflie 2.X

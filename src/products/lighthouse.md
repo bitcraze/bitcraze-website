@@ -7,7 +7,7 @@ page_id: product-lighthouse-deck
 
 {% include early-access-info.html %}
 
-{% buy_online https://store.bitcraze.io/collections/positioning/products/lighthouse-positioning-deck %}
+{% buy_online https://store.bitcraze.io/products/lighthouse-positioning-deck %}
 
 {% product_img Lighhouse positioning deck; medium;
 /images/lighthouse-deck/lighthouse_deck_585px.jpg
