@@ -24,7 +24,7 @@
 
     <li class="{% if is_active %}active{% endif %}">
         <a title="{{m_title}}"
-           href="{{m_url}}">{{m_title}}</a>
+           href="{{m_url | remove: '.html' | append: '/'}}">{{m_title}}</a>
     </li>
     {% endfor %}
 </ul>

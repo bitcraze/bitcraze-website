@@ -4,14 +4,16 @@
 
 require 'yaml'
 
-def add_name_space_to_front_matter_in_docs(docs_dir, ns, repo_name)
+def update_docs_content(docs_dir, ns, repo_name)
   Dir.glob(File.join(docs_dir, '*.md')).each do | file|
-    update_front_matter_data(file, ns, repo_name)
+    doc = IO.read(file)
+    doc_fm = update_front_matter_data(doc, ns, repo_name)
+    result = update_urls(doc_fm, repo_name)
+    IO.write(file, result)
   end
 end
 
-def update_front_matter_data(file, ns, repo_name)
-  doc = IO.read(file)
+def update_front_matter_data(doc, ns, repo_name)
   data = YAML.load(doc)
   data['page_id'] = ns + data['page_id']
   data['layout'] = 'page-docs'
@@ -20,9 +22,23 @@ def update_front_matter_data(file, ns, repo_name)
 
   start_of_front_matter = doc.index('---')
   end_of_front_matter = doc.index('---', start_of_front_matter + 3)
-  result = data.to_yaml + doc[end_of_front_matter..-1]
+  data.to_yaml + doc[end_of_front_matter..-1]
+end
 
-  IO.write(file, result)
+def update_urls(doc, repo_name)
+  # The URLs in the repo docs are designed to work with the local jekyll server,
+  # massage them to fit the public web structure.
+  # Links have the following format:
+  # [Some text](/the/url/)
+  #
+  # Doc url ==> modified url
+  # ------------------------
+  # #page-ref ==> #page-ref
+  # /my-url/ ==> /docs/repo-name/my-url/
+  # https://www.bitcraze.io/fancy_page/ ==> /fancy_page/
+  # https://other.domain/fancy_page/ ==> https://other.domain/fancy_page/
+
+  doc.gsub(/(\[[^\[]*\])\(\s*(\/[^\)]*)\)/, '\1(/docs/' + repo_name + '\2)').gsub(/(\[[^\[]*\])\(\s*https:\/\/www.bitcraze.io(\/[^\)]*\))/, '\1\2')
 end
 
 def add_name_space_to_node_list(nodes, ns)
@@ -60,6 +76,5 @@ repo_name = ARGV[3]
 docs_menu_file = ARGV[4]
 shared_docs_menus_file = ARGV[5]
 
-add_name_space_to_front_matter_in_docs(docs_dir, ns, repo_name)
+update_docs_content(docs_dir, ns, repo_name)
 add_to_docs_menus(docs_menu_file, shared_docs_menus_file, ns)
-

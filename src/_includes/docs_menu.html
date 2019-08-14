@@ -10,7 +10,7 @@
         {% include docs_menu_ul.html subs=top_menu.subs %}
         {% else %}
         {% assign p = site.pages | where:"page_id",top_menu.page_id | first %}
-        <a title="{{p.title}}" href="{{p.url}}">{{p.title}}</a>
+        <a title="{{p.title}}" href="{{p.url | remove: '.html' | append: '/'}}">{{p.title}}</a>
         {% endif %}
     </li>
     {% endfor %}
