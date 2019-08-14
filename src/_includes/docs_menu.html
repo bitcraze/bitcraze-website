@@ -1,16 +1,26 @@
 <ul>
     {% for top_menu in site.data.docs_menu[page.ns] %}
-    {% if top_menu.subs %}
-    {% assign p = top_menu.subs | where:"page_id",page.page_id | first %}
-    {% endif %}
+        {% assign is_active = false %}
+
+        {% if top_menu.subs %}
+            {% assign p = top_menu.subs | where:"page_id",page.page_id | first %}
+
+            {% if p.page_id != nil %}
+            {% assign is_active = true %}
+            {% endif %}
+        {% else %}
+            {% if top_menu.page_id == page.page_id %}
+                {% assign is_active = true %}
+            {% endif %}
+        {% endif %}
 
     <li>
         {% if top_menu.subs %}
         <span>{{top_menu.title}}</span>
-        {% include docs_menu_ul.html subs=top_menu.subs %}
+            {% include docs_menu_ul.html subs=top_menu.subs %}
         {% else %}
-        {% assign p = site.pages | where:"page_id",top_menu.page_id | first %}
-        <a title="{{p.title}}" href="{{p.url | remove: '.html' | append: '/'}}">{{p.title}}</a>
+            {% assign p = site.pages | where:"page_id",top_menu.page_id | first %}
+        <a title="{{p.title}}" href="{{p.url | remove: '.html' | append: '/' | replace: '//', '/'}}">{{p.title}}</a>
         {% endif %}
     </li>
     {% endfor %}
