@@ -9,36 +9,39 @@ downloadFile="${tmp}/download.zip"
 
 function downloadGithubRepoDoc() {
   local name=$1
-  local repoDir=${dstDir}/${name}
+  local tag=$2
+  local repoRootDir=${dstDir}/${name}
+  local repoDir=${repoRootDir}/${tag}
   local ns="repo-${name}"
+  local unzipName=${tmp}/${name}-${tag}
 
   if [ -d "${repoDir}" ]; then
       echo "Seems as repo '${name}' is already downloaded - skipping"
   else
+      mkdir -p ${tmp}
+      mkdir -p ${repoRootDir}
+
       echo "Downloading repo ${name}"
-      uri="https://github.com/bitcraze/${name}/archive/master.zip"
+      uri="https://github.com/bitcraze/${name}/archive/${tag}.zip"
       curl -L -o ${downloadFile} ${uri}
       unzip -q -d ${tmp} ${downloadFile}
       rm ${downloadFile}
-      mv ${tmp}/${name}-master/docs ${repoDir}
-      rm -r ${tmp}/${name}-master
+      mv ${unzipName}/docs ${repoDir}
+      rm -r ${unzipName}
 
       # Massage data to move it into a namespace and genereate menus
       echo "Updating docs source files"
-      ${scriptDir}/../docs/format_docs ${dstDir}/${name} ${repoDir}/_data/menu.yml ${ns} ${name} ${repoDir}/_data/menu.yml ${dataDir}/docs_menu.yml
+      ${scriptDir}/../docs/format_docs ${repoDir} ${ns} ${name} ${repoDir}/_data/menu.yml ${dataDir}/docs_menu.yml
   fi
 }
 
 
 
 echo "Downloading repository documentation..."
-mkdir -p ${dstDir}
-mkdir -p ${tmp}
 
-
-downloadGithubRepoDoc "crazyflie-firmware"
-downloadGithubRepoDoc "crazyflie2-nrf-firmware"
-downloadGithubRepoDoc "crazyflie-lib-python"
-downloadGithubRepoDoc "crazyflie-clients-python"
-downloadGithubRepoDoc "lps-node-firmware"
-downloadGithubRepoDoc "crazyradio-firmware"
+downloadGithubRepoDoc "crazyflie-firmware" "master"
+downloadGithubRepoDoc "crazyflie2-nrf-firmware" "master"
+downloadGithubRepoDoc "crazyflie-lib-python" "master"
+downloadGithubRepoDoc "crazyflie-clients-python" "master"
+downloadGithubRepoDoc "lps-node-firmware" "master"
+downloadGithubRepoDoc "crazyradio-firmware" "master"

@@ -70,11 +70,10 @@ end
 
 
 docs_dir = ARGV[0]
-menu_file = ARGV[1]
-ns = ARGV[2]
-repo_name = ARGV[3]
-docs_menu_file = ARGV[4]
-shared_docs_menus_file = ARGV[5]
+ns = ARGV[1]
+repo_name = ARGV[2]
+docs_menu_file = ARGV[3]
+shared_docs_menus_file = ARGV[4]
 
 update_docs_content(docs_dir, ns, repo_name)
 add_to_docs_menus(docs_menu_file, shared_docs_menus_file, ns)
