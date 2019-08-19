@@ -15,9 +15,9 @@ self organized and we do not have any managers. In our universe the success of
 the team is more important than personal gain, we do not blame - we help. We are
 continuously building the company we want to work in, and base it on the idea that
 no one in the company can tell anyone else what to do. This might sound a bit
-unusual but the truth is that we have a way of working (some might call it a process)   
-that is pretty elaborate and detailed and that solves our daily problems, but never hinders us.
-After all, the reality is more important than the map. 
+unusual but the truth is that we have a way of working (some might call it a 
+process) that is pretty elaborate and detailed and that solves our daily 
+problems, but never hinders us. After all, the reality is more important than the plan. 
 
 ## What are we looking for?
 Since we do not have any roles in the traditional sense, we have chosen to not
