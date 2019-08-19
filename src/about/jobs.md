@@ -15,9 +15,9 @@ self organized and we do not have any managers. In our universe the success of
 the team is more important than personal gain, we do not blame - we help. We are
 continuously building the company we want to work in, and base it on the idea that
 no one in the company can tell anyone else what to do. This might sound a bit
-unusual but the truth is that we have a way of working (some might call it a process)   
-that is pretty elaborate and detailed and that solves our daily problems, but never hinders us.
-After all, the reality is more important than the map. 
+unusual but the truth is that we have a way of working (some might call it a 
+process) that is pretty elaborate and detailed and that solves our daily 
+problems, but never hinders us. After all, the reality is more important than the plan. 
 
 ## What are we looking for?
 Since we do not have any roles in the traditional sense, we have chosen to not
@@ -26,6 +26,35 @@ the tasks we work with on a daily basis. If you find the things we do interestin
 and feel that you could add value to the company and the community, Bitcraze might be for you. 
 Remember that there are only five of us at the moment, on any given week we work
 on a multitude of different areas, and so would you. 
+
+We are looking for people that share our interest for techy stuff but that also 
+adds new areas they are passionate about. Our core competences right now are 
+mainly in software and hardware development, while areas such as marketing, community, 
+production, logistics and finance could be strengthened.   
+
+We have tried to compile a list of areas we work with on a daily basis to give
+you a feel for what's going on in the company. You can find it further down on 
+this page.   
+
+## Location
+We are located in Malmö, Sweden. Even though there are a lot of really good 
+on-line collaboration tools, we prefer human contact and we are not interested in remote
+work solutions. You will have to be prepared to move to Malmö.
+
+Unfortunately we do not have the capacity to handle applications from outside
+the EU due to visa and work permit administration.
+
+## Language
+We use English in our everyday work.
+
+## Contact
+If you think you would fit in at Bitcraze and would add value to the company
+and our projects, please drop us an email at jobs@bitcraze.io and tell us who 
+you are.
+
+---
+
+## Areas we work with 
 
 #### Technical support
 Answer questions and help members of the community through emails, the forum, 
@@ -63,9 +92,9 @@ How do we fit into the rest of the world? Why do we do what we do? How do want
 to make money in the future? 
 
 #### Admin and finance
-Handling receipts, salaries, rent, book keeping, audits and so on for our 
-Swedish as well as our Hong Kong company. Keeping track of sales, costs
-and money i general to make sure we are on top of the situation.
+Handling receipts, salaries, rent, book keeping, audits and so on for our company. 
+Keeping track of sales, costs and money i general to make sure we are on top of 
+the situation.
 
 #### Community and marketing
 Talk to the community, make videos to show what we do, write a blog post, 
@@ -76,17 +105,3 @@ and show our products and meet people.
 We have a few collaborations with external partners where we design custom
 solutions, hardware and software. 
   
-## Location
-We are located in Malmö, Sweden. Even though there are a lot of really good 
-on-line collaboration tools, we prefer human contact and we are not interested in remote
-work solutions. You will have to be prepared to move to Malmö.
-We unfortunately do not have the capacity to handle applications from outside
-the EU due to visa and work permit administration.
-
-## Language
-We use English in our everyday work.
-
-## Contact
-If you think you would fit in at Bitcraze and would add value to the company
-and our projects, please drop us an email at jobs@bitcraze.io and tell us who 
-you are.
