@@ -11,7 +11,7 @@ Welcome to the starting directory page of the all the documentation related to w
  * The explaination of the different positioning methods we use.
 
 
-[![](/images/documentation/overview/overview_crazyflie.png){:width="300px"}](/docs/overview_crazyflie/) &nbsp;![](/images/documentation/overview/overview_clients.png){:width="300px"} &nbsp;![](/images/documentation/overview/overview_positioning.png){:width="300px"}
+[![](/images/documentation/overview/overview_crazyflie.png){:width="300px"}](/docs/overview_crazyflie/) &nbsp;[![](/images/documentation/overview/overview_clients.png){:width="300px"}](/docs/overview_clients/) &nbsp; [![](/images/documentation/overview/overview_positioning.png){:width="300px"}](/docs/overview_positioning/)
 
 
 
