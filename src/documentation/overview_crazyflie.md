@@ -5,6 +5,6 @@ permalink: /docs/overview_crazyflie/
 page_id: overview_crazyflie
 ---
 
- - [Component Explanation](https://wiki.bitcraze.io/projects:crazyflie2:userguide:index)
+ - [Component Explanation](/docs/cf2_component_explanation/)
  - [Hardware Architecture](/docs/cf2_architecture/)
- - [Expansion Boards](https://wiki.bitcraze.io/projects:crazyflie2:expansionboards:index)
+ - [Expansion Boards](/docs/cf2_expansiondecks/)
