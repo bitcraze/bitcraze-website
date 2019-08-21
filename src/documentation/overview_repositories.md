@@ -1,0 +1,44 @@
+---
+layout: page
+title: Overview Repositories
+permalink: /docs/overview_repositories/
+page_id: overview_repositories
+---
+[Documentation Starting Page](/docs/)
+
+
+Python
+-----------------------
+
+ |Category| Github repository | Documentation | Explanation |
+|---| -----------------  |--------------| ----------------|
+|![pc with crazyflie radio PA](/images/documentation/overview/pc.png){:width="50px"}| [crazyflie-clients-python](https://github.com/bitcraze/crazyflie-clients-python) | [Docs](/docs/crazyflie-clients-python/master/) | This github repository contains the source code for the python-based client for on the PC. This repository relies on the [crazyflie-lib-python](https://github.com/bitcraze/crazyflie-lib-python). The documentation also includes several user guides. |
+|![pc with crazyflie radio PA](/images/documentation/overview/pc.png){:width="50px"}|  [crazyflie-lib-python](https://github.com/bitcraze/crazyflie-lib-python) | [Docs](/docs/crazyflie-lib-python/master/) | This github repository contains the source code for the python library client to control the Crazyflie from the PC. The documentation also includes the instructions to handle the USB access rights for the [Crazyradio PA](https://store.bitcraze.io/collections/accessories/products/crazyradio-pa)|
+|![Mobile Devices](/images/documentation/overview/phone.png){:width="50px"}| [crazyflie-android-client](https://github.com/bitcraze/crazyflie-android-client) | [Wiki](https://wiki.bitcraze.io/doc:crazyflie:client:cfandroid:index)| The repository contains the source code of the [Android client app](https://play.google.com/store/apps/details?id=se.bitcraze.crazyfliecontrol2). The documentation also include instructions on how to use it.| 
+|![Mobile Devices](/images/documentation/overview/phone.png){:width="50px"}| [crazyflie-ios-client](https://github.com/bitcraze/crazyflie-ios-client) | [Wiki](https://wiki.bitcraze.io/doc:crazyflie:client:cfios:index)| The repository contains the source code of the [IOS client app](https://apps.apple.com/us/app/crazyflie-2-0/id946151480). The documentation also include instructions on how to use it.|
+|![LPS system](/images/documentation/overview/lpssystem.png){:width="100px"}|[lps-tools](https://github.com/bitcraze/lps-tools ) | [Docs](/docs/lps-node-firmware/master/) | This github repository contains the source code for the configuration of the loco positioning firmware. The documentation of the lps-node-firmware contains the instructions|
+
+
+C-based Firmware
+-----------------------
+
+|Category| Github repository | Documentation | Explanation |
+|----| -----------------  |--------------| ----------------|
+|![crazyflie](/images/documentation/overview/crazyflie.png){:width="100px"}| [crazyflie-firmware](https://github.com/bitcraze/crazyflie-firmware) | [Docs](/docs/crazyflie-firmware/master/) | The firmware that handles the main autopilot on the STM32F4. The documentation also explains about the CTRP protocol between the PC and mobile clients and the Crazyflie. |
+|![crazyflie](/images/documentation/overview/crazyflie.png){:width="100px"}| [crazyflie2-nrf-firmware](https://github.com/bitcraze/crazyflie2-nrf-firmware)| [Docs](/docs/crazyflie2-nrf-firmware/master/) |  The firmware that runs on the NRF51, which handles the radio and power management. The documentation also explains about the ST link protocol for communication between the STM32 and the NRF51. |
+|![Crazyradio](/images/documentation/overview/crazyradiopa.png){:width="50px"}|  [crazyradio-firmware](https://github.com/bitcraze/crazyradio-firmware) | [Docs](/docs/crazyradio-firmware/master/) | This github repository contains the source code for the firmware of the [Crazyradio PA](https://store.bitcraze.io/collections/accessories/products/crazyradio-pa).|
+![LPS system](/images/documentation/overview/lpssystem.png){:width="100px"}| [lps-node-firmware](https://github.com/bitcraze/lps-node-firmware) | [Docs](/docs/lps-node-firmware/master/) | This github repository contains the source code for the [loco positioning node](https://store.bitcraze.io/collections/positioning/products/loco-positioning-node). The documentation also includes several user guides how to set the system up and also explains the interaction with the [LPS expansion deck](https://store.bitcraze.io/collections/positioning/products/loco-positioning-deck) of the Crazyflie. |
+|![lighthouse system](/images/documentation/overview/lighthouse.png){:width="100px"}|[lighthouse-fpga](https://github.com/bitcraze/lighthouse-fpga ) | [Wiki](https://wiki.bitcraze.io/doc:lighthouse:index) | This repository contains the source code for FPGA for calculating position with the [lighthouse deck](https://store.bitcraze.io/collections/positioning/products/lighthouse-positioning-deck). The documentation also contain the documentation of handling the bootloader of the deck.|
+
+
+
+Bootloaders
+-----------------------
+
+
+ |Category| Github repository | Documentation | Explanation |
+|---| -----------------  |--------------| ----------------|
+|![crazyflie](/images/documentation/overview/crazyflie.png){:width="100px"}| [crazyflie2-stm-bootloader](https://github.com/bitcraze/crazyflie2-stm-bootloader)| [Wiki](https://wiki.bitcraze.io/doc:crazyflie:bootloader:index) |  The bootloader of the STM32. |
+|![crazyflie](/images/documentation/overview/crazyflie.png){:width="100px"}| [crazyflie2-nrf-bootloader](https://github.com/bitcraze/crazyflie2-nrf-bootloader)| [Wiki](https://wiki.bitcraze.io/doc:crazyflie:bootloader:index) |  The bootloader of the NRF51. |
+|![lps system](/images/documentation/overview/lpssystem.png){:width="100px"}| [lps-node-bootloader](https://github.com/bitcraze/lps-node-bootloader) |  | This repository contains the source code for the bootloader of the [lps node](https://store.bitcraze.io/collections/positioning/products/loco-positioning-node). |
+|![lighthouse system](/images/documentation/overview/lighthouse.png){:width="100px"}| [lighthouse-bootloader](https://github.com/bitcraze/lighthouse-fpga ) | [Wiki](https://wiki.bitcraze.io/doc:lighthouse:index) | This repository contains the source code for the bootloader of the [lighthouse deck](https://store.bitcraze.io/collections/positioning/products/lighthouse-positioning-deck). |
