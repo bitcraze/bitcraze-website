@@ -10,18 +10,19 @@ downloadFile="${tmp}/download.zip"
 function downloadGithubRepoDoc() {
   local name=$1
   local tag=$2
+  local nameTag=${name}/${tag}
   local repoRootDir=${dstDir}/${name}
-  local repoDir=${repoRootDir}/${tag}
+  local repoDir=${dstDir}/${nameTag}
   local ns="repo-${name}"
   local unzipName=${tmp}/${name}-${tag}
 
   if [ -d "${repoDir}" ]; then
-      echo "Seems as repo '${name}' is already downloaded - skipping"
+      echo "Seems as repo '${nameTag}' is already downloaded - skipping"
   else
       mkdir -p ${tmp}
       mkdir -p ${repoRootDir}
 
-      echo "Downloading repo ${name}"
+      echo "Downloading repo ${nameTag}"
       uri="https://github.com/bitcraze/${name}/archive/${tag}.zip"
       curl -L -o ${downloadFile} ${uri}
       unzip -q -d ${tmp} ${downloadFile}
@@ -31,7 +32,7 @@ function downloadGithubRepoDoc() {
 
       # Massage data to move it into a namespace and genereate menus
       echo "Updating docs source files"
-      ${scriptDir}/../docs/format_docs ${repoDir} ${ns} ${name} ${repoDir}/_data/menu.yml ${dataDir}/docs_menu.yml
+      ${scriptDir}/../docs/format_docs ${repoDir} ${ns} ${name} ${tag} ${repoDir}/_data/menu.yml ${dataDir}/docs_menu.yml
   fi
 }
 
