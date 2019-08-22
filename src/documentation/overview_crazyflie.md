@@ -15,8 +15,8 @@ The Crazyflie consists of many hardware components and LED's that have all their
 The two most important components of the Crazyflie are the microprocessors: the **STM32F4** handles the main Crazyflie firmware with all the low-level and high-level controls and the **NRF51822** handles all the radio communication and power management. 
 
  - For more detail about the hardware architecture, please check [this page](/docs/cf2_architecture/).
- - To learn more about the Crazyflie firmware on the STM32F4, please check [this page](/docs/crazyflie-firmware/master/).
- - To learn more about the firmware that runs on the NRF51822, please check [this page](/docs/crazyflie2-nrf-firmware/master/).
+ - To learn more about the Crazyflie firmware on the STM32F4, please check [this page](/docs/crazyflie-firmware/master/index/).
+ - To learn more about the firmware that runs on the NRF51822, please check [this page](/docs/crazyflie2-nrf-firmware/master/index/).
 
 
 Expension decks

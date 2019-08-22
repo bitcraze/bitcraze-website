@@ -66,24 +66,24 @@ the expansion board and the Crazyflie 2.0.
 
 All expansion boards display a logo describing the correct orientation:
 
-![](/images/documentation/overview/orientation-symbols.png){:width="800px"}
+![orientation symbols, overview](/images/documentation/overview/orientation-symbols.png){:width="800px"}
 
 ### One expansion board on top
 
-![](/images/documentation/overview/exp_schetch_1top.png){:width="800px"}
+![One expansion deck on top](/images/documentation/overview/exp_schetch_1top.png){:width="800px"}
 
 ### One expansion board on top, one on bottom
 
-![](/images/documentation/overview/exp_squetch_1top1bottom.png){:width="800px"}
+![One expansion deck on top and one under](/images/documentation/overview/exp_squetch_1top1bottom.png){:width="800px"}
 
 ### Two expansion board on top
 
-![](/images/documentation/overview/exp_squetch_2top.png){:width="800px"}
+![Two expancions decks on top](/images/documentation/overview/exp_squetch_2top.png){:width="800px"}
 
 Expansion port pinout
 ---------------------
 
-![](/images/documentation/overview/connector_multiplexing2.png){:width="900px"}
+![Expansion port pinout](/images/documentation/overview/connector_multiplexing2.png){:width="900px"}
 
 -   The Crazyflie 2.0 is a 3.0V system, meaning a high output will be
     3.0V but still compatible with a 3.3V system.

@@ -5,11 +5,9 @@ permalink: /docs/cf2_component_explanation/
 page_id: cf2_component_explanation
 ---
 
+# Top
 
-![](/images/documentation/overview/legend_top.png){:width="400px"}
-![](/images/documentation/overview/legend_bottom.png){:width="400px"}
-
-**Top** 
+![Crazyflie top](/images/documentation/overview/legend_top.png){:width="400px"}
 
 1.  **LED 1**: Red/green LED used for heartbeat and low-battery
     indication
@@ -32,7 +30,9 @@ page_id: cf2_component_explanation
     something to the platform. The holes are plated, can be grounded by
     soldering a bridge and are 2mm in diameter (with plating)
 
-**Bottom**
+# Bottom
+
+![Crazydlie bottom](/images/documentation/overview/legend_bottom.png){:width="400px"}
 
 1.  **M1 connector**: Motor 1 connector
 2.  **M2 connector**: Motor 2 connector

@@ -25,7 +25,7 @@ Crazyflie 2.X is architectured around 2 microcontrollers:
 
 This page aims at explaining a bit how things are working together.
 
-![](/images/documentation/overview/mcu_architecture1.png)
+![MCU architechture](/images/documentation/overview/mcu_architecture1.png)
 
 The nRF51822
 ------------
@@ -55,7 +55,7 @@ the ON/OFF button for a long time (ie. this is used to start the
 bootloader). It is also possible to wake Crazyflie 2 from one pin of the
 expantion port, which allows wake-up by an external source.
 
-Information about the firmware of the NRF51 can be found [here](/docs/crazyflie2-nrf-firmware/master/)
+Information about the firmware of the NRF51 can be found [here](/docs/crazyflie2-nrf-firmware/master/index/)
 
 The STM32F405
 -------------
@@ -71,13 +71,13 @@ last words...). This is overkill for just the flight controller but it
 allows for more computationally intensive algorithms, for example sensor
 fusion between inertial sensors and the GPS data.
 
-Information about the syslink protocol between the STM32 and the NRF51 can be found [here](/docs/crazyflie-firmware/master/)
+Information about the syslink protocol between the STM32 and the NRF51 can be found [here](/docs/crazyflie-firmware/master/index/)
 
 Inter-MCU communication
 -----------------------
 
 The communication between the two CPUs is handled by the [syslink
-protocol](/doc/crazyflie/syslink/index). It is a simple packet-based
+protocol](/docs/crazyflie-firmware/master/index/). It is a simple packet-based
 protocol we made to have an extensible communication scheme.
 
 Syslink provides messages for carrying all required communication
@@ -90,4 +90,4 @@ Example of syslink message are:
 -   Raw radio packets, to be sent and received
 -   Power management measurement
 
-Information about the syslink protocol between the STM32 and the NRF51 can be found [here](/docs/crazyflie2-nrf-firmware/master/)
+Information about the syslink protocol between the STM32 and the NRF51 can be found [here](/docs/crazyflie2-nrf-firmware/master/index/)
