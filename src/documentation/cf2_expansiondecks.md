@@ -111,14 +111,14 @@ Deck info
 
 |  VID   | PID  |  ID            |  Name              |   Weight   |Consumption                 | Mount location |  Details page    |                               |
 |  ------| ------ |----------------|-------------------| --------| ----------------------------| ----------------| ------------------------------------------------------| 
- | 0xBC |  0x01  | bcLedRing     |  LED-ring     |        3.3g   |  0 - 700mA      |              Below        |    [link](/projects/crazyflie2/expansionboards/ledring) | 
- | 0xBC|   0x02 |  bcQi          |  Qi charger        |   5g   |    N/A  |                        Below      |      [link](/projects/crazyflie2/expansionboards/qi)      | 
-|  0xBC  | 0x04 |  bcBuzzer   |     Buzzer          |     1.8g   |  10mA          |               Below/Above   |   [link](/projects/crazyflie2/expansionboards/buzzer)  | 
- | 0xBC |  0x05 |  bcBigQuad    |   Big quad       |      3.8g   |  N/A              |            Below/Above  |    [link](/projects/crazyflie2/expansionboards/bigquad)  | 
- | 0xBC  | 0x06  | bcDWM          | UWB LPS       |       3.3g    | 160mA               |         Below/Above  |    [link](/projects/lps/deck)       |
-|  0xBC|   0x08  | bcUSD  |         Micro-SD      |       1.7g   |  \~30mA                      | Below/Above   |   [link](/projects/crazyflie2/expansionboards/microsd) |
- | 0xBC |  0x09  | bcZRanger  |     Z-Ranger        |     1.3g  |   \~15mA   |                    Below   |         [link](/projects/crazyflie2/expansionboards/zranger) |
- | 0xBC |  0x0A  | bcFlow   |       Flow       |          1.6g  |   \~40mA    |                   Below  |          [link](/projects/crazyflie2/expansionboards/flow) |
+ | 0xBC |  0x01  | bcLedRing     |  LED-ring     |        3.3g   |  0 - 700mA      |              Below        |    [link](https://store.bitcraze.io/products/led-ring-deck) | 
+ | 0xBC|   0x02 |  bcQi          |  Qi charger        |   5g   |    N/A  |                        Below      |      [link](https://store.bitcraze.io/products/qi-1-2-wireless-charging-deck)      | 
+|  0xBC  | 0x04 |  bcBuzzer   |     Buzzer          |     1.8g   |  10mA          |               Below/Above   |   [link](https://store.bitcraze.io/products/buzzer-deck)  | 
+ | 0xBC |  0x05 |  bcBigQuad    |   Big quad       |      3.8g   |  N/A              |            Below/Above  |    [link](https://store.bitcraze.io/products/bigquad-deck)  | 
+ | 0xBC  | 0x06  | bcDWM          | UWB LPS       |       3.3g    | 160mA               |         Below/Above  |    [link](https://store.bitcraze.io/products/loco-positioning-deck)       |
+|  0xBC|   0x08  | bcUSD  |         Micro-SD      |       1.7g   |  \~30mA                      | Below/Above   |   [link](https://store.bitcraze.io/products/sd-card-deck) |
+ | 0xBC |  0x09  | bcZRanger  |     Z-Ranger        |     1.3g  |   \~15mA   |                    Below   |         [link](https://store.bitcraze.io/products/z-ranger-deck-v2) |
+ | 0xBC |  0x0A  | bcFlow   |       Flow       |          1.6g  |   \~40mA    |                   Below  |          [link](https://store.bitcraze.io/products/flow-deck-v2) |
  | 0xBC|   0x0B |  bcOA    |        Obstacle Avoidance |  N/A  |    \~0.3mA   |                   Above  |         N/A   |                                       |
  | 0xBC  | 0x0C |  bcMultiranger |  Multi-ranger      |   N/A    |  \~90mA (depending on mode)  | Above       |     N/A  |
 |  0xBC  | 0x0D |  bcMocap      |   Mocap marker deck |   N/A   |   0mA   |                       Above     |       N/A   |
