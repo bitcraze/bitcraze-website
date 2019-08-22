@@ -10,7 +10,7 @@ require 'html-proofer'
 
 # Add checks for our urls
 require_relative '../validate/src/url_check'
-ignored_files = [/\.\/_site\/docs\/.*/]
+ignored_files = []
 
 puts 'Checking html and internal links...'
 HTMLProofer.check_directory("./_site", options = {:check_html => true, :allow_hash_href => true, :disable_external => true, :url_ignore => [/\/category\/.*/], :file_ignore => ignored_files, :assume_extension => true}).run
