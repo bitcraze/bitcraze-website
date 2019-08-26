@@ -61,6 +61,10 @@ you can read about how the researchers at MIT are using the Crazyflie 2.0 to stu
 
 ## Publications involving Crazyflie 2.X
 ---
+
+* **Vision based control and landing of Micro aerial vehicles**, Christoffer Karlsson, Department of Engineering and Physics, Karlstad University, 2019. 
+[PDF, ](http://kau.diva-portal.org/smash/get/diva2:1332929/FULLTEXT01.pdf)
+
 * **Generalization through Simulation: Integrating Simulated and Real Data into Deep Reinforcement Learning for Vision-Based Autonomous Flight**, Katie Kang, Suneel Belkhale, Gregory Kahn, Pieter Abbeel, Sergey Levine, Berkeley AI Research (BAIR), University of California, Berkeley, 2019. 
 [PDF, ](https://arxiv.org/pdf/1902.03701.pdf)
 [Video](https://www.youtube.com/watch?v=Rb2a6lSQSas)
