@@ -46,12 +46,12 @@ Expansion decks
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;![crazyflie mount lps deck](/images/documentation/overview/cf2mount_expansiondeck.png){:width="200px"}
 {%endcolumn%}
 {%column 6%}
-
-
 The Crazyflie can be enhanced by adding [expansion decks](https://store.bitcraze.io/collections/decks), which gives the Crazyflie extra capabilities in sensing, positioning or visualization. Please read the documentation to know more about our different expansion decks and what kind of different combination you can add on your Crazyflie.
 {%endcolumn%}
 {%column 3%}
 
 - [Expansion deck explanation](/docs/cf2_expansiondecks/)
 
+{%endcolumn%}
 
+{%endrow%}
