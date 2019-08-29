@@ -109,22 +109,24 @@ running.
 Deck info
 ---------
 
-|  VID   | PID  |  ID            |  Name              |   Weight   |Consumption                 | Mount location |  Details page    |                               |
-|  ------| ------ |----------------|-------------------| --------| ----------------------------| ----------------| ------------------------------------------------------| 
- | 0xBC |  0x01  | bcLedRing     |  LED-ring     |        3.3g   |  0 - 700mA      |              Below        |    [link](https://store.bitcraze.io/products/led-ring-deck) | 
- | 0xBC|   0x02 |  bcQi          |  Qi charger        |   5g   |    N/A  |                        Below      |      [link](https://store.bitcraze.io/products/qi-1-2-wireless-charging-deck)      | 
-|  0xBC  | 0x04 |  bcBuzzer   |     Buzzer          |     1.8g   |  10mA          |               Below/Above   |   [link](https://store.bitcraze.io/products/buzzer-deck)  | 
- | 0xBC |  0x05 |  bcBigQuad    |   Big quad       |      3.8g   |  N/A              |            Below/Above  |    [link](https://store.bitcraze.io/products/bigquad-deck)  | 
- | 0xBC  | 0x06  | bcDWM          | UWB LPS       |       3.3g    | 160mA               |         Below/Above  |    [link](https://store.bitcraze.io/products/loco-positioning-deck)       |
-|  0xBC|   0x08  | bcUSD  |         Micro-SD      |       1.7g   |  \~30mA                      | Below/Above   |   [link](https://store.bitcraze.io/products/sd-card-deck) |
- | 0xBC |  0x09  | bcZRanger  |     Z-Ranger        |     1.3g  |   \~15mA   |                    Below   |         [link](https://store.bitcraze.io/products/z-ranger-deck-v2) |
- | 0xBC |  0x0A  | bcFlow   |       Flow       |          1.6g  |   \~40mA    |                   Below  |          [link](https://store.bitcraze.io/products/flow-deck-v2) |
- | 0xBC|   0x0B |  bcOA    |        Obstacle Avoidance |  N/A  |    \~0.3mA   |                   Above  |         N/A   |                                       |
- | 0xBC  | 0x0C |  bcMultiranger |  Multi-ranger      |   N/A    |  \~90mA (depending on mode)  | Above       |     N/A  |
-|  0xBC  | 0x0D |  bcMocap      |   Mocap marker deck |   N/A   |   0mA   |                       Above     |       N/A   |
-|  0xBC  | 0x0E  | bcZRanger2   |   Z-Ranger v2     |     1.3g  |   \~15mA      |                 Below    |        N/A |
-|  0xBC  | 0x0F |  bcFlow2      |   Flow v2      |        1.6g  |   \~40mA    |                   Below     |       N/A |
-|  0xBC  | 0x10 |  bcLighthouse4 |  Lighthouse-4    |     2.7g   |  \~40mA     |                  Above      |      N/A|
+| VID  | PID  | ID            | Name               | Weight | Consumption                | Mount location | Details page                                                             |
+|------|------|---------------|--------------------|--------|----------------------------| ---------------|--------------------------------------------------------------------------| 
+| 0xBC | 0x01 | bcLedRing     | LED-ring           | 3.3g   | 0 - 700mA                  | Under          | [link](https://store.bitcraze.io/products/led-ring-deck)                 | 
+| 0xBC | 0x02 | bcQi          | Qi charger         | 5g     | N/A                        | Under          | [link](https://store.bitcraze.io/products/qi-1-2-wireless-charging-deck) | 
+| 0xBC | 0x04 | bcBuzzer      | Buzzer             | 1.8g   | 10mA                       | Under/Above    | [link](https://store.bitcraze.io/products/buzzer-deck)                   | 
+| 0xBC | 0x05 | bcBigQuad     | Big quad           | 3.8g   | N/A                        | Under/Above    | [link](https://store.bitcraze.io/products/bigquad-deck)                  | 
+| 0xBC | 0x06 | bcDWM         | UWB LPS            | 3.3g   | 160mA                      | Under/Above    | [link](https://store.bitcraze.io/products/loco-positioning-deck)         |
+| 0xBC | 0x08 | bcUSD         | Micro-SD           | 1.7g   | \~30mA                     | Under/Above    | [link](https://store.bitcraze.io/products/sd-card-deck)                  |
+| 0xBC | 0x09 | bcZRanger     | Z-Ranger           | 1.3g   | \~15mA                     | Under          | [link](https://store.bitcraze.io/products/z-ranger-deck-v2)              |
+| 0xBC | 0x0A | bcFlow        | Flow               | 1.6g   | \~40mA                     | Under          | [link](https://store.bitcraze.io/products/flow-deck-v2)                  |
+| 0xBC | 0x0B | bcOA          | Obstacle Avoidance | N/A    | \~0.3mA                    | Above          | N/A                                                                      |
+| 0xBC | 0x0C | bcMultiranger | Multi-ranger       | N/A    | \~90mA (depending on mode) | Above          | N/A                                                                      |
+| 0xBC | 0x0D | bcMocap       | Mocap marker deck  | N/A    | 0mA                        | Above          | N/A                                                                      |
+| 0xBC | 0x0E | bcZRanger2    | Z-Ranger v2        | 1.3g   | \~15mA                     | Under          | N/A                                                                      |
+| 0xBC | 0x0F | bcFlow2       | Flow v2            | 1.6g   | \~40mA                     | Under          | N/A                                                                      |
+| 0xBC | 0x10 | bcLighthouse4 | Lighthouse-4       | 2.7g   | \~40mA                     | Above          | N/A                                                                      |
+| 0xBC | 0x10 | bcLighthouse4 | Lighthouse-4       | 2.7g   | \~40mA                     | Above          | N/A                                                                      |
+| 0xBC | 0x11 | bcActiveM     | Active marker deck | TBD    | \~40mA                     | Above          | N/A                                                                      |
 
 Deck pin allocation
 -------------------
@@ -142,25 +144,26 @@ two decks where the connections collide.
 
 
 
-&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;**UART1**&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;**I2C** &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; **STM32 IO** &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;**UART2**&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;**SPI** &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; **nRF51 IO** &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; **PWR**
 
-|  Name                   | RX1  |   TX1    | SDA   |  SCL    | IO1      |  IO2      | IO3     |  IO4    | TX2    | RX2    | CLK   |  MOSI   | MISO  |  NIO1      | NIO2      | PWR|
-| ----------------------- |-------| ------- |-------| ------- |---------- |--------- |---------| ------- |-------| ------- |-------| ------- |-------| ---------- |----------| ------ |          
-|  **bcLedRing**             |       |         |       |        |            |  PWM     |  PWM    |         |                 |       |         |      |             |          |  VCOM|
-|  **bcQi**                  |       |         |       |         |           |          |        |          |                 |       |         |       |  GHG       |          |  N/A|
-|  **bcGPS**                  | X    |   X      |       |         | *(PP)S*   |          | *(RST)* |        |  *(X)*  | *(X)*  |       |         |       |            | *(VBAT)* |  VCOM|
-|  **bcUSD**                  |       |         |       |         | *(CS)*    | *(CS)*  |  *(CS)*  |  CS     |                 |X      | X       |X      |            |          | VCC|
-| **bcDWM**                  | IRQ   |  RST    |       |         | CS        | *(IRQ)*  | *(RST)* |         |                 |X      | X       |X      |            |          | VCOM|
-|  **bcBigQuad**              | *(X)* |  *(X)*  | *(X)* |  *(X)*  |           | **X**    | **X**   |  *(X)*  | **X**  | **X**  | *(X)* |  *(X)*  | *(X)* |            |          |  N/A|
-|  **bcBuzzer**               |       |         |       |         |           |          |         |         | PWM    | PWM    |       |         |       |           |           |  N/A|
-|  **bcESP**                  |       |         |       |         |           |          |         |  *(X)*  | X      | X      |       |         |       |            |          |  N/A|
-|  **bcZRanger, bcZRanger2**  |       |         | X     |  X       |          | *(X)*    |         |         |        |        |       |         |      |             |         |   VCC|
-|  **bcFlow, bcFlow2**        |       |         | X     |  X       |          | *(X)*    | X       |         |        |        | X     |  X      | X     |            |          |  VCC|
-|  **bcOA**                   |       |         | X     |  X       |         |          |          |         |        |        |       |         |       |            |          |  VCC|
-|  **bcMultiranger**          |       |         | X     |  X       |          |          |         |         |        |       |        |         |      |             |          |  VCOM|
-|  **bcMocap**                |       |         |       |          |         |  *(X)*    | *(X)*   |         |        |        |      |          |       |           |           |  N/A|
-|  **bcLighthouse4**          | X     |  X      | X     |  X       |          |          |         |        |         |        |       |        |        |           |           |  N/A|
-|  -----------------------| -------| -------| -------| -------| ----------| ---------| ---------| -------| -------| -------| -------| -------| -------| ----------| ----------| ------|
+|                           | UART1 | UART1 | I2C   | I2C   | STM32 IO | STM32 IO | STM32 IO | STM32 IO| UART2 | UART2 | SPI   | SPI   | SPI   | nRF51 IO | nRF51 IO |      |
+| Name                      | RX1   |  TX1  | SDA   | SCL   | IO1      |  IO2     | IO3      | IO4     | TX2   | RX2   | CLK   | MOSI  | MISO  | NIO1     | NIO2     | PWR  |
+|---------------------------|-------|-------|-------|-------|----------|----------|----------|---------|-------|-------|-------|-------|-------|----------|----------|------|          
+| **bcLedRing**             |       |       |       |       |          |  PWM     |  PWM     |         |       |       |       |       |       |          |          | VCOM |
+| **bcQi**                  |       |       |       |       |          |          |          |         |       |       |       |       |       | GHG      |          | N/A  |
+| **bcGPS**                 | X     |  X    |       |       | *(PP)S*  |          | *(RST)*  |         | *(X)* | *(X)* |       |       |       |          | *(VBAT)* | VCOM |
+| **bcUSD**                 |       |       |       |       | *(CS)*   | *(CS)*   |  *(CS)*  | CS      |       |       |X      | X     |X      |          |          | VCC  |
+| **bcDWM**                 | IRQ   | RST   |       |       | CS       | *(IRQ)*  | *(RST)*  |         |       |       |X      | X     |X      |          |          | VCOM |
+| **bcBigQuad**             | *(X)* | *(X)* | *(X)* | *(X)* |          | **X**    | **X**    | *(X)*   | **X** | **X** | *(X)* | *(X)* | *(X)* |          |          | N/A  |
+| **bcBuzzer**              |       |       |       |       |          |          |          |         | PWM   | PWM   |       |       |       |          |          | N/A  |
+| **bcESP**                 |       |       |       |       |          |          |          | *(X)*   | X     | X     |       |       |       |          |          | N/A  |
+| **bcZRanger, bcZRanger2** |       |       | X     | X     |          | *(X)*    |          |         |       |       |       |       |       |          |          | VCC  |
+| **bcFlow, bcFlow2**       |       |       | X     | X     |          | *(X)*    | X        |         |       |       | X     | X     | X     |          |          | VCC  |
+| **bcOA**                  |       |       | X     | X     |          |          |          |         |       |       |       |       |       |          |          | VCC  |
+| **bcMultiranger**         |       |       | X     | X     |          |          |          |         |       |       |       |       |       |          |          | VCOM |
+| **bcMocap**               |       |       |       |       |          |  *(X)*   | *(X)*    |         |       |       |       |       |       |          |          | N/A  |
+| **bcLighthouse4**         | X     | X     | X     | X     |          |          |          |         |       |       |       |       |       |          |          | N/A  |
+| **bcActiveM**             |       |       | X     | X     |          |          |          |         |       |       |       |       |       |          |          | N/A  |
+|---------------------------|-------|-------|-------|-------|----------|----------|----------|---------|-------|-------|-------|-------|-------|----------|----------|------|
 
 Compatibility matrixes
 ----------------------
@@ -170,21 +173,22 @@ Compatibility matrixes
 This table shows which deck that works on which platform.
 
 
-|                         | Crazyflie 2.X  | Roadrunner|
-| : -----------------------| :---------------:| ------------|
- | **LED-ring**               | yes            | yes|
- | **Qi charger**             | yes            | yes|
- | **Micro-SD**               | yes            | \*1|
- | **UWB LPS**                | yes            | |
- | **Big quad**               | yes           |  yes|
- | **Buzzer**                | yes            | |
- | **bcESP**                  | yes            | yes|
- | **Z-Ranger, Z-Ranger V2**  | yes            | yes|
- | **Flow, Flow V2**          | yes            | yes|
- | **Multi-ranger**          |  yes            | yes|
- | **Mocap marker deck**      | yes            | yes|
- | **Lighthouse-4**           | yes            | \*2|
- | -----------------------| ---------------| ------------|
+|                           | Crazyflie 2.X  | Roadrunner|
+|---------------------------|----------------|-----------|
+| **LED-ring**              | yes            | yes       |
+| **Qi charger**            | yes            | yes       |
+| **Micro-SD**              | yes            | \*1       |
+| **UWB LPS**               | yes            |           |
+| **Big quad**              | yes            | yes       |
+| **Buzzer**                | yes            |           | 
+| **bcESP**                 | yes            | yes       |
+| **Z-Ranger, Z-Ranger V2** | yes            | yes       |
+| **Flow, Flow V2**         | yes            | yes       |
+| **Multi-ranger**          | yes            | yes       |
+| **Mocap marker deck**     | yes            | yes       |
+| **Lighthouse-4**          | yes            | \*2       |
+| **Active marker**         | yes            | yes       |
+|---------------------------|----------------|-----------|
 
 ### Deck - deck
 
@@ -197,21 +201,21 @@ are normally physically blocking each other are marked as not
 compatible.
 
 
- |                         |LED-ring   |Qi charger   |Micro-SD   |UWB LPS   |Big quad   |Buzzer  | bcESP   |Z-Ranger   |Flow   |Multi-ranger  | Mocap marker deck   |Lighthouse-4|
-  | -----------------------| ----------| ------------| ----------| ---------| ----------| --------| -------| ----------| ------| --------------| -------------------| --------------|
- |  **LED-ring**              |            |            |  yes       | yes     |            | yes     | yes    |          |        | yes          |  yes                | yes|
- |  **Qi charger**             |           |             | yes       | yes      | yes       | yes    |  yes    |           |       | yes          |  yes                | yes|
- |  **Micro-SD**               | yes       | yes         |           | \*1      | yes       | yes     | yes    | yes       | \*1   | yes          |  yes                | yes|
- |  **UWB LPS**                | yes       | yes         | \*1      |           | yes       | yes     | yes    | yes       | yes   | yes          |  yes                | \*2|
- |  **Big quad**               |           | yes         | yes      |  yes      |           |         |        | yes       |       | yes          |  yes                | \*2|
- |  **Buzzer**                 | yes       | yes         | yes      |  yes      |           |         |       | yes        |yes    |yes           | yes                 |yes|
- |  **bcESP**                  | yes       | yes         | yes       | yes      |           |         |        | yes       | yes   | yes          |  yes                | yes|
- |  **Z-Ranger, Z-Ranger V2**  |           |             | yes      |  yes      | yes       | yes     | yes    |           |       | yes          |  yes                | yes|
- |  **Flow, Flow V2**          |           |             | \*1       | yes      |           | yes     | yes    |           |       | yes          |  yes                | yes|
- |  **Multi-ranger**           | yes       | yes         | yes       | yes      | yes       | yes     | yes    | yes       | yes   |              |  yes                | yes|
- |  **Mocap marker deck**      | yes      |  yes         | yes       | yes      | yes       | yes     | yes   |  yes       | yes   | yes          |                     | yes|
- |  **Lighthouse-4**           | yes       | yes         | yes       | \*2      | \*2       | yes     | yes    | yes       | yes    |yes          |  yes                | |
- |  -----------------------| ----------| ------------| ----------| ---------| ----------| --------| -------| ----------| ------| --------------| -------------------| --------------|
+ |                           | LED-ring | Qi charger | Micro-SD | UWB LPS |Big quad  | Buzzer | bcESP | Z-Ranger | Flow | Multi-ranger | Mocap marker deck | Lighthouse-4 | Active marker | 
+ |---------------------------|----------|------------|----------|---------|----------|--------|-------|----------|------|--------------|-------------------|--------------|---------------|
+ | **LED-ring**              |          |            | yes      | yes     |          | yes    | yes   |          |      | yes          | yes               | yes          | yes           |
+ | **Qi charger**            |          |            | yes      | yes     | yes      | yes    | yes   |          |      | yes          | yes               | yes          | yes           |
+ | **Micro-SD**              | yes      | yes        |          | \*1     | yes      | yes    | yes   | yes      | \*1  | yes          | yes               | yes          | yes           |
+ | **UWB LPS**               | yes      | yes        | \*1      |         | yes      | yes    | yes   | yes      | yes  | yes          | yes               | \*2          | yes           |
+ | **Big quad**              |          | yes        | yes      | yes     |          |        |       | yes      |      | yes          | yes               | \*2          | yes           |
+ | **Buzzer**                | yes      | yes        | yes      | yes     |          |        |       | yes      | yes  | yes          | yes               | yes          | yes           |
+ | **bcESP**                 | yes      | yes        | yes      | yes     |          |        |       | yes      | yes  | yes          | yes               | yes          | yes           |
+ | **Z-Ranger, Z-Ranger V2** |          |            | yes      | yes     | yes      | yes    | yes   |          |      | yes          | yes               | yes          | yes           |
+ | **Flow, Flow V2**         |          |            | \*1      | yes     |          | yes    | yes   |          |      | yes          | yes               | yes          | yes           |
+ | **Multi-ranger**          | yes      | yes        | yes      | yes     | yes      | yes    | yes   | yes      | yes  |              | yes               | yes          | yes           |
+ | **Mocap marker deck**     | yes      | yes        | yes      | yes     | yes      | yes    | yes   | yes      | yes  | yes          |                   | yes          |               |
+ | **Lighthouse-4**          | yes      | yes        | yes      | \*2     | \*2      | yes    | yes   | yes      | yes  | yes          | yes               |              |               |
+ | **Active marker**         | yes      | yes        | yes      | yes     | yes      | yes    | yes   | yes      | yes  | yes          |                   |              |               |
 
 **Notes:**
 
