@@ -18,11 +18,11 @@ page_id: home
         </div>
       </div>
 
-      <!-- div class="announcements">
-        <h3>Summer vacations</h3>       
-        <a><img src="/images/frontpage/beach.jpg" alt="Announcement"></a>
-        <p>Due to vacations, there will be <b>limited support</b> on all our communication channels, and <b>no shipping</b> of products between 8 - 22 July.</p>
-      </div -->
+      <div class="announcements">
+        <h3>Fairs</h3>       
+        <a><img src="/images/frontpage/imav2019.jpg" alt="Announcement"></a>
+        <p>We will be present at IMAV 2019 in Madrid between 1-4 August. Come and visit our booth! </p>
+      </div>
 
     </div>
     <div class="header-col-wrapper">
