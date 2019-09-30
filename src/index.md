@@ -19,9 +19,8 @@ page_id: home
       </div>
 
       <div class="announcements">
-        <h3>Fairs</h3>       
-        <a><img src="/images/frontpage/imav2019.jpg" alt="Announcement"></a>
-        <p>We will be present at IMAV 2019 in Madrid between 1-4 August. Come and visit our booth! </p>
+        <a href="events/imav2019/"><img src="/images/events/imav2019/imav2019.jpg" alt="IMAV 2019" style="padding-top: 25px">
+        <p>We will be present at IMAV 2019 in Madrid between 1-4 August. <br>Come and visit our booth! </p></a>
       </div>
 
     </div>
