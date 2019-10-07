@@ -61,7 +61,7 @@ you can read about how the researchers at MIT are using the Crazyflie 2.0 to stu
 
 ## Publications involving Crazyflie 2.X
 ---
-* **Learning to Seek: Autonomous Source Seeking with Deep Reinforcement Learning Onboard a Nano Drone Microcontroller**, Bardienus P. Duisterhof, Srivatsan Krishnan, Jonathan J. Cruz, Colby R. Banbury1 William Fu, Aleksandra Faust, Guido C. H. E. de Croon, Vijay Janapa Reddi, Harvard University, 2019.
+* **Learning to Seek: Autonomous Source Seeking with Deep Reinforcement Learning Onboard a Nano Drone Microcontroller**, Bardienus P. Duisterhof, Srivatsan Krishnan, Jonathan J. Cruz, Colby R. Banbury William Fu, Aleksandra Faust, Guido C. H. E. de Croon, Vijay Janapa Reddi, Harvard University, 2019.
 [PDF, ](https://arxiv.org/pdf/1909.11236)
 [Video](https://www.youtube.com/watch?v=wmVKbX7MOnU)
 
