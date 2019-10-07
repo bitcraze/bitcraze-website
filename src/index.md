@@ -18,10 +18,11 @@ page_id: home
         </div>
       </div>
 
-      <div class="announcements">
-        <a href="events/imav2019/"><img src="/images/events/imav2019/imav2019.jpg" alt="IMAV 2019" style="padding-top: 25px">
-        <p>We will be present at IMAV 2019 in Madrid between 1-4 August. <br>Come and visit our booth! </p></a>
-      </div>
+      <!-- div class="announcements">
+        <h3>Summer vacations</h3>
+        <a><img src="/images/frontpage/beach.jpg" alt="Announcement"></a>
+        <p>Due to vacations, there will be <b>limited support</b> on all our communication channels, and <b>no shipping</b> of products between 8 - 22 July.</p>
+      </div -->
 
     </div>
     <div class="header-col-wrapper">
