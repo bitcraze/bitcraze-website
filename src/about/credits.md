@@ -33,7 +33,6 @@ page_id: credits
 * [Wordpress](https://wordpress.org/)
 * [Dokuwiki](https://www.dokuwiki.org/dokuwiki)
 * [phpBB](https://www.phpbb.com/)
-* [Piwik](http://piwik.org/)
 * [Nginx](http://nginx.org/)
 * [MySQL](https://www.mysql.com/)
 * [Jekyll](https://jekyllrb.com/)

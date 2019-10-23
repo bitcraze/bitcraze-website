@@ -4,8 +4,8 @@ title: Privacy Policy
 permalink: /privacy-policy/
 ---
 
-The bitcraze.io websites are using [Google Analytics](https://analytics.google.com), [Hotjar](https://www.hotjar.com) and [Piwik](https://matomo.org).
-These softwares records some data when you visit our website that allows us to get some statistics about the site usage.
+The bitcraze.io websites are using [Google Analytics](https://analytics.google.com) and [Hotjar](https://www.hotjar.com).
+These softwares record some data when you visit our website that allows us to get some statistics about the site usage.
 
 When you order from us, to fullfil your order we may communicate information about you to the following third party logistics partner:
 
