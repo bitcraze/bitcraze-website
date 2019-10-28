@@ -188,6 +188,15 @@ table {
     padding-bottom: 100%;
 }
 
+// WP video block
+.wp-block-embed {
+    @extend .embed-responsive;
+}
+
+.wp-embed-aspect-16-9 {
+    @extend .embed-responsive-16by9;
+}
+
 // Distributors
 .distributor-continent:not(:first-of-type) {
     @media (min-width: $screen-xs-min) {
