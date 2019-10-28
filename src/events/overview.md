@@ -10,3 +10,4 @@ information.
 
 * [ICRA 2019](/events/icra2019/)
 * [IMAV 2019](/events/imav2019/)
+* [IROS 2019](/events/iros2019/)
