@@ -11,7 +11,7 @@ page_id: overview_crazyflie
 {%endrow%}
 {%row%}
 {%column 12%}
-Components and  Hardware Architecture
+Components and Hardware Architecture
 -----------------------
 {%endcolumn%}
 {%endrow%}

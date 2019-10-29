@@ -13,7 +13,7 @@ Welcome to the starting directory page of the all the documentation related to w
 
 [![Crazyflie button](/images/documentation/overview/overview_crazyflie.png){:width="300px"}](/docs/overview_crazyflie/) &nbsp;[![Clients button](/images/documentation/overview/overview_clients.png){:width="300px"}](/docs/overview_clients/) &nbsp; [![Positioning button](/images/documentation/overview/overview_positioning.png){:width="300px"}](/docs/overview_positioning/)
 
-Go [here](/docs/overview_repositories/) for the  comprehensive list of Bitcraze's GitHub repositories and documentation.
+Go [here](/docs/overview_repositories/) for the comprehensive list of Bitcraze's GitHub repositories and documentation.
 
 
 
