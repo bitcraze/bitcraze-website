@@ -58,7 +58,7 @@ you are.
 
 #### Technical support
 Answer questions and help members of the community through emails, the forum, 
-github issues, the store and other communication channels. Questions range from
+GitHub issues, the store and other communication channels. Questions range from
 basic tech support such as how to install the client, to detailed and 
 complex issues.    
 
