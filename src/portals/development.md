@@ -22,7 +22,7 @@ or control parameters and data in the copter when connected to the client
 application on your computer. Set parameters to control your hardware or
 read sensor data from your sensors. All in real time and graphed on your screen.
 When your application is working as expected you can go bigger and use the Crazyflie
-control board on a bigger quadcopter frame and fly it outdoors.  
+control board on a bigger quadcopter frame and fly it outdoors.
 
 #### Versatile
 There are APIs for many languages that you can use to control the copter, or
