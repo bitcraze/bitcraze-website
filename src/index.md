@@ -18,11 +18,6 @@ page_id: home
         </div>
       </div>
 
-      <div class="announcements">
-           <a href="events/iros2019/"><img src="/images/events/iros2019/iros2019.png" alt="IROS 2019" style="padding-top: 25px">
-           <p>We will be exibiting at IROS 2019 in Macou between 5-8 November. <br>Come and visit our booth B34! </p></a>
-      </div>
-
       <!-- div class="announcements">
         <h3>Summer vacations</h3>
         <a><img src="/images/frontpage/beach.jpg" alt="Announcement"></a>
