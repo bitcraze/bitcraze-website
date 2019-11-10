@@ -42,7 +42,7 @@ results.
 To contribute you only need:
 
 * [Docker](https://www.docker.com/)
-* [git](https://git-scm.com/) and a [github](https://github.com/) account
+* [Git](https://git-scm.com/) and a [GitHub](https://github.com/) account
 * Any text editor
 
 If you don't want to use docker you will need ruby on you system. We have not 

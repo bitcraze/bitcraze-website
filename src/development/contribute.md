@@ -42,7 +42,7 @@ specific project when it comes to coding style, unit testing and so on.
 
 Maybe you want to contribute but don't know what to do? Need help
 to find the right solution? Not sure of how to write a unit test?
-We are here to help you!  
+We are here to help you!
 
 Post a question in the [forum](//forum.bitcraze.io), add an issue on 
 [github](https://github.com/bitcraze) or drop us an email at

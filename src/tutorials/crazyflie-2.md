@@ -256,9 +256,9 @@ Read more in the [install on Windows](#inst-win) section.
 {% endtab %}
 {% tab Linux %}
 On Linux it is possible to run the client from source code. With this option you
-are required to clone the source code from git and install a few software packages.
+are required to clone the source code from Git and install a few software packages.
 If you are interested in this solution, read more about how to set it up on
-[github](https://github.com/bitcraze/crazyflie-clients-python/blob/master/README.md).
+[GitHub](https://github.com/bitcraze/crazyflie-clients-python/blob/master/README.md).
 
 
 When you have set up the client, insert the Crazyradio PA and your gamepad in
@@ -266,9 +266,9 @@ your USB-ports and start the client. Continue reading about how to [configure th
 {% endtab %}
 {% tab OS X %}
 On OS X it is possible to run the client from source code. With this option you
-are required to clone the source code from git and install a few software packages.
+are required to clone the source code from Git and install a few software packages.
 If you are interested in this solution, read more about how to set it up on
-[github](https://github.com/bitcraze/crazyflie-clients-python/blob/master/README.md).
+[GitHub](https://github.com/bitcraze/crazyflie-clients-python/blob/master/README.md).
 
 When you have set up the client, insert the Crazyradio PA and your gamepad in
 your USB-ports and start the client. Continue reading about how to [configure the client](#config-client)
