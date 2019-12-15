@@ -57,8 +57,9 @@ Here is a list of the pre-programmed sounds you can choose from:
 |8     |Range slow      |                                                        |
 |9     |Range fast      |                                                        |
 |10    |Star Wars       |Who doesn't love Star Wars!                             |
-|11    |Bypass          |Change sound pitch by changing the value in the freq row|
-|12    |Siren           |                                                        |
-|13    |Tilt            |Tilt the Crazyflie to play the sound                    |
+|11    |Valkyries       |                                                        |
+|12    |Bypass          |Change sound pitch by changing the value in the freq row|
+|13    |Siren           |                                                        |
+|14    |Tilt            |Tilt the Crazyflie to play the sound                    |
 
 {% endsi_step %}
