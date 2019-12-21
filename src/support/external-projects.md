@@ -32,7 +32,7 @@ Alternate firmware implementations and uses for the Crazyradio
 
 ## Swarming
 
-Projects aiming at supporting swarms. They might also be useful for controling single Crazyflies.
+Projects aiming at supporting swarms. They might also be useful for controlling single Crazyflies.
 
 | Crazyswarm | The ACT lab at USC has implemented a library to handle large swarms of Crazyflies. | <https://github.com/USC-ACTLab/crazyswarm> |
 | ![ROS](/images/icons/ros_32.png) || <https://github.com/whoenig/crazyflie_ros> |
