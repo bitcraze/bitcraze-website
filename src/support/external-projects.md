@@ -30,6 +30,12 @@ Alternate firmware implementations and uses for the Crazyradio
 | NRF research firmware from Bastille Research  || <https://github.com/BastilleResearch/nrf-research-firmware> |
 | MouseJack device discovery and research tools || <https://github.com/BastilleResearch/nrf-research-firmware> |
 
+## Crazyflie simulator
+
+Project aimed to modeling, developing and integrating the Crazyflie 2.0 nano-quadcopter in the physics based simulation environment Gazebo. 
+ 
+| CrazyS | The University of Sannio in Benevento, Italy, has implemented a software-in-the-loop simulation platform for simulating Crazyflie behavior in the Gazebo 3D simulation environment. | <https://github.com/gsilano/CrazyS> |
+
 ## Swarming
 
 Projects aiming at supporting swarms. They might also be useful for controlling single Crazyflies.
