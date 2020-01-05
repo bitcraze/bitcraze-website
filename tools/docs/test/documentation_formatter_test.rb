@@ -110,6 +110,45 @@ class TestDocumentationFormatter < Minitest::Test
     assert(actual.include? expected)
   end
 
+  def test_that_tag_is_added_to_tag_list
+    # Fixture
+    tag_list = {@repo_name => ['other-tag']}
+    expected = ['other-tag', @tag]
+
+    # Test
+    actual = @cut.add_to_docs_tag_list(tag_list, @repo_name, @tag)
+
+    # Assert
+    assert(actual)
+    assert_equal(expected, tag_list[@repo_name])
+  end
+
+  def test_that_tag_is_added_to_tag_list_first_time
+    # Fixture
+    tag_list = {}
+    expected = [@tag]
+
+    # Test
+    actual = @cut.add_to_docs_tag_list(tag_list, @repo_name, @tag)
+
+    # Assert
+    assert(actual)
+    assert_equal(expected, tag_list[@repo_name])
+  end
+
+  def test_that_tag_is_reported_as_not_added_to_tag_list_when_already_part_of_list
+    # Fixture
+    expected = ['one-tag', @tag, 'other-tag']
+    tag_list = {@repo_name => expected}
+
+    # Test
+    actual = @cut.add_to_docs_tag_list(tag_list, @repo_name, @tag)
+
+    # Assert
+    assert_equal(false, actual)
+    assert_equal(expected, tag_list[@repo_name])
+  end
+
 
   private
 

@@ -91,4 +91,32 @@ class DocumentationFormatter
     IO.write(shared_docs_menus_file, shared_menus.to_yaml)
   end
 
+  def add_to_docs_tag_list(tag_list, repo, tag)
+    if !tag_list.key?(repo)
+      tag_list[repo] = []
+    end
+
+    tags = tag_list[repo]
+
+    if !tags.include?(tag)
+      tags << tag
+      true
+    else
+      false
+    end
+  end
+
+  def add_to_docs_tag_list_file(docs_tag_list_file, repo, tag)
+    if File.file? docs_tag_list_file
+      tag_list = YAML.load_file(docs_tag_list_file)
+    else
+      tag_list = {}
+    end
+
+    is_modified = add_to_docs_tag_list(tag_list, repo, tag)
+
+    if is_modified
+      IO.write(docs_tag_list_file, tag_list.to_yaml)
+    end
+  end
 end

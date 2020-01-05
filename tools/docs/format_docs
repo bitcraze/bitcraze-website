@@ -10,8 +10,10 @@ repo_name = ARGV[2]
 repo_tag = ARGV[3]
 docs_menu_file = ARGV[4]
 shared_docs_menus_file = ARGV[5]
+docs_tag_list_file = ARGV[6]
 
 formatter = DocumentationFormatter.new()
 
 formatter.update_docs_content(docs_dir, ns, repo_name, repo_tag)
 formatter.add_to_docs_menus(docs_menu_file, shared_docs_menus_file, ns)
+formatter.add_to_docs_tag_list_file(docs_tag_list_file, repo_name, repo_tag)

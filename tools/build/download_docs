@@ -32,7 +32,7 @@ function downloadGithubRepoDoc() {
 
       # Massage data to move it into a namespace and genereate menus
       echo "Updating docs source files"
-      ${scriptDir}/../docs/format_docs ${repoDir} ${ns} ${name} ${tag} ${repoDir}/_data/menu.yml ${dataDir}/docs_menu.yml
+      ${scriptDir}/../docs/format_docs ${repoDir} ${ns} ${name} ${tag} ${repoDir}/_data/menu.yml ${dataDir}/docs_menu.yml ${dataDir}/docs_tag_list.yml
   fi
 }
 
