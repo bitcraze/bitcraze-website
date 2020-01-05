@@ -19,7 +19,7 @@ class TestDocumentationFormatter < Minitest::Test
   def test_that_front_matter_is_updated_by_adding_namespace
     # Fixture
     doc = generate_doc(@fm_default, '')
-    expected = @ns + @page_id
+    expected = @ns + '-' + @tag + '-' + @page_id
 
     # Test
     actual_doc = @cut.update_doc(doc, @ns, @repo_name, @tag, @file_name)

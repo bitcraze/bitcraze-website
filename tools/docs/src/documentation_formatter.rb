@@ -21,10 +21,14 @@ class DocumentationFormatter
       update_urls(doc_fm, repo_name, tag)
   end
 
+  def generate_page_id(ns, tag, short_id)
+    ns + '-' + tag + '-' + short_id
+  end
+
   def update_front_matter_data(doc, ns, repo_name, tag, relative_path)
     data = YAML.load(doc)
 
-    data['page_id'] = ns + data['page_id']
+    data['page_id'] = generate_page_id(ns, tag, data['page_id'])
     data['layout'] = 'page-docs'
     data['repo_name'] = repo_name
     data['repo_tag'] = tag
@@ -55,29 +59,38 @@ class DocumentationFormatter
     doc.gsub(/(\[[^\[]*\])\(\s*(\/[^\)]*)\)/, '\1(' + repo_path + '\2)').gsub(/(\[[^\[]*\])\(\s*https:\/\/www.bitcraze.io(\/[^\)]*\))/, '\1(\2')
   end
 
-  def add_name_space_to_node_list(nodes, ns)
+  def add_name_space_to_node_list(nodes, ns, tag)
     nodes.each do |node|
       if node.key? 'page_id'
-        node['page_id'] = ns + node['page_id']
+        node['page_id'] = generate_page_id(ns, tag, node['page_id'])
       end
 
       if node.key? 'subs'
-        add_name_space_to_node_list(node['subs'], ns)
+        add_name_space_to_node_list(node['subs'], ns, tag)
       end
     end
   end
 
-  def add_to_docs_menus(docs_menu_file, shared_docs_menus_file, ns)
-    repo_menus = YAML.load_file(docs_menu_file)
-    add_name_space_to_node_list(repo_menus, ns)
-
+  def get_shared_menus(shared_docs_menus_file, ns)
     if File.file? shared_docs_menus_file
       shared_menus = YAML.load_file(shared_docs_menus_file)
     else
       shared_menus = {}
     end
 
-    shared_menus[ns] = repo_menus
+    if !shared_menus.key?(ns)
+      shared_menus[ns] = {}
+    end
+
+    return shared_menus
+  end
+
+  def add_to_docs_menus(docs_menu_file, shared_docs_menus_file, ns, tag)
+    repo_menus = YAML.load_file(docs_menu_file)
+    add_name_space_to_node_list(repo_menus, ns, tag)
+
+    shared_menus = get_shared_menus(shared_docs_menus_file, ns)
+    shared_menus[ns][tag] = repo_menus
 
     IO.write(shared_docs_menus_file, shared_menus.to_yaml)
   end

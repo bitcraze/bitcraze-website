@@ -1,5 +1,5 @@
 <ul>
-    {% for top_menu in site.data.docs_menu[page.ns] %}
+    {% for top_menu in site.data.docs_menu[page.ns][page.repo_tag] %}
         {% assign is_active = false %}
 
         {% if top_menu.subs %}
