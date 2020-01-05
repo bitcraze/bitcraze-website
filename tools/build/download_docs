@@ -13,7 +13,7 @@ function downloadGithubRepoDoc() {
   local nameTag=${name}/${tag}
   local repoRootDir=${dstDir}/${name}
   local repoDir=${dstDir}/${nameTag}
-  local ns="repo-${name}"
+  local ns="repo-${name}-${tag}"
   local unzipName=${tmp}/${name}-${tag}
 
   if [ -d "${repoDir}" ]; then

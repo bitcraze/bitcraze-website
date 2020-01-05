@@ -14,4 +14,4 @@ shared_docs_menus_file = ARGV[5]
 formatter = DocumentationFormatter.new()
 
 formatter.update_docs_content(docs_dir, ns, repo_name, repo_tag)
-formatter.add_to_docs_menus(docs_menu_file, shared_docs_menus_file, ns, repo_tag)
+formatter.add_to_docs_menus(docs_menu_file, shared_docs_menus_file, ns)
