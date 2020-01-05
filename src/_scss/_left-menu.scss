@@ -108,5 +108,12 @@
                 color: black;
             }
         }
+        .active {
+            a {
+                background: $bcLighterGrey;
+                font-weight: $nav-font-weight;
+                transition: background-color 0.2s;
+            }
+        }
     }
 }
