@@ -40,9 +40,21 @@ function downloadGithubRepoDoc() {
 
 echo "Downloading repository documentation..."
 
+# Note: The order of downloads determines the order of versions in UI menus
+
 downloadGithubRepoDoc "crazyflie-firmware" "master"
+downloadGithubRepoDoc "crazyflie-firmware" "2019.09"
+
 downloadGithubRepoDoc "crazyflie2-nrf-firmware" "master"
+downloadGithubRepoDoc "crazyflie2-nrf-firmware" "2019.09"
+
 downloadGithubRepoDoc "crazyflie-lib-python" "master"
+downloadGithubRepoDoc "crazyflie-lib-python" "0.1.8"
+
 downloadGithubRepoDoc "crazyflie-clients-python" "master"
+downloadGithubRepoDoc "crazyflie-clients-python" "2019.09"
+
 downloadGithubRepoDoc "lps-node-firmware" "master"
+downloadGithubRepoDoc "lps-node-firmware" "2019.09"
+
 downloadGithubRepoDoc "crazyradio-firmware" "master"
