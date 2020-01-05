@@ -305,3 +305,23 @@ table {
   padding-right: 10%;
 }
 
+// Docs
+.docs-version-dropdown {
+    input, .docs-version-dropdown-submenu {
+        display: none;
+    }
+
+    label {
+        position: relative;
+        cursor: pointer;
+    }
+
+    // show the submenu when input is checked
+    input:checked~.docs-version-dropdown-submenu {
+        display: inline;
+    }
+
+    a {
+        color: black;
+    }
+}

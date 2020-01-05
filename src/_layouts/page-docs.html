@@ -10,7 +10,21 @@ layout: page-base
     </header>
     <div class="row">
         <div class="col-md-12">
-            <span><b>{{page.repo_name}} [{{page.repo_tag}}]</b> repository documentation</span>
+            <span class="docs-version-dropdown">
+                Repository documentation: <b>{{page.repo_name}}</b>
+                <input id="docs-version-check" type="checkbox" name="menu" />
+                [ <label for="docs-version-check">{{page.repo_tag}}</label>
+                <versionitems class="docs-version-dropdown-submenu">
+                    {% for tag in site.data.docs_tag_list[page.repo_name] %}
+                        {% if page.repo_tag != tag %}
+                            {% assign parts = page.url | remove: '.html' | replace: '//', '/' | split: page.repo_tag %}
+                            {% assign url = parts[0] | append: tag | append: '/index/' %}
+                            , <a href="{{url}}">{{tag}}</a>
+                        {% endif %}
+                    {% endfor %}
+                </versionitems>
+                ]
+            </span>
         </div>
     </div>
 </div>
