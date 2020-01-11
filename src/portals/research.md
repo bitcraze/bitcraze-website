@@ -61,6 +61,10 @@ you can read about how the researchers at MIT are using the Crazyflie 2.0 to stu
 
 ## Publications involving Crazyflie 2.X
 ---
+* **Trajectory-based Agile Multi UAV Coordination through Time Synchronisation**,
+Omar Shadeed, Halise Turkmen, Emre Koyuncu, AIAA Science and Technology Forum and Exposition, 2020.
+[PDF, ](https://www.researchgate.net/publication/338400671_Trajectory-based_Agile_Multi_UAV_Coordination_through_Time_Synchronisation)
+
 * **Learning to Seek: Autonomous Source Seeking with Deep Reinforcement Learning Onboard a Nano Drone Microcontroller**, Bardienus P. Duisterhof, Srivatsan Krishnan, Jonathan J. Cruz, Colby R. Banbury William Fu, Aleksandra Faust, Guido C. H. E. de Croon, Vijay Janapa Reddi, Harvard University, 2019.
 [PDF, ](https://arxiv.org/pdf/1909.11236)
 [Video](https://www.youtube.com/watch?v=wmVKbX7MOnU)
@@ -193,3 +197,4 @@ Leobardo Campos-Macías, David Gómez-Gutiérrez, Rodrigo Aldana-López, Rafael 
 <div class="col-md-12">
   <p class="text-right">Want to add a publication? <a href="https://github.com/bitcraze/bitcraze-website/edit/master/src/{{page.path}}"><i class="fa fa-pencil"></i> &nbsp;Improve this page</a></p>
 </div>
+
