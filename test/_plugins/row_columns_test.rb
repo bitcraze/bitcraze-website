@@ -46,4 +46,41 @@ class TestRowCols < Testbase
       Liquid::Template.parse(tag).render!(nil, registers: {site: @site_mock})
     end
   end
+
+  def test_that_full_width_row_is_rendered
+    # Fixture
+
+    tag = '{% row_full %}md1{% endrow_full %}'
+    expected = '
+    <section class="row content-area">
+        <div class="col-md-12">converted md1</div>
+    </section>'
+
+    # Test
+    actual = Liquid::Template.parse(tag).render(nil, registers: {site: @site_mock})
+
+    # Assert
+    assert_html(expected, actual)
+  end
+
+  def test_that_row_image_text_links_is_rendered
+    # Fixture
+
+    tag = '{% row_image_text_links The title;the/image.jpg%}md1{% row_text %}md1{% endrow_text %}{% row_links %}md2{% endrow_links %}{% endrow_image_text_links %}'
+    expected = '
+    <section class="row content-area">
+        <div class="col-md-12"><h3>The title</h3></div>
+    </section>
+    <section class="row content-area">
+        <div class="col-md-3 doc-section-image"><img src="the/image.jpg" alt="The title"></div>
+        <div class="col-md-6">converted md1</div>
+        <div class="col-md-3">converted md2</div>
+    </section>'
+
+    # Test
+    actual = Liquid::Template.parse(tag).render(nil, registers: {site: @site_mock})
+
+    # Assert
+    assert_html(expected, actual)
+  end
 end

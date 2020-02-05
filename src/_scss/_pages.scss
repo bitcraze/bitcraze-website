@@ -325,3 +325,14 @@ table {
         color: black;
     }
 }
+
+.doc-section-image {
+    img {
+        max-width: 200px;
+        width: 70%;
+
+        @media (max-width: $screen-sm-max) {
+            width: 100px;
+        }
+    }
+}
