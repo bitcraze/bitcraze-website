@@ -14,7 +14,7 @@ When you order from us, to fullfil your order we may communicate information abo
  - [Shopify](https://www.shopify.com)
  - [Postnord](https://www.postnord.se)
 
-Your payment may be processed by [Mondido Payments](https://www.mondido.com) or [Paypal](https://www.paypal.com) depending of your choosen or available method. We do not record and never have access to your payment method details like credit card number or paypal account.
+Your payment may be processed by [Mondido Payments](https://www.mondido.com). We do not record and never have access to your payment method details like credit card number.
 
 We are using [Mainchimp](https://mailchimp.com) to handle our mainling-lists and gmail to handle all mail going to and from the bitcraze.io domain.
 
