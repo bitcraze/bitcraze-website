@@ -26,22 +26,20 @@ There are three main areas to consider when starting to understand the infrastru
 
 {% row_image_text_links The Crazyflie family of devices; /images/documentation/overview/CFfamily_thumbnail.jpg %}
 {% row_text %}
-The Crazyflie family members are the **Crazyflie 2.0** nano quadcopter, the **Crazyflie 2.1** nano quadcopter, the **Crazyflie Bolt** quadcopter controller and
-the **Roadrunner** UWB positioning tag. They are all based on similar hardware but
+The Crazyflie family members are the **[Crazyflie 2.0](https://store.bitcraze.io/products/crazyflie-2-0)** nano quadcopter, the **[Crazyflie 2.1](https://store.bitcraze.io/products/crazyflie-2-1)** nano quadcopter, the **[Crazyflie Bolt](https://store.bitcraze.io/products/crazyflie-bolt)** quadcopter controller and
+the **[Roadrunner](https://store.bitcraze.io/products/roadrunner)** UWB positioning tag. They are all based on similar hardware but
 have a bit different flavours and properties. They run similar firmware and can be used with the other components in the Crazyflie ecosystem,
 such as clients and positioning systems.
-
-When documentation and code refers to "the Crazyflie", it applies to all members of the family in most cases.
 {% endrow_text %}
 {% row_links %}
-* [Crazyflie device family overview](/docs/overview_crazyflie/)
+* [Crazyflie platform overview](/docs/overview_crazyflie/)
 {% endrow_links %}
 {%endrow_image_text_links%}
 
 
 {% row_image_text_links Crazyradio and clients; /images/documentation/overview/CFclients_thumbnail.jpg %}
 {% row_text %}
-The main client for controling the Crazyflie device family is the **python client** that runs on a PC and communicates via the **Crazyradio PA** USB dongle. The client uses a **python library**, which also is the main connection point for programs and scripts that communicate with the devices.
+The main client for controling the Crazyflie device family is the **python client** that runs on a PC and communicates via the **[Crazyradio PA](https://store.bitcraze.io/products/crazyradio-pa)** USB dongle. The client uses a **python library**, which also is the main connection point for programs and scripts that communicate with the devices.
 
 Swarms of Crazyflies can be controlled through the python library, the external **CrazySwarm** project or other software.
 
