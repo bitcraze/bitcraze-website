@@ -27,7 +27,7 @@ it the ideal choice for everything from big laboratories to small classrooms.
 
 #### Resources
 
-- [Lighthouse positioning information](https://wiki.bitcraze.io/doc:lighthouse:index)
+- [Lighthouse positioning information](/docs/crazyflie-firmware/master/lighthouse_overview/)
 - [Start here](/start/)
 - [Buyers guide](/crazyflie-2-0-buyers-guide/)
 - [FAQ](/frequently-asked-questions-Crazyflie-2.0/)

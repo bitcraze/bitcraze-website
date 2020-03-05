@@ -53,7 +53,7 @@ Lighthouse positioning System
 The lighthouse positioning system is our latest method of positioning on the Crazyflie 2.X and is still in early access. The [HTC Vive basestations V1](https://www.vive.com/us/accessory/base-station/) are used here, and they emit infrared laser scans that are detected by our [Lighthouse positioning deck](https://store.bitcraze.io/collections/positioning/products/lighthouse-positioning-deck). This enables the crazyflie to (like with the LPS) calculate its own position on board.
 {%endcolumn%}
 {%column 3%}
-- [Lighthouse positioning documentation](https://wiki.bitcraze.io/doc:lighthouse:index).
+- [Lighthouse positioning documentation](/docs/crazyflie-firmware/master/lighthouse_overview/).
 
 {%endcolumn%}
 
@@ -77,7 +77,7 @@ The Crazyflie can be positioned using reflective markers and infrared motion cap
 {%endcolumn%}
 {%column 3%}
 
- - [ USC's Crazyswarm documentation](https://crazyswarm.readthedocs.io/en/latest/). 
+ - [ USC's Crazyswarm documentation](https://crazyswarm.readthedocs.io/en/latest/).
 
 {%endcolumn%}
 
