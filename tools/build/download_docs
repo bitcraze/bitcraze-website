@@ -60,3 +60,5 @@ downloadGithubRepoDoc "lps-node-firmware" "master"
 downloadGithubRepoDoc "lps-node-firmware" "2019.09"
 
 downloadGithubRepoDoc "crazyradio-firmware" "master"
+
+downloadGithubRepoDoc "lighthouse-bootloader" "master"
