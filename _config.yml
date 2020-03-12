@@ -2,6 +2,7 @@ name: Bitcraze website
 
 source: src
 destination: _site
+permalink: /:categories/:title/
 
 keep_files: ['_site/css/kraken.css.map']
 
