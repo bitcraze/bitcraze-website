@@ -1,8 +1,9 @@
 ---
 layout: page
 title: Team
-permalink: /team/
 page_id: about-team
+redirects:
+  - /team/
 ---
 
 

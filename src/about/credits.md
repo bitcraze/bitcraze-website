@@ -1,8 +1,9 @@
 ---
 layout: page
 title: Credits
-permalink: /credits/
 page_id: credits
+redirects:
+  - /credits/
 ---
 
 ## Open source tools

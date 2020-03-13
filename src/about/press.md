@@ -1,8 +1,9 @@
 ---
 layout: page
 title: Press
-permalink: /press/
 page_id: about-press
+redirects:
+  - /press/
 ---
 
 ## Hi press!

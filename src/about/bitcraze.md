@@ -1,8 +1,9 @@
 ---
 layout: page
 title: Bitcraze
-permalink: /about/
 page_id: about-bitcraze
+redirects:
+  - /about/
 ---
 
 We are passionate about hardware, software and technology in general, and we
