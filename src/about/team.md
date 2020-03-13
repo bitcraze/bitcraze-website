@@ -12,6 +12,12 @@ Arnaud has been passionate about technology since his childhood. He has worked i
 Arnaud likes embedded systems and beautiful code. He likes it best when he is able to design the hardware, write the bootstrap code, and finally design the software that runs on it. He also enjoys playing with bigger systems like the Bitcraze web servers.
 "%}
 
+{% include teammember.html member="Barbara Rousselot" role="Administration specialist" img="/images/team/barbara_rousselot_400px.jpg" bio="
+Growing up in France and all over the world, Barbara has always been interested by helping others and learning from her passions. After her academic and literary education, she wanted to see the world and follow her passion. Along the years, she traveled a lot and obtained a lot of experience in many different fields: administration, community management, sales, even acting. Now she settled down, and uses every bit of what she has learned to deal with everything administration-related and non-technical.
+
+Even though she has no formal education in coding or electronics, as a self-proclaimed geek she has a deep interest in technology and especially in videogames. And when she's not learning to code, she loves to read, knit, and often bakes, to the delight of the other team members!
+"%}
+
 {% include teammember.html member="Kimberly McGuire" role="Developer" img="/images/team/kimberly_mcguire_temp_400px.JPG" bio="
 For about 7 years, Kimberly has emerged herself in all things robotics. First she started out with bio-inspired robotics for her masters, to finally making tiny quadcopters fly autonomously for her PhD. That is how she discovered the Crazyflie and loved it so much that she decided to work for Bitcraze. She also has a creative side to her, as she initially started out studying industrial design engineering for her bachelors. Now she still believes that it is important to make products functional and easy to use, and try to visualize everything she is working on.
 
