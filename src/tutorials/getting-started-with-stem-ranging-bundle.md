@@ -1,8 +1,9 @@
 ---
 layout: page-left-menu
 title: Getting started with the STEM ranging bundle
-permalink: /getting-started-with-stem-ranging-bundle/
 page_id: getting-started-stem-ranging-bundle
+redirects:
+  - /getting-started-with-stem-ranging-bundle/
 ---
 
 {% si_intro The STEM ranging bundle %}
@@ -155,11 +156,11 @@ if __name__ == '__main__':
             print('Demo terminated!')
 ```
 
-Run the script by pressing F5. 
+Run the script by pressing F5.
 
-**Note**: If you have the python client open, make sure the Crazyflie is disconnected from it. 
-The Crazyradio does not support connections from multiple programs simultaneously and 
-the script will not work if the Crazyflie still is connected to the python client. 
+**Note**: If you have the python client open, make sure the Crazyflie is disconnected from it.
+The Crazyradio does not support connections from multiple programs simultaneously and
+the script will not work if the Crazyflie still is connected to the python client.
 
 The output should look similar to this.
 

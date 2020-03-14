@@ -1,8 +1,9 @@
 ---
 layout: page
 title: Start here
-permalink: /start/
 page_id: getting-started-start
+redirects:
+  - /start/
 ---
 
 ## Let's get started!

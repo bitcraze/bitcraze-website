@@ -1,8 +1,9 @@
 ---
 layout: page-left-menu
 title: Getting started with the Flow deck
-permalink: /getting-started-with-flow-deck/
 page_id: getting-started-flow-deck
+redirects:
+  - /getting-started-with-flow-deck/
 ---
 
 {% si_intro The Flow deck %}

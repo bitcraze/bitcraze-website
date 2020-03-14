@@ -1,8 +1,9 @@
 ---
 layout: page-left-menu
 title: Getting started with Flow breakout board
-permalink: /getting-started-flow-breakout/
 page_id: getting-started-flow-breakout
+redirects:
+  - /getting-started-flow-breakout/
 ---
 
 {% si_intro Flow breakout board %}

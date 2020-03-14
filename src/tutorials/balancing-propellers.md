@@ -1,8 +1,9 @@
 ---
 layout: page-left-menu
 title: Balancing propellers
-permalink: /balancing-propellers/
 page_id: balancing-propellers
+redirects:
+  - /balancing-propellers/
 ---
 
 {% si_intro Balancing propellers %}

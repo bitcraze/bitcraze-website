@@ -1,8 +1,9 @@
 ---
 layout: page-left-menu
 title: Getting started with the Z-ranger deck
-permalink: /getting-started-with-z-ranger-deck/
 page_id: getting-started-z-ranger-deck
+redirects:
+  - /getting-started-with-z-ranger-deck/
 ---
 
 {% si_intro The Z-ranger deck %}

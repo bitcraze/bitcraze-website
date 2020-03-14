@@ -1,21 +1,22 @@
 ---
 layout: page-left-menu
-title: Getting started with expansion decks 
-permalink: /getting-started-with-expansion-decks/
+title: Getting started with expansion decks
 page_id: getting-started-expansion-decks
+redirects:
+  - /getting-started-with-expansion-decks/
 ---
 
 {% si_intro Expansion decks %}
-The Crazyflie 2.X is equipped with a flexible expansion port that enables new 
-hardware to be connected. The port is available from both sides of the Crazyflie 
-to keep as many options open as possible. The port is used by expansion decks 
-to provide new functionality to the Crazyflie 2.X and since the port is 
+The Crazyflie 2.X is equipped with a flexible expansion port that enables new
+hardware to be connected. The port is available from both sides of the Crazyflie
+to keep as many options open as possible. The port is used by expansion decks
+to provide new functionality to the Crazyflie 2.X and since the port is
 available from both sides it is possible to attach two decks at the same time.
 {% endsi_intro %}
 
 {% si_step attaching a deck %}
-**BE AWARE** that it is very important to mount an expansion deck with the 
-**CORRECT ORIENTATION**, or the deck might be damaged. Always make sure the 
+**BE AWARE** that it is very important to mount an expansion deck with the
+**CORRECT ORIENTATION**, or the deck might be damaged. Always make sure the
 Crazyflie 2.X is powered off before mounting or unmounting a deck.
 
 Look for the small symbols that show which side is up and down, the dot is up and the cross is down.

@@ -1,8 +1,9 @@
 ---
 layout: page-left-menu
 title: Getting started with the STEM drone bundle
-permalink: /getting-started-with-stem-drone-bundle/
 page_id: getting-started-stem-drone-bundle
+redirects:
+  - /getting-started-with-stem-drone-bundle/
 ---
 
 {% si_intro The STEM drone bundle %}
@@ -107,7 +108,7 @@ if __name__ == '__main__':
         with MotionCommander(scf) as mc:
             print('Taking off!')
             time.sleep(1)
-            
+
             # There is a set of functions that move a specific distance
             # We can move in all directions
             print('Moving forward 0.5m')
@@ -140,11 +141,11 @@ if __name__ == '__main__':
             print('Landing!')
 ```
 
-Run the script by pressing F5. 
+Run the script by pressing F5.
 
-**Note**: If you have the python client open, make sure the Crazyflie is disconnected from it. 
-The Crazyradio does not support connections from multiple programs simultaneously and 
-the script will not work if the Crazyflie still is connected to the python client. 
+**Note**: If you have the python client open, make sure the Crazyflie is disconnected from it.
+The Crazyradio does not support connections from multiple programs simultaneously and
+the script will not work if the Crazyflie still is connected to the python client.
 
 The output should look similar to this.
 
@@ -175,5 +176,3 @@ Landing!
 * Connect a gamepad and with the [flow deck](/getting-started-with-flow-deck/) try optical flow stabilized flight.
 * Add one of the many [expansion deck boards](https://store.bitcraze.io/collections/decks), build your own deck using [prototyping deck](/prototyping-deck/) or even design it from ground up using the KiCad [deck template](https://github.com/bitcraze/crazyflie2-exp-template-electronics).
 {% endsi_step %}
-
-
