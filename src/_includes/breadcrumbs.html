@@ -1,0 +1,23 @@
+<span id="breadcrumbs">
+    {%- assign crumbs = page.url | remove:'/index.html' | split: '/' -%}
+    <a href="/">Home</a>
+    {% for crumb in crumbs offset: 1 %}
+      {% if forloop.last %}
+        / {{ page.title }}
+      {% else %}
+        {%- assign crumb_limit = forloop.index | plus: 1 -%}
+        {%- capture crumb_url -%}
+          {%- for crumb in crumbs limit: crumb_limit -%}
+             {{ crumb | append: '/' }}
+          {%- endfor -%}
+        {%- endcapture -%}
+
+        {%- assign p = site.pages | where:"url",crumb_url | first -%}
+        {%- if p and p.title -%}
+          / <a href="{{crumb_url}}">{{p.title}}</a>
+        {%- else -%}
+          / {{ crumb | replace:'-',' ' | remove:'.html' | capitalize }}
+        {%- endif -%}
+      {% endif %}
+    {% endfor %}
+</span>

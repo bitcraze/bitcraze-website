@@ -305,27 +305,37 @@ table {
   padding-right: 10%;
 }
 
-// Docs
-.docs-version-dropdown {
-    input, .docs-version-dropdown-submenu {
-        display: none;
-    }
+// Breadcrumbs
+.breadcrumbs {
+    .docs-version-dropdown {
+        input, .docs-version-dropdown-submenu {
+            display: none;
+            a {
+                color: $breadcrumbs-version-color;
+            }
+        }
 
-    label {
-        position: relative;
-        cursor: pointer;
-    }
+        label {
+            position: relative;
+            cursor: pointer;
+            margin-bottom: 0px;
+        }
 
-    // show the submenu when input is checked
-    input:checked~.docs-version-dropdown-submenu {
-        display: inline;
+        // show the submenu when input is checked
+        input:checked~.docs-version-dropdown-submenu {
+            display: inline;
+        }
     }
 
     a {
-        color: black;
+        color: $breadcrumbs-link-color;
+        font-weight: $breadcrumbs-link-weight;
     }
+
+    margin-bottom: $breadcrumbs-margin-bottom;
 }
 
+// Docs
 .doc-section-image {
     img {
         max-width: 200px;
