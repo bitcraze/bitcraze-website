@@ -33,11 +33,11 @@ latency 2.4 GHz radio.
 
 #### Resources
 
-- [Loco Positioning system](/loco-pos-system/)
-- [Start here](/start/)
-- [Buyers guide](/crazyflie-2-0-buyers-guide/)
-- [FAQ](/frequently-asked-questions-Crazyflie-2.0/)
-- [Getting help](/getting-help/)
+- [Loco Positioning system](/products/loco-positioning-system/)
+- [Start here](/tutorials/start/)
+- [Buyers guide](/buy/buyers-guide/)
+- [FAQ](/support/f-a-q/)
+- [Getting help](/support/getting-help/)
 - [Wiki](https://wiki.bitcraze.io/projects:lps:roadrunner)
 - [Specifications](https://store.bitcraze.io/collections/positioning/products/roadrunner)
 
@@ -45,4 +45,4 @@ latency 2.4 GHz radio.
 
 #### Tutorials
 
-* [Getting started with the Loco Positioning system](/getting-started-with-the-loco-positioning-system/)
+* [Getting started with the Loco Positioning system](/tutorials/getting-started-with-loco-positioning-system/)

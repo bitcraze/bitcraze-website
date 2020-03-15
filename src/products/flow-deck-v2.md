@@ -38,11 +38,11 @@ This creates a flying 3D robot that can be pre-programmed to fly distances in an
 
 #### Resources
 
-- [Start here](/start/)
-- [Buyers guide](/crazyflie-2-0-buyers-guide/)
-- [Development](/development-overview/)
-- [FAQ](/frequently-asked-questions-Crazyflie-2.0/)
-- [Getting help](/getting-help/)
+- [Start here](/tutorials/start/)
+- [Buyers guide](/buy/buyers-guide/)
+- [Development](/development/development-overview/)
+- [FAQ](/support/f-a-q/)
+- [Getting help](/support/getting-help/)
 - [Wiki](https://wiki.bitcraze.io/projects:crazyflie2:expansionboards:flow-v2)
 - [Specifications](https://store.bitcraze.io/products/flow-deck-v2)
 
@@ -50,4 +50,4 @@ This creates a flying 3D robot that can be pre-programmed to fly distances in an
 
 #### Tutorials
 
-[Getting started with the Flow deck](/getting-started-with-flow-deck/)
+[Getting started with the Flow deck](/tutorials/getting-started-with-flow-deck/)

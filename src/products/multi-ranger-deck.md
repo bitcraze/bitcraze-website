@@ -27,7 +27,7 @@ Interactivity;
 Interact with the world around
 %}
 
-With the Multi-ranger deck and the [Flow deck](/flow-deck-v2), the Crazyflie becomes an interactive autonomous platform.
+With the Multi-ranger deck and the [Flow deck](/products/flow-deck-v2/), the Crazyflie becomes an interactive autonomous platform.
 It gets the capability to sense the space around it and could react when something is close and for instance avoid obstacles.
 
 It also allows to start working on environment-aware problems like Simultaneous Localization And Mapping (SLAM) algorithms.
@@ -41,16 +41,16 @@ It also allows to start working on environment-aware problems like Simultaneous 
 
 #### Resources
 
-- [Start here](/start/)
-- [Buyers guide](/crazyflie-2-0-buyers-guide/)
-- [Development](/development-overview/)
-- [FAQ](/frequently-asked-questions-Crazyflie-2.0/)
-- [Getting help](/getting-help/)
+- [Start here](/tutorials/start/)
+- [Buyers guide](/buy/buyers-guide/)
+- [Development](/development/development-overview/)
+- [FAQ](/support/f-a-q/)
+- [Getting help](/support/getting-help/)
 - [Wiki](https://wiki.bitcraze.io/projects:crazyflie2:expansionboards:multi-ranger)
 
 ---
 
 #### Tutorials
 
- - [Getting started with expansion decks](/getting-started-with-expansion-decks/)
- - [Getting started with the STEM ranging bundle](/getting-started-with-stem-ranging-bundle)
+ - [Getting started with expansion decks](/tutorials/getting-started-with-expansion-decks/)
+ - [Getting started with the STEM ranging bundle](/tutorials/getting-started-with-stem-ranging-bundle/)

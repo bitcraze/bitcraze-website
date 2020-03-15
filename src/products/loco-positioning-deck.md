@@ -23,22 +23,22 @@ absolute position of the Crazyflie 2.X in the room, which can be used for
 autonomous flight. The position is calculated on-board of the Crazyflie and there
 is no need for an external computer for position estimation.
 
-[Read more about the Loco Positioning system](/loco-pos-system/)
+[Read more about the Loco Positioning system](/products/loco-positioning-system/)
 
 This product is intended to be used together with
-[Loco Positioning Nodes](/loco-pos-node/) and can not be used standalone.
+[Loco Positioning Nodes](/products/loco-positioning-node/) and can not be used standalone.
 
 ---
 
 
 #### Resources
 
-- [Loco positioning system](/loco-pos-system/)
-- [Start here](/start/)
-- [Buyers guide](/crazyflie-2-0-buyers-guide/)
-- [Development](/development-overview/)
-- [FAQ](/frequently-asked-questions-Crazyflie-2.0/)
-- [Getting help](/getting-help/)
+- [Loco positioning system](/products/loco-positioning-system/)
+- [Start here](/tutorials/start/)
+- [Buyers guide](/buy/buyers-guide/)
+- [Development](/development/development-overview/)
+- [FAQ](/support/f-a-q/)
+- [Getting help](/support/getting-help/)
 - [Wiki](https://wiki.bitcraze.io/projects:lps:deck)
 - [Specifications](https://store.bitcraze.io/collections/decks/products/loco-positioning-deck)
 
@@ -47,5 +47,5 @@ This product is intended to be used together with
 
 #### Tutorials
 
-* [Getting started with expansion decks](/getting-started-with-expansion-decks/)
-* [Getting started with the Loco Positioning system](/getting-started-with-the-loco-positioning-system/)
+* [Getting started with expansion decks](/tutorials/getting-started-with-expansion-decks/)
+* [Getting started with the Loco Positioning system](/tutorials/getting-started-with-loco-positioning-system/)

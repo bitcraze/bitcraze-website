@@ -29,11 +29,11 @@ pinouts.
 
 #### Resources
 
-- [Start here](/start/)
-- [Buyers guide](/crazyflie-2-0-buyers-guide/)
-- [Development](/development-overview/)
-- [FAQ](/frequently-asked-questions-Crazyflie-2.0/)
-- [Getting help](/getting-help/)
+- [Start here](/tutorials/start/)
+- [Buyers guide](/buy/buyers-guide/)
+- [Development](/development/development-overview/)
+- [FAQ](/support/f-a-q/)
+- [Getting help](/support/getting-help/)
 - [Wiki](https://wiki.bitcraze.io/projects:crazyflie2:debugadapter:index)
 - [Specifications](https://store.bitcraze.io/products/debug-adapter)
 
@@ -41,4 +41,4 @@ pinouts.
 
 #### Tutorials
 
-[Getting started with development](/getting-started-with-development/)
+[Getting started with development](/tutorials/getting-started-with-development/)

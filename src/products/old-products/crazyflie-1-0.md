@@ -6,7 +6,7 @@ redirects:
 ---
 
 
-{% notice_info This product is discontinued and has been replaced with <a href="/crazyflie-2/">Crazyflie 2.1</a> %}
+{% notice_info This product is discontinued and has been replaced with <a href="/products/crazyflie-2-1/">Crazyflie 2.1</a> %}
 
 {% img Crazyflie; medium; /images/crazyflie_page.png %}
 
@@ -30,7 +30,7 @@ Nano Quadcopter.
 
 The Crazyflie Nano Quadcopter is part of the Crazyflie platform. The platform
 consists of several different components, like the
-[Crazyradio](/crazyradio/), the development environment and the host PC and
+[Crazyradio](/products/old-products/crazyradio/), the development environment and the host PC and
 Android applications.
 
 ## Quadcopter specifications
@@ -57,7 +57,7 @@ Android applications.
 The Crazyflie Nano Quadcopter can of course be flown just because it's fun, but
 the main usage is as a development, teaching or experimentation platform. To
 get some ideas of what's possible to work with have a look at
-[our development page](/development-overview/) or at our release video below.
+[our development page](/development/development-overview/) or at our release video below.
 
 {% youtube 3WBUVYZkODI; medium; 16by9 %}
 

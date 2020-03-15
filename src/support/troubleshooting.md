@@ -10,13 +10,13 @@ redirects:
 {% endsi_intro %}
 
 {% si_step Update to latest cfclient %}
-Follow this guide to update to the [latest cfclient.](/getting-started-with-the-crazyflie-2-0/#update-src)
-Then proceed with [updating](/getting-started-with-the-crazyflie-2-0/#update-fw) the firmware.
+Follow this guide to update to the [latest cfclient.](/tutorials/getting-started-with-crazyflie-2-x/#update-src)
+Then proceed with [updating](/tutorials/getting-started-with-crazyflie-2-x/#update-fw) the firmware.
 {% endsi_step %}
 
 {% si_step Update to latest firmware %}
-Follow this guide to download the [latest firmware.](/getting-started-with-the-crazyflie-2-0/#latest-fw)
-Then proceed with [updating](/getting-started-with-the-crazyflie-2-0/#update-fw) the firmware.
+Follow this guide to download the [latest firmware.](/tutorials/getting-started-with-crazyflie-2-x/#latest-fw)
+Then proceed with [updating](/tutorials/getting-started-with-crazyflie-2-x/#update-fw) the firmware.
 {% endsi_step %}
 
 {% si_intro Crazyflie 2.X Android client does not connect %}
@@ -51,7 +51,7 @@ Check that the Crazyflie 2.X is well balanced and adjust the battery and connect
 {% endsi_step %}
 
 {% si_step Balance propellers %}
-Vibration is a normal cause for decreased flight performance. Try balancing the propellers using [this](/balancing-propellers) guide
+Vibration is a normal cause for decreased flight performance. Try balancing the propellers using [this](/tutorials/balancing-propellers/) guide
 {% endsi_step %}
 
 {% si_step Check that all propellers turn freely%}

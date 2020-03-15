@@ -71,4 +71,4 @@ redirects:
 {% distributor Unmanned tech; https://www.unmannedtechshop.co.uk/?s=bitcraze&post_type=product&title=1&excerpt=1&content=1&categories=1&attributes=0&tags=0&sku=1&orderby=date-DESC&ixwps=1; /images/distributors/unmanned_tech.png %}
 
 {% continent For retailers %}
-If you would like to sell our products or if you already are carrying our products but you are not in the list then please [drop us an email](/contact/).
+If you would like to sell our products or if you already are carrying our products but you are not in the list then please [drop us an email](/about/contact/).

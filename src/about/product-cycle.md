@@ -45,7 +45,7 @@ also where we hope the community is interested in helping out. We will run
 this as an open project in collaboration with the community to design and
 implement the software.
 
-[Read more about how "Early access" works from a developer point of view.](/early-access/)
+[Read more about how "Early access" works from a developer point of view.](/development/early-access/)
 
 ## Product phase
 

@@ -307,13 +307,13 @@ swarms of up to 50 Crazyflies.
 
 
 ## Used in
-* [Research](/research/)
-* [Education](/education/)
+* [Research](/portals/research/)
+* [Education](/portals/education/)
 * [Development](/portals/development/)
-* [Do-it-yourself](/diy/)
+* [Do-it-yourself](/portals/diy/)
 
 ## More information
-* [Frequently asked questions](/frequently-asked-questions-Crazyflie-2.0/)
-* [Getting started with the Crazyflie 2.X](/getting-started-with-the-crazyflie-2-0/)
-* [Getting started with expansion decks](/getting-started-with-expansion-decks/)
-* [Getting started with development](/getting-started-with-development/)
+* [Frequently asked questions](/support/f-a-q/)
+* [Getting started with the Crazyflie 2.X](/tutorials/getting-started-with-crazyflie-2-x/)
+* [Getting started with expansion decks](/tutorials/getting-started-with-expansion-decks/)
+* [Getting started with development](/tutorials/getting-started-with-development/)

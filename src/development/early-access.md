@@ -18,7 +18,7 @@ are probably drivers to communicate with the hardware, but no higher level
 functionality is implemented yet.
 
 You can read more about how "Early access" fits in the bigger picture on the
-[product cycle](/product-cycle/) page.
+[product cycle](/about/product-cycle/) page.
 
 ## Collaborate
 

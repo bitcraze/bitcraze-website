@@ -5,7 +5,7 @@ redirects:
   - /crazyflie-2/
 ---
 
-{% notice_info This product is discontinued and has been replaced with <a href="/crazyflie-2-1/">Crazyflie 2.1</a> %}
+{% notice_info This product is discontinued and has been replaced with <a href="/products/crazyflie-2-1/">Crazyflie 2.1</a> %}
 
 {% product_img Crazyflie 2.0; medium;
 /images/Crazyflie2.0/Crazyflie2.0-585px.JPG
@@ -21,7 +21,7 @@ All you need and a bit more
 
 It's not only a good flyer, the Crazyflie 2.0 is also equipped with low-latency/long-range
 radio as well as Bluetooth LE. This gives you the option of downloading our app and using your mobile device as a controller or,
-in combination with the [Crazyradio PA](/crazyradio-pa/), using your computer to display data and fly with a game
+in combination with the [Crazyradio PA](/products/crazyradio-pa/), using your computer to display data and fly with a game
 controller.
 
 
@@ -134,7 +134,7 @@ Or, why not clone our iOS repository and get into some ObjectiveC/Swift.
 
 If you are into embedded systems, the STM32F405 has a lot of processor power you can use for doing experiments, making improvements and adding new features. The expansion decks allow you to experiment, prototype and design your own hardware.
 
-Take a look in the [Development section](/development-overview/) to get started.
+Take a look in the [Development section](/development/development-overview/) to get started.
 
 By the way, it's fun to just fly it too!
 {% endcollapse_section %}
@@ -173,11 +173,11 @@ it's a breeze to update.
 
 #### Resources
 
-- [Start here](/start/)
-- [Buyers guide](/crazyflie-2-0-buyers-guide/)
-- [Development](/development-overview/)
-- [FAQ](/frequently-asked-questions-Crazyflie-2.0/)
-- [Getting help](/getting-help/)
+- [Start here](/tutorials/start/)
+- [Buyers guide](/buy/buyers-guide/)
+- [Development](/development/development-overview/)
+- [FAQ](/support/f-a-q/)
+- [Getting help](/support/getting-help/)
 - [Wiki](https://wiki.bitcraze.io/projects:crazyflie2:index)
 - [Specifications](https://store.bitcraze.io/products/crazyflie-2-0)
 
@@ -185,4 +185,4 @@ it's a breeze to update.
 
 #### Tutorials
 
-[Getting started with the Crazyflie 2.0](/getting-started-with-the-crazyflie-2-0/)
+[Getting started with the Crazyflie 2.0](/tutorials/getting-started-with-crazyflie-2-x/)

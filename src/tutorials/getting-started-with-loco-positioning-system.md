@@ -23,12 +23,12 @@ TWR use while we recommend 8 anchors for the TDoA mode.
 {% si_step  Update the Crazyflie to the latest loco positioning firmware %}
 
 To be able to use the Loco positioning system you need to update the Crazyflie to the latest firmware.
-For more information on how to update the firmware, see the [download latest firmware](/getting-started-with-the-crazyflie-2-0/#latest-fw) section in our
-[Getting started with Crazyflie 2.X tutorial](/getting-started-with-the-crazyflie-2-0/).
+For more information on how to update the firmware, see the [download latest firmware](/tutorials/getting-started-with-crazyflie-2-x/#latest-fw) section in our
+[Getting started with Crazyflie 2.X tutorial](/tutorials/getting-started-with-crazyflie-2-x/).
 
 You will also need the latest version of the [Crazyflie client](https://github.com/bitcraze/crazyflie-clients-python/releases).
 
-For mounting the Loco positioning deck check out the [Getting started with expansion decks](/getting-started-with-expansion-decks/) tutorial.
+For mounting the Loco positioning deck check out the [Getting started with expansion decks](/tutorials/getting-started-with-expansion-decks/) tutorial.
 {% endsi_step %}
 
 {% si_intro Preparing the anchors %}
@@ -263,7 +263,7 @@ If not all anchor boxes go green, please see the [wiki for touble shooting](http
 
 {% si_intro Next step %}
 Now when you got the basic functionality of the system up and running you might
-want to try [to fly using Loco Positioning](/getting-started-with-assisted-flight-position-hold).
+want to try [to fly using Loco Positioning](/tutorials/getting-started-with-flying-using-lps/).
 
 To read the more techy documentation go to the [Loco positioning wiki page](https://wiki.bitcraze.io/doc:lps:index).
 {% endsi_intro %}

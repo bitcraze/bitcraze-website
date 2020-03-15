@@ -47,7 +47,7 @@ As with all radio communication it depends. It depends on the environment, radio
 {% endcollapse_section %}
 
 {% collapse_section Can I use a normal R/C transmitter to control the Crazyflie 2.X? %}
-This can be done with the [BigQuad expansion deck](/bigquad-deck/). It's working, but not yet a turn-key solution.
+This can be done with the [BigQuad expansion deck](/products/bigquad-deck/). It's working, but not yet a turn-key solution.
 {% endcollapse_section %}
 
 {% collapse_section How durable is the Crazyflie 2.X? %}
@@ -63,7 +63,7 @@ Yes, The firmware and python client are working with the Crazyflie 1.0.
 {% endcollapse_section %}
 
 {% collapse_section Can the Crazyflie 2.X be used to control a bigger quadcopter? %}
-Yes, it can. With the [BigQuad expansion deck](/bigquad-deck/).
+Yes, it can. With the [BigQuad expansion deck](/products/bigquad-deck/).
 {% endcollapse_section %}
 
 {% collapse_section Can I do FPV (first person view) flying with a Crazyflie 2.X? %}
@@ -74,14 +74,14 @@ There is ongoing development in this area:
 
 {% collapse_section Can the Crazyflie 2.X fly autonomously? %}
 The Crazyflie 2.X does not have enough sensors to locate itself in the environment as is, it requires more information to do that.
-The easiest way to acheive that is to add the [Flow deck](/flow-deck/). It tells the Crazyflie how it moves relative to the floor and
-thus enables it to fly autonomously. See the [product page](/flow-deck/) for more information.
+The easiest way to acheive that is to add the [Flow deck V2](/products/flow-deck-v2/). It tells the Crazyflie how it moves relative to the floor and
+thus enables it to fly autonomously. See the [product page](/products/flow-deck-v2/) for more information.
 
 With an external positioning system the Crazyflie will even understand its absolute
 position which gives it even more possibilities when it comes to autonomous flight.
 Outdoors the Crazyflie could use a GPS receiver to achieve autonomous flight but indoors some other positioning system is required.
 
-Bitcraze is manufacturing a radio based local positioning system called the [Loco Positioning system](/loco-pos-system/) that allows the Crazyflie 2.X to fly autonomously in a room. Find out more on the [product page](/loco-pos-system/).
+Bitcraze is manufacturing a radio based local positioning system called the [Loco Positioning system](/products/loco-positioning-system/) that allows the Crazyflie 2.X to fly autonomously in a room. Find out more on the [product page](/products/loco-positioning-system/).
 
 Researchers often use motion capture systems, like [Qualisys](https://www.qualisys.com) or [Vicon](http://www.vicon.com/), to fly the Crazyflie autonomously, usually controlling it from an outside computer. For example this research from MIT is using such a system together with a powerful control algorithm: <https://www.youtube.com/watch?v=v-s564NoAu0>
 

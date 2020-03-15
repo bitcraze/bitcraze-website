@@ -31,10 +31,10 @@ Crazyflie.
 
 #### Resources
 
-- [Start here](/start/)
-- [Buyers guide](/crazyflie-2-0-buyers-guide/)
-- [FAQ](/frequently-asked-questions-Crazyflie-2.0/)
-- [Getting help](/getting-help/)
+- [Start here](/tutorials/start/)
+- [Buyers guide](/buy/buyers-guide/)
+- [FAQ](/support/f-a-q/)
+- [Getting help](/support/getting-help/)
 - [Wiki](https://wiki.bitcraze.io/projects:crazyflie2:expansionboards:qi1_2)
 - [Specifications](https://store.bitcraze.io/collections/decks/products/qi-1-2-wireless-charging-deck)
 
@@ -42,4 +42,4 @@ Crazyflie.
 
 #### Tutorials
 
-- [Getting started with expansion decks](/getting-started-with-expansion-decks/)
+- [Getting started with expansion decks](/tutorials/getting-started-with-expansion-decks/)

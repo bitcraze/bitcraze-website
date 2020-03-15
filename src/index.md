@@ -13,7 +13,7 @@ page_id: home
         <h1>Make your ideas fly!</h1>
         <div class="header_buttons">
           <a href="https://store.bitcraze.io/" class="btn btn-primary btn-block btn-color-primary">Shop</a>
-          <a href="/start/" class="btn btn-primary btn-block btn-color-secondary">Getting started</a>
+          <a href="/tutorials/start/" class="btn btn-primary btn-block btn-color-secondary">Getting started</a>
           <a href="https://github.com/bitcraze" class="mobile_hidden_button btn btn-primary btn-block btn-color-secondary">Github</a>
         </div>
       </div>
@@ -261,7 +261,7 @@ page_id: home
 <!-- Research portal -->
   <div class="row">
     <div class="col-md-4 portal-padding">
-      <a href="/research/">
+      <a href="/portals/research/">
         <div class="text-box_portals text-box_research">
           <h3>Ideal for many areas of research</h3>
             <p>The platform is designed to be as flexible and versatile as possible to enable the user to explore any area of interest, for instance control algorithms, swarms, path finding, agriculture or failure recovery.
@@ -271,14 +271,14 @@ page_id: home
     </div>
 
     <div class="col-md-8 portal-padding">
-      <a href="/research/"><img src="images/frontpage/research_portal.jpg" alt="Used in research"></a>
+      <a href="/portals/research/"><img src="images/frontpage/research_portal.jpg" alt="Used in research"></a>
     </div>
   </div>
 
 <!-- Education portal -->
   <div class="row">
     <div class="col-md-4 col-md-push-7 col-md-offset-1 portal-padding">
-      <a href="/education/">
+      <a href="/portals/education/">
         <div class="text-box_portals text-box_education">
           <h3>Bring the latest in robotics to your students</h3>
             <p>The crazyflie is a versatile platform that is designed to engage people in learning about robotics and quadcopters.
@@ -288,7 +288,7 @@ page_id: home
       </a>
     </div>
     <div class="col-md-7 col-md-pull-4 portal-padding">
-      <a href="/education/"><img src="images/frontpage/education_portal.jpg" alt="Used in education"></a>
+      <a href="/portals/education/"><img src="images/frontpage/education_portal.jpg" alt="Used in education"></a>
     </div>
   </div>
 
@@ -317,7 +317,7 @@ page_id: home
 <!-- DIY portal -->
   <div class="row">
     <div class="col-md-4 portal-padding">
-      <a href="/diy/">
+      <a href="/portals/diy/">
         <div class="text-box_portals text-box_diy">
           <h3>Do it yourself</h3>
             <p>Love to fly? Like to tinker? Want to modify and explore? Hate limitations and closed systems? The Crazyflie is for you!
@@ -326,7 +326,7 @@ page_id: home
       </a>
     </div>
     <div class="col-md-8 portal-padding">
-      <a href="/diy/"><img src="images/frontpage/diy_portal.jpg" alt="DIY"></a>
+      <a href="/portals/diy/"><img src="images/frontpage/diy_portal.jpg" alt="DIY"></a>
     </div>
   </div>
 </div>

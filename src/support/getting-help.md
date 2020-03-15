@@ -11,7 +11,7 @@ redirects:
 
 {% si_step I'm having issues getting up and running %}
 Have a look at our Getting started guides in the menu above or the
-[Troubleshooing guide](/troubleshooting).
+[Troubleshooing guide](/support/troubleshooting/).
 {% endsi_step %}
 
 {% si_step I'm still having issues %}
@@ -22,13 +22,13 @@ best to help.
 {% endsi_step %}
 
 {% si_step I have more questions %}
-Have a look at our [FAQ](/frequently-asked-questions-Crazyflie-2.0/)
+Have a look at our [FAQ](/support/f-a-q/)
 or [Wiki](//wiki.bitcraze.io). If you're still not finding what you need post
 a new topic in the [Forum](//forum.bitcraze.io)
 {% endsi_step %}
 
 {% si_step I want to get involved! %}
-Have a look at our [contribution page](/contribute/).
+Have a look at our [contribution page](/development/contribute/).
 {% endsi_step %}
 
 {% si_step Where do I find technical documentation %}

@@ -15,7 +15,7 @@ applicable to any arduino-compatible board that has I2C and SPI support.
 {% si_step Hardware requirements %}
 To follow this getting started guide you will need:
 
- * A [Flow breakout board](/flow-breakout) with pin header soldered
+ * A [Flow breakout board](/products/flow-breakout/) with pin header soldered
  * An [Arduino UNO](https://store.arduino.cc/arduino-uno-rev3) or compatible
  * 8 Female/Male jumper cable
 {% endsi_step %}

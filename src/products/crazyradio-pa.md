@@ -57,11 +57,11 @@ range increase as with the Crazyflie 2.X.
 
 #### Resources
 
-- [Start here](/start/)
-- [Buyers guide](/crazyflie-2-0-buyers-guide/)
+- [Start here](/tutorials/start/)
+- [Buyers guide](/buy/buyers-guide/)
 - [Development](https://wiki.bitcraze.io/projects:crazyradiopa:index)
-- [FAQ](/frequently-asked-questions-Crazyflie-2.0/)
-- [Getting help](/getting-help/)
+- [FAQ](/support/f-a-q/)
+- [Getting help](/support/getting-help/)
 - [Wiki](https://wiki.bitcraze.io/doc:crazyradio:index)
 - [Specifications](https://store.bitcraze.io/products/crazyradio-pa)
 

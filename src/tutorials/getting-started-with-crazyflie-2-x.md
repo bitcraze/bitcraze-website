@@ -489,7 +489,7 @@ compensating for it.
 and verify that they turn. A common problem is that hair is jammed between the
 propeller and motor. If this is the problem. just pull the propeller off from the
 motor, remove the hair and reinstall the propeller.
-* Check that the propellers are balanced, [see the balancing propellers guide](/balancing-propellers/)
+* Check that the propellers are balanced, [see the balancing propellers guide](/tutorials/balancing-propellers/)
 {% endsi_step %}
 
 {% si_step charging the battery; charging %}

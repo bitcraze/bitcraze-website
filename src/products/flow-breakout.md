@@ -35,7 +35,7 @@ The Flow breakout features the VL53L0x ToF sensor and the PMW3901 optical flow s
 
 #### Resources
 
-- [Getting help](/getting-help/)
+- [Getting help](/support/getting-help/)
 - [Wiki](https://wiki.bitcraze.io/breakout:flow)
 - [PMW3901 Arduino library](https://github.com/bitcraze/Bitcraze_PMW3901)
 
@@ -49,4 +49,4 @@ The Flow breakout features the VL53L0x ToF sensor and the PMW3901 optical flow s
 
 #### Tutorials
 
-[Getting started with the Flow breakout board](/getting-started-flow-breakout/)
+[Getting started with the Flow breakout board](/tutorials/getting-started-flow-breakout/)

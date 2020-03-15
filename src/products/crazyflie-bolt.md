@@ -95,7 +95,7 @@ Or, why not clone our iOS repository and get into some ObjectiveC/Swift.
 
 If you are into embedded systems, the STM32F405 has a lot of processor power you can use for doing experiments, making improvements and adding new features. The expansion decks allow you to experiment, prototype and design your own hardware.
 
-Take a look in the [Development section](/development-overview/) to get started.
+Take a look in the [Development section](/development/development-overview/) to get started.
 
 By the way, it's fun to just fly it too!
 {% endcollapse_section %}
@@ -120,9 +120,9 @@ it's a breeze to update.
 
 #### Resources
 
-- [Start here](/start/)
-- [Buyers guide](/crazyflie-2-0-buyers-guide/)
-- [Development](/development-overview/)
-- [Getting help](/getting-help/)
+- [Start here](/tutorials/start/)
+- [Buyers guide](/buy/buyers-guide/)
+- [Development](/development/development-overview/)
+- [Getting help](/support/getting-help/)
 - [Wiki](https://wiki.bitcraze.io/projects:bolt:index)
 - [Specifications](https://store.bitcraze.io/products/crazyflie-bolt)

@@ -45,14 +45,14 @@ cases and applications.
 #### The Loco Positioning Deck
 
 The Loco Positioning Deck is a Crazyflie 2.X expansion deck with the Loco
-Positioning Tag functionality. Read more on the [Loco Positioning Deck page.](/loco-pos-deck/)
+Positioning Tag functionality. Read more on the [Loco Positioning Deck page.](/products/loco-positioning-deck/)
 
 #### The Loco Positioning Node
 
 The Loco Positioning Node is a multi functional node in a Loco Positioning system,
 it can act either as an Anchor or Tag. As an Anchor it is part of the reference base for
 the system while running in Tag mode it can be attached to an object to track,
-for instance a robot. Read more on the [Loco Positioning Node page.](/loco-pos-node/)
+for instance a robot. Read more on the [Loco Positioning Node page.](/products/loco-positioning-node/)
 
 #### Positioning modes
 
@@ -97,7 +97,7 @@ The Loco Positioning system has mainly been designed for indoor use.
 
 ## Getting started with Loco positioning
 
-We have created an easy to follow step-by-step guide for setting up the Loco positioning system that you will find [here](/getting-started-with-the-loco-positioning-system/). In the tutorial we use the [Indoor explorer bundle](https://store.bitcraze.io/collections/bundles/products/indoor-explorer-bundle) that you can buy directly from our [E-shop](https://store.bitcraze.io/). For more technical information about the Loco positioning system please visit our [wiki](https://wiki.bitcraze.io/doc:lps:index).
+We have created an easy to follow step-by-step guide for setting up the Loco positioning system that you will find [here](/tutorials/getting-started-with-loco-positioning-system/). In the tutorial we use the [Indoor explorer bundle](https://store.bitcraze.io/collections/bundles/products/indoor-explorer-bundle) that you can buy directly from our [E-shop](https://store.bitcraze.io/). For more technical information about the Loco positioning system please visit our [wiki](https://wiki.bitcraze.io/doc:lps:index).
 
 ## Used by Lund University
 
