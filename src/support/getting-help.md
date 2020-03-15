@@ -1,8 +1,9 @@
 ---
 layout: page-left-menu
 title: Getting help
-permalink: /getting-help/
 page_id: support-getting-help
+redirects:
+  - /getting-help/
 ---
 
 {% si_intro Product/software issues %}

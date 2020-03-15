@@ -1,8 +1,9 @@
 ---
 layout: page-portal
 title: Used in research
-permalink: /research/
 page_id: research
+redirects:
+  - /research/
 ---
 
 {% img Flight lab; wide; /images/portals/research/industry_portal.JPG %}
@@ -197,4 +198,3 @@ Leobardo Campos-Macías, David Gómez-Gutiérrez, Rodrigo Aldana-López, Rafael 
 <div class="col-md-12">
   <p class="text-right">Want to add a publication? <a href="https://github.com/bitcraze/bitcraze-website/edit/master/src/{{page.path}}"><i class="fa fa-pencil"></i> &nbsp;Improve this page</a></p>
 </div>
-

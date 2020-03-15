@@ -1,8 +1,9 @@
 ---
 layout: page-left-menu
 title: Troubleshooting
-permalink: /troubleshooting/
 page_id: support-troubleshooting
+redirects:
+  - /troubleshooting/
 ---
 
 {% si_intro Crazyflie 2.X Python cfclient connects but does not communicate %}
@@ -33,7 +34,7 @@ Do not pair your Android device to the Crazyflie 2.X like other Bluetooth device
 {% endsi_intro %}
 
 {% si_step Make sure propellers are mounted correctly %}
-Check that the propellers are mounted on the correct motor. Check each propeller 
+Check that the propellers are mounted on the correct motor. Check each propeller
 to see if it is a clock wise or a counter clock wise turning propeller and mount it according to the detailed view below.
 {% img Crazyflie 2.X propeller mounting; medium; /images/getting-started/cf2_props.png %}
 {% endsi_step %}
@@ -60,4 +61,3 @@ Check for hair stuck in any of the propellers/motors. It can also be that one of
 {% si_step Check for bent motor axis %}
 Check each motor axis if it is bent as it causes vibration. This can be done by either applying a bit of thrust from a client or by blowing on the propeller and looking at the axis from above. If it is bent it might be possible to straighten it with a pair of pliers. If that doesn't work the motor needs to be replaced.
 {% endsi_step %}
-

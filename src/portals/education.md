@@ -1,8 +1,9 @@
 ---
 layout: page-portal
 title: Used in education
-permalink: /education/
 page_id: education
+redirects:
+  - /education/
 ---
 
 {% img Lecture; wide; /images/portals/education/portal-education-header.jpg %}

@@ -294,7 +294,7 @@ page_id: home
 
   <div class="row">
     <div class="col-md-4 col-md-push-7 col-md-offset-1 portal-padding development-portal">
-      <a href="/development/">
+      <a href="/portals/development/">
         <div class="text-box_portals text-box_development">
           <h3>The perfect development tool for your flying application</h3>
             <p>Prototype your flying application in the comfort of your lab.
@@ -305,7 +305,7 @@ page_id: home
     </div>
 
     <div class="col-md-7 col-md-pull-4 portal_img_development portal-padding video-style">
-      <a href="/development/">
+      <a href="/portals/development/">
         <video autobuffer controls autoplay muted loop>
           <source src="/videos/solderingVideo.mp4" type="video/mp4">
         </video>

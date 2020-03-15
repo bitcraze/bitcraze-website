@@ -1,8 +1,9 @@
 ---
 layout: page-portal
 title: DIY
-permalink: /diy/
 page_id: diy
+redirects:
+  - /diy/
 ---
 
 {% img Paper dragon shell; wide; /images/portals/portal-diy-header.jpg %}

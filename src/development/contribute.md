@@ -1,8 +1,9 @@
 ---
 layout: page
 title: Contribute
-permalink: /contribute/
 page_id: contribute
+redirects:
+  - /contribute/
 ---
 
 Open source is about sharing, creating something awesome together and contribute
@@ -13,7 +14,7 @@ discoveries.
 
 ## How to contribute
 
-There are many ways to contribute, here are some examples  
+There are many ways to contribute, here are some examples
 
 * Answer a question on the [forum](//forum.bitcraze.io)
 * Add a hack to [Hackster](https://www.hackster.io/bitcraze)
@@ -21,7 +22,7 @@ There are many ways to contribute, here are some examples
 * Add an issue to one of the [repos on github](https://github.com/bitcraze) with a
   suggestion for an improvement or a bug report. Or maybe get involved in the
   discussion on an issue?
-* Add or update the [wiki](//wiki.bitcraze.io). Send us an email at contact@bitcraze.io 
+* Add or update the [wiki](//wiki.bitcraze.io). Send us an email at contact@bitcraze.io
   to get a user account and get started.
 * Improve this web site. [The source code is on github](https://github.com/bitcraze/bitcraze-website),
   submit a pull request for your improvements.
@@ -31,11 +32,11 @@ There are many ways to contribute, here are some examples
 
 ## Contributing in github
 
-The source code for firmware, clients, tools and the web site are hosted on github. 
-We use pull requests for code contributions, read more about how it works on 
-[github](https://help.github.com/articles/about-pull-requests/). 
+The source code for firmware, clients, tools and the web site are hosted on github.
+We use pull requests for code contributions, read more about how it works on
+[github](https://help.github.com/articles/about-pull-requests/).
 
-There is a contribute.md file in each project that describes the requirements in that 
+There is a contribute.md file in each project that describes the requirements in that
 specific project when it comes to coding style, unit testing and so on.
 
 ## Getting help with contributions
@@ -44,6 +45,6 @@ Maybe you want to contribute but don't know what to do? Need help
 to find the right solution? Not sure of how to write a unit test?
 We are here to help you!
 
-Post a question in the [forum](//forum.bitcraze.io), add an issue on 
+Post a question in the [forum](//forum.bitcraze.io), add an issue on
 [github](https://github.com/bitcraze) or drop us an email at
 contact@bitcraze.io to get help.

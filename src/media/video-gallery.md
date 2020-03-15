@@ -1,8 +1,9 @@
 ---
 layout: page
 title: Video gallery
-permalink: /videogallery/
 page_id: videogallery
+redirects:
+  - /videogallery/
 ---
 
 {% media_gallery %}

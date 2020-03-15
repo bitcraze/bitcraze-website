@@ -1,8 +1,9 @@
 ---
 layout: page
 title: Development overview
-permalink: /development-overview/
 page_id: development-overview
+redirects:
+  - /development-overview/
 ---
 
 ## Quick links

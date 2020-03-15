@@ -1,8 +1,9 @@
 ---
 layout: page
 title: Buyers guide
-permalink: /crazyflie-2-0-buyers-guide/
 page_id: buy-guide
+redirects:
+  - /crazyflie-2-0-buyers-guide/
 ---
 
 ## I want to detect and measure motion using an Arduino or Raspberry Pi
@@ -37,7 +38,7 @@ The [Crazyradio PA](https://store.bitcraze.io/products/crazyradio-pa)
 enables you to connect the Crazyflie 2.X
 to a computer wireless and download new firmware, modified to your liking. The logging and parameter
 frameworks provides APIs for getting and setting data in the Crazyflie 2.X live,
-even when you are flying!  
+even when you are flying!
 All software, firmware as well as clients on the computer is open source and the
 source code is available for you to play with as you like.
 
@@ -78,7 +79,7 @@ why not manufacture a [deck PCB](https://github.com/bitcraze/crazyflie2-exp-temp
 The Crazyflie 2.X is fun to fly as is but adding the LED-ring deck and flying
 in the dark adds a new dimension. The RGB LEDs lets you chose any colour and with
 some coding any light sequence can be displayed, for instance controlled by the
-on board sensors.      
+on board sensors.
 Why not take photos with an open shutter of a moving Crayflie 2.X and paint in
 the dark?
 
@@ -133,7 +134,7 @@ example could be an autonomous implementation where the Crazyflie is not connect
 via radio. The configuration can be written to a SD-card in a computer and the
 SD-card is transferred to the Crazyflie before it is started. This is also a
 way to separate configuration from hardware/firmware and avoid flashing
-different firmware to Crazyflie individuals.   
+different firmware to Crazyflie individuals.
 
 **What to buy:** [SD-card deck](https://store.bitcraze.io/products/sd-card-deck)
 
@@ -162,7 +163,7 @@ Note: the gamepad is not included
 ### The Flow deck
 
 The Flow deck takes it even further by also detecting the motion of the Crazyflie
-relative to the ground. This enables a flight mode where the pilot tells      
+relative to the ground. This enables a flight mode where the pilot tells
 the system which direction to go rather than the tilt of the quad copter, by
 releasing the controls the Crazyflie simply stays hovering on the spot.
 
@@ -174,35 +175,35 @@ Note: the gamepad is not included
 ## I want to add awareness of the surroundings to the Crazyflie
 
 The Multi-ranger deck measures the distance to objects forward/back/left/right and up.
-It can be used for obstacle avoidance, mapping a room or games where the 
+It can be used for obstacle avoidance, mapping a room or games where the
 Crazyflie 2.X "bounces" between the walls of a room.
-Combine with a Flow deck to measure the distance to the floor as well and 
-support autonomous flight.      
+Combine with a Flow deck to measure the distance to the floor as well and
+support autonomous flight.
 
 **What to buy:** [Getting started bundle](https://store.bitcraze.io/products/getting-started-bundle),
 [Multi-ranger deck](https://store.bitcraze.io/products/multi-ranger-deck)
-and [Flow deck](https://store.bitcraze.io/products/flow-deck-v2) or 
+and [Flow deck](https://store.bitcraze.io/products/flow-deck-v2) or
 [STEM ranging bundle](https://store.bitcraze.io/products/stem-ranging-bundle)
 
 ## I want to use the Crazyflie 2.X for education
 
 The Crazyflie is great for education, from younger kids getting acquainted with
-robotics and computers up to university level. 
+robotics and computers up to university level.
 
 ### The STEM drone bundle
 
 With the STEM drone bundle the Crayflie 2.X can fly autonomously using the Flow
 deck and it can be controlled from a remote computer using simple python scripts,
 perfect for getting started with robotics.
-For higher education, students can for instance re-implement the controller 
+For higher education, students can for instance re-implement the controller
 algorithms or similar for a real world robotics exercise. They can even bring
-the equipment home for extended studies and insights.  
+the equipment home for extended studies and insights.
 
 **What to buy:** [STEM drone bundle](https://store.bitcraze.io/products/stem-drone-bundle)
 
-### The STEM ranging bundle   
+### The STEM ranging bundle
 
-The STEM ranging bundle contains everything in the STEM drone bundle with the 
+The STEM ranging bundle contains everything in the STEM drone bundle with the
 addition of the Multi-ranger deck. The Multi-ranger makes it possible to interact
 with the Crazyflie 2.X or use it to map a room.
 
@@ -229,7 +230,7 @@ does not require any external systems and comes at a very good price.
 Since the position information is relative the Crazyflie does not really know
 where it is and any motion will be based on the starting position. Further more
 the position will drift over time, but in most cases autonomous flight can be
-maintained up to a minute.  
+maintained up to a minute.
 
 **What to buy:** [Getting started bundle](https://store.bitcraze.io/products/getting-started-bundle)
 and [Flow deck](https://store.bitcraze.io/products/flow-deck-v2)
@@ -246,7 +247,7 @@ computer. The location precision of the loco positioning system is about +/-10cm
 
 ### Camera based system
 
-Positioning systems that use external cameras (often called MoCap) 
+Positioning systems that use external cameras (often called MoCap)
 such as solutions from Qualisys or Vicon can be used to
 measure the position of a Crazyflie with high precision. In these systems the
 position is calculated in an external computer and either the position or commands
@@ -254,7 +255,7 @@ for pitch/roll/yaw/thrust must be sent to the Crazyflie in real time via radio.
 Depending of the camera system and its configuration the location precision of
 a camera motion tracking system can be down to millimeters.
 
-**What to buy:** Contact us for further information and solution support  
+**What to buy:** Contact us for further information and solution support
 
 ## I want to fly a swarm
 
@@ -271,7 +272,7 @@ Again, a key to swarming is the positioning technology and its properties.
 It is possible to fly small swarms (we have done 5) using the Flow deck. Since
 the path each Crazyflie follows is relative to its starting position this solution
 is sensitive to correct positioning and smooth take off. It is hard or impossible
-to recover from problems so it is not very reliable, but fun!  
+to recover from problems so it is not very reliable, but fun!
 
 **What to buy:** [Getting started bundles](https://store.bitcraze.io/products/getting-started-bundle)
 and [Flow decks](https://store.bitcraze.io/products/flow-deck-v2)
@@ -279,7 +280,7 @@ and [Flow decks](https://store.bitcraze.io/products/flow-deck-v2)
 ### The Loco Positioning System
 
 The default mode (Two way ranging) of the Loco Positioning system supports
-positioning of only one Crazyflie so to position multiple Crazyflies the system must 
+positioning of only one Crazyflie so to position multiple Crazyflies the system must
 be switched to the TDoA mode. The TDoA mode works like an
 indoor GPS system where the Crazyflies only listens to positioning information from the
 anchors which makes it possible to position a large number of drones.
@@ -302,13 +303,13 @@ for pitch/roll/yaw/thrust must be sent to the Crazyflies in real time via radio.
 There are frameworks (for examle [Crazy Swarm](https://github.com/USC-ACTLab/crazyswarm)) written by the community to handle these types of system and
 swarms of up to 50 Crazyflies.
 
-**What to buy:** Contact us for further information and solution support  
+**What to buy:** Contact us for further information and solution support
 
 
 ## Used in
 * [Research](/research/)
 * [Education](/education/)
-* [Development](/development/)
+* [Development](/portals/development/)
 * [Do-it-yourself](/diy/)
 
 ## More information

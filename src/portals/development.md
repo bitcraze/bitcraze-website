@@ -1,7 +1,6 @@
 ---
 layout: page-portal
 title: Used in development
-permalink: /development/
 page_id: development
 ---
 

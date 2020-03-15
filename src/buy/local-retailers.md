@@ -1,8 +1,9 @@
 ---
 layout: page-left-menu
 title: Local retailers
-permalink: /distributors/
 page_id: buy-retailers
+redirects:
+  - /distributors/
 ---
 
 {% continent World Wide %}

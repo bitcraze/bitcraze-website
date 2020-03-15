@@ -1,8 +1,9 @@
 ---
 layout: page-portal
 title: Used by the industry
-permalink: /industry/
 page_id: industry
+redirects:
+  - /industry/
 ---
 
 {% img Evaluation and reference platform; wide; /images/portals/portal-industry-header.JPG %}
@@ -20,7 +21,7 @@ The small size and light weight makes it safe to fly when meeting customers or i
 An expansion deck is a perfect reference and evaluation board for a sensor. The
 design of a deck is usually very simple and clearly demonstrates the electrical properties, and
 when plugged into the Crazyflie all the power and functionality of the
-host platform is available. The customer has the possibility to try settings and  
+host platform is available. The customer has the possibility to try settings and
 configurations and to evaluate the results when actually flying a real drone.
 Since all software, firmware and tools are open source, there are no limits to
 what can be tested from bits and bytes on the lowest level to high level
@@ -43,4 +44,4 @@ or other software that adds value to the platform.
 If you prefer, Bitcraze can help out with some or all steps in the chain from
 deck design to distribution to enable you to focus on other areas. Please
 contact us at <a href="mailto:sales@bitcraze.io">sales@bitcraze.io</a>
-for more information of our services and pricing.    
+for more information of our services and pricing.

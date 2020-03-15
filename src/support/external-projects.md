@@ -1,8 +1,9 @@
 ---
 layout: page
 title: External projects
-permalink: /external-projects/
 page_id: external-projects
+redirects:
+  - /external-projects/
 ---
 
 # External projects
@@ -32,8 +33,8 @@ Alternate firmware implementations and uses for the Crazyradio
 
 ## Crazyflie simulator
 
-Project aimed to modeling, developing and integrating the Crazyflie 2.0 nano-quadcopter in the physics based simulation environment Gazebo. 
- 
+Project aimed to modeling, developing and integrating the Crazyflie 2.0 nano-quadcopter in the physics based simulation environment Gazebo.
+
 | CrazyS | The University of Sannio in Benevento, Italy, has implemented a software-in-the-loop simulation platform for simulating Crazyflie behavior in the Gazebo 3D simulation environment. | <https://github.com/gsilano/CrazyS> |
 
 ## Swarming

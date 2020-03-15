@@ -27,7 +27,6 @@
   - {page_id: product-active-marker-deck}
   - {page_id: product-motion-capture-marker-deck}
   - {page_id: product-flow-breakout}
-
   - {page_id: product-old}
 
 - title: Buy
@@ -52,12 +51,13 @@
   - {page_id: getting-started-flow-breakout}
   - {page_id: getting-started-stem-drone-bundle}
   - {page_id: getting-started-stem-ranging-bundle}
+
 - title: Support
   subs:
   - {page_id: support-getting-help}
   - {title: Forum, url: "https://forum.bitcraze.io"}
   - {page_id: support-downloads}
-  - {page_id: support-frequently-asked-questions-Crazyflie-2.X}
+  - {page_id: support-frequently-asked-questions}
   - {page_id: support-troubleshooting}
   - {page_id: external-projects}
 
@@ -70,7 +70,6 @@
   - {title: Wiki, url: "https://wiki.bitcraze.io"}
   - {title: Forum, url: "https://forum.bitcraze.io"}
   - {page_id: early-access}
-
 
 - title: Media
   subs:
