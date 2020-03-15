@@ -1,7 +1,8 @@
 ---
 layout: page-product
 title: Crazyflie 2.0
-permalink: /crazyflie-2/
+redirects:
+  - /crazyflie-2/
 ---
 
 {% notice_info This product is discontinued and has been replaced with <a href="/crazyflie-2-1/">Crazyflie 2.1</a> %}

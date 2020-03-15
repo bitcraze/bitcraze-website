@@ -1,8 +1,9 @@
 ---
 layout: page-product
 title: Loco Positioning node
-permalink: /loco-pos-node/
 page_id: product-loco-pos-node
+redirects:
+  - /loco-pos-node/
 ---
 
 {% buy_online https://store.bitcraze.io/collections/positioning/products/loco-positioning-node %}

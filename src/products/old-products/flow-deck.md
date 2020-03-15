@@ -1,8 +1,9 @@
 ---
 layout: page-product
 title: Flow deck
-permalink: /flow-deck/
 page_id: product-flow-deck
+redirects:
+  - /flow-deck/
 ---
 
 {% notice_info This product is discontinued and has been replaced with <a href="/flow-deck-v2/">Flow deck v2</a> %}

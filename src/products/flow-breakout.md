@@ -1,8 +1,9 @@
 ---
 layout: page-product
 title: Flow breakout
-permalink: /flow-breakout/
 page_id: product-flow-breakout
+redirects:
+  - /flow-breakout/
 ---
 
 {% buy_online https://store.bitcraze.io/collections/decks/products/flow-breakout %}

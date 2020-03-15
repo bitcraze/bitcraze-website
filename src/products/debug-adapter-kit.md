@@ -1,8 +1,9 @@
 ---
 layout: page-product
 title: Debug adapter kit
-permalink: /debug-adapter-kit/
 page_id: product-debug-adapter-kit
+redirects:
+  - /debug-adapter-kit/
 ---
 
 {% buy_online https://store.bitcraze.io/collections/accessories/products/debug-adapter %}

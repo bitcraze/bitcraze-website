@@ -1,8 +1,9 @@
 ---
 layout: page-product
 title: Z-ranger deck v2
-permalink: /z-ranger-deck-v2/
 page_id: product-z-ranger-deck-v2
+redirects:
+  - /z-ranger-deck-v2/
 ---
 
 {% buy_online https://store.bitcraze.io/collections/decks/products/z-ranger-deck-v2 %}

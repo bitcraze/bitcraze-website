@@ -1,8 +1,9 @@
 ---
 layout: page-product
 title: Micro SD card deck
-permalink: /sd-card-deck/
 page_id: product-sd-card-deck
+redirects:
+  - /sd-card-deck/
 ---
 
 {% buy_online https://store.bitcraze.io/collections/decks/products/sd-card-deck %}

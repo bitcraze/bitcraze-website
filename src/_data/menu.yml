@@ -23,10 +23,10 @@
   - {page_id: product-multi-ranger-deck}
   - {page_id: product-debug-adapter-kit}
   - {page_id: product-battery-charger-500mA}
-  - {page_id: product-flow-breakout}
   - {page_id: product-lighthouse-deck}
-  - {page_id: motion-capture-marker-deck}
   - {page_id: product-active-marker-deck}
+  - {page_id: product-motion-capture-marker-deck}
+  - {page_id: product-flow-breakout}
 
   - {page_id: product-old}
 

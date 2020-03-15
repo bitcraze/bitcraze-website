@@ -1,8 +1,9 @@
 ---
 layout: page-product
 title: Roadrunner
-permalink: /roadrunner/
 page_id: product-roadrunner
+redirects:
+  - /roadrunner/
 ---
 
 {% include early-access-info.html %}

@@ -1,8 +1,9 @@
 ---
 layout: page-product
 title: Crazyflie Bolt
-permalink: /crazyflie-bolt/
 page_id: product-crazyflie-bolt
+redirects:
+  - /crazyflie-bolt/
 ---
 
 {% include early-access-info.html %}

@@ -1,8 +1,9 @@
 ---
 layout: page-product
 title: Crazyradio PA
-permalink: /crazyradio-pa/
 page_id: product-crazyradio-pa
+redirects:
+  - /crazyradio-pa/
 ---
 
 {% buy_online https://store.bitcraze.io/collections/kits/products/crazyradio-pa %}

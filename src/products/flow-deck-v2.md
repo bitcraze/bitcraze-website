@@ -1,8 +1,9 @@
 ---
 layout: page-product
 title: Flow deck v2
-permalink: /flow-deck-v2/
 page_id: product-flow-deck-v2
+redirects:
+  - /flow-deck-v2/
 ---
 
 {% buy_online https://store.bitcraze.io/collections/decks/products/flow-deck-v2 %}

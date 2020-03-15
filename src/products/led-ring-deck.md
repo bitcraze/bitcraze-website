@@ -1,8 +1,9 @@
 ---
 layout: page-product
 title: LED-ring deck
-permalink: /led-ring-deck/
 page_id: product-led-ring-deck
+redirects:
+  - /led-ring-deck/
 ---
 
 {% buy_online https://store.bitcraze.io/collections/decks/products/led-ring-deck %}

@@ -1,8 +1,9 @@
 ---
 layout: page-product
 title: Active marker deck
-permalink: /active-marker-deck/
 page_id: product-active-marker-deck
+redirects:
+  - /active-marker-deck/
 ---
 
 {% buy_online https://store.bitcraze.io/products/active-marker-deck %}

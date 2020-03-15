@@ -1,35 +1,36 @@
 ---
 layout: page-product
 title: Crazyflie 1.0
-permalink: /crazyflie/
+redirects:
+  - /crazyflie/
 ---
 
- 
-{% notice_info This product is discontinued and has been replaced with <a href="/crazyflie-2/">Crazyflie 2.0</a> %}
+
+{% notice_info This product is discontinued and has been replaced with <a href="/crazyflie-2/">Crazyflie 2.1</a> %}
 
 {% img Crazyflie; medium; /images/crazyflie_page.png %}
 
-The Crazyflie Nano Quadcopter is a miniature quadcopter that fits in your hand. 
-It only weights about 19 grams and is 9 cm motor-to-motor. Aside from being fun 
-to fly, it's main purpose is to be a versatile development platform that can be 
+The Crazyflie Nano Quadcopter is a miniature quadcopter that fits in your hand.
+It only weights about 19 grams and is 9 cm motor-to-motor. Aside from being fun
+to fly, it's main purpose is to be a versatile development platform that can be
 used to experiment, develop and explore a lot of different areas of technology.
 
 ## How do I use the quadcopter?
 
-The quadcopter is flown by connecting a USB radio dongle and a controller to a 
-host system, and then running the Crazyflie client software. This could either 
-be a computer (running Linux or Windows), an Android device that supports USB 
+The quadcopter is flown by connecting a USB radio dongle and a controller to a
+host system, and then running the Crazyflie client software. This could either
+be a computer (running Linux or Windows), an Android device that supports USB
 OTH/HOST or an embedded system like the Raspberry Pi.
 
-For input a wide range of controllers can be used when connected to your PC. 
-There are also RC-controllers that you can connect directly to the Crazyflie 
-Nano Quadcopter. 
+For input a wide range of controllers can be used when connected to your PC.
+There are also RC-controllers that you can connect directly to the Crazyflie
+Nano Quadcopter.
 
 ## The Crazyflie platform
 
-The Crazyflie Nano Quadcopter is part of the Crazyflie platform. The platform 
-consists of several different components, like the 
-[Crazyradio](/crazyradio/), the development environment and the host PC and 
+The Crazyflie Nano Quadcopter is part of the Crazyflie platform. The platform
+consists of several different components, like the
+[Crazyradio](/crazyradio/), the development environment and the host PC and
 Android applications.
 
 ## Quadcopter specifications
@@ -53,18 +54,18 @@ Android applications.
 
 ## What can I use the quadcopter for?
 
-The Crazyflie Nano Quadcopter can of course be flown just because it's fun, but 
-the main usage is as a development, teaching or experimentation platform. To 
-get some ideas of what's possible to work with have a look at 
+The Crazyflie Nano Quadcopter can of course be flown just because it's fun, but
+the main usage is as a development, teaching or experimentation platform. To
+get some ideas of what's possible to work with have a look at
 [our development page](/development-overview/) or at our release video below.
 
 {% youtube 3WBUVYZkODI; medium; 16by9 %}
 
 ## How do I assemble the Crazyflie?
 
-The Crazyflie is shipped as a kit, which means that you will have to do some 
-assembly. This includes soldering the motors to the PCB as well as attaching 
-the motor mounts and battery. Please have a look at the 
+The Crazyflie is shipped as a kit, which means that you will have to do some
+assembly. This includes soldering the motors to the PCB as well as attaching
+the motor mounts and battery. Please have a look at the
 [detailed assembly instructions on our wiki](//wiki.bitcraze.io/projects:crazyflie:mechanics:assembly)
 and the assembly video before you start assembling your Crazyflie.
 

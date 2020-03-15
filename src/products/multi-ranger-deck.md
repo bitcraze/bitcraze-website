@@ -1,8 +1,9 @@
 ---
 layout: page-product
 title: Multi-ranger deck
-permalink: /multi-ranger-deck/
 page_id: product-multi-ranger-deck
+redirects:
+  - /multi-ranger-deck/
 ---
 
 {% buy_online https://store.bitcraze.io/products/multi-ranger-deck %}

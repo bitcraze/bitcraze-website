@@ -1,8 +1,9 @@
 ---
 layout: page-product
 title: Crazyflie 2.1
-permalink: /crazyflie-2-1/
 page_id: product-crazyflie-2-1
+redirects:
+  - /crazyflie-2-1/
 ---
 
 {% buy_online https://store.bitcraze.io/products/crazyflie-2-1 %}

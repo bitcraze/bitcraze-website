@@ -1,8 +1,9 @@
 ---
 layout: page-product
 title: Qi 1.2 charger deck
-permalink: /qi-1-2-charger-deck/
 page_id: product-qi-1-2-charger
+redirects:
+  - /qi-1-2-charger-deck/
 ---
 
 {% buy_online https://store.bitcraze.io/collections/decks/products/qi-1-2-wireless-charging-deck %}

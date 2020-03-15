@@ -1,8 +1,9 @@
 ---
 layout: page-product
 title: Breakout deck
-permalink: /breakout-deck/
 page_id: product-breakout-deck
+redirects:
+  - /breakout-deck/
 ---
 
 {% buy_online https://store.bitcraze.io/collections/decks/products/breakout-deck %}

@@ -1,8 +1,9 @@
 ---
 layout: page-product
 title: Z-ranger deck
-permalink: /z-ranger-deck/
 page_id: product-z-ranger-deck
+redirects:
+  - /z-ranger-deck/
 ---
 
 {% notice_info This product is discontinued and has been replaced with <a href="/z-ranger-deck-v2/">Z-ranger deck v2</a> %}

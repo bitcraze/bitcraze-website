@@ -1,8 +1,9 @@
 ---
 layout: page-product
 title: Prototyping deck
-permalink: /prototyping-deck/
 page_id: product-prototyping-deck
+redirects:
+  - /prototyping-deck/
 ---
 
 {% buy_online https://store.bitcraze.io/collections/decks/products/prototyping-deck %}

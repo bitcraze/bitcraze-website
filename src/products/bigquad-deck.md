@@ -1,8 +1,9 @@
 ---
 layout: page-product
 title: BigQuad deck
-permalink: /bigquad-deck/
 page_id: product-bigquad-deck
+redirects:
+  - /bigquad-deck/
 ---
 
 {% buy_online https://store.bitcraze.io/collections/decks/products/bigquad-deck %}

@@ -1,8 +1,9 @@
 ---
 layout: page-product
 title: Lighthouse positioning deck
-permalink: /lighthouse-positioning-deck/
 page_id: product-lighthouse-deck
+redirects:
+  - /lighthouse-positioning-deck/
 ---
 
 {% include early-access-info.html %}

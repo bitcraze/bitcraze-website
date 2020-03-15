@@ -1,8 +1,9 @@
 ---
 layout: page-product
 title: Buzzer deck
-permalink: /buzzer-deck/
 page_id: product-buzzer-deck
+redirects:
+  - /buzzer-deck/
 ---
 
 {% buy_online https://store.bitcraze.io/collections/decks/products/buzzer-deck %}
