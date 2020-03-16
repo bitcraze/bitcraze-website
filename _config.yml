@@ -2,7 +2,12 @@ name: Bitcraze website
 
 source: src
 destination: _site
+
 permalink: /:categories/:title/
+liquid:
+  error_mode: strict
+  strict_variables: true
+  strict_filters: true
 
 keep_files: ['_site/css/kraken.css.map']
 

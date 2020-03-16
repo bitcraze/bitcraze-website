@@ -5,17 +5,17 @@
   {% assign is_active = false %}
   {% assign m_external = '' %}
 
-  {% if sub.page_id %}
+  {% if sub contains "page_id" %}
     {% assign p = site.pages | where:"page_id",sub.page_id | first %}
     {% assign m_url = p.url %}
 
-    {% if sub.title %}
+    {% if sub contains "title" %}
       {% assign m_title = sub.title %}
     {% else %}
       {% assign m_title = p.title %}
     {% endif %}
 
-    {% if sub.page_id == page.page_id %}
+    {% if page contains "page_id" and sub.page_id == page.page_id %}
       {% assign is_active = true %}
     {% endif %}
   {% else %}

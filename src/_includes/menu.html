@@ -3,28 +3,30 @@
         {% for top_menu in site.data.menu %}
             {% assign is_active = false %}
 
-            {% if top_menu.subs %}
-                {% assign p = top_menu.subs | where:"page_id",page.page_id | first %}
-                {% if p.page_id != nil %}
-                    {% assign is_active = true %}
-                {% endif %}
-            {% else %}
-                {% if top_menu.page_id == page.page_id %}
-                    {% assign is_active = true %}
+            {% if page contains "page_id" %}
+                {% if top_menu contains "subs" %}
+                    {% assign p = top_menu.subs | where:"page_id",page.page_id | first %}
+                    {% if p != nil %}
+                        {% assign is_active = true %}
+                    {% endif %}
+                {% else %}
+                    {% if top_menu.page_id == page.page_id %}
+                        {% assign is_active = true %}
+                    {% endif %}
                 {% endif %}
             {% endif %}
 
-        <li class="menu-item {% if is_active %}active{% endif %}">
-            {% if top_menu.subs %}
-            <a title="{{top_menu.title}}" href="#"
-               data-target="#" data-toggle="dropdown"
-               class="dropdown-toggle">{{top_menu.title}}<span class="caret"></span></a>
-                {% include menu_ul.html subs=top_menu.subs %}
-            {% else %}
-                {% assign p = site.pages | where:"page_id",top_menu.page_id | first %}
-            <a title="{{p.title}}" href="{{p.url}}">{{p.title}}</a>
-            {% endif %}
-        </li>
+            <li class="menu-item {% if is_active %}active{% endif %}">
+                {% if top_menu contains "subs" %}
+                <a title="{{top_menu.title}}" href="#"
+                   data-target="#" data-toggle="dropdown"
+                   class="dropdown-toggle">{{top_menu.title}}<span class="caret"></span></a>
+                    {% include menu_ul.html subs=top_menu.subs %}
+                {% else %}
+                    {% assign p = site.pages | where:"page_id",top_menu.page_id | first %}
+                <a title="{{p.title}}" href="{{p.url}}">{{p.title}}</a>
+                {% endif %}
+            </li>
         {% endfor %}
     </ul>
 </div>

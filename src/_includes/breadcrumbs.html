@@ -13,7 +13,7 @@
         {%- endcapture -%}
 
         {%- assign p = site.pages | where:"url",crumb_url | first -%}
-        {%- if p and p.title -%}
+        {%- if p and p contains "title" -%}
           / <a href="{{crumb_url}}">{{p.title}}</a>
         {%- else -%}
           / {{ crumb | replace:'-',' ' | remove:'.html' | capitalize }}

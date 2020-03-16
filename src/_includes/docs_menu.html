@@ -2,20 +2,22 @@
     {% for top_menu in site.data.docs_menu[page.ns] %}
         {% assign is_active = false %}
 
-        {% if top_menu.subs %}
-            {% assign p = top_menu.subs | where:"page_id",page.page_id | first %}
+        {% if page contains "page_id" %}
+            {% if top_menu contains "subs" %}
+                {% assign p = top_menu.subs | where:"page_id",page.page_id | first %}
 
-            {% if p.page_id != nil %}
-            {% assign is_active = true %}
-            {% endif %}
-        {% else %}
-            {% if top_menu.page_id == page.page_id %}
-                {% assign is_active = true %}
+                {% if p != nil %}
+                    {% assign is_active = true %}
+                {% endif %}
+            {% else %}
+                {% if top_menu.page_id == page.page_id %}
+                    {% assign is_active = true %}
+                {% endif %}
             {% endif %}
         {% endif %}
 
     <li>
-        {% if top_menu.subs %}
+        {% if top_menu contains "subs" %}
         <span>{{top_menu.title}}</span>
             {% include docs_menu_ul.html subs=top_menu.subs %}
         {% else %}
