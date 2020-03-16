@@ -49,6 +49,7 @@
   - {page_id: getting-started-flow-breakout}
   - {page_id: getting-started-stem-drone-bundle}
   - {page_id: getting-started-stem-ranging-bundle}
+  - {page_id: videogallery}
 
 - title: Support
   subs:
@@ -72,10 +73,6 @@
   - {title: Wiki, url: "https://wiki.bitcraze.io"}
   - {title: Forum, url: "https://forum.bitcraze.io"}
   - {page_id: early-access}
-
-- title: Media
-  subs:
-  - {page_id: videogallery}
 
 - title: About
   subs:
