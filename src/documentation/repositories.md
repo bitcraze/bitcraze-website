@@ -1,11 +1,10 @@
 ---
 layout: page
-title: Overview Repositories
-permalink: /docs/overview_repositories/
+title: Repositories overview
 page_id: overview_repositories
+redirects:
+  - /docs/overview_repositories/
 ---
-[Documentation Starting Page](/docs/)
-
 
 Python
 -----------------------
@@ -28,7 +27,7 @@ C-based Firmware
 |![crazyflie](/images/documentation/overview/crazyflie.png){:width="100px"}| [crazyflie2-nrf-firmware](https://github.com/bitcraze/crazyflie2-nrf-firmware)| [Docs](/docs/crazyflie2-nrf-firmware/master/index/) |  The firmware that runs on the NRF51, which handles the radio and power management. The documentation also explains about the ST link protocol for communication between the STM32 and the NRF51. |
 |![Crazyradio](/images/documentation/overview/crazyradiopa.png){:width="50px"}|  [crazyradio-firmware](https://github.com/bitcraze/crazyradio-firmware) | [Docs](/docs/crazyradio-firmware/master/index/) | This GitHub repository contains the source code for the firmware of the [Crazyradio PA](https://store.bitcraze.io/collections/accessories/products/crazyradio-pa).|
 ![LPS system](/images/documentation/overview/lpssystem.png){:width="100px"}| [lps-node-firmware](https://github.com/bitcraze/lps-node-firmware) | [Docs](/docs/lps-node-firmware/master/index/) | This GitHub repository contains the source code for the [loco positioning node](https://store.bitcraze.io/collections/positioning/products/loco-positioning-node). The documentation also includes several user guides how to set the system up and also explains the interaction with the [LPS expansion deck](https://store.bitcraze.io/collections/positioning/products/loco-positioning-deck) of the Crazyflie. |
-|![lighthouse system](/images/documentation/overview/lighthouse.png){:width="100px"}|[lighthouse-fpga](https://github.com/bitcraze/lighthouse-fpga ) | [Docs](/docs/crazyflie-firmware/master/lighthouse_overview/) | This repository contains the source code for FPGA for calculating position with the [lighthouse deck](https://store.bitcraze.io/collections/positioning/products/lighthouse-positioning-deck). The documentation also contain the documentation of handling the bootloader of the deck.|
+|![lighthouse system](/images/documentation/overview/lighthouse.png){:width="100px"}|[lighthouse-fpga](https://github.com/bitcraze/lighthouse-fpga ) |  | This repository contains the FPGA source code for calculating position with the [lighthouse deck](https://store.bitcraze.io/collections/positioning/products/lighthouse-positioning-deck). |
 
 
 

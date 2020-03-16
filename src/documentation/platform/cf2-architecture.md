@@ -1,8 +1,9 @@
 ---
 layout: page
 title: Hardware Architecture of the Crazyflie 2.X
-permalink: /docs/cf2_architecture/
 page_id: cf2_architecture
+redirects:
+  - /docs/cf2_architecture/
 ---
 
 Crazyflie 2.X is architectured around 2 microcontrollers:

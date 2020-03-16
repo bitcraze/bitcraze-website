@@ -1,8 +1,9 @@
 ---
 layout: page
 title: Expansion decks of the Crazyflie 2.X
-permalink: /docs/cf2_expansiondecks/
 page_id: cf2_expansiondecks
+redirects:
+  - /docs/cf2_expansiondecks/
 ---
 
 

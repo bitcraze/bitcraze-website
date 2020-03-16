@@ -1,14 +1,10 @@
 ---
 layout: page
 title: Overview Positioning Systems
-permalink: /docs/overview_positioning/
 page_id: overview_positioning
+redirects:
+  - /docs/overview_positioning/
 ---
-{%row%}
-{%column 12%}
-[Documentation Starting Page](/docs/)
-{%endcolumn%}
-{%endrow%}
 {%row%}
 {%column 12%}
 

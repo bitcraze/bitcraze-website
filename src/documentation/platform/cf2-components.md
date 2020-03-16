@@ -1,8 +1,9 @@
 ---
 layout: page
 title: Component explanation of the Crazyflie 2.X
-permalink: /docs/cf2_component_explanation/
 page_id: cf2_component_explanation
+redirects:
+  - /docs/cf2_component_explanation/
 ---
 
 # Top

@@ -1,8 +1,9 @@
 ---
 layout: page
 title: Documentation
-permalink: /docs/
 page_id: starting_page_doc
+redirects:
+  - /docs/
 ---
 
 {% row_full %}
@@ -11,7 +12,7 @@ page_id: starting_page_doc
 
 The documentation is organized in two parts:
 * An overview of the system, starting on this page. It drills further down, dividing the system into smaller pieces of hardware and functionality, providing an overview of how the parts fit togeather.
-* [Repository documentation](/docs/overview_repositories/). Documentation of specifics in each Bitcraze github source repository.
+* [Repository documentation](/documentation/repositories/). Documentation of specifics in each Bitcraze github source repository.
 
 ## System overview
 
@@ -32,7 +33,7 @@ have a bit different flavours and properties. They run similar firmware and can 
 such as clients and positioning systems.
 {% endrow_text %}
 {% row_links %}
-* [Crazyflie platform overview](/docs/overview_crazyflie/)
+* [Crazyflie platform overview](/documentation/platform/)
 {% endrow_links %}
 {%endrow_image_text_links%}
 
@@ -46,7 +47,7 @@ Swarms of Crazyflies can be controlled through the python library, the external 
 There are **mobile phone apps** for Android and IOS that connects via BLE, mainly for manual flight.
 {% endrow_text %}
 {% row_links %}
-* [Client and library overview](/docs/overview_clients/)
+* [Client and library overview](/documentation/client-and-library/)
 * [CrazySwarm](https://crazyswarm.readthedocs.io/en/latest/)
 {% endrow_links %}
 {%endrow_image_text_links%}
@@ -57,6 +58,6 @@ There are **mobile phone apps** for Android and IOS that connects via BLE, mainl
 Positioning support is needed for automated or autonomous flight. There are two in-house position systems in the Crazyflie ecosystem: the Ultra Wide Band based **Loco Positioning System** and the **Lighthouse positioning system**, based on HTC Vive. It is also possible to integrate with external positioning systems, for instance Motion Capture systems.
 {% endrow_text %}
 {% row_links %}
-* [Positioning overview](/docs/overview_positioning/)
+* [Positioning overview](/documentation/positioning/)
 {% endrow_links %}
 {%endrow_image_text_links%}
