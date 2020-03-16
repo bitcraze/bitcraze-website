@@ -1,7 +1,6 @@
 ---
 layout: page
 title: Privacy Policy
-permalink: /privacy-policy/
 ---
 
 The bitcraze.io websites are using [Google Analytics](https://analytics.google.com) and [Hotjar](https://www.hotjar.com).

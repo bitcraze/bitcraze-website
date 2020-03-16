@@ -1,7 +1,6 @@
 ---
 layout: page-front
 title: Home
-permalink: /
 page_id: home
 ---
 

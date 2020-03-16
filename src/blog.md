@@ -1,7 +1,6 @@
 ---
 layout: page-blog
 title: Blog
-permalink: /blog/
 page_id: blog
 ---
 

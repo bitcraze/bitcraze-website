@@ -1,7 +1,6 @@
 ---
 layout: page
 title: Subscribe to our mailing list
-permalink: /signup/
 page_id: mail-signup
 ---
 
