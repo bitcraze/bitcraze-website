@@ -10,9 +10,9 @@ redirects:
 The Flow deck gives the Crazyflie 2.X the ability to understand when it's moving in any direction.
 With the Flow deck the Crazyflie 2.X is able to hover and act as an aid for beginners where it creates a very stable flying platform.
 
-For more information about how to mount an expansion deck please see the [Getting started with expansion decks](/tutorials/getting-started-with-expansion-decks/) tutorial.
+For more information about how to mount an expansion deck please see the {% id_link getting-started-expansion-decks %} tutorial.
 
-To be able to use the Flow deck you need to update the Crazyflie to the latest firmware. For more information on how to update the firmware, see the [download latest firmware](/tutorials/getting-started-with-crazyflie-2-x/#latest-fw) section in our getting started with Crazyflie 2.X tutorial.
+To be able to use the Flow deck you need to update the Crazyflie to the latest firmware. For more information on how to update the firmware, see the [download latest firmware]({% id_url getting-started-crazyflie-2; latest-fw %}) section in our getting started with Crazyflie 2.X tutorial.
 You will also need the latest version of the [Crazyflie client](https://github.com/bitcraze/crazyflie-clients-python/releases).
 
 {% endsi_intro %}
@@ -20,7 +20,7 @@ You will also need the latest version of the [Crazyflie client](https://github.c
 {% si_step  Using the hover mode %}
 
 To use the Flow deck you need to use the Python client and set up a connection with your Crazyflie.
-For more information go to the [Getting started with the Crazyflie 2.X](/tutorials/getting-started-with-crazyflie-2-x/).
+For more information go to the {% id_link getting-started-crazyflie-2 %}.
 
 * In the client, go to **Assist mode** and choose **Hover** mode in the drop-down menu. Also make sure that the assist mode button is [configured](https://wiki.bitcraze.io/doc:crazyflie:client:pycfclient:index#input_devices).
 

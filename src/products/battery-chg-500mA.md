@@ -26,7 +26,7 @@ can even solder multiple chargers together for multi-battery charging.
 
 #### Resources
 
-- [Start here](/tutorials/start/)
+- {% id_link getting-started-start %}
 - [Buyers guide](/buy/buyers-guide/)
 - [Development](/development/development-overview/)
 - [FAQ](/support/f-a-q/)

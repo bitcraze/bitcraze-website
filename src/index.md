@@ -12,7 +12,7 @@ page_id: home
         <h1>Make your ideas fly!</h1>
         <div class="header_buttons">
           <a href="https://store.bitcraze.io/" class="btn btn-primary btn-block btn-color-primary">Shop</a>
-          <a href="/tutorials/start/" class="btn btn-primary btn-block btn-color-secondary">Getting started</a>
+          <a href="/documentation/start/" class="btn btn-primary btn-block btn-color-secondary">Getting started</a>
           <a href="https://github.com/bitcraze" class="mobile_hidden_button btn btn-primary btn-block btn-color-secondary">Github</a>
         </div>
       </div>

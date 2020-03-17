@@ -120,7 +120,7 @@ it's a breeze to update.
 
 #### Resources
 
-- [Start here](/tutorials/start/)
+- {% id_link getting-started-start %}
 - [Buyers guide](/buy/buyers-guide/)
 - [Development](/development/development-overview/)
 - [Getting help](/support/getting-help/)

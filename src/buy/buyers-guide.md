@@ -313,7 +313,7 @@ swarms of up to 50 Crazyflies.
 * [Do-it-yourself](/portals/diy/)
 
 ## More information
-* [Frequently asked questions](/support/f-a-q/)
-* [Getting started with the Crazyflie 2.X](/tutorials/getting-started-with-crazyflie-2-x/)
-* [Getting started with expansion decks](/tutorials/getting-started-with-expansion-decks/)
-* [Getting started with development](/tutorials/getting-started-with-development/)
+* {% id_link support-frequently-asked-questions %}
+* {% id_link getting-started-crazyflie-2 %}
+* {% id_link getting-started-expansion-decks %}
+* {% id_link getting-started-development %}

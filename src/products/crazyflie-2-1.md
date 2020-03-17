@@ -174,7 +174,7 @@ it's a breeze to update.
 
 #### Resources
 
-- [Start here](/tutorials/start/)
+- {% id_link getting-started-start %}
 - [Buyers guide](/buy/buyers-guide/)
 - [Development](/development/development-overview/)
 - [FAQ](/support/f-a-q/)
@@ -186,4 +186,4 @@ it's a breeze to update.
 
 #### Tutorials
 
-[Getting started with the Crazyflie 2.0](/tutorials/getting-started-with-crazyflie-2-x/)
+{% id_link getting-started-crazyflie-2 %}

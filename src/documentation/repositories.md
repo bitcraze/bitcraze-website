@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Repositories overview
-page_id: overview_repositories
+page_id: repository-overview
 redirects:
   - /docs/overview_repositories/
 ---

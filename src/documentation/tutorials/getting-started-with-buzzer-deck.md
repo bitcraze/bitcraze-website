@@ -8,9 +8,9 @@ redirects:
 
 {% si_intro The buzzer deck %}
 The buzzer deck contains a low profile piezo buzzer and has a 1-wire memory which enables the Crazyflie to automatically detect the buzzer.
-The deck can be installed both on the top and the bottom of the Crazyflie. For more information about how to mount an expansion deck please see the [Getting started with expansion decks](/tutorials/getting-started-with-expansion-decks/) tutorial.
+The deck can be installed both on the top and the bottom of the Crazyflie. For more information about how to mount an expansion deck please see the {% id_link getting-started-expansion-decks %} tutorial.
 
-To be able to use the buzzer you need to update the Crazyflie to the latest firmware. For more information on how to update the firmware, see the [download latest firmware](/tutorials/getting-started-with-crazyflie-2-x/#latest-fw) section in our getting started with Crazyflie 2.X tutorial.
+To be able to use the buzzer you need to update the Crazyflie to the latest firmware. For more information on how to update the firmware, see the [download latest firmware]({% id_url getting-started-crazyflie-2; latest-fw %}) section in our getting started with Crazyflie 2.X tutorial.
 
 {% endsi_intro %}
 
@@ -30,7 +30,7 @@ When the Buzzer deck is installed, the Crazyflie 2.X will play sounds at various
 {% si_step play a sound from the client %}
 To start out with the Buzzer deck the Crazyflie is pre-programmed with system sounds and some melodies.
 To play them you need to use the Python client and set up a connection with your Crazyflie.
-For more information about how to set up your Crazyflie and install the client go to [Getting started with the Crazyflie 2.X](/tutorials/getting-started-with-crazyflie-2-x/).
+For more information about how to set up your Crazyflie and install the client go to {% id_link getting-started-crazyflie-2 %}.
 
 In the client, go to the view menu and choose tabs. Check "parameters" to enable the tab.
 {% img Buzzer deck tutorial; wide; /images/buzzer-deck-tutorial/buzzer-deck-tut1.png %}

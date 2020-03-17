@@ -9,8 +9,8 @@ redirects:
 ## Let's get started!
 
 If you just bought a Crazyflie 2.X a good way to start is to head over to the
-[Getting started with the Crazyflie 2.X](/tutorials/getting-started-with-crazyflie-2-x/) guide
-to see how to assemble the kit and take off for your first flight. If you want to add one of our many expansion decks to the Crazyflie 2.X and need help getting started we have made a [Getting started with expansion decks](/tutorials/getting-started-with-expansion-decks/) tutorial. Just follow the steps and you are ready to go.
+{% id_link getting-started-crazyflie-2 %} guide
+to see how to assemble the kit and take off for your first flight. If you want to add one of our many expansion decks to the Crazyflie 2.X and need help getting started we have made a {% id_link getting-started-expansion-decks %} tutorial. Just follow the steps and you are ready to go.
 
 Just bought our Loco positioning system? Go to our [Loco Positioning system
 page](/products/loco-positioning-system/) for more information and how to setup the system.
@@ -22,7 +22,7 @@ place to look for instructions.
 
 When you are comfortable flying the Crazyflie you might feel that it is time for
 the next step, to make use of the flexibility of the platform. After all it is
-designed to be modified! Check out the [Getting started with development](/tutorials/getting-started-with-development/)
+designed to be modified! Check out the {% id_link getting-started-development %}
 tutorial to setup your development environment, build your first custom firmware and
 download it to the copter.
 
@@ -37,7 +37,7 @@ and this is also where you will find documentation related to each repository.
 ## Projects
 
 Looking for inspiration for a new project? Take a look at [Hackster](https://www.hackster.io/bitcraze)
-or read our [blog posts](/blog/). The [video gallery](/media/video-gallery/) contains
+or read our [blog posts](/blog/). The {% id_link videogallery %} contains
 some really cool stuff as well as our [You Tube channel](https://www.youtube.com/user/BitcrazeVideos).
 
 ## Contribute!

@@ -30,7 +30,7 @@ why not connect to [ROS](http://www.ros.org/) or use the
 created a wide array of frameworks and tools to connect and control the system.
 
 #### Out of the box
-To make it super easy to [get started with development](/tutorials/getting-started-with-development/), we have created a
+To make it super easy to [get started with development]({% id_url getting-started-development %}), we have created a
 virtual machine where all the tools you need are installed and pre configured.
 No problems of setting up your compiler for the right CPU architecture or
 installation of tools, it is working out of the box.

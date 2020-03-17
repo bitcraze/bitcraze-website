@@ -49,4 +49,4 @@ The Flow breakout features the VL53L0x ToF sensor and the PMW3901 optical flow s
 
 #### Tutorials
 
-[Getting started with the Flow breakout board](/tutorials/getting-started-flow-breakout/)
+{% id_link getting-started-flow-breakout %}

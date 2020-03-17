@@ -29,7 +29,7 @@ pinouts.
 
 #### Resources
 
-- [Start here](/tutorials/start/)
+- {% id_link getting-started-start %}
 - [Buyers guide](/buy/buyers-guide/)
 - [Development](/development/development-overview/)
 - [FAQ](/support/f-a-q/)
@@ -41,4 +41,4 @@ pinouts.
 
 #### Tutorials
 
-[Getting started with development](/tutorials/getting-started-with-development/)
+{% id_link getting-started-development %}

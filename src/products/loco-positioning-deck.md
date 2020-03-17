@@ -34,7 +34,7 @@ This product is intended to be used together with
 #### Resources
 
 - [Loco positioning system](/products/loco-positioning-system/)
-- [Start here](/tutorials/start/)
+- {% id_link getting-started-start %}
 - [Buyers guide](/buy/buyers-guide/)
 - [Development](/development/development-overview/)
 - [FAQ](/support/f-a-q/)
@@ -47,5 +47,5 @@ This product is intended to be used together with
 
 #### Tutorials
 
-* [Getting started with expansion decks](/tutorials/getting-started-with-expansion-decks/)
-* [Getting started with the Loco Positioning system](/tutorials/getting-started-with-loco-positioning-system/)
+* {% id_link getting-started-expansion-decks %}
+* {% id_link getting-started-with-the-loco-positioning-system %}

@@ -28,7 +28,7 @@ and attach the Crazyflie 2.X to it.
 
 #### Resources
 
-- [Start here](/tutorials/start/)
+- {% id_link getting-started-start %}
 - [Buyers guide](/buy/buyers-guide/)
 - [FAQ](/support/f-a-q/)
 - [Getting help](/support/getting-help/)
@@ -39,4 +39,4 @@ and attach the Crazyflie 2.X to it.
 
 #### Tutorials
 
-- [Getting started with expansion decks](/tutorials/getting-started-with-expansion-decks/)
+- {% id_link getting-started-expansion-decks %}

@@ -22,16 +22,16 @@ autonomous flight.
 {% endsi_step %}
 
 {% si_step prerequisites %}
-This getting started guide assumes you have already assembled your Crazyflie 2.X. If that is not the case please follow the [Getting started with the Crazyflie 2.X](/tutorials/getting-started-with-crazyflie-2-x/)
+This getting started guide assumes you have already assembled your Crazyflie 2.X. If that is not the case please follow the {% id_link getting-started-crazyflie-2 %}
 
-This guide also requires that you have updated the Crazyflie to the latest firmware. For more information on how to update the firmware, see the [download latest firmware](/tutorials/getting-started-with-crazyflie-2-x/#latest-fw) section in our getting started with Crazyflie 2.X tutorial.
+This guide also requires that you have updated the Crazyflie to the latest firmware. For more information on how to update the firmware, see the [download latest firmware]({% id_url getting-started-crazyflie-2; latest-fw %}) section in our getting started with Crazyflie 2.X tutorial.
 {% endsi_step %}
 
 {% si_step  mounting the flow deck %}
 Mount the Flow Deck underneath the Crazyflie 2.X using the long pin-headers supplied with the Crazyflie 2.X Kit.
 {% img Mounting the Flow deck; wide; /images/tutorials/getting_started_stem/stem_bundle_mounted_deck.jpg %}
 
-For more information about how to mount an expansion deck please see the [Getting started with expansion decks](/tutorials/getting-started-with-expansion-decks/) tutorial.
+For more information about how to mount an expansion deck please see the {% id_link getting-started-expansion-decks %} tutorial.
 {% endsi_step %}
 
 {% si_step installing Python and the cflib%}
@@ -173,6 +173,6 @@ Landing!
 {% si_step what's next? %}
 * Explore the [motion commander](https://github.com/bitcraze/crazyflie-lib-python/blob/master/cflib/positioning/motion_commander.py) class. The class can do more then simple directional commands such as scripting using speed and time or together with events.
 * Try out the logging and parameter framework. The [basic logging](https://github.com/bitcraze/crazyflie-lib-python/blob/master/examples/basiclogSync.py) is a good example to start from or digg into the details on the [wiki](https://wiki.bitcraze.io/doc:crazyflie:dev:arch:logparam).
-* Connect a gamepad and with the [flow deck](/tutorials/getting-started-with-flow-deck/) try optical flow stabilized flight.
+* Connect a gamepad and with the [flow deck]({% id_url getting-started-flow-deck %}) try optical flow stabilized flight.
 * Add one of the many [expansion deck boards](https://store.bitcraze.io/collections/decks), build your own deck using [prototyping deck](/products/prototyping-deck/) or even design it from ground up using the KiCad [deck template](https://github.com/bitcraze/crazyflie2-exp-template-electronics).
 {% endsi_step %}

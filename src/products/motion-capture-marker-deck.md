@@ -30,10 +30,16 @@ This deck is developed in collaboration with [Qualisys](https://www.qualisys.com
 
 #### Resources
 
-- [Start here](/tutorials/start/)
+- {% id_link getting-started-start %}
 - [Buyers guide](/buy/buyers-guide/)
 - [Development](/development/development-overview/)
 - [FAQ](/support/f-a-q/)
 - [Getting help](/support/getting-help/)
 - [Wiki](https://wiki.bitcraze.io/projects:crazyflie2:expansionboards:mocapmarker)
 - [Specifications](https://store.bitcraze.io/products/motion-capture-marker-deck)
+
+---
+
+#### Tutorials
+
+{% id_link getting-started-expansion-decks %}

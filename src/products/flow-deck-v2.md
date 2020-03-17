@@ -38,7 +38,7 @@ This creates a flying 3D robot that can be pre-programmed to fly distances in an
 
 #### Resources
 
-- [Start here](/tutorials/start/)
+- {% id_link getting-started-start %}
 - [Buyers guide](/buy/buyers-guide/)
 - [Development](/development/development-overview/)
 - [FAQ](/support/f-a-q/)
@@ -50,4 +50,4 @@ This creates a flying 3D robot that can be pre-programmed to fly distances in an
 
 #### Tutorials
 
-[Getting started with the Flow deck](/tutorials/getting-started-with-flow-deck/)
+{% id_link getting-started-flow-deck %}

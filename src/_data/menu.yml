@@ -33,24 +33,6 @@
   - {page_id: buy-retailers}
   - {page_id: buy-guide}
 
-- title: Tutorials
-  subs:
-  - {page_id: getting-started-start}
-  - {page_id: getting-started-crazyflie-2}
-  - {page_id: getting-started-expansion-decks}
-  - {page_id: getting-started-buzzer-deck}
-  - {page_id: getting-started-z-ranger-deck}
-  - {page_id: getting-started-flow-deck}
-  - {page_id: balancing-propellers}
-  - {page_id: getting-started-crazyflie}
-  - {page_id: getting-started-development}
-  - {page_id: getting-started-with-the-loco-positioning-system}
-  - {page_id: getting-started-with-assisted-flight-position-hold}
-  - {page_id: getting-started-flow-breakout}
-  - {page_id: getting-started-stem-drone-bundle}
-  - {page_id: getting-started-stem-ranging-bundle}
-  - {page_id: videogallery}
-
 - title: Support
   subs:
   - {page_id: support-getting-help}
@@ -62,8 +44,11 @@
 
 - title: Documentation
   subs:
-  - {page_id: starting_page_doc}
-  - {page_id: overview_repositories}
+  - {page_id: getting-started-start}
+  - {page_id: tutorials}
+  - {page_id: system-overview}
+  - {page_id: repository-overview}
+  - {page_id: videogallery}
 
 - title: Development
   subs:

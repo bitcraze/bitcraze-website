@@ -31,7 +31,7 @@ Crazyflie 2.X.
 
 #### Resources
 
-- [Start here](/tutorials/start/)
+- {% id_link getting-started-start %}
 - [Buyers guide](/buy/buyers-guide/)
 - [FAQ](/support/f-a-q/)
 - [Getting help](/support/getting-help/)
@@ -42,4 +42,4 @@ Crazyflie 2.X.
 
 #### Tutorials
 
-- [Getting started with expansion decks](/tutorials/getting-started-with-expansion-decks/)
+- {% id_link getting-started-expansion-decks %}

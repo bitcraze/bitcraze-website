@@ -34,7 +34,7 @@ latency 2.4 GHz radio.
 #### Resources
 
 - [Loco Positioning system](/products/loco-positioning-system/)
-- [Start here](/tutorials/start/)
+- {% id_link getting-started-start %}
 - [Buyers guide](/buy/buyers-guide/)
 - [FAQ](/support/f-a-q/)
 - [Getting help](/support/getting-help/)
@@ -45,4 +45,4 @@ latency 2.4 GHz radio.
 
 #### Tutorials
 
-* [Getting started with the Loco Positioning system](/tutorials/getting-started-with-loco-positioning-system/)
+* {% id_link getting-started-with-the-loco-positioning-system %}

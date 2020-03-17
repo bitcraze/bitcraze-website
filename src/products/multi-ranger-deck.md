@@ -41,7 +41,7 @@ It also allows to start working on environment-aware problems like Simultaneous 
 
 #### Resources
 
-- [Start here](/tutorials/start/)
+- {% id_link getting-started-start %}
 - [Buyers guide](/buy/buyers-guide/)
 - [Development](/development/development-overview/)
 - [FAQ](/support/f-a-q/)
@@ -52,5 +52,5 @@ It also allows to start working on environment-aware problems like Simultaneous 
 
 #### Tutorials
 
- - [Getting started with expansion decks](/tutorials/getting-started-with-expansion-decks/)
- - [Getting started with the STEM ranging bundle](/tutorials/getting-started-with-stem-ranging-bundle/)
+ - {% id_link getting-started-expansion-decks %}
+ - {% id_link getting-started-stem-ranging-bundle %}

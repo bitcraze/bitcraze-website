@@ -27,7 +27,7 @@ For this tutorial you need:
 * A computer with the Virtual Machine (VM) installed.
 
 For details on how to install the VM and Crazyradio see
-[Getting started with the Crazyflie 2.X](/tutorials/getting-started-with-crazyflie-2-x/#inst-comp).
+[Getting started with the Crazyflie 2.X]({% id_url getting-started-crazyflie-2; inst-comp %}).
 {% endsi_step %}
 
 {% si_step start the VM %}

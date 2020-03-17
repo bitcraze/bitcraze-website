@@ -23,7 +23,7 @@ With the BigQuad deck you can transform your Crazyflie 2.X to a bigger quad by c
 
 #### Resources
 
-- [Start here](/tutorials/start/)
+- {% id_link getting-started-start %}
 - [Buyers guide](/buy/buyers-guide/)
 - [FAQ](/support/f-a-q/)
 - [Getting help](/support/getting-help/)
@@ -34,7 +34,7 @@ With the BigQuad deck you can transform your Crazyflie 2.X to a bigger quad by c
 
 #### Tutorials
 
-- [Getting started with expansion decks](/tutorials/getting-started-with-expansion-decks/)
+- {% id_link getting-started-expansion-decks %}
 
 
 {% include early-access-info.html %}

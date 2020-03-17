@@ -1,20 +1,12 @@
 ---
 layout: page
-title: Documentation
-page_id: starting_page_doc
+title: System overview
+page_id: system-overview
 redirects:
   - /docs/
 ---
 
 {% row_full %}
-
-**Welcome to the documentation for the Crazyflie ecosystem!**
-
-The documentation is organized in two parts:
-* An overview of the system, starting on this page. It drills further down, dividing the system into smaller pieces of hardware and functionality, providing an overview of how the parts fit togeather.
-* [Repository documentation](/documentation/repositories/). Documentation of specifics in each Bitcraze github source repository.
-
-## System overview
 
 There are three main areas to consider when starting to understand the infrastructure.
 
@@ -33,7 +25,7 @@ have a bit different flavours and properties. They run similar firmware and can 
 such as clients and positioning systems.
 {% endrow_text %}
 {% row_links %}
-* [Crazyflie platform overview](/documentation/platform/)
+* {% id_link overview_crazyflie %}
 {% endrow_links %}
 {%endrow_image_text_links%}
 
@@ -47,7 +39,7 @@ Swarms of Crazyflies can be controlled through the python library, the external 
 There are **mobile phone apps** for Android and IOS that connects via BLE, mainly for manual flight.
 {% endrow_text %}
 {% row_links %}
-* [Client and library overview](/documentation/client-and-library/)
+* {% id_link overview_clients %}
 * [CrazySwarm](https://crazyswarm.readthedocs.io/en/latest/)
 {% endrow_links %}
 {%endrow_image_text_links%}
@@ -58,6 +50,6 @@ There are **mobile phone apps** for Android and IOS that connects via BLE, mainl
 Positioning support is needed for automated or autonomous flight. There are two in-house position systems in the Crazyflie ecosystem: the Ultra Wide Band based **Loco Positioning System** and the **Lighthouse positioning system**, based on HTC Vive. It is also possible to integrate with external positioning systems, for instance Motion Capture systems.
 {% endrow_text %}
 {% row_links %}
-* [Positioning overview](/documentation/positioning/)
+* {% id_link overview_positioning %}
 {% endrow_links %}
 {%endrow_image_text_links%}

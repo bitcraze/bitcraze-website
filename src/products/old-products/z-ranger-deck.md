@@ -30,7 +30,7 @@ The maximum range for the ranger is 2 meters.
 
 #### Resources
 
-- [Start here](/tutorials/start/)
+- {% id_link getting-started-start %}
 - [Buyers guide](/buy/buyers-guide/)
 - [Development](/development/development-overview/)
 - [FAQ](/support/f-a-q/)
@@ -43,4 +43,4 @@ The maximum range for the ranger is 2 meters.
 
 #### Tutorials
 
-[Getting started with expansion decks](/tutorials/getting-started-with-expansion-decks/)
+{% id_link getting-started-expansion-decks %}

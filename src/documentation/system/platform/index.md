@@ -34,7 +34,7 @@ The last member of the family is the **[Roadrunner](https://store.bitcraze.io/pr
 * [Roadrunner](https://store.bitcraze.io/products/roadrunner)
 * [Crazyflie 2.0](https://store.bitcraze.io/products/crazyflie-2-0)
 
-* [Architechture](/documentation/platform/cf2-architecture/)
+* {% id_link cf2_architecture %}
 {% endrow_links %}
 {% endrow_image_text_links %}
 
@@ -44,7 +44,7 @@ The last member of the family is the **[Roadrunner](https://store.bitcraze.io/pr
 The Crazyflie can be enhanced by adding [expansion decks](https://store.bitcraze.io/collections/decks), which gives the Crazyflie extra capabilities in sensing, positioning or visualization. There is an extensive [range of decks](https://store.bitcraze.io/collections/decks) available, but the platform is also designed to make it easy to design and add custom decks, enabling the user to use sensors and other devices on the platform. The expansion bus exposes communication buses and GPIO pins to be used by decks as needed.
 {% endrow_text %}
 {% row_links %}
-- [Expansion deck explanation](/documentation/platform/cf2-expansiondecks/)
+- {% id_link cf2_expansiondecks %}
 {% endrow_links %}
 {% endrow_image_text_links %}
 
@@ -54,7 +54,7 @@ The Crazyflie can be enhanced by adding [expansion decks](https://store.bitcraze
 The Crazyflie consists of many hardware components and LED's that have all their own functionalities. The two most important components of the Crazyflie are the microprocessors: the **STM32F4** handles the main Crazyflie firmware with all the low-level and high-level controls and the **NRF51822** handles all the radio communication and power management.
 {% endrow_text %}
 {% row_links %}
-- [Crazyflie 2.X component explanation](/documentation/platform/cf2-components/)
+- {% id_link cf2_component_explanation %}
 - [Crazyflie 2.X STM32F4 documentation](/docs/crazyflie-firmware/master/index/).
 - [Crazyflie 2.X NRF51 documentation](/docs/crazyflie2-nrf-firmware/master/index/).
 {% endrow_links %}

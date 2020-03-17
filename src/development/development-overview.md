@@ -14,7 +14,7 @@ redirects:
 
 [Github](https://github.com/bitcraze) – all the source code, for software and hardware. Contribute and share your work with the community.
 
-[Getting started with development](/tutorials/getting-started-with-development/) – a step by step guide to set up your development environment, build your first custom firmware and download it to the copter.
+{% id_link getting-started-development %} – a step by step guide to set up your development environment, build your first custom firmware and download it to the copter.
 
 ## What can you develop?
 

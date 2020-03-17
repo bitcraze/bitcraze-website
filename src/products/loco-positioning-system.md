@@ -97,7 +97,7 @@ The Loco Positioning system has mainly been designed for indoor use.
 
 ## Getting started with Loco positioning
 
-We have created an easy to follow step-by-step guide for setting up the Loco positioning system that you will find [here](/tutorials/getting-started-with-loco-positioning-system/). In the tutorial we use the [Indoor explorer bundle](https://store.bitcraze.io/collections/bundles/products/indoor-explorer-bundle) that you can buy directly from our [E-shop](https://store.bitcraze.io/). For more technical information about the Loco positioning system please visit our [wiki](https://wiki.bitcraze.io/doc:lps:index).
+We have created an easy to follow step-by-step guide for setting up the Loco positioning system that you will find [here]({% id_url getting-started-with-the-loco-positioning-system %}). In the tutorial we use the [Indoor explorer bundle](https://store.bitcraze.io/collections/bundles/products/indoor-explorer-bundle) that you can buy directly from our [E-shop](https://store.bitcraze.io/). For more technical information about the Loco positioning system please visit our [wiki](https://wiki.bitcraze.io/doc:lps:index).
 
 ## Used by Lund University
 

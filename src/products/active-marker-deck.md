@@ -27,10 +27,16 @@ The hardware comes pre-programmed for Qualisys tracking systems, but can be re-p
 
 #### Resources
 
-- [Start here](/tutorials/start/)
+- {% id_link getting-started-start %}
 - [Buyers guide](/buy/buyers-guide/)
 - [Development](/development/development-overview/)
 - [FAQ](/support/f-a-q/)
 - [Getting help](/support/getting-help/)
 - [Wiki](https://wiki.bitcraze.io/projects:crazyflie2:expansionboards:active-marker-deck)
 - [Specifications](https://store.bitcraze.io/products/active-marker-deck)
+
+---
+
+#### Tutorials
+
+{% id_link getting-started-expansion-decks %}
