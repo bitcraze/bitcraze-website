@@ -121,8 +121,8 @@ it's a breeze to update.
 #### Resources
 
 - {% id_link getting-started-start %}
-- [Buyers guide](/buy/buyers-guide/)
-- [Development](/development/development-overview/)
-- [Getting help](/support/getting-help/)
+- {% id_link buy-guide %}
+- {% id_link development-overview %}
+- {% id_link support-getting-help %}
 - [Wiki](https://wiki.bitcraze.io/projects:bolt:index)
 - [Specifications](https://store.bitcraze.io/products/crazyflie-bolt)

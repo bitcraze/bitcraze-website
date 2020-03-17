@@ -22,7 +22,7 @@ best to help.
 {% endsi_step %}
 
 {% si_step I have more questions %}
-Have a look at our [FAQ](/support/f-a-q/)
+Have a look at our {% id_link support-frequently-asked-questions %}
 or [Wiki](//wiki.bitcraze.io). If you're still not finding what you need post
 a new topic in the [Forum](//forum.bitcraze.io)
 {% endsi_step %}

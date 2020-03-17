@@ -33,11 +33,11 @@ latency 2.4 GHz radio.
 
 #### Resources
 
-- [Loco Positioning system](/products/loco-positioning-system/)
+- {% id_link product-loco-pos-system %}
 - {% id_link getting-started-start %}
-- [Buyers guide](/buy/buyers-guide/)
-- [FAQ](/support/f-a-q/)
-- [Getting help](/support/getting-help/)
+- {% id_link buy-guide %}
+- {% id_link support-frequently-asked-questions %}
+- {% id_link support-getting-help %}
 - [Wiki](https://wiki.bitcraze.io/projects:lps:roadrunner)
 - [Specifications](https://store.bitcraze.io/collections/positioning/products/roadrunner)
 

@@ -42,10 +42,10 @@ It also allows to start working on environment-aware problems like Simultaneous 
 #### Resources
 
 - {% id_link getting-started-start %}
-- [Buyers guide](/buy/buyers-guide/)
-- [Development](/development/development-overview/)
-- [FAQ](/support/f-a-q/)
-- [Getting help](/support/getting-help/)
+- {% id_link buy-guide %}
+- {% id_link development-overview %}
+- {% id_link support-frequently-asked-questions %}
+- {% id_link support-getting-help %}
 - [Wiki](https://wiki.bitcraze.io/projects:crazyflie2:expansionboards:multi-ranger)
 
 ---

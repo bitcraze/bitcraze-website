@@ -33,12 +33,12 @@ This product is intended to be used together with
 
 #### Resources
 
-- [Loco positioning system](/products/loco-positioning-system/)
+- {% id_link product-loco-pos-system %}
 - {% id_link getting-started-start %}
-- [Buyers guide](/buy/buyers-guide/)
-- [Development](/development/development-overview/)
-- [FAQ](/support/f-a-q/)
-- [Getting help](/support/getting-help/)
+- {% id_link buy-guide %}
+- {% id_link development-overview %}
+- {% id_link support-frequently-asked-questions %}
+- {% id_link support-getting-help %}
 - [Wiki](https://wiki.bitcraze.io/projects:lps:deck)
 - [Specifications](https://store.bitcraze.io/collections/decks/products/loco-positioning-deck)
 

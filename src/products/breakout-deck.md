@@ -29,9 +29,9 @@ and attach the Crazyflie 2.X to it.
 #### Resources
 
 - {% id_link getting-started-start %}
-- [Buyers guide](/buy/buyers-guide/)
-- [FAQ](/support/f-a-q/)
-- [Getting help](/support/getting-help/)
+- {% id_link buy-guide %}
+- {% id_link support-frequently-asked-questions %}
+- {% id_link support-getting-help %}
 - [Wiki](https://wiki.bitcraze.io/projects:crazyflie2:expansionboards:breakout)
 - [Specifications](https://store.bitcraze.io/collections/decks/products/breakout-deck)
 

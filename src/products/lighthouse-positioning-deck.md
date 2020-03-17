@@ -30,8 +30,8 @@ it the ideal choice for everything from big laboratories to small classrooms.
 
 - [Lighthouse positioning information](/docs/crazyflie-firmware/master/lighthouse_overview/)
 - {% id_link getting-started-start %}
-- [Buyers guide](/buy/buyers-guide/)
-- [FAQ](/support/f-a-q/)
-- [Getting help](/support/getting-help/)
+- {% id_link buy-guide %}
+- {% id_link support-frequently-asked-questions %}
+- {% id_link support-getting-help %}
 - [Wiki](https://wiki.bitcraze.io/projects:crazyflie2:expansionboards:lighthouse)
 - [Specifications](https://store.bitcraze.io/collections/positioning/products/lighthouse-positioing-deck)
