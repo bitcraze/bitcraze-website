@@ -16,21 +16,30 @@
       {%- endcapture -%}
 
       {%- assign p = site.pages | where:"url", crumb_url | first -%}
-      {% if is_repo_docs_url and crumb_limit == 4 %}
-        {%- comment -%} Dispaly repo name without capitalization and other formatting {%- endcomment -%}
-        / {{ page.repo_name }}
-      {% elsif is_repo_docs_url and crumb_limit == 5 %}
-        {% if forloop.last %}
-          / {{ page.repo_tag }}
-        {% else %}
-          / <a href="{{crumb_url}}">{{ page.repo_tag }}</a>
-        {% endif %}
-      {% elsif forloop.last %}
-        / {{ page.title }}
-      {% elsif p and p contains "title" %}
-        / <a href="{{crumb_url}}">{{ p.title }}</a>
+      {%- assign crumb_title = "" -%}
+
+      {%- if is_repo_docs_url and crumb_limit == 4 -%}
+        {%- assign crumb_title = page.repo_name -%}
+        {%- assign crumb_url = nil -%}
+      {%- elsif is_repo_docs_url and crumb_limit == 5 -%}
+        {%- assign crumb_title = page.repo_tag -%}
+      {%- elsif forloop.last -%}
+        {%- assign crumb_title = page.title -%}
+      {%- elsif p and p contains "title" -%}
+        {%- assign crumb_title = p.title -%}
+      {%- else -%}
+        {%- assign crumb_title = crumb | replace:'-',' ' | remove:'.html' | capitalize -%}
+        {%- assign crumb_url = nil -%}
+      {%- endif -%}
+
+      {%- if forloop.last -%}
+        {%- assign crumb_url = nil -%}
+      {%- endif -%}
+
+      {% if crumb_url %}
+        / <a href="{{crumb_url}}">{{ crumb_title }}</a>
       {% else %}
-        / {{ crumb | replace:'-',' ' | remove:'.html' | capitalize }}
+        / {{ crumb_title }}
       {% endif %}
     {% endfor %}
 </span>
