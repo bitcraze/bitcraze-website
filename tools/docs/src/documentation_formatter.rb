@@ -10,14 +10,13 @@ class DocumentationFormatter
   def update_docs_content(docs_dir, ns, repo_name, tag)
     Dir.glob(File.join(docs_dir, '*.md')).each do | file|
       doc = IO.read(file)
-      relative_path = Pathname.new(file).relative_path_from(Pathname.new(docs_dir))
-      result = update_doc(doc, ns, repo_name, tag, relative_path.to_s)
+      result = update_doc(doc, ns, repo_name, tag)
       IO.write(file, result)
     end
   end
 
-  def update_doc(doc, ns, repo_name, tag, relative_path)
-      doc_fm = update_front_matter_data(doc, ns, repo_name, tag, relative_path)
+  def update_doc(doc, ns, repo_name, tag)
+      doc_fm = update_front_matter_data(doc, ns, repo_name, tag)
       update_urls(doc_fm, repo_name, tag)
   end
 
@@ -25,7 +24,7 @@ class DocumentationFormatter
     ns + '-' + short_id
   end
 
-  def update_front_matter_data(doc, ns, repo_name, tag, relative_path)
+  def update_front_matter_data(doc, ns, repo_name, tag)
     data = YAML.load(doc)
 
     data['page_id'] = generate_page_id(ns, data['page_id'])
@@ -33,9 +32,6 @@ class DocumentationFormatter
     data['repo_name'] = repo_name
     data['repo_tag'] = tag
     data['ns'] = ns
-
-    path_without_md_ext = relative_path[0..-4]
-    data['permalink'] = @docs_root + '/' + repo_name + '/' + tag + '/' + path_without_md_ext + '/'
 
     start_of_front_matter = doc.index('---')
     end_of_front_matter = doc.index('---', start_of_front_matter + 3)

@@ -7,7 +7,6 @@ class TestDocumentationFormatter < Minitest::Test
     @repo_name = 'the-repo'
     @tag = 'master'
     @ns = 'the-namespace'
-    @file_name = 'some/file.md'
 
     @fm_default = {
       'page_id' => @page_id,
@@ -22,7 +21,7 @@ class TestDocumentationFormatter < Minitest::Test
     expected = @ns + '-' + @page_id
 
     # Test
-    actual_doc = @cut.update_doc(doc, @ns, @repo_name, @tag, @file_name)
+    actual_doc = @cut.update_doc(doc, @ns, @repo_name, @tag)
 
     # Assert
     actual = YAML.load(actual_doc)
@@ -35,7 +34,7 @@ class TestDocumentationFormatter < Minitest::Test
     doc = generate_doc(@fm_default, '')
 
     # Test
-    actual_doc = @cut.update_doc(doc, @ns, @repo_name, @tag, @file_name)
+    actual_doc = @cut.update_doc(doc, @ns, @repo_name, @tag)
 
     # Assert
     actual = YAML.load(actual_doc)
@@ -46,27 +45,13 @@ class TestDocumentationFormatter < Minitest::Test
     assert_equal(@ns, actual['ns'])
   end
 
-  def test_that_permalink_is_added_to_front_matter
-    # Fixture
-    doc = generate_doc(@fm_default, '')
-    expected = '/docs/' + @repo_name + '/' + @tag + '/some/file/'
-
-    # Test
-    actual_doc = @cut.update_doc(doc, @ns, @repo_name, @tag, @file_name)
-
-    # Assert
-    actual = YAML.load(actual_doc)
-
-    assert_equal(expected, actual['permalink'])
-  end
-
   def test_that_internal_urls_are_extended
     # Fixture
     doc = generate_doc(@fm_default, '[bla bla](/internal/link)')
     expected = '[bla bla](/docs/' + @repo_name + '/' + @tag + '/internal/link)'
 
     # Test
-    actual = @cut.update_doc(doc, @ns, @repo_name, @tag, @file_name)
+    actual = @cut.update_doc(doc, @ns, @repo_name, @tag)
 
     # Assert
     assert(actual.include? expected)
@@ -78,7 +63,7 @@ class TestDocumentationFormatter < Minitest::Test
     expected = '[bla bla](/some/page/)'
 
     # Test
-    actual = @cut.update_doc(doc, @ns, @repo_name, @tag, @file_name)
+    actual = @cut.update_doc(doc, @ns, @repo_name, @tag)
 
     # Assert
     assert(actual.include? expected)
@@ -91,7 +76,7 @@ class TestDocumentationFormatter < Minitest::Test
     expected = url
 
     # Test
-    actual = @cut.update_doc(doc, @ns, @repo_name, @tag, @file_name)
+    actual = @cut.update_doc(doc, @ns, @repo_name, @tag)
 
     # Assert
     assert(actual.include? expected)
@@ -104,7 +89,7 @@ class TestDocumentationFormatter < Minitest::Test
     expected = url
 
     # Test
-    actual = @cut.update_doc(doc, @ns, @repo_name, @tag, @file_name)
+    actual = @cut.update_doc(doc, @ns, @repo_name, @tag)
 
     # Assert
     assert(actual.include? expected)
