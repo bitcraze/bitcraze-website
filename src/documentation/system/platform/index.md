@@ -55,7 +55,7 @@ The Crazyflie consists of many hardware components and LED's that have all their
 {% endrow_text %}
 {% row_links %}
 - {% id_link cf2_component_explanation %}
-- [Crazyflie 2.X STM32F4 documentation](/docs/crazyflie-firmware/master/index/).
-- [Crazyflie 2.X NRF51 documentation](/docs/crazyflie2-nrf-firmware/master/index/).
+- [Crazyflie 2.X STM32F4 documentation](/documentation/repository/crazyflie-firmware/master/).
+- [Crazyflie 2.X NRF51 documentation](/documentation/repository/crazyflie2-nrf-firmware/master/).
 {% endrow_links %}
 {% endrow_image_text_links %}

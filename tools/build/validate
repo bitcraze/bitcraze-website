@@ -3,22 +3,48 @@
 # Verify the integrity of the generated html. Checks syntax, that links are
 # pointing at something valid and that images exists.
 
-
 STDOUT.sync = true
 
 require 'html-proofer'
-
 # Add checks for our urls
 require_relative '../validate/src/url_check'
-ignored_files = []
 
-puts 'Checking html and internal links...'
-HTMLProofer.check_directory("./_site", options = {:check_html => true, :allow_hash_href => true, :disable_external => true, :url_ignore => [/\/category\/.*/], :file_ignore => ignored_files, :assume_extension => true}).run
 
-puts 'Checking external references...'
-begin
-  HTMLProofer.check_directory("./_site", options = {:external_only => true, :file_ignore => ignored_files}).run
-rescue Exception => e
-  puts "\e[31mWARNING: All external references could not be validated. The reference(s) might be faulty or the external site is maybe down?\e[0m\n"
+root_path = "./_site"
+repo_docs_path = "./_site/documentation/repository"
+
+def check_internal_links(root, ignored_files)
+  HTMLProofer.check_directory(root, options = {:check_html => true, :allow_hash_href => true, :disable_external => true, :url_ignore => [/\/category\/.*/], :file_ignore => ignored_files, :assume_extension => true}).run
 end
 
+def check_external_links(root, ignored_files)
+  begin
+    HTMLProofer.check_directory(root, options = {:external_only => true, :file_ignore => ignored_files}).run
+  rescue Exception => e
+    puts "\e[31mWARNING: All external references could not be validated. The reference(s) might be faulty or the external site is maybe down?\e[0m\n"
+  end
+end
+
+ignored_files = []
+
+# Find all repository docs that are not in a master branch
+Dir.each_child(repo_docs_path) do |repo_file|
+  repo_path = repo_docs_path + "/" + repo_file
+  if Dir.exist?(repo_path)
+    Dir.each_child(repo_docs_path + "/" + repo_file) do |tag_file|
+      if tag_file != "master"
+        path = repo_path + "/" + tag_file
+        ignored_files << /#{Regexp.escape(path)}\/.*/
+      end
+    end
+  end
+end
+
+puts "Ignored paths"
+puts ignored_files
+
+# puts 'Checking html and internal links...'
+check_internal_links(root_path, ignored_files)
+
+# puts 'Checking external references...'
+check_external_links(root_path, ignored_files)

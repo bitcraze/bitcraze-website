@@ -13,5 +13,6 @@ src/javascripts/bootstrap.js
 src/javascripts/bootstrap.min.js
 src/_data/docs_menu.yml
 src/_data/docs_tag_list.yml
-src/docs/*
+src/documentation/repository/*
+!src/documentation/repository/index.md
 src/.jekyll-cache

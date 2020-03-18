@@ -48,7 +48,7 @@ class TestDocumentationFormatter < Minitest::Test
   def test_that_internal_urls_are_extended
     # Fixture
     doc = generate_doc(@fm_default, '[bla bla](/internal/link)')
-    expected = '[bla bla](/docs/' + @repo_name + '/' + @tag + '/internal/link)'
+    expected = '[bla bla](/documentation/repository/' + @repo_name + '/' + @tag + '/internal/link)'
 
     # Test
     actual = @cut.update_doc(doc, @ns, @repo_name, @tag)

@@ -4,7 +4,7 @@ require 'pathname'
 
 class DocumentationFormatter
   def initialize
-    @docs_root = '/docs'
+    @docs_root = '/documentation/repository'
   end
 
   def update_docs_content(docs_dir, ns, repo_name, tag)
@@ -47,7 +47,7 @@ class DocumentationFormatter
     # Doc url ==> modified url
     # ------------------------
     # #page-ref ==> #page-ref
-    # /my-url/ ==> /docs/repo-name/tag/my-url/
+    # /my-url/ ==> /documentation/repository/repo-name/tag/my-url/
     # https://www.bitcraze.io/fancy_page/ ==> /fancy_page/
     # https://other.domain/fancy_page/ ==> https://other.domain/fancy_page/
 

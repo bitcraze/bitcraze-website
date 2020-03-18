@@ -19,12 +19,12 @@ PC clients and libraries
 {%endcolumn%}
 {%column 6%}
 
-We have a Crazyflie 2.X python-based client for the PC, of which all the documentation can be found [here](/docs/crazyflie-clients-python/master/index/). The PC client runs on the Crazyflie library (CFlib), of which all the documentation can be found [here](/docs/crazyflie-lib-python/master/index/).
+We have a Crazyflie 2.X python-based client for the PC, of which all the documentation can be found [here](/documentation/repository/crazyflie-clients-python/master/). The PC client runs on the Crazyflie library (CFlib), of which all the documentation can be found [here](/documentation/repository/crazyflie-lib-python/master/).
 
 {%endcolumn%}
 {%column 3%}
- - [Crazyflie Python-based client documentation](/docs/crazyflie-clients-python/master/index/)
- - [Crazyflie Python library documentation](/docs/crazyflie-lib-python/master/index/)
+ - [Crazyflie Python-based client documentation](/documentation/repository/crazyflie-clients-python/master/)
+ - [Crazyflie Python library documentation](/documentation/repository/crazyflie-lib-python/master/)
 {%endcolumn%}
 {%endrow%}
 
@@ -46,7 +46,7 @@ The PC needs a Crazyradio PA in order to communicate with the Crazyflie 2.X. Thi
 {%endcolumn%}
 {%column 3%}
 
-- [Crazyradio PA documentation](/docs/crazyradio-firmware/master/index/).
+- [Crazyradio PA documentation](/documentation/repository/crazyradio-firmware/master/).
 
 {%endcolumn%}
 {%endrow%}
