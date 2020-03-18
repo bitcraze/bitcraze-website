@@ -1,23 +1,36 @@
-<span id="breadcrumbs">
+<span id="breadcrumbs" class="docs-version-dropdown">
     {%- assign crumbs = page.url | remove:'/index.html' | split: '/' -%}
     <a href="/">Home</a>
-    {% for crumb in crumbs offset: 1 %}
-      {% if forloop.last %}
-        / {{ page.title }}
-      {% else %}
-        {%- assign crumb_limit = forloop.index | plus: 1 -%}
-        {%- capture crumb_url -%}
-          {%- for crumb in crumbs limit: crumb_limit -%}
-             {{ crumb | append: '/' }}
-          {%- endfor -%}
-        {%- endcapture -%}
 
-        {%- assign p = site.pages | where:"url",crumb_url | first -%}
-        {%- if p and p contains "title" -%}
-          / <a href="{{crumb_url}}">{{p.title}}</a>
-        {%- else -%}
-          / {{ crumb | replace:'-',' ' | remove:'.html' | capitalize }}
-        {%- endif -%}
+    {% assign is_repo_docs_url = false %}
+    {% if page contains "repo_name" %}
+      {% assign is_repo_docs_url = true %}
+    {% endif %}
+
+    {% for crumb in crumbs offset: 1 %}
+      {%- assign crumb_limit = forloop.index | plus: 1 -%}
+      {%- capture crumb_url -%}
+        {%- for crumb in crumbs limit: crumb_limit -%}
+          {{ crumb | append: '/' }}
+        {%- endfor -%}
+      {%- endcapture -%}
+
+      {%- assign p = site.pages | where:"url", crumb_url | first -%}
+      {% if is_repo_docs_url and crumb_limit == 4 %}
+        {%- comment -%} Dispaly repo name without capitalization and other formatting {%- endcomment -%}
+        / {{ page.repo_name }}
+      {% elsif is_repo_docs_url and crumb_limit == 5 %}
+        {% if forloop.last %}
+          / {{ page.repo_tag }}
+        {% else %}
+          / <a href="{{crumb_url}}">{{ page.repo_tag }}</a>
+        {% endif %}
+      {% elsif forloop.last %}
+        / {{ page.title }}
+      {% elsif p and p contains "title" %}
+        / <a href="{{crumb_url}}">{{ p.title }}</a>
+      {% else %}
+        / {{ crumb | replace:'-',' ' | remove:'.html' | capitalize }}
       {% endif %}
     {% endfor %}
 </span>

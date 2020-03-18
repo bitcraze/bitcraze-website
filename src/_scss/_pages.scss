@@ -307,6 +307,17 @@ table {
 
 // Breadcrumbs
 .breadcrumbs {
+    a {
+        color: $breadcrumbs-link-color;
+        font-weight: $breadcrumbs-link-weight;
+    }
+
+    margin-bottom: $breadcrumbs-margin-bottom;
+}
+
+.repo-version {
+    text-align: right;
+
     .docs-version-dropdown {
         input, .docs-version-dropdown-submenu {
             display: none;
@@ -326,13 +337,6 @@ table {
             display: inline;
         }
     }
-
-    a {
-        color: $breadcrumbs-link-color;
-        font-weight: $breadcrumbs-link-weight;
-    }
-
-    margin-bottom: $breadcrumbs-margin-bottom;
 }
 
 // Docs

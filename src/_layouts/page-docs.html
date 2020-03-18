@@ -9,16 +9,19 @@ layout: page-base
         </div>
     </header>
     <div class="row">
-        <div class="col-md-12 breadcrumbs">
+        <div class="col-md-9 breadcrumbs">
+            {% include breadcrumbs.html %}
+        </div>
+        <div class="col-md-3 breadcrumbs repo-version">
             <span class="docs-version-dropdown">
-                Repository documentation: <b>{{page.repo_name}}</b>
+                Repo tag:
                 <input id="docs-version-check" type="checkbox" name="menu" />
                 [ <label for="docs-version-check">{{page.repo_tag}}</label>
                 <versionitems class="docs-version-dropdown-submenu">
                     {% for tag in site.data.docs_tag_list[page.repo_name] %}
                         {% if page.repo_tag != tag %}
-                            {% assign parts = page.url | remove: '.html' | replace: '//', '/' | split: page.repo_tag %}
-                            {% assign url = parts[0] | append: tag | append: '/index/' %}
+                            {% assign parts = page.url | split: page.repo_tag %}
+                            {% assign url = parts[0] | append: tag | append: '/' %}
                             , <a href="{{url}}">{{tag}}</a>
                         {% endif %}
                     {% endfor %}
