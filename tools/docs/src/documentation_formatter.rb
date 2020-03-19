@@ -8,10 +8,12 @@ class DocumentationFormatter
   end
 
   def update_docs_content(docs_dir, ns, repo_name, tag)
-    Dir.glob(File.join(docs_dir, '*.md')).each do | file|
-      doc = IO.read(file)
-      result = update_doc(doc, ns, repo_name, tag)
-      IO.write(file, result)
+    Dir.glob(docs_dir + '/**/*') do |file|
+      if !File.directory?(file) && file.end_with?('.md')
+        doc = IO.read(file)
+        result = update_doc(doc, ns, repo_name, tag)
+        IO.write(file, result)
+      end
     end
   end
 
