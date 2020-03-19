@@ -310,8 +310,10 @@ table {
     a {
         color: $breadcrumbs-link-color;
         font-weight: $breadcrumbs-link-weight;
+        text-decoration: underline;
     }
 
+    font-weight: $breadcrumbs-font-weight;
     margin-bottom: $breadcrumbs-margin-bottom;
 }
 
