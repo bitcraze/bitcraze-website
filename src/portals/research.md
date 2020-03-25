@@ -62,19 +62,36 @@ you can read about how the researchers at MIT are using the Crazyflie 2.0 to stu
 
 ## Publications involving Crazyflie 2.X
 ---
+* **Learning-based Bias Correction for Ultra-wideband Localization of Resource-constrained Mobile Robots**,
+Wenda Zhao, Abhishek Goudar, Jacopo Panerati, Angela P. Schoellig, University of Toronto, 2020.
+[PDF](https://arxiv.org/pdf/2003.09371.pdf)
+
+* **Signal-based self-organization of a chain of UAVs for subterranean exploration**,
+Pierre Laclau, Vladislav Tempez, Franck Ruffier, Enrico Natalizio, Jean-Baptiste Mouret, Universit de Technologie de Compigne, 2020.
+[PDF](https://arxiv.org/pdf/2003.04409.pdf)
+
+* **Minimal navigation solution for a swarm of tiny flying robots to explore an unknown environment**,
+K. N. McGuire, C. De Wagter, K. Tuyls, H. J. Kappen and G. C. H. E. de Croon, TU Delft, 2019.
+[PDF, ](https://robotics.sciencemag.org/content/4/35/eaaw9710)
+[Video](https://www.youtube.com/watch?v=jU4wsxwM1No)
+
+* **A 64-mW DNN-Based Visual Navigation Engine for Autonomous Nano-Drones**,
+Daniele Palossi, Antonio Loquercio, Francesco Conti, Eric Flamand, Davide Scaramuzza, Luca Benini, ETH Zürich, 2019.
+[PDF](https://ieeexplore.ieee.org/abstract/document/8715489)
+
 * **Trajectory-based Agile Multi UAV Coordination through Time Synchronisation**,
 Omar Shadeed, Halise Turkmen, Emre Koyuncu, AIAA Science and Technology Forum and Exposition, 2020.
-[PDF, ](https://www.researchgate.net/publication/338400671_Trajectory-based_Agile_Multi_UAV_Coordination_through_Time_Synchronisation)
+[PDF](https://www.researchgate.net/publication/338400671_Trajectory-based_Agile_Multi_UAV_Coordination_through_Time_Synchronisation)
 
 * **Learning to Seek: Autonomous Source Seeking with Deep Reinforcement Learning Onboard a Nano Drone Microcontroller**, Bardienus P. Duisterhof, Srivatsan Krishnan, Jonathan J. Cruz, Colby R. Banbury William Fu, Aleksandra Faust, Guido C. H. E. de Croon, Vijay Janapa Reddi, Harvard University, 2019.
 [PDF, ](https://arxiv.org/pdf/1909.11236)
 [Video](https://www.youtube.com/watch?v=wmVKbX7MOnU)
 
 * **Compliant Bistable Gripper for Aerial Perching and Grasping**, Haijie Zhang, Jiefeng Sun and Jianguo Zhao, Department of Mechanical Engineering, Colorado State University, 2019.
-[PDF, ](https://ieeexplore.ieee.org/document/8793936)
+[PDF](https://ieeexplore.ieee.org/document/8793936)
 
 * **Vision based control and landing of Micro aerial vehicles**, Christoffer Karlsson, Department of Engineering and Physics, Karlstad University, 2019.
-[PDF, ](http://kau.diva-portal.org/smash/get/diva2:1332929/FULLTEXT01.pdf)
+[PDF](http://kau.diva-portal.org/smash/get/diva2:1332929/FULLTEXT01.pdf)
 
 * **Generalization through Simulation: Integrating Simulated and Real Data into Deep Reinforcement Learning for Vision-Based Autonomous Flight**, Katie Kang, Suneel Belkhale, Gregory Kahn, Pieter Abbeel, Sergey Levine, Berkeley AI Research (BAIR), University of California, Berkeley, 2019.
 [PDF, ](https://arxiv.org/pdf/1902.03701.pdf)
@@ -92,7 +109,7 @@ Omar Shadeed, Halise Turkmen, Emre Koyuncu, AIAA Science and Technology Forum an
 [Video](https://youtu.be/qsrYCUSQ-S4)
 
 * **Optimal trajectory generation for time-to-contact based aerial robotic perching**, Haijie Zhang, Bo Cheng and Jianguo Zhao, Department of Mechanical Engineering, Colorado State University, 2018.
-[PDF, ](https://iopscience.iop.org/article/10.1088/1748-3190/aaeb13)
+[PDF](https://iopscience.iop.org/article/10.1088/1748-3190/aaeb13)
 
 * **Relative positioning system for UAVs in swarming applications**, Andres Cecilia Luque, Master's thesis, Technical University of Denmark, 2018.
 [PDF, ](https://findit.dtu.dk/en/catalog/2439894045)
@@ -106,6 +123,11 @@ Omar Shadeed, Halise Turkmen, Emre Koyuncu, AIAA Science and Technology Forum an
 [PDF, ](https://giuseppesilano.net/publications/med18.pdf)
 [Code, ](https://github.com/gsilano/CrazyS)
 [Video](https://youtu.be/pda-tuULewM)
+
+* **Self-Calibrating Ultra-Wideband Network Supporting Multi-Robot Localization**,
+Michael Hamer, Raffaello D’Andrea, ETH, 2017.
+[PDF, ](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=8344407)
+[Video](https://youtu.be/ahHcqK1N5fE)
 
 * **Development of a multi-agent quadrotor research platform with distributed computational capabilities**, Ian S. McInerney, Master's thesis, Iowa State University, 2017.
 [PDF, ](https://lib.dr.iastate.edu/etd/15575)
@@ -161,7 +183,7 @@ Leobardo Campos-Macías, David Gómez-Gutiérrez, Rodrigo Aldana-López, Rafael 
 [Video](https://www.youtube.com/watch?v=px9iHkA0nOI)
 
 * **System Identification of the Crazyflie 2.0 Nano Quadrocopter**, J. Förster,  Bachelor's thesis, ETH Zürich, 2015.
-[PDF, ](https://polybox.ethz.ch/index.php/s/20dde63ee00ffe7085964393a55a91c7)
+[PDF](https://polybox.ethz.ch/index.php/s/20dde63ee00ffe7085964393a55a91c7)
 
 
 ### Publications involving Crazyflie 1.0
