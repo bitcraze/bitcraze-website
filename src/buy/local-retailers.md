@@ -52,6 +52,7 @@ redirects:
 {% country Germany %}
 {% distributor Watterott; http://www.watterott.com/index.php?page=search&page_action=query&desc=on&sdesc=on&keywords=crazyflie&x=-1232&y=-27; /images/distributors/wetterott.jpg %}
 {% distributor Exp-tech; https://www.exp-tech.de/bitcraze/; /images/distributors/exp_tech_logo_600.png %}
+{% distributor Flyingmachines; https://www.flyingmachines.de/Bitcraze_1; /images/distributors/flyingmachines.png %}
 
 {% country Spain %}
 {% distributor Corzotech; https://corzotech.com/en/65-crazyflie-bitcraze; /images/distributors/CORZOTECH.jpg %}
