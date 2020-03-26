@@ -43,6 +43,8 @@ redirects:
 {% country Taiwan %}
 {% distributor Icshop; http://www.icshop.com.tw/advanced_search_result.php?keywords=crazyflie&x=-782&y=-104; /images/distributors/icsshop.jpg %}
 
+{% country Singapore %}
+{% distributor Aerise; https://www.aerise.cc/; /images/distributors/aerise.jpg %}
 
 {% continent Europe %}
 
