@@ -107,6 +107,8 @@ Also make sure that the correct side is facing up, the top side should be convex
 
 Here we are attaching the CW propellers.
 
+Note that to avoid your propellers to break too easily, you should not push the propeller all the way down on the shaft. Instead stop when force is getting high and it holds the propeller in place. This will prevent the tension in the propeller to become big enough to break.
+
 {% tutorialVideo \videos\attach_the_propellers.mp4 %}
 
 Here’s a detailed view of where to attach CW and CCW propellers.
