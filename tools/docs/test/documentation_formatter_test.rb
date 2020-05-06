@@ -5,7 +5,7 @@ class TestDocumentationFormatter < Minitest::Test
   def setup
     @page_id = 'the-id'
     @repo_name = 'the-repo'
-    @tag = 'master'
+    @tag = 'the-tag'
     @ns = 'the-namespace'
 
     @fm_default = {
@@ -87,6 +87,42 @@ class TestDocumentationFormatter < Minitest::Test
     url = '[bla bla](http://some.external.url/path)'
     doc = generate_doc(@fm_default, url)
     expected = url
+
+    # Test
+    actual = @cut.update_doc(doc, @ns, @repo_name, @tag)
+
+    # Assert
+    assert(actual.include? expected)
+  end
+
+  def test_that_urls_to_github_files_in_master_of_the_current_repo_are_changed_to_the_tag
+    # Fixture
+    doc = generate_doc(@fm_default, '[bla bla](https://github.com/bitcraze/the-repo/blob/master/src/modules/interface/stabilizer_types.h)')
+    expected = '[bla bla](https://github.com/bitcraze/the-repo/blob/the-tag/src/modules/interface/stabilizer_types.h)'
+
+    # Test
+    actual = @cut.update_doc(doc, @ns, @repo_name, @tag)
+
+    # Assert
+    assert(actual.include? expected)
+  end
+
+  def test_that_urls_to_github_files_in_master_of_another_repo_are_not_changed_to_the_tag
+    # Fixture
+    doc = generate_doc(@fm_default, '[bla bla](https://github.com/bitcraze/other-repo/blob/master/src/modules/interface/stabilizer_types.h)')
+    expected = '[bla bla](https://github.com/bitcraze/other-repo/blob/master/src/modules/interface/stabilizer_types.h)'
+
+    # Test
+    actual = @cut.update_doc(doc, @ns, @repo_name, @tag)
+
+    # Assert
+    assert(actual.include? expected)
+  end
+
+  def test_that_urls_to_github_files_in_another_tag_of_the_current_repo_are_not_changed_to_the_tag
+    # Fixture
+    doc = generate_doc(@fm_default, '[bla bla](https://github.com/bitcraze/the-repo/blob/other-tag/src/modules/interface/stabilizer_types.h)')
+    expected = '[bla bla](https://github.com/bitcraze/the-repo/blob/other-tag/src/modules/interface/stabilizer_types.h)'
 
     # Test
     actual = @cut.update_doc(doc, @ns, @repo_name, @tag)

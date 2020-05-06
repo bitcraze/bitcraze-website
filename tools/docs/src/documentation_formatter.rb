@@ -48,6 +48,11 @@ class DocumentationFormatter
   def update_urls(doc, repo_name, tag)
     # The URLs in the repo docs are designed to work with the local jekyll server,
     # massage them to fit the public web structure.
+    #
+    # Also update github links to files in this repo. If a link is pointing at a file in master, re-link
+    # it to point at tag instead. This will "freeze" links to files in the tag, even if they are pointing at
+    # master in the markdown file.
+    #
     # Links have the following format:
     # [Some text](/the/url/)
     #
@@ -57,9 +62,13 @@ class DocumentationFormatter
     # /my-url/ ==> /documentation/repository/repo-name/tag/my-url/
     # https://www.bitcraze.io/fancy_page/ ==> /fancy_page/
     # https://other.domain/fancy_page/ ==> https://other.domain/fancy_page/
+    # https://github.com/bitcraze/repo_name/blob/master/... ==> https://github.com/bitcraze/repo_name/blob/tag/..
 
     repo_path = @docs_root + '/' + repo_name + '/' + tag
-    doc.gsub(/(\[[^\[]*\])\(\s*(\/[^\)]*)\)/, '\1(' + repo_path + '\2)').gsub(/(\[[^\[]*\])\(\s*https:\/\/www.bitcraze.io(\/[^\)]*\))/, '\1(\2')
+    doc
+      .gsub(/(\[[^\[]*\])\(\s*(\/[^\)]*)\)/, '\1(' + repo_path + '\2)')
+      .gsub(/(\[[^\[]*\])\(\s*https:\/\/www\.bitcraze\.io(\/[^\)]*\))/, '\1(\2')
+      .gsub(/(\s*https:\/\/github\.com\/bitcraze\/#{Regexp.escape(repo_name)}\/blob\/)master(\/[^\)]*\))/, '\1' + tag + '\2')
   end
 
   def add_name_space_to_node_list(nodes, ns)
