@@ -48,3 +48,9 @@ We are here to help you!
 Post a question in the [forum](//forum.bitcraze.io), add an issue on
 [github](https://github.com/bitcraze) or drop us an email at
 contact@bitcraze.io to get help.
+
+## Writing repository documentation
+
+The repository documentation is located in each repositry, to make it easy to update when the
+code is modified. Read the [repository documentation guidelines]({% id_url repo-doc-guidelines %})
+for information on formatting, tools and how it works.

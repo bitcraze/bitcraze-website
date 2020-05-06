@@ -6,8 +6,7 @@ redirects:
   - /docs/overview_repositories/
 ---
 
-Python
------------------------
+## Python
 
  |Category| GitHub repository | Documentation | Explanation |
 |---| -----------------  |--------------| ----------------|
@@ -18,8 +17,7 @@ Python
 |![LPS system](/images/documentation/overview/lpssystem.png){:width="100px"}|[lps-tools](https://github.com/bitcraze/lps-tools ) | [Docs](/documentation/repository/lps-node-firmware/master/) | This GitHub repository contains the source code for the configuration of the loco positioning firmware. The documentation of the lps-node-firmware contains the instructions|
 
 
-C-based Firmware
------------------------
+## C-based Firmware
 
 |Category| GitHub repository | Documentation | Explanation |
 |----| -----------------  |--------------| ----------------|
@@ -29,11 +27,7 @@ C-based Firmware
 ![LPS system](/images/documentation/overview/lpssystem.png){:width="100px"}| [lps-node-firmware](https://github.com/bitcraze/lps-node-firmware) | [Docs](/documentation/repository/lps-node-firmware/master/) | This GitHub repository contains the source code for the [loco positioning node](https://store.bitcraze.io/collections/positioning/products/loco-positioning-node). The documentation also includes several user guides how to set the system up and also explains the interaction with the [LPS expansion deck](https://store.bitcraze.io/collections/positioning/products/loco-positioning-deck) of the Crazyflie. |
 |![lighthouse system](/images/documentation/overview/lighthouse.png){:width="100px"}|[lighthouse-fpga](https://github.com/bitcraze/lighthouse-fpga ) |  | This repository contains the FPGA source code for calculating position with the [lighthouse deck](https://store.bitcraze.io/collections/positioning/products/lighthouse-positioning-deck). |
 
-
-
-Bootloaders
------------------------
-
+## Bootloaders
 
  |Category| GitHub repository | Documentation | Explanation |
 |---| -----------------  |--------------| ----------------|
