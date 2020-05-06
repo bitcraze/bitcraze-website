@@ -10,9 +10,14 @@ class DocumentationFormatter
   def update_docs_content(docs_dir, ns, repo_name, tag)
     Dir.glob(docs_dir + '/**/*') do |file|
       if !File.directory?(file) && file.end_with?('.md')
-        doc = IO.read(file)
-        result = update_doc(doc, ns, repo_name, tag)
-        IO.write(file, result)
+        begin
+          doc = IO.read(file)
+          result = update_doc(doc, ns, repo_name, tag)
+          IO.write(file, result)
+        rescue
+          puts("ERROR: Failed to update " + file)
+          raise
+        end
       end
     end
   end
