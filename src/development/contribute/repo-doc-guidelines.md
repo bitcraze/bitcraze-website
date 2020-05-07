@@ -63,27 +63,34 @@ Put your image files in the image directory. Display an image using
 ![my alt text](/images/my_image.png)
 ```
 
+The alt text is required, it is used as support for diabled readers, search engines and other tools. Use a text that describes the contents of the image.
+
 ### Ditaa (DIagrams Through Ascii Art)
 
-[Ditaa](https://github.com/matze/jekyll-ditaa) generates images from ascii art, it is convienient to use for simple diagrams or protocol
-descriptions.
+[Ditaa](http://ditaa.sourceforge.net) generates images from ascii art, it is convienient to use for simple diagrams or protocol
+descriptions. Read the [ditaa documentation](http://ditaa.sourceforge.net/#usage) for a description of the supported features.
 
-The ditaa markup must be enclosed in liquid tags
+The ditaa markup must be enclosed in liquid tags. The alt text is required since the diagram is rendered as an image, it is used as
+support for diabled readers, search engines and other tools. Use a text that describes what the diagram illustrates.
 
 ```
 {% raw %}
-{% ditaa %}
+{% ditaa --alt "A diagram" %}
 /-------\        +---------+
-|   A   |------->| diagram |
+|       |   +--->| cGRE    |
+|   A   |   |    | diagram |
+|       |---+    |         |
 \-------/        +---------+
 {% endditaa %}
 {% endraw %}
 ```
 and will be rendered like this
 
-{% ditaa %}
+{% ditaa --alt "A diagram" %}
 /-------\        +---------+
-|   A   |------->| diagram |
+|       |   +--->| cGRE    |
+|   A   |   |    | diagram |
+|       |---+    |         |
 \-------/        +---------+
 {% endditaa %}
 
@@ -124,7 +131,10 @@ tb docs 8080
 ````
 Surf to `localhost:8080` in your browser.
 
-Note: the styling is not identical to the Bitcraze website but should give a rough idea of the end result.
+The server automatically regenerates the html when a markdown file is modified, you only have to reload the page in your web browser.
+There are some cases that are not handled though, and if you make changes to the menu for instance, you probably have to restart the server to get it all right.
+
+**Note**: the styling in the development server is not identical to the Bitcraze website but should give a rough idea of the end result.
 
 ## The menu
 
