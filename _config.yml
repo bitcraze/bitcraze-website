@@ -14,3 +14,10 @@ keep_files: ['_site/css/kraken.css.map']
 sass:
   sass_dir: _scss
   style: compressed
+
+# Note: the ditaa and the jekyll-ditaa plugin are part of the bitcraze/web-builer
+plugins:
+  - jekyll-ditaa
+
+ditaa_debug_mode: false
+ditaa_output_directory: images/ditaa

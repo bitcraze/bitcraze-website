@@ -63,6 +63,30 @@ Put your image files in the image directory. Display an image using
 ![my alt text](/images/my_image.png)
 ```
 
+### Ditaa (DIagrams Through Ascii Art)
+
+[Ditaa](https://github.com/matze/jekyll-ditaa) generates images from ascii art, it is convienient to use for simple diagrams or protocol
+descriptions.
+
+The ditaa markup must be enclosed in liquid tags
+
+```
+{% raw %}
+{% ditaa %}
+/-------\        +---------+
+|   A   |------->| diagram |
+\-------/        +---------+
+{% endditaa %}
+{% endraw %}
+```
+and will be rendered like this
+
+{% ditaa %}
+/-------\        +---------+
+|   A   |------->| diagram |
+\-------/        +---------+
+{% endditaa %}
+
 ### Links
 
 The genereal format for a link is

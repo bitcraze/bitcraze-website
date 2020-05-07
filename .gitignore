@@ -16,3 +16,4 @@ src/_data/docs_tag_list.yml
 src/documentation/repository/*
 !src/documentation/repository/index.md
 src/.jekyll-cache
+src/images/ditaa
