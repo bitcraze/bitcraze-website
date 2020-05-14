@@ -29,6 +29,22 @@ class TestDocumentationFormatter < Minitest::Test
     assert_equal(expected, actual['page_id'])
   end
 
+  def test_that_redirects_in_front_matter_are_updated
+    # Fixture
+    front_matter = @fm_default.merge({'redirects' => ['/a/page/', '/other/page/']})
+    doc = generate_doc(front_matter, '')
+
+    expected = ['/documentation/repository/' + @repo_name + '/' + @tag + '/a/page/', '/documentation/repository/' + @repo_name + '/' + @tag + '/other/page/']
+
+    # Test
+    actual_doc = @cut.update_doc(doc, @ns, @repo_name, @tag)
+
+    # Assert
+    actual = YAML.load(actual_doc)
+
+    assert_equal(expected, actual['redirects'])
+  end
+
   def test_that_attributes_are_added_to_front_matter
     # Fixture
     doc = generate_doc(@fm_default, '')

@@ -65,9 +65,9 @@ Put your image files in the image directory. Display an image using
 
 The alt text is required, it is used as support for diabled readers, search engines and other tools. Use a text that describes the contents of the image.
 
-### Ditaa (DIagrams Through Ascii Art)
+### Diagrams
 
-[Ditaa](http://ditaa.sourceforge.net) generates images from ascii art, it is convienient to use for simple diagrams or protocol
+[Ditaa (DIagrams Through Ascii Art)](http://ditaa.sourceforge.net) generates images from ascii art, it is convienient to use for simple diagrams or protocol
 descriptions. Read the [ditaa documentation](http://ditaa.sourceforge.net/#usage) for a description of the supported features.
 
 The ditaa markup must be enclosed in liquid tags. The alt text is required since the diagram is rendered as an image, it is used as
@@ -75,7 +75,7 @@ support for diabled readers, search engines and other tools. Use a text that des
 
 ```
 {% raw %}
-{% ditaa --alt "A diagram" %}
+{% ditaa --alt "Example diagram" %}
 /-------\        +---------+
 |       |   +--->| cGRE    |
 |   A   |   |    | diagram |
@@ -86,7 +86,7 @@ support for diabled readers, search engines and other tools. Use a text that des
 ```
 and will be rendered like this
 
-{% ditaa --alt "A diagram" %}
+{% ditaa --alt "Example diagram" %}
 /-------\        +---------+
 |       |   +--->| cGRE    |
 |   A   |   |    | diagram |
@@ -113,6 +113,33 @@ Some examples:
 | An external repo on github | `[repository](https://github.com/adam-p/markdown-here)` |
 | A file in a Bitcraze repo on github | `[estimator.h](https://github.com/bitcraze/crazyflie-firmware/blob/master/src/modules/interface/estimator.h)` |
 | An external web site | `[quadcopter](https://en.wikipedia.org/wiki/Quadcopter)` |
+
+### Redirects
+
+When a page is moved and the url changes, it is possible to add a redirect from the old url to the new one using the
+`redirects` directive in the meta data. There might be external links pointing at the old url and by adding
+a redirect, those will continue to work.
+
+Supose we have two pages at `/fancy_section/my_page/` and `/fancy_section/other_page/`, that is the files `my_page.md` and `other_page.md` are located in `/docs/fancy_section`.
+
+We realize that the contents of the pages could be merged into one page, and that it would fit better in `/other_section/` instead.
+
+We create a new file, `better_page.md` in `/docs/other_sction` and merge the contents of the old pages. To
+create the redirects, add the following meta data
+
+```
+---
+title: Better page
+page_id: better_id
+redirects:
+  - /fancy_section/my_page/
+  - /fancy_section/other_page/
+---
+```
+
+The old files can be deleted, and if someone tries to access one of the old urls, the browser will be redirected to the new page.
+
+**Note:** The development server does not support redirects at the moment.
 
 ## Development server
 

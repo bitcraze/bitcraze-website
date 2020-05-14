@@ -31,6 +31,17 @@ class DocumentationFormatter
     ns + '-' + short_id
   end
 
+  def get_repo_path(repo_name, tag)
+    @docs_root + '/' + repo_name + '/' + tag
+  end
+
+  def update_redirects(local_redirects, repo_name, tag)
+    # Updates
+    # /my-url/ ==> /documentation/repository/repo-name/tag/my-url/
+    repo_path = get_repo_path(repo_name, tag)
+    local_redirects.map {|local_url| repo_path + local_url}
+  end
+
   def update_front_matter_data(doc, ns, repo_name, tag)
     data = YAML.load(doc)
 
@@ -39,6 +50,10 @@ class DocumentationFormatter
     data['repo_name'] = repo_name
     data['repo_tag'] = tag
     data['ns'] = ns
+
+    if data.key?('redirects')
+      data['redirects'] = update_redirects(data['redirects'], repo_name, tag)
+    end
 
     start_of_front_matter = doc.index('---')
     end_of_front_matter = doc.index('---', start_of_front_matter + 3)
@@ -64,7 +79,7 @@ class DocumentationFormatter
     # https://other.domain/fancy_page/ ==> https://other.domain/fancy_page/
     # https://github.com/bitcraze/repo_name/blob/master/... ==> https://github.com/bitcraze/repo_name/blob/tag/..
 
-    repo_path = @docs_root + '/' + repo_name + '/' + tag
+    repo_path = get_repo_path(repo_name, tag)
     doc
       .gsub(/(\[[^\[]*\])\(\s*(\/[^\)]*)\)/, '\1(' + repo_path + '\2)')
       .gsub(/(\[[^\[]*\])\(\s*https:\/\/www\.bitcraze\.io(\/[^\)]*\))/, '\1(\2')
