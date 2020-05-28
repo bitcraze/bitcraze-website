@@ -1,0 +1,36 @@
+#!/usr/bin/env bash
+set -e
+
+scriptDir=$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )
+dstDir="${scriptDir}/../../src/documentation/hardware"
+tmp="${scriptDir}/../../tmp"
+downloadFile="${tmp}/download.zip"
+
+
+function downloadGithubRelease() {
+  local name=$1
+  local tag=$2
+  local nameTag=${name}/${tag}
+  local uri="https://github.com/bitcraze/${name}/releases/download/${tag}/docs-${tag}.zip"
+  local unzipName=${tmp}/${name}-${tag}
+
+  if [ -d "${dstDir}" ]; then
+      echo "Seems as '${name}' is already downloaded - skipping"
+  else
+      mkdir -p ${unzipName}
+      mkdir -p ${dstDir}
+
+      echo "Downloading ${nameTag}"
+      curl -L -o ${downloadFile} ${uri}
+      unzip -q -d ${unzipName} ${downloadFile}
+      rm ${downloadFile}
+      mv ${unzipName}/* ${dstDir}/.
+      rm -r ${unzipName}
+  fi
+}
+
+
+
+echo "Downloading hardware documentation..."
+
+downloadGithubRelease "hardware" "V2020-05-27T17.39.40"

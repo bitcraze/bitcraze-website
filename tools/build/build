@@ -8,5 +8,6 @@ scriptDir=$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )
 . ${scriptDir}/test
 . ${scriptDir}/download_deps
 . ${scriptDir}/download_docs
+. ${scriptDir}/download_hardware_docs
 . ${scriptDir}/generate
 ruby ${scriptDir}/validate
