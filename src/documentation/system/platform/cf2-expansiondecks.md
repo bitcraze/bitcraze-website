@@ -214,7 +214,7 @@ compatible.
  | **Mocap marker deck**     | yes      | yes        | yes      | yes     | yes      | yes    | yes   | yes      | yes  | yes          | -                 | yes          |               | yes     |
  | **Lighthouse-4**          | yes      | yes        | yes      | \*2     | \*2      | yes    | yes   | yes      | yes  | yes          | yes               | -            |               |         |
  | **Active marker**         | yes      | yes        | yes      | yes     | yes      | yes    | yes   | yes      | yes  | yes          |                   |              | -             |         |
- | **AI deck**               | yes      | yes        |          |         |          |        |       |          |      |              | yes               |              |               | -       |
+ | **AI deck**               | yes      | yes        | yes         | \*2        |  yes        | yes       |  yes     |   yes       | yes     |   yes           | yes               |    \*3          |    yes           | -       |
  |---------------------------|----------|------------|----------|---------|----------|--------|-------|----------|------|--------------|-------------------|--------------|---------------|---------|
 
 **Notes:**
@@ -222,3 +222,4 @@ compatible.
 1.  SPI sharing issue, see
     <https://github.com/bitcraze/crazyflie-firmware/issues/270>
 2.  Will be supported in the future, SW update
+3.  The NINA esp module is connected to UART2, so if that is enabled there will be conflicts
