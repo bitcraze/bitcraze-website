@@ -222,4 +222,4 @@ compatible.
 1.  SPI sharing issue, see
     <https://github.com/bitcraze/crazyflie-firmware/issues/270>
 2.  Will be supported in the future, SW update
-3.  The NINA esp module is connected to UART2, so if that is enabled there will be conflicts
+3.  The GAP8 module is connected to UART1, so if that is enabled there will be conflicts
