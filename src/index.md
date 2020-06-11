@@ -364,7 +364,7 @@ page_id: home
       {% used_by_logo University of Sannio in Benevento; /images/logos/unisannio.png; https://www.unisannio.it/en %}
       {% used_by_logo Saarland University; /images/logos/saarland_university.png; https://www.uni-saarland.de/en/home.html %}
       {% used_by_logo CLRobur; /images/logos/clrobur.png; http://clrobur.com/ %}
-      {% used_by_logo CLRobur; /images/logos/HAW_Hamburg_Logo.png; https://www.haw-hamburg.de %}
+      {% used_by_logo Hamburg University of Applied Sciences; /images/logos/HAW_Hamburg_Logo.png; https://www.haw-hamburg.de %}
 
     </div>
     <div class="row">
