@@ -181,6 +181,6 @@ Demo terminated!
 {% si_step what's next? %}
 * Explore the different [example scripts](https://github.com/bitcraze/crazyflie-lib-python/blob/master/examples).
 * Explore the [motion commander](https://github.com/bitcraze/crazyflie-lib-python/blob/master/cflib/positioning/motion_commander.py) class. The class can do more then simple directional commands such as scripting using speed and time or together with events.
-* Try out the logging and parameter framework. The [basic logging](https://github.com/bitcraze/crazyflie-lib-python/blob/master/examples/basiclogSync.py) is a good example to start from or digg into the details on the [wiki](https://wiki.bitcraze.io/doc:crazyflie:dev:arch:logparam).
+* Try out the logging and parameter framework. The [basic logging](https://github.com/bitcraze/crazyflie-lib-python/blob/master/examples/basiclogSync.py) is a good example to start from or digg into the details on the [documentation](https://www.bitcraze.io/documentation/repository/crazyflie-firmware/master/userguides/logparam/).
 * Connect a gamepad and with the [flow deck]({% id_url getting-started-flow-deck %}) try optical flow stabilized flight.
 {% endsi_step %}

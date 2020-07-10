@@ -52,7 +52,7 @@ For the latest LPS node firmware go [here](https://github.com/bitcraze/lps-node-
 
 {% si_step Update the nodes %}
 * To update the node start by opening up the LPS configuration tool. Keep the DFU button on the node pressed while connecting to your computer via USB. This will start the node in DFU mode.
-* If you are using Windows, the node will not be recognized the first time. You need to [follow the instruction to install its USB driver using Zadig](https://wiki.bitcraze.io/misc:usbwindows). In DFU mode, the node will be displayed as "STM32 BOOTLOADER" in Zadig.
+* If you are using Windows, the node will not be recognized the first time. You need to [follow the instruction to install its USB driver using Zadig](https://www.bitcraze.io/documentation/repository/crazyradio-firmware/master/building/usbwindows/). In DFU mode, the node will be displayed as "STM32 BOOTLOADER" in Zadig.
 
 {% img LPS configuration tool; medium; /images/tutorials/getting_started_with_lps/press_dfu.png %}
 
@@ -114,7 +114,7 @@ order of the IDs.
 {% endtabgroup %}
 
 If you have more than 8 anchors, we suggest you setup a system with 8 anchors first and then switch your
-system to TDoA3 to add more anchors to the system. See the [tdoa3 setup page](https://wiki.bitcraze.io/doc:lps:toda3) on the wiki for more information.
+system to TDoA3 to add more anchors to the system. See the [tdoa3 setup page](https://www.bitcraze.io/documentation/repository/lps-node-firmware/master/user-guides/tdoa3_setup/) for more information.
 {% endsi_step %}
 
 {% si_step Powering the anchors %}
@@ -143,7 +143,7 @@ is relayed through the Crazyflie and the LPS deck.
 
 * Place your Crazyflie 2.X in the center of the flying area.
 * Open the CF client and connect to the Crazyflie 2.X
-* If not already done, [configure](https://wiki.bitcraze.io/doc:crazyflie:client:pycfclient:index#firmware_configuration)
+* If not already done, [configure](https://www.bitcraze.io/documentation/repository/crazyflie-clients-python/master/userguides/userguide_client#firmware-configuration)
 the Crazyflie 2.X in __2Mbit__ radio mode. This reduces interference with the
 UWB radio. If the configuration is changed a restart of the Crazyflie 2.X is required.
 {% img open the crazyflie client; wide; /images/tutorials/getting_started_with_lps/open_the_crazyflie_client.PNG %}
@@ -243,7 +243,7 @@ Crazyflie 2.X is no longer receiving TWR data from the anchors.
 
 {% img Switch anchors to TDoA mode; wide; /images/tutorials/getting_started_with_lps/lps-system-mode-switch-2.png %}
 
-For details on system mode switching and troubleshooting, please see [the wiki](https://wiki.bitcraze.io/doc:lps:configure-mode)
+For details on system mode switching and troubleshooting, please see [the documentation](https://www.bitcraze.io/documentation/repository/lps-node-firmware/master/user-guides/configure-mode/)
 {% endsi_step %}
 
 {% si_step Switch the Crazyflie back to auto mode %}
@@ -255,7 +255,7 @@ starts to receive data from the anchors.
 
 {% img Switch to auto mode; wide; /images/tutorials/getting_started_with_lps/lps-system-mode-switch-3.png %}
 
-If not all anchor boxes go green, please see the [wiki for touble shooting](https://wiki.bitcraze.io/doc:lps:configure-mode).
+If not all anchor boxes go green, please see the [documentation for touble shooting](https://www.bitcraze.io/documentation/repository/lps-node-firmware/master/user-guides/configure-mode/).
 {% endsi_step %}
 
 
@@ -265,5 +265,5 @@ If not all anchor boxes go green, please see the [wiki for touble shooting](http
 Now when you got the basic functionality of the system up and running you might
 want to try {% id_link getting-started-with-assisted-flight-position-hold %}.
 
-To read the more techy documentation go to the [Loco positioning wiki page](https://wiki.bitcraze.io/doc:lps:index).
+To read the more techy documentation go to the [Loco positioning documentation page](https://www.bitcraze.io/documentation/repository/lps-node-firmware/master/).
 {% endsi_intro %}
