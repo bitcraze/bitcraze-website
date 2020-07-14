@@ -19,7 +19,7 @@ To be able to use the Z-ranger deck you need to update the Crazyflie to the late
 To use the Z-Ranger deck you need to use the Python client and set up a connection with your Crazyflie.
 For more information go to the {% id_link getting-started-crazyflie-2 %}.
 
-* In the client, go to **Assist mode** and choose **Height-hold** mode in the drop-down menu. Also make sure that the assist mode button is [configured](https://www.bitcraze.io/documentation/repository/crazyflie-clients-python/master/userguides/userguide_client/#input-devices).
+* In the client, go to **Assist mode** and choose **Height-hold** mode in the drop-down menu. Also make sure that the assist mode button is [configured](/documentation/repository/crazyflie-clients-python/master/userguides/userguide_client/#input-devices).
 
 {% img Z-ranger deck tutorial; wide; /images/tutorials/height-hold.png %}
 

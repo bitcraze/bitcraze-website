@@ -236,7 +236,7 @@ Continue reading the [flying section.](#flying)
 
 {% si_intro Installing on a computer; inst-comp %}
 When using a computer to fly the Crazyflie, you also need a standard
-gamepad ([more information](https://www.bitcraze.io/documentation/repository/crazyflie-clients-python/master/userguides/inputdevices/))
+gamepad ([more information](/documentation/repository/crazyflie-clients-python/master/userguides/inputdevices/))
 for maneuvering and a Crazyradio PA for communication.
 {% endsi_intro %}
 
@@ -330,7 +330,7 @@ for all projects.
 {% si_step configure USB on the virtual machine; config-usb-vm %}
 {% tabgroup %}
 {% tab Windows %}
-* Install the [Crazyradio Windows USB driver](https://www.bitcraze.io/documentation/repository/crazyradio-firmware/master/building/usbwindows/).
+* Install the [Crazyradio Windows USB driver](/documentation/repository/crazyradio-firmware/master/building/usbwindows/).
 * In the bottom right corner click the USB icon and choose “Bitcraze Crazyradio PA USB dongle”.
 {% img USB settings; medium; /images/getting-started/SwPic5Final.png %}
 * Now choose your game controller in the same list.
@@ -383,7 +383,7 @@ Run the installer
 {% endsi_step %}
 
 {% si_step Install USB drivers %}
-Install the [Crazyradio Windows USB driver](https://www.bitcraze.io/documentation/repository/crazyradio-firmware/master/building/usbwindows/).
+Install the [Crazyradio Windows USB driver](/documentation/repository/crazyradio-firmware/master/building/usbwindows/).
 {% endsi_step %}
 
 {% si_step start the Crazyflie client; start-client-win %}
