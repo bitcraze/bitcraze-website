@@ -107,13 +107,20 @@ Also make sure that the correct side is facing up, the top side should be convex
 
 Here we are attaching the CW propellers.
 
-Note that to avoid your propellers to break too easily, you should not push the propeller all the way down on the shaft. Instead stop when force is getting high and it holds the propeller in place. This will prevent the tension in the propeller to become big enough to break.
+
 
 {% tutorialVideo \videos\attach_the_propellers.mp4 %}
 
 Here’s a detailed view of where to attach CW and CCW propellers.
 {% img Crazyflie 2.X propeller mounting; medium; /images/getting-started/cf2_props.png %}
+
+Note that to avoid your propellers to break too easily, you should not push the propeller all the way down on the shaft. Instead stop when force is getting high and it holds the propeller in place. This will prevent the tension in the propeller to become big enough to break.
+
+{% img Crazyflie 2.X propellor push shaft; medium; /images/getting-started/Propeller_workaround-1-1024x549.png %}
+
+
 {% endsi_step %}
+
 
 {% si_step attach the rubber pad %}
 The rubber pad should be attached to the Crazyflie 2.X between the
