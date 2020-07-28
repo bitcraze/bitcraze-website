@@ -26,7 +26,7 @@
                         {% if page contains "repo_name" %}
                             {% assign edit_repo = page.repo_name %}
                             {% assign edit_repo_base = "docs" %}
-                            {% assign capture edit_repo_path = page.path | remove_first: "docs/" | remove_first: page.repo_name |  remove_first: '/' | remove_first: page.repo_tag |remove_first: '/' %}
+                            {% assign capture edit_repo_path = page.path | remove_first: "documentation/repository/" | remove_first: page.repo_name |  remove_first: '/' | remove_first: page.repo_tag |remove_first: '/' %}
                         {% endif %}
                         <a href="https://github.com/bitcraze/{{edit_repo}}/edit/master/{{edit_repo_base}}/{{edit_repo_path}}"><i class="fa fa-pencil"></i> &nbsp;Improve this page</a>
                     </div>
