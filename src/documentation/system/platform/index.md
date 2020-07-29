@@ -35,6 +35,8 @@ The last member of the family is the **[Roadrunner](https://store.bitcraze.io/pr
 * [Crazyflie 2.0](https://store.bitcraze.io/products/crazyflie-2-0)
 
 * {% id_link cf2_architecture %}
+* {% id_link cf2_coordinate_system %}
+
 {% endrow_links %}
 {% endrow_image_text_links %}
 
