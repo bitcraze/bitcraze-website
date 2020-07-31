@@ -61,10 +61,58 @@ class TestDocumentationFormatter < Minitest::Test
     assert_equal(@ns, actual['ns'])
   end
 
-  def test_that_internal_urls_are_extended
+  def test_that_internal_absolute_old_urls_are_extended
     # Fixture
     doc = generate_doc(@fm_default, '[bla bla](/internal/link)')
     expected = '[bla bla](/documentation/repository/' + @repo_name + '/' + @tag + '/internal/link)'
+
+    # Test
+    actual = @cut.update_doc(doc, @ns, @repo_name, @tag)
+
+    # Assert
+    assert(actual.include? expected)
+  end
+
+  def test_that_internal_absolute_urls_are_extended
+    # Fixture
+    doc = generate_doc(@fm_default, '[bla bla](/docs/internal/link)')
+    expected = '[bla bla](/documentation/repository/' + @repo_name + '/' + @tag + '/internal/link)'
+
+    # Test
+    actual = @cut.update_doc(doc, @ns, @repo_name, @tag)
+
+    # Assert
+    assert(actual.include? expected)
+  end
+
+  def test_that_internal_absolute_md_files_are_extended
+    # Fixture
+    doc = generate_doc(@fm_default, '[bla bla](/docs/internal/link.md)')
+    expected = '[bla bla](/documentation/repository/' + @repo_name + '/' + @tag + '/internal/link.md)'
+
+    # Test
+    actual = @cut.update_doc(doc, @ns, @repo_name, @tag)
+
+    # Assert
+    assert(actual.include? expected)
+  end
+
+  def test_that_internal_relative_urls_are_untouched
+    # Fixture
+    doc = generate_doc(@fm_default, '[bla bla](relative/link)')
+    expected = '[bla bla](relative/link)'
+
+    # Test
+    actual = @cut.update_doc(doc, @ns, @repo_name, @tag)
+
+    # Assert
+    assert(actual.include? expected)
+  end
+
+  def test_that_internal_relative_md_files_are_not_changed
+    # Fixture
+    doc = generate_doc(@fm_default, '[bla bla](relative.md)')
+    expected = '[bla bla](relative.md)'
 
     # Test
     actual = @cut.update_doc(doc, @ns, @repo_name, @tag)

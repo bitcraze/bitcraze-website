@@ -74,14 +74,18 @@ class DocumentationFormatter
     # Doc url ==> modified url
     # ------------------------
     # #page-ref ==> #page-ref
-    # /my-url/ ==> /documentation/repository/repo-name/tag/my-url/
+    # my-url/ ==> my-url/
+    # my_file.md ==> my_file.md
+    # /my-url/ ==> /documentation/repository/repo-name/tag/my-url/        Note: this is an invalid case, but keeps backwards compatibility
+    # /docs/my-url/ ==> /documentation/repository/repo-name/tag/my-url/
+    # /docs/my/file.md ==> /documentation/repository/repo-name/tag/my/file.md
     # https://www.bitcraze.io/fancy_page/ ==> /fancy_page/
     # https://other.domain/fancy_page/ ==> https://other.domain/fancy_page/
     # https://github.com/bitcraze/repo_name/blob/master/... ==> https://github.com/bitcraze/repo_name/blob/tag/..
 
     repo_path = get_repo_path(repo_name, tag)
     doc
-      .gsub(/(\[[^\[]*\])\(\s*(\/[^\)]*)\)/, '\1(' + repo_path + '\2)')
+      .gsub(/(\[[^\[]*\])\(\s*(\/docs)*(\/[^\)]*)\)/, '\1(' + repo_path + '\3)')
       .gsub(/(\[[^\[]*\])\(\s*https:\/\/www\.bitcraze\.io(\/[^\)]*\))/, '\1(\2')
       .gsub(/(\s*https:\/\/github\.com\/bitcraze\/#{Regexp.escape(repo_name)}\/blob\/)master(\/[^\)]*\))/, '\1' + tag + '\2')
   end
