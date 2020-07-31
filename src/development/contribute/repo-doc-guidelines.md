@@ -25,7 +25,7 @@ All documentation goes into the `docs` directory and is organized as a tree, mar
 The documentation should be organized in a tree fashion where related information is grouped and with finer detail the
 further out on a branch is located. The tree may have an abitrary depth, but the menu only supports 2 levels.
 
-Images goes into the `images` directory, you can use a tree structure here if you like. See below how to link to them.
+Images goes into the `docs/images` directory, you can use a tree structure here if you like. See below how to link to them.
 
 There is a directory named `_data` that contains meta data for the left side menu, see the menu section below for details.
 
@@ -33,10 +33,10 @@ There is a directory named `_data` that contains meta data for the left side men
 
 One file corresponds to one page.
 
-The name of the file is used in the url, use names that are descriptive and easy to understand. Use only characters, numbers, dash and underscore in the name. The full path from the `docs` directory forms the url, for instance would the file `docs/development/howto.md` be rendered for the url `/development/howto/`.
+The name of the file is used in the url, use names that are descriptive and easy to understand. Use only characters, numbers, dash and underscore in the name. The full path from the root of the repositor directory forms the url, for instance would the file `docs/development/howto.md` be rendered for the url `/docs/development/howto/`.
 
 Files named `index.md` will be rendered with the url based on the directory it is located in, instead of its name, and can be used for overview pages for instance. The `index.md` file in `docs` directory is rendered as the first page of the
-repo documentation. As an example the file `docs/development/index.md` would be rendered for the url `/development/`.
+repo documentation. As an example the file `docs/development/index.md` would be rendered for the url `/docs/development/`.
 
 ### Meta data
 
@@ -60,10 +60,39 @@ Use heading 2 (`##`) and up, heading one is used to display the title.
 Put your image files in the image directory. Display an image using
 
 ```
-![my alt text](/images/my_image.png)
+![my alt text](/docs/images/my_image.png)
 ```
 
 The alt text is required, it is used as support for diabled readers, search engines and other tools. Use a text that describes the contents of the image.
+
+### Links
+
+The genereal format for a link is
+```
+[this is a link](https://my.url)
+```
+
+You can use the file name of a mark down file in a link
+```
+[this is another link](/docs/my/nice/file.md)
+```
+
+Or relative links
+```
+[other page in the same directory](nice_page.md)
+```
+
+Some examples:
+
+| destination | markdown |
+|----------|-------------|
+| The file `docs/my_page1/index.md`| `[text](/docs/my_page1/index.md)` |
+| The file `docs/my_page2.md`| `[text](/docs/my_page2.md)` |
+| A page on the Bitcraze web | `[tutorial](https://www.bitcraze.io/documentation/tutorials/getting-started-with-crazyflie-2-x/)` |
+| A page in a different repo doc | `[Flashing](https://www.bitcraze.io/documentation/repository/crazyflie-firmware/master/building-and-flashing/flashing/)` |
+| An external repo on github | `[repository](https://github.com/adam-p/markdown-here)` |
+| A file in a Bitcraze repo on github | `[estimator.h](https://github.com/bitcraze/crazyflie-firmware/blob/master/src/modules/interface/estimator.h)` |
+| An external web site | `[quadcopter](https://en.wikipedia.org/wiki/Quadcopter)` |
 
 ### Diagrams
 
@@ -93,26 +122,6 @@ and will be rendered like this
 |       |---+    |         |
 \-------/        +---------+
 {% endditaa %}
-
-### Links
-
-The genereal format for a link is
-```
-[this is a link](https://my.url)
-```
-
-Some examples:
-
-| destination | markdown |
-|----------|-------------|
-| The file `docs/my_page1/index.md`| `[text](/my_page1/)` |
-| The file `docs/my_page2.md`| `[text](/my_page2/)` |
-| The file `docs/a/b/my_page3.md`| `[text](/a/b/my_page3/)` |
-| A page on the Bitcraze web | `[tutorial](https://www.bitcraze.io/documentation/tutorials/getting-started-with-crazyflie-2-x/)` |
-| A page in a different repo doc | `[Flashing](https://www.bitcraze.io/documentation/repository/crazyflie-firmware/master/building-and-flashing/flashing/)` |
-| An external repo on github | `[repository](https://github.com/adam-p/markdown-here)` |
-| A file in a Bitcraze repo on github | `[estimator.h](https://github.com/bitcraze/crazyflie-firmware/blob/master/src/modules/interface/estimator.h)` |
-| An external web site | `[quadcopter](https://en.wikipedia.org/wiki/Quadcopter)` |
 
 ### Redirects
 
@@ -150,13 +159,13 @@ To start a server, go to a terminal window and make sure the working directory i
 ```
 tb docs
 ```
-and head to a web browser and type `localhost`.
+and head to a web browser and type `localhost/docs`.
 
 If you don't want to use port 80 (default), or your OS doesn't allow it (linux for instance) you can use some other port (for example 8080)
 ```
 tb docs 8080
 ````
-Surf to `localhost:8080` in your browser.
+Surf to `localhost:8080/docs` in your browser.
 
 The server automatically regenerates the html when a markdown file is modified, you only have to reload the page in your web browser.
 There are some cases that are not handled though, and if you make changes to the menu for instance, you probably have to restart the server to get it all right.
@@ -186,7 +195,7 @@ It is possible to link to any page in the tree, but please keep a one-to-one map
 ## URLs and links explained
 
 The internal urls in the markdown files are the same as in the development server (without the protocol part), but will be different on
-the Bitcraze webserver. The reason is that on the web server we have to squeeze in documentation form multiple repositores as well as
+the Bitcraze webserver. The reason is that on the web server we have to squeeze in documentation from multiple repositores as well as
 different versions. During the publishing process, the urls will be modified to work with the rest of the web content, but you don't have
 to care about this, it is handled by the build server and it will update all links in the documentation.
 
@@ -210,6 +219,13 @@ but in the 2020.04 version of the documentation it will be modified to point at
 
 The reason for this functionality is to keep links in older documentation valid. A file may move or be deleted, but by pointing at the
 correct version of the repository it will still work in the future. If you link to a file in the git repo always use the master branch, the conversion to tags is done by the build server.
+
+## Gitgub compatibility
+
+Most of the content of the repository documentation is compatible with how github renders .md files and they should look fairly OK on the web.
+Images will be viewed and links will work, while some other github functionality such as links to issues, will not.
+
+The metadata is displayed at the top of pages as a table on github.
 
 ## Publishing of documentation on the web
 
