@@ -9,6 +9,10 @@ liquid:
   strict_variables: true
   strict_filters: true
 
+relative_links:
+  enabled:     true
+  collections: false
+
 keep_files: ['_site/css/kraken.css.map']
 
 sass:
@@ -18,6 +22,7 @@ sass:
 # Note: the ditaa and the jekyll-ditaa plugin are part of the bitcraze/web-builer
 plugins:
   - jekyll-ditaa
+  - jekyll-relative-links
 
 ditaa_debug_mode: false
 ditaa_output_directory: images/ditaa
