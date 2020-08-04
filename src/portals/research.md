@@ -62,6 +62,39 @@ you can read about how the researchers at MIT are using the Crazyflie 2.0 to stu
 
 ## Publications involving Crazyflie 2.X
 ---
+* **Distributed Consensus Control of Multiple UAVs in a Constrained Environment**,
+Gang Wang, Weixin Yang, Na Zhao, Yunfeng Ji, Yantao Shen, Hao Xu, and Peng Li, University of Nevada, Reno, 2020
+[PDF](https://www.researchgate.net/profile/Weixin_Yang/publication/341272836_Distributed_Consensus_Control_of_Multiple_UAVs_in_a_Constrained_Environment/links/5eb6f76692851cd50da3c0e4/Distributed-Consensus-Control-of-Multiple-UAVs-in-a-Constrained-Environment.pdf)
+
+* **Neural-Swarm: Decentralized Close-Proximity Multirotor Control Using Learned Interactions**,
+Guanya Shi, Wolfgang Honig, Yisong Yue, and Soon-Jo Chung, 2020
+[PDF](https://arxiv.org/pdf/2003.02992.pdf)
+
+* **Intuitive 3D Control of a Quadrotor in User Proximity with Pointing Gestures**,
+Boris Gromov, Jer´ ome Guzzi, Luca M. Gambardella, Alessandro Giusti, IDSIA, 2020
+[PDF](http://people.idsia.ch/~gromov/repository/gromov2020intuitive.pdf)
+[Video](https://m.youtube.com/watch?feature=youtu.be&v=lFksQfQ8rAk)
+
+* **Hand-worn Haptic Interface for Drone Teleoperation**,
+Matteo Macchini, Thomas Havy, Antoine Weber, Fabrizio Schiano, and Dario Floreano, EPFL, 2020
+[PDF](https://arxiv.org/pdf/2004.07111.pdf)
+[Video](https://m.youtube.com/watch?v=u246xv3awsg)
+
+* **ModQuad-DoF: A Novel Yaw Actuation for Modular Quadrotors**,
+Gabrich, Bruno, Guanrui Li, and Mark Yim, University of Pennsylvania, 2020
+[PDF](https://www.researchgate.net/publication/340006440_ModQuad-DoF_A_Novel_Yaw_Actuation_for_Modular_Quadrotors)
+[web](https://www.modlabupenn.org/2020/03/06/modquad-dof-a-novel-yaw-actuation-for-modular-quadrotors/)
+
+* **Online trajectory generation with distributed model predictive control for multi-robot motion planning**,
+C. E. Luis, M. Vukosavljev, and A. P. Schoellig, Dynamic Systems Lab, University of Toronto, 2020
+[PDF](http://www.dynsyslab.org/wp-content/papercite-data/pdf/luis-ral20.pdf)
+[Video](http://www.dynsyslab.org/icra-2020/)
+
+* **Fast and In Sync: Periodic Swarm Patterns for Quadrotors**,
+Xintong Du, Carlos E. Luis, Marijan Vukosavljev, Angela P. Schoellig, Dynamic Systems Lab, University of Toronto 2019
+[PDF](https://arxiv.org/pdf/1810.03572.pdf)
+[Video](https://www.youtube.com/watch?v=Iw8mwt3l0RE)
+
 * **Learning-based Bias Correction for Ultra-wideband Localization of Resource-constrained Mobile Robots**,
 Wenda Zhao, Abhishek Goudar, Jacopo Panerati, Angela P. Schoellig, University of Toronto, 2020.
 [PDF](https://arxiv.org/pdf/2003.09371.pdf)
