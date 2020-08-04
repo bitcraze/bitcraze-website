@@ -314,31 +314,21 @@
 
       .aspect-ratio-contatiner {
         height: 0;
-        overflow: hidden;
         padding-top: 66.66%;
         position: relative;
       }
       .aspect-ratio-inner {
         position: absolute;
         top: 0;
-        left: 0;
         width: 100%;
         height: 100%;
         a{
-          height: 100%;
-          width: 100%;
             img {
               height: 100%;
+              width: 100%;
+              object-fit: contain;
           }
         }
-      }
-
-      .flexbox-centering {
-        height: 100%;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        align-content: center;
       }
 
       .display-menu{

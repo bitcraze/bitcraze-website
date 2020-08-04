@@ -82,7 +82,7 @@ page_id: home
       <div class="aspect-ratio-contatiner">
         <div class="aspect-ratio-inner">
         <a class="flexbox-centering">
-          <img src="images/frontpage/ant-bridge_2302146k.png" alt="-">
+          <img src="images/frontpage/ant-bridge-narrow.png" alt="-">
         </a>
         </div>
       </div>
@@ -97,7 +97,7 @@ page_id: home
       <div class="aspect-ratio-contatiner">
         <div class="aspect-ratio-inner">
           <a class="flexbox-centering">
-            <img src="images/frontpage/ant-bridge_2302146k.png" alt="-">
+            <img src="images/frontpage/ant-bridge-wide.png" alt="-">
           </a>
         </div>
       </div>
