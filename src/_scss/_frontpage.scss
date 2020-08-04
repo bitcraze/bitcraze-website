@@ -331,6 +331,10 @@
         }
       }
 
+      .blog-title {
+        text-align: center;
+      }
+
       .display-menu{
         display: none
       }
@@ -340,6 +344,7 @@
         @media (min-width: $screen-md-min) {
           display: block;
         }
+        border-left: solid 1px $bcLightGrey;
       }
 
       .display-menu-2 {
@@ -352,7 +357,8 @@
       }
 
       .menu-blog-container {
-        margin-top: 30px;
+        margin-top: 0;
+        margin-bottom: 14px;
         text-align: right;
         ul > li:nth-child(n+2) {
           border-left: 1px solid #dddddd;
