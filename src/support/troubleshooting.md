@@ -61,3 +61,32 @@ Check for hair stuck in any of the propellers/motors. It can also be that one of
 {% si_step Check for bent motor axis %}
 Check each motor axis if it is bent as it causes vibration. This can be done by either applying a bit of thrust from a client or by blowing on the propeller and looking at the axis from above. If it is bent it might be possible to straighten it with a pair of pliers. If that doesn't work the motor needs to be replaced.
 {% endsi_step %}
+
+{% si_intro Crazyflie is bricked %}
+The Crazyflie hangs when started or does not start at all when pressing the power button.
+
+If the Crazyflie does not start it might be related to power or that the firmware in the flash memory is corrupt.
+{% endsi_intro %}
+
+{% si_step Check the battery %}
+Make sure the battery is charged. Connect the Crazyflie to a USB charger and turn it on to charge the battery.
+{% endsi_step %}
+
+{% si_step Power via USB %}
+Connect the Crazyflie to a USB charger and turn it on. If this works the firmware is OK.
+{% endsi_step %}
+
+{% si_step Re-flash the firmware %}
+Flash the latest stable release of the firmware to the Crazyflie to make sure it is good.
+See {% id_link getting-started-crazyflie-2 %} for step-by-step instructions of how to flash.
+{% endsi_step %}
+
+{% si_step Force into bootloader mode %}
+If the firmware of the NRF processor is corrupt it might not be possible to enter bootloader mode as described in the {% id_link getting-started-crazyflie-2 %} guide.
+In this case the procedure to enter bootloader mode is:
+1. Unplug the battery
+1. Hold the power button and plug in the battery again
+1. Release the power button after 2 seconds
+
+It should now be possible to flash the latest stable release to the Crazyflie.
+{% endsi_step %}
