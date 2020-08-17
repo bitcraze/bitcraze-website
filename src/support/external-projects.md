@@ -33,7 +33,7 @@ Alternate firmware implementations and uses for the Crazyradio
 
 ## Crazyflie simulators
 
-Projects aimed to modeling, developing and integrating the Crazyflie 2.0 nano-quadcopter in the physics based simulation environments.
+Projects aimed to modeling, developing and integrating the Crazyflie 2.X nano-quadcopter in simulatied environments.
 
 | CrazyS | The University of Sannio in Benevento, Italy, has implemented a software-in-the-loop simulation platform for simulating Crazyflie behavior in the Gazebo 3D simulation environment. | <https://github.com/gsilano/CrazyS> |
 | gym-pybullet-drones | A [Gym environment](https://github.com/openai/gym) based on [PyBullet](https://github.com/bulletphysics/bullet3) to simulate the dynamics and learn the control of Crazyflie 2.x nano-quadcopters. | <https://github.com/JacopoPan/gym-pybullet-drones> |

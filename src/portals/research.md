@@ -44,7 +44,7 @@ __Universities around the world are using the Crazyflie 2.X in different types o
 __*"We use the Crazyflie platform to evaluate our algorithms because the hardware is robust and the user community has helped make firmware available on which we can base our own systems"*__
 -Ellen Cappo, researcher at Carnegie Mellon University.
 
-Read about how the researchers at Carnegie Mellon University are using the Crazyflie 2.0 to test theory on real world systems.
+Read about how the researchers at Carnegie Mellon University are using the Crazyflie 2.X to test theory on real world systems.
 [Towards persistent, adaptive multi-robot systems](https://bitcraze.io/2017/06/towards-persistent-adaptive-multi-robot-systems/).
 
 {% youtube kr99SU22jDY; medium; 16by9 %}

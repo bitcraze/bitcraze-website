@@ -51,7 +51,7 @@ Mechanical architecture
 -----------------------
 
 Expansion boards can be installed on top, bottom, or both top and bottom
-of the Crazyflie 2.0. The Crazyflie 2.0 and expansion board have female,
+of the Crazyflie 2.X. The Crazyflie 2.X and expansion board have female,
 pass-through connectors that can be fitted with male pins. Pins in two
 differing lengths exist to permit installation of either one expansion
 board on top, one board on bottom and one on top, or two boards on top.
@@ -63,7 +63,7 @@ rubber band, sticky pad, etc\...).
 
 **WARNING**: It is important to install expansion boards in the right
 orientation. Installing a board in the wrong orientation might damage
-the expansion board and the Crazyflie 2.0.
+the expansion board and the Crazyflie 2.X.
 
 All expansion boards display a logo describing the correct orientation:
 
@@ -86,7 +86,7 @@ Expansion port pinout
 
 ![Expansion port pinout](/images/documentation/overview/connector_multiplexing2.png){:width="900px"}
 
--   The Crazyflie 2.0 is a 3.0V system, meaning a high output will be
+-   The Crazyflie 2.X is a 3.0V system, meaning a high output will be
     3.0V but still compatible with a 3.3V system.
 -   VCC can supply max 100mA
 -   VCOM can supply max 1.0A

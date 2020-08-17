@@ -69,7 +69,7 @@ Yes, it can. With the [BigQuad expansion deck](/products/bigquad-deck/).
 {% collapse_section Can I do FPV (first person view) flying with a Crazyflie 2.X? %}
 There is ongoing development in this area:
 
-* [Working FPV setup for Crazyflie 2.0](https://forum.bitcraze.io/viewtopic.php?f=6&p=8295).
+* [Working FPV setup for Crazyflie 2.X](https://forum.bitcraze.io/viewtopic.php?f=6&p=8295).
 {% endcollapse_section %}
 
 {% collapse_section Can the Crazyflie 2.X fly autonomously? %}
