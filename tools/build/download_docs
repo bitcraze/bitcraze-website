@@ -43,12 +43,14 @@ echo "Downloading repository documentation..."
 # Note: The order of downloads determines the order of versions in UI menus
 
 downloadGithubRepoDoc "crazyflie-firmware" "master"
+downloadGithubRepoDoc "crazyflie-firmware" "2020.09"
 downloadGithubRepoDoc "crazyflie-firmware" "2020.06"
 downloadGithubRepoDoc "crazyflie-firmware" "2020.04"
 downloadGithubRepoDoc "crazyflie-firmware" "2020.02"
 downloadGithubRepoDoc "crazyflie-firmware" "2019.09"
 
 downloadGithubRepoDoc "crazyflie2-nrf-firmware" "master"
+downloadGithubRepoDoc "crazyflie2-nrf-firmware" "2020.09"
 downloadGithubRepoDoc "crazyflie2-nrf-firmware" "2020.06"
 downloadGithubRepoDoc "crazyflie2-nrf-firmware" "2020.04"
 downloadGithubRepoDoc "crazyflie2-nrf-firmware" "2020.02"
