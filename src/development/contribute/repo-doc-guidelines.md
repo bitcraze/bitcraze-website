@@ -123,6 +123,21 @@ and will be rendered like this
 \-------/        +---------+
 {% endditaa %}
 
+### Math
+
+It is possible to use [LaTex](https://www.latex-project.org/) to format math expressions. Enclose the LaTex code in '$$', like this
+```
+{% raw %}
+$$\lim_{h\to 0}\frac{f(x+h)-f(x)}{h}$$
+{% endraw %}
+```
+
+and it will render like this
+
+$$\lim_{h\to 0}\frac{f(x+h)-f(x)}{h}$$
+
+Note that LaTex is not rendered when viewing a doc page on github.
+
 ### Redirects
 
 When a page is moved and the url changes, it is possible to add a redirect from the old url to the new one using the

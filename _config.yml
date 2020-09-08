@@ -26,3 +26,6 @@ plugins:
 
 ditaa_debug_mode: false
 ditaa_output_directory: images/ditaa
+
+kramdown:
+  math_engine: katex
