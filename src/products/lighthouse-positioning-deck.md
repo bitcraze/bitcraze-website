@@ -28,7 +28,7 @@ it the ideal choice for everything from big laboratories to small classrooms.
 
 #### Resources
 
-- [Lighthouse positioning information](/documentation/repository/crazyflie-firmware/master/functional-areas/lighthouse_overview/)
+- [Lighthouse positioning information](/documentation/repository/crazyflie-firmware/master/functional-areas/lighthouse/)
 - {% id_link getting-started-start %}
 - {% id_link buy-guide %}
 - {% id_link support-frequently-asked-questions %}
