@@ -189,7 +189,8 @@ table {
 }
 
 // WP video block
-.wp-block-embed {
+.wp-block-embed-youtube
+{
     @extend .embed-responsive;
 }
 
