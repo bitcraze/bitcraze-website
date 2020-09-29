@@ -7,9 +7,10 @@ redirects:
 ---
 
 <div class="row">
+
     <div class="col-md-6">
 {% product_highlight
-fa fa-comments-o;
+fa-comments-o;
 Forum;
 %}
 If you are having a question or a problem, start by reading the
@@ -17,44 +18,31 @@ If you are having a question or a problem, start by reading the
 <a href="//forum.bitcraze.io">forum</a> to see if anyone else already had the same problem and found a solution.
     </div>
 
-
-      <div class="col-md-6">
-{% product_highlight
-fa fa-wikipedia-w;
-Wiki;
-%}
-Check out the <a href="//wiki.bitcraze.io">wiki</a> for details on our projects.
-    </div>
-
-
-</div>
-
-<div class="row">
-
-
     <div class="col-md-6">
 {% product_highlight
-fa fa-envelope-o;
+fa-envelope-o;
 Email;
 %}
 You can email us at <a href="mailto:contact@bitcraze.io">contact@bitcraze.io</a>
     </div>
 
-    <div class="col-md-6">
-{% product_highlight
-fa fa-github;
-Github;
-%}
-You can find source code and other documents on <a href="https://github.com/bitcraze">GitHub</a>
-    </div>
-
+</div>
+<div class="row">
 
     <div class="col-md-6">
 {% product_highlight
-fa fa-phone;
+fa-phone;
 Phone;
 %}
 You can call us on +46 40 22 32 00
+    </div>
+
+    <div class="col-md-6">
+{% product_highlight
+fa-clock-o;
+Office hours;
+%}
+9:00 to 16:00 CET
     </div>
 </div>
 
