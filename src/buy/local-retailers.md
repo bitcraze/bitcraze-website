@@ -56,6 +56,9 @@ redirects:
 {% distributor Exp-tech; https://www.exp-tech.de/bitcraze/; /images/distributors/exp_tech_logo_600.png %}
 {% distributor Flyingmachines; https://www.flyingmachines.de/Bitcraze_1; /images/distributors/flyingmachines.png %}
 
+{% country Russia %}
+{% distributor Sever; https://crazyflie.ru; /images/distributors/crazyflie-ru.jpg %}
+
 {% country Spain %}
 {% distributor Corzotech; https://corzotech.com/en/65-crazyflie-bitcraze; /images/distributors/CORZOTECH.jpg %}
 
