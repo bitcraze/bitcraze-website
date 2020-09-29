@@ -18,15 +18,14 @@ redirects:
 {% country USA %}
 {% distributor Nkc_logo_only; https://www.amazon.com/s/ref=nb_sb_noss?url=me%3DA1LHQ5G6ONPXVT&field-keywords=crazyflie; /images/distributors/nkc_logo_only.png %}
 {% distributor Diigiit; http://www.us.diigiit.com/bitcraze; /images/distributors/diigiit_logo-300x103.png %}
-{% distributor Cooking hacks; https://www.cooking-hacks.com/catalogsearch/result/?cat=&q=crazyflie; /images/distributors/cookinghacks.png %}
 {% distributor Banana-Robotics; https://www.bananarobotics.com/shop/Bitcraze; /images/distributors/Banana-Robotics-300x51.png %}
-{% distributor Robot Shop; http://www.robotshop.com/en/catalogsearch/result/?q=crazyflie&order=stats_sales_order_count&dir=desc; /images/distributors/robotshop.png %}
+{% distributor Robot Shop; https://www.robotshop.com/en/catalogsearch/result/?q=crazyflie&order=stats_sales_order_count&dir=desc; /images/distributors/robotshop.png %}
 
 
 {% continent Asia/Pacific %}
 
 {% country Australia %}
-{% distributor Pakronics; http://www.pakronics.com/search?type=product&q=crazyflie; /images/distributors/pakronics.png %}
+{% distributor Pakronics; https://www.pakronics.com.au/search?type=product&q=crazyflie; /images/distributors/pakronics.png %}
 {% distributor Sedonia; http://www.sedoniatech.com.au/catalogsearch/result/?q=crazyflie; /images/distributors/Sedonia-Logo.gif %}
 {% distributor Little Bird Electronics; https://littlebirdelectronics.com.au/?rf=kw&kw=bitcraze; /images/distributors/littlebird_electronics.png %}
 {% distributor The IoT Store; https://www.iot-store.com.au/pages/search-results-page?q=bitcraze; /images/distributors/iot_store_au.png %}
@@ -35,13 +34,13 @@ redirects:
 {% distributor Seeedstudio; https://seeedstudio.taobao.com/; /images/distributors/seeed.png %}
 
 {% country India %}
-{% distributor RhydoLABZ; http://www.rhydolabz.com/index.php?main_page=advanced_search_result&search_in_description=1&zenid=b1621fa24d22a251847471f0d0fe0d3b&keyword=crazyflie; /images/distributors/RhydoLABZ.png %}
+{% distributor RhydoLABZ; https://www.rhydolabz.com/advanced_search_result.html?search_in_description=1&zenid=b1621fa24d22a251847471f0d0fe0d3b&keyword=crazyflie; /images/distributors/RhydoLABZ.png %}
 
 {% country New Zealand %}
 {% distributor Nice Gear; https://nicegear.co.nz/search/?q=crazyflie; /images/distributors/nicegear.png %}
 
 {% country Taiwan %}
-{% distributor Icshop; http://www.icshop.com.tw/advanced_search_result.php?keywords=crazyflie&x=-782&y=-104; /images/distributors/icsshop.jpg %}
+{% distributor Icshop; https://www.icshop.com.tw/product_list.php?header_search=crazyflie; /images/distributors/icsshop.jpg %}
 
 {% country Singapore %}
 {% distributor Aerise; https://www.aerise.cc/; /images/distributors/aerise.jpg %}
@@ -52,7 +51,6 @@ redirects:
 {% distributor Hackspark; https://hackspark.fr/en/search?controller=search&order=product.position.desc&s=crazyflie; /images/distributors/hackspark.png %}
 
 {% country Germany %}
-{% distributor Watterott; http://www.watterott.com/index.php?page=search&page_action=query&desc=on&sdesc=on&keywords=crazyflie&x=-1232&y=-27; /images/distributors/wetterott.jpg %}
 {% distributor Exp-tech; https://www.exp-tech.de/bitcraze/; /images/distributors/exp_tech_logo_600.png %}
 {% distributor Flyingmachines; https://www.flyingmachines.de/Bitcraze_1; /images/distributors/flyingmachines.png %}
 
@@ -66,11 +64,11 @@ redirects:
 {% distributor Electrokit; https://www.electrokit.com/?s=crazyflie&post_type=product&lang=sv; /images/distributors/LOGO-electrokit-logo-embossed.png %}
 
 {% country Switzerland %}
-{% distributor Boxtec; http://shop.boxtec.ch/advanced_search_result.php?keywords=crazyflie&x=-1126&y=-15; /images/distributors/boxtec-logo.png %}
-{% distributor Maker shop; https://www.maker-shop.ch/crazyflie-2-0; /images/distributors/maker-shop.png %}
+{% distributor Boxtec; https://shop.boxtec.ch/advanced_search_result.php?keywords=crazyflie&x=-1126&y=-15; /images/distributors/boxtec-logo.png %}
+{% distributor Maker shop; https://www.maker-shop.ch/catalogsearch/result/?q=crazyflie; /images/distributors/maker-shop.png %}
 
 {% country Turkey %}
-{% distributor Robotistan; http://www.robotistan.com/bitcraze; /images/distributors/robotistan.png %}
+{% distributor Robotistan; https://www.robotistan.com/bitcraze; /images/distributors/robotistan.png %}
 
 {% country United Kingdom %}
 {% distributor Coolcomponents; https://coolcomponents.co.uk/search?type=article%2Cpage%2Cproduct&q=crazyflie*; /images/distributors/coolcomponents-300x46.gif %}

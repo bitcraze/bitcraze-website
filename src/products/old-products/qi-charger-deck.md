@@ -6,7 +6,7 @@ redirects:
   - /qi-charger-deck/
 ---
 
-{% buy_online https://store.bitcraze.io/collections/decks/products/qi-wireless-charging-deck %}
+{% notice_info This product is discontinued and has been replaced with <a href="/products/qi-1_2-charger-deck/">Flow deck v2</a> %}
 
 {% product_img Qi charger deck; medium;
 /images/qi-charger/qi-charger-deck-585px.jpg

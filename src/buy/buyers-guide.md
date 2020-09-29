@@ -113,7 +113,7 @@ The Qi deck gives the Crazyflie wireless charging capabilities. The battery is
 automatically charged when the Crazyflie 2.X is placed on top of a wireless charger,
 no need to connect a cable.
 
-**What to buy:** [Qi wireless charging deck](https://store.bitcraze.io/products/qi-wireless-charging-deck)
+**What to buy:** [Qi wireless charging deck](https://store.bitcraze.io/collections/decks/products/qi-1-2-wireless-charging-deck)
 
 Note: wireless charger not included
 

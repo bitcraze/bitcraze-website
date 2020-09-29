@@ -34,4 +34,4 @@ it the ideal choice for everything from big laboratories to small classrooms.
 - {% id_link support-frequently-asked-questions %}
 - {% id_link support-getting-help %}
 - [Wiki](https://wiki.bitcraze.io/projects:crazyflie2:expansionboards:lighthouse)
-- [Specifications](https://store.bitcraze.io/collections/positioning/products/lighthouse-positioing-deck)
+- [Specifications](https://store.bitcraze.io/collections/decks/products/lighthouse-positioning-deck)
