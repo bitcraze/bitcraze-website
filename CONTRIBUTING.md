@@ -1,4 +1,4 @@
-Contributing
+Contributing to the Website
 ============
 
 👍🎉 Thanks a lot for considering contributing 🎉👍
@@ -16,7 +16,7 @@ version of the builder docker image or of ruby.
 
 ## Improvements request and proposal
 
-Feel free to make an issue to request a new functionality.
+Please Feel free to make an issue to request a new functionality.
 
 ## Contributing code/Pull-Request
 
