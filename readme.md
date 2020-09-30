@@ -1,6 +1,6 @@
 # The Bitcraze website [![Build Status](https://api.travis-ci.org/bitcraze/bitcraze-website.svg)](https://travis-ci.org/bitcraze/bitcraze-website)
 
-This is the source code for the Bitcraze website. 
+This is the source code for the "Bitcraze" website. 
 
 ## Quick start 
 
@@ -37,7 +37,7 @@ results.
 1. Commit and issue a pull request
 1. Done!
 
-## prerequisites
+## pre-requisites
 
 To contribute you only need:
 
@@ -96,7 +96,7 @@ instance
 
 ## Using the toolbelt
 
-Instead of running the ```tools/do``` script you can use the [toolbelt](https://github.com/bitcraze/toolbelt).
+Instead of running the ```tools/do``` script, you can use the [toolbelt](https://github.com/bitcraze/toolbelt).
 For instance, downloading dependencies would be 
  
         tb download_deps 
