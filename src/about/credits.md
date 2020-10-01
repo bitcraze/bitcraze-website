@@ -29,7 +29,7 @@ redirects:
 * [GitHub](https://github.com/)
 * [Bitbucket](https://bitbucket.org/)
 * [Git](https://git-scm.com/)
-* [VS](https://code.visualstudio.com/)
+* [VSCode](https://code.visualstudio.com/)
 * [PHP](https://www.php.net/)
 
 ### Web
