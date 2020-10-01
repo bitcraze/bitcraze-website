@@ -1,8 +1,8 @@
-# The Bitcraze website [![Build Status](https://api.travis-ci.org/bitcraze/bitcraze-website.svg)](https://travis-ci.org/bitcraze/bitcraze-website)
+# The Bitcraze Website [![Build Status](https://api.travis-ci.org/bitcraze/bitcraze-website.svg)](https://travis-ci.org/bitcraze/bitcraze-website)
 
 This is the source code for the Bitcraze website. 
 
-## Quick start 
+## Quick start: -
 
 The content is written in markdown and html and the intention is to make it as
 easy as possible to modify the code. There is an integrated development and
@@ -104,4 +104,5 @@ For instance, downloading dependencies would be
 or running the validations
 
         tb validate
-        
+       
+Thank You and have a nice day.        
