@@ -58,7 +58,7 @@ css from markdown, html and scss
 * [Bootstrap](http://getbootstrap.com/) - The CSS is based on Bootrstrap
 * [Docker](https://www.docker.com/) - Docker is used to create a consistent 
 development and test environment
-* [HTML Proofer](https://github.com/gjtorikian/html-proofer)
+* [HTML Proofer](https://github.com/gjtorikian/html-proofer) - set of tests to validate your HTML output.
 
 ## File structure  
 
