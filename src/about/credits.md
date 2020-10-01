@@ -29,8 +29,8 @@ redirects:
 * [GitHub](https://github.com/)
 * [Bitbucket](https://bitbucket.org/)
 * [Git](https://git-scm.com/)
-* [VSCode]:(https://code.visualstudio.com/)
-* [PHP]:(https://www.php.net/)
+* [VS](https://code.visualstudio.com/)
+* [PHP](https://www.php.net/)
 
 ### Web
 * [Wordpress](https://wordpress.org/)
