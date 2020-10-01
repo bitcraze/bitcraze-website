@@ -2,6 +2,9 @@
 
 This is the source code for the Bitcraze website. 
 
+## Login integreation 
+
+There  should be  login integration so that the user can save its progress and works 
 ## Quick start 
 
 The content is written in markdown and html and the intention is to make it as
@@ -35,6 +38,7 @@ results.
         ./tools/do build
 
 1. Commit and issue a pull request
+1.commit your problems as well solution if there need to change in website 
 1. Done!
 
 ## prerequisites
