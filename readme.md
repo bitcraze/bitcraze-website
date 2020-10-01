@@ -2,7 +2,7 @@
 
 This is the source code for the Bitcraze website. 
 
-## Quick start 
+## Quick start for an amazing project-
 
 The content is written in markdown and html and the intention is to make it as
 easy as possible to modify the code. There is an integrated development and
