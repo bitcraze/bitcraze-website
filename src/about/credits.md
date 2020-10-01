@@ -29,6 +29,8 @@ redirects:
 * [GitHub](https://github.com/)
 * [Bitbucket](https://bitbucket.org/)
 * [Git](https://git-scm.com/)
+* [VSCode]:(https://code.visualstudio.com/)
+* [PHP]:(https://www.php.net/)
 
 ### Web
 * [Wordpress](https://wordpress.org/)
@@ -39,6 +41,8 @@ redirects:
 * [Jekyll](https://jekyllrb.com/)
 * [Bootstrap](https://getbootstrap.com/)
 * [HTML Proofer](https://github.com/gjtorikian/html-proofer)
+* [Laravel](https://laravel.com/)
+* [Django](https://www.djangoproject.com/)
 
 ### Media
 * [Audacity](https://sourceforge.net/projects/audacity/)
