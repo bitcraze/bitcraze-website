@@ -47,7 +47,7 @@ To contribute you only need:
 
 If you don't want to use docker you will need ruby on you system. We have not 
 set our systems up this way but is should not be a big deal. If you do, please 
-add documentation for it here.
+add documentation for it here. But we recommend to use Docker.
 
 ## Technologies
 
