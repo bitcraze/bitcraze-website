@@ -46,7 +46,7 @@ To contribute you only need:
 * Any text editor
 
 If you don't want to use docker you will need ruby on you system. We have not 
-set our systems up this way but is should not be a big deal. If you do, please 
+set up our systems this way but is should not be a big deal. If you do, please 
 add documentation for it here.
 
 ## Technologies
@@ -55,7 +55,7 @@ You can find more information about the technologies used here
 
 * [Jekyll](https://jekyllrb.com/) - we use Jekyll to generate static html and
 css from markdown, html and scss
-* [Bootstrap](http://getbootstrap.com/) - The CSS is based on Bootrstrap
+* [Bootstrap](http://getbootstrap.com/) - The CSS is based on Bootstrap
 * [Docker](https://www.docker.com/) - Docker is used to create a consistent 
 development and test environment
 * [HTML Proofer](https://github.com/gjtorikian/html-proofer)
@@ -76,7 +76,7 @@ in the scripts for documentation on how to use them.
 
 ## Tags and filters
 
-We are aiming at writing most of the content using markdown. This makes it 
+We are aiming to write most of the content using markdown. This makes it 
 easy to add or change the content without getting lost in styling. We use 
 liquid tags and filters to extend the functionality of markdown to generate 
 more complex or specific HTML structures.
