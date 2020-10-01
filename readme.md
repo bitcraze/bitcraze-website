@@ -2,7 +2,7 @@
 
 This is the source code for the Bitcraze website. 
 
-## Quick start 
+## QUICK START 
 
 The content is written in markdown and html and the intention is to make it as
 easy as possible to modify the code. There is an integrated development and
@@ -37,7 +37,7 @@ results.
 1. Commit and issue a pull request
 1. Done!
 
-## prerequisites
+## Prerequisites
 
 To contribute you only need:
 
@@ -60,7 +60,7 @@ css from markdown, html and scss
 development and test environment
 * [HTML Proofer](https://github.com/gjtorikian/html-proofer)
 
-## File structure  
+## File Structure  
 
 The top level directories are
 
@@ -74,7 +74,7 @@ explanation of the file structure here.
 * tools - scripts for building the site and running the server. See comments
 in the scripts for documentation on how to use them.
 
-## Tags and filters
+## Tags and Filters
 
 We are aiming at writing most of the content using markdown. This makes it 
 easy to add or change the content without getting lost in styling. We use 
@@ -94,7 +94,7 @@ instance
 
         <!-- inject wp blog -->
 
-## Using the toolbelt
+## Using the Toolbelt
 
 Instead of running the ```tools/do``` script you can use the [toolbelt](https://github.com/bitcraze/toolbelt).
 For instance, downloading dependencies would be 
