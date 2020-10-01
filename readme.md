@@ -2,7 +2,7 @@
 
 This is the source code for the Bitcraze website. 
 
-## Quick start 
+## Quick Start 
 
 The content is written in markdown and html and the intention is to make it as
 easy as possible to modify the code. There is an integrated development and
@@ -16,7 +16,7 @@ test environment based on Docker to reduce the amount of software required.
 
         cd bitcraze-website
         
-1. Download dependencies. This will download Bootstrap and set things up.
+1. Download Dependencies. This will download Bootstrap and set things up.
         
         ./tools/do download_deps
 
@@ -25,7 +25,7 @@ builds the site when the source changes.
 
         ./tools/run-in-dev.sh
         
-1. Open a web browser and go to http://localhost. If you are not on Linux you 
+1. Open a Web Browser and go to http://localhost. If you are not on Linux you 
 will have to use docker-machine to figure out your address.
 1. Make your changes. The site will automatically rebuild when you modify a 
 file, so all you have to do is to reload the page in your browser to see the 
@@ -37,7 +37,7 @@ results.
 1. Commit and issue a pull request
 1. Done!
 
-## prerequisites
+## Prerequisites
 
 To contribute you only need:
 
@@ -60,7 +60,7 @@ css from markdown, html and scss
 development and test environment
 * [HTML Proofer](https://github.com/gjtorikian/html-proofer)
 
-## File structure  
+## File Structure  
 
 The top level directories are
 
@@ -86,18 +86,18 @@ in `src/_plugins`.
 
 ## Integration with Wordpress
 
-The code in this repository is the base for all static content on the website. 
+The Code in this repository is the base for all static content on the website. 
 The blog on the other hand, is not part if this code, it is running on 
 a Wordpress instance. The dynamic content is injected into the static pages 
 where needed, you will find tags in the source code indicating where. For 
-instance 
+instance. 
 
         <!-- inject wp blog -->
 
-## Using the toolbelt
+## Using the Toolbelt
 
 Instead of running the ```tools/do``` script you can use the [toolbelt](https://github.com/bitcraze/toolbelt).
-For instance, downloading dependencies would be 
+For instance, Downloading dependencies would be 
  
         tb download_deps 
 
