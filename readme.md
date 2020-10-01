@@ -4,7 +4,7 @@ This is the source code for the Bitcraze website.
 
 ## Quick start 
 
-The content is written in markdown and html and the intention is to make it as
+The content is written in markdown and HTML and the intention is to make it as
 easy as possible to modify the code. There is an integrated development and
 test environment based on Docker to reduce the amount of software required.
 
@@ -37,7 +37,7 @@ results.
 1. Commit and issue a pull request
 1. Done!
 
-## prerequisites
+## Prerequisites
 
 To contribute you only need:
 
