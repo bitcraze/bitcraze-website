@@ -4,7 +4,7 @@ This is the source code for the Bitcraze website.
 
 ## Quick start 
 
-The content is written in markdown and html and the intention is to make it as
+The content is written in markdown and HTML and the intention is to make it as
 easy as possible to modify the code. There is an integrated development and
 test environment based on Docker to reduce the amount of software required.
 
@@ -12,30 +12,31 @@ test environment based on Docker to reduce the amount of software required.
 
         git clone https://github.com/bitcraze/bitcraze-website.git
 
-1. Go to the root of the repository. All tools should be run from here.
+2. Go to the root of the repository. All tools should be run from here.
 
         cd bitcraze-website
         
-1. Download dependencies. This will download Bootstrap and set things up.
+3. Download dependencies. This will download Bootstrap and set things up.
         
         ./tools/do download_deps
 
-1. Start the development server. The development server in Jekyll continuously 
+4. Start the development server. The development server in Jekyll continuously 
 builds the site when the source changes.
 
         ./tools/run-in-dev.sh
         
-1. Open a web browser and go to http://localhost. If you are not on Linux you 
+5. Open a web browser and go to http://localhost. If you are not on Linux you 
 will have to use docker-machine to figure out your address.
-1. Make your changes. The site will automatically rebuild when you modify a 
+
+6. Make your changes. The site will automatically rebuild when you modify a 
 file, so all you have to do is to reload the page in your browser to see the 
 results.
-1. Make sure all tests and validations passes
+
+7. Make sure all tests and validations pass
 
         ./tools/do build
 
-1. Commit and issue a pull request
-1. Done!
+8. Commit and issue a pull request and you're done!!
 
 ## prerequisites
 
