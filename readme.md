@@ -1,8 +1,8 @@
-# The Bitcraze website [![Build Status](https://api.travis-ci.org/bitcraze/bitcraze-website.svg)](https://travis-ci.org/bitcraze/bitcraze-website)
+# The Bitcraze Website [![Build Status](https://api.travis-ci.org/bitcraze/bitcraze-website.svg)](https://travis-ci.org/bitcraze/bitcraze-website)
 
 This is the source code for the Bitcraze website. 
 
-## Quick start 
+## Quick Start: 
 
 The content is written in markdown and html and the intention is to make it as
 easy as possible to modify the code. There is an integrated development and
@@ -37,7 +37,7 @@ results.
 1. Commit and issue a pull request
 1. Done!
 
-## prerequisites
+## Prerequisites:
 
 To contribute you only need:
 
@@ -49,7 +49,7 @@ If you don't want to use docker you will need ruby on you system. We have not
 set our systems up this way but is should not be a big deal. If you do, please 
 add documentation for it here.
 
-## Technologies
+## Technologies:
 
 You can find more information about the technologies used here
 
@@ -60,7 +60,7 @@ css from markdown, html and scss
 development and test environment
 * [HTML Proofer](https://github.com/gjtorikian/html-proofer)
 
-## File structure  
+## File Structure:  
 
 The top level directories are
 
@@ -74,7 +74,7 @@ explanation of the file structure here.
 * tools - scripts for building the site and running the server. See comments
 in the scripts for documentation on how to use them.
 
-## Tags and filters
+## Tags and Filters:
 
 We are aiming at writing most of the content using markdown. This makes it 
 easy to add or change the content without getting lost in styling. We use 
@@ -84,7 +84,7 @@ more complex or specific HTML structures.
 Documentation for tags and filters can be found in the source code for the tags
 in `src/_plugins`.
 
-## Integration with Wordpress
+## Integration with Wordpress:
 
 The code in this repository is the base for all static content on the website. 
 The blog on the other hand, is not part if this code, it is running on 
@@ -94,7 +94,7 @@ instance
 
         <!-- inject wp blog -->
 
-## Using the toolbelt
+## Using the Toolbelt:
 
 Instead of running the ```tools/do``` script you can use the [toolbelt](https://github.com/bitcraze/toolbelt).
 For instance, downloading dependencies would be 
