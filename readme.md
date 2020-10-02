@@ -2,7 +2,15 @@
 
 This is the source code for the Bitcraze website. 
 
-## Quick start 
+## OVERVIEW 
+### Quick start 
+### prerequisites
+### Technologies
+### File structure 
+### Tags and filters
+### Integration with Wordpress
+### Using the toolbelt
+### Quick start 
 
 The content is written in markdown and html and the intention is to make it as
 easy as possible to modify the code. There is an integrated development and
