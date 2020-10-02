@@ -6,7 +6,7 @@ This is the source code for the Bitcraze website.
 
 The content is written in markdown and html and the intention is to make it as
 easy as possible to modify the code. There is an integrated development and
-test environment based on Docker to reduce the amount of software required.
+test environment based on Docker to decrease the amount of software required.
 
 1. Clone this repository
 
