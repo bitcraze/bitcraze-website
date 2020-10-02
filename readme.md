@@ -105,3 +105,6 @@ or running the validations
 
         tb validate
         
+## Happy coding :smile:
+ 
+        
