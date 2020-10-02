@@ -20,7 +20,7 @@ page_id: home
       <!-- div class="announcements">
         <h3>Summer vacations</h3>
         <a><img src="/images/frontpage/beach.jpg" alt="Announcement"></a>
-        <p>Due to vacations, there will be <b>limited support</b> on all our communication channels, and <b>no shipping</b> of products between 8 - 22 July.</p>
+        <p>Due to vacations, there will be <b>finite support</b> on all our connected  channels, and also <b>no shipping</b> of our products between 8 - 22 July.</p>
       </div -->
 
     </div>
@@ -30,7 +30,7 @@ page_id: home
       </div>
 
       <div class="value_proposition">
-        <h3>We create open platforms that enable people to explore the world of flying robotics</h3>
+        <h3>We create open platforms that helps people to explore the world .</h3>
       </div>
     </div>
   </div>
