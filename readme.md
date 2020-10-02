@@ -37,7 +37,7 @@ results.
 1. Commit and issue a pull request
 1. Done!
 
-## prerequisites
+## requirements
 
 To contribute you only need:
 
@@ -49,7 +49,7 @@ If you don't want to use docker you will need ruby on you system. We have not
 set our systems up this way but is should not be a big deal. If you do, please 
 add documentation for it here.
 
-## Technologies
+## know more
 
 You can find more information about the technologies used here
 
