@@ -103,5 +103,5 @@ For instance, downloading dependencies would be
 
 or running the validations
 
-        tb validate
+        the validate
         
