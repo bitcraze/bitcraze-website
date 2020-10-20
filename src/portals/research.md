@@ -62,6 +62,10 @@ you can read about how the researchers at MIT are using the Crazyflie 2.0 to stu
 
 ## Publications involving Crazyflie 2.X
 ---
+* **Latency-aware and -predictable Communication with Open Protocol Stacks for Remote Drone Control**,
+Marlene Böhmer, Andreas Schmidt, Pablo Gil Pereira, Thorsten Herfet, Saarland Informatics Campus, 2020
+[PDF](https://arxiv.org/pdf/2010.09584.pdf)
+
 * **Distributed Consensus Control of Multiple UAVs in a Constrained Environment**,
 Gang Wang, Weixin Yang, Na Zhao, Yunfeng Ji, Yantao Shen, Hao Xu, and Peng Li, University of Nevada, Reno, 2020
 [PDF](https://www.researchgate.net/profile/Weixin_Yang/publication/341272836_Distributed_Consensus_Control_of_Multiple_UAVs_in_a_Constrained_Environment/links/5eb6f76692851cd50da3c0e4/Distributed-Consensus-Control-of-Multiple-UAVs-in-a-Constrained-Environment.pdf)
