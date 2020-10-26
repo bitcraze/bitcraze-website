@@ -62,6 +62,11 @@ you can read about how the researchers at MIT are using the Crazyflie 2.0 to stu
 
 ## Publications involving Crazyflie 2.X
 ---
+* **An Efficient Real-Time NMPC for Quadrotor Position Control under Communication Time-Delay**,
+Barbara Barros Carlos, Tommaso Sartor, Andrea Zanelli, Gianluca Frison, Wolfram Burgard, Moritz Diehl, and Giuseppe Oriolo, Sapienza University of Rome, KU Leuven, University of Freiburg, 2020
+[PDF](https://arxiv.org/pdf/2010.11264.pdf)
+[Video](https://youtu.be/xZLVQ7BdUHA)
+
 * **Latency-aware and -predictable Communication with Open Protocol Stacks for Remote Drone Control**,
 Marlene Böhmer, Andreas Schmidt, Pablo Gil Pereira, Thorsten Herfet, Saarland Informatics Campus, 2020
 [PDF](https://arxiv.org/pdf/2010.09584.pdf)
