@@ -13,3 +13,4 @@ information.
 * [IMAV 2019](/about/events/imav2019/)
 * [IROS 2019](/about/events/iros2019/)
 * [IOT 2020](/about/events/iot2020/)
+* [Bitcraze Tutorial 1 2020](/about/events/bct12020/)
