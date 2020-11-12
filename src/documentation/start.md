@@ -27,8 +27,7 @@ tutorial to setup your development environment, build your first custom firmware
 download it to the copter.
 
 Maybe you want to add a sensor or some other hardware? Heat up your soldering
-iron and dive into it! Find more information about the [expansion bus on the
-wiki](//wiki.bitcraze.io/projects:crazyflie2:expansionboards:index). The [wiki](//wiki.bitcraze.io)
+iron and dive into it! Find more information about the [expansion bus](/documentation/system/platform/cf2-expansiondecks/). The [documentation](/documentation/system/)
 is the place to look for documentation related to products and projects.
 
 All the source code is hosted on [github.com/bitcraze](https://github.com/bitcraze)
@@ -36,9 +35,8 @@ and this is also where you will find documentation related to each repository.
 
 ## Projects
 
-Looking for inspiration for a new project? Take a look at [Hackster](https://www.hackster.io/bitcraze)
-or read our [blog posts](/blog/). The {% id_link videogallery %} contains
-some really cool stuff as well as our [You Tube channel](https://www.youtube.com/user/BitcrazeVideos).
+Looking for inspiration for a new project? Take a look at our [blog posts](/blog/). The {% id_link videogallery %} contains
+some really cool stuff as well as our [You Tube channel](https://www.youtube.com/user/BitcrazeVideos). We also have a [list of academic groups](/portals/research/) that have used the Crazyflie in their research.
 
 ## Contribute!
 

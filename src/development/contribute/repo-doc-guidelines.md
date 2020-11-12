@@ -4,11 +4,11 @@ title: Repository documentation guidelines
 page_id: repo-doc-guidelines
 ---
 
-The source code for the repository documentation is located in each repositry, to make it easy to update when the
+The source code for the repository documentation is located in each repository, to make it easy to update when the
 code is modified.
 
 The repository documentation can be used when coding, directly in you development environment, but it is also published as
-a part of this web, on the [reposity page]({% id_url repository-overview %}). The publication on the web adds some extra
+a part of this web, on the [repositorsy page]({% id_url repository-overview %}). The publication on the web adds some extra
 requirements that are described below.
 
 ## Markdown
@@ -33,7 +33,7 @@ There is a directory named `_data` that contains meta data for the left side men
 
 One file corresponds to one page.
 
-The name of the file is used in the url, use names that are descriptive and easy to understand. Use only characters, numbers, dash and underscore in the name. The full path from the root of the repositor directory forms the url, for instance would the file `docs/development/howto.md` be rendered for the url `/docs/development/howto/`.
+The name of the file is used in the url, use names that are descriptive and easy to understand. Use only characters, numbers, dash and underscore in the name. The full path from the root of the repository directory forms the url, for instance would the file `docs/development/howto.md` be rendered for the url `/docs/development/howto/`.
 
 Files named `index.md` will be rendered with the url based on the directory it is located in, instead of its name, and can be used for overview pages for instance. The `index.md` file in `docs` directory is rendered as the first page of the
 repo documentation. As an example the file `docs/development/index.md` would be rendered for the url `/docs/development/`.
@@ -63,7 +63,7 @@ Put your image files in the image directory. Display an image using
 ![my alt text](/docs/images/my_image.png)
 ```
 
-The alt text is required, it is used as support for diabled readers, search engines and other tools. Use a text that describes the contents of the image.
+The alt text is required, it is used as support for disabled readers, search engines and other tools. Use a text that describes the contents of the image.
 
 ### Links
 
@@ -100,7 +100,7 @@ Some examples:
 descriptions. Read the [ditaa documentation](http://ditaa.sourceforge.net/#usage) for a description of the supported features.
 
 The ditaa markup must be enclosed in liquid tags. The alt text is required since the diagram is rendered as an image, it is used as
-support for diabled readers, search engines and other tools. Use a text that describes what the diagram illustrates.
+support for disabled readers, search engines and other tools. Use a text that describes what the diagram illustrates.
 
 ```
 {% raw %}
@@ -144,11 +144,11 @@ When a page is moved and the url changes, it is possible to add a redirect from 
 `redirects` directive in the meta data. There might be external links pointing at the old url and by adding
 a redirect, those will continue to work.
 
-Supose we have two pages at `/fancy_section/my_page/` and `/fancy_section/other_page/`, that is the files `my_page.md` and `other_page.md` are located in `/docs/fancy_section`.
+Suppose we have two pages at `/fancy_section/my_page/` and `/fancy_section/other_page/`, that is the files `my_page.md` and `other_page.md` are located in `/docs/fancy_section`.
 
 We realize that the contents of the pages could be merged into one page, and that it would fit better in `/other_section/` instead.
 
-We create a new file, `better_page.md` in `/docs/other_sction` and merge the contents of the old pages. To
+We create a new file, `better_page.md` in `/docs/other_section` and merge the contents of the old pages. To
 create the redirects, add the following meta data
 
 ```
