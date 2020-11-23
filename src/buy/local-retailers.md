@@ -48,11 +48,13 @@ redirects:
 {% continent Europe %}
 
 {% country France %}
+{% distributor Génération Robots; https://www.generationrobots.com/fr/147-mini-drone-crazyflie-21; /images/distributors/generation-robots.jpg %}
 {% distributor Hackspark; https://hackspark.fr/en/search?controller=search&order=product.position.desc&s=crazyflie; /images/distributors/hackspark.png %}
 
 {% country Germany %}
 {% distributor Exp-tech; https://www.exp-tech.de/bitcraze/; /images/distributors/exp_tech_logo_600.png %}
 {% distributor Flyingmachines; https://www.flyingmachines.de/Bitcraze_1; /images/distributors/flyingmachines.png %}
+{% distributor Génération Robots; https://www.generationrobots.com/de/147-mini-drone-crazyflie-21; /images/distributors/generation-robots.jpg %}
 
 {% country Russia %}
 {% distributor Sever; https://crazyflie.ru; /images/distributors/crazyflie-ru.jpg %}
