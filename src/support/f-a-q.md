@@ -40,10 +40,9 @@ it has been tested on.
 {% collapse_section What is the range of the Crazyradio? %}
 As with all radio communication it depends. It depends on the environment, radio interference, chip production variations, etc. It also depends on if you use the Crazyradio, Crazyradio PA or a mobile device. We have done a couple of line-of-sight tests with little interference outdoor with the different configurations:
 
-
-* Crazyradio: Up to about 100 meters range in the 250 Kbit mode (The uplink, Crazyradio, is the limiting the range).
-* Crazyradio PA: Up to about 1000 meters range in the 250 Kbit mode (The downlink, Crazyflie 2.X, is the limiting the range).
-* Mobile device: Up to about 20 meters range (The uplink, mobile device is limiting the range).
+* Crazyradio: Up to about 100 meters range in the 250 Kbit mode (The uplink, Crazyradio, is the main limiting factor).
+* Crazyradio PA: Up to about 1000 meters range in the 250 Kbit mode and under ideal conditions (the downlink is the main limiting factor).
+* Mobile device: Up to about 20 meters range (The uplink, the mobile device is limiting the range).
 {% endcollapse_section %}
 
 {% collapse_section Can I use a normal R/C transmitter to control the Crazyflie 2.X? %}
