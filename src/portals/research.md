@@ -62,6 +62,10 @@ you can read about how the researchers at MIT are using the Crazyflie 2.0 to stu
 
 ## Publications involving Crazyflie 2.X
 ---
+* **Compliant Bistable Grippers Enable Passive Perching for Micro Aerial Vehicles**, Haijie Zhang, Elisha Lerner, Bo Cheng and Jianguo Zhao, Department of Mechanical Engineering, Colorado State University, 2020.
+[PDF](https://ieeexplore.ieee.org/abstract/document/9257095)
+[Video](https://youtu.be/X5zLZtZFjnI)
+
 * **An Efficient Real-Time NMPC for Quadrotor Position Control under Communication Time-Delay**,
 Barbara Barros Carlos, Tommaso Sartor, Andrea Zanelli, Gianluca Frison, Wolfram Burgard, Moritz Diehl, and Giuseppe Oriolo, Sapienza University of Rome, KU Leuven, University of Freiburg, 2020
 [PDF](https://arxiv.org/pdf/2010.11264.pdf)
