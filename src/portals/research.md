@@ -62,14 +62,35 @@ you can read about how the researchers at MIT are using the Crazyflie 2.0 to stu
 
 ## Publications involving Crazyflie 2.X
 ---
+
+### 2020
+
+* **Aerodynamic imaging by mosquitoes inspires a surface detector for autonomous flying vehicles**
+Nakata, T., Phillips, N., Simões, P., Russell, I. J., Cheney, J. A., Walker, S. M., & Bomphrey, R. J. Science 2020
+[PDF](https://science.sciencemag.org/content/sci/368/6491/634.full.pdf?casa_token=_e0tMoEQFwQAAAAA:PeSXBgxBq2Pf_34CV8Tjyr0jwWQL9OY87ZlbZVnfQ6z937rSfw4RPdJSwX2FiVC22MfWoXWyfW0W1w)
+
+
+* **A bio-hybrid odor-guided autonomous palm-sized air vehicle.**  Anderson, M. J., Sullivan, J. G., Horiuchi, T., Fuller, S. B., & Daniel, T. L., Bioinspiration & Biomimetics. 2020
+[PDF, ](https://iopscience.iop.org/article/10.1088/1748-3190/abbd81/pdf?casa_token=6qol0eeJymEAAAAA:z-yOEzpOc-kRpmu8ZuIpyh9yzjkFV6ecqfglJoqB_5rItJNQRhP-Fvj6K-pmp2GGKLRnqDtwIA)
+[Video](https://youtu.be/8SGx2qmo9M4)
+
 * **An Efficient Real-Time NMPC for Quadrotor Position Control under Communication Time-Delay**,
 Barbara Barros Carlos, Tommaso Sartor, Andrea Zanelli, Gianluca Frison, Wolfram Burgard, Moritz Diehl, and Giuseppe Oriolo, Sapienza University of Rome, KU Leuven, University of Freiburg, 2020
-[PDF](https://arxiv.org/pdf/2010.11264.pdf)
+[PDF, ](https://arxiv.org/pdf/2010.11264.pdf)
 [Video](https://youtu.be/xZLVQ7BdUHA)
 
 * **Latency-aware and -predictable Communication with Open Protocol Stacks for Remote Drone Control**,
 Marlene Böhmer, Andreas Schmidt, Pablo Gil Pereira, Thorsten Herfet, Saarland Informatics Campus, 2020
 [PDF](https://arxiv.org/pdf/2010.09584.pdf)
+[Video](https://youtu.be/8SGx2qmo9M4)
+
+* **Sensor Deck Development for Sparse Localization and Mapping for Micro UAVs to Assist in Disaster Response** T. Suraj, M. Padmal, D. Bibile, P. Jayasekara     Conference: Australasian Conference on Robotics and Automation (ACRA 2020)
+[PDF](https://www.researchgate.net/profile/Tharindu_Suraj2/publication/346934542_Sensor_Deck_Development_for_Sparse_Localization_and_Mapping_for_Micro_UAVs_to_Assist_in_Disaster_Response/links/5fd2eb49a6fdcc697bf706a2/Sensor-Deck-Development-for-Sparse-Localization-and-Mapping-for-Micro-UAVs-to-Assist-in-Disaster-Response.pdf)
+
+* **Guarding a Territory Against an Intelligent Intruder: Strategy Design and Experimental Verification** 
+Han Fu, Hugh H.-T. Liu
+IEEE/ASME Transactions on Mechatronics 2020
+[PDF](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9099050)
 
 * **Distributed Consensus Control of Multiple UAVs in a Constrained Environment**,
 Gang Wang, Weixin Yang, Na Zhao, Yunfeng Ji, Yantao Shen, Hao Xu, and Peng Li, University of Nevada, Reno, 2020
@@ -79,30 +100,37 @@ Gang Wang, Weixin Yang, Na Zhao, Yunfeng Ji, Yantao Shen, Hao Xu, and Peng Li, U
 Guanya Shi, Wolfgang Honig, Yisong Yue, and Soon-Jo Chung, 2020
 [PDF](https://arxiv.org/pdf/2003.02992.pdf)
 
+* **Drone proximity detection via air disturbance analysis** 
+Zhao, Q., Hughes, J., & Lyons, D, Unmanned Systems Technology XXII. Vol. 11425. International Society for Optics and Photonics, 2020.
+[PDF](https://research.library.fordham.edu/cgi/viewcontent.cgi?article=1078&context=frcv_facultypubs)
+
+
 * **Intuitive 3D Control of a Quadrotor in User Proximity with Pointing Gestures**,
 Boris Gromov, Jer´ ome Guzzi, Luca M. Gambardella, Alessandro Giusti, IDSIA, 2020
-[PDF](http://people.idsia.ch/~gromov/repository/gromov2020intuitive.pdf)
+[PDF, ](http://people.idsia.ch/~gromov/repository/gromov2020intuitive.pdf)
 [Video](https://m.youtube.com/watch?feature=youtu.be&v=lFksQfQ8rAk)
 
 * **Hand-worn Haptic Interface for Drone Teleoperation**,
 Matteo Macchini, Thomas Havy, Antoine Weber, Fabrizio Schiano, and Dario Floreano, EPFL, 2020
-[PDF](https://arxiv.org/pdf/2004.07111.pdf)
+[PDF, ](https://arxiv.org/pdf/2004.07111.pdf)
 [Video](https://m.youtube.com/watch?v=u246xv3awsg)
+
+* **Experiments of Constrained Distributed Optimization by Using UAVs** J. Xu, Doctoral dissertation, UC Riverside, 2020.
+[PDF]https://escholarship.org/content/qt2cw7p059/qt2cw7p059.pdf?t=qijrms&v=lg)
 
 * **ModQuad-DoF: A Novel Yaw Actuation for Modular Quadrotors**,
 Gabrich, Bruno, Guanrui Li, and Mark Yim, University of Pennsylvania, 2020
-[PDF](https://www.researchgate.net/publication/340006440_ModQuad-DoF_A_Novel_Yaw_Actuation_for_Modular_Quadrotors)
+[PDF, ](https://www.researchgate.net/publication/340006440_ModQuad-DoF_A_Novel_Yaw_Actuation_for_Modular_Quadrotors)
 [web](https://www.modlabupenn.org/2020/03/06/modquad-dof-a-novel-yaw-actuation-for-modular-quadrotors/)
 
 * **Online trajectory generation with distributed model predictive control for multi-robot motion planning**,
 C. E. Luis, M. Vukosavljev, and A. P. Schoellig, Dynamic Systems Lab, University of Toronto, 2020
-[PDF](http://www.dynsyslab.org/wp-content/papercite-data/pdf/luis-ral20.pdf)
+[PDF, ](http://www.dynsyslab.org/wp-content/papercite-data/pdf/luis-ral20.pdf)
 [Video](http://www.dynsyslab.org/icra-2020/)
 
-* **Fast and In Sync: Periodic Swarm Patterns for Quadrotors**,
-Xintong Du, Carlos E. Luis, Marijan Vukosavljev, Angela P. Schoellig, Dynamic Systems Lab, University of Toronto 2019
-[PDF](https://arxiv.org/pdf/1810.03572.pdf)
-[Video](https://www.youtube.com/watch?v=Iw8mwt3l0RE)
+* **Rotor-induced Airflow for Odor Source Detection on Nano-Quadcopters.** Castro, A., Peckerar, L., Horiuchi, T., & Abshire, P. 2020 IEEE Sensors. IEEE, 2020
+[PDF](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9278626)
+
 
 * **Learning-based Bias Correction for Ultra-wideband Localization of Resource-constrained Mobile Robots**,
 Wenda Zhao, Abhishek Goudar, Jacopo Panerati, Angela P. Schoellig, University of Toronto, 2020.
@@ -111,6 +139,13 @@ Wenda Zhao, Abhishek Goudar, Jacopo Panerati, Angela P. Schoellig, University of
 * **Signal-based self-organization of a chain of UAVs for subterranean exploration**,
 Pierre Laclau, Vladislav Tempez, Franck Ruffier, Enrico Natalizio, Jean-Baptiste Mouret, Universit de Technologie de Compigne, 2020.
 [PDF](https://arxiv.org/pdf/2003.04409.pdf)
+
+* **CrazyS: a software-in-the-loop simulation platform for the Crazyflie 2.0 nano-quadcopter**, Giuseppe Silano and Luigi Iannelli, in Robot Operating System (ROS): The Complete Reference (Volume 4), K. Anis, Ed. Springer International Publishing, 2020.
+[PDF, ](https://giuseppesilano.net/publications/rosChapter19.pdf)
+[Code, ](https://github.com/gsilano/CrazyS)
+[Video](https://youtu.be/qsrYCUSQ-S4)
+
+### 2019
 
 * **Minimal navigation solution for a swarm of tiny flying robots to explore an unknown environment**,
 K. N. McGuire, C. De Wagter, K. Tuyls, H. J. Kappen and G. C. H. E. de Croon, TU Delft, 2019.
@@ -129,8 +164,25 @@ Omar Shadeed, Halise Turkmen, Emre Koyuncu, AIAA Science and Technology Forum an
 [PDF, ](https://arxiv.org/pdf/1909.11236)
 [Video](https://www.youtube.com/watch?v=wmVKbX7MOnU)
 
+* **Indoor Air Quality Monitoring using flying Nanobots: Design and Experimental Study**
+Patrick P. Neumann;Paul Hirschberger;Zhandos Baurzhan;Carlo Tiebe;Michael Hofmann;Dino Hüllmann;Matthias Bartholmai
+IEEE International Symposium on Olfaction and Electronic Nose (ISOEN) (2019)
+[PDF](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=8823496)
+
 * **Compliant Bistable Gripper for Aerial Perching and Grasping**, Haijie Zhang, Jiefeng Sun and Jianguo Zhao, Department of Mechanical Engineering, Colorado State University, 2019.
 [PDF](https://ieeexplore.ieee.org/document/8793936)
+
+* **Unsupervised Tuning of Filter Parameters Without Ground-Truth Applied to Aerial Robots**  
+Shushuai Li, Christophe De Wagter;Guido C. H. E. de Croon
+IEEE Robotics and Automation Letters 2019.
+[PDF](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=8770074)
+
+* **Fast and In Sync: Periodic Swarm Patterns for Quadrotors**,
+Xintong Du, Carlos E. Luis, Marijan Vukosavljev, Angela P. Schoellig, Dynamic Systems Lab, University of Toronto 2019.
+[PDF, ](https://arxiv.org/pdf/1810.03572.pdf)
+[Video](https://www.youtube.com/watch?v=Iw8mwt3l0RE)
+
+* **Distributed Localization and Control of Quadrotor UAVs Using Ultra-Wideband Sensors** Bryce Mack;Christopher Noe;Trevor Rice;In Soo Ahn;Jing Wang 2019 IEEE Aerospace Conference [PDF](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=8741636)
 
 * **Vision based control and landing of Micro aerial vehicles**, Christoffer Karlsson, Department of Engineering and Physics, Karlstad University, 2019.
 [PDF](http://kau.diva-portal.org/smash/get/diva2:1332929/FULLTEXT01.pdf)
@@ -145,10 +197,7 @@ Omar Shadeed, Halise Turkmen, Emre Koyuncu, AIAA Science and Technology Forum an
 * **Smelling Nano Aerial Vehicle for Gas Source Localization and Mapping**, Burgués, J.; Hernández, V.; Lilienthal, A.J.; Marco, S. Smelling Nano Aerial Vehicle for Gas Source Localization and Mapping. Sensors 2019, 19, 478.
 [PDF](https://www.mdpi.com/1424-8220/19/3/478)
 
-* **CrazyS: a software-in-the-loop simulation platform for the Crazyflie 2.0 nano-quadcopter**, Giuseppe Silano and Luigi Iannelli, in Robot Operating System (ROS): The Complete Reference (Volume 4), K. Anis, Ed. Springer International Publishing, 2019.
-[PDF, ](https://giuseppesilano.net/publications/rosChapter19.pdf)
-[Code, ](https://github.com/gsilano/CrazyS)
-[Video](https://youtu.be/qsrYCUSQ-S4)
+### 2018
 
 * **Optimal trajectory generation for time-to-contact based aerial robotic perching**, Haijie Zhang, Bo Cheng and Jianguo Zhao, Department of Mechanical Engineering, Colorado State University, 2018.
 [PDF](https://iopscience.iop.org/article/10.1088/1748-3190/aaeb13)
@@ -165,6 +214,41 @@ Omar Shadeed, Halise Turkmen, Emre Koyuncu, AIAA Science and Technology Forum an
 [PDF, ](https://giuseppesilano.net/publications/med18.pdf)
 [Code, ](https://github.com/gsilano/CrazyS)
 [Video](https://youtu.be/pda-tuULewM)
+
+* **Design and Deployment of Fuzzy PID Controllers to the nano quadcopter Crazyflie 2.0**
+Fethi Candan, Aykut Beke, Tufan Kumbasar
+2018 Innovations in Intelligent Systems and Applications (INISTA)
+[PDF](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=8466284)
+
+* **Odor Source Localization on a Nano Quadcopter**
+Alexander Castro, Nevo Magnezi, Biruk Sintayehu, Alexander Quinto, Pamela Abshire
+2018 IEEE Biomedical Circuits and Systems Conference (BioCAS)
+[PDF](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=8584769)
+
+* **Fly-by-Logic: Control of Multi-Drone Fleets with Temporal Logic Objectives**
+Yash Vardhan Pant;Houssam Abbas;Rhudii A. Quaye;Rahul Mangharam
+2018 ACM/IEEE 9th International Conference on Cyber-Physical Systems (ICCPS)
+[PDF](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=8443733)
+
+* **Planning, Fast and Slow: A Framework for Adaptive Real-Time Safe Trajectory Planning**
+David Fridovich-Keil, Sylvia L. Herbert, Jaime F. Fisac, Sampada Deglurkar, Claire J. Tomlin
+2018 IEEE International Conference on Robotics and Automation (ICRA)
+[PDF](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=8460863)
+
+* **SwarmTouch: Tactile Interaction of Human with Impedance Controlled Swarm of Nano-Quadrotors**
+E. Tsykunov, L. Labazanova, A. Tleugazy, D. Tsetserukou
+2018 IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS)
+[PDF](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=8594424)
+
+* **A Lightweight, Compliant, Contact-Resistance-Based Airflow Sensor for Quadcopter Ground Effect Sensing**
+Samuel Dutra Gollob, Yash Manian, Ryan St. Pierre, Abraham Simpson Chen, Sarah Bergbreiter
+2018 IEEE International Conference on Robotics and Automation (ICRA)
+[PDF](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=8461229)
+### 2017
+
+* **Room temperature multiplexed gas sensing using chemical-sensitive 3.5-nm-thin silicon transistors**
+Fahad, H. M., Shiraki, H., Amani, M., Zhang, C., Hebbar, V. S., Gao, W., ... & Chueh, Y. L. Science, 2017
+[PDF](https://advances.sciencemag.org/content/3/3/e1602557/tab-pdf)
 
 * **Self-Calibrating Ultra-Wideband Network Supporting Multi-Robot Localization**,
 Michael Hamer, Raffaello D’Andrea, ETH, 2017.
@@ -207,6 +291,9 @@ Leobardo Campos-Macías, David Gómez-Gutiérrez, Rodrigo Aldana-López, Rafael 
 * **Smoothing and Mapping of an Unmanned Aerial Vehicle Using Ultra-wideband Sensors**, Erik Strömberg's Master Thesis, KTH, Stockholm, 2017.
 [PDF](http://kth.diva-portal.org/smash/record.jsf?pid=diva2%3A1148538&dswid=390)
 
+
+### 2016
+
 * **Development of a swarm control platform for educational and research applications**, Justin Noronha, Master's Thesis, Iowa State University, 2016.
 [PDF](https://lib.dr.iastate.edu/etd/15783/)
 
@@ -214,6 +301,8 @@ Leobardo Campos-Macías, David Gómez-Gutiérrez, Rodrigo Aldana-López, Rafael 
 [PDF, ](http://www.cs.mcgill.ca/~kry/pubs/stippling/stippling.pdf)
 [Video 1, ](https://www.youtube.com/watch?v=CP-fBvcUAls)
 [Video 2](https://www.youtube.com/watch?v=N_B6Fs9U_go)
+
+### 2015
 
 * **Planning and Control for Quadrotor Flight through Cluttered Environments**, B. Landry,  Master's thesis, Massachusetts Institute of Technology, USA, June 2015.
 [PDF, ](http://groups.csail.mit.edu/robotics-center/public_papers/Landry15.pdf)
