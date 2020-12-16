@@ -69,10 +69,13 @@ you can read about how the researchers at MIT are using the Crazyflie 2.0 to stu
 Nakata, T., Phillips, N., Simões, P., Russell, I. J., Cheney, J. A., Walker, S. M., & Bomphrey, R. J. Science 2020
 [PDF](https://science.sciencemag.org/content/sci/368/6491/634.full.pdf?casa_token=_e0tMoEQFwQAAAAA:PeSXBgxBq2Pf_34CV8Tjyr0jwWQL9OY87ZlbZVnfQ6z937rSfw4RPdJSwX2FiVC22MfWoXWyfW0W1w)
 
-
 * **A bio-hybrid odor-guided autonomous palm-sized air vehicle.**  Anderson, M. J., Sullivan, J. G., Horiuchi, T., Fuller, S. B., & Daniel, T. L., Bioinspiration & Biomimetics. 2020
 [PDF, ](https://iopscience.iop.org/article/10.1088/1748-3190/abbd81/pdf?casa_token=6qol0eeJymEAAAAA:z-yOEzpOc-kRpmu8ZuIpyh9yzjkFV6ecqfglJoqB_5rItJNQRhP-Fvj6K-pmp2GGKLRnqDtwIA)
 [Video](https://youtu.be/8SGx2qmo9M4)
+
+* **Compliant Bistable Grippers Enable Passive Perching for Micro Aerial Vehicles**, Haijie Zhang, Elisha Lerner, Bo Cheng and Jianguo Zhao, Department of Mechanical Engineering, Colorado State University, 2020.
+[PDF](https://ieeexplore.ieee.org/abstract/document/9257095)
+[Video](https://youtu.be/X5zLZtZFjnI)
 
 * **An Efficient Real-Time NMPC for Quadrotor Position Control under Communication Time-Delay**,
 Barbara Barros Carlos, Tommaso Sartor, Andrea Zanelli, Gianluca Frison, Wolfram Burgard, Moritz Diehl, and Giuseppe Oriolo, Sapienza University of Rome, KU Leuven, University of Freiburg, 2020

@@ -38,8 +38,17 @@ class DocumentationFormatter
   def update_redirects(local_redirects, repo_name, tag)
     # Updates
     # /my-url/ ==> /documentation/repository/repo-name/tag/my-url/
+    # /docs/my-url/ ==> /documentation/repository/repo-name/tag/my-url/
     repo_path = get_repo_path(repo_name, tag)
-    local_redirects.map {|local_url| repo_path + local_url}
+    local_redirects.map do |local_url|
+      local_url_trimmed = local_url
+
+      if local_url.start_with? '/docs'
+        local_url_trimmed = local_url[5..]
+      end
+
+      repo_path + local_url_trimmed
+    end
   end
 
   def update_front_matter_data(doc, ns, repo_name, tag)
