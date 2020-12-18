@@ -23,7 +23,6 @@ Do you want to share your experiments and hacks with the Bitcraze community? Go 
 
 #### Collection
 
-{% hackster chathuranga-liyanage/beginner-s-guide-to-autonomous-quadcopters-9b5382 %}
 {% hackster krichardsson/light-paint-with-a-drone-d050af %}
 {% hackster 57245/touchless-mouse-e3053e %}
 {% hackster ataffanel/crazyfblimp-6a081b %}
