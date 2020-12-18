@@ -265,6 +265,7 @@ page_id: home
           <h3>Ideal for many areas of research</h3>
             <p>The platform is designed to be as flexible and versatile as possible to enable the user to explore any area of interest, for instance control algorithms, swarms, path finding, agriculture or failure recovery.
             </p>
+            <p><b>Read more >>></b></p>
         </div>
       </a>
     </div>
@@ -283,6 +284,7 @@ page_id: home
             <p>The crazyflie is a versatile platform that is designed to engage people in learning about robotics and quadcopters.
               Help the students understand control algorithms, embedded systems, aeronautics or robotics by experimenting on a real quadcopter.
             </p>
+            <p><b>Read more >>></b></p>
         </div>
       </a>
     </div>
@@ -299,6 +301,7 @@ page_id: home
             <p>Prototype your flying application in the comfort of your lab.
               Modify or extend the firmware of the quadcopter to access or control your hardware - it is all open source.
             </p>
+            <p><b>Read more >>></b></p>
         </div>
       </a>
     </div>
@@ -321,6 +324,7 @@ page_id: home
           <h3>Do it yourself</h3>
             <p>Love to fly? Like to tinker? Want to modify and explore? Hate limitations and closed systems? The Crazyflie is for you!
             </p>
+            <p><b>Read more >>></b></p>
         </div>
       </a>
     </div>
