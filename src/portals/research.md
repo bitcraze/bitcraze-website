@@ -90,7 +90,7 @@ Marlene Böhmer, Andreas Schmidt, Pablo Gil Pereira, Thorsten Herfet, Saarland I
 * **Sensor Deck Development for Sparse Localization and Mapping for Micro UAVs to Assist in Disaster Response** T. Suraj, M. Padmal, D. Bibile, P. Jayasekara     Conference: Australasian Conference on Robotics and Automation (ACRA 2020)
 [PDF](https://www.researchgate.net/profile/Tharindu_Suraj2/publication/346934542_Sensor_Deck_Development_for_Sparse_Localization_and_Mapping_for_Micro_UAVs_to_Assist_in_Disaster_Response/links/5fd2eb49a6fdcc697bf706a2/Sensor-Deck-Development-for-Sparse-Localization-and-Mapping-for-Micro-UAVs-to-Assist-in-Disaster-Response.pdf)
 
-* **Guarding a Territory Against an Intelligent Intruder: Strategy Design and Experimental Verification** 
+* **Guarding a Territory Against an Intelligent Intruder: Strategy Design and Experimental Verification**
 Han Fu, Hugh H.-T. Liu
 IEEE/ASME Transactions on Mechatronics 2020
 [PDF](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9099050)
@@ -103,7 +103,7 @@ Gang Wang, Weixin Yang, Na Zhao, Yunfeng Ji, Yantao Shen, Hao Xu, and Peng Li, U
 Guanya Shi, Wolfgang Honig, Yisong Yue, and Soon-Jo Chung, 2020
 [PDF](https://arxiv.org/pdf/2003.02992.pdf)
 
-* **Drone proximity detection via air disturbance analysis** 
+* **Drone proximity detection via air disturbance analysis**
 Zhao, Q., Hughes, J., & Lyons, D, Unmanned Systems Technology XXII. Vol. 11425. International Society for Optics and Photonics, 2020.
 [PDF](https://research.library.fordham.edu/cgi/viewcontent.cgi?article=1078&context=frcv_facultypubs)
 
@@ -119,7 +119,7 @@ Matteo Macchini, Thomas Havy, Antoine Weber, Fabrizio Schiano, and Dario Florean
 [Video](https://m.youtube.com/watch?v=u246xv3awsg)
 
 * **Experiments of Constrained Distributed Optimization by Using UAVs** J. Xu, Doctoral dissertation, UC Riverside, 2020.
-[PDF]https://escholarship.org/content/qt2cw7p059/qt2cw7p059.pdf?t=qijrms&v=lg)
+[PDF](https://escholarship.org/content/qt2cw7p059/qt2cw7p059.pdf?t=qijrms&v=lg)
 
 * **ModQuad-DoF: A Novel Yaw Actuation for Modular Quadrotors**,
 Gabrich, Bruno, Guanrui Li, and Mark Yim, University of Pennsylvania, 2020
@@ -175,7 +175,7 @@ IEEE International Symposium on Olfaction and Electronic Nose (ISOEN) (2019)
 * **Compliant Bistable Gripper for Aerial Perching and Grasping**, Haijie Zhang, Jiefeng Sun and Jianguo Zhao, Department of Mechanical Engineering, Colorado State University, 2019.
 [PDF](https://ieeexplore.ieee.org/document/8793936)
 
-* **Unsupervised Tuning of Filter Parameters Without Ground-Truth Applied to Aerial Robots**  
+* **Unsupervised Tuning of Filter Parameters Without Ground-Truth Applied to Aerial Robots**
 Shushuai Li, Christophe De Wagter;Guido C. H. E. de Croon
 IEEE Robotics and Automation Letters 2019.
 [PDF](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=8770074)
@@ -247,6 +247,7 @@ E. Tsykunov, L. Labazanova, A. Tleugazy, D. Tsetserukou
 Samuel Dutra Gollob, Yash Manian, Ryan St. Pierre, Abraham Simpson Chen, Sarah Bergbreiter
 2018 IEEE International Conference on Robotics and Automation (ICRA)
 [PDF](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=8461229)
+
 ### 2017
 
 * **Room temperature multiplexed gas sensing using chemical-sensitive 3.5-nm-thin silicon transistors**
