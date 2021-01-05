@@ -1,4 +1,4 @@
-# The Bitcraze website [![Build Status](https://api.travis-ci.org/bitcraze/bitcraze-website.svg)](https://travis-ci.org/bitcraze/bitcraze-website)
+# The Bitcraze website [![CI](https://github.com/bitcraze/bitcraze-website/workflows/CI/badge.svg)](https://github.com/bitcraze/bitcraze-website/actions?query=workflow%3ACI)
 
 This is the source code for the Bitcraze website. 
 
