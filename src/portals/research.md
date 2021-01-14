@@ -203,7 +203,7 @@ Xintong Du, Carlos E. Luis, Marijan Vukosavljev, Angela P. Schoellig, Dynamic Sy
 ### 2018
 
 * **A Nonlinear Filter for Efficient Attitude Estimation of Unmanned Aerial Vehicle (AV)**
-Jaroslaw Goslinski, Wojciech Giernacki & Andrzej Krolikowski, Journal of Intelligent \& Robotic Systems, 2018
+Jaroslaw Goslinski, Wojciech Giernacki & Andrzej Krolikowski, Journal of Intelligent & Robotic Systems, 2018
 [PDF](https://link.springer.com/content/pdf/10.1007/s10846-018-0949-7.pdf)
 
 * **Optimal trajectory generation for time-to-contact based aerial robotic perching**, Haijie Zhang, Bo Cheng and Jianguo Zhao, Department of Mechanical Engineering, Colorado State University, 2018.
