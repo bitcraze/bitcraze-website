@@ -202,6 +202,10 @@ Xintong Du, Carlos E. Luis, Marijan Vukosavljev, Angela P. Schoellig, Dynamic Sy
 
 ### 2018
 
+* **A Nonlinear Filter for Efficient Attitude Estimation of Unmanned Aerial Vehicle (UAV)**
+Jarosław Gośliński, Wojciech Giernacki & Andrzej Królikowski, Journal of Intelligent ¥ Robotic Systems, 2018
+[PDF](https://link.springer.com/content/pdf/10.1007/s10846-018-0949-7.pdf)
+
 * **Optimal trajectory generation for time-to-contact based aerial robotic perching**, Haijie Zhang, Bo Cheng and Jianguo Zhao, Department of Mechanical Engineering, Colorado State University, 2018.
 [PDF](https://iopscience.iop.org/article/10.1088/1748-3190/aaeb13)
 
@@ -269,6 +273,8 @@ Michael Hamer, Raffaello D’Andrea, ETH, 2017.
 
 * **Modelling and Control of the Crazyflie Quadrotor for Aggressive and Autonomous Flight by Optical Flow Driven State Estimation**, M. Greiff, Master's thesis, Lund University, 2017.
 [PDF](http://lup.lub.lu.se/student-papers/record/8905295/file/8905299.pdf)
+
+
 
 * **Crazyflie 2.0 Quadrotor as a Platform for Research and Education in Robotics and Control Engineering**,
 Wojciech Giernacki, Mateusz Skwierczyński, Wojciech Witwicki, Paweł Wroński and Piotr Kozierski, Faculty of Electrical Engineering, Institute of Control and Information Engineering Poznan University of Technology, Poland, 2017.
