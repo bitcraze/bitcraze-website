@@ -203,7 +203,7 @@ Xintong Du, Carlos E. Luis, Marijan Vukosavljev, Angela P. Schoellig, Dynamic Sy
 ### 2018
 
 * **A Nonlinear Filter for Efficient Attitude Estimation of Unmanned Aerial Vehicle (UAV)**
-Jarosław Gośliński, Wojciech Giernacki & Andrzej Królikowski, Journal of Intelligent ¥ Robotic Systems, 2018
+Jaroslaw Goslinski, Wojciech Giernacki & Andrzej Krolikowski, Journal of Intelligent ¥ Robotic Systems, 2018
 [PDF](https://link.springer.com/content/pdf/10.1007/s10846-018-0949-7.pdf)
 
 * **Optimal trajectory generation for time-to-contact based aerial robotic perching**, Haijie Zhang, Bo Cheng and Jianguo Zhao, Department of Mechanical Engineering, Colorado State University, 2018.
@@ -213,7 +213,8 @@ Jarosław Gośliński, Wojciech Giernacki & Andrzej Królikowski, Journal of Int
 [PDF, ](https://findit.dtu.dk/en/catalog/2439894045)
 [Video](https://youtu.be/4RpF8OThViY)
 
-* **Improved Quadcopter Disturbance Rejection Using Added Angular Momentum**, Nathan Bucki and Mark W. Mueller, in Proc. IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS), 2018.
+* **Improved Quadcopter Disturbance Rejection Using
+ Added Angular Momentum**, Nathan Bucki and Mark W. Mueller, in Proc. IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS), 2018.
 [PDF, ](http://hiperlab.berkeley.edu/wp-content/uploads/2018/07/2018_ImprovedQuadcopter.pdf)
 [Video](https://www.youtube.com/watch?v=XcZh4_J4yGM)
 
