@@ -34,8 +34,18 @@ The source code for firmware, clients, tools and the web site are hosted on gith
 We use pull requests for code contributions, read more about how it works on
 [github](https://help.github.com/articles/about-pull-requests/).
 
-There is a contribute.md file in each project that describes the requirements in that
+Contributions are of great value to the project and we are very happy for any contribution, large or small,
+but to make it possible for us to merge your additions into the codebase there are a few rules to follow.
+Please read the [general guidelines for code contributions](./general-guidelines.md) for more information.
+
+There is also a contribute.md file in each project that describes the requirements in that
 specific project when it comes to coding style, unit testing and so on.
+
+## Writing repository documentation
+
+The repository documentation is located in each repository, to make it easy to update when the
+code is modified. Read the [repository documentation guidelines]({% id_url repo-doc-guidelines %})
+for information on formatting, tools and how it works.
 
 ## Getting help with contributions
 
@@ -46,10 +56,4 @@ We are here to help you!
 Post a question in the [forum](//forum.bitcraze.io), add an issue on
 [github](https://github.com/bitcraze) or drop us an email at
 contact@bitcraze.io to get help.
-You can also submit a issue with the request to one of the [repos on github](https://github.com/bitcraze) to get the communities opinion. 
-
-## Writing repository documentation
-
-The repository documentation is located in each repository, to make it easy to update when the
-code is modified. Read the [repository documentation guidelines]({% id_url repo-doc-guidelines %})
-for information on formatting, tools and how it works.
+You can also submit a issue with the request to one of the [repos on github](https://github.com/bitcraze) to get the communities opinion.
