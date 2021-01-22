@@ -67,6 +67,7 @@ downloadGithubRepoDoc "crazyflie-clients-python" "2020.09"
 downloadGithubRepoDoc "crazyflie-clients-python" "2019.09"
 
 downloadGithubRepoDoc "lps-node-firmware" "master"
+downloadGithubRepoDoc "lps-node-firmware" "2020.09"
 downloadGithubRepoDoc "lps-node-firmware" "2019.09"
 
 downloadGithubRepoDoc "crazyradio-firmware" "master"
