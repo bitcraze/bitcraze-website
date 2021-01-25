@@ -25,8 +25,8 @@ control board on a bigger quadcopter frame and fly it outdoors.
 
 #### Versatile
 There are APIs for many languages that you can use to control the copter, or
-why not connect to [ROS](http://www.ros.org/) or use the
-[ZeroMQ](http://zeromq.org/) messaging bus? The community has
+why not connect to [ROS](https://www.ros.org/) or use the
+[ZeroMQ](https://zeromq.org/) messaging bus? The community has
 created a wide array of frameworks and tools to connect and control the system.
 
 #### Out of the box

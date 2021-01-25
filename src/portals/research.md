@@ -325,7 +325,7 @@ Leobardo Campos-Macías, David Gómez-Gutiérrez, Rodrigo Aldana-López, Rafael 
 [Video](https://www.youtube.com/watch?v=px9iHkA0nOI)
 
 * **System Identification of the Crazyflie 2.0 Nano Quadrocopter**, J. Förster,  Bachelor's thesis, ETH Zürich, 2015.
-[PDF](https://polybox.ethz.ch/index.php/s/20dde63ee00ffe7085964393a55a91c7)
+[PDF](https://www.research-collection.ethz.ch/handle/20.500.11850/214143)
 
 
 ### Publications involving Crazyflie 1.0
@@ -342,7 +342,7 @@ Leobardo Campos-Macías, David Gómez-Gutiérrez, Rodrigo Aldana-López, Rafael 
 [PDF](https://www.ideals.illinois.edu/bitstream/handle/2142/88078/SUBRAMANIAN-THESIS-2015.pdf?sequence=1)
 
 * **Perching Failure Detection and Recovery with Onboard Sensing**, Hao Jiang, Morgan T. Pope, Matthew A. Estrada, Bobby Edwards, Mark Cuson, Elliot W. Hawkes and Mark R. Cutkosky, IROS, 2015.
-[PDF, ](http://ieeexplore.ieee.org/xpl/login.jsp?tp=&arnumber=7353531&url=http%3A%2F%2Fieeexplore.ieee.org%2Fxpls%2Fabs_all.jsp%3Farnumber%3D7353531)
+[PDF, ](https://ieeexplore.ieee.org/document/7353531)
 [Video](https://m.youtube.com/watch?v=xhtbprB5Rqs)
 
 * **HoverBall : Augmented Sports with a Flying Ball**, Kei Nitta, Keita Higuchi and Jun Rekimoto, 5th International Conference on Augmented Human (AH 2014), 2014.

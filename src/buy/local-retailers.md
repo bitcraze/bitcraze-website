@@ -8,7 +8,7 @@ redirects:
 
 {% continent World Wide %}
 {% distributor Bitcraze; https://store.bitcraze.io; /images/distributors/bitcraze-store.png %}
-{% distributor Seeedstudio; https://www.seeedstudio.com/s/bitcraze.html; /images/distributors/seeed.png %}
+{% distributor Seeedstudio; https://www.seeedstudio.com/catalogsearch/result/?q=crazyflie; /images/distributors/seeed.png %}
 
 {% continent Americas %}
 
@@ -35,9 +35,6 @@ redirects:
 
 {% country India %}
 {% distributor RhydoLABZ; https://www.rhydolabz.com/advanced_search_result.html?search_in_description=1&zenid=b1621fa24d22a251847471f0d0fe0d3b&keyword=crazyflie; /images/distributors/RhydoLABZ.png %}
-
-{% country New Zealand %}
-{% distributor Nice Gear; https://nicegear.co.nz/search/?q=crazyflie; /images/distributors/nicegear.png %}
 
 {% country Taiwan %}
 {% distributor Icshop; https://www.icshop.com.tw/product_list.php?header_search=crazyflie; /images/distributors/icsshop.jpg %}
