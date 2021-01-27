@@ -203,13 +203,13 @@ compatible.
  |---------------------------|----------|------------|----------|---------|----------|--------|-------|----------|------|--------------|-------------------|--------------|---------------|---------|
  | **LED-ring**              | -        |            | yes      | yes     |          | yes    | yes   |          |      | yes          | yes               | yes          | yes           | yes     |
  | **Qi charger**            |          | -          | yes      | yes     | yes      | yes    | yes   |          |      | yes          | yes               | yes          | yes           | yes     |
- | **Micro-SD**              | yes      | yes        | -        | \*1     | yes      | yes    | yes   | yes      | \*1  | yes          | yes               | yes          | yes           |         |
- | **UWB LPS**               | yes      | yes        | \*1      | -       | yes      | yes    | yes   | yes      | yes  | yes          | yes               | \*2          | yes           |         |
+ | **Micro-SD**              | yes      | yes        | -        | yes \*1     | yes      | yes    | yes   | yes      | yes \*1  | yes          | yes               | yes          | yes           |         |
+ | **UWB LPS**               | yes      | yes        | yes \*1      | -       | yes      | yes    | yes   | yes      | yes  | yes          | yes               | \*2          | yes           |         |
  | **Big quad**              |          | yes        | yes      | yes     | -        |        |       | yes      |      | yes          | yes               | \*2          | yes           |         |
  | **Buzzer**                | yes      | yes        | yes      | yes     |          | -      |       | yes      | yes  | yes          | yes               | yes          | yes           |         |
  | **bcESP**                 | yes      | yes        | yes      | yes     |          |        | -     | yes      | yes  | yes          | yes               | yes          | yes           |         |
  | **Z-Ranger, Z-Ranger V2** |          |            | yes      | yes     | yes      | yes    | yes   | -        |      | yes          | yes               | yes          | yes           |         |
- | **Flow, Flow V2**         |          |            | \*1      | yes     |          | yes    | yes   |          | -    | yes          | yes               | yes          | yes           |         |
+ | **Flow, Flow V2**         |          |            | yes \*1      | yes     |          | yes    | yes   |          | -    | yes          | yes               | yes          | yes           |         |
  | **Multi-ranger**          | yes      | yes        | yes      | yes     | yes      | yes    | yes   | yes      | yes  | -            | yes               | yes          | yes           |         |
  | **Mocap marker deck**     | yes      | yes        | yes      | yes     | yes      | yes    | yes   | yes      | yes  | yes          | -                 | yes          |               | yes     |
  | **Lighthouse-4**          | yes      | yes        | yes      | \*2     | \*2      | yes    | yes   | yes      | yes  | yes          | yes               | -            |               |         |
@@ -219,7 +219,6 @@ compatible.
 
 **Notes:**
 
-1.  SPI sharing issue, see
-    <https://github.com/bitcraze/crazyflie-firmware/issues/270>
+1.  SPI sharing might limit the logging speed of the uSD-card deck.
 2.  Will be supported in the future, SW update
 3.  The GAP8 module is connected to UART1, so if that is enabled there will be conflicts
