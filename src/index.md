@@ -130,30 +130,37 @@ page_id: home
   </div>
 
   <div class="row what-we-do-section-padding">
-    <div class="col-md-4 what_we_do_text_box text-box_quadcopter">
-      <h3>
-      Quadcopters
-      </h3>
-        <p>We develop and manufacture the Crazyflie, a small, versatile quadcopter
-           for research and education. We provide an ecosystem of expansion decks,
-         clients and development tools to enable rapid development, flexibility and ease of use.</p>
-    </div>
-    <div class="col-md-8 what_we_do_img_padding">
-      <img src="/images/what_we_do/wwd_quadcopters.jpg" alt="Quadcopters">
-    </div>
+    <a href="/documentation/system/platform/">
+      <div class="col-md-4 what_we_do_text_box text-box_quadcopter">
+        <h3>
+        Quadcopters
+        </h3>
+          <p>We develop and manufacture the Crazyflie, a small, versatile quadcopter
+             for research and education. We provide an ecosystem of expansion decks,
+           clients and development tools to enable rapid development, flexibility and ease of use.
+         </p>
+         <p><b>Read more >>></b></p>
+      </div>
+      <div class="col-md-8 what_we_do_img_padding">
+        <img src="/images/what_we_do/wwd_quadcopters.jpg" alt="Quadcopters">
+      </div>
+    </a>
   </div>
 
   <div class="row what-we-do-section-padding">
-    <div class="col-md-4 col-md-push-8 what_we_do_text_box text-box_lps">
-      <h3>
-        Positioning Technology
-      </h3>
-        <p>
-          We support and manufacture a variety of positioning technologies to enable autonomous
-          flight and swarms with the Crazyflie. Our positioning systems are stand
-          alone and works equally well with other robots.
-        </p>
-    </div>
+    <a href="/documentation/system/positioning/">
+      <div class="col-md-4 col-md-push-8 what_we_do_text_box text-box_lps">
+        <h3>
+          Positioning Technology
+        </h3>
+          <p>
+            We support and manufacture a variety of positioning technologies to enable autonomous
+            flight and swarms with the Crazyflie. Our positioning systems are stand
+            alone and works equally well with other robots.
+          </p>
+          <p><b>Read more >>></b></p>
+      </div>
+    </a>
 
     <div class="col-md-8 col-md-pull-4 what_we_do_img_padding video-style">
       <video autobuffer controls autoplay muted loop>
