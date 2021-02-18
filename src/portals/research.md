@@ -63,6 +63,12 @@ you can read about how the researchers at MIT are using the Crazyflie 2.0 to stu
 ## Publications involving Crazyflie 2.X
 ---
 
+### 2021
+
+* **Real-time path planning in dynamic environments for unmanned aerial vehicles using the curve-shortening flow method**
+Marcel Huptych and Sascha Röck, International Journal of Advanced Robotic Systems 2021
+[PDF](https://journals.sagepub.com/doi/pdf/10.1177/1729881420968687)
+
 ### 2020
 
 * **Aerodynamic imaging by mosquitoes inspires a surface detector for autonomous flying vehicles**
