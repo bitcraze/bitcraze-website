@@ -35,6 +35,8 @@ redirects:
 
 {% country India %}
 {% distributor RhydoLABZ; https://www.rhydolabz.com/advanced_search_result.html?search_in_description=1&zenid=b1621fa24d22a251847471f0d0fe0d3b&keyword=crazyflie; /images/distributors/RhydoLABZ.png %}
+{% distributor MG Super Labs; https://www.mgsuperlabs.co.in/estore/index.php?route=product/search&search=crazyflie; /images/distributors/mgsl.png %}
+
 
 {% country South Korea %}
 {% distributor Clrobur; http://www.clrobur.com/bbs/board.php?bo_table=pro&sca=Crazyflie; /images/distributors/clrobur.png %}
