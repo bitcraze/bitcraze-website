@@ -33,4 +33,4 @@ function downloadGithubRelease() {
 
 echo "Downloading hardware documentation..."
 
-downloadGithubRelease "hardware" "V2021-02-23T16.22.49"
+downloadGithubRelease "hardware" "V2021-02-24T09.59.36"
