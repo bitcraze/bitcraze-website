@@ -65,8 +65,13 @@ you can read about how the researchers at MIT are using the Crazyflie 2.0 to stu
 
 ### 2021
 
+* **Learning near‐optimal broadcasting intervals in decentralized multi‐agent systems using online least‐square policy iteration**
+Ivana Palunk, Domagoj Tolić and Vicko Prkačin, IET Control Theory & Applications, 2021
+[PDF](https://ietresearch.onlinelibrary.wiley.com/doi/10.1049/cth2.12102)
+[Video](https://youtu.be/W_IxYnAQWCY)
+
 * **Real-time path planning in dynamic environments for unmanned aerial vehicles using the curve-shortening flow method**
-Marcel Huptych and Sascha Röck, International Journal of Advanced Robotic Systems 2021
+Marcel Huptych and Sascha Röck, International Journal of Advanced Robotic Systems, 2021
 [PDF](https://journals.sagepub.com/doi/pdf/10.1177/1729881420968687)
 
 * **Deep Reinforcement Learning based Aggressive Flight Trajectory Tracker**,
