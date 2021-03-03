@@ -66,7 +66,7 @@ you can read about how the researchers at MIT are using the Crazyflie 2.0 to stu
 ### 2021
 
 * **Learning near‐optimal broadcasting intervals in decentralized multi‐agent systems using online least‐square policy iteration**
-Ivana Palunk, Domagoj Tolić and Vicko Prkačin, IET Control Theory & Applications, 2021
+Ivana Palunko, Domagoj Tolić and Vicko Prkačin, IET Control Theory & Applications, 2021
 [PDF](https://ietresearch.onlinelibrary.wiley.com/doi/10.1049/cth2.12102)
 [Video](https://youtu.be/W_IxYnAQWCY)
 
