@@ -33,7 +33,7 @@ Choose the Lighthouse Positioning Tab tab.
 
 You may have to check it in the menu View->Tabs->Lighthouse Positioning Tab to make it visible.
 
-{% img open the crazyflie client; wide; /images/tutorials/getting_started_with_lighthouse/client_lighthouse_tab.PNG %}
+{% img open the crazyflie client; wide; /images/tutorials/getting_started_with_lighthouse/client_lighthouse_tab.png %}
 
 {% endsi_step %}
 
@@ -44,7 +44,7 @@ You may have to check it in the menu View->Tabs->Lighthouse Positioning Tab to m
 Power the Basestation with its powerblock and connect it with a micro-usb cable to the computer. Then open up the basestation configuration tool by pressing 'Set BS Channel'. 
 
 Scan for the basestation and check the current ID. If the basestation is never used, this value is probably 0. Put the wanted channel (1 or 2) in 'Change Channel' and press the 'Set Channel' button. Wait until you see the 'success!' before disconnecting and reconnecting another basestation
-{% img open the bs config dialog ; wide; /images/tutorials/getting_started_with_lighthouse/client_basestation_dialog.PNG %}
+{% img open the bs config dialog ; wide; /images/tutorials/getting_started_with_lighthouse/client_basestation_dialog.png %}
 
 
 {% endtab %}
@@ -80,26 +80,26 @@ Place the crazyflie with the lighthouse deck on the ground of where you want the
 * Open the CF client and connect to the Crazyflie 2.X
 * If not already done, [configure](/documentation/repository/crazyflie-clients-python/master/userguides/userguide_client#firmware-configuration)
 the Crazyflie 2.X in __2Mbit__ radio mode.
-{% img open the crazyflie client; wide; /images/tutorials/getting_started_with_lighthouse/client_flight_control.PNG %}
+{% img open the crazyflie client; wide; /images/tutorials/getting_started_with_lighthouse/client_flight_control.png %}
 {% endsi_step %}
 
 {% si_step Wait for calibration of the basestations %}
 First make sure that the crazyflie is receiving the sweep angels of both basestations and has received the calibration data. Mind that for the calibration data you might need to wait for 20 seconds. 
-{% img basestation status; wide; /images/tutorials/getting_started_with_lighthouse/basestation_status.PNG %}
+{% img basestation status; wide; /images/tutorials/getting_started_with_lighthouse/basestation_status.png %}
 {% endsi_step %}
 
 {% si_step Estimate the geometry %}
 Once you have received the calibration data, open up the basestation geometry management dialog by pressing 'Manage Geometry'. In the dialog, press 'Estimate Geometry'. You will see then the estimated geometry of the basestations. 
 
 If the geometry makes sense, press 'Write to Crazyflie', or else move your crazyflie and press 'Estimate Geometry' again. 
-{% img basestation status; wide; /images/tutorials/getting_started_with_lighthouse/geometry_dialog.PNG %}
+{% img basestation status; wide; /images/tutorials/getting_started_with_lighthouse/geometry_dialog.png %}
 {% endsi_step %}
 
 {% si_step Check the positioning %}
 The lighthouse LED should now be shining green and you shoudl be able to see the vizualisations of the basestations with their channels and the crazyflie itself as a blue dot.
 
 Make sure to test the crazyflie position in your hand first before flying!
-{% img basestation status; wide; /images/tutorials/getting_started_with_lighthouse/client_lighthouse_tab_2.PNG %}
+{% img basestation status; wide; /images/tutorials/getting_started_with_lighthouse/client_lighthouse_tab_2.png %}
 {% endsi_step %}
 
 {% si_intro Save System configuration to a file %}
@@ -111,10 +111,10 @@ You can save the geometry and calibration data in a file. This is handy if you w
 
 {% si_step Save current system configuration %}
 You can press press 'Save system config' to save the current estimated geometries and calibration to a file. Give it a name and press 'save' in the opened dialog.
-{% img basestation status; wide; /images/tutorials/getting_started_with_lighthouse/save_system.PNG %}
+{% img basestation status; wide; /images/tutorials/getting_started_with_lighthouse/save_system.png %}
 {% endsi_step %}
 
 {% si_step Load existing system configuration %}
 You can press press 'Load system config' to load an existing system configuration. Select the Yaml file and press 'load' in the opened dialog.
-{% img basestation status; wide; /images/tutorials/getting_started_with_lighthouse/load_system.PNG %}
+{% img basestation status; wide; /images/tutorials/getting_started_with_lighthouse/load_system.png %}
 {% endsi_step %}
