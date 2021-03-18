@@ -6,25 +6,27 @@ page_id: getting-started-with-the-lighthouse-system
 
 {% si_intro Introduction %}
 
-The lighthouse positioning system uses the steamVR basestations of Valve Inc and the lighthouse deck on the crazyflie. With this system, the crazyflie can estimate its own X, Y and Z in a global coordinate system.
+The lighthouse positioning system uses the SteamVR basestations of Valve Inc and the lighthouse deck on the Crazyflie. With this system, the crazyflie can estimate its own X, Y and Z in a global coordinate system.
+{% img Two basestation, one crazyflei ; wide; /images/tutorials/getting_started_with_lighthouse/two_basestations_one_crazyflie.jpg %}
 
 {% endsi_intro %}
 
-{% si_step  Update all software and firmware to the lastest release %}
+{% si_step  Prerequisites %}
+
+Make sure that you have the following available:
+* [A Crazyflie 2.X](https://store.bitcraze.io/products/crazyflie-2-1). Make sure to update it to the latest firmware release in warm-boot to flash the lighthouse deck. This means that you should not put it in bootloader mode, but program while it is connected.
+* [A Lighthouse deck](https://store.bitcraze.io/products/lighthouse-positioning-deck). For mounting the Lighthouse deck check out the {% id_link getting-started-expansion-decks %} tutorial.
+* Two SteamVR Bsestations. We advise the version 2.0 but version 1.0 is also compatible.
+* [A Crazyradio PA](https://store.bitcraze.io/products/crazyradio-pa)
+* The latest version of the [Crazyflie client](https://github.com/bitcraze/crazyflie-clients-python/releases)
 
 
-To be able to use the Lighthouse positioning system you need to update the Crazyflie to the latest firmware.
-For more information on how to update the firmware, see the [download latest firmware]({% id_url getting-started-crazyflie-2; latest-fw %}) section in our
-{% id_link getting-started-crazyflie-2 %}.
 
-You will also need the latest version of the [Crazyflie client](https://github.com/bitcraze/crazyflie-clients-python/releases).
-
-For mounting the Lighthouse deck check out the {% id_link getting-started-expansion-decks %} tutorial.
 
 {% endsi_step %}
 
 {% si_intro Preparing the Basestations %}
-Before setting up the system you need to set the basestations in the right mode.
+Before setting up the system you need to set the Basestations in the right mode.
 {% endsi_intro %}
 
 
@@ -41,9 +43,13 @@ You may have to check it in the menu View->Tabs->Lighthouse Positioning Tab to m
 {% si_step Put the Basestations in the Right Mode %}
 {% tabgroup %}
 {% tab V2 %}
-Power the Basestation with its powerblock and connect it with a micro-usb cable to the computer. Then open up the basestation configuration tool by pressing 'Set BS Channel'. 
+Power the Basestation with its powerblock and connect it with a micro-usb cable to the computer. 
+{% img connect to basestation ; wide; /images/tutorials/getting_started_with_lighthouse/two_basestations_back.jpg %}
 
-Scan for the basestation and check the current ID. If the basestation is never used, this value is probably 0. Put the wanted channel (1 or 2) in 'Change Channel' and press the 'Set Channel' button. Wait until you see the 'success!' before disconnecting and reconnecting another basestation
+Then open up the basestation configuration tool by pressing 'Set BS Channel'. 
+
+Scan for the basestation and check the current ID. If the basestation is never used, this value is probably 0. Put the wanted channel (1 or 2) in 'Change Channel' and press the 'Set Channel' button. Wait until you see the 'success!' before disconnecting and reconnecting another basestation.
+
 {% img open the bs config dialog ; wide; /images/tutorials/getting_started_with_lighthouse/client_basestation_dialog.png %}
 
 
@@ -58,9 +64,10 @@ You can change the basestation mode with a small button in the back. The modes s
 {% si_step Set up the Basestations in Flight area%}
 After the modes are correctly set, you can place the basestations in the area. The ideal flight area for two basestations is about 5 x 5 x 3.0, but as long as the crazyflie is not further away than 7 meters from at least one basestation, this should work out. 
 
-Note that the basestations should be about at least 0.5 meters higher than the flight area of the crazyflie due to the placement of the sensors on the lighthouse deck.  
+Note that the basestations should be about at least 0.5 meters higher than the flight area of the crazyflie due to the placement of the sensors on the lighthouse deck.  Also make sure that there are no mirrors or big large reflective items in the area.  Also make sure that you do not have direct sunlight either
 
-__Picture ??__
+{% img maximum flying height ; wide; /images/tutorials/getting_started_with_lighthouse/setup_arena.png %}
+
 
 {% endsi_step %}
 
@@ -96,7 +103,7 @@ If the geometry makes sense, press 'Write to Crazyflie', or else move your crazy
 {% endsi_step %}
 
 {% si_step Check the positioning %}
-The lighthouse LED should now be shining green and you shoudl be able to see the vizualisations of the basestations with their channels and the crazyflie itself as a blue dot.
+The lighthouse LED should now be shining green and you should be able to see the visualizations of the basestations with their channels and the crazyflie itself as a blue dot.
 
 Make sure to test the crazyflie position in your hand first before flying!
 {% img basestation status; wide; /images/tutorials/getting_started_with_lighthouse/client_lighthouse_tab_2.png %}
@@ -104,7 +111,7 @@ Make sure to test the crazyflie position in your hand first before flying!
 
 {% si_intro Save System configuration to a file %}
 
-You can save the geometry and calibration data in a file. This is handy if you want to switch easily between different Lighthouse systems or you want to configure more crazyflies so that they share a common coordinate system.
+You can save the geometry and calibration data in a file. This is handy if you want to switch easily between different Lighthouse systems or you want to configure more Crazyflies so that they share a common coordinate system.
 
 {% endsi_intro %}
 
