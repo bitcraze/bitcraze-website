@@ -14,4 +14,4 @@ information.
 * [IROS 2019](/about/events/iros2019/)
 * [IOT 2020](/about/events/iot2020/)
 * [Bitcraze Tutorial 1 2020](/about/events/bct12020/)
-* [AIdeck workshop 1 2021](/about/events/adws12021)
+* [AIdeck Workshop 1 2021](/about/events/adws12021)
