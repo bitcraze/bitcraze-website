@@ -6,8 +6,6 @@ redirects:
   - /lighthouse-positioning-deck/
 ---
 
-{% include early-access-info.html %}
-
 {% buy_online https://store.bitcraze.io/products/lighthouse-positioning-deck %}
 
 {% product_img Lighhouse positioning deck; medium;
@@ -35,3 +33,9 @@ it the ideal choice for everything from big laboratories to small classrooms.
 - {% id_link support-getting-help %}
 - [Wiki](https://wiki.bitcraze.io/projects:crazyflie2:expansionboards:lighthouse)
 - [Specifications](https://store.bitcraze.io/collections/decks/products/lighthouse-positioning-deck)
+
+---
+
+#### Tutorials
+
+* {% id_link getting-started-with-the-lighthouse-system %}
