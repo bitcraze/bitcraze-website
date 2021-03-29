@@ -91,7 +91,8 @@ Some examples:
 | A page on the Bitcraze web | `[tutorial](https://www.bitcraze.io/documentation/tutorials/getting-started-with-crazyflie-2-x/)` |
 | A page in a different repo doc | `[Flashing](https://www.bitcraze.io/documentation/repository/crazyflie-firmware/master/building-and-flashing/flashing/)` |
 | An external repo on github | `[repository](https://github.com/adam-p/markdown-here)` |
-| A file in a Bitcraze repo on github | `[estimator.h](https://github.com/bitcraze/crazyflie-firmware/blob/master/src/modules/interface/estimator.h)` |
+| A source file in the same repo. Always link to master on github, it will be converted to the correct tag when the docs is built | `[estimator.h](https://github.com/bitcraze/crazyflie-firmware/blob/master/src/modules/interface/estimator.h)` |
+| A source file in a different Bitcraze repo on github. Link to a specific version (tag) | `[commander.py](https://github.com/bitcraze/crazyflie-lib-python/blob/0.1.14.2/cflib/crazyflie/commander.py)` |
 | An external web site | `[quadcopter](https://en.wikipedia.org/wiki/Quadcopter)` |
 
 ### Diagrams
