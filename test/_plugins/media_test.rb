@@ -104,7 +104,7 @@ class TestMedia < Testbase
   def test_that_used_by_text_is_rendered_with_link
     # Fixture
     tag = '{% used_by_text company; http://the.url %}'
-    expected = '<div class="col-xs-3 col-sm-2 col-md-2 used_by_box_text"><a href="http://the.url" target="_blank">company</a></div>'
+    expected = '<div class="col-xs-3 col-sm-2 col-md-2 used_by_box_text"><a href="http://the.url" target="_blank" rel="noopener noreferrer">company</a></div>'
 
     # Test
     actual = Liquid::Template.parse(tag).render
@@ -133,7 +133,7 @@ class TestMedia < Testbase
     # Fixture
     tag = '{% used_by_logo company; my_image; http://the.url %}'
     expected = '<div class="col-xs-3 col-sm-2 col-md-2 used_by_box">
-                  <a href="http://the.url" target="_blank">
+                  <a href="http://the.url" target="_blank" rel="noopener noreferrer">
                     <img class="img-responsive" src="my_image" alt="company" title="company"/>
                   </a>
                 </div>'

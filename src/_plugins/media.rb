@@ -128,7 +128,7 @@ module Jekyll
         if (@params.length == 1)
           '<div class="col-xs-3 col-sm-2 col-md-2 used_by_box_text">%1$s</div>' % @params
         elsif (@params.length == 2)
-          '<div class="col-xs-3 col-sm-2 col-md-2 used_by_box_text"><a href="%2$s" target="_blank">%1$s</a></div>' % @params
+          '<div class="col-xs-3 col-sm-2 col-md-2 used_by_box_text"><a href="%2$s" target="_blank" rel="noopener noreferrer">%1$s</a></div>' % @params
         end
       end
     end
@@ -160,7 +160,7 @@ module Jekyll
           '<div class="col-xs-3 col-sm-2 col-md-2 used_by_box">%1$s</div>' % [img_element]
         elsif (@params.length == 3)
           url = @params[2]
-          '<div class="col-xs-3 col-sm-2 col-md-2 used_by_box"><a href="%2$s" target="_blank">%1$s</a></div>' % [img_element, url]
+          '<div class="col-xs-3 col-sm-2 col-md-2 used_by_box"><a href="%2$s" target="_blank" rel="noopener noreferrer">%1$s</a></div>' % [img_element, url]
         end
       end
     end
