@@ -18,6 +18,7 @@ page_id: tutorials
 
 ## Positioning
 
+* {% id_link getting-started-with-the-lighthouse-system %}
 * {% id_link getting-started-with-the-loco-positioning-system %}
 * {% id_link getting-started-with-assisted-flight-position-hold %}
 
