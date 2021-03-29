@@ -65,6 +65,10 @@ you can read about how the researchers at MIT are using the Crazyflie 2.0 to stu
 
 ### 2021
 
+* **Fully Onboard AI-powered Human-Drone Pose Estimation on Ultra-low Power Autonomous Flying Nano-UAVs**
+Daniele Palossi, Nicky Zimmerman, Alessio Burrello, Francesco Conti, Hanna Müller, Luca Maria Gambardella, Luca Benini, Alessandro Giusti, Jérôme Guzzi. ArXiv, 2021.
+[PDF](https://arxiv.org/abs/2103.10873)
+
 * **Learning near‐optimal broadcasting intervals in decentralized multi‐agent systems using online least‐square policy iteration**
 Ivana Palunko, Domagoj Tolić and Vicko Prkačin, IET Control Theory & Applications, 2021
 [PDF](https://ietresearch.onlinelibrary.wiley.com/doi/10.1049/cth2.12102)
