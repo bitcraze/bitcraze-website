@@ -4,6 +4,7 @@
 {% for sub in subs %}
   {% assign is_active = false %}
   {% assign m_external = '' %}
+  {% assign m_is_break = false %}
 
   {% if sub contains "page_id" %}
     {% assign p = site.pages | where:"page_id",sub.page_id | first %}
@@ -18,15 +19,21 @@
     {% if page contains "page_id" and sub.page_id == page.page_id %}
       {% assign is_active = true %}
     {% endif %}
+  {% elsif sub contains "break" %}
+    {% assign m_is_break = true %}
   {% else %}
     {% assign m_title = sub.title %}
     {% assign m_url = sub.url %}
     {% assign m_external = '&nbsp;&nbsp;<i class="fa fa-angle-right"></i>' %}
   {% endif %}
 
+  {% if m_is_break %}
+  <li class="menu-item"><hr></li>
+  {% else %}
   <li class="menu-item {% if is_active %}active{% endif %}">
     <a title="{{m_title}}"
        href="{{m_url}}">{{m_title}}{{m_external}}</a>
   </li>
+  {% endif %}
 {% endfor %}
 </ul>
