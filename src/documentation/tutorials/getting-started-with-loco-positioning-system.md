@@ -98,23 +98,22 @@ In our reference set-up we accomplish this by using these
 In the repository click "Raw" and then choose "save as" and save the file as a stl file.
 
 {% tabgroup %}
+{% tab 8 anchors %}
+In our 8 anchor reference setup we have placed the nodes in the corners of a box
+as the position estimation for TDoA works best within the convex hull. The order of the IDs
+is important for TDoA2 but can be ignored for TDoA3.
+
+{% img reference system; wide; /images/tutorials/getting_started_with_lps/loco_ref_system_8_anchors.png %}
+{% endtab %}
 {% tab 6 anchors %}
 In our 6 anchor reference setup we have placed 3 anchors above and 3 anchors below
 the flight area, shaped in inverse triangles.
 
 {% img reference system; wide; /images/tutorials/getting_started_with_lps/loco_ref_system_6_anchors.png %}
 {% endtab %}
-{% tab 8 anchors %}
-In our 8 anchor reference setup we have placed the nodes in the corners of a box
-as the position estimation for TDoA works best within the convex hull. Note the
-order of the IDs.
-
-{% img reference system; wide; /images/tutorials/getting_started_with_lps/loco_ref_system_8_anchors.png %}
-{% endtab %}
 {% endtabgroup %}
 
-If you have more than 8 anchors, we suggest you setup a system with 8 anchors first and then switch your
-system to TDoA3 to add more anchors to the system. See the [tdoa3 setup page](/documentation/repository/lps-node-firmware/master/user-guides/tdoa3_setup/) for more information.
+If you have more than 8 anchors, we suggest you setup a system with 8 anchors first and then switch your system to TDoA3 to add more anchors to the system. See the [tdoa3 setup page](/documentation/repository/lps-node-firmware/master/user-guides/tdoa3_setup/) for more information.
 {% endsi_step %}
 
 {% si_step Powering the anchors %}
@@ -146,15 +145,15 @@ is relayed through the Crazyflie and the LPS deck.
 * If not already done, [configure](/documentation/repository/crazyflie-clients-python/master/userguides/userguide_client#firmware-configuration)
 the Crazyflie 2.X in __2Mbit__ radio mode. This reduces interference with the
 UWB radio. If the configuration is changed a restart of the Crazyflie 2.X is required.
-{% img open the crazyflie client; wide; /images/tutorials/getting_started_with_lps/open_the_crazyflie_client.PNG %}
+{% img open the crazyflie client; wide; /images/tutorials/getting_started_with_lps/open_the_crazyflie_client.jpg %}
 {% endsi_step %}
 
-{% si_step Click the LPS tab %}
-Choose the LPS tab.
+{% si_step Click the Loco Positioning tab %}
+Choose the Loco Positioning tab.
 
 You may have to check it in the menu View->Tabs->Loco Positioning Tab to make it visible.
 
-{% img click the lps tab; wide; /images/tutorials/getting_started_with_lps/Click the LPS tab.png %}
+{% img click the lps tab; wide; /images/tutorials/getting_started_with_lps/click-the-lps-tab.jpg %}
 {% endsi_step %}
 
 {% si_step Check anchor status %}
@@ -164,13 +163,13 @@ A red box indicates that the Crazyflie 2.X can not communicate with that anchor
 and does not get any ranging data. If this is the case, verify the anchor is
 configured correctly, powered and in line of sight.
 
-{% img check the anchor status; wide; /images/tutorials/getting_started_with_lps/Check anchor status.png %}
+{% img check the anchor status; wide; /images/tutorials/getting_started_with_lps/check-anchor-status.jpg %}
 {% endsi_step %}
 
 {% si_step Enter anchor positions %}
 To start configuring the anchor position you need to click on the __"Configure positions"__ button.
 
-{% img click configure positions; wide; /images/tutorials/getting_started_with_lps/Click configure positions.png %}
+{% img click configure positions; wide; /images/tutorials/getting_started_with_lps/click-configure-positions.jpg %}
 
 A pop-up window will appear. Click the button __"Get from anchors"__ to get the list of anchors and fill up the positions
 with the values currently stored in the anchors.
@@ -196,21 +195,23 @@ by clicking the __"Write to anchors"__ button.
 {% endsi_step %}
 
 {% si_step Verify anchor positions %}
-Verifying the anchor positions is good to rule out problems with the positioning later.
+Verifying the anchor positions is good to rule out problems with the positioning later. The 3D graph shows the
+anchors and the position of the Crazyflie. The red line indicates the X-axis, green i the Y-axis and blue is the Z-axis.
+The Graph can be rotated, moved and scaled using the mouse.
 
 * Switch the Graph Settings mode to "Anchor identification"
 * Move the Crazyflie close to one anchor
 * Verify that the correct anchor is indicated in the graph
 * Repeat the procedure for all anchors and correct any wrongly configured anchor addresses
 
-{% img Verify anchors position; wide; /images/tutorials/getting_started_with_lps/Verify anchors position.png %}
+{% img Verify anchors position; wide; /images/tutorials/getting_started_with_lps/verify-anchors-position.jpg %}
 {% endsi_step %}
 
 {% si_step Verify estimated position %}
 * Switch the Graph Settings mode back to "Position estimate"
 * Move the CF around and verify that the movement in the graphs correspond to the physical movement
 
-{% img Verify estimated position; wide; /images/tutorials/getting_started_with_lps/Verify estimated position.png %}
+{% img Verify estimated position; wide; /images/tutorials/getting_started_with_lps/verify-estimated-position.jpg %}
 {% endsi_step %}
 
 {% si_step Calibration finished %}
@@ -223,25 +224,25 @@ Congratulations, the Loco Positioning System is now calibrated!
 If you intend to use the system in TDoA mode to fly more than one Crazyflie it is now time to change the system mode. There exist two version of the TDoA ranging protocol.
 
  - TDoA 2 works with 8 anchors.
- - TDoA 3 does not have any limitation in the number of anchors and so it can be used
-for bigger system, thought it will be more noisy for a system of 8 anchors.
+ - TDoA 3 is more robust and does not have any limitation in the number of anchors and so it can be used
+for bigger systems. The estimated position might be slightly more noisy compared to TDoA2.
 {% endsi_intro %}
 
 {% si_step Force the Crazyflie to use TWR mode %}
 In the crazyflie status section tick the __TWR__ radio button.
 
-This will enable the __"TDoA2"__ button in the anchor status section.
+This will enable the __"TDoA2"__ and __"TDoA3"__ buttons in the anchor status section.
 
-{% img Force TWR mode; wide; /images/tutorials/getting_started_with_lps/lps-system-mode-switch-1.png %}
+{% img Force TWR mode; wide; /images/tutorials/getting_started_with_lps/lps-system-mode-switch-1.jpg %}
 {% endsi_step %}
 
 {% si_step Switch anchors to TDoA mode %}
-Press the __"TDoA 2"__ button to switch the anchors to TDoA mode.
+Click the __"TDoA 2"__ or __"TDoA 3"__ button to switch the anchors to one of the TDoA modes.
 
 After a few seconds all anchor status boxes should turn red to indicate that the
 Crazyflie 2.X is no longer receiving TWR data from the anchors.
 
-{% img Switch anchors to TDoA mode; wide; /images/tutorials/getting_started_with_lps/lps-system-mode-switch-2.png %}
+{% img Switch anchors to TDoA mode; wide; /images/tutorials/getting_started_with_lps/lps-system-mode-switch-2.jpg %}
 
 For details on system mode switching and troubleshooting, please see [the documentation](/documentation/repository/lps-node-firmware/master/user-guides/configure-mode/)
 {% endsi_step %}
@@ -253,7 +254,7 @@ status section and verify that the TDoA2 box turns green.
 The anchor boxes should also turn green when the Crazyflie switches to TDoA mode and
 starts to receive data from the anchors.
 
-{% img Switch to auto mode; wide; /images/tutorials/getting_started_with_lps/lps-system-mode-switch-3.png %}
+{% img Switch to auto mode; wide; /images/tutorials/getting_started_with_lps/lps-system-mode-switch-3.jpg %}
 
 If not all anchor boxes go green, please see the [documentation for touble shooting](/documentation/repository/lps-node-firmware/master/user-guides/configure-mode/).
 {% endsi_step %}
