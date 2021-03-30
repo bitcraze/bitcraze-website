@@ -44,7 +44,7 @@ verify that it has stabilized by checking that the position in the LPS tab corre
 If they are not zero the consequence will be that the Crazyflie slowly moves
 when the sticks are released which might not be the wanted behavior.
 
-{% img Crazyflie pitch roll; wide; /images/tutorials/getting_started_with_lps/crazyflie_pitch_roll.png %}
+{% img Crazyflie pitch roll; wide; /images/tutorials/getting_started_with_lps/crazyflie_pitch_roll.jpg %}
 Here you can see that the Pitch and Roll is not [0.0] which might result in the Crazyflie drifting when the sticks are released.
 {% endsi_step %}
 
