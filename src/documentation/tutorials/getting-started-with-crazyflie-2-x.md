@@ -409,34 +409,27 @@ mapping is chosen, otherwise pick your device type.
 {% img Controller settings; wide; /images/getting-started/configure_your_controller.PNG %}
 {% endsi_step %}
 
-{% si_step download latest firmware; latest-fw %}
-* Open the web browser and go to [https://github.com/bitcraze/crazyflie-release/releases](https://github.com/bitcraze/crazyflie-release/releases).
-If you are on the VM, open the browser in the VM.
-* download the zip file named crazyflie-xxx.zip from the latest release.
-
-Note: You must have the zip file, some browsers automatically unzip after download.
-{% endsi_step %}
-
 {% si_step update firmware in the Crazyflie; update-fw %}
-* Turn the Crazyflie off.
-* Start the Crazyflie in bootloader mode by pressing the power button for 3 seconds. Both the blue LEDs will blink.
-* Go back to the Crazyflie client and click the Connect -> Bootloader menu.
-{% img Update firmware dialog; wide; /images/getting-started/update_firmware.PNG %}
-* Click the “Initiate bootloader cold boot” button. After a few seconds the status should read “Connected to bootloader”.
-* Click the “Browse” button and go to home/bitcraze/Downloads and select the zip file you downloaded earlier.
-* Click the “Program” button. The progress bar will go from 0% to 100% twice, as
-the firmware for the two processors is uploaded to the Crazyflie.
-* Click the “Restart in firmware mode” button. The Crazyflie reboots
-and is now updated.
+* Turn the Crazyflie on.
+* In the Crazyflie client, click the Connect -> Bootloader menu.
+{% img Update firmware dialog; wide; /images/getting-started/update_firmware.jpg %}
+* Make sure the "Connect Crazyflie" tab is active
+* Click the __Scan__ button
+* Chose the URI in the drop down for your Crazyflie. Note: it must be a radio URI, USB does not work for flashing firmware.
+* Click the __Connect__ button. After a few seconds the status should read “Connected in firmware mode”.
+* In the "From release" tab, chose the version you want to flash to the Crazyflie. The latest version is selected by default.
+* Click the __Program__ button. The progress bar will go from 0% to 100% for each flashing target. A Crazyflie without any decks
+has two flash targets, but some decks may also contain a flash target (firmware). The Crazyflie will restart one or more times
+during the flashing process.
 * Close the bootloader window.
 {% endsi_step %}
 
 {% si_step connect to the Crazyflie; connect-pc-client %}
-* In the Crazyflie client click the “Scan” button in top left corner. The radio settings for you Crazyflie is displayed in the drop-down list.
+* In the Crazyflie client click the __Scan__ button in top left corner. The radio settings for you Crazyflie is displayed in the drop-down list.
 * Choose your Crazyflie from the drop-down list.
 
 {% img Connect dialog; wide; /images/getting-started/connect_to_the_crazyflie.PNG %}
-* Click the “Connect” button.
+* Click the __Connect__ button.
 
 Now that you have connected your Crazyflie to your client, telemetry data
 is continuously sent from the copter to the client. When you move the
