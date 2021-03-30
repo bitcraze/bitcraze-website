@@ -23,7 +23,7 @@ TWR use while we recommend 8 anchors for the TDoA mode.
 {% si_step  Update the Crazyflie to the latest loco positioning firmware %}
 
 To be able to use the Loco positioning system you need to update the Crazyflie to the latest firmware.
-For more information on how to update the firmware, see the [download latest firmware]({% id_url getting-started-crazyflie-2; latest-fw %}) section in our
+For more information on how to update the firmware, see the [update firmware in the Crazyflie]({% id_url getting-started-crazyflie-2; update-fw %}) section in our
 {% id_link getting-started-crazyflie-2 %}.
 
 You will also need the latest version of the [Crazyflie client](https://github.com/bitcraze/crazyflie-clients-python/releases).

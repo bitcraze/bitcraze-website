@@ -12,7 +12,7 @@ With the Flow deck the Crazyflie 2.X is able to hover and act as an aid for begi
 
 For more information about how to mount an expansion deck please see the {% id_link getting-started-expansion-decks %} tutorial.
 
-To be able to use the Flow deck you need to update the Crazyflie to the latest firmware. For more information on how to update the firmware, see the [download latest firmware]({% id_url getting-started-crazyflie-2; latest-fw %}) section in our getting started with Crazyflie 2.X tutorial.
+To be able to use the Flow deck you need to update the Crazyflie to the latest firmware. For more information on how to update the firmware, see the [update firmware in the Crazyflie]({% id_url getting-started-crazyflie-2; update-fw %}) section in our getting started with Crazyflie 2.X tutorial.
 You will also need the latest version of the [Crazyflie client](https://github.com/bitcraze/crazyflie-clients-python/releases).
 
 {% endsi_intro %}

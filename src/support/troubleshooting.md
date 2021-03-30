@@ -11,12 +11,10 @@ redirects:
 
 {% si_step Update to latest cfclient %}
 Follow this guide to update to the [latest cfclient.]({% id_url getting-started-crazyflie-2; update-src %})
-Then proceed with [updating]({% id_url getting-started-crazyflie-2; update-fw %}) the firmware.
 {% endsi_step %}
 
 {% si_step Update to latest firmware %}
-Follow this guide to download the [latest firmware.]({% id_url getting-started-crazyflie-2; latest-fw %})
-Then proceed with [updating]({% id_url getting-started-crazyflie-2; update-fw %}) the firmware.
+Follow this guide to [update firmware in the Crazyflie]({% id_url getting-started-crazyflie-2; update-fw %})
 {% endsi_step %}
 
 {% si_intro Crazyflie 2.X Android client does not connect %}

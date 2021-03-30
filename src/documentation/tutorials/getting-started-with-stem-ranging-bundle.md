@@ -24,7 +24,7 @@ This getting started guide will help you set up the system and make your first a
 {% si_step prerequisites %}
 This getting started guide assumes you have already assembled your Crazyflie 2.X. If that is not the case please follow the {% id_link getting-started-crazyflie-2 %}
 
-This guide also requires that you have updated the Crazyflie to the latest firmware. For more information on how to update the firmware, see the [download latest firmware]({% id_url getting-started-crazyflie-2; latest-fw %}) section in our getting started with Crazyflie 2.X tutorial.
+This guide also requires that you have updated the Crazyflie to the latest firmware. For more information on how to update the firmware, see the [update firmware in the Crazyflie]({% id_url getting-started-crazyflie-2; update-fw %}) section in our getting started with Crazyflie 2.X tutorial.
 {% endsi_step %}
 
 {% si_step  mounting the Flow V2 deck %}
