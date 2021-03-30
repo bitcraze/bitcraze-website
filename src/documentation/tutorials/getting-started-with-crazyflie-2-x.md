@@ -257,28 +257,13 @@ The VM has all software you need for flight and development pre-installed. Since
 it runs on a virtual machine it should work the same way on most operating systems
 and this is also why our documentation is based on the virtual machine.
 {% endtab %}
-{% tab Windows %}
-There is an installer for native installation on Windows. This option will install
-the latest version as a binary and is a great option for flying, but will not add
-support for development.
+{% tab Windows/Mac/Linux %}
+The supported way to install and run the client on a computer currently is to install
+the Crazyflie client using the python package manager *pip*.
 
-Read more in the [install on Windows](#inst-win) section.
-{% endtab %}
-{% tab Linux %}
-On Linux it is possible to run the client from source code. With this option you
-are required to clone the source code from Git and install a few software packages.
-If you are interested in this solution, read more about how to set it up on
-[GitHub](https://github.com/bitcraze/crazyflie-clients-python/blob/master/README.md).
+You can follow the prerequisite and instructions to install the latest release on the 
+[Client installation instruction page](/documentation/repository/crazyflie-clients-python/master/installation/install/).
 
-
-When you have set up the client, insert the Crazyradio PA and your gamepad in
-your USB-ports and start the client. Continue reading about how to [configure the client](#config-client)
-{% endtab %}
-{% tab OS X %}
-On OS X it is possible to run the client from source code. With this option you
-are required to clone the source code from Git and install a few software packages.
-If you are interested in this solution, read more about how to set it up on
-[GitHub](https://github.com/bitcraze/crazyflie-clients-python/blob/master/README.md).
 
 When you have set up the client, insert the Crazyradio PA and your gamepad in
 your USB-ports and start the client. Continue reading about how to [configure the client](#config-client)
@@ -367,37 +352,6 @@ Double click the “Crazyflie client” icon on the VM desktop
 
 Continue reading about [configuring the client](#config-client)
 {% endsi_step %}
-
-
-
-
-{% si_intro Installing on Windows; inst-win %}
-The windows installer installs the Crazyflie client on your Windows machine.
-{% endsi_intro %}
-
-{% si_step download installer %}
-* Open a web browser and go to [https://github.com/bitcraze/crazyflie-clients-python/releases](https://github.com/bitcraze/crazyflie-clients-python/releases).
-* Download the file named cfclient-win32-install-XXX.exe from the latest release.
-{% endsi_step %}
-
-{% si_step Install %}
-Run the installer
-{% endsi_step %}
-
-{% si_step install hardware; install-hardware-win %}
-* Insert Crazyradio PA in a USB port.
-* Insert game controller in a USB port.
-{% endsi_step %}
-
-{% si_step Install USB drivers %}
-Install the [Crazyradio Windows USB driver](/documentation/repository/crazyradio-firmware/master/building/usbwindows/).
-{% endsi_step %}
-
-{% si_step start the Crazyflie client; start-client-win %}
-Start the Crazyflie client from the start menu
-{% endsi_step %}
-
-
 
 
 {% si_intro Configure the client; config-client %}
