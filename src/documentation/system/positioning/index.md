@@ -71,6 +71,6 @@ The Crazyflie can be positioned using reflective markers and infrared motion cap
 {%endcolumn%}
 
 {%column 3%}
- - [ USC's Crazyswarm documentation](https://crazyswarm.readthedocs.io/en/latest/).
+* {% id_link mocap-system-overview %}
 {%endcolumn%}
 {%endrow%}
