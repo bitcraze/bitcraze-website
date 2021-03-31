@@ -27,7 +27,7 @@ The lighthouse positioning system is our latest method of positioning on the Cra
 {%endcolumn%}
 
 {%column 3%}
-- [Lighthouse positioning documentation](/documentation/repository/crazyflie-firmware/master/functional-areas/lighthouse/).
+* {% id_link lighthouse-system-overview %}
 {%endcolumn%}
 {%endrow%}
 
