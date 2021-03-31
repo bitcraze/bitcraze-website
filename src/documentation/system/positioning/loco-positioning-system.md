@@ -7,49 +7,28 @@ redirects:
   - /products/loco-positioning-system/
 ---
 
-The Crazyflie 2.X (as most other quadcopters and robots) has no real notion of
-its position in space. The on board sensors (accelerometers and gyros) can be
-used to give a rough idea of its movements but lacks the accuracy for long term
-position awareness. The solution is to use an external system that can provide
-information of the current position. Outside GPS can be used, but indoor the
-options are limited, often complex, expensive or both. That is why we have
-created the Loco Positioning system.
-
-## Overview
-
 The Loco Positioning system is a local positioning system that is used to find
 the absolute 3D position of objects in space. It is in many ways similar to a
 miniature GPS system.
 
-The base of the system is a set of Anchors that are positioned in the room
+The base of the system is a set of __Anchors__ that are positioned in the room
 (compare to the satellites in GPS), they are the reference. The other part of
-the system is one or more Tags (compare to the GPS receiver) that are fixed to the
+the system is one or more __Tags__ (compare to the GPS receiver) that are fixed to the
 object(s) that are to be tracked. By sending short high frequency radio
 messages between the Anchors and Tags, the system measures the distance from
 each Anchor to the Tags and calculates the position of the Tags from that
 information.
 
 All information needed to calculate the position is available in the Tag which
-enables position estimation on board of the Crazyflie, as opposed to many other
+enables position estimation on board the Crazyflie, as opposed to many other
 positioning systems where the position is calculated in an external computer
 and sent to the Crazyflie.
-By adding knowledge of its position to a Crazyflie 2.X it is capable of flying
+
+By adding knowledge of its position to a Crazyflie 2.X, it is capable of flying
 autonomously without manual control. This opens up an array of exciting use
 cases and applications.
 
-#### The Loco Positioning Deck
-
-The Loco Positioning Deck is a Crazyflie 2.X expansion deck with the Loco
-Positioning Tag functionality. Read more on the [Loco Positioning Deck page.](/products/loco-positioning-deck/)
-
-#### The Loco Positioning Node
-
-The Loco Positioning Node is a multi functional node in a Loco Positioning system,
-it can act either as an Anchor or Tag. As an Anchor it is part of the reference base for
-the system while running in Tag mode it can be attached to an object to track,
-for instance a robot. Read more on the [Loco Positioning Node page.](/products/loco-positioning-node/)
-
-### Positioning modes
+## Positioning modes
 
 The Loco Positioning System implements three different positioning modes, **Two Way Ranging (TWR)**, **Time Difference of Arrival 2 (TDoA 2)** and **Time Difference of Arrival 3 (TDoA 3)**.
 
@@ -81,12 +60,24 @@ By adding more anchors the system can be scaled to larger spaces or span multipl
 rooms without line of sight between all anchors. It also makes it more robust and can
 handle loss or addition of anchors dynamically. The estimated position in this mode might be slightly more noisy compared to TDoA 2.
 
-### Performance
+## Performance
 
 The Loco Positioning system is based on the Decawave DWM1000 chip and has an accuracy in the 10 cm range.
 The 3D positioning performance depends of the system setup and environment.
 
 The Loco Positioning system has mainly been designed for indoor use.
+
+## System components
+
+The key components of the system are the __Loco Positioning Deck__ and the __Loco Positioning Node__.
+
+The __Loco Positioning Deck__ is a Crazyflie 2.X expansion deck with the Loco
+Positioning Tag functionality. Read more on the [Loco Positioning Deck page.](/products/loco-positioning-deck/)
+
+The __Loco Positioning Node__ is a multi functional node in a Loco Positioning system,
+it can act either as an Anchor or Tag. Most commonly it is used as an __Anchor__, being part of the reference base for
+the system. Alternatively is can also run in Tag mode when it can be attached to an object to track,
+for instance a robot. Read more on the [Loco Positioning Node page.](/products/loco-positioning-node/)
 
 ## Getting started with Loco positioning
 
