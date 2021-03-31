@@ -235,6 +235,17 @@ maintained up to a minute.
 **What to buy:** [Getting started bundle](https://store.bitcraze.io/products/getting-started-bundle)
 and [Flow deck](https://store.bitcraze.io/products/flow-deck-v2)
 
+### The Lighthouse positioning System
+
+The Lighthouse positioning system is based on the SteamVR basestation. It offers
+good accuracy and very good precision tracking. The Crazyflie pose is calculated
+in the Crazyflie itself, which allows to develop completely autonomous flight.
+The precision is in the millimeter range and the accuracy in the decimeter range.
+The lighthouse positioning is well suited to implement tracking in small indoor
+space.
+
+**What to buy:** [Getting started bundles](https://store.bitcraze.io/products/getting-started-bundle), [Lighthouse positioning deck](https://store.bitcraze.io/collections/decks/products/lighthouse-positioning-deck) and one or two [SteamVR Basestation 2.0](https://www.vive.com/us/accessory/base-station2/)
+
 ### The Loco Positioning System
 
 With the Loco Positioning system the Crazyflie calculates its absolute position in
@@ -267,15 +278,14 @@ coding, depending on solution.
 
 Again, a key to swarming is the positioning technology and its properties.
 
-### The Flow deck
+### The Lighthouse Positioning system
 
-It is possible to fly small swarms (we have done 5) using the Flow deck. Since
-the path each Crazyflie follows is relative to its starting position this solution
-is sensitive to correct positioning and smooth take off. It is hard or impossible
-to recover from problems so it is not very reliable, but fun!
+The lighthouse positioning system is a good fit for swarms since it offers high precision
+and the position is acquired in the Crazyflie itself. This removes the need to
+setup an extra high-reliability low-latency link to transfer all the Crazyflie
+positions from a more traditional external tracking system.
 
-**What to buy:** [Getting started bundles](https://store.bitcraze.io/products/getting-started-bundle)
-and [Flow decks](https://store.bitcraze.io/products/flow-deck-v2)
+**What to buy:** [Getting started bundles](https://store.bitcraze.io/products/getting-started-bundle), [Lighthouse positioning deck](https://store.bitcraze.io/collections/decks/products/lighthouse-positioning-deck) and one or two [SteamVR Basestation 2.0](https://www.vive.com/us/accessory/base-station2/)
 
 ### The Loco Positioning System
 
@@ -303,17 +313,7 @@ for pitch/roll/yaw/thrust must be sent to the Crazyflies in real time via radio.
 There are frameworks (for examle [Crazy Swarm](https://github.com/USC-ACTLab/crazyswarm)) written by the community to handle these types of system and
 swarms of up to 50 Crazyflies.
 
-**What to buy:** Contact us for further information and solution support
+**What to buy:** We do not sell Motion Capture systems, however some accessories are dedicated to it like the [Motion capture marker deck
+](https://store.bitcraze.io/collections/positioning/products/motion-capture-marker-deck) and the [Active Marker deck](https://store.bitcraze.io/collections/positioning/products/active-marker-deck).
 
-
-## Used in
-* [Research](/portals/research/)
-* [Education](/portals/education/)
-* [Development](/portals/development/)
-* [Do-it-yourself](/portals/diy/)
-
-## More information
-* {% id_link support-frequently-asked-questions %}
-* {% id_link getting-started-crazyflie-2 %}
-* {% id_link getting-started-expansion-decks %}
-* {% id_link getting-started-development %}
+Contact us for further information and solution support
