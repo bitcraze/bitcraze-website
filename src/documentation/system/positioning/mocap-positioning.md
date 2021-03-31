@@ -44,6 +44,12 @@ Qualisys, one of the Mocacp manufacturers, has a technology where they also add 
 by turning them on and off over time. This enables the system to uniquely identify a marker as well as objects,
 even though there are multiple object with the same pyhsical marker configuration, as long as the ids are different.
 
+## Performance
+
+Motion capture systems typically have very high accuracy/precission, often under 1 mm.
+
+## System components
+
 It is possible to glue markers to a Crazyflie but we have developed two types of marker decks to simplify the task
 of using the Crazyflie with MoCap systems. The first is the
 [Motion capture marker deck](https://store.bitcraze.io/collections/decks/products/motion-capture-marker-deck)
@@ -51,10 +57,6 @@ which is a deck where passive markers easilly can be attached in various configu
 [Active marker deck](https://store.bitcraze.io/collections/decks/products/active-marker-deck) which has 4 IR-LEDs that can
 be configured in various ways. Together with a Qualisys Mocap system it also provides the posibility to transmit
 different ids for each marker.
-
-## Performance
-
-Motion capture systems typically have very high accuracy/precission, often under 1 mm.
 
 ## Getting started with MoCap
 
