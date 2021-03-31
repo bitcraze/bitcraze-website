@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Overview Client Software
+title: Client Software Overview
 page_id: overview_clients
 redirects:
   - /docs/overview_clients/

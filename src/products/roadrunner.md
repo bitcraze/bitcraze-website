@@ -33,7 +33,7 @@ latency 2.4 GHz radio.
 
 #### Resources
 
-- {% id_link product-loco-pos-system %}
+- {% id_link loco-pos-system-overview %}
 - {% id_link getting-started-start %}
 - {% id_link buy-guide %}
 - {% id_link support-frequently-asked-questions %}

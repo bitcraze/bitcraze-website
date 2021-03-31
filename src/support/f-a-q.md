@@ -80,7 +80,7 @@ With an external positioning system the Crazyflie will even understand its absol
 position which gives it even more possibilities when it comes to autonomous flight.
 Outdoors the Crazyflie could use a GPS receiver to achieve autonomous flight but indoors some other positioning system is required.
 
-Bitcraze is manufacturing a radio based local positioning system called the [Loco Positioning system]({% id_url product-loco-pos-system %}) that allows the Crazyflie 2.X to fly autonomously in a room. Find out more on the [product page](/products/loco-positioning-system/).
+Bitcraze is manufacturing a radio based local positioning system called the [Loco Positioning system]({% id_url loco-pos-system-overview %}) that allows the Crazyflie 2.X to fly autonomously in a room. Find out more on the [product page](/products/loco-positioning-system/).
 
 Researchers often use motion capture systems, like [Qualisys](https://www.qualisys.com) or [Vicon](http://www.vicon.com/), to fly the Crazyflie autonomously, usually controlling it from an outside computer. For example this research from MIT is using such a system together with a powerful control algorithm: <https://www.youtube.com/watch?v=v-s564NoAu0>
 

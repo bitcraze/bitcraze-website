@@ -47,7 +47,7 @@ There are **mobile phone apps** for Android and IOS that connects via BLE, mainl
 
 {% row_image_text_links Positioning technologies; /images/documentation/overview/positioning_thumbnail.jpg %}
 {% row_text %}
-Positioning support is needed for automated or autonomous flight. There are two in-house position systems in the Crazyflie ecosystem: the Ultra Wide Band based **Loco Positioning System** and the **Lighthouse positioning system**, based on HTC Vive. It is also possible to integrate with external positioning systems, for instance Motion Capture systems.
+Positioning support is needed for automated or autonomous flight. There are two in-house position systems in the Crazyflie ecosystem: the **Lighthouse positioning system** that uses SteamVR Base Stations and the Ultra Wide Band based **Loco Positioning System**. It is also possible to integrate with external positioning systems, for instance Motion Capture systems.
 {% endrow_text %}
 {% row_links %}
 * {% id_link overview_positioning %}

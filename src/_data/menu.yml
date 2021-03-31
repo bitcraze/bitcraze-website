@@ -23,7 +23,7 @@
   - {page_id: product-active-marker-deck}
   - {page_id: product-motion-capture-marker-deck}
   - {break: true }
-  - {page_id: product-loco-pos-system}
+  - {page_id: overview_positioning}
   - {page_id: product-loco-pos-deck}
   - {page_id: product-loco-pos-node}
   - {break: true }

@@ -33,7 +33,7 @@ This product is intended to be used together with
 
 #### Resources
 
-- {% id_link product-loco-pos-system %}
+- {% id_link loco-pos-system-overview %}
 - {% id_link getting-started-start %}
 - {% id_link buy-guide %}
 - {% id_link development-overview %}
