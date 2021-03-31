@@ -71,13 +71,15 @@ The Loco Positioning system has mainly been designed for indoor use.
 
 The key components of the system are the __Loco Positioning Deck__ and the __Loco Positioning Node__.
 
-The __Loco Positioning Deck__ is a Crazyflie 2.X expansion deck with the Loco
-Positioning Tag functionality. Read more on the {% id_link product-loco-pos-deck %} page
+The {% id_link product-loco-pos-deck %} is a Crazyflie 2.X expansion deck with the Loco
+Positioning Tag functionality.
 
-The __Loco Positioning Node__ is a multi functional node in a Loco Positioning system,
+The {% id_link product-loco-pos-node %} is a multi functional node in a Loco Positioning system,
 it can act either as an Anchor or Tag. Most commonly it is used as an __Anchor__, being part of the reference base for
 the system. Alternatively is can also run in Tag mode when it can be attached to an object to track,
-for instance a robot. Read more on the {% id_link product-loco-pos-node %} page.
+for instance a robot.
+
+For more information on how to combine the components of the Crazyflie ecosystem, please see the {% id_link buy-guide %}.
 
 ## Getting started with Loco positioning
 

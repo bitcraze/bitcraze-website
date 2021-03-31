@@ -34,6 +34,12 @@ The last member of the family is the **[Roadrunner](https://store.bitcraze.io/pr
 * [Roadrunner](https://store.bitcraze.io/products/roadrunner)
 * [Crazyflie 2.0](https://store.bitcraze.io/products/crazyflie-2-0)
 
+-----
+
+* {% id_link buy-guide %}
+
+-----
+
 * {% id_link cf2_architecture %}
 * {% id_link cf2_coordinate_system %}
 
@@ -46,7 +52,8 @@ The last member of the family is the **[Roadrunner](https://store.bitcraze.io/pr
 The Crazyflie can be enhanced by adding [expansion decks](https://store.bitcraze.io/collections/decks), which gives the Crazyflie extra capabilities in sensing, positioning or visualization. There is an extensive [range of decks](https://store.bitcraze.io/collections/decks) available, but the platform is also designed to make it easy to design and add custom decks, enabling the user to use sensors and other devices on the platform. The expansion bus exposes communication buses and GPIO pins to be used by decks as needed.
 {% endrow_text %}
 {% row_links %}
-- {% id_link cf2_expansiondecks %}
+* {% id_link cf2_expansiondecks %}
+* {% id_link buy-guide %}
 {% endrow_links %}
 {% endrow_image_text_links %}
 

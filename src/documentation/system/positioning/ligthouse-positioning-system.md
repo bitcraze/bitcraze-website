@@ -64,6 +64,8 @@ The system is compatible with:
  - [SteamVR Base Station 2.0](https://www.vive.com/eu/accessory/base-station2/)
  - [Vive Base Station](https://www.vive.com/eu/accessory/base-station/)
 
+For more information on how to combine the components of the Crazyflie ecosystem, please see the {% id_link buy-guide %}.
+
 ## Getting started with Lighthouse positioning
 
 To get started, you can follow the {% id_link getting-started-with-the-lighthouse-system %} tutorial.
