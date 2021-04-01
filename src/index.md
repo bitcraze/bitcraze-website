@@ -119,8 +119,37 @@ page_id: home
   </div>
 </div>
 
+
+<!-- Product news -->
+<div class="container-fluid  section section-spacing">
+  <div class="row center-section-header">
+    <div class="col-md-12 style-section-header">
+      <h2>
+      Product news
+      </h2>
+    </div>
+  </div>
+
+  <div class="row section-content">
+    <a href="{% id_url lighthouse-system-overview %}">
+      <div class="col-md-4 col-md-push-8 text-block-box text-box-product-news">
+        <h3>
+        The Lighthouse Positioning System
+        </h3>
+          <p>Proudly presenting the Lighthouse, a high precission positioning system.
+          So affordable you can have one both at home and in the lab.
+         </p>
+         <p><b>Read more >>></b></p>
+      </div>
+      <div class="col-md-8 col-md-pull-4 no-padding">
+        <img src="/images/frontpage/two_basestations_one_crazyflie-1024x1024.jpg" alt="Quadcopters">
+      </div>
+    </a>
+  </div>
+</div>
+
 <!-- What we do -->
-<div class="container-fluid">
+<div class="container-fluid section section-spacing">
   <div class="row center-section-header">
     <div class="col-md-12 style-section-header">
       <h2>
@@ -129,9 +158,9 @@ page_id: home
     </div>
   </div>
 
-  <div class="row what-we-do-section-padding">
+  <div class="row what-we-do-section-padding section-content">
     <a href="/documentation/system/platform/">
-      <div class="col-md-4 what_we_do_text_box text-box_quadcopter">
+      <div class="col-md-4 text-block-box text-box_quadcopter">
         <h3>
         Quadcopters
         </h3>
@@ -141,15 +170,15 @@ page_id: home
          </p>
          <p><b>Read more >>></b></p>
       </div>
-      <div class="col-md-8 what_we_do_img_padding">
+      <div class="col-md-8 no-padding">
         <img src="/images/what_we_do/wwd_quadcopters.jpg" alt="Quadcopters">
       </div>
     </a>
   </div>
 
-  <div class="row what-we-do-section-padding">
+  <div class="row what-we-do-section-padding section-content">
     <a href="/documentation/system/positioning/">
-      <div class="col-md-4 col-md-push-8 what_we_do_text_box text-box_lps">
+      <div class="col-md-4 col-md-push-8 text-block-box text-box_lps">
         <h3>
           Positioning Technology
         </h3>
@@ -162,15 +191,15 @@ page_id: home
       </div>
     </a>
 
-    <div class="col-md-8 col-md-pull-4 what_we_do_img_padding video-style">
+    <div class="col-md-8 col-md-pull-4 no-padding video-style">
       <video autobuffer controls autoplay muted loop>
         <source src="/videos/swarmVid.mp4" type="video/mp4">
       </video>
     </div>
   </div>
 
-  <div class="row what-we-do-section-padding">
-    <div class="col-md-4 what_we_do_text_box text-box_open_source">
+  <div class="row what-we-do-section-padding section-content">
+    <div class="col-md-4 text-block-box text-box_open_source">
       <h3>
         Open source
       </h3>
@@ -180,7 +209,7 @@ page_id: home
           We believe in transparency, complete freedom of modification and no lock-in effects in proprietary APIs.
         </p>
     </div>
-    <div class="col-md-8 what_we_do_img_padding">
+    <div class="col-md-8 no-padding">
       <img src="/images/what_we_do/wwd_open_source.jpg" alt="Open source">
     </div>
   </div>
@@ -189,7 +218,7 @@ page_id: home
 <!-- What we do end -->
 
 <!--Testimonials-->
-<div class="container-fluid testimonial-section scroll-point">
+<div class="container-fluid section testimonial-section scroll-point section-spacing">
 
   <div class="row center-section-header">
     <div class="col-md-12 style-section-header">
@@ -199,7 +228,7 @@ page_id: home
     </div>
   </div>
 
-  <div class="row flow-container">
+  <div class="row flow-container section-content">
     <div class="col-md-4 header-padding">
         <div class="testimonial-header-text">
           <h3>Developers and researchers around the world are using our platforms for all kinds of research areas.</h3>
@@ -254,7 +283,7 @@ page_id: home
 <!-- Portals -->
 
 <!-- Development portal -->
-<div class="container-fluid portal-section scroll-point">
+<div class="container-fluid section portal-section scroll-point section-spacing">
 
   <div class="row center-section-header">
     <div class="col-md-12 style-section-header">
@@ -265,8 +294,8 @@ page_id: home
   </div>
 
 <!-- Research portal -->
-  <div class="row">
-    <div class="col-md-4 portal-padding">
+  <div class="row section-content">
+    <div class="col-md-4 no-padding">
       <a href="/portals/research/">
         <div class="text-box_portals text-box_research">
           <h3>Ideal for many areas of research</h3>
@@ -277,14 +306,14 @@ page_id: home
       </a>
     </div>
 
-    <div class="col-md-8 portal-padding">
+    <div class="col-md-8 no-padding">
       <a href="/portals/research/"><img src="images/frontpage/research_portal.jpg" alt="Used in research"></a>
     </div>
   </div>
 
 <!-- Education portal -->
-  <div class="row">
-    <div class="col-md-4 col-md-push-7 col-md-offset-1 portal-padding">
+  <div class="row section-content">
+    <div class="col-md-4 col-md-push-7 col-md-offset-1 no-padding">
       <a href="/portals/education/">
         <div class="text-box_portals text-box_education">
           <h3>Bring the latest in robotics to your students</h3>
@@ -295,13 +324,13 @@ page_id: home
         </div>
       </a>
     </div>
-    <div class="col-md-7 col-md-pull-4 portal-padding">
+    <div class="col-md-7 col-md-pull-4 no-padding">
       <a href="/portals/education/"><img src="images/frontpage/education_portal.jpg" alt="Used in education"></a>
     </div>
   </div>
 
-  <div class="row">
-    <div class="col-md-4 col-md-push-7 col-md-offset-1 portal-padding development-portal">
+  <div class="row section-content">
+    <div class="col-md-4 col-md-push-7 col-md-offset-1 no-padding development-portal">
       <a href="/portals/development/">
         <div class="text-box_portals text-box_development">
           <h3>The perfect development tool for your flying application</h3>
@@ -313,7 +342,7 @@ page_id: home
       </a>
     </div>
 
-    <div class="col-md-7 col-md-pull-4 portal_img_development portal-padding video-style">
+    <div class="col-md-7 col-md-pull-4 portal_img_development no-padding video-style">
       <a href="/portals/development/">
         <video autobuffer controls autoplay muted loop>
           <source src="/videos/solderingVideo.mp4" type="video/mp4">
@@ -324,8 +353,8 @@ page_id: home
   </div>
 
 <!-- DIY portal -->
-  <div class="row">
-    <div class="col-md-4 portal-padding">
+  <div class="row section-content">
+    <div class="col-md-4 no-padding">
       <a href="/portals/diy/">
         <div class="text-box_portals text-box_diy">
           <h3>Do it yourself</h3>
@@ -335,7 +364,7 @@ page_id: home
         </div>
       </a>
     </div>
-    <div class="col-md-8 portal-padding">
+    <div class="col-md-8 no-padding">
       <a href="/portals/diy/"><img src="images/frontpage/diy_portal.jpg" alt="DIY"></a>
     </div>
   </div>
@@ -343,7 +372,7 @@ page_id: home
   <!-- Portals end -->
 
 
-<div class="container-fluid used-by-section scroll-point">
+<div class="container-fluid section used-by-section scroll-point section">
   <div class="row center-section-header">
     <div class="col-md-12 style-section-header">
       <h2>

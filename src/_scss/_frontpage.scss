@@ -244,8 +244,6 @@
       background: #4c4cd2;
       width: 30%;
       margin-right: 2%;
-      // margin-top: 17%;
-      // margin-bottom: -80px;
 
         h3 {
         line-height: $line-height-big-screen;
@@ -296,12 +294,75 @@
     border-width: 2px;
   }
 
+  .no-padding {
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+
+  .text-block-box {
+    p {
+      font-size: 15px;
+      line-height: $line-height-small-screen;
+      text-align: center;
+    }
+
+    h3 {
+      font-size: $font-size-small-screen;
+      line-height: $line-height-small-screen;
+      text-align: center;
+    }
+
+    padding: 1em;
+
+    // ≥992px
+    @media (min-width: $screen-md-min) {
+      h3 {
+        font-size: $font-size-medium-screen;
+        line-height: $line-height-medium-screen;
+        text-align: center;
+      }
+      padding: 2em;
+    }
+
+    //1200px
+    @media (min-width: $screen-lg-min) {
+      p {
+        font-size: 20px;
+        line-height: $line-height-medium-screen;
+        text-align: center;
+      }
+
+      h3 {
+        font-size: $font-size-big-screen;
+        line-height: $line-height-big-screen;
+      }
+    }
+  }
+
+  .section-spacing {
+    margin-bottom: $section-margin-small-screen;
+
+    // ≥992px
+    @media (min-width: $screen-md-min) {
+      margin-bottom: $section-margin-big-screen;
+    }
+  }
+
+  .section, .section-content {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+
+  .center-section-header{
+    display: flex;
+    justify-content: center;
+  }
+
+
   //Blog
 
     .blog-section {
       margin-top: 2vh;
-      padding-left: 15px;
-      padding-right: 15px;
 
       h2 {
         text-align: center;
@@ -407,20 +468,18 @@
         }
       }
     }
-
     //End blog
 
+    // Product news
+    .text-box-product-news {
+      background-color: #5b085d;
+      color: #fff;
+      margin-top: 1em;
+      padding-top: 4em;
+      padding-bottom: 4em;
+    }
+
     //What we do
-
-    .what-we-do-section-padding {
-      padding-left: 15px;
-      padding-right:15px;
-    }
-
-    .center-section-header{
-      display: flex;
-      justify-content: center;
-    }
 
     .style-section-header{
       background: black;
@@ -431,63 +490,17 @@
       margin-bottom: 2vh;
     }
 
-  .what_we_do_text_box {
-      h3,p {
-      color: white;
-      }
-      p {
-      font-size: 15px;
-      line-height: $line-height-small-screen;
-      text-align: center;
-      }
-      h3 {
-      font-size: $font-size-small-screen;
-      line-height: $line-height-small-screen;
-      text-align: center;
-      }
-      padding: 1em;
-    }
-
     .text-box_quadcopter {
       background: #ffa801;
+      color: white;
     }
     .text-box_lps {
       background: #3d6de1;
+      color: white;
     }
     .text-box_open_source {
       background: #545353;
-    }
-
-    // ≥992px
-    @media (min-width: $screen-md-min) {
-      .what_we_do_text_box {
-        h3 {
-        font-size: $font-size-medium-screen;
-        line-height: $line-height-medium-screen;
-        text-align: center;
-        }
-        padding: 2em;
-      }
-    }
-
-    //1200px
-    @media (min-width: $screen-lg-min) {
-      .what_we_do_text_box {
-        p {
-        font-size: 20px;
-        line-height: $line-height-medium-screen;
-        text-align: center;
-        }
-        h3 {
-        font-size: $font-size-big-screen;
-        line-height: $line-height-big-screen;
-        }
-      }
-    }
-
-    .what_we_do_img_padding {
-    padding-left: 0px;
-    padding-right: 0px;
+      color: white;
     }
 
     //What we do end
@@ -498,16 +511,11 @@
   .testimonial-section {
     $testimonial-margin: 2vh;
 
-    margin-top: $section-margin-small-screen;
-    margin-bottom: $section-margin-small-screen;
-
     .flow-container {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: flex-end;
-    padding-left: 15px;
-    padding-right: 15px;
 
       .header-padding {
       padding-left: 0px;
@@ -551,9 +559,6 @@
 
     // ≥992px
     @media (min-width: $screen-md-min) {
-      margin-top: $section-margin-big-screen;
-      margin-bottom: $section-margin-big-screen;
-
       .header-padding {
       padding-left: 15px;
       }
@@ -574,14 +579,6 @@
 
   //Portals
   .portal-section {
-    margin-top: $section-margin-small-screen;
-    margin-bottom: $section-margin-small-screen;
-
-    .portal-padding {
-    padding-left: 0px;
-    padding-right: 0px;
-    }
-
     .text-box_portals {
       h3,p {
       color: white;
@@ -617,9 +614,6 @@
 
     // ≥992px
     @media (min-width: $screen-md-min) {
-      margin-top: $section-margin-big-screen;
-      margin-bottom: $section-margin-big-screen;
-
       .text-box_portals {
         h3 {
         font-size: $font-size-medium-screen;
