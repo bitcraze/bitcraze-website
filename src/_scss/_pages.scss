@@ -96,6 +96,13 @@ table {
   float: right;
 }
 
+.video-no-controls {
+  video::-webkit-media-controls {
+    display: none;
+    -webkit-appearance: none;
+  }
+}
+
 // Team member
 .team {
     margin-bottom: 50px;

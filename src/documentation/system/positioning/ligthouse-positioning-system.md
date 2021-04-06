@@ -1,5 +1,5 @@
 ---
-layout: page-product
+layout: page
 title: Lighthouse Positioning System
 page_id: lighthouse-system-overview
 redirects:
@@ -7,15 +7,33 @@ redirects:
   - /products/lighthouse-positioning-system/
 ---
 
+{%row%}
+{%column 12%}
 The lighthouse positioning system is an optically-based positioning system that allows an object to locate itself with high precision indoors. The system allows to get a precision of tracking approaching what can be achieved with a Motion Capture system, but for a much lower cost and with the advantage that the position is acquired onboard the tracked device rather than in the infrastructure.
 For a flying robot like the Crazyflie, this means that the position information is directly available for autonomous flight without requiring low latency reliable transport of the position over radio.
 
 The system uses the StemVR Base Station as an optical beacon and allows the Crazyflie to calculate its position with an accuracy better than a decimeter and millimeter precision.
+{%endcolumn%}
+{%endrow%}
 
+{%row%}
+{%column 3%}
+<div class="video-no-controls">
+<video autobuffer controls autoplay muted loop style="width: 100%;">
+  <source src="/videos/lh2_sweeps.mp4" type="video/mp4">
+</video>
+</div>
+{%endcolumn%}
+{%column 9%}
 Base stations are composed of spinning drums that shines laser in the room.
 The Crazyflie, or any object that needs positioning, has a light receiver (a photo-diode) that receives the rotating laser and is then able to measure the angle between the base station and the receiver.
 By using multiple receivers, it is possible to calculate the position and orientation of the object in relation to the base station. If we know the position and
-orientation of the base station it is finally possible to determine the position and orientation of the Crzyflie.
+orientation of the base station it is finally possible to determine the position and orientation of the Crazyflie.
+{%endcolumn%}
+{%endrow%}
+
+{%row%}
+{%column 12%}
 
 ## Lighthouse base station V1 and V2
 
@@ -36,9 +54,17 @@ regardless of version.
 
 ## System geometry
 
-In order to be able to measure the position and orientation, the Crazyflie needs to know the position and orientation of the Lighthouses base stations in the room,
-this is called the system Geometry. The Geometry can be acquired automatically by the Crazyflie client and can be saved in the Crazyflie.
+{%row%}
+{%column 3%}
+![The Lighthouse system](/images/documentation/overview/bs-geometry.png)
+{%endcolumn%}
+{%column 9%}
+In order to be able to measure the position and orientation, the Crazyflie needs to know the position and orientation of the Lighthouse base stations in the room,
+this is called the system Geometry. The Geometry can be acquired automatically by the Crazyflie client and is stored in the Crazyflie.
 It can also be saved to a file which allows to write the same geometry information to multiple Crazyflies and so to fly a swarm of Crazyflie in the same tracked space.
+{%endcolumn%}
+{%endrow%}
+
 
 ## Performance
 
@@ -53,10 +79,10 @@ It is not intended to be used outdoor and since it is using infrared light, perf
 
 ## System components
 
-To use the Lighthouse positioning system with the Crazyflie, the {% id_link product-lighthouse-deck %}
+To use the Lighthouse positioning system, the {% id_link product-lighthouse-deck %}
 should be installed on all {% id_link product-crazyflie-2-1 %} that needs to be tracked.
 
-One to two Lighthouse Base Stations need to be installed in the room.
+One to two Lighthouse Base Stations must be installed in the room.
 The Range and the field of view will dictate the space tracked.
 Due to the geometry of the lighthouse deck, the tracking will work best up to ~50cm bellow the base station height.
 
@@ -74,3 +100,5 @@ It will guide you from zero to having your Crazyflie autonomously flying in your
 ## Technical information
 
 * [Lighthouse positioning documentation](/documentation/repository/crazyflie-firmware/master/functional-areas/lighthouse/).
+{%endcolumn%}
+{%endrow%}
