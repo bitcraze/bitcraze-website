@@ -11,19 +11,39 @@ The Lighthouse positioning system uses the SteamVR Base stations of Valve Inc. a
 
 {% endsi_intro %}
 
-{% si_step  Prerequisites %}
-
+{% si_step  Prerequisites - hardware %}
 Make sure that you have the following available:
-* [A Crazyflie 2.X](https://store.bitcraze.io/products/crazyflie-2-1). Make sure to update it to [the latest firmware release in warm-boot](/documentation/repository/crazyflie-clients-python/master/userguides/userguide_client/#firmware-upgrade) to flash the Lighthouse deck. This means that you should not put it in bootloader mode, but program while it is connected.
-* [A Lighthouse deck](https://store.bitcraze.io/products/lighthouse-positioning-deck). For mounting the Lighthouse deck check out the {% id_link getting-started-expansion-decks %} tutorial.
+* [A Crazyflie 2.X](https://store.bitcraze.io/products/crazyflie-2-1)
+* [A Lighthouse deck](https://store.bitcraze.io/products/lighthouse-positioning-deck)
 * Two SteamVR Bsestations. We advise to buy version 2.0 but version 1.0 is also compatible.
 * [A Crazyradio PA](https://store.bitcraze.io/products/crazyradio-pa)
+{% endsi_step %}
+
+{% si_step  Prerequisites - software %}
 * The latest version of the [Crazyflie client](https://github.com/bitcraze/crazyflie-clients-python/releases)
+{% endsi_step %}
 
 
 
+{% si_intro Preparing the Crazyflie %}
+The first thing to do is to make sure the firmware in the Crazyflie and Lighthouse deck is up to date.
+{% endsi_intro %}
+
+{% si_step Mount the Lighthouse deck %}
+For mounting the Lighthouse deck on a Crazyflie check out the {% id_link getting-started-expansion-decks %} tutorial.
+{% endsi_step %}
+
+{% si_step Update firmware in the Crazyflie and Lighthouse deck %}
+
+**Note1:** The firmware of the Lighthouse deck is updated together with the Crazyflie firmware when flashed from the client,
+the deck must be mounted when flashing.
+
+**Note2:** The flashing procedure in the client has changed lately, if you are used to the old procedure please check out the documentation.
+
+Please follow the [the firmware upgrade instructions](/documentation/repository/crazyflie-clients-python/master/userguides/userguide_client/#firmware-upgrade).
 
 {% endsi_step %}
+
 
 {% si_intro Preparing the base stations %}
 Before setting up the system you need to set the basestations in the right mode.
@@ -78,9 +98,9 @@ Make sure that you have the following conditions in your flight area:
 
 {% endsi_step %}
 
-{% si_intro Preparing the Crazyflie %}
+{% si_intro Preparing the System %}
 
-This will explain how to setup up your Crazyflie to fly in the Lighthouse positioning system.
+This will explain how to get calibration and geometry data and setup up your Crazyflie to fly in the Lighthouse positioning system.
 
 {% endsi_intro %}
 
