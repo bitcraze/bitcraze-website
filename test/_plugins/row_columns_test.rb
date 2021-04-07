@@ -83,4 +83,71 @@ class TestRowCols < Testbase
     # Assert
     assert_html(expected, actual)
   end
+
+  def test_that_row_image_text_links_is_rendered_without_image
+    # Fixture
+
+    tag = '{% row_image_text_links The title%}md1{% row_text %}md1{% endrow_text %}{% row_links %}md2{% endrow_links %}{% endrow_image_text_links %}'
+    expected = '
+    <section class="row content-area">
+        <div class="col-md-12"><h3>The title</h3></div>
+    </section>
+    <section class="row content-area">
+        <div class="col-md-3 doc-section-image"></div>
+        <div class="col-md-6">converted md1</div>
+        <div class="col-md-3">converted md2</div>
+    </section>'
+
+    # Test
+    actual = Liquid::Template.parse(tag).render(nil, registers: {site: @site_mock})
+
+    # Assert
+    assert_html(expected, actual)
+  end
+
+  def test_that_row_image_text_links_is_rendered_without_links
+    # Fixture
+
+    tag = '{% row_image_text_links The title%}md1{% row_text %}md1{% endrow_text %}{% endrow_image_text_links %}'
+    expected = '
+    <section class="row content-area">
+        <div class="col-md-12"><h3>The title</h3></div>
+    </section>
+    <section class="row content-area">
+        <div class="col-md-3 doc-section-image"></div>
+        <div class="col-md-6">converted md1</div>
+        <div class="col-md-3"></div>
+    </section>'
+
+    # Test
+    actual = Liquid::Template.parse(tag).render(nil, registers: {site: @site_mock})
+
+    # Assert
+    assert_html(expected, actual)
+  end
+
+  def test_that_row_video_text_links_is_rendered
+    # Fixture
+
+    tag = '{% row_video_text_links The title;the/video.mp4%}md1{% row_text %}md1{% endrow_text %}{% row_links %}md2{% endrow_links %}{% endrow_video_text_links %}'
+    expected = '
+    <section class="row content-area">
+        <div class="col-md-12"><h3>The title</h3></div>
+    </section>
+    <section class="row content-area">
+        <div class="col-md-3 doc-section-image video-no-controls">
+          <video autobuffer controls autoplay muted loop>
+            <source src="the/video.mp4" type="video/mp4">
+          </video>
+        </div>
+        <div class="col-md-6">converted md1</div>
+        <div class="col-md-3">converted md2</div>
+    </section>'
+
+    # Test
+    actual = Liquid::Template.parse(tag).render(nil, registers: {site: @site_mock})
+
+    # Assert
+    assert_html(expected, actual)
+  end
 end
