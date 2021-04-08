@@ -292,7 +292,7 @@ preconfigured virtual machine.
 {% endsi_step %}
 
 {% si_step download the Bitcraze virtual machine; download-vm %}
-Once you have installed VirtualBox you can download the virtual machine
+Once you have installed VirtualBox you can download the virtual machine of your choice
 from the [Bitcraze VM release page](https://github.com/bitcraze/bitcraze-vm/releases/).
 
 {% endsi_step %}
@@ -361,21 +361,14 @@ Continue reading about [configuring the client](#config-client)
 In the client, open the input device settings. Check if the correct device
 mapping is chosen, otherwise pick your device type.
 {% img Controller settings; wide; /images/getting-started/configure_your_controller.PNG %}
+
+For more detailed information on input devices, see the [client user-guide](/documentation/repository/crazyflie-clients-python/master/userguides/inputdevices/).
+
 {% endsi_step %}
 
 {% si_step update firmware in the Crazyflie; update-fw %}
-* Turn the Crazyflie on.
-* In the Crazyflie client, click the Connect -> Bootloader menu.
-{% img Update firmware dialog; wide; /images/getting-started/update_firmware.jpg %}
-* Make sure the "Connect Crazyflie" tab is active
-* Click the __Scan__ button
-* Chose the URI in the drop down for your Crazyflie. Note: it must be a radio URI, USB does not work for flashing firmware.
-* Click the __Connect__ button. After a few seconds the status should read “Connected in firmware mode”.
-* In the "From release" tab, chose the version you want to flash to the Crazyflie. The latest version is selected by default.
-* Click the __Program__ button. The progress bar will go from 0% to 100% for each flashing target. A Crazyflie without any decks
-has two flash targets, but some decks may also contain a flash target (firmware). The Crazyflie will restart one or more times
-during the flashing process.
-* Close the bootloader window.
+To make sure that your Crazyflie has all the latest features you should always update the firmware to the newest version. To find out how you can check out the client user-guide [here](/documentation/repository/crazyflie-clients-python/master/userguides/userguide_client/#firmware-upgrade).
+
 {% endsi_step %}
 
 {% si_step connect to the Crazyflie; connect-pc-client %}
