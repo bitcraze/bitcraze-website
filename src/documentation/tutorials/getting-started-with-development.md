@@ -50,16 +50,15 @@ minimalistic, we will change the color of the front right LED from red to green.
 {% endsi_intro %}
 
 {% si_step start the editor; editor %}
-The pre-installed IDE (Integrated Development Environment) is [Eclipse](https://eclipse.org/ide/).
-Double click the "Eclipse" icon on the desktop to start it.
-{% img Eclipse icon; narrow; /images/getting-started/eclipse-icon.png; circle-border %}
+The pre-installed IDE (Integrated Development Environment) is [Visual Studio Code](https://code.visualstudio.com/).
+Double click the "Visual Studio Code" icon on the desktop to start it.
+{% img vscode icon; narrow; /images/getting-started/vscode-icon.png; circle-border %}
 {% endsi_step %}
 
 {% si_step open the file %}
-Find the "Project explorer" window on the left side and expand the
-"crazyflie-firmware" project.
-{% img Project explorer; medium; /images/getting-started/eclipse-project-explorer.png %}
-Navigate to `src/drivers/interface/led.h` and double click to open it.
+Use the File menu to select "Open Folder..." and navigate to the "projects" folder and then select the "crazyflie-firmware" folder and open it.
+{% img Project explorer; medium; /images/getting-started/vscode-open-folder.png %}
+Navigate to or search (CTRL + p) for `src/drivers/interface/led.h` and click to open it.
 {% endsi_step %}
 
 {% si_step change the code %}
@@ -85,22 +84,56 @@ Save the file through the File menu or by pressing CTRL + S
 {% si_intro Build the source code; make %}
 Now it's time to build the source code into binary files that can be
 downloaded to the Crazyflie.
+
+For more, and more detailed, information about developing the Crazyflie firmware you can
+go to the repository documentation [here.](/documentation/repository/crazyflie-firmware/master/development/starting_development/)
 {% endsi_intro %}
 
-{% si_step clean %}
-Locate the "Make target" tab on the right side at the top (or bottom left if you are
-using an older VM). Expand "crazyflie-firmware"
-and double click "clean"
-{% img Project explorer; medium; /images/getting-started/eclipse-make-target.png %}
-
-The result should be displayed in the "console" tab under the editor window.
-{% endsi_step %}
-
 {% si_step start the build; build %}
-In the toolbar, click the hammer icon
-{% img Build all icon; narrow; /images/getting-started/build-icon.jpg; circle-border %}
-Again, the result should be displayed in the "console" tab under the editor window.
-{% img Project explorer; medium; /images/getting-started/eclipse-console.png %}
+If there is no command line terminal at the bottom of the vscode window you can use
+the Terminal menu and select New Terminal to get access to a `bash` terminal window.
+
+The build system for the Crazyflie firmware is based on `make` and you can start a build by
+issuing the following command in the terminal window in Visual Studio Code:
+
+```
+$ make PLATFORM=cf2
+```
+And, since the Crazyflie is the default platform, it is enough to type:
+```
+$ make
+```
+To build the firmware. You should see something like the below on a successful build:
+```
+$ make
+  CLEAN_VERSION
+  CC    sensors_mpu9250_lps25h.o
+  CC    sensors_bmi088_bmp388.o
+  CC    main.o
+  CC    nvic.o
+  CC    led.o
+  CC    usblink.o
+  CC    ledseq.o
+  CC    freeRTOSdebug.o
+  CC    pm_stm32f4.o
+  CC    radiolink.o
+  CC    system.o
+  CC    usddeck.o
+  CC    cfassert.o
+  VTMPL version.c
+  CC    version.o
+  LD    cf2.elf
+  COPY  cf2.hex
+  COPY  cf2.bin
+  DFUse cf2.dfu
+Build for the CF2 platform!
+Build 11:0864ef92245a (2021.03 +11) MODIFIED
+Version extracted from git
+Crazyloader build!
+Flash |  242184/1032192 (23%),  790008 free | text: 236372, data: 5812, ccmdata: 0
+RAM   |   71128/131072  (54%),   59944 free | bss: 65316, data: 5812
+CCM   |   58380/65536   (89%),    7156 free | ccmbss: 58380, ccmdata: 0
+```
 {% endsi_step %}
 
 {% si_intro Flash the Crazyflie; new-fw %}
@@ -119,10 +152,29 @@ seconds. Both blue LEDs will blink.
 {% endsi_step %}
 
 {% si_step flashing; flash %}
-In the "Make target" window double click "Flash using radio".
+In the terminal window type:
+```
+$ make cload
+```
 
 Printouts in the "Console" window shows the progress and the LEDs on the
 Crazyflie flicker.
+```
+$ make cload
+python3 -m cfloader  flash  cf2.bin stm32-fw
+Restart the Crazyflie you want to bootload in the next
+ 10 seconds ...
+ done!
+Connected to bootloader on Crazyflie 2.0 (version=0x10)
+Target info: nrf51 (0xFE)
+Flash pages: 232 | Page size: 1024 | Buffer pages: 1 | Start page: 88
+144 KBytes of flash available for firmware image.
+Target info: stm32 (0xFF)
+Flash pages: 1024 | Page size: 1024 | Buffer pages: 10 | Start page: 16
+1008 KBytes of flash available for firmware image.
+Flashing 1 of 1 to stm32 (fw): 242639 bytes (237 pages) ..........10..........10..........10..........10..........10..........10..........10..........10..........10..........10..........10..........10..........10..........10..........10..........10..........10..........10..........10..........10..........10..........10..........10.......7
+Reset in firmware mode ...
+```
 
 {% endsi_step %}
 
