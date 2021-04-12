@@ -18,8 +18,8 @@ The reference;
 The base of a Loco Positioning system
 %}
 
-The Loco Positioning Node is a versatile positioning device that can run either
-as an Anchor or Tag in a Loco Positioning system. The system measures
+The Loco Positioning Node is a versatile positioning device that mainly is used
+as an Anchor in a Loco Positioning system. The system measures
 the distance between Nodes and Tags, and from those distances the
 absolute position of objects carrying Tags can be calculated.
 
