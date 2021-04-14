@@ -86,7 +86,7 @@ You can change the basestation mode with a small button in the back. The modes s
 
 
 {% si_step Set up the basestations in flight area%}
-After the base station's channels are correctly set, you can mount them in your flight area by a wall mount or a camera-stand. The ideal flight area for two basestations is about 5 x 5 x 3.0, but long as the Crazyflie is not further away than 7 meters from at least one basestation, it should work out.
+After the base station's channels are correctly set, you can mount them in your flight area by a wall mount or a camera-stand. The maximum flight area for two basestations is about 4 x 4 x 2.0, but long as the Crazyflie is not further away than 6 meters from at least one basestation, it should work out. Note that the lighthouse sensors are mounted on the top of the lighthouse deck and that the base stations must be above the Crazyflie to be received.
 
 Make sure that you have the following conditions in your flight area:
 * The basestations should be about at least 0.5 meters higher than the flight area of the Crazyflie due to the placement of the sensors on the Lighthouse deck.
