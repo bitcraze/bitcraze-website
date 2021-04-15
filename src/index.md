@@ -131,7 +131,7 @@ page_id: home
   </div>
 
   <div class="row section-content">
-    <a href="{% id_url lighthouse-system-overview %}">
+    <a href="{% id_url lighthouse %}">
       <div class="col-md-4 col-md-push-8 text-block-box text-box-product-news">
         <h3>
         The Lighthouse Positioning System
