@@ -203,18 +203,18 @@ compatible.
  |---------------------------|----------|------------|----------|---------|----------|--------|-------|----------|------|--------------|-------------------|--------------|---------------|---------|
  | **LED-ring**              | -        |            | yes      | yes     |          | yes    | yes   |          |      | yes          | yes               | yes          | yes           | yes     |
  | **Qi charger**            |          | -          | yes      | yes     | yes      | yes    | yes   |          |      | yes          | yes               | yes          | yes           | yes     |
- | **Micro-SD**              | yes      | yes        | -        | yes \*1     | yes      | yes    | yes   | yes      | yes \*1  | yes          | yes               | yes          | yes           |         |
- | **UWB LPS**               | yes      | yes        | yes \*1      | -       | yes      | yes    | yes   | yes      | yes  | yes          | yes               | \*2          | yes           |         |
- | **Big quad**              |          | yes        | yes      | yes     | -        |        |       | yes      |      | yes          | yes               | \*2          | yes           |         |
- | **Buzzer**                | yes      | yes        | yes      | yes     |          | -      |       | yes      | yes  | yes          | yes               | yes          | yes           |         |
- | **bcESP**                 | yes      | yes        | yes      | yes     |          |        | -     | yes      | yes  | yes          | yes               | yes          | yes           |         |
- | **Z-Ranger, Z-Ranger V2** |          |            | yes      | yes     | yes      | yes    | yes   | -        |      | yes          | yes               | yes          | yes           |         |
- | **Flow, Flow V2**         |          |            | yes \*1      | yes     |          | yes    | yes   |          | -    | yes          | yes               | yes          | yes           |         |
- | **Multi-ranger**          | yes      | yes        | yes      | yes     | yes      | yes    | yes   | yes      | yes  | -            | yes               | yes          | yes           |         |
+ | **Micro-SD**              | yes      | yes        | -        | yes \*1 | yes      | yes    | yes   | yes      | yes \*1 | yes       | yes               | yes          | yes           | yes     |
+ | **UWB LPS**               | yes      | yes        | yes \*1  | -       | yes      | yes    | yes   | yes      | yes  | yes          | yes               | \*2          | yes           | \*2     |
+ | **Big quad**              |          | yes        | yes      | yes     | -        |        |       | yes      |      | yes          | yes               | \*2          | yes           | yes     |
+ | **Buzzer**                | yes      | yes        | yes      | yes     |          | -      |       | yes      | yes  | yes          | yes               | yes          | yes           | yes     |
+ | **bcESP**                 | yes      | yes        | yes      | yes     |          |        | -     | yes      | yes  | yes          | yes               | yes          | yes           | yes     |
+ | **Z-Ranger, Z-Ranger V2** |          |            | yes      | yes     | yes      | yes    | yes   | -        |      | yes          | yes               | yes          | yes           | yes     |
+ | **Flow, Flow V2**         |          |            | yes \*1  | yes     |          | yes    | yes   |          | -    | yes          | yes               | yes          | yes           | yes     |
+ | **Multi-ranger**          | yes      | yes        | yes      | yes     | yes      | yes    | yes   | yes      | yes  | -            | yes               | yes          | yes           | yes     |
  | **Mocap marker deck**     | yes      | yes        | yes      | yes     | yes      | yes    | yes   | yes      | yes  | yes          | -                 | yes          |               | yes     |
- | **Lighthouse-4**          | yes      | yes        | yes      | \*2     | \*2      | yes    | yes   | yes      | yes  | yes          | yes               | -            |               |         |
- | **Active marker**         | yes      | yes        | yes      | yes     | yes      | yes    | yes   | yes      | yes  | yes          |                   |              | -             |         |
- | **AI deck**               | yes      | yes        | yes         | \*2        |  yes        | yes       |  yes     |   yes       | yes     |   yes           | yes               |    \*3          |    yes           | -       |
+ | **Lighthouse-4**          | yes      | yes        | yes      | \*2     | \*2      | yes    | yes   | yes      | yes  | yes          | yes               | -            |               | \*3     |
+ | **Active marker**         | yes      | yes        | yes      | yes     | yes      | yes    | yes   | yes      | yes  | yes          |                   |              | -             | yes     |
+ | **AI deck**               | yes      | yes        | yes      | \*2     |  yes     | yes    |  yes  |   yes    | yes  |   yes        | yes               |    \*3       |    yes        | -       |
  |---------------------------|----------|------------|----------|---------|----------|--------|-------|----------|------|--------------|-------------------|--------------|---------------|---------|
 
 **Notes:**
