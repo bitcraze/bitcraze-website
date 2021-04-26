@@ -18,7 +18,7 @@ This tutorial is also available as a [video](https://www.youtube.com/watch?v=DCE
 Make sure that you have the following available:
 * [A Crazyflie 2.X](https://store.bitcraze.io/products/crazyflie-2-1)
 * [A Lighthouse deck](https://store.bitcraze.io/products/lighthouse-positioning-deck)
-* Two SteamVR Bsestations. We advise to [buy version 2.0](https://store.bitcraze.io/products/lighthouse-v2-base-station) but version 1.0 is also compatible.
+* Two Lighthouse Bsestations. We advise to [buy version 2.0](https://store.bitcraze.io/products/lighthouse-v2-base-station) but version 1.0 is also compatible.
 * [A Crazyradio PA](https://store.bitcraze.io/products/crazyradio-pa)
 {% endsi_step %}
 

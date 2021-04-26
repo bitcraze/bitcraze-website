@@ -27,8 +27,8 @@ orientation of the base station it is finally possible to determine the position
 
 #### V1 and V2
 
-The lighthouse positioning system is using [SteamVR base stations](https://www.vive.com/eu/accessory/base-station2/) as beacons.
-There are two generations of the base stations and both are supported: [V1](https://www.vive.com/eu/accessory/base-station/) and [V2](https://www.vive.com/eu/accessory/base-station2/).
+The lighthouse positioning system is using [Lighthouse base stations](https://store.bitcraze.io/products/lighthouse-v2-base-station) as beacons.
+There are two generations of the base stations and both are supported: [V1](https://www.vive.com/eu/accessory/base-station/) and [V2](https://store.bitcraze.io/products/lighthouse-v2-base-station).
 
 Lighthouse V1 uses two rotating drums while Lighthouse V2 only uses one, but with two slanted light planes on the same drum. Lighthouse V1 systems
 can use up to 2 base stations while Lighthouse V2 systems is designed for up to 16. The Crazyflie currently only supports 2 base stations,
@@ -44,7 +44,7 @@ regardless of version.
 
 {% endrow_text %}
 {% row_links %}
-* [SteamVR Base Station 2.0](https://www.vive.com/eu/accessory/base-station2/)
+* [Lighthouse base station V2](https://store.bitcraze.io/products/lighthouse-v2-base-station)
 * [Vive Base Station](https://www.vive.com/eu/accessory/base-station/)
 {% endrow_links %}
 {% endrow_video_text_links %}
@@ -89,7 +89,7 @@ For more information on how to combine the components of the Crazyflie ecosystem
 
 ----
 
-* [SteamVR Base Station 2.0](https://www.vive.com/eu/accessory/base-station2/)
+* [Lighthouse base station V2](https://store.bitcraze.io/products/lighthouse-v2-base-station)
 * [Vive Base Station](https://www.vive.com/eu/accessory/base-station/)
 {% endrow_links %}
 {% endrow_image_text_links %}

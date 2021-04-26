@@ -337,7 +337,7 @@ maintained up to a minute.
 
 {% row_image_text_links The Lighthouse positioning System %}
 {% row_text %}
-The Lighthouse positioning system is based on the SteamVR basestation. It offers
+The Lighthouse positioning system is based on the Lighthouse base station. It offers
 good accuracy and very good precision tracking. The Crazyflie pose is calculated
 in the Crazyflie itself, which allows to develop completely autonomous flight.
 The precision is in the millimeter range and the accuracy in the decimeter range.
@@ -349,7 +349,7 @@ space.
 
 * [Getting started bundles](https://store.bitcraze.io/products/getting-started-bundle)
 * [Lighthouse positioning deck](https://store.bitcraze.io/collections/decks/products/lighthouse-positioning-deck)
-* one or two [SteamVR Basestation 2.0](https://www.vive.com/us/accessory/base-station2/)
+* one or two [Lighthouse base station V2](https://store.bitcraze.io/products/lighthouse-v2-base-station)
 {% endrow_links %}
 {% endrow_image_text_links %}
 
@@ -415,7 +415,7 @@ positions from a more traditional external tracking system.
 
 * [Getting started bundles](https://store.bitcraze.io/products/getting-started-bundle)
 * [Lighthouse positioning deck](https://store.bitcraze.io/collections/decks/products/lighthouse-positioning-deck)
-* one or two [SteamVR Basestation 2.0](https://www.vive.com/us/accessory/base-station2/)
+* one or two [Lighthouse base station V2](https://store.bitcraze.io/products/lighthouse-v2-base-station)
 {% endrow_links %}
 {% endrow_image_text_links %}
 
