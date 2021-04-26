@@ -151,7 +151,7 @@ Sanity check the position estimation by moving the Crazyflie around in your hand
 {% si_intro Test flight %}
 Now that the system is set up, let's do a short test flight!
 {% endsi_intro %}
-{% si_step Switch to the **Flight control** tab %}
+{% si_step Switch to the Flight control tab %}
 Click the **Flight control** tab in the Crazyflie client
 {% endsi_step %}
 {% si_step Find the controls %}
