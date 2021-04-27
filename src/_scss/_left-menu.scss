@@ -75,7 +75,7 @@
 }
 
 // Menu used in documentation
-.docs_menu {
+.repo-docs-menu {
     nav {
         text-align: right;
         font-weight: $nav-font-weight-strong;
@@ -95,7 +95,7 @@
             list-style-type: none;
             ul {
                 font-weight: $nav-font-weight;
-                border-right: 3px solid $bcGreen;
+                border-right: 3px solid $bcGrey;
                 li {
                     padding-bottom: 0;
                 }

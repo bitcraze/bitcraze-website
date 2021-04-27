@@ -2,7 +2,7 @@
 layout: page-base
 ---
 
-<div class="container-fluid content-header-fluid">
+<div class="container-fluid content-header-fluid repo-docs-header">
     <header class="row content-header">
         <div class="col-md-12">
             <h1 class="page-title">{{page.title}}</h1>
@@ -31,9 +31,9 @@ layout: page-base
         </div>
     </div>
 </div>
-<div class="container-fluid" >
+<div class="container-fluid repo-docs-content" >
     <section id="primary" class="row content-area" >
-        <div class="col-md-4 docs_menu">
+        <div class="col-md-4 repo-docs-menu">
             <nav class="hidden-print">
                 {% include docs_menu.html repo_name=page.repo_name %}
             </nav>

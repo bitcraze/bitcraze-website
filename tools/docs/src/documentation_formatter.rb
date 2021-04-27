@@ -55,7 +55,7 @@ class DocumentationFormatter
     data = YAML.load(doc)
 
     data['page_id'] = generate_page_id(ns, data['page_id'])
-    data['layout'] = 'page-docs'
+    data['layout'] = 'page-repo-docs'
     data['repo_name'] = repo_name
     data['repo_tag'] = tag
     data['ns'] = ns

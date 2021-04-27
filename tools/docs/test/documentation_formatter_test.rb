@@ -71,7 +71,7 @@ class TestDocumentationFormatter < Minitest::Test
     # Assert
     actual = YAML.load(actual_doc)
 
-    assert_equal('page-docs', actual['layout'])
+    assert_equal('page-repo-docs', actual['layout'])
     assert_equal(@repo_name, actual['repo_name'])
     assert_equal(@tag, actual['repo_tag'])
     assert_equal(@ns, actual['ns'])

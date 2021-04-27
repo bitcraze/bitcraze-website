@@ -11,3 +11,12 @@ header.content-header {
     font-size: $header-font-size;
     text-align: center;
 }
+
+.repo-docs-header,
+.repo-docs-header .content-header {
+    background-color: $bcLighterGrey;
+}
+
+.repo-docs-content {
+	font-family: "Droid Sans";
+}
