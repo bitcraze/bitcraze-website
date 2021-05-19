@@ -37,7 +37,15 @@ by limited APIs or closed software. Never.
 
 ## How the Crazyflie 2.X is used by universities
 ---
-__Universities around the world are using the Crazyflie 2.X in different types of research fields. Here we have collected guest blog posts from our [blog](/blog/) to show some examples.__
+Universities around the world are using the Crazyflie in different types of research fields. This video contains some examples
+
+{% youtube zgUz5USTw6c; medium; 16by9 %}
+
+There is also [a play list on youTube with more videos](https://www.youtube.com/playlist?list=PLj9XMmQVSr-CDhpGsDM2xv2O8tlquBAjX).
+
+
+**We have collected a few guest blog posts from our [blog](/blog/) to show some examples.**
+
 
 ### Crazyflie used by Carnegie Mellon University
 
