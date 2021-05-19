@@ -127,7 +127,7 @@ Deck info
 | 0xBC | 0x0F | bcFlow2       | Flow v2            | 1.6g   | \~40mA                     | Under          | [link](https://store.bitcraze.io/products/flow-deck-v2)                  |
 | 0xBC | 0x10 | bcLighthouse4 | Lighthouse-4       | 2.7g   | \~40mA                     | Above          | [link](https://store.bitcraze.io/products/lighthouse-positioning-deck)   |
 | 0xBC | 0x11 | bcActiveM     | Active marker deck | 3.3g   | \~40mA                     | Above          | [link](https://store.bitcraze.io/products/active-marker-deck)            |
-| 0xBC | 0x12 | bcAI          | AI deck            | TBD    | TBD                        | Above          | [link](https://store.bitcraze.io/products/ai-deck-1-1)                   |
+| 0xBC | 0x12 | bcAI          | AI deck            | 4.4g   | depending on deck app      | Above          | [link](https://store.bitcraze.io/products/ai-deck-1-1)                   |
 |------|------|---------------|--------------------|--------|----------------------------|----------------|--------------------------------------------------------------------------|
 
 Deck pin allocation
