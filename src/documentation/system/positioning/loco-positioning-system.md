@@ -10,7 +10,7 @@ redirects:
 {% row_full %}
 {% img The Loco Positioning System; medium; /images/documentation/overview/lpssystem.png %}
 
-The Loco Positioning system (aka LPS) is a local positioning system, based on Ultra Wide Band radio that is used to find
+The Loco Positioning system is a local positioning system, based on Ultra Wide Band radio that is used to find
 the absolute 3D position of objects in space. It is in many ways similar to a miniature GPS system.
 
 {% endrow_full %}
@@ -119,9 +119,9 @@ We have created an easy to follow step-by-step guide for setting up the Loco pos
 
 {% row_image_text_links Tech information %}
 {% row_text %}
-For more technical information about the Loco positioning system please visit the [LPS system and node Documentation](/documentation/repository/lps-node-firmware/master/).
+For more technical information about the Loco positioning system please visit the [Loco Positioning System and node Documentation](/documentation/repository/lps-node-firmware/master/).
 {% endrow_text %}
 {% row_links %}
-* [LPS system and node Documentation](/documentation/repository/lps-node-firmware/master/)
+* [Loco Positioning System and node Documentation](/documentation/repository/lps-node-firmware/master/)
 {% endrow_links %}
 {% endrow_image_text_links %}

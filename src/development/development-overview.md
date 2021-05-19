@@ -34,13 +34,13 @@ these need signal processing and tuning to optimize performance.
 create the best possible measurement of the platform orientation.
 * **Control theory:** The platform consists of a number of different
 control-loops. Both for controlling roll/pitch/yaw onboard the Crazyflie, but
-also for controlling the platform if you use external positioning system. 
+also for controlling the platform if you use external positioning system.
 * **Radio protocols:** The Crazyflie communicates via radio with the host. The
 protocol is very basic but has the potential to be expanded with more features.
 * **USB:** The Crazyradio uses USB device to communication with the host
 real-time systems: The Crazyflie firmware is very time critical.
-* **Positioning** We have many positioning systems such as the LPS system, the lighthouse system and optirack. The quality of the positioning is something that always can be improved.
-* **Onboard autonomy** Recently we have implement the App layer which enables out-of-tree build of your own application upon the Crazyflie firmware. 
+* **Positioning** We have many positioning systems such as the Loco Positioning System, the lighthouse system and support for mocap systems. The quality of the positioning is something that always can be improved.
+* **Onboard autonomy** The App layer enables out-of-tree builds of your own application upon the Crazyflie firmware.
 
 The different systems use different languages. So if you are looking at using a
 specific language there are a few to choose from:

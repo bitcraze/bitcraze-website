@@ -1,6 +1,6 @@
 ---
 layout: page-left-menu
-title: Getting started with Flying using LPS
+title: Getting started with Flying using Loco Positioning
 page_id: getting-started-with-assisted-flight-position-hold
 redirects:
   - /getting-started-with-assisted-flight-position-hold/
@@ -30,7 +30,7 @@ thus releasing the sticks will leave the Crazyflie in its current position.
 * Open the cfclient application
 * Connect to the Crazyflie 2.X
 * It might take a couple of seconds for the position estimate to stabilize. You can
-verify that it has stabilized by checking that the position in the LPS tab corresponds to the physical position.
+verify that it has stabilized by checking that the position in the Loco Positioning tab corresponds to the physical position.
 {% endsi_step %}
 
 {% si_step Set assisted mode to Position hold %}

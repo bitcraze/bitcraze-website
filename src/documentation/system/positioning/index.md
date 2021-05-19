@@ -18,7 +18,7 @@ information of the current position.
 
 {% row_image_text_links Lighthouse positioning System; /images/documentation/overview/lighthouse.png %}
 {% row_text %}
-The lighthouse positioning system is our latest method of positioning on the Crazyflie 2.X. The [Lighthouse base stations](https://store.bitcraze.io/products/lighthouse-v2-base-station) are used here, and they emit infrared laser scans that are detected by our [Lighthouse positioning deck](https://store.bitcraze.io/collections/positioning/products/lighthouse-positioning-deck). This enables the crazyflie to (like with the LPS) calculate its own position on board.
+The lighthouse positioning system is our latest method of positioning on the Crazyflie 2.X. The [Lighthouse base stations](https://store.bitcraze.io/products/lighthouse-v2-base-station) are used here, and they emit infrared laser scans that are detected by our [Lighthouse positioning deck](https://store.bitcraze.io/collections/positioning/products/lighthouse-positioning-deck). This enables the crazyflie to (like with the Loco Positioning System) calculate its own position on board.
 {% endrow_text %}
 
 {% row_links %}
@@ -29,7 +29,7 @@ The lighthouse positioning system is our latest method of positioning on the Cra
 
 {% row_image_text_links Loco Positioning System; /images/documentation/overview/lpssystem.png %}
 {% row_text %}
-The crazyflie can detect its position by means of our Loco Positioning System (LPS). Here we use UWB modules (Decawave's DWM1000), which can measure the distance between each other. With the ranges of at least 4, but rather 8, [Loco positioning nodes](https://store.bitcraze.io/collections/positioning/products/loco-positioning-node), and a [loco positioning deck](https://store.bitcraze.io/collections/positioning/products/loco-positioning-deck), the crazyflie can calculate its own position onboard. Our [roadrunner](https://store.bitcraze.io/collections/positioning/products/roadrunner) is a stand-alone tag which can also work with our LPS system, if you require another platform than the Crazyflie.
+The crazyflie can detect its position by means of our Loco Positioning System. Here we use UWB modules (Decawave's DWM1000), which can measure the distance between each other. With the ranges of at least 4, but rather 8, [Loco positioning nodes](https://store.bitcraze.io/collections/positioning/products/loco-positioning-node), and a [loco positioning deck](https://store.bitcraze.io/collections/positioning/products/loco-positioning-deck), the crazyflie can calculate its own position onboard. Our [roadrunner](https://store.bitcraze.io/collections/positioning/products/roadrunner) is a stand-alone tag which can also work with our Loco Positioning System system, if you require another platform than the Crazyflie.
 {% endrow_text %}
 
 {% row_links %}

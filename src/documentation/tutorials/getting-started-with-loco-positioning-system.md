@@ -35,35 +35,35 @@ For mounting the Loco positioning deck check out the {% id_link getting-started-
 Before setting up the system you need to update the firmware and configure the the nodes.
 {% endsi_intro %}
 
-{% si_step Download the LPS configuration tool %}
+{% si_step Download the Loco Positioning configuration tool %}
 {% tabgroup %}
 {% tab Windows native installation %}
-Download and run the [LPS configuration tool](https://github.com/bitcraze/lps-tools/releases) .exe installer to install the LPS tools.
+Download and run the [Loco Positioning configuration tool](https://github.com/bitcraze/lps-tools/releases) .exe installer to install the Loco Positioning tool.
 {% endtab %}
 {% tab Installing from source (Linux/Mac/Windows) %}
-Clone the [LPS configuration tool GIT repo](https://github.com/bitcraze/lps-tools) and follow the [readme instruction](https://github.com/bitcraze/lps-tools#running-instruction) to run the tool.
+Clone the [Loco Positioning configuration tool GIT repo](https://github.com/bitcraze/lps-tools) and follow the [readme instruction](https://github.com/bitcraze/lps-tools#running-instruction) to run the tool.
 {% endtab %}
 {% endtabgroup %}
 {% endsi_step %}
 
-{% si_step Download the LPS node firmware %}
-For the latest LPS node firmware go [here](https://github.com/bitcraze/lps-node-firmware/releases) and download the **"lps-node-firmware.dfu"** file.
+{% si_step Download the Loco Positioning node firmware %}
+For the latest Loco Positioning node firmware go [here](https://github.com/bitcraze/lps-node-firmware/releases) and download the **"lps-node-firmware.dfu"** file.
 {% endsi_step %}
 
 {% si_step Update the nodes %}
-* To update the node start by opening up the LPS configuration tool. Keep the DFU button on the node pressed while connecting to your computer via USB. This will start the node in DFU mode.
+* To update the node start by opening up the Loco Positioning configuration tool. Keep the DFU button on the node pressed while connecting to your computer via USB. This will start the node in DFU mode.
 * If you are using Windows, the node will not be recognized the first time. You need to [follow the instruction to install its USB driver using Zadig](/documentation/repository/crazyradio-firmware/master/building/usbwindows/). In DFU mode, the node will be displayed as "STM32 BOOTLOADER" in Zadig.
 
-{% img LPS configuration tool; medium; /images/tutorials/getting_started_with_lps/press_dfu.png %}
+{% img Loco Positioning configuration tool; medium; /images/tutorials/getting_started_with_lps/press_dfu.png %}
 
-* Click browse and choose the LPS node firmware
-{% img LPS configuration tool; medium; /images/tutorials/getting_started_with_lps/browse.png %}
+* Click browse and choose the Loco Positioning node firmware
+{% img Loco Positioning configuration tool; medium; /images/tutorials/getting_started_with_lps/browse.png %}
 
 * Now update the node.
-{% img LPS configuration tool; medium; /images/tutorials/getting_started_with_lps/update.png %}
+{% img Loco Positioning configuration tool; medium; /images/tutorials/getting_started_with_lps/update.png %}
 
 * When the update is done press reset.
-{% img LPS configuration tool; medium; /images/tutorials/getting_started_with_lps/reset.png %}
+{% img Loco Positioning configuration tool; medium; /images/tutorials/getting_started_with_lps/reset.png %}
  Disconnect the node from the USB and repeat the same procedure for all the nodes before configuring them.
 {% endsi_step %}
 
@@ -73,7 +73,7 @@ The anchors should be numbered from 0 and upwards.
 
 Tip: to make it easy to identify the anchors and to manage the system in the future,
 it might be a good idea to mark the anchors with their ids.
-{% img LPS configuration tool; medium; /images/tutorials/getting_started_with_lps/configure.png %}
+{% img Loco Positioning configuration tool; medium; /images/tutorials/getting_started_with_lps/configure.png %}
 
 1. Connect the first anchor to USB (without pressing any button)
 1. Select an appropriate **ID**
@@ -138,7 +138,7 @@ The following section will show a 8 anchor system but the procedure is very simi
 {% si_step Open the Crazyflie client %}
 Now when everything is mounted and powered it is time to configure the system, this
 is done from the Crazyflie client. Communication between the client and the anchors
-is relayed through the Crazyflie and the LPS deck.
+is relayed through the Crazyflie and the Loco Positioning deck.
 
 * Place your Crazyflie 2.X in the center of the flying area.
 * Open the CF client and connect to the Crazyflie 2.X
