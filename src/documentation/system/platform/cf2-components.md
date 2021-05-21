@@ -27,7 +27,7 @@ redirects:
     Hold down 3s while powering on to enter bootloader mode. Hold down
     10s while powering to enter STM32F4 DFU mode.
 9.  **nRF51822**: The nRF51822 micro controller
-10. **Mounting holes\*\*: Can be used for mechanically mounting
+10. **Mounting holes**: Can be used for mechanically mounting
     something to the platform. The holes are plated, can be grounded by
     soldering a bridge and are 2mm in diameter (with plating)
 

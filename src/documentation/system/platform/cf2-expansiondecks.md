@@ -57,7 +57,7 @@ differing lengths exist to permit installation of either one expansion
 board on top, one board on bottom and one on top, or two boards on top.
 There should always be one expansion board or battery holder on top to
 secure the battery, unless the battery is held by other means (ie.
-rubber band, sticky pad, etc\...).
+rubber band, sticky pad, etc...).
 
 ### Orientation
 
@@ -117,16 +117,16 @@ Deck info
 | 0xBC | 0x04 | bcBuzzer      | Buzzer             | 1.8g   | 10mA                       | Under/Above    | [link](https://store.bitcraze.io/products/buzzer-deck)                   |
 | 0xBC | 0x05 | bcBigQuad     | Big quad           | 3.8g   | N/A                        | Under/Above    | [link](https://store.bitcraze.io/products/bigquad-deck)                  |
 | 0xBC | 0x06 | bcDWM         | Loco Positioning   | 3.3g   | 160mA                      | Under/Above    | [link](https://store.bitcraze.io/products/loco-positioning-deck)         |
-| 0xBC | 0x08 | bcUSD         | Micro-SD           | 1.7g   | \~30mA                     | Under/Above    | [link](https://store.bitcraze.io/products/sd-card-deck)                  |
-| 0xBC | 0x09 | bcZRanger     | Z-Ranger           | 1.3g   | \~15mA                     | Under          | [link](https://store.bitcraze.io/products/z-ranger-deck)                 |
-| 0xBC | 0x0A | bcFlow        | Flow               | 1.6g   | \~40mA                     | Under          | [link](https://store.bitcraze.io/products/flow-deck)                     |
-| 0xBC | 0x0B | bcOA          | Obstacle Avoidance | N/A    | \~0.3mA                    | Above          | N/A                                                                      |
-| 0xBC | 0x0C | bcMultiranger | Multi-ranger       | 2.3g   | \~90mA (depending on mode) | Above          | [link](https://store.bitcraze.io/products/multi-ranger-deck)             |
+| 0xBC | 0x08 | bcUSD         | Micro-SD           | 1.7g   | ~30mA                      | Under/Above    | [link](https://store.bitcraze.io/products/sd-card-deck)                  |
+| 0xBC | 0x09 | bcZRanger     | Z-Ranger           | 1.3g   | ~15mA                      | Under          | [link](https://store.bitcraze.io/products/z-ranger-deck)                 |
+| 0xBC | 0x0A | bcFlow        | Flow               | 1.6g   | ~40mA                      | Under          | [link](https://store.bitcraze.io/products/flow-deck)                     |
+| 0xBC | 0x0B | bcOA          | Obstacle Avoidance | N/A    | ~0.3mA                     | Above          | N/A                                                                      |
+| 0xBC | 0x0C | bcMultiranger | Multi-ranger       | 2.3g   | ~90mA (depending on mode)  | Above          | [link](https://store.bitcraze.io/products/multi-ranger-deck)             |
 | 0xBC | 0x0D | bcMocap       | Mocap marker deck  | 1.6g   | 0mA                        | Above          | [link](https://store.bitcraze.io/products/motion-capture-marker-deck)    |
-| 0xBC | 0x0E | bcZRanger2    | Z-Ranger v2        | 1.3g   | \~15mA                     | Under          | [link](https://store.bitcraze.io/products/z-ranger-deck-v2)              |
-| 0xBC | 0x0F | bcFlow2       | Flow v2            | 1.6g   | \~40mA                     | Under          | [link](https://store.bitcraze.io/products/flow-deck-v2)                  |
-| 0xBC | 0x10 | bcLighthouse4 | Lighthouse-4       | 2.7g   | \~40mA                     | Above          | [link](https://store.bitcraze.io/products/lighthouse-positioning-deck)   |
-| 0xBC | 0x11 | bcActiveM     | Active marker deck | 3.3g   | \~40mA                     | Above          | [link](https://store.bitcraze.io/products/active-marker-deck)            |
+| 0xBC | 0x0E | bcZRanger2    | Z-Ranger v2        | 1.3g   | ~15mA                      | Under          | [link](https://store.bitcraze.io/products/z-ranger-deck-v2)              |
+| 0xBC | 0x0F | bcFlow2       | Flow v2            | 1.6g   | ~40mA                      | Under          | [link](https://store.bitcraze.io/products/flow-deck-v2)                  |
+| 0xBC | 0x10 | bcLighthouse4 | Lighthouse-4       | 2.7g   | ~40mA                      | Above          | [link](https://store.bitcraze.io/products/lighthouse-positioning-deck)   |
+| 0xBC | 0x11 | bcActiveM     | Active marker deck | 3.3g   | ~40mA                      | Above          | [link](https://store.bitcraze.io/products/active-marker-deck)            |
 | 0xBC | 0x12 | bcAI          | AI deck            | 4.4g   | depending on deck app      | Above          | [link](https://store.bitcraze.io/products/ai-deck-1-1)                   |
 |------|------|---------------|--------------------|--------|----------------------------|----------------|--------------------------------------------------------------------------|
 
@@ -174,7 +174,7 @@ This table shows which deck that works on which platform.
 |---------------------------|----------------|-----------|
 | **LED-ring**              | yes            | yes       |
 | **Qi charger**            | yes            | yes       |
-| **Micro-SD**              | yes            | \*1       |
+| **Micro-SD**              | yes            | *1        |
 | **Loco Positioning**      | yes            |           |
 | **Big quad**              | yes            | yes       |
 | **Buzzer**                | yes            |           |
@@ -183,7 +183,7 @@ This table shows which deck that works on which platform.
 | **Flow, Flow V2**         | yes            | yes       |
 | **Multi-ranger**          | yes            | yes       |
 | **Mocap marker deck**     | yes            | yes       |
-| **Lighthouse-4**          | yes            | \*2       |
+| **Lighthouse-4**          | yes            | *2        |
 | **Active marker**         | yes            | yes       |
 | **AI deck**               | yes            | yes       |
 |---------------------------|----------------|-----------|
@@ -203,18 +203,18 @@ compatible.
  |---------------------------|----------|------------|----------|------------------|----------|--------|-------|----------|---------|--------------|-------------------|--------------|---------------|---------|
  | **LED-ring**              | -        |            | yes      | yes              |          | yes    | yes   |          |         | yes          | yes               | yes          | yes           | yes     |
  | **Qi charger**            |          | -          | yes      | yes              | yes      | yes    | yes   |          |         | yes          | yes               | yes          | yes           | yes     |
- | **Micro-SD**              | yes      | yes        | -        | yes \*1          | yes      | yes    | yes   | yes      | yes \*1 | yes          | yes               | yes          | yes           | yes     |
- | **Loco Positioning**      | yes      | yes        | yes \*1  | -                | yes      | yes    | yes   | yes      | yes     | yes          | yes               | \*2          | yes           | \*2     |
- | **Big quad**              |          | yes        | yes      | yes              | -        |        |       | yes      |         | yes          | yes               | \*2          | yes           | yes     |
+ | **Micro-SD**              | yes      | yes        | -        | yes *1           | yes      | yes    | yes   | yes      | yes *1  | yes          | yes               | yes          | yes           | yes     |
+ | **Loco Positioning**      | yes      | yes        | yes *1   | -                | yes      | yes    | yes   | yes      | yes     | yes          | yes               | *2           | yes           | *2      |
+ | **Big quad**              |          | yes        | yes      | yes              | -        |        |       | yes      |         | yes          | yes               | *2           | yes           | yes     |
  | **Buzzer**                | yes      | yes        | yes      | yes              |          | -      |       | yes      | yes     | yes          | yes               | yes          | yes           | yes     |
  | **bcESP**                 | yes      | yes        | yes      | yes              |          |        | -     | yes      | yes     | yes          | yes               | yes          | yes           | yes     |
  | **Z-Ranger, Z-Ranger V2** |          |            | yes      | yes              | yes      | yes    | yes   | -        |         | yes          | yes               | yes          | yes           | yes     |
- | **Flow, Flow V2**         |          |            | yes \*1  | yes              |          | yes    | yes   |          | -       | yes          | yes               | yes          | yes           | yes     |
+ | **Flow, Flow V2**         |          |            | yes *1   | yes              |          | yes    | yes   |          | -       | yes          | yes               | yes          | yes           | yes     |
  | **Multi-ranger**          | yes      | yes        | yes      | yes              | yes      | yes    | yes   | yes      | yes     | -            | yes               | yes          | yes           | yes     |
  | **Mocap marker deck**     | yes      | yes        | yes      | yes              | yes      | yes    | yes   | yes      | yes     | yes          | -                 | yes          |               | yes     |
- | **Lighthouse-4**          | yes      | yes        | yes      | \*2              | \*2      | yes    | yes   | yes      | yes     | yes          | yes               | -            |               | \*3     |
+ | **Lighthouse-4**          | yes      | yes        | yes      | *2               | *2       | yes    | yes   | yes      | yes     | yes          | yes               | -            |               | *3      |
  | **Active marker**         | yes      | yes        | yes      | yes              | yes      | yes    | yes   | yes      | yes     | yes          |                   |              | -             | yes     |
- | **AI deck**               | yes      | yes        | yes      | \*2              | yes      | yes    | yes   | yes      | yes     | yes          | yes               | \*3          | yes           | -       |
+ | **AI deck**               | yes      | yes        | yes      | *2               | yes      | yes    | yes   | yes      | yes     | yes          | yes               | *3           | yes           | -       |
  |---------------------------|----------|------------|----------|------------------|----------|--------|-------|----------|---------|--------------|-------------------|--------------|---------------|---------|
 
 **Notes:**
