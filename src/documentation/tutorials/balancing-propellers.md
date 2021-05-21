@@ -27,7 +27,7 @@ position and then release it. If it tilts over, it is unbalanced. Balance
 the propeller by attaching a small piece of tape on the side that is
 pointing upwards.
 
-{% tutorialVideo \videos\checking_the_propeller.mp4 %}
+{% tutorialVideo /videos/checking_the_propeller.mp4 %}
 
 {% endsi_step %}
 
@@ -36,7 +36,7 @@ If the propeller is unbalanced, attach tape to the convex side of the
 propeller as shown in the video. The amount of tape that should be used
 varies and you might need some tries to find the correct amount.
 
-{% tutorialVideo \videos\balancing_the_propeller.mp4 %}
+{% tutorialVideo /videos/balancing_the_propeller.mp4 %}
 
 {% endsi_step %}
 
@@ -44,6 +44,6 @@ varies and you might need some tries to find the correct amount.
 After you have placed the first bit of tape try shaking the propellers a
 bit. If the propeller isn't tilting over anymore it's balanced.
 
-{% tutorialVideo \videos\add_more_tape.mp4 %}
+{% tutorialVideo /videos/add_more_tape.mp4 %}
 
 {% endsi_step %}

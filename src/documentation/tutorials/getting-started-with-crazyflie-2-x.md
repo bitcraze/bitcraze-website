@@ -41,14 +41,14 @@ connecting the Crazyflie 2.X to a uUSB power source. The LEDs M1 and M4
 will indicate the result of the test. If the M4 LED blinks GREEN five times
 fast, then the test has passed.
 
-{% tutorialVideo \videos\self_test_pass.mp4 %}
+{% tutorialVideo /videos/self_test_pass.mp4 %}
 {% endsi_step %}
 
 {% si_step self-test fails %}
 If the self-test fails, then the M1 LED blinks 5 times fast RED, then pauses
 and does it again. Go to our [support forum](//forum.bitcraze.io) to get help.
 
-{% tutorialVideo \videos\self_test_fails.mp4 %}
+{% tutorialVideo /videos/self_test_fails.mp4 %}
 {% endsi_step %}
 
 
@@ -62,7 +62,7 @@ there are a few pitfalls. So make sure to follow the instructions below!
 Start by twisting the wires of the four motors. This will reduce electronic
 noise and make the wires fit better in the motor mount “hooks”.
 
-{% tutorialVideo \videos\twisting_the_wires.mp4 %}
+{% tutorialVideo /videos/twisting_the_wires.mp4 %}
 
 {% endsi_step %}
 
@@ -73,7 +73,7 @@ motor can towards a table edge and press on the mount, however don’t press
 on the motor axis while inserting them as it might damage the motor. The
 motor should be inserted all the way to the stop in the mount.
 
-{% tutorialVideo \videos\mount_the_motors.mp4 %}
+{% tutorialVideo /videos/mount_the_motors.mp4 %}
 
 {% endsi_step %}
 
@@ -81,7 +81,7 @@ motor should be inserted all the way to the stop in the mount.
 Attach the twisted wire into the two small “hooks” that are underneath the
 motor mount.
 
-{% tutorialVideo \videos\attach_the_twisted wire.mp4 %}
+{% tutorialVideo /videos/attach_the_twisted wire.mp4 %}
 
 {% endsi_step %}
 
@@ -90,7 +90,7 @@ Insert the motor mounts on the Crazyflie 2.X wings. They are press fit and
 might need a small amount of force. Make sure they go all the way to the
 stop. It’s not important which motor you put where. After it’s been
 inserted, connect the motor connectors to the Crazyflie 2.X.
-{% tutorialVideo \videos\insert_the_motor.mp4 %}
+{% tutorialVideo /videos/insert_the_motor.mp4 %}
 {% endsi_step %}
 
 {% si_step attach the propellers %}
@@ -109,7 +109,7 @@ Here we are attaching the CW propellers.
 
 
 
-{% tutorialVideo \videos\attach_the_propellers.mp4 %}
+{% tutorialVideo /videos/attach_the_propellers.mp4 %}
 
 Here’s a detailed view of where to attach CW and CCW propellers.
 {% img Crazyflie 2.X propeller mounting; medium; /images/getting-started/cf2_props.png %}
@@ -126,13 +126,13 @@ Note that to avoid your propellers to break too easily, you should not push the 
 The rubber pad should be attached to the Crazyflie 2.X between the
 expansion headers. This will create friction, keep the battery from
 slipping out and also protect the electronics.
-{% tutorialVideo \videos\attach_the_rubber_pad.mp4 %}
+{% tutorialVideo /videos/attach_the_rubber_pad.mp4 %}
 {% endsi_step %}
 
 {% si_step attach headers %}
 There are two types of headers in the box, long and short ones. Find the
 two short ones and insert them into the expansion connector.
-{% tutorialVideo \videos\attach_headers.mp4 %}
+{% tutorialVideo /videos/attach_headers.mp4 %}
 {% endsi_step %}
 
 {% si_step attach the battery %}
@@ -144,7 +144,7 @@ the battery in place so tighten it until it does.
 Now connect the battery
 and you are finished with the assembly. The battery wires can preferably be
 bent and placed underneath the PCB to be out of the way.
-{% tutorialVideo \videos\attach_the_battery.mp4 %}
+{% tutorialVideo /videos/attach_the_battery.mp4 %}
 {% endsi_step %}
 
 {% si_step power on! %}
@@ -152,7 +152,7 @@ The assembly is finished, now it’s time to power it on! Note that the power
 button is a push button, not a sliding button. During the power-on
 self-test all the propellers will spin in sequence. Make sure they all
 spin, if they don’t then check the motor connections.
-{% tutorialVideo \videos\power_on.mp4 %}
+{% tutorialVideo /videos/power_on.mp4 %}
 {% endsi_step %}
 
 {% si_step getting to know your Crazyflie; leds %}
@@ -261,7 +261,7 @@ and this is also why our documentation is based on the virtual machine.
 The supported way to install and run the client on a computer currently is to install
 the Crazyflie client using the python package manager *pip*.
 
-You can follow the prerequisite and instructions to install the latest release on the 
+You can follow the prerequisite and instructions to install the latest release on the
 [Client installation instruction page](/documentation/repository/crazyflie-clients-python/master/installation/install/).
 
 
@@ -417,7 +417,7 @@ The controls on the gamepad or mobile app have the following mapping:
 When thrusting without touching any other controls, this is what it might
 look like. The Crazyflie usually drifts in some direction if not
 compensated for, this is completely normal.
-{% tutorialVideo \videos\normal_flight.mp4 %}
+{% tutorialVideo /videos/normal_flight.mp4 %}
 {% endsi_step %}
 
 {% si_step the ground effect; ground-effect %}
