@@ -88,7 +88,6 @@ On V1 base stations you change the mode with the small button on the back of the
 {% endtabgroup %}
 {% endsi_step %}
 
-
 {% si_step Set up the base stations in the flight area%}
 After the base station's channels are correctly set, you can mount them in your flight area by a wall mount or a camera-stand. The maximum flight area for two base stations is about 4 x 4 x 2.0, but long as the Crazyflie is not further away than 6 meters from at least one base station, it should work out. Note that the lighthouse sensors are mounted on the top of the lighthouse deck and that the base stations must be above the Crazyflie to be received.
 
@@ -122,6 +121,13 @@ the Crazyflie 2.X in __2Mbit__ radio mode.
 {% img open the crazyflie client; wide; /images/tutorials/getting_started_with_lighthouse/3_client_flight_control.png %}
 {% endsi_step %}
 
+{% si_step Select system type %}
+The Crazyflie needs to know what type of base stations that are used to be able to decode the light sweeps correctly.
+
+Click the **Change system type** button and select the appropriate type for your system. The system type is stored in the
+Crazyflie and will be used the next time the Crazyflie is started.
+{% endsi_step %}
+
 {% si_step Wait for calibration of the base stations %}
 Make sure that the Crazyflie is receiving the sweep angels of both base stations and has received the calibration data.
 
@@ -131,7 +137,7 @@ _For the calibration data you might need to wait for 20 seconds._
 {% endsi_step %}
 
 {% si_step Estimate the geometry %}
-Once you have received the calibration data, it is time for the next step:
+Once you have received the calibration data, it is time to estimate where the base stations a located
 
 1. Open up the base station geometry management dialog by pressing 'Manage Geometry'.
 
