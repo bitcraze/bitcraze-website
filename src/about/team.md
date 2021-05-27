@@ -43,9 +43,3 @@ Being an all-rounder Marcus does most things from high level scripting down to l
 Tobias Antonsson is a born computer and embedded nerd. Ever since he got his first electronics lab kit at an age of eight he has been hooked. He is an all-rounder with experience from computer graphics down to electronic hardware design and thrives best just in between, which makes embedded hardware and software a natural choice.
 He loves being creative and a lot of his spare time is being spent on various robotic and R/C projects. One of them, the Crazyflie, has become his livelihood in his co-founded company Bitcraze AB. Work experience includes mobile, medical and electromechanical industries as well as open source/hardware.
 "%}
-
-{% include teammember.html member="Wolfgang Hönig" role="Visiting Researcher" img="/images/team/wolfgang_hoenig_400px.JPG" bio="
-Wolfgang has been using the Crazyflie since 2014 to learn and research robotics, with emphasis on multi-robot coordination. During his PhD at the University of Southern California (USC), he co-developed the Crazyswarm, which allows to fly many Crazyflies in close formation. As a postdoc at the California Institute of Technology (Caltech), he combined machine learning, controls, and motion planning to improve close-formation flight as well as on-board autonomy of Crazyflies.
-
-Wolfgang will be leading a new research group at Technical University Berlin, Germany starting in Spring 2021.
-"%}
