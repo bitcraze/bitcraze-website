@@ -73,6 +73,21 @@ you can read about how the researchers at MIT are using the Crazyflie 2.0 to stu
 
 ### 2021
 
+* **Predictive control of aerial swarms in cluttered environments**
+Enrica Soria, Fabrizio Schiano & Dario Floreano, Nature Machine Intelligence
+[HTML](https://www.nature.com/articles/s42256-021-00341-y)
+[Video](https://youtu.be/cAXUKNGpMG4)
+
+* **Signal-Based Self-Organization of a Chain of UAVs for Subterranean Exploration**
+Pierre Laclau, Vladislav Tempez, Franck Ruffier, Enrico Natalizioand Jean-Baptiste Mouret, Frontiers in Robotics and AI, 2021
+[PDF](https://www.frontiersin.org/articles/10.3389/frobt.2021.614206/pdf)
+[Video](https://youtu.be/bqTjbqbbuQE)
+
+* **Comparative Validation Study on Bioinspired Morphology-Adaptation Flight Performance of a Morphing Quad-Rotor**
+Na Zhao, Weixin Yang, Cong Peng, Gang Wang & Yantao Shen, IEEE Robotics and Automation, 2021
+[PDF](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9398538)
+[Video](https://ieeexplore.ieee.org/ielx7/7083369/9399748/9398538/supp1-3071673.mp4?arnumber=9398538)
+
 * **Fully Onboard AI-powered Human-Drone Pose Estimation on Ultra-low Power Autonomous Flying Nano-UAVs**
 Daniele Palossi, Nicky Zimmerman, Alessio Burrello, Francesco Conti, Hanna Müller, Luca Maria Gambardella, Luca Benini, Alessandro Giusti, Jérôme Guzzi. ArXiv, 2021.
 [PDF](https://arxiv.org/abs/2103.10873)
@@ -99,6 +114,10 @@ Nakata, T., Phillips, N., Simões, P., Russell, I. J., Cheney, J. A., Walker, S.
 * **A bio-hybrid odor-guided autonomous palm-sized air vehicle.**  Anderson, M. J., Sullivan, J. G., Horiuchi, T., Fuller, S. B., & Daniel, T. L., Bioinspiration & Biomimetics. 2020
 [PDF, ](https://iopscience.iop.org/article/10.1088/1748-3190/abbd81/pdf?casa_token=6qol0eeJymEAAAAA:z-yOEzpOc-kRpmu8ZuIpyh9yzjkFV6ecqfglJoqB_5rItJNQRhP-Fvj6K-pmp2GGKLRnqDtwIA)
 [Video](https://youtu.be/8SGx2qmo9M4)
+
+* **Controlling Draft Interactions Between Quadcopter Unmanned Aerial Vehicles with Physics-aware Modeling**
+Ion Matei, Chen Zeng, Souma Chowdhury, Rahul Rai & Johan de Kleer, Journal of Intelligent & Robotic Systems volume,  2020
+[PDF](https://link.springer.com/content/pdf/10.1007/s10846-020-01295-w.pdf)
 
 * **Compliant Bistable Grippers Enable Passive Perching for Micro Aerial Vehicles**, Haijie Zhang, Elisha Lerner, Bo Cheng and Jianguo Zhao, Department of Mechanical Engineering, Colorado State University, 2020.
 [PDF](https://ieeexplore.ieee.org/abstract/document/9257095)
