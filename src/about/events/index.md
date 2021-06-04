@@ -15,3 +15,4 @@ information.
 * [IOT 2020](/about/events/iot2020/)
 * [Bitcraze Tutorial 1 2020](/about/events/bct12020/)
 * [AIdeck Workshop 1 2021](/about/events/adws12021)
+* [ICRA 2021 Swarm Robotics Workshop](/about/events/icra2021)
