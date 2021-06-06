@@ -183,7 +183,7 @@ Put the Crazyflie 2.X on a level surface and keep it absolutely still to calibra
 * **Radio connected:** The front left LED (4) is flickering in red and/or green.
 * **Battery low:** The front right LED (1) is fully lit in red. It's time to
 land and re-charge the battery.
-* **Charging:** The back left blue LED (3) is blinking while the right back blue LED (4) is lit.
+* **Charging:** The back left blue LED (3) is blinking while the right back blue LED (2) is lit.
 * **Boot loader mode:** The blue LEDs (2 and 3) at the back are blinking
 approximately once every second.
 * **Self test fail:** The right front LED (1) is repeatedly blinking five short
