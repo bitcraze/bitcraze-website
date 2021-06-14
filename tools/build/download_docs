@@ -27,6 +27,14 @@ function downloadGithubRepoDoc() {
       curl -L -o ${downloadFile} ${uri}
       unzip -q -d ${tmp} ${downloadFile}
       rm ${downloadFile}
+
+      if [ -f "${unzipName}/tools/build-docs/build-docs" ]; then
+        echo "Generating docs..."
+        pushd ${unzipName}
+        ${unzipName}/tools/build-docs/build-docs
+        popd
+      fi
+
       mv ${unzipName}/docs ${repoDir}
       rm -r ${unzipName}
 
