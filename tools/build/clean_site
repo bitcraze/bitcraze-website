@@ -1,0 +1,9 @@
+#!/usr/bin/env bash
+set -e
+
+# Clean the html created by jekyll to force all content to be re-generated
+
+scriptDir=$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )
+siteDir=$scriptDir/../../_site
+
+rm -r $siteDir

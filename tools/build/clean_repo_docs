@@ -1,0 +1,16 @@
+#!/usr/bin/env bash
+set -e
+
+# Clean downloaded repository documentation. Useful to run before download_docs to get a clean set of repository docunentation.
+
+scriptDir=$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )
+dataDir=$scriptDir/../../src/_data
+repoDocsDir=$scriptDir/../../src/documentation/repository
+
+# The repository documentation directory also has an index.md file that should not be removed.
+# Remove all directories only.
+
+find $repoDocsDir -mindepth 1 -maxdepth 1 -type d -exec rm -rf '{}' \;
+
+rm $dataDir/docs_menu.yml
+rm $dataDir/docs_tag_list.yml

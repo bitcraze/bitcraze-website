@@ -1,0 +1,9 @@
+#!/usr/bin/env bash
+set -e
+
+# Clean downloaded hardware documentation. Useful to run before download_hardware_docs to get a clean set of repository docunentation.
+
+scriptDir=$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )
+hwDocsDir=$scriptDir/../../src/documentation/hardware
+
+rm -r $hwDocsDir
