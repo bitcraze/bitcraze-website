@@ -14,7 +14,8 @@ root_path = "./_site"
 repo_docs_path = "./_site/documentation/repository"
 
 def check_internal_links(root, ignored_files)
-  HTMLProofer.check_directory(root, options = {:check_html => true, :allow_hash_href => true, :disable_external => true, :url_ignore => [/\/category\/.*/], :file_ignore => ignored_files, :assume_extension => true}).run
+  # Ignore internal links to our blog, they can not be tested in this context, hese links are on the format "/category/crazyflie/" or "/2020/05/some-title"
+  HTMLProofer.check_directory(root, options = {:check_html => true, :allow_hash_href => true, :disable_external => true, :url_ignore => [/\/category\/.*/, /\/\d+\/\d+\/.*/], :file_ignore => ignored_files, :assume_extension => true}).run
 end
 
 def check_external_links(root, ignored_files)
