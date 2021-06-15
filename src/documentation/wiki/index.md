@@ -15,13 +15,15 @@ page_id: hacks_projects_investigations
 ### Flying with Kinect and ZMQ
 * {% id_link fly-with-kinect %}
 * {% id_link fly-with-kinect-setup %}
+
 ### Other projects
 * {% id_link betaflight %}
 
 
 
 ## Controllers
-
+* {% id_link deviation-controller %}
+* {% id_link taranis-controller %}
 
 
 
