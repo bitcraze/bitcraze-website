@@ -106,7 +106,7 @@ Example of message
 
 ### Client
 
-When the corrections have been calculated it's time to send them to the Crazyflie. This is done using [the ZMQ input](/documentation/repository/crazyflie-lib-python/master/functional-areas/cfclient_zmq/) in the client. This will allow to switch between manual/automatic control while also getting feedback from the Crazyflie.
+When the corrections have been calculated it's time to send them to the Crazyflie. This is done using [the ZMQ input](/documentation/repository/crazyflie-clients-python/master/functional-areas/cfclient_zmq/) in the client. This will allow to switch between manual/automatic control while also getting feedback from the Crazyflie.
 
 ### Visualization
 In order to debug the control algorithms there's a basic graphing tool available.
