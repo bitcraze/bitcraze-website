@@ -53,7 +53,6 @@
   - {page_id: system-overview}
   - {page_id: repository-overview}
   - {page_id: videogallery}
-  - {page_id: hardware-instructions}
 
 - title: Development
   subs:
