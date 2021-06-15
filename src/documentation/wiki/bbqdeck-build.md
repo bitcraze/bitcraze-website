@@ -12,11 +12,11 @@ Start by mounting the big quad deck on the frame. After that connect the ESCs ac
 
 ## Basic connection diagram
 
-![ESC basic setup](/images/documentation/hardware/esc-basic-setup.png)
+![ESC basic setup](/images/documentation/wiki/esc-basic-setup.png)
 
 ## Basic connection picture
 
-![Bigquad basic connection](/images/documentation/hardware/bigquad-basic-connection.png)
+![Bigquad basic connection](/images/documentation/wiki/bigquad-basic-connection.png)
 
 ## Attaching the Crazyflie 2.0
 
@@ -24,7 +24,7 @@ The front of the Crazyflie 2.0 should be pointing in the direction of the arrows
 
 If the frame allows it, the Crazyflie 2.0 motors can be kept mounted but it is fine to remove them as well. Attach and connect the Crazyflie 2.0 using either the long or short deck pins. Use the included nylon spacer and screws to secure the Crazyflie 2.0 in place and to keep it level.
 
-![Crazyflie with bigquad deck](/images/documentation/hardware/bigquaddeck-2.jpg)
+![Crazyflie with bigquad deck](/images/documentation/wiki/bigquaddeck-2.jpg)
 
 ## Building Firmware
 
