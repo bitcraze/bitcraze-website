@@ -11,6 +11,11 @@ page_id: hacks_projects_investigations
 * {% id_link lh-deck-other-hardware %}
 * {% id_link led-deck-on-top %}
 
+## Projects
+### Flying with Kinect and ZMQ
+* {% id_link fly-with-kinect %}
+* {% id_link fly-with-kinect-setup %}
+
 
 
 
