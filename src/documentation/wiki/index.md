@@ -36,4 +36,6 @@ There are a lot of interesting things to investigate in the Crazyflie echosystem
 * {% id_link pwm-to-thrust %}
 
 ### Loco Positioning
+* {% id_link accuracy-loco %}
+* {% id_link max-range-loco %}
 
