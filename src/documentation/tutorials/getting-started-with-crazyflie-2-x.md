@@ -372,7 +372,7 @@ To make sure that your Crazyflie has all the latest features you should always u
 {% endsi_step %}
 
 {% si_step connect to the Crazyflie; connect-pc-client %}
-* In the Crazyflie client click the __Scan__ button in top left corner. The radio settings for you Crazyflie is displayed in the drop-down list.
+* In the Crazyflie client click the __Scan__ button in top left corner. The radio settings for your Crazyflie is displayed in the drop-down list.
 * Choose your Crazyflie from the drop-down list.
 
 {% img Connect dialog; wide; /images/getting-started/connect_to_the_crazyflie.PNG %}
