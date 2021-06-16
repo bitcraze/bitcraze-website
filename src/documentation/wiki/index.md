@@ -1,8 +1,7 @@
 ---
 layout: page
 title: Hacks, Projects and Investigations
-page_id: hacks_projects_investigations
-
+page_id: hacks-projects-investigations
 ---
 
 ## Product hardware enhancement and adjustements
@@ -19,6 +18,7 @@ page_id: hacks_projects_investigations
 
 ### Other projects
 * {% id_link betaflight %}
+* {% id_link hackrf-nrf %}
 
 
 
