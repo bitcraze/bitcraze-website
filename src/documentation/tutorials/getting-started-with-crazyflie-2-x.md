@@ -297,7 +297,7 @@ from the [Bitcraze VM release page](https://github.com/bitcraze/bitcraze-vm/rele
 
 {% endsi_step %}
 
-{% si_step installing the virtual machine; inst-vm %}
+{% si_step install the virtual machine; inst-vm %}
 After downloading the virtual machine, double click it. VirtualBox is now
 going to start, and ask you to import the virtual machine. Click import.
 {% endsi_step %}
