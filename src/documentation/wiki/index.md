@@ -21,11 +21,10 @@ page_id: hacks-projects-investigations
 * {% id_link hackrf-nrf %}
 * {% id_link rasp-pi-ground-station %}
 
-
-
 ## Controllers
 * {% id_link deviation-controller %}
 * {% id_link taranis-controller %}
 
-
-
+## Crazyflie Bootloader
+* {% id_link cf-bootloader-client-format %}
+* {% id_link cf-bootloader-protocol %}
