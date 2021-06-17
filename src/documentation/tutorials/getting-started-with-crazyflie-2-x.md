@@ -275,8 +275,8 @@ your USB-ports and start the client. Continue reading about how to [configure th
 
 
 {% si_intro Installing on VM; inst-virtualmachine %}
-The virtual machine (VM) to help you get into the air as quickly as possible,
-it has all software you need for flight and development pre-installed.
+To help you get into the air as quickly as possible, the virtual machine (VM)
+has all the software you need for flight and development already installed.
 
 Unfortunately there have been some reports lately of problems using the VM with USB.
 If you experience problems when flying, consider a native solution.
@@ -297,7 +297,7 @@ from the [Bitcraze VM release page](https://github.com/bitcraze/bitcraze-vm/rele
 
 {% endsi_step %}
 
-{% si_step installing the virtual machine; inst-vm %}
+{% si_step install the virtual machine; inst-vm %}
 After downloading the virtual machine, double click it. VirtualBox is now
 going to start, and ask you to import the virtual machine. Click import.
 {% endsi_step %}
@@ -372,7 +372,7 @@ To make sure that your Crazyflie has all the latest features you should always u
 {% endsi_step %}
 
 {% si_step connect to the Crazyflie; connect-pc-client %}
-* In the Crazyflie client click the __Scan__ button in top left corner. The radio settings for you Crazyflie is displayed in the drop-down list.
+* In the Crazyflie client click the __Scan__ button in top left corner. The radio settings for your Crazyflie is displayed in the drop-down list.
 * Choose your Crazyflie from the drop-down list.
 
 {% img Connect dialog; wide; /images/getting-started/connect_to_the_crazyflie.PNG %}
