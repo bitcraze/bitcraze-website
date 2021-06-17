@@ -10,6 +10,7 @@ page_id: hacks-projects-investigations
 * {% id_link lh-deck-other-hardware %}
 * {% id_link led-deck-on-top %}
 * {% id_link solder-deck-pins %}
+* {% id_link debug-adapter-info %}
 
 ## Projects
 ### Flying with Kinect and ZMQ
