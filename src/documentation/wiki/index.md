@@ -40,3 +40,8 @@ There are a lot of interesting things to investigate in the Crazyflie echosystem
 * {% id_link accuracy-loco %}
 * {% id_link max-range-loco %}
 
+## Guides
+* {% id_link coding-standards %}
+
+
+
