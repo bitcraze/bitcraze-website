@@ -42,6 +42,7 @@ There are a lot of interesting things to investigate in the Crazyflie echosystem
 
 ## Guides
 * {% id_link coding-standards %}
+* {% id_link docker-builder-images %}
 
 
 
