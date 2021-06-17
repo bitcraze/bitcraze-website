@@ -12,7 +12,7 @@ The docker images that are used when building modules are called builders and co
 
 The builder images are also used when building the project on our CI server at [travis](https://travis-ci.org/bitcraze), why it can be considered the official build environment. To understand how the images are used on travis, take a look in the .travis.yml file in the root of projects.
 
-The source code can be found on [github - bitcraze/toolbelt]([https://github.com/bitcraze/toolbelt). 
+The source code can be found on [github - bitcraze/toolbelt](https://github.com/bitcraze/toolbelt). 
 ## Installation and usage 
 
 Instructions on how to install and use the toolbelt are available in the [read me](https://github.com/bitcraze/toolbelt) file of the repository.
