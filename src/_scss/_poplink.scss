@@ -1,0 +1,53 @@
+// Poplink - link popup box
+.poplink {
+  i {
+    font-size: 80%;
+  }
+}
+
+.poplinkcontainer {
+  visibility: hidden;
+  width: max-content;
+  max-width: 400px;
+  background-color: $poplink-background-color;
+  border-radius: 6px;
+  border: 1px black solid;
+  padding: 10px 10px 0px 10px;
+  position: absolute;
+  z-index: 1;
+  cursor: pointer;
+  p {
+    line-height: 10px;
+  }
+
+}
+
+// poplink popup arrow
+.poplinkcontainer::after {
+  content: "";
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  margin-left: -10px;
+  border-width: 10px;
+  border-style: solid;
+  border-color: #555 transparent transparent transparent;
+}
+
+// Toggle this class - hide and show the poplink popup
+.poplinkShow {
+  visibility: visible;
+  -webkit-animation: poplinkFadeIn 0.5s;
+  animation: poplinkFadeIn 0.5s;
+}
+
+// Poplink animations
+@-webkit-keyframes poplinkFadeIn {
+  from {opacity: 0;}
+  to {opacity: 1;}
+}
+
+@keyframes poplinkFadeIn {
+  from {opacity: 0;}
+  to {opacity:1 ;}
+}

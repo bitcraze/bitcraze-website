@@ -1,0 +1,14 @@
+---
+content_dir: _poplink
+poplinks:
+  # The keys for products are based on the last part
+  # of the url in the store to make it easy to find it
+  # when writing documentation
+  loco-positioning-deck:
+    title: Loco Positioning deck
+    default-link: /products/loco-positioning-deck/
+    content: loco-positioning-deck.md
+  led-ring-deck:
+    title: LED-ring deck
+    default-link: /products/led-ring-deck/
+    content: led-ring-deck.md

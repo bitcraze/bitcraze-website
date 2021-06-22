@@ -7,7 +7,6 @@ class TestLink < Testbase
 
   def setup
     @site_mock = MiniTest::Mock.new()
-    @site_mock = MiniTest::Mock.new()
 
     @pages = []
     @site_mock.expect(:pages, @pages)

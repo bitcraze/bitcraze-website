@@ -13,8 +13,8 @@
     <script src="//code.jquery.com/jquery-2.1.4.min.js"></script>
     <script type='text/javascript' src='/js/jquery.smooth-scroll.min.js'></script>
 
-    <script type='text/javascript' src='/js/cookiepopup.js'></script>
-    <script type='text/javascript' src='/js/kraken.js'></script>
+    <script type='text/javascript' src='/js/cookiepopup.js?t={{ site.time | date: "%Y%m%d-%H%M%S"}}'></script>
+    <script type='text/javascript' src='/js/kraken.js?t={{ site.time | date: "%Y%m%d-%H%M%S"}}'></script>
     <script>
         window.addEventListener("DOMContentLoaded", function(){
             cookiepopup.start();
