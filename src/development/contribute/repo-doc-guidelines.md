@@ -84,16 +84,18 @@ Or relative links
 
 Some examples:
 
-| destination | markdown |
-|----------|-------------|
-| The file `docs/my_page1/index.md`| `[text](/docs/my_page1/index.md)` |
-| The file `docs/my_page2.md`| `[text](/docs/my_page2.md)` |
-| A page on the Bitcraze web | `[tutorial](https://www.bitcraze.io/documentation/tutorials/getting-started-with-crazyflie-2-x/)` |
-| A page in a different repo doc | `[Flashing](https://www.bitcraze.io/documentation/repository/crazyflie-firmware/master/building-and-flashing/flashing/)` |
-| An external repo on github | `[repository](https://github.com/adam-p/markdown-here)` |
-| A source file in the same repo. Always link to master on github, it will be converted to the correct tag when the docs is built | `[estimator.h](https://github.com/bitcraze/crazyflie-firmware/blob/master/src/modules/interface/estimator.h)` |
-| A source file in a different Bitcraze repo on github. Link to a specific version (tag) | `[commander.py](https://github.com/bitcraze/crazyflie-lib-python/blob/0.1.14.2/cflib/crazyflie/commander.py)` |
-| An external web site | `[quadcopter](https://en.wikipedia.org/wiki/Quadcopter)` |
+| destination                                                                                                                     | markdown                                                                                                                 |
+|---------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------|
+| The file `docs/my_page1/index.md`                                                                                               | `[text](/docs/my_page1/index.md)`                                                                                        |
+| The file `docs/my_page2.md`                                                                                                     | `[text](/docs/my_page2.md)`                                                                                              |
+| A page on the Bitcraze web                                                                                                      | `[tutorial](https://www.bitcraze.io/documentation/tutorials/getting-started-with-crazyflie-2-x/)`                        |
+| A page in a different repo doc                                                                                                  | `[Flashing](https://www.bitcraze.io/documentation/repository/crazyflie-firmware/master/building-and-flashing/flashing/)` |
+| An external repo on github                                                                                                      | `[repository](https://github.com/adam-p/markdown-here)`                                                                  |
+| A source file in the same repo. Always link to master on github, it will be converted to the correct tag when the docs is built | `[estimator.h](https://github.com/bitcraze/crazyflie-firmware/blob/master/src/modules/interface/estimator.h)`            |
+| A source file in a different Bitcraze repo on github. Link to a specific version (tag)                                          | `[commander.py](https://github.com/bitcraze/crazyflie-lib-python/blob/0.1.14.2/cflib/crazyflie/commander.py)`            |
+| Documentation in a different Bitcraze repo.                                                                                     | `[firmware documentation](https://www.bitcraze.io/documentation/repository/crazyflie-firmware/master/)`                  |
+| An external web site                                                                                                            | `[quadcopter](https://en.wikipedia.org/wiki/Quadcopter)`                                                                 |
+| A header in the same file. The header element id is generated from the title (lower case and replace space with dash)           | `[link to Other section](#other-section)`                                                                                |
 
 ### Diagrams
 
