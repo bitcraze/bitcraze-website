@@ -83,7 +83,7 @@ Making sure things are ready in time for the right price and shipped to the
 right place takes a lot of work.
 
 #### Internal and external systems
-Maintaining and developing systems such as the web, forum, wiki, build servers,
+Maintaining and developing systems such as the web, forum, build servers,
 supply chain tracking tools and similar.
 
 #### Business development, strategy and the future

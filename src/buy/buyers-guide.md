@@ -24,7 +24,7 @@ and [IOS](https://itunes.apple.com/us/app/crazyflie-2.0/id946151480?mt=8) device
 {% row_text %}
 The [Crazyradio PA](https://store.bitcraze.io/products/crazyradio-pa)
 enables you to connect the Crazyflie 2.X to a computer. Connect
-a [gamepad](https://wiki.bitcraze.io/projects:crazyflie:pc_utils:inputdevices)
+a [gamepad](/documentation/repository/crazyflie-clients-python/master/userguides/inputdevices/)
 to the computer and run our client software to control the Crazyflie 2.X.
 {% endrow_text %}
 {% row_links %}
@@ -47,7 +47,7 @@ even when you are flying!
 All software, firmware as well as clients on the computer is open source and the
 source code is available for you to play with as you like.
 
-You probably also want a [gamepad](https://wiki.bitcraze.io/projects:crazyflie:pc_utils:inputdevices)
+You probably also want a [gamepad](/documentation/repository/crazyflie-clients-python/master/userguides/inputdevices/)
 to fly the Crazyflie 2.X when connected to the computer.
 {% endrow_text %}
 {% row_links %}

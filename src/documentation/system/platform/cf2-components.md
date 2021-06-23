@@ -41,10 +41,10 @@ redirects:
 4.  **M4 connector**: Motor 4 connector
 5.  **STM32F405 debug connector**: Connector for debugging the
     STM32F405 using SWD. For easy access use our [debug adapter
-    kit](https://wiki.bitcraze.io/projects:crazyflie2:debugadapter:index).
+    kit]({% id_url product-debug-adapter-kit %}).
 6.  **nRF51822 debug pads**: Pads for debugging the nRF51822 using
     SWD. For easy access use our [debug adapter
-    kit](https://wiki.bitcraze.io/projects:crazyflie2:debugadapter:index).
+    kit]({% id_url product-debug-adapter-kit %}).
 7.  **Expansion board orientation indicator**: This indicator
     should match the expansion boards
 8.  **STM32F405 micro controller**: The STM32F405 micro controller

@@ -111,14 +111,17 @@ the possibility to extend the platform with new hardware.
 
 All our projects are open and are hosted over at GitHub. This is also the place
 where you can suggest new features, report issues and find current issues that
-needs fixing. Apart from this we also host a wiki and an active forum. The wiki
+needs fixing.  The github repositories also 
 contains documentation of our platform, guides on how to develop and use it as
 well as documentation of different experiments and hacks that we and other have
-done.
+done. 
 
-The forum is used to get support. If you feel like contributing we accept
-pull-requests for all our software/firmware (after review and testing) and also
-let users get write access to our wiki. This is a great resource for us since
-there are lots of things we miss and need help fixing.
+Apart from this we also host an active forum which is used to get support. 
+
+If you feel like contributing we accept
+pull-requests for all our software/firmware (after review and testing). This is a great resource for us since
+there are lots of things we miss and need help fixing. 
+
+Also it would be very useful to answer any forum-posts that you have knowledge about as well.
 
 Discord is to connect directly with our users, to discuss our platform or just show off some project that they have done.
