@@ -8,44 +8,31 @@ redirects:
 
 
 Here is a list of expansion decks that are available for the Crazyflie 2.X:
--   [LED-ring expansion
-    deck](https://wiki.bitcraze.io/projects:crazyflie2:expansionboards:ledring): The LED-ring
-    expansion deck
--   [Buzzer expansion
-    deck](https://wiki.bitcraze.io/projects:crazyflie2:expansionboards:buzzer): The Buzzer
-    expansion deck
--   [Qi expansion deck](https://wiki.bitcraze.io/projects:crazyflie2:expansionboards:qi): The Qi
-    inductive charging expansion deck
--   [Qi 1.2 deck](https://wiki.bitcraze.io/projects:crazyflie2:expansionboards:qi1_2): Qi 1.2
-    compatible wireless charging deck
--   [Prototype expansion
-    deck](https://wiki.bitcraze.io/projects:crazyflie2:expansionboards:proto): The prototype
-    expansion deck
--   [Breakout expansion
-    deck](https://wiki.bitcraze.io/projects:crazyflie2:expansionboards:breakout): The breakout
-    expansion deck
--   [BigQuad expansion
-    deck](https://wiki.bitcraze.io/projects:crazyflie2:expansionboards:bigquad): Expansion deck
-    to build a bigger quad
--   [Micro SD expansion
-    deck](https://wiki.bitcraze.io/projects:crazyflie2:expansionboards:microsd): Expansion deck
-    to read, write files to SD-card.
--   [Z-ranger expansion
-    deck](https://wiki.bitcraze.io/projects:crazyflie2:expansionboards:zranger): Expansion deck
-    for precise height control.
--   [Bosch Sensortec expansion
-    deck](https://wiki.bitcraze.io/projects:crazyflie2:expansionboards:bosch): Expansion deck
-    with a variety of Bosch Sensortec sensors
--   [Lighthouse positioning
-    deck](https://wiki.bitcraze.io/projects:crazyflie2:expansionboards:lighthouse): Expansion
-    deck that supports the SteamVR Lighthouse positioning
--   [Motion capture marker
-    deck](https://wiki.bitcraze.io/projects:crazyflie2:expansionboards:mocapmarker): Expansion
-    deck where motion capture markers can easily be mounted
+
+| Expansion Deck | Description | Technical doc | Additional instructions | 
+|---|---|---|---|
+| {% id_link product-led-ring-deck%}|The LED-ring expansion deck |[datasheet](/documentation/hardware/led_ring_deck/led_ring_deck-datasheet.pdf), [schematics](/documentation/hardware/led_ring_deck/led-ring_revb.pdf) | {% id_link led-deck-on-top %}|
+| {% id_link product-buzzer-deck%}|The Buzzer expansion deck | [datasheet](/documentation/hardware/buzzer_deck/buzzer_deck-datasheet.pdf), [schematics](/documentation/hardware/buzzer_deck/buzzer-revc.pdf) | [Changing the sound](/documentation/repository/crazyflie-firmware/master/userguides/decks/buzzer-deck/) |
+| {% id_link product-qi-1-2-charger%}|Qi 1.2 compatible wireless charging deck| [datasheet](/documentation/hardware/qi_deck_1_2/qi_deck_1_2-datasheet.pdf), [schematics](/documentation/hardware/qi_deck_1_2/qi_1_2-revc.pdf)  | |
+| {% id_link product-prototyping-deck%}|The prototype expansion deck|[datasheet](/documentation/hardware/prototyping_deck/prototyping_deck-datasheet.pdf), [schematics](/documentation/hardware/prototyping_deck/prototyping-revb.pdf)   | |
+| {% id_link product-breakout-deck%}|The breakout expansion deck|[datasheet](/documentation/hardware/breakout_deck/breakout_deck-datasheet.pdf), [schematics](/documentation/hardware/breakout_deck/breakout-revc.pdf)   | |
+| {% id_link product-bigquad-deck%}|EARLY ACCESS Expansion deck to build a bigger quad| [datasheet](/documentation/hardware/big_quad_deck/big_quad_deck-datasheet.pdf), [schematics](/documentation/hardware/big_quad_deck/bigquad-rev-c.pdf)   | {% id_link bq-deck-build %}|
+| {% id_link product-sd-card-deck%}|Expansion deck to read, write files to SD-card| [datasheet](/documentation/hardware/sd_card_deck/sd_card_deck-datasheet.pdf), [schematics](/documentation/hardware/sd_card_deck/sdcard_revb.pdf)  | [Data Logging](/documentation/repository/crazyflie-firmware/master/userguides/decks/micro-sd-card-deck/) |
+| {% id_link product-z-ranger-deck-v2 %}|Expansion deck for precise height control.| [datasheet](/documentation/hardware/z_ranger_deck_2/z_ranger_deck_2-datasheet.pdf), [schematics](/documentation/hardware/z_ranger_deck_2/z-ranger_v2_reva.pdf) | |
+| {% id_link product-lighthouse-deck %}|Expansion deck that supports the SteamVR Lighthouse positioning| [datasheet](/documentation/hardware/lighthouse_deck/lighthouse_deck-datasheet.pdf), [schematics](/documentation/hardware/lighthouse_deck/lighthouse_deck-datasheet.pdf) | {% id_link lh-deck-other-hardware %} |
+| {% id_link product-motion-capture-marker-deck %}|Expansion deck where motion capture markers can easily be mounted|[datasheet](/documentation/hardware/passive_marker_deck/passive_marker_deck-datasheet.pdf), [schematics](/documentation/hardware/passive_marker_deck/passive-marker-deck-revc.pdf)  | |
+| {% id_link product-active-marker-deck %}|Expansion deck with active IR LED for motion capture markers | [datasheet](/documentation/hardware/active_marker_deck/active_marker_deck-datasheet.pdf), [schematics](/documentation/hardware/active_marker_deck/active-marker-deck_revd.pdf)| |
+| {% id_link product-loco-pos-deck %}|Expansion deck for the Loco positioning system |  [datasheet](/documentation/hardware/loco_deck/loco_deck-datasheet.pdf), [schematics](/documentation/hardware/loco_deck/loco_deck_revd.pdf) | [Modes explanation](/documentation/repository/crazyflie-firmware/master/userguides/decks/active-marker-deck/)|
+| {% id_link product-multi-ranger-deck %}|Expansion deck for detecting obstacles |  [datasheet](/documentation/hardware/multi_ranger_deck/multi_ranger_deck-datasheet.pdf), schematics [1](/documentation/hardware/multi_ranger_deck/multi-ranger-daughter-board-reve.pdf), [2](/documentation/hardware/multi_ranger_deck/multi-ranger-reve.pdf) | |
+| {% id_link product-flow-deck-v2 %} | Expansion deck for detecting flow and height |  [datasheet](/documentation/hardware/flow_deck_2/flow_deck_2-datasheet.pdf), [schematics](/documentation/hardware/flow_deck_2/flow-deck-v2-reva.pdf)| |
+
+### Additional information
 
 [Expansion board
-template](https://wiki.bitcraze.io/projects:crazyflie2:expansionboards:template): The Crazyflie
-2.0 expansion port template explained
+template](https://github.com/bitcraze/crazyflie2-exp-template-electronics): The Crazyflie
+2.0 expansion port template
+
+ {% id_link solder-deck-pins %}: Instructions to solder pins directly to the deck
 
 Mechanical architecture
 -----------------------
