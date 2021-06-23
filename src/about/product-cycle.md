@@ -50,7 +50,7 @@ implement the software.
 ## Product phase
 
 The product is now "ready". For us that is when the product can be used "as is"
-to some degree. For instance, the LED-ring deck can be plugged into the
+to some degree. For instance, the {% poplink led-ring-deck %} deck can be plugged into the
 Crazyflie and be controlled from the PC client without any programming. On the
 other hand, if coding is your thing, you can still dive into the code and do
 your thing. The functionality that is implemented will act as a starting point

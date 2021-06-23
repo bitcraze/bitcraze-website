@@ -1,0 +1,10 @@
+#!/usr/bin/env bash
+set -e
+
+# Clean the files created by jekyll for poplink dat to force poplink content to be re-generated
+# Use if you update the content of a poplink or add a new definition, also restart the server for changes to take effect
+
+scriptDir=$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )
+siteDir=$scriptDir/../../_site
+
+rm -r $siteDir/js/kraken.js

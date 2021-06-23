@@ -99,7 +99,7 @@ why not manufacture a [deck PCB](https://github.com/bitcraze/crazyflie2-exp-temp
 
 {% row_image_text_links I want to paint in the dark with a Crazyflie %}
 {% row_text %}
-The Crazyflie 2.X is fun to fly as is but adding the LED-ring deck and flying
+The Crazyflie 2.X is fun to fly as is but adding the {% poplink led-ring-deck %} and flying
 in the dark adds a new dimension. The RGB LEDs lets you chose any colour and with
 some coding any light sequence can be displayed, for instance controlled by the
 on board sensors.
@@ -109,14 +109,14 @@ the dark?
 {% row_links %}
 **What to buy:**
 
-* [The LED-ring deck](https://store.bitcraze.io/products/led-ring-deck)
+* {% poplink led-ring-deck %}
 {% endrow_links %}
 {% endrow_image_text_links %}
 
 
 {% row_image_text_links I want the Crazyflie to give feedback using sound and light %}
 {% row_text %}
-The LED-ring deck can be used to display light in any color and the Buzzer deck
+The {% poplink led-ring-deck %} can be used to display light in any color and the Buzzer deck
 can make sounds, useful for giving the user feedback. For automated implementation
 it can be very handy to indicate when the system is ready, error states or similar.
 {% endrow_text %}

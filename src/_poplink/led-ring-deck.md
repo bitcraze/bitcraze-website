@@ -4,4 +4,6 @@
 
 [Use from the python client](/documentation/repository/crazyflie-clients-python/master/userguides/userguide_client/flightcontrol_tab/)
 
+[Parmeters](/documentation/repository/crazyflie-firmware/master/api/params/#ring)
+
 [HW modifications](/documentation/wiki/led-deck-on-top/)
