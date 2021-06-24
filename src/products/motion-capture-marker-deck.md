@@ -35,8 +35,9 @@ This deck is developed in collaboration with [Qualisys](https://www.qualisys.com
 - {% id_link development-overview %}
 - {% id_link support-frequently-asked-questions %}
 - {% id_link support-getting-help %}
-- [Wiki](https://wiki.bitcraze.io/projects:crazyflie2:expansionboards:mocapmarker)
-- [Specifications](https://store.bitcraze.io/products/motion-capture-marker-deck)
+- {% id_link cf2_expansiondecks %}
+- [Datasheet](/documentation/hardware/passive_marker_deck/passive_marker_deck-datasheet.pdf)
+- [Schematics](/documentation/hardware/passive_marker_deck/passive-marker-deck-revc.pdf)
 
 ---
 

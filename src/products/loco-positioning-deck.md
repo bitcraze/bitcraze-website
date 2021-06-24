@@ -39,8 +39,10 @@ This product is intended to be used together with
 - {% id_link development-overview %}
 - {% id_link support-frequently-asked-questions %}
 - {% id_link support-getting-help %}
-- [Wiki](https://wiki.bitcraze.io/projects:lps:deck)
-- [Specifications](https://store.bitcraze.io/collections/decks/products/loco-positioning-deck)
+- {% id_link cf2_expansiondecks %}
+- [Datasheet](/documentation/hardware/loco_deck/loco_deck-datasheet.pdf)
+- [Schematics](/documentation/hardware/loco_deck/loco_deck_revd.pdf)
+- [Modes explained](/documentation/repository/crazyflie-firmware/master/userguides/decks/active-marker-deck/)
 
 ---
 

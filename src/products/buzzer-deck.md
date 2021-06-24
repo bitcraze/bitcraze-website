@@ -35,8 +35,10 @@ melodies pre-programmed that you can use.
 - {% id_link development-overview %}
 - {% id_link support-frequently-asked-questions %}
 - {% id_link support-getting-help %}
-- [Wiki](https://wiki.bitcraze.io/projects:crazyflie2:expansionboards:buzzer)
-- [Specifications](https://store.bitcraze.io/products/buzzer-deck)
+- {% id_link cf2_expansiondecks %}
+- [Datasheet](/documentation/hardware/buzzer_deck/buzzer_deck-datasheet.pdf)
+- [Schematics](/documentation/hardware/buzzer_deck/buzzer-revc.pdf)
+- [Changing the sound](/documentation/repository/crazyflie-firmware/master/userguides/decks/buzzer-deck/)
 
 ---
 

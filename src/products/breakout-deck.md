@@ -32,8 +32,9 @@ and attach the Crazyflie 2.X to it.
 - {% id_link buy-guide %}
 - {% id_link support-frequently-asked-questions %}
 - {% id_link support-getting-help %}
-- [Wiki](https://wiki.bitcraze.io/projects:crazyflie2:expansionboards:breakout)
-- [Specifications](https://store.bitcraze.io/collections/decks/products/breakout-deck)
+- {% id_link cf2_expansiondecks %}
+- [Datasheet](/documentation/hardware/breakout_deck/breakout_deck-datasheet.pdf)
+- [Schematics](/documentation/hardware/breakout_deck/breakout-revc.pdf)
 
 ---
 

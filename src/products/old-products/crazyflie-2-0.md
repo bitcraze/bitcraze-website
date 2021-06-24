@@ -178,8 +178,9 @@ it's a breeze to update.
 - {% id_link development-overview %}
 - {% id_link support-frequently-asked-questions %}
 - {% id_link support-getting-help %}
-- [Wiki](https://wiki.bitcraze.io/projects:crazyflie2:index)
-- [Specifications](https://store.bitcraze.io/products/crazyflie-2-0)
+- [Datasheet](/documentation/hardware/crazyflie_2_0/crazyflie_2_0-datasheet.pdf)
+- [Schematics](/documentation/hardware/crazyflie_2_0/crazyflie_2.0_rev.c_schematics.pdf)
+- {% id_link cf2_expansiondecks %}
 
 ---
 

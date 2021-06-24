@@ -31,8 +31,10 @@ it the ideal choice for everything from big laboratories to small classrooms.
 - {% id_link buy-guide %}
 - {% id_link support-frequently-asked-questions %}
 - {% id_link support-getting-help %}
-- [Wiki](https://wiki.bitcraze.io/projects:crazyflie2:expansionboards:lighthouse)
-- [Specifications](https://store.bitcraze.io/collections/decks/products/lighthouse-positioning-deck)
+- {% id_link cf2_expansiondecks %}
+- [Datasheet](/documentation/hardware/lighthouse_deck/lighthouse_deck-datasheet.pdf)
+- [Schematics](/documentation/hardware/lighthouse_deck/lighthouse_deck-datasheet.pdf)
+- {% id_link lh-deck-other-hardware %}
 
 ---
 

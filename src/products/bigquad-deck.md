@@ -27,8 +27,10 @@ With the BigQuad deck you can transform your Crazyflie 2.X to a bigger quad by c
 - {% id_link buy-guide %}
 - {% id_link support-frequently-asked-questions %}
 - {% id_link support-getting-help %}
-- [Wiki](https://wiki.bitcraze.io/projects:crazyflie2:expansionboards:bigquad)
-- [Specifications](https://store.bitcraze.io/collections/decks/products/bigquad-deck)
+- {% id_link cf2_expansiondecks %}
+- [Datasheet](/documentation/hardware/big_quad_deck/big_quad_deck-datasheet.pdf)
+- [Schematics](/documentation/hardware/big_quad_deck/bigquad-rev-c.pdf)
+- {% id_link bq-deck-build %}
 
 ---
 

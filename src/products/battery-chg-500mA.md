@@ -31,7 +31,7 @@ can even solder multiple chargers together for multi-battery charging.
 - {% id_link development-overview %}
 - {% id_link support-frequently-asked-questions %}
 - {% id_link support-getting-help %}
-- [Wiki](https://wiki.bitcraze.io/projects:accessories:chg500:index)
-- [Specifications](https://store.bitcraze.io/products/500ma-lipo-usb-charger)
+- [Datasheet](/documentation/hardware/lipo_charger_500ma/lipo_charger_500ma-datasheet.pdf)
+- [Schematics](/documentation/hardware/lipo_charger_500ma/chg500ma_reva.pdf)
 
 ---

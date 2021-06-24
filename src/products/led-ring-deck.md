@@ -46,8 +46,10 @@ facing downwards.
 - {% id_link development-overview %}
 - {% id_link support-frequently-asked-questions %}
 - {% id_link support-getting-help %}
-- [Wiki](https://wiki.bitcraze.io/projects:crazyflie2:expansionboards:ledring)
-- [Specifications](https://store.bitcraze.io/products/led-ring-deck)
+- {% id_link cf2_expansiondecks %}
+- [Datasheet](/documentation/hardware/led_ring_deck/led_ring_deck-datasheet.pdf)
+- [Schematics](/documentation/hardware/led_ring_deck/led-ring_revb.pdf)
+- {% id_link led-deck-on-top %}
 
 ---
 

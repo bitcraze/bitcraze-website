@@ -35,10 +35,10 @@ The maximum range for the ranger is 4 meters.
 - {% id_link development-overview %}
 - {% id_link support-frequently-asked-questions %}
 - {% id_link support-getting-help %}
-- [Wiki](https://wiki.bitcraze.io/projects:crazyflie2:expansionboards:zranger-v2)
-{% comment %}
-- [Specifications](https://store.bitcraze.io/products/z-ranger-deck-v2)
-{% endcomment %}
+- {% id_link cf2_expansiondecks %}
+- [Datasheet](/documentation/hardware/z_ranger_deck_2/z_ranger_deck_2-datasheet.pdf)
+- [Schematics](/documentation/hardware/z_ranger_deck_2/z-ranger_v2_reva.pdf)
+
 ---
 
 #### Tutorials

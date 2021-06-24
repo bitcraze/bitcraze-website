@@ -39,8 +39,9 @@ properties of the world around the Crazyflie?
 - {% id_link development-overview %}
 - {% id_link support-frequently-asked-questions %}
 - {% id_link support-getting-help %}
-- [Wiki](https://wiki.bitcraze.io/projects:crazyflie2:expansionboards:proto)
-- [Specifications](https://store.bitcraze.io/products/prototyping-deck)
+- {% id_link cf2_expansiondecks %}
+- [Datasheet](/documentation/hardware/prototyping_deck/prototyping_deck-datasheet.pdf)
+- [Schematics](/documentation/hardware/prototyping_deck/prototyping-revb.pdf)
 
 ---
 

@@ -35,8 +35,9 @@ Crazyflie 2.X.
 - {% id_link buy-guide %}
 - {% id_link support-frequently-asked-questions %}
 - {% id_link support-getting-help %}
-- [Wiki](https://wiki.bitcraze.io/projects:crazyflie2:expansionboards:qi)
-- [Specifications](https://store.bitcraze.io/collections/decks/products/qi-wireless-charging-deck)
+- {% id_link cf2_expansiondecks %}
+- [Datasheet](/documentation/hardware/qi_deck/qi_deck-datasheet.pdf)
+- [Schematics](/documentation/hardware/qi_deck/qi_revb1.pdf)
 
 ---
 

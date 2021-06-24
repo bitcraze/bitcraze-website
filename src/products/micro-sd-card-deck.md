@@ -35,8 +35,10 @@ of them.
 - {% id_link development-overview %}
 - {% id_link support-frequently-asked-questions %}
 - {% id_link support-getting-help %}
-- [Wiki](https://wiki.bitcraze.io/projects:crazyflie2:expansionboards:microsd)
-- [Specifications](https://store.bitcraze.io/products/sd-card-deck)
+- {% id_link cf2_expansiondecks %}
+- [Datasheet](/documentation/hardware/sd_card_deck/sd_card_deck-datasheet.pdf)
+- [Schematics](/documentation/hardware/sd_card_deck/sdcard_revb.pdf)
+- [Data Logging](/documentation/repository/crazyflie-firmware/master/userguides/decks/micro-sd-card-deck/)
 
 ---
 

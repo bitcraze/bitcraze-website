@@ -46,7 +46,10 @@ It also allows to start working on environment-aware problems like Simultaneous 
 - {% id_link development-overview %}
 - {% id_link support-frequently-asked-questions %}
 - {% id_link support-getting-help %}
-- [Wiki](https://wiki.bitcraze.io/projects:crazyflie2:expansionboards:multi-ranger)
+- {% id_link cf2_expansiondecks %}
+- [Datasheet](/documentation/hardware/multi_ranger_deck/multi_ranger_deck-datasheet.pdf)
+- [Schematics, deck](/documentation/hardware/multi_ranger_deck/multi-ranger-reve.pdf)
+- [Schematics, daughter board](/documentation/hardware/multi_ranger_deck/multi-ranger-daughter-board-reve.pdf)
 
 ---
 
