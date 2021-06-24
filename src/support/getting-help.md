@@ -22,8 +22,7 @@ best to help.
 {% endsi_step %}
 
 {% si_step I have more questions %}
-Have a look at our {% id_link support-frequently-asked-questions %}
-or [Wiki](//wiki.bitcraze.io). If you're still not finding what you need post
+Have a look at our {% id_link support-frequently-asked-questions %}. If you're still not finding what you need post
 a new topic in the [Forum](//forum.bitcraze.io)
 {% endsi_step %}
 
@@ -37,9 +36,8 @@ different sources:
 
 * [GitHub](https://www.github.com/bitcraze): Contains documentation on how
 to get the source code running for each of our projects.
-* [Wiki](//wiki.bitcraze.io): Contains technical information such as protocols,
-architecture and various formats. Also contains hardware specific information
-such as schematics.
+* [Repository docs](/documentation/repository/): Contains technical information such as protocols,
+architecture and various formats. 
 {% endsi_step %}
 
 {% si_intro Shipping and logistics issues %}
@@ -70,11 +68,11 @@ assistance. Otherwise contact the distribution where you ordered the products.
 Accidents happen and sometimes hardware breaks. In order to get you back on
 track there's a few places you can get help:
 
-* [Spare parts](//store.bitcraze.io/collections/spare-parts): Our shop has multiple spare parts
-* [Wiki](//wiki.bitcraze.io): Our wiki contains schematics for all our products
-and for some of our products there's also a list of spare electronic components
+* [Spare parts](//store.bitcraze.io/collections/spare-parts): Our shop has multiple spare parts.
+* [Expansion decks](/documentation/system/platform/cf2-expansiondecks/): Our web contains all kind of information of expansion decks, including schematics.
+* [Crazyflie 2.1](/products/crazyflie-2-1/) contains schematics of the crazyflie 2.1
 * [Forum](//forum.bitcraze.io): We handle most of our support in our forum.
 Chances are that if you're having issues someone else has (or will have) as well.
 Create a new topic in the correct forum and we (and the community) will do our
-best to help
+best to help!
 {% endsi_step %}

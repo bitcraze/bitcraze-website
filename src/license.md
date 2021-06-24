@@ -16,8 +16,6 @@ editing and using them.
 
 The license for the content, code and samples on this site is stated in the [LICENSE.md](https://github.com/bitcraze/bitcraze-website/blob/master/LICENSE.md) file.
 
-The license for the content of wiki.bitcraze.io is [CC BY-SA 3.0](http://creativecommons.org/licenses/by-sa/3.0/)
-
 ## Licenses for other projects
 
 The license for each project is documented in the source code in the

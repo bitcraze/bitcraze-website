@@ -21,7 +21,8 @@ Follow this guide to [update firmware in the Crazyflie]({% id_url getting-starte
 {% endsi_intro %}
 
 {% si_step Check compatibility %}
-Check that your Android device supports Bluetooth smart/low energy and your Android version is equal or greater than 4.4. Also check the [compatibility list](https://wiki.bitcraze.io/doc:crazyflie:client:cfandroid:index#android_device_compatibility) in the wiki.
+Check that your Android device supports Bluetooth smart/low energy and your Android version is equal or greater than 4.4. Also check the [compatibility list](/documentation/repository/crazyflie-android-client/master/userguides/user-instructions.md#Android-device-compatibility)
+.
 {% endsi_step %}
 
 {% si_step Do not pair%}

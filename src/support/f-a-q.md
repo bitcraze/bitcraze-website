@@ -33,7 +33,7 @@ Here is a list of requirements for the mobile device:
 * Runs Android 4.4 or newer
 * Runs iOS 7.1 or newer
 
-Since Android is available on many different devices, it is not certain it works even though it fulfills the requirements above. We have therefore created a [list of devices](https://wiki.bitcraze.io/doc:crazyflie:client:cfandroid:index#android_device_compatibility)
+Since Android is available on many different devices, it is not certain it works even though it fulfills the requirements above. We have therefore created a [list of devices](/documentation/repository/crazyflie-android-client/master/userguides/user-instructions.md#Android-device-compatibility)
 it has been tested on.
 {% endcollapse_section %}
 

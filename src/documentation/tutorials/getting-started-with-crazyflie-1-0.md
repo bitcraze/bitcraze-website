@@ -7,9 +7,8 @@ redirects:
 ---
 
 {% si_intro Crazyflie assembly %}
-The Crazyflie is sold as a kit, it requires some assembly and soldering. The
-wiki contains [Assembly instructions](//wiki.bitcraze.io/projects:crazyflie:mechanics:assembly).
-There is also a video describing the assembly steps:
+The Crazyflie is sold as a kit, it requires some assembly and soldering.
+There is  a video describing the assembly steps:
 
 {% youtube KeqiUPIDpV8; medium; 16by9 %}
 {% endsi_intro %}
@@ -26,10 +25,10 @@ Any gamepad with at least four axes will work. The following gamepads are suppor
 
 Other gamepads can be configured in the Crazyflie client software.
 
-The Crazyradio dongle shall also be connected to the computer. The wiki
-contains the [Windows driver installation instructions](//wiki.bitcraze.io/doc:crazyradio:install_windows_zadig).
+The Crazyradio dongle shall also be connected to the computer. The documentation
+contains the [Windows driver installation instructions](/documentation/repository/crazyradio-firmware/master/building/usbwindows/).
 Mac and Linux does not require drivers but Linux requires
-[some configuration](//wiki.bitcraze.io/projects:virtualmachine:create_vm?s[]=udev#adding_udev_rules_for_crazyradio).
+[some configuration](/documentation/repository/crazyflie-lib-python/master/installation/usb_permissions/).
 {% endsi_intro %}
 
 
@@ -47,7 +46,7 @@ running the software directly on your machine or using our virtual machine.
 The windows installer can be downloaded from
 [GitHub](https://github.com/bitcraze/crazyflie-clients-python/releases)
 It installs the Crazyflie PC client. The Crazyradio USB dongle driver has to be
-[installed independently](//wiki.bitcraze.io/doc:crazyradio:install_windows_zadig).
+[installed independently](/documentation/repository/crazyradio-firmware/master/building/usbwindows/).
 {% endsi_step %}
 
 
@@ -63,7 +62,7 @@ file. The package for Linux and Mac can be downloaded from
 We provide a virtual machine running a Linux distribution pre-installed with
 all the software required to use the Crazyflie but also to develop with it. The
 virtual machine download link can be found on the
-[virtual machine wiki page](//wiki.bitcraze.io/projects:virtualmachine:index).
+[virtual machine release download page](https://github.com/bitcraze/bitcraze-vm/releases/).
 
 The virtual machine comes as a standard OVA file which means that it can run
 with many virtualization applications. However it has been setup and mostly tested
@@ -95,14 +94,8 @@ Crazyflie is now ready to fly!
 
 
 {% si_intro More information %}
-The main sources of information for the Crazyflie are the wiki and the forum.
-The wiki is open to contribution, just drop us a mail for an account. The forum
+The main sources of information for the Crazyflie are the documentation and the forum.
+The dpcumentation on the web is open to contribution, which is accessible with a github account. The forum
 is the first line of support and you can register online to it.
 
-More information can be found in our [wiki](//wiki.bitcraze.io):
-
-* [Assembly instruction](//wiki.bitcraze.io/projects:crazyflie:mechanics:assembly)
-* [GUI user guide](//wiki.bitcraze.io/doc:crazyflie:client:pycfclient:index)
-* [More in-depth user guide](//wiki.bitcraze.io/projects:crazyflie:userguide:index)
-* [Software and firmware download](//wiki.bitcraze.io/misc:downloads:index)
 {% endsi_intro %}

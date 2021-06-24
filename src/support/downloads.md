@@ -21,10 +21,8 @@ Latest stable releases for Win/Mac OSX/Linux can be found
 Latest stable release can be found
 [here](https://github.com/bitcraze/crazyflie-release/releases "GitHub releases for crazyflie-firmware").
 
-[Update](//wiki.bitcraze.io/doc:crazyflie:client:pycfclient:index?&amp;#firmware_upgrade)
-using the python client and a Crazyradio, or from a mobile device. To
-[update over USB](//wiki.bitcraze.io/projects:crazyflie2:development:dfu)
-(only STM32 in Crazyflie 2.X) use the DFU or BIN from the latest STM32
+[Update](/documentation/repository/crazyflie-clients-python/master/userguides/userguide_client/#firmware-upgrade)
+using the python client and a Crazyradio, or from a mobile device. 
 [release](https://github.com/bitcraze/crazyflie-firmware/releases).
 
 ## Crazyradio and Crazyradio PA firmware
@@ -34,5 +32,5 @@ Latest stable releases can be found [here](https://github.com/bitcraze/crazyradi
 
 ## Bitcraze Virtual Machine
 
-See the VM download section on the [wiki](//wiki.bitcraze.io/projects:virtualmachine:index#download)
+See the VM download section on [github](https://github.com/bitcraze/bitcraze-vm/releases/)
 for the latest version. You will also find older versions there if you need them.
