@@ -179,8 +179,10 @@ it's a breeze to update.
 - {% id_link development-overview %}
 - {% id_link support-frequently-asked-questions %}
 - {% id_link support-getting-help %}
-- [Wiki](https://wiki.bitcraze.io/projects:crazyflie2:index)
-- [Specifications](https://store.bitcraze.io/products/crazyflie-2-1)
+- [Datasheet](/documentation/hardware/crazyflie_2_1/crazyflie_2_1-datasheet.pdf)
+- [Component Placement](/documentation/hardware/crazyflie_2_1/cf2.1_component_placement.pdf)
+- [Schematics](/documentation/hardware/crazyflie_2_1/crazyflie_2.1_schematics_rev.b.pdf)
+- [Store](https://store.bitcraze.io/products/crazyflie-2-1)
 
 ---
 

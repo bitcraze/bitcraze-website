@@ -34,8 +34,10 @@ pinouts.
 - {% id_link development-overview %}
 - {% id_link support-frequently-asked-questions %}
 - {% id_link support-getting-help %}
-- [Wiki](https://wiki.bitcraze.io/projects:crazyflie2:debugadapter:index)
-- [Specifications](https://store.bitcraze.io/products/debug-adapter)
+- {% id_link debug-adapter-info %}
+- [Datasheet](/documentation/hardware/debug_adapter/debug_adapter-datasheet.pdf)
+- [Schematics](/documentation/hardware/debug_adapter/debug-adapter_revc.pdf)
+- [Store](https://store.bitcraze.io/products/debug-adapter)
 
 ---
 

@@ -124,5 +124,6 @@ it's a breeze to update.
 - {% id_link buy-guide %}
 - {% id_link development-overview %}
 - {% id_link support-getting-help %}
-- [Wiki](https://wiki.bitcraze.io/projects:bolt:index)
-- [Specifications](https://store.bitcraze.io/products/crazyflie-bolt)
+- [Datasheet](/documentation/hardware/crazyflie_bolt/crazyflie_bolt-datasheet.pdf)
+- [Schematics](/documentation/hardware/crazyflie_bolt/crazyflie_bolt_revf.pdf)
+- [Store](https://store.bitcraze.io/products/crazyflie-bolt)

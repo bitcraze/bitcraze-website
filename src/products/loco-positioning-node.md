@@ -32,8 +32,9 @@ absolute position of objects carrying Tags can be calculated.
 - {% id_link buy-guide %}
 - {% id_link support-frequently-asked-questions %}
 - {% id_link support-getting-help %}
-- [Wiki](https://wiki.bitcraze.io/projects:lps:node)
-- [Specifications](https://store.bitcraze.io/collections/positioning/products/loco-positioning-node)
+- [Datasheet](/documentation/hardware/loco_node/loco_node-datasheet.pdf)
+- [Schematics](/documentation/hardware/loco_node/loco_node_reve.pdf)
+- [Store](https://store.bitcraze.io/collections/positioning/products/loco-positioning-node)
 
 ---
 

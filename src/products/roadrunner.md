@@ -38,8 +38,9 @@ latency 2.4 GHz radio.
 - {% id_link buy-guide %}
 - {% id_link support-frequently-asked-questions %}
 - {% id_link support-getting-help %}
-- [Wiki](https://wiki.bitcraze.io/projects:lps:roadrunner)
-- [Specifications](https://store.bitcraze.io/collections/positioning/products/roadrunner)
+- [Datasheet](/documentation/hardware/roadrunner/roadrunner-datasheet.pdf)
+- [Schematics](/documentation/hardware/roadrunner/roadrunner-revb.pdf)
+- [Store](https://store.bitcraze.io/collections/positioning/products/roadrunner)
 
 ---
 
