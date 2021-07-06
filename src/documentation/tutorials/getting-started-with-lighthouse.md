@@ -53,6 +53,17 @@ Before setting up the system you need to configure the channel (aka mode) of the
 {% endsi_intro %}
 
 
+{% si_step Make sure you have permission to write to serial ports %}
+In Linux, for non-root users, there is no read/write permission for serial devices by default. So if you are on a Linux system you will have to make sure that your user has the correct access rights. This can be done by adding your user to the `dialout` group and restarting. Adding a user to a group in Linux is done using the usermod command, which require root permissions:
+
+```
+$ sudo usermod -aG dialout [username]
+```
+
+Replace `[username]` above with your own username and after running the command restart your computer and you will then have the correct access to write to serial ports on Linux.
+
+{% endsi_step %}
+
 {% si_step Open the Crazyflie Client and click the Lighthouse Tab %}
 Choose the _Lighthouse Positioning_ tab.
 
