@@ -9,10 +9,12 @@ redirects:
 This page contains events where Bitcraze exhibited, describing demos and similar
 information.
 
-* [ICRA 2019](/about/events/icra2019/)
-* [IMAV 2019](/about/events/imav2019/)
-* [IROS 2019](/about/events/iros2019/)
-* [IOT 2020](/about/events/iot2020/)
-* [Bitcraze Tutorial 1 2020](/about/events/bct12020/)
-* [AIdeck Workshop 1 2021](/about/events/adws12021)
-* [ICRA 2021 Swarm Robotics Workshop](/about/events/icra2021)
+* {% id_link icra-2019 %}
+* {% id_link imav-2019 %}
+* {% id_link iros-2019 %}
+* {% id_link epfl-2020 %}
+* {% id_link iot-2020 %}
+* {% id_link bct-1-2020 %}
+* {% id_link adws-1-2021%}
+* {% id_link icra-2021 %}
+* {% id_link epfl-2021 %}
