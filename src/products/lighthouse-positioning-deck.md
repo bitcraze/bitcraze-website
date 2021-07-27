@@ -33,7 +33,7 @@ it the ideal choice for everything from big laboratories to small classrooms.
 - {% id_link support-getting-help %}
 - {% id_link cf2_expansiondecks %}
 - [Datasheet](/documentation/hardware/lighthouse_deck/lighthouse_deck-datasheet.pdf)
-- [Schematics](/documentation/hardware/lighthouse_deck/lighthouse_deck-datasheet.pdf)
+- [Schematics](/documentation/hardware/lighthouse_deck/lighthouse_deck-revd.pdf)
 - {% id_link lh-deck-other-hardware %}
 
 ---
