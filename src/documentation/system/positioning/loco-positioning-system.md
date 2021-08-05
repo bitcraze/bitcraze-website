@@ -86,9 +86,9 @@ The Loco Positioning system has mainly been designed for indoor use.
 
 {% row_image_text_links System components %}
 {% row_text %}
-The key components of the system are the __Loco Positioning Deck__ and the __Loco Positioning Node__.
+The key components of the system are the **{% poplink loco-positioning-deck %}** and the __Loco Positioning Node__.
 
-The {% id_link product-loco-pos-deck %} is a Crazyflie 2.X expansion deck with the Loco
+The {% poplink loco-positioning-deck %} is a Crazyflie 2.X expansion deck with the Loco
 Positioning Tag functionality.
 
 The {% id_link product-loco-pos-node %} is a multi functional node in a Loco Positioning system,

@@ -11,7 +11,7 @@ Here is a list of expansion decks that are available for the Crazyflie 2.X:
 
 | Expansion Deck | Description | Technical doc | Additional instructions | 
 |---|---|---|---|
-| {% id_link product-led-ring-deck%}|The LED-ring expansion deck |[datasheet](/documentation/hardware/led_ring_deck/led_ring_deck-datasheet.pdf), [schematics](/documentation/hardware/led_ring_deck/led-ring_revb.pdf) | {% id_link led-deck-on-top %}|
+| {% poplink led-ring-deck %}|The LED-ring expansion deck |[datasheet](/documentation/hardware/led_ring_deck/led_ring_deck-datasheet.pdf), [schematics](/documentation/hardware/led_ring_deck/led-ring_revb.pdf) | {% id_link led-deck-on-top %}|
 | {% id_link product-buzzer-deck%}|The Buzzer expansion deck | [datasheet](/documentation/hardware/buzzer_deck/buzzer_deck-datasheet.pdf), [schematics](/documentation/hardware/buzzer_deck/buzzer-revc.pdf) | [Changing the sound](/documentation/repository/crazyflie-firmware/master/userguides/decks/buzzer-deck/) |
 | {% id_link product-qi-1-2-charger%}|Qi 1.2 compatible wireless charging deck| [datasheet](/documentation/hardware/qi_deck_1_2/qi_deck_1_2-datasheet.pdf), [schematics](/documentation/hardware/qi_deck_1_2/qi_1_2-revc.pdf)  | |
 | {% id_link product-prototyping-deck%}|The prototype expansion deck|[datasheet](/documentation/hardware/prototyping_deck/prototyping_deck-datasheet.pdf), [schematics](/documentation/hardware/prototyping_deck/prototyping-revb.pdf)   | |
@@ -22,7 +22,7 @@ Here is a list of expansion decks that are available for the Crazyflie 2.X:
 | {% id_link product-lighthouse-deck %}|Expansion deck that supports the SteamVR Lighthouse positioning| [datasheet](/documentation/hardware/lighthouse_deck/lighthouse_deck-datasheet.pdf), [schematics](/documentation/hardware/lighthouse_deck/lighthouse_deck-datasheet.pdf) | {% id_link lh-deck-other-hardware %} |
 | {% id_link product-motion-capture-marker-deck %}|Expansion deck where motion capture markers can easily be mounted|[datasheet](/documentation/hardware/passive_marker_deck/passive_marker_deck-datasheet.pdf), [schematics](/documentation/hardware/passive_marker_deck/passive-marker-deck-revc.pdf)  | |
 | {% id_link product-active-marker-deck %}|Expansion deck with active IR LED for motion capture markers | [datasheet](/documentation/hardware/active_marker_deck/active_marker_deck-datasheet.pdf), [schematics](/documentation/hardware/active_marker_deck/active-marker-deck_revd.pdf)| |
-| {% id_link product-loco-pos-deck %}|Expansion deck for the Loco positioning system |  [datasheet](/documentation/hardware/loco_deck/loco_deck-datasheet.pdf), [schematics](/documentation/hardware/loco_deck/loco_deck_revd.pdf) | [Modes explanation](/documentation/repository/crazyflie-firmware/master/userguides/decks/active-marker-deck/)|
+| {% poplink loco-positioning-deck %}|Expansion deck for the Loco positioning system |  [datasheet](/documentation/hardware/loco_deck/loco_deck-datasheet.pdf), [schematics](/documentation/hardware/loco_deck/loco_deck_revd.pdf) | [Modes explanation](/documentation/repository/crazyflie-firmware/master/userguides/decks/active-marker-deck/)|
 | {% id_link product-multi-ranger-deck %}|Expansion deck for detecting obstacles |  [datasheet](/documentation/hardware/multi_ranger_deck/multi_ranger_deck-datasheet.pdf), schematics [1](/documentation/hardware/multi_ranger_deck/multi-ranger-daughter-board-reve.pdf), [2](/documentation/hardware/multi_ranger_deck/multi-ranger-reve.pdf) | |
 | {% id_link product-flow-deck-v2 %} | Expansion deck for detecting flow and height |  [datasheet](/documentation/hardware/flow_deck_2/flow_deck_2-datasheet.pdf), [schematics](/documentation/hardware/flow_deck_2/flow-deck-v2-reva.pdf)| |
 
@@ -99,11 +99,11 @@ Deck info
 
 | VID  | PID  | ID            | Name               | Weight | Consumption                | Mount location | Details page                                                             |
 |------|------|---------------|--------------------|--------|----------------------------|----------------|--------------------------------------------------------------------------|
-| 0xBC | 0x01 | bcLedRing     | LED-ring           | 3.3g   | 0 - 700mA                  | Under          | [link](https://store.bitcraze.io/products/led-ring-deck)                 |
+| 0xBC | 0x01 | bcLedRing     | {% poplink led-ring-deck %} | 3.3g   | 0 - 700mA                  | Under          | [link](https://store.bitcraze.io/products/led-ring-deck)                 |
 | 0xBC | 0x02 | bcQi          | Qi charger         | 5g     | N/A                        | Under          | [link](https://store.bitcraze.io/products/qi-1-2-wireless-charging-deck) |
 | 0xBC | 0x04 | bcBuzzer      | Buzzer             | 1.8g   | 10mA                       | Under/Above    | [link](https://store.bitcraze.io/products/buzzer-deck)                   |
 | 0xBC | 0x05 | bcBigQuad     | Big quad           | 3.8g   | N/A                        | Under/Above    | [link](https://store.bitcraze.io/products/bigquad-deck)                  |
-| 0xBC | 0x06 | bcDWM         | Loco Positioning   | 3.3g   | 160mA                      | Under/Above    | [link](https://store.bitcraze.io/products/loco-positioning-deck)         |
+| 0xBC | 0x06 | bcDWM         | {% poplink loco-positioning-deck %}   | 3.3g   | 160mA                      | Under/Above    | [link](https://store.bitcraze.io/products/loco-positioning-deck)         |
 | 0xBC | 0x08 | bcUSD         | Micro-SD           | 1.7g   | ~30mA                      | Under/Above    | [link](https://store.bitcraze.io/products/sd-card-deck)                  |
 | 0xBC | 0x09 | bcZRanger     | Z-Ranger           | 1.3g   | ~15mA                      | Under          | [link](https://store.bitcraze.io/products/z-ranger-deck)                 |
 | 0xBC | 0x0A | bcFlow        | Flow               | 1.6g   | ~40mA                      | Under          | [link](https://store.bitcraze.io/products/flow-deck)                     |
@@ -132,11 +132,11 @@ two decks where the connections collide.
 |                           | UART1 | UART1 | I2C   | I2C   | STM32 IO | STM32 IO | STM32 IO | STM32 IO| UART2 | UART2 | SPI   | SPI   | SPI   | nRF51 IO | nRF51 IO |      |
 | Name                      | RX1   |  TX1  | SDA   | SCL   | IO1      |  IO2     | IO3      | IO4     | TX2   | RX2   | CLK   | MOSI  | MISO  | NIO1     | NIO2     | PWR  |
 |---------------------------|-------|-------|-------|-------|----------|----------|----------|---------|-------|-------|-------|-------|-------|----------|----------|------|
-| **bcLedRing**             |       |       |       |       |          |  PWM     |  PWM     |         |       |       |       |       |       |          |          | VCOM |
+| **{% poplink led-ring-deck %}**             |       |       |       |       |          |  PWM     |  PWM     |         |       |       |       |       |       |          |          | VCOM |
 | **bcQi**                  |       |       |       |       |          |          |          |         |       |       |       |       |       | GHG      |          | N/A  |
 | **bcGPS**                 | X     |  X    |       |       | *(PP)S*  |          | *(RST)*  |         | *(X)* | *(X)* |       |       |       |          | *(VBAT)* | VCOM |
 | **bcUSD**                 |       |       |       |       | *(CS)*   | *(CS)*   |  *(CS)*  | CS      |       |       |X      | X     |X      |          |          | VCC  |
-| **bcDWM**                 | IRQ   | RST   |       |       | CS       | *(IRQ)*  | *(RST)*  |         |       |       |X      | X     |X      |          |          | VCOM |
+| **{% poplink loco-positioning-deck %}**                 | IRQ   | RST   |       |       | CS       | *(IRQ)*  | *(RST)*  |         |       |       |X      | X     |X      |          |          | VCOM |
 | **bcBigQuad**             | *(X)* | *(X)* | *(X)* | *(X)* |          | **X**    | **X**    | *(X)*   | **X** | **X** | *(X)* | *(X)* | *(X)* |          |          | N/A  |
 | **bcBuzzer**              |       |       |       |       |          |          |          |         | PWM   | PWM   |       |       |       |          |          | N/A  |
 | **bcESP**                 |       |       |       |       |          |          |          | *(X)*   | X     | X     |       |       |       |          |          | N/A  |
@@ -159,10 +159,10 @@ This table shows which deck that works on which platform.
 
 |                           | Crazyflie 2.X  | Roadrunner|
 |---------------------------|----------------|-----------|
-| **LED-ring**              | yes            | yes       |
+| **{% poplink led-ring-deck %}**              | yes            | yes       |
 | **Qi charger**            | yes            | yes       |
 | **Micro-SD**              | yes            | *1        |
-| **Loco Positioning**      | yes            |           |
+| **{% poplink loco-positioning-deck %}**      | yes            |           |
 | **Big quad**              | yes            | yes       |
 | **Buzzer**                | yes            |           |
 | **bcESP**                 | yes            | yes       |
@@ -188,10 +188,10 @@ compatible.
 
  |                           | LED-ring | Qi charger | Micro-SD | Loco Positioning |Big quad  | Buzzer | bcESP | Z-Ranger | Flow    | Multi-ranger | Mocap marker deck | Lighthouse-4 | Active marker | AI deck |
  |---------------------------|----------|------------|----------|------------------|----------|--------|-------|----------|---------|--------------|-------------------|--------------|---------------|---------|
- | **LED-ring**              | -        |            | yes      | yes              |          | yes    | yes   |          |         | yes          | yes               | yes          | yes           | yes     |
+ | **{% poplink led-ring-deck %}**              | -        |            | yes      | yes              |          | yes    | yes   |          |         | yes          | yes               | yes          | yes           | yes     |
  | **Qi charger**            |          | -          | yes      | yes              | yes      | yes    | yes   |          |         | yes          | yes               | yes          | yes           | yes     |
  | **Micro-SD**              | yes      | yes        | -        | yes *1           | yes      | yes    | yes   | yes      | yes *1  | yes          | yes               | yes          | yes           | yes     |
- | **Loco Positioning**      | yes      | yes        | yes *1   | -                | yes      | yes    | yes   | yes      | yes     | yes          | yes               | *2           | yes           | *2      |
+ | **{% poplink loco-positioning-deck %}**      | yes      | yes        | yes *1   | -                | yes      | yes    | yes   | yes      | yes     | yes          | yes               | *2           | yes           | *2      |
  | **Big quad**              |          | yes        | yes      | yes              | -        |        |       | yes      |         | yes          | yes               | *2           | yes           | yes     |
  | **Buzzer**                | yes      | yes        | yes      | yes              |          | -      |       | yes      | yes     | yes          | yes               | yes          | yes           | yes     |
  | **bcESP**                 | yes      | yes        | yes      | yes              |          |        | -     | yes      | yes     | yes          | yes               | yes          | yes           | yes     |

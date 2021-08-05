@@ -16,7 +16,7 @@ These measurements are in no way meant to be a specification of the system prope
 
 ### The reference system 
 
-The reference system is based on the indoor explorer bundle: one Crazyflie with a Loco Positioning Deck and six Loco Positioning Anchors. See the [[doc:lps:index#reference_set-up|description of the reference system]] for details on the setup.
+The reference system is based on the indoor explorer bundle: one Crazyflie with a {% poplink loco-positioning-deck %} and six Loco Positioning Anchors. See the [[doc:lps:index#reference_set-up|description of the reference system]] for details on the setup.
 All measurements were done in the Two way ranging mode.
 
 ### The results

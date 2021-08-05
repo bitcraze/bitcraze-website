@@ -28,7 +28,7 @@ For more information on how to update the firmware, see the [update firmware in 
 
 You will also need the latest version of the [Crazyflie client](https://github.com/bitcraze/crazyflie-clients-python/releases).
 
-For mounting the Loco positioning deck check out the {% id_link getting-started-expansion-decks %} tutorial.
+For mounting the {% poplink loco-positioning-deck %} check out the {% id_link getting-started-expansion-decks %} tutorial.
 {% endsi_step %}
 
 {% si_intro Preparing the anchors %}

@@ -24,7 +24,7 @@ The **[Crazyflie 2.1](https://store.bitcraze.io/products/crazyflie-2-1)** was re
 
 The **[Crazyflie Bolt](https://store.bitcraze.io/products/crazyflie-bolt)** is a quadcopter control board that contains the same hardware components and firmware as the crazyflie, but supports connection of brushless motors of up to 8A per motor. It is intended for larger quadcopter platforms with greater lifting capacity and longer flight time, while still using the Crazyflie ecosystem. It has the same expansion bus as the other Crazyflie devices, making it compatible with the expansion decks.
 
-The last member of the family is the **[Roadrunner](https://store.bitcraze.io/products/roadrunner)**, the only device that is not a quadcopter. It also shares the core hardware and firmware with the Crazyflie but has an integrated Loco Positioning deck on the PCB. It can act as an stand alone positioning tag that is able to provide positioning support to any other (larger) platform than the crazyflie, for instance a ground robot.
+The last member of the family is the **[Roadrunner](https://store.bitcraze.io/products/roadrunner)**, the only device that is not a quadcopter. It also shares the core hardware and firmware with the Crazyflie but has an integrated {% poplink loco-positioning-deck %} on the PCB. It can act as an stand alone positioning tag that is able to provide positioning support to any other (larger) platform than the crazyflie, for instance a ground robot.
 
 **[Crazyflie 2.0](https://store.bitcraze.io/products/crazyflie-2-0)**, the predecessor of the Crazyflie 2.1 was designed and released in 2014. It is the original member of the family and is fully compatible with the Crazyflie 2.1.
 {% endrow_text %}

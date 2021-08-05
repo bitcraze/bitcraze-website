@@ -4,7 +4,7 @@ title: Solder pins to a deck
 page_id: solder-deck-pins
 ---
 
-To make the system more robust it could be a good idea to solder the pins to the top deck. Especially when using the Loco deck and when the drones are supposed to fly a lot.
+To make the system more robust it could be a good idea to solder the pins to the top deck. Especially when using the {% poplink loco-positioning-deck %} and when the drones are supposed to fly a lot.
 
 ![solder pins to deck](/images/documentation/wiki/solderpins2deck0.jpg)
 
