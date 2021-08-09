@@ -44,7 +44,7 @@ The PC needs a Crazyradio PA in order to communicate with the Crazyflie 2.X. Thi
 {% endrow_image_text_links %}
 
 
-{% row_image_text_links Components; /images/documentation/overview/mobile_thumbnail.jpg %}
+{% row_image_text_links Mobile Phone Clients; /images/documentation/overview/mobile_thumbnail.jpg %}
 {% row_text %}
 There are apps existing for controlling the Crazyflie 2.X on both [IOS](https://apps.apple.com/us/app/crazyflie-2-0/id946151480) and [Android](https://play.google.com/store/apps/details?id=se.bitcraze.crazyfliecontrol2) with Bluetooth LE communication.
 {% endrow_text %}

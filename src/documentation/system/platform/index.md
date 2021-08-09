@@ -18,6 +18,34 @@ The Crazyflie family is a range of devices with similar hardware and firmware, b
 {% endrow_full %}
 
 
+
+{% row_image_text_links Hardware Components; /images/documentation/overview/components_thumbnail.jpg %}
+{% row_text %}
+The Crazyflie consists of many hardware components and LED's that have all their own functionalities. The two most important components of the Crazyflie are the microprocessors: the **STM32F4** handles the main Crazyflie firmware with all the low-level and high-level controls and the **NRF51822** handles all the radio communication and power management.
+{% endrow_text %}
+{% row_links %}
+- [Crazyflie 2.X STM32F4 documentation](/documentation/repository/crazyflie-firmware/master/).
+- [Crazyflie 2.X NRF51 documentation](/documentation/repository/crazyflie2-nrf-firmware/master/).
+
+---
+
+- {% id_link cf2_component_explanation %}
+* {% id_link cf2_architecture %}
+* {% id_link cf2_coordinate_system %}
+{% endrow_links %}
+{% endrow_image_text_links %}
+
+
+{% row_image_text_links Expansion decks; /images/documentation/overview/expansiondecks_thumbnail.jpg %}
+{% row_text %}
+The Crazyflie can be enhanced by adding [expansion decks](https://store.bitcraze.io/collections/decks), which gives the Crazyflie extra capabilities in sensing, positioning or visualization. There is an extensive [range of decks](https://store.bitcraze.io/collections/decks) available, but the platform is also designed to make it easy to design and add custom decks, enabling the user to use sensors and other devices on the platform. The expansion bus exposes communication buses and GPIO pins to be used by decks as needed.
+{% endrow_text %}
+{% row_links %}
+* {% id_link cf2_expansiondecks %}
+* {% id_link buy-guide %}
+{% endrow_links %}
+{% endrow_image_text_links %}
+
 {% row_image_text_links Family tree; /images/documentation/overview/familytree_thumbnail.jpg %}
 {% row_text %}
 The **[Crazyflie 2.1](https://store.bitcraze.io/products/crazyflie-2-1)** was released in 2019 and is the base platform of the family. It is a small (27 grams) and durable quadcopter with an expansion port that enables the user to extend the hardware with expansion decks. The firmware is open source and the flexibility of the platform makes it ideal for research, education or other applications where openess and full control is important.
@@ -38,33 +66,11 @@ The last member of the family is the **[Roadrunner](https://store.bitcraze.io/pr
 
 * {% id_link buy-guide %}
 
------
 
-* {% id_link cf2_architecture %}
-* {% id_link cf2_coordinate_system %}
+
 
 {% endrow_links %}
 {% endrow_image_text_links %}
 
 
-{% row_image_text_links Expansion decks; /images/documentation/overview/expansiondecks_thumbnail.jpg %}
-{% row_text %}
-The Crazyflie can be enhanced by adding [expansion decks](https://store.bitcraze.io/collections/decks), which gives the Crazyflie extra capabilities in sensing, positioning or visualization. There is an extensive [range of decks](https://store.bitcraze.io/collections/decks) available, but the platform is also designed to make it easy to design and add custom decks, enabling the user to use sensors and other devices on the platform. The expansion bus exposes communication buses and GPIO pins to be used by decks as needed.
-{% endrow_text %}
-{% row_links %}
-* {% id_link cf2_expansiondecks %}
-* {% id_link buy-guide %}
-{% endrow_links %}
-{% endrow_image_text_links %}
 
-
-{% row_image_text_links Components; /images/documentation/overview/components_thumbnail.jpg %}
-{% row_text %}
-The Crazyflie consists of many hardware components and LED's that have all their own functionalities. The two most important components of the Crazyflie are the microprocessors: the **STM32F4** handles the main Crazyflie firmware with all the low-level and high-level controls and the **NRF51822** handles all the radio communication and power management.
-{% endrow_text %}
-{% row_links %}
-- {% id_link cf2_component_explanation %}
-- [Crazyflie 2.X STM32F4 documentation](/documentation/repository/crazyflie-firmware/master/).
-- [Crazyflie 2.X NRF51 documentation](/documentation/repository/crazyflie2-nrf-firmware/master/).
-{% endrow_links %}
-{% endrow_image_text_links %}

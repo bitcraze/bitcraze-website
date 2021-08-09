@@ -1,10 +1,12 @@
 ---
 layout: page
-title: Repositories
+title: Repository overview
 page_id: repository-overview
 redirects:
   - /docs/overview_repositories/
 ---
+
+Check out the {% id_link doc-nav %} if you want to have a tree like structure of the documentation or the {% id_link system-overview %} to have an overview of the eco-system.
 
 ## Python
 
@@ -12,8 +14,6 @@ redirects:
 |---| -----------------  |--------------| ----------------|
 |![pc with crazyflie radio PA](/images/documentation/overview/pc.png){:width="50px"}| [crazyflie-clients-python](https://github.com/bitcraze/crazyflie-clients-python) | [Docs](/documentation/repository/crazyflie-clients-python/master/) | This GitHub repository contains the source code for the python-based client for on the PC. This repository relies on the [crazyflie-lib-python](https://github.com/bitcraze/crazyflie-lib-python). The documentation also includes several user guides. |
 |![pc with crazyflie radio PA](/images/documentation/overview/pc.png){:width="50px"}|  [crazyflie-lib-python](https://github.com/bitcraze/crazyflie-lib-python) | [Docs](/documentation/repository/crazyflie-lib-python/master/) | This GitHub repository contains the source code for the python library client to control the Crazyflie from the PC. The documentation also includes the instructions to handle the USB access rights for the [Crazyradio PA](https://store.bitcraze.io/collections/accessories/products/crazyradio-pa)|
-|![Mobile Devices](/images/documentation/overview/phone.png){:width="50px"}| [crazyflie-android-client](https://github.com/bitcraze/crazyflie-android-client) | [Docs](/documentation/repository/crazyflie-android-client/master/)| The repository contains the source code of the [Android client app](https://play.google.com/store/apps/details?id=se.bitcraze.crazyfliecontrol2). The documentation also include instructions on how to use it.|
-|![Mobile Devices](/images/documentation/overview/phone.png){:width="50px"}| [crazyflie-ios-client](https://github.com/bitcraze/crazyflie2-ios-client) | [Docs](/documentation/repository/crazyflie2-ios-client/master/)| The repository contains the source code of the [IOS client app](https://apps.apple.com/us/app/crazyflie-2-0/id946151480). The documentation also include instructions on how to use it.|
 |![Loco Positioning System](/images/documentation/overview/lpssystem.png){:width="100px"}|[lps-tools](https://github.com/bitcraze/lps-tools ) | [Docs](/documentation/repository/lps-node-firmware/master/) | This GitHub repository contains the source code for the configuration of the loco positioning firmware. The documentation of the lps-node-firmware contains the instructions|
 
 
@@ -25,8 +25,15 @@ redirects:
 |![crazyflie](/images/documentation/overview/crazyflie.png){:width="100px"}| [crazyflie2-nrf-firmware](https://github.com/bitcraze/crazyflie2-nrf-firmware)| [Docs](/documentation/repository/crazyflie2-nrf-firmware/master/) |  The firmware that runs on the NRF51, which handles the radio and power management. The documentation also explains about the ST link protocol for communication between the STM32 and the NRF51. |
 |![Crazyradio](/images/documentation/overview/crazyradiopa.png){:width="50px"}|  [crazyradio-firmware](https://github.com/bitcraze/crazyradio-firmware) | [Docs](/documentation/repository/crazyradio-firmware/master/) | This GitHub repository contains the source code for the firmware of the [Crazyradio PA](https://store.bitcraze.io/collections/accessories/products/crazyradio-pa).|
 ![Loco Positioning System](/images/documentation/overview/lpssystem.png){:width="100px"}| [lps-node-firmware](https://github.com/bitcraze/lps-node-firmware) | [Docs](/documentation/repository/lps-node-firmware/master/) | This GitHub repository contains the source code for the [loco positioning node](https://store.bitcraze.io/collections/positioning/products/loco-positioning-node). The documentation also includes several user guides how to set the system up and also explains the interaction with the [Loco Positioning expansion deck](https://store.bitcraze.io/collections/positioning/products/loco-positioning-deck) of the Crazyflie. |
-|![lighthouse system](/images/documentation/overview/lighthouse.png){:width="100px"}|[lighthouse-fpga](https://github.com/bitcraze/lighthouse-fpga ) |  | This repository contains the FPGA source code for calculating position with the [lighthouse deck](https://store.bitcraze.io/collections/positioning/products/lighthouse-positioning-deck). |
 ||[AIdeck_examples](https://github.com/bitcraze/AIdeck_examples ) | [Docs](/documentation/repository/AIdeck_examples/master/) | This repository contains examples for the [AI deck](https://store.bitcraze.io/collections/decks/products/ai-deck-1-1). |
+
+## Other languages
+
+|Category| GitHub repository | Documentation | Explanation |
+|---| -----------------  |--------------| ----------------|
+|![Mobile Devices](/images/documentation/overview/phone.png){:width="50px"}| [crazyflie-android-client](https://github.com/bitcraze/crazyflie-android-client) | [Docs](/documentation/repository/crazyflie-android-client/master/)| The repository contains the source code of the [Android client app](https://play.google.com/store/apps/details?id=se.bitcraze.crazyfliecontrol2). The documentation also include instructions on how to use it.|
+|![Mobile Devices](/images/documentation/overview/phone.png){:width="50px"}| [crazyflie-ios-client](https://github.com/bitcraze/crazyflie2-ios-client) | [Docs](/documentation/repository/crazyflie2-ios-client/master/)| The repository contains the source code of the [IOS client app](https://apps.apple.com/us/app/crazyflie-2-0/id946151480). The documentation also include instructions on how to use it.|
+|![lighthouse system](/images/documentation/overview/lighthouse.png){:width="100px"}|[lighthouse-fpga](https://github.com/bitcraze/lighthouse-fpga ) |  | This repository contains the FPGA source code for calculating position with the [lighthouse deck](https://store.bitcraze.io/collections/positioning/products/lighthouse-positioning-deck). |
 
 ## Bootloaders
 

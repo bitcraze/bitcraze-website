@@ -8,9 +8,12 @@ redirects:
 
 {% row_full %}
 
-There are three main areas to consider when starting to understand the infrastructure.
+This page contain three main areas to consider when starting to understand the eco system of the crazyflie. 
+
+Check out the {% id_link doc-nav %} if you can't find what you are looking for or the {% id_link repository-overview %} if you do and you want to go immediately to the source code. 
 
 ![System overview](/images/documentation/overview/system_overview.jpg)
+
 
 ---
 
