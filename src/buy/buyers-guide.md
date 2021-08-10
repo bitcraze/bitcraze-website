@@ -202,10 +202,10 @@ Note: SD card is not included
 {% row_image_text_links I want assistance when flying the Crazyflie %}
 {% row_text %}
 Flying a quadcopter like the Crazyflie manually requires some skill and
-practising. By adding the Z-ranger deck or {% poplink flow-deck %} the Crazyflie gets more
+practising. By adding the {% poplink z-ranger-deck %} or {% poplink flow-deck %} the Crazyflie gets more
 information about its motion and can assist the pilot.
 
-The Z-ranger deck measures the distance to the ground and can be used
+The {% poplink z-ranger-deck %} measures the distance to the ground and can be used
 to automatically stay at a constant height, while the pilot can focus on the
 position.
 
@@ -221,7 +221,7 @@ gamepad, not with a mobile device.
 **What to buy:**
 
 * [Getting started bundle](https://store.bitcraze.io/products/getting-started-bundle)
-* [Z-ranger deck](https://store.bitcraze.io/products/z-ranger-deck)
+* [Z-ranger deck](https://store.bitcraze.io/products/z-ranger-deck-v2)
 
 ---
 

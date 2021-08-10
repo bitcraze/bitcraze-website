@@ -7,10 +7,10 @@ redirects:
 ---
 
 {% si_intro The Z-ranger deck %}
-The Z-ranger deck contains a VL53L0x Time-of-Flight (ToF) laser-ranging sensor and has a 1-wire memory which enables the Crazyflie to automatically detect the Z-ranger deck.
+The {% poplink z-ranger-deck %} contains a VL53L0x Time-of-Flight (ToF) laser-ranging sensor and has a 1-wire memory which enables the Crazyflie to automatically detect the Z-ranger deck.
 The sensor can measure the distance up to 2 meters from the Crazyflie to the ground. The deck can be only be installed on the bottom of the Crazyflie. For more information about how to mount an expansion deck please see the {% id_link getting-started-expansion-decks %} tutorial.
 
-To be able to use the Z-ranger deck you need to update the Crazyflie to the latest firmware. For more information on how to update the firmware, see the [update firmware in the Crazyflie]({% id_url getting-started-crazyflie-2; update-fw %}) section in our {% id_link getting-started-crazyflie-2 %} tutorial.
+To be able to use the {% poplink z-ranger-deck %} you need to update the Crazyflie to the latest firmware. For more information on how to update the firmware, see the [update firmware in the Crazyflie]({% id_url getting-started-crazyflie-2; update-fw %}) section in our {% id_link getting-started-crazyflie-2 %} tutorial.
 
 {% endsi_intro %}
 

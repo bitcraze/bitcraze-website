@@ -20,3 +20,8 @@ poplinks:
     title: Multi-ranger deck
     default-link: /products/multi-ranger-deck/
     content: multi-ranger-deck.md 
+  z-ranger-deck:
+    title: Z-ranger deck V2
+    default-link: /products/z-ranger-deck-v2/
+    content: z-ranger-deck.md 
+
