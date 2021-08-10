@@ -18,7 +18,7 @@ information of the current position.
 
 {% row_image_text_links Lighthouse positioning System; /images/documentation/overview/lighthouse.png %}
 {% row_text %}
-The lighthouse positioning system is our latest method of positioning on the Crazyflie 2.X. The [Lighthouse base stations](https://store.bitcraze.io/products/lighthouse-v2-base-station) are used here, and they emit infrared laser scans that are detected by our [Lighthouse positioning deck](https://store.bitcraze.io/collections/positioning/products/lighthouse-positioning-deck). This enables the crazyflie to (like with the Loco Positioning System) calculate its own position on board.
+The lighthouse positioning system is our latest method of positioning on the Crazyflie 2.X. The [Lighthouse base stations](https://store.bitcraze.io/products/lighthouse-v2-base-station) are used here, and they emit infrared laser scans that are detected by our {% poplink lighthouse-deck %}. This enables the crazyflie to (like with the Loco Positioning System) calculate its own position on board.
 {% endrow_text %}
 
 {% row_links %}

@@ -17,7 +17,7 @@ This tutorial is also available as a [video](https://www.youtube.com/watch?v=DCE
 {% si_step  Prerequisites - hardware %}
 Make sure that you have the following available:
 * [A Crazyflie 2.X](https://store.bitcraze.io/products/crazyflie-2-1)
-* [A Lighthouse deck](https://store.bitcraze.io/products/lighthouse-positioning-deck)
+* A {% poplink lighthouse-deck %}
 * Two Lighthouse Bsestations. We advise to [buy version 2.0](https://store.bitcraze.io/products/lighthouse-v2-base-station) but version 1.0 is also compatible.
 * [A Crazyradio PA](https://store.bitcraze.io/products/crazyradio-pa)
 {% endsi_step %}
@@ -33,7 +33,7 @@ The first thing to do is to make sure the firmware in the Crazyflie and Lighthou
 {% endsi_intro %}
 
 {% si_step Mount the Lighthouse deck %}
-For mounting the Lighthouse deck on a Crazyflie check out the {% id_link getting-started-expansion-decks %} tutorial.
+For mounting the {% poplink lighthouse-deck %} on a Crazyflie check out the {% id_link getting-started-expansion-decks %} tutorial.
 {% endsi_step %}
 
 {% si_step Update firmware in the Crazyflie and Lighthouse deck %}
@@ -104,10 +104,10 @@ On V1 base stations you change the mode with the small button on the back of the
 {% endsi_step %}
 
 {% si_step Set up the base stations in the flight area%}
-After the base station's channels are correctly set, you can mount them in your flight area by a wall mount or a camera-stand. The maximum flight area for two base stations is about 4 x 4 x 2.0, but long as the Crazyflie is not further away than 6 meters from at least one base station, it should work out. Note that the lighthouse sensors are mounted on the top of the lighthouse deck and that the base stations must be above the Crazyflie to be received.
+After the base station's channels are correctly set, you can mount them in your flight area by a wall mount or a camera-stand. The maximum flight area for two base stations is about 4 x 4 x 2.0, but long as the Crazyflie is not further away than 6 meters from at least one base station, it should work out. Note that the lighthouse sensors are mounted on the top of the {% poplink lighthouse-deck %} and that the base stations must be above the Crazyflie to be received.
 
 Make sure that you have the following conditions in your flight area:
-* The base stations should be about at least 0.5 meters higher than the flight area of the Crazyflie due to the placement of the sensors on the Lighthouse deck.
+* The base stations should be about at least 0.5 meters higher than the flight area of the Crazyflie due to the placement of the sensors on the {% poplink lighthouse-deck %}.
 * Make sure that there are no mirrors or big large reflective items in the area.
 * Make sure that you do not have direct sunlight.
 
@@ -125,7 +125,7 @@ This will explain how to get calibration and geometry data and setup up your Cra
 
 
 {% si_step Indicate the origin of your coordinate system%}
-Place the Crazyflie with the Lighthouse deck on the ground of where you want the origin to be of your global coordinate system. Check out {% id_link cf2_coordinate_system %}.
+Place the Crazyflie with the {% poplink lighthouse-deck %} on the ground of where you want the origin to be of your global coordinate system. Check out {% id_link cf2_coordinate_system %}.
 {% endsi_step %}
 
 {% si_step Connect to the Crazyflie with the Client%}

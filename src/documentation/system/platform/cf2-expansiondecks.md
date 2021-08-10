@@ -19,7 +19,7 @@ Here is a list of expansion decks that are available for the Crazyflie 2.X:
 | {% id_link product-bigquad-deck%}|EARLY ACCESS Expansion deck to build a bigger quad| [datasheet](/documentation/hardware/big_quad_deck/big_quad_deck-datasheet.pdf), [schematics](/documentation/hardware/big_quad_deck/bigquad-rev-c.pdf)   | {% id_link bq-deck-build %}|
 | {% poplink sd-card-deck %}|Expansion deck to read, write files to SD-card| [datasheet](/documentation/hardware/sd_card_deck/sd_card_deck-datasheet.pdf), [schematics](/documentation/hardware/sd_card_deck/sdcard_revb.pdf)  | [Data Logging](/documentation/repository/crazyflie-firmware/master/userguides/decks/micro-sd-card-deck/) |
 | {% poplink z-ranger-deck %}|Expansion deck for precise height control.| [datasheet](/documentation/hardware/z_ranger_deck_2/z_ranger_deck_2-datasheet.pdf), [schematics](/documentation/hardware/z_ranger_deck_2/z-ranger_v2_reva.pdf) | |
-| {% id_link product-lighthouse-deck %}|Expansion deck that supports the SteamVR Lighthouse positioning| [datasheet](/documentation/hardware/lighthouse_deck/lighthouse_deck-datasheet.pdf), [schematics](/documentation/hardware/lighthouse_deck/lighthouse_deck-datasheet.pdf) | {% id_link lh-deck-other-hardware %} |
+| {% poplink lighthouse-deck %}|Expansion deck that supports the SteamVR Lighthouse positioning| [datasheet](/documentation/hardware/lighthouse_deck/lighthouse_deck-datasheet.pdf), [schematics](/documentation/hardware/lighthouse_deck/lighthouse_deck-datasheet.pdf) | {% id_link lh-deck-other-hardware %} |
 | {% id_link product-motion-capture-marker-deck %}|Expansion deck where motion capture markers can easily be mounted|[datasheet](/documentation/hardware/passive_marker_deck/passive_marker_deck-datasheet.pdf), [schematics](/documentation/hardware/passive_marker_deck/passive-marker-deck-revc.pdf)  | |
 | {% id_link product-active-marker-deck %}|Expansion deck with active IR LED for motion capture markers | [datasheet](/documentation/hardware/active_marker_deck/active_marker_deck-datasheet.pdf), [schematics](/documentation/hardware/active_marker_deck/active-marker-deck_revd.pdf)| |
 | {% poplink loco-positioning-deck %}|Expansion deck for the Loco positioning system |  [datasheet](/documentation/hardware/loco_deck/loco_deck-datasheet.pdf), [schematics](/documentation/hardware/loco_deck/loco_deck_revd.pdf) | [Modes explanation](/documentation/repository/crazyflie-firmware/master/userguides/decks/active-marker-deck/)|
@@ -112,7 +112,7 @@ Deck info
 | 0xBC | 0x0D | bcMocap       | Mocap marker deck  | 1.6g   | 0mA                        | Above          | [link](https://store.bitcraze.io/products/motion-capture-marker-deck)    |
 | 0xBC | 0x0E | bcZRanger2    | {% poplink z-ranger-deck %}        | 1.3g   | ~15mA                      | Under          | [link](https://store.bitcraze.io/products/z-ranger-deck-v2)              |
 | 0xBC | 0x0F | bcFlow2       | {% poplink flow-deck %}             | 1.6g   | ~40mA                      | Under          | [link](https://store.bitcraze.io/products/flow-deck-v2)                  |
-| 0xBC | 0x10 | bcLighthouse4 | Lighthouse-4       | 2.7g   | ~40mA                      | Above          | [link](https://store.bitcraze.io/products/lighthouse-positioning-deck)   |
+| 0xBC | 0x10 | bcLighthouse4 | {% poplink lighthouse-deck %}       | 2.7g   | ~40mA                      | Above          | [link](https://store.bitcraze.io/products/lighthouse-positioning-deck)   |
 | 0xBC | 0x11 | bcActiveM     | Active marker deck | 3.3g   | ~40mA                      | Above          | [link](https://store.bitcraze.io/products/active-marker-deck)            |
 | 0xBC | 0x12 | bcAI          | AI deck            | 4.4g   | depending on deck app      | Above          | [link](https://store.bitcraze.io/products/ai-deck-1-1)                   |
 |------|------|---------------|--------------------|--------|----------------------------|----------------|--------------------------------------------------------------------------|
@@ -145,7 +145,7 @@ two decks where the connections collide.
 | **bcOA**                  |       |       | X     | X     |          |          |          |         |       |       |       |       |       |          |          | VCC  |
 | **{% poplink multi-ranger-deck%}**         |       |       | X     | X     |          |          |          |         |       |       |       |       |       |          |          | VCOM |
 | **bcMocap**               |       |       |       |       |          |  *(X)*   | *(X)*    |         |       |       |       |       |       |          |          | N/A  |
-| **bcLighthouse4**         | X     | X     | X     | X     |          |          |          |         |       |       |       |       |       |          |          | N/A  |
+| **{% poplink lighthouse-deck %}**         | X     | X     | X     | X     |          |          |          |         |       |       |       |       |       |          |          | N/A  |
 | **bcActiveM**             |       |       | X     | X     |          |          |          |         |       |       |       |       |       |          |          | N/A  |
 | **bcAI**                  | X     | X     | X     | X     | X        |          |          | X       | X     | X     |       |       |       |          |          | VCOM |
 |---------------------------|-------|-------|-------|-------|----------|----------|----------|---------|-------|-------|-------|-------|-------|----------|----------|------|
@@ -170,7 +170,7 @@ This table shows which deck that works on which platform.
 | **{% poplink flow-deck %}, Flow deck V1**         | yes            | yes       |
 | **{% poplink multi-ranger-deck%}**          | yes            | yes       |
 | **Mocap marker deck**     | yes            | yes       |
-| **Lighthouse-4**          | yes            | *2        |
+| **{% poplink lighthouse-deck %}**          | yes            | *2        |
 | **Active marker**         | yes            | yes       |
 | **AI deck**               | yes            | yes       |
 |---------------------------|----------------|-----------|
@@ -186,7 +186,7 @@ are normally physically blocking each other are marked as not
 compatible.
 
 
- |                           | LED-ring | Qi charger | Micro-SD | Loco Positioning |Big quad  | Buzzer | bcESP | Z-Ranger | Flow    | Multi-ranger | Mocap marker deck | Lighthouse-4 | Active marker | AI deck |
+ |                           | LED-ring | Qi charger | Micro-SD | Loco Positioning |Big quad  | Buzzer | bcESP | Z-Ranger | Flow    | Multi-ranger | Mocap marker deck | Lighthouse deck | Active marker | AI deck |
  |---------------------------|----------|------------|----------|------------------|----------|--------|-------|----------|---------|--------------|-------------------|--------------|---------------|---------|
  | **{% poplink led-ring-deck %}**              | -        |            | yes      | yes              |          | yes    | yes   |          |         | yes          | yes               | yes          | yes           | yes     |
  | **Qi charger**            |          | -          | yes      | yes              | yes      | yes    | yes   |          |         | yes          | yes               | yes          | yes           | yes     |
@@ -199,7 +199,7 @@ compatible.
  | **{% poplink flow-deck %}, Flow deck V1**        |          |            | yes *1   | yes              |          | yes    | yes   |          | -       | yes          | yes               | yes          | yes           | yes     |
  | **{% poplink multi-ranger-deck%}**          | yes      | yes        | yes      | yes              | yes      | yes    | yes   | yes      | yes     | -            | yes               | yes          | yes           | yes     |
  | **Mocap marker deck**     | yes      | yes        | yes      | yes              | yes      | yes    | yes   | yes      | yes     | yes          | -                 | yes          |               | yes     |
- | **Lighthouse-4**          | yes      | yes        | yes      | *2               | *2       | yes    | yes   | yes      | yes     | yes          | yes               | -            |               | *3      |
+ | **{% poplink lighthouse-deck %}**          | yes      | yes        | yes      | *2               | *2       | yes    | yes   | yes      | yes     | yes          | yes               | -            |               | *3      |
  | **Active marker**         | yes      | yes        | yes      | yes              | yes      | yes    | yes   | yes      | yes     | yes          |                   |              | -             | yes     |
  | **AI deck**               | yes      | yes        | yes      | *2               | yes      | yes    | yes   | yes      | yes     | yes          | yes               | *3           | yes           | -       |
  |---------------------------|----------|------------|----------|------------------|----------|--------|-------|----------|---------|--------------|-------------------|--------------|---------------|---------|

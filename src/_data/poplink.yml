@@ -31,5 +31,9 @@ poplinks:
   sd-card-deck:
     title: Micro SD card deck
     default-link: /products/micro-sd-card-deck/
-    content: sd-card-deck.md 
+    content: sd-card-deck.md
+  lighthouse-deck:
+    title: Lighthouse positioning deck
+    default-link: /products/lighthouse-positioning-deck/
+    content: lighthouse-deck.md 
 

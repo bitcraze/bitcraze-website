@@ -338,7 +338,7 @@ maintained up to a minute.
 {% row_text %}
 The Lighthouse positioning system is based on the Lighthouse base station. It offers
 good accuracy and very good precision tracking. The Crazyflie pose is calculated
-in the Crazyflie itself, which allows to develop completely autonomous flight.
+in the Crazyflie itself with the {% poplink lighthouse-deck %}, which allows to develop completely autonomous flight.
 The precision is in the millimeter range and the accuracy in the decimeter range.
 The lighthouse positioning is well suited to implement tracking in small indoor
 space.

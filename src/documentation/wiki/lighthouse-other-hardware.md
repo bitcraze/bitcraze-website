@@ -6,7 +6,7 @@ page_id: lh-deck-other-hardware
 
 ## Using the deck with other hardware
 
-The deck has 4 solder pad on the bottom that are designed to allow using the lighthouse deck with other hardware. The 4 pads are labeled and corresponds to the connector P3 in the deck schematic.
+The deck has 4 solder pad on the bottom that are designed to allow using the {% poplink lighthouse-deck %} with other hardware. The 4 pads are labeled and corresponds to the connector P3 in the deck schematic.
 
 The pads GND and VCOM can be used to supply power to the deck. There is a 3.0V LDO regulator on the board which means that VCOM can be in the range of ~3.3V to 5.5V.
 

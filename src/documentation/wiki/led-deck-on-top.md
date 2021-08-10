@@ -4,7 +4,7 @@ title: LED deck on top
 page_id: led-deck-on-top
 ---
 
-With the LED deck and a Crazyflie 2.x, we are able to make real pieces of art.. However, these fun projects do require an external positioning system, since we used the lighthouse positioning deck (but you can also use the LPS or MoCap system)
+With the LED deck and a Crazyflie 2.x, we are able to make real pieces of art.. However, these fun projects do require an external positioning system, since we used the {% poplink lighthouse-deck %} (but you can also use the LPS or MoCap system)
 
 How about using the LED-deck in the combination with the Flow deck v2? A while ago we managed to do this by drilling a couple of holes in the LED deck in this hackster project. However, if you are fine with putting the LED deck on the top, there might be an easier way to achieve this combination.
 

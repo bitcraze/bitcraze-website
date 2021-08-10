@@ -64,7 +64,7 @@ It can also be saved to a file which allows to write the same geometry informati
 Being an optical system, the lighthouse positioning system requires direct optical line of sight from the Crazyflie to at least one of the base stations.
 The Range and the field of view will dictate the space tracked.
 
-Due to the geometry of the lighthouse deck, the tracking will work best up to ~50cm bellow the base station height.
+Due to the geometry of the {% poplink lighthouse-deck %}, the tracking will work best up to ~50cm bellow the base station height.
 
 In a 5x5 meter space, we have measured a relative precision better than a millimeter and an absolute accuracy better than a decimeter.
 This means that coming back to a take-off/landing pad can be done with a millimeter precision, but going away at the extreme corner of the space can be off by a couple of centimeters.
@@ -76,7 +76,7 @@ It is not intended to be used outdoor and since it is using infrared light, perf
 
 {% row_image_text_links System components %}
 {% row_text %}
-To use the Lighthouse positioning system, the {% id_link product-lighthouse-deck %}
+To use the Lighthouse positioning system, the {% poplink lighthouse-deck %}
 should be installed on all {% id_link product-crazyflie-2-1 %} that needs to be tracked.
 
 One to two Lighthouse Base Stations must be installed in the room.
