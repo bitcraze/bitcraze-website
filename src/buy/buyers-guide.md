@@ -202,14 +202,14 @@ Note: SD card is not included
 {% row_image_text_links I want assistance when flying the Crazyflie %}
 {% row_text %}
 Flying a quadcopter like the Crazyflie manually requires some skill and
-practising. By adding the Z-ranger deck or Flow deck the Crazyflie gets more
+practising. By adding the Z-ranger deck or {% poplink flow-deck %} the Crazyflie gets more
 information about its motion and can assist the pilot.
 
 The Z-ranger deck measures the distance to the ground and can be used
 to automatically stay at a constant height, while the pilot can focus on the
 position.
 
-The Flow deck takes it even further by also detecting the motion of the Crazyflie
+The {% poplink flow-deck %} takes it even further by also detecting the motion of the Crazyflie
 relative to the ground. This enables a flight mode where the pilot tells
 the system which direction to go rather than the tilt of the quad copter, by
 releasing the controls the Crazyflie simply stays hovering on the spot.
@@ -238,7 +238,7 @@ Note: gamepad is not included
 The Multi-ranger deck measures the distance to objects forward/back/left/right and up.
 It can be used for obstacle avoidance, mapping a room or games where the
 Crazyflie 2.X "bounces" between the walls of a room.
-Combine with a Flow deck to measure the distance to the floor as well and
+Combine with a {% poplink flow-deck %} to measure the distance to the floor as well and
 support autonomous flight.
 {% endrow_text %}
 {% row_links %}
@@ -316,7 +316,7 @@ all have different properties.
 
 {% row_image_text_links The Flow deck %}
 {% row_text %}
-With the Flow deck the Crazyflie gets the distance to, and the relative
+With the {% poplink flow-deck %} the Crazyflie gets the distance to, and the relative
 motion relative to the surface under it. With this information it can hover
 in one spot or follow a trajectory. The advantage of this solution is that it
 does not require any external systems and comes at a very good price.

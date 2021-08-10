@@ -7,7 +7,7 @@ redirects:
 ---
 
 {% si_intro The STEM ranging bundle %}
-The STEM (Science Technology Engineering Mathematics) ranging bundle is based on a Crazyflie 2.X with a Flow Deck and a Multi-ranger deck.
+The STEM (Science Technology Engineering Mathematics) ranging bundle is based on a Crazyflie 2.X with a {% poplink flow-deck %} and a Multi-ranger deck.
 It is an autonomous drone that can be controlled from a simple python script to explore and operate a robot in 3 dimensions.
 It has the ability to detect obstacles around it.
 
@@ -17,7 +17,7 @@ This getting started guide will help you set up the system and make your first a
 {% si_step required hardware %}
 * 1 x Crazyflie 2.X Kit
 * 1 x Crazyradio PA
-* 1 x Flow V2 deck
+* 1 x {% poplink flow-deck %}
 * 1 x Multi-ranger deck
 {% endsi_step %}
 
@@ -28,7 +28,7 @@ This guide also requires that you have updated the Crazyflie to the latest firmw
 {% endsi_step %}
 
 {% si_step  mounting the Flow V2 deck %}
-Mount the Flow V2 Deck underneath and the Multi-ranger deck above the Crazyflie 2.X using the long pin-headers supplied with the Crazyflie 2.X Kit.
+Mount the {% poplink flow-deck %} underneath and the Multi-ranger deck above the Crazyflie 2.X using the long pin-headers supplied with the Crazyflie 2.X Kit.
 {% img Mounting the Flow V2 deck; wide; /images/tutorials/getting_started_stem_ranging/getting_started_with_stem_ranging_770px.jpg %}
 {% img Mounting the Flow V2 deck; wide; /images/tutorials/getting_started_stem_ranging/getting_started_with_stem_ranging_770px-2.jpg %}
 
@@ -182,5 +182,5 @@ Demo terminated!
 * Explore the different [example scripts](https://github.com/bitcraze/crazyflie-lib-python/blob/master/examples).
 * Explore the [motion commander](https://github.com/bitcraze/crazyflie-lib-python/blob/master/cflib/positioning/motion_commander.py) class. The class can do more then simple directional commands such as scripting using speed and time or together with events.
 * Try out the logging and parameter framework. The [basic logging](https://github.com/bitcraze/crazyflie-lib-python/blob/master/examples/basiclogSync.py) is a good example to start from or digg into the details on the [documentation](/documentation/repository/crazyflie-firmware/master/userguides/logparam/).
-* Connect a gamepad and with the [flow deck]({% id_url getting-started-flow-deck %}) try optical flow stabilized flight.
+* Connect a gamepad and with the {% poplink flow-deck %} to try optical flow stabilized flight.
 {% endsi_step %}

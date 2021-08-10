@@ -22,7 +22,7 @@ The image below shows how you should solder the wiring. The Gnd (ground), IO2, O
 
 ![led deck on top](/images/documentation/wiki/topleddeck.png)
 
-_We did not connect IO3 on purpose since the Flow deck v2 is already using this, or else the LED deck and Flow deck will conflict with each other's communication with the Crazyflie. However, the LED deck should work as well without the IO3 connected_
+_We did not connect IO3 on purpose since the Flow deck v2 is already using this, or else the LED deck and {% poplink flow-deck %} will conflict with each other's communication with the Crazyflie. However, the LED deck should work as well without the IO3 connected_
 
 The battery holder deck can be glued on the LED-deck or attached with some tape.The wiring and soldering are done a bit crude for now to clearly show how to do this, however if you would like the wiring not to be shown as clearly as it is here, this should be easy to fix with thinner wires and basic soldering skills. =)
 
@@ -31,4 +31,4 @@ _Please pay attention to that the orientation of the LED deck is now different._
 ![led deck on crazyflie](/images/documentation/wiki/leddecktopcrazyflie.png)
 
 
-We tested the converted LED deck with the Flow deck v2 with the CFclient and we are still receiving the values and parameters from both the deck drivers. At the moment of writing we haven't test-flown this configuration yet, but we hope to do it soon for another long exposure light painting!
+We tested the converted LED deck with the {% poplink flow-deck %} with the CFclient and we are still receiving the values and parameters from both the deck drivers. At the moment of writing we haven't test-flown this configuration yet, but we hope to do it soon for another long exposure light painting!

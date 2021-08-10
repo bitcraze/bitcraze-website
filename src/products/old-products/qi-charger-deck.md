@@ -6,7 +6,7 @@ redirects:
   - /qi-charger-deck/
 ---
 
-{% notice_info This product is discontinued and has been replaced with <a href="/products/qi-1_2-charger-deck/">Flow deck v2</a> %}
+{% notice_info This product is discontinued and has been replaced with <a href="/products/qi-1_2-charger-deck/">QI 1.2 deck</a> %}
 
 {% product_img Qi charger deck; medium;
 /images/qi-charger/qi-charger-deck-585px.jpg

@@ -73,7 +73,7 @@ There is ongoing development in this area:
 
 {% collapse_section Can the Crazyflie 2.X fly autonomously? %}
 The Crazyflie 2.X does not have enough sensors to locate itself in the environment as is, it requires more information to do that.
-The easiest way to acheive that is to add the [Flow deck V2](/products/flow-deck-v2/). It tells the Crazyflie how it moves relative to the floor and
+The easiest way to achieve that is to add the {% poplink flow-deck %}. It tells the Crazyflie how it moves relative to the floor and
 thus enables it to fly autonomously. See the [product page](/products/flow-deck-v2/) for more information.
 
 With an external positioning system the Crazyflie will even understand its absolute

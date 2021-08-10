@@ -12,3 +12,7 @@ poplinks:
     title: LED-ring deck
     default-link: /products/led-ring-deck/
     content: led-ring-deck.md
+  flow-deck:
+    title: Flow deck V2
+    default-link: /products/flow-deck-v2/
+    content: flow-deck.md 

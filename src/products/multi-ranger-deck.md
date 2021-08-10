@@ -27,7 +27,7 @@ Interactivity;
 Interact with the world around
 %}
 
-With the Multi-ranger deck and the [Flow deck](/products/flow-deck-v2/), the Crazyflie becomes an interactive autonomous platform.
+With the Multi-ranger deck and the {% poplink flow-deck %}, the Crazyflie becomes an interactive autonomous platform.
 It gets the capability to sense the space around it and could react when something is close and for instance avoid obstacles.
 
 It also allows to start working on environment-aware problems like Simultaneous Localization And Mapping (SLAM) algorithms.

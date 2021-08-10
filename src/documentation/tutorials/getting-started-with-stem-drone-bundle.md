@@ -8,7 +8,7 @@ redirects:
 
 {% si_intro The STEM drone bundle %}
 The STEM (Science Technology Engineering Mathematics) drone bundle is based on a
-Crazyflie 2.X with a Flow Deck. It is an autonomous drone that can be controlled
+Crazyflie 2.X with a {% poplink flow-deck %}. It is an autonomous drone that can be controlled
 from a simple python script to explore and operate a robot in 3 dimensions.
 
 This getting started guide will help you set up the system and make your first
@@ -18,7 +18,7 @@ autonomous flight.
 {% si_step required hardware %}
 * 1 x Crazyflie 2.X Kit
 * 1 x Crazyradio PA
-* 1 x Flow deck
+* 1 x {% poplink flow-deck %}
 {% endsi_step %}
 
 {% si_step prerequisites %}
@@ -28,7 +28,7 @@ This guide also requires that you have updated the Crazyflie to the latest firmw
 {% endsi_step %}
 
 {% si_step  mounting the flow deck %}
-Mount the Flow Deck underneath the Crazyflie 2.X using the long pin-headers supplied with the Crazyflie 2.X Kit.
+Mount the {% poplink flow-deck %} underneath the Crazyflie 2.X using the long pin-headers supplied with the Crazyflie 2.X Kit.
 {% img Mounting the Flow deck; wide; /images/tutorials/getting_started_stem/stem_bundle_mounted_deck.jpg %}
 
 For more information about how to mount an expansion deck please see the {% id_link getting-started-expansion-decks %} tutorial.
@@ -173,6 +173,6 @@ Landing!
 {% si_step what's next? %}
 * Explore the [motion commander](https://github.com/bitcraze/crazyflie-lib-python/blob/master/cflib/positioning/motion_commander.py) class. The class can do more then simple directional commands such as scripting using speed and time or together with events.
 * Try out the logging and parameter framework. The [basic logging](https://github.com/bitcraze/crazyflie-lib-python/blob/master/examples/basiclogSync.py) is a good example to start from or digg into the details on the [documentation](/documentation/repository/crazyflie-firmware/master/userguides/logparam/).
-* Connect a gamepad and with the [flow deck]({% id_url getting-started-flow-deck %}) try optical flow stabilized flight.
+* Connect a gamepad and with the {% poplink flow-deck %} to try optical flow stabilized flight. See the {% id_link getting-started-flow-deck %} tutorial.
 * Add one of the many [expansion deck boards](https://store.bitcraze.io/collections/decks), build your own deck using [prototyping deck](/products/prototyping-deck/) or even design it from ground up using the KiCad [deck template](https://github.com/bitcraze/crazyflie2-exp-template-electronics).
 {% endsi_step %}

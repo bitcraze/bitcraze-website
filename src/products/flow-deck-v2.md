@@ -19,7 +19,7 @@ Optical navigation;
 Enable positioning in the air with optical motion detection.
 %}
 
-The Flow deck gives the Crazyflie 2.X the ability to understand when it's moving in any direction.
+The {% poplink flow-deck %} gives the Crazyflie 2.X the ability to understand when it's moving in any direction.
 The VL53L1x ToF sensor measures the distance to the ground with high precision and the PMW3901 optical flow sensor measures movements in relation to the ground.
 This creates a flying 3D robot that can be pre-programmed to fly distances in any direction or act as an aid for beginners where it creates a very stable flying platform.
 

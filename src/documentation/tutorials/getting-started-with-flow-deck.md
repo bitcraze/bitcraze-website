@@ -7,19 +7,19 @@ redirects:
 ---
 
 {% si_intro The Flow deck %}
-The Flow deck gives the Crazyflie 2.X the ability to understand when it's moving in any direction.
+The {% poplink flow-deck %} gives the Crazyflie 2.X the ability to understand when it is moving in any direction.
 With the Flow deck the Crazyflie 2.X is able to hover and act as an aid for beginners where it creates a very stable flying platform.
 
 For more information about how to mount an expansion deck please see the {% id_link getting-started-expansion-decks %} tutorial.
 
-To be able to use the Flow deck you need to update the Crazyflie to the latest firmware. For more information on how to update the firmware, see the [update firmware in the Crazyflie]({% id_url getting-started-crazyflie-2; update-fw %}) section in our getting started with Crazyflie 2.X tutorial.
+To be able to use the {% poplink flow-deck %} you need to update the Crazyflie to the latest firmware. For more information on how to update the firmware, see the [update firmware in the Crazyflie]({% id_url getting-started-crazyflie-2; update-fw %}) section in our getting started with Crazyflie 2.X tutorial.
 You will also need the latest version of the [Crazyflie client](https://github.com/bitcraze/crazyflie-clients-python/releases).
 
 {% endsi_intro %}
 
 {% si_step  Using the hover mode %}
 
-To use the Flow deck you need to use the Python client and set up a connection with your Crazyflie.
+To use the {% poplink flow-deck %} you need to use the Python client and set up a connection with your Crazyflie.
 For more information go to the {% id_link getting-started-crazyflie-2 %}.
 
 * In the client, go to **Assist mode** and choose **Hover** mode in the drop-down menu. Also make sure that the assist mode button is [configured](/documentation/repository/crazyflie-clients-python/master/userguides/userguide_client/#input-devices).
@@ -30,7 +30,7 @@ For more information go to the {% id_link getting-started-crazyflie-2 %}.
 Make sure the Crazyflie is pointing away from you, the blue LEDs are on the back so keep them pointing in your direction when starting to fly.
 * Press and hold the assisted mode button on the gamepad to activate the hover mode. The Crazyflie will now take off and hover at a height of 40cm.
 * Now you can fly around using the x/y stick as shown in the image below. Pressing X+ will move the Crazyflie in the X+ axis of your system, and the same for the other axis.
-* You can use the up/down joystick to go up and down. The height is limited in the range 0.2m to 3.0m (1.0m for Flow deck / Z-ranger deck v1). if you happen to he over 1.0 meter, the crazyflie might hang there and not go down, in this case you can either force the Crazyflie to go down with the up/down joystick or release the assisted mode button to take over manually.
+* You can use the up/down joystick to go up and down. The height is limited in the range 0.2m to 3.0m (1.0m for the Flow deck v1 / Z-ranger deck v1). if you happen to he over 1.0 meter, the crazyflie might hang there and not go down, in this case you can either force the Crazyflie to go down with the up/down joystick or release the assisted mode button to take over manually.
 * If somethings goes out of control release the sticks and the assisted mode button to have the Crazyflie drop to the ground. Each time hover mode is re-activated the height set-point is reset to 40 cm.
 
 {% img Flying with a gamepad; wide; /images/tutorials/getting_started_with_lps/flying_with_a_gamepad.png %}
@@ -75,3 +75,8 @@ The optical flow sensor is a camera and works by tracking how patterns are movin
 {% youtube 64LOEAQJamw; wide; 16by9 %}
 
 {% endsi_step %}
+
+{% si_step what's next? %}
+* Learn how to control a Crazyflie with a {% poplink flow-deck %} from a python script using the  {% id_link getting-started-stem-drone-bundle %} tutorial.
+{% endsi_step %}
+
