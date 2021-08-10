@@ -166,13 +166,13 @@ Note: wireless charger not included
 {% row_image_text_links I want to record data when flying my Crazyflie 2.X %}
 {% row_text %}
 If large volumes of data needs to be recorded when flying, the Crazyradio PA might
-not have sufficient bandwidth in some cases. The SD-card deck adds access to the
+not have sufficient bandwidth in some cases. The {% poplink sd-card-deck %} adds access to the
 filesystem of a SD card and enables storage of any data.
 {% endrow_text %}
 {% row_links %}
 **What to buy:**
 
-* [SD-card deck](https://store.bitcraze.io/products/sd-card-deck)
+* [Micro SD card deck](https://store.bitcraze.io/products/sd-card-deck)
 
 Note: SD card is not included
 {% endrow_links %}

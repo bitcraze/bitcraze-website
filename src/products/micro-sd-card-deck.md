@@ -18,7 +18,7 @@ File your data;
 Read and write data to a micro SD card
 %}
 
-The micro SD card deck adds the possibility to read and write data to a micro
+The {% poplink sd-card-deck %} adds the possibility to read and write data to a micro
 SD card. Maybe you have the need to store a lot of log data and the bandwidth
 of the radio is not enough? Write it to a SD card and slot it into you computer
 for instant access. Or write a configuration file to the SD card in your

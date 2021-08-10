@@ -27,5 +27,9 @@ poplinks:
   buzzer-deck:
     title: Buzzer deck
     default-link: /products/buzzer-deck/
-    content: buzzer-deck.md 
+    content: buzzer-deck.md
+  sd-card-deck:
+    title: Micro SD card deck
+    default-link: /products/micro-sd-card-deck/
+    content: sd-card-deck.md 
 
