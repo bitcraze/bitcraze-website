@@ -18,7 +18,7 @@ Laser ranging;
 Measure distances to objects all round
 %}
 
-The Multi-ranger deck uses 5 laser sensors to measure the distance in the directions front/back/left/right/up.
+The {% poplink multi-ranger-deck%} uses 5 laser sensors to measure the distance in the directions front/back/left/right/up.
 This enables the Crazyflie to detect proximity to objects at up to four meters.
 
 {% product_highlight
@@ -27,7 +27,7 @@ Interactivity;
 Interact with the world around
 %}
 
-With the Multi-ranger deck and the {% poplink flow-deck %}, the Crazyflie becomes an interactive autonomous platform.
+With the {% poplink multi-ranger-deck%} and the {% poplink flow-deck %}, the Crazyflie becomes an interactive autonomous platform.
 It gets the capability to sense the space around it and could react when something is close and for instance avoid obstacles.
 
 It also allows to start working on environment-aware problems like Simultaneous Localization And Mapping (SLAM) algorithms.

@@ -235,7 +235,7 @@ Note: gamepad is not included
 
 {% row_image_text_links I want to add awareness of the surroundings to the Crazyflie %}
 {% row_text %}
-The Multi-ranger deck measures the distance to objects forward/back/left/right and up.
+The {% poplink multi-ranger-deck%} measures the distance to objects forward/back/left/right and up.
 It can be used for obstacle avoidance, mapping a room or games where the
 Crazyflie 2.X "bounces" between the walls of a room.
 Combine with a {% poplink flow-deck %} to measure the distance to the floor as well and
@@ -286,7 +286,7 @@ the equipment home for extended studies and insights.
 {% row_image_text_links The STEM ranging bundle %}
 {% row_text %}
 The STEM ranging bundle contains everything in the STEM drone bundle with the
-addition of the Multi-ranger deck. The Multi-ranger makes it possible to interact
+addition of the {% poplink multi-ranger-deck%}. The Multi-ranger deck makes it possible to interact
 with the Crazyflie 2.X or use it to map a room.
 {% endrow_text %}
 {% row_links %}

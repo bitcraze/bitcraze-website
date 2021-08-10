@@ -16,3 +16,7 @@ poplinks:
     title: Flow deck V2
     default-link: /products/flow-deck-v2/
     content: flow-deck.md 
+  multi-ranger-deck:
+    title: Multi-ranger deck
+    default-link: /products/multi-ranger-deck/
+    content: multi-ranger-deck.md 

@@ -7,7 +7,7 @@ redirects:
 ---
 
 {% si_intro The STEM ranging bundle %}
-The STEM (Science Technology Engineering Mathematics) ranging bundle is based on a Crazyflie 2.X with a {% poplink flow-deck %} and a Multi-ranger deck.
+The STEM (Science Technology Engineering Mathematics) ranging bundle is based on a Crazyflie 2.X with a {% poplink flow-deck %} and a {% poplink multi-ranger-deck%}.
 It is an autonomous drone that can be controlled from a simple python script to explore and operate a robot in 3 dimensions.
 It has the ability to detect obstacles around it.
 
@@ -18,7 +18,7 @@ This getting started guide will help you set up the system and make your first a
 * 1 x Crazyflie 2.X Kit
 * 1 x Crazyradio PA
 * 1 x {% poplink flow-deck %}
-* 1 x Multi-ranger deck
+* 1 x {% poplink multi-ranger-deck%}
 {% endsi_step %}
 
 {% si_step prerequisites %}
@@ -28,7 +28,7 @@ This guide also requires that you have updated the Crazyflie to the latest firmw
 {% endsi_step %}
 
 {% si_step  mounting the Flow V2 deck %}
-Mount the {% poplink flow-deck %} underneath and the Multi-ranger deck above the Crazyflie 2.X using the long pin-headers supplied with the Crazyflie 2.X Kit.
+Mount the {% poplink flow-deck %} underneath and the {% poplink multi-ranger-deck%} above the Crazyflie 2.X using the long pin-headers supplied with the Crazyflie 2.X Kit.
 {% img Mounting the Flow V2 deck; wide; /images/tutorials/getting_started_stem_ranging/getting_started_with_stem_ranging_770px.jpg %}
 {% img Mounting the Flow V2 deck; wide; /images/tutorials/getting_started_stem_ranging/getting_started_with_stem_ranging_770px-2.jpg %}
 

@@ -23,7 +23,7 @@ Here is a list of expansion decks that are available for the Crazyflie 2.X:
 | {% id_link product-motion-capture-marker-deck %}|Expansion deck where motion capture markers can easily be mounted|[datasheet](/documentation/hardware/passive_marker_deck/passive_marker_deck-datasheet.pdf), [schematics](/documentation/hardware/passive_marker_deck/passive-marker-deck-revc.pdf)  | |
 | {% id_link product-active-marker-deck %}|Expansion deck with active IR LED for motion capture markers | [datasheet](/documentation/hardware/active_marker_deck/active_marker_deck-datasheet.pdf), [schematics](/documentation/hardware/active_marker_deck/active-marker-deck_revd.pdf)| |
 | {% poplink loco-positioning-deck %}|Expansion deck for the Loco positioning system |  [datasheet](/documentation/hardware/loco_deck/loco_deck-datasheet.pdf), [schematics](/documentation/hardware/loco_deck/loco_deck_revd.pdf) | [Modes explanation](/documentation/repository/crazyflie-firmware/master/userguides/decks/active-marker-deck/)|
-| {% id_link product-multi-ranger-deck %}|Expansion deck for detecting obstacles |  [datasheet](/documentation/hardware/multi_ranger_deck/multi_ranger_deck-datasheet.pdf), schematics [1](/documentation/hardware/multi_ranger_deck/multi-ranger-daughter-board-reve.pdf), [2](/documentation/hardware/multi_ranger_deck/multi-ranger-reve.pdf) | |
+| {% poplink multi-ranger-deck %}|Expansion deck for detecting obstacles |  [datasheet](/documentation/hardware/multi_ranger_deck/multi_ranger_deck-datasheet.pdf), schematics [1](/documentation/hardware/multi_ranger_deck/multi-ranger-daughter-board-reve.pdf), [2](/documentation/hardware/multi_ranger_deck/multi-ranger-reve.pdf) | |
 | {% poplink flow-deck %}  | Expansion deck for detecting flow and height |  [datasheet](/documentation/hardware/flow_deck_2/flow_deck_2-datasheet.pdf), [schematics](/documentation/hardware/flow_deck_2/flow-deck-v2-reva.pdf)| |
 
 ### Additional information
@@ -108,7 +108,7 @@ Deck info
 | 0xBC | 0x09 | bcZRanger     | Z-Ranger           | 1.3g   | ~15mA                      | Under          | [link](https://store.bitcraze.io/products/z-ranger-deck)                 |
 | 0xBC | 0x0A | bcFlow        | Flow deck V1             | 1.6g   | ~40mA                      | Under          | [link](https://store.bitcraze.io/products/flow-deck)                     |
 | 0xBC | 0x0B | bcOA          | Obstacle Avoidance | N/A    | ~0.3mA                     | Above          | N/A                                                                      |
-| 0xBC | 0x0C | bcMultiranger | Multi-ranger       | 2.3g   | ~90mA (depending on mode)  | Above          | [link](https://store.bitcraze.io/products/multi-ranger-deck)             |
+| 0xBC | 0x0C | bcMultiranger | {% poplink multi-ranger-deck%}      | 2.3g   | ~90mA (depending on mode)  | Above          | [link](https://store.bitcraze.io/products/multi-ranger-deck)             |
 | 0xBC | 0x0D | bcMocap       | Mocap marker deck  | 1.6g   | 0mA                        | Above          | [link](https://store.bitcraze.io/products/motion-capture-marker-deck)    |
 | 0xBC | 0x0E | bcZRanger2    | Z-Ranger v2        | 1.3g   | ~15mA                      | Under          | [link](https://store.bitcraze.io/products/z-ranger-deck-v2)              |
 | 0xBC | 0x0F | bcFlow2       | {% poplink flow-deck %}             | 1.6g   | ~40mA                      | Under          | [link](https://store.bitcraze.io/products/flow-deck-v2)                  |
@@ -143,7 +143,7 @@ two decks where the connections collide.
 | **bcZRanger, bcZRanger2** |       |       | X     | X     |          | *(X)*    |          |         |       |       |       |       |       |          |          | VCC  |
 | **{% poplink flow-deck %}, Flow deck V1**        |       |       | X     | X     |          | *(X)*    | X        |         |       |       | X     | X     | X     |          |          | VCC  |
 | **bcOA**                  |       |       | X     | X     |          |          |          |         |       |       |       |       |       |          |          | VCC  |
-| **bcMultiranger**         |       |       | X     | X     |          |          |          |         |       |       |       |       |       |          |          | VCOM |
+| **{% poplink multi-ranger-deck%}**         |       |       | X     | X     |          |          |          |         |       |       |       |       |       |          |          | VCOM |
 | **bcMocap**               |       |       |       |       |          |  *(X)*   | *(X)*    |         |       |       |       |       |       |          |          | N/A  |
 | **bcLighthouse4**         | X     | X     | X     | X     |          |          |          |         |       |       |       |       |       |          |          | N/A  |
 | **bcActiveM**             |       |       | X     | X     |          |          |          |         |       |       |       |       |       |          |          | N/A  |
@@ -168,7 +168,7 @@ This table shows which deck that works on which platform.
 | **bcESP**                 | yes            | yes       |
 | **Z-Ranger, Z-Ranger V2** | yes            | yes       |
 | **{% poplink flow-deck %}, Flow deck V1**         | yes            | yes       |
-| **Multi-ranger**          | yes            | yes       |
+| **{% poplink multi-ranger-deck%}**          | yes            | yes       |
 | **Mocap marker deck**     | yes            | yes       |
 | **Lighthouse-4**          | yes            | *2        |
 | **Active marker**         | yes            | yes       |
@@ -197,7 +197,7 @@ compatible.
  | **bcESP**                 | yes      | yes        | yes      | yes              |          |        | -     | yes      | yes     | yes          | yes               | yes          | yes           | yes     |
  | **Z-Ranger, Z-Ranger V2** |          |            | yes      | yes              | yes      | yes    | yes   | -        |         | yes          | yes               | yes          | yes           | yes     |
  | **{% poplink flow-deck %}, Flow deck V1**        |          |            | yes *1   | yes              |          | yes    | yes   |          | -       | yes          | yes               | yes          | yes           | yes     |
- | **Multi-ranger**          | yes      | yes        | yes      | yes              | yes      | yes    | yes   | yes      | yes     | -            | yes               | yes          | yes           | yes     |
+ | **{% poplink multi-ranger-deck%}**          | yes      | yes        | yes      | yes              | yes      | yes    | yes   | yes      | yes     | -            | yes               | yes          | yes           | yes     |
  | **Mocap marker deck**     | yes      | yes        | yes      | yes              | yes      | yes    | yes   | yes      | yes     | yes          | -                 | yes          |               | yes     |
  | **Lighthouse-4**          | yes      | yes        | yes      | *2               | *2       | yes    | yes   | yes      | yes     | yes          | yes               | -            |               | *3      |
  | **Active marker**         | yes      | yes        | yes      | yes              | yes      | yes    | yes   | yes      | yes     | yes          |                   |              | -             | yes     |
