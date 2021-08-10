@@ -116,8 +116,7 @@ the dark?
 
 {% row_image_text_links I want the Crazyflie to give feedback using sound and light %}
 {% row_text %}
-The {% poplink led-ring-deck %} can be used to display light in any color and the Buzzer deck
-can make sounds, useful for giving the user feedback. For automated implementation
+The {% poplink led-ring-deck %} can be used to display light in any color and the {% poplink buzzer-deck %} can make sounds, useful for giving the user feedback. For automated implementation
 it can be very handy to indicate when the system is ready, error states or similar.
 {% endrow_text %}
 {% row_links %}

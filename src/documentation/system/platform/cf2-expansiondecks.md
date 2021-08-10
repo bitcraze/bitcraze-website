@@ -12,7 +12,7 @@ Here is a list of expansion decks that are available for the Crazyflie 2.X:
 | Expansion Deck | Description | Technical doc | Additional instructions | 
 |---|---|---|---|
 | {% poplink led-ring-deck %}|The LED-ring expansion deck |[datasheet](/documentation/hardware/led_ring_deck/led_ring_deck-datasheet.pdf), [schematics](/documentation/hardware/led_ring_deck/led-ring_revb.pdf) | {% id_link led-deck-on-top %}|
-| {% id_link product-buzzer-deck%}|The Buzzer expansion deck | [datasheet](/documentation/hardware/buzzer_deck/buzzer_deck-datasheet.pdf), [schematics](/documentation/hardware/buzzer_deck/buzzer-revc.pdf) | [Changing the sound](/documentation/repository/crazyflie-firmware/master/userguides/decks/buzzer-deck/) |
+| {% poplink buzzer-deck %} |The Buzzer expansion deck | [datasheet](/documentation/hardware/buzzer_deck/buzzer_deck-datasheet.pdf), [schematics](/documentation/hardware/buzzer_deck/buzzer-revc.pdf) | [Changing the sound](/documentation/repository/crazyflie-firmware/master/userguides/decks/buzzer-deck/) |
 | {% id_link product-qi-1-2-charger%}|Qi 1.2 compatible wireless charging deck| [datasheet](/documentation/hardware/qi_deck_1_2/qi_deck_1_2-datasheet.pdf), [schematics](/documentation/hardware/qi_deck_1_2/qi_1_2-revc.pdf)  | |
 | {% id_link product-prototyping-deck%}|The prototype expansion deck|[datasheet](/documentation/hardware/prototyping_deck/prototyping_deck-datasheet.pdf), [schematics](/documentation/hardware/prototyping_deck/prototyping-revb.pdf)   | |
 | {% id_link product-breakout-deck%}|The breakout expansion deck|[datasheet](/documentation/hardware/breakout_deck/breakout_deck-datasheet.pdf), [schematics](/documentation/hardware/breakout_deck/breakout-revc.pdf)   | |
@@ -66,7 +66,7 @@ All expansion boards display a logo describing the correct orientation:
 
 ### Two expansion board on top
 
-![Two expancions decks on top](/images/documentation/overview/exp_squetch_2top.png){:width="800px"}
+![Two expansions decks on top](/images/documentation/overview/exp_squetch_2top.png){:width="800px"}
 
 Expansion port pinout
 ---------------------
@@ -101,7 +101,7 @@ Deck info
 |------|------|---------------|--------------------|--------|----------------------------|----------------|--------------------------------------------------------------------------|
 | 0xBC | 0x01 | bcLedRing     | {% poplink led-ring-deck %} | 3.3g   | 0 - 700mA                  | Under          | [link](https://store.bitcraze.io/products/led-ring-deck)                 |
 | 0xBC | 0x02 | bcQi          | Qi charger         | 5g     | N/A                        | Under          | [link](https://store.bitcraze.io/products/qi-1-2-wireless-charging-deck) |
-| 0xBC | 0x04 | bcBuzzer      | Buzzer             | 1.8g   | 10mA                       | Under/Above    | [link](https://store.bitcraze.io/products/buzzer-deck)                   |
+| 0xBC | 0x04 | bcBuzzer      | {% poplink buzzer-deck %}             | 1.8g   | 10mA                       | Under/Above    | [link](https://store.bitcraze.io/products/buzzer-deck)                   |
 | 0xBC | 0x05 | bcBigQuad     | Big quad           | 3.8g   | N/A                        | Under/Above    | [link](https://store.bitcraze.io/products/bigquad-deck)                  |
 | 0xBC | 0x06 | bcDWM         | {% poplink loco-positioning-deck %}   | 3.3g   | 160mA                      | Under/Above    | [link](https://store.bitcraze.io/products/loco-positioning-deck)         |
 | 0xBC | 0x08 | bcUSD         | Micro-SD           | 1.7g   | ~30mA                      | Under/Above    | [link](https://store.bitcraze.io/products/sd-card-deck)                  |
@@ -138,7 +138,7 @@ two decks where the connections collide.
 | **bcUSD**                 |       |       |       |       | *(CS)*   | *(CS)*   |  *(CS)*  | CS      |       |       |X      | X     |X      |          |          | VCC  |
 | **{% poplink loco-positioning-deck %}**                 | IRQ   | RST   |       |       | CS       | *(IRQ)*  | *(RST)*  |         |       |       |X      | X     |X      |          |          | VCOM |
 | **bcBigQuad**             | *(X)* | *(X)* | *(X)* | *(X)* |          | **X**    | **X**    | *(X)*   | **X** | **X** | *(X)* | *(X)* | *(X)* |          |          | N/A  |
-| **bcBuzzer**              |       |       |       |       |          |          |          |         | PWM   | PWM   |       |       |       |          |          | N/A  |
+| **{% poplink buzzer-deck %} **              |       |       |       |       |          |          |          |         | PWM   | PWM   |       |       |       |          |          | N/A  |
 | **bcESP**                 |       |       |       |       |          |          |          | *(X)*   | X     | X     |       |       |       |          |          | N/A  |
 | **{% poplink z-ranger-deck %}, Z-ranger deck V1** |       |       | X     | X     |          | *(X)*    |          |         |       |       |       |       |       |          |          | VCC  |
 | **{% poplink flow-deck %}, Flow deck V1**        |       |       | X     | X     |          | *(X)*    | X        |         |       |       | X     | X     | X     |          |          | VCC  |
@@ -164,7 +164,7 @@ This table shows which deck that works on which platform.
 | **Micro-SD**              | yes            | *1        |
 | **{% poplink loco-positioning-deck %}**      | yes            |           |
 | **Big quad**              | yes            | yes       |
-| **Buzzer**                | yes            |           |
+| **{% poplink buzzer-deck %}**                | yes            |           |
 | **bcESP**                 | yes            | yes       |
 | **{% poplink z-ranger-deck %}, Z-ranger deck V1** | yes            | yes       |
 | **{% poplink flow-deck %}, Flow deck V1**         | yes            | yes       |
@@ -193,7 +193,7 @@ compatible.
  | **Micro-SD**              | yes      | yes        | -        | yes *1           | yes      | yes    | yes   | yes      | yes *1  | yes          | yes               | yes          | yes           | yes     |
  | **{% poplink loco-positioning-deck %}**      | yes      | yes        | yes *1   | -                | yes      | yes    | yes   | yes      | yes     | yes          | yes               | *2           | yes           | *2      |
  | **Big quad**              |          | yes        | yes      | yes              | -        |        |       | yes      |         | yes          | yes               | *2           | yes           | yes     |
- | **Buzzer**                | yes      | yes        | yes      | yes              |          | -      |       | yes      | yes     | yes          | yes               | yes          | yes           | yes     |
+ | **{% poplink buzzer-deck %}**                | yes      | yes        | yes      | yes              |          | -      |       | yes      | yes     | yes          | yes               | yes          | yes           | yes     |
  | **bcESP**                 | yes      | yes        | yes      | yes              |          |        | -     | yes      | yes     | yes          | yes               | yes          | yes           | yes     |
  | **{% poplink z-ranger-deck %}, Z-ranger V1** |          |            | yes      | yes              | yes      | yes    | yes   | -        |         | yes          | yes               | yes          | yes           | yes     |
  | **{% poplink flow-deck %}, Flow deck V1**        |          |            | yes *1   | yes              |          | yes    | yes   |          | -       | yes          | yes               | yes          | yes           | yes     |

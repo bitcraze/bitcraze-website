@@ -6,16 +6,16 @@ redirects:
   - /getting-started-with-buzzer-deck/
 ---
 
-{% si_intro The buzzer deck %}
-The buzzer deck contains a low profile piezo buzzer and has a 1-wire memory which enables the Crazyflie to automatically detect the buzzer.
+{% si_intro The Buzzer deck %}
+The {% poplink buzzer-deck %} contains a low profile piezo buzzer and has a 1-wire memory which enables the Crazyflie to automatically detect the buzzer.
 The deck can be installed both on the top and the bottom of the Crazyflie. For more information about how to mount an expansion deck please see the {% id_link getting-started-expansion-decks %} tutorial.
 
-To be able to use the buzzer you need to update the Crazyflie to the latest firmware. For more information on how to update the firmware, see the [update firmware in the Crazyflie]({% id_url getting-started-crazyflie-2; update-fw %}) section in our getting started with Crazyflie 2.X tutorial.
+To be able to use the {% poplink buzzer-deck %} you need to update the Crazyflie to the latest firmware. For more information on how to update the firmware, see the [update firmware in the Crazyflie]({% id_url getting-started-crazyflie-2; update-fw %}) section in our getting started with Crazyflie 2.X tutorial.
 
 {% endsi_intro %}
 
 {% si_step system sounds %}
-When the Buzzer deck is installed, the Crazyflie 2.X will play sounds at various events, for instance when the battery is charged. The events are
+When the {% poplink buzzer-deck %} is installed, the Crazyflie 2.X will play sounds at various events, for instance when the battery is charged. The events are
 
 * Start up
 * Sensors calibrated
@@ -28,7 +28,7 @@ When the Buzzer deck is installed, the Crazyflie 2.X will play sounds at various
 
 
 {% si_step play a sound from the client %}
-To start out with the Buzzer deck the Crazyflie is pre-programmed with system sounds and some melodies.
+To start out with the {% poplink buzzer-deck %} the Crazyflie is pre-programmed with system sounds and some melodies.
 To play them you need to use the Python client and set up a connection with your Crazyflie.
 For more information about how to set up your Crazyflie and install the client go to {% id_link getting-started-crazyflie-2 %}.
 
@@ -63,4 +63,5 @@ Here is a list of the pre-programmed sounds you can choose from:
 |13    |Siren           |                                                        |
 |14    |Tilt            |Tilt the Crazyflie to play the sound                    |
 
+Also check out the [automated documentation of the parameters](/documentation/repository/crazyflie-firmware/master/api/params/#sound)
 {% endsi_step %}

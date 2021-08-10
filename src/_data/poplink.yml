@@ -23,5 +23,9 @@ poplinks:
   z-ranger-deck:
     title: Z-ranger deck V2
     default-link: /products/z-ranger-deck-v2/
-    content: z-ranger-deck.md 
+    content: z-ranger-deck.md
+  buzzer-deck:
+    title: Buzzer deck
+    default-link: /products/buzzer-deck/
+    content: buzzer-deck.md 
 
