@@ -4,8 +4,6 @@
 
 [Other deck compatibility](/documentation/system/platform/cf2-expansiondecks/#deck---deck)
 
-[Blog post](https://www.bitcraze.io/2019/09/the-active-marker-deck/)
+[Parameters](/documentation/repository/crazyflie-firmware/master/api/params/#activemarker)
 
-[Parameters](documentation/repository/crazyflie-firmware/master/api/params/#activemarker))
-
-[Motion Capture Positioning](http://documentation/system/positioning/mocap-positioning/)
+[Motion Capture Positioning](/documentation/system/positioning/mocap-positioning/)
