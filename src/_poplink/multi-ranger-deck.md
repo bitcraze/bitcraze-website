@@ -6,5 +6,5 @@
 
 [STEM Tutorial](/documentation/tutorials/getting-started-with-stem-ranging-bundle/)
 
-[Logging](https://www.bitcraze.io/documentation/repository/crazyflie-firmware/master/api/logs/#range)
+[Logging](/documentation/repository/crazyflie-firmware/master/api/logs/#range)
 
