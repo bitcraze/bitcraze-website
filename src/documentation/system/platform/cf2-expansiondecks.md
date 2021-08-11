@@ -109,11 +109,11 @@ Deck info
 | 0xBC | 0x0A | bcFlow        | Flow deck V1             | 1.6g   | ~40mA                      | Under          | [link](https://store.bitcraze.io/products/flow-deck)                     |
 | 0xBC | 0x0B | bcOA          | Obstacle Avoidance | N/A    | ~0.3mA                     | Above          | N/A                                                                      |
 | 0xBC | 0x0C | bcMultiranger | {% poplink multi-ranger-deck%}      | 2.3g   | ~90mA (depending on mode)  | Above          | [link](https://store.bitcraze.io/products/multi-ranger-deck)             |
-| 0xBC | 0x0D | bcMocap       | Mocap marker deck  | 1.6g   | 0mA                        | Above          | [link](https://store.bitcraze.io/products/motion-capture-marker-deck)    |
+| 0xBC | 0x0D | bcMocap       | {% poplink motion-capture-marker-deck %}  | 1.6g   | 0mA                        | Above          | [link](https://store.bitcraze.io/products/motion-capture-marker-deck)    |
 | 0xBC | 0x0E | bcZRanger2    | {% poplink z-ranger-deck %}        | 1.3g   | ~15mA                      | Under          | [link](https://store.bitcraze.io/products/z-ranger-deck-v2)              |
 | 0xBC | 0x0F | bcFlow2       | {% poplink flow-deck %}             | 1.6g   | ~40mA                      | Under          | [link](https://store.bitcraze.io/products/flow-deck-v2)                  |
 | 0xBC | 0x10 | bcLighthouse4 | {% poplink lighthouse-deck %}       | 2.7g   | ~40mA                      | Above          | [link](https://store.bitcraze.io/products/lighthouse-positioning-deck)   |
-| 0xBC | 0x11 | bcActiveM     | Active marker deck | 3.3g   | ~40mA                      | Above          | [link](https://store.bitcraze.io/products/active-marker-deck)            |
+| 0xBC | 0x11 | bcActiveM     | {% poplink active-marker-deck %} | 3.3g   | ~40mA                      | Above          | [link](https://store.bitcraze.io/products/active-marker-deck)            |
 | 0xBC | 0x12 | bcAI          | AI deck            | 4.4g   | depending on deck app      | Above          | [link](https://store.bitcraze.io/products/ai-deck-1-1)                   |
 |------|------|---------------|--------------------|--------|----------------------------|----------------|--------------------------------------------------------------------------|
 
@@ -144,9 +144,9 @@ two decks where the connections collide.
 | **{% poplink flow-deck %}, Flow deck V1**        |       |       | X     | X     |          | *(X)*    | X        |         |       |       | X     | X     | X     |          |          | VCC  |
 | **bcOA**                  |       |       | X     | X     |          |          |          |         |       |       |       |       |       |          |          | VCC  |
 | **{% poplink multi-ranger-deck%}**         |       |       | X     | X     |          |          |          |         |       |       |       |       |       |          |          | VCOM |
-| **bcMocap**               |       |       |       |       |          |  *(X)*   | *(X)*    |         |       |       |       |       |       |          |          | N/A  |
+| **{% poplink motion-capture-marker-deck %}**               |       |       |       |       |          |  *(X)*   | *(X)*    |         |       |       |       |       |       |          |          | N/A  |
 | **{% poplink lighthouse-deck %}**         | X     | X     | X     | X     |          |          |          |         |       |       |       |       |       |          |          | N/A  |
-| **bcActiveM**             |       |       | X     | X     |          |          |          |         |       |       |       |       |       |          |          | N/A  |
+| **{% poplink active-marker-deck %}**             |       |       | X     | X     |          |          |          |         |       |       |       |       |       |          |          | N/A  |
 | **bcAI**                  | X     | X     | X     | X     | X        |          |          | X       | X     | X     |       |       |       |          |          | VCOM |
 |---------------------------|-------|-------|-------|-------|----------|----------|----------|---------|-------|-------|-------|-------|-------|----------|----------|------|
 
@@ -169,9 +169,9 @@ This table shows which deck that works on which platform.
 | **{% poplink z-ranger-deck %}, Z-ranger deck V1** | yes            | yes       |
 | **{% poplink flow-deck %}, Flow deck V1**         | yes            | yes       |
 | **{% poplink multi-ranger-deck%}**          | yes            | yes       |
-| **Mocap marker deck**     | yes            | yes       |
+| **{% poplink motion-capture-marker-deck %}**     | yes            | yes       |
 | **{% poplink lighthouse-deck %}**          | yes            | *2        |
-| **Active marker**         | yes            | yes       |
+| **{% poplink active-marker-deck %}**         | yes            | yes       |
 | **AI deck**               | yes            | yes       |
 |---------------------------|----------------|-----------|
 
@@ -198,9 +198,9 @@ compatible.
  | **{% poplink z-ranger-deck %}, Z-ranger V1** |          |            | yes      | yes              | yes      | yes    | yes   | -        |         | yes          | yes               | yes          | yes           | yes     |
  | **{% poplink flow-deck %}, Flow deck V1**        |          |            | yes *1   | yes              |          | yes    | yes   |          | -       | yes          | yes               | yes          | yes           | yes     |
  | **{% poplink multi-ranger-deck%}**          | yes      | yes        | yes      | yes              | yes      | yes    | yes   | yes      | yes     | -            | yes               | yes          | yes           | yes     |
- | **Mocap marker deck**     | yes      | yes        | yes      | yes              | yes      | yes    | yes   | yes      | yes     | yes          | -                 | yes          |               | yes     |
+ | **{% poplink motion-capture-marker-deck %}**     | yes      | yes        | yes      | yes              | yes      | yes    | yes   | yes      | yes     | yes          | -                 | yes          |               | yes     |
  | **{% poplink lighthouse-deck %}**          | yes      | yes        | yes      | *2               | *2       | yes    | yes   | yes      | yes     | yes          | yes               | -            |               | *3      |
- | **Active marker**         | yes      | yes        | yes      | yes              | yes      | yes    | yes   | yes      | yes     | yes          |                   |              | -             | yes     |
+ | **{% poplink active-marker-deck %}**         | yes      | yes        | yes      | yes              | yes      | yes    | yes   | yes      | yes     | yes          |                   |              | -             | yes     |
  | **AI deck**               | yes      | yes        | yes      | *2               | yes      | yes    | yes   | yes      | yes     | yes          | yes               | *3           | yes           | -       |
  |---------------------------|----------|------------|----------|------------------|----------|--------|-------|----------|---------|--------------|-------------------|--------------|---------------|---------|
 
