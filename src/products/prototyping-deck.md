@@ -42,6 +42,7 @@ properties of the world around the Crazyflie?
 - {% id_link cf2_expansiondecks %}
 - [Datasheet](/documentation/hardware/prototyping_deck/prototyping_deck-datasheet.pdf)
 - [Schematics](/documentation/hardware/prototyping_deck/prototyping-revb.pdf)
+- {% id_link prototyping-deck %}
 
 ---
 

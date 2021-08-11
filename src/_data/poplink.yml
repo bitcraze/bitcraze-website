@@ -36,4 +36,7 @@ poplinks:
     title: Lighthouse positioning deck
     default-link: /products/lighthouse-positioning-deck/
     content: lighthouse-deck.md
-
+  prototyping-deck:
+    title: Prototyping deck
+    default-link: /products/prototyping-deck
+    content: prototyping-deck.md
