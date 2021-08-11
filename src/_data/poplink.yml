@@ -52,3 +52,7 @@ poplinks:
     title: Active marker deck
     default-link: /products/active-marker-deck
     content: active-marker-deck.md
+  motion-capture-marker-deck:
+    title: Motion capture marker deck
+    default-link: /products/motion-capture-marker-deck
+    content: motion-capture-marker-deck.md
