@@ -44,3 +44,7 @@ poplinks:
     title: Breakout deck
     default-link: /products/breakout-deck
     content: breakout-deck.md
+  qi-1-2-wireless-charging-deck:
+    title: Qi 1.2 wireless charging deck
+    default-link: /products/qi-1_2-charger-deck/
+    content: qi-1-2-wireless-charging-deck.md
