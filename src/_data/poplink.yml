@@ -40,3 +40,7 @@ poplinks:
     title: Prototyping deck
     default-link: /products/prototyping-deck
     content: prototyping-deck.md
+  breakout-deck:
+    title: Breakout deck
+    default-link: /products/breakout-deck
+    content: breakout-deck.md
