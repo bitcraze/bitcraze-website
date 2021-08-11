@@ -48,3 +48,7 @@ poplinks:
     title: Qi 1.2 wireless charging deck
     default-link: /products/qi-1_2-charger-deck/
     content: qi-1-2-wireless-charging-deck.md
+  active-marker-deck:
+    title: Active marker deck
+    default-link: /products/active-marker-deck
+    content: active-marker-deck.md

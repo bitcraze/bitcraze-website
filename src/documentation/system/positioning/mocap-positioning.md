@@ -67,7 +67,7 @@ even though there are multiple object with the same pyhsical marker configuratio
 {% endrow_text %}
 {% row_links %}
 * {% id_link product-motion-capture-marker-deck %}
-* {% id_link product-active-marker-deck %}
+* {% poplink active-marker-deck %}
 {% endrow_links %}
 {% endrow_image_text_links %}
 
@@ -94,7 +94,7 @@ For more information on how to combine the components of the Crazyflie ecosystem
 * {% id_link product-crazyflie-2-1 %}
 * {% id_link product-motion-capture-marker-deck %}
 * [Reflective marker kit](https://store.bitcraze.io/collections/positioning/products/reflective-markers)
-* {% id_link product-active-marker-deck %}
+* {% poplink active-marker-deck %}
 {% endrow_links %}
 {% endrow_image_text_links %}
 
