@@ -15,11 +15,11 @@ poplinks:
   flow-deck:
     title: Flow deck V2
     default-link: /products/flow-deck-v2/
-    content: flow-deck.md 
+    content: flow-deck.md
   multi-ranger-deck:
     title: Multi-ranger deck
     default-link: /products/multi-ranger-deck/
-    content: multi-ranger-deck.md 
+    content: multi-ranger-deck.md
   z-ranger-deck:
     title: Z-ranger deck V2
     default-link: /products/z-ranger-deck-v2/
@@ -35,5 +35,5 @@ poplinks:
   lighthouse-deck:
     title: Lighthouse positioning deck
     default-link: /products/lighthouse-positioning-deck/
-    content: lighthouse-deck.md 
+    content: lighthouse-deck.md
 
