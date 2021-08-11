@@ -156,7 +156,7 @@ no need to connect a cable.
 {% row_links %}
 **What to buy:**
 
-* [Qi wireless charging deck](https://store.bitcraze.io/collections/decks/products/qi-1-2-wireless-charging-deck)
+* {% poplink qi-1-2-wireless-charging-deck %}
 
 Note: wireless charger not included
 {% endrow_links %}

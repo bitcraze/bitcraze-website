@@ -15,11 +15,11 @@ poplinks:
   flow-deck:
     title: Flow deck V2
     default-link: /products/flow-deck-v2/
-    content: flow-deck.md 
+    content: flow-deck.md
   multi-ranger-deck:
     title: Multi-ranger deck
     default-link: /products/multi-ranger-deck/
-    content: multi-ranger-deck.md 
+    content: multi-ranger-deck.md
   z-ranger-deck:
     title: Z-ranger deck V2
     default-link: /products/z-ranger-deck-v2/
@@ -35,5 +35,16 @@ poplinks:
   lighthouse-deck:
     title: Lighthouse positioning deck
     default-link: /products/lighthouse-positioning-deck/
-    content: lighthouse-deck.md 
-
+    content: lighthouse-deck.md
+  prototyping-deck:
+    title: Prototyping deck
+    default-link: /products/prototyping-deck
+    content: prototyping-deck.md
+  breakout-deck:
+    title: Breakout deck
+    default-link: /products/breakout-deck
+    content: breakout-deck.md
+  qi-1-2-wireless-charging-deck:
+    title: Qi 1.2 wireless charging deck
+    default-link: /products/qi-1_2-charger-deck/
+    content: qi-1-2-wireless-charging-deck.md
