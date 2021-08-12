@@ -18,7 +18,7 @@ Long distance and solid tracking;
 Compatible with Qualisys tracking systems and QTM
 %}
 
-The active marker deck together with Qualisys QTM gives you long distance and solid tracking. Thanks to the 4 high-power LEDs you can set up to 4
+The {% poplink active-marker-deck %} together with Qualisys QTM gives you long distance and solid tracking. Thanks to the 4 high-power LEDs you can set up to 4
 different IDs giving you the possibility to uniqly identify a large number of rigid bodies, without the need of many reflective markers.
 
 The hardware comes pre-programmed for Qualisys tracking systems, but can be re-programmed for other applications.

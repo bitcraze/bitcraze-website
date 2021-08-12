@@ -67,7 +67,7 @@ even though there are multiple object with the same pyhsical marker configuratio
 {% endrow_text %}
 {% row_links %}
 * {% id_link product-motion-capture-marker-deck %}
-* {% id_link product-active-marker-deck %}
+* {% poplink active-marker-deck %}
 {% endrow_links %}
 {% endrow_image_text_links %}
 
@@ -82,9 +82,9 @@ Motion capture systems typically have very high accuracy/precission, often under
 {% row_text %}
 It is possible to glue markers to a Crazyflie but we have developed two types of marker decks to simplify the task
 of using the Crazyflie with MoCap systems. The first is the
-[Motion capture marker deck](https://store.bitcraze.io/collections/decks/products/motion-capture-marker-deck)
+{% poplink motion-capture-marker-deck %}
 which is a deck where passive markers easily can be attached in various configurations. The other is the
-[Active marker deck](https://store.bitcraze.io/collections/decks/products/active-marker-deck) which has 4 IR-LEDs that can
+{% poplink active-marker-deck %} which has 4 IR-LEDs that can
 be configured in various ways. Together with a Qualisys Mocap system it also provides the possibility to transmit
 different ids for each marker.
 
@@ -92,9 +92,9 @@ For more information on how to combine the components of the Crazyflie ecosystem
 {% endrow_text %}
 {% row_links %}
 * {% id_link product-crazyflie-2-1 %}
-* {% id_link product-motion-capture-marker-deck %}
+* [Motion capture marker deck](https://store.bitcraze.io/products/motion-capture-marker-deck/)
 * [Reflective marker kit](https://store.bitcraze.io/collections/positioning/products/reflective-markers)
-* {% id_link product-active-marker-deck %}
+* [Active marker deck](https://store.bitcraze.io/products/active-marker-deck/)
 {% endrow_links %}
 {% endrow_image_text_links %}
 

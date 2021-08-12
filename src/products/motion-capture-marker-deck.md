@@ -18,7 +18,7 @@ Add motion capture markers;
 Add reflective markers with ease
 %}
 
-The Motion capture marker deck makes it easy to attach reflective markers to a
+The {% poplink motion-capture-marker-deck %} makes it easy to attach reflective markers to a
 Crazyflie for tracking in a motion capture system. The markers are tracked by
 cameras in the motion capture system and the system uses the information to calculate
 the current position of the Crazyflie. The position can be used for precise
