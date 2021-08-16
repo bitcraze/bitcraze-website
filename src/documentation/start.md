@@ -5,18 +5,40 @@ page_id: getting-started-start
 redirects:
   - /start/
 ---
+{% img Crazyflie on boxes; wide; /images/documentation/landing_page/crazyflie_boxes.png %}
+
+
 
 ## Let's get started!
 
 If you just bought a Crazyflie 2.X a good way to start is to head over to the
-{% id_link getting-started-crazyflie-2 %} guide
-to see how to assemble the kit and take off for your first flight. If you want to add one of our many expansion decks to the Crazyflie 2.X and need help getting started we have made a {% id_link getting-started-expansion-decks %} tutorial. Just follow the steps and you are ready to go.
+getting started guide, to see how to assemble the kit and take off for your first flight. 
 
-Just bought our Loco positioning system? Go to our [Loco Positioning system
-page](/products/loco-positioning-system/) for more information and how to setup the system.
+{% inline_button Getting Started with Crazyflie Tutorial; /documentation/tutorials/getting-started-with-crazyflie-2-x/ %}
 
-We have collected all getting started guides in the Tutorials menu, this is the
-place to look for instructions.
+If you want to add one of our many expansion decks to the Crazyflie 2.X and need help getting started we have made a Expansion decks tutorial. 
+
+ {% inline_button Getting Started with Expansion decks tutorial; /documentation/tutorials/getting-started-with-expansion-decks/ %}
+
+Just bought our Loco positioning system or Lighthouse positioning system? Go to the positioning system page
+ for more information and how to setup the system.
+
+ {% inline_button Positioning Systems page; /documentation/system/positioning/ %}
+
+
+
+To understand the Crazyflie EcoSystem, look at our system overview documentation
+
+ {% inline_button Eco-System overview; /documentation/system/
+ %}
+
+ We have collected all getting started guides in the Tutorials menu, this is the
+place to look for instructions. 
+
+ {% inline_button All tutorials; /documentation/tutorials/
+ %}
+
+
 
 ## Development
 
@@ -24,32 +46,42 @@ When you are comfortable flying the Crazyflie you might feel that it is time for
 the next step, to make use of the flexibility of the platform. After all it is
 designed to be modified! Check out the {% id_link getting-started-development %}
 tutorial to setup your development environment, build your first custom firmware and
-download it to the copter.
+download it to the Crazyflie.
 
-Maybe you want to add a sensor or some other hardware? Heat up your soldering
-iron and dive into it! Find more information about the [expansion bus](/documentation/system/platform/cf2-expansiondecks/). The [documentation](/documentation/system/)
-is the place to look for documentation related to products and projects.
+{% inline_button Getting started with development; /documentation/tutorials/getting-started-with-development/ %}
 
 All the source code is hosted on [github.com/bitcraze](https://github.com/bitcraze)
-and this is also where you will find documentation related to each repository.
+and this is also where you will the source of documentation related to each repository. Please checkout the repository overview page:
+
+{% inline_button Repository overview page; /documentation/repository/ %}
+
+Maybe you want to add a sensor or some other hardware? Heat up your soldering
+iron and dive into it! Find more information about the expansion bus on the expansion decks of the Crazyflie 2.X. 
+
+
+{% inline_button Expansion Decks Page; /documentation/system/platform/cf2-expansiondecks/ %}
 
 ## Projects
 
 Looking for inspiration for a new project? Take a look at our [blog posts](/blog/). The {% id_link videogallery %} contains
 some really cool stuff as well as our [You Tube channel](https://www.youtube.com/user/BitcrazeVideos). We also have a [list of academic groups](/portals/research/) that have used the Crazyflie in their research.
 
+{% inline_button Video Gallery; /documentation/video-gallery/ %}
+
 ## Contribute!
 
 Open source is about sharing, creating something awesome together and contribute
-to the greater good! It is easy, fun and anyone can do it, read more about [how to contribute](/development/contribute/).
+to the greater good! It is easy, fun and anyone can do it, read more about how to contribute!
+
+ {% inline_button How to contribute ?; /development/contribute/ %}
 
 ## Need help?
 
 Can’t find the solution to a problem? Don't understand how or what to do?
 Have you read all documentation and are still confused?
 
-Don't worry, head over to the [forum](//forum.bitcraze.io) and check if someone
-else had the same problem. If not, ask a new question on the forum and get help
-from the Bitcraze team and the community.
+{% inline_button How to get help?; /support/getting-help/ %}
+
+You can also go directly to our [forum](http://forum.bitcraze.io/)!
 
 ### Happy hacking!
