@@ -40,9 +40,9 @@ clients --> pcclients(Python clients & lib):::bc
 clients --> crpa(Crazyradio PA):::bc 
 clients --> mobile(Mobile clients):::bc 
 
-positioning--> lighthouse(Lighthouse):::bc 
-positioning--> loco(Loco positioning):::bc 
-positioning--> mocap(Motion Capture):::bc 
+positioning --> lighthouse[Lighthouse]:::bc
+positioning --> loco[Loco positioning]:::bc
+positioning --> mocap[Motion Capture]:::bc
 
 click ecosystem href "/documentation/system/"
 click platform href "/documentation/system/platform/"
