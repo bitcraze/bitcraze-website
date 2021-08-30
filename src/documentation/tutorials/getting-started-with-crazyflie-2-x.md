@@ -289,6 +289,8 @@ a cross-platform virtualization application that imports and runs our
 preconfigured virtual machine.
 
 [Download and install Oracle VirtualBox.](https://www.virtualbox.org/)
+
+Make sure that you also install the Virtual Box expension pack for USB support.
 {% endsi_step %}
 
 {% si_step download the Bitcraze virtual machine; download-vm %}
