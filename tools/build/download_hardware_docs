@@ -7,25 +7,40 @@ tmp="${scriptDir}/../../tmp"
 downloadFile="${tmp}/download.zip"
 
 
+function downloadOneAtifact() {
+  local uri=$1
+  local unzipName=$2
+
+  mkdir -p ${unzipName}
+
+  echo "Downloading ${uri}"
+  curl -L -o ${downloadFile} ${uri}
+  unzip -q -d ${unzipName} ${downloadFile}
+  rm ${downloadFile}
+  cp -r --link ${unzipName}/* ${dstDir}/
+  rm -r ${unzipName}
+}
+
+
 function downloadGithubRelease() {
   local name=$1
   local tag=$2
   local nameTag=${name}/${tag}
-  local uri="https://github.com/bitcraze/${name}/releases/download/${tag}/docs-${tag}.zip"
-  local unzipName=${tmp}/${name}-${tag}
+
+  local uriDocs="https://github.com/bitcraze/${name}/releases/download/${tag}/docs-${tag}.zip"
+  local unzipNameDocs=${tmp}/${name}-docs-${tag}
+
+  local uriMd="https://github.com/bitcraze/${name}/releases/download/${tag}/md-${tag}.zip"
+  local unzipNameMd=${tmp}/${name}-md-${tag}
 
   if [ -d "${dstDir}" ]; then
       echo "Seems as '${name}' is already downloaded - skipping"
   else
-      mkdir -p ${unzipName}
       mkdir -p ${dstDir}
 
-      echo "Downloading ${nameTag}"
-      curl -L -o ${downloadFile} ${uri}
-      unzip -q -d ${unzipName} ${downloadFile}
-      rm ${downloadFile}
-      mv ${unzipName}/* ${dstDir}/.
-      rm -r ${unzipName}
+      # Merge pdfs and source files in the same file tree
+      downloadOneAtifact ${uriDocs} ${unzipNameDocs}
+      downloadOneAtifact ${uriMd} ${unzipNameMd}
   fi
 }
 
@@ -33,4 +48,4 @@ function downloadGithubRelease() {
 
 echo "Downloading hardware documentation..."
 
-downloadGithubRelease "hardware" "V2021-02-24T09.59.36"
+downloadGithubRelease "hardware" "V2021-09-02T13.48.00"

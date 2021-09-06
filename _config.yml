@@ -3,6 +3,11 @@ name: Bitcraze website
 source: src
 destination: _site
 
+# Exclude the markdown files in the hardware documentation tree. We us them to extract data into other markdown files,
+# but they should not be rendered into HTML in their original format.
+exclude:
+  - 'documentation/hardware/*/*.md'
+
 permalink: /:categories/:title/
 liquid:
   error_mode: strict
