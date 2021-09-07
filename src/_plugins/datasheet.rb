@@ -69,8 +69,8 @@ module Jekyll
         # Increase all section levels 2 notches
         section_md_modified = section_md.gsub(/^ *#/, '###')
 
-        # TODO krri Find out how to render any "new" liquid tags that might be inserted here
-        markdownify(section_md_modified, context)
+        context['datasheet_section_product_name'] = @product_name
+        liquidify(section_md_modified, context)
       end
 
       def find_sections(full_md)
@@ -108,8 +108,42 @@ module Jekyll
       end
     end
 
+    class DatasheetImg < Liquid::Tag
+      include Jekyll::PluginHelper
+
+      # Used to insert centered images in document
+      #
+      # Takes one argument, the image
+      #
+      # Example
+      # {% datasheet_img My Fancy image; medium; center; myimages/myimage.png; %}
+      #
+      # Supported alignment: none, always centered
+      # Supported size: small, medium, large
+
+      def initialize(tag_name, text, tokens)
+        super
+        params = parse_args(text)
+
+        @title = params[0]
+        @size = params[1]
+        @alignment = params[2]
+        @image = params[3]
+      end
+
+      def render(context)
+        product_name = context['datasheet_section_product_name']
+        '<img class="pp-main-image-%2$s" src="/documentation/hardware/%4$s/%3$s" />' % [@alignment, @size, @image, product_name]
+      end
+    end
+
   end
 end
 
 # Tags to extract content from the hardware docs
 Liquid::Template.register_tag('datasheet_section', Jekyll::Datasheet::DatasheetSection)
+
+# Tags implementing functionality used in the datasheets but with a web flavour
+Liquid::Template.register_tag('datasheet_img', Jekyll::Datasheet::DatasheetImg)
+# There are some more tags used in the hardware repo (pdfs) but they are currently
+# not needed here and are thus not implemented (yet).
