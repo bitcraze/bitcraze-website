@@ -133,7 +133,7 @@ module Jekyll
 
       def render(context)
         product_name = context['datasheet_section_product_name']
-        '<img class="pp-main-image-%2$s" src="/documentation/hardware/%4$s/%3$s" />' % [@alignment, @size, @image, product_name]
+        '<img class="pp-main-image-%2$s" src="/documentation/hardware/%4$s/%3$s"  alt="%3$s"/>' % [@alignment, @size, @image, product_name]
       end
     end
 
