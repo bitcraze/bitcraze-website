@@ -150,4 +150,28 @@ class TestRowCols < Testbase
     # Assert
     assert_html(expected, actual)
   end
+
+
+  def test_that_row_icon_text_links_is_rendered
+    # Fixture
+
+    tag = '{% row_icon_text_links The title;fa-icon%}md1{% row_text %}md1{% endrow_text %}{% row_links %}md2{% endrow_links %}{% endrow_icon_text_links %}'
+    expected = '
+    <section class="row content-area">
+        <div class="col-md-12"><h3>The title</h3></div>
+    </section>
+    <section class="row content-area">
+        <div class="col-md-2">
+            <i class="fa fa-icon fa-5x"></i>
+        </div>
+        <div class="col-md-7">converted md1</div>
+        <div class="col-md-3">converted md2</div>
+    </section>'
+
+    # Test
+    actual = Liquid::Template.parse(tag).render(nil, registers: {site: @site_mock})
+
+    # Assert
+    assert_html(expected, actual)
+  end
 end

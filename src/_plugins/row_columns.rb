@@ -181,6 +181,69 @@ module Jekyll
       end
     end
 
+    # Use this tag to create a row with a title and three columns containing an icon, text and links
+    #
+    # Arguments:
+    #   Title of heading
+    #   Fork awesome icon
+    #
+    # ; is used as separator
+    #
+    # The image and/or the link tag can be skipped for empty columns
+    #
+    # Example
+    # {%row_icon_text_links My title; fa-cogs %}
+    # {% row_text %}
+    # Middle column content (markdown)
+    # {% endrow_text %}
+    # {% row_links %}
+    # * [Link 1](http://link.one)
+    # * [Link 2](http://link.two)
+    # {% endrow_links %}
+    # {% endrow_icon_text_links %}
+
+    class RowIconTextLinks < Liquid::Block
+      include Jekyll::PluginHelper
+  
+      def initialize(tag_name, text, tokens)
+        super
+        @params = parse_args(text)
+        @text_content = ''
+        @link_content = ''
+      end
+  
+      def render(context)
+        title = @params[0]
+        icon = @params[1]
+  
+        context.stack do
+          context['row_image_text_links'] = self
+          markup = super
+          
+          
+          icon_tag =  icon ? '<i class="fa '+ icon + ' fa-5x"></i>' : ''
+
+          '<section class="row content-area"><div class="col-md-12"><h3>' + title + '</h3></div>' +
+          '</section><section class="row content-area">' +
+          '<div class="col-md-2">' + icon_tag + '</div>' +
+          '<div class="col-md-7">'  + @text_content  + '</div>' +
+          '<div class="col-md-3">' + @link_content + '</div></section>'
+        end
+      end
+  
+      def to_liquid()
+        self
+      end
+  
+      def set_text_content(content)
+        @text_content = content
+      end
+  
+      def set_link_content(content)
+        @link_content = content
+      end
+    end
+
     # Use this tag to create a row with a title and three columns containing a video, text and links
     #
     # Arguments:
@@ -289,5 +352,6 @@ Liquid::Template.register_tag('column', Jekyll::RowColumns::Column)
 Liquid::Template.register_tag('row_full', Jekyll::RowColumns::RowFull)
 Liquid::Template.register_tag('row_image_text_links', Jekyll::RowColumns::RowImageTextLinks)
 Liquid::Template.register_tag('row_video_text_links', Jekyll::RowColumns::RowVideoTextLinks)
+Liquid::Template.register_tag('row_icon_text_links', Jekyll::RowColumns::RowIconTextLinks)
 Liquid::Template.register_tag('row_text', Jekyll::RowColumns::RowText)
 Liquid::Template.register_tag('row_links', Jekyll::RowColumns::RowLinks)
