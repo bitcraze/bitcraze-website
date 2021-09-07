@@ -108,7 +108,7 @@ class TestDatasheetSection < Testbase
     tag = '{% datasheet_section product_name; Section with tag %}'
 
     # Note: the heading has been extended to level 4 as opposed to level 2 in the fixture file
-    expected = '#### Section with tag <img class="pp-main-image-medium" src="/documentation/hardware/product_name/image_name.jpg" />'
+    expected = '#### Section with tag <img class="pp-main-image-medium" src="/documentation/hardware/product_name/image_name.jpg" alt="image_name.jpg"/>'
 
     # Test
     actual = Liquid::Template.parse(tag).render!(nil, registers: {site: @site_mock})
