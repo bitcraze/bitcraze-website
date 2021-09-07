@@ -77,7 +77,7 @@ log entry 5
 on:myEvent2
 ...
 ```
-The config file supports logging of [log variables](/docs/userguides/logparam.md) as well as [event triggers](/docs/userguides/eventtrigger.md).
+The config file supports logging of [log variables](/documentation/repository/crazyflie-firmware/master/userguides/logparam) as well as [event triggers](/documentation/repository/crazyflie-firmware/master/userguides/eventtrigger/).
 For the fixed frequency logging, the frequency is an integer value in Hertz, for example 250 means that a data block is written every 4ms. The buffer size is used to decouple the writing to the card and the data logging. Higher frequencies require a larger buffer, otherwise some data might be lost. The Crazyflie console will show how many events had to be discarded due to insufficient buffer size:
 ```
 uSD: Wrote 161378 B to: log00 (2237 of 2237 events)
@@ -110,11 +110,12 @@ logData = cfusdlog.decode(fileName)
 where fileName is a file from the µSD-Card. For convenience there is also an [example.py](https://github.com/bitcraze/crazyflie-firmware/blob/master/tools/usdlog/example.py) which shows how to access and plot the data.
 {% endrow_text %}
 {% row_links %}
+* {% id_link getting-started-expansion-decks %}
 * [config.txt](https://github.com/bitcraze/crazyflie-firmware/blob/master/tools/usdlog/config.txt)
 * [helper script](https://github.com/bitcraze/crazyflie-firmware/blob/master/tools/usdlog/cfusdlog.py)
 * [Parameters](/documentation/repository/crazyflie-firmware/master/api/params/#usd)
 * [Log variables](/documentation/repository/crazyflie-firmware/master/api/logs/#usd)
-* {% id_link getting-started-expansion-decks %}
+
 
 {% endrow_links %}
 {%endrow_icon_text_links%}
