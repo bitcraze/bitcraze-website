@@ -6,7 +6,7 @@ redirects:
   - /sd-card-deck/
 ---
 {% buy_online https://store.bitcraze.io/collections/decks/products/sd-card-deck %}
-{% product_img Micro SD card deck; small; /images/sd-card-deck/SD-deck-585px.JPG %}
+{% product_img Micro SD card deck; narrow; /images/sd-card-deck/SD-deck-585px.JPG %}
 {% product_highlight fa-file-text-o; File your data; Read and write data to a micro SD card %}
 
 {% tabgroup %}
@@ -35,6 +35,7 @@ usecases that requires the use of files.
 {% datasheet_section sd_card_deck; Features %}
 {% datasheet_section sd_card_deck; Mechanical specifications %}
 {% datasheet_section sd_card_deck; Electrical specifications %}
+
 #### Compatibility
 See [the compatibility matrix]({% id_url cf2_expansiondecks %}#compatibility-matrixes)
 {% endrow_text %}
@@ -42,14 +43,12 @@ See [the compatibility matrix]({% id_url cf2_expansiondecks %}#compatibility-mat
 * [Datasheet](/documentation/hardware/sd_card_deck/sd_card_deck-datasheet.pdf)
 * [Schematics](/documentation/hardware/sd_card_deck/sdcard_revb.pdf)
 * [Compatibility matrix]({% id_url cf2_expansiondecks %}#compatibility-matrixes)
+
 {% endrow_links %}
 {%endrow_icon_text_links%}
-
 {% endtab %}
 
 {% tab Usage %}
-
-
 {% row_icon_text_links Usage; fa-book %}
 {% row_text %}
 #### File system
@@ -113,6 +112,10 @@ where fileName is a file from the µSD-Card. For convenience there is also an [e
 {% row_links %}
 * [config.txt](https://github.com/bitcraze/crazyflie-firmware/blob/master/tools/usdlog/config.txt)
 * [helper script](https://github.com/bitcraze/crazyflie-firmware/blob/master/tools/usdlog/cfusdlog.py)
+* [Parameters](/documentation/repository/crazyflie-firmware/master/api/params/#usd)
+* [Log variables](/documentation/repository/crazyflie-firmware/master/api/logs/#usd)
+* {% id_link getting-started-expansion-decks %}
+
 {% endrow_links %}
 {%endrow_icon_text_links%}
 
