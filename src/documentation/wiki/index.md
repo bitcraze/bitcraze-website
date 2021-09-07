@@ -13,7 +13,6 @@ page_id: hacks-projects-investigations
 * {% id_link debug-adapter-info %}
 * {% id_link flow-breakout-info %}
 * {% id_link prototyping-deck %}
-* {% id_link breakout-deck %}
 
 ## Projects
 ### Flying with Kinect and ZMQ
@@ -46,6 +45,3 @@ There are a lot of interesting things to investigate in the Crazyflie echosystem
 ## Guides
 * {% id_link coding-standards %}
 * {% id_link docker-builder-images %}
-
-
-
