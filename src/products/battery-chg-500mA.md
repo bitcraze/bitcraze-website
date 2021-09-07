@@ -39,6 +39,7 @@ can even solder multiple chargers together for multi-battery charging.
 {% row_text %}
 {% datasheet_section lipo_charger_500ma; Features %}
 {% datasheet_section lipo_charger_500ma; Mechanical specifications %}
+{% datasheet_section lipo_charger_500ma; Mechanical drawing %}
 {% datasheet_section lipo_charger_500ma; Electrical specification %}
 {% endrow_text %}
 {% row_links %}
@@ -55,6 +56,28 @@ can even solder multiple chargers together for multi-battery charging.
 Connect the battery charger to a standard micro USB connector and
 the battery connector to a battery. The LED
 is lit up while the battery is charging and turns off when fully charged.
+
+![Connecting the charger](/images/battery-charger/batt-chg-proto-combo.jpg)
+{% endrow_text %}
+{% row_links %}
+{% endrow_links %}
+{% endrow_icon_text_links %}
+
+{% endtab %}
+
+
+{% tab Development %}
+
+{% row_icon_text_links Development;  fa-laptop %}
+{% row_text %}
+It is possible to chain multiple chargers together to create a multi battery charger. The P2 connectors on the
+chargers are simply soldered in parallell.
+
+Below are pictures of one possible setup. Don't forget to check the rating of the connectors and make sure you use a power supply that can supply at least 500mA per charger.
+
+![Chaining Top](/images/battery-charger/crab_chg_top.jpg)
+
+![Chaining Side](/images/battery-charger/crab_chg_side.jpg)
 {% endrow_text %}
 {% row_links %}
 {% endrow_links %}
