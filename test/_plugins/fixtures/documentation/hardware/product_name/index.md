@@ -34,6 +34,10 @@ It contains a sub section
 
 sub section text
 
+## Section with tag
+
+{% datasheet_img title; medium; alignment; image_name.jpg %}
+
 ## Final section
 
 nothing after this

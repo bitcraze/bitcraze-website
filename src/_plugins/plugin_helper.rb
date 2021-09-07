@@ -1,9 +1,17 @@
 module Jekyll
   module PluginHelper
+      # Convert markdown to html. Use in blocks that need to process the content of the block
       def markdownify(md, context)
         site = context.registers[:site]
         converter = site.find_converter_instance(Jekyll::Converters::Markdown)
         converter.convert(md)
+      end
+
+      # Convert markdown and liquid. Use when adding content with liquid that was not part of the original source file.
+      # Nore: in unit tests it seems as this method returns the input string which makes it possible (dirty!) to verify
+      # what we send to it
+      def liquidify(md, context)
+        Liquid::Template.parse(md).render(context)
       end
 
       def parse_args(str)
