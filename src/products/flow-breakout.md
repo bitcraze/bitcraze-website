@@ -228,7 +228,6 @@ X: 21, Y: 133, Range: 118
 #### Resources
 
 - {% id_link support-getting-help %}
-- {% id_link flow-breakout-info %}
 - [Datasheet](/documentation/hardware/flow_breakout/flow_breakout-datasheet.pdf)
 - [Schematics](/documentation/hardware/flow_breakout/flow_breakout_revb.pdf)
 - [Store](https://store.bitcraze.io/products/flow-breakout-board)
