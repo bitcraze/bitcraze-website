@@ -118,7 +118,6 @@ For some basic debug instructions go to the [instructions for the STM32](/docume
 - {% id_link development-overview %}
 - {% id_link support-frequently-asked-questions %}
 - {% id_link support-getting-help %}
-- {% id_link debug-adapter-info %}
 - [Datasheet](/documentation/hardware/debug_adapter/debug_adapter-datasheet.pdf)
 - [Schematics](/documentation/hardware/debug_adapter/debug-adapter_revc.pdf)
 - [Store](https://store.bitcraze.io/products/debug-adapter)
