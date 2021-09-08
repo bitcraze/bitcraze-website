@@ -6,6 +6,7 @@ redirects:
   - /flow-deck-v2/
 ---
 
+{% datasheet_product_status flow_deck_2 %}
 {% buy_online https://store.bitcraze.io/collections/decks/products/flow-deck-v2 %}
 
 {% product_img Flow deck; narrow;

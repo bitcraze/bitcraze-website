@@ -6,7 +6,7 @@ redirects:
   - /crazyflie-bolt/
 ---
 
-{% include early-access-info.html %}
+{% datasheet_product_status crazyflie_bolt %}
 
 {% buy_online https://store.bitcraze.io/products/crazyflie-bolt %}
 

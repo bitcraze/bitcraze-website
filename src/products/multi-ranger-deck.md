@@ -6,6 +6,7 @@ redirects:
   - /multi-ranger-deck/
 ---
 
+{% datasheet_product_status multi_ranger_deck %}
 {% buy_online https://store.bitcraze.io/products/multi-ranger-deck %}
 
 {% product_img Multi-ranger deck; narrow;
@@ -80,7 +81,7 @@ Follow the [STEM bundle tutorial]({% id_url getting-started-stem-ranging-bundle 
 {% row_text %}
 
 #### Firmware implementation
-The Multi-ranger deck is being handled in [its driver in the crazyflie firmware](https://github.com/bitcraze/crazyflie-firmware/blob/master/src/deck/drivers/src/multiranger.c). 
+The Multi-ranger deck is being handled in [its driver in the crazyflie firmware](https://github.com/bitcraze/crazyflie-firmware/blob/master/src/deck/drivers/src/multiranger.c).
 
 #### Examples
 Check out the multi-ranger based python demos in the [Crazyflie Python Library](https://github.com/bitcraze/crazyflie-lib-python/tree/master/) example folder.

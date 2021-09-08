@@ -6,6 +6,7 @@ redirects:
   - /z-ranger-deck-v2/
 ---
 
+{% datasheet_product_status z_ranger_deck_2 %}
 {% buy_online https://store.bitcraze.io/collections/decks/products/z-ranger-deck-v2 %}
 
 {% product_img Z-ranger deck v2; narrow;
@@ -78,8 +79,8 @@ Follow the [zranger tutorial]({% id_url getting-started-z-ranger-deck %})
 
 #### Firmware implementation
 
-The [Z-ranger's driver](https://github.com/bitcraze/crazyflie-firmware/blob/master/src/deck/drivers/src/zranger2.c) is currently implemented in the [crazyflie firmware](https://github.com/bitcraze/crazyflie-firmware). 
-Its measurement is mostly used for the [Complementary Filter for state estimation](/documentation/repository/crazyflie-firmware/master/functional-areas/sensor-to-control/state_estimators/#complementary-filter). 
+The [Z-ranger's driver](https://github.com/bitcraze/crazyflie-firmware/blob/master/src/deck/drivers/src/zranger2.c) is currently implemented in the [crazyflie firmware](https://github.com/bitcraze/crazyflie-firmware).
+Its measurement is mostly used for the [Complementary Filter for state estimation](/documentation/repository/crazyflie-firmware/master/functional-areas/sensor-to-control/state_estimators/#complementary-filter).
 
 {% endrow_text %}
 {% row_links %}

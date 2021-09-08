@@ -6,6 +6,7 @@ redirects:
   - /flow-breakout/
 ---
 
+{% datasheet_product_status flow_breakout %}
 {% buy_online https://store.bitcraze.io/collections/decks/products/flow-breakout %}
 
 {% product_img Flow breakout; narrow;
@@ -62,7 +63,7 @@ The Flow breakout features the VL53L0x ToF sensor and the PMW3901 optical flow s
 {% row_icon_text_links Usage; fa-book %}
 {% row_text %}
 
-## Functional description 
+## Functional description
 
 The signal names are marked on the board:
 
@@ -82,7 +83,7 @@ The optical flow sensor will output motion count. Assuming the board is moving a
 
 ![front with arrow](/images/documentation/wiki/front_with_arrow.png)
 
-### Arduino drivers 
+### Arduino drivers
 
 You can install Arduino libraries using the [Arduino library manager](https://www.arduino.cc/en/Guide/Libraries#toc3).
 

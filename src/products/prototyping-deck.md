@@ -6,6 +6,7 @@ redirects:
   - /prototyping-deck/
 ---
 
+{% datasheet_product_status prototyping_deck %}
 {% buy_online https://store.bitcraze.io/collections/decks/products/prototyping-deck %}
 
 {% product_img Prototyping deck; narrow;

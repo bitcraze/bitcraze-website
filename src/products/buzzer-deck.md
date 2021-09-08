@@ -6,6 +6,7 @@ redirects:
   - /buzzer-deck/
 ---
 
+{% datasheet_product_status buzzer_deck %}
 {% buy_online https://store.bitcraze.io/collections/decks/products/buzzer-deck %}
 
 {% product_img Buzzer deck; narrow;
@@ -60,7 +61,7 @@ See [the compatibility matrix]({% id_url cf2_expansiondecks %}#compatibility-mat
 {% row_icon_text_links Usage; fa-book %}
 {% row_text %}
 
-#### Changing the sounds 
+#### Changing the sounds
 
 
 
@@ -83,12 +84,12 @@ You can change the ['Sound parameters'](/documentation/repository/crazyflie-firm
 {% row_icon_text_links Development;  fa-laptop %}
 {% row_text %}
 #### Changing sounds in firmware
-Changing the sounds requires modifications to the firmware. The code for the sounds is located in [sound_cf.c](https://github.com/bitcraze/crazyflie-firmware/blob/master/src/modules/src/sound_cf2.c). 
+Changing the sounds requires modifications to the firmware. The code for the sounds is located in [sound_cf.c](https://github.com/bitcraze/crazyflie-firmware/blob/master/src/modules/src/sound_cf2.c).
 
 A sequences is defined in the .notes member of the Melody struct. The notes are defined as tuples of a note (pitch) and duration. A sequence must be ended with the end marker.
 
 The effects are defined in the effects array. Each entry takes a function to call and related parameters.
-To add a new melody, use the melodyplayer function for the .call member and assign your Melody struct to the .melody member. 
+To add a new melody, use the melodyplayer function for the .call member and assign your Melody struct to the .melody member.
 {% endrow_text %}
 {% row_links %}
 {% endrow_links %}

@@ -6,7 +6,7 @@ redirects:
   - /roadrunner/
 ---
 
-{% include early-access-info.html %}
+{% datasheet_product_status roadrunner %}
 
 {% buy_online https://store.bitcraze.io/collections/positioning/products/roadrunner %}
 

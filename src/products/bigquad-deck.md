@@ -6,11 +6,10 @@ redirects:
   - /bigquad-deck/
 ---
 
+{% datasheet_product_status big_quad_deck %}
 {% buy_online https://store.bitcraze.io/collections/decks/products/bigquad-deck %}
 
-{% product_img BigQuad deck; narrow;
-/images/bigquad-deck-early-access/big-quad-early-access-585px.jpg
-%}
+{% product_img BigQuad deck; narrow; /images/bigquad-deck/big-quad-deck-585px.jpg %}
 
 {% product_highlight
 fa-expand;
@@ -128,7 +127,3 @@ Clean and build the firmware and flash it using you preferred method. Now when t
 - {% id_link cf2_expansiondecks %}
 - [Datasheet](/documentation/hardware/big_quad_deck/big_quad_deck-datasheet.pdf)
 - [Schematics](/documentation/hardware/big_quad_deck/bigquad-rev-c.pdf)
-
----
-
-{% include early-access-info.html %}

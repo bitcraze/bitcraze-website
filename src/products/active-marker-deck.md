@@ -6,6 +6,7 @@ redirects:
   - /active-marker-deck/
 ---
 
+{% datasheet_product_status active_marker_deck %}
 {% buy_online https://store.bitcraze.io/products/active-marker-deck %}
 
 {% product_img Active marker deck; narrow;

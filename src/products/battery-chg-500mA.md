@@ -6,6 +6,7 @@ redirects:
   - /battery-charger-500mA/
 ---
 
+{% datasheet_product_status lipo_charger_500ma %}
 {% buy_online https://store.bitcraze.io/collections/accessories/products/500ma-lipo-usb-charger %}
 
 {% product_img Battery charger; narrow;

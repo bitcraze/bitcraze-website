@@ -6,6 +6,7 @@ redirects:
   - /qi-1-2-charger-deck/
 ---
 
+{% datasheet_product_status qi_deck_1_2 %}
 {% buy_online https://store.bitcraze.io/collections/decks/products/qi-1-2-wireless-charging-deck %}
 
 {% product_img Qi charger deck; narrow; /images/qi-charger/qi-charger-deck-585px.jpg %}

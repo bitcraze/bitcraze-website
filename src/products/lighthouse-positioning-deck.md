@@ -6,6 +6,7 @@ redirects:
   - /lighthouse-positioning-deck/
 ---
 
+{% datasheet_product_status lighthouse_deck %}
 {% buy_online https://store.bitcraze.io/products/lighthouse-positioning-deck %}
 
 {% product_img Lighhouse positioning deck; narrow;
@@ -102,7 +103,7 @@ The deck boots in [bootloader mode](/documentation/repository/lighthouse-bootloa
 {% endrow_text %}
 {% row_links %}
 
-- [Technical details](/documentation/repository/crazyflie-firmware/master/functional-areas/lighthouse/) 
+- [Technical details](/documentation/repository/crazyflie-firmware/master/functional-areas/lighthouse/)
 - [Stabilizer Module](/documentation/repository/crazyflie-firmware/master/functional-areas/sensor-to-control/)
 - [Log Variables](/documentation/repository/crazyflie-firmware/master/api/logs/#lighthouse)
 - [Parameters](/documentation/repository/crazyflie-firmware/master/api/params/#lighthouse)

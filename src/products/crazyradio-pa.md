@@ -6,6 +6,7 @@ redirects:
   - /crazyradio-pa/
 ---
 
+{% datasheet_product_status crazyradio_pa %}
 {% buy_online https://store.bitcraze.io/collections/kits/products/crazyradio-pa %}
 
 {% product_img Crazyradio PA; narrow;

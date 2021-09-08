@@ -6,6 +6,7 @@ redirects:
   - /breakout-deck/
 ---
 
+{% datasheet_product_status breakout_deck %}
 {% buy_online https://store.bitcraze.io/collections/decks/products/breakout-deck %}
 
 {% product_img Breakout deck; narrow;

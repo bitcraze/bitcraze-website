@@ -5,6 +5,7 @@ page_id: product-sd-card-deck
 redirects:
   - /sd-card-deck/
 ---
+{% datasheet_product_status sd_card_deck %}
 {% buy_online https://store.bitcraze.io/collections/decks/products/sd-card-deck %}
 {% product_img Micro SD card deck; narrow; /images/sd-card-deck/SD-deck-585px.JPG %}
 {% product_highlight fa-file-text-o; File your data; Read and write data to a micro SD card %}
@@ -162,5 +163,3 @@ The SD-Card is using the SPI bus on the deck port to communicate. In some cases,
 
 #### Tutorials
 {% id_link getting-started-expansion-decks %}
-
-

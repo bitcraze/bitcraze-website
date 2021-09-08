@@ -6,6 +6,7 @@ redirects:
   - /led-ring-deck/
 ---
 
+{% datasheet_product_status led_ring_deck %}
 {% buy_online https://store.bitcraze.io/collections/decks/products/led-ring-deck %}
 
 {% product_img LED-ring deck; narrow;
@@ -55,7 +56,7 @@ See [the compatibility matrix]({% id_url cf2_expansiondecks %}#compatibility-mat
 {% row_icon_text_links Usage; fa-book %}
 {% row_text %}
 
-The different LED patterns can selected from [CFclient's Flight tab](/documentation/repository/crazyflie-clients-python/master/userguides/userguide_client/flightcontrol_tab/). 
+The different LED patterns can selected from [CFclient's Flight tab](/documentation/repository/crazyflie-clients-python/master/userguides/userguide_client/flightcontrol_tab/).
 
 Once you have selected the right pattern, go ahead and fly!
 {% youtube 1xtvRCmk3qY; wide; 16by9 %}
@@ -65,7 +66,7 @@ Once you have selected the right pattern, go ahead and fly!
 {% endrow_text %}
 {% row_links %}
 - {% id_link cf2_expansiondecks %}
-- [CFclient's Flight tab](/documentation/repository/crazyflie-clients-python/master/userguides/userguide_client/flightcontrol_tab/). 
+- [CFclient's Flight tab](/documentation/repository/crazyflie-clients-python/master/userguides/userguide_client/flightcontrol_tab/).
 
 {% endrow_links %}
 {% endrow_icon_text_links %}
@@ -80,7 +81,7 @@ All the LED-ring deck's effects are implemented in the [led-ring driver](https:/
 
 #### Hardware Hack: LED-ring on top
 
-In case you want to have the LED-ring on top in combination with the {% poplink flow-deck %}! 
+In case you want to have the LED-ring on top in combination with the {% poplink flow-deck %}!
 
 What do you need for this:
 
@@ -96,7 +97,7 @@ The image below shows how you should solder the wiring. The Gnd (ground), IO2, O
 
 ![led deck on top](/images/led-ring/topleddeck.png)
 
-_We did not connect IO3 on purpose since the Flow deck v2 is already using this, or else the LED deck and {% poplink flow-deck %} will conflict with each other's communication with the Crazyflie. However, the LED deck should work as well without the IO3 connected_ 
+_We did not connect IO3 on purpose since the Flow deck v2 is already using this, or else the LED deck and {% poplink flow-deck %} will conflict with each other's communication with the Crazyflie. However, the LED deck should work as well without the IO3 connected_
 
 The battery holder deck can be glued on the LED-deck or attached with some tape.The wiring and soldering are done a bit crude for now to clearly show how to do this, however if you would like the wiring not to be shown as clearly as it is here, this should be easy to fix with thinner wires and basic soldering skills. =)
 
