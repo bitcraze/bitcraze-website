@@ -5,7 +5,6 @@ page_id: hacks-projects-investigations
 ---
 
 ## Product hardware enhancement and adjustements
-* {% id_link lh-deck-other-hardware %}
 * {% id_link solder-deck-pins %}
 * {% id_link debug-adapter-info %}
 
