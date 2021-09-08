@@ -8,7 +8,7 @@ redirects:
 
 {% buy_online https://store.bitcraze.io/collections/decks/products/flow-breakout %}
 
-{% product_img Flow breakout; medium;
+{% product_img Flow breakout; narrow;
 /images/flow_breakout/flow_breakout_585px-1.jpg
 %}
 
