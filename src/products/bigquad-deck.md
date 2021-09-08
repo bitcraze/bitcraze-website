@@ -43,6 +43,15 @@ With the BigQuad deck you can transform your Crazyflie 2.X to a bigger quad by c
 {% datasheet_section big_quad_deck; Pinout %}
 
 {% endrow_text %}
+
+{% row_links %}
+
+* [Datasheet](/documentation/hardware/big_quad_deck/big_quad_deck-datasheet.pdf)
+* [Schematics](/documentation/hardware/big_quad_deck/bigquad-rev-c.pdf)
+* [Compatibility matrix]({% id_url cf2_expansiondecks %}#compatibility-matrixes)
+
+{% endrow_links %}
+
 {% endrow_icon_text_links %}
 {% endtab %}
 
