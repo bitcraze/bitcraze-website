@@ -37,7 +37,6 @@ With the BigQuad deck you can transform your Crazyflie 2.X to a bigger quad by c
 {% datasheet_section big_quad_deck; Features %}
 {% datasheet_section big_quad_deck; Mechanical specifications %}
 {% datasheet_section big_quad_deck; Mechanical drawing %}
-{% datasheet_section big_quad_deck; Package contents %}
 {% datasheet_section big_quad_deck; Electrical specification %}
 {% datasheet_section big_quad_deck; Pinout %}
 
