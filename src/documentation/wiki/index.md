@@ -7,7 +7,6 @@ page_id: hacks-projects-investigations
 ## Product hardware enhancement and adjustements
 * {% id_link bq-deck-build %}
 * {% id_link lh-deck-other-hardware %}
-* {% id_link led-deck-on-top %}
 * {% id_link solder-deck-pins %}
 * {% id_link debug-adapter-info %}
 * {% id_link flow-breakout-info %}

@@ -8,5 +8,4 @@
 
 [Parameters](/documentation/repository/crazyflie-firmware/master/api/params/#ring)
 
-[HW modifications](/documentation/wiki/led-deck-on-top/)
 
