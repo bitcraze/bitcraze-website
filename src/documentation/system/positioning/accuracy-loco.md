@@ -83,4 +83,4 @@ The main part of the error should be caused by the antenna delay, expected to be
 |  5  | 2.20 | 1.90 | 0.008 | 0.30 |
 
 **Histogram over raw range measurements**
-![histogram reference setup](/images/documentation/wiki/hist_ref_setup.png)
+![histogram reference setup](/images/documentation/overview/hist_ref_setup.png)
