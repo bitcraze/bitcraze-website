@@ -23,7 +23,7 @@ Build a quadcopter the size you need, while still running the same code.
 {% row_icon_text_links How it works; fa-cogs %}
 {% row_text %}
 
-With the BigQuad deck you can transform your Crazyflie 2.X to a bigger quad by connecting external ESCs to the breakout connectors on the deck. The autodetection of the deck makes this transformation possible to do in seconds. The deck also contains breakout header connectors for additional accessories such as external receiver (CPPM input) and GPS. It can also monitor battery voltage and current.
+With the BigQuad deck you can transform your Crazyflie 2.X to a bigger quad by connecting external Electronic speed controllers (ESCs) to the breakout connectors on the deck. The autodetection of the deck makes this transformation possible to do in seconds. The deck also contains breakout header connectors for additional accessories such as external receiver (CPPM input) and GPS. It can also monitor battery voltage and current.
 
 {% endrow_text %}
 {% row_links %}
