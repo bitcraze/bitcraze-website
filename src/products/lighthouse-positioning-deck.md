@@ -86,7 +86,7 @@ Go to the [getting started tutorial of the lighthouse positioning system]({% id_
 
 All the Lighthouse positioning is estimated onboard of the crazyflie. Go the the [technical documentation of the lighthouse positioning system](/documentation/repository/crazyflie-firmware/master/functional-areas/lighthouse/) of it is implemented into the [Crazyflie Firmware](https://github.com/bitcraze/crazyflie-firmware).
 
-It is important to have a good feel for the [stabilizer module of the crazyflie](https://www.bitcraze.io/documentation/repository/crazyflie-firmware/master/functional-areas/sensor-to-control/), in particular state estimation with the [Extended Kalman Filter](/documentation/repository/crazyflie-firmware/master/functional-areas/sensor-to-control/state_estimators/#extended-kalman-filter)
+It is important to have a good feel for the [stabilizer module of the crazyflie](/documentation/repository/crazyflie-firmware/master/functional-areas/sensor-to-control/), in particular state estimation with the [Extended Kalman Filter](/documentation/repository/crazyflie-firmware/master/functional-areas/sensor-to-control/state_estimators/#extended-kalman-filter)
 
 #### Hardware Hack: Using LH deck with other hardware
 
