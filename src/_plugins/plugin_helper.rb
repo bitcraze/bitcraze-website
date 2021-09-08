@@ -34,5 +34,15 @@ module Jekyll
       def generate_id(title)
         title.downcase.gsub(/[^a-z0-9 ]/, ' ').gsub(/\s+/,'-')
       end
+
+      # Load a source file (md) for a product from the hardware directory
+      def load_hardware_source_md(context, product_name)
+        site = context.registers[:site]
+        config = site.config
+        src_dir = config["source"]
+
+        path = File.join(src_dir, 'documentation', 'hardware', product_name, 'index.md')
+        File.read(path)
+      end
   end
 end
