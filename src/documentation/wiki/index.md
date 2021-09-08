@@ -6,7 +6,6 @@ page_id: hacks-projects-investigations
 
 ## Product hardware enhancement and adjustements
 * {% id_link solder-deck-pins %}
-* {% id_link debug-adapter-info %}
 
 ## Projects
 ### Flying with Kinect and ZMQ
