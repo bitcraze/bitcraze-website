@@ -11,7 +11,7 @@ Here is a list of expansion decks that are available for the Crazyflie 2.X:
 
 | Expansion Deck | Description | Technical doc | Additional instructions | 
 |---|---|---|---|
-| {% poplink led-ring-deck %}|The LED-ring expansion deck |[datasheet](/documentation/hardware/led_ring_deck/led_ring_deck-datasheet.pdf), [schematics](/documentation/hardware/led_ring_deck/led-ring_revb.pdf) | {% id_link led-deck-on-top %}|
+| {% poplink led-ring-deck %}|The LED-ring expansion deck |[datasheet](/documentation/hardware/led_ring_deck/led_ring_deck-datasheet.pdf), [schematics](/documentation/hardware/led_ring_deck/led-ring_revb.pdf) | |
 | {% poplink buzzer-deck %} |The Buzzer expansion deck | [datasheet](/documentation/hardware/buzzer_deck/buzzer_deck-datasheet.pdf), [schematics](/documentation/hardware/buzzer_deck/buzzer-revc.pdf) | [Changing the sound](/documentation/repository/crazyflie-firmware/master/userguides/decks/buzzer-deck/) |
 | {% poplink qi-1-2-wireless-charging-deck %}|Qi 1.2 compatible wireless charging deck| [datasheet](/documentation/hardware/qi_deck_1_2/qi_deck_1_2-datasheet.pdf), [schematics](/documentation/hardware/qi_deck_1_2/qi_1_2-revc.pdf)  | |
 | {% poplink prototyping-deck %}|The prototype expansion deck|[datasheet](/documentation/hardware/prototyping_deck/prototyping_deck-datasheet.pdf), [schematics](/documentation/hardware/prototyping_deck/prototyping-revb.pdf)   | |
