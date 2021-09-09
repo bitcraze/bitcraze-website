@@ -11,7 +11,7 @@ redirects:
 
 {% product_img Crazyradio PA; narrow; /images/crazyradio-pa/Radio-PA-585px.JPG %}
 
-{% product_highlight fa-wifi; The longer the merrier; Range of up to 1km %}
+{% product_highlight fa-wifi; Connecting at a Distance; Long distance communication %}
 
 {% tabgroup %}
 {% tab How it Works %}
@@ -47,7 +47,7 @@ range increase as with the Crazyflie 2.X.
 {% datasheet_section crazyradio_pa; Mechanical specifications %}
 {% datasheet_section crazyradio_pa; Electrical specification %}
 {% datasheet_section crazyradio_pa; Radio specification %}
-{% datasheet_section crazyradio_pa; Hardware revisions %}
+
 
 {% endrow_text %}
 
@@ -65,10 +65,17 @@ range increase as with the Crazyflie 2.X.
 {% row_text %}
 Connect the Crazyradio PA to a USB port on your computer.
 
-On Windows you have to install drivers, please see [Crazyradio Windows USB driver installation instructions](/documentation/repository/crazyradio-firmware/master/building/usbwindows/).
+On Windows you have to install drivers, please see [Crazyradio Windows USB driver installation instructions](/documentation/repository/crazyradio-firmware/master/building/usbwindows/). For Linux, you will need to setup udev permissions, so for that the [linux udev crazyradio instructions](/documentation/repository/crazyflie-lib-python/master/installation/usb_permissions/).
+
+From there, you are able to install the [CFclient](/documentation/repository/crazyflie-clients-python/master/installation/install/) and communicate with the Crazyflie.
 {% endrow_text %}
 {% row_links %}
-* [Windows driver installation instructions](/documentation/repository/crazyradio-firmware/master/building/usbwindows/)
+* [Windows driver instructions](/documentation/repository/crazyradio-firmware/master/building/usbwindows/)
+
+* [Linux driver instructions](/documentation/repository/crazyflie-lib-python/master/installation/usb_permissions/)
+
+* [Client installation Instructions](/documentation/repository/crazyflie-clients-python/master/installation/install/)
+
 {% endrow_links %}
 {% endrow_icon_text_links %}
 
@@ -79,7 +86,7 @@ On Windows you have to install drivers, please see [Crazyradio Windows USB drive
 
 {% row_text %}
 
-The source code for the firmware can be found on [github](/documentation/repository/crazyradio-firmware/master/)
+The source code for the Crazyradio PA firmware can be found on [github](/documentation/repository/crazyradio-firmware/master/)
 
 {% endrow_text %}
 {% row_links %}
