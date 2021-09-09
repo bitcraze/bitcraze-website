@@ -45,7 +45,6 @@ range increase as with the Crazyflie 2.X.
 
 {% datasheet_section crazyradio_pa; Features %}
 {% datasheet_section crazyradio_pa; Mechanical specifications %}
-{% datasheet_section crazyradio_pa; Mechanical drawing %}
 {% datasheet_section crazyradio_pa; Electrical specification %}
 {% datasheet_section crazyradio_pa; Radio specification %}
 {% datasheet_section crazyradio_pa; Hardware revisions %}
