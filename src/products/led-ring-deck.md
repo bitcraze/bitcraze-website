@@ -65,8 +65,12 @@ Once you have selected the right pattern, go ahead and fly!
 
 {% endrow_text %}
 {% row_links %}
-- {% id_link cf2_expansiondecks %}
 - [CFclient's Flight tab](/documentation/repository/crazyflie-clients-python/master/userguides/userguide_client/flightcontrol_tab/).
+
+#### Tutorials:
+
+* {% id_link getting-started-expansion-decks %}
+
 
 {% endrow_links %}
 {% endrow_icon_text_links %}
@@ -114,7 +118,8 @@ We tested the converted LED deck with the {% poplink flow-deck %} with the CFcli
 * [Parameters](/documentation/repository/crazyflie-firmware/master/api/params/#ring)
 
 
-Hackster.io
+#### Projects
+
 * [Light paint with flowdeck](https://www.hackster.io/krichardsson/light-paint-with-a-drone-d050af)
 * [Bike turning Signal](https://www.hackster.io/krichardsson/bike-turning-signal-75d988)
 * [Long Exposure](https://www.hackster.io/chromebookbob/long-exposure-light-painting-2c4106)
@@ -139,9 +144,3 @@ Hackster.io
 - {% id_link cf2_expansiondecks %}
 - [Datasheet](/documentation/hardware/led_ring_deck/led_ring_deck-datasheet.pdf)
 - [Schematics](/documentation/hardware/led_ring_deck/led-ring_revb.pdf)
-
----
-
-#### Tutorials
-
-{% id_link getting-started-expansion-decks %}
