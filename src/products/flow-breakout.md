@@ -216,8 +216,7 @@ X: 21, Y: 133, Range: 118
 {% endrow_text %}
 
 {% row_links %}
-{% hackster 57245/touchless-mouse-e3053e %}
-
+* [Touchless mouse example](https://www.hackster.io/57245/touchless-mouse-e3053e)
 {% endrow_links %}
 {% endrow_icon_text_links %}
 
