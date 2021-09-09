@@ -8,7 +8,7 @@ redirects:
 
 {% buy_online https://store.bitcraze.io/products/motion-capture-marker-deck %}
 
-{% product_img Prototyping deck; medium;
+{% product_img Prototyping deck; narrow;
 /images/motion-capture-marker-deck/mocap_marker_deck_585px.jpg
 %}
 
