@@ -78,10 +78,99 @@ Enrica Soria, Fabrizio Schiano & Dario Floreano, Nature Machine Intelligence
 [HTML](https://www.nature.com/articles/s42256-021-00341-y)
 [Video](https://youtu.be/cAXUKNGpMG4)
 
+
+
+* **Use of a MEMS Differential Pressure Sensor to Detect Ground, Ceiling, and Walls on Small Quadrotors**
+Victoria Britcher and Sarah Bergbreiter, *IEEE Robotics and Automation Letters*
+[HTML](https://ieeexplore.ieee.org/abstract/document/9385846/?casa_token=5dYnzKcQ3YkAAAAA:6VdskZpHAupLX4MO8G4mWLnH7BBcLYS7QSw-J9ENE7gHwt1RZx_kfQfNy-yTF3nXG1qhjT8)
+
+* **Learning-based Bias Correction for Time Difference of Arrival Ultra-wideband Localization of Resource-constrained Mobile Robots**
+W Zhao, J Panerati, AP Schoellig, *IEEE Robotics and Automation Letters*
+[HTML](https://ieeexplore.ieee.org/abstract/document/9372785/?casa_token=LkZON5oxmooAAAAA:IEQBpr5wMN4BaYs0-AE5DFog1rPbUdngsuEXEqYDsjFqQlFOvOHgNRmRHRGZBVWBvc1HesA) [Blog](https://www.bitcraze.io/2020/04/learning-based-bias-correction-for-accurate-ultra-wideband-localization-of-a-crazyflie/)
+
+* **Tiny Robot Learning (tinyRL) for Source Seeking on a Nano Quadcopter**
+Bardienus Pieter Duisterhof Srivatsan Krishnan Jonathan J. Cruz Colby R. Banbury William Fu Aleksandra Faust Guido C. H. E. de Croon Vijay Janapa Reddi, *IEEE International Conference on Robotics and Automation (ICRA)*  [PDF](https://storage.googleapis.com/pub-tools-public-publication-data/pdf/9d61bdd2dc56c22a5d93cb78f07a70ebe3521052.pdf) [Blog](https://www.bitcraze.io/2019/10/learning-to-seek-autonomous-source-seeking-using-deep-reinforcement-learning-onboard-a-crazyflie/)
+
+* **Quadrotor-Based Lighthouse Localization with Time-Synchronized Wireless Sensor Nodes and Bearing-Only Measurements**
+BG Kilberg, FMR Campos, CB Schindler, KSJ Pister *Sensors* [HTML](https://www.mdpi.com/1424-8220/20/14/3888/htm)
+
+* **Emulation of the Crazyflie 2.1 Hardware for Embedded Control System Testing** Möllerström, Josefine and Nyberg Carlsson, Max *Lund University Master Thesis* [HTML](https://lup.lub.lu.se/student-papers/search/publication/9052405)
+
+* **Online Flocking Control of UAVs with Mean-Field Approximation** M Fernando *IEEE International Conference on Robotics and Automation (ICRA)* [PDF](https://arxiv.org/pdf/2103.15241.pdf)
+
+* **A few lessons learned in reinforcement learning for quadcopter attitude control** N Bernini, M Bessa, R Delmas, A Gold *Proceedings of the 24th International Conference on Hybrid Systems: Computation and Control* [PDF](http://www.lix.polytechnique.fr/Labo/Sylvie.Putot/Publications/hscc21.pdf)
+
 * **Signal-Based Self-Organization of a Chain of UAVs for Subterranean Exploration**
 Pierre Laclau, Vladislav Tempez, Franck Ruffier, Enrico Natalizioand Jean-Baptiste Mouret, Frontiers in Robotics and AI, 2021
 [PDF](https://www.frontiersin.org/articles/10.3389/frobt.2021.614206/pdf)
 [Video](https://youtu.be/bqTjbqbbuQE)
+
+* **Influence of the Ground, Ceiling, and Sidewall on Micro-Quadrotors**
+DJ Carter, L Bouchard, DB Quinn *AIAA Journal* 
+[HTML](https://arc.aiaa.org/doi/abs/10.2514/1.J059787)
+
+* **Application of a Distributed Control Approach to an Aerial Swarm with a Misbehaving Vehicle** Emre Yildirim, Tansel Yucelen and Stefan Ristevski *AIAA Journal* 
+[HTML](https://arc.aiaa.org/doi/pdf/10.2514/6.2021-0647)
+
+* **Invariant Set Distributed Explicit Reference Governors for Provably Safe On-Board Control of Nano-Quadrotor Swarms** Bryan Convens, Kelly Merckaert, Bram Vanderborght and Marco M. Nicotra, *frontiers in Robotics and AI* 
+[HTML](https://www.frontiersin.org/articles/10.3389/frobt.2021.663809/full?&utm_source=Email_to_authors_&utm_medium=Email&utm_content=T1_11.5e1_author&utm_campaign=Email_publication&field=&journalName=Frontiers_in_Robotics_and_AI&id=663809)
+
+* **SwarmPaint: Human-Swarm Interaction for Trajectory Generation and Formation Control by DNN-based Gesture Interface**
+Valerii Serpiva; Ekaterina Karmanova; Aleksey Fedoseev; Stepan Perminov; Dzmitry Tsetserukou *International Conference on Unmanned Aircraft Systems (ICUAS)*
+[HTML](https://ieeexplore.ieee.org/abstract/document/9476795)
+
+* **An Event-Triggered Distributed Control Architecture for Scheduling Information Exchange in Networked Multiagent Systems** Stefan Ristevski; Tansel Yucelen; Jonathan A. Muse *IEEE Transactions on Control Systems Technology*
+[HTML](https://ieeexplore.ieee.org/abstract/document/9468990)
+
+* **Automated Tuning of End-to-end Neural Flight Controllers for Autonomous Nano-drones** Vlad Niculescu; Lorenzo Lamberti; Daniele Palossi; Luca Benini *International Conference on Artificial Intelligence Circuits and Systems (AICAS)* 
+[HTML](https://ieeexplore.ieee.org/abstract/document/9458550)
+
+* **A Computationally Efficient Moving Horizon Estimator for Ultra-Wideband Localization on Small Quadrotors**  Sven Pfeiffer; Christophe de Wagter; Guido C.H.E. de Croon *IEEE Robotics and Automation Letters* 
+[HTML](https://ieeexplore.ieee.org/abstract/document/9478211)
+
+* **Sniffy Bug: A Fully Autonomous Swarm of Gas-Seeking Nano Quadcopters in Cluttered Environments** Bardienus P. Duisterhof, Shushuai Li, Javier Burgués, Vijay Janapa Reddi, Guido C.H.E. de Croon *Arxiv*
+[PDF](https://arxiv.org/pdf/2107.05490.pdf)
+[Blog](https://www.bitcraze.io/2021/07/sniffy-bug-a-fully-autonomous-swarm-of-gas-seeking-nano-quadcopters-in-cluttered-environments/)
+
+* **Sum of Square based Event-triggered Control of Nano-quadrotor in Presence of Packet Dropouts**
+Padmini Singh; Sandeep Gupta; Laxmidhar Behera; Nishchal K. Verma *International Conference on Unmanned Aircraft Systems (ICUAS)*
+[HTML](https://ieeexplore.ieee.org/abstract/document/9476804)
+
+* **SwarmPlay: Interactive Tic-tac-toe Board Game with Swarm of Nano-UAVs driven by Reinforcement Learning**
+Ekaterina Karmanova; Valerii Serpiva; Stepan Perminov; Aleksey Fedoseev; Dzmitry Tsetserukou *IEEE International Conference on Robot & Human Interactive Communication (RO-MAN)*
+[HTML](https://ieeexplore.ieee.org/abstract/document/9515355)
+
+* **DroneTrap: Drone Catching in Midair by Soft Robotic Hand with Color-Based Force Detection and Hand Gesture Recognition** 
+A Fedoseev et.al. *IEEE International Conference on Soft Robotics (RoboSoft)* 
+[HTML](https://ieeexplore.ieee.org/document/9479353)
+
+* **Evaluating Distances in Tactile Human-Drone Interaction** 
+Marc Lieser; Ulrich Schwanecke; Jörg Berdux
+*EEE International Conference on Robot & Human Interactive Communication (RO-MAN)*
+[HTML](https://ieeexplore.ieee.org/abstract/document/9515313)
+
+* **Non-Prehensile Manipulation of Cuboid Objects Using a Catenary Robot**
+Gustavo A. Cardona, Diego S. D'Antonio, Cristian-Ioan Vasile, David Saldaña
+*Accepted at IROS*
+[PDF](https://arxiv.org/pdf/2108.01572.pdf)
+
+* **Visible Light Positioning for Unmanned Aerial Vehicles**
+Ampudia, Ricardo *TU Twente MasterThesis*
+[HTML](http://essay.utwente.nl/88259/)
+
+* **Risk-Aware Motion Planning forMulti-Robot System**
+Qi Luo *TU Delft Masterthesis*
+[HTML]( https://repository.tudelft.nl/islandora/object/uuid:f9e500ec-87de-46b0-b7c3-36b6c4602496)
+
+
+* **An Over-Actuated Multi-Rotor Aerial Vehicle With Unconstrained Attitude Angles and High Thrust Efficiencies** Pengkang Yu; Yao Su; Matthew J. Gerber; Lecheng Ruan; Tsu-Chin Tsao, *IEEE Robotics and Automation Letters*
+[HTML](https://ieeexplore.ieee.org/abstract/document/9476994)
+
+* **GTO-MPC Based Target Chasing using a Quadrotor in Cluttered Environments** Lele Xi; Xinyi Wang; Lei Jiao; Shupeng Lai; Zhihong Peng; Ben M. Chen *IEEE Transactions on Industrial Electronics*
+[HTML](https://ieeexplore.ieee.org/abstract/document/9464724)
+
+
+
 
 * **Comparative Validation Study on Bioinspired Morphology-Adaptation Flight Performance of a Morphing Quad-Rotor**
 Na Zhao, Weixin Yang, Cong Peng, Gang Wang & Yantao Shen, IEEE Robotics and Automation, 2021
