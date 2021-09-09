@@ -126,6 +126,7 @@ If you are into embedded systems, the STM32F405 has a lot of processor power you
 {% endtab %}
 
 {% endtabgroup %}
+---
 
 #### Resources
 
