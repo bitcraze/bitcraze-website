@@ -59,6 +59,11 @@ the battery connector to a battery. The LED
 is lit up while the battery is charging and turns off when fully charged.
 
 ![Connecting the charger](/images/battery-charger/batt-chg-proto-combo.jpg)
+
+#### Caution
+
+Using a battery under direct sunlight may cause overheating, which could result in invalidation or fire. Battery should be charged with proper charger, in compliance with correct operation instructions. Never charge a battery unattended!
+
 {% endrow_text %}
 {% row_links %}
 {% endrow_links %}
@@ -89,10 +94,6 @@ Below are pictures of one possible setup. Don't forget to check the rating of th
 {% endtabgroup %}
 
 ---
-
-#### Caution
-
-Using a battery under direct sunlight may cause overheating, which could result in invalidation or fire. Battery should be charged with proper charger, in compliance with correct operation instructions. Never charge a battery unattended!
 
 #### Resources
 
