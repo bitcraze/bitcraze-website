@@ -54,6 +54,8 @@ See [the compatibility matrix]({% id_url cf2_expansiondecks %}#compatibility-mat
 {% row_links %}
 - [Datasheet](/documentation/hardware/buzzer_deck/buzzer_deck-datasheet.pdf)
 - [Schematics](/documentation/hardware/buzzer_deck/buzzer-revc.pdf)
+- [Compatibility matrix]({% id_url cf2_expansiondecks %}#compatibility-matrixes)
+
 {% endrow_links %}
 {% endrow_icon_text_links %}
 {% endtab %}
@@ -74,8 +76,11 @@ You can change the ['Sound parameters'](/documentation/repository/crazyflie-firm
 
 {% endrow_text %}
 {% row_links %}
-- ['Parameters'](/documentation/repository/crazyflie-firmware/master/api/params/#sound)
+
+#### Tutorials
+
 - {% id_link getting-started-buzzer-deck %}
+- {% id_link getting-started-expansion-decks %}
 
 {% endrow_links %}
 {% endrow_icon_text_links %}
@@ -92,6 +97,8 @@ The effects are defined in the effects array. Each entry takes a function to cal
 To add a new melody, use the melodyplayer function for the .call member and assign your Melody struct to the .melody member.
 {% endrow_text %}
 {% row_links %}
+- [Parameters](/documentation/repository/crazyflie-firmware/master/api/params/#sound)
+
 {% endrow_links %}
 {% endrow_icon_text_links %}
 {% endtab %}
@@ -112,9 +119,3 @@ To add a new melody, use the melodyplayer function for the .call member and assi
 - [Schematics](/documentation/hardware/buzzer_deck/buzzer-revc.pdf)
 - {% id_link getting-started-buzzer-deck %}
 - [Changing the sound](/documentation/repository/crazyflie-firmware/master/userguides/decks/buzzer-deck/)
-
----
-
-#### Tutorials
-
-{% id_link getting-started-expansion-decks %}
