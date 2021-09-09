@@ -33,7 +33,7 @@ Make your ideas fly!; Your imagination sets the limits
 {% row_icon_text_links How it works; fa-cogs %}
 {% row_text %}
 
-The Crazyflie 2.1 is a versatile open source flying development platform that only weighs 27g and fits in the palm of your hand. C
+The Crazyflie 2.1 is a versatile open source flying development platform that only weighs 27g and fits in the palm of your hand. 
 
 It's not only a good flyer, the Crazyflie 2.1 is also equipped with low-latency/long-range
 radio as well as Bluetooth LE. This gives you the option of downloading our app and using your mobile device as a controller or,
@@ -59,10 +59,7 @@ The latest version of the successful Crazyflie development platform comes with i
 {% datasheet_section crazyflie_2_1; IMU specification %}
 {% datasheet_section crazyflie_2_1; Flight specifications %}
 {% datasheet_section crazyflie_2_1; Radio specification %}
-{% datasheet_section crazyflie_2_1; Expansion connector specification %}
 
-#### Compatibility Expansion decks
-See [the compatibility matrix]({% id_url cf2_expansiondecks %}#compatibility-matrixes)
 
 {% endrow_text %}
 {% row_links %}
@@ -148,30 +145,34 @@ Or, why not clone our iOS repository and get into some ObjectiveC/Swift.
 If you are into embedded systems, the STM32F405 has a lot of processor power you can use for doing experiments, making improvements and adding new features. The expansion decks allow you to experiment, prototype and design your own hardware.
 
 
+{% datasheet_section crazyflie_2_1; Expansion connector specification %}
+
+
+
 {% endrow_text %}
 {% row_links %}
 - {% id_link development-overview %}
 - {% id_link repository-overview %}
 - [Github Page](https://github.com/bitcraze)
 
+#### Projects
+* [Light paint](https://www.hackster.io/krichardsson/light-paint-with-a-drone-d050af)
+* [Crazyblimp](https://www.hackster.io/ataffanel/crazyfblimp-6a081b)
+* [Crazycar](https://www.hackster.io/evoggy/crazycar-3c14b6)
+* [Long Exposure Painting](https://www.hackster.io/chromebookbob/long-exposure-light-painting-2c4106)
+* [Walkera Devo](https://www.hackster.io/crazyflie-net/walkera-devo-7e-transmitter-crazyflie-2-mod-c32aa5)
+
+
+
+
+
+
 {% endrow_links %}
 {% endrow_icon_text_links %}
 {% endtab %}
 {% endtabgroup %}
 
----
 
-#### Projects
-
-{% hackster chathuranga-liyanage/beginner-s-guide-to-autonomous-quadcopters-9b5382 %}
-{% hackster krichardsson/light-paint-with-a-drone-d050af %}
-{% hackster ataffanel/crazyfblimp-6a081b %}
-{% hackster krichardsson/bike-turning-signal-75d988 %}
-{% hackster evoggy/crazycar-3c14b6 %}
-{% hackster evoggy/flying-traffic-light-8be87d %}
-{% hackster chromebookbob/long-exposure-light-painting-2c4106 %}
-{% hackster fredg/crazyflie-2-0-fpv-setup-d2fc25 %}
-{% hackster crazyflie-net/walkera-devo-7e-transmitter-crazyflie-2-mod-c32aa5 %}
 
 ---
 
@@ -186,9 +187,3 @@ If you are into embedded systems, the STM32F405 has a lot of processor power you
 - [Component Placement](/documentation/hardware/crazyflie_2_1/cf2.1_component_placement.pdf)
 - [Schematics](/documentation/hardware/crazyflie_2_1/crazyflie_2.1_schematics_rev.b.pdf)
 - [Store](https://store.bitcraze.io/products/crazyflie-2-1)
-
----
-
-#### Tutorials
-
-{% id_link getting-started-crazyflie-2 %}
