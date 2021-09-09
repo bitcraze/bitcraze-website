@@ -5,15 +5,7 @@ page_id: hacks-projects-investigations
 ---
 
 ## Product hardware enhancement and adjustements
-* {% id_link charger-chaining %}
-* {% id_link bq-deck-build %}
-* {% id_link lh-deck-other-hardware %}
-* {% id_link led-deck-on-top %}
 * {% id_link solder-deck-pins %}
-* {% id_link debug-adapter-info %}
-* {% id_link flow-breakout-info %}
-* {% id_link prototyping-deck %}
-* {% id_link breakout-deck %}
 
 ## Projects
 ### Flying with Kinect and ZMQ
@@ -39,13 +31,6 @@ There are a lot of interesting things to investigate in the Crazyflie echosystem
 ### Crazyflie
 * {% id_link pwm-to-thrust %}
 
-### Loco Positioning
-* {% id_link accuracy-loco %}
-* {% id_link max-range-loco %}
-
 ## Guides
 * {% id_link coding-standards %}
 * {% id_link docker-builder-images %}
-
-
-

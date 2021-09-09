@@ -9,6 +9,7 @@
   - {page_id: product-debug-adapter-kit}
   - {page_id: product-battery-charger-500mA}
   - {break: true }
+  - {page_id: product-ai-deck}
   - {page_id: product-led-ring-deck}
   - {page_id: product-qi-1-2-charger}
   - {page_id: product-buzzer-deck}
@@ -19,13 +20,13 @@
   - {page_id: product-z-ranger-deck-v2}
   - {page_id: product-flow-deck-v2}
   - {page_id: product-multi-ranger-deck}
-  - {page_id: product-lighthouse-deck}
   - {page_id: product-active-marker-deck}
   - {page_id: product-motion-capture-marker-deck}
   - {break: true }
   - {page_id: overview_positioning}
   - {page_id: product-loco-pos-deck}
   - {page_id: product-loco-pos-node}
+  - {page_id: product-lighthouse-deck}
   - {break: true }
   - {page_id: product-flow-breakout}
   - {break: true }

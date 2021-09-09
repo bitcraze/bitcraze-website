@@ -30,7 +30,6 @@ page_id: tutorials
 ## Development
 
 * {% id_link getting-started-development %}
-* {% id_link getting-started-flow-breakout %}
 
 ## Old tutorials
 

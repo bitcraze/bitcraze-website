@@ -1,3 +1,5 @@
+require 'yaml'
+
 require_relative 'plugin_helper'
 
 # These plugins are used with the hardware data sheets
@@ -58,11 +60,7 @@ module Jekyll
       end
 
       def render(context)
-        site = context.registers[:site]
-        config = site.config
-        src_dir = config["source"]
-
-        product_md = load_hardware_source_md(src_dir, @product_name)
+        product_md = load_hardware_source_md(context, @product_name)
         sections = find_sections(product_md)
         section_md = extract_section(product_md, sections, @heading)
 
@@ -101,12 +99,49 @@ module Jekyll
 
         product_md[section_start..section_end]
       end
+    end
 
-      def load_hardware_source_md(src_dir, product_name)
-        path = File.join(src_dir, 'documentation', 'hardware', product_name, 'index.md')
-        File.read(path)
+
+    class DatasheetProductStatus < Liquid::Tag
+      include Jekyll::PluginHelper
+
+      # Used to insert notice for the state of a product. Nothing will be shown for "normal" products, but
+      # the appropriate notce is displayed for Early access or end of life.
+      #
+      # Data is extracted from the data sheet
+      #
+      # Takes one argument, the product
+      #
+      # Example
+      # {% datasheet_product_status the-product %}
+
+      def initialize(tag_name, text, tokens)
+        super
+        params = parse_args(text)
+
+        raise "Too few arguments to 'datasheet_product_status' tag. Expected argument is product name" if params.length < 1
+
+        @product_name = params[0]
+      end
+
+      def render(context)
+        product_md = load_hardware_source_md(context, @product_name)
+        data = YAML.load(product_md)
+
+        case data['status']
+        when 'active'
+          ''
+        when 'early-access'
+          '<div class="alert alert-success"><i class="fa fa-info fa-fw"></i> This product is in the <a href="/development/early-access/">Early Access stage</a>.</div>'
+        when 'eol'
+          '<div class="alert alert-success"><i class="fa fa-warning fa-fw"></i> This product has reach end-of-life and is not longer being manufactured. Stock might still be available in our online store or though retailers, but it is not recommended to be used for new set-ups.</div>'
+        else
+          raise "Unexpected status for product"
+        end
+
       end
     end
+
 
     class DatasheetImg < Liquid::Tag
       include Jekyll::PluginHelper
@@ -133,7 +168,7 @@ module Jekyll
 
       def render(context)
         product_name = context['datasheet_section_product_name']
-        '<img class="pp-main-image-%2$s" src="/documentation/hardware/%4$s/%3$s" />' % [@alignment, @size, @image, product_name]
+        '<img class="pp-main-image-%2$s" src="/documentation/hardware/%4$s/%3$s"  alt="%3$s"/>' % [@alignment, @size, @image, product_name]
       end
     end
 
@@ -142,6 +177,7 @@ end
 
 # Tags to extract content from the hardware docs
 Liquid::Template.register_tag('datasheet_section', Jekyll::Datasheet::DatasheetSection)
+Liquid::Template.register_tag('datasheet_product_status', Jekyll::Datasheet::DatasheetProductStatus)
 
 # Tags implementing functionality used in the datasheets but with a web flavour
 Liquid::Template.register_tag('datasheet_img', Jekyll::Datasheet::DatasheetImg)

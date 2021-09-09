@@ -50,7 +50,7 @@ class TestDatasheetSection < Testbase
     end
   end
 
-  def test_that_too_few_arguments_raise_an_exception
+  def test_that_too_few_arguments_for_section_raise_an_exception
     # Fixture
     tag = '{% datasheet_section product_name %}'
 
@@ -108,13 +108,78 @@ class TestDatasheetSection < Testbase
     tag = '{% datasheet_section product_name; Section with tag %}'
 
     # Note: the heading has been extended to level 4 as opposed to level 2 in the fixture file
-    expected = '#### Section with tag <img class="pp-main-image-medium" src="/documentation/hardware/product_name/image_name.jpg" />'
+    expected = '#### Section with tag <img class="pp-main-image-medium" src="/documentation/hardware/product_name/image_name.jpg" alt="image_name.jpg"/>'
 
     # Test
     actual = Liquid::Template.parse(tag).render!(nil, registers: {site: @site_mock})
 
     # Assert
     assert_html(expected, actual)
+  end
+
+  def test_that_too_few_arguments_for_product_status_raise_an_exception
+    # Fixture
+    tag = '{% datasheet_product_status %}'
+
+    # Test
+    # Assert
+    assert_raises do
+      Liquid::Template.parse(tag).render!(nil, registers: {site: @site_mock})
+    end
+  end
+
+  def test_that_product_status_renders_for_active_product
+    # Fixture
+    tag = '{% datasheet_product_status product_name %}'
+
+    expected = ""
+
+    # Test
+    actual = Liquid::Template.parse(tag).render!(nil, registers: {site: @site_mock})
+
+    # Assert
+    assert_html(expected, actual)
+  end
+
+  def test_that_product_status_renders_for_early_access_product
+    # Fixture
+    tag = '{% datasheet_product_status early_access_product %}'
+
+    expected = '''<div class="alert alert-success"><i class="fa fa-info fa-fw"></i>
+    This product is in the <a href="/development/early-access/">Early Access stage</a>.</div>'''
+
+    # Test
+    actual = Liquid::Template.parse(tag).render!(nil, registers: {site: @site_mock})
+
+    # Assert
+    assert_html(expected, actual)
+  end
+
+  def test_that_product_status_renders_for_eol_product
+    # Fixture
+    tag = '{% datasheet_product_status eol_product %}'
+
+    expected = '''<div class="alert alert-success"><i class="fa fa-warning fa-fw"></i>
+    This product has reach end-of-life and is not longer being manufactured. Stock might
+    still be available in our online store or though retailers, but it is not recommended
+    to be used for new set-ups.</div>'''
+
+    # Test
+    actual = Liquid::Template.parse(tag).render!(nil, registers: {site: @site_mock})
+
+    # Assert
+    assert_html(expected, actual)
+  end
+
+  def test_that_product_status_raises_exception_for_unknown_state
+    # Fixture
+    tag = '{% datasheet_product_status invalid_status_product %}'
+
+    # Test
+    # Assert
+    assert_raises do
+      actual = Liquid::Template.parse(tag).render!(nil, registers: {site: @site_mock})
+    end
   end
 
 end
