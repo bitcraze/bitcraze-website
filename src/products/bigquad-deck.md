@@ -57,23 +57,25 @@ With the BigQuad deck you can transform your Crazyflie 2.X to a bigger quad by c
 {% row_icon_text_links Usage; fa-book %}
 {% row_text %}
 
-## Big Quad deck build instructions
+#### Caution
 
 **A big quad is dangerous so make sure to be SAFE!**
+
+#### Assembly
 
 Currently there is only a basic setup but as the development advances so will the documentation.
 Start by mounting the big quad deck on the frame. After that connect the ESCs according to the diagrams below. **Note** that the 5V is needed for the motor signals and is not optional.
 
 
-### Basic connection diagram
+#### Basic connection diagram
 
 ![ESC basic setup](/images/documentation/wiki/esc-basic-setup.png)
 
-### Basic connection picture
+#### Basic connection picture
 
 ![Bigquad basic connection](/images/documentation/wiki/bigquad-basic-connection.png)
 
-### Attaching the Crazyflie 2.0
+#### Attaching the Crazyflie 2.0
 
 The front of the Crazyflie 2.0 should be pointing in the direction of the arrows (front) on the BigQuad deck.
 
@@ -81,11 +83,11 @@ If the frame allows it, the Crazyflie 2.0 motors can be kept mounted but it is f
 
 ![Crazyflie with bigquad deck](/images/documentation/wiki/bigquaddeck-2.jpg)
 
-### Building Firmware
+#### Building Firmware
 
 The BigQuad deck contains a 1-wire memory so it can be automatically detected and functions initialized. However as this currently is an ongoing development and a bigger quads ads a new level of caution we have decided to not enable the functionality by default. Therefore the firmware needs to be compiled with the ENABLE_BQ_DECK flag enabled.
 
-#### Enable BigQuad features
+##### Enable BigQuad features
 
 Make sure to have the crazyflie-firmware code updated to a later version then this [commit](https://github.com/bitcraze/crazyflie-firmware/commit/dbaaa914a54bf31a6bf155b26b09c472dc684086). Then define the flag ENABLE_BQ_DECK, preferably in the config.mk file add:
 
@@ -93,7 +95,7 @@ Make sure to have the crazyflie-firmware code updated to a later version then th
 
 Clean and build the firmware and flash it using you preferred method. Now when the Crazyflie 2.0 is started and it is connected to the BigQuad deck it will start outputting PWM signals to the ESC connectors. The motors [will not spin during the Crazyflie 2.0 power on self-test (POST)](https://forum.bitcraze.io/viewtopic.php?f=6&t=2069#p10502).
 
-## Current firmware status notes (2019-10)
+#### Early access notes (2021)
 * CPPM input is working but calibration and dynamic channel setup is not implemented yet. Doing the first tests with cfclient and gamepad is wise but might not be as reliable as a RC transmitter and receiver, yet.
 * When the BQ-Deck is detected it will automatically switch to brushless motor drivers. It will be noted in the cfclient console if it is detected or not.
 * 1mbit or 2mbit datarate seem to be more stable when communicating with the BigQuad deck attached. It is wise to do a range test before flying far away.
