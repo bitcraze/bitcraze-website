@@ -8,7 +8,7 @@ redirects:
 
 {% buy_online https://store.bitcraze.io/collections/accessories/products/debug-adapter %}
 
-{% product_img Debug adapter kit; medium;
+{% product_img Debug adapter kit; narrow;
 /images/debug-adapter/Debug-adapter-kit-585px.JPG
 %}
 
