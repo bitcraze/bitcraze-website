@@ -9,7 +9,7 @@ redirects:
 
 Here is a list of expansion decks that are available for the Crazyflie 2.X:
 
-| Expansion Deck | Description | Technical doc | Additional instructions | 
+| Expansion Deck | Description | Technical doc | Additional instructions |
 |---|---|---|---|
 | {% poplink led-ring-deck %}|The LED-ring expansion deck |[datasheet](/documentation/hardware/led_ring_deck/led_ring_deck-datasheet.pdf), [schematics](/documentation/hardware/led_ring_deck/led-ring_revb.pdf) | |
 | {% poplink buzzer-deck %} |The Buzzer expansion deck | [datasheet](/documentation/hardware/buzzer_deck/buzzer_deck-datasheet.pdf), [schematics](/documentation/hardware/buzzer_deck/buzzer-revc.pdf) | [Changing the sound](/documentation/repository/crazyflie-firmware/master/userguides/decks/buzzer-deck/) |
@@ -30,7 +30,7 @@ Here is a list of expansion decks that are available for the Crazyflie 2.X:
 
 [Expansion board
 template](https://github.com/bitcraze/crazyflie2-exp-template-electronics): The Crazyflie
-2.0 expansion port template
+2.0/2.1 expansion port template
 
  {% id_link solder-deck-pins %}: Instructions to solder pins directly to the deck
 

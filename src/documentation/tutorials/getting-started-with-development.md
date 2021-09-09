@@ -165,7 +165,7 @@ python3 -m cfloader  flash  cf2.bin stm32-fw
 Restart the Crazyflie you want to bootload in the next
  10 seconds ...
  done!
-Connected to bootloader on Crazyflie 2.0 (version=0x10)
+Connected to bootloader on the Crazyflie (version=0x10)
 Target info: nrf51 (0xFE)
 Flash pages: 232 | Page size: 1024 | Buffer pages: 1 | Start page: 88
 144 KBytes of flash available for firmware image.
