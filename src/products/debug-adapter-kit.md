@@ -44,6 +44,10 @@ pinouts.
 {% datasheet_section debug_adapter; Electrical specification %}
 {% endrow_text %}
 
+{% row_links %}
+- [Datasheet](/documentation/hardware/debug_adapter/debug_adapter-datasheet.pdf)
+- [Schematics](/documentation/hardware/debug_adapter/debug-adapter_revc.pdf)
+{% endrow_links %}
 {% endrow_icon_text_links %}
 
 {% endtab %}
@@ -52,7 +56,7 @@ pinouts.
 
 {% row_icon_text_links Usage; fa-book %}
 {% row_text %}
-## Assembly
+#### Assembly
 The Debug adapter kit contains the following:
   * The nRF debug connector for soldering to the Crazyflie 2.X
   * A nylon screw and nut for securely attaching the nRF51 debug connector
@@ -64,7 +68,7 @@ Below are two images showing how the nRF51 debug connector should be soldered to
 ![debug adapter top](/images/documentation/wiki/debug_adapter_top.jpg)
 ![debug adapter buttom](/images/documentation/wiki/debug_adapter_bottom.jpg)
 
-## Connectors 
+#### Connectors
 ![debug adapter parts](/images/documentation/wiki/debug_adapter_parts.png)
 
 All the connectors are connected together, so any combination of debuggers will work. I.e using the STM32 Discovery board for debugging of the nRF51, or a ARM JTAG to Cortex M debug converter.
@@ -84,27 +88,19 @@ Here's a short explanation of the connectors:
     - VCC
     - SWCLK
 
-{% endrow_text %}
-{% row_links %}
-{% endrow_links %}
-{%endrow_icon_text_links%}
-
-{% endtab %}
-
-{% tab Development %}
-
-{% row_icon_text_links Development;  fa-laptop %}
-{% row_text %}
-## Debug instructions 
+#### Debug instructions
 For some basic debug instructions go to the [instructions for the STM32](/documentation/repository/crazyflie-firmware/master/development/openocd_gdb_debugging/) or [the instructions for the NRF](/documentation/repository/crazyflie2-nrf-firmware/master/development/starting_development/) of the crazyflie.
 
 {% endrow_text %}
-
 {% row_links %}
+* {% id_link getting-started-development %}
+* [instructions for the STM32](/documentation/repository/crazyflie-firmware/master/development/openocd_gdb_debugging/)
+* [Instructions for the NRF](/documentation/repository/crazyflie2-nrf-firmware/master/development/starting_development/)
 {% endrow_links %}
 {%endrow_icon_text_links%}
 
 {% endtab %}
+
 
 {% endtabgroup %}
 
@@ -120,10 +116,3 @@ For some basic debug instructions go to the [instructions for the STM32](/docume
 - {% id_link support-getting-help %}
 - [Datasheet](/documentation/hardware/debug_adapter/debug_adapter-datasheet.pdf)
 - [Schematics](/documentation/hardware/debug_adapter/debug-adapter_revc.pdf)
-- [Store](https://store.bitcraze.io/products/debug-adapter)
-
----
-
-#### Tutorials
-
-{% id_link getting-started-development %}
