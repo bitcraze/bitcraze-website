@@ -47,7 +47,7 @@ the same IMU. So you can start out developing using the much smaller Crazyflie 2
 {% datasheet_section crazyflie_bolt; Electrical specifications %}
 {% datasheet_section crazyflie_bolt; Mechanical specifications %}
 {% datasheet_section crazyflie_bolt; Mechanical drawing %}
-{% datasheet_section crazyflie_bolt; Package contents %}
+
 
 {% endrow_text %}
 
