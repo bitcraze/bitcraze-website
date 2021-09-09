@@ -58,6 +58,9 @@ See [the compatibility matrix]({% id_url cf2_expansiondecks %}#compatibility-mat
 {% row_icon_text_links Usage; fa-book %}
 {% row_text %}
 Mount the deck under the Crazyflie and place it on a Qi charger to charge the battery.
+
+{% youtube F6_pLpQB-Kw; larger; 16by9 %}
+
 {% endrow_text %}
 {% row_links %}
 * {% id_link getting-started-expansion-decks %}
@@ -69,8 +72,6 @@ Mount the deck under the Crazyflie and place it on a Qi charger to charge the ba
 {% endtabgroup %}
 
 ---
-
-{% youtube F6_pLpQB-Kw; medium; 16by9 %}
 
 #### Resources
 
