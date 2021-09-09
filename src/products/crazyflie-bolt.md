@@ -10,7 +10,7 @@ redirects:
 
 {% buy_online https://store.bitcraze.io/products/crazyflie-bolt %}
 
-{% product_img Crazyflie Bolt; medium;
+{% product_img Crazyflie Bolt; narrow;
 /images/crazyflie-bolt/crazyflie_bolt_585px.jpg
 %}
 
