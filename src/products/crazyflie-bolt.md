@@ -15,40 +15,78 @@ redirects:
 %}
 
 {% product_highlight
-fa-expand;
-Go BIG!;
-Start off small and then grow
+fa-paper-plane-o;
+Make your ideas fly!; Your imagination sets the limits
 %}
 
-{% collapse_section Read more %}
+{% tabgroup %}
+{% tab How it Works %}
+{% row_icon_text_links How it works; fa-cogs %}
+{% row_text %}
 
-The Crazyflie Bolt runs the same firmware base as the Crazyflie 2.1 and includes the same IMU. So you can start out
-developing using the much smaller Crazyflie 2.1 and then grow as your application grows.
+The Crazyflie Bolt is a Crazyflie 2.X compatible flight controller for brushless builds. It is intended to have the strengths of the
+Crazyflie 2.1, but in a slightly bit bigger package. The Crazyflie Bolt runs the same firmware base as the Crazyflie 2.1 and includes 
+the same IMU. So you can start out developing using the much smaller Crazyflie 2.1 and then grow as your application grows.
 
-{% endcollapse_section %}
+{% endrow_text %}
+{% row_links %}
+{% endrow_links %}
+{% endrow_icon_text_links %}
+{% endtab %}
+
+{% tab Specifications %}
+{% row_icon_text_links Specifications; fa-list %}
+{% row_text %}
+
+{% datasheet_section crazyflie_bolt; Features %}
+{% datasheet_section crazyflie_bolt; Onboard microcontrollers %}
+{% datasheet_section crazyflie_bolt; IMU specification %}
+{% datasheet_section crazyflie_bolt; Radio specification %}
+{% datasheet_section crazyflie_bolt; Interface specification %}
+{% datasheet_section crazyflie_bolt; Expansion connector specification %}
+{% datasheet_section crazyflie_bolt; Electrical specifications %}
+{% datasheet_section crazyflie_bolt; Mechanical specifications %}
+{% datasheet_section crazyflie_bolt; Mechanical drawing %}
+{% datasheet_section crazyflie_bolt; Package contents %}
+
+{% endrow_text %}
+
+{% row_links %}
+
+* [Datasheet](/documentation/hardware/crazyflie_bolt/crazyflie_bolt-datasheet.pdf)
+* [Schematics](/documentation/hardware/crazyflie_bolt/crazyflie_bolt_revf.pdf)
+
+{% endrow_links %}
+
+{% endrow_icon_text_links %}
+{% endtab %}
+
+{% tab Usage %}
+{% row_icon_text_links Usage; fa-book %}
+{% row_text %}
+
+{% datasheet_section crazyflie_bolt; Connection diagram %}
+
+### Configuration
+
+The Crazyflie firmware will automatically detect that it is running on a Bolt and activate the right modules. However some of the configurations still has to be done during compile time and making them run time configurable is currently work in progress.
+
+### Early access notes (2021)
+* Different PID tuning parameters might be needed for it to fly well. Currently this has to be hard coded. Later this will be saved in the EEPROM or in the 1-wire memory.
+* External battery voltage/current reading is implemented but no logic behind it, so don't run out of battery.
+* The ESC PWM output is set by default to 400Hz. Use ESCs which can handle this or compile with new value. There is also the possibility to enable OneShot125 output.
+* It is wise to do a range test before flying far away.
+* Be safe, it is experimental software. Run all testing without props!
+
+{% endrow_text %}
+{% endrow_icon_text_links %}
+{% endtab %}
 
 
-{% product_highlight
-fa-lightbulb-o;
-Your imagination sets the limits;
-Expansion decks let you add what you want
-%}
+{% tab Development %}
+{% row_icon_text_links Development;  fa-laptop %}
+{% row_text %}
 
-{% collapse_section Read more %}
-We put the same deck expansion connector on the Crazyflie Bolt as on the Crazyflie 2.X. So you have have access to all the same decks
-as well as lots of signals for your own custom hardware, such as: UART, I2C and SPI as well as PWM, analog in/out and GPIO.
-
-The Crazyflie Bolt also supports the same firmware flashing over-the-air, as well as logging and parameters, which makes it really easy
-to develop on the platform.
-{% endcollapse_section %}
-
-{% product_highlight
-fa-code;
-Designed with development in mind;
-Made by developers for developers
-%}
-
-{% collapse_section Read more %}
 We think that a development platform should be something more than
 just making the code available, therefore our software, firmware
 and utilities have functionality such as logging, real-time parameter setting and
@@ -62,32 +100,18 @@ over the radio and you are ready to go.
 For those interested in more advanced development, there is a
 development adapter kit that supports an easy JTAG/SWD connection to
 both of the MCUs on the Crazyflie Bolt.
-{% endcollapse_section %}
 
+#### Open Source
 
-{% product_highlight
-fa-unlock;
-Open source;
-Share with others, never locked in
-%}
-
-{% collapse_section Read more %}
-The Crazyflie Bolt is an open source project, with source code and
-schematics available.
+The Crazyflie 2.X/Bolt is an open source project, with source code and
+hardware schematics both documented and available.
 Since all of our development tools are open source (except for iOS) we are
 allowed to redistribute them in an easy way for our users. Aside from the
 firmware and software projects, there are a number of community
 supported APIs written in Java, Ruby, C/C++, C# and Javascript.
-{% endcollapse_section %}
 
+#### Change the code
 
-{% product_highlight
-fa-heart-o;
-Something for everyone;
-Develop, change and experiment - or just fly
-%}
-
-{% collapse_section Read more %}
 There are ample opportunities to play with the code regardless of which language you prefer.
 Our client API is written in Python, while there are many other client-side implementations on GitHub written
 in Ruby, C#, C/C++, JavaScript, Node.JS, Cylon.JS or Java.
@@ -95,33 +119,19 @@ Or, why not clone our iOS repository and get into some ObjectiveC/Swift.
 
 If you are into embedded systems, the STM32F405 has a lot of processor power you can use for doing experiments, making improvements and adding new features. The expansion decks allow you to experiment, prototype and design your own hardware.
 
-Take a look in the [Development section](/development/development-overview/) to get started.
+{% datasheet_section crazyflie_bolt; Errata %}
 
-By the way, it's fun to just fly it too!
-{% endcollapse_section %}
+{% endrow_text %}
+{% endrow_icon_text_links %}
+{% endtab %}
 
-
-{% product_highlight
-fa-random;
-Always evolving;
-Continuously updated and improved
-%}
-
-{% collapse_section Read more %}
-We continuously work on the firmware, software, documentation and new, creative ways of using
-the system. We also design new expansion decks that add new functionality,
-and possibilities and expands the Crazyflie ecosystem.
-The platform supports wireless firmware
-updates via radio and Bluetooth LE, so when a new firmware is released,
-it's a breeze to update.
-{% endcollapse_section %}
-
----
+{% endtabgroup %}
 
 #### Resources
 
 - {% id_link getting-started-start %}
 - {% id_link buy-guide %}
+- {% id_link support-frequently-asked-questions %}
 - {% id_link development-overview %}
 - {% id_link support-getting-help %}
 - [Datasheet](/documentation/hardware/crazyflie_bolt/crazyflie_bolt-datasheet.pdf)

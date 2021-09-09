@@ -129,7 +129,7 @@ both of the MCUs on the Crazyflie 2.1.
 #### Open Source
 
 The Crazyflie 2.1 is an open source project, with source code and
-hardware design both documented and available.
+hardware schematics both documented and available.
 Since all of our development tools are open source (except for iOS) we are
 allowed to redistribute them in an easy way for our users. Aside from the
 firmware and software projects, there are a number of community
