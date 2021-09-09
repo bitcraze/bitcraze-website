@@ -32,12 +32,15 @@ pins available as well as a footprint where a 1-wire memory could be soldered
 to make the board auto-detectable by the firmware.
 {% endrow_text %}
 {% row_links %}
+
 {% endrow_links %}
 {% endrow_icon_text_links %}
 
 {% endtab %}
 
 {% tab Specifications %}
+{% row_icon_text_links Specifications; fa-list %}
+{% row_text %}
 {% datasheet_section breakout_deck; Features %}
 {% datasheet_section breakout_deck; Mechanical specifications %}
 {% datasheet_section breakout_deck; Mechanical drawing %}
@@ -45,20 +48,20 @@ to make the board auto-detectable by the firmware.
 
 #### Compatibility
 Works with the Crazyflie 2.X
-
-{% row_icon_text_links Specifications; fa-list %}
-{% row_text %}
 {% endrow_text %}
 {% row_links %}
+
+* [Datasheet](/documentation/hardware/breakout_deck/breakout_deck-datasheet.pdf)
+* [Schematics](/documentation/hardware/breakout_deck/breakout-revc.pdf)
 {% endrow_links %}
 {% endrow_icon_text_links %}
 
 {% endtab %}
 
 
-{% tab Development %}
+{% tab Usage %}
 
-{% row_icon_text_links Development;  fa-laptop %}
+{% row_icon_text_links Usage;   fa-book %}
 {% row_text %}
 The deck is designed to be soldered to 100mil breadboard or prototyping board.
 The aim is to ease prototyping by connecting breadboard circuits to Crazyflie 2.0 but
@@ -70,6 +73,10 @@ the Crazyflie can be mounted on a breadboard for easy hardware prototyping.
 
 The breakout board is also very useful to measure signals, for example with an
 oscilloscope.
+
+
+{% youtube q5CcfNx1egs; wide; 16by9 %}
+
 
 {% endrow_text %}
 {% row_links %}
@@ -86,7 +93,6 @@ oscilloscope.
 
 ---
 
-{% youtube q5CcfNx1egs; medium; 16by9 %}
 
 #### Resources
 
