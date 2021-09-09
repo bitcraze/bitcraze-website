@@ -93,11 +93,20 @@ The platform supports wireless firmware
 updates via radio and Bluetooth LE, so when a new firmware is released,
 it's a breeze to update.
 
+#### Getting started
+
+Go to the [crazyflie 2.X getting started tutorial]({% id_url getting-started-crazyflie-2 %}) to build your crazyflie, update its firmware and fly with it with the clients. Also take a look at our {% id_link system-overview %} to learn more about the Crazyflie's ecosystem of positioning systems, Clients and ofcourse the crazyflie itself with its expansion decks.
+
 
 
 {% endrow_text %}
 {% row_links %}
-{% id_link getting-started-crazyflie-2 %}
+
+* {% id_link system-overview %}
+* {% id_link buy-guide %}
+#### Tutorials
+* {% id_link getting-started-crazyflie-2 %}
+* [All other tutorials]({% id_url tutorials %})
 
 {% endrow_links %}
 {% endrow_icon_text_links %}
@@ -142,6 +151,9 @@ If you are into embedded systems, the STM32F405 has a lot of processor power you
 {% endrow_text %}
 {% row_links %}
 - {% id_link development-overview %}
+- {% id_link repository-overview %}
+- [Github Page](https://github.com/bitcraze)
+
 {% endrow_links %}
 {% endrow_icon_text_links %}
 {% endtab %}
