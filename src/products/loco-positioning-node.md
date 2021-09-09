@@ -45,7 +45,10 @@ This product is intended to be used together with
 {% row_text %}
 {% datasheet_section loco_node; Features %}
 {% datasheet_section loco_node; Mechanical specifications %}
+{% datasheet_section loco_node; Mechanical drawing %}
 {% datasheet_section loco_node; Electrical specification %}
+{% datasheet_section loco_node; Radio specification %}
+{% datasheet_section loco_node; Ranging specification %}
 
 
 {% endrow_text %}

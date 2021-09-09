@@ -48,6 +48,9 @@ This product is intended to be used together with
 {% datasheet_section loco_deck; Features %}
 {% datasheet_section loco_deck; Mechanical specifications %}
 {% datasheet_section loco_deck; Electrical specification %}
+{% datasheet_section loco_deck; Radio specification %}
+{% datasheet_section loco_deck; Ranging specification %}
+
 #### Compatibility
 See [the compatibility matrix]({% id_url cf2_expansiondecks %}#compatibility-matrixes)
 
@@ -128,4 +131,3 @@ It is important to have a good feel for the [stabilizer module of the crazyflie]
 - {% id_link cf2_expansiondecks %}
 - [Datasheet](/documentation/hardware/loco_deck/loco_deck-datasheet.pdf)
 - [Schematics](/documentation/hardware/loco_deck/loco_deck_revd.pdf)
-
