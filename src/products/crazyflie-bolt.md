@@ -67,11 +67,11 @@ the same IMU. So you can start out developing using the much smaller Crazyflie 2
 
 {% datasheet_section crazyflie_bolt; Connection diagram %}
 
-### Configuration
+#### Configuration
 
 The Crazyflie firmware will automatically detect that it is running on a Bolt and activate the right modules. However some of the configurations still has to be done during compile time and making them run time configurable is currently work in progress.
 
-### Early access notes (2021)
+#### Early access notes (2021)
 * Different PID tuning parameters might be needed for it to fly well. Currently this has to be hard coded. Later this will be saved in the EEPROM or in the 1-wire memory.
 * External battery voltage/current reading is implemented but no logic behind it, so don't run out of battery.
 * The ESC PWM output is set by default to 400Hz. Use ESCs which can handle this or compile with new value. There is also the possibility to enable OneShot125 output.
