@@ -15,14 +15,14 @@ and [IOS](https://itunes.apple.com/us/app/crazyflie-2.0/id946151480?mt=8) device
 {% row_links %}
 **What to buy:**
 
-* [Crazyflie 2.X](https://store.bitcraze.io/products/crazyflie-2-1)
+* {% id_link product-crazyflie-2-1 %}
 {% endrow_links %}
 {% endrow_image_text_links %}
 
 
 {% row_image_text_links I want to fly the Crazyflie 2.X from my computer using a gamepad %}
 {% row_text %}
-The [Crazyradio PA](https://store.bitcraze.io/products/crazyradio-pa)
+The {% id_link product-crazyradio-pa %}
 enables you to connect the Crazyflie 2.X to a computer. Connect
 a [gamepad](/documentation/repository/crazyflie-clients-python/master/userguides/inputdevices/)
 to the computer and run our client software to control the Crazyflie 2.X.
@@ -39,7 +39,7 @@ Note: gamepad is not included
 
 {% row_image_text_links I want to use the Crazyflie 2.X for development %}
 {% row_text %}
-The [Crazyradio PA](https://store.bitcraze.io/products/crazyradio-pa)
+The {% id_link product-crazyradio-pa %}
 enables you to connect the Crazyflie 2.X
 to a computer wireless and download new firmware, modified to your liking. The logging and parameter
 frameworks provides APIs for getting and setting data in the Crazyflie 2.X live,
@@ -64,7 +64,7 @@ Note: gamepad is not included
 {% row_text %}
 A lot can be achieved with the Crazyflie 2.X and the Crazyradio PA only, but for
 advanced development JTAG/SWD access to the platform is useful.
-The [Debug adapter kit](https://store.bitcraze.io/products/debug-adapter)
+The {% id_link product-debug-adapter-kit %}
 enables you to connect your normal JTAG/SWD debugger to
 the Crazyflie 2.X to set break points, single step and so on when debugging.
 {% endrow_text %}
@@ -90,8 +90,8 @@ why not manufacture a [deck PCB](https://github.com/bitcraze/crazyflie2-exp-temp
 {% row_links %}
 **What to buy:**
 
-* [Breakout deck](https://store.bitcraze.io/products/breakout-deck)
-* [Prototyping deck](https://store.bitcraze.io/products/prototyping-deck)
+* {% id_link product-breakout-deck %}
+* {% poplink prototyping-deck %}
 * [Female deck connectors](https://store.bitcraze.io/products/female-deck-connector)
 {% endrow_links %}
 {% endrow_image_text_links %}
@@ -123,7 +123,7 @@ it can be very handy to indicate when the system is ready, error states or simil
 **What to buy:**
 
 * [The Artist bundle](https://store.bitcraze.io/products/the-estetik-bundle-1)
-* [the Buzzer deck](https://store.bitcraze.io/products/buzzer-deck)
+* {% poplink buzzer-deck %}
 {% endrow_links %}
 {% endrow_image_text_links %}
 
@@ -140,7 +140,7 @@ Crazyflie 2.X but super sized.
 **What to buy:**
 
 * [Getting started bundle](https://store.bitcraze.io/products/getting-started-bundle)
-* [BigQuad deck](https://store.bitcraze.io/products/bigquad-deck)
+* {% id_link product-bigquad-deck %}
 
 Note: the bigger frame, brushless motors and ESCs are not included
 {% endrow_links %}
@@ -172,7 +172,7 @@ filesystem of a SD card and enables storage of any data.
 {% row_links %}
 **What to buy:**
 
-* [Micro SD card deck](https://store.bitcraze.io/products/sd-card-deck)
+* {% poplink sd-card-deck %}
 
 Note: SD card is not included
 {% endrow_links %}
@@ -191,7 +191,7 @@ different firmware to Crazyflie individuals.
 {% row_links %}
 **What to buy:**
 
-* [SD-card deck](https://store.bitcraze.io/products/sd-card-deck)
+* {% poplink sd-card-deck %}
 
 Note: SD card is not included
 {% endrow_links %}
@@ -220,12 +220,12 @@ gamepad, not with a mobile device.
 **What to buy:**
 
 * [Getting started bundle](https://store.bitcraze.io/products/getting-started-bundle)
-* [Z-ranger deck](https://store.bitcraze.io/products/z-ranger-deck-v2)
+* {% poplink z-ranger-deck %}
 
 ---
 
 * [Getting started bundle](https://store.bitcraze.io/products/getting-started-bundle)
-* [Flow deck](https://store.bitcraze.io/products/flow-deck-v2)
+* {% poplink flow-deck %}
 
 Note: gamepad is not included
 {% endrow_links %}
@@ -244,8 +244,8 @@ support autonomous flight.
 **What to buy:**
 
 * [Getting started bundle](https://store.bitcraze.io/products/getting-started-bundle)
-* [Multi-ranger deck](https://store.bitcraze.io/products/multi-ranger-deck)
-* [Flow deck](https://store.bitcraze.io/products/flow-deck-v2)
+* {% poplink multi-ranger-deck %}
+* {% poplink flow-deck %}
 
 ---
 
@@ -329,7 +329,7 @@ maintained up to a minute.
 **What to buy:**
 
 * [Getting started bundle](https://store.bitcraze.io/products/getting-started-bundle)
-* [Flow deck](https://store.bitcraze.io/products/flow-deck-v2)
+* {% poplink flow-deck %}
 {% endrow_links %}
 {% endrow_image_text_links %}
 
@@ -347,7 +347,7 @@ space.
 **What to buy:**
 
 * [Getting started bundles](https://store.bitcraze.io/products/getting-started-bundle)
-* [Lighthouse positioning deck](https://store.bitcraze.io/collections/decks/products/lighthouse-positioning-deck)
+* {% poplink lighthouse-deck %}
 * one or two [Lighthouse base station V2](https://store.bitcraze.io/products/lighthouse-v2-base-station)
 {% endrow_links %}
 {% endrow_image_text_links %}
@@ -413,7 +413,7 @@ positions from a more traditional external tracking system.
 **What to buy:**
 
 * [Getting started bundles](https://store.bitcraze.io/products/getting-started-bundle)
-* [Lighthouse positioning deck](https://store.bitcraze.io/collections/decks/products/lighthouse-positioning-deck)
+* {% poplink lighthouse-deck %}
 * one or two [Lighthouse base station V2](https://store.bitcraze.io/products/lighthouse-v2-base-station)
 {% endrow_links %}
 {% endrow_image_text_links %}
@@ -433,8 +433,8 @@ inside the anchors (the convex hull) and we recommend using 8 anchors for TDoA.
 **What to buy:**
 
 * [Indoor Explorer bundle](https://store.bitcraze.io/products/indoor-explorer-bundle)
-* [Crazyflies](https://store.bitcraze.io/products/crazyflie-2-1),
-* [Loco Positioning decks](https://store.bitcraze.io/products/loco-positioning-deck)
+* {% id_link product-crazyflie-2-1 %},
+* {% poplink loco-positioning-deck %}
 
 ---
 
@@ -459,8 +459,8 @@ swarms of up to 50 Crazyflies.
 **What to buy:**
 
 We do not sell Motion Capture systems, however some accessories are dedicated to it like the
-* [Motion capture marker deck](https://store.bitcraze.io/collections/positioning/products/motion-capture-marker-deck)
-* [Active Marker deck](https://store.bitcraze.io/collections/positioning/products/active-marker-deck)
+* {% poplink motion-capture-marker-deck %}
+* {% poplink active-marker-deck %}
 
 Contact us for further information and solution support
 {% endrow_links %}

@@ -48,19 +48,19 @@ The Crazyflie can be enhanced by adding [expansion decks](https://store.bitcraze
 
 {% row_image_text_links Family tree; /images/documentation/overview/familytree_thumbnail.jpg %}
 {% row_text %}
-The **[Crazyflie 2.1](https://store.bitcraze.io/products/crazyflie-2-1)** was released in 2019 and is the base platform of the family. It is a small (27 grams) and durable quadcopter with an expansion port that enables the user to extend the hardware with expansion decks. The firmware is open source and the flexibility of the platform makes it ideal for research, education or other applications where openess and full control is important.
+The **{% id_link product-crazyflie-2-1 %}** was released in 2019 and is the base platform of the family. It is a small (27 grams) and durable quadcopter with an expansion port that enables the user to extend the hardware with expansion decks. The firmware is open source and the flexibility of the platform makes it ideal for research, education or other applications where openess and full control is important.
 
-The **[Crazyflie Bolt](https://store.bitcraze.io/products/crazyflie-bolt)** is a quadcopter control board that contains the same hardware components and firmware as the crazyflie, but supports connection of brushless motors of up to 8A per motor. It is intended for larger quadcopter platforms with greater lifting capacity and longer flight time, while still using the Crazyflie ecosystem. It has the same expansion bus as the other Crazyflie devices, making it compatible with the expansion decks.
+The **{% id_link product-crazyflie-bolt %}** is a quadcopter control board that contains the same hardware components and firmware as the crazyflie, but supports connection of brushless motors of up to 8A per motor. It is intended for larger quadcopter platforms with greater lifting capacity and longer flight time, while still using the Crazyflie ecosystem. It has the same expansion bus as the other Crazyflie devices, making it compatible with the expansion decks.
 
-The last member of the family is the **[Roadrunner](https://store.bitcraze.io/products/roadrunner)**, the only device that is not a quadcopter. It also shares the core hardware and firmware with the Crazyflie but has an integrated {% poplink loco-positioning-deck %} on the PCB. It can act as an stand alone positioning tag that is able to provide positioning support to any other (larger) platform than the crazyflie, for instance a ground robot.
+The last member of the family is the **{% id_link product-roadrunner %}**, the only device that is not a quadcopter. It also shares the core hardware and firmware with the Crazyflie but has an integrated {% poplink loco-positioning-deck %} on the PCB. It can act as an stand alone positioning tag that is able to provide positioning support to any other (larger) platform than the crazyflie, for instance a ground robot.
 
-**[Crazyflie 2.0](https://store.bitcraze.io/products/crazyflie-2-0)**, the predecessor of the Crazyflie 2.1 was designed and released in 2014. It is the original member of the family and is fully compatible with the Crazyflie 2.1.
+**{% id_link product-crazyflie-2-0 %}**, the predecessor of the Crazyflie 2.1 was designed and released in 2014. It is the original member of the family and is fully compatible with the Crazyflie 2.1.
 {% endrow_text %}
 {% row_links %}
-* [Crazyflie 2.1](https://store.bitcraze.io/products/crazyflie-2-1)
-* [Crazyflie Bolt](https://store.bitcraze.io/products/crazyflie-bolt)
-* [Roadrunner](https://store.bitcraze.io/products/roadrunner)
-* [Crazyflie 2.0](https://store.bitcraze.io/products/crazyflie-2-0)
+* {% id_link product-crazyflie-2-1 %}
+* {% id_link product-crazyflie-bolt %}
+* {% id_link product-roadrunner %}
+* {% id_link product-crazyflie-2-0 %}
 
 -----
 
@@ -71,6 +71,3 @@ The last member of the family is the **[Roadrunner](https://store.bitcraze.io/pr
 
 {% endrow_links %}
 {% endrow_image_text_links %}
-
-
-

@@ -1,7 +1,7 @@
 ---
 layout: page-product
 title: AI deck 1.1
-page_id: product-ai-deck
+page_id: product-ai-deck-1-1
 redirects:
   - /ai-deck/
 ---
@@ -26,7 +26,7 @@ Super-edge-computing on a 30 gram flying platform is now available!
 
 Thanks to the [GAP8 IoT application processor](https://greenwaves-technologies.com/ai_processor_gap8/) from [GreenWaves Technologies](https://greenwaves-technologies.com/ai_processor_gap8/) and the ULP camera, the Crazyflie is able to capture, analyze and classify its environment, as previously presented by [ETH Zurich](https://ethz.ch/en.html) on the initial [PULP-Shield PCB design from IIS-ETHZ](https://arxiv.org/abs/1905.04166). This lightweight and low-power combination opens up many research and development areas for the micro-sized Crazyflie 2.X UAV.
 
-The AI-deck 1.1 extends the computational capabilities and will enable complex artificial intelligence-based workloads to run onboard, with the possibility to achieve fully autonomous navigation capabilities. The ESP32 adds WiFi connectivity with the possibility to stream images as well as handling control. 
+The AI-deck 1.1 extends the computational capabilities and will enable complex artificial intelligence-based workloads to run onboard, with the possibility to achieve fully autonomous navigation capabilities. The ESP32 adds WiFi connectivity with the possibility to stream images as well as handling control.
 
 This product is in the early access stage so documentation and amount of examples are limited. To program this board a compatible JTAG programmer/debugger is needed, see resources.
 
@@ -87,7 +87,7 @@ Make sure to check out the workshop PULP platform gave about the AIdeck!
 
 {% endrow_text %}
 {% row_links %}
-* [AIdeck examples repository](https://github.com/bitcraze/AIdeck_examples) 
+* [AIdeck examples repository](https://github.com/bitcraze/AIdeck_examples)
 * [GAP SDK repo](https://github.com/GreenWaves-Technologies/gap_sdk)
 * [AIdeck documentation](/documentation/repository/AIdeck_examples/master/)
 * [AIdeck blogposts](/category/ai-deck/)

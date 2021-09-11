@@ -1,6 +1,7 @@
 ---
 layout: page-product
 title: Crazyflie 2.0
+page_id: product-crazyflie-2-0
 redirects:
   - /crazyflie-2/
 ---

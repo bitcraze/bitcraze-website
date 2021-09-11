@@ -92,12 +92,11 @@ For more information on how to combine the components of the Crazyflie ecosystem
 {% endrow_text %}
 {% row_links %}
 * {% id_link product-crazyflie-2-1 %}
-* [Motion capture marker deck](https://store.bitcraze.io/products/motion-capture-marker-deck/)
+* {% poplink motion-capture-marker-deck %}
 * [Reflective marker kit](https://store.bitcraze.io/collections/positioning/products/reflective-markers)
-* [Active marker deck](https://store.bitcraze.io/products/active-marker-deck/)
+* {% poplink active-marker-deck %}
 {% endrow_links %}
 {% endrow_image_text_links %}
-
 
 {% row_image_text_links Getting started with MoCap %}
 {% row_text %}
