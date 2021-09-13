@@ -16,10 +16,10 @@ This tutorial is also available as a [video](https://www.youtube.com/watch?v=DCE
 
 {% si_step  Prerequisites - hardware %}
 Make sure that you have the following available:
-* [A Crazyflie 2.X](https://store.bitcraze.io/products/crazyflie-2-1)
+* A {% id_link product-crazyflie-2-1 %}
 * A {% poplink lighthouse-deck %}
 * Two Lighthouse Bsestations. We advise to [buy version 2.0](https://store.bitcraze.io/products/lighthouse-v2-base-station) but version 1.0 is also compatible.
-* [A Crazyradio PA](https://store.bitcraze.io/products/crazyradio-pa)
+* {% id_link product-crazyradio-pa %}
 {% endsi_step %}
 
 {% si_step  Prerequisites - software %}

@@ -85,7 +85,7 @@ For more information on how to combine the components of the Crazyflie ecosystem
 {% endrow_text%}
 {% row_links %}
 * {% id_link product-crazyflie-2-1 %}
-* {% id_link product-lighthouse-deck %}
+* {% poplink lighthouse-deck %}
 
 ----
 

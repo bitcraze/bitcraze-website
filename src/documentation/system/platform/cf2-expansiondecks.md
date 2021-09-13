@@ -97,25 +97,25 @@ running.
 Deck info
 ---------
 
-| VID  | PID  | ID            | Name               | Weight | Consumption                | Mount location | Details page                                                             |
-|------|------|---------------|--------------------|--------|----------------------------|----------------|--------------------------------------------------------------------------|
-| 0xBC | 0x01 | bcLedRing     | {% poplink led-ring-deck %} | 3.3g   | 0 - 700mA                  | Under          | [link](https://store.bitcraze.io/products/led-ring-deck)                 |
-| 0xBC | 0x02 | bcQi          | {% poplink qi-1-2-wireless-charging-deck %}        | 5g     | N/A                        | Under          | [link](https://store.bitcraze.io/products/qi-1-2-wireless-charging-deck) |
-| 0xBC | 0x04 | bcBuzzer      | {% poplink buzzer-deck %}             | 1.8g   | 10mA                       | Under/Above    | [link](https://store.bitcraze.io/products/buzzer-deck)                   |
-| 0xBC | 0x05 | bcBigQuad     | Big quad           | 3.8g   | N/A                        | Under/Above    | [link](https://store.bitcraze.io/products/bigquad-deck)                  |
-| 0xBC | 0x06 | bcDWM         | {% poplink loco-positioning-deck %}   | 3.3g   | 160mA                      | Under/Above    | [link](https://store.bitcraze.io/products/loco-positioning-deck)         |
-| 0xBC | 0x08 | bcUSD         | {% poplink sd-card-deck %}           | 1.7g   | ~30mA                      | Under/Above    | [link](https://store.bitcraze.io/products/sd-card-deck)                  |
-| 0xBC | 0x09 | bcZRanger     | Z-Ranger           | 1.3g   | ~15mA                      | Under          | [link](https://store.bitcraze.io/products/z-ranger-deck)                 |
-| 0xBC | 0x0A | bcFlow        | Flow deck V1             | 1.6g   | ~40mA                      | Under          | [link](https://store.bitcraze.io/products/flow-deck)                     |
-| 0xBC | 0x0B | bcOA          | Obstacle Avoidance | N/A    | ~0.3mA                     | Above          | N/A                                                                      |
-| 0xBC | 0x0C | bcMultiranger | {% poplink multi-ranger-deck%}      | 2.3g   | ~90mA (depending on mode)  | Above          | [link](https://store.bitcraze.io/products/multi-ranger-deck)             |
-| 0xBC | 0x0D | bcMocap       | {% poplink motion-capture-marker-deck %}  | 1.6g   | 0mA                        | Above          | [link](https://store.bitcraze.io/products/motion-capture-marker-deck)    |
-| 0xBC | 0x0E | bcZRanger2    | {% poplink z-ranger-deck %}        | 1.3g   | ~15mA                      | Under          | [link](https://store.bitcraze.io/products/z-ranger-deck-v2)              |
-| 0xBC | 0x0F | bcFlow2       | {% poplink flow-deck %}             | 1.6g   | ~40mA                      | Under          | [link](https://store.bitcraze.io/products/flow-deck-v2)                  |
-| 0xBC | 0x10 | bcLighthouse4 | {% poplink lighthouse-deck %}       | 2.7g   | ~40mA                      | Above          | [link](https://store.bitcraze.io/products/lighthouse-positioning-deck)   |
-| 0xBC | 0x11 | bcActiveM     | {% poplink active-marker-deck %} | 3.3g   | ~40mA                      | Above          | [link](https://store.bitcraze.io/products/active-marker-deck)            |
-| 0xBC | 0x12 | bcAI          | AI deck            | 4.4g   | depending on deck app      | Above          | [link](https://store.bitcraze.io/products/ai-deck-1-1)                   |
-|------|------|---------------|--------------------|--------|----------------------------|----------------|--------------------------------------------------------------------------|
+| VID  | PID  | ID            | Name                                        | Weight | Consumption                | Mount location |
+|------|------|---------------|---------------------------------------------|--------|----------------------------|----------------|
+| 0xBC | 0x01 | bcLedRing     | {% poplink led-ring-deck %}                 | 3.3g   | 0 - 700mA                  | Under          |
+| 0xBC | 0x02 | bcQi          | {% poplink qi-1-2-wireless-charging-deck %} | 5g     | N/A                        | Under          |
+| 0xBC | 0x04 | bcBuzzer      | {% poplink buzzer-deck %}                   | 1.8g   | 10mA                       | Under/Above    |
+| 0xBC | 0x05 | bcBigQuad     | {% id_link product-bigquad-deck %}          | 3.8g   | N/A                        | Under/Above    |
+| 0xBC | 0x06 | bcDWM         | {% poplink loco-positioning-deck %}         | 3.3g   | 160mA                      | Under/Above    |
+| 0xBC | 0x08 | bcUSD         | {% poplink sd-card-deck %}                  | 1.7g   | ~30mA                      | Under/Above    |
+| 0xBC | 0x09 | bcZRanger     | {% id_link product-z-ranger-deck %}         | 1.3g   | ~15mA                      | Under          |
+| 0xBC | 0x0A | bcFlow        | {% id_link product-flow-deck %}             | 1.6g   | ~40mA                      | Under          |
+| 0xBC | 0x0B | bcOA          | Obstacle Avoidance                          | N/A    | ~0.3mA                     | Above          |
+| 0xBC | 0x0C | bcMultiranger | {% poplink multi-ranger-deck%}              | 2.3g   | ~90mA (depending on mode)  | Above          |
+| 0xBC | 0x0D | bcMocap       | {% poplink motion-capture-marker-deck %}    | 1.6g   | 0mA                        | Above          |
+| 0xBC | 0x0E | bcZRanger2    | {% poplink z-ranger-deck %}                 | 1.3g   | ~15mA                      | Under          |
+| 0xBC | 0x0F | bcFlow2       | {% poplink flow-deck %}                     | 1.6g   | ~40mA                      | Under          |
+| 0xBC | 0x10 | bcLighthouse4 | {% poplink lighthouse-deck %}               | 2.7g   | ~40mA                      | Above          |
+| 0xBC | 0x11 | bcActiveM     | {% poplink active-marker-deck %}            | 3.3g   | ~40mA                      | Above          |
+| 0xBC | 0x12 | bcAI          | {% id_link product-ai-deck-1-1 %}           | 4.4g   | depending on deck app      | Above          |
+|------|------|---------------|---------------------------------------------|--------|----------------------------|----------------|
 
 Deck pin allocation
 -------------------

@@ -33,7 +33,7 @@ Make your ideas fly!; Your imagination sets the limits
 {% row_icon_text_links How it works; fa-cogs %}
 {% row_text %}
 
-The Crazyflie 2.1 is a versatile open source flying development platform that only weighs 27g and fits in the palm of your hand. 
+The Crazyflie 2.1 is a versatile open source flying development platform that only weighs 27g and fits in the palm of your hand.
 
 It's not only a good flyer, the Crazyflie 2.1 is also equipped with low-latency/long-range
 radio as well as Bluetooth LE. This gives you the option of downloading our app and using your mobile device as a controller or,
@@ -186,4 +186,3 @@ If you are into embedded systems, the STM32F405 has a lot of processor power you
 - [Datasheet](/documentation/hardware/crazyflie_2_1/crazyflie_2_1-datasheet.pdf)
 - [Component Placement](/documentation/hardware/crazyflie_2_1/cf2.1_component_placement.pdf)
 - [Schematics](/documentation/hardware/crazyflie_2_1/crazyflie_2.1_schematics_rev.b.pdf)
-- [Store](https://store.bitcraze.io/products/crazyflie-2-1)
