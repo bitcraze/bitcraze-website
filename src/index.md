@@ -18,8 +18,10 @@ page_id: home
       </div>
 
       <div class="announcements">
-        <a href="/about/events/bam2021/"><img src="/images/events/bam2021/bam_white.jpg" alt="BAM days!"></a>
-        <br>
+        <a href="/about/events/bam2021/">
+          <img src="/images/events/bam2021/bam_white.jpg" alt="BAM days!">
+          <p>Read more >>></p>
+        </a>
         {% inline_button Sign up now!; https://www.eventbrite.com/e/bam-days-tickets-169463663379 %}
       </div>
 
