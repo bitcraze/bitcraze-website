@@ -179,7 +179,7 @@
       }
       a {
         align-self: center;
-        max-width: 60%;
+        // max-width: 60%;
       }
       p {
         font-size: $font-size-small-screen;
@@ -199,6 +199,7 @@
       // ≥992px
       @media (min-width: $screen-md-min) {
         width: 30%;
+        max-width: 320px;
         margin-right: 2%;
         align-self:flex-start;
         h3 {

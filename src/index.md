@@ -17,11 +17,11 @@ page_id: home
         </div>
       </div>
 
-      <!-- div class="announcements">
-        <h3>Summer vacations</h3>
-        <a><img src="/images/frontpage/beach.jpg" alt="Announcement"></a>
-        <p>Due to vacations, there will be <b>limited support</b> on all our communication channels, and <b>no shipping</b> of products between 8 - 22 July.</p>
-      </div -->
+      <div class="announcements">
+        <a href="/about/events/bam2021/"><img src="/images/events/bam2021/bam_white.jpg" alt="BAM days!"></a>
+        <br>
+        {% inline_button Sign up now!; https://www.eventbrite.com/e/bam-days-tickets-169463663379 %}
+      </div>
 
     </div>
     <div class="header-col-wrapper">
