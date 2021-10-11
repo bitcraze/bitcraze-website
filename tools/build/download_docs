@@ -69,7 +69,7 @@ downloadGithubRepoDoc "crazyflie2-nrf-firmware" "2020.04"
 downloadGithubRepoDoc "crazyflie2-nrf-firmware" "2020.02"
 downloadGithubRepoDoc "crazyflie2-nrf-firmware" "2019.09"
 
-downloadGithubRepoDoc "crazyflie-lib-python" "pdoc"
+downloadGithubRepoDoc "crazyflie-lib-python" "master"
 downloadGithubRepoDoc "crazyflie-lib-python" "0.1.16"
 downloadGithubRepoDoc "crazyflie-lib-python" "0.1.14.1"
 downloadGithubRepoDoc "crazyflie-lib-python" "0.1.13.1"
