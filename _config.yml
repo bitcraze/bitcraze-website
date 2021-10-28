@@ -28,6 +28,7 @@ sass:
 plugins:
   - jekyll-ditaa
   - jekyll-relative-links
+  - include-generated
 
 ditaa_debug_mode: false
 ditaa_output_directory: images/ditaa
