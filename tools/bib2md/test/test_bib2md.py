@@ -1,4 +1,9 @@
+import os
+import sys
 import unittest
+
+# change path to allow importing from parent dir
+sys.path.insert(1, os.path.join(sys.path[0], ".."))
 from src.bib2md import BitcrazeStyle
 
 
