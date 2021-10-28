@@ -6,7 +6,7 @@ set -e
 scriptDir=$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )
 
 . ${scriptDir}/test_ruby
-. ${scriptDir}/test_python
+python3 ${scriptDir}/test_python
 . ${scriptDir}/download_deps
 . ${scriptDir}/download_docs
 . ${scriptDir}/download_hardware_docs
