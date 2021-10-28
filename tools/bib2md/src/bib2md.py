@@ -72,16 +72,6 @@ class BitcrazeStyle(UnsrtStyle):
         else:
             return formatted_title
 
-    # def format_web_refs(self, e):
-    #     return sentence[
-    #         optional[
-    #             self.format_url(e),
-    #             optional[" (visited on ", field("urldate"), ")"],
-    #         ],
-    #         optional[self.format_eprint(e)],
-    #         optional[self.format_doi(e)],
-    #     ]
-
     def find_url_identifiers(self, urls):
         url_list = re.sub(" +", " ", urls.strip()).split(" ")
         if url_list == [""]:
@@ -106,10 +96,7 @@ class BitcrazeStyle(UnsrtStyle):
         except KeyError:
             return richtext.Text("")
         else:
-            splitted_fields = e.fields["url"].split(" ")  # split url entries
-
-            # check type of url, assign correct link text
-            link_type_list = self.find_url_identifiers(e.fields["url"])
+            link_identifier_list = self.find_url_identifiers(e.fields["url"])
 
             # list comprehension to assign split lambda function to split
             # multiple urls and to assign link text to each url
@@ -119,12 +106,14 @@ class BitcrazeStyle(UnsrtStyle):
                         field(
                             "url",
                             apply_func=lambda text: text.split(" ")[
-                                splitted_fields.index(entry)
+                                link_identifier_list.index(entry)
                             ],
                         ),
-                        link_type_list[splitted_fields.index(entry)],
+                        link_identifier_list[
+                            link_identifier_list.index(entry)
+                        ],
                     ]
-                    for entry in splitted_fields
+                    for entry in link_identifier_list
                 ]
             ]
 
