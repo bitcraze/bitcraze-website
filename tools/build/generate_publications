@@ -3,6 +3,7 @@
 import sys
 import os
 
+# change path to allow importing from parent dir
 sys.path.insert(1, os.path.join(sys.path[0], ".."))
 from bib2md.src.bib2md import generate_markdown_from_bib
 
