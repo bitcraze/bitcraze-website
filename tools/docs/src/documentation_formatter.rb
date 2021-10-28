@@ -9,10 +9,11 @@ class DocumentationFormatter
 
   def update_docs_content(docs_dir, ns, repo_name, tag)
     Dir.glob(docs_dir + '/**/*') do |file|
-      if !File.directory?(file) && file.end_with?('.md')
+      if !File.directory?(file) && (file.end_with?('.md') || file.end_with?('.md_raw'))
         begin
+          has_front_matter = file.end_with?('.md')
           doc = IO.read(file)
-          result = update_doc(doc, ns, repo_name, tag)
+          result = update_doc(doc, ns, repo_name, tag, has_front_matter)
           IO.write(file, result)
         rescue
           puts("ERROR: Failed to update " + file)
@@ -22,9 +23,13 @@ class DocumentationFormatter
     end
   end
 
-  def update_doc(doc, ns, repo_name, tag)
+  def update_doc(doc, ns, repo_name, tag, has_front_matter)
+    if has_front_matter
       doc_fm = update_front_matter_data(doc, ns, repo_name, tag)
       update_urls(doc_fm, repo_name, tag)
+    else
+      update_urls(doc, repo_name, tag)
+    end
   end
 
   def generate_page_id(ns, short_id)
