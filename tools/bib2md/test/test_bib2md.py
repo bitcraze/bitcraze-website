@@ -14,7 +14,7 @@ class LocalizationTest(unittest.TestCase):
 
     def test_that_no_ouput_for_empty_input(self):
         # fixture
-        expected = []
+        expected = [[]]
 
         # test
         actual = self.sut.find_url_identifiers("")
@@ -24,7 +24,7 @@ class LocalizationTest(unittest.TestCase):
 
     def test_that_no_ouput_for_white_space(self):
         # fixture
-        expected = []
+        expected = [[]]
 
         # test
         actual = self.sut.find_url_identifiers("      ")
@@ -34,7 +34,7 @@ class LocalizationTest(unittest.TestCase):
 
     def test_that_a_single_unknown_url_returns_correct_identifier(self):
         # fixture
-        expected = ["URL"]
+        expected = [["URL", "http://www.unknown.com"]]
 
         # test
         actual = self.sut.find_url_identifiers("http://www.unknown.com")
@@ -44,7 +44,11 @@ class LocalizationTest(unittest.TestCase):
 
     def test_that_multiple_unknown_url_returns_correct_identifier(self):
         # fixture
-        expected = ["URL", "URL", "URL"]
+        expected = [
+            ["URL", "http://www.unknown.com"],
+            ["URL", "http://www.other.com"],
+            ["URL", "http://www.yet-another.com"],
+        ]
 
         # test
         actual = self.sut.find_url_identifiers(
@@ -56,7 +60,7 @@ class LocalizationTest(unittest.TestCase):
 
     def test_that_single_arxiv_url_returns_correct_identifier(self):
         # fixture
-        expected = ["ArXiv"]
+        expected = [["ArXiv", "https://arxiv.org/abs/1909.05150v2"]]
 
         # test
         actual = self.sut.find_url_identifiers(
@@ -68,7 +72,10 @@ class LocalizationTest(unittest.TestCase):
 
     def test_that_youtube_url_returns_correct_identifier(self):
         # fixture
-        expected = ["Video", "Video"]
+        expected = [
+            ["Video", "https://www.youtube.com/watch?v=JzPbvwHq8K0"],
+            ["Video", "https://youtu.be/JzPbvwHq8K0"],
+        ]
 
         # test
         actual = self.sut.find_url_identifiers(
@@ -80,7 +87,10 @@ class LocalizationTest(unittest.TestCase):
 
     def test_that_single_blog_url_returns_correct_identifier(self):
         # fixture
-        expected = ["URL", "Blog"]
+        expected = [
+            ["URL", "https://www.bitcraze.io/portals/research/"],
+            ["Blog", "https://www.bitcraze.io/2021/10/bam-days-are-a-wrap/"],
+        ]
 
         # test
         actual = self.sut.find_url_identifiers(
@@ -92,7 +102,11 @@ class LocalizationTest(unittest.TestCase):
 
     def test_that_correct_output_for_white_space_in_between_urls(self):
         # fixture
-        expected = ["URL", "URL", "URL"]
+        expected = [
+            ["URL", "http://www.unknown.com"],
+            ["URL", "http://www.other.com"],
+            ["URL", "http://www.yet-another.com"],
+        ]
 
         # test
         actual = self.sut.find_url_identifiers(

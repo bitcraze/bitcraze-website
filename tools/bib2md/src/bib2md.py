@@ -75,19 +75,19 @@ class BitcrazeStyle(UnsrtStyle):
     def find_url_identifiers(self, urls):
         url_list = re.sub(" +", " ", urls.strip()).split(" ")
         if url_list == [""]:
-            return []
+            return [[]]
         else:
             return [self._get_url_identifier(url) for url in url_list]
 
     def _get_url_identifier(self, url):
         if "arxiv.org" in url:
-            return "ArXiv"
+            return ["ArXiv", url]
         if "youtu" in url:
-            return "Video"
+            return ["Video", url]
         if re.search(".*bitcraze.io+\/\d+/\d+", url):
-            return "Blog"
+            return ["Blog", url]
 
-        return "URL"
+        return ["URL", url]
 
     def format_url(self, e):
         """Format entries in the url field, supports infinite number of urls"""
@@ -98,20 +98,11 @@ class BitcrazeStyle(UnsrtStyle):
         else:
             link_identifier_list = self.find_url_identifiers(e.fields["url"])
 
-            # list comprehension to assign split lambda function to split
-            # multiple urls and to assign link text to each url
             return sentence(add_period=False)[
                 [
                     href[
-                        field(
-                            "url",
-                            apply_func=lambda text: text.split(" ")[
-                                link_identifier_list.index(entry)
-                            ],
-                        ),
-                        link_identifier_list[
-                            link_identifier_list.index(entry)
-                        ],
+                        entry[1],
+                        entry[0],
                     ]
                     for entry in link_identifier_list
                 ]
