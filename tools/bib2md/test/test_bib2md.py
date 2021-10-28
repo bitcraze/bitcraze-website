@@ -88,8 +88,8 @@ class LocalizationTest(unittest.TestCase):
     def test_that_single_blog_url_returns_correct_identifier(self):
         # fixture
         expected = [
-            ["URL", "https://www.bitcraze.io/portals/research/"],
-            ["Blog", "https://www.bitcraze.io/2021/10/bam-days-are-a-wrap/"],
+            ["URL", "/portals/research/"],
+            ["Blog", "/2021/10/bam-days-are-a-wrap/"],
         ]
 
         # test

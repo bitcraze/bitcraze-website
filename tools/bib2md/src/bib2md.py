@@ -85,8 +85,9 @@ class BitcrazeStyle(UnsrtStyle):
         if "youtu" in url:
             return ["Video", url]
         if re.search(".*bitcraze.io+\/\d+/\d+", url):
+            url = re.sub("^.*bitcraze.io", "", url)
             return ["Blog", url]
-
+        url = re.sub("^.*bitcraze.io", "", url)
         return ["URL", url]
 
     def format_url(self, e):
