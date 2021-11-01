@@ -10,5 +10,6 @@ python3 ${scriptDir}/test_python
 . ${scriptDir}/download_deps
 . ${scriptDir}/download_docs
 . ${scriptDir}/download_hardware_docs
+python3 ${scriptDir}/generate_publications
 . ${scriptDir}/generate
 ruby ${scriptDir}/validate
