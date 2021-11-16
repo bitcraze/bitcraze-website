@@ -71,7 +71,7 @@ All expansion boards display a logo describing the correct orientation:
 Expansion port pinout
 ---------------------
 
-![Expansion port pinout](/images/documentation/overview/connector_multiplexing2.png){:width="900px"}
+![Expansion port pinout](/documentation/hardware/crazyflie_2_1/crazyflie_2_1-deck-connector-multiplex.png){:width="900px"}
 
 -   The Crazyflie 2.X is a 3.0V system, meaning a high output will be
     3.0V but still compatible with a 3.3V system.
