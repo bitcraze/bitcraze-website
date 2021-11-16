@@ -55,7 +55,8 @@ This product is intended to be used together with
 {% row_links %}
 
 - [Datasheet](/documentation/hardware/loco_node/loco_node-datasheet.pdf)
-- [Schematics](/documentation/hardware/loco_node/loco_node_reve.pdf)
+- [Schematics (rev. D)](/documentation/hardware/loco_node/loco_node_revd.pdf)
+- [Schematics (rev. E)](/documentation/hardware/loco_node/loco_node_reve.pdf)
 
 {% endrow_links %}
 {% endrow_icon_text_links %}
@@ -114,7 +115,8 @@ Please check out the [Loco positioning node firmware](https://github.com/bitcraz
 - {% id_link support-frequently-asked-questions %}
 - {% id_link support-getting-help %}
 - [Datasheet](/documentation/hardware/loco_node/loco_node-datasheet.pdf)
-- [Schematics](/documentation/hardware/loco_node/loco_node_reve.pdf)
+- [Schematics (rev. D)](/documentation/hardware/loco_node/loco_node_revd.pdf)
+- [Schematics (rev. E)](/documentation/hardware/loco_node/loco_node_reve.pdf)
 - [Store](https://store.bitcraze.io/collections/positioning/products/loco-positioning-node)
 
 ---
