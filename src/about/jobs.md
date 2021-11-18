@@ -6,7 +6,7 @@ redirects:
   - /jobs/
 ---
 
-## We're hiring!
+## We're not hiring at the moment, but...
 
 If you are interested in joining the Bitcraze awesomeness, this is the page for you.
 
