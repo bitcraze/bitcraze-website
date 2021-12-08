@@ -30,6 +30,3 @@ There are a lot of interesting things to investigate in the Crazyflie echosystem
 
 ### Crazyflie
 * {% id_link pwm-to-thrust %}
-
-## Guides
-* {% id_link docker-builder-images %}
