@@ -34,4 +34,6 @@ page_id: tutorials
 
 ## Old tutorials
 
-{% id_link getting-started-crazyflie %}
+* {% id_link getting-started-crazyflie %}
+* {% id_link taranis-controller %}
+
