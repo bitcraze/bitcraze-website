@@ -4,9 +4,6 @@ title: Hacks, Projects and Investigations
 page_id: hacks-projects-investigations
 ---
 
-## Product hardware enhancement and adjustements
-* {% id_link solder-deck-pins %}
-
 ## Projects
 ### Flying with Kinect and ZMQ
 * {% id_link fly-with-kinect %}
