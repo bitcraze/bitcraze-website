@@ -15,7 +15,6 @@ page_id: hacks-projects-investigations
 * {% id_link rasp-pi-ground-station %}
 
 ## Controllers
-* {% id_link deviation-controller %}
 * {% id_link taranis-controller %}
 
 ## Crazyflie Bootloader
