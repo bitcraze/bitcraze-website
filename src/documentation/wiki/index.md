@@ -11,4 +11,3 @@ page_id: hacks-projects-investigations
 
 ### Other projects
 * {% id_link betaflight %}
-* {% id_link rasp-pi-ground-station %}
