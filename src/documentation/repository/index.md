@@ -39,8 +39,8 @@ Check out the {% id_link doc-nav %} if you want to have a tree like structure of
 
  |Category| GitHub repository | Documentation | Explanation |
 |---| -----------------  |--------------| ----------------|
-|![crazyflie](/images/documentation/overview/crazyflie.png){:width="100px"}| [crazyflie2-stm-bootloader](https://github.com/bitcraze/crazyflie2-stm-bootloader)| [Docs]({% id_url cf-bootloader-protocol %})|  The bootloader of the STM32. |
-|![crazyflie](/images/documentation/overview/crazyflie.png){:width="100px"}| [crazyflie2-nrf-bootloader](https://github.com/bitcraze/crazyflie2-nrf-bootloader)| [Docs]({% id_url cf-bootloader-protocol %}) |  The bootloader of the NRF51. |
+|![crazyflie](/images/documentation/overview/crazyflie.png){:width="100px"}| [crazyflie2-stm-bootloader](https://github.com/bitcraze/crazyflie2-stm-bootloader)| |  The bootloader of the STM32. |
+|![crazyflie](/images/documentation/overview/crazyflie.png){:width="100px"}| [crazyflie2-nrf-bootloader](https://github.com/bitcraze/crazyflie2-nrf-bootloader)|  |  The bootloader of the NRF51. |
 |![Loco Positioning System](/images/documentation/overview/lpssystem.png){:width="100px"}| [lps-node-bootloader](https://github.com/bitcraze/lps-node-bootloader) |  | This repository contains the source code for the bootloader of the {% id_link product-loco-pos-node %}. |
 |![lighthouse system](/images/documentation/overview/lighthouse.png){:width="100px"}| [lighthouse-bootloader](https://github.com/bitcraze/lighthouse-bootloader ) | [Docs](/documentation/repository/lighthouse-bootloader/master/) | This repository contains the source code for the bootloader of the {% poplink lighthouse-deck %}. |
 

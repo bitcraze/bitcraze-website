@@ -16,4 +16,3 @@ page_id: hacks-projects-investigations
 
 ## Crazyflie Bootloader
 * {% id_link cf-bootloader-client-format %}
-* {% id_link cf-bootloader-protocol %}
