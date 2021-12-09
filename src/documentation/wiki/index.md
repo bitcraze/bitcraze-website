@@ -13,6 +13,3 @@ page_id: hacks-projects-investigations
 * {% id_link betaflight %}
 * {% id_link hackrf-nrf %}
 * {% id_link rasp-pi-ground-station %}
-
-## Crazyflie Bootloader
-* {% id_link cf-bootloader-client-format %}
