@@ -31,6 +31,7 @@ page_id: tutorials
 ## Development
 
 * {% id_link getting-started-development %}
+* {% id_link hackrf-nrf %}
 
 ## Old tutorials
 

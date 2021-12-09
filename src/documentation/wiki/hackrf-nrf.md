@@ -1,10 +1,8 @@
 ---
 layout: page
-title: HackRF and NRF
+title: Sniffing nRF24 with GNU Radio and HackRF
 page_id: hackrf-nrf
 ---
-
-## Sniffing nRF24 with GNU Radio and HackRF
 
 Thanks to a software from [Cyber Explorer](http://blog.cyberexplorer.me/2014/01/sniffing-and-decoding-nrf24l01-and.html) it is possible to sniff the NRF24 radio packet using an SDR radio.
 
@@ -75,7 +73,7 @@ The GNUradio companion receiver is a simple quadrature demodulator:
 
 ![grc nrf24 demod](/images/documentation/wiki/grc_nrf24_demod.png)
 
-The source file can be downloaded there: [nrf24_demod.grc.zip](/documentation/wiki/nrf24_demod.grc.zip)
+The source file can be downloaded there: [nrf24_demod.grc.zip](/documentation/tutorials/nrf24_demod.grc.zip)
 
 This GNU Radio program will write the demodulated samples in the fifo, it will then be read by 'cat' and be piped into the decoder. When connected to a Crazyflie the output is:
 
