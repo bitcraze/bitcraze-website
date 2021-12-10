@@ -95,7 +95,7 @@ a time. If you want to clean up existing code for instance, it is probably bette
 that in a separate commit instead of mixing it with new functionality.
 
 1. Try to keep the styling. We are not super strict on styling, but try to write code
-that looks similar to the existing code. When in doubt follow the guidlines outlined [here.](coding-standards.md)
+that looks similar to the existing code. When in doubt follow the [coding standard guidlines.](coding-standards.md)
 
 1. Write code that can be modified and maintained. Keep in mind that the code will
 live for a long time and that other people will read and modify your contribution.
