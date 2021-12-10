@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Taranis Controller
+title: Setting Up A Taranis Controller
 page_id: taranis-controller
 ---
 **WARNING: These instructions are old and might not work anymore**
@@ -28,7 +28,7 @@ You should create a new model when using the Taranis as an USB Joystick:
 
 You can also download the configuration as an EEPE file and install it with the OpenTX Companion application.
 
-* USB Joystick EEPE file: [usbjoystickforandroidcfclient.eepe.zip](/documentation/wiki/usbjoystickforandroidcfclient.eepe.zip)
+* USB Joystick EEPE file: [usbjoystickforandroidcfclient.eepe.zip](/documentation/tutorials/usbjoystickforandroidcfclient.eepe.zip)
 * Download the latest Companion application here: https://www.open-tx.org/2015/07/16/opentx-2.1.0
 
 ## Python PC client

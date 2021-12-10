@@ -7,7 +7,7 @@ page_id: fly-with-kinect-setup
 **Note:  Beware that this might not work with the latest firmware or clients** 
 
 
-As explained in the [vision main page the Crazyflie vision system](/documentation/wiki/fly-with-kinect/) is modular and is composed of many programs:
+As explained in the [vision main page the Crazyflie vision system](/documentation/tutorials/fly-with-kinect/) is modular and is composed of many programs:
 
 ![crazyflie vision architecture](/images/documentation/wiki/crazyflie-vision-arch.png)
 
