@@ -11,7 +11,7 @@ redirects:
 
 {% si_step I'm having issues getting up and running %}
 Have a look at our Getting started guides in the menu above or the
-[Troubleshooing guide](/support/troubleshooting/).
+[Troubleshooting guide](/support/troubleshooting/).
 {% endsi_step %}
 
 {% si_step I'm still having issues %}
