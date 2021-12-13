@@ -50,7 +50,7 @@ Check that the Crazyflie 2.X is well balanced and adjust the battery and connect
 {% endsi_step %}
 
 {% si_step Balance propellers %}
-Vibration is a normal cause for decreased flight performance. Try balancing the propellers using [this]({% id_url balancing-propellers %}) guide
+Vibration is a normal cause for decreased flight performance. Try balancing the propellers using [this guide]({% id_url balancing-propellers %}).
 {% endsi_step %}
 
 {% si_step Check that all propellers turn freely%}
@@ -84,8 +84,8 @@ See {% id_link getting-started-crazyflie-2 %} for step-by-step instructions of h
 If the firmware of the NRF processor is corrupt it might not be possible to enter bootloader mode as described in the {% id_link getting-started-crazyflie-2 %} guide.
 In this case the procedure to enter bootloader mode is:
 1. Unplug the battery
-1. Hold the power button and plug in the battery again
-1. Release the power button after 2 seconds
+2. Hold the power button and plug in the battery again
+3. Release the power button after 2 seconds
 
 It should now be possible to flash the latest stable release to the Crazyflie.
 {% endsi_step %}

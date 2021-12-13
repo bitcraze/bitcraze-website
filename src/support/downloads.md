@@ -31,4 +31,4 @@ Latest stable release of the binary files can be found
 See the VM download section on [github](https://github.com/bitcraze/bitcraze-vm/releases/)
 for the latest version. You will also find older versions there if you need them.
 
-Please consult the [getting started tutorial for installation instructions for the VM](https://www.bitcraze.io/documentation/tutorials/getting-started-with-crazyflie-2-x/#inst-virtualmachine)
+Please consult the [getting started tutorial for installation instructions for the VM](/documentation/tutorials/getting-started-with-crazyflie-2-x/#inst-virtualmachine)
