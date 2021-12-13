@@ -1,36 +1,34 @@
 ---
 layout: page
-title: Downloads
+title: Downloads & Install
 page_id: support-downloads
 redirects:
   - /download/
 ---
 
-## Crazyflie Python client
+## Crazyflie stand-alone Python client
 
-Latest stable releases for Win/Mac OSX/Linux can be found
-[here](https://github.com/bitcraze/crazyflie-clients-python/releases "Github releases for crazyflie-clients-python").
+The cfclient needs to be installed with **Python Pip**. Please follow [the install instructions for the latest release](/documentation/repository/crazyflie-clients-python/master/installation/install/).
 
 ## Crazyflie mobile clients
 
 * [Android client](https://play.google.com/store/apps/details?id=se.bitcraze.crazyfliecontrol2)
 * [iOS client](https://itunes.apple.com/us/app/crazyflie-2.0/id946151480)
 
-## Crazyflie Nano Quadcopter (1.0) and Crazyflie 2.X firmware
+## Crazyflie ROS client CrazySwarm
 
-Latest stable release can be found
-[here](https://github.com/bitcraze/crazyflie-release/releases "GitHub releases for crazyflie-firmware").
+This is an external project. Please consult [the Crazyswarm website](https://crazyswarm.readthedocs.io/) for download and installation instructions.
 
-[Update](/documentation/repository/crazyflie-clients-python/master/userguides/userguide_client/#firmware-upgrade)
-using the python client and a Crazyradio, or from a mobile device. 
-[release](https://github.com/bitcraze/crazyflie-firmware/releases).
+## Crazyflie 2.X firmware
 
-## Crazyradio and Crazyradio PA firmware
+Reflash the crazyflie's firmware with [the cfclient firmware instructions](/documentation/repository/crazyflie-clients-python/master/userguides/userguide_client/#firmware-upgrade) with a {% id_link product-crazyradio-pa %} or from a mobile device app 
 
-Latest stable releases can be found [here](https://github.com/bitcraze/crazyradio-firmware/releases "GitHub releases for crazyradio-firmware")
-(**Note:** Make sure to select the PA version for the Crazyradio PA)
+Latest stable release of the binary files can be found
+[in the github releases page](https://github.com/bitcraze/crazyflie-release/releases "GitHub releases for crazyflie-firmware").
 
 ## Bitcraze Virtual Machine
 
 See the VM download section on [github](https://github.com/bitcraze/bitcraze-vm/releases/)
 for the latest version. You will also find older versions there if you need them.
+
+Please consult the [getting started tutorial for installation instructions for the VM](/documentation/tutorials/getting-started-with-crazyflie-2-x/#inst-virtualmachine)
