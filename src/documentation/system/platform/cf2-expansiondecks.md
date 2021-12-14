@@ -190,7 +190,7 @@ compatible.
  |---------------------------|----------|------------|----------|------------------|----------|--------|-------|----------|---------|--------------|-------------------|--------------|---------------|---------|
  | **{% poplink led-ring-deck %}**              | -        |            | yes      | yes              |          | yes    | yes   |          |         | yes          | yes               | yes          | yes           | yes     |
  | **{% poplink qi-1-2-wireless-charging-deck %}**            |          | -          | yes      | yes              | yes      | yes    | yes   |          |         | yes          | yes               | yes          | yes           | yes     |
- | **{% poplink sd-card-deck %}**              | yes      | yes        | -        | yes *1           | yes      | yes    | yes   | yes      | yes *1  | yes          | yes               | yes          | yes           | yes     |
+ | **{% poplink sd-card-deck %}**              | yes      | yes        | -        | yes *1           | yes      | yes    | yes   | yes      | yes *1  | yes          | yes               | yes          | yes           | *4     |
  | **{% poplink loco-positioning-deck %}**      | yes      | yes        | yes *1   | -                | yes      | yes    | yes   | yes      | yes     | yes          | yes               | *2           | yes           | *2      |
  | **Big quad**              |          | yes        | yes      | yes              | -        |        |       | yes      |         | yes          | yes               | *2           | yes           | yes     |
  | **{% poplink buzzer-deck %}**                | yes      | yes        | yes      | yes              |          | -      |       | yes      | yes     | yes          | yes               | yes          | yes           | yes     |
@@ -201,7 +201,7 @@ compatible.
  | **{% poplink motion-capture-marker-deck %}**     | yes      | yes        | yes      | yes              | yes      | yes    | yes   | yes      | yes     | yes          | -                 | yes          |               | yes     |
  | **{% poplink lighthouse-deck %}**          | yes      | yes        | yes      | *2               | *2       | yes    | yes   | yes      | yes     | yes          | yes               | -            |               | *3      |
  | **{% poplink active-marker-deck %}**         | yes      | yes        | yes      | yes              | yes      | yes    | yes   | yes      | yes     | yes          |                   |              | -             | yes     |
- | **AI deck**               | yes      | yes        | yes      | *2               | yes      | yes    | yes   | yes      | yes     | yes          | yes               | *3           | yes           | -       |
+ | **AI deck**               | yes      | yes        | *4  | *2               | yes      | yes    | yes   | yes      | yes     | yes          | yes               | *3           | yes           | -       |
  |---------------------------|----------|------------|----------|------------------|----------|--------|-------|----------|---------|--------------|-------------------|--------------|---------------|---------|
 
 **Notes:**
@@ -209,3 +209,4 @@ compatible.
 1.  SPI sharing might limit the logging speed of the uSD-card deck.
 2.  Will be supported in the future, SW update
 3.  The GAP8 module is connected to UART1, so if that is enabled there will be conflicts
+4.  The Micro-SD deck and AI deck both use IO4, the Micro-SD deck needs to be patched to use another IO for Chip Select
