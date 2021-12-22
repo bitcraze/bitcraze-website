@@ -78,7 +78,7 @@ Connect the Crazyflie to a USB charger and turn it on. If this works the firmwar
 
 {% si_step Re-flash the firmware %}
 Flash the latest stable release of the firmware to the Crazyflie to make sure it is good.
-Use the [recovery mode instructions](https://www.bitcraze.io/documentation/repository/crazyflie-clients-python/master/userguides/recovery-mode/) for flashing a new release of the firmware.
+Use the [recovery mode instructions](/documentation/repository/crazyflie-clients-python/master/userguides/recovery-mode/) for flashing a new release of the firmware.
 {% endsi_step %}
 
 {% si_step Force into bootloader mode %}
