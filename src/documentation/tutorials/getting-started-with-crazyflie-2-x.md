@@ -450,5 +450,9 @@ blue LED will blink. When the LED is fully lit the battery is charged.
 {% endsi_step %}
 
 {% si_step go fly! %}
-Have fun!
+Have fun! 
 {% endsi_step %}
+
+{% si_intro Support %}
+If anything is wrong with the Crazyflie after following this guide, make sure to checkout the {% id_link support-getting-help %} page. 
+{% endsi_intro %}
