@@ -62,9 +62,10 @@ Check each motor axis if it is bent as it causes vibration. This can be done by 
 {% endsi_step %}
 
 {% si_intro Crazyflie is bricked %}
-The Crazyflie hangs when started or does not start at all when pressing the power button.
+The Crazyflie hangs when started, all the LEDS stay on or fully off or does it not start at all when pressing the power button. 
 
-If the Crazyflie does not start it might be related to power or that the firmware in the flash memory is corrupt.
+If the Crazyflie does not start it might be related to power, that the firmware in the flash memory is corrupt or adjusted firmware that is faulty.
+
 {% endsi_intro %}
 
 {% si_step Check the battery %}
@@ -77,7 +78,7 @@ Connect the Crazyflie to a USB charger and turn it on. If this works the firmwar
 
 {% si_step Re-flash the firmware %}
 Flash the latest stable release of the firmware to the Crazyflie to make sure it is good.
-See {% id_link getting-started-crazyflie-2 %} for step-by-step instructions of how to flash.
+Use the [recovery mode instructions](/documentation/repository/crazyflie-clients-python/master/userguides/recovery-mode/) for flashing a new release of the firmware.
 {% endsi_step %}
 
 {% si_step Force into bootloader mode %}
