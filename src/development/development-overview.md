@@ -16,7 +16,7 @@ redirects:
 
 {% id_link getting-started-development %} – a step by step guide to set up your development environment, build your first custom firmware and download it to the copter.
 
-[Discord](https://discord.gg/dJMtnPZnvU) – A meeting place to connect with the community
+Discord – A meeting place to connect with the community. Email us if you want an invite link
 
 
 ## What can you develop?
