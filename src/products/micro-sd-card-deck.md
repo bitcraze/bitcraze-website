@@ -42,7 +42,7 @@ See [the compatibility matrix]({% id_url cf2_expansiondecks %}#compatibility-mat
 {% endrow_text %}
 {% row_links %}
 * [Datasheet](/documentation/hardware/sd_card_deck/sd_card_deck-datasheet.pdf)
-* [Schematics](/documentation/hardware/sd_card_deck/sdcard_revb.pdf)
+* [Schematics](/documentation/hardware/sd_card_deck/sdcard_revd.pdf)
 * [Compatibility matrix]({% id_url cf2_expansiondecks %}#compatibility-matrixes)
 
 {% endrow_links %}
@@ -156,7 +156,7 @@ The SD-Card is using the SPI bus on the deck port to communicate. In some cases,
 - {% id_link support-getting-help %}
 - {% id_link cf2_expansiondecks %}
 - [Datasheet](/documentation/hardware/sd_card_deck/sd_card_deck-datasheet.pdf)
-- [Schematics](/documentation/hardware/sd_card_deck/sdcard_revb.pdf)
+- [Schematics](/documentation/hardware/sd_card_deck/sdcard_revd.pdf)
 - [Data Logging](/documentation/repository/crazyflie-firmware/master/userguides/decks/micro-sd-card-deck/)
 
 ---

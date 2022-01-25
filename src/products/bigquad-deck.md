@@ -45,7 +45,7 @@ With the BigQuad deck you can transform your Crazyflie 2.X to a bigger quad by c
 {% row_links %}
 
 * [Datasheet](/documentation/hardware/big_quad_deck/big_quad_deck-datasheet.pdf)
-* [Schematics](/documentation/hardware/big_quad_deck/bigquad-rev-c.pdf)
+* [Schematics](/documentation/hardware/big_quad_deck/bigquad-rev-c1.pdf)
 * [Compatibility matrix]({% id_url cf2_expansiondecks %}#compatibility-matrixes)
 
 {% endrow_links %}
@@ -127,4 +127,4 @@ Clean and build the firmware and flash it using you preferred method. Now when t
 - {% id_link support-getting-help %}
 - {% id_link cf2_expansiondecks %}
 - [Datasheet](/documentation/hardware/big_quad_deck/big_quad_deck-datasheet.pdf)
-- [Schematics](/documentation/hardware/big_quad_deck/bigquad-rev-c.pdf)
+- [Schematics](/documentation/hardware/big_quad_deck/bigquad-rev-c1.pdf)
