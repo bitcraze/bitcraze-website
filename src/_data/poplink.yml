@@ -56,3 +56,7 @@ poplinks:
     title: Motion capture marker deck
     default-link: /products/motion-capture-marker-deck
     content: motion-capture-marker-deck.md
+  bigquad-deck:
+    title: BigQuad deck
+    default-link: /products/bigquad-deck
+    content: bigquad-deck.md

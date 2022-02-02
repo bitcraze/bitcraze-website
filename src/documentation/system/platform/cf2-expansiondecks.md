@@ -9,22 +9,22 @@ redirects:
 
 Here is a list of expansion decks that are available for the Crazyflie 2.X:
 
-| Expansion Deck | Description | Additional instructions |
-|---|---|---|---|
-| {% poplink led-ring-deck %}|The LED-ring expansion deck | |
-| {% poplink buzzer-deck %} |The Buzzer expansion deck | [Changing the sound](/documentation/repository/crazyflie-firmware/master/userguides/decks/buzzer-deck/) |
-| {% poplink qi-1-2-wireless-charging-deck %}|Qi 1.2 compatible wireless charging deck | |
-| {% poplink prototyping-deck %}|The prototype expansion deck | |
-| {% poplink breakout-deck %}|The breakout expansion deck | |
-| {% id_link product-bigquad-deck%}|EARLY ACCESS Expansion deck to build a bigger quad | {% id_link product-bigquad-deck %}|
-| {% poplink sd-card-deck %}|Expansion deck to read, write files to SD-card | [Data Logging](/documentation/repository/crazyflie-firmware/master/userguides/decks/micro-sd-card-deck/) |
-| {% poplink z-ranger-deck %}|Expansion deck for precise height control. | |
-| {% poplink lighthouse-deck %}|Expansion deck that supports the SteamVR Lighthouse positioning |  |
-| {% poplink motion-capture-marker-deck %}|Expansion deck where motion capture markers can easily be mounted | |
-| {% poplink active-marker-deck %}|Expansion deck with active IR LED for motion capture markers | |
-| {% poplink loco-positioning-deck %}|Expansion deck for the Loco positioning system | [Modes explanation](/documentation/repository/crazyflie-firmware/master/userguides/decks/active-marker-deck/)|
-| {% poplink multi-ranger-deck %}|Expansion deck for detecting obstacles | |
-| {% poplink flow-deck %}  | Expansion deck for detecting flow and height | |
+| Expansion Deck | Description |
+|---|---|---|
+| {% poplink led-ring-deck %}|The LED-ring expansion deck |
+| {% poplink buzzer-deck %} |The Buzzer expansion deck |
+| {% poplink qi-1-2-wireless-charging-deck %}|Qi 1.2 compatible wireless charging deck |
+| {% poplink prototyping-deck %}|The prototype expansion deck |
+| {% poplink breakout-deck %}|The breakout expansion deck |
+| {% poplink bigquad-deck %}|EARLY ACCESS Expansion deck to build a bigger quad |
+| {% poplink sd-card-deck %}|Expansion deck to read, write files to SD-card |
+| {% poplink z-ranger-deck %}|Expansion deck for precise height control. |
+| {% poplink lighthouse-deck %}|Expansion deck that supports the SteamVR Lighthouse positioning |
+| {% poplink motion-capture-marker-deck %}|Expansion deck where motion capture markers can easily be mounted |
+| {% poplink active-marker-deck %}|Expansion deck with active IR LED for motion capture markers |
+| {% poplink loco-positioning-deck %}|Expansion deck for the Loco positioning system |
+| {% poplink multi-ranger-deck %}|Expansion deck for detecting obstacles |
+| {% poplink flow-deck %}  | Expansion deck for detecting flow and height |
 
 ### Additional information
 
@@ -102,7 +102,7 @@ Deck info
 | 0xBC | 0x01 | bcLedRing     | {% poplink led-ring-deck %}                 | 3.3g   | 0 - 700mA                  | Under          |
 | 0xBC | 0x02 | bcQi          | {% poplink qi-1-2-wireless-charging-deck %} | 5g     | N/A                        | Under          |
 | 0xBC | 0x04 | bcBuzzer      | {% poplink buzzer-deck %}                   | 1.8g   | 10mA                       | Under/Above    |
-| 0xBC | 0x05 | bcBigQuad     | {% id_link product-bigquad-deck %}          | 3.8g   | N/A                        | Under/Above    |
+| 0xBC | 0x05 | bcBigQuad     | {% poplink bigquad-deck %}                  | 3.8g   | N/A                        | Under/Above    |
 | 0xBC | 0x06 | bcDWM         | {% poplink loco-positioning-deck %}         | 3.3g   | 160mA                      | Under/Above    |
 | 0xBC | 0x08 | bcUSD         | {% poplink sd-card-deck %}                  | 1.7g   | ~30mA                      | Under/Above    |
 | 0xBC | 0x09 | bcZRanger     | {% id_link product-z-ranger-deck %}         | 1.3g   | ~15mA                      | Under          |
@@ -137,7 +137,7 @@ two decks where the connections collide.
 | **bcGPS**                 | X     |  X    |       |       | *(PP)S*  |          | *(RST)*  |         | *(X)* | *(X)* |       |       |       |          | *(VBAT)* | VCOM |
 | **{% poplink sd-card-deck %}**                 |       |       |       |       | *(CS)*   | *(CS)*   |  *(CS)*  | CS      |       |       |X      | X     |X      |          |          | VCC  |
 | **{% poplink loco-positioning-deck %}**                 | IRQ   | RST   |       |       | CS       | *(IRQ)*  | *(RST)*  |         |       |       |X      | X     |X      |          |          | VCOM |
-| **bcBigQuad**             | *(X)* | *(X)* | *(X)* | *(X)* |          | **X**    | **X**    | *(X)*   | **X** | **X** | *(X)* | *(X)* | *(X)* |          |          | N/A  |
+| **{% poplink bigquad-deck %}** | *(X)* | *(X)* | *(X)* | *(X)* |          | **X**    | **X**    | *(X)*   | **X** | **X** | *(X)* | *(X)* | *(X)* |          |          | N/A  |
 | **{% poplink buzzer-deck %}**              |       |       |       |       |          |          |          |         | PWM   | PWM   |       |       |       |          |          | N/A  |
 | **bcESP**                 |       |       |       |       |          |          |          | *(X)*   | X     | X     |       |       |       |          |          | N/A  |
 | **{% poplink z-ranger-deck %}, Z-ranger deck V1** |       |       | X     | X     |          | *(X)*    |          |         |       |       |       |       |       |          |          | VCC  |
@@ -157,23 +157,23 @@ Compatibility matrixes
 
 This table shows which deck that works on which platform.
 
-|                           | Crazyflie 2.X  | Roadrunner|
-|---------------------------|----------------|-----------|
-| **{% poplink led-ring-deck %}**              | yes            | yes       |
-| **{% poplink qi-1-2-wireless-charging-deck %}**            | yes            | yes       |
-| **{% poplink sd-card-deck %}**              | yes            | *1        |
-| **{% poplink loco-positioning-deck %}**      | yes            |           |
-| **Big quad**              | yes            | yes       |
-| **{% poplink buzzer-deck %}**                | yes            |           |
-| **bcESP**                 | yes            | yes       |
+|                                                   | Crazyflie 2.X  | Roadrunner|
+|---------------------------------------------------|----------------|-----------|
+| **{% poplink led-ring-deck %}**                   | yes            | yes       |
+| **{% poplink qi-1-2-wireless-charging-deck %}**   | yes            | yes       |
+| **{% poplink sd-card-deck %}**                    | yes            | *1        |
+| **{% poplink loco-positioning-deck %}**           | yes            |           |
+| **{% poplink bigquad-deck %}**                    | yes            | yes       |
+| **{% poplink buzzer-deck %}**                     | yes            |           |
+| **bcESP**                                         | yes            | yes       |
 | **{% poplink z-ranger-deck %}, Z-ranger deck V1** | yes            | yes       |
 | **{% poplink flow-deck %}, Flow deck V1**         | yes            | yes       |
-| **{% poplink multi-ranger-deck%}**          | yes            | yes       |
-| **{% poplink motion-capture-marker-deck %}**     | yes            | yes       |
-| **{% poplink lighthouse-deck %}**          | yes            | *2        |
-| **{% poplink active-marker-deck %}**         | yes            | yes       |
-| **AI deck**               | yes            | yes       |
-|---------------------------|----------------|-----------|
+| **{% poplink multi-ranger-deck%}**                | yes            | yes       |
+| **{% poplink motion-capture-marker-deck %}**      | yes            | yes       |
+| **{% poplink lighthouse-deck %}**                 | yes            | *2        |
+| **{% poplink active-marker-deck %}**              | yes            | yes       |
+| **AI deck**                                       | yes            | yes       |
+|---------------------------------------------------|----------------|-----------|
 
 ### Deck - deck
 
@@ -186,13 +186,13 @@ are normally physically blocking each other are marked as not
 compatible.
 
 
- |                           | LED-ring | Qi charger | Micro-SD | Loco Positioning |Big quad  | Buzzer | bcESP | Z-Ranger | Flow    | Multi-ranger | Mocap marker deck | Lighthouse deck | Active marker | AI deck |
+ |                           | {% poplink led-ring-deck %} | {% poplink qi-1-2-wireless-charging-deck %} | {% poplink sd-card-deck %} | {% poplink loco-positioning-deck %} | {% poplink bigquad-deck %} | {% poplink buzzer-deck %} | bcESP | {% poplink z-ranger-deck %}, Z-ranger V1 | {% poplink flow-deck %}, Flow deck V1 | {% poplink multi-ranger-deck%} | {% poplink motion-capture-marker-deck %} | {% poplink lighthouse-deck %} | {% poplink active-marker-deck %} | AI deck |
  |---------------------------|----------|------------|----------|------------------|----------|--------|-------|----------|---------|--------------|-------------------|--------------|---------------|---------|
  | **{% poplink led-ring-deck %}**              | -        |            | yes      | yes              |          | yes    | yes   |          |         | yes          | yes               | yes          | yes           | yes     |
  | **{% poplink qi-1-2-wireless-charging-deck %}**            |          | -          | yes      | yes              | yes      | yes    | yes   |          |         | yes          | yes               | yes          | yes           | yes     |
  | **{% poplink sd-card-deck %}**              | yes      | yes        | -        | yes *1           | yes      | yes    | yes   | yes      | yes *1  | yes          | yes               | yes          | yes           | *4     |
  | **{% poplink loco-positioning-deck %}**      | yes      | yes        | yes *1   | -                | yes      | yes    | yes   | yes      | yes     | yes          | yes               | *2           | yes           | *2      |
- | **Big quad**              |          | yes        | yes      | yes              | -        |        |       | yes      |         | yes          | yes               | *2           | yes           | yes     |
+ | **{% poplink bigquad-deck %}**              |          | yes        | yes      | yes              | -        |        |       | yes      |         | yes          | yes               | *2           | yes           | yes     |
  | **{% poplink buzzer-deck %}**                | yes      | yes        | yes      | yes              |          | -      |       | yes      | yes     | yes          | yes               | yes          | yes           | yes     |
  | **bcESP**                 | yes      | yes        | yes      | yes              |          |        | -     | yes      | yes     | yes          | yes               | yes          | yes           | yes     |
  | **{% poplink z-ranger-deck %}, Z-ranger V1** |          |            | yes      | yes              | yes      | yes    | yes   | -        |         | yes          | yes               | yes          | yes           | yes     |

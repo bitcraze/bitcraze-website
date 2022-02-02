@@ -140,7 +140,7 @@ Crazyflie 2.X but super sized.
 **What to buy:**
 
 * [Getting started bundle](https://store.bitcraze.io/products/getting-started-bundle)
-* {% id_link product-bigquad-deck %}
+* {% poplink bigquad-deck %}
 
 Note: the bigger frame, brushless motors and ESCs are not included
 {% endrow_links %}
