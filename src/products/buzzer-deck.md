@@ -118,4 +118,3 @@ To add a new melody, use the melodyplayer function for the .call member and assi
 - [Datasheet](/documentation/hardware/buzzer_deck/buzzer_deck-datasheet.pdf)
 - [Schematics](/documentation/hardware/buzzer_deck/buzzer-revc.pdf)
 - {% id_link getting-started-buzzer-deck %}
-- [Changing the sound](/documentation/repository/crazyflie-firmware/master/userguides/decks/buzzer-deck/)
