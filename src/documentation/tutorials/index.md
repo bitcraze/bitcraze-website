@@ -37,7 +37,6 @@ page_id: tutorials
 
 * {% id_link getting-started-crazyflie %}
 * {% id_link taranis-controller %}
-* {% id_link rasp-pi-ground-station %}
 * {% id_link betaflight %}
 * {% id_link fly-with-kinect %}
 * {% id_link fly-with-kinect-setup %}
