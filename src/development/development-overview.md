@@ -20,6 +20,8 @@ There is so many parts of the Crazyflie that can be developed, and before diggin
 
 * **The {% id_link getting-started-development %} Tutorial** – a step by step guide to set up your development environment, build your first custom firmware and download it to the copter.
 
+* **{% id_link contribute %} your work** - Opensource is all about sharing and caring! If you want your code to be preserved and used by more generations, contribute your work back to our code base. 
+
 
 ## Programming Languages 
 
@@ -31,7 +33,14 @@ specific programming language, these are the most common ones are in our {% id_l
 * **C** for the Crazyradio and Crazyflie firmware
 * **Other languages** Check out [external projects](/support/external-projects/#connectivity-libraries) for other programming language support language support.
 
-## Communications Frameworks
+Make sure to use our coding standard for languages, which will be important if you want to {% id_link contribute %} your code back to our firmware/software.
+
+ {% inline_button Coding Standards ; /development/contribute/coding-standards/ %}
+
+
+
+
+## Communication Frameworks
 * **Crazyflie Native Framework**: We maintain our own repositories on how to communicate with the crazyflie. Check out our {% id_link repository-overview %}.
 * **ROS**: Check out the [Crazyswarm Project](https://crazyswarm.readthedocs.io/en/latest/)!
 * **Other Frameworks**: Check out [external projects](/support/external-projects/#connectivity-libraries) for other framework and autopilot support from our community.

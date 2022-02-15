@@ -18,9 +18,11 @@ There are many ways to contribute, here are some examples
 
 * **Forum** Answer a question on the [forum](//forum.bitcraze.io)
 * **Github** 
-  * **Pull Requests**: Submit a pull request to one of the [repos on github](https://github.com/bitcraze).
   * **Issue reporting**: Add an issue to one of the [repos on github](https://github.com/bitcraze) with a
   suggestion for an improvement or a bug report.
+  * **Feature requests**  Feel free to make an issue to request a new functionality.
+  * **Pull Requests**: Submit a pull request to one of the [repos on github](https://github.com/bitcraze).
+
 * **Improving Documentation**
   * **Repo Documentation**: Add or update the documentation in our {% id_link repository-overview %}.
   * **Website Documentation**: Improve the main website documentation. 
@@ -30,23 +32,36 @@ There are many ways to contribute, here are some examples
 
 ## Contributing in Github
 
+When reporting github issues the more information you can supply the better.
+
+* **Information about the environment**:
+  * What version of the firmware are you running
+  * If relevant, what are you using to control the Crazyflie. ie. What lib or client, and what version.
+* **How to reproduce the issue**: Step-by-step guide on how the issue can be reproduced (or at least how you reproduce it). Include everything you think might be useful, the more information the better.
+
+### Feature requests
+If you are missing anything in terms of functioanlity, we and the community are continuously working to improve the firmware. Feel free to make an issue to request a new functionality!
+
+
+### Pull Requests 
 The source code for firmware, clients, tools and the web site are hosted on github.
 We use pull requests for code contributions, read more about how it works on
 [this article github](https://help.github.com/articles/about-pull-requests/).
 
-Contributions are of great value to the project and we are very happy for any contribution, large or small,
+Code Contributions are of great value to the project and we are very happy for any contribution, large or small,
 but to make it possible for us to merge your additions into the codebase there are a few guide-lines to follow
 
- {% inline_button General Contributing Guidelines; /development/contribute/general-guidelines/ %}
+ {% inline_button GeneralCode  Contributing Guidelines; /development/contribute/general-guidelines/ %}
 
+ {% inline_button Coding Standards ; /development/contribute/coding-standards/ %}
 
 ## Improving Documentation
 
 The main documentation of this website is handled in its own repository on our [our github](https://github.com/bitcraze/bitcraze-website), so submit a pull request for your improvements.
 
-The [repository documentation](/documentation/repository/) is hosted on this website but its source exists in the doc folders of the [repos on github](https://github.com/bitcraze) of which we also have several tips and tricks. 
+The more detailed [repository documentation](/documentation/repository/) is hosted on this website but its source exists in the doc folders of the [repos on github](https://github.com/bitcraze) of which we also have several tips and tricks. 
 
- {% inline_button Repository Documentation Guidelines ; /development/contribute/repo-doc-guidelines/ %}
+ {% inline_button Repository documentation guidelines ; /development/contribute/repo-doc-guidelines/ %}
 
 
 ## Getting help with contributions

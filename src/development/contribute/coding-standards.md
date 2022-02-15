@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: page-left-menu
 title: Coding Standards
 page_id: coding-standards
 ---

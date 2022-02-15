@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: page-left-menu
 title: General guidelines for code contributions
 page_id: general-guidelines-for-code-contributions
 ---
@@ -20,7 +20,13 @@ add the functionality and so on - just ask us. Open an issue on github, ask in t
 will try to help you as much as we can. The Crazyflie is a complex system and there are many things to take
 into account, don't be afraid to ask for help!
 
-## Guidelines
+## Summary Guidelines
+* Describe the change
+* Refer to any issues it effects
+* Separate one pull request per functionality: if you start writing "and" in the feature description consider if it could be separated in two pull requests.
+* The pull request must pass the automated testing
+
+## Detailed Guidelines
 
 To help you create good pull requests, please try to follow these guidelines
 
