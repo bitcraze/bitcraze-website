@@ -178,14 +178,23 @@ Reset in firmware mode ...
 
 {% endsi_step %}
 
-{% si_step debugging using GDB; debugging %}
-For a guide on debugging the Crazyflie firmware using GDB, see the firmware documentation [here.](/documentation/repository/crazyflie-firmware/master/development/openocd_gdb_debugging/)
-
-{% endsi_step %}
-
 {% si_step That's it! %}
 The Crazyfile should restart when the flashing is complete and the front right LED
 of your Crazyflie should now be green instead of the normal red.
 
 Congratulations to your first Crazyflie hack!
+{% endsi_step %}
+
+{% si_intro Next steps %}
+{% endsi_intro %}
+
+{% si_step Debugging using GDB; debugging %}
+For a guide on debugging the Crazyflie firmware using GDB, see the firmware documentation [here.](/documentation/repository/crazyflie-firmware/master/development/openocd_gdb_debugging/)
+{% endsi_step %}
+
+{% si_step Alternatives to the VM; alt-to-vm %}
+In this tutorial we used the VM, mainly because it is the easiest way to get started. However there two other ways to
+compile the code; [installing the toolchain on your machine](/documentation/repository/crazyflie-firmware/master/building-and-flashing/build/)
+or using the [Toolbelt](/documentation/repository/toolbelt/master/). All solutions have their pros and
+cons but it is probably worth looking into all options if you plan to do some serious development.
 {% endsi_step %}

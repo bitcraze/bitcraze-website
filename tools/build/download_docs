@@ -102,3 +102,5 @@ downloadGithubRepoDoc "AIdeck_examples" "master"
 downloadGithubRepoDoc "crazyflie2-ios-client" "master"
 
 downloadGithubRepoDoc "crazyflie-android-client" "master"
+
+downloadGithubRepoDoc "toolbelt" "master"
