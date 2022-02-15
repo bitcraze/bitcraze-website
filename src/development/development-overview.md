@@ -6,13 +6,13 @@ redirects:
   - /development-overview/
 ---
 
-## Getting started with Development
+## Quick links for development
 
 There is so many parts of the Crazyflie that can be developed, and before digging into that, it is important to know generically how the system fits togeter. Here are some quick links to some of those important places that are important for development.
 
 * **[The Eco-System](/documentation/system/)** – read about the projects, APIs, architecture, protocols and other techie details. 
 
-* **[Repository and detailed docs](/documentation/repository)** - from each element and aspect of our ecosystem, there exists github repositories and accommodating detailed documentation.
+* **{% id_link repository-overview %}** - from each element and aspect of our ecosystem, there exists github repositories and accommodating detailed documentation.
 
 * **[Support channels](/support/getting-help/)** – Know where to look for support when you are getting into trouble.
 
@@ -21,18 +21,19 @@ There is so many parts of the Crazyflie that can be developed, and before diggin
 * **The {% id_link getting-started-development %} Tutorial** – a step by step guide to set up your development environment, build your first custom firmware and download it to the copter.
 
 
-## Programming Languages and Frameworks
+## Programming Languages 
 
 
 The different systems use different languages. So if you are looking at using a
-specific programming language, these are the most common ones [our repositories](/documentation/repository):
+specific programming language, these are the most common ones are in our {% id_link repository-overview %} :
 
 * **Python** for the Crazyflie PC API and client 
 * **C** for the Crazyradio and Crazyflie firmware
 * **Other languages** Check out [external projects](/support/external-projects/#connectivity-libraries) for other programming language support language support.
 
-Frameworks that currently exists:
-* **ROS**: Check out the [Crazyswarm Project](https://crazyswarm.readthedocs.io/en/latest/)]!
+## Communications Frameworks
+* **Crazyflie Native Framework**: We maintain our own repositories on how to communicate with the crazyflie. Check out our {% id_link repository-overview %}.
+* **ROS**: Check out the [Crazyswarm Project](https://crazyswarm.readthedocs.io/en/latest/)!
 * **Other Frameworks**: Check out [external projects](/support/external-projects/#connectivity-libraries) for other framework and autopilot support from our community.
 
 
@@ -40,10 +41,9 @@ Frameworks that currently exists:
 
 The Crazyflie platform is much more than just a Quadcopter. It consists of lots
 of different parts working together to complete the system. That means that
-developers can dive into any given area and experiment, learn and improve. Each
-of these areas can be explored separately using other boards, but with the
-Crazyflie you have a complete system built around what you are experimenting
-with. Here’s examples of a few areas that you can explore:
+developers can dive into any given area and experiment, learn and improve.
+
+Here’s examples of a few areas that you can explore:
 
 * **Flight Stabilization**:
   * **Sensors:** The platform consists of a number of different sensors. All of
@@ -64,82 +64,46 @@ real-time systems: The Crazyflie firmware is very time critical.
   * **Onboard**: The app-layer enables onboard autonomy on the crazyflie. 
 
 
-Check out the [our repository](/documentation/repository) documentation for more inspiration, especially the crazyflie-firmware. 
+Check out the {% id_link repository-overview %} documentation for more inspiration, especially the crazyflie-firmware. 
 
 
-## Tools
+## Development Environments
 
 Even though we detail how to set up the different development environments for
-the Crazyflie platform, this can be a hassle. To make it as easy as possible
-for developers to start developing we provide a virtual machine that contains
-everything needed. All you need is the virtual machine handler of your choice
-then download and import the virtual machine that we have prepared. Since the
-platform is developed using only open source tools you will have access to everything
-you need for development. This includes build-systems, compilers, EDA software,
-firmware libraries and debugging tools.
+the Crazyflie platform, this can be a hassle. Here we will provide a list of tools that can be used to make development easier:
 
-Using the virtual machine you will be able to:
-
-* View, build and debug the Crazyflie firmware
-* View and build the Crazyradio firmware
-* View the EDA projects for the Crazyflie and the Crazyradio
-* Develop the PC host applications
-* Fly the Crazyflie of course :-)
+* **The Virtual Machine**: we provide a precompiled virtual machine with the full development environmnet already preinstalled for you. {% id_link getting-started-crazyflie-2 %} under 'installing on VM' shows installation instructions of how to install the VM on your computer.
+* **The Toolbelt**: The toolbelt is a utility to run tools for testing and building of software modules. Go to the [toolbelt documentation](/documentation/repository/toolbelt/master/) for more information
+* **Native install**: This means that you want setup the development environment on your native machine from scratch. You should checkout the  {% id_link repository-overview %} to go to the part of the eco system you would like to develop for and follow the documentation for the install and setup instructions. 
 
 ## Features
 
 Since the Crazyflie platform was intended to be used for experiments and
-development, we wanted to put in some features that made this easier. Debugging
-and developing for a flying platform isn’t always easy. Here are some of the
-features:
+development, we wanted to put in some features that made this easier.
 
-* Bootload firmware via the radio
-* Parameter framework for editing and reading data via the radio
-* Logging framework for logging data via the radio
-* Lots of CPU cycles left over as well as flash and RAM free to use
-* JTAG interface
-* Expansion interface to attach new hardware
-
-The radio bootloader enables downloading and flashing firmware to the Crazyflie
+* **The Radio Bootloader**: The radio bootloader enables downloading and flashing firmware to the Crazyflie
 via the radio. This means that when you are developing there’s no need to plug
-it to the USB or a JTAG to flash your fresh builds. There’s also a USB
-bootloader on the Crazyradio dongle that enables updating of firmware without
-any external equipment.
+it to the USB or a JTAG to flash your fresh builds.
 
-The parameter and logging frameworks enables developers to easily (via macros
-in the firmware) define a special usage for variables. When the host connects
-to the Crazyflie a list of them is downloaded and they can be used. The
-parameters are used to change variables in the Crazyflie in real-time. This is
-very useful when working with the regulation, then you can change the tuning on
-the fly. The logging framework is used to set up logging of variables from the
-Crazyflie. Once set up the Crazyflie will push the values to the host at a
-specified time interval. The values can then either be shown in the GUI,
-plotted or saved to a file for external processing.
+* **The parameter and logging frameworks**: This enables developers to easily define a special usage for variables. and the
+parameters are used to change variables in the Crazyflie in real-time. Check out the [crazyflie-firmware repo docs](/documentation/repository/crazyflie-firmware/master/) for API documentation about the paramaters. The values can then either be shown in the [CFclient](/documentation/repository/crazyflie-clients-python/master/), plotted or saved to a file for external processing.
 
-The Crazyflie features an ARM Cortex-M3 micro controller running at 72MHz and
-with 20kb of RAM and 128kb of flash. This is a power chip and even with our
-firmware running on it there’s lots of resources left over for developers to
-use.
+* **The App layer** The Crazyflie features an ARM Cortex-M3 micro controller running at 72MHz and
+with 20kb of RAM and 128kb of flash. With our firmware running on it there’s still room left over for developers to
+use. Check out the [crazyflie-firmware repo docs](/documentation/repository/crazyflie-firmware/master/).
 
-On the side of the Crazyflie there’s an expansion header. This header doesn’t
-only contain the JTAG, it also contains a number of buses and power, providing
-the possibility to extend the platform with new hardware.
+* **JTAG debugging**  There can be a need to connect JTAG anyway, if one would like to do on-chip debugging for instanceOn the side of the Crazyflie there’s an expansion header. This header doesn’t
+only contain the JTAG, which can be accessed with  our {% id_link product-debug-adapter-kit %}
 
 ## Community
 
-All our projects are open and are hosted over at GitHub. This is also the place
+* **Github**: All our projects are open and are hosted over at GitHub. This is also the place
 where you can suggest new features, report issues and find current issues that
-needs fixing.  The github repositories also 
-contains documentation of our platform, guides on how to develop and use it as
-well as documentation of different experiments and hacks that we and other have
-done. 
+needs fixing.  
 
-Apart from this we also host an active forum which is used to get support. 
+* **Forum**: Apart from this we also host an [active forum](https://forum.bitcraze.io/) which is mostly used for support but can also start discussions. 
 
-If you feel like contributing we accept
-pull-requests for all our software/firmware (after review and testing). This is a great resource for us since
-there are lots of things we miss and need help fixing. 
+* **Contributing**: We are always happy with all kinds of contributions from the community. Check {% id_link contribute %} in what ways you can help us make the Crazyflie even better. 
 
-Also it would be very useful to answer any forum-posts that you have knowledge about as well.
-
-Discord is to connect directly with our users, to discuss our platform or just show off some project that they have done.
+* **Discussions and Sharing**: 
+Discussing can be done in multiple ways. If there is something that just requires a general discussion, the forum is more fit for it. Github if for discussion specific to the repository. Sharing work can be done on Social Media, of which you can find the channels on top of this website page. We don't maintain a code of conduct but just be respectful in the way that you communicate with the community.
