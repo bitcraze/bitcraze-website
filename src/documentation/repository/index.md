@@ -48,4 +48,5 @@ Check out the {% id_link doc-nav %} if you want to have a tree like structure of
 
 |Category| GitHub repository | Documentation | Explanation |
 |----| -----------------  |--------------| ----------------|
-|![crazyflie](/images/documentation/overview/docker.png)| [toolbelt](https://github.com/bitcraze/toolbelt) | | The toolbelt is a utility to run tools for testing and building of software modules.|
+|![crazyflie](/images/documentation/overview/docker.png){:width="50px"}| [Toolbelt](https://github.com/bitcraze/toolbelt) | [Docs](/documentation/repository/toolbelt/master/) | The toolbelt is a utility to run tools for testing and building of software modules.|
+|![crazyflie](/images/documentation/repository/vm_logo.png){:width="50px"}| [Virtual Machiine](https://github.com/bitcraze/bitcraze-vm) | | The virtual machine is a preprepared development environment.|
