@@ -10,10 +10,11 @@ redirects:
 
 **One of our goals is to only use open source software when developing and so far we have managed to stick to it using tools for design of electronics, software and web. We think that it's great that so many good tools are available and using these tools in our projects means that the community can contribute to all parts of the projects. Here's a list of the tools that we have used so far.**
 
-### Electronics
+### Electronics & Mechanics
 * [KiCad](https://kicad-pcb.org/)
-
+* [FreeCAD](https://www.freecadweb.org/)
 ### Software
+* [VS code](https://code.visualstudio.com/)
 * [Eclipse](https://www.eclipse.org/)
 * [gcc](https://gcc.gnu.org/)
 * [Python](https://www.python.org/)

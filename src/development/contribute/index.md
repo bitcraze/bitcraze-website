@@ -19,7 +19,7 @@ There are many ways to contribute, here are some examples
 * **Forum** Answer a question on the [forum](//forum.bitcraze.io)
 * **Github** 
   * **Issue reporting**: Add an issue to one of the [repos on github](https://github.com/bitcraze) with a
-  suggestion for an improvement or a bug report.
+bug report.
   * **Feature requests**  Feel free to make an issue to request a new functionality.
   * **Pull Requests**: Submit a pull request to one of the [repos on github](https://github.com/bitcraze).
 
@@ -31,7 +31,9 @@ There are many ways to contribute, here are some examples
   * **Social Media**: Upload a video of your work to [YouTube](https://www.youtube.com/) or on any of our other social media channels
 
 ## Contributing in Github
+The source code for firmware, clients, tools and the web site are hosted on [github](https://github.com/bitcraze).
 
+### Issue tracking
 When reporting github issues the more information you can supply the better.
 
 * **Information about the environment**:
@@ -44,14 +46,20 @@ If you are missing anything in terms of functioanlity, we and the community are 
 
 
 ### Pull Requests 
-The source code for firmware, clients, tools and the web site are hosted on github.
 We use pull requests for code contributions, read more about how it works on
 [this article github](https://help.github.com/articles/about-pull-requests/).
 
 Code Contributions are of great value to the project and we are very happy for any contribution, large or small,
-but to make it possible for us to merge your additions into the codebase there are a few guide-lines to follow
+but to make it possible for us to merge your additions into the codebase there are general guide-lines to follow:
 
- {% inline_button GeneralCode  Contributing Guidelines; /development/contribute/general-guidelines/ %}
+* Describe the change
+* Refer to any issues it effects
+* Separate one pull request per functionality: if you start writing "and" in the feature description consider if it could be separated in two pull requests.
+* The pull request must pass the automated testing
+
+Please look at the general code contributing Guidelines and code standards for more information. 
+
+ {% inline_button General Code Contributing Guidelines; /development/contribute/general-guidelines/ %}
 
  {% inline_button Coding Standards ; /development/contribute/coding-standards/ %}
 
@@ -61,10 +69,10 @@ The main documentation of this website is handled in its own repository on our [
 
 The more detailed [repository documentation](/documentation/repository/) is hosted on this website but its source exists in the doc folders of the [repos on github](https://github.com/bitcraze) of which we also have several tips and tricks. 
 
- {% inline_button Repository documentation guidelines ; /development/contribute/repo-doc-guidelines/ %}
+ {% inline_button Repository Documentation Guidelines ; /development/contribute/repo-doc-guidelines/ %}
 
 
-## Getting help with contributions
+## Contribution Support
 
 Maybe you want to contribute but don't know what to do? Need help
 to find the right solution? Not sure of how to write a unit test?
