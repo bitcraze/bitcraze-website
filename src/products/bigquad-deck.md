@@ -9,7 +9,7 @@ redirects:
 {% datasheet_product_status big_quad_deck %}
 {% buy_online https://store.bitcraze.io/collections/decks/products/bigquad-deck %}
 
-{% product_img BigQuad deck; narrow; /images/bigquad-deck/big-quad-deck-400px.jpg %}
+{% product_img BigQuad deck; narrow; /images/bigquad-deck/big-quad-deck-585px.jpg %}
 
 {% product_highlight
 fa-expand;
