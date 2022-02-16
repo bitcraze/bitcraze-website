@@ -31,7 +31,7 @@ bug report.
   * **Social Media**: Upload a video of your work to [YouTube](https://www.youtube.com/) or on any of our other social media channels
 
 ## Contributing in Github
-The source code for firmware, clients, tools and the web site are hosted on [github](https://github.com/bitcraze).
+The source code for firmware, clients, tools and the website are hosted on [Github](https://github.com/bitcraze).
 
 ### Issue tracking
 When reporting github issues the more information you can supply the better.
@@ -42,7 +42,7 @@ When reporting github issues the more information you can supply the better.
 * **How to reproduce the issue**: Step-by-step guide on how the issue can be reproduced (or at least how you reproduce it). Include everything you think might be useful, the more information the better.
 
 ### Feature requests
-If you are missing anything in terms of functioanlity, we and the community are continuously working to improve the firmware. Feel free to make an issue to request a new functionality!
+If you are missing anything in terms of functionality, we and the community are continuously working to improve the firmware. Feel free to make an issue to request a new functionality!
 
 
 ### Pull Requests 
@@ -67,7 +67,7 @@ Please look at the general code contributing Guidelines and code standards for m
 
 The main documentation of this website is handled in its own repository on our [our github](https://github.com/bitcraze/bitcraze-website), so submit a pull request for your improvements.
 
-The more detailed [repository documentation](/documentation/repository/) is hosted on this website but its source exists in the doc folders of the [repos on github](https://github.com/bitcraze) of which we also have several tips and tricks. 
+The more detailed [repository documentation](/documentation/repository/) is hosted on this website but its source exists in the doc folders of the [repos on github](https://github.com/bitcraze) of which we also have some guidelines to keep in mind.
 
  {% inline_button Repository Documentation Guidelines ; /development/contribute/repo-doc-guidelines/ %}
 
