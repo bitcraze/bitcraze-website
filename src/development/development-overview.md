@@ -91,7 +91,7 @@ the Crazyflie platform, this can be a hassle. Here we will provide a list of too
 Also check which open source tools we are using / have used at Bitcraze internally to get inspiration on what you would like to use for your case.
 
 
- {% inline_button Open Source Tools ; /development/about/credits/ %}
+ {% inline_button Open Source Tools ; /about/credits/ %}
 
 ## Features Crazyflie
 
