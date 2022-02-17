@@ -7,13 +7,18 @@ class DocumentationFormatter
     @docs_root = '/documentation/repository'
   end
 
-  def update_docs_content(docs_dir, ns, repo_name, tag)
+  def update_docs_content(docs_dir, ns, repo_name, tag, directives)
+    no_search_index = false
+    if directives != nil
+      no_search_index = directives.split().include?('no_search_index')
+    end
+
     Dir.glob(docs_dir + '/**/*') do |file|
       if !File.directory?(file) && (file.end_with?('.md') || file.end_with?('.md_raw'))
         begin
           has_front_matter = file.end_with?('.md')
           doc = IO.read(file)
-          result = update_doc(doc, ns, repo_name, tag, has_front_matter)
+          result = update_doc(doc, ns, repo_name, tag, has_front_matter, no_search_index)
           IO.write(file, result)
         rescue
           puts("ERROR: Failed to update " + file)
@@ -23,9 +28,9 @@ class DocumentationFormatter
     end
   end
 
-  def update_doc(doc, ns, repo_name, tag, has_front_matter)
+  def update_doc(doc, ns, repo_name, tag, has_front_matter, no_search_index)
     if has_front_matter
-      doc_fm = update_front_matter_data(doc, ns, repo_name, tag)
+      doc_fm = update_front_matter_data(doc, ns, repo_name, tag, no_search_index)
       update_urls(doc_fm, repo_name, tag)
     else
       update_urls(doc, repo_name, tag)
@@ -56,7 +61,7 @@ class DocumentationFormatter
     end
   end
 
-  def update_front_matter_data(doc, ns, repo_name, tag)
+  def update_front_matter_data(doc, ns, repo_name, tag, no_search_index)
     data = YAML.load(doc)
 
     data['page_id'] = generate_page_id(ns, data['page_id'])
@@ -67,6 +72,10 @@ class DocumentationFormatter
 
     if data.key?('redirects')
       data['redirects'] = update_redirects(data['redirects'], repo_name, tag)
+    end
+
+    if no_search_index
+      data['no_search_index'] = true
     end
 
     start_of_front_matter = doc.index('---')

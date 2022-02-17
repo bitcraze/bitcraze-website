@@ -10,6 +10,7 @@ downloadFile="${tmp}/download.zip"
 function downloadGithubRepoDoc() {
   local name=$1
   local tag=$2
+  local directives=$3
   local nameTag=${name}/${tag}
   local repoRootDir=${dstDir}/${name}
   local repoDir=${dstDir}/${nameTag}
@@ -40,7 +41,7 @@ function downloadGithubRepoDoc() {
 
       # Massage data to move it into a namespace and genereate menus
       echo "Updating docs source files"
-      ${scriptDir}/../docs/format_docs ${repoDir} ${ns} ${name} ${tag} ${repoDir}/_data/menu.yml ${dataDir}/docs_menu.yml ${dataDir}/docs_tag_list.yml
+      ${scriptDir}/../docs/format_docs ${repoDir} ${ns} ${name} ${tag} ${repoDir}/_data/menu.yml ${dataDir}/docs_menu.yml ${dataDir}/docs_tag_list.yml ${directives}
   fi
 }
 
@@ -51,47 +52,47 @@ echo "Downloading repository documentation..."
 # Note: The order of downloads determines the order of versions in UI menus
 
 downloadGithubRepoDoc "crazyflie-firmware" "master"
-downloadGithubRepoDoc "crazyflie-firmware" "2022.01"
-downloadGithubRepoDoc "crazyflie-firmware" "2021.06"
-downloadGithubRepoDoc "crazyflie-firmware" "2021.03"
-downloadGithubRepoDoc "crazyflie-firmware" "2021.01"
-downloadGithubRepoDoc "crazyflie-firmware" "2020.09"
-downloadGithubRepoDoc "crazyflie-firmware" "2020.06"
-downloadGithubRepoDoc "crazyflie-firmware" "2020.04"
-downloadGithubRepoDoc "crazyflie-firmware" "2020.02"
-downloadGithubRepoDoc "crazyflie-firmware" "2019.09"
+downloadGithubRepoDoc "crazyflie-firmware" "2022.01" "no_search_index"
+downloadGithubRepoDoc "crazyflie-firmware" "2021.06" "no_search_index"
+downloadGithubRepoDoc "crazyflie-firmware" "2021.03" "no_search_index"
+downloadGithubRepoDoc "crazyflie-firmware" "2021.01" "no_search_index"
+downloadGithubRepoDoc "crazyflie-firmware" "2020.09" "no_search_index"
+downloadGithubRepoDoc "crazyflie-firmware" "2020.06" "no_search_index"
+downloadGithubRepoDoc "crazyflie-firmware" "2020.04" "no_search_index"
+downloadGithubRepoDoc "crazyflie-firmware" "2020.02" "no_search_index"
+downloadGithubRepoDoc "crazyflie-firmware" "2019.09" "no_search_index"
 
 downloadGithubRepoDoc "crazyflie2-nrf-firmware" "master"
-downloadGithubRepoDoc "crazyflie2-nrf-firmware" "2022.01"
-downloadGithubRepoDoc "crazyflie2-nrf-firmware" "2021.06"
-downloadGithubRepoDoc "crazyflie2-nrf-firmware" "2021.03"
-downloadGithubRepoDoc "crazyflie2-nrf-firmware" "2020.09"
-downloadGithubRepoDoc "crazyflie2-nrf-firmware" "2020.06"
-downloadGithubRepoDoc "crazyflie2-nrf-firmware" "2020.04"
-downloadGithubRepoDoc "crazyflie2-nrf-firmware" "2020.02"
-downloadGithubRepoDoc "crazyflie2-nrf-firmware" "2019.09"
+downloadGithubRepoDoc "crazyflie2-nrf-firmware" "2022.01" "no_search_index"
+downloadGithubRepoDoc "crazyflie2-nrf-firmware" "2021.06" "no_search_index"
+downloadGithubRepoDoc "crazyflie2-nrf-firmware" "2021.03" "no_search_index"
+downloadGithubRepoDoc "crazyflie2-nrf-firmware" "2020.09" "no_search_index"
+downloadGithubRepoDoc "crazyflie2-nrf-firmware" "2020.06" "no_search_index"
+downloadGithubRepoDoc "crazyflie2-nrf-firmware" "2020.04" "no_search_index"
+downloadGithubRepoDoc "crazyflie2-nrf-firmware" "2020.02" "no_search_index"
+downloadGithubRepoDoc "crazyflie2-nrf-firmware" "2019.09" "no_search_index"
 
 downloadGithubRepoDoc "crazyflie-lib-python" "master"
-downloadGithubRepoDoc "crazyflie-lib-python" "0.1.17.1"
-downloadGithubRepoDoc "crazyflie-lib-python" "0.1.16"
-downloadGithubRepoDoc "crazyflie-lib-python" "0.1.14.1"
-downloadGithubRepoDoc "crazyflie-lib-python" "0.1.13.1"
-downloadGithubRepoDoc "crazyflie-lib-python" "0.1.12"
-downloadGithubRepoDoc "crazyflie-lib-python" "0.1.11"
-downloadGithubRepoDoc "crazyflie-lib-python" "0.1.10"
-downloadGithubRepoDoc "crazyflie-lib-python" "0.1.9"
+downloadGithubRepoDoc "crazyflie-lib-python" "0.1.17.1" "no_search_index"
+downloadGithubRepoDoc "crazyflie-lib-python" "0.1.16" "no_search_index"
+downloadGithubRepoDoc "crazyflie-lib-python" "0.1.14.1" "no_search_index"
+downloadGithubRepoDoc "crazyflie-lib-python" "0.1.13.1" "no_search_index"
+downloadGithubRepoDoc "crazyflie-lib-python" "0.1.12" "no_search_index"
+downloadGithubRepoDoc "crazyflie-lib-python" "0.1.11" "no_search_index"
+downloadGithubRepoDoc "crazyflie-lib-python" "0.1.10" "no_search_index"
+downloadGithubRepoDoc "crazyflie-lib-python" "0.1.9" "no_search_index"
 
 downloadGithubRepoDoc "crazyflie-clients-python" "master"
-downloadGithubRepoDoc "crazyflie-clients-python" "2022.1"
-downloadGithubRepoDoc "crazyflie-clients-python" "2021.6"
-downloadGithubRepoDoc "crazyflie-clients-python" "2021.3"
-downloadGithubRepoDoc "crazyflie-clients-python" "2021.1"
-downloadGithubRepoDoc "crazyflie-clients-python" "2020.09"
-downloadGithubRepoDoc "crazyflie-clients-python" "2019.09"
+downloadGithubRepoDoc "crazyflie-clients-python" "2022.1" "no_search_index"
+downloadGithubRepoDoc "crazyflie-clients-python" "2021.6" "no_search_index"
+downloadGithubRepoDoc "crazyflie-clients-python" "2021.3" "no_search_index"
+downloadGithubRepoDoc "crazyflie-clients-python" "2021.1" "no_search_index"
+downloadGithubRepoDoc "crazyflie-clients-python" "2020.09" "no_search_index"
+downloadGithubRepoDoc "crazyflie-clients-python" "2019.09" "no_search_index"
 
 downloadGithubRepoDoc "lps-node-firmware" "master"
-downloadGithubRepoDoc "lps-node-firmware" "2020.09"
-downloadGithubRepoDoc "lps-node-firmware" "2019.09"
+downloadGithubRepoDoc "lps-node-firmware" "2020.09" "no_search_index"
+downloadGithubRepoDoc "lps-node-firmware" "2019.09" "no_search_index"
 
 downloadGithubRepoDoc "crazyradio-firmware" "master"
 
