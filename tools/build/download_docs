@@ -50,6 +50,8 @@ echo "Downloading repository documentation..."
 
 # Note: The order of downloads determines the order of versions in UI menus
 
+downloadGithubRepoDoc "crazyflie-testing" "main"
+
 downloadGithubRepoDoc "crazyflie-firmware" "master"
 downloadGithubRepoDoc "crazyflie-firmware" "2022.01"
 downloadGithubRepoDoc "crazyflie-firmware" "2021.06"
