@@ -20,6 +20,10 @@ test environment based on Docker to reduce the amount of software required.
         
         ./tools/do download_deps
 
+1. Download hardware documentation used for generating part of the product pages.
+
+        ./tools/do download_hardware_docs
+
 1. Start the development server. The development server in Jekyll continuously 
 builds the site when the source changes.
 
