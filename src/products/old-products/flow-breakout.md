@@ -4,10 +4,10 @@ title: Flow breakout
 page_id: product-flow-breakout
 redirects:
   - /flow-breakout/
+  - /products/flow-breakout/
 ---
 
 {% datasheet_product_status flow_breakout %}
-{% buy_online https://store.bitcraze.io/collections/decks/products/flow-breakout %}
 
 {% product_img Flow breakout; narrow;
 /images/flow_breakout/flow_breakout_585px-1.jpg
@@ -230,7 +230,6 @@ X: 21, Y: 133, Range: 118
 - {% id_link support-getting-help %}
 - [Datasheet](/documentation/hardware/flow_breakout/flow_breakout-datasheet.pdf)
 - [Schematics](/documentation/hardware/flow_breakout/flow_breakout_revb.pdf)
-- [Store](https://store.bitcraze.io/products/flow-breakout-board)
 
 {% comment %}
 {% endcomment %}
