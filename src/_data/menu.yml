@@ -28,8 +28,6 @@
   - {page_id: product-loco-pos-node}
   - {page_id: product-lighthouse-deck}
   - {break: true }
-  - {page_id: product-flow-breakout}
-  - {break: true }
   - {page_id: product-old}
 
 - title: Buy

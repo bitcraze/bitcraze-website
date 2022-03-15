@@ -8,6 +8,12 @@ redirects:
 
 Some distributors are still carrying these products, but they are no longer in production.
 
+### Flow breakout
+
+<a href="/products/old-products/flow-breakout/"><img width="150" height="150" src="/images/flow_breakout/flow_breakout_585px-1.jpg" alt="Flow breakout"/></a>
+
+[Read more](/products/old-products/flow-breakout/)
+
 ### Qi wireless charging deck
 
 <a href="/products/old-products/qi-charger-deck/"><img width="150" height="150" src="/images/qi-charger/qi-charger-deck-585px.jpg" alt="Qi deck"/></a>
