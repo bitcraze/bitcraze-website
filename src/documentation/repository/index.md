@@ -26,7 +26,7 @@ Check out the {% id_link doc-nav %} if you want to have a tree like structure of
 |![crazyflie](/images/documentation/overview/crazyflie.png){:width="100px"}| [crazyflie2-nrf-firmware](https://github.com/bitcraze/crazyflie2-nrf-firmware)| [Docs](/documentation/repository/crazyflie2-nrf-firmware/master/) |  The firmware that runs on the NRF51, which handles the radio and power management. The documentation also explains about the ST link protocol for communication between the STM32 and the NRF51. |
 |![Crazyradio](/images/documentation/overview/crazyradiopa.png){:width="50px"}|  [crazyradio-firmware](https://github.com/bitcraze/crazyradio-firmware) | [Docs](/documentation/repository/crazyradio-firmware/master/) | This GitHub repository contains the source code for the firmware of the {% id_link product-crazyradio-pa %}.|
 ![Loco Positioning System](/images/documentation/overview/lpssystem.png){:width="100px"}| [lps-node-firmware](https://github.com/bitcraze/lps-node-firmware) | [Docs](/documentation/repository/lps-node-firmware/master/) | This GitHub repository contains the source code for the {% id_link product-loco-pos-node %}. The documentation also includes several user guides how to set the system up and also explains the interaction with the {% poplink loco-positioning-deck %} of the Crazyflie. |
-||[AIdeck_examples](https://github.com/bitcraze/AIdeck_examples ) | [Docs](/documentation/repository/AIdeck_examples/master/) | This repository contains examples for the {% id_link product-ai-deck-1-1 %}. |
+||[aideck-gap8-examples](https://github.com/bitcraze/aideck-gap8-examples ) | [Docs](/documentation/repository/aideck-gap8-examples/master/) | This repository contains examples for the {% id_link product-ai-deck-1-1 %}. |
 
 ## Other languages
 

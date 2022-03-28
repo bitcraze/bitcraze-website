@@ -58,12 +58,12 @@ The AI-deck 1.1 version only has minor updates compared to the AI-deck 1.0. The 
 {% row_icon_text_links Usage; fa-book %}
 {% row_text %}
 
-Check out [this page for first trying out time out of the AIdeck](/documentation/repository/AIdeck_examples/master/getting-started/tryout/)
+Check out [this page for first trying out time out of the AIdeck](/documentation/repository/aideck-gap8-examples/master/getting-started/tryout/)
 
 {% endrow_text %}
 {% row_links %}
 
-* [First time try out](/documentation/repository/AIdeck_examples/master/getting-started/tryout/)
+* [First time try out](/documentation/repository/aideck-gap8-examples/master/getting-started/tryout/)
 {% endrow_links %}
 {% endrow_icon_text_links %}
 {% endtab %}
@@ -71,11 +71,11 @@ Check out [this page for first trying out time out of the AIdeck](/documentation
 {% row_icon_text_links Development;  fa-laptop %}
 {% row_text %}
 
-As the AIdeck is still in early access, there is still a lot of development to be done. The firmware of the AIdeck's microprocessors can be found in [its Github repository](https://github.com/bitcraze/AIdeck_examples) with the [accomendating documentation](/documentation/repository/AIdeck_examples/master/). The GAP8 chip relies on the [GAP SDK from greenwave technologies](https://github.com/GreenWaves-Technologies/gap_sdk)
+As the AIdeck is still in early access, there is still a lot of development to be done. The firmware of the AIdeck's microprocessors can be found in [its Github repository](https://github.com/bitcraze/aideck-gap8-examples) with the [accomendating documentation](/documentation/repository/aideck-gap8-examples/master/). The GAP8 chip relies on the [GAP SDK from greenwave technologies](https://github.com/GreenWaves-Technologies/gap_sdk)
 
 #### Programmer
 
-Note that you need to have [a jtag enabled programmer ](/documentation/repository/AIdeck_examples/master/getting-started/jtag-programming/) in order to flash firmware to the AIdeck.
+Note that you need to have [a jtag enabled programmer ](/documentation/repository/aideck-gap8-examples/master/getting-started/jtag-programming/) in order to flash firmware to the AIdeck.
 
 
 #### Workshop
@@ -87,9 +87,9 @@ Make sure to check out the workshop PULP platform gave about the AIdeck!
 
 {% endrow_text %}
 {% row_links %}
-* [AIdeck examples repository](https://github.com/bitcraze/AIdeck_examples)
+* [AIdeck examples repository](https://github.com/bitcraze/aideck-gap8-examples)
 * [GAP SDK repo](https://github.com/GreenWaves-Technologies/gap_sdk)
-* [AIdeck documentation](/documentation/repository/AIdeck_examples/master/)
+* [AIdeck documentation](/documentation/repository/aideck-gap8-examples/master/)
 * [AIdeck blogposts](/category/ai-deck/)
 {% endrow_links %}
 {% endrow_icon_text_links %}
