@@ -104,7 +104,7 @@ downloadGithubRepoDoc "crazyradio-firmware" "master"
 
 downloadGithubRepoDoc "lighthouse-bootloader" "master"
 
-downloadGithubRepoDoc "AIdeck_examples" "master"
+downloadGithubRepoDoc "aideck-gap8-examples" "master"
 
 downloadGithubRepoDoc "crazyflie2-ios-client" "master"
 
