@@ -148,7 +148,7 @@ Make sure that the Crazyflie is receiving the sweep angels of both base stations
 
 _For the calibration data you might need to wait for 20 seconds._
 
-{% img base station status; medium; /images/tutorials/getting_started_with_lighthouse/4_basestation_status.png %}
+{% img base station status; narrow; /images/tutorials/getting_started_with_lighthouse/4_basestation_status.png %}
 {% endsi_step %}
 
 {% si_step Estimate the geometry %}
@@ -159,7 +159,7 @@ Once you have received the calibration data, it is time to estimate where the ba
 2. In the dialog, press 'Estimate Geometry'. You will see then the estimated geometry of the base stations.
 
 3. If the geometry makes sense, press 'Write to Crazyflie', or else move your Crazyflie and press 'Estimate Geometry' again.
-{% img base station status; wide; /images/tutorials/getting_started_with_lighthouse/5_geometry_dialog.png %}
+{% img base station status; medium; /images/tutorials/getting_started_with_lighthouse/5_geometry_dialog.png %}
 {% endsi_step %}
 
 {% si_step Check the positioning %}
