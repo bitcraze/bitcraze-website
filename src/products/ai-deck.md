@@ -68,8 +68,7 @@ own AI powered applications.
 
 {% endrow_text %}
 {% row_links %}
-* [Getting started with the AIdeck](/documentation/tutorials/getting-started-with-aideck/)
-* [CPX](/documentation/repository/crazyflie-firmware/master/functional-areas/cpx/)
+* [Getting started with the AI deck](/documentation/tutorials/getting-started-with-aideck/)
 {% endrow_links %}
 {% endrow_icon_text_links %}
 {% endtab %}
@@ -77,26 +76,34 @@ own AI powered applications.
 {% row_icon_text_links Development;  fa-laptop %}
 {% row_text %}
 
-The firmware of the AIdeck's microprocessors can be found in [its Github repository](https://github.com/bitcraze/aideck-gap8-examples) with the [accomendating documentation](/documentation/repository/aideck-gap8-examples/master/). The GAP8 chip relies on the [GAP SDK from greenwave technologies](https://github.com/GreenWaves-Technologies/gap_sdk)
+The main purpose of the {% poplink ai-deck %} is to be used to try out our examples and to develop
+your own AI powered applications. To be able to get going you will need to complete the [Getting started with the AI deck](/documentation/tutorials/getting-started-with-aideck/) tutorial, then you can jump over to our
+examples or get started right away developing something of your own.
 
-#### Programmer
+Although it's possible to flash the GAP8 over-the-air, it's mandatory to first flash the bootloader
+onto the GAP8 using a JTAG adapter.
 
-Note that you need to have [a jtag enabled programmer ](/documentation/repository/aideck-gap8-examples/master/getting-started/jtag-programming/) in order to flash firmware to the AIdeck.
-
+Using the [Crazyflie Packet eXchange protocol (CPX)](/documentation/repository/crazyflie-firmware/master/functional-areas/cpx/) you will be able to communicate between your host computer,
+the ESP32, the GAP8 and the STM32 on the Crazyflie. This will enable you to easily send data from the GAP8
+to your host computer via WiFi or to the STM32 on the Crazyflie, and back again. This is also used for
+console printing from the ESP32 and GAP8 which will be sent to the Crazyflie and displayed in the Crazyflie
+client.
 
 #### Workshop
 
-Make sure to check out the workshop PULP platform gave about the AIdeck!
+Make sure to check out the workshop PULP platform gave about the {% poplink ai-deck %}!
 
 {% youtube o9asYPHxEB4; wide; 16by9 %}
 
-
 {% endrow_text %}
 {% row_links %}
-* [AIdeck examples repository](https://github.com/bitcraze/aideck-gap8-examples)
-* [GAP SDK repo](https://github.com/GreenWaves-Technologies/gap_sdk)
-* [AIdeck documentation](/documentation/repository/aideck-gap8-examples/master/)
-* [AIdeck blogposts](/category/ai-deck/)
+* [AI deck getting started tutorial](/documentation/tutorials/getting-started-with-aideck/)
+* [AI deck example documentation](/documentation/repository/aideck-gap8-examples/master/)
+* [AI deck examples on Github](https://github.com/bitcraze/aideck-gap8-examples)
+* [CPX](/documentation/repository/crazyflie-firmware/master/functional-areas/cpx/)
+* [GAP SDK repository](https://github.com/GreenWaves-Technologies/gap_sdk)
+* [Bitcraze GAP SDK docker container](https://github.com/bitcraze/docker-aideck)
+* [AI deck blogposts](/category/ai-deck/)
 {% endrow_links %}
 {% endrow_icon_text_links %}
 {% endtab %}
