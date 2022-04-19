@@ -91,7 +91,8 @@ client.
 
 #### Workshop
 
-Make sure to check out the workshop PULP platform gave about the {% poplink ai-deck %}!
+Make sure to check out the workshop PULP platform gave about the {% poplink ai-deck %}! Note that some
+of the instructions have been updated, refer to the getting started guide for the latest procedures.
 
 {% youtube o9asYPHxEB4; wide; 16by9 %}
 
