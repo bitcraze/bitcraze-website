@@ -26,11 +26,11 @@ Super-edge-computing on a 30 gram flying platform is now available!
 
 Thanks to the [GAP8 IoT application processor](https://greenwaves-technologies.com/ai_processor_gap8/) from [GreenWaves Technologies](https://greenwaves-technologies.com/ai_processor_gap8/) and the ULP camera, the Crazyflie is able to capture, analyze and classify its environment, as previously presented by [ETH Zurich](https://ethz.ch/en.html) on the initial [PULP-Shield PCB design from IIS-ETHZ](https://arxiv.org/abs/1905.04166). This lightweight and low-power combination opens up many research and development areas for the micro-sized Crazyflie 2.X UAV.
 
-The AI-deck 1.1 extends the computational capabilities and will enable complex artificial intelligence-based workloads to run onboard, with the possibility to achieve fully autonomous navigation capabilities. The ESP32 adds WiFi connectivity with the possibility to stream images as well as handling control.
+The {% poplink ai-deck %} 1.1 extends the computational capabilities and will enable complex artificial intelligence-based workloads to run onboard, with the possibility to achieve fully autonomous navigation capabilities. The ESP32 adds WiFi connectivity with the possibility to stream images as well as handling control.
 
-This product is in the early access stage so documentation and amount of examples are limited. To program this board a compatible JTAG programmer/debugger is needed, see resources.
+To set up this board a compatible JTAG programmer/debugger is needed, see resources.
 
-The AI-deck 1.1 version only has minor updates compared to the AI-deck 1.0. The Himax camera module is now the greyscale version and the GAP8 is now revision C instead of B. For more details read [this blog post](https://www.bitcraze.io/2021/01/ai-deck-product-update/) and if the Bayer RGB version camera is wanted it can be bought stand alone here.
+The {% poplink ai-deck %} 1.1 version only has minor updates compared to the {% poplink ai-deck %} 1.0. The Himax camera module is now the greyscale version and the GAP8 is now revision C instead of B. For more details read [this blog post](https://www.bitcraze.io/2021/01/ai-deck-product-update/) and if the Bayer RGB version camera is wanted it can be bought stand alone here.
 
 {% endrow_text %}
 {% row_links %}
@@ -58,12 +58,17 @@ The AI-deck 1.1 version only has minor updates compared to the AI-deck 1.0. The 
 {% row_icon_text_links Usage; fa-book %}
 {% row_text %}
 
-Check out [this page for first trying out time out of the AIdeck](/documentation/repository/aideck-gap8-examples/master/getting-started/tryout/)
+The {% poplink ai-deck %} adds WiFi connectivity to the Crazyflie, which can be used for communication
+with the Crazyflie and the {% poplink ai-deck %}. For the camera and the GAP8 no out-of-the-box functionality
+is added, instead these resources are left for users to fully use as they see fit.
+
+To get up and running with the deck see our [getting started guid](/documentation/tutorials/getting-started-with-aideck/)
+after which you will be able to either try out the pre-made examples or start making your
+own AI powered applications.
 
 {% endrow_text %}
 {% row_links %}
-
-* [First time try out](/documentation/repository/aideck-gap8-examples/master/getting-started/tryout/)
+* [Getting started with the AI deck](/documentation/tutorials/getting-started-with-aideck/)
 {% endrow_links %}
 {% endrow_icon_text_links %}
 {% endtab %}
@@ -71,26 +76,35 @@ Check out [this page for first trying out time out of the AIdeck](/documentation
 {% row_icon_text_links Development;  fa-laptop %}
 {% row_text %}
 
-As the AIdeck is still in early access, there is still a lot of development to be done. The firmware of the AIdeck's microprocessors can be found in [its Github repository](https://github.com/bitcraze/aideck-gap8-examples) with the [accomendating documentation](/documentation/repository/aideck-gap8-examples/master/). The GAP8 chip relies on the [GAP SDK from greenwave technologies](https://github.com/GreenWaves-Technologies/gap_sdk)
+The main purpose of the {% poplink ai-deck %} is to be used to try out our examples and to develop
+your own AI powered applications. To be able to get going you will need to complete the [Getting started with the AI deck](/documentation/tutorials/getting-started-with-aideck/) tutorial, then you can jump over to our
+examples or get started right away developing something of your own.
 
-#### Programmer
+Although it's possible to flash the GAP8 over-the-air, it's mandatory to first flash the bootloader
+onto the GAP8 using a JTAG adapter.
 
-Note that you need to have [a jtag enabled programmer ](/documentation/repository/aideck-gap8-examples/master/getting-started/jtag-programming/) in order to flash firmware to the AIdeck.
-
+Using the [Crazyflie Packet eXchange protocol (CPX)](/documentation/repository/crazyflie-firmware/master/functional-areas/cpx/) you will be able to communicate between your host computer,
+the ESP32, the GAP8 and the STM32 on the Crazyflie. This will enable you to easily send data from the GAP8
+to your host computer via WiFi or to the STM32 on the Crazyflie, and back again. This is also used for
+console printing from the ESP32 and GAP8 which will be sent to the Crazyflie and displayed in the Crazyflie
+client.
 
 #### Workshop
 
-Make sure to check out the workshop PULP platform gave about the AIdeck!
+Make sure to check out the workshop PULP platform gave about the {% poplink ai-deck %}! Note that some
+of the instructions have been updated, refer to the getting started guide for the latest procedures.
 
 {% youtube o9asYPHxEB4; wide; 16by9 %}
 
-
 {% endrow_text %}
 {% row_links %}
-* [AIdeck examples repository](https://github.com/bitcraze/aideck-gap8-examples)
-* [GAP SDK repo](https://github.com/GreenWaves-Technologies/gap_sdk)
-* [AIdeck documentation](/documentation/repository/aideck-gap8-examples/master/)
-* [AIdeck blogposts](/category/ai-deck/)
+* [AI deck getting started tutorial](/documentation/tutorials/getting-started-with-aideck/)
+* [AI deck example documentation](/documentation/repository/aideck-gap8-examples/master/)
+* [AI deck examples on Github](https://github.com/bitcraze/aideck-gap8-examples)
+* [CPX](/documentation/repository/crazyflie-firmware/master/functional-areas/cpx/)
+* [GAP SDK repository](https://github.com/GreenWaves-Technologies/gap_sdk)
+* [Bitcraze GAP SDK docker container](https://github.com/bitcraze/docker-aideck)
+* [AI deck blogposts](/category/ai-deck/)
 {% endrow_links %}
 {% endrow_icon_text_links %}
 {% endtab %}

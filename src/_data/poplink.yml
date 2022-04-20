@@ -60,3 +60,7 @@ poplinks:
     title: BigQuad deck
     default-link: /products/bigquad-deck
     content: bigquad-deck.md
+  ai-deck:
+    title: AI deck
+    default-link: /products/ai-deck/
+    content: ai-deck.md

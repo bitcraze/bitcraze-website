@@ -15,6 +15,7 @@ page_id: tutorials
 * {% id_link getting-started-buzzer-deck %}
 * {% id_link getting-started-z-ranger-deck %}
 * {% id_link getting-started-flow-deck %}
+* {% id_link getting-started-with-the-aideck %}
 * {% id_link solder-deck-pins %}
 
 ## Positioning

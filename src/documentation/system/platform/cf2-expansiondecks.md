@@ -25,6 +25,7 @@ Here is a list of expansion decks that are available for the Crazyflie 2.X:
 | {% poplink loco-positioning-deck %}|Expansion deck for the Loco positioning system |
 | {% poplink multi-ranger-deck %}|Expansion deck for detecting obstacles |
 | {% poplink flow-deck %}  | Expansion deck for detecting flow and height |
+| {% poplink ai-deck %}  | AI expansion deck |
 
 ### Additional information
 
@@ -114,7 +115,7 @@ Deck info
 | 0xBC | 0x0F | bcFlow2       | {% poplink flow-deck %}                     | 1.6g   | ~40mA                      | Under          |
 | 0xBC | 0x10 | bcLighthouse4 | {% poplink lighthouse-deck %}               | 2.7g   | ~40mA                      | Above          |
 | 0xBC | 0x11 | bcActiveM     | {% poplink active-marker-deck %}            | 3.3g   | ~40mA                      | Above          |
-| 0xBC | 0x12 | bcAI          | {% id_link product-ai-deck-1-1 %}           | 4.4g   | depending on deck app      | Above          |
+| 0xBC | 0x12 | bcAI          | {% poplink ai-deck %}                       | 4.4g   | depending on deck app      | Above          |
 |------|------|---------------|---------------------------------------------|--------|----------------------------|----------------|
 
 Deck pin allocation
@@ -147,7 +148,7 @@ two decks where the connections collide.
 | **{% poplink motion-capture-marker-deck %}**               |       |       |       |       |          |  *(X)*   | *(X)*    |         |       |       |       |       |       |          |          | N/A  |
 | **{% poplink lighthouse-deck %}**         | X     | X     | X     | X     |          |          |          |         |       |       |       |       |       |          |          | N/A  |
 | **{% poplink active-marker-deck %}**             |       |       | X     | X     |          |          |          |         |       |       |       |       |       |          |          | N/A  |
-| **bcAI**                  | X     | X     | X     | X     | X        |          |          | X       | X     | X     |       |       |       |          |          | VCOM |
+| **{% poplink ai-deck %}**                  | X     | X     | X     | X     | X        |          |          | X       | X     | X     |       |       |       |          |          | VCOM |
 |---------------------------|-------|-------|-------|-------|----------|----------|----------|---------|-------|-------|-------|-------|-------|----------|----------|------|
 
 Compatibility matrixes
@@ -172,7 +173,7 @@ This table shows which deck that works on which platform.
 | **{% poplink motion-capture-marker-deck %}**      | yes            | yes       |
 | **{% poplink lighthouse-deck %}**                 | yes            | *2        |
 | **{% poplink active-marker-deck %}**              | yes            | yes       |
-| **AI deck**                                       | yes            | yes       |
+| **{% poplink ai-deck %}**                         | yes            | yes       |
 |---------------------------------------------------|----------------|-----------|
 
 ### Deck - deck
@@ -186,7 +187,7 @@ are normally physically blocking each other are marked as not
 compatible.
 
 
- |                           | {% poplink led-ring-deck %} | {% poplink qi-1-2-wireless-charging-deck %} | {% poplink sd-card-deck %} | {% poplink loco-positioning-deck %} | {% poplink bigquad-deck %} | {% poplink buzzer-deck %} | bcESP | {% poplink z-ranger-deck %}, Z-ranger V1 | {% poplink flow-deck %}, Flow deck V1 | {% poplink multi-ranger-deck%} | {% poplink motion-capture-marker-deck %} | {% poplink lighthouse-deck %} | {% poplink active-marker-deck %} | AI deck |
+ |                           | {% poplink led-ring-deck %} | {% poplink qi-1-2-wireless-charging-deck %} | {% poplink sd-card-deck %} | {% poplink loco-positioning-deck %} | {% poplink bigquad-deck %} | {% poplink buzzer-deck %} | bcESP | {% poplink z-ranger-deck %}, Z-ranger V1 | {% poplink flow-deck %}, Flow deck V1 | {% poplink multi-ranger-deck%} | {% poplink motion-capture-marker-deck %} | {% poplink lighthouse-deck %} | {% poplink active-marker-deck %} | {% poplink ai-deck %} |
  |---------------------------|----------|------------|----------|------------------|----------|--------|-------|----------|---------|--------------|-------------------|--------------|---------------|---------|
  | **{% poplink led-ring-deck %}**              | -        |            | yes      | yes              |          | yes    | yes   |          |         | yes          | yes               | yes          | yes           | yes     |
  | **{% poplink qi-1-2-wireless-charging-deck %}**            |          | -          | yes      | yes              | yes      | yes    | yes   |          |         | yes          | yes               | yes          | yes           | yes     |
@@ -201,7 +202,7 @@ compatible.
  | **{% poplink motion-capture-marker-deck %}**     | yes      | yes        | yes      | yes              | yes      | yes    | yes   | yes      | yes     | yes          | -                 | yes          |               | yes     |
  | **{% poplink lighthouse-deck %}**          | yes      | yes        | yes      | *2               | *2       | yes    | yes   | yes      | yes     | yes          | yes               | -            |               | *3      |
  | **{% poplink active-marker-deck %}**         | yes      | yes        | yes      | yes              | yes      | yes    | yes   | yes      | yes     | yes          |                   |              | -             | yes     |
- | **AI deck**               | yes      | yes        | *4  | *2               | yes      | yes    | yes   | yes      | yes     | yes          | yes               | *3           | yes           | -       |
+ | **{% poplink ai-deck %}**               | yes      | yes        | *4  | *2               | yes      | yes    | yes   | yes      | yes     | yes          | yes               | *3           | yes           | -       |
  |---------------------------|----------|------------|----------|------------------|----------|--------|-------|----------|---------|--------------|-------------------|--------------|---------------|---------|
 
 **Notes:**
