@@ -52,7 +52,7 @@ $ tb build
 $ cfloader flash cf2_nrf.bin nrf51-fw -w [your radio uri]
 ```
 
-See the [repository documentation](https://www.bitcraze.io/documentation/repository/crazyflie2-nrf-firmware/master/build/build/) for more details on how to build and flash.
+See the [repository documentation](/documentation/repository/crazyflie2-nrf-firmware/master/build/build/) for more details on how to build and flash.
 {% endsi_step %}
 
 {% si_step Setup the WiFi via the Crazyflie firmware%}
@@ -79,7 +79,7 @@ $ tb make
 $ cfloader flash cf2.bin stm32-fw -w [your radio uri]
 ```
 
-See the [repository documentation](https://www.bitcraze.io/documentation/repository/crazyflie-firmware/master/building-and-flashing/build/) for more details on how to build and flash.
+See the [repository documentation](/documentation/repository/crazyflie-firmware/master/building-and-flashing/build/) for more details on how to build and flash.
 {% endsi_step %}
 
 {% si_step Flash the latest ESP firmware %}
