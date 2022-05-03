@@ -7,19 +7,26 @@ page_id: getting-started-with-the-aideck
 {% si_intro Introduction %}
 The {% poplink ai-deck %} enables WiFi communication with the Crazyflie
 as well as using the power-efficient GAP8 to run neural networks on board. This tutorial will prepare your {% poplink ai-deck %} to be used together
-with the examples in our [GAP8 example repository](https://github.com/bitcraze/aideck-gap8-bootloader) and for you to start developing your own applications.
+with the examples in our [GAP8 example repository](https://github.com/bitcraze/aideck-gap8-examples) and for you to start developing your own applications.
 {% endsi_intro %}
 
 {% si_step  Prerequisites %}
 To run this tutorial and set up the AI deck you will need the following:
 
+* Operating System
+  * Linux 20.04 or higher
+
 * Hardware
   * {% id_link product-crazyflie-2-1 %}
   * {% poplink ai-deck %}
   * {% id_link product-crazyradio-pa %}
-  * Olimex ARM-USB-TINY-H JTAG
+  * Olimex ARM-USB-TINY-H JTAG ( a JLINK programmer will work as well)
+  * An 20 pin to 10 pin adapter and 10 pin lint cable. 
+  
 * Software
   * [Docker](https://www.docker.com/)
+      * Install the docker according to [Ubuntu instructions](https://docs.docker.com/engine/install/ubuntu/)
+      * Install docker [to use as non-root](https://docs.docker.com/engine/install/linux-postinstall/#manage-docker-as-a-non-root-user). 
   * The latest source code of the [Crazyflie lib](https://github.com/bitcraze/crazyflie-lib-python)
   * The latest source of the [Crazyflie client](https://github.com/bitcraze/crazyflie-clients-python)
   * The latest version of the [Bitcraze toolbelt](/documentation/repository/toolbelt/master/)
@@ -43,7 +50,7 @@ $ docker pull bitcraze/aideck
 
 
 {% si_step Flash the latest nRF51 firmware %}
-Build the firmware from source and flash it to the Crazyflie.
+Build the firmware from source and flash it to the Crazyflie by using the {% id_link product-crazyradio-pa %}
 
 ```
 $ git clone https://github.com/bitcraze/crazyflie2-nrf-firmware.git
@@ -72,7 +79,7 @@ Go to the menu *Expansion deck configuration* and make sure *Support AI deck*
 is enabled. In the *Support AI deck* sub menu select *WiFi setup at startup* and the option *Act as Access Point*. Now go to the *Credentials for access-point*
 menu and set the SSID and KEY as you wish.
 
-Now it's time to flash the firmware. Build and flash with the following command, replacing the address with your own:
+Now it's time to flash the firmware. Build and flash over air with the following command, replacing the address with your own:
 
 ```
 $ tb make
@@ -91,13 +98,15 @@ $ cd aideck-esp-firmware
 $ tb build
 $ cfloader flash build/aideck_esp.bin deck-bcAI:esp-fw -w [your radio uri]
 ```
+This should take 2-3 minutes to flash, but you should be able to see the progress.
+
 
 See the [repository documentation](https://github.com/bitcraze/aideck-esp-firmware/blob/main/README.md) for more details on how to build and flash.
 {% endsi_step %}
 
 
 {% si_step Flash the latest GAP8 bootloader %}
-If you do not already have a bootloader on the GAP8, clone, build and
+If you do not already have a bootloader on the GAP8, which would be the case if it is new, clone, build and
 flash the bootloader with an Olimex ARM-USB-TINY-H JTAG using the following commands:
 
 ```
@@ -106,12 +115,15 @@ $ cd aideck-gap8-bootloader
 $ docker run --rm -it -v $PWD:/module/ --device /dev/ttyUSB0 --privileged -P bitcraze/aideck /bin/bash -c 'export GAPY_OPENOCD_CABLE=interface/ftdi/olimex-arm-usb-tiny-h.cfg; source /gap_sdk/configs/ai_deck.sh; cd /module/;  make all image flash'
 ```
 
-Note: This only works on Linux, unfortunately Windows and Mac currently do not support USB access from docker containers.
+Check out the [aideck flashing documentation](/documentation/repository/aideck-gap8-examples/master/getting-started/flashing/) for more detailed instructions.
+
+Note: This only works on Linux, unfortunately Windows and Mac currently do not support USB access from docker containers. 
+
 {% endsi_step %}
 
 
 {% si_intro Setup the autotiler in docker %}
-In order to be able to use the autotiler in the GAP8 SDK (Facedetection and Mnist examples) you will
+In order to be able to use the autotiler in the GAP8 SDK (Facedetection and Classifcation examples) you will
 have to manually set it up and accept the license.
 {% endsi_intro %}
 
@@ -124,7 +136,7 @@ $ source configs/ai_deck.sh
 $ make autotiler
 ```
 
-This will install the autotiler, which requires you to register your email and get a special URL token to download and install the autotiler.
+Follow the instructions of the autotiler pull script. Press enter immediately at  `Enter URL from email: `, fill in your information, wait for the email with the URL. Once you receive the email, fill the URL at the current `Enter URL from email: `, read the licence and accept if it is all fine to you.
 
 In a second **separate** terminal on your local machine, commit the changes to a new image by running:
 ```
@@ -146,8 +158,12 @@ Remember that this needs to be done every time you pull a new image of the bitcr
 
 {% si_intro Next steps %}
 Your {% poplink ai-deck %} is now prepared and ready for either your own
-applications or to try out some of our examples. To continue the tutorial
-jump over to one of the following examples:
+applications or to try out some of our examples. To continue the tutorial, clone the 
+aideck-gap-example repository with
+```
+$ git clone https://github.com/bitcraze/aideck-gap8-examples.git
+```
+and jump over to one of the following examples:
 
 * [WiFi image streamer](/documentation/repository/aideck-gap8-examples/master/test-functions/wifi-streamer)
 * [Classification example](/documentation/repository/aideck-gap8-examples/master/ai-examples/classification-demo)
