@@ -277,36 +277,13 @@ your USB-ports and start the client. Continue reading about how to [configure th
 {% si_intro Installing on VM; inst-virtualmachine %}
 To help you get into the air as quickly as possible, the virtual machine (VM)
 has all the software you need for flight and development already installed.
-
-Unfortunately there have been some reports lately of problems using the VM with USB.
-If you experience problems when flying, consider a native solution.
+.
 {% endsi_intro %}
 
-{% si_step install VirtualBox; inst-virtualbox %}
-Before downloading the virtual machine you must have VirtualBox or some
-other virtualization application installed on your computer. VirtualBox is
-a cross-platform virtualization application that imports and runs our
-preconfigured virtual machine.
+{% si_step Setup virtual Machine; inst-virtualbox %}
 
-[Download and install Oracle VirtualBox.](https://www.virtualbox.org/)
+Check-out the readme of the [bitcraze-VM repository](https://github.com/bitcraze/bitcraze-vm) for installation and setting-up instructions and tips. 
 
-Make sure that you also install the Virtual Box expension pack for USB support.
-{% endsi_step %}
-
-{% si_step download the Bitcraze virtual machine; download-vm %}
-Once you have installed VirtualBox you can download the virtual machine of your choice
-from the [Bitcraze VM release page](https://github.com/bitcraze/bitcraze-vm/releases/).
-
-{% endsi_step %}
-
-{% si_step install the virtual machine; inst-vm %}
-After downloading the virtual machine, double click it. VirtualBox is now
-going to start, and ask you to import the virtual machine. Click import.
-{% endsi_step %}
-
-{% si_step start the virtual machine %}
-Now it&#8217;s time to start the Bitcraze virtual machine. in VirtualBox,
-highlight the Bitcraze VM and start it.
 {% endsi_step %}
 
 {% si_step update source code; update-src %}
