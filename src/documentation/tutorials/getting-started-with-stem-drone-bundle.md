@@ -51,12 +51,12 @@ Type ```pip3 install cflib``` in the command prompt
 {% img cflib install; wide; /images/tutorials/getting_started_stem/pip_cflib.png %}
 {% endtab %}
 {% tab Ubuntu %}
-The following instructions have been tested on Ubuntu 16.04.
+The following instructions have been tested on Ubuntu 22.04.
 
 To install Python, pip and the Crazyflie library run the following commands:
 
 ``` bash
-sudo apt-get install python3 python3-pip python3-usb idle3
+sudo apt-get install python3 python3-pip idle3
 pip3 install cflib
 ```
 

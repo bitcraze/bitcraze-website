@@ -16,7 +16,7 @@ have all of them before you start assembling.
 * 5 x CW propellers
 * 5 x CCW propellers
 * 6 x Motor mounts
-* 1 x LiPo battery (240mAh)
+* 1 x LiPo battery
 * 5 x Coreless DC motors
 * 2 x Short expansion connector pins (1×10, 2mm spacing, 8 mm long)
 * 2 x Long expansion connector pins (1×10, 2mm spacing, 14 mm long)

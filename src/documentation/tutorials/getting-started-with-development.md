@@ -102,7 +102,7 @@ $ make defconfig
 
 Then you can start a build by issuing the following command in the terminal window in Visual Studio Code:
 ```
-$ make PLATFORM=cf2
+$ make
 ```
 
 And, since the Crazyflie is the default platform, it is enough to type:
