@@ -6,9 +6,33 @@ redirects:
   - /jobs/
 ---
 
-## We're not hiring at the moment, but...
+## We're hiring!
 
 If you are interested in joining the Bitcraze awesomeness, this is the page for you.
+
+## Developer - hardware and product development
+
+We are currently looking for a software developer with interests in hardware and product development to join our team.
+
+We are looking for people that share our interest for techy stuff but that also adds new areas they are passionate about.
+
+As we don’t have any fixed role at Bitcraze, your job is subject to change over the week based on the areas you have expertise and passion in.
+Here are a few items that you’re susceptible to work with on a daily basis:
+* Hardware and supply chain management, making sure things are ready in time for the right price and shipped to the right place.
+* Technical support, such as answering questions (that range from basic tech support to detailed and complex issues) and helping members of the community.
+* Add to and improve the codebase of all the software we have, firmware, python libs and clients
+* Create future products (hardware and software) as well as improve current products
+
+## You as a person
+
+You should be heavily interested in hardware, software and tech in general. You are open-minded and curious about all
+aspects of running a business. Most of all, you’re a passionate person that communicates well, loves teamwork and is
+not afraid to take initiatives. We’re looking for someone who is ready to make a long term commitment, and we’re offering
+broad possibilities for someone that’s ready to take on a lot of new challenges.
+
+As a programmer, you are fluent in C or Python, and possibly some other languages as well.
+
+## About Bitcraze
 
 Important to note is that we are not like most other companies.
 We don't have any titles or fixed roles, in fact we are completely
@@ -19,23 +43,6 @@ no one in the company can tell anyone else what to do. This might sound a bit
 unusual but the truth is that we have a way of working (some might call it a
 process) that is pretty elaborate and detailed and that solves our daily
 problems, but never hinders us. After all, the reality is more important than the plan.
-
-## What are we looking for?
-Since we do not have any roles in the traditional sense, we have chosen to not
-specify any requirements for job offerings here, instead we try to describe all
-the tasks we work with on a daily basis. If you find the things we do interesting
-and feel that you could add value to the company and the community, Bitcraze might be for you.
-Remember that there are only five of us at the moment, on any given week we work
-on a multitude of different areas, and so would you.
-
-We are looking for people that share our interest for techy stuff but that also
-adds new areas they are passionate about. Our core competences right now are
-mainly in software and hardware development, while areas such as marketing, community,
-production, logistics and finance could be strengthened.
-
-We have tried to compile a list of areas we work with on a daily basis to give
-you a feel for what's going on in the company. You can find it further down on
-this page.
 
 ## Location
 We are located in Malmö, Sweden. Even though there are a lot of really good
@@ -56,6 +63,9 @@ you are.
 ---
 
 ## Areas we work with
+
+We have tried to collect an overview of all the tasks we work with at Bitcraze in this section. As an employee you will
+probably work on several of these areas from time to time, we are a small company and we are all ready to help out where needed.
 
 #### Technical support
 Answer questions and help members of the community through emails, the forum,
