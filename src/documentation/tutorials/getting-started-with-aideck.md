@@ -16,12 +16,12 @@ Make sure that you have gone through the {% id_link getting-started-crazyflie-2}
 To run this tutorial and set up the AI deck you will need the following:
 * Operating System
   * Linux 20.04 or higher
-  
+
 * Hardware
   * {% id_link product-crazyflie-2-1 %}
   * {% poplink ai-deck %}
   * {% id_link product-crazyradio-pa %}
-  * {% Optional: Programmer if you need to install the bootloader.}
+  * Optional: Programmer if you need to install the bootloader.
  
   
 * Software
