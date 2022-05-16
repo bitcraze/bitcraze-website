@@ -11,8 +11,9 @@ with the examples in our [GAP8 example repository](https://github.com/bitcraze/a
 {% endsi_intro %}
 
 {% si_step  Prerequisites %}
-To run this tutorial and set up the AI deck you will need the following:
+Make sure that you have gone through the {% id_link getting-started-crazyflie-2 %} tutorial first.
 
+To run this tutorial and set up the AI deck you will need the following:
 * Operating System
   * Linux 20.04 or higher
 
@@ -20,16 +21,14 @@ To run this tutorial and set up the AI deck you will need the following:
   * {% id_link product-crazyflie-2-1 %}
   * {% poplink ai-deck %}
   * {% id_link product-crazyradio-pa %}
-  * Olimex ARM-USB-TINY-H JTAG ( a JLINK programmer will work as well)
-  * An 20 pin to 10 pin adapter and 10 pin lint cable. 
+  * Optional: Programmer if you need to install the bootloader.
+ 
   
 * Software
+  * Latest release of the cfclient (from 2022.05)
   * [Docker](https://www.docker.com/)
       * Install the docker according to [Ubuntu instructions](https://docs.docker.com/engine/install/ubuntu/)
-      * Install docker [to use as non-root](https://docs.docker.com/engine/install/linux-postinstall/#manage-docker-as-a-non-root-user). 
-  * The latest source code of the [Crazyflie lib](https://github.com/bitcraze/crazyflie-lib-python)
-  * The latest source of the [Crazyflie client](https://github.com/bitcraze/crazyflie-clients-python)
-  * The latest version of the [Bitcraze toolbelt](/documentation/repository/toolbelt/master/)
+      
 {% endsi_step %}
 
 {% si_intro Preparing the AI deck and Crazyflie firmware %}
@@ -39,75 +38,26 @@ Crazyflie (STM32 and nRF51)
 {% endsi_intro %}
 
 
-{% si_step Get the latest AI-deck docker image %}
-The `bitcraze/aideck` docker image contains various software that is used when working with the GAP8. Get the latest
-version of the image
+{% si_step Update Crazyflie and AIdeck firmware %}
+1. Open up the cfclient on your computer, and make sure that it is version 2022.05+ ('Help'->'About')
+1. Go to 'Connect'->'bootloader'
+1. Type the address of your crazyflie, press 'Scan' and select your crazyflie's URI. Make sure to choose 'radio://...' (not 'usb://'). Now press 'Connect'
+1. In the 'Firmware Source' section, select 2022.05 from 'Available downloads'. Make sure to select the right platform (cf2 is for the crazyflie 2.x ).
+1. Press 'Program' and wait for the STM, NRF and ESP MCUs the have been reflashed. The crazyflie will restart a couple of times, and the flashing of the ESP ('bcAI:esp deck memory') takes about 3 minutes. 
+1. Once the status states 'Idle' and the Crazyflie is disconnected, double check if the flashing has succeded. In the cfclient, connect to the crazyflie and check in the console tab if you see: `ESP32: I (910) SYS: Initialized`. Also LED1 should be flashing with 2 hz. 
 
-```
-$ docker pull bitcraze/aideck
-```
+{% img Flashing; wide; /images/tutorials/getting_started_with_aideck/cfclient_flash_esp.png %}
+
 {% endsi_step %}
 
 
-{% si_step Flash the latest nRF51 firmware %}
-Build the firmware from source and flash it to the Crazyflie by using the {% id_link product-crazyradio-pa %}
+{% si_step Gap8 bootloader (for older AIdecks revisions) %}
 
-```
-$ git clone https://github.com/bitcraze/crazyflie2-nrf-firmware.git
-$ cd crazyflie2-nrf-firmware
-$ tb build
-$ cfloader flash cf2_nrf.bin nrf51-fw -w [your radio uri]
-```
+If you do not already have a bootloader on the GAP8, which would be the case if your AIdeck 1.1 has an older revision(Rev A, B and C), you will need to flash the bootloader on the GAP8 seperately. This can only be done from a native linux computer or virtual machine (not WSL) and a jtag enabled programmer (Olimex ARM-USB-TINY-H JTAG or Jlink). 
 
-See the [repository documentation](/documentation/repository/crazyflie2-nrf-firmware/master/build/build/) for more details on how to build and flash.
-{% endsi_step %}
+*You only need to do this once and then you can enjoy the benefits of overair flashing.*
 
-{% si_step Setup the WiFi via the Crazyflie firmware%}
-The WiFi on the {% poplink ai-deck %} can be set up in a number of ways,
-but to keep things simple for this tutorial we will be setting it up
-via the Crazyflie firmware as an access point, which means you will be
-connecting to the AI deck's WiFi to run the examples. Clone and configure
-the Crazyflie firmware by running the following commands:
-
-```
-$ git clone https://github.com/bitcraze/crazyflie-firmware.git
-$ cd crazyflie-firmware
-$ tb make menuconfig
-```
-
-Go to the menu *Expansion deck configuration* and make sure *Support AI deck*
-is enabled. In the *Support AI deck* sub menu select *WiFi setup at startup* and the option *Act as Access Point*. Now go to the *Credentials for access-point*
-menu and set the SSID and KEY as you wish.
-
-Now it's time to flash the firmware. Build and flash over air with the following command, replacing the address with your own:
-
-```
-$ tb make
-$ cfloader flash cf2.bin stm32-fw -w [your radio uri]
-```
-
-See the [repository documentation](/documentation/repository/crazyflie-firmware/master/building-and-flashing/build/) for more details on how to build and flash.
-{% endsi_step %}
-
-{% si_step Flash the latest ESP firmware %}
-Build the firmware from source and flash it to the AI-deck.
-
-```
-$ git clone https://github.com/bitcraze/aideck-esp-firmware.git
-$ cd aideck-esp-firmware
-$ tb build
-$ cfloader flash build/aideck_esp.bin deck-bcAI:esp-fw -w [your radio uri]
-```
-This should take 2-3 minutes to flash, but you should be able to see the progress.
-
-
-See the [repository documentation](https://github.com/bitcraze/aideck-esp-firmware/blob/main/README.md) for more details on how to build and flash.
-{% endsi_step %}
-
-
-{% si_step Flash the latest GAP8 bootloader %}
-If you do not already have a bootloader on the GAP8, which would be the case if it is new, clone, build and
-flash the bootloader with an Olimex ARM-USB-TINY-H JTAG using the following commands:
+Clone, build and flash the bootloader with an Olimex ARM-USB-TINY-H JTAG or a Jlink using the following commands:
 
 ```
 $ git clone https://github.com/bitcraze/aideck-gap8-bootloader.git
@@ -117,17 +67,56 @@ $ docker run --rm -it -v $PWD:/module/ --device /dev/ttyUSB0 --privileged -P bit
 
 Check out the [aideck flashing documentation](/documentation/repository/aideck-gap8-examples/master/getting-started/flashing/) for more detailed instructions.
 
-Note: This only works on Linux, unfortunately Windows and Mac currently do not support USB access from docker containers. 
+{% endsi_step %}
+
+{% si_step Flash Wifi Example %}
+
+1. Go to the [aideck example releases page](https://github.com/bitcraze/aideck-gap8-examples/releases) and download  `aideck_gap8_wifi_img_streamer_with_ap.bin` from the latest release. 
+2. With a crazyradio, replace [CRAZYFLIE_URI] with your crazyflie URI and type the following in your terminal:
+
+```
+cfloader flash aideck_gap8_wifi_img_streamer_with_ap.bin deck-bcAI:gap8-fw -w [CRAZYFLIE_URI]
+```
+Then you will see:
+```
+Reset to bootloader mode ...
+Could not save cache, no writable directory
+Could not save cache, no writable directory
+Skipping bcAI:esp, not in the target list
+Deck bcAI:gap8, reset to bootloader
+| 0% Writing to bcAI:gap8 deck memory
+/ 1% Writing to bcAI:gap8 deck memory
+...
+\ 99% Writing to bcAI:gap8 deck memory
+| 100% Writing to bcAI:gap8 deck memory
+```
+
+In your wifi list you should see 'WiFi streaming example'. If you do, please connect to it.
+
+Clone the [AIdeck example repository](https://github.com/bitcraze/aideck-gap8-examples) and select this WiFi and run [this script](https://github.com/bitcraze/aideck-gap8-examples/tree/master/examples/other/wifi-img-streamer).
+
+Then run:
+```
+python opencv-viewer.py
+```
+
+to see the following:
+
+{% img wide; medium; /images/tutorials/getting_started_with_aideck/viewer.png %}
+
+Note: This viewer needs opencv-python which you can install with `pip install opencv-python`. Be aware that the cfclient has a conflict with this library (see this [issue](https://github.com/bitcraze/crazyflie-clients-python/issues/611)), so please install it in a seperate environment or remember to deinstall this library if you want to use the cfclient again.
 
 {% endsi_step %}
 
 
-{% si_intro Setup the autotiler in docker %}
-In order to be able to use the autotiler in the GAP8 SDK (Facedetection and Classifcation examples) you will
+{% si_intro Setup development environment %}
+For development of the GAP8 chip, you need to have an environment with [the Gap SDK installed](https://github.com/GreenWaves-Technologies/gap_sdk). To make things easier, we have made a [Docker](https://www.docker.com/) container which should have everything (almost) everything configured.
+
+In order to pull in the GAP8 SDK docker be able to use the autotiler in the GAP8 SDK (Facedetection and Classifcation examples) you will
 have to manually set it up and accept the license.
 {% endsi_intro %}
 
-{% si_step Setting up the autotiler%}
+{% si_step Setting up docker and the autotiler%}
 
 ```
 $ docker run --rm -it --name myAiDeckContainer bitcraze/aideck
@@ -174,5 +163,6 @@ and jump over to one of the following examples:
 
 * Check out [the CPX documentation](/documentation/repository/crazyflie-firmware/master/functional-areas/cpx/) for more explanation of how to communicate with the {% poplink ai-deck %}
 * [The GAP8 repository examples](/documentation/repository/aideck-gap8-examples/master/) to read about what examples we provide and to try them out
+* [Greenwaves GAP github repository](https://github.com/GreenWaves-Technologies/gap_sdk) for the gap8 sdk and various examples.
 
 {% endsi_intro %}
