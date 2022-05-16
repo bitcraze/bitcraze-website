@@ -11,7 +11,7 @@ with the examples in our [GAP8 example repository](https://github.com/bitcraze/a
 {% endsi_intro %}
 
 {% si_step  Prerequisites %}
-Make sure that you have gone through the {% id_link getting-started-crazyflie-2} tutorial first.
+Make sure that you have gone through the {% id_link getting-started-crazyflie-2 %} tutorial first.
 
 To run this tutorial and set up the AI deck you will need the following:
 * Operating System
