@@ -44,6 +44,12 @@ Some distributors are still carrying these products, but they are no longer in p
 
 [Read more](/products/old-products/crazyflie-2-0/)
 
+### Crazyflie Bolt
+
+<a href="/products/old-products/crazyflie-bolt/"><img width="150" height="150" src="/images/crazyflie-bolt/crazyflie_bolt_585px.jpg" alt="Crazyflie Bolt"/></a>
+
+[Read more](/products/old-products/crazyflie-bolt/)
+
 ### Crazyradio
 
 <a href="/products/old-products/crazyradio/"><img width="150" height="150" src="/images/cr_800-150x150.jpg" alt="Crazyradio"/></a>
