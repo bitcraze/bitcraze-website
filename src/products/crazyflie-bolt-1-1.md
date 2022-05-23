@@ -6,7 +6,7 @@ page_id: product-crazyflie-bolt-1-1
 
 {% datasheet_product_status crazyflie_bolt_1_1%}
 
-{% buy_online https://store.bitcraze.io/products/crazyflie-bolt_1_1 %}
+{% buy_online https://store.bitcraze.io/products/crazyflie-bolt-1-1 %}
 
 {% product_img Crazyflie Bolt 1.1; narrow; /images/crazyflie-bolt_1_1/crazyflie_bolt_1_1_585px.jpg %}
 
@@ -138,4 +138,3 @@ If you are into embedded systems, the STM32F405 has a lot of processor power you
 - {% id_link support-getting-help %}
 - [Datasheet](/documentation/hardware/crazyflie_bolt_1_1/crazyflie_bolt_1_1-datasheet.pdf)
 - [Schematics](/documentation/hardware/crazyflie_bolt_1_1/crazyflie_bolt_1_1_revh.pdf)
-- [Store](https://store.bitcraze.io/products/crazyflie-bolt_1_1)
