@@ -75,7 +75,7 @@ Yes, the Crazyflie 2.0 is still supported with the same firmware and PC software
 {% si_intro Can the Crazyflie 2.X be used to control a bigger quadcopter? %}
 Yes, it can. With the [BigQuad expansion deck](/products/bigquad-deck/).
 
-You can also consider using the [Crazyflie Bolt](/products/crazyflie-bolt/) autopilot board to build an custom drone.
+You can also consider using the [Crazyflie Bolt 1.1](/products/crazyflie-bolt-1-1/) autopilot board to build an custom drone.
 {% endsi_intro %}
 
 {% si_intro Can I do FPV (first person view) flying with a Crazyflie 2.X? %}
