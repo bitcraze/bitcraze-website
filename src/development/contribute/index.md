@@ -16,7 +16,7 @@ discoveries.
 
 There are many ways to contribute, here are some examples
 
-* **Forum** Answer a question on the [forum](//forum.bitcraze.io)
+* **Discussions** Answer a question on the [Discussions](https://discussions.bitcraze.io)
 * **Github** 
   * **Issue reporting**: Add an issue to one of the [repos on github](https://github.com/bitcraze) with a
 bug report.
@@ -78,7 +78,7 @@ Maybe you want to contribute but don't know what to do? Need help
 to find the right solution? Not sure of how to write a unit test?
 We are here to help you!
 
-Post a question in the [forum](//forum.bitcraze.io), add an issue on
+Post a question in the [discussion page](//discussions.bitcraze.io), add an issue on
 [github](https://github.com/bitcraze) or drop us an email at
 contact@bitcraze.io to get help.
 You can also submit a issue with the request to one of the [repos on github](https://github.com/bitcraze) to get the communities opinion.

@@ -110,7 +110,7 @@ Check out all the features and specifications of the Crazyflie on the Product pa
 
 All our projects are open and are hosted over at GitHub. This is also the place
 where you can suggest new features, report issues and find current issues that
-needs fixing.    Apart from this we also host an [active forum](https://forum.bitcraze.io/) which is mostly used for support but can also start discussions. 
+needs fixing.    Apart from this we also host an [active discussion page](https://discussions.bitcraze.io/) which is mostly used for support but can also start discussions. 
 
 You can use the community to discuss your contributions and share your code with the community. That is what it is all about in the open-source world! 
 

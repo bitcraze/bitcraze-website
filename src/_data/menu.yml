@@ -39,7 +39,7 @@
 - title: Support
   subs:
   - {page_id: support-getting-help}
-  - {title: Forum, url: "https://forum.bitcraze.io"}
+  - {title: Discussions, url: "https://discussions.bitcraze.io"}
   - {page_id: support-downloads}
   - {page_id: support-frequently-asked-questions}
   - {page_id: support-troubleshooting}
@@ -58,7 +58,7 @@
   - {page_id: development-overview}
   - {page_id: contribute}
   - {title: GitHub, url: "https://github.com/bitcraze"}
-  - {title: Forum, url: "https://forum.bitcraze.io"}
+  - {title: discussions, url: "https://discussions.bitcraze.io"}
   - {page_id: early-access}
 
 - title: About

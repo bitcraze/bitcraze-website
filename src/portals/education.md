@@ -19,7 +19,7 @@ Help the students acquire knowledge in areas like control algorithms, embedded s
 The Crazyflie 2.X is equipped with a flexible expansion interface to where a variety of expansion decks can be attached. Since the source and hardware design is open, it is also possible to add your own sensors or interface other hardware. The expansion decks adds new functionality to the Crazyflie that extends the reach of potential interest areas and makes the Crazyflie a great tool for education where both teachers and students can rely on an evolving platform.
 
 #### Support
-In addition to providing a great platform for learning we have created several “easy to follow” tutorials to get started with both setting up the Crazyflie and starting with development. We also have an active community on our forum that always try to help out.
+In addition to providing a great platform for learning we have created several “easy to follow” tutorials to get started with both setting up the Crazyflie and starting with development. We also have an active community on our discussion page that always try to help out.
 
 #### Size
 Since the Crazyflie fits in the palm of your hand and only weighs 27g it’s ideal to fly inside the classroom and reduces the need for safety precautions.

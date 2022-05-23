@@ -94,8 +94,7 @@ Crazyflie is now ready to fly!
 
 
 {% si_intro More information %}
-The main sources of information for the Crazyflie are the documentation and the forum.
-The dpcumentation on the web is open to contribution, which is accessible with a github account. The forum
-is the first line of support and you can register online to it.
+The main sources of information for the Crazyflie are the documentation and the discussion page.
+The documentation on the web is open to contribution, which is accessible with a github account. The discussion page is also accessible with a github account.
 
 {% endsi_intro %}
