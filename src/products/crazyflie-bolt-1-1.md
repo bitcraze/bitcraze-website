@@ -2,8 +2,6 @@
 layout: page-product
 title: Crazyflie Bolt 1.1
 page_id: product-crazyflie-bolt-1-1
-redirects:
-  - /crazyflie-bolt-1-1/
 ---
 
 {% datasheet_product_status crazyflie_bolt_1_1%}
@@ -23,7 +21,7 @@ Make your ideas fly!; Your imagination sets the limits
 {% row_text %}
 
 The Crazyflie Bolt 1.1 is a Crazyflie 2.X compatible flight controller for brushless builds. It is intended to have the strengths of the
-Crazyflie 2.1, but in a slightly bit bigger package. The Crazyflie Bolt 1.1 runs the same firmware base as the Crazyflie 2.1 and includes 
+Crazyflie 2.1, but in a slightly bit bigger package. The Crazyflie Bolt 1.1 runs the same firmware base as the Crazyflie 2.1 and includes
 the same IMU. So you can start out developing using the much smaller Crazyflie 2.1 and then grow as your application grows.
 
 Differences compared to Crazyflie Bolt
