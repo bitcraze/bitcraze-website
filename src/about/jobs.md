@@ -68,7 +68,7 @@ We have tried to collect an overview of all the tasks we work with at Bitcraze i
 probably work on several of these areas from time to time, we are a small company and we are all ready to help out where needed.
 
 #### Technical support
-Answer questions and help members of the community through emails, the forum,
+Answer questions and help members of the community through emails, the discussions,
 GitHub issues, the store and other communication channels. Questions range from
 basic tech support such as how to install the client, to detailed and
 complex issues.
@@ -93,7 +93,7 @@ Making sure things are ready in time for the right price and shipped to the
 right place takes a lot of work.
 
 #### Internal and external systems
-Maintaining and developing systems such as the web, forum, build servers,
+Maintaining and developing systems such as the web, discussions, build servers,
 supply chain tracking tools and similar.
 
 #### Business development, strategy and the future

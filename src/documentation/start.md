@@ -82,6 +82,6 @@ Have you read all documentation and are still confused?
 
 {% inline_button How to get help?; /support/getting-help/ %}
 
-You can also go directly to our [forum](http://forum.bitcraze.io/)!
+You can also go directly to our [discussions](https://discussions.bitcraze.io/)!
 
 ### Happy hacking!

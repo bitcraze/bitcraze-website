@@ -11,7 +11,7 @@ One of the hallmark features of the Betaflight/Cleanflight/Baseflight ecosystem 
 ### What's Supported
 This target currently supports basic functionality required to fly - motors, accel/gyro, LEDs, and handling of the syslink/crtp protocols (though, limited to commander packets) from the NRF51.
 
-The NRF51 code was intentionally left unchanged so all existing crazyflie clients ought to continue working without modification (including Bluetooth clients). However, currently only DeviationTx and the Android mobile app have been tested. Mileage on the other clients may vary – please report findings in the forum.
+The NRF51 code was intentionally left unchanged so all existing crazyflie clients ought to continue working without modification (including Bluetooth clients). However, currently only DeviationTx and the Android mobile app have been tested. Mileage on the other clients may vary – please report findings in discussions.
 
 The target currently doesn't support the magnetometer, the barometer, or any expansion decks. It also doesn't support many of the crazyflie core features like the logging framework, the parameter framework, etc.
 

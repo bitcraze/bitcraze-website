@@ -15,15 +15,15 @@ Have a look at our Getting started guides in the menu above or the
 {% endsi_step %}
 
 {% si_step I'm still having issues %}
-We handle most of our support in our [Forum](//forum.bitcraze.io). Chances are
+We handle most of our support in our [Discussions page](//discussions.bitcraze.io). Chances are
 that if you're having issues someone else has (or will have) as well.
-Create a new topic in the correct forum and we (and the community) will do our
+Create a new topic in the correct category and we (and the community) will do our
 best to help.
 {% endsi_step %}
 
 {% si_step I have more questions %}
 Have a look at our {% id_link support-frequently-asked-questions %}. If you're still not finding what you need post
-a new topic in the [Forum](//forum.bitcraze.io)
+a new topic in the [discussions](//discussions.bitcraze.io)
 {% endsi_step %}
 
 {% si_step I want to get involved! %}
@@ -71,8 +71,8 @@ track there's a few places you can get help:
 * [Spare parts](//store.bitcraze.io/collections/spare-parts): Our shop has multiple spare parts.
 * [Expansion decks](/documentation/system/platform/cf2-expansiondecks/): Our web contains all kind of information of expansion decks, including schematics.
 * [Crazyflie 2.1](/products/crazyflie-2-1/) contains schematics of the crazyflie 2.1
-* [Forum](//forum.bitcraze.io): We handle most of our support in our forum.
+* [Discussions](//discussions.bitcraze.io): We handle most of our support in our discussions page.
 Chances are that if you're having issues someone else has (or will have) as well.
-Create a new topic in the correct forum and we (and the community) will do our
+Create a new topic in the correct category and we (and the community) will do our
 best to help!
 {% endsi_step %}

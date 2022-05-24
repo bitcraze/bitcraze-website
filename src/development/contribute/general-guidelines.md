@@ -16,7 +16,7 @@ too much of our time to be worth handling.
 
 We do appreciate your contribution and we want to help you to get it right! If you have any questions
 of how to contribute, what the best solution is to a problem might be, where to
-add the functionality and so on - just ask us. Open an issue on github, ask in the forum, or send us an email, we
+add the functionality and so on - just ask us. Open an issue on github, ask in [discussions](https://discussions.bitcraze.io), or send us an email, we
 will try to help you as much as we can. The Crazyflie is a complex system and there are many things to take
 into account, don't be afraid to ask for help!
 
@@ -102,4 +102,3 @@ live for a long time and that other people will read and modify your contributio
 
 1. Leave the code in better shape than you found it. Tidy up in the area where
 you modify or add code.
-
