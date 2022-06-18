@@ -408,6 +408,7 @@ page_id: home
       {% used_by_logo CLRobur; /images/logos/clrobur.png; http://clrobur.com/ %}
       {% used_by_logo Hamburg University of Applied Sciences; /images/logos/HAW_Hamburg_Logo.png; https://www.haw-hamburg.de %}
       {% used_by_logo Sapienza University of Rome; /images/logos/Sapienza_Roma.png; https://www.uniroma1.it/en/pagina-strutturale/home %}
+      {% used_by_logo Universidad Autónoma de Occdiente; /images/logos/UAO_ogo.png; https://www.uao.edu.co %}
 
     </div>
     <div class="row">
