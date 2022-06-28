@@ -114,7 +114,7 @@ Deck bcAI:gap8, reset to bootloader
 
 This only should take 10 seconds for the wifi example.
 
-> NOTE: If the over air flashing hangs, try to [reflash the firmware and ESP again](https://www.bitcraze.io/documentation/tutorials/getting-started-with-aideck/#update-crazyflie-and-aideck-firmware) and in case you [flashed the gap8 bootloader](https://www.bitcraze.io/documentation/tutorials/getting-started-with-aideck/#gap8-bootloader-for-older-aidecks-revisions-), also flash that again with a programmer.
+> NOTE: If the over air flashing hangs, try to [reflash the firmware and ESP again](/documentation/tutorials/getting-started-with-aideck/#update-crazyflie-and-aideck-firmware) and in case you [flashed the gap8 bootloader](/documentation/tutorials/getting-started-with-aideck/#gap8-bootloader-for-older-aidecks-revisions-), also flash that again with a programmer.
 
 In your wifi list you should see 'WiFi streaming example'. If you do, please connect to it. 
 
