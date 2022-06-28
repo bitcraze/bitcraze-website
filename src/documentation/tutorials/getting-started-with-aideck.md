@@ -40,22 +40,26 @@ Crazyflie (STM32 and nRF51)
 
 {% si_step Update Crazyflie and AIdeck firmware %}
 1. Open up the cfclient on your computer, and make sure that it is version 2022.05+ ('Help'->'About')
+1. Make sure that **only** the AI-deck is attached to the Crazyflie, with no other deck.
 1. Go to 'Connect'->'bootloader'
 1. Type the address of your crazyflie, press 'Scan' and select your crazyflie's URI. Make sure to choose 'radio://...' (not 'usb://'). Now press 'Connect'
 1. In the 'Firmware Source' section, select 2022.05 from 'Available downloads'. Make sure to select the right platform (cf2 is for the crazyflie 2.x ).
 1. Press 'Program' and wait for the STM, NRF and ESP MCUs the have been reflashed. The crazyflie will restart a couple of times, and the flashing of the ESP ('bcAI:esp deck memory') takes about 3 minutes. 
 1. Once the status states 'Idle' and the Crazyflie is disconnected, double check if the flashing has succeded. In the cfclient, connect to the crazyflie and check in the console tab if you see: `ESP32: I (910) SYS: Initialized`. Also LED1 should be flashing with 2 hz. 
 
+
 {% img Flashing; wide; /images/tutorials/getting_started_with_aideck/cfclient_flash_esp.png %}
+
+> NOTE: If you don't see  `ESP32: I (910) SYS: Initialized`, try go through the steps again.
 
 {% endsi_step %}
 
 
-{% si_step Gap8 bootloader (for older AIdecks revisions) %}
+{% si_step Gap8 bootloader (for older AIdecks revisions A-C) %}
 
 If you do not already have a bootloader on the GAP8, which would be the case if your AIdeck 1.1 has an older revision(Rev A, B and C), you will need to flash the bootloader on the GAP8 seperately. This can only be done from a native linux computer or virtual machine (not WSL) and a jtag enabled programmer (Olimex ARM-USB-TINY-H JTAG or Jlink). 
 
-*You only need to do this once and then you can enjoy the benefits of overair flashing.*
+> You only need to do this once and then you can enjoy the benefits of overair flashing.
 
 Clone, build and flash the bootloader with an Olimex ARM-USB-TINY-H JTAG or a Jlink using the following commands:
 
@@ -67,12 +71,29 @@ $ docker run --rm -it -v $PWD:/module/ --device /dev/ttyUSB0 --privileged -P bit
 
 Check out the [aideck flashing documentation](/documentation/repository/aideck-gap8-examples/master/getting-started/flashing/) for more detailed instructions.
 
+Once you see the following it means you were successfull
+```
+--------------------------
+flasher is done!
+--------------------------
+--------------------------
+Reset CONFREG to 0
+--------------------------
+GAP8 examine target
+RESET: jtag boot mode=3
+DEPRECATED! use 'adapter [de]assert' not 'jtag_reset'
+```
+
+> NOTE: if you see `Error: Burst read failed` or something similar, make sure that the 10 pin lint cable is properly attached. The programmer is not able to connect to the aideck properly.   
+
+> If flashing hangs at `Initialising GAP8 JTAG TAP`, you probably have to disconnect and reconnect the programmer and restart the Crazyflie. 
+
 {% endsi_step %}
 
 {% si_step Flash Wifi Example %}
 
 1. Go to the [aideck example releases page](https://github.com/bitcraze/aideck-gap8-examples/releases) and download  `aideck_gap8_wifi_img_streamer_with_ap.bin` from the latest release. 
-2. With a crazyradio, replace [CRAZYFLIE_URI] with your crazyflie URI and type the following in your terminal:
+2. With a crazyradio, replace [CRAZYFLIE_URI] with your crazyflie URI in the same form as `radio://0/80/2M/E7E7E7E7E7` and type the following in your terminal:
 
 ```
 cfloader flash aideck_gap8_wifi_img_streamer_with_ap.bin deck-bcAI:gap8-fw -w [CRAZYFLIE_URI]
@@ -91,7 +112,12 @@ Deck bcAI:gap8, reset to bootloader
 | 100% Writing to bcAI:gap8 deck memory
 ```
 
-In your wifi list you should see 'WiFi streaming example'. If you do, please connect to it.
+This only should take 10 seconds for the wifi example.
+
+> NOTE: If the over air flashing hangs, try to [reflash the firmware and ESP again](https://www.bitcraze.io/documentation/tutorials/getting-started-with-aideck/#update-crazyflie-and-aideck-firmware) and in case you [flashed the gap8 bootloader](https://www.bitcraze.io/documentation/tutorials/getting-started-with-aideck/#gap8-bootloader-for-older-aidecks-revisions-), also flash that again with a programmer.
+
+In your wifi list you should see 'WiFi streaming example'. If you do, please connect to it. 
+
 
 Clone the [AIdeck example repository](https://github.com/bitcraze/aideck-gap8-examples) and select this WiFi and run [this script](https://github.com/bitcraze/aideck-gap8-examples/tree/master/examples/other/wifi-img-streamer).
 
