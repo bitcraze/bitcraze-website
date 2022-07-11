@@ -86,7 +86,7 @@ Now it's time to build the source code into binary files that can be
 downloaded to the Crazyflie.
 
 For more, and more detailed, information about developing the Crazyflie firmware you can
-go to the repository documentation [here.](/documentation/repository/crazyflie-firmware/master/development/starting_development/)
+go to the repository documentation [here.](/documentation/repository/crazyflie-firmware/master/)
 {% endsi_intro %}
 
 {% si_step start the build; build %}
