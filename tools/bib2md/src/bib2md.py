@@ -72,6 +72,18 @@ class BitcrazeStyle(UnsrtStyle):
         else:
             return formatted_title
 
+    def find_eprint_identifiers(self, urls):
+        url_list = re.sub(" +", " ", urls.strip()).split(" ")
+        if url_list == [""]:
+            return [[]]
+        else:
+            return [self._get_eprint_identifier(url) for url in url_list]
+
+    def _get_eprint_identifier(self, url):
+        if "arxiv.org" in url:
+            return ["ArXiv", url]
+        return ["Eprint", url]
+
     def find_url_identifiers(self, urls):
         url_list = re.sub(" +", " ", urls.strip()).split(" ")
         if url_list == [""]:
@@ -116,15 +128,23 @@ class BitcrazeStyle(UnsrtStyle):
         ]
 
     def format_eprint(self, e):
-        return (
-            href[
-                join["https://arxiv.org/abs/", field("eprint", raw=True)],
-                join["arXiv"],
-            ]
-            if "url" not in e.fields.keys() or "arxiv" not in e.fields["url"]
-            else richtext.Text("")
-        )
+        """Format entries in the url field, supports infinite number of urls"""
+        try:  # check if there is an url entry
+            e.fields["eprint"]
+        except KeyError:
+            return richtext.Text("")
+        else:
+            link_identifier_list = self.find_eprint_identifiers(e.fields["eprint"])
 
+            return sentence(add_period=False)[
+                [
+                    href[
+                        entry[1],
+                        entry[0],
+                    ]
+                    for entry in link_identifier_list
+                ]
+            ]
 
 class ChronologicalSorting(AuthorYearTitleSortingStyle):
     def sorting_key(self, entry):
