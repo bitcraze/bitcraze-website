@@ -21,14 +21,13 @@ class UrlCheck < ::HTMLProofer::Check
   def run
     @html.css('a').each do |node|
       @link = create_element(node)
-      line = node.line
 
       if href?
         if www?
-          return add_issue("Link to www.bitcraze.io is not allowed. Use relative links instead", line: line)
+          return add_failure("Link to www.bitcraze.io is not allowed. Use relative links instead", line: @link.line)
         end
         if se?
-          return add_issue("Link to bitcraze.se is not allowed. Use bitcraze.io", line: line)
+          return add_failure("Link to bitcraze.se is not allowed. Use bitcraze.io", line: @link.line)
         end
       end
     end

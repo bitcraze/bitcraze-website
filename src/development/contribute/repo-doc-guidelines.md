@@ -11,6 +11,28 @@ The repository documentation can be used when coding, directly in you developmen
 a part of this web, on the [repositorsy page]({% id_url repository-overview %}). The publication on the web adds some extra
 requirements that are described below.
 
+## Development server
+
+To make it easier to see what the documentation will look like on the web, it is possible to run a local web server with the documentation
+you are writing. It uses [docker](https://www.docker.com/) and [the Toolbelt](https://github.com/bitcraze/toolbelt) and you must install them first.
+
+To start a server, go to a terminal window and make sure the working directory is the root of the repository you are working with. Run
+```
+tb docs
+```
+and head to a web browser and type `localhost/docs`.
+
+If you don't want to use port 80 (default), or your OS doesn't allow it (linux for instance) you can use some other port (for example 8080)
+```
+tb docs 8080
+````
+Surf to `localhost:8080/docs` in your browser.
+
+The server automatically regenerates the html when a markdown file is modified, you only have to reload the page in your web browser.
+There are some cases that are not handled though, and if you make changes to the menu for instance, you probably have to restart the server to get it all right.
+
+**Note**: the styling in the development server is not identical to the Bitcraze website but should give a rough idea of the end result.
+
 ## Markdown
 
 [Markdown](https://en.wikipedia.org/wiki/Markdown) is used for the documentation, it commonly used and easy to read.
@@ -21,13 +43,11 @@ It is possible to write HTML in the markdown, as well as use HTML styling featur
 
 ## Files
 
-All documentation goes into the `docs` directory and is organized as a tree, markdown files uses the `.md` extension.
+All documentation goes into the `docs` directory and is organized as a tree, markdown files use the `.md` extension.
 The documentation should be organized in a tree fashion where related information is grouped and with finer detail the
-further out on a branch is located. The tree may have an abitrary depth, but the menu only supports 2 levels.
+further out on a branch is located. The tree may have an arbitrary depth.
 
 Images goes into the `docs/images` directory, you can use a tree structure here if you like. See below how to link to them.
-
-There is a directory named `_data` that contains meta data for the left side menu, see the menu section below for details.
 
 ## A page
 
@@ -49,7 +69,7 @@ page_id: unique_id
 ---
 ```
 
-The `title` will be displayed in the green band at the top of the page when rendered on the web. The `page_id` must be unique within the repository and is used to configure the menu.
+The `title` will be displayed in the green band at the top of the page when rendered on the web. The `page_id` must be unique within the repository.
 
 ### Headings
 
@@ -168,32 +188,68 @@ The old files can be deleted, and if someone tries to access one of the old urls
 
 **Note:** The development server does not support redirects at the moment.
 
-## Development server
-
-To make it easier to see what the documentation will look like on the web, it is possible to run a local web server with the documentation
-you are writing. It uses [docker](https://www.docker.com/) and [the Toolbelt](https://github.com/bitcraze/toolbelt) and you must install them first.
-
-To start a server, go to a terminal window and make sure the working directory is the root of the repository you are working with. Run
-```
-tb docs
-```
-and head to a web browser and type `localhost/docs`.
-
-If you don't want to use port 80 (default), or your OS doesn't allow it (linux for instance) you can use some other port (for example 8080)
-```
-tb docs 8080
-````
-Surf to `localhost:8080/docs` in your browser.
-
-The server automatically regenerates the html when a markdown file is modified, you only have to reload the page in your web browser.
-There are some cases that are not handled though, and if you make changes to the menu for instance, you probably have to restart the server to get it all right.
-
-**Note**: the styling in the development server is not identical to the Bitcraze website but should give a rough idea of the end result.
-
 ## The menu
 
-Repository pages has a menu for navigation on the left side. The menu has two levels and is defined in `docs/_data/menu.yml`, a page has to
-be added to the menu file to become visible in the menu.
+Repository pages has a menu for navigation on the left side. The menu has three levels and is either auto generated from
+the file tree or manually defined in a file (deprecated).
+
+### Auto generated menu
+
+The menu tree is generated from the file tree, each page becomes an entry in the menu and directories adds a sub-level.
+A page with the file name index.md represents the directory it resides in.
+
+The menu display name is based on the 'title' entry in the meta data at the top of each page. For sub-menus, the
+'title' of the index.md file is used. If no index.md file exists, the directory name is used instead.
+
+The index.md in the root of the file tree (required) is used as the start page for the repo doc and is pulled in one
+level in the menu to save space.
+
+Entries are sorted in alphabetical order per level by default, but this can be overridden if needed by adding the meta data tag 'sort_order'.
+entries will first be sorted on the "sort_order' tag and secondly on the title. This makes it possible to force the
+order by setting the 'sort_order' tag, but should generally be avoided if not necessary as it makes maintenance harder.
+
+Example:
+
+The file system
+
+```
+docs/
+├── index.md
+├── topic1
+│   ├── topic1-page-1.md
+│   └── topic1-page-2.md
+└── topic2
+    ├── index.md
+    ├── topic2-page-1.md
+    ├── topic2-page-2.md
+    └── sub-topic
+       ├── index.md
+       ├── sub-topic-page-1.md
+       └── sub-topic-page-2.md
+```
+
+will generate the menu tree (assuming no `sort_order` tags are set)
+
+```
+Home
+topic1
+├── Topic 1, page 1
+├── Topic 1, page 2
+Topic 2
+├── Topic 2, page 1
+├── Topic 2, page 2
+└── Sub Topic
+    ├── Sub Topic, page 1
+    └── Sub Topic, page 2
+```
+
+Note that all menu items are named based on the `title` meta data except 'topic1' that is based on the directory name.
+
+
+### Menu definition file (deprecated)
+
+It is possible to define the menu manually by adding the file `docs/_data/menu.yml`. This option is deprecated as it
+is harder to maintain.
 
 Example:
 
@@ -206,6 +262,7 @@ Example:
 ```
 
 The pages to link to are defined by the `page_id` in the page meta data.
+If there is no page to link to, `title` can be used to create a non linked entry.
 
 It is possible to link to any page in the tree, but please keep a one-to-one mapping of the structure of the menu tree and the file tree.
 
@@ -238,7 +295,7 @@ but in the 2020.04 version of the documentation it will be modified to point at
 The reason for this functionality is to keep links in older documentation valid. A file may move or be deleted, but by pointing at the
 correct version of the repository it will still work in the future. If you link to a file in the git repo always use the master branch, the conversion to tags is done by the build server.
 
-## Gitgub compatibility
+## Github compatibility
 
 Most of the content of the repository documentation is compatible with how github renders .md files and they should look fairly OK on the web.
 Images will be viewed and links will work, while some other github functionality such as links to issues, will not.

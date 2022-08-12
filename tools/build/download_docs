@@ -6,6 +6,7 @@ dstDir="${scriptDir}/../../src/documentation/repository"
 dataDir="${scriptDir}/../../src/_data"
 tmp="${scriptDir}/../../tmp"
 downloadFile="${tmp}/download.zip"
+repoDocsRootUrl="/documentation/repository"
 
 function downloadGithubRepoDoc() {
   local name=$1
@@ -14,6 +15,7 @@ function downloadGithubRepoDoc() {
   local nameTag=${name}/${tag}
   local repoRootDir=${dstDir}/${name}
   local repoDir=${dstDir}/${nameTag}
+  local repoRootUrl=${repoDocsRootUrl}/${name}/${tag}/
   local ns="repo-${name}-${tag}"
   local unzipName=${tmp}/${name}-${tag}
 
@@ -41,7 +43,7 @@ function downloadGithubRepoDoc() {
 
       # Massage data to move it into a namespace and genereate menus
       echo "Updating docs source files"
-      ${scriptDir}/../docs/format_docs ${repoDir} ${ns} ${name} ${tag} ${repoDir}/_data/menu.yml ${dataDir}/docs_menu.yml ${dataDir}/docs_tag_list.yml ${directives}
+      ${scriptDir}/../docs/format_docs ${repoDir} ${ns} ${name} ${tag} ${repoRootUrl} ${repoDir}/_data/menu.yml ${dataDir}/docs_menu.yml ${dataDir}/docs_tag_list.yml ${directives}
   fi
 }
 
