@@ -89,8 +89,8 @@
             border-style: solid;
         }
         li {
-            padding-right: 30px;
-            margin-top: 10px;
+            padding-right: 20px;
+            margin-top: 8px;
             padding-bottom: 10px;
             list-style-type: none;
             ul {
@@ -98,6 +98,10 @@
                 border-right: 3px solid $bcGrey;
                 li {
                     padding-bottom: 0;
+                    ul {
+                        border-right: 2px solid $bcGrey;
+                        font-size: smaller;
+                    }
                 }
             }
             :hover,
@@ -108,12 +112,9 @@
                 color: black;
             }
         }
-        .active {
-            a {
-                background: $bcLighterGrey;
-                font-weight: $nav-font-weight;
-                transition: background-color 0.2s;
-            }
+        .active > a {
+            background: $bcLightGrey;
+            transition: background-color 0.2s;
         }
     }
 }
