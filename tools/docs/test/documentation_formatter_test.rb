@@ -7,6 +7,7 @@ class TestDocumentationFormatter < Minitest::Test
     @repo_name = 'the-repo'
     @tag = 'the-tag'
     @ns = 'the-namespace'
+    @repo_root_url = '/the/root/url/'
 
     @fm_default = {
       'page_id' => @page_id,
@@ -21,7 +22,7 @@ class TestDocumentationFormatter < Minitest::Test
     expected = @ns + '-' + @page_id
 
     # Test
-    actual_doc = @cut.update_doc(doc, @ns, @repo_name, @tag, true, false)
+    actual_doc = @cut.update_doc(doc, @ns, @repo_name, @tag, true, @repo_root_url, false)
 
     # Assert
     actual = YAML.load(actual_doc)
@@ -37,7 +38,7 @@ class TestDocumentationFormatter < Minitest::Test
     expected = ['/documentation/repository/' + @repo_name + '/' + @tag + '/a/page/', '/documentation/repository/' + @repo_name + '/' + @tag + '/other/page/']
 
     # Test
-    actual_doc = @cut.update_doc(doc, @ns, @repo_name, @tag, true, false)
+    actual_doc = @cut.update_doc(doc, @ns, @repo_name, @tag, true, @repo_root_url, false)
 
     # Assert
     actual = YAML.load(actual_doc)
@@ -53,7 +54,7 @@ class TestDocumentationFormatter < Minitest::Test
     expected = ['/documentation/repository/' + @repo_name + '/' + @tag + '/a/page/']
 
     # Test
-    actual_doc = @cut.update_doc(doc, @ns, @repo_name, @tag, true, false)
+    actual_doc = @cut.update_doc(doc, @ns, @repo_name, @tag, true, @repo_root_url, false)
 
     # Assert
     actual = YAML.load(actual_doc)
@@ -66,7 +67,7 @@ class TestDocumentationFormatter < Minitest::Test
     doc = generate_doc(@fm_default, '')
 
     # Test
-    actual_doc = @cut.update_doc(doc, @ns, @repo_name, @tag, true, false)
+    actual_doc = @cut.update_doc(doc, @ns, @repo_name, @tag, true, @repo_root_url, false)
 
     # Assert
     actual = YAML.load(actual_doc)
@@ -75,6 +76,7 @@ class TestDocumentationFormatter < Minitest::Test
     assert_equal(@repo_name, actual['repo_name'])
     assert_equal(@tag, actual['repo_tag'])
     assert_equal(@ns, actual['ns'])
+    assert_equal(@repo_root_url, actual['repo_root_url'])
   end
 
   def test_that_no_search_index_is_added_to_front_matter
@@ -82,7 +84,7 @@ class TestDocumentationFormatter < Minitest::Test
     doc = generate_doc(@fm_default, '')
 
     # Test
-    actual_doc = @cut.update_doc(doc, @ns, @repo_name, @tag, true, true)
+    actual_doc = @cut.update_doc(doc, @ns, @repo_name, @tag, true, @repo_root_url, true)
 
     # Assert
     actual = YAML.load(actual_doc)
@@ -96,7 +98,7 @@ class TestDocumentationFormatter < Minitest::Test
     expected = '[bla bla](/documentation/repository/' + @repo_name + '/' + @tag + '/internal/link)'
 
     # Test
-    actual = @cut.update_doc(doc, @ns, @repo_name, @tag, true, false)
+    actual = @cut.update_doc(doc, @ns, @repo_name, @tag, true, @repo_root_url, false)
 
     # Assert
     assert(actual.include? expected)
@@ -108,7 +110,7 @@ class TestDocumentationFormatter < Minitest::Test
     expected = '[bla bla](/documentation/repository/' + @repo_name + '/' + @tag + '/internal/link)'
 
     # Test
-    actual = @cut.update_doc(doc, @ns, @repo_name, @tag, true, false)
+    actual = @cut.update_doc(doc, @ns, @repo_name, @tag, true, @repo_root_url, false)
 
     # Assert
     assert(actual.include? expected)
@@ -120,7 +122,7 @@ class TestDocumentationFormatter < Minitest::Test
     expected = '[bla bla](/documentation/repository/' + @repo_name + '/' + @tag + '/internal/link.md)'
 
     # Test
-    actual = @cut.update_doc(doc, @ns, @repo_name, @tag, true, false)
+    actual = @cut.update_doc(doc, @ns, @repo_name, @tag, true, @repo_root_url, false)
 
     # Assert
     assert(actual.include? expected)
@@ -132,7 +134,7 @@ class TestDocumentationFormatter < Minitest::Test
     expected = '[bla bla](relative/link)'
 
     # Test
-    actual = @cut.update_doc(doc, @ns, @repo_name, @tag, true, false)
+    actual = @cut.update_doc(doc, @ns, @repo_name, @tag, true, @repo_root_url, false)
 
     # Assert
     assert(actual.include? expected)
@@ -144,7 +146,7 @@ class TestDocumentationFormatter < Minitest::Test
     expected = '[bla bla](relative.md)'
 
     # Test
-    actual = @cut.update_doc(doc, @ns, @repo_name, @tag, true, false)
+    actual = @cut.update_doc(doc, @ns, @repo_name, @tag, true, @repo_root_url, false)
 
     # Assert
     assert(actual.include? expected)
@@ -156,7 +158,7 @@ class TestDocumentationFormatter < Minitest::Test
     expected = '[bla bla](/some/page/)'
 
     # Test
-    actual = @cut.update_doc(doc, @ns, @repo_name, @tag, true, false)
+    actual = @cut.update_doc(doc, @ns, @repo_name, @tag, true, @repo_root_url, false)
 
     # Assert
     assert(actual.include? expected)
@@ -168,7 +170,7 @@ class TestDocumentationFormatter < Minitest::Test
     expected = '[bla bla](/some/page/)'
 
     # Test
-    actual = @cut.update_doc(doc, @ns, @repo_name, @tag, false, false)
+    actual = @cut.update_doc(doc, @ns, @repo_name, @tag, false, @repo_root_url, false)
 
     # Assert
     assert(actual.include? expected)
@@ -181,7 +183,7 @@ class TestDocumentationFormatter < Minitest::Test
     expected = url
 
     # Test
-    actual = @cut.update_doc(doc, @ns, @repo_name, @tag, true, false)
+    actual = @cut.update_doc(doc, @ns, @repo_name, @tag, true, @repo_root_url, false)
 
     # Assert
     assert(actual.include? expected)
@@ -194,7 +196,7 @@ class TestDocumentationFormatter < Minitest::Test
     expected = url
 
     # Test
-    actual = @cut.update_doc(doc, @ns, @repo_name, @tag, true, false)
+    actual = @cut.update_doc(doc, @ns, @repo_name, @tag, true, @repo_root_url, false)
 
     # Assert
     assert(actual.include? expected)
@@ -206,7 +208,7 @@ class TestDocumentationFormatter < Minitest::Test
     expected = '[bla bla](https://github.com/bitcraze/the-repo/blob/the-tag/src/modules/interface/stabilizer_types.h)'
 
     # Test
-    actual = @cut.update_doc(doc, @ns, @repo_name, @tag, true, false)
+    actual = @cut.update_doc(doc, @ns, @repo_name, @tag, true, @repo_root_url, false)
 
     # Assert
     assert(actual.include? expected)
@@ -218,7 +220,7 @@ class TestDocumentationFormatter < Minitest::Test
     expected = '[bla bla](https://github.com/bitcraze/other-repo/blob/master/src/modules/interface/stabilizer_types.h)'
 
     # Test
-    actual = @cut.update_doc(doc, @ns, @repo_name, @tag, true, false)
+    actual = @cut.update_doc(doc, @ns, @repo_name, @tag, true, @repo_root_url, false)
 
     # Assert
     assert(actual.include? expected)
@@ -230,7 +232,7 @@ class TestDocumentationFormatter < Minitest::Test
     expected = '[bla bla](https://github.com/bitcraze/the-repo/blob/other-tag/src/modules/interface/stabilizer_types.h)'
 
     # Test
-    actual = @cut.update_doc(doc, @ns, @repo_name, @tag, true, false)
+    actual = @cut.update_doc(doc, @ns, @repo_name, @tag, true, @repo_root_url, false)
 
     # Assert
     assert(actual.include? expected)

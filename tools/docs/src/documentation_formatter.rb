@@ -7,7 +7,7 @@ class DocumentationFormatter
     @docs_root = '/documentation/repository'
   end
 
-  def update_docs_content(docs_dir, ns, repo_name, tag, directives)
+  def update_docs_content(docs_dir, ns, repo_name, tag, repo_root_url, directives)
     no_search_index = false
     if directives != nil
       no_search_index = directives.split().include?('no_search_index')
@@ -18,7 +18,7 @@ class DocumentationFormatter
         begin
           has_front_matter = file.end_with?('.md')
           doc = IO.read(file)
-          result = update_doc(doc, ns, repo_name, tag, has_front_matter, no_search_index)
+          result = update_doc(doc, ns, repo_name, tag, has_front_matter, repo_root_url, no_search_index)
           IO.write(file, result)
         rescue
           puts("ERROR: Failed to update " + file)
@@ -28,9 +28,9 @@ class DocumentationFormatter
     end
   end
 
-  def update_doc(doc, ns, repo_name, tag, has_front_matter, no_search_index)
+  def update_doc(doc, ns, repo_name, tag, has_front_matter, repo_root_url, no_search_index)
     if has_front_matter
-      doc_fm = update_front_matter_data(doc, ns, repo_name, tag, no_search_index)
+      doc_fm = update_front_matter_data(doc, ns, repo_name, tag, repo_root_url, no_search_index)
       update_urls(doc_fm, repo_name, tag)
     else
       update_urls(doc, repo_name, tag)
@@ -61,13 +61,14 @@ class DocumentationFormatter
     end
   end
 
-  def update_front_matter_data(doc, ns, repo_name, tag, no_search_index)
+  def update_front_matter_data(doc, ns, repo_name, tag, repo_root_url, no_search_index)
     data = YAML.load(doc)
 
     data['page_id'] = generate_page_id(ns, data['page_id'])
     data['layout'] = 'page-repo-docs'
     data['repo_name'] = repo_name
     data['repo_tag'] = tag
+    data['repo_root_url'] = repo_root_url
     data['ns'] = ns
 
     if data.key?('redirects')
@@ -136,13 +137,16 @@ class DocumentationFormatter
   end
 
   def add_to_docs_menus(docs_menu_file, shared_docs_menus_file, ns)
-    repo_menus = YAML.load_file(docs_menu_file)
-    add_name_space_to_node_list(repo_menus, ns)
+    # Add if the repo as a menu file, otherwise menues will be generated later
+    if File.file? docs_menu_file
+      repo_menus = YAML.load_file(docs_menu_file)
+      add_name_space_to_node_list(repo_menus, ns)
 
-    shared_menus = get_shared_menus(shared_docs_menus_file)
-    shared_menus[ns] = repo_menus
+      shared_menus = get_shared_menus(shared_docs_menus_file)
+      shared_menus[ns] = repo_menus
 
-    IO.write(shared_docs_menus_file, shared_menus.to_yaml)
+      IO.write(shared_docs_menus_file, shared_menus.to_yaml)
+    end
   end
 
   def add_to_docs_tag_list(tag_list, repo, tag)
