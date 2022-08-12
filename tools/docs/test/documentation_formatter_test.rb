@@ -214,10 +214,34 @@ class TestDocumentationFormatter < Minitest::Test
     assert(actual.include? expected)
   end
 
+  def test_that_urls_to_github_files_in_main_of_the_current_repo_are_changed_to_the_tag
+    # Fixture
+    doc = generate_doc(@fm_default, '[bla bla](https://github.com/bitcraze/the-repo/blob/main/src/modules/interface/stabilizer_types.h)')
+    expected = '[bla bla](https://github.com/bitcraze/the-repo/blob/the-tag/src/modules/interface/stabilizer_types.h)'
+
+    # Test
+    actual = @cut.update_doc(doc, @ns, @repo_name, @tag, true, @repo_root_url, false)
+
+    # Assert
+    assert(actual.include? expected)
+  end
+
   def test_that_urls_to_github_files_in_master_of_another_repo_are_not_changed_to_the_tag
     # Fixture
     doc = generate_doc(@fm_default, '[bla bla](https://github.com/bitcraze/other-repo/blob/master/src/modules/interface/stabilizer_types.h)')
     expected = '[bla bla](https://github.com/bitcraze/other-repo/blob/master/src/modules/interface/stabilizer_types.h)'
+
+    # Test
+    actual = @cut.update_doc(doc, @ns, @repo_name, @tag, true, @repo_root_url, false)
+
+    # Assert
+    assert(actual.include? expected)
+  end
+
+  def test_that_urls_to_github_files_in_main_of_another_repo_are_not_changed_to_the_tag
+    # Fixture
+    doc = generate_doc(@fm_default, '[bla bla](https://github.com/bitcraze/other-repo/blob/main/src/modules/interface/stabilizer_types.h)')
+    expected = '[bla bla](https://github.com/bitcraze/other-repo/blob/main/src/modules/interface/stabilizer_types.h)'
 
     # Test
     actual = @cut.update_doc(doc, @ns, @repo_name, @tag, true, @repo_root_url, false)

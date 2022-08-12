@@ -28,12 +28,12 @@ end
 
 ignored_files = []
 
-# Find all repository docs that are not in a master branch
+# Find all repository docs that are not in a master/main branch
 Dir.each_child(repo_docs_path) do |repo_file|
   repo_path = repo_docs_path + "/" + repo_file
   if Dir.exist?(repo_path)
     Dir.each_child(repo_docs_path + "/" + repo_file) do |tag_file|
-      if tag_file != "master"
+      if tag_file != "master" && tag_file != "main"
         path = repo_path + "/" + tag_file
         ignored_files << /#{Regexp.escape(path)}\/.*/
       end
