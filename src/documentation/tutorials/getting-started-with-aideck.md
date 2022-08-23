@@ -119,10 +119,11 @@ This only should take 10 seconds for the wifi example.
 In your wifi list you should see 'WiFi streaming example'. If you do, please connect to it. 
 
 
-Clone the [AIdeck example repository](https://github.com/bitcraze/aideck-gap8-examples) and select this WiFi and run [this script](https://github.com/bitcraze/aideck-gap8-examples/tree/master/examples/other/wifi-img-streamer).
+Clone the [AIdeck example repository](https://github.com/bitcraze/aideck-gap8-examples)
 
 Then run:
 ```
+cd examples/other/wifi-img-streamer
 python opencv-viewer.py
 ```
 
