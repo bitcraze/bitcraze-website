@@ -93,22 +93,23 @@ go to the repository documentation [here.](/documentation/repository/crazyflie-f
 If there is no command line terminal at the bottom of the vscode window you can use
 the Terminal menu and select "New Terminal" to get access to a `bash` terminal window.
 
-The build system for the Crazyflie firmware is based on `make`. 
+The build system for the Crazyflie firmware is based on `make`.
 
-First you will need to create an default configuration file for the firmware:
+First navigate to the rootfolder of the crazyflie-firmware repository. Then you will need to create an default configuration file for the firmware:
 ```
-$ make defconfig
+$ make cf2_defconfig
 ```
+If you want to build firmware for a different platform, please checkout the [build instructions of the crazyflie-firmware.](/documentation/repository/crazyflie-firmware/master/building-and-flashing/build/#compiling)
 
 Then you can start a build by issuing the following command in the terminal window in Visual Studio Code:
 ```
 $ make
 ```
+Or have the build go faster by using more cpu's
+```
+$ make -j 12
+```
 
-And, since the Crazyflie is the default platform, it is enough to type:
-```
-$ make
-```
 To build the firmware. You should see something like the below on a successful build:
 ```
 $ make
