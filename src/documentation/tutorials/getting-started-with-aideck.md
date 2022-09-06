@@ -55,9 +55,9 @@ Crazyflie (STM32 and nRF51)
 {% endsi_step %}
 
 
-{% si_step Gap8 bootloader (for older AIdecks revisions A-C) %}
+{% si_step Gap8 bootloader (for the AIdeck 1.0 or AIdeck 1.1 Rev A-C) %}
 
-If you do not already have a bootloader on the GAP8, which would be the case if your AIdeck 1.1 has an older revision(Rev A, B and C), you will need to flash the bootloader on the GAP8 seperately. This can only be done from a native linux computer or virtual machine (not WSL) and a jtag enabled programmer (Olimex ARM-USB-TINY-H JTAG or Jlink). 
+If you do not already have a bootloader on the GAP8, which would be the case if you have an AIdeck 1.0 or an AIdeck 1.1 with an older revision(Rev A, B and C), you will need to flash the bootloader on the GAP8 seperately. You can check the AIdeck version and revision on the bottom of the deck. This can only be done from a native linux computer or virtual machine (not WSL) and a jtag enabled programmer (Olimex ARM-USB-TINY-H JTAG or Jlink). 
 
 > You only need to do this once and then you can enjoy the benefits of overair flashing.
 
