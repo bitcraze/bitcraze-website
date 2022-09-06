@@ -90,3 +90,8 @@ In this case the procedure to enter bootloader mode is:
 
 It should now be possible to flash the latest stable release to the Crazyflie.
 {% endsi_step %}
+
+{% si_intro Crazyflie's blue LEDs flicker when entering bootloader %}
+The first Crazyflie 2.1 batches (2018-2019) does not contain the correct USB power settings in the bootloader which will prevent the system to start if no battery is attached. See [nRF issue #35](https://github.com/bitcraze/crazyflie2-nrf-firmware/issues/35). Workaround is to plug in a battery when bootloading.
+
+{% endsi_intro %}
