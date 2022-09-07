@@ -69,8 +69,20 @@ Crazyflies. The main difference is that the time slotted scheme of TDoA 2 has be
 replaced by a randomized transmission schedule which makes it possible to add more anchors.
 By adding more anchors the system can be scaled to larger spaces or span multiple
 rooms without line of sight between all anchors. It also makes it more robust and can
-handle loss or addition of anchors dynamically. The estimated position in this mode might be slightly more noisy compared to TDoA 2.
+handle loss or addition of anchors dynamically.
 {% endrow_text %}
+{% endrow_image_text_links %}
+
+
+{% row_image_text_links Long range mode %}
+{% row_text %}
+TDoA3 can be used in a Long Range mode. The bitrate is reduced in the Long Range mode which increases the range but
+unfortunately also makes the position a bit more noisy. Both the anchors and the Crazyflie must be configured for
+the long range mode.
+{% endrow_text %}
+{% row_links %}
+* [TDoA3 Long Range mode](/documentation/repository/lps-node-firmware/master/user-guides/tdoa3_long_range/)
+{% endrow_links %}
 {% endrow_image_text_links %}
 
 
@@ -123,5 +135,6 @@ For more technical information about the Loco positioning system please visit th
 {% endrow_text %}
 {% row_links %}
 * [Loco Positioning System and node Documentation](/documentation/repository/lps-node-firmware/master/)
+* {% id_link max-range-loco %}
 {% endrow_links %}
 {% endrow_image_text_links %}
