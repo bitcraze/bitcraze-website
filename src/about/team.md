@@ -36,7 +36,7 @@ Being an all-rounder Marcus does most things from high level scripting down to l
 "%}
 
 {% include teammember.html member="Kimberly McGuire" role="Developer" img="/images/team/kimberly_mcguire_temp_400px.jpg" bio="
-For about 7 years, Kimberly has emerged herself in all things robotics. First she started out with bio-inspired robotics for her masters, to finally making tiny quadcopters fly autonomously for her PhD. That is how she discovered the Crazyflie and loved it so much that she decided to work for Bitcraze. She also has a creative side to her, as she initially started out studying industrial design engineering for her bachelors. Now she still believes that it is important to make products functional and easy to use, and try to visualize everything she is working on.
+For about 7 years, Kimberly has immersed herself in all things robotics. First she started out with bio-inspired robotics for her masters, to finally making tiny quadcopters fly autonomously for her PhD. That is how she discovered the Crazyflie and loved it so much that she decided to work for Bitcraze. She also has a creative side to her, as she initially started out studying industrial design engineering for her bachelors. Now she still believes that it is important to make products functional and easy to use, and try to visualize everything she is working on.
 
 Kimberly does not want to call herself a specialist but rather an all-rounder, with the capability to dive into problems if needed. she wants to know the entire system before trying to get the Crazyflies to work in the real world. In her spare time, she likes playing tennis, eating Japanese food, watching movies and playing video games.
 "%}
