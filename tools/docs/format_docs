@@ -12,7 +12,7 @@ repo_root_url = ARGV[4]
 docs_menu_file = ARGV[5]
 shared_docs_menus_file = ARGV[6]
 docs_tag_list_file = ARGV[7]
-directives = ARGV[7]
+directives = ARGV[8]
 
 formatter = DocumentationFormatter.new()
 
