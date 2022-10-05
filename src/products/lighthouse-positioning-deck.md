@@ -107,6 +107,7 @@ The deck boots in [bootloader mode](/documentation/repository/lighthouse-bootloa
 - [Stabilizer Module](/documentation/repository/crazyflie-firmware/master/functional-areas/sensor-to-control/)
 - [Log Variables](/documentation/repository/crazyflie-firmware/master/api/logs/#lighthouse)
 - [Parameters](/documentation/repository/crazyflie-firmware/master/api/params/#lighthouse)
+- [Dataset](/documentation/system/positioning/positioning-datasets/)
 
 {% endrow_links %}
 {% endrow_icon_text_links %}

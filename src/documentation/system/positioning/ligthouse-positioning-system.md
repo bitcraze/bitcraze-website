@@ -109,6 +109,7 @@ It will guide you from zero to having your Crazyflie autonomously flying in your
 For more in depth information, please see the documentation in the [crazyflie-firmware repository](/documentation/repository/crazyflie-firmware/master/functional-areas/lighthouse/).
 {% endrow_text%}
 {% row_links %}
-* [Lighthouse positioning documentation](/documentation/repository/crazyflie-firmware/master/functional-areas/lighthouse/).
+* [Lighthouse positioning documentation](/documentation/repository/crazyflie-firmware/master/functional-areas/lighthouse/)
+* [Dataset](/documentation/system/positioning/positioning-datasets/)
 {% endrow_links %}
 {% endrow_image_text_links %}

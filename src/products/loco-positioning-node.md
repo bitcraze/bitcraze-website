@@ -91,7 +91,8 @@ Please check out the [Loco positioning node firmware](https://github.com/bitcraz
 {% endrow_text %}
 {% row_links %}
 
-[Firmware documentation](/documentation/repository/lps-node-firmware/master/)
+- [Firmware documentation](/documentation/repository/lps-node-firmware/master/)
+- [Dataset](/documentation/system/positioning/positioning-datasets/)
 
 #### Investigations
 * {% id_link accuracy-loco %}
