@@ -9,6 +9,9 @@ redirects:
 This page contains events where Bitcraze exhibited, describing demos and similar
 information.
 
+## 2022
+* {% id_link iros-2022 %}
+
 ## 2021
 * {% id_link bam-2021 %}
 * {% id_link epfl-2021 %}
@@ -24,6 +27,3 @@ information.
 * {% id_link iros-2019 %}
 * {% id_link imav-2019 %}
 * {% id_link icra-2019 %}
-
-
-

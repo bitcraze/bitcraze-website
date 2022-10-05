@@ -17,13 +17,12 @@ page_id: home
         </div>
       </div>
 
-      <!--div class="announcements">
-        <a href="/about/events/bam2021/">
-          <img src="/images/events/bam2021/bam_white.jpg" alt="BAM days!">
-          <p>Read more >>></p>
+      <div class="announcements">
+        <a href="/about/events/iros2022/">
+          <img src="/images/events/iros2022/iros2022_logo.png" alt="IROS 2022">
+          <p>We're going to IROS, read more >>></p>
         </a>
-        {% inline_button Sign up now!; https://www.eventbrite.com/e/bam-days-tickets-169463663379 %}
-      </div-->
+      </div>
 
     </div>
     <div class="header-col-wrapper">
