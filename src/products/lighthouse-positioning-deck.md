@@ -89,9 +89,9 @@ All the Lighthouse positioning is estimated onboard of the crazyflie. Go the the
 
 It is important to have a good feel for the [stabilizer module of the crazyflie](/documentation/repository/crazyflie-firmware/master/functional-areas/sensor-to-control/), in particular state estimation with the [Extended Kalman Filter](/documentation/repository/crazyflie-firmware/master/functional-areas/sensor-to-control/state_estimators/#extended-kalman-filter)
 
-#### Hardware Hack: Using LH deck with other hardware
+#### Hardware Hack: Using a LH deck with other hardware
 
-The deck has 4 solder pad on the bottom that are designed to allow using the {% poplink lighthouse-deck %} with other hardware. The 4 pads are labeled and corresponds to the connector P3 in the deck schematic.
+The deck has 4 solder pad on the bottom that are designed to make it possible to use the {% poplink lighthouse-deck %} with other hardware. The 4 pads are labeled and corresponds to the connector P3 in the deck schematic.
 
 The pads GND and VCOM can be used to supply power to the deck. There is a 3.0V LDO regulator on the board which means that VCOM can be in the range of ~3.3V to 5.5V.
 
@@ -99,6 +99,7 @@ RX and TX are connected directly to the iCE40LP5K FPGA. The FPGA is quite sensit
 
 The deck boots in [bootloader mode](/documentation/repository/lighthouse-bootloader/master/) , the external system is responsible to update the bitstream if necessary and boot the board using the serial port.
 
+Note: there is no software support for using the {% poplink lighthouse-deck %} with other hardware.
 
 {% endrow_text %}
 {% row_links %}
