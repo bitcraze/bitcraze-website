@@ -131,7 +131,7 @@ idea is to make it possible to re-route a connection if you want to use
 two decks where the connections collide.
 
 |                           | UART1 | UART1 | I2C   | I2C   | STM32 IO | STM32 IO | STM32 IO | STM32 IO| UART2 | UART2 | SPI   | SPI   | SPI   | nRF51 IO | nRF51 IO |      |
-| Name                      | RX1   |  TX1  | SDA   | SCL   | IO1      |  IO2     | IO3      | IO4     | TX2   | RX2   | CLK   | MOSI  | MISO  | NIO1     | NIO2     | PWR  |
+| Name                      | RX1   |  TX1  | SDA   | SCL   | IO1      |  IO2     | IO3      | IO4     | TX2   | RX2   | SCK   | MOSI  | MISO  | NIO1     | NIO2     | PWR  |
 |---------------------------|-------|-------|-------|-------|----------|----------|----------|---------|-------|-------|-------|-------|-------|----------|----------|------|
 | **{% poplink led-ring-deck %}**             |       |       |       |       |          |  PWM     |  PWM     |         |       |       |       |       |       |          |          | VCOM |
 | **{% poplink qi-1-2-wireless-charging-deck %}**                  |       |       |       |       |          |          |          |         |       |       |       |       |       | GHG      |          | N/A  |
