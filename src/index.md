@@ -17,12 +17,12 @@ page_id: home
         </div>
       </div>
 
-      <div class="announcements">
+      <!-- div class="announcements">
         <a href="/about/events/iros2022/">
           <img src="/images/events/iros2022/iros2022_logo.png" alt="IROS 2022">
           <p>We're going to IROS, read more >>></p>
         </a>
-      </div>
+      </div -->
 
     </div>
     <div class="header-col-wrapper">
