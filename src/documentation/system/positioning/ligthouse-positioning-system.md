@@ -31,14 +31,15 @@ The lighthouse positioning system is using [Lighthouse base stations](https://st
 There are two generations of the base stations and both are supported: [V1](https://www.vive.com/eu/accessory/base-station/) and [V2](https://store.bitcraze.io/products/lighthouse-v2-base-station).
 
 Lighthouse V1 uses two rotating drums while Lighthouse V2 only uses one, but with two slanted light planes on the same drum. Lighthouse V1 systems
-can use up to 2 base stations while Lighthouse V2 systems is designed for up to 16. The Crazyflie currently only supports 2 base stations,
+can use up to 2 base stations while Lighthouse V2 systems is designed for up to 16. The Crazyflie-firmware currently supports up to 4 base stations by standard, and more can be enabled by manually configuring the firmware. 
+
 regardless of version.
 
 | Characteristics          | Lighthouse V1          | Lighthouse V2 | Note                                                                                      |
 |--------------------------|------------------------|---------------|-------------------------------------------------------------------------------------------|
 | Range                    | ~6m                    | 6m            | Lighthouse V1 range depends on the environment. V2 6m by design.                          |
 | Positioning rate         | 30Hz (2 base stations) | ~50Hz         | V2 rate is independent of the number of base stations                                     |
-| Num. base stations       | 1 - 2                  | 1 - 2         | V2 can support up to 16 in hardware, further development is needed to support more than 2 |
+| Num. base stations       | 1 - 2                  | 1 - 4         | V2 can support up to 16 in hardware, configurable in the Crazyflie-firmware build|
 | Horizontal angle of view | 120°                   | 150°          |                                                                                           |
 | Vertical angle of view   | 120°                   | 110°          |                                                                                           |
 

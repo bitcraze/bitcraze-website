@@ -18,7 +18,7 @@ This tutorial is also available as a [video](https://www.youtube.com/watch?v=DCE
 Make sure that you have the following available:
 * A {% id_link product-crazyflie-2-1 %}
 * A {% poplink lighthouse-deck %}
-* Two Lighthouse Bsestations. We advise to [buy version 2.0](https://store.bitcraze.io/products/lighthouse-v2-base-station) but version 1.0 is also compatible.
+* 2-4 [Lighthouse basestations V2.0](https://store.bitcraze.io/products/lighthouse-v2-base-station) (recommended) or 2 Lighthouse basestations V1.0
 * {% id_link product-crazyradio-pa %}
 {% endsi_step %}
 
@@ -89,7 +89,7 @@ V2 base stations are configured from the Crazyflie client and the channel of the
 
 3. Scan for the base station and check the **current channel**. If the base station is never used, this value is probably 0.
 
-4. Put the wanted channel (1 or 2) in **Change Channel** and click the **Set Channel** button.
+4. Put the wanted channel (1 to 4) in **Change Channel** and click the **Set Channel** button. Each basestation should have a unique ID.
 
 5. Wait until you see the '**success!**' message before disconnecting and repeating the steps for the other base station.
 
@@ -107,7 +107,7 @@ On V1 base stations you change the mode with the small button on the back of the
 After the base station's channels are correctly set, you can mount them in your flight area by a wall mount or a camera-stand. The maximum flight area for two base stations is about 4 x 4 x 2.0, but long as the Crazyflie is not further away than 6 meters from at least one base station, it should work out. Note that the lighthouse sensors are mounted on the top of the {% poplink lighthouse-deck %} and that the base stations must be above the Crazyflie to be received.
 
 Make sure that you have the following conditions in your flight area:
-* The base stations should be about at least 0.5 meters higher than the flight area of the Crazyflie due to the placement of the sensors on the {% poplink lighthouse-deck %}.
+* The base stations should be about at least 40 centimeters higher than the flight area of the Crazyflie due to the placement of the sensors on the {% poplink lighthouse-deck %}.
 * Make sure that there are no mirrors or big large reflective items in the area.
 * Make sure that you do not have direct sunlight.
 
@@ -154,11 +154,14 @@ _For the calibration data you might need to wait for 20 seconds._
 {% si_step Estimate the geometry %}
 Once you have received the calibration data, it is time to estimate where the base stations a located
 
-1. Open up the base station geometry management dialog by pressing 'Manage Geometry'.
+1. Open up the base station geometry management dialog by pressing 'Manage Geometry' 
 
-2. In the dialog, press 'Estimate Geometry'. You will see then the estimated geometry of the base stations.
+2. In the dialog, press 'Estimate Geometry' (not 'Manage geometry simple'). Please follow the wizard tutorial video for estimating the geometry.
 
 3. If the geometry makes sense, press 'Write to Crazyflie', or else move your Crazyflie and press 'Estimate Geometry' again.
+
+{% youtube BMao2pbPaaY; medium; 16by9 %}
+
 {% img base station status; medium; /images/tutorials/getting_started_with_lighthouse/5_geometry_dialog.png %}
 {% endsi_step %}
 
@@ -178,15 +181,16 @@ Click the **Flight control** tab in the Crazyflie client
 {% si_step Find the controls %}
 In the bottom right corner you will find buttons for simple command based flight.
 
-{% img Command based flight cotrols; medium; /images/tutorials/getting_started_with_lighthouse/command_flight_control.png %}
+{% img Command based flight controls; medium; /images/tutorials/getting_started_with_lighthouse/command_flight_control.png %}
 {% endsi_step %}
 {% si_step Take off and fly %}
 Click the **Take off** button to start flying and use the other controls to move around.
 {% endsi_step %}
 
-{% si_intro Userguides and theory %}
+{% si_intro Next %}
 
+* With the basestations V2.0, it is possible to fly more than 4 basestations however firmware configurations would need to be made. Please go to the [instructions to configure the Crazyflie for this](/documentation/repository/crazyflie-firmware/master/functional-areas/lighthouse/multi_base_stations/)
 * Check out [the cfclient lighthouse tab user guide](/documentation/repository/crazyflie-clients-python/master/userguides/userguide_client/lighthouse_tab/) for more explanation of each of the buttons.
-* [The system theory documentation](/documentation/repository/crazyflie-firmware/master/functional-areas/lighthouse/) presents the indepth theory of the lighthouse positioning system
+* [The system theory documentation](/documentation/repository/crazyflie-firmware/master/functional-areas/lighthouse/) presents the indepth theory of the lighthouse positioning system and more advanced guides
 
 {% endsi_intro %}
