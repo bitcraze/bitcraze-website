@@ -156,13 +156,17 @@ Once you have received the calibration data, it is time to estimate where the ba
 
 1. Open up the base station geometry management dialog by pressing 'Manage Geometry' 
 
-2. In the dialog, press 'Estimate Geometry' (not 'Manage geometry simple'). Please follow the wizard tutorial video for estimating the geometry.
+2. In the dialog, press 'Estimate Geometry' (not 'Manage geometry simple'). Please follow the wizard's instructions for estimating the geometry.
 
 3. If the geometry makes sense, press 'Write to Crazyflie', or else move your Crazyflie and press 'Estimate Geometry' again.
 
-{% youtube BMao2pbPaaY; medium; 16by9 %}
 
 {% img base station status; medium; /images/tutorials/getting_started_with_lighthouse/5_geometry_dialog.png %}
+
+Here is also a video going through the geometry estimation procedure in case you got lost or didn't get a good result:
+
+{% youtube BMao2pbPaaY; medium; 16by9 %}
+
 {% endsi_step %}
 
 {% si_step Check the positioning %}
@@ -189,7 +193,7 @@ Click the **Take off** button to start flying and use the other controls to move
 
 {% si_intro Next %}
 
-* With the basestations V2.0, it is possible to fly more than 4 basestations however firmware configurations would need to be made. Please go to the [instructions to configure the Crazyflie for this](/documentation/repository/crazyflie-firmware/master/functional-areas/lighthouse/multi_base_stations/)
+* With the basestations V2.0, it is possible to fly more than 4 basestations however changes to the Crazyflie's firmware would need to be made. Please go to the [instructions to configure the firmware](/documentation/repository/crazyflie-firmware/master/functional-areas/lighthouse/multi_base_stations/) to accept more than 4 Lighthouse basestations.
 * Check out [the cfclient lighthouse tab user guide](/documentation/repository/crazyflie-clients-python/master/userguides/userguide_client/lighthouse_tab/) for more explanation of each of the buttons.
 * [The system theory documentation](/documentation/repository/crazyflie-firmware/master/functional-areas/lighthouse/) presents the indepth theory of the lighthouse positioning system and more advanced guides
 
