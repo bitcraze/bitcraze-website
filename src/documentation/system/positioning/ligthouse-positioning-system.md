@@ -80,7 +80,7 @@ It is not intended to be used outdoor and since it is using infrared light, perf
 To use the Lighthouse positioning system, the {% poplink lighthouse-deck %}
 should be installed on all {% id_link product-crazyflie-2-1 %} that needs to be tracked.
 
-One to two Lighthouse Base Stations must be installed in the room.
+Two or more Lighthouse Base Stations must be installed in the room.
 
 For more information on how to combine the components of the Crazyflie ecosystem, please see the {% id_link buy-guide %}.
 {% endrow_text%}

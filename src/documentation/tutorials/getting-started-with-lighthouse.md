@@ -193,7 +193,7 @@ Click the **Take off** button to start flying and use the other controls to move
 
 {% si_intro Next %}
 
-* With the basestations V2.0, it is possible to fly more than 4 basestations however changes to the Crazyflie's firmware would need to be made. Please go to the [instructions to configure the firmware](/documentation/repository/crazyflie-firmware/master/functional-areas/lighthouse/multi_base_stations/) to accept more than 4 Lighthouse basestations.
+* With the base stations V2.0, it is possible to fly more than 4 base stations however changes to the Crazyflie's firmware would need to be made. Please go to the [instructions to configure the firmware](/documentation/repository/crazyflie-firmware/master/functional-areas/lighthouse/multi_base_stations/) to accept more than 4 Lighthouse base stations.
 * Check out [the cfclient lighthouse tab user guide](/documentation/repository/crazyflie-clients-python/master/userguides/userguide_client/lighthouse_tab/) for more explanation of each of the buttons.
 * [The system theory documentation](/documentation/repository/crazyflie-firmware/master/functional-areas/lighthouse/) presents the indepth theory of the lighthouse positioning system and more advanced guides
 
