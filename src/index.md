@@ -385,26 +385,26 @@ page_id: home
   <div class="row">
       {% used_by_logo NASA; /images/logos/NASA_logo.png; https://www.nasa.gov/ %}
       {% used_by_logo Microsoft; /images/logos/microsoft.png; https://www.microsoft.com/ %}
-      {% used_by_logo Chalmers University of Technology; /images/logos/chalmers.png; http://www.chalmers.se/en/ %}
+      {% used_by_logo Chalmers University of Technology; /images/logos/chalmers.png; https://www.chalmers.se/en/ %}
       {% used_by_logo LTH; /images/logos/lund.png; https://www.lth.se/english %}
-      {% used_by_logo University of Bologna; /images/logos/Seal_of_the_University_of_Bologna.png; http://www.unibo.it/en/homepage %}
-      {% used_by_logo USC; /images/logos/usc.png; http://www.usc.edu/ %}
-      {% used_by_logo MIT; /images/logos/mit.svg; http://web.mit.edu/ %}
-      {% used_by_logo AdaCore; /images/logos/adacore.png; http://www.adacore.com/ %}
+      {% used_by_logo University of Bologna; /images/logos/Seal_of_the_University_of_Bologna.png; https://www.unibo.it/en/homepage %}
+      {% used_by_logo USC; /images/logos/usc.png; https://www.usc.edu/ %}
+      {% used_by_logo MIT; /images/logos/mit.svg; https://web.mit.edu/ %}
+      {% used_by_logo AdaCore; /images/logos/adacore.png; https://www.adacore.com/ %}
       {% used_by_logo ETH Zurich; /images/logos/Eth-zurich_logo_1.png; https://www.ethz.ch/en.html %}
       {% used_by_logo Ericsson; /images/logos/ericsson_logo.png; https://www.ericsson.com/ %}
-      {% used_by_logo University of Illinois at Urbana-Champaign; images/logos/Illinois.gif; http://illinois.edu/ %}
-      {% used_by_logo Polytechnique Montreal; images/logos/polymtl.png; http://www.polymtl.ca/en %}
+      {% used_by_logo University of Illinois at Urbana-Champaign; images/logos/Illinois.gif; https://illinois.edu/ %}
+      {% used_by_logo Polytechnique Montreal; images/logos/polymtl.png; https://www.polymtl.ca/en %}
       {% used_by_logo McGill University; images/logos/mcgill.svg; https://www.mcgill.ca/ %}
       {% used_by_logo Bosch Sensortec; images/logos/bosch.png; https://www.bosch-sensortec.com/ %}
       {% used_by_logo Invensense; images/logos/invensense.png; https://www.invensense.com/ %}
-      {% used_by_logo PixArt; images/logos/pixart.png; http://www.pixart.com/ %}
-      {% used_by_logo DLR; /images/logos/DLR_Logo.png; http://www.dlr.de/ %}
-      {% used_by_logo Insper; /images/logos/insper.png; http://www.insper.edu.br/ %}
-      {% used_by_logo Hanyang University; /images/logos/hanyang.png; http://www.hanyang.ac.kr/web/eng %}
+      {% used_by_logo PixArt; images/logos/pixart.png; https://www.pixart.com/ %}
+      {% used_by_logo DLR; /images/logos/DLR_Logo.png; https://www.dlr.de/ %}
+      {% used_by_logo Insper; /images/logos/insper.png; https://www.insper.edu.br/ %}
+      {% used_by_logo Hanyang University; /images/logos/hanyang.png; https://www.hanyang.ac.kr/web/eng %}
       {% used_by_logo University of Sannio in Benevento; /images/logos/unisannio.png; https://www.unisannio.it/en %}
       {% used_by_logo Saarland University; /images/logos/saarland_university.png; https://www.uni-saarland.de/en/home.html %}
-      {% used_by_logo CLRobur; /images/logos/clrobur.png; http://clrobur.com/ %}
+      {% used_by_logo CLRobur; /images/logos/clrobur.png; https://clrobur.com/ %}
       {% used_by_logo Hamburg University of Applied Sciences; /images/logos/HAW_Hamburg_Logo.png; https://www.haw-hamburg.de %}
       {% used_by_logo Sapienza University of Rome; /images/logos/Sapienza_Roma.png; https://www.uniroma1.it/en/pagina-strutturale/home %}
       {% used_by_logo Universidad Autónoma de Occdiente; /images/logos/UAO_ogo.png; https://www.uao.edu.co %}

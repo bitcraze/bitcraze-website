@@ -4,7 +4,7 @@ title: Crazyflie Kinect system setup
 page_id: fly-with-kinect-setup
 ---
 
-**Note:  Beware that this might not work with the latest firmware or clients** 
+**Note:  Beware that this might not work with the latest firmware or clients**
 
 
 As explained in the [vision main page the Crazyflie vision system](/documentation/tutorials/fly-with-kinect/) is modular and is composed of many programs:
@@ -45,7 +45,7 @@ We will assume the Linux PC has the ip 192.0.0.1 and the Windows PC the IP 192.1
 ### Image Processing
 The image processing runs in the Windows computer.
 
-First of all you should be able to open and compile the [Kinect for windows SDK example](http://www.microsoft.com/en-us/download/details.aspx?id=44561).
+First of all you should be able to open and compile the [Kinect for windows SDK example](https://www.microsoft.com/en-us/download/details.aspx?id=44561).
 
 Then you can clone the [windows detector](https://github.com/bitcraze/kinect-detector-windows) in Visual studio.
 

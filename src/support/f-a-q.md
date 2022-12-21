@@ -51,7 +51,7 @@ As with all radio communication it depends. It depends on the environment, radio
 {% endsi_intro %}
 
 {% si_intro Can I use a normal R/C transmitter to control the Crazyflie 2.X? %}
-This can be done with the [BigQuad expansion deck](/products/bigquad-deck/). It's working, but not yet a turn-key solution. 
+This can be done with the [BigQuad expansion deck](/products/bigquad-deck/). It's working, but not yet a turn-key solution.
 
 
 {% endsi_intro %}
@@ -95,7 +95,7 @@ Outdoors the Crazyflie could use a GPS receiver to achieve autonomous flight but
 {% endsi_intro %}
 
 {% si_intro Is it possible to control a swarm of Crazyflies? %}
-Yes, it is possible to control multiple Crazyflies simultaneously. It can be done with the Loco Positioning system and our [python library](https://github.com/bitcraze/crazyflie-lib-python/blob/master/examples/swarm/swarmSequence.py) or using [ROS and the ROS driver.](http://wiki.ros.org/crazyflie) For example this video was made using the ROS driver:
+Yes, it is possible to control multiple Crazyflies simultaneously. It can be done with the Loco Positioning system and our [python library](https://github.com/bitcraze/crazyflie-lib-python/blob/master/examples/swarm/swarmSequence.py) or using [ROS and the ROS driver.](https://wiki.ros.org/crazyflie) For example this video was made using the ROS driver:
 [Crazyflie 2.0 Swarm](https://www.youtube.com/watch?v=ezTayb76x9U)
 {% endsi_intro %}
 

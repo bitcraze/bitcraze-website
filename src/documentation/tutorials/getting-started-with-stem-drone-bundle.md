@@ -39,7 +39,7 @@ For more information about how to mount an expansion deck please see the {% id_l
 {% tab Windows %}
 The backend library used to control the Crazyflie 2.X is called cflib and is written
 in python 3. To use it you must have Pyhton 3 installed on the computer and it can
-be downloaded [here](http://www.python.org).
+be downloaded [here](https://www.python.org).
 
 Install python using the standard settings, and for convenience tick the Add to PATH checkbox.
 {% img Python install; wide; /images/tutorials/getting_started_stem/python3_toPATH.png %}

@@ -119,8 +119,8 @@ Some examples:
 
 ### Diagrams
 
-[Ditaa (DIagrams Through Ascii Art)](http://ditaa.sourceforge.net) generates images from ascii art, it is convienient to use for simple diagrams or protocol
-descriptions. Read the [ditaa documentation](http://ditaa.sourceforge.net/#usage) for a description of the supported features.
+[Ditaa (DIagrams Through Ascii Art)](https://ditaa.sourceforge.net) generates images from ascii art, it is convienient to use for simple diagrams or protocol
+descriptions. Read the [ditaa documentation](https://ditaa.sourceforge.net/#usage) for a description of the supported features.
 
 The ditaa markup must be enclosed in liquid tags. The alt text is required since the diagram is rendered as an image, it is used as
 support for disabled readers, search engines and other tools. Use a text that describes what the diagram illustrates.

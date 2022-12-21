@@ -20,7 +20,7 @@ responsibility for the functionality or compatibility in any way.
 
 Alternate firmware implementations for the Crazyflie
 
-|![AdaCore](/images/icons/adacore_32.png) | | [Blog post](http://blog.adacore.com/how-to-prevent-drone-crashes-using-spark), <https://github.com/AdaCore/Certyflie> |
+|![AdaCore](/images/icons/adacore_32.png) | | [Blog post](https://blog.adacore.com/how-to-prevent-drone-crashes-using-spark), <https://github.com/AdaCore/Certyflie> |
 |![PX4](/images/icons/px4_32.png)               |                                                        | <https://dev.px4.io/en/flight_controller/crazyflie2.html>                                                             |
 |![Betaflight](/images/icons/betaflight_32.png) |         | <https://github.com/betaflight/betaflight>         |
 |![ArduPilot](/images/icons/ardupilot.png) |         | <https://discuss.ardupilot.org/t/crazyflie-goes-ardupilot/57401>         |
@@ -66,7 +66,7 @@ usually implementing functionality similar to the Bitcraze python library.
 | ![C#](/images/icons/c_sharp_32.png)                       |                                         | <https://github.com/ckarcz/CrazyflieDotNet>              |
 | ![Ruby](/images/icons/ruby_32.png) Ruby                   |                                         | <https://github.com/hsanjuan/crubyflie>                  |
 | ![Ruby](/images/icons/ruby_32.png) Ruby                   |                                         | <https://github.com/hybridgroup/artoo-crazyflie>         |
-| ![Ruby](/images/icons/ruby_32.png) Ruby                   |                                         | <http://www.rubydoc.info/gems/hybridgroup-crubyflie>     |
+| ![Ruby](/images/icons/ruby_32.png) Ruby                   |                                         | <https://www.rubydoc.info/gems/hybridgroup-crubyflie>     |
 | ![C++](/images/icons/c_plus_plus_32.png)                  |                                         | <https://github.com/fairlight1337/libcflie>              |
 | ![Haskel](/images/icons/haskell.png) Haskel               |                                         | <https://github.com/orclev/crazyflie-haskell>            |
 | ![Scala](/images/icons/scala_32.png)                      |                                         | <https://github.com/triplepoint/ScalaCrazyflie>          |

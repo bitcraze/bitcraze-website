@@ -29,7 +29,7 @@ Since the Crazyflie fits in the palm of your hand and only weighs 27g it’s ide
 ## Used in the classroom at UC Berkeley
 ------
 
-#### Mechanical engineering professor [Mark Mueller](http://muellerlab.berkeley.edu/) is using the Crazyflie 2.0 in the course ["Introduction to Control of Unmanned Aerial Vehicles"](http://muellerlab.berkeley.edu/teaching/) at UC Berkeley.
+#### Mechanical engineering professor [Mark Mueller](https://muellerlab.berkeley.edu/) is using the Crazyflie 2.0 in the course ["Introduction to Control of Unmanned Aerial Vehicles"](https://muellerlab.berkeley.edu/teaching/) at UC Berkeley.
 
 <img class="img-responsive, portal-img" src="/images/portals/education/berkeley.PNG" alt="user-story-education">
 

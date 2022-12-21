@@ -13,11 +13,11 @@ redirects:
 {% continent Americas %}
 
 {% country Canada %}
-{% distributor Diigiit; http://www.ca.diigiit.com/bitcraze; /images/distributors/diigiit_logo-300x103.png %}
+{% distributor Diigiit; https://www.ca.diigiit.com/bitcraze; /images/distributors/diigiit_logo-300x103.png %}
 
 {% country USA %}
 {% distributor Nkc_logo_only; https://www.amazon.com/s/ref=nb_sb_noss?url=me%3DA1LHQ5G6ONPXVT&field-keywords=crazyflie; /images/distributors/nkc_logo_only.png %}
-{% distributor Diigiit; http://www.us.diigiit.com/bitcraze; /images/distributors/diigiit_logo-300x103.png %}
+{% distributor Diigiit; https://www.us.diigiit.com/bitcraze; /images/distributors/diigiit_logo-300x103.png %}
 {% distributor Banana-Robotics; https://www.bananarobotics.com/shop/Bitcraze; /images/distributors/Banana-Robotics-300x51.png %}
 {% distributor Robot Shop; https://www.robotshop.com/en/catalogsearch/result/?q=crazyflie&order=stats_sales_order_count&dir=desc; /images/distributors/robotshop.png %}
 
@@ -26,7 +26,7 @@ redirects:
 
 {% country Australia %}
 {% distributor Pakronics; https://www.pakronics.com.au/search?type=product&q=crazyflie; /images/distributors/pakronics.png %}
-{% distributor Sedonia; http://www.sedoniatech.com.au/catalogsearch/result/?q=crazyflie; /images/distributors/Sedonia-Logo.gif %}
+{% distributor Sedonia; https://www.sedoniatech.com.au/catalogsearch/result/?q=crazyflie; /images/distributors/Sedonia-Logo.gif %}
 {% distributor Little Bird Electronics; https://littlebirdelectronics.com.au/?rf=kw&kw=bitcraze; /images/distributors/littlebird_electronics.png %}
 {% distributor The IoT Store; https://www.iot-store.com.au/pages/search-results-page?q=bitcraze; /images/distributors/iot_store_au.png %}
 
@@ -40,7 +40,7 @@ redirects:
 
 
 {% country South Korea %}
-{% distributor Clrobur; http://www.clrobur.com/bbs/board.php?bo_table=pro&sca=Crazyflie; /images/distributors/clrobur.png %}
+{% distributor Clrobur; https://www.clrobur.com/bbs/board.php?bo_table=pro&sca=Crazyflie; /images/distributors/clrobur.png %}
 
 {% country Taiwan %}
 {% distributor Icshop; https://www.icshop.com.tw/product_list.php?header_search=crazyflie; /images/distributors/icsshop.jpg %}

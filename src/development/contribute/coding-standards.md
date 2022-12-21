@@ -5,7 +5,7 @@ page_id: coding-standards
 ---
 ## Coding standard for C
 ### Indentation
-The [Allman style indentation](http://en.wikipedia.org/wiki/Indent_style#Allman_style) is used.
+The [Allman style indentation](https://en.wikipedia.org/wiki/Indent_style#Allman_style) is used.
 
 ### Doxygen
 #### Main principles
@@ -57,7 +57,7 @@ A group is detailed in the groups.dox file and is documented using:
 ```
 /**
  * @defgroup drivers
- * 
+ *
  * This is a brief description of the drivers group.
  *
  * This is a detailed description of what the driver
@@ -97,7 +97,7 @@ void ledTask(void *param);
  */
 uint32_t nbrOfBlinks;
 
-``` 
+```
 #### Files
 The file header should follow this template:
 ```
@@ -130,7 +130,7 @@ Functions should be documented according to the following:
  *
  * @return Description of the return (omitted if void)
  * @ingroup group
- */ 
+ */
 ```
 
 
@@ -165,13 +165,13 @@ uint32_t calls;
 ```
 
 ## Coding standard for Python
-We aim to follow [PEP-8](http://www.python.org/dev/peps/pep-0008/|PEP-8) and [PEP-257](http://www.python.org/dev/peps/pep-0257/) as much as possible.
+We aim to follow [PEP-8](https://www.python.org/dev/peps/pep-0008/|PEP-8) and [PEP-257](https://www.python.org/dev/peps/pep-0257/) as much as possible.
 
 ### Documentation
 For documentation doc strings are used.
 
 ### Static analysis
-For static code analysis [Flake8](https://pypi.python.org/pypi/flake8) and [pylint](http://www.logilab.org/857) are used. For pylint the following exceptions has been made:
+For static code analysis [Flake8](https://pypi.python.org/pypi/flake8) and [pylint](https://www.logilab.org/857) are used. For pylint the following exceptions has been made:
   * These has been added to the list of good variables
     * pk - used all over for variables that are CRTPPacket
     * cf - used all over for variables that are Crazyflie
