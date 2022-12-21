@@ -191,7 +191,7 @@ class TestDocumentationFormatter < Minitest::Test
 
   def test_that_external_urls_are_not_modified
     # Fixture
-    url = '[bla bla](http://some.external.url/path)'
+    url = '[bla bla](https://some.external.url/path)'
     doc = generate_doc(@fm_default, url)
     expected = url
 

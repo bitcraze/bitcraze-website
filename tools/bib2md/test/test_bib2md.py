@@ -34,10 +34,10 @@ class LocalizationTest(unittest.TestCase):
 
     def test_that_a_single_unknown_url_returns_correct_identifier(self):
         # fixture
-        expected = [["URL", "http://www.unknown.com"]]
+        expected = [["URL", "https://www.unknown.com"]]
 
         # test
-        actual = self.sut.find_url_identifiers("http://www.unknown.com")
+        actual = self.sut.find_url_identifiers("https://www.unknown.com")
 
         # assert
         self.assertListEqual(expected, actual)
@@ -45,14 +45,14 @@ class LocalizationTest(unittest.TestCase):
     def test_that_multiple_unknown_url_returns_correct_identifier(self):
         # fixture
         expected = [
-            ["URL", "http://www.unknown.com"],
-            ["URL", "http://www.other.com"],
-            ["URL", "http://www.yet-another.com"],
+            ["URL", "https://www.unknown.com"],
+            ["URL", "https://www.other.com"],
+            ["URL", "https://www.yet-another.com"],
         ]
 
         # test
         actual = self.sut.find_url_identifiers(
-            "http://www.unknown.com http://www.other.com http://www.yet-another.com"
+            "https://www.unknown.com https://www.other.com https://www.yet-another.com"
         )
 
         # assert
@@ -103,14 +103,14 @@ class LocalizationTest(unittest.TestCase):
     def test_that_correct_output_for_white_space_in_between_urls(self):
         # fixture
         expected = [
-            ["URL", "http://www.unknown.com"],
-            ["URL", "http://www.other.com"],
-            ["URL", "http://www.yet-another.com"],
+            ["URL", "https://www.unknown.com"],
+            ["URL", "https://www.other.com"],
+            ["URL", "https://www.yet-another.com"],
         ]
 
         # test
         actual = self.sut.find_url_identifiers(
-            "http://www.unknown.com http://www.other.com        http://www.yet-another.com"
+            "https://www.unknown.com https://www.other.com        https://www.yet-another.com"
         )
 
         # assert
