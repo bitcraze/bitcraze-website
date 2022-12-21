@@ -67,13 +67,13 @@ page_id: home
       <!-- inject wp blog img 0 begin -->
       <div class="aspect-ratio-contatiner">
         <div class="aspect-ratio-inner">
-          <a class="flexbox-centering">
+          <a class="flexbox-centering" href="#">
             <img src="images/frontpage/ant-bridge_2302146k.png" alt="-">
           </a>
         </div>
       </div>
       <h3 class="blog-title">
-        <a>Placeholder post 1</a>
+        <a href="#">Placeholder post 1</a>
       </h3>
       <!-- inject wp blog img 0 end -->
     </div>
@@ -82,13 +82,13 @@ page_id: home
       <!-- inject wp blog img 1 begin -->
       <div class="aspect-ratio-contatiner">
         <div class="aspect-ratio-inner">
-        <a class="flexbox-centering">
+        <a class="flexbox-centering" href="#">
           <img src="images/frontpage/ant-bridge-narrow.png" alt="-">
         </a>
         </div>
       </div>
       <h3 class="blog-title">
-        <a>Placeholder post 2</a>
+        <a href="#">Placeholder post 2</a>
       </h3>
       <!-- inject wp blog img 1 end -->
     </div>
@@ -97,13 +97,13 @@ page_id: home
       <!-- inject wp blog img 2 begin -->
       <div class="aspect-ratio-contatiner">
         <div class="aspect-ratio-inner">
-          <a class="flexbox-centering">
+          <a class="flexbox-centering" href="#">
             <img src="images/frontpage/ant-bridge-wide.png" alt="-">
           </a>
         </div>
       </div>
       <h3 class="blog-title">
-        <a>Placeholder post 3</a>
+        <a href="#">Placeholder post 3</a>
       </h3>
       <!-- inject wp blog img 2 end -->
     </div>
