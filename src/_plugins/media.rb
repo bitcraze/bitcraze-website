@@ -116,7 +116,7 @@ module Jekyll
       #
       # Example:
       # {% used_by_text Company %}
-      # {% used_by_text Company; http://cool.company.com %}
+      # {% used_by_text Company; https://cool.company.com %}
 
       def initialize(tag_name, text, tokens)
         super
@@ -145,7 +145,7 @@ module Jekyll
       #
       # Example:
       # {% used_by_logo Company; /images/my_logo.png %}
-      # {% used_by_logo Company; /images/my_logo.png; http://cool.company.com %}
+      # {% used_by_logo Company; /images/my_logo.png; https://cool.company.com %}
 
       def initialize(tag_name, text, tokens)
         super

@@ -7,8 +7,8 @@ class TestDistributors < Testbase
 
   def test_that_distributor_tag_is_rendered
     # Fixture
-    tag = '{% distributor Name; http://some.url; some/image.png %}'
-    expected = '<a href="http://some.url"><img class="distributor-logo" src="some/image.png" alt="Name"/></a>'
+    tag = '{% distributor Name; https://some.url; some/image.png %}'
+    expected = '<a href="https://some.url"><img class="distributor-logo" src="some/image.png" alt="Name"/></a>'
 
     # Test
     actual = Liquid::Template.parse(tag).render

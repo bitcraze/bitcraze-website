@@ -135,8 +135,8 @@ module Jekyll
     # Midle column content (markdown)
     # {% endrow_text %}
     # {% row_links %}
-    # * [Link 1](http://link.one)
-    # * [Link 2](http://link.two)
+    # * [Link 1](https://link.one)
+    # * [Link 2](https://link.two)
     # {% endrow_links %}
     # {% endrow_image_text_links %}
 
@@ -197,30 +197,30 @@ module Jekyll
     # Middle column content (markdown)
     # {% endrow_text %}
     # {% row_links %}
-    # * [Link 1](http://link.one)
-    # * [Link 2](http://link.two)
+    # * [Link 1](https://link.one)
+    # * [Link 2](https://link.two)
     # {% endrow_links %}
     # {% endrow_icon_text_links %}
 
     class RowIconTextLinks < Liquid::Block
       include Jekyll::PluginHelper
-  
+
       def initialize(tag_name, text, tokens)
         super
         @params = parse_args(text)
         @text_content = ''
         @link_content = ''
       end
-  
+
       def render(context)
         title = @params[0]
         icon = @params[1]
-  
+
         context.stack do
           context['row_image_text_links'] = self
           markup = super
-          
-          
+
+
           icon_tag =  icon ? '<i class="fa '+ icon + ' fa-5x"></i>' : ''
 
           '<section class="row content-area"><div class="col-md-12"><h3>' + title + '</h3></div>' +
@@ -230,15 +230,15 @@ module Jekyll
           '<div class="col-md-3">' + @link_content + '</div></section>'
         end
       end
-  
+
       def to_liquid()
         self
       end
-  
+
       def set_text_content(content)
         @text_content = content
       end
-  
+
       def set_link_content(content)
         @link_content = content
       end
@@ -260,8 +260,8 @@ module Jekyll
     # Midle column content (markdown)
     # {% endrow_text %}
     # {% row_links %}
-    # * [Link 1](http://link.one)
-    # * [Link 2](http://link.two)
+    # * [Link 1](https://link.one)
+    # * [Link 2](https://link.two)
     # {% endrow_links %}
     # {% endrow_video_text_links %}
 

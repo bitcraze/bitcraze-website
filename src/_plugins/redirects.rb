@@ -1,4 +1,4 @@
-# Based on http://www.marran.com/tech/creating-redirects-with-jekyll
+# Based on https://www.marran.com/tech/creating-redirects-with-jekyll
 
 module Jekyll
 

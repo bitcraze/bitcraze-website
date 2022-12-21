@@ -11,7 +11,7 @@ module Jekyll
     # - url
     #
     # Example
-    # {% inline_button go to shop; http://shop.com/product %}
+    # {% inline_button go to shop; https://shop.com/product %}
 
     def initialize(tag_name, text, tokens)
       super

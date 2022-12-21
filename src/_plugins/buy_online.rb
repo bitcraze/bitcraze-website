@@ -10,7 +10,7 @@ module Jekyll
     # - url to web shop
     #
     # Example
-    # {% buy_online http://shop.com/product %}
+    # {% buy_online https://shop.com/product %}
 
     def initialize(tag_name, text, tokens)
       super

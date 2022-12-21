@@ -10,7 +10,7 @@ module Jekyll
         # - url to newsletter
     #
     # Example
-    # {% buy_online http://shop.com/product %}
+    # {% buy_online https://shop.com/product %}
 
     def initialize(tag_name, text, tokens)
       super
@@ -30,4 +30,3 @@ module Jekyll
 end
 
 Liquid::Template.register_tag('stay_updated', Jekyll::StayUpdated)
-
