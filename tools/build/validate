@@ -1,7 +1,6 @@
 #!/usr/bin/env ruby
 
-# Verify the integrity of the generated html. Checks syntax, that links are
-# pointing at something valid and that images exists.
+# Verify the integrity of the generated html. Checks that links are pointing at something valid and that images exists.
 
 STDOUT.sync = true
 
@@ -13,14 +12,16 @@ require_relative '../validate/src/url_check'
 root_path = "./_site"
 repo_docs_path = "./_site/documentation/repository"
 
-def check_internal_links(root, ignored_files)
-  # Ignore internal links to our blog, they can not be tested in this context, hese links are on the format "/category/crazyflie/" or "/2020/05/some-title"
-  HTMLProofer.check_directory(root, options = {:check_html => true, :allow_hash_href => true, :disable_external => true, :url_ignore => [/\/category\/.*/, /\/\d+\/\d+\/.*/], :file_ignore => ignored_files, :assume_extension => true, checks: ['UrlCheck']}).run
+# Ignore internal links to our blog, they can not be tested in this context, hese links are on the format "/category/crazyflie/" or "/2020/05/some-title"
+def check_internal_links(root, options)
+  options[:disable_external] = true
+  HTMLProofer.check_directory(root, options = options).run
 end
 
-def check_external_links(root, ignored_files)
+def check_external_links(root, options)
   begin
-    HTMLProofer.check_directory(root, options = {:external_only => true, :file_ignore => ignored_files, checks: ['UrlCheck']}).run
+    options[:disable_external] = false
+    HTMLProofer.check_directory(root, options = options).run
   rescue Exception => e
     puts "\e[31mWARNING: All external references could not be validated. The reference(s) might be faulty or the external site is maybe down?\e[0m\n"
   end
@@ -28,7 +29,7 @@ end
 
 ignored_files = []
 
-# Find all repository docs that are not in a master/main branch
+# Ignore all repository docs that are not in a master/main branch
 Dir.each_child(repo_docs_path) do |repo_file|
   repo_path = repo_docs_path + "/" + repo_file
   if Dir.exist?(repo_path)
@@ -44,8 +45,20 @@ end
 puts "Ignored paths"
 puts ignored_files
 
-# puts 'Checking html and internal links...'
-check_internal_links(root_path, ignored_files)
+# Ignore internal links to our blog, they can not be tested in this context, hese links are on the format "/category/crazyflie/" or "/2020/05/some-title"
+options = {
+  allow_hash_href: true,
+  disable_external: true,
+  enforce_https: false,
+  ignore_urls: [/\/category\/.*/, /\/\d+\/\d+\/.*/],
+  ignore_files: ignored_files,
+  checks: ['UrlCheck', 'Images', 'Scripts', 'Links']
+}
 
+puts 'Checking html and internal links...'
+check_internal_links(root_path, options)
+
+# Disabled external link checks to speed up build/deploy. Broken external links do not faile the build anyway and is
+# only interesting when eamining the results manually.
 # puts 'Checking external references...'
-check_external_links(root_path, ignored_files)
+# check_external_links(root_path, options)
