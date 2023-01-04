@@ -59,6 +59,9 @@ redirects:
 {% distributor Flyingmachines; https://www.flyingmachines.de/Bitcraze_1; /images/distributors/flyingmachines.png %}
 {% distributor Génération Robots; https://www.generationrobots.com/de/147-mini-drone-crazyflie-21; /images/distributors/generation-robots.jpg %}
 
+{% country Netherlands %}
+{% distributor TinyTronics; https://www.tinytronics.nl/shop/en/platforms-and-systems/bitcraze-crazyflie; /images/distributors/tinytronics_logo.png %}
+
 {% country Italy %}
 {% distributor Robot Domestici; https://www.robot-domestici.it/joomla/component/virtuemart/?keyword=bitcraze&searchwordsugg=&page=shop.browse&view=category; /images/distributors/robot-domestici.png %}
 
