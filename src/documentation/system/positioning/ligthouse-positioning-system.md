@@ -31,9 +31,9 @@ The lighthouse positioning system is using [Lighthouse base stations](https://st
 There are two generations of the base stations and both are supported: [V1](https://www.vive.com/eu/accessory/base-station/) and [V2](https://store.bitcraze.io/products/lighthouse-v2-base-station).
 
 Lighthouse V1 uses two rotating drums while Lighthouse V2 only uses one, but with two slanted light planes on the same drum. Lighthouse V1 systems
-can use up to 2 base stations while Lighthouse V2 systems is designed for up to 16. The Crazyflie-firmware currently supports up to 4 base stations by standard, and more can be enabled by manually configuring the firmware. 
+can use up to 2 base stations while Lighthouse V2 systems is designed for up to 16. The Crazyflie-firmware currently supports up to 4 base stations by standard, and more can be enabled by manually configuring the firmware.
 
-regardless of version.
+
 
 | Characteristics          | Lighthouse V1          | Lighthouse V2 | Note                                                                                      |
 |--------------------------|------------------------|---------------|-------------------------------------------------------------------------------------------|
