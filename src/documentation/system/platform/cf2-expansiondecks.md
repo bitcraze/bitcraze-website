@@ -104,7 +104,7 @@ Deck info
 | 0xBC | 0x02 | bcQi          | {% poplink qi-1-2-wireless-charging-deck %} | 5g     | N/A                        | Under          |
 | 0xBC | 0x04 | bcBuzzer      | {% poplink buzzer-deck %}                   | 1.8g   | 10mA                       | Under/Above    |
 | 0xBC | 0x05 | bcBigQuad     | {% poplink bigquad-deck %}                  | 3.8g   | N/A                        | Under/Above    |
-| 0xBC | 0x06 | bcDWM         | {% poplink loco-positioning-deck %}         | 3.3g   | 160mA                      | Under/Above    |
+| 0xBC | 0x06 | bcLoco        | {% poplink loco-positioning-deck %}         | 3.3g   | 160mA                      | Under/Above    |
 | 0xBC | 0x08 | bcUSD         | {% poplink sd-card-deck %}                  | 1.7g   | ~30mA                      | Under/Above    |
 | 0xBC | 0x09 | bcZRanger     | {% id_link product-z-ranger-deck %}         | 1.3g   | ~15mA                      | Under          |
 | 0xBC | 0x0A | bcFlow        | {% id_link product-flow-deck %}             | 1.6g   | ~40mA                      | Under          |
