@@ -46,6 +46,7 @@ Check out the {% id_link doc-nav %} if you want to have a tree like structure of
 |![Loco Positioning System](/images/documentation/overview/lpssystem.png){:width="100px"}| [lps-node-bootloader](https://github.com/bitcraze/lps-node-bootloader) |  | This repository contains the source code for the bootloader of the {% id_link product-loco-pos-node %}. |
 |![lighthouse system](/images/documentation/overview/lighthouse.png){:width="100px"}| [lighthouse-bootloader](https://github.com/bitcraze/lighthouse-bootloader ) | [Docs](/documentation/repository/lighthouse-bootloader/master/) | This repository contains the source code for the bootloader of the {% poplink lighthouse-deck %}. |
 | | [aideck-gap8-bootloader](https://github.com/bitcraze/aideck-gap8-bootloader)|  |  The AI deck GAP8 bootloader |
+|![Crazyradio 2.0](/images/documentation/overview/crazyradiopa.png){:width="50px"} | [crazyradio2-bootloader](https://github.com/bitcraze/crazyradio2-bootloader)|  |  The Crazyradio 2.0 bootloader |
 
 ## Tooling
 
