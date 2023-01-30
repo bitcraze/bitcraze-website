@@ -55,7 +55,7 @@ TODO
 
 {% row_links %}
 - [Datasheet](/documentation/hardware/crazyradio_2_0/crazyradio_2_0-datasheet.pdf)
-- [Schematics](/documentation/hardware/crazyradio_2_0/crazyradio-2-0_rev.a.pdf)
+- [Schematics](/documentation/hardware/crazyradio-2-0/crazyradio2-reve-schematic.pdf)
 {% endrow_links %}
 
 {% endcomment %}
@@ -108,5 +108,5 @@ The source code for the Crazyradio 2.0 firmware can be found on [github](https:/
 {% comment %}
 TODO
 - [Datasheet](/documentation/hardware/crazyradio_2_0/crazyradio_2_0-datasheet.pdf)
-- [Schematics](/documentation/hardware/crazyradio_2_0/crazyradio-2-0_rev.a.pdf)
+- [Schematics](/documentation/hardware/crazyradio-2-0/crazyradio2-reve-schematic.pdf)
 {% endcomment %}
