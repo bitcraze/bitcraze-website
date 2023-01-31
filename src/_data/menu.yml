@@ -6,7 +6,7 @@
   - {page_id: product-crazyflie-bolt-1-1}
   - {page_id: product-roadrunner}
   - {page_id: product-crazyradio-pa}
-  # - {page_id: product-crazyradio-2-0}
+  - {page_id: product-crazyradio-2-0}
   - {page_id: product-debug-adapter-kit}
   - {page_id: product-battery-charger-500mA}
   - {break: true }

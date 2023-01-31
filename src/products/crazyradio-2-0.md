@@ -4,10 +4,10 @@ title: Crazyradio 2.0
 page_id: product-crazyradio-2-0
 ---
 
-{% comment %} TODO {% datasheet_product_status crazyradio_2_0 %}{% endcomment %}
+{% datasheet_product_status crazyradio_2_0 %}
 {% comment %} TODO {% buy_online https://store.bitcraze.io/products/crazyradio-2-0 %}{% endcomment %}
 
-{% product_img Crazyradio 2.0; narrow; /images/crazyradio2-0/crazyradio2-3D-render-585.png %}
+{% product_img Crazyradio 2.0; narrow; /images/crazyradio2-0/CR 2.0-dongle- 585px.jpg %}
 
 {% product_highlight fa-wifi; Wireless connectivity; Control your robots remotely %}
 
@@ -18,16 +18,16 @@ page_id: product-crazyradio-2-0
 
 **This product is under development and will soon be available!**
 
-Crazyradio 2.0 is a long range open USB radio dongle based on the nRF52840 from Nordic Semiconductor, that features a
+Crazyradio 2.0 is a long range open USB radio dongle based on the nRF52840 from Nordic Semiconductor, featuring a
 20dBm power amplifier and LNA.
 
-The Crazyradio 2.0 is not only for usage together with the Crazyflie and Crazyflie 2.X. Since
-it's an open project with firmware written from scratch and a Python API for usage it's great
+The Crazyradio 2.0 is not only for usage together with the Crazyflie family of devices, since
+it's an open project with open firmware and a Python API, it's a great
 building block for systems that require more predictable latency compared to WiFi and doesn't have the same
 requirements for bandwidth. The hardware comes with a
 bootloader that enables firmware upgrades via USB without any additional hardware needed.
 
-The Crazyradio 2.0 is compatible with Crazyflie 2.x products.
+The Crazyradio 2.0 is compatible with the Crazyflie eco system.
 
 {% endrow_text %}
 {% row_links %}
@@ -40,25 +40,18 @@ The Crazyradio 2.0 is compatible with Crazyflie 2.x products.
 {% row_icon_text_links Specifications; fa-list %}
 {% row_text %}
 Specifications will be available here soon
-{% comment %} TODO enable
+
 {% datasheet_section crazyradio_2_0; Features %}
 {% datasheet_section crazyradio_2_0; Mechanical specifications %}
 {% datasheet_section crazyradio_2_0; Electrical specification %}
 {% datasheet_section crazyradio_2_0; Radio specification %}
-{% endcomment %}
 
 {% endrow_text %}
 
-
-{% comment %}
-TODO
-
 {% row_links %}
 - [Datasheet](/documentation/hardware/crazyradio_2_0/crazyradio_2_0-datasheet.pdf)
-- [Schematics](/documentation/hardware/crazyradio-2-0/crazyradio2-reve-schematic.pdf)
+- [Schematics](/documentation/hardware/crazyradio_2_0/crazyradio2-reve-schematic.pdf)
 {% endrow_links %}
-
-{% endcomment %}
 
 {% endrow_icon_text_links %}
 {% endtab %}
@@ -105,8 +98,5 @@ The source code for the Crazyradio 2.0 firmware can be found on [github](https:/
 - [Development](/documentation/repository/crazyradio2-firmware/main/)
 - {% id_link support-frequently-asked-questions %}
 - {% id_link support-getting-help %}
-{% comment %}
-TODO
 - [Datasheet](/documentation/hardware/crazyradio_2_0/crazyradio_2_0-datasheet.pdf)
-- [Schematics](/documentation/hardware/crazyradio-2-0/crazyradio2-reve-schematic.pdf)
-{% endcomment %}
+- [Schematics](/documentation/hardware/crazyradio_2_0/crazyradio2-reve-schematic.pdf)
