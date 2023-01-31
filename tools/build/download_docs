@@ -117,6 +117,8 @@ downloadGithubRepoDoc "lps-node-firmware" "2019.09" "no_search_index"
 
 downloadGithubRepoDoc "crazyradio-firmware" "master"
 
+downloadGithubRepoDoc "crazyradio2-firmware" "main"
+
 downloadGithubRepoDoc "lighthouse-bootloader" "master"
 
 downloadGithubRepoDoc "aideck-gap8-examples" "master"

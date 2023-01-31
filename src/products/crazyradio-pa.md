@@ -78,7 +78,6 @@ From there, you are able to install the [CFclient](/documentation/repository/cra
 
 {% endrow_links %}
 {% endrow_icon_text_links %}
-
 {% endtab %}
 
 {% tab Development %}
@@ -86,13 +85,13 @@ From there, you are able to install the [CFclient](/documentation/repository/cra
 
 {% row_text %}
 
-The source code for the Crazyradio PA firmware can be found on [github](/documentation/repository/crazyradio-firmware/master/)
+The source code for the Crazyradio PA firmware can be found on [github](https://github.com/bitcraze/crazyradio-firmware)
 
 {% endrow_text %}
 {% row_links %}
-[Source code](/documentation/repository/crazyradio-firmware/master/)
+- [Source code](https://github.com/bitcraze/crazyradio-firmware)
+- [Documentation](/documentation/repository/crazyradio-firmware/master/)
 {% endrow_links %}
-
 {% endrow_icon_text_links %}
 {% endtab %}
 
