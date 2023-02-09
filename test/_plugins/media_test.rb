@@ -153,7 +153,7 @@ class TestMedia < Testbase
                   <div class="row">
                     <div class="col-md-6">
                       <div>
-                        <h3>Some header</h3>
+                        <h3 id="some-header">Some header</h3>
                       </div>
                       <div class="embed-responsive embed-responsive-16by9">
                         <div class="embed-responsive-item video-item-delayed-load" data-video-id="id" style="background:url(https://i1.ytimg.com/vi/id/0.jpg);" onclick="kraken.loadYoutubeVideo(this)">
@@ -179,7 +179,7 @@ class TestMedia < Testbase
                   <div class="row">
                     <div class="col-md-6">
                       <div>
-                        <h3>Some header</h3>
+                        <h3 id="some-header">Some header</h3>
                       </div>
                       <div class="embed-responsive embed-responsive-16by9">
                         <div class="embed-responsive-item video-item-delayed-load" data-video-id="id1" style="background:url(https://i1.ytimg.com/vi/id1/0.jpg);" onclick="kraken.loadYoutubeVideo(this)">
@@ -189,7 +189,7 @@ class TestMedia < Testbase
                     </div>
                     <div class="col-md-6">
                       <div>
-                        <h3>Other header</h3>
+                        <h3 id="other-header">Other header</h3>
                       </div>
                       <div class="embed-responsive embed-responsive-16by9">
                         <div class="embed-responsive-item video-item-delayed-load" data-video-id="id2" style="background:url(https://i1.ytimg.com/vi/id2/0.jpg);" onclick="kraken.loadYoutubeVideo(this)">
@@ -201,7 +201,7 @@ class TestMedia < Testbase
                   <div class="row">
                     <div class="col-md-6">
                       <div>
-                        <h3>Some header</h3>
+                        <h3 id="some-header">Some header</h3>
                       </div>
                       <div class="embed-responsive embed-responsive-16by9">
                         <div class="embed-responsive-item video-item-delayed-load" data-video-id="id3" style="background:url(https://i1.ytimg.com/vi/id3/0.jpg);" onclick="kraken.loadYoutubeVideo(this)">
@@ -211,7 +211,7 @@ class TestMedia < Testbase
                     </div>
                     <div class="col-md-6">
                       <div>
-                        <h3>Some header</h3>
+                        <h3 id="some-header">Some header</h3>
                       </div>
                       <div class="embed-responsive embed-responsive-16by9">
                         <div class="embed-responsive-item video-item-delayed-load" data-video-id="id4" style="background:url(https://i1.ytimg.com/vi/id4/0.jpg);" onclick="kraken.loadYoutubeVideo(this)">

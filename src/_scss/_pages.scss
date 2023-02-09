@@ -215,8 +215,7 @@ table {
     display: block;
 }
 
-
-// Step instruction
+// Anchor links
 .anchor-link {
     font-size: 0.7rem;
     padding-left: 1rem;
@@ -224,6 +223,18 @@ table {
     visibility: hidden;
     color: $bcLightGrey;
 }
+h3:hover {
+    .anchor-link {
+        visibility: visible;
+    }
+}
+h2:hover {
+    .anchor-link {
+        visibility: visible;
+    }
+}
+
+// Step instruction
 .step-instruction-intro {
     p {
         font-weight: 400;
@@ -234,11 +245,6 @@ table {
         font-weight: 500;
     }
 
-    h2:hover {
-      .anchor-link {
-        visibility: visible;
-      }
-    }
 }
 .step-instruction-info-step {
     margin-bottom: 50px;
@@ -251,12 +257,6 @@ table {
         font-size: 150%;
         border-width: 0 0 1px 0;
         border-style: solid;
-    }
-
-    h3:hover {
-      .anchor-link {
-        visibility: visible;
-      }
     }
 }
 

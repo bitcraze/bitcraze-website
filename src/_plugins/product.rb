@@ -97,7 +97,8 @@ module Jekyll
       end
 
       def render(context)
-          '<h2><i class="fa %1$s bc-fa-fw"></i>%2$s</h2><div class="pp-catch-phrase">%3$s</div>' % @params
+        full_id = generate_id(@params[1])
+        '<h2 id="%4$s"><i class="fa %1$s bc-fa-fw"></i>%2$s</h2><div class="pp-catch-phrase">%3$s</div>' % [@params[0], @params[1], @params[2], full_id]
       end
     end
   end

@@ -42,7 +42,7 @@ module Jekyll
         raise 'Id "' + full_id + '" is already used!' if plugin_data.has_key?(full_id)
         plugin_data[full_id] = true
 
-        '<div class="step-instruction-intro"><h2 id="%1$s">%2$s<a class ="anchor-link" href="#%1$s"><i class="fa fa-link"></i></a></h2>%3$s</div>' % [full_id, @params[0], markup]
+        '<div class="step-instruction-intro"><h2 id="%1$s">%2$s</h2>%3$s</div>' % [full_id, @params[0], markup]
       end
 
       # Allow for empty body. Liquid will not output the rendered result otherwise
@@ -88,7 +88,7 @@ module Jekyll
         raise 'Id "' + full_id + '" is already used!' if plugin_data.has_key?(full_id)
         plugin_data[full_id] = true
 
-        '<div class="step-instruction-info-step"><h3 id="%1$s">%2$s<a class ="anchor-link" href="#%1$s"><i class="fa fa-link"></i></a></h3>%3$s</div>' % [full_id, @params[0], markup]
+        '<div class="step-instruction-info-step"><h3 id="%1$s">%2$s</h3>%3$s</div>' % [full_id, @params[0], markup]
       end
     end
 
