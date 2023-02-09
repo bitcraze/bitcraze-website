@@ -69,7 +69,7 @@ class TestRowCols < Testbase
     tag = '{% row_image_text_links The title;the/image.jpg%}md1{% row_text %}md1{% endrow_text %}{% row_links %}md2{% endrow_links %}{% endrow_image_text_links %}'
     expected = '
     <section class="row content-area">
-        <div class="col-md-12"><h3>The title</h3></div>
+        <div class="col-md-12"><h3 id="the-title">The title</h3></div>
     </section>
     <section class="row content-area">
         <div class="col-md-3 doc-section-image"><img src="the/image.jpg" alt="The title"></div>
@@ -90,7 +90,7 @@ class TestRowCols < Testbase
     tag = '{% row_image_text_links The title%}md1{% row_text %}md1{% endrow_text %}{% row_links %}md2{% endrow_links %}{% endrow_image_text_links %}'
     expected = '
     <section class="row content-area">
-        <div class="col-md-12"><h3>The title</h3></div>
+        <div class="col-md-12"><h3 id="the-title">The title</h3></div>
     </section>
     <section class="row content-area">
         <div class="col-md-3 doc-section-image"></div>
@@ -111,7 +111,7 @@ class TestRowCols < Testbase
     tag = '{% row_image_text_links The title%}md1{% row_text %}md1{% endrow_text %}{% endrow_image_text_links %}'
     expected = '
     <section class="row content-area">
-        <div class="col-md-12"><h3>The title</h3></div>
+        <div class="col-md-12"><h3 id="the-title">The title</h3></div>
     </section>
     <section class="row content-area">
         <div class="col-md-3 doc-section-image"></div>
@@ -132,7 +132,7 @@ class TestRowCols < Testbase
     tag = '{% row_video_text_links The title;the/video.mp4%}md1{% row_text %}md1{% endrow_text %}{% row_links %}md2{% endrow_links %}{% endrow_video_text_links %}'
     expected = '
     <section class="row content-area">
-        <div class="col-md-12"><h3>The title</h3></div>
+        <div class="col-md-12"><h3 id="the-title">The title</h3></div>
     </section>
     <section class="row content-area">
         <div class="col-md-3 doc-section-image video-no-controls">
@@ -158,7 +158,7 @@ class TestRowCols < Testbase
     tag = '{% row_icon_text_links The title;fa-icon%}md1{% row_text %}md1{% endrow_text %}{% row_links %}md2{% endrow_links %}{% endrow_icon_text_links %}'
     expected = '
     <section class="row content-area">
-        <div class="col-md-12"><h3>The title</h3></div>
+        <div class="col-md-12"><h3 id="the-title">The title</h3></div>
     </section>
     <section class="row content-area">
         <div class="col-md-2">

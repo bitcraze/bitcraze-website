@@ -78,7 +78,7 @@ class TestProduct < Testbase
     %}'
 
     expected = '
-    <h2><i class="fa fa-icon bc-fa-fw"></i>Some title text</h2>
+    <h2 id="some-title-text"><i class="fa fa-icon bc-fa-fw"></i>Some title text</h2>
     <div class="pp-catch-phrase">Some descriptive text</div>
     '
 

@@ -68,6 +68,31 @@ var kraken = {
     }
   },
 
+  addLinksToTags: function(tag_type) {
+    let elements = document.getElementsByTagName(tag_type);
+    for (let element of elements) {
+      if (element.hasAttribute("id")) {
+        let id = element.id;
+
+        let iElem = document.createElement('i');
+        iElem.classList.add('fa');
+        iElem.classList.add('fa-link');
+
+        let aElem = document.createElement('a');
+        aElem.classList.add('anchor-link');
+        aElem.href = '#' + id;
+
+        element.appendChild(aElem).appendChild(iElem);
+      }
+    }
+  },
+
+  addLinksToHeaders: function() {
+    kraken.addLinksToTags('h1');
+    kraken.addLinksToTags('h2');
+    kraken.addLinksToTags('h3');
+  },
+
   poplinkShowPopup: function(id, popupKey) {
     var container = document.getElementById("poplinkcontainer");
     if (container == null) {
@@ -131,3 +156,4 @@ var kraken = {
 
 window.addEventListener('click', kraken.poplinkCloseClickListener);
 window.addEventListener('keydown', kraken.poplinkCloseKeyListener);
+document.addEventListener("DOMContentLoaded", kraken.addLinksToHeaders);

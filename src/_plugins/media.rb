@@ -258,7 +258,8 @@ module Jekyll
       def render(context)
         header = ''
         if @params.length >= 3
-          header = '<div><h3>%3$s</h3></div>' % @params
+          full_id = generate_id(@params[2])
+          header = '<div><h3 id="%1$s">%2$s</h3></div>' % [full_id, @params[2]]
         end
 
         html = '<div class="col-md-6">%1$s<div class="embed-responsive embed-responsive-%3$s"><div class="embed-responsive-item video-item-delayed-load" data-video-id="%2$s" style="background:url(https://i1.ytimg.com/vi/%2$s/0.jpg);" onclick="kraken.loadYoutubeVideo(this)"><i class="fa fa-play-circle fa-3x"></i></div></div></div>' % ([header] + @params)
