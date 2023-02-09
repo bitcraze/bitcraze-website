@@ -259,15 +259,16 @@ page_id: home
     </div>
 
     <div class="col-md-4 background-wrapper testimonial-item video-style">
-      <a href="https://www.bitcraze.io/2017/11/modquad-self-assemble-flying-structures/">
+      <a href="https://www.bitcraze.io/2022/07/h-modquad-modularity-for-versatility/>
 
-        <video autobuffer controls autoplay muted loop>
+        <!--video autobuffer controls autoplay muted loop>
           <source src="/videos/modVideo.mp4" type="video/mp4">
-        </video>
+        </video-->
+        <img src="images/testimonials/H-modquad.png" alt="Lehigh University">
 
-        <article>“The ModQuad is propelled by a quadrotor platform. We use the Crazyflie 2.0. The vehicle was chosen because of its agility and scalability. The low-cost and total payload gives us an acceptable scenario for a large number of modules.”
+        <article>“In our lab, we love to work with the Crazyflie ecosystem because its open-source platform allows us to write new flight controllers. We have used them to develop modular vehicles, blimps, catenary robots, and jumping robots.”
         </article>
-        <h4>-David Saldaña, researcher at UPenn University</h4>
+        <h4>-David Saldaña, Assistant Professor at Lehigh University</h4>
       </a>
     </div>
 
