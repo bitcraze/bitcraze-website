@@ -258,13 +258,13 @@ page_id: home
       </a>
     </div>
 
-    <div class="col-md-4 background-wrapper testimonial-item video-style">
-      <a href="https://www.bitcraze.io/2022/07/h-modquad-modularity-for-versatility/>
+    <div class="col-md-4 background-wrapper testimonial-item">
+      <a href="https://www.bitcraze.io/2022/07/h-modquad-modularity-for-versatility/><img src="images/testimonials/H-modquad.png" alt="Lehigh University">
 
         <!--video autobuffer controls autoplay muted loop>
           <source src="/videos/modVideo.mp4" type="video/mp4">
         </video-->
-        <img src="images/testimonials/H-modquad.png" alt="Lehigh University">
+       
 
         <article>“In our lab, we love to work with the Crazyflie ecosystem because its open-source platform allows us to write new flight controllers. We have used them to develop modular vehicles, blimps, catenary robots, and jumping robots.”
         </article>
@@ -276,7 +276,7 @@ page_id: home
       <a href="https://www.bitcraze.io/2016/08/crazyswarm/"><img src="images/testimonials/usc.jpg" alt="University of Southern California">
         <article>“The Crazyflie is a great platform for research because of its openness and extensibility; additionally, the size allows us to test algorithms on a swarm of robots even in space-limited indoor environments.”
         </article>
-        <h4>-Wolfgang Hoenig, researcher at University of Southern California</h4>
+        <h4>-Wolfgang Hoenig, researcher at TU Berlin</h4>
       </a>
     </div>
   </div>
