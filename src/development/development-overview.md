@@ -84,7 +84,7 @@ Example:
 /**
  * @brief Deprecated (removed after August 2023). Use the "deck.bcLoco" parameter instead.
  *
- * Nonzero if [Loco positioning deck](%https://store.bitcraze.io/products/loco-positioning-deck) is attached
+ * Nonzero if [Loco positioning deck](https://store.bitcraze.io/products/loco-positioning-deck) is attached
  */
 PARAM_ADD_CORE(PARAM_UINT8 | PARAM_RONLY, bcDWM1000, &isInit)
 ```
