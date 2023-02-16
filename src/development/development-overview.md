@@ -72,7 +72,7 @@ is a specific update policy for this area. An example would be
 
 For functions in the code base, there is not always a version number tied to the function (except the release version) that
 clearly tells the programmer if there has been an API break or not. The approach we use is to mark functions that we
-want to remove as 'deprecated`. The deprecated function will continue to exist and work for a minimum of 6 months before
+want to remove as `deprecated`. The deprecated function will continue to exist and work for a minimum of 6 months before
 being removed. Deprecated functions are documented in the release notes to give a heads up that they will be removed in
 a future release. The deprecation marking is usually done by adding the word `deprecated` to the function documentation.
 Also add a date when the function will be removed (at the earliest) and, if applicable, a replacement function to use
