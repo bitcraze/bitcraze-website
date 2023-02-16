@@ -62,7 +62,7 @@ The {% poplink ai-deck %} adds WiFi connectivity to the Crazyflie, which can be 
 with the Crazyflie and the {% poplink ai-deck %}. For the camera and the GAP8 no out-of-the-box functionality
 is added, instead these resources are left for users to fully use as they see fit.
 
-To get up and running with the deck see our [getting started guid](/documentation/tutorials/getting-started-with-aideck/)
+To get up and running with the deck see our [getting started guide](/documentation/tutorials/getting-started-with-aideck/)
 after which you will be able to either try out the pre-made examples or start making your
 own AI powered applications.
 
@@ -91,7 +91,7 @@ client.
 
 #### Workshop
 
-Make sure to check out the workshop PULP platform gave about the {% poplink ai-deck %}! Note that some
+Make sure to check out the workshop PULP platform about the {% poplink ai-deck %}! Note that some
 of the instructions have been updated, refer to the getting started guide for the latest procedures.
 
 {% youtube o9asYPHxEB4; wide; 16by9 %}
