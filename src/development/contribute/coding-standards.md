@@ -165,7 +165,7 @@ uint32_t calls;
 ```
 
 ## Coding standard for Python
-We aim to follow [PEP-8](https://www.python.org/dev/peps/pep-0008/|PEP-8) and [PEP-257](https://www.python.org/dev/peps/pep-0257/) as much as possible.
+We aim to follow [PEP-8](https://peps.python.org/pep-0008/) and [PEP-257](https://peps.python.org/pep-0257/) as much as possible.
 
 ### Documentation
 For documentation doc strings are used.
