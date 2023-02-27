@@ -84,6 +84,7 @@ redirects:
 {% country United Kingdom %}
 {% distributor Coolcomponents; https://coolcomponents.co.uk/search?type=article%2Cpage%2Cproduct&q=crazyflie*; /images/distributors/coolcomponents-300x46.gif %}
 {% distributor Unmanned tech; https://www.unmannedtechshop.co.uk/?s=bitcraze&post_type=product&title=1&excerpt=1&content=1&categories=1&attributes=0&tags=0&sku=1&orderby=date-DESC&ixwps=1; /images/distributors/unmanned_tech.png %}
+{% distributor Rahal Tec; https://rahal.co.uk/crazyflie/; /images/distributors/rahal_tec.jpg %}
 
 {% continent For retailers %}
 If you would like to sell our products or if you already are carrying our products but you are not in the list then please [drop us an email](/about/contact/).
