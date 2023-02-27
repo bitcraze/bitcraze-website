@@ -31,7 +31,7 @@ specific programming language, these are the most common ones are in our {% id_l
 
 * **Python** for the Crazyflie PC API and client
 * **C** for the Crazyradio and Crazyflie firmware
-* **Other languages** Check out [external projects](/support/external-projects/#connectivity-libraries) for other programming language support language support.
+* **Other languages** Check out [external projects](/development/external-projects/#connectivity-libraries) for other programming language support language support.
 
 Make sure to use our coding standard for languages, which will be important if you want to {% id_link contribute %} your code back to our firmware/software.
 
@@ -43,9 +43,9 @@ Make sure to use our coding standard for languages, which will be important if y
 ## Communication Frameworks
 * **Crazyflie Native Framework**: We maintain our own repositories on how to communicate with the crazyflie. Check out our {% id_link repository-overview %}.
 * **ROS 2&#8482**: Check out the [Crazyswarm2 Project](https://imrclab.github.io/crazyswarm2/)!
-* **Other Frameworks**: Check out [external projects](/support/external-projects/#connectivity-libraries) for other framework and autopilot support from our community.
+* **Other Frameworks**: Check out [external projects](/development/external-projects/#connectivity-libraries) for other framework and autopilot support from our community.
 
- {% inline_button External Projects ; /support/external-projects/ %}
+ {% inline_button External Projects ; /development/external-projects/ %}
 
 
 ## APIs, versioning and evolution of the code base
