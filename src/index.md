@@ -260,12 +260,6 @@ page_id: home
 
     <div class="col-md-4 background-wrapper testimonial-item">
       <a href="https://www.bitcraze.io/2022/07/h-modquad-modularity-for-versatility/><img src="images/testimonials/H-modquad.png" alt="Lehigh University">
-
-        <!--video autobuffer controls autoplay muted loop>
-          <source src="/videos/modVideo.mp4" type="video/mp4">
-        </video-->
-       
-
         <article>“In our lab, we love to work with the Crazyflie ecosystem because its open-source platform allows us to write new flight controllers. We have used them to develop modular vehicles, blimps, catenary robots, and jumping robots.”
         </article>
         <h4>-David Saldaña, Assistant Professor at Lehigh University</h4>
