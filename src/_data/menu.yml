@@ -44,7 +44,6 @@
   - {page_id: support-downloads}
   - {page_id: support-frequently-asked-questions}
   - {page_id: support-troubleshooting}
-  - {page_id: external-projects}
 
 - title: Documentation
   subs:
@@ -61,6 +60,7 @@
   - {title: GitHub, url: "https://github.com/bitcraze"}
   - {title: Discussions, url: "https://discussions.bitcraze.io"}
   - {page_id: early-access}
+  - {page_id: external-projects}
 
 - title: About
   subs:
