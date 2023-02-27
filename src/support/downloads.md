@@ -15,13 +15,13 @@ The cfclient needs to be installed with **Python Pip**. Please follow [the insta
 * [Android client](https://play.google.com/store/apps/details?id=se.bitcraze.crazyfliecontrol2)
 * [iOS client](https://itunes.apple.com/us/app/crazyflie-2.0/id946151480)
 
-## Crazyflie ROS client CrazySwarm
+## Crazyflie ROS 2 client CrazySwarm
 
-This is an external project. Please consult [the Crazyswarm website](https://crazyswarm.readthedocs.io/) for download and installation instructions.
+This is an external project. Please consult [the Crazyswarm2 website](https://imrclab.github.io/crazyswarm2/) for download and installation instructions.
 
 ## Crazyflie 2.X firmware
 
-Reflash the crazyflie's firmware with [the cfclient firmware instructions](/documentation/repository/crazyflie-clients-python/master/userguides/userguide_client/#firmware-upgrade) with a {% id_link product-crazyradio-pa %} or from a mobile device app 
+Reflash the crazyflie's firmware with [the cfclient firmware instructions](/documentation/repository/crazyflie-clients-python/master/userguides/userguide_client/#firmware-upgrade) with a {% id_link product-crazyradio-pa %} or from a mobile device app
 
 Latest stable release of the binary files can be found
 [in the github releases page](https://github.com/bitcraze/crazyflie-release/releases "GitHub releases for crazyflie-firmware").

@@ -35,15 +35,16 @@ such as clients and positioning systems.
 
 {% row_image_text_links Crazyradio and clients; /images/documentation/overview/CFclients_thumbnail.jpg %}
 {% row_text %}
-The main client for controling the Crazyflie device family is the **python client** that runs on a PC and communicates via the **{% id_link product-crazyradio-pa %}** USB dongle. The client uses a **python library**, which also is the main connection point for programs and scripts that communicate with the devices.
+The main client for controling the Crazyflie device family is the **python client** that runs on a PC and communicates via the **{% id_link product-crazyradio-pa %}** USB dongle. The client uses a **python library**, which also is the main connection point for programs and scripts that communicate with the devices. There are also mobile phone apps for Android and IOS that connects via BLE, mainly for manual flight.
 
-Swarms of Crazyflies can be controlled through the python library, the external **CrazySwarm** project or other software.
+Swarms of Crazyflies can be controlled through the python library, the external **CrazySwarm2** project with ROS 2 or other external projects.
 
-There are **mobile phone apps** for Android and IOS that connects via BLE, mainly for manual flight.
+
 {% endrow_text %}
 {% row_links %}
 * {% id_link overview_clients %}
-* [CrazySwarm](https://crazyswarm.readthedocs.io/en/latest/)
+* [ROS 2&#8482; Crazyswarm2](https://github.com/IMRCLab/crazyswarm2)
+* {% id_link external-projects %}
 {% endrow_links %}
 {%endrow_image_text_links%}
 

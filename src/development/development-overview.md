@@ -42,7 +42,7 @@ Make sure to use our coding standard for languages, which will be important if y
 
 ## Communication Frameworks
 * **Crazyflie Native Framework**: We maintain our own repositories on how to communicate with the crazyflie. Check out our {% id_link repository-overview %}.
-* **ROS**: Check out the [Crazyswarm Project](https://crazyswarm.readthedocs.io/en/latest/)!
+* **ROS 2&#8482**: Check out the [Crazyswarm2 Project](https://imrclab.github.io/crazyswarm2/)!
 * **Other Frameworks**: Check out [external projects](/support/external-projects/#connectivity-libraries) for other framework and autopilot support from our community.
 
  {% inline_button External Projects ; /support/external-projects/ %}

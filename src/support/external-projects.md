@@ -43,12 +43,14 @@ Projects aimed to modeling, developing and integrating the Crazyflie 2.X nano-qu
 | Sim_cf | Crazyflie HITL and SITL simulation with Gazebo and Ros | <https://github.com/wuwushrek/sim_cf> |
 | Rviz Simulator | Crazyflie 2.0 Simulation in Rviz | <https://github.com/malintha/multi_uav_simulator/tree/crazyflie> |
 
+
 ## Swarming
 
 Projects aiming at supporting swarms. They might also be useful for controlling single Crazyflies.
 
-| Crazyswarm ![ROS](/images/icons/ros_32.png)  | The ACT lab at USC has implemented a library to handle large swarms of Crazyflies. | <https://crazyswarm.readthedocs.io/en/latest/> |
-| ![ROS](/images/icons/ros_32.png) |A Crazyflie control packages (deprecated, use Crazyswarm instead)| <https://github.com/whoenig/crazyflie_ros> |
+| ![ROS](/images/icons/ros2_tm.png)  | The IMRClab at TU Berlin has implemented a ROS 2 package to handle large swarms of Crazyflies. This is the successor of Crazyswarm(1) | <https://imrclab.github.io/crazyswarm2/> |
+| ![ROS](/images/icons/ros_64.png)  | The ACT lab at USC has implemented a ROS 1 library to handle large swarms of Crazyflies. | <https://crazyswarm.readthedocs.io/en/latest/> |
+| ![ROS](/images/icons/ros_64.png) |A Crazyflie control packages (deprecated, use Crazyswarm instead)| <https://github.com/whoenig/crazyflie_ros> |
 | Crazyserver | A server exposing a REST API to control a swarm of Crazyflies. Written in Go. | <https://github.com/mikehamer/crazyserver> |
 | LaMoucheFolle | Cross-platform OSC server for controlling multiple Crazyflies 2.X | <https://github.com/benkuper/LaMoucheFolle> |
 

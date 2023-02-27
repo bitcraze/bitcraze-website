@@ -35,8 +35,7 @@ to the Crazyflie to be used in the control loop.
 {% row_video_text_links Scalability; /videos/swarmVid.mp4 %}
 {% row_text %}
 If many Crazyflies are used at the same time (swarming) scalability may be an issue since the position of all
-Crazyflies continuously must be transmitted. The Crazyswarm project solves this in an efficient way though and
-can handle 50 Crazyflies using only 3 Crazyradios.
+Crazyflies continuously must be transmitted. The Crazyswarm2 project solves this in an efficient way to use broadcasting instead of unicasting with communication.
 {% endrow_text %}
 {% endrow_video_text_links %}
 
@@ -100,10 +99,10 @@ For more information on how to combine the components of the Crazyflie ecosystem
 
 {% row_image_text_links Getting started with MoCap %}
 {% row_text %}
-Crazyswarm handles large swarms of Crazyflies together with MoCap system and is ideal for research applications, read more
-about [USC's Crazyswarm](https://crazyswarm.readthedocs.io/en/latest/).
+Crazyswarm2 handles large swarms of Crazyflies together with MoCap system and is ideal for research applications using ROS 2, read more
+about [IMRC's Crazyswarm2](https://imrclab.github.io/crazyswarm2/).
 {% endrow_text %}
 {% row_links %}
-* [Crazyswarm](https://crazyswarm.readthedocs.io/en/latest/)
+* [Crazyswarm2](https://imrclab.github.io/crazyswarm2/)
 {% endrow_links %}
 {% endrow_image_text_links %}

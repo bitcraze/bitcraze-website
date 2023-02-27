@@ -451,8 +451,7 @@ markers can be used on each individual or an external system can keep track of
 the motion of markers to understand which drone that is connected to a marker.
 Again the position is calculated in an external computer and either the position or commands
 for pitch/roll/yaw/thrust must be sent to the Crazyflies in real time via radio.
-There are frameworks (for examle [Crazy Swarm](https://github.com/USC-ACTLab/crazyswarm)) written by the community to handle these types of system and
-swarms of up to 50 Crazyflies.
+There are frameworks (for example [Crazyswarm2](https://imrclab.github.io/crazyswarm2/)) written by the community to handle these types of system and large swarms.
 
 {% endrow_text %}
 {% row_links %}
