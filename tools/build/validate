@@ -7,6 +7,7 @@ STDOUT.sync = true
 require 'html-proofer'
 # Add checks for our urls
 require_relative '../validate/src/url_check'
+require_relative '../validate/src/repo_docs_check'
 
 
 root_path = "./_site"
@@ -15,13 +16,13 @@ repo_docs_path = "./_site/documentation/repository"
 # Ignore internal links to our blog, they can not be tested in this context, hese links are on the format "/category/crazyflie/" or "/2020/05/some-title"
 def check_internal_links(root, options)
   options[:disable_external] = true
-  HTMLProofer.check_directory(root, options = options).run
+  HTMLProofer.check_directory(root, options).run
 end
 
 def check_external_links(root, options)
   begin
     options[:disable_external] = false
-    HTMLProofer.check_directory(root, options = options).run
+    HTMLProofer.check_directory(root, options).run
   rescue Exception => e
     puts "\e[31mWARNING: All external references could not be validated. The reference(s) might be faulty or the external site is maybe down?\e[0m\n"
   end
@@ -45,14 +46,14 @@ end
 puts "Ignored paths"
 puts ignored_files
 
-# Ignore internal links to our blog, they can not be tested in this context, hese links are on the format "/category/crazyflie/" or "/2020/05/some-title"
+# Ignore internal links to our blog, they can not be tested in this context, these links are on the format "/category/crazyflie/" or "/2020/05/some-title"
 options = {
   allow_hash_href: true,
   disable_external: true,
   enforce_https: false,
   ignore_urls: [/\/category\/.*/, /\/\d+\/\d+\/.*/],
   ignore_files: ignored_files,
-  checks: ['UrlCheck', 'Images', 'Scripts', 'Links']
+  checks: ['UrlCheck', 'RepoDocsCheck', 'Images', 'Scripts', 'Links']
 }
 
 puts 'Checking html and internal links...'
