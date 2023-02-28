@@ -22,7 +22,7 @@ def make_proofer(file, options)
   options[:log_level] ||= :error
   options[:disable_external] = true
   options[:enforce_https] = false
-  options[:checks] = 'UrlCheck'
+  options[:checks] = ['UrlCheck', 'RepoDocsCheck']
   HTMLProofer.check_file(file, options)
 end
 
