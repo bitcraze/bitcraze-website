@@ -46,7 +46,7 @@ fast, then the test has passed.
 
 {% si_step self-test fails %}
 If the self-test fails, then the M1 LED blinks 5 times fast RED, then pauses
-and does it again. Go to our [support discussions](//discussions.bitcraze.io) to get help.
+and does it again. Go to our [support discussions](https://discussions.bitcraze.io) to get help.
 
 {% tutorialVideo /videos/self_test_fails.mp4 %}
 {% endsi_step %}
@@ -282,7 +282,7 @@ has all the software you need for flight and development already installed.
 
 {% si_step Setup virtual Machine; inst-virtualbox %}
 
-Check-out the readme of the [bitcraze-VM repository](https://github.com/bitcraze/bitcraze-vm) for installation and setting-up instructions and tips. 
+Check-out the readme of the [bitcraze-VM repository](https://github.com/bitcraze/bitcraze-vm) for installation and setting-up instructions and tips.
 
 {% endsi_step %}
 
@@ -427,9 +427,9 @@ blue LED will blink. When the LED is fully lit the battery is charged.
 {% endsi_step %}
 
 {% si_step go fly! %}
-Have fun! 
+Have fun!
 {% endsi_step %}
 
 {% si_intro Support %}
-If anything is wrong with the Crazyflie after following this guide, make sure to checkout the {% id_link support-getting-help %} page. 
+If anything is wrong with the Crazyflie after following this guide, make sure to checkout the {% id_link support-getting-help %} page.
 {% endsi_intro %}

@@ -13,7 +13,7 @@ redirects:
 fa-comments-o;
 Discussions;
 %}
-If you are having a question or a problem, start by reading the <a href="//discussions.bitcraze.io">discussions</a> to see if anyone else already had the same problem and found a solution.
+If you are having a question or a problem, start by reading the <a href="https://discussions.bitcraze.io">discussions</a> to see if anyone else already had the same problem and found a solution.
     </div>
 
     <div class="col-md-6">

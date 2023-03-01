@@ -17,7 +17,7 @@ discoveries.
 There are many ways to contribute, here are some examples
 
 * **Discussions** Answer a question on the [Discussions](https://discussions.bitcraze.io)
-* **Github** 
+* **Github**
   * **Issue reporting**: Add an issue to one of the [repos on github](https://github.com/bitcraze) with a
 bug report.
   * **Feature requests**  Feel free to make an issue to request a new functionality.
@@ -25,7 +25,7 @@ bug report.
 
 * **Improving Documentation**
   * **Repo Documentation**: Add or update the documentation in our {% id_link repository-overview %}.
-  * **Website Documentation**: Improve the main website documentation. 
+  * **Website Documentation**: Improve the main website documentation.
 * **Sharing your work**:
   * **Blog**. Become a guest blogger for our {% id_link blog %}. Send us an email at contact@bitcraze.io to get a blog account.
   * **Social Media**: Upload a video of your work to [YouTube](https://www.youtube.com/) or on any of our other social media channels
@@ -45,7 +45,7 @@ When reporting github issues the more information you can supply the better.
 If you are missing anything in terms of functionality, we and the community are continuously working to improve the firmware. Feel free to make an issue to request a new functionality!
 
 
-### Pull Requests 
+### Pull Requests
 We use pull requests for code contributions, read more about how it works on
 [this article github](https://help.github.com/articles/about-pull-requests/).
 
@@ -57,7 +57,7 @@ but to make it possible for us to merge your additions into the codebase there a
 * Separate one pull request per functionality: if you start writing "and" in the feature description consider if it could be separated in two pull requests.
 * The pull request must pass the automated testing
 
-Please look at the general code contributing Guidelines and code standards for more information. 
+Please look at the general code contributing Guidelines and code standards for more information.
 
  {% inline_button General Code Contributing Guidelines; /development/contribute/general-guidelines/ %}
 
@@ -78,7 +78,7 @@ Maybe you want to contribute but don't know what to do? Need help
 to find the right solution? Not sure of how to write a unit test?
 We are here to help you!
 
-Post a question in the [discussion page](//discussions.bitcraze.io), add an issue on
+Post a question in the [discussion page](https://discussions.bitcraze.io), add an issue on
 [github](https://github.com/bitcraze) or drop us an email at
 contact@bitcraze.io to get help.
 You can also submit a issue with the request to one of the [repos on github](https://github.com/bitcraze) to get the communities opinion.
