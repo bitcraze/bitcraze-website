@@ -116,5 +116,9 @@
             background: $bcLightGrey;
             transition: background-color 0.2s;
         }
+        .hidden-children > a:after {
+            content: ' >';
+            font-weight: bold;
+        }
     }
 }
