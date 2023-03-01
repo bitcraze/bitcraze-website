@@ -68,7 +68,7 @@ assistance. Otherwise contact the distribution where you ordered the products.
 Accidents happen and sometimes hardware breaks. In order to get you back on
 track there's a few places you can get help:
 
-* [Spare parts](//store.bitcraze.io/collections/spare-parts): Our shop has multiple spare parts.
+* [Spare parts](https://store.bitcraze.io/collections/spare-parts): Our shop has multiple spare parts.
 * [Expansion decks](/documentation/system/platform/cf2-expansiondecks/): Our web contains all kind of information of expansion decks, including schematics.
 * [Crazyflie 2.1](/products/crazyflie-2-1/) contains schematics of the crazyflie 2.1
 * [Discussions](https://discussions.bitcraze.io): We handle most of our support in our discussions page.
