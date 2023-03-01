@@ -6,7 +6,7 @@ page_id: mail-signup
 
 <!-- Begin MailChimp Signup Form -->
 <div id="mc_embed_signup">
-<form action="//bitcraze.us13.list-manage.com/subscribe/post?u=44c7854798cd7cd2f2dafee09&amp;id=b58eb442c4" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" rel="noopener noreferrer" novalidate>
+<form action="https://bitcraze.us13.list-manage.com/subscribe/post?u=44c7854798cd7cd2f2dafee09&amp;id=b58eb442c4" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" rel="noopener noreferrer" novalidate>
     <div id="mc_embed_signup_scroll">
 <div class="indicates-required"><span class="asterisk">*</span> indicates required</div>
 <div class="mc-field-group">
