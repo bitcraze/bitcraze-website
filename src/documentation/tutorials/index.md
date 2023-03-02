@@ -16,6 +16,7 @@ page_id: tutorials
 * {% id_link getting-started-z-ranger-deck %}
 * {% id_link getting-started-flow-deck %}
 * {% id_link getting-started-with-the-aideck %}
+* {% id_link writing-aideck-gap8-code %}
 * {% id_link solder-deck-pins %}
 
 ## Positioning
