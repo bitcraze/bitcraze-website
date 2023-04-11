@@ -62,27 +62,39 @@ Specifications will be available here soon
 {% tab Usage %}
 {% row_icon_text_links Usage; fa-book %}
 {% row_text %}
-Connect the Crazyradio 2.0 to a USB port on your computer. To install firmware on your Crazyradio 2.0, please see the
-{% id_link getting-started-crazyradio-2-0 %} tutorial.
+To get started with your Crazyradio 2.0, please see the {% id_link getting-started-crazyradio-2-0 %} tutorial.
 
-#### Crazyradio PA emulation firmware
+#### Firmware flavors
 
-The Crazyradio PA emulation firmware, makes the Crazyradio 2.0 behave like a {% id_link product-crazyradio-pa %}. The
-{% id_link getting-started-crazyradio-2-0 %} tutorial shows the steps to install the firmware and drivers.
+There are two flavors of the firmware: **Crazyradio PA emulation firmware** and **Crazyradio 2.0 firmware**
 
-From there, you are able to install the [CFclient](/documentation/repository/crazyflie-clients-python/master/installation/install/) and communicate with the Crazyflie.
+The **Crazyradio PA emulation firmware**, makes the Crazyradio 2.0 behave like a {% id_link product-crazyradio-pa %}. The
+{% id_link getting-started-crazyradio-2-0 %} tutorial shows the steps to install the firmware and drivers. From there,
+you are able to install the [CFclient](/documentation/repository/crazyflie-clients-python/master/installation/install/)
+and communicate with the Crazyflie.
 
-#### Crazyradio 2.0 firmware
+The **Crazyradio 2.0 firmware** is under development and more instructions will be added here later.
 
-The Crazyradio 2.0 firmware is under development and more instructions will be added here later.
+#### General usage
+
+Connect the Crazyradio 2.0 to a USB port on your computer.
+
+#### Flashing firmware
+
+Enter bootloader mode by holding the button while connecting the Crazyradio 2.0 to a USB port. Install firmware by
+copying a `.uf2` file to the USB drive.
 
 {% endrow_text %}
 {% row_links %}
+* {% id_link getting-started-crazyradio-2-0 %}
+
 * [Windows driver instructions](/documentation/repository/crazyradio-firmware/master/building/usbwindows/)
 
 * [Linux driver instructions](/documentation/repository/crazyflie-lib-python/master/installation/usb_permissions/)
 
 * [Client installation Instructions](/documentation/repository/crazyflie-clients-python/master/installation/install/)
+
+* [Releases](https://github.com/bitcraze/crazyradio2-firmware/releases)
 {% endrow_links %}
 {% endrow_icon_text_links %}
 

@@ -39,7 +39,7 @@ Verify that the LED is pulsating with a red light, this indicates that the {% po
 
 {% si_intro Flash new firmware %}
 When in bootloader mode, the {% poplink crazyradio-2-0 %} will appear as a USB drive in your operating system. Firmware
-is installed by copying a firmware file to the drive.
+is installed by copying a `.uf2` firmware file to the drive.
 {% endsi_intro %}
 
 {% si_step find the drive %}
