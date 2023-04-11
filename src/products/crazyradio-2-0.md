@@ -16,8 +16,6 @@ page_id: product-crazyradio-2-0
 {% row_icon_text_links How it works; fa-cogs %}
 {% row_text %}
 
-**This product is under development and will soon be available!**
-
 Crazyradio 2.0 is a long range open USB radio dongle based on the nRF52840 from Nordic Semiconductor, featuring a
 20dBm power amplifier and LNA.
 
@@ -28,6 +26,10 @@ requirements for bandwidth. The hardware comes with a
 bootloader that enables firmware upgrades via USB without any additional hardware needed.
 
 The Crazyradio 2.0 is compatible with the Crazyflie eco system.
+
+Depending on the installed firmware, the Crazyradio 2.0 can run in two different modes:
+* Crazyradio PA emulation - it behaves like a {% id_link product-crazyradio-pa %}. This is the firmware that is initially available.
+* Crazyradio 2.0 - a new set of protocols and capabilities that will improve the communication in the ecosystem. This is work in progress and will evolve over time.
 
 {% endrow_text %}
 {% row_links %}
@@ -60,12 +62,27 @@ Specifications will be available here soon
 {% tab Usage %}
 {% row_icon_text_links Usage; fa-book %}
 {% row_text %}
-Connect the Crazyradio 2.0 to a USB port on your computer.
+Connect the Crazyradio 2.0 to a USB port on your computer. To install firmware on your Crazyradio 2.0, please see the
+{% id_link getting-started-crazyradio-2-0 %} tutorial.
 
-More instructions will be available here soon
+#### Crazyradio PA emulation firmware
+
+The Crazyradio PA emulation firmware, makes the Crazyradio 2.0 behave like a {% id_link product-crazyradio-pa %}. The
+{% id_link getting-started-crazyradio-2-0 %} tutorial shows the steps to install the firmware and drivers.
+
+From there, you are able to install the [CFclient](/documentation/repository/crazyflie-clients-python/master/installation/install/) and communicate with the Crazyflie.
+
+#### Crazyradio 2.0 firmware
+
+The Crazyradio 2.0 firmware is under development and more instructions will be added here later.
+
 {% endrow_text %}
 {% row_links %}
+* [Windows driver instructions](/documentation/repository/crazyradio-firmware/master/building/usbwindows/)
 
+* [Linux driver instructions](/documentation/repository/crazyflie-lib-python/master/installation/usb_permissions/)
+
+* [Client installation Instructions](/documentation/repository/crazyflie-clients-python/master/installation/install/)
 {% endrow_links %}
 {% endrow_icon_text_links %}
 
