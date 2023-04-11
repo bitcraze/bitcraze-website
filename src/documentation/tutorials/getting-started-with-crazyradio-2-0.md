@@ -32,7 +32,7 @@ Insert the USB dongle into a USB port while holding the button.
 {% endsi_step %}
 
 {% si_step red led %}
-Verify that the LED is red, this indicates that the {% poplink crazyradio-2-0 %} is in bootloader mode.
+Verify that the LED is pulsating with a red light, this indicates that the {% poplink crazyradio-2-0 %} is in bootloader mode.
 {% endsi_step %}
 
 
