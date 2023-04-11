@@ -23,7 +23,7 @@ We assume that you have basic knowledge of the C-programming language.
 For this tutorial you need:
 
 * A Crazyflie
-* A Crazyradio PA
+* A {% poplink crazyradio-2-0 %} or Crazyradio PA
 * A computer with the Virtual Machine (VM) installed.
 
 For details on how to install the VM and Crazyradio see

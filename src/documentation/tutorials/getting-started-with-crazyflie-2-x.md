@@ -205,7 +205,7 @@ some more piloting skills.
 Continue reading the next section for instructions on how to install the app on your phone
 {% endtab %}
 {% tab Computer %}
-Using your computer requires a Crazyradio PA and a gamepad but give you more options
+Using your computer requires a {% poplink crazyradio-2-0 %} or Crazyradio PA and a gamepad but give you more options
 and greater control.
 
 Continue reading the [installing on a computer](#inst-comp) section if you
@@ -244,7 +244,7 @@ Continue reading the [flying section.](#flying)
 {% si_intro Installing on a computer; inst-comp %}
 When using a computer to fly the Crazyflie, you also need a standard
 gamepad ([more information](/documentation/repository/crazyflie-clients-python/master/userguides/inputdevices/))
-for maneuvering and a Crazyradio PA for communication.
+for maneuvering and a {% poplink crazyradio-2-0 %} or Crazyradio PA for communication.
 {% endsi_intro %}
 
 {% si_step installation flavour %}
@@ -265,7 +265,7 @@ You can follow the prerequisite and instructions to install the latest release o
 [Client installation instruction page](/documentation/repository/crazyflie-clients-python/master/installation/install/).
 
 
-When you have set up the client, insert the Crazyradio PA and your gamepad in
+When you have set up the client, insert the {% poplink crazyradio-2-0 %} or Crazyradio PA and your gamepad in
 your USB-ports and start the client. Continue reading about how to [configure the client](#config-client)
 {% endtab %}
 {% endtabgroup %}
@@ -294,7 +294,7 @@ for all projects.
 {% endsi_step %}
 
 {% si_step install hardware; install-hardware-vm %}
-* Insert Crazyradio PA in a USB port.
+* Insert {% poplink crazyradio-2-0 %} or Crazyradio PA in a USB port.
 * Insert game controller in a USB port.
 {% endsi_step %}
 

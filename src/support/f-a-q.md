@@ -29,7 +29,7 @@ Yes, as long as it is not too heavy, it is a single cell (3.7V), it fits and the
 {% endsi_intro %}
 
 {% si_intro What radio is used with the Crazyflie 2.X? %}
-The Crazyflie 2.X can be controlled with the Crazyradio or Crazyradio PA from a PC or with a mobile device using Bluetooth Low Energy.
+The Crazyflie 2.X can be controlled with the Crazyradio, Crazyradio PA or {% poplink crazyradio-2-0 %} from a PC or with a mobile device using Bluetooth Low Energy.
 {% endsi_intro %}
 
 {% si_intro Which mobile devices work with the Crazyflie 2.X? %}

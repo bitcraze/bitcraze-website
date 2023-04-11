@@ -17,7 +17,7 @@ The CFclient needs to be installed with **Python Pip**. Please follow [the insta
 
 ## Crazyflie 2.X firmware
 
-Reflash the crazyflie's firmware with [the cfclient firmware instructions](/documentation/repository/crazyflie-clients-python/master/userguides/userguide_client/#firmware-upgrade) with a {% id_link product-crazyradio-pa %}.
+Reflash the crazyflie's firmware with [the cfclient firmware instructions](/documentation/repository/crazyflie-clients-python/master/userguides/userguide_client/#firmware-upgrade) with a {% poplink crazyradio-2-0 %} or a {% id_link product-crazyradio-pa %}.
 
 Latest stable release of the binary files can be found
 [in the github releases page](https://github.com/bitcraze/crazyflie-release/releases "GitHub releases for crazyflie-firmware").
@@ -32,4 +32,3 @@ Please consult the [getting started tutorial for installation instructions for t
 ## Crazyflie ROS 2 client CrazySwarm
 
 This is an external project. Please consult [the Crazyswarm2 website](https://imrclab.github.io/crazyswarm2/) for download and installation instructions.
-

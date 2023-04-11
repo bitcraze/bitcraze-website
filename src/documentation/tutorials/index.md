@@ -18,6 +18,10 @@ page_id: tutorials
 * {% id_link getting-started-with-the-aideck %}
 * {% id_link solder-deck-pins %}
 
+## Set up the Crazyradio 2.0
+
+* {% id_link getting-started-crazyradio-2-0 %}
+
 ## Positioning
 
 * {% id_link getting-started-with-the-lighthouse-system %}
