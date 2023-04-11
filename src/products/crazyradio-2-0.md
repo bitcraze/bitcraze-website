@@ -5,7 +5,7 @@ page_id: product-crazyradio-2-0
 ---
 
 {% datasheet_product_status crazyradio_2_0 %}
-{% comment %} TODO {% buy_online https://store.bitcraze.io/products/crazyradio-2-0 %}{% endcomment %}
+{% buy_online https://store.bitcraze.io/products/crazyradio-2-0 %}
 
 {% product_img Crazyradio 2.0; narrow; /images/crazyradio2-0/CR 2.0-dongle- 585px.jpg %}
 
