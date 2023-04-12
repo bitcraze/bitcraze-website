@@ -122,7 +122,7 @@ it can be very handy to indicate when the system is ready, error states or simil
 {% row_links %}
 **What to buy:**
 
-* [The Artist bundle](https://store.bitcraze.io/products/the-estetik-bundle-1)
+* [The Artist bundle](https://store.bitcraze.io/products/the-artist-bundle)
 * {% poplink buzzer-deck %}
 {% endrow_links %}
 {% endrow_image_text_links %}
