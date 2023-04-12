@@ -8,7 +8,7 @@ redirects:
 
 {% row_full %}
 
-The main client for controling the Crazyflie device family is the python client that runs on a PC and communicates via the Crazyradio PA USB dongle. The client uses a python library, which also is the main connection point for programs and scripts that communicate with the devices.
+The main client for controlling the Crazyflie device family is the python client that runs on a PC and communicates via the {% poplink crazyradio-2-0 %} USB dongle. The client uses a python library, which also is the main connection point for programs and scripts that communicate with the devices.
 
 Swarms of Crazyflies can be controlled through the python library, the external CrazySwarm project or other software.
 
@@ -34,11 +34,12 @@ We have a Crazyflie 2.X python-based client for the PC, of which all the documen
 {% endrow_image_text_links %}
 
 
-{% row_image_text_links Crazyradio PA; /images/documentation/overview/crazyradioPA_thumbnail.jpg %}
+{% row_image_text_links Crazyradio 2.0; /images/documentation/overview/crazyradioPA_thumbnail.jpg %}
 {% row_text %}
-The PC needs a Crazyradio PA in order to communicate with the Crazyflie 2.X. This relays the CTRP protocol from the PC client or the Crazyflie library to and from the CF2. The documentation also explains how to setup the USB permissions on your specific OS or machine.
+The PC needs a {% poplink crazyradio-2-0 %} or Crazyradio PA in order to communicate with the Crazyflie 2.X. This relays the CTRP protocol from the PC client or the Crazyflie library to and from the CF2. The documentation also explains how to setup the USB permissions on your specific OS or machine.
 {% endrow_text %}
 {% row_links %}
+* [Crazyradio 2.0 documentation](/documentation/repository/crazyradio2-firmware/main/).
 * [Crazyradio PA documentation](/documentation/repository/crazyradio-firmware/master/).
 {% endrow_links %}
 {% endrow_image_text_links %}

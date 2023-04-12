@@ -38,6 +38,7 @@ platform --> components(Hardware components):::bc
 
 clients --> pcclients(Python clients & lib):::bc
 clients --> crpa(Crazyradio PA):::bc
+clients --> cr20(Crazyradio 2.0 Firmware):::bc
 clients --> mobile(Mobile clients):::bc
 
 positioning --> lighthouse[Lighthouse]:::bc
@@ -72,6 +73,7 @@ python --> lpstools(LPS Tools):::bc
 c --> crazyfliestm(Crazyflie STM Firmware):::bc
 c --> crazyflienrf(Crazyflie NRF Firmware):::bc
 c --> crpa(Crazyradio PA Firmware):::bc
+c --> cr20(Crazyradio 2.0 Firmware):::bc
 c --> lpsnode(LPS node firmware):::bc
 
 other --> android(Android App):::bc

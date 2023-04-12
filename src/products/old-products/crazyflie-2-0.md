@@ -22,7 +22,7 @@ All you need and a bit more
 
 It's not only a good flyer, the Crazyflie 2.0 is also equipped with low-latency/long-range
 radio as well as Bluetooth LE. This gives you the option of downloading our app and using your mobile device as a controller or,
-in combination with the [Crazyradio PA](/products/crazyradio-pa/), using your computer to display data and fly with a game
+in combination with the {% poplink crazyradio-2-0 %} or [Crazyradio PA](/products/crazyradio-pa/), using your computer to display data and fly with a game
 controller.
 
 

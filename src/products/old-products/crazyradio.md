@@ -5,7 +5,7 @@ redirects:
   - /crazyradio/
 ---
 
-{% notice_info This product is discontinued and has been replaced with <a href="/products/crazyradio-pa/">Crazyradio PA</a> %}
+{% notice_info This product is discontinued and has been replaced with <a href="/products/crazyradio-2-0/">Crazyradio 2.0</a> %}
 
 The Crazyradio 2.4GHz radio USB dongle is based on the
 [Nordic Semiconductor](https://www.nordicsemi.com/)

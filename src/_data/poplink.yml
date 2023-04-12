@@ -64,3 +64,7 @@ poplinks:
     title: AI deck
     default-link: /products/ai-deck/
     content: ai-deck.md
+  crazyradio-2-0:
+    title: Crazyradio 2.0
+    default-link: /products/crazyradio-2-0/
+    content: crazyradio-2-0.md

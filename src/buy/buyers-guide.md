@@ -22,7 +22,7 @@ and [IOS](https://itunes.apple.com/us/app/crazyflie-2.0/id946151480?mt=8) device
 
 {% row_image_text_links I want to fly the Crazyflie 2.X from my computer using a gamepad %}
 {% row_text %}
-The {% id_link product-crazyradio-pa %}
+The {% poplink crazyradio-2-0 %}
 enables you to connect the Crazyflie 2.X to a computer. Connect
 a [gamepad](/documentation/repository/crazyflie-clients-python/master/userguides/inputdevices/)
 to the computer and run our client software to control the Crazyflie 2.X.
@@ -39,7 +39,7 @@ Note: gamepad is not included
 
 {% row_image_text_links I want to use the Crazyflie 2.X for development %}
 {% row_text %}
-The {% id_link product-crazyradio-pa %}
+The {% poplink crazyradio-2-0 %}
 enables you to connect the Crazyflie 2.X
 to a computer wireless and download new firmware, modified to your liking. The logging and parameter
 frameworks provides APIs for getting and setting data in the Crazyflie 2.X live,
@@ -62,7 +62,7 @@ Note: gamepad is not included
 
 {% row_image_text_links I want to use the Crazyflie 2.X for advanced development %}
 {% row_text %}
-A lot can be achieved with the Crazyflie 2.X and the Crazyradio PA only, but for
+A lot can be achieved with the Crazyflie 2.X and the {% poplink crazyradio-2-0 %} only, but for
 advanced development JTAG/SWD access to the platform is useful.
 The {% id_link product-debug-adapter-kit %}
 enables you to connect your normal JTAG/SWD debugger to
@@ -122,7 +122,7 @@ it can be very handy to indicate when the system is ready, error states or simil
 {% row_links %}
 **What to buy:**
 
-* [The Artist bundle](https://store.bitcraze.io/products/the-estetik-bundle-1)
+* [The Artist bundle](https://store.bitcraze.io/products/the-artist-bundle)
 * {% poplink buzzer-deck %}
 {% endrow_links %}
 {% endrow_image_text_links %}
@@ -165,7 +165,7 @@ Note: wireless charger not included
 
 {% row_image_text_links I want to record data when flying my Crazyflie 2.X %}
 {% row_text %}
-If large volumes of data needs to be recorded when flying, the Crazyradio PA might
+If large volumes of data needs to be recorded when flying, the {% poplink crazyradio-2-0 %} might
 not have sufficient bandwidth in some cases. The {% poplink sd-card-deck %} adds access to the
 filesystem of a SD card and enables storage of any data.
 {% endrow_text %}

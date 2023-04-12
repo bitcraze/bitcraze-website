@@ -16,7 +16,7 @@ This getting started guide will help you set up the system and make your first a
 
 {% si_step required hardware %}
 * 1 x Crazyflie 2.X Kit
-* 1 x Crazyradio PA
+* 1 x {% poplink crazyradio-2-0 %} or Crazyradio PA
 * 1 x {% poplink flow-deck %}
 * 1 x {% poplink multi-ranger-deck%}
 {% endsi_step %}

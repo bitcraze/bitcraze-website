@@ -19,7 +19,7 @@ Make sure that you have the following available:
 * A {% id_link product-crazyflie-2-1 %}
 * A {% poplink lighthouse-deck %}
 * 2-4 [Lighthouse basestations V2.0](https://store.bitcraze.io/products/lighthouse-v2-base-station) (recommended) or 2 Lighthouse basestations V1.0
-* {% id_link product-crazyradio-pa %}
+* {% poplink crazyradio-2-0 %} or {% id_link product-crazyradio-pa %}
 {% endsi_step %}
 
 {% si_step  Prerequisites - software %}
@@ -154,7 +154,7 @@ _For the calibration data you might need to wait for 20 seconds._
 {% si_step Estimate the geometry %}
 Once you have received the calibration data, it is time to estimate where the base stations a located
 
-1. Open up the base station geometry management dialog by pressing 'Manage Geometry' 
+1. Open up the base station geometry management dialog by pressing 'Manage Geometry'
 
 2. In the dialog, press 'Estimate Geometry' (not 'Manage geometry simple'). Please follow the wizard's instructions for estimating the geometry.
 

@@ -5,7 +5,7 @@ page_id: product-crazyradio-2-0
 ---
 
 {% datasheet_product_status crazyradio_2_0 %}
-{% comment %} TODO {% buy_online https://store.bitcraze.io/products/crazyradio-2-0 %}{% endcomment %}
+{% buy_online https://store.bitcraze.io/products/crazyradio-2-0 %}
 
 {% product_img Crazyradio 2.0; narrow; /images/crazyradio2-0/CR 2.0-dongle- 585px.jpg %}
 
@@ -15,8 +15,6 @@ page_id: product-crazyradio-2-0
 {% tab How it Works %}
 {% row_icon_text_links How it works; fa-cogs %}
 {% row_text %}
-
-**This product is under development and will soon be available!**
 
 Crazyradio 2.0 is a long range open USB radio dongle based on the nRF52840 from Nordic Semiconductor, featuring a
 20dBm power amplifier and LNA.
@@ -28,6 +26,10 @@ requirements for bandwidth. The hardware comes with a
 bootloader that enables firmware upgrades via USB without any additional hardware needed.
 
 The Crazyradio 2.0 is compatible with the Crazyflie eco system.
+
+Depending on the installed firmware, the Crazyradio 2.0 can run in two different modes:
+* Crazyradio PA emulation - it behaves like a {% id_link product-crazyradio-pa %}. This is the firmware that is initially available.
+* Crazyradio 2.0 - a new set of protocols and capabilities that will improve the communication in the ecosystem. This is work in progress and will evolve over time.
 
 {% endrow_text %}
 {% row_links %}
@@ -60,12 +62,39 @@ Specifications will be available here soon
 {% tab Usage %}
 {% row_icon_text_links Usage; fa-book %}
 {% row_text %}
+To get started with your Crazyradio 2.0, please see the {% id_link getting-started-crazyradio-2-0 %} tutorial.
+
+#### Firmware flavors
+
+There are two flavors of the firmware: **Crazyradio PA emulation firmware** and **Crazyradio 2.0 firmware**
+
+The **Crazyradio PA emulation firmware**, makes the Crazyradio 2.0 behave like a {% id_link product-crazyradio-pa %}. The
+{% id_link getting-started-crazyradio-2-0 %} tutorial shows the steps to install the firmware and drivers. From there,
+you are able to install the [CFclient](/documentation/repository/crazyflie-clients-python/master/installation/install/)
+and communicate with the Crazyflie.
+
+The **Crazyradio 2.0 firmware** is under development and more instructions will be added here later.
+
+#### General usage
+
 Connect the Crazyradio 2.0 to a USB port on your computer.
 
-More instructions will be available here soon
+#### Flashing firmware
+
+Enter bootloader mode by holding the button while connecting the Crazyradio 2.0 to a USB port. Install firmware by
+copying a `.uf2` file to the USB drive.
+
 {% endrow_text %}
 {% row_links %}
+* {% id_link getting-started-crazyradio-2-0 %}
 
+* [Windows driver instructions](/documentation/repository/crazyradio-firmware/master/building/usbwindows/)
+
+* [Linux driver instructions](/documentation/repository/crazyflie-lib-python/master/installation/usb_permissions/)
+
+* [Client installation Instructions](/documentation/repository/crazyflie-clients-python/master/installation/install/)
+
+* [Releases](https://github.com/bitcraze/crazyradio2-firmware/releases)
 {% endrow_links %}
 {% endrow_icon_text_links %}
 
