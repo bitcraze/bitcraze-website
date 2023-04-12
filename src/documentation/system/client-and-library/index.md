@@ -14,8 +14,7 @@ Swarms of Crazyflies can be controlled through the python library, the external 
 
 There are mobile phone apps for Android and IOS that connects via BLE, mainly for manual flight.
 
-
-![System overview](/images/documentation/overview/overview_clientsoftware.jpg)
+{% img client software overview; wide; /images/documentation/overview/overview_clientsoftware.jpg %}
 
 ---
 
