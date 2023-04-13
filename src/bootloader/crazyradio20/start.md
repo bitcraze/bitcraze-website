@@ -10,5 +10,5 @@ You probably got here after inserting your {% poplink crazyradio-2-0 %} into a U
 file system that popped up. This means that your {% poplink crazyradio-2-0 %} does not yet have any firmware to run, or
 you pressed the button while inserting the radio.
 
-To install the firmware and start using the {% poplink crazyradio-2-0 %}, please follow the instructions in the
-{% id_link getting-started-crazyradio-2-0 %} tutorial.
+To install the firmware, please follow the instructions in the
+{% id_link getting-started-crazyradio-2-0#flash-new-firmware %} tutorial.
