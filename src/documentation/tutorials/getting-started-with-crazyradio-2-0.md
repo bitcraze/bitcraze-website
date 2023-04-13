@@ -47,9 +47,8 @@ Open a file browser and find the drive named **Crazyradio2**.
 {% endsi_step %}
 
 {% si_step download firmware %}
-Go to the [release page on github](https://github.com/bitcraze/crazyradio2-firmware/releases) and chose the latest release.
-Click the "Assets" heading to show the possible downloads. Finally download the file named **crazyradio2-CRPA-emulation-[version].uf2**
-by clicking it.
+Go to the [release page on github](https://github.com/bitcraze/crazyradio2-firmware/releases/latest).
+Download the file named **crazyradio2-CRPA-emulation-[version].uf2** by clicking it.
 {% endsi_step %}
 
 {% si_step install the firmware %}
