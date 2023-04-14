@@ -102,4 +102,28 @@ class TestLink < Testbase
     # Assert
     assert_html(expected, actual)
   end
+
+  def test_that_id_link_with_tag_renders
+    # Fixture
+    id = 'my_id'
+    url = '/my/url/'
+    title = "The title"
+
+    data = {'page_id' => id, 'title' => title}
+    page_mock = MiniTest::Mock.new()
+    page_mock.expect(:data, data)
+    page_mock.expect(:data, data)
+    page_mock.expect(:url, url)
+
+    @pages << page_mock
+
+    tag = '{% id_link my_id; my_tag %}'
+    expected = '<a href="/my/url/#my_tag">The title</a>'
+
+    # Test
+    actual = Liquid::Template.parse(tag).render!(nil, registers: {site: @site_mock})
+
+    # Assert
+    assert_html(expected, actual)
+  end
 end
