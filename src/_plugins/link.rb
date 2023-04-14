@@ -51,17 +51,24 @@ module Jekyll
             #
             #
             #
-            # Takes 1 argument
+            # Takes 1 or 2 arguments
             # - page id
+            # - url tag (optional)
             #
             # Example
             # {% id_link my_page_id %}
+            # {% id_link my_page_id; my-tag %}
 
             def initialize(tag_name, text, tokens)
                 super
                 params = parse_args(text)
 
                 @page_id = params[0]
+
+                @id = nil
+                if params.length > 1
+                    @id = params[1]
+                end
             end
 
             def render(context)
@@ -71,7 +78,12 @@ module Jekyll
 
                 page = pages[0]
 
-                '<a href="%1$s">%2$s</a>' % [page.url, page.data['title']]
+                url = page.url
+                if @id
+                    url =  url + '#' + @id
+                end
+
+                '<a href="%1$s">%2$s</a>' % [url, page.data['title']]
             end
         end
     end
