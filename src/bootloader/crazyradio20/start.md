@@ -11,4 +11,4 @@ file system that popped up. This means that your {% poplink crazyradio-2-0 %} do
 you pressed the button while inserting the radio.
 
 To install the firmware, please follow the instructions in the
-{% id_link getting-started-crazyradio-2-0 flash-new-firmware %} tutorial.
+{% id_link getting-started-crazyradio-2-0; flash-new-firmware %} tutorial.
