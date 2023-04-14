@@ -16,6 +16,10 @@ module Jekyll
     # {% endtab %}
     # ...
     # {% endtabgroup %}
+    #
+    # It is possible to link to a tab, that is it will open the tab and scroll the page to show it.
+    # The format of the url is mypage#tab-id-[tab title]
+    # The easiest way to get it right is to copy the link from the tab, or hover over it to see the link.
 
 
     # Use this tag block as an outer block for tags
