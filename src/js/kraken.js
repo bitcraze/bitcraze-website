@@ -93,6 +93,16 @@ var kraken = {
     kraken.addLinksToTags('h3');
   },
 
+  updateTabs: function() {
+    let targetId = window.location.hash.substring(1);
+    if (targetId.startsWith('tab-id')) {
+      $('a[href=#' + targetId + ']').tab('show');
+
+      let topOfTabs = document.getElementById(targetId).parentElement.parentElement;
+      topOfTabs.scrollIntoView();
+    }
+  },
+
   poplinkShowPopup: function(id, popupKey) {
     var container = document.getElementById("poplinkcontainer");
     if (container == null) {
@@ -157,3 +167,4 @@ var kraken = {
 window.addEventListener('click', kraken.poplinkCloseClickListener);
 window.addEventListener('keydown', kraken.poplinkCloseKeyListener);
 document.addEventListener("DOMContentLoaded", kraken.addLinksToHeaders);
+document.addEventListener("readystatechange", kraken.updateTabs);
