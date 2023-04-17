@@ -132,18 +132,17 @@ page_id: home
   </div>
 
   <div class="row section-content">
-    <a href="{% id_url lighthouse %}">
+    <a href="{% id_url product-crazyradio-2-0 %}">
       <div class="col-md-4 col-md-push-8 text-block-box text-box-product-news">
         <h3>
-        The Lighthouse Positioning System
+        The Crazyradio 2.0
         </h3>
-          <p>Proudly presenting the Lighthouse, a high precission positioning system.
-          So affordable you can have one both at home and in the lab.
+          <p>Proudly presenting the Crazyradio 2.0, the next generation radio for the Crazyflie ecosystem.
          </p>
          <p><b>Read more >>></b></p>
       </div>
       <div class="col-md-8 col-md-pull-4 no-padding">
-        <img src="/images/frontpage/two_basestations_one_crazyflie-1024x1024.jpg" alt="Quadcopters">
+        <img src="/images/crazyradio2-0/CR 2.0-dongle- 585px.jpg" alt="Crazyradio 2.0">
       </div>
     </a>
   </div>
