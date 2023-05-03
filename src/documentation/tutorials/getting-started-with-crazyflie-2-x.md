@@ -176,7 +176,7 @@ It must be *absolutely still* to do this, so it's best to put it on a level surf
 You also need to understand what the LEDs mean.
 
 * **Power on and all is good:** The blue LEDs (2 and 3) are fully lit and the
-front right LED (1) is blinking red twice every second.
+front right LED (1) is blinking red twice every second (see the video in the [Power on!](#power-on-) section above.).
 * **Power on and all is good but sensors are not yet calibrated:** The blue LEDs
 (2 and 3) are fully lit and the front right LED (1) is blinking red with 2 seconds interval.
 Put the Crazyflie 2.X on a level surface and keep it absolutely still to calibrate.
