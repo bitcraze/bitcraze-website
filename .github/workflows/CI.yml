@@ -12,6 +12,6 @@ on:
 
 jobs:
   build:
-    uses: bitcraze/workflows/.github/workflows/basic_build.yml@b59a297ee5a6105780d4ac832100f8990f243d04
+    uses: bitcraze/workflows/.github/workflows/basic_build.yml@main
     with:
       builder_image: 'bitcraze/web-builder'
