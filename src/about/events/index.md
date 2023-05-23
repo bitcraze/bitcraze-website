@@ -12,15 +12,22 @@ We will also list our [monthly developer meetings](https://github.com/bitcraze/d
 
 ## Upcoming Events
 
+* May 24th 16:00 CEST : [Aerial ROS working group meeting](https://discourse.ros.org/t/may-2023-meetings-aerial-robotics/31231/4) (remote)
 * May 29 - June 2 2023 : {% id_link icra-2023 %} (in-person)
 * Wed June 7 15:00 CEST : Developer meeting (remote)
+* Wed June 7 16:00 CEST: Aerial ROS working group meeting (remote)
 
 ## Past events
 ### 2022
 * {% id_link iros-2022 %}
 * Recorded Developer meetings
-  * Wed April 5 15:00 CEST : [Developer meeting](https://github.com/orgs/bitcraze/discussions/627) (remote)
-  * Wed May 3  15:00 CEST : [Developer meeting](https://github.com/orgs/bitcraze/discussions/689) (remote)
+  * Wed April 5 : [Developer meeting](https://github.com/orgs/bitcraze/discussions/627)
+  * Wed May 3 : [Developer meeting](https://github.com/orgs/bitcraze/discussions/689)
+* Recorded Aerial ROS meetings:
+  * Tue March 21: [First explorative meeting](https://discourse.ros.org/t/first-explorative-meeting-aerial-robotics/29955/16)
+  * Wed April 26: [Startup meeting](https://discourse.ros.org/t/start-up-meeting-aerial-robotics-wg/30869/4)
+  * Wed May 10 : [Presentation Aerostack2](https://discourse.ros.org/t/may-2023-meetings-aerial-robotics/31231/3)
+
 
 ### 2021
 * {% id_link bam-2021 %}
