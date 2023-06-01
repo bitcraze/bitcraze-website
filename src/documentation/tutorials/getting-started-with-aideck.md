@@ -25,7 +25,7 @@ To run this tutorial and set up the AI deck you will need the following:
 
 
 * Software
-  * Latest release of the cfclient (from 2022.05)
+  * Latest release of the cfclient
   * [Docker](https://www.docker.com/)
       * Install the docker according to [Ubuntu instructions](https://docs.docker.com/engine/install/ubuntu/)
 
@@ -39,12 +39,12 @@ Crazyflie (STM32 and nRF51)
 
 
 {% si_step Update Crazyflie and AIdeck firmware %}
-1. Open up the cfclient on your computer, and make sure that it is version 2022.05+ ('Help'->'About')
+1. Open up the cfclient on your computer
 1. Make sure that **only** the AI-deck is attached to the Crazyflie, with no other deck.
 1. Go to 'Connect'->'bootloader'
 1. Type the address of your crazyflie, press 'Scan' and select your crazyflie's URI. Make sure to choose 'radio://...' (not 'usb://'). Now press 'Connect'
-1. In the 'Firmware Source' section, select 2022.05 from 'Available downloads'. Make sure to select the right platform (cf2 is for the crazyflie 2.x ).
-1. Press 'Program' and wait for the STM, NRF and ESP MCUs the have been reflashed. The crazyflie will restart a couple of times, and the flashing of the ESP ('bcAI:esp deck memory') takes about 3 minutes.
+1. In the 'Firmware Source' section, select the latest release in 'Available downloads'. Make sure to select the right platform (cf2 is for the crazyflie 2.x ).
+1. Press 'Program' and wait for the STM, NRF and ESP MCUs to be re-flashed. The crazyflie will restart a couple of times, and the flashing of the ESP ('bcAI:esp deck memory') takes about 3 minutes.
 1. Once the status states 'Idle' and the Crazyflie is disconnected, double check if the flashing has succeded. In the cfclient, connect to the crazyflie and check in the console tab if you see: `ESP32: I (910) SYS: Initialized`. Also LED1 should be flashing with 2 hz.
 
 
@@ -55,11 +55,19 @@ Crazyflie (STM32 and nRF51)
 {% endsi_step %}
 
 
-{% si_step Gap8 bootloader (for the AIdeck 1.0 or AIdeck 1.1 Rev A-C) %}
+{% si_step Gap8 bootloader %}
 
-If you do not already have a bootloader on the GAP8, which would be the case if you have an AIdeck 1.0 or an AIdeck 1.1 with an older revision(Rev A, B and C), you will need to flash the bootloader on the GAP8 seperately. You can check the AIdeck version and revision on the bottom of the deck. This can only be done from a native linux computer or virtual machine (not WSL) and a jtag enabled programmer (Olimex ARM-USB-TINY-H JTAG or Jlink).
+The GAP8 bootloader handles the process of flashing firmware to the GAP8 MCU over-the-air. Due to the production process, some
+decks unfortunately have an old bootloader version when leaving the factory, and if this is the case a new bootloader
+must be flashed to the deck. The symptom of an old bootloader is that flashing of firmware via the radio **stops at 4% or 99% and does not finish**.
 
-> You only need to do this once and then you can enjoy the benefits of overair flashing.
+> Continue with the [next step in this tutorial](#flash-wifi-example) to determine if your bootloader is working. If the flashing does not finish,
+please go back to this step and flash the bootloader.
+
+You will need to flash the bootloader on the GAP8 separately. This can only be done from a native linux computer or
+virtual machine (not WSL) with a jtag enabled programmer (Olimex ARM-USB-TINY-H JTAG or Jlink).
+
+> You only need to do this once and then you can enjoy the benefits of over-the-air flashing.
 
 Clone, build and flash the bootloader with an Olimex ARM-USB-TINY-H JTAG or a Jlink using the following commands:
 
@@ -71,7 +79,7 @@ $ docker run --rm -it -v $PWD:/module/ --device /dev/ttyUSB0 --privileged -P bit
 
 Check out the [aideck flashing documentation](/documentation/repository/aideck-gap8-examples/master/getting-started/flashing/) for more detailed instructions.
 
-Once you see the following it means you were successfull
+Once you see the following it means you were successful
 ```
 --------------------------
 flasher is done!
