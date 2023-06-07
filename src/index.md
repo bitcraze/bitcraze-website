@@ -17,12 +17,12 @@ page_id: home
         </div>
       </div>
 
-      <!-- <div class="announcements">
-        <a href="/about/events/icra2023/">
-          <img src="/images/events/icra2023/icra2023.png" alt="icra 2023">
-          <p>We're going to ICRA! Read more >>></p>
+      <div class="announcements">
+        <a href="https://github.com/orgs/bitcraze/discussions/749">
+          <img src="/images/events/devmeetings/devmeeting_7june.png" alt="dev meeting">
+          <p>Monthly Dev meeting! Read more >>></p>
         </a>
-      </div > -->
+      </div >
 
     </div>
     <div class="header-col-wrapper">
