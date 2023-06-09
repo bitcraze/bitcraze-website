@@ -1,7 +1,7 @@
 ---
 layout: page-product
 title: Propellers 47-17
-page_id: product-47-17-propellers
+page_id: product-propellers-47-17
 redirects:
   - /propellers-47-17/
 ---
