@@ -11,22 +11,23 @@ This page contains events where Bitcraze will exhibite or has exhibited, describ
 We will also list our [monthly developer meetings](https://github.com/bitcraze/discussions/discussions/categories/announcements?discussions_q=is%3Aopen+category%3AAnnouncements+label%3Adev-meetings){:target="_blank"} here as well.
 
 ## Upcoming Events
-
-
-* Wed June 7 15:00 CEST: [Developer meeting - Autonomous swarm Demo](https://github.com/orgs/bitcraze/discussions/749) (remote)
-* Wed June 7 16:00 CEST: [Aerial ROS working group meeting](https://discourse.ros.org/t/june-2023-meetings-aerial-robotics/31718) (remote)
+* Wed June 21 16:00 CEST [ROS aerial meeting](https://discourse.ros.org/t/june-2023-meetings-aerial-robotics/31718)
+* Wed July 4 15:00 CEST Bitcraze Developer meeting
+* Wed July 4 16:00 CEST ROS aerial meeting
 
 ## Past events
 ### 2023
 * May 29 - June 2 2023 : {% id_link icra-2023 %}
 * Recorded Developer meetings
-  * Wed April 5 : [Developer meeting](https://github.com/orgs/bitcraze/discussions/627)
-  * Wed May 3 : [Developer meeting](https://github.com/orgs/bitcraze/discussions/689)
+  * Wed April 5 : [Loco Positioning System](https://github.com/orgs/bitcraze/discussions/627)
+  * Wed May 3 : [Safety features](https://github.com/orgs/bitcraze/discussions/689)
+  * Wed June 7 15:00 CEST: [Autonomous swarm Demo](https://github.com/orgs/bitcraze/discussions/749)
 * Recorded Aerial ROS meetings:
   * Tue March 21: [First explorative meeting](https://discourse.ros.org/t/first-explorative-meeting-aerial-robotics/29955/16)
   * Wed April 26: [Startup meeting](https://discourse.ros.org/t/start-up-meeting-aerial-robotics-wg/30869/4)
   * Wed May 10 : [Presentation Aerostack2](https://discourse.ros.org/t/may-2023-meetings-aerial-robotics/31231/3)
   * May 24 : [Discussion: Tutorials and Education](https://discourse.ros.org/t/may-2023-meetings-aerial-robotics/31231/4)
+  * Wed June 7 : [Presentation NXP Drones4Bats](https://discourse.ros.org/t/june-2023-meetings-aerial-robotics/31718)
 
 ### 2022
 * {% id_link iros-2022 %}
