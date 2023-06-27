@@ -52,6 +52,7 @@
   - {page_id: tutorials}
   - {page_id: system-overview}
   - {page_id: repository-overview}
+  - {page_id: meetings}
   - {page_id: videogallery}
 
 - title: Development

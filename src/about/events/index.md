@@ -8,12 +8,12 @@ redirects:
 
 This page contains events where Bitcraze will exhibite or has exhibited, describing demos and similar information.
 
-We will also list our [monthly developer meetings](https://github.com/bitcraze/discussions/discussions/categories/announcements?discussions_q=is%3Aopen+category%3AAnnouncements+label%3Adev-meetings){:target="_blank"} here as well.
+We will also list our [monthly developer meetings](https://github.com/orgs/bitcraze/discussions/categories/announcements?discussions_q=is%3Aopen+category%3AAnnouncements+label%3Adev-meetings){:target="_blank"} here as well.
 
 ## Upcoming Events
-* Wed June 21 16:00 CEST [ROS aerial meeting](https://discourse.ros.org/t/june-2023-meetings-aerial-robotics/31718)
+
 * Wed July 4 15:00 CEST Bitcraze Developer meeting
-* Wed July 4 16:00 CEST ROS aerial meeting
+* Wed July 4 16:00 CEST ROS Aerial meeting
 
 ## Past events
 ### 2023
@@ -28,6 +28,7 @@ We will also list our [monthly developer meetings](https://github.com/bitcraze/d
   * Wed May 10 : [Presentation Aerostack2](https://discourse.ros.org/t/may-2023-meetings-aerial-robotics/31231/3)
   * May 24 : [Discussion: Tutorials and Education](https://discourse.ros.org/t/may-2023-meetings-aerial-robotics/31231/4)
   * Wed June 7 : [Presentation NXP Drones4Bats](https://discourse.ros.org/t/june-2023-meetings-aerial-robotics/31718)
+  * Wed June 21 16:00 CEST [Swarming](https://discourse.ros.org/t/june-2023-meetings-aerial-robotics/31718/7)
 
 ### 2022
 * {% id_link iros-2022 %}
