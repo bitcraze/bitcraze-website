@@ -130,23 +130,23 @@ bridges or 0 Ohm resistors and are thus alternative connections. The
 idea is to make it possible to re-route a connection if you want to use
 two decks where the connections collide.
 
-|                                                   | UART1 | UART1 | I2C   | I2C   | STM32 IO | STM32 IO | STM32 IO | STM32 IO| UART2 | UART2 | SPI   | SPI   | SPI   | nRF51 IO | nRF51 IO |      |
-| Name                                              | RX1   |  TX1  | SDA   | SCL   | IO1      |  IO2     | IO3      | IO4     | TX2   | RX2   | SCK   | MOSI  | MISO  | NIO1     | NIO2     | PWR  |
-|---------------------------------------------------|-------|-------|-------|-------|----------|----------|----------|---------|-------|-------|-------|-------|-------|----------|----------|------|
-| **{% poplink led-ring-deck %}**                   |       |       |       |       |          |  PWM     |  PWM     |         |       |       |       |       |       |          |          | VCOM |
-| **{% poplink qi-1-2-wireless-charging-deck %}**   |       |       |       |       |          |          |          |         |       |       |       |       |       | CHG      |          | N/A  |
-| **{% poplink sd-card-deck %}**                    |       |       |       |       | *(CS)*   | *(CS)*   |  *(CS)*  | CS      |       |       | SCK   | MOSI  | MISO  |          |          | VCC  |
-| **{% poplink loco-positioning-deck %}**           | IRQ   | RST   |       |       | CS       | *(IRQ)*  | *(RST)*  |         |       |       | SCK   | MOSI  | MISO  |          |          | VCOM |
-| **{% poplink bigquad-deck %}**                    |*(RX1)*|*(TX1)*|*(SDA)*|*(SCL)*|          | **PWM**  | **PWM**  | *(IO)*  |**PWM**|**PWM**|*(ADC)*|*(ADC)*| *(IO)*|          |          | N/A  |
-| **{% poplink buzzer-deck %}**                     |       |       |       |       |          |          |          |         | PWM   | PWM   |       |       |       |          |          | N/A  |
-| **{% poplink z-ranger-deck %}, Z-ranger deck V1** |       |       | SDA   | SCL   |          |*(VL53_IO)*|          |        |       |       |       |       |       |          |          | VCC  |
-| **{% poplink flow-deck %}, Flow deck V1**         |       |       | SDA   | SCL   |          |*(VL53_IO)*|(RST/MOT/IO)|      |       |       | SCK   | MOSI  | MISO  |          |          | VCC  |
-| **{% poplink multi-ranger-deck%}**                |       |       | SDA   | SCL   |          |          |          |         |       |       |       |       |       |          |          | VCOM |
-| **{% poplink motion-capture-marker-deck %}**      |       |       |       |       |          |*(BTN/IO)*|*(BTN/IO)*|         |       |       |       |       |       |          |          | N/A  |
-| **{% poplink lighthouse-deck %}**                 | RX1   | TX1   |*(SDA)*|*(SCL)*|          |          |          |         |       |       |       |       |       |          |          | N/A  |
-| **{% poplink active-marker-deck %}**              |       |       | SDA   | SCL   |          |          |          |         |       |       |       |       |       |          |          | N/A  |
-| **{% poplink ai-deck %}**                         |*(RX1)*|*(TX1)*| SDA   | SCL   | BOOT     |          |          | RST     |*(TX2)*|*(RX2)*|       |       |       |          |          | VCOM |
-|---------------------------------------------------|-------|-------|-------|-------|----------|----------|----------|---------|-------|-------|-------|-------|-------|----------|----------|------|
+|                                                   | UART1 | UART1 | I2C   | I2C   | STM32 IO | STM32 IO     | STM32 IO | STM32 IO | UART2 | UART2 | SPI   | SPI   | SPI   | nRF51 IO | nRF51 IO |      |
+| Name                                              | RX1   |  TX1  | SDA   | SCL   | IO1      |  IO2         | IO3      | IO4      | TX2   | RX2   | SCK   | MOSI  | MISO  | NIO1     | NIO2     | PWR  |
+|---------------------------------------------------|-------|-------|-------|-------|----------|--------------|----------|----------|-------|-------|-------|-------|-------|----------|----------|------|
+| **{% poplink led-ring-deck %}**                   |       |       |       |       |          |  PWM         |  PWM     |          |       |       |       |       |       |          |          | VCOM |
+| **{% poplink qi-1-2-wireless-charging-deck %}**   |       |       |       |       |          |              |          |          |       |       |       |       |       | CHG      |          | N/A  |
+| **{% poplink sd-card-deck %}**                    |       |       |       |       | *(CS)*   | *(CS)*       |  *(CS)*  | CS       |       |       | SCK   | MOSI  | MISO  |          |          | VCC  |
+| **{% poplink loco-positioning-deck %}**           | IRQ   | RST   |       |       | CS       | *(IRQ)*      | *(RST)*  |          |       |       | SCK   | MOSI  | MISO  |          |          | VCOM |
+| **{% poplink bigquad-deck %}**                    |*(RX1)*|*(TX1)*|*(SDA)*|*(SCL)*|          | PWM          | PWM      | *(IO)*   | PWM   | PWM   |*(ADC)*|*(ADC)*| *(IO)*|          |          | N/A  |
+| **{% poplink buzzer-deck %}**                     |       |       |       |       |          |              |          |          | PWM   | PWM   |       |       |       |          |          | N/A  |
+| **{% poplink z-ranger-deck %}, Z-ranger deck V1** |       |       | SDA   | SCL   |          |*(VL53_IO)*   |          |          |       |       |       |       |       |          |          | VCC  |
+| **{% poplink flow-deck %}, Flow deck V1**         |       |       | SDA   | SCL   |          |*(RST/MOT/IO)*| CS       |          |       |       | SCK   | MOSI  | MISO  |          |          | VCC  |
+| **{% poplink multi-ranger-deck%}**                |       |       | SDA   | SCL   |          |              |          |          |       |       |       |       |       |          |          | VCOM |
+| **{% poplink motion-capture-marker-deck %}**      |       |       |       |       |          |*(BTN/IO)*    |*(BTN/IO)*|          |       |       |       |       |       |          |          | N/A  |
+| **{% poplink lighthouse-deck %}**                 | RX1   | TX1   |*(SDA)*|*(SCL)*|          |              |          |          |       |       |       |       |       |          |          | N/A  |
+| **{% poplink active-marker-deck %}**              |       |       | SDA   | SCL   |          |              |          |          |       |       |       |       |       |          |          | N/A  |
+| **{% poplink ai-deck %}**                         |*(RX1)*|*(TX1)*| SDA   | SCL   | BOOT     |              |          | RST      |*(TX2)*|*(RX2)*|       |       |       |          |          | VCOM |
+|---------------------------------------------------|-------|-------|-------|-------|----------|--------------|----------|----------|-------|-------|-------|-------|-------|----------|----------|------|
 
 Compatibility matrixes
 ----------------------
@@ -203,7 +203,7 @@ compatible.
 **Notes:**
 
 1.  SPI sharing might limit the logging speed of the uSD-card deck.
-2.  Could be patched using soldering bridges or can be supported in the future, SW update 
+2.  Could be patched using soldering bridges or can be supported in the future, SW update
 3.  The GAP8 module is connected to UART1, so if that is enabled there will be conflicts
 4.  The Micro-SD deck and AI deck both use IO4, the Micro-SD deck needs to be patched to use another IO for Chip Select
 5.  With a patch or workaround it is possible
