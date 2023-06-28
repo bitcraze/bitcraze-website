@@ -101,16 +101,19 @@ The image below shows how you should solder the wiring. The Gnd (ground), IO2, O
 
 ![led deck on top](/images/led-ring/topleddeck.png)
 
-_We did not connect IO3 on purpose since the Flow deck v2 is already using this, or else the LED deck and {% poplink flow-deck %} will conflict with each other's communication with the Crazyflie. However, the LED deck should work as well without the IO3 connected_
+_We did not connect IO3 on purpose since the Flow deck v2 is already using this, or else the LED deck and {% poplink flow-deck %} will conflict with each other's communication with the Crazyflie. However, the LED deck should work as well without the IO3 connected._
 
-The battery holder deck can be glued on the LED-deck or attached with some tape.The wiring and soldering are done a bit crude for now to clearly show how to do this, however if you would like the wiring not to be shown as clearly as it is here, this should be easy to fix with thinner wires and basic soldering skills. =)
+The battery holder deck can be glued on the LED-deck or attached with some tape. The wiring and soldering are done a bit crude for now to clearly show how to do this, however if you would like the wiring not to be shown as clearly as it is here, this should be easy to fix with thinner wires and basic soldering skills. =)
 
 _Please pay attention to that the orientation of the LED deck is now different._ We put the battery holder on the side to prevent any connections to short with the LED deck, but now you would need to indicate the new 'front' of the LED deck. On the bottom left picture we show it with a sticker.
 
 ![led deck on crazyflie](/images/led-ring/leddecktopcrazyflie.png)
 
+The final step is to modify the firmware. The GPIO pins used by a deck are registered in the deck driver to enable the system to detect conflicts. As the LED-ring is not using IO3 in this configuration,
+it should be removed from the deck driver to enable it to be used with the Flow deck (that is using IO3). Open the `ledring12.c` file and modify [this line in the deck driver](https://github.com/bitcraze/crazyflie-firmware/blob/41a9c97569e565e927a0fe3b8f032dbcdb03aa1b/src/deck/drivers/src/ledring12.c#L1250) by removing `| DECK_USING_IO_3`. Re-compile the firmware and flash it to the Crazyflie (see the {% id_link getting-started-development %}).
 
-We tested the converted LED deck with the {% poplink flow-deck %} with the CFclient and we are still receiving the values and parameters from both the deck drivers. At the moment of writing we haven't test-flown this configuration yet, but we hope to do it soon for another long exposure light painting!
+We tested the converted LED deck with the {% poplink flow-deck %} with the CFclient and we are still receiving the values and parameters from both the deck drivers.
+
 {% endrow_text %}
 {% row_links %}
 
