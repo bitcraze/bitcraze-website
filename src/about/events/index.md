@@ -12,10 +12,10 @@ We will also list our [monthly developer meetings](https://github.com/orgs/bitcr
 
 ## Upcoming Events
 
-* Wed August 16 16:00 CEST [Aerial ROS meetings](https://discourse.ros.org/t/summer-2023-meetings-aerial-robotics/32131)
-* Wed September 1 15:00 CEST Bitcraze Developer meeting
-* Wed September 1 16:00 CEST Aerial ROS meeting
-  
+* Wed August 16 16:00 CEST [Aerial ROS meeting](https://discourse.ros.org/t/summer-2023-meetings-aerial-robotics/32131)
+* Wed August 30 16:00 CEST [Aerial ROS meetings](https://discourse.ros.org/t/summer-2023-meetings-aerial-robotics/32131)
+* Wed September 6 15:00 CEST Bitcraze Developer meeting
+
 ## Past events
 ### 2023
 * May 29 - June 2 2023 : {% id_link icra-2023 %}
