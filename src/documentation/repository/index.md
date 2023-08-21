@@ -52,5 +52,6 @@ Check out the {% id_link doc-nav %} if you want to have a tree like structure of
 
 |Category| GitHub repository | Documentation | Explanation |
 |----| -----------------  |--------------| ----------------|
-|![crazyflie](/images/documentation/overview/docker.png){:width="50px"}| [Toolbelt](https://github.com/bitcraze/toolbelt) | [Docs](/documentation/repository/toolbelt/master/) | The toolbelt is a utility to run tools for testing and building of software modules.|
-|![crazyflie](/images/documentation/repository/vm_logo.png){:width="50px"}| [Virtual Machiine](https://github.com/bitcraze/bitcraze-vm) | | The virtual machine is a preprepared development environment.|
+|![toolbelt](/images/documentation/overview/docker.png){:width="50px"}| [Toolbelt](https://github.com/bitcraze/toolbelt) | [Docs](/documentation/repository/toolbelt/master/) | The toolbelt is a utility to run tools for testing and building of software modules.|
+|![crazyflie](/images/documentation/repository/vm_logo.png){:width="50px"}| [Virtual Machine](https://github.com/bitcraze/bitcraze-vm) | | The virtual machine is a preprepared development environment.|
+|![crazyflie simulation](/images/documentation/overview/crazyflie.png){:width="100px"}| [crazyflie-simulation](https://github.com/bitcraze/crazyflie-simulation) | [Docs](/documentation/repository/crazyflie-simulation/main/) | This repository contains several simulation examples and models that the users can use before flying on the real platform |

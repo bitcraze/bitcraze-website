@@ -136,3 +136,5 @@ downloadGithubRepoDoc "crazyflie2-ios-client" "master"
 downloadGithubRepoDoc "crazyflie-android-client" "master"
 
 downloadGithubRepoDoc "toolbelt" "master"
+
+downloadGithubRepoDoc "crazyflie-simulation" "main"
