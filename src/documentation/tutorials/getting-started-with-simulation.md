@@ -130,6 +130,6 @@ Note that the latter 'wall following' example from the source should directly li
 {% si_intro Further Reading %}
 
 * Visit the [Cyberbotics Webots user guide](https://cyberbotics.com/doc/guide/) to learn more about working with Webots.
-* Explore the [Crazyflie simulation repository documentation](https://www.bitcraze.io/documentation/repository/crazyflie-simulation/main/) for more explanations about the [crazyflie-simulation repository](https://github.com/bitcraze/crazyflie-simulation) and its content.
+* Explore the [Crazyflie simulation repository documentation](https://www.bitcraze.io/documentation/repository/crazyflie-simulation/main/) for more explanation about the [crazyflie-simulation repository](https://github.com/bitcraze/crazyflie-simulation) and its content.
 
 {% endsi_intro %}
