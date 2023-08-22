@@ -33,6 +33,14 @@ page_id: tutorials
 * {% id_link getting-started-stem-drone-bundle %}
 * {% id_link getting-started-stem-ranging-bundle %}
 
+## Software
+
+* {% id_link getting-started-with-simulation %}
+* Step-by-step guides crazyflie python library:
+  * [Connecting, Logging and parameters](/documentation/repository/crazyflie-lib-python/master/user-guides/sbs_connect_log_param/)
+  * [Motion commander](/documentation/repository/crazyflie-lib-python/master/user-guides/sbs_motion_commander/)
+  * [Swarm interface](/documentation/repository/crazyflie-lib-python/master/user-guides/sbs_swarm_interface/)
+
 ## Development
 
 * {% id_link getting-started-development %}
