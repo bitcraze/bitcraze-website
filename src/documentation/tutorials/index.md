@@ -33,6 +33,10 @@ page_id: tutorials
 * {% id_link getting-started-stem-drone-bundle %}
 * {% id_link getting-started-stem-ranging-bundle %}
 
+## Software
+
+* {% id_link getting-started-with-simulation %}
+
 ## Development
 
 * {% id_link getting-started-development %}
