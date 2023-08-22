@@ -120,8 +120,8 @@ You've now experienced the Webots simulator. You can continue modifying the cont
 
 You can try different examples from the source:
 
-* [Keyboard control from source](https://www.bitcraze.io/documentation/repository/crazyflie-simulation/main/user_guides/webots_wall_following/)
-* [Wall following from source](https://www.bitcraze.io/documentation/repository/crazyflie-simulation/main/user_guides/webots_wall_following/)
+* [Keyboard control from source](/documentation/repository/crazyflie-simulation/main/user_guides/webots_wall_following/)
+* [Wall following from source](/documentation/repository/crazyflie-simulation/main/user_guides/webots_wall_following/)
 
 Note that the latter 'wall following' example from the source should directly link to files in the [cflib examples](https://github.com/bitcraze/crazyflie-lib-python). This allows you to try out the exact same state machine on a real Crazyflie with a {% poplink flow-deck%} and {% poplink multi-ranger-deck%}.
 
@@ -130,6 +130,6 @@ Note that the latter 'wall following' example from the source should directly li
 {% si_intro Further Reading %}
 
 * Visit the [Cyberbotics Webots user guide](https://cyberbotics.com/doc/guide/) to learn more about working with Webots.
-* Explore the [Crazyflie simulation repository documentation](https://www.bitcraze.io/documentation/repository/crazyflie-simulation/main/) for more explanation about the [crazyflie-simulation repository](https://github.com/bitcraze/crazyflie-simulation) and its content.
+* Explore the [Crazyflie simulation repository documentation](/documentation/repository/crazyflie-simulation/main/) for more explanation about the [crazyflie-simulation repository](https://github.com/bitcraze/crazyflie-simulation) and its content.
 
 {% endsi_intro %}
