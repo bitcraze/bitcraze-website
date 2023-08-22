@@ -36,6 +36,10 @@ page_id: tutorials
 ## Software
 
 * {% id_link getting-started-with-simulation %}
+* Step-by-step guides crazyflie python library:
+  * [Connecting, Logging and parameters](https://www.bitcraze.io/documentation/repository/crazyflie-lib-python/master/user-guides/sbs_connect_log_param/)
+  * [Motion commander](https://www.bitcraze.io/documentation/repository/crazyflie-lib-python/master/user-guides/sbs_motion_commander/)
+  * [Swarm interface](https://www.bitcraze.io/documentation/repository/crazyflie-lib-python/master/user-guides/sbs_swarm_interface/)
 
 ## Development
 
