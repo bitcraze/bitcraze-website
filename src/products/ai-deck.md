@@ -29,7 +29,7 @@ Thanks to the [GAP8 IoT application processor](https://greenwaves-technologies.c
 
 The {% poplink ai-deck %} 1.1 extends the computational capabilities and will enable complex artificial intelligence-based workloads to run onboard, with the possibility to achieve fully autonomous navigation capabilities. The ESP32 adds WiFi connectivity with the possibility to stream images as well as handling control.
 
-To set up this board a compatible JTAG programmer/debugger is needed, see [GAP8 bootloader](https://www.bitcraze.io/documentation/tutorials/getting-started-with-aideck/#gap8-bootloader) in getting stated guide and [flashing](https://www.bitcraze.io/documentation/repository/aideck-gap8-examples/master/infrastructure/flashing/) documentation.
+To set up this board a compatible JTAG programmer/debugger is needed, see [GAP8 bootloader](/documentation/tutorials/getting-started-with-aideck/#gap8-bootloader) in getting stated guide and [flashing](/documentation/repository/aideck-gap8-examples/master/infrastructure/flashing/) documentation.
 
 The {% poplink ai-deck %} 1.1 version only has minor updates compared to the {% poplink ai-deck %} 1.0. The Himax camera module is now the greyscale version and the GAP8 is now revision C instead of B. For more details read [this blog post](https://www.bitcraze.io/2021/01/ai-deck-product-update/) and if the Bayer RGB version camera is wanted it can be bought stand alone here.
 
