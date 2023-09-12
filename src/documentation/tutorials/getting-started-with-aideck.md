@@ -31,6 +31,14 @@ To run this tutorial and set up the AI deck you will need the following:
 
 {% endsi_step %}
 
+{% si_step Attach the AI-deck %}
+The AI-deck can be mounted both on top and on the bottom using the provided long header pins. Either position might yield different pros & cons but for development when a JTAG cable needs to be attached the top position works best. Note though that the ESP32 antenna is a bit fragile and can be damaged during crashes. For better resilience during crashes, mount the AI-deck at the bottom, or put a peace of hot-glue as shown in the picture below.
+
+![led deck on crazyflie](/images/tutorials/getting_started_with_aideck/AI-deck-1_1-antenna-hotglue-400.jpg)
+
+{% endsi_step %}
+
+
 {% si_intro Preparing the AI deck and Crazyflie firmware %}
 The first thing to do is to make sure that your firmware is up to date,
 this includes both the AI deck firmware (ESP32 and the GAP8) as well as the
