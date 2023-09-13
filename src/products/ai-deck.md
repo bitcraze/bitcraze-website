@@ -88,7 +88,7 @@ your own AI powered applications. To be able to get going you will need to compl
 examples or get started right away developing something of your own.
 
 Although it's possible to flash the GAP8 over-the-air, it's mandatory to first flash the bootloader
-onto the GAP8 using a JTAG adapter, see [GAP8 bootloader](https://www.bitcraze.io/documentation/tutorials/getting-started-with-aideck/#gap8-bootloader) in getting stated guide and [flashing](https://www.bitcraze.io/documentation/repository/aideck-gap8-examples/master/infrastructure/flashing/) documentation.
+onto the GAP8 using a JTAG adapter, see [GAP8 bootloader](/documentation/tutorials/getting-started-with-aideck/#gap8-bootloader) in getting stated guide and [flashing](/documentation/repository/aideck-gap8-examples/master/infrastructure/flashing/) documentation.
 
 Using the [Crazyflie Packet eXchange protocol (CPX)](/documentation/repository/crazyflie-firmware/master/functional-areas/cpx/) you will be able to communicate between your host computer,
 the ESP32, the GAP8 and the STM32 on the Crazyflie. This will enable you to easily send data from the GAP8
