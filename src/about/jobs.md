@@ -14,52 +14,56 @@ If you are interested in joining the Bitcraze awesomeness, this is the page for 
 
 ### Developer - hardware and product development
 
-We are currently looking for a software developer with interests in hardware and product development to join our team.
-
-We are looking for people that share our interest for techy stuff but that also adds new areas they are passionate about.
-
-As we don’t have any fixed role at Bitcraze, your job is subject to change over the week based on the areas you have expertise and passion in.
+As an employee of Bitcraze, you will belong to a team where there are no roles set in stone and where everyone is committed to the company's development and contributes with their expertise. Responsibilities and frameworks exist, but here there are also all the possibilities for you to develop together with the company which plan to grow in the near future with a few more employees.
+As it is a smaller team, you will have the opportunity to be involved in all parts but your main duties will be linked to production and quality work and development (embedded systems).
 
 #### Your role
-Here are a few items that you’re susceptible to work with on a daily basis:
-* Hardware and supply chain management, making sure things are ready in time for the right price and shipped to the right place.
-* Technical support, such as answering questions (that range from basic tech support to detailed and complex issues) and helping members of the community.
-* Add to and improve the codebase of all the software we have, firmware, python libs and clients
-* Create future products (hardware and software) as well as improve current products
+In addition to development, approximately 30% of the role will involve:
+- Run, synchronize, and follow up production and production tests in China.
+- Review the development opportunities around logistics.
+- Follow up and be responsible for quality assurance; read out test results from production tests
+and ensure quality standards are met.
+-Drive and develop methods for production tests together with production in China.
 
 #### You as a person
 
-You should be heavily interested in hardware, software and tech in general. You are open-minded and curious about all
-aspects of running a business. Most of all, you’re a passionate person that communicates well, loves teamwork and is
-not afraid to take initiatives. We’re looking for someone who is ready to make a long term commitment, and we’re offering
-broad possibilities for someone that’s ready to take on a lot of new challenges.
+we are now looking for someone who is passionate about technology, production and quality assurance, and who would think it would be cool to develop world-leading drones
+on the market. 
+Basically, you are a university or civil engineer, and have a few years of experience in:
+- hardware development, 
+- Python, 
+- C, 
+and otherwise good ability to learn new programming languages. 
 
-As a programmer, you are fluent in C or Python, and possibly some other languages as well.
+As a larger part of the work focuses on driving and following up production in China, it's good if you have experience in electronics production, maybe production of smaller volumes, quality assurance and/or production tests.
+If you have mechatronics, electronics or mechanic experience, this is very meritorious. Furthermore, you speak and write Swedish and English fluently. Due to visa and work permit administration, it’s best if you have EU citizenship. 
+
+As a person, you have high social skills and have the ability to meet people from different background cultures. You are a prestigeless team player who has a strong sense of responsibility
+and drive things to the finish line. You are a passionate problem-solver who possesses a great deal of your own drive - which takes hold of the problems you face. You appreciate the small 
+entrepreneurial company with all that it entails, and understand the importance of commitment
+and of delivering quality.
+
+### Application process
+In this recruitment, Bitcraze collaborates with Tech Talents. Questions and applications will be
+answered and processed by the recruiter in charge Therese Bengtsson at
+therese.bengtsson@techtalents.se.
+Selection and interviews will take place continuously, but the position may be filled
+before the application deadline, so don't hesitate to apply today.
+You’re welcome to apply!
+
+Company: Bitcraze AB
+Location: Malmö
+Application deadline: 2023-10-31
+
+Contact person: Therese Bengtsson
+therese.bengtsson@techtalents.se
 
 
-### Part-time job in our warehouse
-
-Bitcraze is looking for one more team member, someone flexible that can help us with small tasks - mainly packing and shipping of orders.
-
-#### Your role
-We are looking for someone to help out in packing and shipping orders. The position is part-time, a few half days per week.
-
-#### You as a person
-You should be good at setting up a simple routine and follow it precisely. The task can be repetitive and it’s something you have to like. In exchange, you can choose your schedule - you can come in 1 or 2 hours before or after your studies, at least 3 days a week. You love independence and can take initiative.
-You have great attention to details and are reliable - it’s important to us that the customers get their orders in good condition, with care and attention taken to their package.
-You need this extra job for at least a year.
-
-You should be reliable, responsible and flexible.
-The company’s working language is English, so you should be fluent.
-Interests in technology is a plus.
-
-
-### Open application
+---
+## Open application
 If any of the [areas we work with](#areas-we-work-with) we work with seem appealing to you, we are always available for open applications as well which we can consider.
 
-
-
-## About Bitcraze
+### About Bitcraze
 
 Important to note is that we are not like most other companies.
 We don't have any titles or fixed roles, in fact we are completely
@@ -81,13 +85,6 @@ the EU due to visa and work permit administration.
 
 ### Language
 We use English in our everyday work.
-
-### Contact
-If you think you would fit in at Bitcraze and would add value to the company
-and our projects, please drop us an email at jobs@bitcraze.io and tell us who
-you are.
-
----
 
 ## Areas we work with
 

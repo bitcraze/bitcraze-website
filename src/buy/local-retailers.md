@@ -27,14 +27,12 @@ redirects:
 {% country Australia %}
 {% distributor Pakronics; https://www.pakronics.com.au/search?type=product&q=crazyflie; /images/distributors/pakronics.png %}
 {% distributor Sedonia; https://www.sedoniatech.com.au/catalogsearch/result/?q=crazyflie; /images/distributors/Sedonia-Logo.gif %}
-{% distributor Little Bird Electronics; https://littlebirdelectronics.com.au/?rf=kw&kw=bitcraze; /images/distributors/littlebird_electronics.png %}
 {% distributor The IoT Store; https://www.iot-store.com.au/pages/search-results-page?q=bitcraze; /images/distributors/iot_store_au.png %}
 
 {% country China %}
 {% distributor Seeedstudio; https://seeedstudio.taobao.com/; /images/distributors/seeed.png %}
 
 {% country India %}
-{% distributor RhydoLABZ; https://www.rhydolabz.com/advanced_search_result.html?search_in_description=1&zenid=b1621fa24d22a251847471f0d0fe0d3b&keyword=crazyflie; /images/distributors/RhydoLABZ.png %}
 {% distributor MG Super Labs; https://www.mgsuperlabs.co.in/estore/index.php?route=product/search&search=crazyflie; /images/distributors/mgsl.png %}
 {% distributor Fab.to.Lab; https://www.fabtolab.com/bitcraze-crazyflie-crazyradio; /images/distributors/FTL_logo.png %}
 
@@ -75,7 +73,6 @@ redirects:
 {% distributor Electrokit; https://www.electrokit.com/?s=crazyflie&post_type=product&lang=sv; /images/distributors/LOGO-electrokit-logo-embossed.png %}
 
 {% country Switzerland %}
-{% distributor Boxtec; https://shop.boxtec.ch/advanced_search_result.php?keywords=crazyflie&x=-1126&y=-15; /images/distributors/boxtec-logo.png %}
 {% distributor Maker shop; https://www.maker-shop.ch/catalogsearch/result/?q=crazyflie; /images/distributors/maker-shop.png %}
 
 {% country Turkey %}
