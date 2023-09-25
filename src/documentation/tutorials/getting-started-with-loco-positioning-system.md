@@ -177,6 +177,8 @@ with the values currently stored in the anchors.
 {% img click get from anchors; medium; /images/tutorials/getting_started_with_lps/Click get from anchors.png %}
 {% img enter anchor positions; medium ; /images/tutorials/getting_started_with_lps/Enter anchor positions.png %}
 
+Anchors that do not already have a position stored will not appear in the list, in this case you have add them manually by clicking the __"Add anchor"__ button.
+
 Enter the positions (coordinates) of the anchors in your system. Note: measurements in meters.
 
 When you enter a new value, the box turns red to indicate that it differs from the current value stored in the anchor.
