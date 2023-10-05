@@ -73,7 +73,7 @@ must be flashed to the deck. The symptom of an old bootloader is that flashing o
 please go back to this step and flash the bootloader.
 
 You will need to flash the bootloader on the GAP8 separately. This can only be done from a native linux computer or
-virtual machine (not WSL) with a jtag enabled programmer (Olimex ARM-USB-TINY-H JTAG or Jlink).
+virtual machine (not WSL) with a [jtag enabled programmer](/documentation/repository/aideck-gap8-examples/master/infrastructure/jtag-programmer/) (Olimex ARM-USB-TINY-H JTAG or Jlink).
 
 > You only need to do this once and then you can enjoy the benefits of over-the-air flashing.
 
