@@ -25,7 +25,7 @@ Artificial Intelligence in a Nutshell
 {% row_text %}
 Super-edge-computing on a 30 gram flying platform is now available!
 
-Thanks to the [GAP8 IoT application processor](https://greenwaves-technologies.com/ai_processor_gap8/) from [GreenWaves Technologies](https://greenwaves-technologies.com/ai_processor_gap8/) and the ULP camera, the Crazyflie is able to capture, analyze and classify its environment, as previously presented by [ETH Zurich](https://ethz.ch/en.html) on the initial [PULP-Shield PCB design from IIS-ETHZ](https://arxiv.org/abs/1905.04166). This lightweight and low-power combination opens up many research and development areas for the micro-sized Crazyflie 2.X UAV.
+Thanks to the [GAP8 IoT application processor](https://greenwaves-technologies.com/gap8_mcu_ai/) from [GreenWaves Technologies](https://greenwaves-technologies.com/) and the ULP camera, the Crazyflie is able to capture, analyze and classify its environment, as previously presented by [ETH Zurich](https://ethz.ch/en.html) on the initial [PULP-Shield PCB design from IIS-ETHZ](https://arxiv.org/abs/1905.04166). This lightweight and low-power combination opens up many research and development areas for the micro-sized Crazyflie 2.X UAV.
 
 The {% poplink ai-deck %} 1.1 extends the computational capabilities and will enable complex artificial intelligence-based workloads to run onboard, with the possibility to achieve fully autonomous navigation capabilities. The ESP32 adds WiFi connectivity with the possibility to stream images as well as handling control.
 
@@ -67,7 +67,7 @@ The {% poplink ai-deck %} can be mounted on top or on the bottom of the Crazyfli
 
 The {% poplink ai-deck %} ESP32 antenna is a bit fragile and can be damaged during crashes. For better resilience, mount the AI-deck at the bottom, or put a peace of hot-glue as shown in the picture below.
 
-![led deck on crazyflie](/images/tutorials/getting_started_with_aideck/AI-deck-1_1-antenna-hotglue-400.jpg)
+![AI deck wifi antenna](/images/tutorials/getting_started_with_aideck/AI-deck-1_1-antenna-hotglue-400.jpg)
 
 To get up and running with the deck see our [getting started guide](/documentation/tutorials/getting-started-with-aideck/)
 after which you will be able to either try out the pre-made examples or start making your
