@@ -13,15 +13,6 @@ at <a href="mailto:contact@bitcraze.io">contact@bitcraze.io</a> to discuss what
 you want to do.
 
 
-### Camera drone
-
-Find and add a camera to the Crazyflie (ideally unmodified) for onboard image
-processing. Possible to combine with vision algorithms like Slam or communication
-theory to find ways to transfer images/video over the limited radio bandwith
-that is available.
-
-***Electronics, firmware, signal processing***
-
 ### Support for swarming
 
 When flying bigger swarms of Crazyflies, the infrastructure starts to become a
@@ -60,3 +51,16 @@ This could also be extended to managing situation when hardware (a motor) is
 failing.
 
 ***Signal processing, control theory, software***
+
+### Improvements to lighthouse positioning system
+
+Investigate and come up with solutions to edge cases that will improve robustness of the system such as handling reflections or interference. Investigate and improve calibration or find ways to implement the technology an a simpler hardware system.
+
+***Signal processing, algorithms, software, hardware***
+
+## Improvements to Loco positioning system
+
+Our UWB based positioning system has a many potential improvement or innovation areas. Develop a automatic node location system to automate the setup process or that continuously improves it. Come up with a new fancy ranging protocol or just dig in to the ranging errors and see what opens up there.
+
+***Signal processing, algorithms, software***
+
