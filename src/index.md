@@ -20,7 +20,7 @@ page_id: home
       <div class="announcements">
         <a href="https://www.youtube.com/watch?v=gZPZEoVGvA4">
           <p>Watch the Halloween special here >>></p>
-          <img src="images/frontpage/night-of-the-flying-dead.jpg">
+          <img src="images/frontpage/night-of-the-flying-dead.jpg" alt="Night of the flying dead">
         </a>
       </div >
 
