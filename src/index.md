@@ -17,12 +17,12 @@ page_id: home
         </div>
       </div>
 
-      <!-- <div class="announcements">
-        <a href="https://github.com/orgs/bitcraze/discussions/749">
-          <img src="/images/events/devmeetings/devmeeting_7june.png" alt="dev meeting">
-          <p>Monthly Dev meeting! Read more >>></p>
+      <div class="announcements">
+        <a href="https://www.youtube.com/watch?v=gZPZEoVGvA4">
+          <p>Watch the Halloween special here >>></p>
+          <img src="images/frontpage/night-of-the-flying-dead.jpg">
         </a>
-      </div > -->
+      </div >
 
     </div>
     <div class="header-col-wrapper">

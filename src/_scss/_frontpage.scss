@@ -37,7 +37,7 @@
 
     //(≥768px)
     @media (min-width: $screen-sm-min) {
-      background-image: url("/images/frontpage/front.jpg");
+      background-image: url("/images/frontpage/halloween-front.jpg");
       background-repeat-y: no-repeat;
     }
     @media (min-width: $screen-md-min) {
@@ -248,7 +248,7 @@
       //992px
       @media (min-width: $screen-md-min) {
       align-self: flex-end;
-      background: #4c4cd2;
+      background: #cb6f19;
       width: 30%;
       margin-right: 2%;
 
