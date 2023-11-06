@@ -12,56 +12,54 @@ If you are interested in joining the Bitcraze awesomeness, this is the page for 
 
 ## Open Roles
 
-### Developer - hardware and product development
+### Production/QA coordinator with embedded experience
 
 As an employee of Bitcraze, you will belong to a team where there are no roles set in stone and where everyone is committed to the company's development and contributes with their expertise. Responsibilities and frameworks exist, but here there are also all the possibilities for you to develop together with the company which plan to grow in the near future with a few more employees.
-As it is a smaller team, you will have the opportunity to be involved in all parts but your main duties will be linked to production and quality work and development (embedded systems).
+As it is a smaller team, you will have the opportunity to be involved in all parts but your main duties will be linked to production and quality work.
 
 #### Your role
-In addition to development, approximately 30% of the role will involve:
+Approximately 30% of the role will involve:
 - Run, synchronize, and follow up production and production tests in China.
 - Review the development opportunities around logistics.
-- Follow up and be responsible for quality assurance; read out test results from production tests
-and ensure quality standards are met.
--Drive and develop methods for production tests together with production in China.
+- Follow up and be responsible for quality assurance; read out test results from production tests and ensure quality standards are met.
+- Drive and develop methods for production tests together with production in China.
+
+The remaining time is more flexible and we would like you to be able to contribute to a few areas such as
+- Running and continue to developing our test lab
+- Coordinating potential external projects
+- Strengthening our presence in China
+- Driving certification
+- Developing hardware
+- Developing software
+- Handling support
 
 #### You as a person
 
-we are now looking for someone who is passionate about technology, production and quality assurance, and who would think it would be cool to develop world-leading drones
-on the market. 
-Basically, you are a university or civil engineer, and have a few years of experience in:
-- hardware development, 
-- Python, 
-- C, 
-and otherwise good ability to learn new programming languages. 
+We are now looking for someone who is passionate about technology, production and quality assurance, and who would think it would be cool to develop world-leading drones on the market. 
+Basically, you are a university or civil engineer, and have basic knowledge in:
+- Embedded products 
+- Electronics 
+- Programming 
 
 As a larger part of the work focuses on driving and following up production in China, it's good if you have experience in electronics production, maybe production of smaller volumes, quality assurance and/or production tests.
 If you have mechatronics, electronics or mechanic experience, this is very meritorious. Furthermore, you speak and write Swedish and English fluently. Due to visa and work permit administration, it’s best if you have EU citizenship. 
 
-As a person, you have high social skills and have the ability to meet people from different background cultures. You are a prestigeless team player who has a strong sense of responsibility
-and drive things to the finish line. You are a passionate problem-solver who possesses a great deal of your own drive - which takes hold of the problems you face. You appreciate the small 
-entrepreneurial company with all that it entails, and understand the importance of commitment
-and of delivering quality.
+As a person, you have high social skills and have the ability to meet people from different background cultures. You are a prestigeless team player who has a strong sense of responsibility and drive things to the finish line. You are a passionate problem-solver who possesses a great deal of your own drive - which takes hold of the problems you face. You appreciate the small entrepreneurial company with all that it entails, and understand the importance of commitment and of delivering quality.
 
 ### Application process
-In this recruitment, Bitcraze collaborates with Tech Talents. Questions and applications will be
-answered and processed by the recruiter in charge Therese Bengtsson at
-therese.bengtsson@techtalents.se.
-Selection and interviews will take place continuously, but the position may be filled
-before the application deadline, so don't hesitate to apply today.
-You’re welcome to apply!
+In this recruitment, Bitcraze collaborates with Tech Talents. Questions and applications will be answered and processed by the recruiter in charge Therese Bengtsson at therese.bengtsson@techtalents.se. Selection and interviews will take place continuously, but the position may be filled before the application deadline, so don't hesitate to apply today. You’re welcome to apply!
 
-Company: Bitcraze AB
-Location: Malmö
-Application deadline: 2023-10-31
+**Company:** Bitcraze AB
 
-Contact person: Therese Bengtsson
-therese.bengtsson@techtalents.se
+**Location:** Malmö 
 
+**Application deadline:** 2023-11-30
+
+**Contact person:** Therese Bengtsson (therese.bengtsson@techtalents.se)
 
 ---
 ## Open application
-If any of the [areas we work with](#areas-we-work-with) we work with seem appealing to you, we are always available for open applications as well which we can consider.
+If any of the [areas we work with](#areas-we-work-with) seem appealing to you, we are always available for open applications as well which we can consider.
 
 ### About Bitcraze
 
