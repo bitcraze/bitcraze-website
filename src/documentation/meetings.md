@@ -10,6 +10,9 @@ redirects:
 Every first Wednesday of the month we have the Bitcraze Developer meeting, talking about different topics every time. These developer meetings will be announced [on our discussion platform](https://github.com/orgs/bitcraze/discussions/categories/announcements?discussions_q=is%3Aopen+category%3AAnnouncements+label%3Adev-meetings) and our {% id_link events %} page
 
 {% media_gallery %}
+
+{% gallery_youtube w3WlOf0hDwc; 16by9; December 2023 - Flow deck %}
+{% gallery_youtube k6x2lbcUwn4; 16by9; November 2023 - Simulation plans %}
 {% gallery_youtube P17C6305E1w; 16by9; October 2023 - Deck Complexity %}
 {% gallery_youtube JwesV3hOFlw; 16by9; September 2023 - Crazyflie Lib %}
 {% gallery_youtube yneriZeUwqY; 16by9; July 2023 - Webots Crazyflie Simulator %}
