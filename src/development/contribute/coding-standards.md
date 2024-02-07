@@ -167,6 +167,14 @@ uint32_t calls;
 ## Coding standard for Python
 We aim to follow [PEP-8](https://peps.python.org/pep-0008/) and [PEP-257](https://peps.python.org/pep-0257/) as much as possible.
 
+## Naming conventions
+We aim to use the following name convention in our python code:
+* Class names: CapsWords (like `HighLevelCommander:`)
+* Function names: snake_case (like `send_positioning()`)
+* Variable names: snake_case (like `lh_v1_vert_angle`)
+
+In the cflib we have a lot of legacy code that use different conventions, but all new code should use the one defined above
+
 ### Documentation
 For documentation doc strings are used.
 
