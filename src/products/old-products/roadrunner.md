@@ -4,11 +4,10 @@ title: Roadrunner
 page_id: product-roadrunner
 redirects:
   - /roadrunner/
+  - /products/roadrunner/
 ---
 
 {% datasheet_product_status roadrunner %}
-
-{% buy_online https://store.bitcraze.io/collections/positioning/products/roadrunner %}
 
 {% product_img Roadrunner; narrow;
 /images/roadrunner/roadrunner_585px.jpg
