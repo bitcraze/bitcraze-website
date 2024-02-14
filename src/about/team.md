@@ -19,12 +19,10 @@ Growing up in France and all over the world, Barbara has always been interested 
 Even though she has no formal education in coding or electronics, as a self-proclaimed geek she has a deep interest in technology and especially in videogames. And when she's not learning to code, she loves to read, knit, and often bakes, to the delight of the other team members!
 "%}
 
+{% include teammember.html member="Kimberly McGuire" role="Developer" img="/images/team/kimberly_mcguire_temp_400px.jpg" bio="
+For about 7 years, Kimberly has immersed herself in all things robotics. First she started out with bio-inspired robotics for her masters, to finally making tiny quadcopters fly autonomously for her PhD. That is how she discovered the Crazyflie and loved it so much that she decided to work for Bitcraze. She also has a creative side to her, as she initially started out studying industrial design engineering for her bachelors. Now she still believes that it is important to make products functional and easy to use, and try to visualize everything she is working on.
 
-
-{% include teammember.html member="Kristoffer Richardsson" role="Developer" img="/images/team/kristoffer_richardsson_400px.jpg" bio="
-With a passion for technology, Kristoffer has been working with various aspects of software development for over 20 years. He has worked on all levels, from shifting bits in low level firmware to the architecture of financial systems. In addition to coding, Kristoffer has also a strong interest in how we work, what makes a team tick, what makes us happy, efficient and create fantastic things.
-
-He is a strong believer in lean thinking, the agile movement as well as self organization and he is always looking for improvements. To get a break from software development and logical thinking, Kristoffer can be seen (and heard) from time to time in his tap shoes in the flight lab. He has taken on the task of spreading the art of tap dance to the rest of the company. He also likes kayaking, skiing, climbing and other outdoor activities, away from the city.
+Kimberly does not want to call herself a specialist but rather an all-rounder, with the capability to dive into problems if needed. she wants to know the entire system before trying to get the Crazyflies to work in the real world. In her spare time, she likes playing tennis, eating Japanese food, watching movies and playing video games.
 "%}
 
 {% include teammember.html member="Marcus Eliasson" role="Developer & Co-founder" img="/images/team/marcus_eliasson_400px.jpg" bio="
@@ -35,10 +33,10 @@ After a few years of embedded systems consulting Marcus founded Bitcraze togethe
 Being an all-rounder Marcus does most things from high level scripting down to low level firmware and hardware design. His favorite thing is being involved in lots of different areas and making a complete system work.
 "%}
 
-{% include teammember.html member="Kimberly McGuire" role="Developer" img="/images/team/kimberly_mcguire_temp_400px.jpg" bio="
-For about 7 years, Kimberly has immersed herself in all things robotics. First she started out with bio-inspired robotics for her masters, to finally making tiny quadcopters fly autonomously for her PhD. That is how she discovered the Crazyflie and loved it so much that she decided to work for Bitcraze. She also has a creative side to her, as she initially started out studying industrial design engineering for her bachelors. Now she still believes that it is important to make products functional and easy to use, and try to visualize everything she is working on.
+{% include teammember.html member="Rik Bouwmeester" role="Developer" img="/images/team/rik_bouwmeester_400px.jpg" bio="
+Rik's journey into the world of development took flight during his studies in Aerospace Engineering at Delft University of Technology. While fascinated by aerospace, Rik's true passion for programming emerged, prompting him to explore projects with more immediate feedback—a departure from the lengthy development cycles often associated with aerospace projects. This inclination towards tangible outcomes led him to delve into the world of quadcopters.
 
-Kimberly does not want to call herself a specialist but rather an all-rounder, with the capability to dive into problems if needed. she wants to know the entire system before trying to get the Crazyflies to work in the real world. In her spare time, she likes playing tennis, eating Japanese food, watching movies and playing video games.
+His fascination for autonomy is mirrored in his approach to flying drones; several years passed before he first used a manual controller. Outside the realm of technology, Rik finds solace in rock climbing, cooking, and exploring diverse musical genres while playing various instruments.
 "%}
 
 {% include teammember.html member="Tobias Antonsson" role="Developer & Co-founder" img="/images/team/tobias_antonsson_400px.jpg" bio="
