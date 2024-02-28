@@ -200,6 +200,7 @@ compatible.
  | **{% poplink ai-deck %}**                          | yes      | yes        | *4       | *5               | *6       | *6     | yes      | yes     | yes          | yes               | *3           | yes           | -       |
  |----------------------------------------------------|----------|------------|----------|------------------|----------|--------|----------|---------|--------------|-------------------|--------------|---------------|---------|
 
+<!--                                                  | led-ring | qi charg   | sd-card  | loco-positioning | bigquad  | buzzer | z-ranger | flow    | multi-ranger | mocap marker deck | lighthouse   | active marker | ai-deck -->
 **Notes:**
 
 1.  SPI sharing might limit the logging speed of the uSD-card deck.
