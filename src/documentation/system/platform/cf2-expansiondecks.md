@@ -188,16 +188,16 @@ compatible.
  | **{% poplink led-ring-deck %}**                    | -        |            | yes      | yes              |          | yes    |          |         | yes          | yes               | yes          | yes           | yes     |
  | **{% poplink qi-1-2-wireless-charging-deck %}**    |          | -          | yes      | yes              | yes      | yes    |          |         | yes          | yes               | yes          | yes           | yes     |
  | **{% poplink sd-card-deck %}**                     | yes      | yes        | -        | yes *1           | yes      | yes    | yes      | yes *1  | yes          | yes               | yes          | yes           | *4      |
- | **{% poplink loco-positioning-deck %}**            | yes      | yes        | yes *1   | -                | yes      | yes    | yes      | yes     | yes          | yes               | *2           | yes           | no*5    |
- | **{% poplink bigquad-deck %}**                     |          | yes        | yes      | yes              | -        |        | yes      |         | yes          | yes               | *2           | yes           | yes     |
- | **{% poplink buzzer-deck %}**                      | yes      | yes        | yes      | yes              |          | -      | yes      | yes     | yes          | yes               | yes          | yes           | yes     |
+ | **{% poplink loco-positioning-deck %}**            | yes      | yes        | yes *1   | -                | yes      | yes    | yes      | yes     | yes          | yes               | *2           | yes           | *5      |
+ | **{% poplink bigquad-deck %}**                     |          | yes        | yes      | yes              | -        |        | yes      |         | yes          | yes               | *2           | yes           | *6      |
+ | **{% poplink buzzer-deck %}**                      | yes      | yes        | yes      | yes              |          | -      | yes      | yes     | yes          | yes               | yes          | yes           | *6      |
  | **{% poplink z-ranger-deck %}, Z-ranger V1**       |          |            | yes      | yes              | yes      | yes    | -        |         | yes          | yes               | yes          | yes           | yes     |
  | **{% poplink flow-deck %}, Flow deck V1**          |          |            | yes *1   | yes              |          | yes    |          | -       | yes          | yes               | yes          | yes           | yes     |
  | **{% poplink multi-ranger-deck%}**                 | yes      | yes        | yes      | yes              | yes      | yes    | yes      | yes     | -            | yes               | yes          | yes           | yes     |
  | **{% poplink motion-capture-marker-deck %}**       | yes      | yes        | yes      | yes              | yes      | yes    | yes      | yes     | yes          | -                 | yes          |               | yes     |
  | **{% poplink lighthouse-deck %}**                  | yes      | yes        | yes      | *2               | *2       | yes    | yes      | yes     | yes          | yes               | -            |               | *3      |
  | **{% poplink active-marker-deck %}**               | yes      | yes        | yes      | yes              | yes      | yes    | yes      | yes     | yes          |                   |              | -             | yes     |
- | **{% poplink ai-deck %}**                          | yes      | yes        | *4       | no*5             | yes      | yes    | yes      | yes     | yes          | yes               | *3           | yes           | -       |
+ | **{% poplink ai-deck %}**                          | yes      | yes        | *4       | *5               | *6       | *6     | yes      | yes     | yes          | yes               | *3           | yes           | -       |
  |----------------------------------------------------|----------|------------|----------|------------------|----------|--------|----------|---------|--------------|-------------------|--------------|---------------|---------|
 
 **Notes:**
@@ -207,3 +207,4 @@ compatible.
 3.  The GAP8 module is connected to UART1, so if that is enabled there will be conflicts
 4.  The Micro-SD deck and AI deck both use IO4, the Micro-SD deck needs to be patched to use another IO for Chip Select
 5.  With a patch or workaround it is possible
+6.  CPX uses UART2 to communicate with the ESP32 by default, if that is enabled there will be conflicts.
