@@ -145,7 +145,7 @@ two decks where the connections collide.
 | **{% poplink motion-capture-marker-deck %}**      |        |       |       |       |          |*(BTN/IO)*    |*(BTN/IO)*|            |       |       |       |       |       |          |          | N/A  |
 | **{% poplink lighthouse-deck %}**                 | RX1    | TX1   |*(SDA)*|*(SCL)*|          |              |          |            |       |       |       |       |       |          |          | N/A  |
 | **{% poplink active-marker-deck %}**              |        |       | SDA   | SCL   |          |              |          |            |       |       |       |       |       |          |          | N/A  |
-| **{% poplink ai-deck %}**                         |*(RX1)* |*(TX1)*| SDA   | SCL   | BOOT     |              |          | RST        |*(TX2)*|*(RX2)*|       |       |       |          |          | VCOM |
+| **{% poplink ai-deck %}**                         | RX1    | TX1   | SDA   | SCL   | BOOT     |              |          | RST        | TX2   | RX2   |       |       |       |          |          | VCOM |
 |---------------------------------------------------|--------|-------|-------|-------|----------|--------------|----------|------------|-------|-------|-------|-------|-------|----------|----------|------|
 
 Compatibility matrixes
