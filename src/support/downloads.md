@@ -29,6 +29,9 @@ for the latest version. You will also find older versions there if you need them
 
 Please consult the [getting started tutorial for installation instructions for the VM](/documentation/tutorials/getting-started-with-crazyflie-2-x/#inst-virtualmachine)
 
+**Note**: Since the VM is an AMD64 install of Linux, it *does not work* on Apple-silicon Mac (M1/2/... processors).
+On an apple silicon mac you need to install the tools natively.
+
 ## Crazyflie ROS 2 client CrazySwarm
 
 This is an external project. Please consult [the Crazyswarm2 website](https://imrclab.github.io/crazyswarm2/) for download and installation instructions.

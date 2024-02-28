@@ -256,6 +256,10 @@ We have created a virtual machine (VM) to help you get into the air as quickly a
 The VM has all software you need for flight and development pre-installed. Since
 it runs on a virtual machine it should work the same way on most operating systems
 and this is also why our documentation is based on the virtual machine.
+
+**Note**: Since the VM is an AMD64 install of Linux, it *does not work* on Apple-silicon Mac (M1/2/... processors).
+On an apple silicon mac you need to install the tools natively.
+
 {% endtab %}
 {% tab Windows/Mac/Linux %}
 The supported way to install and run the client on a computer currently is to install

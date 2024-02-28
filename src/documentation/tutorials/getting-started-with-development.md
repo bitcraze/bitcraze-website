@@ -28,6 +28,9 @@ For this tutorial you need:
 
 For details on how to install the VM and Crazyradio see
 [Getting started with the Crazyflie 2.X]({% id_url getting-started-crazyflie-2; inst-comp %}).
+
+**Note**: Since the VM is an AMD64 install of Linux, it *does not work* on Apple-silicon Mac (M1/2/... processors).
+On an apple silicon mac you need to install the tools natively.
 {% endsi_step %}
 
 {% si_step start the VM %}
