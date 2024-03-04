@@ -201,6 +201,248 @@ compatible.
  |----------------------------------------------------|----------|------------|----------|------------------|----------|--------|----------|---------|--------------|-------------------|--------------|---------------|---------|
 
 <!--                                                  | led-ring | qi charg   | sd-card  | loco-positioning | bigquad  | buzzer | z-ranger | flow    | multi-ranger | mocap marker deck | lighthouse   | active marker | ai-deck -->
+
+<table border="1x solid black">
+  <tr>
+    <th></th>
+    <th>{% poplink led-ring-deck %}</th>
+    <th>{% poplink qi-1-2-wireless-charging-deck %}</th>
+    <th>{% poplink sd-card-deck %}</th>
+    <th>{% poplink loco-positioning-deck %}</th>
+    <th>{% poplink bigquad-deck %}</th>
+    <th>{% poplink buzzer-deck %}</th>
+    <th>{% poplink z-ranger-deck %}, Z-ranger V1</th>
+    <th>{% poplink flow-deck %}, Flow deck V1</th>
+    <th>{% poplink multi-ranger-deck%}</th>
+    <th>{% poplink motion-capture-marker-deck %}</th>
+    <th>{% poplink lighthouse-deck %}</th>
+    <th>{% poplink active-marker-deck %}</th>
+    <th>{% poplink ai-deck %}</th>
+  </tr>
+
+  <tr><!--led-ring-deck-->
+    <th>{% poplink led-ring-deck %}</th>
+    <!--led-ring-deck-->                <th style="background-color:lightgray">-</th>
+    <!--qi-1-2-wireless-charging-deck--><th style="background-color:red"></th>
+    <!--sd-card-deck-->                 <th style="background-color:green"></th>
+    <!--loco-positioning-deck-->        <th style="background-color:green"></th>
+    <!--bigquad-deck-->                 <th style="background-color:red"></th>
+    <!--buzzer-deck-->                  <th style="background-color:green"></th>
+    <!--z-ranger-deck %}, Z-ranger V--> <th style="background-color:red"></th>
+    <!--flow-deck %}, Flow deck V-->    <th style="background-color:red"> </th>
+    <!--multi-ranger-dec-->             <th style="background-color:green"></th>
+    <!--motion-capture-marker-deck-->   <th style="background-color:green"></th>
+    <!--lighthouse-deck-->              <th style="background-color:green"></th>
+    <!--active-marker-deck-->           <th style="background-color:green"></th>
+    <!--ai-deck-->                      <th style="background-color:green"></th>
+  </tr>
+
+  <tr><!--qi-1-2-wireless-charging-deck-->
+    <th>{% poplink qi-1-2-wireless-charging-deck %}</th>
+    <!--led-ring-deck-->                <th style="background-color:red"></th>
+    <!--qi-1-2-wireless-charging-deck--><th style="background-color:lightgray">-</th>
+    <!--sd-card-deck-->                 <th style="background-color:green"></th>
+    <!--loco-positioning-deck-->        <th style="background-color:green"></th>
+    <!--bigquad-deck-->                 <th style="background-color:green"></th>
+    <!--buzzer-deck-->                  <th style="background-color:green"></th>
+    <!--z-ranger-deck %}, Z-ranger V--> <th style="background-color:red"></th>
+    <!--flow-deck %}, Flow deck V-->    <th style="background-color:red"></th>
+    <!--multi-ranger-dec-->             <th style="background-color:green"></th>
+    <!--motion-capture-marker-deck-->   <th style="background-color:green"></th>
+    <!--lighthouse-deck-->              <th style="background-color:green"></th>
+    <!--active-marker-deck-->           <th style="background-color:green"></th>
+    <!--ai-deck-->                      <th style="background-color:green"></th>
+  </tr>
+
+  <tr><!--sd-card-deck-->
+    <th>{% poplink sd-card-deck %}</th>
+    <!--led-ring-deck-->                <th style="background-color:green"></th>
+    <!--qi-1-2-wireless-charging-deck--><th style="background-color:green"></th>
+    <!--sd-card-deck-->                 <th style="background-color:lightgray">-</th>
+    <!--loco-positioning-deck-->        <th style="background-color:green"><sup>1</sup></th>
+    <!--bigquad-deck-->                 <th style="background-color:green"></th>
+    <!--buzzer-deck-->                  <th style="background-color:green"></th>
+    <!--z-ranger-deck %}, Z-ranger V--> <th style="background-color:green"></th>
+    <!--flow-deck %}, Flow deck V-->    <th style="background-color:green"><sup>1</sup></th>
+    <!--multi-ranger-dec-->             <th style="background-color:green"></th>
+    <!--motion-capture-marker-deck-->   <th style="background-color:green"></th>
+    <!--lighthouse-deck-->              <th style="background-color:green"></th>
+    <!--active-marker-deck-->           <th style="background-color:green"></th>
+    <!--ai-deck-->                      <th style="background-color:orange"><sup>4</sup> </th>
+  </tr>
+
+  <tr><!--loco-positioning-deck-->
+    <th>{% poplink loco-positioning-deck %}</th>
+    <!--led-ring-deck-->                <th style="background-color:green"></th>
+    <!--qi-1-2-wireless-charging-deck--><th style="background-color:green"></th>
+    <!--sd-card-deck-->                 <th style="background-color:green"><sup>1</sup></th>
+    <!--loco-positioning-deck-->        <th style="background-color:lightgray">-</th>
+    <!--bigquad-deck-->                 <th style="background-color:green"></th>
+    <!--buzzer-deck-->                  <th style="background-color:green"></th>
+    <!--z-ranger-deck %}, Z-ranger V--> <th style="background-color:green"></th>
+    <!--flow-deck %}, Flow deck V-->    <th style="background-color:green"></th>
+    <!--multi-ranger-dec-->             <th style="background-color:green"></th>
+    <!--motion-capture-marker-deck-->   <th style="background-color:green"></th>
+    <!--lighthouse-deck-->              <th style="background-color:orange"><sup>2</sup> </th>
+    <!--active-marker-deck-->           <th style="background-color:green"></th>
+    <!--ai-deck-->                      <th style="background-color:orange"><sup>5</sup> </th>
+  </tr>
+
+  <tr><!--bigquad-deck-->
+    <th>{% poplink bigquad-deck %}</th>
+    <!--led-ring-deck-->                <th style="background-color:red"></th>
+    <!--qi-1-2-wireless-charging-deck--><th style="background-color:green"></th>
+    <!--sd-card-deck-->                 <th style="background-color:green"></th>
+    <!--loco-positioning-deck-->        <th style="background-color:green"></th>
+    <!--bigquad-deck-->                 <th style="background-color:lightgray">-</th>
+    <!--buzzer-deck-->                  <th style="background-color:red"></th>
+    <!--z-ranger-deck %}, Z-ranger V--> <th style="background-color:green"></th>
+    <!--flow-deck %}, Flow deck V-->    <th style="background-color:red"></th>
+    <!--multi-ranger-dec-->             <th style="background-color:green"></th>
+    <!--motion-capture-marker-deck-->   <th style="background-color:green"></th>
+    <!--lighthouse-deck-->              <th style="background-color:orange"><sup>2</sup> </th>
+    <!--active-marker-deck-->           <th style="background-color:green"></th>
+    <!--ai-deck-->                      <th style="background-color:green"></th>
+  </tr>
+
+  <tr><!--buzzer-deck-->
+    <th>{% poplink buzzer-deck %}</th>
+    <!--led-ring-deck-->                <th style="background-color:green"></th>
+    <!--qi-1-2-wireless-charging-deck--><th style="background-color:green"></th>
+    <!--sd-card-deck-->                 <th style="background-color:green"></th>
+    <!--loco-positioning-deck-->        <th style="background-color:green"></th>
+    <!--bigquad-deck-->                 <th style="background-color:red"></th>
+    <!--buzzer-deck-->                  <th style="background-color:lightgray">-</th>
+    <!--z-ranger-deck %}, Z-ranger V--> <th style="background-color:green"></th>
+    <!--flow-deck %}, Flow deck V-->    <th style="background-color:green"></th>
+    <!--multi-ranger-dec-->             <th style="background-color:green"></th>
+    <!--motion-capture-marker-deck-->   <th style="background-color:green"></th>
+    <!--lighthouse-deck-->              <th style="background-color:green"></th>
+    <!--active-marker-deck-->           <th style="background-color:green"></th>
+    <!--ai-deck-->                      <th style="background-color:green"></th>
+  </tr>
+
+  <tr><!--z-ranger-deck %}, Z-ranger V-->
+    <th>{% poplink z-ranger-deck %}, Z-ranger V1</th>
+    <!--led-ring-deck-->                <th style="background-color:red"></th>
+    <!--qi-1-2-wireless-charging-deck--><th style="background-color:red"></th>
+    <!--sd-card-deck-->                 <th style="background-color:green"></th>
+    <!--loco-positioning-deck-->        <th style="background-color:green"></th>
+    <!--bigquad-deck-->                 <th style="background-color:green"></th>
+    <!--buzzer-deck-->                  <th style="background-color:green"></th>
+    <!--z-ranger-deck %}, Z-ranger V--> <th style="background-color:lightgray">-</th>
+    <!--flow-deck %}, Flow deck V-->    <th style="background-color:red"></th>
+    <!--multi-ranger-dec-->             <th style="background-color:green"></th>
+    <!--motion-capture-marker-deck-->   <th style="background-color:green"></th>
+    <!--lighthouse-deck-->              <th style="background-color:green"></th>
+    <!--active-marker-deck-->           <th style="background-color:green"></th>
+    <!--ai-deck-->                      <th style="background-color:green"></th>
+  </tr>
+
+  <tr><!--flow-deck %}, Flow deck V-->
+    <th>{% poplink flow-deck %}, Flow deck V1</th>
+    <!--led-ring-deck-->                <th style="background-color:red"> </th>
+    <!--qi-1-2-wireless-charging-deck--><th style="background-color:red"></th>
+    <!--sd-card-deck-->                 <th style="background-color:green"><sup>1</sup></th>
+    <!--loco-positioning-deck-->        <th style="background-color:green"></th>
+    <!--bigquad-deck-->                 <th style="background-color:red"></th>
+    <!--buzzer-deck-->                  <th style="background-color:green"></th>
+    <!--z-ranger-deck %}, Z-ranger V--> <th style="background-color:red"></th>
+    <!--flow-deck %}, Flow deck V-->    <th style="background-color:lightgray">-</th>
+    <!--multi-ranger-dec-->             <th style="background-color:green"></th>
+    <!--motion-capture-marker-deck-->   <th style="background-color:green"></th>
+    <!--lighthouse-deck-->              <th style="background-color:green"></th>
+    <!--active-marker-deck-->           <th style="background-color:green"></th>
+    <!--ai-deck-->                      <th style="background-color:green"></th>
+  </tr>
+
+  <tr><!--multi-ranger-dec-->
+    <th>{% poplink multi-ranger-deck%}</th>
+    <!--led-ring-deck-->                <th style="background-color:green"></th>
+    <!--qi-1-2-wireless-charging-deck--><th style="background-color:green"></th>
+    <!--sd-card-deck-->                 <th style="background-color:green"></th>
+    <!--loco-positioning-deck-->        <th style="background-color:green"></th>
+    <!--bigquad-deck-->                 <th style="background-color:green"></th>
+    <!--buzzer-deck-->                  <th style="background-color:green"></th>
+    <!--z-ranger-deck %}, Z-ranger V--> <th style="background-color:green"></th>
+    <!--flow-deck %}, Flow deck V-->    <th style="background-color:green"></th>
+    <!--multi-ranger-dec-->             <th style="background-color:lightgray">-</th>
+    <!--motion-capture-marker-deck-->   <th style="background-color:green"></th>
+    <!--lighthouse-deck-->              <th style="background-color:green"></th>
+    <!--active-marker-deck-->           <th style="background-color:green"></th>
+    <!--ai-deck-->                      <th style="background-color:green"></th>
+  </tr>
+
+  <tr><!--motion-capture-marker-deck-->
+    <th>{% poplink motion-capture-marker-deck %}</th>
+    <!--led-ring-deck-->                <th style="background-color:green"></th>
+    <!--qi-1-2-wireless-charging-deck--><th style="background-color:green"></th>
+    <!--sd-card-deck-->                 <th style="background-color:green"></th>
+    <!--loco-positioning-deck-->        <th style="background-color:green"></th>
+    <!--bigquad-deck-->                 <th style="background-color:green"></th>
+    <!--buzzer-deck-->                  <th style="background-color:green"></th>
+    <!--z-ranger-deck %}, Z-ranger V--> <th style="background-color:green"></th>
+    <!--flow-deck %}, Flow deck V-->    <th style="background-color:green"></th>
+    <!--multi-ranger-dec-->             <th style="background-color:green"></th>
+    <!--motion-capture-marker-deck-->   <th style="background-color:lightgray">-</th>
+    <!--lighthouse-deck-->              <th style="background-color:green"></th>
+    <!--active-marker-deck-->           <th style="background-color:red"></th>
+    <!--ai-deck-->                      <th style="background-color:green"></th>
+  </tr>
+
+  <tr><!--lighthouse-deck-->
+    <th>{% poplink lighthouse-deck %}</th>
+    <!--led-ring-deck-->                <th style="background-color:green"></th>
+    <!--qi-1-2-wireless-charging-deck--><th style="background-color:green"></th>
+    <!--sd-card-deck-->                 <th style="background-color:green"></th>
+    <!--loco-positioning-deck-->        <th style="background-color:orange"><sup>2</sup> </th>
+    <!--bigquad-deck-->                 <th style="background-color:orange"><sup>2</sup> </th>
+    <!--buzzer-deck-->                  <th style="background-color:green"></th>
+    <!--z-ranger-deck %}, Z-ranger V--> <th style="background-color:green"></th>
+    <!--flow-deck %}, Flow deck V-->    <th style="background-color:green"></th>
+    <!--multi-ranger-dec-->             <th style="background-color:green"></th>
+    <!--motion-capture-marker-deck-->   <th style="background-color:green"></th>
+    <!--lighthouse-deck-->              <th style="background-color:lightgray">-</th>
+    <!--active-marker-deck-->           <th style="background-color:red"></th>
+    <!--ai-deck-->                      <th style="background-color:green"><sup>3</sup></th>
+  </tr>
+
+  <tr><!--active-marker-deck-->
+    <th>{% poplink active-marker-deck %}</th>
+    <!--led-ring-deck-->                <th style="background-color:green"></th>
+    <!--qi-1-2-wireless-charging-deck--><th style="background-color:green"></th>
+    <!--sd-card-deck-->                 <th style="background-color:green"></th>
+    <!--loco-positioning-deck-->        <th style="background-color:green"></th>
+    <!--bigquad-deck-->                 <th style="background-color:green"></th>
+    <!--buzzer-deck-->                  <th style="background-color:green"></th>
+    <!--z-ranger-deck %}, Z-ranger V--> <th style="background-color:green"></th>
+    <!--flow-deck %}, Flow deck V-->    <th style="background-color:green"></th>
+    <!--multi-ranger-dec-->             <th style="background-color:green"></th>
+    <!--motion-capture-marker-deck-->   <th style="background-color:red"></th>
+    <!--lighthouse-deck-->              <th style="background-color:red"></th>
+    <!--active-marker-deck-->           <th style="background-color:lightgray">-</th>
+    <!--ai-deck-->                      <th style="background-color:green"></th>
+  </tr>
+
+  <tr><!--ai-deck-->
+    <th>{% poplink ai-deck %}</th>
+    <!--led-ring-deck-->                <th style="background-color:green"></th>
+    <!--qi-1-2-wireless-charging-deck--><th style="background-color:green"></th>
+    <!--sd-card-deck-->                 <th style="background-color:orange"><sup>4</sup></th>
+    <!--loco-positioning-deck-->        <th style="background-color:orange"><sup>5</sup></th>
+    <!--bigquad-deck-->                 <th style="background-color:green"></th>
+    <!--buzzer-deck-->                  <th style="background-color:green"></th>
+    <!--z-ranger-deck %}, Z-ranger V--> <th style="background-color:green"></th>
+    <!--flow-deck %}, Flow deck V-->    <th style="background-color:green"></th>
+    <!--multi-ranger-dec-->             <th style="background-color:green"></th>
+    <!--motion-capture-marker-deck-->   <th style="background-color:green"></th>
+    <!--lighthouse-deck-->              <th style="background-color:green"><sup>3</sup></th>
+    <!--active-marker-deck-->           <th style="background-color:green"></th>
+    <!--ai-deck-->                      <th style="background-color:lightgray">-</th>
+  </tr>
+</table>
+
+
 **Notes:**
 
 1.  SPI sharing might limit the logging speed of the uSD-card deck.
