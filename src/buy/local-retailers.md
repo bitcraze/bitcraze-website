@@ -46,6 +46,10 @@ redirects:
 {% country Singapore %}
 {% distributor Aerise; https://www.aerise.cc/; /images/distributors/aerise.jpg %}
 
+{% country Japan %}
+{% distributor Tegara; https://en.tegara.com/service/unipos/; /images/distributors/tegara_logo.png %}
+
+
 {% continent Europe %}
 
 {% country France %}
