@@ -11,6 +11,8 @@ Every first Wednesday of the month we have the Bitcraze Developer meeting, talki
 
 {% media_gallery %}
 
+{% gallery_youtube VcW6Uw5nLz8; 16by9; March 2024 - Supervisor and arming %}
+{% gallery_youtube xdkOlvPQuJI; 16by9; February 2024 - Kalman filters basics %}
 {% gallery_youtube w3WlOf0hDwc; 16by9; December 2023 - Flow deck %}
 {% gallery_youtube k6x2lbcUwn4; 16by9; November 2023 - Simulation plans %}
 {% gallery_youtube P17C6305E1w; 16by9; October 2023 - Deck Complexity %}
