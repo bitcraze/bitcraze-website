@@ -9,6 +9,7 @@ redirects:
 This page contains events where Bitcraze will exhibit or has exhibited, describing demos and similar information.
 
 ## Upcoming Events
+* May 14th-16th: {% id_link icra-2024 %}
 * Every 1th Wednesday of the Month at 15:00 CET Bitcraze Developer meeting  (see [upcoming meeting annoucements here](https://github.com/orgs/bitcraze/discussions/categories/announcements?discussions_q=is%3Aopen+category%3AAnnouncements+label%3Adev-meetings))
 * Every 2 weeks ROS Aerial Meetings (see [upcoming meetings here](https://github.com/ROS-Aerial/community/blob/master/meetings.md#upcoming-meetings))
 
