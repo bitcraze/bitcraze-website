@@ -19,7 +19,7 @@ page_id: home
 
       <div class="announcements">
         <a href="/about/events/icra2024/">
-          <img src="/images/events/ICRA_2024" alt="ICRA 2024">
+          <img src="/images/events/icra2024/icra2024.jpg" alt="ICRA 2024">
           <p>We are going to ICRA 2024! Come and see us at booth IC085. Read more here >>></p>
         </a>
       </div >
