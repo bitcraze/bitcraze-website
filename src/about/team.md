@@ -43,3 +43,14 @@ His fascination for autonomy is mirrored in his approach to flying drones; sever
 Tobias Antonsson is a born computer and embedded nerd. Ever since he got his first electronics lab kit at an age of eight he has been hooked. He is an all-rounder with experience from computer graphics down to electronic hardware design and thrives best just in between, which makes embedded hardware and software a natural choice.
 He loves being creative and a lot of his spare time is being spent on various robotic and R/C projects. One of them, the Crazyflie, has become his livelihood in his co-founded company Bitcraze AB. Work experience includes mobile, medical and electromechanical industries as well as open source/hardware.
 "%}
+
+
+{% include teammember.html member="Tove Rumar" role="Developer" img="/images/team/Tove_Rumar_400px.jpg" bio="
+Tove is an embedded systems enthusiast that advocates for clean, testable code, drawing from her background in writing embedded software for radio modules.
+
+Her early fascination with all things sciency and nerdy didn't immediately lead her to coding; it wasn't until later in life that she immersed herself in microprocessors and software development.
+Tove's preference is to start by writing tests before the code, relishing the satisfaction of seeing successful tests once her work is complete. 
+She also has a background in Environmental Science, and considers herself a generalist who likes looking at systems as a whole to understand how the pieces fits together.
+
+Beyond her professional endeavors, Tove finds joy in board games, fantasy novels, and creative activities like crafting silver jewelry and clothing.
+"%}
