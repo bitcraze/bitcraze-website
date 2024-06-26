@@ -5,27 +5,20 @@ page_id: product-crazyflie-2-1
 redirects:
   - /crazyflie-2-1/
 ---
-{% datasheet_product_status crazyflie_2_1  %}
 
-{% buy_online https://store.bitcraze.io/products/crazyflie-2-1 %}
+{% notice_info This product is discontinued and has been replaced with <a href="/products/crazyflie-2-1-plus/">Crazyflie 2.1+</a> %}
+
+{% datasheet_product_status crazyflie_2_1  %}
 
 {% product_img Crazyflie 2.1; narrow;
 /images/crazyflie2-1/crazyflie_2.1_585px.jpg
 %}
 
 
-
-
-
 {% product_highlight
 fa-paper-plane-o;
 Make your ideas fly!; Your imagination sets the limits
 %}
-
-
-
-
-
 
 
 {% tabgroup %}
