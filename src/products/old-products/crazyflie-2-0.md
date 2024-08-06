@@ -6,7 +6,7 @@ redirects:
   - /crazyflie-2/
 ---
 
-{% notice_info This product is discontinued and has been replaced with <a href="/products/crazyflie-2-1/">Crazyflie 2.1</a> %}
+{% notice_info This product is discontinued and has been replaced with <a href="/products/crazyflie-2-1-plus/">Crazyflie 2.1+</a> %}
 
 {% product_img Crazyflie 2.0; medium;
 /images/Crazyflie2.0/Crazyflie2.0-585px.JPG

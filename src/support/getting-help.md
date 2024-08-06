@@ -70,7 +70,7 @@ track there's a few places you can get help:
 
 * [Spare parts](https://store.bitcraze.io/collections/spare-parts): Our shop has multiple spare parts.
 * [Expansion decks](/documentation/system/platform/cf2-expansiondecks/): Our web contains all kind of information of expansion decks, including schematics.
-* [Crazyflie 2.1](/products/crazyflie-2-1/) contains schematics of the crazyflie 2.1
+* [Crazyflie 2.1+](/products/crazyflie-2-1-plus/) contains schematics of the crazyflie 2.1+
 * [Discussions](https://discussions.bitcraze.io): We handle most of our support in our discussions page.
 Chances are that if you're having issues someone else has (or will have) as well.
 Create a new topic in the correct category and we (and the community) will do our

@@ -15,7 +15,7 @@ and [IOS](https://itunes.apple.com/us/app/crazyflie-2.0/id946151480?mt=8) device
 {% row_links %}
 **What to buy:**
 
-* {% id_link product-crazyflie-2-1 %}
+* {% id_link product-crazyflie-2-1-plus %}
 {% endrow_links %}
 {% endrow_image_text_links %}
 
@@ -433,7 +433,7 @@ inside the anchors (the convex hull) and we recommend using 8 anchors for TDoA.
 **What to buy:**
 
 * [Indoor Explorer bundle](https://store.bitcraze.io/products/indoor-explorer-bundle)
-* {% id_link product-crazyflie-2-1 %},
+* {% id_link product-crazyflie-2-1-plus %},
 * {% poplink loco-positioning-deck %}
 
 ---

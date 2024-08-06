@@ -111,7 +111,7 @@ for instance a robot.
 For more information on how to combine the components of the Crazyflie ecosystem, please see the {% id_link buy-guide %}.
 {% endrow_text %}
 {% row_links %}
-* {% id_link product-crazyflie-2-1 %}
+* {% id_link product-crazyflie-2-1-plus %}
 * {% id_link product-loco-pos-deck %}
 * {% id_link product-loco-pos-node %}
 * [Indoor explorer bundle](https://store.bitcraze.io/collections/bundles/products/indoor-explorer-bundle)

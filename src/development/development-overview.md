@@ -145,7 +145,7 @@ Moreover, the parameter and logging framework enables developers to easily defin
 
 Check out all the features and specifications of the Crazyflie on the Product page.
 
- {% inline_button Crazyflie Product Page  ; /products/crazyflie-2-1/ %}
+ {% inline_button Crazyflie Product Page  ; /products/crazyflie-2-1-plus/ %}
 
 ## Community
 

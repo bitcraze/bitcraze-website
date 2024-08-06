@@ -48,7 +48,7 @@ The Crazyflie can be enhanced by adding [expansion decks](https://store.bitcraze
 
 {% row_image_text_links Family tree; /images/documentation/overview/familytree_thumbnail.jpg %}
 {% row_text %}
-The **{% id_link product-crazyflie-2-1 %}** was released in 2019 and is the base platform of the family. It is a small (27 grams) and durable quadcopter with an expansion port that enables the user to extend the hardware with expansion decks. The firmware is open source and the flexibility of the platform makes it ideal for research, education or other applications where openess and full control is important.
+The **{% id_link product-crazyflie-2-1 %}**, **{% id_link product-crazyflie-2-1-plus %}** was released in 2019, 2024 and is the base platform of the family. It is a small (27 grams) and durable quadcopter with an expansion port that enables the user to extend the hardware with expansion decks. The firmware is open source and the flexibility of the platform makes it ideal for research, education or other applications where openess and full control is important.
 
 The **{% id_link product-crazyflie-bolt-1-1 %}** is a quadcopter control board that contains the same hardware components and firmware as the crazyflie, but supports connection of brushless motors of up to 8A per motor. It is intended for larger quadcopter platforms with greater lifting capacity and longer flight time, while still using the Crazyflie ecosystem. It has the same expansion bus as the other Crazyflie devices, making it compatible with the expansion decks.
 

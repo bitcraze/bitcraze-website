@@ -18,8 +18,8 @@ have all of them before you start assembling.
 * 6 x Motor mounts
 * 1 x LiPo battery
 * 5 x Coreless DC motors
-* 2 x Short expansion connector pins (1×10, 2mm spacing, 8 mm long)
-* 2 x Long expansion connector pins (1×10, 2mm spacing, 14 mm long)
+* 2 x Short expansion connector pins (1×10, 2mm spacing, 8 or 9 mm long)
+* 2 x Long expansion connector pins (1×10, 2mm spacing, 14 or 15 mm long)
 * 1 x Battery holder expansion board
 * 1 x USB cable (only with the Crazyflie 2.1)
 {% endsi_step %}
@@ -101,11 +101,13 @@ propellers, the clock wise (CW) and counter clock wise (CCW) propellers,
 each kind has their own bag in the box. Notice the shape of the tips, the
 sharper corner is on back side of the rotation direction. The CW propellers
 are also usually marked with an "A", "A1" or "A2", while the CCW propellers
-are marked with "B", "B1" or "B2" (the number is irrelevant).
+are marked with "B", "B1" or "B2" (the number is irrelevant). For the Crazyflie 2.1+ 
+the propellers will look a bit different and the CW propellers are marked "47-17" 
+while CCW "47-17R".
 
 Also make sure that the correct side is facing up, the top side should be convex.
 
-Here we are attaching the CW propellers.
+Here we are attaching the CW propellers for the Crazyflie 2.1 (not 2.1+ version).
 
 
 
@@ -113,11 +115,6 @@ Here we are attaching the CW propellers.
 
 Here’s a detailed view of where to attach CW and CCW propellers.
 {% img Crazyflie 2.X propeller mounting; medium; /images/getting-started/cf2_props.png %}
-
-Note that to avoid your propellers to break too easily, you should not push the propeller all the way down on the shaft. Instead stop when force is getting high and it holds the propeller in place. This will prevent the tension in the propeller to become big enough to break.
-
-{% img Crazyflie 2.X propellor push shaft; medium; /images/getting-started/Propeller_workaround-1-1024x549.png %}
-
 
 {% endsi_step %}
 

@@ -49,6 +49,12 @@ Some distributors are still carrying these products, but they are no longer in p
 
 [Read more](/products/old-products/crazyflie-2-0/)
 
+### Crazyflie 2.1
+
+<a href="/products/old-products/crazyflie-2-1/"><img width="150" height="150" src="/images/crazyflie2-1/crazyflie_2.1_585px.jpg" alt="Crazyflie 2.1"/></a>
+
+[Read more](/products/old-products/crazyflie-2-1/)
+
 ### Crazyflie Bolt
 
 <a href="/products/old-products/crazyflie-bolt/"><img width="150" height="150" src="/images/crazyflie-bolt/crazyflie_bolt_585px.jpg" alt="Crazyflie Bolt"/></a>
