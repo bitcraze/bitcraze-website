@@ -99,21 +99,37 @@ the Terminal menu and select "New Terminal" to get access to a `bash` terminal w
 The build system for the Crazyflie firmware is based on `make`.
 
 First navigate to the rootfolder of the crazyflie-firmware repository. Then you will need to create an default configuration file for the firmware:
+
+{% tabgroup %}
+{% tab Crazyflie 2.x %}
 ```
 $ make cf2_defconfig
 ```
+{% endtab %}
+{% tab Crazyflie 2.1 Brushless %}
+```
+$ make cf21bl_defconfig
+```
+{% endtab %}
+{% tab Crazyflie Bolt %}
+```
+$ make bolt_defconfig
+```
+{% endtab %}
+{% endtabgroup %}
+
 If you want to build firmware for a different platform, please checkout the [build instructions of the crazyflie-firmware.](/documentation/repository/crazyflie-firmware/master/building-and-flashing/build/#compiling)
 
 Then you can start a build by issuing the following command in the terminal window in Visual Studio Code:
 ```
 $ make
 ```
-Or have the build go faster by using more cpu's
-```
-$ make -j 12
-```
+To speed up the build process, utilize all available processing units with:
 
-To build the firmware. You should see something like the below on a successful build:
+```
+$ make -j$(nproc)
+```
+You should see something like the below on a successful build:
 ```
 $ make
   CLEAN_VERSION
