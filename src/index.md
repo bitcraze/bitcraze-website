@@ -132,17 +132,17 @@ page_id: home
   </div>
 
   <div class="row section-content">
-    <a href="{% id_url product-crazyradio-2-0 %}">
+    <a href="{% id_url product-crazyflie-2-1-plus %}">
       <div class="col-md-4 col-md-push-8 text-block-box text-box-product-news">
         <h3>
-        The Crazyradio 2.0
+        The Crazyflie 2.1+ is here!
         </h3>
-          <p>Proudly presenting the Crazyradio 2.0, the next generation radio for the Crazyflie ecosystem.
+          <p>Introducing the Crazyflie 2.1+,  the latest advancement in the Crazyflie series. With optimized propellers and an improved battery, this latest upgrade delivers unparalleled thrust and stability, elevating your flying experience to new heights.
          </p>
          <p><b>Read more >>></b></p>
       </div>
       <div class="col-md-8 col-md-pull-4 no-padding">
-        <img src="/images/crazyradio2-0/CR 2.0-dongle- 585px.jpg" alt="Crazyradio 2.0">
+        <img src="/images/crazyflie2-1-plus/CF21_plus_585px.jpg" alt="Crazyflie 2.1+">
       </div>
     </a>
   </div>
