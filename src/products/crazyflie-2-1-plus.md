@@ -63,7 +63,7 @@ The Crazyflie 2.1+ version of the successful Crazyflie 2.X development platform 
 {% endrow_text %}
 {% row_links %}
 
-- [Datasheet](/documentation/hardware/crazyflie_2_1/crazyflie_2_1-datasheet.pdf)
+- [Datasheet](/documentation/hardware/crazyflie_2_1_plus/crazyflie_2_1_plus-datasheet.pdf)
 - [Component Placement](/documentation/hardware/crazyflie_2_1/cf2.1_component_placement.pdf)
 - [Schematics](/documentation/hardware/crazyflie_2_1/crazyflie_2.1_schematics_rev.b.pdf)
 * [Expansion Decks]({% id_url cf2_expansiondecks %})
@@ -182,6 +182,6 @@ If you are into embedded systems, the STM32F405 has a lot of processor power you
 - {% id_link development-overview %}
 - {% id_link support-frequently-asked-questions %}
 - {% id_link support-getting-help %}
-- [Datasheet](/documentation/hardware/crazyflie_2_1/crazyflie_2_1-datasheet.pdf)
+- [Datasheet](/documentation/hardware/crazyflie_2_1_plus/crazyflie_2_1_plus-datasheet.pdf)
 - [Component Placement](/documentation/hardware/crazyflie_2_1/cf2.1_component_placement.pdf)
 - [Schematics](/documentation/hardware/crazyflie_2_1/crazyflie_2.1_schematics_rev.b.pdf)
