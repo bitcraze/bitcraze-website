@@ -90,7 +90,7 @@ different ids for each marker.
 For more information on how to combine the components of the Crazyflie ecosystem, please see the {% id_link buy-guide %}.
 {% endrow_text %}
 {% row_links %}
-* {% id_link product-crazyflie-2-1 %}
+* {% id_link product-crazyflie-2-1-plus %}
 * {% poplink motion-capture-marker-deck %}
 * [Reflective marker kit](https://store.bitcraze.io/collections/positioning/products/reflective-markers)
 * {% poplink active-marker-deck %}
