@@ -13,6 +13,7 @@ redirects:
 ### Electronics & Mechanics
 * [KiCad](https://kicad-pcb.org/)
 * [FreeCAD](https://www.freecadweb.org/)
+
 ### Software
 * [VS code](https://code.visualstudio.com/)
 * [Eclipse](https://www.eclipse.org/)
@@ -41,9 +42,11 @@ redirects:
 * [Bootstrap](https://getbootstrap.com/)
 * [HTML Proofer](https://github.com/gjtorikian/html-proofer)
 
-### Media
+### Media and graphics
 * [Audacity](https://sourceforge.net/projects/audacity/)
 * [Kdenlive](https://kdenlive.org/)
 * [gimp](https://www.gimp.org/)
 * [Inkscape](https://inkscape.org/en/)
 * [Jamendo for Creative Commons music](https://www.jamendo.com/)
+* [OpenCV](https://opencv.org/)
+* [Blender](https://www.blender.org/)
