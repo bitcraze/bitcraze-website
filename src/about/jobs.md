@@ -6,7 +6,7 @@ redirects:
   - /jobs/
 ---
 
-## We're hiring!
+## Come work with us!
 
 If you are interested in joining the Bitcraze awesomeness, this is the page for you.
 
@@ -65,8 +65,8 @@ a better payment gateway etc. Most of our sales have been B2C but we're moving m
 and more towards B2B.
 
 #### Production and supply chain
-If there's one thing we've learned over the years is that production never just
-rolls on and works. We manufacture a lot of products and we have more coming.
+If there's one thing we've learned over the years is that production never "just works".
+We manufacture a lot of products and we have more coming.
 Making sure things are ready in time for the right price and shipped to the
 right place takes a lot of work.
 
