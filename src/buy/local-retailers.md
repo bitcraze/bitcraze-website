@@ -58,7 +58,6 @@ redirects:
 
 {% country Germany %}
 {% distributor Exp-tech; https://exp-tech.de/collections/bitcraze; /images/distributors/exp_tech_logo_600.png %}
-{% distributor Flyingmachines; https://www.flyingmachines.de/Bitcraze_1; /images/distributors/flyingmachines.png %}
 {% distributor Génération Robots; https://www.generationrobots.com/de/147-mini-drone-crazyflie-21; /images/distributors/generation-robots.jpg %}
 
 {% country Netherlands %}
@@ -71,7 +70,8 @@ redirects:
 {% distributor Sever; https://crazyflie.ru; /images/distributors/crazyflie-ru.jpg %}
 
 {% country Spain %}
-{% distributor Corzotech; https://corzotech.com/en/65-crazyflie-bitcraze; /images/distributors/CORZOTECH.jpg %}
+{% distributor Drone Prix; https://droneprix.es/167-bitcraze; /images/distributors/droneprix.png %}
+{% distributor Drone; https://corzotech.com/en/65-crazyflie-bitcraze; /images/distributors/CORZOTECH.jpg %}
 
 {% country Sweden %}
 {% distributor Electrokit; https://www.electrokit.com/?s=crazyflie&post_type=product&lang=sv; /images/distributors/LOGO-electrokit-logo-embossed.png %}
