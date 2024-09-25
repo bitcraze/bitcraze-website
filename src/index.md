@@ -19,7 +19,7 @@ page_id: home
 
       <div class="announcements">
         <a href="https://github.com/orgs/bitcraze/discussions/1565">
-          <img src="/images/events/devmeetings/devmeeting_02october_2024.jpg" alt="Dev meeting">
+          <img src="/images/events/devmeetings/devmeeting_02october_2024.png" alt="Dev meeting">
           <p>Come join us for our developer meeting, the first one after the summer. >>></p>
         </a>
       </div>
