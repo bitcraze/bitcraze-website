@@ -13,9 +13,6 @@ how to build it and finally download and flash it to your Crazyflie.
 These are the necessary steps to write your own code and change the behaviour
 of your Crazyflie.
 
-This tutorial is based on the virtual machine where all the tools you need are
-installed, configured and set up to make this really easy.
-
 We assume that you have basic knowledge of the C-programming language.
 {% endsi_intro %}
 
@@ -24,26 +21,24 @@ For this tutorial you need:
 
 * A Crazyflie
 * A {% poplink crazyradio-2-0 %} or Crazyradio PA
-* A computer with the Virtual Machine (VM) installed.
+* A computer with an IDE installed. In this tutorial we will use [Visual Studio Code](https://code.visualstudio.com/).
+* Compile dependencies installed. In this tutorial we will compile the `crazyflie-firmware` repository. For more information on how to install the dependencies, see the [repository documentation](/documentation/repository/crazyflie-firmware/master/building-and-flashing/build/#dependencies). Compiling different projects may require different dependencies.
+{% endsi_step %}
 
-For details on how to install the VM and Crazyradio see
+{% si_step set-up %}
+
+For details on how to set-up the cfclient and the Crazyradio see
 [Getting started with the Crazyflie 2.X]({% id_url getting-started-crazyflie-2; inst-comp %}).
 
-**Note**: Since the VM is an AMD64 install of Linux, it *does not work* on Apple-silicon Mac (M1/2/... processors).
-On an apple silicon mac you need to install the tools natively.
 {% endsi_step %}
 
-{% si_step start the VM %}
-Fire up the virtual machine to get started. It comes with all
-tools you need pre-installed and configured to make programming simple.
+{% si_step get source code; update %}
+In this tutorial we will use the Crazyflie firmware repository. The repository contains the source code that runs on the STM32 microcontroller in the Crazyflie. All public repositories are available on [GitHub](https://github.com/bitcraze). Clone the relevant repository to your computer. For example:
 
-From this point on in the tutorial, all steps refer to actions in the virtual machine.
-{% endsi_step %}
+```
+$ git clone https://github.com/bitcraze/crazyflie-firmware.git
+```
 
-{% si_step update source code; update %}
-Double click the "update all projects" icon on the desktop. This pulls down the
-latest source code from GitHub for all projects.
-{% img Update all projects icon; narrow; /images/getting-started/update-all-projects-icon.png; circle-border %}
 {% endsi_step %}
 
 
@@ -52,14 +47,12 @@ We will start out by modifying the source code. The update of the code is
 minimalistic, we will change the color of the front right LED from red to green.
 {% endsi_intro %}
 
-{% si_step start the editor; editor %}
-The pre-installed IDE (Integrated Development Environment) is [Visual Studio Code](https://code.visualstudio.com/).
-Double click the "Visual Studio Code" icon on the desktop to start it.
-{% img vscode icon; narrow; /images/getting-started/vscode-icon.png; circle-border %}
+{% si_step start an editor; editor %}
+Open your IDE of choice. In this tutorial we use Visual Studio Code.
 {% endsi_step %}
 
 {% si_step open the file %}
-Use the File menu to select "Open Folder..." and navigate to the "projects" folder and then select the "crazyflie-firmware" folder and open it.
+Use the File menu to select "Open Folder..." and navigate to the cloned "crazyflie-firmware" folder and open it.
 {% img Project explorer; medium; /images/getting-started/vscode-open-folder.png %}
 Navigate to or search (CTRL + p) for `src/drivers/interface/led.h` and click to open it.
 {% endsi_step %}
