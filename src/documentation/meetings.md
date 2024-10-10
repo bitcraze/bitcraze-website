@@ -10,7 +10,10 @@ redirects:
 Every first Wednesday of the month we have the Bitcraze Developer meeting, talking about different topics every time. These developer meetings will be announced [on our discussion platform](https://github.com/orgs/bitcraze/discussions/categories/announcements?discussions_q=is%3Aopen+category%3AAnnouncements+label%3Adev-meetings) and our {% id_link events %} page
 
 {% media_gallery %}
-
+{% gallery_youtube ebxdJgpx7kE; 16by9; October 2024 -  Demo-driven Development %}
+{% gallery_youtube ODLaRS_n62s; 16by9; June 2024 - Crazyflie and ROS 2 %}
+{% gallery_youtube 4abvN_ZUV2U; 16by9; May 2024 - Prototype of forward facing expansion connector %}
+{% gallery_youtube QJb79YbMMEs; 16by9; April 2024 - The Crazyflie Client %}
 {% gallery_youtube VcW6Uw5nLz8; 16by9; March 2024 - Supervisor and arming %}
 {% gallery_youtube xdkOlvPQuJI; 16by9; February 2024 - Kalman filters basics %}
 {% gallery_youtube w3WlOf0hDwc; 16by9; December 2023 - Flow deck %}
