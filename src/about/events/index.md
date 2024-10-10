@@ -9,11 +9,18 @@ redirects:
 This page contains events where Bitcraze will exhibit or has exhibited, describing demos and similar information.
 
 ## Upcoming Events
-* May 14th-16th: {% id_link icra-2024 %}
+* October 22th-23rd: {% id_link roscon-2024 %}
 * Every 1th Wednesday of the Month at 15:00 CET Bitcraze Developer meeting  (see [upcoming meeting annoucements here](https://github.com/orgs/bitcraze/discussions/categories/announcements?discussions_q=is%3Aopen+category%3AAnnouncements+label%3Adev-meetings))
 * Every 2 weeks ROS Aerial Meetings (see [upcoming meetings here](https://github.com/ROS-Aerial/community/blob/master/meetings.md#upcoming-meetings))
 
 ## Past events
+
+### 2024
+* July 15th - 19th: [Robotics: Science and Systems Aerial Swarm tools workshop](https://imrclab.github.io/workshop-aerial-swarms-rss2024/)
+* July 5th: [Robotics Developer Day](https://www.theconstruct.ai/robotics-developers-day/)
+* May 14th-16th: {% id_link icra-2024 %}
+
+
 ### 2023
 * May 29 - June 2 2023 : {% id_link icra-2023 %}
 * April 3rd : {% id_link epfl-2023 %}
