@@ -117,9 +117,9 @@ In the previous examples, you couldn't modify the controller's content due to re
 
 You've now experienced the Webots simulator. You can continue modifying the controller or clone the 'crazyflie-simulation' repository:
 
-    ```
-    git clone https://github.com/bitcraze/crazyflie-simulation
-    ```
+```
+git clone https://github.com/bitcraze/crazyflie-simulation
+```
 
 You can try different examples from the source:
 
