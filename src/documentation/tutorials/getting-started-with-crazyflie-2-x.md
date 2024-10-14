@@ -248,17 +248,7 @@ for maneuvering and a {% poplink crazyradio-2-0 %} or Crazyradio PA for communic
 There are a few options of how to run the PC client
 
 {% tabgroup %}
-{% tab VM %}
-We have created a virtual machine (VM) to help you get into the air as quickly as possible.
-The VM has all software you need for flight and development pre-installed. Since
-it runs on a virtual machine it should work the same way on most operating systems
-and this is also why our documentation is based on the virtual machine.
-
-**Note**: Since the VM is an AMD64 install of Linux, it *does not work* on Apple-silicon Mac (M1/2/... processors).
-On an apple silicon mac you need to install the tools natively.
-
-{% endtab %}
-{% tab Windows/Mac/Linux %}
+{% tab Native install (recommended) %}
 The supported way to install and run the client on a computer currently is to install
 the Crazyflie client using the python package manager *pip*.
 
@@ -269,11 +259,13 @@ You can follow the prerequisite and instructions to install the latest release o
 When you have set up the client, insert the {% poplink crazyradio-2-0 %} or Crazyradio PA and your gamepad in
 your USB-ports and start the client. Continue reading about how to [configure the client](#config-client)
 {% endtab %}
-{% endtabgroup %}
-{% endsi_step %}
+{% tab Virtual Machine %}
+We have set up a virtual machine (VM) designed to assist you in getting started with flight and development. The VM includes essential software for your needs, all pre-installed to simplify the setup process.
 
+Running on a virtual machine allows for compatibility across various operating systems. However, please be aware that the VM may not have been regularly maintained, and there could be some issues present.
 
-
+**Note**: Since the VM is an AMD64 install of Linux, it *does not work* on Apple-silicon Mac (M1/2/... processors).
+On an apple silicon mac you need to install the tools natively.
 
 {% si_intro Installing on VM; inst-virtualmachine %}
 To help you get into the air as quickly as possible, the virtual machine (VM)
@@ -333,6 +325,9 @@ Double click the “Crazyflie client” icon on the VM desktop
 Continue reading about [configuring the client](#config-client)
 {% endsi_step %}
 
+{% endtab %}
+{% endtabgroup %}
+{% endsi_step %}
 
 {% si_intro Configure the client; config-client %}
 {% endsi_intro %}
