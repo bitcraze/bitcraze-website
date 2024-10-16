@@ -34,7 +34,7 @@ To run this tutorial and set up the AI deck you will need the following:
 {% si_step Attach the AI-deck %}
 The AI-deck can be mounted both on top and on the bottom using the provided long header pins. Either position might yield different pros & cons but for development when a JTAG cable needs to be attached the top position works best. Note though that the ESP32 antenna is a bit fragile and can be damaged during crashes. For better resilience during crashes, mount the AI-deck at the bottom, or put a peace of hot-glue as shown in the picture below.
 
-![led deck on crazyflie](/images/tutorials/getting_started_with_aideck/AI-deck-1_1-antenna-hotglue-400.jpg)
+![led deck on Crazyflie](/images/tutorials/getting_started_with_aideck/AI-deck-1_1-antenna-hotglue-400.jpg)
 
 {% endsi_step %}
 
@@ -50,10 +50,10 @@ Crazyflie (STM32 and nRF51)
 1. Open up the cfclient on your computer
 1. Make sure that **only** the AI-deck is attached to the Crazyflie, with no other deck.
 1. Go to 'Connect'->'bootloader'
-1. Type the address of your crazyflie, press 'Scan' and select your crazyflie's URI. Make sure to choose 'radio://...' (not 'usb://'). Now press 'Connect'
-1. In the 'Firmware Source' section, select the latest release in 'Available downloads'. Make sure to select the right platform (cf2 is for the crazyflie 2.x ).
-1. Press 'Program' and wait for the STM, NRF and ESP MCUs to be re-flashed. The crazyflie will restart a couple of times, and the flashing of the ESP ('bcAI:esp deck memory') takes about 3 minutes.
-1. Once the status states 'Idle' and the Crazyflie is disconnected, double check if the flashing has succeded. In the cfclient, connect to the crazyflie and check in the console tab if you see: `ESP32: I (910) SYS: Initialized`. Also LED1 should be flashing with 2 hz.
+1. Type the address of your Crazyflie, press 'Scan' and select your Crazyflie's URI. Make sure to choose 'radio://...' (not 'usb://'). Now press 'Connect'
+1. In the 'Firmware Source' section, select the latest release in 'Available downloads'. Make sure to select the right platform (cf2 is for the Crazyflie 2.0 and Crazyflie 2.1(+) ).
+1. Press 'Program' and wait for the STM, NRF and ESP MCUs to be re-flashed. The Crazyflie will restart a couple of times, and the flashing of the ESP ('bcAI:esp deck memory') takes about 3 minutes.
+1. Once the status states 'Idle' and the Crazyflie is disconnected, double check if the flashing has succeded. In the cfclient, connect to the Crazyflie and check in the console tab if you see: `ESP32: I (910) SYS: Initialized`. Also LED1 should be flashing with 2 hz.
 
 
 {% img Flashing; wide; /images/tutorials/getting_started_with_aideck/cfclient_flash_esp.png %}

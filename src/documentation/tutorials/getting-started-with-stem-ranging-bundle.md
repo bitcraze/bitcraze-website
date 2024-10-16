@@ -15,7 +15,7 @@ This getting started guide will help you set up the system and make your first a
 {% endsi_intro %}
 
 {% si_step required hardware %}
-* 1 x Crazyflie 2.x Kit
+* 1 x Crazyflie 2.x kit
 * 1 x {% poplink crazyradio-2-0 %} or Crazyradio PA
 * 1 x {% poplink flow-deck %}
 * 1 x {% poplink multi-ranger-deck%}
@@ -28,7 +28,7 @@ This guide also requires that you have updated the Crazyflie to the latest firmw
 {% endsi_step %}
 
 {% si_step  mounting the Flow V2 deck %}
-Mount the {% poplink flow-deck %} underneath and the {% poplink multi-ranger-deck%} above the Crazyflie 2.x using the long pin-headers supplied with the Crazyflie 2.x Kit.
+Mount the {% poplink flow-deck %} underneath and the {% poplink multi-ranger-deck%} above the Crazyflie 2.x using the long pin-headers supplied with the Crazyflie 2.x kit.
 {% img Mounting the Flow V2 deck; wide; /images/tutorials/getting_started_stem_ranging/getting_started_with_stem_ranging_770px.jpg %}
 {% img Mounting the Flow V2 deck; wide; /images/tutorials/getting_started_stem_ranging/getting_started_with_stem_ranging_770px-2.jpg %}
 

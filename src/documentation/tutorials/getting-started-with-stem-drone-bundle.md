@@ -16,7 +16,7 @@ autonomous flight.
 {% endsi_intro %}
 
 {% si_step required hardware %}
-* 1 x Crazyflie 2.x Kit
+* 1 x Crazyflie 2.x kit
 * 1 x {% poplink crazyradio-2-0 %} or Crazyradio PA
 * 1 x {% poplink flow-deck %}
 {% endsi_step %}
