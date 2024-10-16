@@ -32,7 +32,7 @@ enables position estimation on board the Crazyflie, as opposed to many other
 positioning systems where the position is calculated in an external computer
 and sent to the Crazyflie.
 
-By adding knowledge of its position to a Crazyflie 2.X, it is capable of flying
+By adding knowledge of its position to a Crazyflie 2.x, it is capable of flying
 autonomously without manual control. This opens up an array of exciting use
 cases and applications.
 {% endrow_text %}
@@ -100,7 +100,7 @@ The Loco Positioning system has mainly been designed for indoor use.
 {% row_text %}
 The key components of the system are the **{% poplink loco-positioning-deck %}** and the __Loco Positioning Node__.
 
-The {% poplink loco-positioning-deck %} is a Crazyflie 2.X expansion deck with the Loco
+The {% poplink loco-positioning-deck %} is a Crazyflie 2.x expansion deck with the Loco
 Positioning Tag functionality.
 
 The {% id_link product-loco-pos-node %} is a multi functional node in a Loco Positioning system,

@@ -10,7 +10,7 @@ redirects:
 ## An affordable positioning system for your research and classes
 ------
 
-The lighthouse system is our latest high-precision method of positioning on the Crazyflie 2.X. The [Lighthouse Base Stations](https://store.bitcraze.io//products/lighthouse-v2-base-station/) emit infrared light which is detected by our {% poplink lighthouse-deck %}. This enables the crazyflie to calculate its own position on board.
+The lighthouse system is our latest high-precision method of positioning on the Crazyflie 2.x. The [Lighthouse Base Stations](https://store.bitcraze.io//products/lighthouse-v2-base-station/) emit infrared light which is detected by our {% poplink lighthouse-deck %}. This enables the crazyflie to calculate its own position on board.
 
 #### Tutorial
 Did you just receive your Lighthouse system? Go do our Getting started tutorial!

@@ -8,7 +8,7 @@ redirects:
 
 {% si_intro The STEM drone bundle %}
 The STEM (Science Technology Engineering Mathematics) drone bundle is based on a
-Crazyflie 2.X with a {% poplink flow-deck %}. It is an autonomous drone that can be controlled
+Crazyflie 2.x with a {% poplink flow-deck %}. It is an autonomous drone that can be controlled
 from a simple python script to explore and operate a robot in 3 dimensions.
 
 This getting started guide will help you set up the system and make your first
@@ -16,19 +16,19 @@ autonomous flight.
 {% endsi_intro %}
 
 {% si_step required hardware %}
-* 1 x Crazyflie 2.X Kit
+* 1 x Crazyflie 2.x Kit
 * 1 x {% poplink crazyradio-2-0 %} or Crazyradio PA
 * 1 x {% poplink flow-deck %}
 {% endsi_step %}
 
 {% si_step prerequisites %}
-This getting started guide assumes you have already assembled your Crazyflie 2.X. If that is not the case please follow the {% id_link getting-started-crazyflie-2 %}
+This getting started guide assumes you have already assembled your Crazyflie 2.x. If that is not the case please follow the {% id_link getting-started-crazyflie-2 %}
 
-This guide also requires that you have updated the Crazyflie to the latest firmware. For more information on how to update the firmware, see the [update firmware in the Crazyflie]({% id_url getting-started-crazyflie-2; update-fw %}) section in our getting started with Crazyflie 2.X tutorial.
+This guide also requires that you have updated the Crazyflie to the latest firmware. For more information on how to update the firmware, see the [update firmware in the Crazyflie]({% id_url getting-started-crazyflie-2; update-fw %}) section in our getting started with Crazyflie 2.x tutorial.
 {% endsi_step %}
 
 {% si_step  mounting the flow deck %}
-Mount the {% poplink flow-deck %} underneath the Crazyflie 2.X using the long pin-headers supplied with the Crazyflie 2.X Kit.
+Mount the {% poplink flow-deck %} underneath the Crazyflie 2.x using the long pin-headers supplied with the Crazyflie 2.x Kit.
 {% img Mounting the Flow deck; wide; /images/tutorials/getting_started_stem/stem_bundle_mounted_deck.jpg %}
 
 For more information about how to mount an expansion deck please see the {% id_link getting-started-expansion-decks %} tutorial.
@@ -37,7 +37,7 @@ For more information about how to mount an expansion deck please see the {% id_l
 {% si_step installing Python and the cflib%}
 {% tabgroup %}
 {% tab Windows %}
-The backend library used to control the Crazyflie 2.X is called cflib and is written
+The backend library used to control the Crazyflie 2.x is called cflib and is written
 in python 3. To use it you must have Pyhton 3 installed on the computer and it can
 be downloaded [here](https://www.python.org).
 

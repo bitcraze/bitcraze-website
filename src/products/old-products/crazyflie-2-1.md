@@ -85,7 +85,7 @@ it's a breeze to update.
 
 #### Getting started
 
-Go to the [crazyflie 2.X getting started tutorial]({% id_url getting-started-crazyflie-2 %}) to build your crazyflie, update its firmware and fly with it with the clients. Also take a look at our {% id_link system-overview %} to learn more about the Crazyflie's ecosystem of positioning systems, Clients and ofcourse the crazyflie itself with its expansion decks.
+Go to the [crazyflie 2.x getting started tutorial]({% id_url getting-started-crazyflie-2 %}) to build your crazyflie, update its firmware and fly with it with the clients. Also take a look at our {% id_link system-overview %} to learn more about the Crazyflie's ecosystem of positioning systems, Clients and ofcourse the crazyflie itself with its expansion decks.
 
 
 

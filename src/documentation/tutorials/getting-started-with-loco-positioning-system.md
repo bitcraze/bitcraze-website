@@ -140,11 +140,11 @@ Now when everything is mounted and powered it is time to configure the system, t
 is done from the Crazyflie client. Communication between the client and the anchors
 is relayed through the Crazyflie and the Loco Positioning deck.
 
-* Place your Crazyflie 2.X in the center of the flying area.
-* Open the CF client and connect to the Crazyflie 2.X
+* Place your Crazyflie 2.x in the center of the flying area.
+* Open the CF client and connect to the Crazyflie 2.x
 * If not already done, [configure](/documentation/repository/crazyflie-clients-python/master/userguides/userguide_client#firmware-configuration)
-the Crazyflie 2.X in __2Mbit__ radio mode. This reduces interference with the
-UWB radio. If the configuration is changed a restart of the Crazyflie 2.X is required.
+the Crazyflie 2.x in __2Mbit__ radio mode. This reduces interference with the
+UWB radio. If the configuration is changed a restart of the Crazyflie 2.x is required.
 {% img open the crazyflie client; wide; /images/tutorials/getting_started_with_lps/open_the_crazyflie_client.jpg %}
 {% endsi_step %}
 
@@ -159,7 +159,7 @@ You may have to check it in the menu View->Tabs->Loco Positioning Tab to make it
 {% si_step Check anchor status %}
 In the Anchor ranging status box, check that there are as many green boxes as there are anchors.
 
-A red box indicates that the Crazyflie 2.X can not communicate with that anchor
+A red box indicates that the Crazyflie 2.x can not communicate with that anchor
 and does not get any ranging data. If this is the case, verify the anchor is
 configured correctly, powered and in line of sight.
 
@@ -242,7 +242,7 @@ This will enable the __"TDoA2"__ and __"TDoA3"__ buttons in the anchor status se
 Click the __"TDoA 2"__ or __"TDoA 3"__ button to switch the anchors to one of the TDoA modes.
 
 After a few seconds all anchor status boxes should turn red to indicate that the
-Crazyflie 2.X is no longer receiving TWR data from the anchors.
+Crazyflie 2.x is no longer receiving TWR data from the anchors.
 
 {% img Switch anchors to TDoA mode; wide; /images/tutorials/getting_started_with_lps/lps-system-mode-switch-2.jpg %}
 

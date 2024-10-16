@@ -15,7 +15,7 @@ The CFclient needs to be installed with **Python Pip**. Please follow [the insta
 * [Android client](https://play.google.com/store/apps/details?id=se.bitcraze.crazyfliecontrol2)
 * [iOS client](https://itunes.apple.com/us/app/crazyflie-2.0/id946151480)
 
-## Crazyflie 2.X firmware
+## Crazyflie 2.x firmware
 
 Reflash the crazyflie's firmware with [the cfclient firmware instructions](/documentation/repository/crazyflie-clients-python/master/userguides/userguide_client/#firmware-upgrade) with a {% poplink crazyradio-2-0 %} or a {% id_link product-crazyradio-pa %}.
 

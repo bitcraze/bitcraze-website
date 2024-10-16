@@ -25,7 +25,7 @@ Artificial Intelligence in a Nutshell
 {% row_text %}
 Super-edge-computing on a 30 gram flying platform is now available!
 
-Thanks to the [GAP8 IoT application processor](https://greenwaves-technologies.com/gap8_mcu_ai/) from [GreenWaves Technologies](https://greenwaves-technologies.com/) and the ULP camera, the Crazyflie is able to capture, analyze and classify its environment, as previously presented by [ETH Zurich](https://ethz.ch/en.html) on the initial [PULP-Shield PCB design from IIS-ETHZ](https://arxiv.org/abs/1905.04166). This lightweight and low-power combination opens up many research and development areas for the micro-sized Crazyflie 2.X UAV.
+Thanks to the [GAP8 IoT application processor](https://greenwaves-technologies.com/gap8_mcu_ai/) from [GreenWaves Technologies](https://greenwaves-technologies.com/) and the ULP camera, the Crazyflie is able to capture, analyze and classify its environment, as previously presented by [ETH Zurich](https://ethz.ch/en.html) on the initial [PULP-Shield PCB design from IIS-ETHZ](https://arxiv.org/abs/1905.04166). This lightweight and low-power combination opens up many research and development areas for the micro-sized Crazyflie 2.x UAV.
 
 The {% poplink ai-deck %} 1.1 extends the computational capabilities and will enable complex artificial intelligence-based workloads to run onboard, with the possibility to achieve fully autonomous navigation capabilities. The ESP32 adds WiFi connectivity with the possibility to stream images as well as handling control.
 
@@ -63,7 +63,7 @@ The {% poplink ai-deck %} adds WiFi connectivity to the Crazyflie, which can be 
 with the Crazyflie and the {% poplink ai-deck %}. For the camera and the GAP8 no out-of-the-box functionality
 is added, instead these resources are left for users to fully use as they see fit.
 
-The {% poplink ai-deck %} can be mounted on top or on the bottom of the Crazyflie 2.X.
+The {% poplink ai-deck %} can be mounted on top or on the bottom of the Crazyflie 2.x.
 
 The {% poplink ai-deck %} ESP32 antenna is a bit fragile and can be damaged during crashes. For better resilience, mount the AI-deck at the bottom, or put a peace of hot-glue as shown in the picture below.
 

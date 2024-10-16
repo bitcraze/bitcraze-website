@@ -28,7 +28,7 @@ For this tutorial you need:
 {% si_step set-up %}
 
 For details on how to set-up the cfclient and the Crazyradio see
-[Getting started with the Crazyflie 2.X]({% id_url getting-started-crazyflie-2; inst-comp %}).
+[Getting started with the Crazyflie 2.x]({% id_url getting-started-crazyflie-2; inst-comp %}).
 
 {% endsi_step %}
 
@@ -164,7 +164,7 @@ Crazyflie with an [official release](https://github.com/bitcraze/crazyflie-firmw
 {% endsi_intro %}
 
 {% si_step prepare the Crazyflie; bootload %}
-Turn your Crazyflie 2.X off.
+Turn your Crazyflie 2.x off.
 
 Start it in bootloader mode by pressing and holding the power button for 3
 seconds. Both blue LEDs will blink.

@@ -15,15 +15,15 @@ redirects:
 {% product_highlight
 fa-flash;
 Wireless charging;
-Charge your Crazyflie 2.X without plugging in a USB cable.
+Charge your Crazyflie 2.x without plugging in a USB cable.
 %}
 
-Want to charge your Crazyflie 2.X without connecting the &mu;USB cable?
-Then the Crazyflie 2.X Qi inductive charging expansion board is a great
+Want to charge your Crazyflie 2.x without connecting the &mu;USB cable?
+Then the Crazyflie 2.x Qi inductive charging expansion board is a great
 option. It supports the Qi standard and can be used with the same Qi
 charger you have for your phone or tablet. It also supports the latest
 WPC V1.1 specification and is able to supply up to 1A at 5V to the
-Crazyflie 2.X.
+Crazyflie 2.x.
 
 ---
 

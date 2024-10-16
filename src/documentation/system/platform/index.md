@@ -24,8 +24,8 @@ The Crazyflie family is a range of devices with similar hardware and firmware, b
 The Crazyflie consists of many hardware components and LED's that have all their own functionalities. The two most important components of the Crazyflie are the microprocessors: the **STM32F4** handles the main Crazyflie firmware with all the low-level and high-level controls and the **NRF51822** handles all the radio communication and power management.
 {% endrow_text %}
 {% row_links %}
-- [Crazyflie 2.X STM32F4 documentation](/documentation/repository/crazyflie-firmware/master/).
-- [Crazyflie 2.X NRF51 documentation](/documentation/repository/crazyflie2-nrf-firmware/master/).
+- [Crazyflie 2.x STM32F4 documentation](/documentation/repository/crazyflie-firmware/master/).
+- [Crazyflie 2.x NRF51 documentation](/documentation/repository/crazyflie2-nrf-firmware/master/).
 
 ---
 

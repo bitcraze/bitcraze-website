@@ -37,7 +37,7 @@ Alternate firmware implementations and uses for the Crazyradio
 
 ## Crazyflie simulators
 
-Projects aimed to modeling, developing and integrating the Crazyflie 2.X nano-quadcopter in simulated environments.
+Projects aimed to modeling, developing and integrating the Crazyflie 2.x nano-quadcopter in simulated environments.
 
 | CrazySim |  Crazyflie SITL simulation with Gazebo for MPC control for a decentralized swarm | <https://github.com/gtfactslab/Llanes_ICRA2024> |
 | Sim_CF2 | The ROS2 upgrade of the Sim_CF project | <https://github.com/CrazyflieTHI/sim_cf2> |
@@ -45,7 +45,7 @@ Projects aimed to modeling, developing and integrating the Crazyflie 2.X nano-qu
 | Webots | Webots has a model of the Crazyflie 2.x | <https://www.cyberbotics.com/doc/guide/crazyflie> |
 | CrazyS | The University of Sannio in Benevento, Italy, has implemented a software-in-the-loop simulation platform for simulating Crazyflie behavior in the Gazebo 3D simulation environment. | <https://github.com/gsilano/CrazyS> |
 | gym-pybullet-drones | A [Gym environment](https://github.com/openai/gym) based on [PyBullet](https://github.com/bulletphysics/bullet3) to simulate the dynamics and learn the control of Crazyflie 2.x nano-quadcopters. | <https://github.com/JacopoPan/gym-pybullet-drones> |
-| Nvidia Isaac | Crazyflie 2.X simulation in Nvidia Isaac | <https://docs.omniverse.nvidia.com/app_isaacsim/app_isaacsim/reference_assets.html#crazyflie>
+| Nvidia Isaac | Crazyflie 2.x simulation in Nvidia Isaac | <https://docs.omniverse.nvidia.com/app_isaacsim/app_isaacsim/reference_assets.html#crazyflie>
 | Rviz Simulator | Crazyflie 2.0 Simulation in Rviz | <https://github.com/malintha/multi_uav_simulator/tree/crazyflie> |
 | Sim_cf | Crazyflie HITL and SITL simulation with Gazebo and ROS | <https://github.com/wuwushrek/sim_cf> |
 
@@ -59,7 +59,7 @@ Projects aiming at supporting swarms. They might also be useful for controlling 
 | ![ROS](/images/icons/ros_64.png)  | The ACT lab at USC has implemented a ROS 1 library to handle large swarms of Crazyflies. | <https://crazyswarm.readthedocs.io/en/latest/> |
 | ![ROS](/images/icons/ros_64.png) |A Crazyflie control packages (deprecated, use Crazyswarm instead)| <https://github.com/whoenig/crazyflie_ros> |
 | Crazyserver | A server exposing a REST API to control a swarm of Crazyflies. Written in Go. | <https://github.com/mikehamer/crazyserver> |
-| LaMoucheFolle | Cross-platform OSC server for controlling multiple Crazyflies 2.X | <https://github.com/benkuper/LaMoucheFolle> |
+| LaMoucheFolle | Cross-platform OSC server for controlling multiple Crazyflies 2.x | <https://github.com/benkuper/LaMoucheFolle> |
 
 ## Connectivity libraries
 
