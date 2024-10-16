@@ -54,7 +54,7 @@ robust and easy to use.
 
 #### The Multiranger deck
 
-The {% poplink multi-ranger-deck %} gives the Crazyflie 2.X the ability to detect objects around it. This is done by measuring the distance to objects in the following 5 directions: front/back/left/right/up with mm precision up to 4 meters.
+The {% poplink multi-ranger-deck %} gives the Crazyflie 2.x the ability to detect objects around it. This is done by measuring the distance to objects in the following 5 directions: front/back/left/right/up with mm precision up to 4 meters.
 
 {% img Multi-ranger deck; narrow; /images/multi-ranger/multi-ranger_deck_585px-1.jpg %}
 

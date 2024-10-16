@@ -1,13 +1,13 @@
 ---
 layout: page
-title: Expansion decks of the Crazyflie 2.X
+title: Expansion decks of the Crazyflie 2.x
 page_id: cf2_expansiondecks
 redirects:
   - /docs/cf2_expansiondecks/
 ---
 
 
-Here is a list of expansion decks that are available for the Crazyflie 2.X:
+Here is a list of expansion decks that are available for the Crazyflie 2.x:
 
 | Expansion Deck | Description |
 |---|---|---|
@@ -39,7 +39,7 @@ Mechanical architecture
 -----------------------
 
 Expansion boards can be installed on top, bottom, or both top and bottom
-of the Crazyflie 2.X. The Crazyflie 2.X and expansion board have female,
+of the Crazyflie 2.x. The Crazyflie 2.x and expansion board have female,
 pass-through connectors that can be fitted with male pins. Pins in two
 differing lengths exist to permit installation of either one expansion
 board on top, one board on bottom and one on top, or two boards on top.
@@ -51,7 +51,7 @@ rubber band, sticky pad, etc...).
 
 **WARNING**: It is important to install expansion boards in the right
 orientation. Installing a board in the wrong orientation might damage
-the expansion board and the Crazyflie 2.X.
+the expansion board and the Crazyflie 2.x.
 
 All expansion boards display a logo describing the correct orientation:
 
@@ -74,7 +74,7 @@ Expansion port pinout
 
 ![Expansion port pinout](/documentation/hardware/crazyflie_2_1/crazyflie_2_1-deck-connector-multiplex.png){:width="900px"}
 
--   The Crazyflie 2.X is a 3.0V system, meaning a high output will be
+-   The Crazyflie 2.x is a 3.0V system, meaning a high output will be
     3.0V but still compatible with a 3.3V system.
 -   VCC can supply max 100mA
 -   VCOM can supply max 1.0A
@@ -155,7 +155,7 @@ Compatibility matrixes
 
 This table shows which deck that works on which platform.
 
-|                                                   | Crazyflie 2.X  | Roadrunner|
+|                                                   | Crazyflie 2.x  | Roadrunner|
 |---------------------------------------------------|----------------|-----------|
 | **{% poplink led-ring-deck %}**                   | yes            | yes       |
 | **{% poplink qi-1-2-wireless-charging-deck %}**   | yes            | yes       |

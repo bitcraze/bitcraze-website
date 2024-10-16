@@ -7,7 +7,7 @@ redirects:
 ---
 
 {% row_full %}
-The Crazyflie 2.X (as most other quadcopters and robots) has no real notion of
+The Crazyflie 2.x (as most other quadcopters and robots) has no real notion of
 its position in space. The on board sensors (accelerometers and gyros) can be
 used to give a rough idea of its movements but lacks the accuracy for long term
 position awareness. The solution is to use an external system that can provide
@@ -18,7 +18,7 @@ information of the current position.
 
 {% row_image_text_links Lighthouse positioning System; /images/documentation/overview/lighthouse.png %}
 {% row_text %}
-The lighthouse positioning system is our latest method of positioning on the Crazyflie 2.X. The [Lighthouse base stations](https://store.bitcraze.io/products/lighthouse-v2-base-station) are used here, and they emit infrared laser scans that are detected by our {% poplink lighthouse-deck %}. This enables the crazyflie to (like with the Loco Positioning System) calculate its own position on board.
+The lighthouse positioning system is our latest method of positioning on the Crazyflie 2.x. The [Lighthouse base stations](https://store.bitcraze.io/products/lighthouse-v2-base-station) are used here, and they emit infrared laser scans that are detected by our {% poplink lighthouse-deck %}. This enables the crazyflie to (like with the Loco Positioning System) calculate its own position on board.
 {% endrow_text %}
 
 {% row_links %}

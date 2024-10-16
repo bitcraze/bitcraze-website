@@ -6,9 +6,9 @@ redirects:
   - /crazyflie-2-0-buyers-guide/
 ---
 
-{% row_image_text_links I want to fly the Crazyflie 2.X from my mobile device %}
+{% row_image_text_links I want to fly the Crazyflie 2.x from my mobile device %}
 {% row_text %}
-The Crazyflie 2.X comes with everything you need for flying from a Bluetooth LE
+The Crazyflie 2.x comes with everything you need for flying from a Bluetooth LE
 enabled mobile device. Currently [Android](https://play.google.com/store/apps/details?id=se.bitcraze.crazyfliecontrol2)
 and [IOS](https://itunes.apple.com/us/app/crazyflie-2.0/id946151480?mt=8) devices are supported.
 {% endrow_text %}
@@ -20,12 +20,12 @@ and [IOS](https://itunes.apple.com/us/app/crazyflie-2.0/id946151480?mt=8) device
 {% endrow_image_text_links %}
 
 
-{% row_image_text_links I want to fly the Crazyflie 2.X from my computer using a gamepad %}
+{% row_image_text_links I want to fly the Crazyflie 2.x from my computer using a gamepad %}
 {% row_text %}
 The {% poplink crazyradio-2-0 %}
-enables you to connect the Crazyflie 2.X to a computer. Connect
+enables you to connect the Crazyflie 2.x to a computer. Connect
 a [gamepad](/documentation/repository/crazyflie-clients-python/master/userguides/inputdevices/)
-to the computer and run our client software to control the Crazyflie 2.X.
+to the computer and run our client software to control the Crazyflie 2.x.
 {% endrow_text %}
 {% row_links %}
 **What to buy:**
@@ -37,18 +37,18 @@ Note: gamepad is not included
 {% endrow_image_text_links %}
 
 
-{% row_image_text_links I want to use the Crazyflie 2.X for development %}
+{% row_image_text_links I want to use the Crazyflie 2.x for development %}
 {% row_text %}
 The {% poplink crazyradio-2-0 %}
-enables you to connect the Crazyflie 2.X
+enables you to connect the Crazyflie 2.x
 to a computer wireless and download new firmware, modified to your liking. The logging and parameter
-frameworks provides APIs for getting and setting data in the Crazyflie 2.X live,
+frameworks provides APIs for getting and setting data in the Crazyflie 2.x live,
 even when you are flying!
 All software, firmware as well as clients on the computer is open source and the
 source code is available for you to play with as you like.
 
 You probably also want a [gamepad](/documentation/repository/crazyflie-clients-python/master/userguides/inputdevices/)
-to fly the Crazyflie 2.X when connected to the computer.
+to fly the Crazyflie 2.x when connected to the computer.
 {% endrow_text %}
 {% row_links %}
 **What to buy:**
@@ -60,13 +60,13 @@ Note: gamepad is not included
 {% endrow_image_text_links %}
 
 
-{% row_image_text_links I want to use the Crazyflie 2.X for advanced development %}
+{% row_image_text_links I want to use the Crazyflie 2.x for advanced development %}
 {% row_text %}
-A lot can be achieved with the Crazyflie 2.X and the {% poplink crazyradio-2-0 %} only, but for
+A lot can be achieved with the Crazyflie 2.x and the {% poplink crazyradio-2-0 %} only, but for
 advanced development JTAG/SWD access to the platform is useful.
 The {% id_link product-debug-adapter-kit %}
 enables you to connect your normal JTAG/SWD debugger to
-the Crazyflie 2.X to set break points, single step and so on when debugging.
+the Crazyflie 2.x to set break points, single step and so on when debugging.
 {% endrow_text %}
 {% row_links %}
 **What to buy:**
@@ -78,11 +78,11 @@ Note: JTAG/SWD debugger is not included
 {% endrow_image_text_links %}
 
 
-{% row_image_text_links I want to add a sensor to the Crazyflie 2.X %}
+{% row_image_text_links I want to add a sensor to the Crazyflie 2.x %}
 {% row_text %}
-The expansion ports on the Crazyflie 2.X enables you to connect more or less
+The expansion ports on the Crazyflie 2.x enables you to connect more or less
 any hardware you like. When prototyping the Breakout deck is useful as you can
-use it to connect your Crazyflie 2.X to a bread board and easily debug your
+use it to connect your Crazyflie 2.x to a bread board and easily debug your
 hardware design. When satisfied with the design you can transfer it to a Prototyping
 deck for a more permanent implementation. If you want to take it even further,
 why not manufacture a [deck PCB](https://github.com/bitcraze/crazyflie2-exp-template-electronics) and add Female deck connectors.
@@ -99,11 +99,11 @@ why not manufacture a [deck PCB](https://github.com/bitcraze/crazyflie2-exp-temp
 
 {% row_image_text_links I want to paint in the dark with a Crazyflie %}
 {% row_text %}
-The Crazyflie 2.X is fun to fly as is but adding the {% poplink led-ring-deck %} and flying
+The Crazyflie 2.x is fun to fly as is but adding the {% poplink led-ring-deck %} and flying
 in the dark adds a new dimension. The RGB LEDs lets you chose any colour and with
 some coding any light sequence can be displayed, for instance controlled by the
 on board sensors.
-Why not take photos with an open shutter of a moving Crayflie 2.X and paint in
+Why not take photos with an open shutter of a moving Crayflie 2.x and paint in
 the dark?
 {% endrow_text %}
 {% row_links %}
@@ -128,13 +128,13 @@ it can be very handy to indicate when the system is ready, error states or simil
 {% endrow_image_text_links %}
 
 
-{% row_image_text_links I want a bigger Crazyflie 2.X %}
+{% row_image_text_links I want a bigger Crazyflie 2.x %}
 {% row_text %}
-The BigQuad deck is used to control a bigger quad copter frame with a Crazyflie 2.X.
+The BigQuad deck is used to control a bigger quad copter frame with a Crazyflie 2.x.
 Remove the motors on the Crazyflie, add the BigQuad deck and mount it on a bigger
 frame. Connect the motor controllers (ESCs) for the brushless motors of the frame
 to the BigQuad deck and you are ready to go. You get the full ecosystem of the
-Crazyflie 2.X but super sized.
+Crazyflie 2.x but super sized.
 {% endrow_text %}
 {% row_links %}
 **What to buy:**
@@ -150,7 +150,7 @@ Note: the bigger frame, brushless motors and ESCs are not included
 {% row_image_text_links I want wireless charging of my Crazyflie %}
 {% row_text %}
 The Qi deck gives the Crazyflie wireless charging capabilities. The battery is
-automatically charged when the Crazyflie 2.X is placed on top of a wireless charger,
+automatically charged when the Crazyflie 2.x is placed on top of a wireless charger,
 no need to connect a cable.
 {% endrow_text %}
 {% row_links %}
@@ -163,7 +163,7 @@ Note: wireless charger not included
 {% endrow_image_text_links %}
 
 
-{% row_image_text_links I want to record data when flying my Crazyflie 2.X %}
+{% row_image_text_links I want to record data when flying my Crazyflie 2.x %}
 {% row_text %}
 If large volumes of data needs to be recorded when flying, the {% poplink crazyradio-2-0 %} might
 not have sufficient bandwidth in some cases. The {% poplink sd-card-deck %} adds access to the
@@ -236,7 +236,7 @@ Note: gamepad is not included
 {% row_text %}
 The {% poplink multi-ranger-deck%} measures the distance to objects forward/back/left/right and up.
 It can be used for obstacle avoidance, mapping a room or games where the
-Crazyflie 2.X "bounces" between the walls of a room.
+Crazyflie 2.x "bounces" between the walls of a room.
 Combine with a {% poplink flow-deck %} to measure the distance to the floor as well and
 support autonomous flight.
 {% endrow_text %}
@@ -267,7 +267,7 @@ robotics and computers up to university level.
 
 {% row_image_text_links The STEM drone bundle %}
 {% row_text %}
-With the STEM drone bundle the Crayflie 2.X can fly autonomously using the Flow
+With the STEM drone bundle the Crayflie 2.x can fly autonomously using the Flow
 deck and it can be controlled from a remote computer using simple python scripts,
 perfect for getting started with robotics.
 For higher education, students can for instance re-implement the controller
@@ -286,7 +286,7 @@ the equipment home for extended studies and insights.
 {% row_text %}
 The STEM ranging bundle contains everything in the STEM drone bundle with the
 addition of the {% poplink multi-ranger-deck%}. The Multi-ranger deck makes it possible to interact
-with the Crazyflie 2.X or use it to map a room.
+with the Crazyflie 2.x or use it to map a room.
 {% endrow_text %}
 {% row_links %}
 **What to buy:**
@@ -300,7 +300,7 @@ with the Crazyflie 2.X or use it to map a room.
 
 ---
 
-## I want to fly autonomously and control the Crazyflie 2.X from a computer
+## I want to fly autonomously and control the Crazyflie 2.x from a computer
 
 For fully autonomous flight the Crazyflie must get position data from an
 external source, the internal sensors are only good for one or a few seconds of

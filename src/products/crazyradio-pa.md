@@ -22,7 +22,7 @@ Crazyradio PA is a long range open USB radio dongle based on the
 nRF24LU1+ from Nordic Semiconductor. It features a 20dBm power
 amplifier, LNA and comes pre-programmed with Crazyflie compatible
 firmware. The power amplifier boosts the range, giving a range of up to
-1km (under ideal conditions) together with the Crazyflie 2.X and up to 2km
+1km (under ideal conditions) together with the Crazyflie 2.x and up to 2km
 Crazyradio PA to Crazyradio PA (under ideal conditions).
 
 Since it's an open project with firmware written from scratch and
@@ -32,7 +32,7 @@ requirements for bandwidth. The hardware comes shipped with the latest
 firmware as well as a bootloader that enables firmware upgrades via USB
 without any additional hardware needed. The Crazyflie PA is compatible
 with the first generation of the Crazyflie, but will not give the same
-range increase as with the Crazyflie 2.X.
+range increase as with the Crazyflie 2.x.
 
 {% endrow_text %}
 {% row_links %}

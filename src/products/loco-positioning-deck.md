@@ -17,7 +17,7 @@ redirects:
 {% product_highlight
 fa-map-marker;
 Absolute position;
-Let your Crazyflie 2.X know where it is using the Loco Positioning expansion deck
+Let your Crazyflie 2.x know where it is using the Loco Positioning expansion deck
 %}
 
 {% tabgroup %}
@@ -27,7 +27,7 @@ Let your Crazyflie 2.X know where it is using the Loco Positioning expansion dec
 
 The {% poplink loco-positioning-deck %} is a Tag in a Loco Positioning system and measures
 the distances to Anchors. The distances are used to estimate the
-absolute position of the Crazyflie 2.X in the room, which can be used for
+absolute position of the Crazyflie 2.x in the room, which can be used for
 autonomous flight. The position is calculated on-board of the Crazyflie and there
 is no need for an external computer for position estimation.
 

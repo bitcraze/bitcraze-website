@@ -40,7 +40,7 @@ radio as well as Bluetooth LE. This gives you the option of downloading our app 
 in combination with the {% poplink crazyradio-2-0 %} or [Crazyradio PA](/products/crazyradio-pa/), using your computer to display data and fly with a game
 controller.
 
-The Crazyflie 2.1+ version of the successful Crazyflie 2.X development platform comes with upgraded battery and propellers for a up to 15% improved flight performance. Together with an extensive ecosystem of software and deck expansions it's ideal for education, research and swarming.
+The Crazyflie 2.1+ version of the successful Crazyflie 2.x development platform comes with upgraded battery and propellers for a up to 15% improved flight performance. Together with an extensive ecosystem of software and deck expansions it's ideal for education, research and swarming.
 
 
 {% endrow_text %}
@@ -91,7 +91,7 @@ it's a breeze to update.
 
 #### Getting started
 
-Go to the [crazyflie 2.X getting started tutorial]({% id_url getting-started-crazyflie-2 %}) to build your crazyflie, update its firmware and fly with it with the clients. Also take a look at our {% id_link system-overview %} to learn more about the Crazyflie's ecosystem of positioning systems, Clients and ofcourse the crazyflie itself with its expansion decks.
+Go to the [crazyflie 2.x getting started tutorial]({% id_url getting-started-crazyflie-2 %}) to build your crazyflie, update its firmware and fly with it with the clients. Also take a look at our {% id_link system-overview %} to learn more about the Crazyflie's ecosystem of positioning systems, Clients and ofcourse the crazyflie itself with its expansion decks.
 
 
 

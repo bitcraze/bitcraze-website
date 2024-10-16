@@ -15,7 +15,7 @@ redirects:
 {% product_highlight
 fa-eye;
 Debug firmware with ease;
-Connect a standard JTAG and SWD debugger to the Crazyflie 2.X.
+Connect a standard JTAG and SWD debugger to the Crazyflie 2.x.
 %}
 
 {% tabgroup %}
@@ -23,7 +23,7 @@ Connect a standard JTAG and SWD debugger to the Crazyflie 2.X.
 
 {% row_icon_text_links How it works; fa-cogs %}
 {% row_text %}
-One of our goals is to make development with the Crazyflie 2.X as easy
+One of our goals is to make development with the Crazyflie 2.x as easy
 as possible. Due to the small size of the platform there are limitations
 in what connectors we can have and therefore we designed a debug-adapter
 kit that makes connecting a debugger to either of the MCUs a lot
@@ -58,12 +58,12 @@ pinouts.
 {% row_text %}
 #### Assembly
 The Debug adapter kit contains the following:
-  * The nRF debug connector for soldering to the Crazyflie 2.X
+  * The nRF debug connector for soldering to the Crazyflie 2.x
   * A nylon screw and nut for securely attaching the nRF51 debug connector
   * The debug adapter for connecting the debugger
-  * A cable for connecting to the Crazyflie 2.X
+  * A cable for connecting to the Crazyflie 2.x
 
-Below are two images showing how the nRF51 debug connector should be soldered to the Crazyflie 2.X.
+Below are two images showing how the nRF51 debug connector should be soldered to the Crazyflie 2.x.
 
 ![debug adapter top](/images/documentation/wiki/debug_adapter_top.jpg)
 ![debug adapter buttom](/images/documentation/wiki/debug_adapter_bottom.jpg)
@@ -81,8 +81,8 @@ Here's a short explanation of the connectors:
   * **Reset selector**
     * Reset btn to <-> SDWIO: For nRF51 debugging (reset done by holding SWD IO line low)
     * Reset btn to <-> NRST: For STM32F debugging (reset done by holding NRST low)
-  * **Crazyflie 2.0 SWV**: Connect to Crazyflie 2.X for nRF51 or STM32F4 debugging
-  * **nRF51 1:1**: 1:1 match with nRF51 debug pinout on the Crazyflie 2.X, pinout:
+  * **Crazyflie 2.0 SWV**: Connect to Crazyflie 2.x for nRF51 or STM32F4 debugging
+  * **nRF51 1:1**: 1:1 match with nRF51 debug pinout on the Crazyflie 2.x, pinout:
     - SWIO
     - GND
     - VCC

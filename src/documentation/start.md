@@ -11,7 +11,7 @@ redirects:
 
 ## Let's get started!
 
-If you just bought a Crazyflie 2.X and  a good way to start is to head over to the
+If you just bought a Crazyflie 2.x and  a good way to start is to head over to the
 getting started guide, to see how to assemble the kit and take off for your first flight.
 
 {% inline_button Getting Started with Crazyflie Tutorial; /documentation/tutorials/getting-started-with-crazyflie-2-x/ %}
@@ -20,7 +20,7 @@ If you have just gotten a new Crazyradio 2.0, here are some instructions to get 
 
 {% inline_button Getting Started with Crazyradio 2.0 Tutorial; /documentation/tutorials/getting-started-with-crazyradio-2-0/ %}
 
-If you want to add one of our many expansion decks to the Crazyflie 2.X and need help getting started we have made a Expansion decks tutorial.
+If you want to add one of our many expansion decks to the Crazyflie 2.x and need help getting started we have made a Expansion decks tutorial.
 
  {% inline_button Getting Started with Expansion decks tutorial; /documentation/tutorials/getting-started-with-expansion-decks/ %}
 
@@ -60,7 +60,7 @@ and this is also where you will the source of documentation related to each repo
 {% inline_button Repository overview page; /documentation/repository/ %}
 
 Maybe you want to add a sensor or some other hardware? Heat up your soldering
-iron and dive into it! Find more information about the expansion bus on the expansion decks of the Crazyflie 2.X.
+iron and dive into it! Find more information about the expansion bus on the expansion decks of the Crazyflie 2.x.
 
 
 {% inline_button Expansion Decks Page; /documentation/system/platform/cf2-expansiondecks/ %}

@@ -23,7 +23,7 @@ For more information go to the {% id_link getting-started-crazyflie-2 %}.
 
 {% img Z-ranger deck tutorial; wide; /images/tutorials/height-hold.png %}
 
-* Place the Crazyflie 2.X on the floor in an area with lots of floor space for flying, then
+* Place the Crazyflie 2.x on the floor in an area with lots of floor space for flying, then
 press the assisted mode button on the gamepad to activate the height-hold mode.
 The Crazyflie will now take off and hover at a height of 40 cm.
 

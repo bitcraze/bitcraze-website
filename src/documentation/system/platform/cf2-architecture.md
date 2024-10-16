@@ -1,12 +1,12 @@
 ---
 layout: page
-title: Hardware Architecture of the Crazyflie 2.X
+title: Hardware Architecture of the Crazyflie 2.x
 page_id: cf2_architecture
 redirects:
   - /docs/cf2_architecture/
 ---
 
-Crazyflie 2.X is architectured around 2 microcontrollers:
+Crazyflie 2.x is architectured around 2 microcontrollers:
 
 -   A **NRF51**, Cortex-M0, that handles radio communication and power
     management:
@@ -35,7 +35,7 @@ The two main tasks for the nRF51 is to handle the radio communication
 and the power management. It acts as a radio bridge (it communicates raw
 data packet to the STM).
 
-Crazyflie 2.X use the radio for both CRTP and BLE, but the hardware also
+Crazyflie 2.x use the radio for both CRTP and BLE, but the hardware also
 supports other protocols like ANT. The CRTP mode is compatible with the
 Crazyradio USB dongle and it provides a 2Mbit/seconds data link with low
 latency. Test shows that the latency of the radio link is between 360us
@@ -45,7 +45,7 @@ current implementation is more around 20ms. The main benefit of the CRTP
 link with the Crazyradio is that it's easily implemented on any system
 that supports USB host which, makes it the first choice to hack and
 experiment with the Crazyflie. BLE is implemented mostly with the use
-case of controlling the Crazyflie 2.X from a mobile device.
+case of controlling the Crazyflie 2.x from a mobile device.
 
 One of the other particularities of the nRF51 chip is that it was
 designed to run from a coin battery, which means that it is pretty well

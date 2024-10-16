@@ -129,10 +129,10 @@ Place the Crazyflie with the {% poplink lighthouse-deck %} on the ground of wher
 {% endsi_step %}
 
 {% si_step Connect to the Crazyflie with the Client%}
-Open the CF client and connect to the Crazyflie 2.X.
+Open the CF client and connect to the Crazyflie 2.x.
 
 _If not already done, [configure](/documentation/repository/crazyflie-clients-python/master/userguides/userguide_client#firmware-configuration)_
-the Crazyflie 2.X in __2Mbit__ radio mode.
+the Crazyflie 2.x in __2Mbit__ radio mode.
 {% img open the crazyflie client; wide; /images/tutorials/getting_started_with_lighthouse/3_client_flight_control.png %}
 {% endsi_step %}
 

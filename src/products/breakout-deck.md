@@ -16,7 +16,7 @@ redirects:
 {% product_highlight
 fa-share;
 Development and test of hardware made simple;
-Easily connect to the Crazyflie 2.X expansion port when developing new hardware.
+Easily connect to the Crazyflie 2.x expansion port when developing new hardware.
 %}
 
 
@@ -27,7 +27,7 @@ Easily connect to the Crazyflie 2.X expansion port when developing new hardware.
 {% row_text %}
 Test and develop new hardware designs easily without soldering by using
 the breakout expansion board. Just build the circuit on a breadboard
-and attach the Crazyflie 2.X to it. The board has all the 20 expansion connector
+and attach the Crazyflie 2.x to it. The board has all the 20 expansion connector
 pins available as well as a footprint where a 1-wire memory could be soldered
 to make the board auto-detectable by the firmware.
 {% endrow_text %}
@@ -47,7 +47,7 @@ to make the board auto-detectable by the firmware.
 {% datasheet_section breakout_deck; Electrical specification %}
 
 #### Compatibility
-Works with the Crazyflie 2.X
+Works with the Crazyflie 2.x
 {% endrow_text %}
 {% row_links %}
 

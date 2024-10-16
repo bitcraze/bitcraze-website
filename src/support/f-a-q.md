@@ -6,7 +6,7 @@ redirects:
   - /frequently-asked-questions-Crazyflie-2.0/
 ---
 
-{% si_intro  For how long can the Crazyflie 2.X fly? %}
+{% si_intro  For how long can the Crazyflie 2.x fly? %}
 
 It can fly up to 7 minutes and depending on how you fly it, the time will decrease.
 
@@ -16,23 +16,23 @@ It can fly up to 7 minutes and depending on how you fly it, the time will decrea
 
 
 
-{% si_intro  How is the Crazyflie 2.X charged? %}
+{% si_intro  How is the Crazyflie 2.x charged? %}
 It is charged using a standard micro-USB connector commonly used by smartphones. You probably have one of these cables at home. You can charge it from any USB unit that can supply 500mA, most computers and adapters do. It takes up to 40min to charge and the blue LED (M3) will tell you roughly how charged it is by how long it is lit. When it is fully lit it is fully charged.
 {% endsi_intro %}
 
-{% si_intro Can I hot swap batteries on the Crazyflie 2.X? %}
+{% si_intro Can I hot swap batteries on the Crazyflie 2.x? %}
 Yes, you can hot swap batteries.
 {% endsi_intro %}
 
-{% si_intro Can I use a bigger battery on the Crazyflie 2.X? %}
+{% si_intro Can I use a bigger battery on the Crazyflie 2.x? %}
 Yes, as long as it is not too heavy, it is a single cell (3.7V), it fits and the polarity is correct you can do so. A higher capacity battery will give you longer flight times but will also decrease agility. We recommend batteries with at least 15C continuous discharge rate.
 {% endsi_intro %}
 
-{% si_intro What radio is used with the Crazyflie 2.X? %}
-The Crazyflie 2.X can be controlled with the Crazyradio, Crazyradio PA or {% poplink crazyradio-2-0 %} from a PC or with a mobile device using Bluetooth Low Energy.
+{% si_intro What radio is used with the Crazyflie 2.x? %}
+The Crazyflie 2.x can be controlled with the Crazyradio, Crazyradio PA or {% poplink crazyradio-2-0 %} from a PC or with a mobile device using Bluetooth Low Energy.
 {% endsi_intro %}
 
-{% si_intro Which mobile devices work with the Crazyflie 2.X? %}
+{% si_intro Which mobile devices work with the Crazyflie 2.x? %}
 Here is a list of requirements for the mobile device:
 
 * Bluetooth Low Energy (BLE) or sometimes called Bluetooth Smart support.
@@ -50,18 +50,18 @@ As with all radio communication it depends. It depends on the environment, radio
 * Mobile device: Up to about 20 meters range (The uplink, the mobile device is limiting the range).
 {% endsi_intro %}
 
-{% si_intro Can I use a normal R/C transmitter to control the Crazyflie 2.X? %}
+{% si_intro Can I use a normal R/C transmitter to control the Crazyflie 2.x? %}
 This can be done with the [BigQuad expansion deck](/products/bigquad-deck/). It's working, but not yet a turn-key solution.
 
 
 {% endsi_intro %}
 
-{% si_intro How durable is the Crazyflie 2.X? %}
-The Crazyflie 2.X is using the PCB itself as the frame. The PCB is made of [FR4](https://en.wikipedia.org/wiki/FR-4) which is a strong and lightweight material. Attached to that is the motor mount which is a bit flexible. The motor mount is designed in such a way that it will break in case of a violent crash and not the PCB or electronics. The motor mount is very easy to change and cheap. We have not yet been able to break anything except the motor mount or a motor during violent crashes and some have been from 30m height right on to concrete. It is not unbreakable though so handle it with care!
+{% si_intro How durable is the Crazyflie 2.x? %}
+The Crazyflie 2.x is using the PCB itself as the frame. The PCB is made of [FR4](https://en.wikipedia.org/wiki/FR-4) which is a strong and lightweight material. Attached to that is the motor mount which is a bit flexible. The motor mount is designed in such a way that it will break in case of a violent crash and not the PCB or electronics. The motor mount is very easy to change and cheap. We have not yet been able to break anything except the motor mount or a motor during violent crashes and some have been from 30m height right on to concrete. It is not unbreakable though so handle it with care!
 {% endsi_intro %}
 
-{% si_intro Is the Crazyflie 2.X backward compatible with the Crazyflie 1.0 (aka Crazyflie Nano)? %}
-No, the Crazyflie 2.X's firmware and python library is no longer backwards compatible, as of the 2017.06 release
+{% si_intro Is the Crazyflie 2.x backward compatible with the Crazyflie 1.0 (aka Crazyflie Nano)? %}
+No, the Crazyflie 2.x's firmware and python library is no longer backwards compatible, as of the 2017.06 release
 {% endsi_intro %}
 
 {% si_intro Is the Crazyflie 1.0 (aka Crazyflie Nano) still supported? %}
@@ -72,20 +72,20 @@ No, as of the 2017.06 release of the firmware and PC software, the Crazyflie Nan
 Yes, the Crazyflie 2.0 is still supported with the same firmware and PC software as the Crazyflie 2.1
 {% endsi_intro %}
 
-{% si_intro Can the Crazyflie 2.X be used to control a bigger quadcopter? %}
+{% si_intro Can the Crazyflie 2.x be used to control a bigger quadcopter? %}
 Yes, it can. With the [BigQuad expansion deck](/products/bigquad-deck/).
 
 You can also consider using the [Crazyflie Bolt 1.1](/products/crazyflie-bolt-1-1/) autopilot board to build an custom drone.
 {% endsi_intro %}
 
-{% si_intro Can I do FPV (first person view) flying with a Crazyflie 2.X? %}
+{% si_intro Can I do FPV (first person view) flying with a Crazyflie 2.x? %}
 There is ongoing development in this area:
 
-* [Working FPV setup for Crazyflie 2.X](https://forum.bitcraze.io/viewtopic.php?f=6&p=8295).
+* [Working FPV setup for Crazyflie 2.x](https://forum.bitcraze.io/viewtopic.php?f=6&p=8295).
 {% endsi_intro %}
 
-{% si_intro Can the Crazyflie 2.X fly autonomously? %}
-The Crazyflie 2.X does not have enough sensors to locate itself in the environment as is, it requires more information to do that.
+{% si_intro Can the Crazyflie 2.x fly autonomously? %}
+The Crazyflie 2.x does not have enough sensors to locate itself in the environment as is, it requires more information to do that.
 The easiest way to achieve that is to add the {% poplink flow-deck %}. It tells the Crazyflie how it moves relative to the floor and
 thus enables it to fly autonomously. See the [product page](/products/flow-deck-v2/) for more information.
 

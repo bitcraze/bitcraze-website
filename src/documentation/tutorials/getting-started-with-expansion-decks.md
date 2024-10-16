@@ -7,22 +7,22 @@ redirects:
 ---
 
 {% si_intro Expansion decks %}
-The Crazyflie 2.X is equipped with a flexible expansion port that enables new
+The Crazyflie 2.x is equipped with a flexible expansion port that enables new
 hardware to be connected. The port is available from both sides of the Crazyflie
 to keep as many options open as possible. The port is used by expansion decks
-to provide new functionality to the Crazyflie 2.X and since the port is
+to provide new functionality to the Crazyflie 2.x and since the port is
 available from both sides it is possible to attach two decks at the same time.
 {% endsi_intro %}
 
 {% si_step attaching a deck %}
 **BE AWARE** that it is very important to mount an expansion deck with the
 **CORRECT ORIENTATION**, or the deck might be damaged. Always make sure the
-Crazyflie 2.X is powered off before mounting or unmounting a deck.
+Crazyflie 2.x is powered off before mounting or unmounting a deck.
 
 Look for the small symbols that show which side is up and down, the dot is up and the cross is down.
 The arrow indicates the forward direction and should point towards the front.
 
-Decks that are mounted on top of the Crazyflie 2.X replace the battery holder.
+Decks that are mounted on top of the Crazyflie 2.x replace the battery holder.
 
 {% img Deck orientation; wide; /images/getting-started/deck-orientation.png %}
 {% endsi_step %}
