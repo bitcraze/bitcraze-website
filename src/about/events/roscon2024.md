@@ -17,9 +17,12 @@ We will be going to ROSCon 2024, Odense Denmark on the October 22th and 23rd! We
 What we will show  shown at our booth was a fully decentralized swarm demo where we showed of several items:
 
 - **The [lighthouse positioning system]({% id_url lighthouse-system-overview %}) for onboard positioning**: This is are default demo setup for conference and fair booths.
-- **Multiranger based swarm mapping in ROS2**: We are using the Crazyswarm2 project and a multiranger mapping ROS 2 node to create a map of the environment with 3 crazyflies at the same time.
+- **Multiranger based swarm mapping in ROS2**: We are using the [Crazyswarm2 project](https://imrclab.github.io/crazyswarm2/) as the Crazyflie Communication server and a [multiranger mapping ROS 2 node](https://github.com/knmcguire?tab=repositories) to create a map of the environment with 3 crazyflies at the same time. The map mering is being done by an community contributed github repo called [mapMergeForMultiRobotMapping-ROS2](https://github.com/abdulkadrtr/mapMergeForMultiRobotMapping-ROS2).
 
 THe Multiranger based swarm mapping is based on the skill learning session given at the [Robotics Developer Day](https://www.theconstruct.ai/robotics-developers-day/) and based on what is done for the [tutorial written in this blogpost](https://www.bitcraze.io/2024/09/crazyflies-adventures-with-ros-2-and-gazebo/).
+
+{% img ICRA 2024; medium; /images/events/roscon2024/ROS_node_roscon2024.png %}
+
 
 
 ### Video of Demo
@@ -31,6 +34,9 @@ Here is a video of the demo as prepared for the [Robotics Developer Day](https:/
 
 The following products are used in the demo, are available for purchase in
 [our store](https://store.bitcraze.io/).
+
+{% img ICRA 2024; medium; /images/events/roscon2024/demo_roscon2024.png %}
+
 
 #### The Crazyflie 2.1
 
@@ -88,5 +94,7 @@ with a 3D-printed pad. The FreeCad and stl files for the pad are available on Gi
 ## New products and Prototypes
 
 * Crazyflie 2.1+
-* Lighthouse positioning node
+* Crazyflie Brushless
+* Lighthouse positioning node Prototype
+* Forward expansion deck prototype (with a camera)
 
