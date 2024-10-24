@@ -17,12 +17,12 @@ page_id: home
         </div>
       </div>
 
-      <div class="announcements">
+      <!--div class="announcements">
         <a href="/about/events/roscon2024/">
           <img src="/images/events/roscon2024/ROSCon2024.png" alt="ROSCon 2024">
           <p>We are going to ROSCon on Oct 21-23! Come see us at Booth 21. >>></p>
         </a>
-      </div>
+      </div-->
 
     </div>
     <div class="header-col-wrapper">
