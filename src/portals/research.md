@@ -34,9 +34,8 @@ your work a breeze.
 
 The entire firmware is open for you to change, you will never be locked in by limited APIs or closed
  software. Never.
- 
- 
-{% youtube zgUz5USTw6c; medium; 16by9 %}
+
+{% youtube KrN8ZyqmLWk; medium; 16by9 %}
 Review our [**YouTube playlist**](https://www.youtube.com/playlist?list=PLj9XMmQVSr-CDhpGsDM2xv2O8tlquBAjX) for a collection of videos showing the Crazyflie being used for research.
 
 <!-- {% inline_button YouTube playelist - Crazyflie in research; /category/research/ %} -->
