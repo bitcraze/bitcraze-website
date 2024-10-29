@@ -21,7 +21,7 @@ module Jekyll
         '<div class="row">
             <div class="col-md-12">
                 <div class="text-center">
-                    <a href="' + @params[0] + '"><button type="button" class="buy-button"><i class="fa fa-envelope-o fa-fw"></i>Keep me updated!</button></a>
+                    <a href="' + @params[0] + '"><button type="button" class="buy-button"><i class="fa-regular fa-envelope fa-fw"></i>Keep me updated!</button></a>
                 </div>
             </div>
         </div>'

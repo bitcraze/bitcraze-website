@@ -162,7 +162,7 @@ class TestRowCols < Testbase
     </section>
     <section class="row content-area">
         <div class="col-md-2">
-            <i class="fa fa-icon fa-5x"></i>
+            <i class="fa-solid fa-icon fa-5x"></i>
         </div>
         <div class="col-md-7">converted md1</div>
         <div class="col-md-3">converted md2</div>

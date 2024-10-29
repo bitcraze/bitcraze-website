@@ -132,9 +132,9 @@ module Jekyll
         when 'active'
           ''
         when 'early-access'
-          '<div class="alert alert-success"><i class="fa fa-info fa-fw"></i> This product is in the <a href="/development/early-access/">Early Access stage</a>.</div>'
+          '<div class="alert alert-success"><i class="fa-solid fa-info fa-fw"></i> This product is in the <a href="/development/early-access/">Early Access stage</a>.</div>'
         when 'eol'
-          '<div class="alert alert-success"><i class="fa fa-warning fa-fw"></i> This product has reach end-of-life and is not longer being manufactured. Stock might still be available in our online store or though retailers, but it is not recommended to be used for new set-ups.</div>'
+          '<div class="alert alert-success"><i class="fa-solid fa-circle-exclamation"></i> This product has reach end-of-life and is not longer being manufactured. Stock might still be available in our online store or though retailers, but it is not recommended to be used for new set-ups.</div>'
         else
           raise "Unexpected status for product"
         end

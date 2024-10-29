@@ -47,5 +47,5 @@ redirects:
 
 ---
 <div class="col-md-12">
-  <p class="text-right">Want to add a video? <a href="https://github.com/bitcraze/bitcraze-website/edit/master/src/{{page.path}}"><i class="fa fa-pencil"></i> &nbsp;Improve this page</a></p>
+  <p class="text-right">Want to add a video? <a href="https://github.com/bitcraze/bitcraze-website/edit/master/src/{{page.path}}"><i class="fa-solid fa-pencil"></i> &nbsp;Improve this page</a></p>
 </div>

@@ -58,7 +58,7 @@ class TestMedia < Testbase
     expected = '<div class="media-row-narrow">
                   <div class="embed-responsive embed-responsive-16by9">
                     <div class="embed-responsive-item video-item-delayed-load" data-video-id="id" style="background:url(https://i1.ytimg.com/vi/id/0.jpg);" onclick="kraken.loadYoutubeVideo(this)">
-                      <i class="fa fa-play-circle fa-3x"></i>
+                      <i class="fa-regular fa-circle-play fa-3x"></i>
                     </div>
                   </div>
                 </div>'
@@ -157,7 +157,7 @@ class TestMedia < Testbase
                       </div>
                       <div class="embed-responsive embed-responsive-16by9">
                         <div class="embed-responsive-item video-item-delayed-load" data-video-id="id" style="background:url(https://i1.ytimg.com/vi/id/0.jpg);" onclick="kraken.loadYoutubeVideo(this)">
-                          <i class="fa fa-play-circle fa-3x"></i>
+                          <i class="fa-regular fa-circle-play fa-3x"></i>
                         </div>
                       </div>
                     </div>
@@ -183,7 +183,7 @@ class TestMedia < Testbase
                       </div>
                       <div class="embed-responsive embed-responsive-16by9">
                         <div class="embed-responsive-item video-item-delayed-load" data-video-id="id1" style="background:url(https://i1.ytimg.com/vi/id1/0.jpg);" onclick="kraken.loadYoutubeVideo(this)">
-                          <i class="fa fa-play-circle fa-3x"></i>
+                          <i class="fa-regular fa-circle-play fa-3x"></i>
                         </div>
                       </div>
                     </div>
@@ -193,7 +193,7 @@ class TestMedia < Testbase
                       </div>
                       <div class="embed-responsive embed-responsive-16by9">
                         <div class="embed-responsive-item video-item-delayed-load" data-video-id="id2" style="background:url(https://i1.ytimg.com/vi/id2/0.jpg);" onclick="kraken.loadYoutubeVideo(this)">
-                          <i class="fa fa-play-circle fa-3x"></i>
+                          <i class="fa-regular fa-circle-play fa-3x"></i>
                         </div>
                       </div>
                     </div>
@@ -205,7 +205,7 @@ class TestMedia < Testbase
                       </div>
                       <div class="embed-responsive embed-responsive-16by9">
                         <div class="embed-responsive-item video-item-delayed-load" data-video-id="id3" style="background:url(https://i1.ytimg.com/vi/id3/0.jpg);" onclick="kraken.loadYoutubeVideo(this)">
-                          <i class="fa fa-play-circle fa-3x"></i>
+                          <i class="fa-regular fa-circle-play fa-3x"></i>
                         </div>
                       </div>
                     </div>
@@ -215,7 +215,7 @@ class TestMedia < Testbase
                       </div>
                       <div class="embed-responsive embed-responsive-16by9">
                         <div class="embed-responsive-item video-item-delayed-load" data-video-id="id4" style="background:url(https://i1.ytimg.com/vi/id4/0.jpg);" onclick="kraken.loadYoutubeVideo(this)">
-                          <i class="fa fa-play-circle fa-3x"></i>
+                          <i class="fa-regular fa-circle-play fa-3x"></i>
                         </div>
                       </div>
                     </div>

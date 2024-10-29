@@ -77,7 +77,7 @@ module Jekyll
       end
 
       def render(context)
-        '<div class="media-row-%2$s"><div class="embed-responsive embed-responsive-%3$s"><div class="embed-responsive-item video-item-delayed-load" data-video-id="%1$s" style="background:url(https://i1.ytimg.com/vi/%1$s/0.jpg);" onclick="kraken.loadYoutubeVideo(this)"><i class="fa fa-play-circle fa-3x"></i></div></div></div>' % @params
+        '<div class="media-row-%2$s"><div class="embed-responsive embed-responsive-%3$s"><div class="embed-responsive-item video-item-delayed-load" data-video-id="%1$s" style="background:url(https://i1.ytimg.com/vi/%1$s/0.jpg);" onclick="kraken.loadYoutubeVideo(this)"><i class="fa-regular fa-circle-play fa-3x"></i></div></div></div>' % @params
       end
     end
 
@@ -262,7 +262,7 @@ module Jekyll
           header = '<div><h3 id="%1$s">%2$s</h3></div>' % [full_id, @params[2]]
         end
 
-        html = '<div class="col-md-6">%1$s<div class="embed-responsive embed-responsive-%3$s"><div class="embed-responsive-item video-item-delayed-load" data-video-id="%2$s" style="background:url(https://i1.ytimg.com/vi/%2$s/0.jpg);" onclick="kraken.loadYoutubeVideo(this)"><i class="fa fa-play-circle fa-3x"></i></div></div></div>' % ([header] + @params)
+        html = '<div class="col-md-6">%1$s<div class="embed-responsive embed-responsive-%3$s"><div class="embed-responsive-item video-item-delayed-load" data-video-id="%2$s" style="background:url(https://i1.ytimg.com/vi/%2$s/0.jpg);" onclick="kraken.loadYoutubeVideo(this)"><i class="fa-regular fa-circle-play fa-3x"></i></div></div></div>' % ([header] + @params)
         context['media_gallery'].add_item(html)
         html
       end

@@ -18,7 +18,7 @@ module Jekyll
     end
 
     def render(context)
-        '<div class="alert alert-success"><i class="fa fa-info fa-fw"></i>%1$s</div>' % @params
+        '<div class="alert alert-success"><i class="fa-solid fa-info fa-fw"></i>%1$s</div>' % @params
     end
   end
 
@@ -39,7 +39,7 @@ module Jekyll
     end
 
     def render(context)
-        '<div class="alert alert-danger"><i class="fa fa-exclamation-triangle fa-fw"></i>%1$s</div>' % @params
+        '<div class="alert alert-danger"><i class="fa-solid fa-triangle-exclamation fa-fw"></i>%1$s</div>' % @params
     end
   end
 end
