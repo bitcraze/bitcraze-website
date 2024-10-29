@@ -27,7 +27,7 @@ page_id: home
     </div>
     <div class="header-col-wrapper">
       <div class="what_we_do_arrow">
-        <a href="#what_we_do" class="smooth-link arrow-style"><i class="fa fa-arrow-circle-down"></i></a>
+        <a href="#what_we_do" class="smooth-link arrow-style"><i class="fa-solid fa-circle-arrow-down"></i></a>
       </div>
 
       <div class="value_proposition">
@@ -407,7 +407,7 @@ page_id: home
 
     </div>
     <div class="row">
-      <div class="col-md-12"><p class="text-right">Is your organization missing? <a href="https://github.com/bitcraze/bitcraze-website/edit/master/src/{{page.path}}"><i class="fa fa-pencil"></i> &nbsp;Improve this page</a></p>
+      <div class="col-md-12"><p class="text-right">Is your organization missing? <a href="https://github.com/bitcraze/bitcraze-website/edit/master/src/{{page.path}}"><i class="fa-regular fa-pen-to-square"></i> &nbsp;Improve this page</a></p>
         </div>
     </div>
 </div>

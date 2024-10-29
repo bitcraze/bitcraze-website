@@ -224,7 +224,7 @@ module Jekyll
           markup = super
 
 
-          icon_tag =  icon ? '<i class="fa '+ icon + ' fa-5x"></i>' : ''
+          icon_tag =  icon ? '<i class="fa-solid '+ icon + ' fa-5x"></i>' : ''
 
           '<section class="row content-area"><div class="col-md-12"><h3 id="' + full_id + '">' + title + '</h3></div>' +
           '</section><section class="row content-area">' +

@@ -80,7 +80,7 @@ Let's explore another example!
 5. Position the Crazyflie facing a wall, then press 'A' on the keyboard. The Crazyflie will follow the wall.
 6. You can disable wall following by pressing 'D' on the keyboard. The Crazyflie will respond to manual arrow keys again.
 
-> Note that there might be an error when restarting the simulation, causing the Crazyflie to spawn in a different location. Use the simulation reload/refresh button (<i class="fa fa-refresh"></i>) to fix this.
+> Note that there might be an error when restarting the simulation, causing the Crazyflie to spawn in a different location. Use the simulation reload/refresh button (<i class="fa-solid fa-arrows-rotate"></i>) to fix this.
 
 {% youtube cpAbMiBVwsA; medium; 16by9 %}
 

@@ -74,7 +74,7 @@ module Jekyll
         @@id += 1
         id_s = "poplink" + @@id.to_s
 
-        '<a id="' + id_s + '" class="poplink" onclick="return kraken.poplinkShowPopup(\'' + id_s + '\', \'' + @link_key + '\');" href="' + url + '">' + text + '&nbsp;<i class="fa fa-caret-right"></i></a>'
+        '<a id="' + id_s + '" class="poplink" onclick="return kraken.poplinkShowPopup(\'' + id_s + '\', \'' + @link_key + '\');" href="' + url + '">' + text + '&nbsp;<i class="fa-solid fa-caret-right"></i></a>'
       end
 
       def self.reset_id_counter()

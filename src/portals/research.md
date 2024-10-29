@@ -50,5 +50,5 @@ For guest blog posts from researchers, and other research-related blog posts, ch
 {% include_relative_generated crazyflie_publications.md info="This is a placeholder for the generated list of publications. Generate using `tb generate_publications`" %}
 
 <div class="col-md-12">
-  <p class="text-right">Want to add a publication? Or a obtain a copy of our `.bib` library? <a href="https://github.com/bitcraze/bitcraze-website/edit/master/src/portals/crazyflie_publications.bib"><i class="fa fa-pencil"></i> &nbsp;Improve this page</a></p>
+  <p class="text-right">Want to add a publication? Or a obtain a copy of our `.bib` library? <a href="https://github.com/bitcraze/bitcraze-website/edit/master/src/portals/crazyflie_publications.bib"><i class="fa-solid fa-pencil"></i> &nbsp;Improve this page</a></p>
 </div>

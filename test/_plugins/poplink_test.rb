@@ -34,7 +34,7 @@ class TestPoplink < Testbase
   def test_that_poplink_renders
     # Fixture
     tag = '{% poplink the-id %}'
-    expected = '<a id="poplink1" class="poplink" onclick="return kraken.poplinkShowPopup(\'poplink1\', \'the-id\');" href="/default/link/">Default title&nbsp;<i class="fa fa-caret-right"></i></a>'
+    expected = '<a id="poplink1" class="poplink" onclick="return kraken.poplinkShowPopup(\'poplink1\', \'the-id\');" href="/default/link/">Default title&nbsp;<i class="fa-solid fa-caret-right"></i></a>'
 
     # Test
     actual = Liquid::Template.parse(tag).render!(nil, registers: {site: @site_mock})
@@ -46,7 +46,7 @@ class TestPoplink < Testbase
   def test_that_poplink_with_other_title_renders
     # Fixture
     tag = '{% poplink the-id; the other title %}'
-    expected = '<a id="poplink1" class="poplink" onclick="return kraken.poplinkShowPopup(\'poplink1\', \'the-id\');" href="/default/link/">the other title&nbsp;<i class="fa fa-caret-right"></i></a>'
+    expected = '<a id="poplink1" class="poplink" onclick="return kraken.poplinkShowPopup(\'poplink1\', \'the-id\');" href="/default/link/">the other title&nbsp;<i class="fa-solid fa-caret-right"></i></a>'
 
     # Test
     actual = Liquid::Template.parse(tag).render!(nil, registers: {site: @site_mock})

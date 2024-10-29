@@ -83,5 +83,5 @@ usually implementing functionality similar to the Bitcraze python library.
 | ![Scala](/images/icons/scala_32.png)                      |                                         | <https://github.com/triplepoint/ScalaCrazyflie>          |
 
 <div class="col-md-12">
-  <p class="text-right">Want to add a project? <a href="https://github.com/bitcraze/bitcraze-website/edit/master/src/{{page.path}}"><i class="fa fa-pencil"></i> &nbsp;Improve this page</a></p>
+  <p class="text-right">Want to add a project? <a href="https://github.com/bitcraze/bitcraze-website/edit/master/src/{{page.path}}"><i class="fa-solid fa-pencil"></i> &nbsp;Improve this page</a></p>
 </div>
