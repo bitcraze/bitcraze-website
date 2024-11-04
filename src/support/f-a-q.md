@@ -9,7 +9,7 @@ redirects:
 {% si_intro  For how long can the Crazyflie 2.x fly? %}
 
 A Crazyflie 2.x with brushed motors can fly up to 7 minutes, depending on usage.
-The CF2.1 Brushless version typically flies longer, with an expected flight time of up to 10 minutes, also depending on flying conditions.
+The Crazyflie 2.1 Brushless version typically flies longer, with an expected flight time of up to 10 minutes, also depending on flying conditions.
 
 {% endsi_intro %}
 
@@ -58,11 +58,11 @@ This can be done with the [BigQuad expansion deck](/products/bigquad-deck/). It'
 {% endsi_intro %}
 
 {% si_intro How durable is the Crazyflie 2.x? %}
-The Crazyflie 2.x family, including the CF2.1 Brushless, uses the PCB as the frame, made of strong and lightweight [FR4](https://en.wikipedia.org/wiki/FR-4) material.
+The Crazyflie 2.x family, including the Crazyflie 2.1 Brushless, uses the PCB as the frame, made of strong and lightweight [FR4](https://en.wikipedia.org/wiki/FR-4) material.
 
 For the standard Crazyflie 2.x, brushed motors are mounted in flexible motor mounts designed to absorb impact. In a crash, propellers and motor mounts are the most likely components to need replacement. Both are inexpensive and easy to replace. In testing, Crazyflie 2.x drones have survived falls from heights up to 30 meters onto concrete, with damage typically limited to the propellers, motor mounts, or motors. However, it is not unbreakable, so handle with care!
 
-The CF2.1 Brushless has brushless motors directly screwed onto the PCB without separate mounts. It includes flexible landing feet or optional motor guards to help absorb impacts. The brushless motors are highly durable and are less prone to breakage, though care is recommended for optimal long-term performance.
+The Crazyflie 2.1 Brushless has brushless motors directly screwed onto the PCB without separate mounts. It includes flexible landing feet or optional motor guards to help absorb impacts. The brushless motors are highly durable and are less prone to breakage, though care is recommended for optimal long-term performance.
 {% endsi_intro %}
 
 {% si_intro Can the Crazyflie 2.x be used to control a bigger quadcopter? %}
