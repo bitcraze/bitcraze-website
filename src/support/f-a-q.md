@@ -8,7 +8,8 @@ redirects:
 
 {% si_intro  For how long can the Crazyflie 2.x fly? %}
 
-It can fly up to 7 minutes and depending on how you fly it, the time will decrease.
+A Crazyflie 2.x with brushed motors can fly up to 7 minutes, depending on usage.
+The Crazyflie 2.1 Brushless version typically flies longer, with an expected flight time of up to 10 minutes, also depending on flying conditions.
 
 {% endsi_intro %}
 
@@ -25,7 +26,7 @@ Yes, you can hot swap batteries.
 {% endsi_intro %}
 
 {% si_intro Can I use a bigger battery on the Crazyflie 2.x? %}
-Yes, as long as it is not too heavy, it is a single cell (3.7V), it fits and the polarity is correct you can do so. A higher capacity battery will give you longer flight times but will also decrease agility. We recommend batteries with at least 15C continuous discharge rate.
+Yes, as long as it is not too heavy, it is a single cell (3.7V), it fits and the polarity is correct you can do so. A higher capacity battery will give you longer flight times but will decrease agility. We recommend batteries with at least 15C continuous discharge rate.
 {% endsi_intro %}
 
 {% si_intro What radio is used with the Crazyflie 2.x? %}
@@ -57,19 +58,11 @@ This can be done with the [BigQuad expansion deck](/products/bigquad-deck/). It'
 {% endsi_intro %}
 
 {% si_intro How durable is the Crazyflie 2.x? %}
-The Crazyflie 2.x is using the PCB itself as the frame. The PCB is made of [FR4](https://en.wikipedia.org/wiki/FR-4) which is a strong and lightweight material. Attached to that is the motor mount which is a bit flexible. The motor mount is designed in such a way that it will break in case of a violent crash and not the PCB or electronics. The motor mount is very easy to change and cheap. We have not yet been able to break anything except the motor mount or a motor during violent crashes and some have been from 30m height right on to concrete. It is not unbreakable though so handle it with care!
-{% endsi_intro %}
+The Crazyflie 2.x family, including the Crazyflie 2.1 Brushless, uses the PCB as the frame, made of strong and lightweight [FR4](https://en.wikipedia.org/wiki/FR-4) material.
 
-{% si_intro Is the Crazyflie 2.x backward compatible with the Crazyflie 1.0 (aka Crazyflie Nano)? %}
-No, the Crazyflie 2.x's firmware and python library is no longer backwards compatible, as of the 2017.06 release
-{% endsi_intro %}
+For the standard Crazyflie 2.x, brushed motors are mounted in flexible motor mounts designed to absorb impact. In a crash, propellers and motor mounts are the most likely components to need replacement. Both are inexpensive and easy to replace. In testing, Crazyflie 2.x drones have survived falls from heights up to 30 meters onto concrete, with damage typically limited to the propellers, motor mounts, or motors. However, it is not unbreakable, so handle with care!
 
-{% si_intro Is the Crazyflie 1.0 (aka Crazyflie Nano) still supported? %}
-No, as of the 2017.06 release of the firmware and PC software, the Crazyflie Nano is no longer supported.
-{% endsi_intro %}
-
-{% si_intro Is the Crazyflie 2.0 still supported? %}
-Yes, the Crazyflie 2.0 is still supported with the same firmware and PC software as the Crazyflie 2.1
+The Crazyflie 2.1 Brushless has brushless motors directly screwed onto the PCB without separate mounts. It includes flexible landing feet or optional motor guards to help absorb impacts. The brushless motors are highly durable and are less prone to breakage, though care is recommended for optimal long-term performance.
 {% endsi_intro %}
 
 {% si_intro Can the Crazyflie 2.x be used to control a bigger quadcopter? %}
@@ -99,6 +92,17 @@ Yes, it is possible to control multiple Crazyflies simultaneously. It can be don
 [Crazyflie 2.0 Swarm](https://www.youtube.com/watch?v=ezTayb76x9U)
 {% endsi_intro %}
 
+{% si_intro Is the Crazyflie 2.0 still supported? %}
+Yes, the Crazyflie 2.0 is still supported with the same firmware and PC software as the Crazyflie 2.1
+{% endsi_intro %}
+
+{% si_intro Is the Crazyflie 2.x backward compatible with the Crazyflie 1.0 (aka Crazyflie Nano)? %}
+No, the Crazyflie 2.x's firmware and python library is no longer backwards compatible, as of the 2017.06 release
+{% endsi_intro %}
+
+{% si_intro Is the Crazyflie 1.0 (aka Crazyflie Nano) still supported? %}
+No, as of the 2017.06 release of the firmware and PC software, the Crazyflie Nano is no longer supported.
+{% endsi_intro %}
 
 <div class="col-md-12">
   <p class="text-right">Want to add a FAQ? <a href="https://github.com/bitcraze/bitcraze-website/edit/master/src/{{page.path}}"><i class="fa-solid fa-pencil"></i> &nbsp;Improve this page</a></p>
