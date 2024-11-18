@@ -23,12 +23,12 @@ As a Technical Success Engineer, you will ensure customer satisfaction through h
 
 #### Your duties will include:
 
-Assisting development teams with their code backlog
-Managing incoming customer inquiries and providing technical support
-Following up on customer projects and offering advice for optimal product use
-Offloading the engineering team by handling technical requests
-Supporting documentation efforts and assisting customers in navigating products
-You will contribute to creating a seamless customer experience and fostering strong client relationships. As a Customer Success Engineer at Bitcraze, you will be challenged by technically complex issues and a varied workday. The role also involves participating in product development discussions and improving workflows. This role is perfect for someone who is social and has a keen interest in technology.
+- Assisting development teams with their code backlog
+- Managing incoming customer inquiries and providing technical support
+- Following up on customer projects and offering advice for optimal product use
+- Offloading the engineering team by handling technical requests
+- Supporting documentation efforts and assisting customers in navigating products
+- You will contribute to creating a seamless customer experience and fostering strong client relationships. As a Customer Success Engineer at Bitcraze, you will be challenged by technically complex issues and a varied workday. The role also involves participating in product development discussions and improving workflows. This role is perfect for someone who is social and has a keen interest in technology.
 
 #### We believe you have:
 
@@ -67,12 +67,12 @@ As a Technical Sales Lead, you will be responsible for developing and implementi
 
 #### Your duties will include:
 
-Acquiring new customers and expanding Bitcraze’s role in the market
-Following up on customer projects and handling leads
-Developing and executing marketing strategies
-Supporting marketing initiatives and driving new sales strategies
-Participating in and organizing international conferences
-You will play a key role in increasing the company’s sales and driving growth. As a Technical Sales Lead at Bitcraze, you’ll be challenged by working with technical clients and engaging in strategic market planning. Part of your daily work will involve supporting business development and optimizing sales efforts. This role suits someone who is results-oriented and strategic, with a desire to deeply understand the products.
+- Acquiring new customers and expanding Bitcraze’s role in the market
+- Following up on customer projects and handling leads
+- Developing and executing marketing strategies
+- Supporting marketing initiatives and driving new sales strategies
+- Participating in and organizing international conferences
+- You will play a key role in increasing the company’s sales and driving growth. As a Technical Sales Lead at Bitcraze, you’ll be challenged by working with technical clients and engaging in strategic market planning. Part of your daily work will involve supporting business development and optimizing sales efforts. This role suits someone who is results-oriented and strategic, with a desire to deeply understand the products.
 
 #### We believe you have:
 
