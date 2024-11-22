@@ -22,14 +22,16 @@ function downloadGithubRepoDoc() {
   if [ -d "${repoDir}" ]; then
       echo "Seems as repo '${nameTag}' is already downloaded - skipping"
   else
+      if [ -d "${unzipName}" ]; then
+          echo "Temporary directory '${unzipName}' already exists. Removing it to avoid conflicts."
+          rm -rf ${unzipName}
+      fi
+
       mkdir -p ${tmp}
       mkdir -p ${repoRootDir}
 
-      echo "Downloading repo ${nameTag}"
-      uri="https://github.com/bitcraze/${name}/archive/${tag}.zip"
-      curl -L -o ${downloadFile} ${uri}
-      unzip -q -d ${tmp} ${downloadFile}
-      rm ${downloadFile}
+      echo "Cloning repo ${nameTag}"
+      git clone --branch ${tag} --single-branch https://github.com/bitcraze/${name}.git ${unzipName}
 
       if [ -f "${unzipName}/tools/build-docs/build-docs" ]; then
         echo "Generating docs..."
@@ -41,7 +43,7 @@ function downloadGithubRepoDoc() {
       mv ${unzipName}/docs ${repoDir}
       rm -r ${unzipName}
 
-      # Massage data to move it into a namespace and genereate menus
+      # Massage data to move it into a namespace and generate menus
       echo "Updating docs source files"
       ${scriptDir}/../docs/format_docs ${repoDir} ${ns} ${name} ${tag} ${repoRootUrl} ${repoDir}/_data/menu.yml ${dataDir}/docs_menu.yml ${dataDir}/docs_tag_list.yml ${directives}
   fi
