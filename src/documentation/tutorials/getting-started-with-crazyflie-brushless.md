@@ -10,7 +10,7 @@ redirects:
 You are responsible for handling the drone and its components. It is your responsibility to make sure you understand how your drone works and that it is in good working condition before flight. Using a drone in a reckless and negligent manner could cause damage or bodily harm, resulting in lawsuits, fines and jail time.
 
 **There are things you should do to ensure maximum safety:**	
-{% si_step  %}
+{% si_step  Safety instructons%}
 * You should check your drone before and after each flight to make sure it’s working properly and there isn’t any damage. 
 * Don’t make contact with a spinning propeller. A spinning propeller is hazardous if carelessly handled. Avoid sticking your fingers close to them. 
 * When possible, build, test and configure your drone without its propellers attached.
@@ -52,12 +52,6 @@ Start by unpacking the box. It should contain the following items:
 
 {% endsi_step %}
 
-{% si_step Mount the motors %}
-Mount the motors by screwing in three screws for each motor from below. 
-
-{% tutorialVideo /videos/twisting gif.gif %}
-
-{% endsi_step %}
 
 {% si_step mount the motors %}
 Push the four motors into the motor mounts. You will need some force to
@@ -79,7 +73,7 @@ Attach the motor cables to their connectors and twist the wire 180 degrees to at
 Now it’s time to attach the propellers.
 
 Note: There are two types of propellers, the clock wise (CW) and counterclockwise (CCW) propellers. They need to be mounted on the correct arm. As a guide, you’ll find arrows next to each motor on the PCB. When determining the direction of each propeller, make sure to note the following:
-{% si_step %}
+{% si_step propeller direction %}
 * Make sure that the correct side is facing up, the top side should be convex.
 * Look at the shape of the tip, the sharper corner is on the back side of the rotation direction
 * Look at the angle of the blades. The higher side is facing forward in the rotational direction. 
