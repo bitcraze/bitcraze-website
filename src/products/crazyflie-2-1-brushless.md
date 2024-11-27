@@ -89,6 +89,18 @@ it's a breeze to update.
 Go to the [crazyflie 2.1 Brushless getting started tutorial]({% id_url getting-started-crazyflie-2 %})  #TODO chack name to build your crazyflie, update its firmware and fly with it with the clients. Also take a look at our {% id_link system-overview %} to learn more about the Crazyflie's ecosystem of positioning systems, Clients and ofcourse the crazyflie itself with its expansion decks.
 
 
+#### Safety instructions
+
+You are responsible for handling the drone and its components. It is your responsibility to make sure you understand how your drone works and that it is in good working condition before flight. Using a drone in a reckless and negligent manner could cause damage or bodily harm, resulting in lawsuits, fines and jail time.
+
+Stick to these guidelines ensure maximum safety:
+- You should check your drone before and after each flight to make sure it’s working properly and there isn’t any damage.
+- Don’t make contact with a spinning propeller. A spinning propeller is hazardous if carelessly handled. Avoid sticking your fingers close to them.
+- When possible, build, test and configure your drone without its propellers attached.
+- Avoid catching the drone mid-flight or while it’s landing.
+- Always make sure that the path of your drone is clear to avoid any accidents.
+- Use the propeller guards as much as possible
+
 
 {% endrow_text %}
 {% row_links %}
