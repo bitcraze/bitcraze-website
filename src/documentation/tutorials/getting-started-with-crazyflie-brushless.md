@@ -3,7 +3,7 @@ layout: page-left-menu
 title: Getting started with the Crazyflie 2.1 Brushless
 page_id: getting-started-crazyflie-brushless
 redirects:
-
+    - /getting-started-crazyflie-brushless/
 ---
 
 {% si_intro Disclaimer %}

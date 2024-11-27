@@ -86,7 +86,7 @@ it's a breeze to update.
 
 #### Getting started
 
-Go to the [crazyflie 2.1 Brushless getting started tutorial]({% id_url getting-started-crazyflie-2 %})  #TODO chack name to build your crazyflie, update its firmware and fly with it with the clients. Also take a look at our {% id_link system-overview %} to learn more about the Crazyflie's ecosystem of positioning systems, Clients and ofcourse the crazyflie itself with its expansion decks.
+Go to the [crazyflie 2.1 Brushless getting started tutorial]({% id_url getting-started-crazyflie-brushless %})  #TODO chack name to build your crazyflie, update its firmware and fly with it with the clients. Also take a look at our {% id_link system-overview %} to learn more about the Crazyflie's ecosystem of positioning systems, Clients and ofcourse the crazyflie itself with its expansion decks.
 
 
 #### Safety instructions
@@ -106,9 +106,8 @@ Stick to these guidelines ensure maximum safety:
 {% row_links %}
 
 * {% id_link system-overview %}
-* {% id_link buy-guide %}
 #### Tutorials
-* {% id_link getting-started-crazyflie-2 %} #TODO
+* {% id_link getting-started-crazyflie-brushless %}
 * [All other tutorials]({% id_url tutorials %})
 
 {% endrow_links %}
@@ -170,7 +169,6 @@ The expansion decks allow you to experiment, prototype and design your own hardw
 #### Resources
 
 - {% id_link getting-started-start %}
-- {% id_link buy-guide %}
 - {% id_link development-overview %}
 - {% id_link support-frequently-asked-questions %}
 - {% id_link support-getting-help %}
