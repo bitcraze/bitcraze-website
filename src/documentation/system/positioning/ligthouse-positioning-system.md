@@ -82,7 +82,7 @@ should be installed on all {% id_link product-crazyflie-2-1 %}, {% id_link produ
 
 Two or more Lighthouse Base Stations must be installed in the room.
 
-For more information on how to combine the components of the Crazyflie ecosystem, please see the {% id_link buy-guide %}.
+
 {% endrow_text%}
 {% row_links %}
 * {% id_link product-crazyflie-2-1-plus %}

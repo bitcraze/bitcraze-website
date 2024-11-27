@@ -112,7 +112,6 @@ It is important to have a good feel for the [stabilizer module of the crazyflie]
 
 - {% id_link loco-pos-system-overview %}
 - {% id_link getting-started-start %}
-- {% id_link buy-guide %}
 - {% id_link support-frequently-asked-questions %}
 - {% id_link support-getting-help %}
 - [Datasheet](/documentation/hardware/roadrunner/roadrunner-datasheet.pdf)

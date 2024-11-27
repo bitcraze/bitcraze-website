@@ -123,7 +123,6 @@ Note: there is no software support for using the {% poplink lighthouse-deck %} w
 
 - [Lighthouse positioning information](/documentation/repository/crazyflie-firmware/master/functional-areas/lighthouse/)
 - {% id_link getting-started-start %}
-- {% id_link buy-guide %}
 - {% id_link support-frequently-asked-questions %}
 - {% id_link support-getting-help %}
 - {% id_link cf2_expansiondecks %}

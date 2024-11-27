@@ -42,7 +42,6 @@ The Crazyflie can be enhanced by adding [expansion decks](https://store.bitcraze
 {% endrow_text %}
 {% row_links %}
 * {% id_link cf2_expansiondecks %}
-* {% id_link buy-guide %}
 {% endrow_links %}
 {% endrow_image_text_links %}
 
@@ -63,8 +62,6 @@ The last member of the family is the **{% id_link product-roadrunner %}**, the o
 * {% id_link product-crazyflie-2-0 %}
 
 -----
-
-* {% id_link buy-guide %}
 
 
 

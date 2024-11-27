@@ -110,7 +110,6 @@ For some basic debug instructions go to the [instructions for the STM32](/docume
 #### Resources
 
 - {% id_link getting-started-start %}
-- {% id_link buy-guide %}
 - {% id_link development-overview %}
 - {% id_link support-frequently-asked-questions %}
 - {% id_link support-getting-help %}

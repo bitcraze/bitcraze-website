@@ -87,7 +87,6 @@ which is a deck where passive markers easily can be attached in various configur
 be configured in various ways. Together with a Qualisys Mocap system it also provides the possibility to transmit
 different ids for each marker.
 
-For more information on how to combine the components of the Crazyflie ecosystem, please see the {% id_link buy-guide %}.
 {% endrow_text %}
 {% row_links %}
 * {% id_link product-crazyflie-2-1-plus %}

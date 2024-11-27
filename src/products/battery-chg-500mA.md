@@ -98,7 +98,6 @@ Below are pictures of one possible setup. Don't forget to check the rating of th
 #### Resources
 
 - {% id_link getting-started-start %}
-- {% id_link buy-guide %}
 - {% id_link development-overview %}
 - {% id_link support-frequently-asked-questions %}
 - {% id_link support-getting-help %}

@@ -113,7 +113,6 @@ And here from the push demo (also featured in Usage tab)
 #### Resources
 
 - {% id_link getting-started-start %}
-- {% id_link buy-guide %}
 - {% id_link development-overview %}
 - {% id_link support-frequently-asked-questions %}
 - {% id_link support-getting-help %}

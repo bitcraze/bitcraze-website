@@ -39,7 +39,6 @@ This creates a flying 3D robot that can be pre-programmed to fly distances in an
 #### Resources
 
 - {% id_link getting-started-start %}
-- {% id_link buy-guide %}
 - {% id_link development-overview %}
 - {% id_link support-frequently-asked-questions %}
 - {% id_link support-getting-help %}

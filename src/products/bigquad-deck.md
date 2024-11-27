@@ -121,7 +121,6 @@ Clean and build the firmware and flash it using you preferred method. Now when t
 #### Resources
 
 - {% id_link getting-started-start %}
-- {% id_link buy-guide %}
 - {% id_link development-overview %}
 - {% id_link support-frequently-asked-questions %}
 - {% id_link support-getting-help %}

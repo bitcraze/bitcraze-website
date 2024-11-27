@@ -108,7 +108,6 @@ it can act either as an Anchor or Tag. Most commonly it is used as an __Anchor__
 the system. Alternatively is can also run in Tag mode when it can be attached to an object to track,
 for instance a robot.
 
-For more information on how to combine the components of the Crazyflie ecosystem, please see the {% id_link buy-guide %}.
 {% endrow_text %}
 {% row_links %}
 * {% id_link product-crazyflie-2-1-plus %}
