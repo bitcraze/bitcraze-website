@@ -170,52 +170,8 @@ red pulses with a longer pause between groups.
 
 
 {% si_intro Controlling the Crazyflie %}
-You can fly the Crazyflie either from a mobile device or a computer.
+You can fly the Crazyflie together with a computer running Windows, MacOs or Linux.
 {% endsi_intro %}
-
-{% si_step choose controller device %}
-{% tabgroup %}
-{% tab Mobile device %}
-Using a mobile device is the fastest way to get into the air, but it might require
-some more piloting skills.
-
-Continue reading the next section for instructions on how to install the app on your phone
-{% endtab %}
-{% tab Computer %}
-Using your computer requires a {% poplink crazyradio-2-0 %} or Crazyradio PA and a gamepad but give you more options
-and greater control.
-
-Continue reading the [installing on a computer](#inst-comp) section if you
-want to use your computer.
-{% endtab %}
-{% endtabgroup %}
-{% endsi_step %}
-
-
-
-{% si_intro Installing on a mobile device %}
-It is really easy to install the app and connect to the Crazyflie.
-All you need is an Android or iOS device that supports Bluetooth Low Energy (BLE).
-{% endsi_intro %}
-
-{% si_step install the app %}
-The Crazyflie client is available for Android and iOS.
-
-[For Android, from Google Play](https://play.google.com/store/apps/details?id=se.bitcraze.crazyfliecontrol2)
-
-[For iPhone, from Apple iTunes](https://itunes.apple.com/us/app/crazyflie-2.0/id946151480?mt=8)
-
-{% img Crazyflie app; narrow; /images/getting-started/cf-mobile-app.png %}
-{% endsi_step %}
-
-{% si_step connect to the Crazyflie %}
-Start the app and click the connect button. The buttons have different
-appearances in the Android and iOS apps, you can see them below.
-{% img Connect buttons; medium; /images/getting-started/connect-icons.png %}
-Continue reading the [flying section.](#flying)
-{% endsi_step %}
-
-
 
 
 {% si_intro Installing on a computer; inst-comp %}
@@ -351,7 +307,7 @@ starting to fly.
 
 {% si_step maneuvering a quadcopter; maneuvering %}
 When flying a quadcopter there are four main dimensions of controls; roll, pitch, yaw and thrust.
-{% img Axis; wide; /images/getting-started/AxisImage.png %}
+{% img Axis; wide; /images/crazyflie2-1brushless/BL_roll_yaw.png %}
 
 * **Roll -** is the rotation around a horizontal axis going through the quadcopter
 from back to front. This literally rolls the Crazyflie and moves it left or right.
@@ -361,18 +317,6 @@ from left to right. This tilts the Crazyflie and moves it forwards or backwards.
 left or right. Yaw is used when changing flying direction by pointing the front
 of the Crazyflie in different directions.
 * **Thrust -** adjusts the altitude, or height, of the Crazyflie.
-{% endsi_step %}
-
-{% si_step the mobile app / game controller %}
-The controls on the gamepad or mobile app have the following mapping:
-{% img Control mapping; medium; /images/getting-started/controller.png %}
-{% endsi_step %}
-
-{% si_step normal flight %}
-When thrusting without touching any other controls, this is what it might
-look like. The Crazyflie usually drifts in some direction if not
-compensated for, this is completely normal.
-{% tutorialVideo /videos/normal_flight.mp4 %}
 {% endsi_step %}
 
 {% si_step the ground effect; ground-effect %}
@@ -389,10 +333,6 @@ If your Crazyflie drifts a lot when taking off, there are a few things you shoul
 * Make sure the battery is centered. If it has slipped
 too far to either side, the Crazyflie might have a hard time
 compensating for it.
-* Check that the propellers are spinning freely. Blow lightly on them, one by one,
-and verify that they turn. A common problem is that hair is jammed between the
-propeller and motor. If this is the problem. just pull the propeller off from the
-motor, remove the hair and reinstall the propeller.
 * Check that the propellers are balanced, {% id_link balancing-propellers %}
 {% endsi_step %}
 
