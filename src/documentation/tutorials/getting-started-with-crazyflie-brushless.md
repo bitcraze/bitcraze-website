@@ -170,17 +170,23 @@ red pulses with a longer pause between groups.
 
 
 {% si_intro Controlling the Crazyflie %}
-You can fly the Crazyflie together with a computer running Windows, MacOs or Linux.
+You can fly the Crazyflie 2.1 Brushless together with a computer running Windows, MacOs or Linux.
+The Crazyflie 2.1 Brushless is built to be flied using scripting or on board automomous navigation, however it is also possible to fly it usig our client and a gamepad.
+{% endsi_intro %}
+
+{% si_intro Scripted Flight Control; inst-lib %}
+When flying using a script you also need a {% poplink crazyradio-2-0 %} or Crazyradio PA for communication.
+To start of you need to install and familiarize yourself with our library [cflib](http://localhost/documentation/repository/crazyflie-lib-python/master/).
+This software enables you to fly one or more quadcopters in predetermined way using python to control the quadcopter.
+To get some inspiration on what can be done, please check out the [examples](https://github.com/bitcraze/crazyflie-lib-python/tree/master/examples) 
 {% endsi_intro %}
 
 
-{% si_intro Installing on a computer; inst-comp %}
-When using a computer to fly the Crazyflie, you also need a standard
-gamepad ([more information](/documentation/repository/crazyflie-clients-python/master/userguides/inputdevices/))
-for maneuvering and a {% poplink crazyradio-2-0 %} or Crazyradio PA for communication.
+{% si_intro Manual Flight Control; inst-comp %}
+You can use any game pad connected to your computer by cable or Bluethooth. To fly using the game pad you need to install our client.
 {% endsi_intro %}
 
-{% si_step installation flavour %}
+{% si_step Client installation %}
 There are a few options of how to run the PC client
 
 {% tabgroup %}
@@ -265,9 +271,6 @@ Continue reading about [configuring the client](#config-client)
 {% endtabgroup %}
 {% endsi_step %}
 
-{% si_intro Configure the client; config-client %}
-{% endsi_intro %}
-
 {% si_step configure your controller; config-controller %}
 In the client, open the input device settings. Check if the correct device
 mapping is chosen, otherwise pick your device type.
@@ -277,10 +280,6 @@ For more detailed information on input devices, see the [client user-guide](/doc
 
 {% endsi_step %}
 
-{% si_step update firmware in the Crazyflie; update-fw %}
-To make sure that your Crazyflie has all the latest features you should always update the firmware to the newest version. To find out how you can check out the client user-guide [here](/documentation/repository/crazyflie-clients-python/master/userguides/userguide_client/#firmware-upgrade).
-
-{% endsi_step %}
 
 {% si_step connect to the Crazyflie; connect-pc-client %}
 * In the Crazyflie client click the __Scan__ button in top left corner. The radio settings for your Crazyflie is displayed in the drop-down list.
@@ -294,6 +293,11 @@ is continuously sent from the copter to the client. When you move the
 Crazyflie around you will see the flight data being updated in realtime, as
 well as battery status and the link quality.
 {% endsi_step %}
+
+{% si_intro Update firmware in the Crazyflie; update-fw %}
+To make sure that your Crazyflie has all the latest features you should always update the firmware to the newest version. To find out how you can check out the client user-guide [here](/documentation/repository/crazyflie-clients-python/master/userguides/userguide_client/#firmware-upgrade).
+
+{% endsi_intro %}
 
 {% si_intro Flying; flying %}
 Now it's time to do some flying, but first there are some basics you need to know about.
