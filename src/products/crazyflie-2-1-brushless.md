@@ -86,7 +86,7 @@ it's a breeze to update.
 
 #### Getting started
 
-Go to the [crazyflie 2.1 Brushless getting started tutorial]({% id_url getting-started-crazyflie-brushless %})  #TODO chack name to build your crazyflie, update its firmware and fly with it with the clients. Also take a look at our {% id_link system-overview %} to learn more about the Crazyflie's ecosystem of positioning systems, Clients and ofcourse the crazyflie itself with its expansion decks.
+Go to the [crazyflie 2.1 Brushless getting started tutorial]({% id_url getting-started-crazyflie-brushless %}) to build your crazyflie, update its firmware and fly with it with the clients. Also take a look at our {% id_link system-overview %} to learn more about the Crazyflie's ecosystem of positioning systems, Clients and ofcourse the crazyflie itself with its expansion decks.
 
 
 #### Safety instructions

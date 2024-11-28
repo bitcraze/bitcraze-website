@@ -24,15 +24,15 @@ You are responsible for handling the drone and its components. It is your respon
 
 ---
 
-{% si_intro Assembling, Assembly %}
+{% si_intro Assembly %}
 
 
 Make sure to follow the instructions below for assembling your Crazyflie 2.1 Brushless.
 {% endsi_intro %}
 
-{% si_intro Unpacking the Crazyflie %}
+{% si_step Unpacking the Crazyflie %}
 Start by unpacking the box. It should contain the following items:
-{% endsi_intro %}
+{% endsi_step %}
 
 {% si_step package contents %}
 * 1 x Crazyflie Brushless control board
@@ -40,7 +40,8 @@ Start by unpacking the box. It should contain the following items:
 * 4 x  Brushless motors
 * 5 x Legs (1 spare)
 * 5 x Legs/propeller guards (1 spare)
-* 14 x Screws
+* 14 x Black screws
+* 4 x Silver screws
 * 1 x Foam battery pad
 * 5 x CCW propellers (3 spare)
 * 5 x CW propellers (3 spare)
@@ -59,12 +60,11 @@ insert them. If it is difficult doing it as in the video try putting the
 motor can towards a table edge and press on the mount, however don’t press
 on the motor axis while inserting them as it might damage the motor. The
 motor should be inserted all the way to the stop in the mount.
-
-{% tutorialVideo src\videos\screwing motors gif.gif %}
+{% tutorialVideo /videos/screwing_motors.mp4 %}
 
 Attach the motor cables to their connectors and twist the wire 180 degrees to attach to the connector. 
 
-{% tutorialVideo /videos/Twisting gif.gif %}
+{% tutorialVideo /videos/twisting.mp4 %}
 
 {% endsi_step %}
 
@@ -92,9 +92,9 @@ Choose between using the propeller guards or the landing legs.
 
 Slide the legs/guards on from below hooking the little plastic part on the circular part just below the motors. Snap the straight part of the legs/guards on the arms of the Crazyflie. 
 
-{% tutorialVideo /videos/legs gif.gif %}
+{% tutorialVideo /videos/legs.mp4 %}
 
-{% tutorialVideo /videos/prop guards side gif.gif %}
+{% tutorialVideo /videos/propguards_side.mp4 %}
 
 {% endsi_step %}
 
@@ -103,20 +103,20 @@ The rubber pad should be attached to the Crazyflie between the
 expansion headers. This will create friction, keep the battery from
 slipping out and also protect the electronics.
 
-{% tutorialVideo /videos/Foam gif.gif %}
+{% tutorialVideo /videos/foam.mp4 %}
 {% endsi_step %}
 
 {% si_step attach headers %}
 There are two types of headers in the box, long and short ones. Find the long ones and insert them into the expansion connector from below.
 
-{% tutorialVideo /videos/Pins headers gif.gif %}
+{% tutorialVideo /videos/pin_headers.mp4 %}
 {% endsi_step %}
 
 {% si_step attach the battery %}
 Place the battery between the headers you just inserted and insert the battery holder board onto the headers. Watch out for the pins that can be a bit sharp when inserting it. The friction should hold the battery in place so tighten it until it does.
 
 The battery wires can preferably be bent and placed underneath the PCB to be out of the way.
-{% tutorialVideo /videos/battery instructions GIF.gif %}
+{% tutorialVideo /videos/battery.mp4 %}
 
 Now connect the battery
 and you are finished with the assembly.
