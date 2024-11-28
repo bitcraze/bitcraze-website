@@ -104,9 +104,8 @@ Stick to these guidelines ensure maximum safety:
 
 {% endrow_text %}
 {% row_links %}
-
+#### Useful links
 * {% id_link system-overview %}
-#### Tutorials
 * {% id_link getting-started-crazyflie-brushless %}
 * [All other tutorials]({% id_url tutorials %})
 

@@ -97,9 +97,8 @@ Go to the [crazyflie 2.x getting started tutorial]({% id_url getting-started-cra
 
 {% endrow_text %}
 {% row_links %}
-
+#### Useful links
 * {% id_link system-overview %}
-#### Tutorials
 * {% id_link getting-started-crazyflie-2 %}
 * [All other tutorials]({% id_url tutorials %})
 
