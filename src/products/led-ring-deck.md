@@ -26,6 +26,8 @@ Light up the dark with custom patterns using the Crazyflie 2.x LED-ring expansio
 
 Light up the dark with custom patterns using the Crazyflie 2.x LED-ring expansion board. Featuring 12 strong RGB LEDs facing downwards, you can create custom patterns in firmware that you control from your computer. Two additional strong front facing LEDs that can be switched on and off, act as headlights.
 
+NOTE: this deck is not automatically compatible with the Crazyflie 2.1 Brushless. 
+
 {% endrow_text %}
 {% row_links %}
 {% endrow_links %}
