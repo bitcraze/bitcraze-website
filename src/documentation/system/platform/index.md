@@ -49,6 +49,8 @@ The Crazyflie can be enhanced by adding [expansion decks](https://store.bitcraze
 {% row_text %}
 The **{% id_link product-crazyflie-2-1 %}**, **{% id_link product-crazyflie-2-1-plus %}** was released in 2019, 2024 and is the base platform of the family. It is a small (27 grams) and durable quadcopter with an expansion port that enables the user to extend the hardware with expansion decks. The firmware is open source and the flexibility of the platform makes it ideal for research, education or other applications where openess and full control is important.
 
+The **{% id_link product-crazyflie-2-1-brushless %}** was released in 2025 and is the powerhowse of the family. It is a small (33 grams) and durable quadcopter with an expansion port that enables the user to extend the hardware with expansion decks. The brushless motors enables it to handle heavier loads and more powerful flights than its predecessor. The firmware is open source and the flexibility of the platform makes it ideal for research, education or other applications where openess and full control is important. This is the drone for the more advanced user that wants a lot of power in a small package.
+
 The **{% id_link product-crazyflie-bolt-1-1 %}** is a quadcopter control board that contains the same hardware components and firmware as the crazyflie, but supports connection of brushless motors of up to 8A per motor. It is intended for larger quadcopter platforms with greater lifting capacity and longer flight time, while still using the Crazyflie ecosystem. It has the same expansion bus as the other Crazyflie devices, making it compatible with the expansion decks.
 
 The last member of the family is the **{% id_link product-roadrunner %}**, the only device that is not a quadcopter. It also shares the core hardware and firmware with the Crazyflie but has an integrated {% poplink loco-positioning-deck %} on the PCB. It can act as an stand alone positioning tag that is able to provide positioning support to any other (larger) platform than the crazyflie, for instance a ground robot.
@@ -57,6 +59,7 @@ The last member of the family is the **{% id_link product-roadrunner %}**, the o
 {% endrow_text %}
 {% row_links %}
 * {% id_link product-crazyflie-2-1 %}
+* {% id_link product-crazyflie-2-1-brushless %}
 * {% id_link product-crazyflie-bolt-1-1 %}
 * {% id_link product-roadrunner %}
 * {% id_link product-crazyflie-2-0 %}
