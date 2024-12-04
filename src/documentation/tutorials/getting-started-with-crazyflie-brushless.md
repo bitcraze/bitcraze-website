@@ -130,7 +130,7 @@ The assembly is finished, now it’s time to power it on! Note that the power
 button is a push button, not a sliding button. During the power-on
 self-test all the propellers will spin in sequence. Make sure they all
 spin, if they don’t then check the motor connections.
-{% tutorialVideo /videos/power_on.mp4 %}
+{% tutorialVideo /videos/BL_power_on.mp4 %}
 {% endsi_step %}
 
 {% si_step getting to know your Crazyflie; 2.1 Brushless leds %}
