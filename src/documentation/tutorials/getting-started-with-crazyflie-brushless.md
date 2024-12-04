@@ -12,7 +12,7 @@ You are responsible for handling the drone and its components. It is your respon
 **There are things you should do to ensure maximum safety:**	
 {% si_step  Safety instructons%}
 * You should check your drone before and after each flight to make sure it’s working properly and there isn’t any damage. 
-* Don’t make contact with a spinning propeller. A spinning propeller is hazardous if carelessly handled. Avoid sticking your fingers close to them. 
+* Don’t make contact with a spinning propeller. A spinning propeller is hazardous if carelessly handled. Always avoid getting your fingers close to the propellers.
 * When possible, build, test and configure your drone without its propellers attached.
 * Avoid catching the drone mid-flight or while it’s landing.
 * Always make sure that the path of your drone is clear to avoid any accidents.
@@ -58,7 +58,7 @@ Start by unpacking the box. It should contain the following items:
 {% si_step mount the motors %}
 Push the four motors into the motor mounts. You will need some force to
 insert them. If it is difficult doing it as in the video try putting the
-motor can towards a table edge and press on the mount, however don’t press
+motor can towards a table edge and press on the mount. However, don’t press
 on the motor axis while inserting them as it might damage the motor. The
 motor should be inserted all the way to the stop in the mount.
 {% tutorialVideo /videos/screwing_motors.mp4 %}
