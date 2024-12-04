@@ -186,7 +186,7 @@ To get some inspiration on what can be done, please check out the [examples](htt
 You can use any game pad connected to your computer by cable or Bluethooth. To fly using the game pad you need to install our client.
 {% endsi_intro %}
 
-{% si_step Client installation %}
+{% si_step Client installation ; config-client%}
 There are a few options of how to run the PC client
 
 {% tabgroup %}

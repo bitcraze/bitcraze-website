@@ -47,7 +47,7 @@ The Crazyflie can be enhanced by adding [expansion decks](https://store.bitcraze
 
 {% row_image_text_links Family tree; /images/documentation/overview/familytree_thumbnail.jpg %}
 {% row_text %}
-The **{% id_link product-crazyflie-2-1 %}**, **{% id_link product-crazyflie-2-1-plus %}** was released in 2019, 2024 and is the base platform of the family. It is a small (27 grams) and durable quadcopter with an expansion port that enables the user to extend the hardware with expansion decks. The firmware is open source and the flexibility of the platform makes it ideal for research, education or other applications where openess and full control is important.
+The **{% id_link product-crazyflie-2-1 %}** and **{% id_link product-crazyflie-2-1-plus %}** was released in 2019, 2024 and is the base platform of the family. It is a small (27 grams) and durable quadcopter with an expansion port that enables the user to extend the hardware with expansion decks. The firmware is open source and the flexibility of the platform makes it ideal for research, education or other applications where openess and full control is important.
 
 The **{% id_link product-crazyflie-2-1-brushless %}** was released in 2025 and is the powerhowse of the family. It is a small (33 grams) and durable quadcopter with an expansion port that enables the user to extend the hardware with expansion decks. The brushless motors enables it to handle heavier loads and more powerful flights than its predecessor. The firmware is open source and the flexibility of the platform makes it ideal for research, education or other applications where openess and full control is important. This is the drone for the more advanced user that wants a lot of power in a small package.
 
