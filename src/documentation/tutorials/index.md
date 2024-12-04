@@ -7,6 +7,7 @@ page_id: tutorials
 ## Set up the Crazyflie
 
 * {% id_link getting-started-crazyflie-2 %}
+* {% id_link getting-started-crazyflie-brushless %}
 * {% id_link balancing-propellers %}
 * {% id_link pid-tuning-guide %}
 
