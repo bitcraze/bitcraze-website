@@ -40,8 +40,8 @@ Start by unpacking the box. It should contain the following items:
 * 4 x  Brushless motors
 * 5 x Legs (1 spare)
 * 5 x Legs/propeller guards (1 spare)
-* 14 x Black screws
-* 4 x Silver screws
+* 14 x Short (black) screws
+* 4 x longer (silver) screws
 * 1 x Foam battery pad
 * 5 x CCW propellers (3 spare)
 * 5 x CW propellers (3 spare)
@@ -49,7 +49,8 @@ Start by unpacking the box. It should contain the following items:
 * 2 x Short male deck connectors
 * 2 x Long male deck connectors
 * 1 x Micro-USB cable (48cm)
-* 1 x  Screwdriver
+* 1 x Screwdriver
+* 1 x Propeller tool
 
 {% endsi_step %}
 
