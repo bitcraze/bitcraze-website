@@ -11,10 +11,10 @@ redirects:
 
 ## Let's get started!
 
-If you just bought a Crazyflie 2.1 or Crazyflie 2.1 Brushless and a good way to start is to head over to the
+If you just bought a Crazyflie 2.x and a good way to start is to head over to the
 getting started guide, to see how to assemble the kit and take off for your first flight.
 
-{% inline_button Getting Started with Crazyflie Tutorial; /documentation/tutorials/getting-started-with-crazyflie-2-x/ %}
+{% inline_button Getting Started with Crazyflie 2.0, 2.1(+) Tutorial; /documentation/tutorials/getting-started-with-crazyflie-2-x/ %}
 
 {% inline_button Getting Started with Crazyflie 2.1 Brushless Tutorial; /documentation/tutorials/getting-started-with-crazyflie-brushless/ %}
 
