@@ -71,22 +71,13 @@ The latest version of the successful Crazyflie development platform comes with i
 {% row_icon_text_links Usage; fa-book %}
 {% row_text %}
 
-We designed the Crazyflie 2.1 Brushless to be as flexible as possible. For us, this meant adding as many features as we could fit and writing firmware made to be modified. In addition to the default functionality that comes with the Crazyflie 2.1 Brushless we added a flexible expansion interface where a variety of expansion
-decks can be attached, both on the top and the bottom of the Crazyflie 2.1 Brushless. From this expansion interface the user can access buses
-such as UART, I2C and SPI as well as PWM, analog in/out and GPIO.
+We designed the Crazyflie 2.1 Brushless to be as flexible as possible, offering a wide range of features and easily customizable firmware. It includes the same flexible expansion interface found across our entire drone lineup, allowing users to easily integrate ready-made expansion decks or access buses like UART, I2C, SPI, PWM, analog in/out, and GPIO.
 
-#### Updating
-
-We continuously work on the firmware, software, documentation and new, creative ways of using
-the system. We also design new expansion decks that add new functionality,
-and possibilities and expands the Crazyflie ecosystem.
-The platform supports wireless firmware
-updates via radio and Bluetooth LE, so when a new firmware is released,
-it's a breeze to update.
+We are constantly improving the firmware, software, and documentation. At the same time, we are exploring new, creative ways of using the system. Additionally, we design new expansion decks that bring added functionality, expanding the possibilities and growing the Crazyflie ecosystem. The platform also supports wireless firmware updates via radio and Bluetooth LE, making it easy to update whenever a new version is released.
 
 #### Getting started
 
-Go to the [crazyflie 2.1 Brushless getting started tutorial]({% id_url getting-started-crazyflie-brushless %}) to build your crazyflie, update its firmware and fly with it with the clients. Also take a look at our {% id_link system-overview %} to learn more about the Crazyflie's ecosystem of positioning systems, Clients and ofcourse the crazyflie itself with its expansion decks.
+Go to the [crazyflie 2.1 Brushless getting started tutorial]({% id_url getting-started-crazyflie-brushless %}) to assemble your Crazyflie, update its firmware and fly it. Also take a look at our {% id_link system-overview %} to learn more about the Crazyflie's ecosystem of positioning systems, clients and of course the Crazyflie itself with its expansion decks.
 
 
 #### Safety instructions
@@ -95,7 +86,7 @@ You are responsible for handling the drone and its components. It is your respon
 
 Stick to these guidelines ensure maximum safety:
 - You should check your drone before and after each flight to make sure it’s working properly and there isn’t any damage.
-- Don’t make contact with a spinning propeller. A spinning propeller is hazardous if carelessly handled. Avoid sticking your fingers close to them.
+- Don’t make contact with a spinning propeller. A spinning propeller is hazardous if carelessly handled. Always avoid getting your fingers too close to them.
 - When possible, build, test and configure your drone without its propellers attached.
 - Avoid catching the drone mid-flight or while it’s landing.
 - Always make sure that the path of your drone is clear to avoid any accidents.
@@ -116,16 +107,8 @@ Stick to these guidelines ensure maximum safety:
 {% row_icon_text_links Development;  fa-laptop %}
 {% row_text %}
 
-We think that a development platform should be something more than
-just making the code available, therefore our software, firmware
-and utilities have functionality such as logging, real-time parameter setting and
-wireless firmware updates.
 
-Once you have made some modifications, simply flash the new firmware
-over the radio and you are ready to go.
-For those interested in more advanced development, there is a
-development adapter kit that supports an easy JTAG/SWD connection to
-both of the MCUs on the Crazyflie 2.1 Brushless.
+
 
 #### Open Source
 
@@ -135,15 +118,25 @@ allowed to redistribute them in an easy way for our users. Aside from the
 firmware and software projects, there are a number of community
 supported APIs written in Java, Ruby, C/C++, C#, Rust and Javascript.
 
-#### Change the code
+#### Development
 
 There are ample opportunities to play with the code regardless of which language you prefer.
 Our client API is written in Python, while there are many other client-side implementations on GitHub written
 in Ruby, C#, C/C++, JavaScript, Node.JS, Cylon.JS or Java.
 Or, why not clone our iOS repository and get into some ObjectiveC/Swift.
 
-If you are into C and embedded systems, the main MCU STM32F405 has a lot of processor power you can use for doing experiments, making improvements and adding new features.
+If you are into C and embedded systems, the main MCU STM32F405 has a lot of processor power you can use for
+doing experiments, making improvements and adding new features. Once you have made your modifications, simply
+flash the new firmware over the radio and you are ready to go. For those interested in more advanced
+development, there is a development adapter kit that supports an easy JTAG/SWD connection to both of the MCUs
+on the Crazyflie 2.1 Brushless.
+
 The expansion decks allow you to experiment, prototype and design your own hardware.
+
+We think that a development platform should be something more than
+just making the code available, therefore our software, firmware
+and utilities have functionality such as logging, real-time parameter setting and
+wireless firmware updates.
 
 
 {% datasheet_section crazyflie_2_1; Expansion connector specification %}
