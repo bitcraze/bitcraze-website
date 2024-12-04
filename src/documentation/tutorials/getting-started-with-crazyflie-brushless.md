@@ -32,16 +32,15 @@ Make sure to follow the instructions below for assembling your Crazyflie 2.1 Bru
 
 {% si_step Unpacking the Crazyflie %}
 Start by unpacking the box. It should contain the following items:
-{% endsi_step %}
 
-{% si_step package contents %}
+
 * 1 x Crazyflie Brushless control board
 * 1 x 350mAh LiPo battery
 * 4 x  Brushless motors
 * 5 x Legs (1 spare)
 * 5 x Legs/propeller guards (1 spare)
 * 14 x Short (black) screws
-* 4 x longer (silver) screws
+* 4 x Longer (silver) screws
 * 1 x Foam battery pad
 * 5 x CCW propellers (3 spare)
 * 5 x CW propellers (3 spare)
@@ -53,8 +52,6 @@ Start by unpacking the box. It should contain the following items:
 * 1 x Propeller tool
 
 {% endsi_step %}
-
-
 {% si_step mount the motors %}
 Push the four motors into the motor mounts. You will need some force to
 insert them. If it is difficult doing it as in the video try putting the
@@ -137,7 +134,7 @@ spin, if they don’t then check the motor connections.
 {% si_step getting to know your Crazyflie; 2.1 Brushless leds %}
 First of all, lets look at what is front and back, this is important when flying
 and also when mounting expansion decks. The small "bump" (the antenna) is on the front and the blue LEDs are at the back.
-{% img Crazyflie board from the top; medium; /images/getting-started/frontCF.png %}
+{% img Crazyflie board from the top; medium; /images/crazyflie2-1brushless/bl_front.png %}
 
 #### Start up sequence
 
