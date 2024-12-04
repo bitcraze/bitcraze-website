@@ -146,7 +146,7 @@ If you are into C and embedded systems, the main MCU STM32F405 has a lot of proc
 The expansion decks allow you to experiment, prototype and design your own hardware.
 
 
-{% datasheet_section crazyflie_2_1; Expansion connector specification %} #TODO
+{% datasheet_section crazyflie_2_1; Expansion connector specification %}
 
 
 
