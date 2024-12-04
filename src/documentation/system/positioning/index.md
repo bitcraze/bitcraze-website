@@ -49,7 +49,7 @@ The Crazyflie can be positioned using reflective markers and infrared motion cap
 {% endrow_image_text_links %}
 
 --- 
-Below is a table comparing those three positioning systems to best represent their differences and similarities. This side-by-side provides a clear overview to help you quickly assess which system best suits your needs. 
+The table below compares these three positioning systems, highlighting their differences and similarities. This side-by-side comparison provides a clear overview to help you quickly assess which system best suits your needs. 
 
 |                          | Loco Positioning system                     | Lighthouse Positioning system              | Motion Capture |
 |--------------------------|---------------------------------------------|--------------------------------------------|----------------|
