@@ -53,11 +53,7 @@ Start by unpacking the box. It should contain the following items:
 
 {% endsi_step %}
 {% si_step mount the motors %}
-Push the four motors into the motor mounts. You will need some force to
-insert them. If it is difficult doing it as in the video try putting the
-motor can towards a table edge and press on the mount. However, don’t press
-on the motor axis while inserting them as it might damage the motor. The
-motor should be inserted all the way to the stop in the mount.
+Position the motor above the mounting holes, the motor cable should run along the arm. Use 3 black screws in the corner holes of the motor to fasten it. There is a screwdriver in the kit you can use to fasten it.
 {% tutorialVideo /videos/screwing_motors.mp4 %}
 
 Attach the motor cables to their connectors and twist the wire 180 degrees to attach to the connector. 
@@ -327,15 +323,6 @@ above the ground) it is effected by what is called the ground effect. The
 feeling is that the air is slippery, almost as if it is gliding on ice.
 To avoid this, particularly when learning to fly, use a lot of thrust just
 when taking off and then ease off for level flight.
-{% endsi_step %}
-
-{% si_step if the Crazyflie is unbalanced; unbalanced %}
-If your Crazyflie drifts a lot when taking off, there are a few things you should check.
-
-* Make sure the battery is centered. If it has slipped
-too far to either side, the Crazyflie might have a hard time
-compensating for it.
-* Check that the propellers are balanced, {% id_link balancing-propellers %}
 {% endsi_step %}
 
 {% si_step charging the battery; charging %}
