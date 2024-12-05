@@ -79,7 +79,7 @@ Note: There are two types of propellers, the clock wise (CW) and counterclockwis
 {% endsi_step %}
 
 Here’s a detailed view of where to attach CW and CCW propellers.
-{% img Crazyflie propeller mounting; medium; /images/getting-started/cf2_props.png %}
+{% img Crazyflie propeller mounting; medium; /images/crazyflie2-1brushless/bl_prop_direction.png %}
 
 {% endsi_step %}
 
