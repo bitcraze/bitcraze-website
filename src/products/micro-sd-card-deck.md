@@ -148,7 +148,6 @@ The FatFS module will be initialized by the micro-SD deck driver when the deck i
 ---
 #### Resources
 - {% id_link getting-started-start %}
-- {% id_link buy-guide %}
 - {% id_link development-overview %}
 - {% id_link support-frequently-asked-questions %}
 - {% id_link support-getting-help %}

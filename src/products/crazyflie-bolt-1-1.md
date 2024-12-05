@@ -132,7 +132,6 @@ If you are into embedded systems, the STM32F405 has a lot of processor power you
 #### Resources
 
 - {% id_link getting-started-start %}
-- {% id_link buy-guide %}
 - {% id_link support-frequently-asked-questions %}
 - {% id_link development-overview %}
 - {% id_link support-getting-help %}

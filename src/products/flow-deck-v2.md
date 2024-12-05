@@ -108,7 +108,6 @@ We did a light painting with the flowdeck together the {% poplink led-ring-deck 
 #### Resources
 
 - {% id_link getting-started-start %}
-- {% id_link buy-guide %}
 - {% id_link development-overview %}
 - {% id_link support-frequently-asked-questions %}
 - {% id_link support-getting-help %}

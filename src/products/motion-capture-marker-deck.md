@@ -78,7 +78,6 @@ Designed to be used with the [Reflective marker kit 6.5mm](https://store.bitcraz
 #### Resources
 
 - {% id_link getting-started-start %}
-- {% id_link buy-guide %}
 - {% id_link development-overview %}
 - {% id_link support-frequently-asked-questions %}
 - {% id_link support-getting-help %}

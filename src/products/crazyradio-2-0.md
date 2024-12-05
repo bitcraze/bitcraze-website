@@ -123,7 +123,6 @@ The source code for the Crazyradio 2.0 firmware can be found on [github](https:/
 #### Resources
 
 - {% id_link getting-started-start %}
-- {% id_link buy-guide %}
 - [Development](/documentation/repository/crazyradio2-firmware/main/)
 - {% id_link support-frequently-asked-questions %}
 - {% id_link support-getting-help %}

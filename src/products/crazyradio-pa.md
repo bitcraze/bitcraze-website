@@ -101,7 +101,6 @@ The source code for the Crazyradio PA firmware can be found on [github](https://
 #### Resources
 
 - {% id_link getting-started-start %}
-- {% id_link buy-guide %}
 - [Development](/documentation/repository/crazyradio-firmware/master/)
 - {% id_link support-frequently-asked-questions %}
 - {% id_link support-getting-help %}

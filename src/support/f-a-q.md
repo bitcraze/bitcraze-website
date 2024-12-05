@@ -45,7 +45,7 @@ it has been tested on.
 {% endsi_intro %}
 
 {% si_intro What is the range of the Crazyradio? %}
-As with all radio communication it depends. It depends on the environment, radio interference, chip production variations, etc. It also depends on if you use the Crazyradio, Crazyradio PA or a mobile device. We have done a couple of line-of-sight tests with little interference outdoor with the different configurations:
+As with all radio communication it depends. It depends on the environment, radio interference, chip production variations, etc. It also depends on if you use the Crazyradio 2.0, Crazyradio PA or a mobile device. We have done a couple of line-of-sight tests with little interference outdoor with the different configurations:
 
 * Crazyradio PA: Up to about 1000 meters range with direct line of sight in the 250 Kbit mode and under ideal conditions (the downlink is the main limiting factor).
 * Mobile device: Up to about 20 meters range (The uplink, the mobile device is limiting the range).
@@ -54,6 +54,36 @@ As with all radio communication it depends. It depends on the environment, radio
 {% si_intro Can I use a normal R/C transmitter to control the Crazyflie 2.x? %}
 This can be done with the [BigQuad expansion deck](/products/bigquad-deck/). It's working, but not yet a turn-key solution.
 
+
+{% endsi_intro %}
+
+{% si_intro Can I add sensors to my Crazyflie? %}
+The expansion ports on the Crazyflie 2.X enables you to connect more or less any hardware you like. When prototyping the [Breakout deck](/products/breakout-deck/) is useful as you can use it to connect your Crazyflie 2.X to a breadboard and easily debug your hardware design. When satisfied with the design you can transfer it to a [prototyping deck](/products/prototyping-deck/) for a more permanent implementation.
+
+{% endsi_intro %}
+
+{% si_intro Can the Crazyflie 2.x fly autonomously? %}
+The Crazyflie 2.x does not have enough sensors to locate itself in the environment as is, it requires more information to do that.
+The easiest way to achieve that is to add the {% poplink flow-deck %}. It tells the Crazyflie how it moves relative to the floor and
+thus enables it to fly autonomously. See the [product page](/products/flow-deck-v2/) for more information.
+
+With an external positioning system the Crazyflie will even understand its absolute
+position which gives it even more possibilities when it comes to autonomous flight.
+Outdoors the Crazyflie could use a GPS receiver to achieve autonomous flight but indoors some other positioning system is required. Please check out our [positioning system overview page](/documentation/system/) to get know the different possiblities for position available to the Crazyflie.
+{% endsi_intro %}
+
+{% si_intro How many base stations do I need to fly in the Lighthouse positioning system? %}
+The recommended minimum number of base stations is two. This covers a 5x5x5m area. This can be scaled up to 4 base stations. 
+{% endsi_intro %}
+
+{% si_intro How many loco nodes do I need to fly in the Lighthouse positioning system? %}
+A theoretical minimum of 4 Anchors is required to calculate the 3D position of a Tag, but a more realistic number is 6 to add redundancy and accuracy.  
+
+{% endsi_intro %}
+
+
+{% si_intro Can I store data on my Crazyflie? %}
+The [SD-card deck](/products/micro-sd-card-deck/) can be used to store configuration data for a Crazyflie. An example could be an autonomous implementation where the Crazyflie is not connected via radio. The configuration can be written to a SD-card in a computer and the SD-card is transferred to the Crazyflie before it is started. This is also a way to separate configuration from hardware/firmware and avoid flashing different firmware to Crazyflie individuals.
 
 {% endsi_intro %}
 
@@ -77,15 +107,7 @@ There is ongoing development in this area:
 * [Working FPV setup for Crazyflie 2.x](https://forum.bitcraze.io/viewtopic.php?f=6&p=8295).
 {% endsi_intro %}
 
-{% si_intro Can the Crazyflie 2.x fly autonomously? %}
-The Crazyflie 2.x does not have enough sensors to locate itself in the environment as is, it requires more information to do that.
-The easiest way to achieve that is to add the {% poplink flow-deck %}. It tells the Crazyflie how it moves relative to the floor and
-thus enables it to fly autonomously. See the [product page](/products/flow-deck-v2/) for more information.
 
-With an external positioning system the Crazyflie will even understand its absolute
-position which gives it even more possibilities when it comes to autonomous flight.
-Outdoors the Crazyflie could use a GPS receiver to achieve autonomous flight but indoors some other positioning system is required. Please check out our [positioning system overview page](/documentation/system/) to get know the different possiblities for position available to the Crazyflie.
-{% endsi_intro %}
 
 {% si_intro Is it possible to control a swarm of Crazyflies? %}
 Yes, it is possible to control multiple Crazyflies simultaneously. It can be done with the Loco Positioning system and our [python library](https://github.com/bitcraze/crazyflie-lib-python/blob/master/examples/swarm/swarmSequence.py) or using [ROS and the ROS driver.](https://wiki.ros.org/crazyflie) For example this video was made using the ROS driver:

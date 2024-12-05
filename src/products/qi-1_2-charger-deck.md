@@ -76,7 +76,6 @@ Mount the deck under the Crazyflie and place it on a Qi charger to charge the ba
 #### Resources
 
 - {% id_link getting-started-start %}
-- {% id_link buy-guide %}
 - {% id_link support-frequently-asked-questions %}
 - {% id_link support-getting-help %}
 - {% id_link cf2_expansiondecks %}

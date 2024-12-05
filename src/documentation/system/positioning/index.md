@@ -47,3 +47,16 @@ The Crazyflie can be positioned using reflective markers and infrared motion cap
 * {% id_link mocap-system-overview %}
 {% endrow_links %}
 {% endrow_image_text_links %}
+
+--- 
+The table below compares these three positioning systems, highlighting their differences and similarities. This side-by-side comparison provides a clear overview to help you quickly assess which system best suits your needs. 
+
+|                          | Loco Positioning system                     | Lighthouse Positioning system              | Motion Capture |
+|--------------------------|---------------------------------------------|--------------------------------------------|----------------|
+| Area max covered         | 50mx50m (not tested)                        | 5x5x5                                      | Unlimited      |
+| Accuracy                 | cm                                          | mm                                         | mm             |
+| Environment requirements | Line of sight preferred for better accuracy | Line of sight <br><br> No glass or mirrors | Line of sight  |
+| Scalability              | Good                                        | To 4 base stations                         | Good           |
+| Ease of setup            | Medium                                      | Easy                                       | Difficult      |
+| Positioning              | On Board                                    | On Board                                   | Off board      |
+| Cost                     | $$                                          | $                                          | $$$            |

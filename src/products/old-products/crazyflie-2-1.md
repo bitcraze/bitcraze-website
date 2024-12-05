@@ -93,7 +93,7 @@ Go to the [crazyflie 2.x getting started tutorial]({% id_url getting-started-cra
 {% row_links %}
 
 * {% id_link system-overview %}
-* {% id_link buy-guide %}
+
 #### Tutorials
 * {% id_link getting-started-crazyflie-2 %}
 * [All other tutorials]({% id_url tutorials %})
@@ -172,7 +172,6 @@ If you are into embedded systems, the STM32F405 has a lot of processor power you
 #### Resources
 
 - {% id_link getting-started-start %}
-- {% id_link buy-guide %}
 - {% id_link development-overview %}
 - {% id_link support-frequently-asked-questions %}
 - {% id_link support-getting-help %}

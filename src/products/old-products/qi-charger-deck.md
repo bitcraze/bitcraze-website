@@ -32,7 +32,6 @@ Crazyflie 2.x.
 #### Resources
 
 - {% id_link getting-started-start %}
-- {% id_link buy-guide %}
 - {% id_link support-frequently-asked-questions %}
 - {% id_link support-getting-help %}
 - {% id_link cf2_expansiondecks %}

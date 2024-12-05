@@ -155,22 +155,22 @@ Compatibility matrixes
 
 This table shows which deck that works on which platform.
 
-|                                                   | Crazyflie 2.x  | Roadrunner|
-|---------------------------------------------------|----------------|-----------|
-| **{% poplink led-ring-deck %}**                   | yes            | yes       |
-| **{% poplink qi-1-2-wireless-charging-deck %}**   | yes            | yes       |
-| **{% poplink sd-card-deck %}**                    | yes            | *1        |
-| **{% poplink loco-positioning-deck %}**           | yes            |           |
-| **{% poplink bigquad-deck %}**                    | yes            | yes       |
-| **{% poplink buzzer-deck %}**                     | yes            |           |
-| **{% poplink z-ranger-deck %}, Z-ranger deck V1** | yes            | yes       |
-| **{% poplink flow-deck %}, Flow deck V1**         | yes            | yes       |
-| **{% poplink multi-ranger-deck%}**                | yes            | yes       |
-| **{% poplink motion-capture-marker-deck %}**      | yes            | yes       |
-| **{% poplink lighthouse-deck %}**                 | yes            | *2        |
-| **{% poplink active-marker-deck %}**              | yes            | yes       |
-| **{% poplink ai-deck %}**                         | yes            | yes       |
-|---------------------------------------------------|----------------|-----------|
+|                                                   | Crazyflie 2.0, 2.1(+)| Crazyflie 2.1 Brushless|
+|---------------------------------------------------|----------------------|------------------------|
+| **{% poplink led-ring-deck %}**                   | yes                  | no                     |
+| **{% poplink qi-1-2-wireless-charging-deck %}**   | yes                  | yes                    |
+| **{% poplink sd-card-deck %}**                    | yes                  | yes                    |
+| **{% poplink loco-positioning-deck %}**           | yes                  | yes                    |
+| **{% poplink bigquad-deck %}**                    | yes                  | yes                    |
+| **{% poplink buzzer-deck %}**                     | yes                  | yes                    |
+| **{% poplink z-ranger-deck %}, Z-ranger deck V1** | yes                  | yes                    |
+| **{% poplink flow-deck %}, Flow deck V1**         | yes                  | yes                    |
+| **{% poplink multi-ranger-deck%}**                | yes                  | yes                    |
+| **{% poplink motion-capture-marker-deck %}**      | yes                  | yes                    |
+| **{% poplink lighthouse-deck %}**                 | yes                  | yes                    |
+| **{% poplink active-marker-deck %}**              | yes                  | yes                    |
+| **{% poplink ai-deck %}**                         | yes                  | yes                    |
+|---------------------------------------------------|----------------------|------------------------|
 
 ### Deck - deck
 

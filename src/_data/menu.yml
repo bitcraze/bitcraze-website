@@ -3,6 +3,7 @@
 - title: Products
   subs:
   - {page_id: product-crazyflie-2-1-plus}
+  - {page_id: product-crazyflie-2-1-brushless}
   - {page_id: product-crazyflie-bolt-1-1}
   - {page_id: product-crazyradio-pa}
   - {page_id: product-crazyradio-2-0}
@@ -35,7 +36,6 @@
   subs:
   - {title: Buy online, url: "https://store.bitcraze.io/"}
   - {page_id: buy-retailers}
-  - {page_id: buy-guide}
 
 - title: Support
   subs:

@@ -98,7 +98,6 @@ Its measurement is mostly used for the [Complementary Filter for state estimatio
 #### Resources
 
 - {% id_link getting-started-start %}
-- {% id_link buy-guide %}
 - {% id_link development-overview %}
 - {% id_link support-frequently-asked-questions %}
 - {% id_link support-getting-help %}
