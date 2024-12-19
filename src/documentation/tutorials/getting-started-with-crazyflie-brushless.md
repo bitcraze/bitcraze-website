@@ -121,9 +121,7 @@ Your Crazyflie 2.1 Brushless is now assembled!
 
 {% si_step power on! %}
 The assembly is finished, now it’s time to power it on! Note that the power
-button is a push button, not a sliding button. During the power-on
-self-test all the propellers will spin in sequence. Make sure they all
-spin, if they don’t then check the motor connections.
+button is a push button, not a sliding button. The LEDs on the Crazyflie 2.1 Brushless will run in a startup sequence that can be seen in the video. 
 {% tutorialVideo /videos/BL_power_on.mp4 %}
 {% endsi_step %}
 
