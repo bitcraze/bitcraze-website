@@ -25,6 +25,14 @@ For about 7 years, Kimberly has immersed herself in all things robotics. First s
 Kimberly does not want to call herself a specialist but rather an all-rounder, with the capability to dive into problems if needed. she wants to know the entire system before trying to get the Crazyflies to work in the real world. In her spare time, she likes playing tennis, eating Japanese food, watching movies and playing video games.
 "%}
 
+{% include teammember.html member="Mandy Xiang" role="Production specialist" img="/images/team/mandy_xiang_400px.jpg" bio="
+Mandy is from China and has a background in Optoelectronics Technology with some foundation in electronic information technology. She has 15 years of project management experience, having held positions such as SQE and EPM at Foxconn, one of the world's leading electronics manufacturer, before joining Seeed Studio as an account manager, project manager and head of the prototyping business department. During that time, she also earned an MBA from Harbin Institute of Technology.
+
+Mandy focuses on OEM and ODM project management, specializing in project coordination, follow-up, and has accumulated extensive experience in manufacturing and supply chain management. She hopes to contribute this knowledge and experience to the Bitcraze team to ensure efficient project progress and delivery of high quality products.
+
+Outside of work, Mandy focuses on living an organized life, enjoys planning her life with a project management mindset, is passionate about crafting, meditating, reading and organizing her home, and enjoys an organized and beautiful life.
+"%}
+
 {% include teammember.html member="Marcus Eliasson" role="Developer & Co-founder" img="/images/team/marcus_eliasson_400px.jpg" bio="
 At an early age Marcus was always eager to find out how things worked and managed to take apart quite a few toys without being able to put them back together. He’s always been interested in technology, science and engineering, but the focus of his interest has mostly been software development.
 After a few years as a Java developer Marcus wanted to change directions in order to get closer to hardware. Mostly doing C and system design, the best spot for him to be in is right between hardware and software, getting the first prototype in your lap and starting to write the firmware for it.
