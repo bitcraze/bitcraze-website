@@ -26,7 +26,7 @@ Kimberly does not want to call herself a specialist but rather an all-rounder, w
 "%}
 
 {% include teammember.html member="Mandy Xiang" role="Production specialist" img="/images/team/mandy_xiang_400px.jpg" bio="
-Mandy is from China and has a background in Optoelectronics Technology with some foundation in electronic information technology. She has 15 years of project management experience, having held positions such as SQE and EPM at Foxconn, one of the world's leading electronics manufacturer, before joining Seeed Studio as an account manager, project manager and head of the prototyping business department. During that time, she also earned an MBA from Harbin Institute of Technology.
+Mandy is based in Shenzhen, China and has a background in Optoelectronics Technology with some foundation in electronic information technology. She has 15 years of project management experience, having held positions such as SQE and EPM at Foxconn, one of the world's leading electronics manufacturer, before joining Seeed Studio as an account manager, project manager and head of the prototyping business department. During that time, she also earned an MBA from Harbin Institute of Technology.
 
 Mandy focuses on OEM and ODM project management, specializing in project coordination, follow-up, and has accumulated extensive experience in manufacturing and supply chain management. She hopes to contribute this knowledge and experience to the Bitcraze team to ensure efficient project progress and delivery of high quality products.
 
