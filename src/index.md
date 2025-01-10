@@ -132,17 +132,17 @@ page_id: home
   </div>
 
   <div class="row section-content">
-    <a href="{% id_url product-crazyflie-2-1-plus %}">
+    <a href="{% id_url product-crazyflie-2-1-brushless %}">
       <div class="col-md-4 col-md-push-8 text-block-box text-box-product-news">
         <h3>
-        The Crazyflie 2.1+ is here!
+        The Crazyflie 2.1 Brushless is here!
         </h3>
-          <p>Introducing the Crazyflie 2.1+,  the latest advancement in the Crazyflie series. With optimized propellers and an improved battery, this latest upgrade delivers unparalleled thrust and stability, elevating your flying experience to new heights.
+          <p>Introducing the Crazyflie 2.1 Brushless,  the latest advancement in the Crazyflie series. Powerful and resilient, the Crazyflie 2.1 Brushless offers stability, flexibility and endurance. Our latest drone model comes equipped with brushless motors, offering higher payload capabilites, enhanced agility, and improved robustness.
          </p>
          <p><b>Read more >>></b></p>
       </div>
       <div class="col-md-8 col-md-pull-4 no-padding">
-        <img src="/images/crazyflie2-1-plus/CF21_plus_585px.jpg" alt="Crazyflie 2.1+">
+        <img src="images/crazyflie2-1brushless/brushless_585px.jpg" alt="Crazyflie 2.1 Brushless">
       </div>
     </a>
   </div>
