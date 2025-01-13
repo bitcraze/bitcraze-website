@@ -102,8 +102,8 @@ each kind has their own bag in the box. Notice the shape of the tips, the
 sharper corner is on back side of the rotation direction. The CW propellers
 are also usually marked with an "A", "A1" or "A2", while the CCW propellers
 are marked with "B", "B1" or "B2" (the number is irrelevant). For the Crazyflie 2.1+ 
-the propellers will look a bit different and the CW propellers are marked "47-17" 
-while CCW "47-17R".
+the propellers will look a bit different and the CW propellers are marked "47-17R" 
+while CCW "47-17".
 
 Also make sure that the correct side is facing up, the top side should be convex.
 
