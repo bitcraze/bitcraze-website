@@ -231,6 +231,10 @@ The Crazyflie client is available for Android and iOS.
 {% si_step connect to the Crazyflie %}
 Start the app and click the connect button. The buttons have different
 appearances in the Android and iOS apps, you can see them below.
+
+**Note**: If you are using Android and your Crazyflie is behaving strange (like dropping from the air or is reacting slowly),
+turn on the "Bluetooth latency workaround" setting.
+
 {% img Connect buttons; medium; /images/getting-started/connect-icons.png %}
 Continue reading the [flying section.](#flying)
 {% endsi_step %}
