@@ -29,7 +29,7 @@ Make sure that you have the following available:
 
 
 {% si_intro Preparing the Crazyflie %}
-The first thing to do is to make sure the firmware in the Crazyflie and Lighthouse deck is up to date.
+The first thing to do is to make sure the firmware in the Crazyflie and Lighthouse deck is up to date. Be careful When mounting the Lighthouse positioning deck with the long pin headers ([Male long deck connectors](https://store.bitcraze.io/collections/spare-parts/products/male-long-deck-connector)). Make sure they do not block the laser sweeps from the base stations, as this could affect the drone's performance.
 {% endsi_intro %}
 
 {% si_step Mount the Lighthouse deck %}
