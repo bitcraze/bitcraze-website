@@ -170,7 +170,7 @@ The Crazyflie 2.1 Brushless is built to be flied using scripting or on board aut
 When flying using a script you also need a {% poplink crazyradio-2-0 %} or Crazyradio PA for communication.
 To start of you need to install and familiarize yourself with our library [cflib](http://localhost/documentation/repository/crazyflie-lib-python/master/).
 This software enables you to fly one or more quadcopters in predetermined way using python to control the quadcopter.
-To get some inspiration on what can be done, please check out the [examples](https://github.com/bitcraze/crazyflie-lib-python/tree/master/examples) 
+To get some inspiration on what can be done, please check out the [examples](https://github.com/bitcraze/crazyflie-lib-python/tree/master/examples).
 {% endsi_intro %}
 
 
