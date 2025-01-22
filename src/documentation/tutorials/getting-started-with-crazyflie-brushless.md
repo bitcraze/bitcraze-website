@@ -90,6 +90,8 @@ Slide the legs/guards on from below hooking the little plastic part on the circu
 
 {% tutorialVideo /videos/propguards_side.mp4 %}
 
+While not recommended, you can fasten your legs/guards on the PCB using the long (silver) screws. This will prevent the legs/guards from detaching during a crush, which could potentially damage the Crazyflie.
+
 {% endsi_step %}
 
 {% si_step attach the rubber pad %}
