@@ -40,7 +40,7 @@ Start by unpacking the box. It should contain the following items:
 * 5 x Legs (1 spare)
 * 5 x Legs/propeller guards (1 spare)
 * 14 x Short (black) screws
-* 4 x Longer (silver) screws
+* 5 x Longer (silver) screws
 * 1 x Foam battery pad
 * 5 x CCW propellers (3 spare)
 * 5 x CW propellers (3 spare)
@@ -66,16 +66,16 @@ Attach the motor cables to their connectors and twist the wire 180 degrees to at
 {% si_step attach the propellers %}
 Now it’s time to attach the propellers.
 
-Note: There are two types of propellers, the clock wise (CW) and counterclockwise (CCW) propellers. They need to be mounted on the correct arm. As a guide, you’ll find arrows next to each motor on the PCB. When determining the direction of each propeller, make sure to note the following:
-{% si_step propeller direction %}
-* Make sure that the correct side is facing up, the top side should be convex.
-* Look at the shape of the tip, the sharper corner is on the back side of the rotation direction
-* Look at the angle of the blades. The higher side is facing forward in the rotational direction. 
+Note: There are two types of propellers, the clock wise (CW) and counterclockwise (CCW) propellers, each kind has their own bag in the box. The CW propellers are marked “55-35R”, while the CCW propellers are marked “55-35”. They need to be mounted on the correct arm. As a guide, you’ll find arrows next to each motor on the PCB. When determining the direction of each propeller, make sure to note the following:
 
-{% endsi_step %}
+* Make sure that the correct side is facing up, the top side should be convex.
+* Look at the shape of the tip, the sharper corner is on the back side of the rotation direction.
+* Look at the angle of the blades. The higher side is facing forward in the rotational direction. 
 
 Here’s a detailed view of where to attach CW and CCW propellers.
 {% img Crazyflie propeller mounting; medium; /images/crazyflie2-1brushless/bl_prop_direction.png %}
+
+For safety or repair purposes, you may need to remove the propellers. This process can be challenging to perform by hand, which is why a propeller tool is included in the box.
 
 {% endsi_step %}
 
@@ -89,6 +89,8 @@ Slide the legs/guards on from below hooking the little plastic part on the circu
 {% tutorialVideo /videos/legs.mp4 %}
 
 {% tutorialVideo /videos/propguards_side.mp4 %}
+
+While not recommended, you can fasten your legs/guards on the PCB using the long (silver) screws. This will prevent the legs/guards from detaching during a crush, which could potentially damage the Crazyflie.
 
 {% endsi_step %}
 
@@ -170,7 +172,7 @@ The Crazyflie 2.1 Brushless is built to be flied using scripting or on board aut
 When flying using a script you also need a {% poplink crazyradio-2-0 %} or Crazyradio PA for communication.
 To start of you need to install and familiarize yourself with our library [cflib](http://localhost/documentation/repository/crazyflie-lib-python/master/).
 This software enables you to fly one or more quadcopters in predetermined way using python to control the quadcopter.
-To get some inspiration on what can be done, please check out the [examples](https://github.com/bitcraze/crazyflie-lib-python/tree/master/examples) 
+To get some inspiration on what can be done, please check out the [examples](https://github.com/bitcraze/crazyflie-lib-python/tree/master/examples).
 {% endsi_intro %}
 
 
