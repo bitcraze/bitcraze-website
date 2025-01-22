@@ -66,7 +66,7 @@ Attach the motor cables to their connectors and twist the wire 180 degrees to at
 {% si_step attach the propellers %}
 Now it’s time to attach the propellers.
 
-Note: There are two types of propellers, the clock wise (CW) and counterclockwise (CCW) propellers, each kind has their own bag in the box. The CW propellers are marked “55-35R” while CCW “55-35”. They need to be mounted on the correct arm. As a guide, you’ll find arrows next to each motor on the PCB. When determining the direction of each propeller, make sure to note the following:
+Note: There are two types of propellers, the clock wise (CW) and counterclockwise (CCW) propellers, each kind has their own bag in the box. The CW propellers are marked “55-35R”, while the CCW propellers are marked “55-35”. They need to be mounted on the correct arm. As a guide, you’ll find arrows next to each motor on the PCB. When determining the direction of each propeller, make sure to note the following:
 
 * Make sure that the correct side is facing up, the top side should be convex.
 * Look at the shape of the tip, the sharper corner is on the back side of the rotation direction.
