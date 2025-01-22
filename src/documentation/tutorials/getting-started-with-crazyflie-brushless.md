@@ -40,7 +40,7 @@ Start by unpacking the box. It should contain the following items:
 * 5 x Legs (1 spare)
 * 5 x Legs/propeller guards (1 spare)
 * 14 x Short (black) screws
-* 4 x Longer (silver) screws
+* 5 x Longer (silver) screws
 * 1 x Foam battery pad
 * 5 x CCW propellers (3 spare)
 * 5 x CW propellers (3 spare)
