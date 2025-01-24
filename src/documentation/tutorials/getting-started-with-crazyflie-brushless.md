@@ -92,6 +92,10 @@ Slide the legs/guards on from below hooking the little plastic part on the circu
 
 While not recommended, you can fasten your legs/guards on the PCB using the long (silver) screws. This will prevent the legs/guards from detaching during a crush, which could potentially damage the Crazyflie.
 
+Removing the legs/guards can be a bit tricky. An easy approach is by using the propeller tool to release the clips, as shown in the video below. Be careful not to damage any of the motor cables.
+
+{% tutorialVideo /videos/removing_guards.mp4 %}
+
 {% endsi_step %}
 
 {% si_step attach the rubber pad %}
