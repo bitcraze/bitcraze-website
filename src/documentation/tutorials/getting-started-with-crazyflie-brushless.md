@@ -77,6 +77,8 @@ Here’s a detailed view of where to attach CW and CCW propellers.
 
 For safety or repair purposes, you may need to remove the propellers. This process can be challenging to perform by hand, which is why a propeller tool is included in the box.
 
+{% tutorialVideo /videos/removing_propellers.mp4 %}
+
 {% endsi_step %}
 
 {% si_step attach the propeller guards or landing legs %}
