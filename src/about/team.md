@@ -19,12 +19,6 @@ Growing up in France and all over the world, Barbara has always been interested 
 Even though she has no formal education in coding or electronics, as a self-proclaimed geek she has a deep interest in technology and especially in videogames. And when she's not learning to code, she loves to read, knit, and often bakes, to the delight of the other team members!
 "%}
 
-{% include teammember.html member="Kimberly McGuire" role="Developer" img="/images/team/kimberly_mcguire_temp_400px.jpg" bio="
-For about 7 years, Kimberly has immersed herself in all things robotics. First she started out with bio-inspired robotics for her masters, to finally making tiny quadcopters fly autonomously for her PhD. That is how she discovered the Crazyflie and loved it so much that she decided to work for Bitcraze. She also has a creative side to her, as she initially started out studying industrial design engineering for her bachelors. Now she still believes that it is important to make products functional and easy to use, and try to visualize everything she is working on.
-
-Kimberly does not want to call herself a specialist but rather an all-rounder, with the capability to dive into problems if needed. she wants to know the entire system before trying to get the Crazyflies to work in the real world. In her spare time, she likes playing tennis, eating Japanese food, watching movies and playing video games.
-"%}
-
 {% include teammember.html member="Mandy Xiang" role="Production specialist" img="/images/team/mandy_xiang_400px.jpg" bio="
 Mandy is based in Shenzhen, China and has a background in Optoelectronics Technology with some foundation in electronic information technology. She has 15 years of project management experience, having held positions such as SQE and EPM at Foxconn, one of the world's leading electronics manufacturer, before joining Seeed Studio as an account manager, project manager and head of the prototyping business department. During that time, she also earned an MBA from Harbin Institute of Technology.
 
