@@ -115,7 +115,7 @@ Deck info
 | 0xBC | 0x0F | bcFlow2       | {% poplink flow-deck %}                     | 1.6g   | ~40mA                      | Under          |
 | 0xBC | 0x10 | bcLighthouse4 | {% poplink lighthouse-deck %}               | 2.7g   | ~40mA                      | Above          |
 | 0xBC | 0x11 | bcActiveM     | {% poplink active-marker-deck %}            | 3.3g   | ~40mA                      | Above          |
-| 0xBC | 0x12 | bcAI          | {% poplink ai-deck %}                       | 4.4g   | depending on deck app      | Above          |
+| 0xBC | 0x12 | bcAI          | {% poplink ai-deck %}                       | 4.4g   | depending on deck app      | Under/Above    |
 |------|------|---------------|---------------------------------------------|--------|----------------------------|----------------|
 
 Deck pin allocation
