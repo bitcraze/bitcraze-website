@@ -10,18 +10,6 @@ redirects:
 {% distributor Bitcraze; https://store.bitcraze.io; /images/distributors/bitcraze-store.png %}
 {% distributor Seeedstudio; https://www.seeedstudio.com/catalogsearch/result/?q=crazyflie; /images/distributors/seeed.png %}
 
-{% continent Americas %}
-
-{% country Canada %}
-{% distributor Diigiit; https://www.ca.diigiit.com/bitcraze; /images/distributors/diigiit_logo-300x103.png %}
-
-{% country USA %}
-{% distributor Nkc_logo_only; https://www.amazon.com/s/ref=nb_sb_noss?url=me%3DA1LHQ5G6ONPXVT&field-keywords=crazyflie; /images/distributors/nkc_logo_only.png %}
-{% distributor Diigiit; https://www.us.diigiit.com/bitcraze; /images/distributors/diigiit_logo-300x103.png %}
-{% distributor Banana-Robotics; https://www.bananarobotics.com/shop/Bitcraze; /images/distributors/Banana-Robotics-300x51.png %}
-{% distributor Robot Shop; https://www.robotshop.com/en/catalogsearch/result/?q=crazyflie&order=stats_sales_order_count&dir=desc; /images/distributors/robotshop.png %}
-
-
 {% continent Asia/Pacific %}
 
 {% country Australia %}
@@ -78,6 +66,7 @@ redirects:
 
 {% country Turkey %}
 {% distributor Robotistan; https://www.robotistan.com/bitcraze; /images/distributors/robotistan.png %}
+{% distributor Kompent; https://www.kompent.com/bitcraze-180; /images/distributors/kompent_logo.png %}
 
 {% country United Kingdom %}
 {% distributor Coolcomponents; https://coolcomponents.co.uk/search?type=article%2Cpage%2Cproduct&q=crazyflie*; /images/distributors/coolcomponents-300x46.gif %}
