@@ -77,6 +77,8 @@ Here’s a detailed view of where to attach CW and CCW propellers.
 
 For safety or repair purposes, you may need to remove the propellers. This process can be challenging to perform by hand, which is why a propeller tool is included in the box.
 
+{% tutorialVideo /videos/detaching_propeller.mp4 %}
+
 {% endsi_step %}
 
 {% si_step attach the propeller guards or landing legs %}
@@ -91,6 +93,10 @@ Slide the legs/guards on from below hooking the little plastic part on the circu
 {% tutorialVideo /videos/propguards_side.mp4 %}
 
 While not recommended, you can fasten your legs/guards on the PCB using the long (silver) screws. This will prevent the legs/guards from detaching during a crush, which could potentially damage the Crazyflie.
+
+Removing the legs/guards can be a bit tricky. An easy approach is by using the propeller tool to release the clips, as shown in the video below. Be careful not to damage any of the motor cables.
+
+{% tutorialVideo /videos/detaching_guards.mp4 %}
 
 {% endsi_step %}
 
