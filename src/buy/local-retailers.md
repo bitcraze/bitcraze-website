@@ -66,9 +66,6 @@ redirects:
 {% country Italy %}
 {% distributor Robot Domestici; https://www.robot-domestici.it/joomla/component/virtuemart/?keyword=Crazyflie&searchwordsugg=&page=shop.browse&view=category; /images/distributors/robot-domestici.png %}
 
-{% country Russia %}
-{% distributor Sever; https://crazyflie.ru; /images/distributors/crazyflie-ru.jpg %}
-
 {% country Spain %}
 {% distributor Drone Prix; https://droneprix.es/167-bitcraze; /images/distributors/droneprix.png %}
 {% distributor Drone; https://corzotech.com/en/65-crazyflie-bitcraze; /images/distributors/CORZOTECH.jpg %}
