@@ -44,7 +44,7 @@ redirects:
 {% distributor Icshop; https://www.icshop.com.tw/product_list.php?header_search=crazyflie; /images/distributors/icsshop.jpg %}
 
 {% country Singapore %}
-{% distributor Aerise; https://www.aerise.cc/; /images/distributors/aerise.jpg %}
+{% distributor Aerise; https://aerise.cc/product-store/other-products/bitcraze/; /images/distributors/aerise.jpg %}
 
 {% country Japan %}
 {% distributor Tegara; https://en.tegara.com/service/unipos/; /images/distributors/tegara_logo.png %}
@@ -64,7 +64,7 @@ redirects:
 {% distributor TinyTronics; https://www.tinytronics.nl/shop/en/platforms-and-systems/bitcraze-crazyflie; /images/distributors/tinytronics_logo.png %}
 
 {% country Italy %}
-{% distributor Robot Domestici; https://www.robot-domestici.it/joomla/component/virtuemart/?keyword=bitcraze&searchwordsugg=&page=shop.browse&view=category; /images/distributors/robot-domestici.png %}
+{% distributor Robot Domestici; https://www.robot-domestici.it/joomla/component/virtuemart/?keyword=Crazyflie&searchwordsugg=&page=shop.browse&view=category; /images/distributors/robot-domestici.png %}
 
 {% country Russia %}
 {% distributor Sever; https://crazyflie.ru; /images/distributors/crazyflie-ru.jpg %}
@@ -74,7 +74,7 @@ redirects:
 {% distributor Drone; https://corzotech.com/en/65-crazyflie-bitcraze; /images/distributors/CORZOTECH.jpg %}
 
 {% country Sweden %}
-{% distributor Electrokit; https://www.electrokit.com/?s=crazyflie&post_type=product&lang=sv; /images/distributors/LOGO-electrokit-logo-embossed.png %}
+{% distributor Electrokit; https://www.electrokit.com/search.php?keyword=Crazyflie&search=; /images/distributors/LOGO-electrokit-logo-embossed.png %}
 
 {% country Switzerland %}
 {% distributor Maker shop; https://www.maker-shop.ch/catalogsearch/result/?q=crazyflie; /images/distributors/maker-shop.png %}
