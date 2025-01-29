@@ -77,7 +77,7 @@ Here’s a detailed view of where to attach CW and CCW propellers.
 
 For safety or repair purposes, you may need to remove the propellers. This process can be challenging to perform by hand, which is why a propeller tool is included in the box.
 
-{% tutorialVideo /videos/removing_propellers.mp4 %}
+{% tutorialVideo /videos/detaching_propeller.mp4 %}
 
 {% endsi_step %}
 
@@ -96,7 +96,7 @@ While not recommended, you can fasten your legs/guards on the PCB using the long
 
 Removing the legs/guards can be a bit tricky. An easy approach is by using the propeller tool to release the clips, as shown in the video below. Be careful not to damage any of the motor cables.
 
-{% tutorialVideo /videos/removing_guards.mp4 %}
+{% tutorialVideo /videos/detaching_guards.mp4 %}
 
 {% endsi_step %}
 
