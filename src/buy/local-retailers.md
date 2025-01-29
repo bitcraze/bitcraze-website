@@ -15,7 +15,6 @@ redirects:
 {% country Australia %}
 {% distributor Pakronics; https://www.pakronics.com.au/search?type=product&q=crazyflie; /images/distributors/pakronics.png %}
 {% distributor Sedonia; https://www.sedoniatech.com.au/catalogsearch/result/?q=crazyflie; /images/distributors/Sedonia-Logo.gif %}
-{% distributor The IoT Store; https://www.iot-store.com.au/pages/search-results-page?q=bitcraze; /images/distributors/iot_store_au.png %}
 
 {% country China %}
 {% distributor Seeedstudio; https://seeedstudio.taobao.com/; /images/distributors/seeed.png %}
@@ -42,7 +41,6 @@ redirects:
 
 {% country France %}
 {% distributor Génération Robots; https://www.generationrobots.com/fr/147-mini-drone-crazyflie-21; /images/distributors/generation-robots.jpg %}
-{% distributor Hackspark; https://hackspark.fr/en/search?controller=search&order=product.position.desc&s=crazyflie; /images/distributors/hackspark.png %}
 
 {% country Germany %}
 {% distributor Exp-tech; https://exp-tech.de/collections/bitcraze; /images/distributors/exp_tech_logo_600.png %}
