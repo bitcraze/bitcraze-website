@@ -184,6 +184,58 @@
   keywords={Robot sensing systems;Autonomous aerial vehicles;Position measurement;Vehicle dynamics;Sensors;Location awareness;Drones;Swarm robotics;aerial systems: perception and autonomy;multi-robot systems},
   doi={10.1109/LRA.2023.3331897}}
 
+@ARTICLE{10652985,
+  author={Cereda, Elia and Giusti, Alessandro and Palossi, Daniele},
+  journal={IEEE Transactions on Computer-Aided Design of Integrated Circuits and Systems}, 
+  title={Training on the Fly: On-Device Self-Supervised Learning Aboard Nano-Drones Within 20 mW}, 
+  year={2024},
+  volume={43},
+  number={11},
+  pages={3685-3695},
+  keywords={Task analysis;Robots;Training;Tiny machine learning;Computational modeling;Benchmark testing;Pose estimation;Embedded ML;on-device learning;resource-constrained cyber-physical system (CPS);self-supervised learning;tiny machine learning (TinyML)},
+  doi={10.1109/TCAD.2024.3447208}}
+
+@INPROCEEDINGS{10610317,
+  author={Cereda, Elia and Rusci, Manuele and Giusti, Alessandro and Palossi, Daniele},
+  booktitle={2024 IEEE International Conference on Robotics and Automation (ICRA)}, 
+  title={On-device Self-supervised Learning of Visual Perception Tasks aboard Hardware-limited Nano-quadrotors}, 
+  year={2024},
+  volume={},
+  number={},
+  pages={10118-10124},
+  keywords={Industries;Memory management;Training data;Self-supervised learning;Data models;System-on-chip;Convolutional neural networks},
+  doi={10.1109/ICRA57147.2024.10610317}}
+
+@Article{cereda2024fusion,
+  author={Cereda, Elia and Bonato, Stefano and Nava, Mirko and Giusti, Alessandro and Palossi, Daniele},
+  title={Vision-state Fusion: Improving Deep Neural Networks for Autonomous Robotics},
+  journal={Journal of Intelligent {\&} Robotic Systems},
+  year={2024},
+  month={Apr},
+  day={10},
+  volume={110},
+  number={2},
+  pages={58},
+  abstract={Vision-based deep learning perception fulfills a paramount role in robotics, facilitating solutions to many challenging scenarios, such as acrobatic maneuvers of autonomous unmanned aerial vehicles (UAVs) and robot-assisted high-precision surgery. Control-oriented end-to-end perception approaches, which directly output control variables for the robot, commonly take advantage of the robot's state estimation as an auxiliary input. When intermediate outputs are estimated and fed to a lower-level controller, i.e., mediated approaches, the robot's state is commonly used as an input only for egocentric tasks, which estimate physical properties of the robot itself. In this work, we propose to apply a similar approach for the first time -- to the best of our knowledge -- to non-egocentric mediated tasks, where the estimated outputs refer to an external subject. We prove how our general methodology improves the regression performance of deep convolutional neural networks (CNNs) on a broad class of non-egocentric 3D pose estimation problems, with minimal computational cost. By analyzing three highly-different use cases, spanning from grasping with a robotic arm to following a human subject with a pocket-sized UAV, our results consistently improve the R{\$}{\$}^{\{}2{\}}{\$}{\$}regression metric, up to +0.51, compared to their stateless baselines. Finally, we validate the in-field performance of a closed-loop autonomous cm-scale UAV on the human pose estimation task. Our results show a significant reduction, i.e., 24{\%} on average, on the mean absolute error of our stateful CNN, compared to a State-of-the-Art stateless counterpart.},
+  issn={1573-0409},
+  doi={10.1007/s10846-024-02091-6},
+  url={https://doi.org/10.1007/s10846-024-02091-6}
+}
+
+@inproceedings{10.5555/3639940.3640005,
+  author = {Cereda, Elia and Giusti, Alessandro and Palossi, Daniele},
+  title = {Secure Deep Learning-based Distributed Intelligence on Pocket-sized Drones},
+  year = {2023},
+  publisher = {Association for Computing Machinery},
+  address = {New York, NY, USA},
+  abstract = {Palm-sized nano-drones are an appealing class of edge nodes, but their limited computational resources prevent run-ning large deep-learning models onboard. Adopting an edge-fog computational paradigm, we can offload part of the com-putation to the fog; however, this poses security concerns if the fog node, or the communication link, can not be trust. To tackle this concern, we propose a novel distributed edge-fog execution scheme that validates fog computation by re-dundantly executing a random subnetwork aboard our nano-drone. Compared to a State-of-the-Art visual pose estima-tion network that entirely runs onboard, a larger network ex-ecuted in a distributed way improves the R^2 score by +0.19; in case of attack, our approach detects it within 2 s with 95\% probability.},
+  booktitle = {Proceedings of the 2023 International Conference on Embedded Wireless Systems and Networks},
+  pages = {409–414},
+  numpages = {6},
+  location = {Rende, Italy},
+  series = {EWSN '23}
+}
+
 @ARTICLE{10272390,
   author={Müller, Hanna and Niculescu, Vlad and Polonelli, Tommaso and Magno, Michele and Benini, Luca},
   journal={IEEE Transactions on Robotics}, 
