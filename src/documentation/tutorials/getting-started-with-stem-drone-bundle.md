@@ -104,6 +104,10 @@ if __name__ == '__main__':
     cflib.crtp.init_drivers(enable_debug_driver=False)
 
     with SyncCrazyflie(URI) as scf:
+        # Arm the Crazyflie
+        scf.cf.platform.send_arming_request(True)
+        time.sleep(1.0)
+
         # We take off when the commander is created
         with MotionCommander(scf) as mc:
             print('Taking off!')
