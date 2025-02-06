@@ -20,7 +20,7 @@ redirects:
 {% distributor Seeedstudio; https://seeedstudio.taobao.com/; /images/distributors/seeed.png %}
 
 {% country India %}
-{% distributor MG Super Labs; https://www.mgsuperlabs.co.in/estore/index.php?route=product/search&search=crazyflie; /images/distributors/mgsl.png %}
+{% distributor MG Super Labs; https://mgsl.in/collections/bitcraze; /images/distributors/mgsl.png %}
 {% distributor Fab.to.Lab; https://www.fabtolab.com/bitcraze-crazyflie-crazyradio; /images/distributors/FTL_logo.png %}
 
 
