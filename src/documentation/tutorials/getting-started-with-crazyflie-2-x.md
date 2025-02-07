@@ -351,7 +351,8 @@ To make sure that your Crazyflie has all the latest features you should always u
 {% endsi_step %}
 
 {% si_step connect to the Crazyflie; connect-pc-client %}
-* In the Crazyflie client click the __Scan__ button in top left corner. The radio settings for your Crazyflie is displayed in the drop-down list.
+* In the Crazyflie client choose the correct __Address__. The default one is 0xE7E7E7E7E7. To figure out or change the __Address__ of your Crazyflie, you can follow the [radio address configuration](/documentation/repository/crazyflie-clients-python/master/userguides/userguide_client/#radio-address-configuration) guide.
+* Then click the __Scan__ button in top left corner. The radio settings for your Crazyflie is displayed in the drop-down list.
 * Choose your Crazyflie from the drop-down list.
 
 {% img Connect dialog; wide; /images/getting-started/connect_to_the_crazyflie.PNG %}
