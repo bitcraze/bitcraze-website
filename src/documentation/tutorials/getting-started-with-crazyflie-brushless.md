@@ -83,7 +83,7 @@ For safety or repair purposes, you may need to remove the propellers. This proce
 
 {% si_step attach the propeller guards or landing legs %}
 
-Choose between using the propeller guards or the landing legs.
+Choose between using the propeller guards or the landing legs. The legs are lighter and has less inertia, giving a longer and more agile flight.
 **We advise you to always use the guards if it is possible in your use case. These will protect the drone and you if something goes wrong.**
 
 Slide the legs/guards on from below hooking the little plastic part on the circular part just below the motors. Snap the straight part of the legs/guards on the arms of the Crazyflie. 
