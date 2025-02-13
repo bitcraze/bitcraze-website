@@ -73,7 +73,7 @@ must be flashed to the deck. The symptom of an old bootloader is that flashing o
 please go back to this step and flash the bootloader.
 
 You will need to flash the bootloader on the GAP8 separately. This can only be done from a native linux computer or
-virtual machine (not WSL) with a [jtag enabled programmer](/documentation/repository/aideck-gap8-examples/master/infrastructure/jtag-programmer/) (Olimex ARM-USB-TINY-H JTAG or Jlink).
+virtual machine (not WSL) with a [jtag enabled programmer](/documentation/repository/aideck-gap8-examples/master/development/jtag-programmer/) (Olimex ARM-USB-TINY-H JTAG or Jlink).
 
 > You only need to do this once and then you can enjoy the benefits of over-the-air flashing.
 
@@ -198,7 +198,7 @@ $ git clone https://github.com/bitcraze/aideck-gap8-examples.git
 and jump over to one of the following examples:
 
 * [WiFi image streamer](/documentation/repository/aideck-gap8-examples/master/test-functions/wifi-streamer)
-* [Classification example](/documentation/repository/aideck-gap8-examples/master/ai-examples/classification-demo)
+* [Classification example](/documentation/repository/aideck-gap8-examples/master/examples/classification-demo)
 
 {% endsi_intro %}
 
