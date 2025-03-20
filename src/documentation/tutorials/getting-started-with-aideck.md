@@ -155,6 +155,10 @@ Note: This viewer needs opencv-python which you can install with `pip install op
 {% si_intro Setup development environment %}
 For development of the GAP8 chip, you need to have an environment with [gap_sdk](https://github.com/GreenWaves-Technologies/gap_sdk) installed. To simplify the setup, we've created a [Docker container](https://hub.docker.com/r/bitcraze/aideck) that comes with nearly everything preconfigured.
 
+> ⚠️ Important Notice: The GreenWaves Technologies website is down, preventing fetching and compiling the autotiler. This means that deploying neural networks through [gap_sdk](https://github.com/GreenWaves-Technologies/gap_sdk) or our Docker image is not possible unless you already have the file. However, you can still deploy neural networks using [DORY](https://github.com/pulp-platform/dory) as an alternative.
+>
+> For more details, updates and workarounds, see our announcement [here](https://github.com/orgs/bitcraze/discussions/1854).
+
 In order to pull in the GAP8 SDK docker be able to use the autotiler in the GAP8 SDK (Facedetection and Classifcation examples) you will
 have to manually set it up and accept the license.
 {% endsi_intro %}
