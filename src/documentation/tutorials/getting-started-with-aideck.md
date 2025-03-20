@@ -153,7 +153,7 @@ Note: This viewer needs opencv-python which you can install with `pip install op
 
 
 {% si_intro Setup development environment %}
-For development of the GAP8 chip, you need to have an environment with [the Gap SDK installed](https://github.com/GreenWaves-Technologies/gap_sdk). To make things easier, we have made a [Docker](https://www.docker.com/) container which should have everything (almost) everything configured.
+For development of the GAP8 chip, you need to have an environment with [gap_sdk](https://github.com/GreenWaves-Technologies/gap_sdk) installed. To simplify the setup, we've created a [Docker container](https://hub.docker.com/r/bitcraze/aideck) that comes with nearly everything preconfigured.
 
 In order to pull in the GAP8 SDK docker be able to use the autotiler in the GAP8 SDK (Facedetection and Classifcation examples) you will
 have to manually set it up and accept the license.
