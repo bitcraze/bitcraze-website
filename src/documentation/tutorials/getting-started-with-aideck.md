@@ -15,7 +15,7 @@ Make sure that you have gone through the {% id_link getting-started-crazyflie-2 
 
 To run this tutorial and set up the AI deck you will need the following:
 * Operating System
-  * Linux 20.04 or higher
+  * Ubuntu 20.04 or later
 
 * Hardware
   * {% id_link product-crazyflie-2-1-plus %}
