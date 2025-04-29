@@ -270,11 +270,10 @@ Running on a virtual machine allows for compatibility across various operating s
 On an apple silicon mac you need to install the tools natively.
 
 
-{% si_intro Installing on VM; inst-virtualmachine %}
+{% si_step Installing on Virtual Machine; inst-vm %}
 To help you get into the air as quickly as possible, the virtual machine (VM)
 has all the software you need for flight and development already installed.
-.
-{% endsi_intro %}
+{% endsi_step %}
 
 {% si_step Setup virtual Machine; inst-virtualbox %}
 
