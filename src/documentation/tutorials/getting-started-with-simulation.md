@@ -6,7 +6,9 @@ page_id: getting-started-with-simulation
 
 {% si_intro Introduction %}
 
-This tutorial will give you a first taste of controlling the Crazyflie in the Webots simulator by [Cyberbotics](https://cyberbotics.com/).
+This short guide shows how to run a very simple Crazyflie simulation using [Webots](https://cyberbotics.com/). It’s not realistic, feature-rich, or actively maintained, but it might be fun to play around with or help spark ideas.
+
+If you're looking for more serious simulators, check out our [overview of simulation options](/development/external-projects/#crazyflie-simulators).
 
 {% endsi_intro %}
 
@@ -14,89 +16,87 @@ This tutorial will give you a first taste of controlling the Crazyflie in the We
 
 All you need is the Webots simulator.
 
-1. Make sure that your computer meets the [Webots system requirements](https://cyberbotics.com/doc/guide/system-requirements).
-2. Then install the latest version of Webots on your computer by following [Cyberbotics' installation instructions](https://cyberbotics.com/doc/guide/installing-webots).
+1. Make sure your computer meets the [Webots system requirements](https://cyberbotics.com/doc/guide/system-requirements).
+2. Install the latest version by following [Cyberbotics' instructions](https://cyberbotics.com/doc/guide/installing-webots).
 
 {% endsi_step %}
 
-{% si_intro Trying out the Crazyflie Model in Webots %}
+{% si_intro Try Out the Crazyflie Example %}
 
-Let's dive right into it! This section explains how to open Webots, load the Crazyflie model, and fly it.
+Let’s get something running. Here’s how to open Webots, load the Crazyflie model, and test the keyboard controls.
 
 {% endsi_intro %}
 
-{% si_step Open Webots and Find the Crazyflie Sample World %}
+{% si_step Open Webots and Load the Sample World %}
 
-1. Open Webots by typing 'webots' in a terminal in Ubuntu or by searching for the Webots installation in the search bar on Windows or Mac.
+1. Launch Webots (`webots` in terminal or search for it on your system).
 2. Go to 'File' > 'Open Sample World...'.
-3. In the dialog that appears, navigate to 'robots' > 'bitcraze' > 'crazyflie' > 'crazyflie.wbt'.
+3. Navigate to: `robots > bitcraze > crazyflie > crazyflie.wbt`.
 
 {% endsi_step %}
 
-{% si_step Explore the Webots User Interface %}
+{% si_step A Quick Tour of Webots %}
 
-The Webots window should now look like this:
+You should now see a simulation window with a Crazyflie model.
 
 {% img crazyflie world; wide; /images/tutorials/getting_started_simulation/webots_screenshot.png %}
 
-Here's the purpose of each marked window:
-1. This is the 'object' tree, where you can add robots, obstacles, etc.
-2. This is the simulation window, where you can see the Crazyflie, its sensors, or camera output.
-3. This is the controller editor, showing the controller used by the Crazyflie.
-4. This is the simulation control panel, where you can start, stop, pause, and speed up the simulator.
+Here’s what’s what:
+1. Object tree — add robots and objects.
+2. Simulation window — visual output.
+3. Controller editor — view the controller code.
+4. Control panel — start, stop, or adjust the sim speed.
 
-For a more detailed description of the user interface, check out [Webots' 'The User Interface' user guide](https://cyberbotics.com/doc/guide/the-user-interface).
+More detail is available in [Webots' user interface guide](https://cyberbotics.com/doc/guide/the-user-interface).
 
 {% endsi_step %}
 
-{% si_step Fly the Crazyflie Using Your Keyboard %}
+{% si_step Try the Keyboard Controls %}
 
-1. In the simulation control panel (4), press play.
-2. The simulated Crazyflie's propellers will start to rotate, and it will take off.
-3. Click on the simulation window (2) to ensure it is selected.
-4. Use the arrow keys (up, back, right, and left) to control the Crazyflie's velocity in the body-fixed x, y direction.
-5. Use 'Q' and 'E' to control yaw rotation.
-6. Use 'W' and 'S' to control altitude (up and down).
-7. Now you can experiment and play with the Crazyflie's controls!
+1. Press "play" in the control panel.
+2. The Crazyflie should take off.
+3. Click the simulation window to focus it.
+4. Arrow keys: move in x/y.
+5. Q/E: yaw.
+6. W/S: altitude.
 
-You can examine the C code controlling the Crazyflie in the controller editor (3). If it's not visible, find 'Crazyflie "Crazyflie"' in the object tree, click on 'controller', then click 'edit'.
+You can view the controller code in the editor. If it’s not visible, go to the object tree, find `Crazyflie "Crazyflie"`, click `controller`, then `edit`.
 
-> Note that you can't currently modify this code yourself, but this will be explained later.
+> At this stage, editing the code directly isn’t supported in-place. We’ll show how to do that next.
 
 {% youtube 4alE8THihvY; medium; 16by9 %}
 
 {% endsi_step %}
 
-{% si_step Try Out the Autonomy Example %}
+{% si_step Test a Basic Autonomy Example %}
 
-Let's explore another example!
+There’s a second example that does some crude wall following.
 
 {% img crazyflie world; wide; /images/tutorials/getting_started_simulation/webots_screenshot_2.png %}
 
-1. Open another Crazyflie sample world following the same steps as above, but this time select 'crazyflie_apartment.wbt'.
-2. You will now see the Crazyflie in an apartment example. There are also range sensors acting like the {% poplink multi-ranger-deck%}. A virtual camera is attached, allowing you to see what the Crazyflie "sees".
-3. Press play in the simulation control panel. The Crazyflie will take off.
+1. Open `crazyflie_apartment.wbt`.
+2. You’ll see a small indoor environment, range sensors acting like the {% poplink multi-ranger-deck%}, and a virtual camera.
+3. Press play. The Crazyflie takes off.
 4. Control the Crazyflie with the keyboard as before.
-5. Position the Crazyflie facing a wall, then press 'A' on the keyboard. The Crazyflie will follow the wall.
-6. You can disable wall following by pressing 'D' on the keyboard. The Crazyflie will respond to manual arrow keys again.
+5. Press `A` to start wall following. Press `D` to stop it.
 
-> Note that there might be an error when restarting the simulation, causing the Crazyflie to spawn in a different location. Use the simulation reload/refresh button (<i class="fa-solid fa-arrows-rotate"></i>) to fix this.
+> If things break after restarting, try the simulation reload button (<i class="fa-solid fa-arrows-rotate"></i>).
 
 {% youtube cpAbMiBVwsA; medium; 16by9 %}
 
 {% endsi_step %}
 
-{% si_intro Edit the Controller %}
+{% si_intro Editing the Controller %}
 
-In the previous examples, you couldn't modify the controller's content due to restricted access. Now, we'll show you how to save the project elsewhere, change the controller, or add an obstacle.
+If you want to tinker with the code, you’ll need to save the project to a writable location.
 
 {% endsi_intro %}
 
-{% si_step Save the Project in a Different Location %}
+{% si_step Save the Project Elsewhere %}
 
-1. In the 'crazyflie_apartment.wbt' from the previous example, refresh/reload the simulation if you've already started it.
-2. Access the controller editor. If it's not visible, find 'Crazyflie "Crazyflie"' in the object tree, click on 'controller', then click 'edit'.
-3. Modify the following lines as suggested:
+1. Reload the `crazyflie_apartment.wbt` world if needed.
+2. Open the controller editor via the object tree.
+3. Try changing:
 
     ```python
     # OLD
@@ -108,31 +108,28 @@ In the previous examples, you couldn't modify the controller's content due to re
     range_side_value = range_left_value
     ```
 
-4. Click the save icon. You may receive a notice that you're not allowed to change the files. Select a folder in your working space where you have write access and click 'copy'. You'll now be allowed to make changes.
-5. Play the simulation, press 'A' to start autonomy mode. You'll see the Crazyflie moving in the opposite direction.
+4. When prompted, copy the world to a folder where you have write access.
+5. Save your changes and press play. After pressing `A`, the Crazyflie should follow the wall in the opposite direction.
 
 {% endsi_step %}
 
 {% si_intro Next Steps %}
 
-You've now experienced the Webots simulator. You can continue modifying the controller or clone the 'crazyflie-simulation' repository:
+This setup is limited, but it may be a good starting point. If you want to dig into the code:
 
 ```
 git clone https://github.com/bitcraze/crazyflie-simulation
 ```
 
-You can try different examples from the source:
 
-* [Keyboard control from source](/documentation/repository/crazyflie-simulation/main/user_guides/webots_wall_following/)
-* [Wall following from source](/documentation/repository/crazyflie-simulation/main/user_guides/webots_wall_following/)
-
-Note that the latter 'wall following' example from the source should directly link to files in the [cflib examples](https://github.com/bitcraze/crazyflie-lib-python). This allows you to try out the exact same state machine on a real Crazyflie with a {% poplink flow-deck%} and {% poplink multi-ranger-deck%}.
+You can find the example scenes and controller code in there. It's also worth looking at more mature projects — see our [simulation overview](/development/external-projects/#crazyflie-simulators) for recommendations.
 
 {% endsi_intro %}
 
 {% si_intro Further Reading %}
 
-* Visit the [Cyberbotics Webots user guide](https://cyberbotics.com/doc/guide/) to learn more about working with Webots.
-* Explore the [Crazyflie simulation repository documentation](/documentation/repository/crazyflie-simulation/main/) for more explanation about the [crazyflie-simulation repository](https://github.com/bitcraze/crazyflie-simulation) and its content.
+* [Webots user guide](https://cyberbotics.com/doc/guide/)
+* [crazyflie-simulation repo](https://github.com/bitcraze/crazyflie-simulation)
+* [Simulation overview](/development/external-projects/#crazyflie-simulators)
 
 {% endsi_intro %}
