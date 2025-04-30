@@ -27,7 +27,7 @@ Latest stable release of the binary files can be found
 See the VM download section on [github](https://github.com/bitcraze/bitcraze-vm/releases/)
 for the latest version. You will also find older versions there if you need them.
 
-Please consult the [getting started tutorial for installation instructions for the VM](/documentation/tutorials/getting-started-with-crazyflie-2-x/#inst-virtualmachine)
+Please consult the [getting started tutorial for installation instructions for the VM](/documentation/tutorials/getting-started-with-crazyflie-2-x/#inst-comp)
 
 **Note**: Since the VM is an AMD64 install of Linux, it *does not work* on Apple-silicon Mac (M1/2/... processors).
 On an apple silicon mac you need to install the tools natively.
