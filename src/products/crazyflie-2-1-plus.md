@@ -35,10 +35,9 @@ Make your ideas fly!; Your imagination sets the limits
 
 The Crazyflie 2.1+. is a versatile open source flying development platform that only weighs 27g and fits in the palm of your hand.
 
-It's not only a good flyer, the Crazyflie 2.1+ is also equipped with low-latency/long-range
-radio as well as Bluetooth LE. This gives you the option of downloading our app and using your mobile device as a controller or,
-in combination with the {% poplink crazyradio-2-0 %} or [Crazyradio PA](/products/crazyradio-pa/), using your computer to display data and fly with a game
-controller.
+It's not only a good flyer — the Crazyflie 2.1+ is also equipped with low-latency, long-range
+radio as well as Bluetooth LE. This gives you the option of downloading our app and quickly testing and flying using your mobile device.
+For a more complete experience — including access to more features, data visualization, and advanced control — we recommend connecting via a computer with a {% poplink crazyradio-2-0 %} or  [Crazyradio PA](/products/crazyradio-pa/), and flying with a game controller or scripts.
 
 The Crazyflie 2.1+ version of the successful Crazyflie 2.x development platform comes with upgraded battery and propellers for a up to 15% improved flight performance. Together with an extensive ecosystem of software and deck expansions it's ideal for education, research and swarming.
 

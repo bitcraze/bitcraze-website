@@ -195,28 +195,23 @@ You can fly the Crazyflie either from a mobile device or a computer.
 
 {% si_step choose controller device %}
 {% tabgroup %}
-{% tab Mobile device %}
-Using a mobile device is the fastest way to get into the air, but it might require
-some more piloting skills.
 
 Continue reading the next section for instructions on how to install the app on your phone
-{% endtab %}
 {% tab Computer %}
-Using your computer requires a {% poplink crazyradio-2-0 %} or Crazyradio PA and a gamepad but give you more options
-and greater control.
+Using your computer requires a {% poplink crazyradio-2-0 %} or Crazyradio PA but will give you more options
+and greater control. If you want to fly the Crazyflie manually you can use a gamepad of your choice connected to your computer alongside the Crazyradio.
 
 Continue reading the [installing on a computer](#inst-comp) section if you
 want to use your computer.
 {% endtab %}
-{% endtabgroup %}
-{% endsi_step %}
 
+{% tab Mobile device %}
+Using a mobile device is the fastest way to get into the air, but it is designed mostly for testing purposes.
+If you want to get the most out of your Crazyflie, flying using a PC and Crazyradio is what we recommend.
 
-
-{% si_intro Installing on a mobile device %}
-It is really easy to install the app and connect to the Crazyflie.
+It is really easy to install the app and connect to the Crazyflie and get it flying. It might demand some extra piloting skills though.
 All you need is an Android or iOS device that supports Bluetooth Low Energy (BLE).
-{% endsi_intro %}
+
 
 {% si_step install the app %}
 The Crazyflie client is available for Android and iOS.
@@ -239,6 +234,9 @@ turn on the "Bluetooth latency workaround" setting.
 Continue reading the [flying section.](#flying)
 {% endsi_step %}
 
+{% endtab %}
+{% endtabgroup %}
+{% endsi_step %}
 
 
 
@@ -271,11 +269,11 @@ Running on a virtual machine allows for compatibility across various operating s
 **Note**: Since the VM is an AMD64 install of Linux, it *does not work* on Apple-silicon Mac (M1/2/... processors).
 On an apple silicon mac you need to install the tools natively.
 
-{% si_intro Installing on VM; inst-virtualmachine %}
+
+{% si_step Installing on Virtual Machine; inst-vm %}
 To help you get into the air as quickly as possible, the virtual machine (VM)
 has all the software you need for flight and development already installed.
-.
-{% endsi_intro %}
+{% endsi_step %}
 
 {% si_step Setup virtual Machine; inst-virtualbox %}
 

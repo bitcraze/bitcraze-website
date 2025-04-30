@@ -209,11 +209,11 @@ Running on a virtual machine allows for compatibility across various operating s
 **Note**: Since the VM is an AMD64 install of Linux, it *does not work* on Apple-silicon Mac (M1/2/... processors).
 On an apple silicon mac you need to install the tools natively.
 
-{% si_intro Installing on VM; inst-virtualmachine %}
+{% si_step Installing on VM; inst-virtualmachine %}
 To help you get into the air as quickly as possible, the virtual machine (VM)
 has all the software you need for flight and development already installed.
 .
-{% endsi_intro %}
+{% endsi_step %}
 
 {% si_step Setup virtual Machine; inst-virtualbox %}
 
