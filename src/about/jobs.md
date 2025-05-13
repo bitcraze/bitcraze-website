@@ -12,38 +12,49 @@ If you are interested in joining the Bitcraze awesomeness, this is the page for 
 
 ## Open Roles
 
-### Technical Success Engineer
+### Production QA & Embedded Engineer
 
-#### About the Company/Assignment
+As a Production QA & Embedded Engineer, you’ll help ensure high production quality while contributing to firmware and test infrastructure. The role combines production planning, quality assurance, embedded development, and supplier coordination—ideal for someone who enjoys both technical and operational challenges in a small, creative team.
 
-We are seeking a Technical Success Engineer for Bitcraze to support our customers with technical guidance and product expertise. At Bitcraze, you’ll work with technologically advanced products and join an engaged team. The role involves supporting customers throughout their user journey and enabling the team to focus on new product development. The company culture emphasizes openness and collaboration, with innovation at its core.
+#### About what you will be doing
 
-#### About the Role
-As a Technical Success Engineer, you will ensure customer satisfaction through high-quality support and technical guidance.
+The position will include the following tasks:
 
-#### Your duties will include:
+- Developing and maintaining production test infrastructure (hardware and software)
+- Designing, programming, and improving firmware (primarily in C) for the Crazyflie platform
+- Planning and overseeing production batches in collaboration with Bitcraze’s manufacturing partner in China
+- Managing inventory, placing orders, and maintaining delivery timelines
+- Performing incoming product inspections and handling quality assessments and improvements
+- Troubleshooting urgent production or test issues and resolving them efficiently
+- Coordinating with suppliers on sourcing, negotiations, and production support
+- Proactively identifying and implementing process improvements
+- Supporting internal and external stakeholders to ensure stock availability and delivery success
 
-- Assisting development teams with their code backlog
-- Managing incoming customer inquiries and providing technical support
-- Following up on customer projects and offering advice for optimal product use
-- Offloading the engineering team by handling technical requests
-- Supporting documentation efforts and assisting customers in navigating products
-- You will contribute to creating a seamless customer experience and fostering strong client relationships. As a Customer Success Engineer at Bitcraze, you will be challenged by technically complex issues and a varied workday. The role also involves participating in product development discussions and improving workflows. This role is perfect for someone who is social and has a keen interest in technology.
+The role also offers the opportunity to participate in product development and business process innovation, making it ideal for someone who thrives in a startup-like, fast-moving environment. This role is a unique blend of embedded development, project management, and business processes.
 
-#### We believe you have:
 
-- A relevant educational background in technology (software development, systems, etc.)
-- A good understanding of programming (Python, C)
-- Experience in technical customer interactions is a bonus
-- Fluent English, both written and spoken, as it is the company’s official language
+#### We Believe You Have
 
-To succeed in the role of Technical Success Engineer, we believe you are a solution-oriented and adaptable person with an interest in both technology and customer engagement. Participation in open source projects and experience in technical support roles are advantageous. We’re looking for a curious and communicative individual who thrives in a collaborative environment and is interested in Bitcraze’s products. Bitcraze has a flat organization where you’ll be involved and encouraged to participate in decision-making processes and the company’s strategic direction.
+- A degree in electronics, mechatronics, computer science, or a related field (BSc or MSc)
+- A few years of experience working with hardware and/or embedded software development
+- Strong organizational skills and a proactive mindset
+- Familiarity with embedded electrical or mechanical systems
+- Good programming skills in C (embedded systems), with additional experience in Python or Rust being a plus
+- An interest in quality control and hands-on problem solving
+- Fluency in English, both written and spoken, as it is the company language
 
-**Start date:** ASAP
+#### Bonus Points For
 
-**Scope:** This is a fulltime position (100%)
+- Experience in managing suppliers and organizing production
+- A background in electronics production, drones, or robotics
+- Familiarity with STM32, ESP32, FreeRTOS, and communication protocols like UART, SPI, I2C, and USB
+- An interest in open-source development and working with wireless technologies (Wi-Fi, Bluetooth LE, UWB)
 
-**Location:** Malmö
+#### Additional Information
+
+- Start date: Ideally before summer, but the top priority is finding the right candidate
+- Location: Malmö
+- Scope: Full-time (100%)
 
 **Contact person:** Fredric Vernqvist (fredric.vernqvist@techtalents.se)
 
