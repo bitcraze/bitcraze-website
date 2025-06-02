@@ -8,7 +8,7 @@ redirects:
 
 {% continent World Wide %}
 {% distributor Bitcraze; https://store.bitcraze.io; /images/distributors/bitcraze-store.png %}
-{% distributor Seeedstudio; https://www.seeedstudio.com/catalogsearch/result/?q=crazyflie; /images/distributors/seeed.png %}
+{% distributor Seeedstudio; https://www.seeedstudio.com/catalogsearch/result/?q=crazyflie; /images/distributors/seeed_logo.png %}
 
 {% continent Asia/Pacific %}
 
@@ -17,7 +17,7 @@ redirects:
 {% distributor Sedonia; https://www.sedoniatech.com.au/catalogsearch/result/?q=crazyflie; /images/distributors/Sedonia-Logo.gif %}
 
 {% country China %}
-{% distributor Seeedstudio; https://seeedstudio.taobao.com/; /images/distributors/seeed.png %}
+{% distributor Nokov; https://www.nokov.com/products/robotics/crazyflie-crazyswarm-platform.html; /images/distributors/NOKOV-Motion-Capture-logo.png %}
 
 {% country India %}
 {% distributor MG Super Labs; https://mgsl.in/collections/bitcraze; /images/distributors/mgsl.png %}
