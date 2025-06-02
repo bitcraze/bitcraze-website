@@ -33,7 +33,7 @@ Make your ideas fly!; Your imagination sets the limits
 {% row_icon_text_links How it works; fa-cogs %}
 {% row_text %}
 
-The Crazyflie 2.1+. is a versatile open source flying development platform that only weighs 27g and fits in the palm of your hand.
+The Crazyflie 2.1+. is a versatile open source flying development platform that only weighs 29g and fits in the palm of your hand.
 
 It's not only a good flyer — the Crazyflie 2.1+ is also equipped with low-latency, long-range
 radio as well as Bluetooth LE. This gives you the option of downloading our app and quickly testing and flying using your mobile device.

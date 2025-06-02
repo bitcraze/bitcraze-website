@@ -22,7 +22,7 @@ The Crazyflie 2.x is equipped with a flexible expansion interface to where a var
 In addition to providing a great platform for learning we have created several “easy to follow” tutorials to get started with both setting up the Crazyflie and starting with development. We also have an active community on our [discussions page](https://discussions.bitcraze.io/) that always try to help out.
 
 #### Size
-Since the Crazyflie fits in the palm of your hand and only weighs 27g it’s ideal to fly inside the classroom and reduces the need for safety precautions.
+Since the Crazyflie fits in the palm of your hand and only weighs 29g it’s ideal to fly inside the classroom and reduces the need for safety precautions.
 
 <br>
 
