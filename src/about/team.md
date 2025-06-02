@@ -16,7 +16,7 @@ Arnaud likes embedded systems and beautiful code. He likes it best when he is ab
 {% include teammember.html member="Aris Morsink Paloumpas" role="Developer & Intern" img="/images/team/aris_morsink_paloumpas_400px.jpg" bio="
 Aris is a recent Mechanical Engineering graduate with a passion for robotics, which began at the age of 6 when he received his first of many LEGO sets. He would repeatedly take apart each structure, using the pieces to create a new, combined &quot;masterpiece&quot;. At the age of 12, he delved into robotics and became fascinated by both the mechanical components and the control systems. He studied Mechanical Engineering for 5 years, following the division of Design and Manufacturing. It was during this time that he first encountered Bitcraze products, such as the Crazyflie 2.1 and the Lighthouse Positioning System, exploring swarming scenarios.
 
-He traveled from Greece to work at Bitcraze as an intern, gaining valuable work experience and developing international adaptability. In his free time, he enjoys playing card games, solving puzzles, cooking, and rewatching his favorite movies and TV series over and over.
+He traveled from Greece to work at Bitcraze as an intern for 5 months, gaining valuable experience and now he is working here as a full-time developer. In his free time, he enjoys playing card games, solving puzzles, cooking, and rewatching his favorite movies and TV series over and over.
 "%}
 
 {% include teammember.html member="Barbara Rousselot" role="Administration specialist" img="/images/team/barbara_rousselot_400px.jpg" bio="
