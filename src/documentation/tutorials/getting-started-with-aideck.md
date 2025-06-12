@@ -132,7 +132,26 @@ This only should take 10 seconds for the wifi example.
 
 > NOTE: If the over air flashing hangs, try to [reflash the firmware and ESP again](/documentation/tutorials/getting-started-with-aideck/#update-crazyflie-and-aideck-firmware) and in case you flashed the gap8 bootloader, also flash that again with a programmer.
 
+You can now connect to it in two ways
+{% tabgroup %}
+
+{% tab Hotspot/Access point (recommended) %}
 In your wifi list you should see 'WiFi streaming example'. If you do, please connect to it.
+{% endtab %}
+
+{% tab Connect to Wifi network %}
+To connect your ai-deck to an existing network you need to rebuild the crazyflie-firmware. 
+Clone the repo https://github.com/bitcraze/crazyflie-firmware, open menuconfig and navigate to:
+Expansion deck configuration->Support the AI-deck->Wifi setup at startup->
+Connect to a Wifi network->Credentials for access point
+
+Input your network credentials here. Build the FW and flash it over the radio. 
+Please see the [Building and Flashing instructions](/documentation/repository/crazyflie-firmware/master/building-and-flashing/build.md) guide.
+
+Check the IP address/hostname in the cfclient logs when connecting to the drone to make sure it is correctly connected to the network
+{% endtab %}
+{% endtabgroup %}
+
 
 
 Clone the [AIdeck example repository](https://github.com/bitcraze/aideck-gap8-examples)
@@ -140,7 +159,7 @@ Clone the [AIdeck example repository](https://github.com/bitcraze/aideck-gap8-ex
 Then run:
 ```
 cd examples/other/wifi-img-streamer
-python opencv-viewer.py
+python opencv-viewer.py [-n ip_address(if station)]
 ```
 
 to see the following:
