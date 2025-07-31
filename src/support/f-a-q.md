@@ -17,7 +17,7 @@ For more advanced applications, external positioning systems can provide absolut
 Yes, swarm control is a popular use case for Crazyflies. There are several tools available to help you get started, including our Python library and ROS-based solutions. Many users in the community have successfully built swarm applications for research, education, and exploration. You can find examples and inspiration in our documentation, GitHub repositories, and forums.
 
 **_Can I fly the Crazyflie with a phone or tablet?_**  
-The Crazyflie 2.x supports basic manual flight using a smartphone or tablet via Bluetooth Low Energy (BLE). Most modern Android and iOS devices with BLE support should work. For detailed system requirements, refer to the app store listing.
+The Crazyflie 2.0 and 2.1 support basic manual flight using a smartphone or tablet via Bluetooth Low Energy (BLE). The Crazyflie 2.1 Brushless is not supported by the mobile apps. Most modern Android and iOS devices with BLE support should work. For detailed system requirements, refer to the app store listing.
 
 Due to the wide range of Android hardware and BLE implementations, compatibility may still vary between devices even if they meet the general requirements. We've published a [list of tested devices](/documentation/repository/crazyflie-android-client/master/userguides/user-instructions/#android-device-compatibility), though it is not actively maintained and should be treated as a general reference.
 
