@@ -22,14 +22,13 @@ Artificial Intelligence in a Nutshell
 {% tabgroup %}
 {% tab How it Works %}
 {% row_icon_text_links How it works; fa-cogs %}
-{% row_text %}
-Super-edge-computing on a 30 gram flying platform is now available!
+{% row_text %} Edge AI computing for the Crazyflie is now available!
 
-Thanks to the [GAP8 IoT application processor](https://greenwaves-technologies.com/gap8_mcu_ai/) from [GreenWaves Technologies](https://greenwaves-technologies.com/) and the ULP camera, the Crazyflie is able to capture, analyze and classify its environment, as previously presented by [ETH Zurich](https://ethz.ch/en.html) on the initial [PULP-Shield PCB design from IIS-ETHZ](https://arxiv.org/abs/1905.04166). This lightweight and low-power combination opens up many research and development areas for the micro-sized Crazyflie 2.x UAV.
+Thanks to the [GAP8 IoT application processor](https://greenwaves-technologies.com/gap8_mcu_ai/) from [GreenWaves Technologies](https://greenwaves-technologies.com/) and a camera, the AI-deck provides the essential hardware for capturing, analyzing, and classifying its environment. Originally presented by [ETH Zurich](https://ethz.ch/en.html) as the [PULP-Shield PCB design from IIS-ETHZ](https://arxiv.org/abs/1905.04166), this lightweight, low-power combination is ideal for embedded AI research and development on the micro-sized Crazyflie 2.x.
 
-The {% poplink ai-deck %} 1.1 extends the computational capabilities and will enable complex artificial intelligence-based workloads to run onboard, with the possibility to achieve fully autonomous navigation capabilities. The ESP32 adds WiFi connectivity with the possibility to stream images as well as handling control.
+The {% poplink ai-deck %} 1.1 expands onboard computational capabilities, enabling experimentation with custom artificial intelligence workloads, including potential autonomous navigation implementations. The ESP32 provides WiFi connectivity and can be programmed to handle custom communication tasks.
 
-To set up this board a compatible [JTAG programmer/debugger](/documentation/repository/aideck-gap8-examples/master/development/jtag-programmer/) is needed, see [GAP8 bootloader](/documentation/tutorials/getting-started-with-aideck/#gap8-bootloader) in getting stated guide and [flashing](/documentation/repository/aideck-gap8-examples/master/development/flashing/) documentation.
+A compatible [JTAG programmer/debugger](/documentation/repository/aideck-gap8-examples/master/development/jtag-programmer/) is required for initial flashing, debugging, and restoring the bootloader. For detailed instructions, please refer to the [GAP8 bootloader](/documentation/tutorials/getting-started-with-aideck/#gap8-bootloader) in the getting-started guide and the [flashing documentation](/documentation/repository/aideck-gap8-examples/master/development/flashing/). Familiarity with embedded system development is recommended for effective use of this platform.
 
 The {% poplink ai-deck %} 1.1 version only has minor updates compared to the {% poplink ai-deck %} 1.0. The Himax camera module is now the greyscale version and the GAP8 is now revision C instead of B. For more details read [this blog post](https://www.bitcraze.io/2021/01/ai-deck-product-update/) and if the Bayer RGB version camera is wanted it can be bought stand alone here.
 
