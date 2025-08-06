@@ -18,7 +18,7 @@ fi
 
 port=${1:-80}
 
-cmd="docker run --rm -it --volume=${rootDir}:/module -p ${port}:${port} bitcraze/web-builder jekyll serve --host 0.0.0.0 --port ${port} ${extra_args} --incremental --trace"
+cmd="docker run --rm -it --volume=${rootDir}:/module -p ${port}:${port} bitcraze/web-builder jekyll serve --host 0.0.0.0 --port ${port} ${extra_args} --incremental --trace --verbose"
 echo "$cmd"
 if $cmd; then
   true
