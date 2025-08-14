@@ -13,7 +13,7 @@ Arnaud has been passionate about technology since his childhood. He has worked i
 Arnaud likes embedded systems and beautiful code. He likes it best when he is able to design the hardware, write the bootstrap code, and finally design the software that runs on it. He also enjoys playing with bigger systems like the Bitcraze web servers.
 "%}
 
-{% include teammember.html member="Aris Morsink Paloumpas" role="Developer & Intern" img="/images/team/aris_morsink_paloumpas_400px.jpg" bio="
+{% include teammember.html member="Aris Morsink Paloumpas" role="Developer" img="/images/team/aris_morsink_paloumpas_400px.jpg" bio="
 Aris is a recent Mechanical Engineering graduate with a passion for robotics, which began at the age of 6 when he received his first of many LEGO sets. He would repeatedly take apart each structure, using the pieces to create a new, combined &quot;masterpiece&quot;. At the age of 12, he delved into robotics and became fascinated by both the mechanical components and the control systems. He studied Mechanical Engineering for 5 years, following the division of Design and Manufacturing. It was during this time that he first encountered Bitcraze products, such as the Crazyflie 2.1 and the Lighthouse Positioning System, exploring swarming scenarios.
 
 He traveled from Greece to work at Bitcraze as an intern for 5 months, gaining valuable experience and now he is working here as a full-time developer. In his free time, he enjoys playing card games, solving puzzles, cooking, and rewatching his favorite movies and TV series over and over.
@@ -52,13 +52,3 @@ Tobias Antonsson is a born computer and embedded nerd. Ever since he got his fir
 He loves being creative and a lot of his spare time is being spent on various robotic and R/C projects. One of them, the Crazyflie, has become his livelihood in his co-founded company Bitcraze AB. Work experience includes mobile, medical and electromechanical industries as well as open source/hardware.
 "%}
 
-
-{% include teammember.html member="Tove Rumar" role="Developer" img="/images/team/Tove_Rumar_400px.jpg" bio="
-Tove is an embedded systems enthusiast that advocates for clean, testable code, drawing from her background in writing embedded software for radio modules.
-
-Her early fascination with all things sciency and nerdy didn't immediately lead her to coding; it wasn't until later in life that she immersed herself in microprocessors and software development.
-Tove's preference is to start by writing tests before the code, relishing the satisfaction of seeing successful tests once her work is complete. 
-She also has a background in Environmental Science, and considers herself a generalist who likes looking at systems as a whole to understand how the pieces fits together.
-
-Beyond her professional endeavors, Tove finds joy in board games, fantasy novels, and creative activities like crafting silver jewelry and clothing.
-"%}
