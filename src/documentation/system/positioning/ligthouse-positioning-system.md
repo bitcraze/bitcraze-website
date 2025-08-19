@@ -110,6 +110,7 @@ It will guide you from zero to having your Crazyflie autonomously flying in your
 For more in depth information, please see the documentation in the [crazyflie-firmware repository](/documentation/repository/crazyflie-firmware/master/functional-areas/lighthouse/).
 {% endrow_text%}
 {% row_links %}
+* [Lighthouse Positioning System: Dataset, Accuracy, and Precision for UAV Research](https://whoenig.github.io/publications/2021_ICRA-Swarm-workshop_Taffanel.pdf)
 * [Lighthouse positioning documentation](/documentation/repository/crazyflie-firmware/master/functional-areas/lighthouse/)
 * [Dataset](/documentation/system/positioning/positioning-datasets/)
 {% endrow_links %}
