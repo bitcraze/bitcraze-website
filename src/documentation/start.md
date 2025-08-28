@@ -1,12 +1,11 @@
 ---
-layout: page
+layout: page-fulltext-image
 title: Start here
 page_id: getting-started-start
 redirects:
   - /start/
+image: /images/documentation/landing_page/crazyflie_boxes.png
 ---
-{% img Crazyflie on boxes; wide; /images/documentation/landing_page/crazyflie_boxes.png %}
-
 
 
 ## Let's get started!

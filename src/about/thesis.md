@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: page-fulltext
 title: Thesis
 page_id: thesis
 redirects:
