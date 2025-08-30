@@ -3,7 +3,7 @@ name: Bitcraze website
 source: src
 destination: _site
 
-# Exclude the markdown files in the hardware documentation tree. We us them to extract data into other markdown files,
+# Exclude the markdown files in the hardware documentation tree. We use them to extract data into other markdown files,
 # but they should not be rendered into HTML in their original format.
 exclude:
   - 'documentation/hardware/*/*.md'
@@ -24,7 +24,7 @@ sass:
   sass_dir: _scss
   style: compressed
 
-# Note: the ditaa and the jekyll-ditaa plugin are part of the bitcraze/web-builer
+# Note: the ditaa and the jekyll-ditaa plugin are part of the bitcraze/web-builder
 plugins:
   - jekyll-ditaa
   - jekyll-relative-links
