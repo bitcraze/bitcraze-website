@@ -166,7 +166,7 @@ to see the following:
 
 {% img wide; medium; /images/tutorials/getting_started_with_aideck/viewer.png %}
 
-Note: This viewer needs opencv-python which you can install with `pip install opencv-python`. Be aware that the cfclient has a conflict with this library (see this [issue](https://github.com/bitcraze/crazyflie-clients-python/issues/611)), so please install it in a seperate environment or remember to deinstall this library if you want to use the cfclient again.
+Note: This viewer needs opencv-python which you can install with `pip install opencv-python`. Be aware that the cfclient has a conflict with this library (see this [issue](https://github.com/bitcraze/crazyflie-clients-python/issues/611)), so please install it in a separate environment or remember to deinstall this library if you want to use the cfclient again.
 
 {% endsi_step %}
 

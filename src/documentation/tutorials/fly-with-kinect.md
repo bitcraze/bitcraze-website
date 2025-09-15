@@ -18,7 +18,7 @@ Currently there's 5 parts:
 * **Control**: Control loops
 * **Set-points**: UI for setting set-points
 * **Client**: Connection to client for sending data
-* **Visualization**: Debugging using grapghs
+* **Visualization**: Debugging using graphs
 
 ![crazyflie vision architecture](/images/documentation/wiki/crazyflie-vision-arch.png)
 
