@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: page-fulltext
 title: Bitcraze
 page_id: about-bitcraze
 redirects:

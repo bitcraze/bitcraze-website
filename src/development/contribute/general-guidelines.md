@@ -1,10 +1,10 @@
 ---
-layout: page
+layout: page-fulltext
 title: General guidelines for code contributions
 page_id: general-guidelines-for-code-contributions
 ---
 
-Code contributions are of great value to us and we are very grateful for the work you put in. Thanks!
+**Code contributions are of great value to us and we are very grateful for the work you put in. Thanks!**
 
 The codebase is a shared resource that is used by many users, benefiting from the possibility
 of reading and modifying the code. It is also something that we hope will be used for a long
@@ -24,37 +24,33 @@ into account, don't be afraid to ask for help!
 
 To help you create good pull requests, please try to follow these guidelines
 
-1. Code contributions to the project are handled through pull requests, you can read more about how
-it works in [github's documentation](https://help.github.com/articles/about-pull-requests/). Pull requests are public
+1. **Code contributions to the project are handled through pull requests.** You can read more about how it works in [github's documentation](https://help.github.com/articles/about-pull-requests/). Pull requests are public
 and anyone can see what code changes you propose. When a pull request is received, one of the
 maintainers will look at it and evaluate if it can be merged to the codebase, if it requires
 changes, or if it should be rejected. If the code is deemed to be working, is useful to
 the community, and is good enough it will be merged.
 
-1. The title of the pull request will be used in the release notes, try to make it as descriptive as
-possible.
+1. **The title of the pull request will be used in the release notes, try to make it as descriptive as possible.**
 
-1. Add a short description to the pull request that tells other users what it contains. What is the change in functionality?
+1. **Add a short description to the pull request that tells other users what it contains.** What is the change in functionality?
 What is the purpose? Maybe describe how it works? Anything that makes it easy for other users
 (and maintainers) to understand what it is and how it works.
 
-1. New functionality should be useful for other users and somewhat generic. Since the codebase
+1. **New functionality should be useful for other users and somewhat generic.** Since the codebase
 is used by many users, additions must not be too specific. Unused functionality tend
 to create complexity and becomes costly in the long run.
 
-1. Avoid noise in your pull request. Do not include unnecessary changes that are not part of
+1. **Avoid noise in your pull request.** Do not include unnecessary changes that are not part of
 the pull request. It should be possible to merge the pull request as is, without
 modifications.
 
-1. If the repository you are contributing to contains automated tests, please try to
-add tests for your code if possible. All code is currently not tested, but we are trying
+1. **If the repository you are contributing to contains automated tests, please try to add tests for your code if possible.** All code is currently not tested, but we are trying
 to increase the coverage where possible.
 
-1. There is documentation in each repository, please consider to add or update the documentation
-for the changes you make. See the [Repository documentation guidelines](../repo-doc-guidelines)
+1. **There is documentation in each repository, please consider to add or update the documentation for the changes you make.** See the [Repository documentation guidelines](../repo-doc-guidelines)
 for more information.
 
-1. Keep you pull request fairly small, it should ideally only contain one feature.
+1. **Keep you pull request fairly small, it should ideally only contain one feature.**
 Large pull requests are very hard to understand or test, and are more likely to be
 rejected. In most cases more complex functionality can be divided into smaller pieces that
 add value. One way to figure out if a feature is too complex is to try to describe it
@@ -62,16 +58,14 @@ with one sentence, if you have to use the word "and" you should probably conside
 it up in sub-features and use multiple pull requests.
 There are no hard limits, but one pull request should probably only change a few files.
 
-1. If your functionality requires multiple pull requests it might be useful to
-use a github issue to tie them together and help other users understand the bigger
-picture. This is also a good place for discussions of how to split a feature up into
+1. **If your functionality requires multiple pull requests it might be useful to use a github issue to tie them together and help other users understand the bigger picture.** This is also a good place for discussions of how to split a feature up into
 smaller sub-features. Otherwise, there is no need to add an issue first.
 
-1. Use recent branch points for your pull request. If your pull request is based on an old
+1. **Use recent branch points for your pull request.** If your pull request is based on an old
 commit it is more likely that there will be merge conflicts or that other code around has
 changed, this makes it much harder for the maintainers to understand what has changed.
 
-1. Write code for humans. The compiler will understand any code that is syntactically correct,
+1. **Write code for humans.** The compiler will understand any code that is syntactically correct,
 but humans may not. Obviously, your code must work and implement some functionality but also keep
 in mind to make it easy for humans to understand it.
     * Use descriptive names for variables and functions to help a reader understand what is going on.
@@ -87,18 +81,18 @@ in mind to make it easy for humans to understand it.
     * Some code constructs may be short and compact, but possibly not easy to understand.
     Compact code is not faster to execute in most cases, but harder to understand.
 
-1. Write robust code. Make sure your code also works if something unexpected happens.
+1. **Write robust code.** Make sure your code also works if something unexpected happens.
 
-1. Use clean commits in the pull request. It is fine to use multiple commits, it may help
+1. **Use clean commits in the pull request.** It is fine to use multiple commits, it may help
 the reader to understand what has changed, but only commit one change at
 a time. If you want to clean up existing code for instance, it is probably better to do
 that in a separate commit instead of mixing it with new functionality.
 
-1. Try to keep the styling. We are not super strict on styling, but try to write code
+1. **Try to keep the styling.** We are not super strict on styling, but try to write code
 that looks similar to the existing code. When in doubt follow the [coding standard guidelines.](coding-standards.md)
 
-1. Write code that can be modified and maintained. Keep in mind that the code will
+1. **Write code that can be modified and maintained.** Keep in mind that the code will
 live for a long time and that other people will read and modify your contribution.
 
-1. Leave the code in better shape than you found it. Tidy up in the area where
+1. **Leave the code in better shape than you found it.** Tidy up in the area where
 you modify or add code.

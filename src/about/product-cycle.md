@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: page-fulltext
 title: Product cycle
 page_id: product-cycle
 redirects:

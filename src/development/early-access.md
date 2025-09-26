@@ -1,5 +1,5 @@
 ---
-layout: page-left-menu
+layout: page-fulltext
 title: Early access
 page_id: early-access
 redirects:

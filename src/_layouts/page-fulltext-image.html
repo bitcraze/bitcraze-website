@@ -1,0 +1,21 @@
+---
+layout: page-base
+---
+
+{% include header-banner.html %}
+<div class="container-fluid" data-searchable="true">
+    <section class="row content-area">
+        <div class="col-md-12 text-center">
+            {% if page.image %}
+                <img src="{{ page.image }}" alt="" class="img-fluid" />
+            {% endif %}
+        </div>
+    </section>
+    <section id="primary" class="row content-area">
+        <div class="col-md-2"></div>
+        <div class="col-md-8">
+            {{content}}
+        </div>
+        <div class="col-md-2"></div>
+    </section>
+</div>

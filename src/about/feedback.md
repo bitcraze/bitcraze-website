@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: page-fulltext
 title: Feedback
 page_id: about-feedback
 redirects:
