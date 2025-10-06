@@ -24,7 +24,7 @@ Artificial Intelligence in a Nutshell
 {% row_icon_text_links How it works; fa-cogs %}
 {% row_text %} Edge AI computing for the Crazyflie is now available!
 
-Thanks to the [GAP8 IoT application processor](https://greenwaves-technologies.com/gap8_mcu_ai/) from [GreenWaves Technologies](https://greenwaves-technologies.com/) and a camera, the AI-deck provides the essential hardware for capturing, analyzing, and classifying its environment. Originally presented by [ETH Zurich](https://ethz.ch/en.html) as the [PULP-Shield PCB design from IIS-ETHZ](https://arxiv.org/abs/1905.04166), this lightweight, low-power combination is ideal for embedded AI research and development on the micro-sized Crazyflie 2.x.
+Thanks to the GAP8 IoT application processor from GreenWaves Technologies and a camera, the AI-deck provides the essential hardware for capturing, analyzing, and classifying its environment. Originally presented by [ETH Zurich](https://ethz.ch/en.html) as the [PULP-Shield PCB design from IIS-ETHZ](https://arxiv.org/abs/1905.04166), this lightweight, low-power combination is ideal for embedded AI research and development on the micro-sized Crazyflie 2.x.
 
 The {% poplink ai-deck %} 1.1 expands onboard computational capabilities, enabling experimentation with custom artificial intelligence workloads, including potential autonomous navigation implementations. The ESP32 provides WiFi connectivity and can be programmed to handle custom communication tasks.
 
