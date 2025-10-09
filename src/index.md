@@ -404,7 +404,8 @@ page_id: home
       {% used_by_logo Universidad Autónoma de Occdiente; /images/logos/UAO_ogo.png; https://www.uao.edu.co %}
       {% used_by_logo Lehigh University; /images/logos/lehigh.jpg; https://lehigh.edu/ %}
       {% used_by_logo TU Delft; /images/logos/TUDelft.png; https://www.tudelft.nl/en/ %}
-       {% used_by_logo Brown University; /images/logos/BrownU.png; https://www.brown.edu/ %}
+      {% used_by_logo Brown University; /images/logos/BrownU.png; https://www.brown.edu/ %}
+      {% used_by_logo Linköping University; /images/logos/liu.png; https://www.liu.se/ %}
 
     </div>
     <div class="row">
