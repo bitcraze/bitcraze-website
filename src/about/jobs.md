@@ -1,5 +1,5 @@
 ---
-layout: page-left-menu
+layout: page-fulltext
 title: Jobs
 page_id: jobs
 redirects:
