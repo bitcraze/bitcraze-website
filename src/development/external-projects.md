@@ -39,6 +39,7 @@ Alternate firmware implementations and uses for the Crazyradio
 
 Projects aimed to modeling, developing and integrating the Crazyflie 2.x nano-quadcopter in simulated environments.
 
+| Crazyflow | High-performance simulation framework for Crazyflie drones using JAX and MuJoCo  | <https://github.com/utiasDSL/crazyflow> | 
 | MuJoCo |   MuJoCo has a model of the Crazyflie 2.x | <https://mujoco.readthedocs.io/en/3.3.3/models.html#drones> |
 | CrazySim |  Crazyflie SITL simulation with Gazebo for MPC control for a decentralized swarm | <https://github.com/gtfactslab/Llanes_ICRA2024> |
 | Sim_CF2 | The ROS2 upgrade of the Sim_CF project | <https://github.com/CrazyflieTHI/sim_cf2> |
