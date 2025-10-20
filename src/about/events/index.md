@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: page-fulltext
 title: Events
 page_id: events
 redirects:

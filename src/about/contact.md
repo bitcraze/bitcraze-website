@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: page-fulltext
 title: Contact
 page_id: about-contact
 redirects:

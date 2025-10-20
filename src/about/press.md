@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: page-fulltext
 title: Press
 page_id: about-press
 redirects:
