@@ -19,13 +19,23 @@ Aris is a recent Mechanical Engineering graduate with a passion for robotics, wh
 He traveled from Greece to work at Bitcraze as an intern for 5 months, gaining valuable experience and now he is working here as a full-time developer. In his free time, he enjoys playing card games, solving puzzles, cooking, and rewatching his favorite movies and TV series over and over.
 "%}
 
-{% include teammember.html member="Barbara Rousselot" role="Administration specialist" img="/images/team/barbara_rousselot_400px.jpg" bio="
+{% include teammember.html member="Barbara Rousselot" role="Administration Specialist" img="/images/team/barbara_rousselot_400px.jpg" bio="
 Growing up in France and all over the world, Barbara has always been interested by helping others and learning from her passions. After her academic and literary education, she wanted to see the world and follow her passion. Along the years, she traveled a lot and obtained a lot of experience in many different fields: administration, community management, sales, even acting. Now she settled down, and uses every bit of what she has learned to deal with everything administration-related and non-technical.
 
 Even though she has no formal education in coding or electronics, as a self-proclaimed geek she has a deep interest in technology and especially in videogames. And when she's not learning to code, she loves to read, knit, and often bakes, to the delight of the other team members!
 "%}
 
-{% include teammember.html member="Mandy Xiang" role="Production specialist" img="/images/team/mandy_xiang_400px.jpg" bio="
+{% include teammember.html member="Enya Nilsson" role="Application Engineer" img="/images/team/enya_nilsson_400px.jpg" bio="
+Enya is passionate about making technology enjoyable and understandable for humans. After five years of engineering studies in Information and Communication Technologies and her master's in Usability and Design she brings a strong focus on UX design, but she's curious about all things tech.
+
+At Bitcraze, Enya works on a wide range of user-centered activities, from support and interaction design to documentation and beyond. Outside of work, she enjoys curling up with her cat and a good book, baking, and sharing a nice dinner with friends.
+"%}
+
+{% include teammember.html member="Fredrik Ehrenstråle" role="Growth & Partnerships" img="/images/team/fredrik_ehrenstråle_400px.jpg" bio="
+Fredrik blends an engineering mindset with a passion for communication and creative strategy. At Bitcraze, he works on expanding partnerships, shaping commercial direction, and translating the company’s technical strengths into meaningful value for users and collaborators. With experience across marketing, sales, and product development, he enjoys connecting ideas and people around technology that matters. Outside of work, Fredrik explores design, philosophy, and the human side of innovation.
+"%}
+
+{% include teammember.html member="Mandy Xiang" role="Production Specialist" img="/images/team/mandy_xiang_400px.jpg" bio="
 Mandy is based in Shenzhen, China and has a background in Optoelectronics Technology with some foundation in electronic information technology. She has 15 years of project management experience, having held positions such as SQE and EPM at Foxconn, one of the world's leading electronics manufacturer, before joining Seeed Studio as an account manager, project manager and head of the prototyping business department. During that time, she also earned an MBA from Harbin Institute of Technology.
 
 Mandy focuses on OEM and ODM project management, specializing in project coordination, follow-up, and has accumulated extensive experience in manufacturing and supply chain management. She hopes to contribute this knowledge and experience to the Bitcraze team to ensure efficient project progress and delivery of high quality products.
