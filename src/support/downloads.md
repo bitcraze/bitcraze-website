@@ -8,7 +8,7 @@ redirects:
 
 ## Crazyflie stand-alone Python client
 
-The CFclient needs to be installed with **Python Pip**. Please follow [the install instructions for the latest release](/documentation/repository/crazyflie-clients-python/master/installation/install/#installing-from-latest-release).
+The CFclient needs to be installed with **Python Pip**. Please follow [the install instructions for the latest release](/documentation/repository/crazyflie-clients-python/master/installation/install/#installation-methods).
 
 ## Crazyflie mobile clients
 

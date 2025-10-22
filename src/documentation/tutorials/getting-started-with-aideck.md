@@ -75,8 +75,6 @@ please go back to this step and flash the bootloader.
 You will need to flash the bootloader on the GAP8 separately. This can only be done from a native linux computer or
 virtual machine (not WSL) with a [jtag enabled programmer](/documentation/repository/aideck-gap8-examples/master/development/jtag-programmer/) (Olimex ARM-USB-TINY-H JTAG or Jlink).
 
-> You only need to do this once and then you can enjoy the benefits of over-the-air flashing.
-
 Clone, build and flash the bootloader with an Olimex ARM-USB-TINY-H JTAG or a Jlink using the following commands:
 
 ```
@@ -166,7 +164,7 @@ to see the following:
 
 {% img wide; medium; /images/tutorials/getting_started_with_aideck/viewer.png %}
 
-Note: This viewer needs opencv-python which you can install with `pip install opencv-python`. Be aware that the cfclient has a conflict with this library (see this [issue](https://github.com/bitcraze/crazyflie-clients-python/issues/611)), so please install it in a seperate environment or remember to deinstall this library if you want to use the cfclient again.
+Note: This viewer needs opencv-python which you can install with `pip install opencv-python`. Be aware that the cfclient has a conflict with this library (see this [issue](https://github.com/bitcraze/crazyflie-clients-python/issues/611)), so please install it in a separate environment or remember to deinstall this library if you want to use the cfclient again.
 
 {% endsi_step %}
 

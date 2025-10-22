@@ -32,8 +32,8 @@ Make your ideas fly!; Your imagination sets the limits
 
 The Crazyflie 2.1 Brushless a versatile open source flying development platform that only weighs 32g and fits in the palm of your hand.
 
-It's not only a good flyer, the Crazyflie 2.1 Brushless is also equipped with low-latency/long-range
-radio as well as Bluetooth LE. This allows you to use you computer in combination with {% poplink crazyradio-2-0 %} or [Crazyradio PA](/products/crazyradio-pa/), to fly with a game pad or to do scripting to fly autonomously.
+It's not only a good flyer, the Crazyflie 2.1 Brushless is equipped with low-latency/long-range
+radio as well as Bluetooth LE. This allows you to use you computer in combination with {% poplink crazyradio-2-0 %} or [Crazyradio PA](/products/crazyradio-pa/), to fly with a game pad or to do scripting to fly autonomously. The platform is also equipped with contact pads that enables on-board charging via the [Crazyflie 2.1 Brushless Charging Dock](https://store.bitcraze.io/collections/accessories/products/crazyflie-2-1-brushless-charging-dock-3d), making it possible to land and charge between flights, even with decks attached to the bottom of the Crazyflie.
 
 The latest version of the successful Crazyflie development platform comes with improved flight performance, durability and radio. Together with an extensive ecosystem of software and deck expansions it's ideal for education, research and swarming.
 
@@ -73,12 +73,13 @@ The latest version of the successful Crazyflie development platform comes with i
 
 We designed the Crazyflie 2.1 Brushless to be as flexible as possible, offering a wide range of features and easily customizable firmware. It includes the same flexible expansion interface found across our entire drone lineup, allowing users to easily integrate ready-made expansion decks or access buses like UART, I2C, SPI, PWM, analog in/out, and GPIO.
 
-We are constantly improving the firmware, software, and documentation. At the same time, we are exploring new, creative ways of using the system. Additionally, we design new expansion decks that bring added functionality, expanding the possibilities and growing the Crazyflie ecosystem. The platform also supports wireless firmware updates via radio and Bluetooth LE, making it easy to update whenever a new version is released.
+We are constantly improving the firmware, software, and documentation. At the same time, we are exploring new, creative ways of using the system. Additionally, we design new expansion decks that bring added functionality, expanding the possibilities and growing the Crazyflie ecosystem. The platform supports wireless firmware updates via radio and Bluetooth LE, making it easy to update whenever a new version is released. With the contact pads, it is also possible to use the [Crazyflie 2.1 Brushless Charging Dock](https://store.bitcraze.io/collections/accessories/products/crazyflie-2-1-brushless-charging-dock-3d), making it easier to charge in between flights.
 
 #### Getting started
 
-Go to the [crazyflie 2.1 Brushless getting started tutorial]({% id_url getting-started-crazyflie-brushless %}) to assemble your Crazyflie, update its firmware and fly it. Also take a look at our {% id_link system-overview %} to learn more about the Crazyflie's ecosystem of positioning systems, clients and of course the Crazyflie itself with its expansion decks.
+Go to the [crazyflie 2.1 Brushless getting started tutorial]({% id_url getting-started-crazyflie-brushless %}) to get a guide on how to assemble your Crazyflie, update its firmware and fly it. Also take a look at our {% id_link system-overview %} to learn more about the Crazyflie's ecosystem of positioning systems, clients and of course the Crazyflie itself with its expansion decks.
 
+A great place to start is with our [Infinite Flight Bundle](https://store.bitcraze.io/collections/bundles/products/infinite-flight-bundle-crazyflie-2-1-brushless) that has everything you need to get started with autonomous flight with the Crazyflie 2.1 Brushless. The bundle includes a Crazyflie Brushless, Crazyradio 2.0, Charging Dock, Lighthouse positioning deck and two Lighthouse V2 base stations. 
 
 #### Safety instructions
 
