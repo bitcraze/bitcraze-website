@@ -60,6 +60,8 @@ Attach the motor cables to their connectors and twist the wire 180 degrees to at
 
 {% tutorialVideo /videos/twisting.mp4 %}
 
+Note: New motors may feel a bit stiff or stuggle to spin at low throttle levels (e.g., during arming). This is normal — a small amount of friction exists between their components. Once the motors have run for a short time (e.g, during a few test flights), this friction naturally decreases and the motors will spin more freely and efficiently.
+
 {% endsi_step %}
 
 
