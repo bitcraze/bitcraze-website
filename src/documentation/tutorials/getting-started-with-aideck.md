@@ -21,8 +21,7 @@ To run this tutorial and set up the AI deck you will need the following:
   * {% id_link product-crazyflie-2-1-plus %}
   * {% poplink ai-deck %}
   * {% poplink crazyradio-2-0 %} or {% id_link product-crazyradio-pa %}
-  * Optional: Programmer if you need to install the bootloader.
-
+  * A compatible [JTAG programmer/debugger](/documentation/repository/aideck-gap8-examples/master/development/jtag-programmer/). We recommend the [Olimex ARM-USB-TINY-H](https://store.bitcraze.io/products/olimex-arm-usb-tiny-h-bundle).
 
 * Software
   * Latest release of the cfclient
