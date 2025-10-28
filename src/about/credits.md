@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: page-fulltext
 title: Credits
 page_id: credits
 redirects:

@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: page-fulltext
 title: Tutorials
 page_id: tutorials
 ---
