@@ -28,9 +28,9 @@ Thanks to the GAP8 IoT application processor from GreenWaves Technologies and a 
 
 The {% poplink ai-deck %} 1.1 expands onboard computational capabilities, enabling experimentation with custom artificial intelligence workloads, including potential autonomous navigation implementations. The ESP32 provides WiFi connectivity and can be programmed to handle custom communication tasks.
 
-A compatible [JTAG programmer/debugger](/documentation/repository/aideck-gap8-examples/master/development/jtag-programmer/) is required for flashing, debugging, and restoring the bootloader. For detailed instructions, please refer to the [GAP8 bootloader](/documentation/tutorials/getting-started-with-aideck/#gap8-bootloader) in the getting-started guide and the [flashing documentation](/documentation/repository/aideck-gap8-examples/master/development/flashing/). Familiarity with embedded system development is recommended for effective use of this platform.
-
 The {% poplink ai-deck %} 1.1 version only has minor updates compared to the {% poplink ai-deck %} 1.0. The Himax camera module is now the greyscale version and the GAP8 is now revision C instead of B. For more details read [this blog post](https://www.bitcraze.io/2021/01/ai-deck-product-update/) and if the Bayer RGB version camera is wanted it can be bought stand alone here.
+
+> **Note:** A compatible [JTAG programmer/debugger](/documentation/repository/aideck-gap8-examples/master/development/jtag-programmer/) is required for flashing, debugging, and restoring the bootloader. For detailed instructions, please refer to the [GAP8 bootloader](/documentation/tutorials/getting-started-with-aideck/#gap8-bootloader) in the getting-started guide and the [flashing documentation](/documentation/repository/aideck-gap8-examples/master/development/flashing/). We recommend the [Olimex ARM-USB-TINY-H](https://store.bitcraze.io/products/olimex-arm-usb-tiny-h-bundle). Familiarity with embedded system development is recommended for effective use of this platform.
 
 {% endrow_text %}
 {% row_links %}
@@ -71,6 +71,8 @@ The {% poplink ai-deck %} ESP32 antenna is a bit fragile and can be damaged duri
 To get up and running with the deck see our [getting started guide](/documentation/tutorials/getting-started-with-aideck/)
 after which you will be able to either try out the pre-made examples or start making your
 own AI powered applications.
+
+> **Note:** A compatible [JTAG programmer/debugger](/documentation/repository/aideck-gap8-examples/master/development/jtag-programmer/) is required for flashing, debugging, and restoring the bootloader. For detailed instructions, please refer to the [GAP8 bootloader](/documentation/tutorials/getting-started-with-aideck/#gap8-bootloader) in the getting-started guide and the [flashing documentation](/documentation/repository/aideck-gap8-examples/master/development/flashing/). We recommend the [Olimex ARM-USB-TINY-H](https://store.bitcraze.io/products/olimex-arm-usb-tiny-h-bundle). Familiarity with embedded system development is recommended for effective use of this platform.
 
 {% endrow_text %}
 {% row_links %}
