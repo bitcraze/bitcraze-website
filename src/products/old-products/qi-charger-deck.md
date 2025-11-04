@@ -13,7 +13,7 @@ redirects:
 %}
 
 {% product_highlight
-fa-flash;
+fa-bolt;
 Wireless charging;
 Charge your Crazyflie 2.x without plugging in a USB cable.
 %}

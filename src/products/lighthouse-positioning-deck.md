@@ -14,7 +14,7 @@ redirects:
 %}
 
 {% product_highlight
-fa-map-marker;
+fas fa-map-marker;
 High precision positioning;
 Enabling high precision autonomous flying and swarming
 %}

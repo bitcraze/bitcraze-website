@@ -35,7 +35,7 @@ magnetometer and a high precision pressure sensor.
 
 
 {% product_highlight
-fa-lightbulb-o;
+fas fa-lightbulb;
 Your imagination sets the limits;
 Expansion decks let you add what you want
 %}
@@ -48,7 +48,7 @@ such as UART, I2C and SPI as well as PWM, analog in/out and GPIO.
 
 
 {% product_highlight
-fa-paper-plane-o;
+fas fa-paper-plane;
 Weight matters;
 Only 27 grams and fits in the palm of your hand
 %}
@@ -122,7 +122,7 @@ supported APIs written in Java, Ruby, C/C++, C# and Javascript.
 
 
 {% product_highlight
-fa-heart-o;
+fas fa-heart;
 Something for everyone;
 Develop, change and experiment - or just fly
 %}

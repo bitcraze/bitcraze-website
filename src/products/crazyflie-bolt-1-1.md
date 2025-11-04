@@ -11,7 +11,7 @@ page_id: product-crazyflie-bolt-1-1
 {% product_img Crazyflie Bolt 1.1; narrow; /images/crazyflie-bolt_1_1/crazyflie_bolt_1_1_585px.jpg %}
 
 {% product_highlight
-fa-paper-plane-o;
+fas fa-paper-plane;
 Make your ideas fly!; Your imagination sets the limits
 %}
 

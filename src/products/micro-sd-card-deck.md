@@ -8,7 +8,7 @@ redirects:
 {% datasheet_product_status sd_card_deck %}
 {% buy_online https://store.bitcraze.io/collections/decks/products/sd-card-deck %}
 {% product_img Micro SD card deck; narrow; /images/sd-card-deck/SD-deck-585px.JPG %}
-{% product_highlight fa-file-text-o; File your data; Read and write data to a micro SD card %}
+{% product_highlight fas fa-file-text; File your data; Read and write data to a micro SD card %}
 
 {% tabgroup %}
 {% tab How it Works %}

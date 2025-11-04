@@ -14,7 +14,7 @@ redirects:
 %}
 
 {% product_highlight
-fa fa-map-marker;
+fas fa-map-marker;
 Long distance and solid tracking;
 Compatible with Qualisys tracking systems and QTM
 %}
