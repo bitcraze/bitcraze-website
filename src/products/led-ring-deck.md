@@ -14,7 +14,7 @@ redirects:
 %}
 
 {% product_highlight
-fa-lightbulb-o;
+fas fa-lightbulb;
 Add lights to your Crazyflie 2.x;
 Light up the dark with custom patterns using the Crazyflie 2.x LED-ring expansion deck.
 %}

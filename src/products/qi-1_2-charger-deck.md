@@ -12,7 +12,7 @@ redirects:
 {% product_img Qi charger deck; narrow; /images/qi-charger/qi-charger-deck-585px.jpg %}
 
 {% product_highlight
-fa-flash;
+fas fa-bolt;
 Wireless charging;
 Charge your Crazyflie without plugging in a USB cable
 %}

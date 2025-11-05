@@ -14,7 +14,7 @@ redirects:
 %}
 
 {% product_highlight
-fa-arrows-v;
+fas fa-arrows;
 Laser ranging;
 Adds the possibility to fly with precise height control.
 %}

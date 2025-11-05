@@ -14,7 +14,7 @@ redirects:
 
 
 {% product_highlight
-fa fa-lightbulb-o;
+fas fa-brain;
 Brain Boost;
 Artificial Intelligence in a Nutshell
 %}

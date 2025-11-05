@@ -14,7 +14,7 @@ redirects:
 %}
 
 {% product_highlight
-fa-paper-plane-o;
+fas fa-paper-plane;
 Make your ideas fly!; Your imagination sets the limits
 %}
 
