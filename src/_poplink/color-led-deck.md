@@ -1,6 +1,6 @@
-[Buy in store](https://store.bitcraze.io/products/led-ring-deck)
+[Buy in store](https://store.bitcraze.io/products/color-led-deck)
 
-[Product page](/products/led-ring-deck/)
+[Product page](/products/color-led-deck/)
 
 [Other deck compatibility](/documentation/system/platform/cf2-expansiondecks/#deck---deck)
 
