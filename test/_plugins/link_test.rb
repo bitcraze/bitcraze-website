@@ -6,7 +6,7 @@ require 'src/_plugins/link'
 class TestLink < Testbase
 
   def setup
-    @site_mock = MiniTest::Mock.new()
+    @site_mock = Minitest::Mock.new()
 
     @pages = []
     @site_mock.expect(:pages, @pages)
@@ -29,7 +29,7 @@ class TestLink < Testbase
     url = '/my/url/'
 
     data = {'page_id' => id}
-    page_mock = MiniTest::Mock.new()
+    page_mock = Minitest::Mock.new()
     page_mock.expect(:data, data)
     page_mock.expect(:url, url)
 
@@ -52,7 +52,7 @@ class TestLink < Testbase
     element_id = 'my_tag'
 
     data = {'page_id' => id}
-    page_mock = MiniTest::Mock.new()
+    page_mock = Minitest::Mock.new()
     page_mock.expect(:data, data)
     page_mock.expect(:url, url)
 
@@ -86,7 +86,7 @@ class TestLink < Testbase
     title = "The title"
 
     data = {'page_id' => id, 'title' => title}
-    page_mock = MiniTest::Mock.new()
+    page_mock = Minitest::Mock.new()
     page_mock.expect(:data, data)
     page_mock.expect(:data, data)
     page_mock.expect(:url, url)
@@ -110,7 +110,7 @@ class TestLink < Testbase
     title = "The title"
 
     data = {'page_id' => id, 'title' => title}
-    page_mock = MiniTest::Mock.new()
+    page_mock = Minitest::Mock.new()
     page_mock.expect(:data, data)
     page_mock.expect(:data, data)
     page_mock.expect(:url, url)

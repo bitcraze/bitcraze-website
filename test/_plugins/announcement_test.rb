@@ -6,9 +6,9 @@ require 'src/_plugins/announcement'
 class TestAnnouncement < Testbase
 
   def setup
-    @converter_mock = MiniTest::Mock.new()
+    @converter_mock = Minitest::Mock.new()
 
-    @site_mock = MiniTest::Mock.new()
+    @site_mock = Minitest::Mock.new()
     @site_mock.expect(:find_converter_instance, @converter_mock, [Jekyll::Converters::Markdown])
   end
 

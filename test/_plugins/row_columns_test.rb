@@ -6,8 +6,8 @@ require 'src/_plugins/row_columns'
 class TestRowCols < Testbase
 
   def setup
-    @converter_mock = MiniTest::Mock.new()
-    @site_mock = MiniTest::Mock.new()
+    @converter_mock = Minitest::Mock.new()
+    @site_mock = Minitest::Mock.new()
 
     @converter_mock.expect(:convert, 'converted md1', ['md1'])
     @converter_mock.expect(:convert, 'converted md2', ['md2'])

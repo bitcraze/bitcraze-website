@@ -8,11 +8,11 @@ class TestCollapseSection < Testbase
   def setup
     Jekyll::CollapseSection.reset_id_counter
 
-    @converter_mock = MiniTest::Mock.new()
+    @converter_mock = Minitest::Mock.new()
     @converter_mock.expect(:convert, 'converted md', ['md'])
     @converter_mock.expect(:convert, 'converted md', ['md'])
 
-    @site_mock = MiniTest::Mock.new()
+    @site_mock = Minitest::Mock.new()
     @site_mock.expect(:find_converter_instance, @converter_mock, [Jekyll::Converters::Markdown])
     @site_mock.expect(:find_converter_instance, @converter_mock, [Jekyll::Converters::Markdown])
   end

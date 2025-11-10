@@ -7,7 +7,7 @@ require 'src/_plugins/datasheet'
 class TestDatasheetSection < Testbase
 
   def setup
-    @site_mock = MiniTest::Mock.new()
+    @site_mock = Minitest::Mock.new()
 
     # Read hardware specs from test fixture directory
     @config = {"source" => "test/_plugins/fixtures"}

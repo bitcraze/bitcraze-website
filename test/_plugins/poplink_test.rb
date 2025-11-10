@@ -6,7 +6,7 @@ require 'src/_plugins/poplink'
 class TestPoplink < Testbase
 
   def setup
-    @site_mock = MiniTest::Mock.new()
+    @site_mock = Minitest::Mock.new()
 
     @content_path = "to/content"
     @poplink_conf = {
