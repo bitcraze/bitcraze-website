@@ -61,7 +61,7 @@ The group consists of two parameters:
 
 {% si_step The Color LED deck in action! %}
 
-{% youtube 64LOEAQJamw; wide; 16by9 %}
+{% tutorialVideo /images/tutorials/getting_started_with_color_led/color-led-in-action.mp4%}
 
 {% endsi_step %}
 
