@@ -6,4 +6,4 @@
 
 [Guide CFlient](/documentation/repository/crazyflie-clients-python/master/userguides/userguide_client/flightcontrol_tab/)
 
-[Parameters](/documentation/repository/crazyflie-firmware/master/api/params/#ring)
+[Parameters](/documentation/repository/crazyflie-firmware/master/api/params/#colorLedBot)

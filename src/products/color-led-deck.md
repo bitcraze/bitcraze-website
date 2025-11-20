@@ -45,10 +45,10 @@ Add vibrant illumination and visual feedback to your flights with the Crazyflie 
 * Compatible with the Crazyflie firmware to create custom patterns
 
 #### Mechanical specifications
-##### Bottom version
+##### Bottom-mounted version
 {% datasheet_section color_led_deck_bottom; Mechanical specifications; no-title %}
 
-##### Top version
+##### Top-mounted version
 {% datasheet_section color_led_deck_top; Mechanical specifications; no-title %}
 
 {% datasheet_section color_led_deck_bottom; Electrical specification %}
@@ -100,8 +100,8 @@ All the Color LED deck's effects are implemented in the [color LED deck driver](
 {% endrow_text %}
 {% row_links %}
 
-* [Logging Variables](/documentation/repository/crazyflie-firmware/master/api/logs/#colorled)
-* [Parameters](/documentation/repository/crazyflie-firmware/master/api/params/#colorled)
+* [Logging Variables](/documentation/repository/crazyflie-firmware/master/api/logs/#colorLedBot)
+* [Parameters](/documentation/repository/crazyflie-firmware/master/api/params/#colorLedBot)
 
 {% endrow_links %}
 
