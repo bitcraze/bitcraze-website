@@ -102,8 +102,8 @@ All the Color LED deck's effects are implemented in the [color LED deck driver](
 {% endrow_text %}
 {% row_links %}
 
-* [Logging Variables](/documentation/repository/crazyflie-firmware/master/api/logs/#colorLedBot)
-* [Parameters](/documentation/repository/crazyflie-firmware/master/api/params/#colorLedBot)
+* [Logging Variables](/documentation/repository/crazyflie-firmware/master/api/logs/)
+* [Parameters](/documentation/repository/crazyflie-firmware/master/api/params/)
 
 {% endrow_links %}
 
