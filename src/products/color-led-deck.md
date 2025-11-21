@@ -74,6 +74,8 @@ The different LED colors can selected from [CFclient's Color LED tab](/documenta
 
 Once you have selected the right color, go ahead and fly!
 
+{% demoVideo /videos/color_led_demo.mp4 %}
+
 
 
 {% endrow_text %}
