@@ -8,6 +8,18 @@ poplinks:
     title: Loco Positioning deck
     default-link: /products/loco-positioning-deck/
     content: loco-positioning-deck.md
+  color-led-deck:
+    title: Color LED deck
+    default-link: /products/color-led-deck/
+    content: color-led-deck.md
+  color-led-deck-datasheet:
+    title: Color LED deck datasheet
+    default-link: /products/color-led-deck/
+    content: color-led-deck-datasheet.md
+  color-led-deck-schematics:
+    title: Color LED deck schematics
+    default-link: /products/color-led-deck/
+    content: color-led-deck-schematics.md
   led-ring-deck:
     title: LED-ring deck
     default-link: /products/led-ring-deck/

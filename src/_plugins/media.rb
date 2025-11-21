@@ -57,6 +57,23 @@ module Jekyll
       end
     end
 
+    class DemoVideo < Liquid::Tag
+      include Jekyll::PluginHelper
+
+      # Use this tag to add a demo video
+      #
+      # Example:
+      # {% demoVideo /video/plop.mp4 %}
+
+      def initialize(tag_name, text, tokens)
+        super
+        @params = parse_args(text)
+      end
+
+      def render(context)
+        '<div class="media-row-wide"><video autobuffer controls autoplay muted loop><source src="%1$s" type="video/mp4"></video></div>' % @params
+      end
+    end
 
     class Youtube < Liquid::Tag
       include Jekyll::PluginHelper
@@ -273,6 +290,7 @@ end
 
 Liquid::Template.register_tag('img', Jekyll::Media::Img)
 Liquid::Template.register_tag('tutorialVideo', Jekyll::Media::TutorialVideo)
+Liquid::Template.register_tag('demoVideo', Jekyll::Media::DemoVideo)
 Liquid::Template.register_tag('youtube', Jekyll::Media::Youtube)
 Liquid::Template.register_tag('map', Jekyll::Media::GoogleMaps)
 Liquid::Template.register_tag('used_by_text', Jekyll::Media::UsedByText)

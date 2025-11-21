@@ -57,12 +57,18 @@ module Jekyll
 
         @product_name = params[0]
         @heading = params[1]
+        @no_title = params.length > 2 && params[2].strip.downcase == 'no-title'
       end
 
       def render(context)
         product_md = load_hardware_source_md(context, @product_name)
         sections = find_sections(product_md)
         section_md = extract_section(product_md, sections, @heading)
+
+        # Optionally remove the heading line
+        if @no_title
+          section_md = section_md.sub(/^ *## +#{Regexp.escape(@heading)}.*\n/, '')
+        end
 
         # Increase all section levels 2 notches
         section_md_modified = section_md.gsub(/^ *#/, '###')
