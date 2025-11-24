@@ -26,6 +26,7 @@ Here is a list of expansion decks that are available for the Crazyflie 2.x:
 | {% poplink multi-ranger-deck %}|Expansion deck for detecting obstacles |
 | {% poplink flow-deck %}  | Expansion deck for detecting flow and height |
 | {% poplink ai-deck %}  | AI expansion deck |
+| {% poplink color-led-deck %}  | Color LED expansion deck |
 
 ### Additional information
 
@@ -98,27 +99,27 @@ running.
 Deck info
 ---------
 
-| VID  | PID  | ID            | Name                                        | Weight | Consumption                | Mount location |
-|------|------|---------------|---------------------------------------------|--------|----------------------------|----------------|
-| 0xBC | 0x01 | bcLedRing     | {% poplink led-ring-deck %}                 | 3.3g   | 0 - 700mA                  | Under          |
-| 0xBC | 0x02 | bcQi          | {% poplink qi-1-2-wireless-charging-deck %} | 5g     | N/A                        | Under          |
-| 0xBC | 0x04 | bcBuzzer      | {% poplink buzzer-deck %}                   | 1.8g   | 10mA                       | Under/Above    |
-| 0xBC | 0x05 | bcBigQuad     | {% poplink bigquad-deck %}                  | 3.8g   | N/A                        | Under/Above    |
-| 0xBC | 0x06 | bcLoco        | {% poplink loco-positioning-deck %}         | 3.3g   | 160mA                      | Under/Above    |
-| 0xBC | 0x08 | bcUSD         | {% poplink sd-card-deck %}                  | 1.7g   | ~30mA                      | Under/Above    |
-| 0xBC | 0x09 | bcZRanger     | {% id_link product-z-ranger-deck %}         | 1.3g   | ~15mA                      | Under          |
-| 0xBC | 0x0A | bcFlow        | {% id_link product-flow-deck %}             | 1.6g   | ~40mA                      | Under          |
-| 0xBC | 0x0B | bcOA          | Obstacle Avoidance                          | N/A    | ~0.3mA                     | Above          |
-| 0xBC | 0x0C | bcMultiranger | {% poplink multi-ranger-deck%}              | 2.3g   | ~90mA (depending on mode)  | Above          |
-| 0xBC | 0x0D | bcMocap       | {% poplink motion-capture-marker-deck %}    | 1.6g   | 0mA                        | Above          |
-| 0xBC | 0x0E | bcZRanger2    | {% poplink z-ranger-deck %}                 | 1.3g   | ~15mA                      | Under          |
-| 0xBC | 0x0F | bcFlow2       | {% poplink flow-deck %}                     | 1.6g   | ~40mA                      | Under          |
-| 0xBC | 0x10 | bcLighthouse4 | {% poplink lighthouse-deck %}               | 2.7g   | ~40mA                      | Above          |
-| 0xBC | 0x11 | bcActiveM     | {% poplink active-marker-deck %}            | 3.3g   | ~40mA                      | Above          |
-| 0xBC | 0x12 | bcAI          | {% poplink ai-deck %}                       | 4.4g   | depending on deck app      | Under/Above    |
-| 0xBC | 0x13 | bcHPLedDown   |                                             |        |                            |                |
-| 0xBC | 0x14 | bcHPLedUp     |                                             |        |                            |                |
-|------|------|---------------|---------------------------------------------|--------|----------------------------|----------------|
+| VID  | PID  | ID            | Name                                          | Weight | Consumption                | Mount location |
+|------|------|---------------|-----------------------------------------------|--------|----------------------------|----------------|
+| 0xBC | 0x01 | bcLedRing     | {% poplink led-ring-deck %}                   | 3.3g   | 0 - 700mA                  | Under          |
+| 0xBC | 0x02 | bcQi          | {% poplink qi-1-2-wireless-charging-deck %}   | 5g     | N/A                        | Under          |
+| 0xBC | 0x04 | bcBuzzer      | {% poplink buzzer-deck %}                     | 1.8g   | 10mA                       | Under/Above    |
+| 0xBC | 0x05 | bcBigQuad     | {% poplink bigquad-deck %}                    | 3.8g   | N/A                        | Under/Above    |
+| 0xBC | 0x06 | bcLoco        | {% poplink loco-positioning-deck %}           | 3.3g   | 160mA                      | Under/Above    |
+| 0xBC | 0x08 | bcUSD         | {% poplink sd-card-deck %}                    | 1.7g   | ~30mA                      | Under/Above    |
+| 0xBC | 0x09 | bcZRanger     | {% id_link product-z-ranger-deck %}           | 1.3g   | ~15mA                      | Under          |
+| 0xBC | 0x0A | bcFlow        | {% id_link product-flow-deck %}               | 1.6g   | ~40mA                      | Under          |
+| 0xBC | 0x0B | bcOA          | Obstacle Avoidance                            | N/A    | ~0.3mA                     | Above          |
+| 0xBC | 0x0C | bcMultiranger | {% poplink multi-ranger-deck%}                | 2.3g   | ~90mA (depending on mode)  | Above          |
+| 0xBC | 0x0D | bcMocap       | {% poplink motion-capture-marker-deck %}      | 1.6g   | 0mA                        | Above          |
+| 0xBC | 0x0E | bcZRanger2    | {% poplink z-ranger-deck %}                   | 1.3g   | ~15mA                      | Under          |
+| 0xBC | 0x0F | bcFlow2       | {% poplink flow-deck %}                       | 1.6g   | ~40mA                      | Under          |
+| 0xBC | 0x10 | bcLighthouse4 | {% poplink lighthouse-deck %}                 | 2.7g   | ~40mA                      | Above          |
+| 0xBC | 0x11 | bcActiveM     | {% poplink active-marker-deck %}              | 3.3g   | ~40mA                      | Above          |
+| 0xBC | 0x12 | bcAI          | {% poplink ai-deck %}                         | 4.4g   | depending on deck app      | Under/Above    |
+| 0xBC | 0x13 | bcHPLedDown   | {% poplink color-led-deck %} (bottom-mounted) | 3.5g   | up to 300mA per channel    | Under          |
+| 0xBC | 0x14 | bcHPLedUp     | {% poplink color-led-deck %} (top-mounted)    | 3.5g   | up to 300mA per channel    | Above          |
+|------|------|---------------|-----------------------------------------------|--------|----------------------------|----------------|
 
 Deck pin allocation
 -------------------
@@ -148,6 +149,7 @@ two decks where the connections collide.
 | **{% poplink lighthouse-deck %}**                 | RX1    | TX1   |*(SDA)*|*(SCL)*|          |              |          |            |       |       |       |       |       |          |          | N/A  |
 | **{% poplink active-marker-deck %}**              |        |       | SDA   | SCL   |          |              |          |            |       |       |       |       |       |          |          | N/A  |
 | **{% poplink ai-deck %}**                         | RX1    | TX1   | SDA   | SCL   | BOOT     |              |          | RST        | TX2   | RX2   |       |       |       |          |          | VCOM |
+| **{% poplink color-led-deck %}**                  |        |       | SDA   | SCL   |          |              |          |            |       |       |       |       |       |          |          | VCOM |
 |---------------------------------------------------|--------|-------|-------|-------|----------|--------------|----------|------------|-------|-------|-------|-------|-------|----------|----------|------|
 
 Compatibility matrixes
@@ -172,6 +174,7 @@ This table shows which deck that works on which platform.
 | **{% poplink lighthouse-deck %}**                 | yes                  | yes                    |
 | **{% poplink active-marker-deck %}**              | yes                  | yes                    |
 | **{% poplink ai-deck %}**                         | yes                  | yes                    |
+| **{% poplink color-led-deck %}**                  | yes                  | yes                    |
 |---------------------------------------------------|----------------------|------------------------|
 
 ### Deck - deck
@@ -185,24 +188,25 @@ are normally physically blocking each other are marked as not
 compatible.
 
 
- |                           | {% poplink led-ring-deck %} | {% poplink qi-1-2-wireless-charging-deck %} | {% poplink sd-card-deck %} | {% poplink loco-positioning-deck %} | {% poplink bigquad-deck %} | {% poplink buzzer-deck %} | {% poplink z-ranger-deck %}, Z-ranger V1 | {% poplink flow-deck %}, Flow deck V1 | {% poplink multi-ranger-deck%} | {% poplink motion-capture-marker-deck %} | {% poplink lighthouse-deck %} | {% poplink active-marker-deck %} | {% poplink ai-deck %} |
- |----------------------------------------------------|----------|------------|----------|------------------|----------|--------|----------|---------|--------------|-------------------|--------------|---------------|---------|
- | **{% poplink led-ring-deck %}**                    | -        |            | yes      | yes              |          | yes    |          |         | yes          | yes               | yes          | yes           | yes     |
- | **{% poplink qi-1-2-wireless-charging-deck %}**    |          | -          | yes      | yes              | yes      | yes    |          |         | yes          | yes               | yes          | yes           | yes     |
- | **{% poplink sd-card-deck %}**                     | yes      | yes        | -        | yes *1           | yes      | yes    | yes      | yes *1  | yes          | yes               | yes          | yes           | *4      |
- | **{% poplink loco-positioning-deck %}**            | yes      | yes        | yes *1   | -                | yes      | yes    | yes      | yes     | yes          | yes               | *2           | yes           | *5      |
- | **{% poplink bigquad-deck %}**                     |          | yes        | yes      | yes              | -        |        | yes      |         | yes          | yes               | *2           | yes           | *6      |
- | **{% poplink buzzer-deck %}**                      | yes      | yes        | yes      | yes              |          | -      | yes      | yes     | yes          | yes               | yes          | yes           | *6      |
- | **{% poplink z-ranger-deck %}, Z-ranger V1**       |          |            | yes      | yes              | yes      | yes    | -        |         | yes          | yes               | yes          | yes           | yes     |
- | **{% poplink flow-deck %}, Flow deck V1**          |          |            | yes *1   | yes              |          | yes    |          | -       | yes          | yes               | yes          | yes           | yes     |
- | **{% poplink multi-ranger-deck%}**                 | yes      | yes        | yes      | yes              | yes      | yes    | yes      | yes     | -            | yes               | yes          | yes           | yes     |
- | **{% poplink motion-capture-marker-deck %}**       | yes      | yes        | yes      | yes              | yes      | yes    | yes      | yes     | yes          | -                 | yes          |               | yes     |
- | **{% poplink lighthouse-deck %}**                  | yes      | yes        | yes      | *2               | *2       | yes    | yes      | yes     | yes          | yes               | -            |               | *3      |
- | **{% poplink active-marker-deck %}**               | yes      | yes        | yes      | yes              | yes      | yes    | yes      | yes     | yes          |                   |              | -             | yes     |
- | **{% poplink ai-deck %}**                          | yes      | yes        | *4       | *5               | *6       | *6     | yes      | yes     | yes          | yes               | *3           | yes           | -       |
- |----------------------------------------------------|----------|------------|----------|------------------|----------|--------|----------|---------|--------------|-------------------|--------------|---------------|---------|
+ |                           | {% poplink led-ring-deck %} | {% poplink qi-1-2-wireless-charging-deck %} | {% poplink sd-card-deck %} | {% poplink loco-positioning-deck %} | {% poplink bigquad-deck %} | {% poplink buzzer-deck %} | {% poplink z-ranger-deck %}, Z-ranger V1 | {% poplink flow-deck %}, Flow deck V1 | {% poplink multi-ranger-deck%} | {% poplink motion-capture-marker-deck %} | {% poplink lighthouse-deck %} | {% poplink active-marker-deck %} | {% poplink ai-deck %} | {% poplink color-led-deck %} |
+ |----------------------------------------------------|----------|----------|----------|------------------|---------|--------|----------|--------|--------------|--------------|------------|---------------|---------|-----------|
+ | **{% poplink led-ring-deck %}**                    | -        |          | yes      | yes              |         | yes    |          |        | yes          | yes          | yes        | yes           | yes     | yes       |
+ | **{% poplink qi-1-2-wireless-charging-deck %}**    |          | -        | yes      | yes              | yes     | yes    |          |        | yes          | yes          | yes        | yes           | yes     | yes       |
+ | **{% poplink sd-card-deck %}**                     | yes      | yes      | -        | yes *1           | yes     | yes    | yes      | yes *1 | yes          | yes          | yes        | yes           | *4      | yes       |
+ | **{% poplink loco-positioning-deck %}**            | yes      | yes      | yes *1   | -                | yes     | yes    | yes      | yes    | yes          | yes          | *2         | yes           | *5      | yes       |
+ | **{% poplink bigquad-deck %}**                     |          | yes      | yes      | yes              | -       |        | yes      |        | yes          | yes          | *2         | yes           | *6      | yes       |
+ | **{% poplink buzzer-deck %}**                      | yes      | yes      | yes      | yes              |         | -      | yes      | yes    | yes          | yes          | yes        | yes           | *6      | yes       |
+ | **{% poplink z-ranger-deck %}, Z-ranger V1**       |          |          | yes      | yes              | yes     | yes    | -        |        | yes          | yes          | yes        | yes           | yes     | yes       |
+ | **{% poplink flow-deck %}, Flow deck V1**          |          |          | yes *1   | yes              |         | yes    |          | -      | yes          | yes          | yes        | yes           | yes     | yes       |
+ | **{% poplink multi-ranger-deck%}**                 | yes      | yes      | yes      | yes              | yes     | yes    | yes      | yes    | -            | yes          | yes        | yes           | yes     | yes       |
+ | **{% poplink motion-capture-marker-deck %}**       | yes      | yes      | yes      | yes              | yes     | yes    | yes      | yes    | yes          | -            | yes        |               | yes     | yes       |
+ | **{% poplink lighthouse-deck %}**                  | yes      | yes      | yes      | *2               | *2      | yes    | yes      | yes    | yes          | yes          | -          |               | *3      | yes       |
+ | **{% poplink active-marker-deck %}**               | yes      | yes      | yes      | yes              | yes     | yes    | yes      | yes    | yes          |              |            | -             | yes     | yes       |
+ | **{% poplink ai-deck %}**                          | yes      | yes      | *4       | *5               | *6      | *6     | yes      | yes    | yes          | yes          | *3         | yes           | -       | yes       |
+ | **{% poplink color-led-deck %}**                   | yes      | yes      | yes      | yes              | yes     | yes    | yes      | yes    | yes          | yes          | yes        | yes           | yes     | -         |
+ |----------------------------------------------------|----------|----------|----------|------------------|---------|--------|----------|--------|--------------|--------------|------------|---------------|---------|-----------|
 
-<!--                                                  | led-ring | qi charg   | sd-card  | loco-positioning | bigquad  | buzzer | z-ranger | flow    | multi-ranger | mocap marker deck | lighthouse   | active marker | ai-deck -->
+<!--                                                  | led-ring | qi charg | sd-card  | loco-positioning | bigquad | buzzer | z-ranger | flow   | multi-ranger | mocap marker | lighthouse | active marker | ai-deck | color-LED |-->
 **Notes:**
 
 1.  SPI sharing might limit the logging speed of the uSD-card deck.
