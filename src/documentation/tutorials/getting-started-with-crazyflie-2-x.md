@@ -22,14 +22,15 @@ Dont't worry! We have many ways to figure out what might be wrong. A good place 
 On our [Github Discussions](https://discussions.bitcraze.io) you can look at discussions from our community or start your own to get help.
 {% endsi_step %}
 
+---
+
 {% si_intro 1. Assembly %}
+Make sure to follow the instructions below for assembling your Crazyflie 2.1 or 2.1+.
 {% endsi_intro %}
-{% si_intro Unpacking the Crazyflie %}
+{% si_step Unpacking the Crazyflie %}
 The Crazyflie box contains the following items. Make sure that you
 have all of them before you start assembling.
-{% endsi_intro %}
 
-{% si_step Package contents %}
 <table>
   <tr>
     <td width="120">
@@ -258,10 +259,9 @@ approximately once every second.
 red pulses with a longer pause between groups.
 {% endsi_step %}
 
+---
 
 {% si_intro 2. Setting up communication %}
-{% endsi_intro %}
-{% si_intro Controlling the Crazyflie %}
 Now that you have assembled the Crazyflie, its time to get ready to control it. To control the Crazyflie, we need to be able to communicate with it to give commands on how to fly and receive information back from the copter. 
 You can fly the Crazyflie either from a mobile device or a computer. Choose your preferred way to control the Crazyflie below and follow the instructions to set up communication. 
 {% endsi_intro %}
@@ -307,14 +307,10 @@ For more detailed information on input devices, see the [Client user-guide](/doc
 
 {% endsi_step %}
 
-{% si_step Update firmware in the Crazyflie; update-fw %}
-To make sure that your Crazyflie has all the latest features you should always update the firmware to the newest version. To find out how you, check out the client user-guide [here](/documentation/repository/crazyflie-clients-python/master/userguides/userguide_client/#firmware-upgrade).
-
-{% endsi_step %}
 
 {% si_step Connect to the Crazyflie; connect-pc-client %}
 * In the Crazyflie client enter the correct __Address__. The default one for a new Crazyflie out of the box is 0xE7E7E7E7E7. To figure out or change the __Address__ of your Crazyflie, you can follow the [radio address configuration](/documentation/repository/crazyflie-clients-python/master/userguides/userguide_client/#radio-address-configuration) guide.
-* Then click the __Scan__ button in top left corner. The radio settings for your Crazyflie is displayed in the drop-down list.
+* Then, with your Crazyflie powered on and radio connected, click the __Scan__ button in top left corner. The radio settings for your Crazyflie are displayed in the drop-down list.
 * Choose your Crazyflie from the drop-down list.
 * Click the __Connect__ button.
 
@@ -324,6 +320,10 @@ Now that you have connected your Crazyflie to your client, telemetry data
 is continuously sent from the copter to the client. When you move the
 Crazyflie around you will see the flight data being updated in realtime, as
 well as battery status and the link quality.
+{% endsi_step %}
+
+{% si_step Update firmware in the Crazyflie; update-fw %}
+To make sure that your Crazyflie has all the latest features you should always update the firmware to the newest version. To learn how, check out the client user-guide [here](/documentation/repository/crazyflie-clients-python/master/userguides/userguide_client/#firmware-upgrade).
 {% endsi_step %}
 
 {% endtab %}
@@ -359,6 +359,7 @@ appearances in the Android and iOS apps, you can see them below.
 {% endtabgroup %}
 {% endsi_step %}
 
+---
 
 {% si_intro 3. Flying; flying %}
 Now it's time to do some flying, but first there are some basics you need to know about.
