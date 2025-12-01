@@ -14,7 +14,7 @@ The **Color LED deck** gives the Crazyflie™ 2.x and Crazyflie™ Brushless the
 {% si_step  Prerequisites %}
 **Before** you start using the Color LED deck, you should do the following:
 * Follow the {% poplink getting-started-cf %} for your Crazyflie platform to set up your Crazyflie and the client. 
-* Update your Crazyflie to the latest firmware. For more information on how to update the firmware, see the [Firmware upgrade](https://www.bitcraze.io/documentation/repository/crazyflie-clients-python/master/userguides/userguide_client/#firmware-upgrade) section in the client documentation.
+* Update your Crazyflie to the latest firmware. For more information on how to update the firmware, see the [Firmware Upgrade](/documentation/repository/crazyflie-clients-python/master/userguides/userguide_client/#firmware-upgrade) section in the client documentation.
 * Update to the latest version of the [Crazyflie client](https://github.com/bitcraze/crazyflie-clients-python/releases).
 
 > This guide assumes that you have already set up the Crazyflie and client, and that you are familiar with how to connect to your Crazyflie in the client.
@@ -46,7 +46,7 @@ Attaching the top version:
     {% img Add Color LED tab to view; narrow; /images/tutorials/getting_started_with_color_led/color-tab-view.webp %}
 
 3. Open the Color LED tab. The contents will be disabled if the Crazyflie is not yet connected.
-4. Test out the colors! You can do this by using the color field, the color buttons or entering a hex code. Learn more details about the Color LED tab in the [client documentation](https://www.bitcraze.io/documentation/repository/crazyflie-clients-python/master/userguides/userguide_client/).
+4. Test out the colors! You can do this by using the color field, the color buttons or entering a hex code. Learn more details about the Color LED tab in the [client documentation](/documentation/repository/crazyflie-clients-python/master/userguides/userguide_client/).
 
 {% img The Color LED tab; wide; /images/tutorials/getting_started_with_color_led/color-tab-in-use.webp %}
 
@@ -73,7 +73,7 @@ The group consists of two parameters:
 {% endsi_step %}
 
 {% si_step What's Next? %}
-* Learn how to control a Crazyflie with scripting and the Crazyflie Pyton lib using our [Software User Guides](https://www.bitcraze.io/documentation/repository/crazyflie-lib-python/master/user-guides/).
+* Learn how to control a Crazyflie with scripting and the Crazyflie Pyton lib using our [Software User Guides](/documentation/repository/crazyflie-lib-python/master/user-guides/).
 * Check out the [Color LED examples](https://github.com/bitcraze/crazyflie-lib-python/tree/master/examples/color_led_deck) in our Python lib.
 * Try out the [LED Color Cycle Example Firmware App](https://github.com/bitcraze/crazyflie-firmware/tree/master/examples/app_color_led_cycle) to see an example of how to create an app in the firmware to run light patterns for the Color LED deck.
 {% endsi_step %}
