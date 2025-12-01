@@ -68,3 +68,7 @@ poplinks:
     title: Crazyradio 2.0
     default-link: /products/crazyradio-2-0/
     content: crazyradio-2-0.md
+  getting-started-cf:
+    title: Getting Started Guide
+    default-link: /documentation/start/
+    content: getting-started-cf.md
