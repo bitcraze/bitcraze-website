@@ -54,7 +54,7 @@ Attaching the top version:
 
 {% si_step  Controlling Colors with Parameters %}
 
-The colors can also be controlled by parameters from the client in the **Parameter tab**. Add the Parameter tab the same way that you added the Color LED tab. The Color LED deck has its parameter group depending on its version:
+The colors of the LEDs in the Color LED deck can also be controlled by parameters. This can be done in different ways, for example through the client, [firmware](/documentation/repository/crazyflie-firmware/master/userguides/logparam/) or [Python lib](/documentation/repository/crazyflie-lib-python/master/user-guides/python_api/#parameters). We will now look at how to do it from the client in the **Parameter tab**. Add the Parameter tab the same way that you added the Color LED tab. The Color LED deck has its parameter group depending on its version:
 * colorLedBot controls the bottom version, and
 * colorLedTop controls the top version.
 
