@@ -20,6 +20,14 @@ poplinks:
     title: Color LED deck schematics
     default-link: /products/color-led-deck/
     content: color-led-deck-schematics.md
+  color-led-deck-parameters:
+    title: Color LED deck parameters
+    default-link: /products/color-led-deck/
+    content: color-led-deck-parameters.md
+  color-led-deck-logging:
+    title: Color LED deck logging
+    default-link: /products/color-led-deck/
+    content: color-led-deck-logging.md
   led-ring-deck:
     title: LED-ring deck
     default-link: /products/led-ring-deck/

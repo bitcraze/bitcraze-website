@@ -7,7 +7,7 @@ redirects:
 ---
 
 {% si_intro The Color LED deck %}
-The **Color LED deck** gives the Crazyflie™ 2.x and Crazyflie™ Brushless the ability to light up with custom WRGB (White, Red, Green and Blue) colors, making the Crazyflie able to provide visual feedback in research, be a dazzling addition to a show, and much more. This Getting started guide shows how to get up and running with the Color LED deck in the client.
+The {% id_link product-color-led-deck %} gives the Crazyflie™ 2.x and Crazyflie™ Brushless the ability to light up with custom WRGB (White, Red, Green and Blue) colors, making the Crazyflie able to provide visual feedback in research, be a dazzling addition to a show, and much more. This Getting started guide shows how to get up and running with the Color LED deck in the client.
 
 {% endsi_intro %}
 
@@ -41,12 +41,12 @@ Attaching the top version:
 
 {% si_step  Controlling Colors with the Color LED tab%}
 
-1. After you have attached the Color LED deck in the correct position, connect to your Crazyflie in the client. 
+1. After you have attached the Color LED deck in the correct position, connect to your Crazyflie in the [client](/documentation/repository/crazyflie-clients-python/master/userguides/userguide_client/). 
 2. In the client, go to **View -> Tabs** and select the **Color LED** tab in the menu.
     {% img Add Color LED tab to view; narrow; /images/tutorials/getting_started_with_color_led/color-tab-view.webp %}
 
 3. Open the Color LED tab. The contents will be disabled if the Crazyflie is not yet connected.
-4. Test out the colors! You can do this by using the color field, the color buttons or entering a hex code. Learn more details about the Color LED tab in the [client documentation](/documentation/repository/crazyflie-clients-python/master/userguides/userguide_client/).
+4. Test out the colors! You can do this by using the color field, the color buttons or entering a hex code. Learn more details about the Color LED tab in the [client documentation](/documentation/repository/crazyflie-clients-python/master/userguides/userguide_client/colorled_tab).
 
 {% img The Color LED tab; wide; /images/tutorials/getting_started_with_color_led/color-tab-in-use.webp %}
 

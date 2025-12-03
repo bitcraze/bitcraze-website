@@ -28,6 +28,7 @@ Light up your flights with vivid, customizable effects using the Crazyflie Color
 
 Add vibrant illumination and visual feedback to your flights with the Crazyflie Color LED Deck. Equipped with one powerful WRGB LED, it allows you to create bright, full-color lighting effects or status indicators directly from your Crazyflie firmware. Available in top- and bottom-mounted versions, the Color LED Deck is visible from the sides and perfect for experimentation, signaling, or simply lighting up your drone in style.
 
+Follow the {% id_link getting-started-color-led-deck %} user guide to set up and test your Color LED deck. 
 
 {% endrow_text %}
 {% row_links %}
@@ -72,7 +73,7 @@ See [the compatibility matrix]({% id_url cf2_expansiondecks %}#compatibility-mat
 {% row_icon_text_links Usage; fa-book %}
 {% row_text %}
 
-The different LED colors can selected from [CFclient's Color LED tab](/documentation/repository/crazyflie-clients-python/master/userguides/userguide_client/flightcontrol_tab/).
+The different LED colors can selected from [CFclient's Color LED tab](/documentation/repository/crazyflie-clients-python/master/userguides/userguide_client/colorled_tab/).
 
 Once you have selected the right color, go ahead and fly!
 
@@ -82,10 +83,12 @@ Once you have selected the right color, go ahead and fly!
 
 {% endrow_text %}
 {% row_links %}
-- [CFclient's Color LED tab](/documentation/repository/crazyflie-clients-python/master/userguides/userguide_client/flightcontrol_tab/).
+
+#### Documentation:
+- [CFclient's Color LED tab](/documentation/repository/crazyflie-clients-python/master/userguides/userguide_client/colorled_tab/)
 
 #### Tutorials:
-
+* {% id_link getting-started-color-led-deck %}
 * {% id_link getting-started-expansion-decks %}
 
 
@@ -104,8 +107,8 @@ All the Color LED deck's effects are implemented in the [color LED deck driver](
 {% endrow_text %}
 {% row_links %}
 
-* [Logging Variables](/documentation/repository/crazyflie-firmware/master/api/logs/)
-* [Parameters](/documentation/repository/crazyflie-firmware/master/api/params/)
+* {% poplink color-led-deck-logging; Logging Variables %}
+* {% poplink color-led-deck-parameters; Parameters %}
 
 {% endrow_links %}
 
@@ -119,6 +122,7 @@ All the Color LED deck's effects are implemented in the [color LED deck driver](
 
 #### Resources
 
+- {% id_link getting-started-color-led-deck %}
 - {% id_link getting-started-start %}
 - {% id_link development-overview %}
 - {% id_link support-frequently-asked-questions %}
