@@ -48,6 +48,17 @@ There should always be one expansion board or battery holder on top to
 secure the battery, unless the battery is held by other means (ie.
 rubber band, sticky pad, etc...).
 
+### Pins and Connectors
+
+| Pins | Description | Suitable Set Up |
+|---|---|---|
+| Short Pins | Included with the Crazyflie 2.x | Battery holder deck on top |
+| Medium Pins | Included with the Crazyflie 2.x | One deck on top |
+| Long Pins | Available in store | Three decks |
+| Long Pins adapted to the AI deck | Available in store | Three decks (AI deck stable on bottom) |
+
+
+
 ### Orientation
 
 **WARNING**: It is important to install expansion boards in the right
