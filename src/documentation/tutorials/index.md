@@ -14,6 +14,7 @@ page_id: tutorials
 ## Expansion decks
 
 * {% id_link getting-started-expansion-decks %}
+* {% id_link getting-started-color-led-deck %}
 * {% id_link getting-started-buzzer-deck %}
 * {% id_link getting-started-z-ranger-deck %}
 * {% id_link getting-started-flow-deck %}
