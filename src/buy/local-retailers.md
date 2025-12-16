@@ -9,13 +9,10 @@ redirects:
 {% continent World Wide %}
 {% distributor Bitcraze; https://store.bitcraze.io; /images/distributors/bitcraze-store.png %}
 
-{% continent World Wide (apart from the People's Republic of China) %}
+{% continent World Wide %}
 {% distributor Seeedstudio; https://www.seeedstudio.com/catalogsearch/result/?q=crazyflie; /images/distributors/seeed_logo.png %}
 
 {% continent Asia/Pacific %}
-
-{% country Exclusive Distributor in the People's Republic of China %}
-{% distributor Nokov; https://www.nokov.com/products/robotics/crazyflie-crazyswarm-platform.html; /images/distributors/NOKOV-Motion-Capture-logo.png %}
 
 {% country Australia %}
 {% distributor Pakronics; https://www.pakronics.com.au/search?type=product&q=crazyflie; /images/distributors/pakronics.png %}
