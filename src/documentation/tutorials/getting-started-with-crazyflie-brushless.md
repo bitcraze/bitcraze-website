@@ -6,6 +6,13 @@ redirects:
     - /getting-started-crazyflie-brushless/
 ---
 
+{% si_intro Welcome to the Crazyflie™ Ecosystem! %}
+This getting started guide is split up into three parts. First we are goint to assemble the Crazyflie, secondly we move on to setting up controllers and communication, and lastly we get up in the air and start flying. 
+Let's get started! 
+
+{% img Overview; wide; /images/getting-started/gs-brushless-overview.png %}
+{% endsi_intro %}
+
 {% si_intro Disclaimer %}
 You are responsible for handling the drone and its components. It is your responsibility to make sure you understand how your drone works and that it is in good working condition before flight. Using a drone in a reckless and negligent manner could cause damage or bodily harm, resulting in lawsuits, fines and jail time.
 
@@ -16,15 +23,24 @@ You are responsible for handling the drone and its components. It is your respon
 * When possible, build, test and configure your drone without its propellers attached.
 * Avoid catching the drone mid-flight or while it’s landing.
 * Always make sure that the path of your drone is clear to avoid any accidents.
-* Use the propeller guards as much as possible
+* Use the propeller guards as much as possible.
 
 {% endsi_step %}
 
 {% endsi_intro %}
 
+{% si_step Requirements %}
+To fly with the Crazyflie you need to have a computer with a {% poplink crazyradio-2-0 %} or PA, which is the recommended way, or a mobile device. To fly manually with your computer you also need a gamepad of your choice. 
+{% endsi_step %}
+
+{% si_step If you get stuck %}
+Dont't worry! We have many ways to figure out what might be wrong. A good place to start is to look at the [Troubleshooting](/support/troubleshooting/), [FAQ](/support/f-a-q/) and [Getting help](/support/getting-help/) pages. Our [documentation](/documentation/system/) also provides more details than this guide.
+On our [Github Discussions](https://discussions.bitcraze.io) you can look at discussions from our community or start your own to get help.
+{% endsi_step %}
+
 ---
 
-{% si_intro Assembly %}
+{% si_intro 1. Assembly %}
 
 
 Make sure to follow the instructions below for assembling your Crazyflie 2.1 Brushless.
@@ -50,6 +66,75 @@ Start by unpacking the box. It should contain the following items:
 * 1 x Micro-USB cable (48cm)
 * 1 x Screwdriver
 * 1 x Propeller tool
+
+<table>
+  <tr>
+    <td width="120">
+      <img src="/images/getting-started/bare-pcb.webp" width="120">
+    </td>
+    <td>
+      Crazyflie 2.0 or 2.1 control board with all components mounted
+    </td>
+  </tr>
+  <tr>
+    <td width="120">
+      <img src="/images/getting-started/props-47-17.webp" width="120">
+    </td>
+    <td>
+      5 x CW propellers <br>
+      5 x CCW propellers
+    </td>
+  </tr>
+  <tr>
+    <td width="120">
+      <img src="/images/getting-started/motor-mounts.webp" width="120">
+    </td>
+    <td>
+      6 x Motor mounts
+    </td>
+  </tr>
+  <tr>
+    <td width="120">
+      <img src="/images/getting-started/250-lipo-battery.webp" width="120">
+    </td>
+    <td>
+      1 x LiPo battery
+    </td>
+  </tr>
+  <tr>
+    <td width="120">
+      <img src="/images/getting-started/coreless-dc-motors.webp" width="120">
+    </td>
+    <td>
+      5 x Coreless DC motors
+    </td>
+  </tr>
+  <tr>
+    <td width="120">
+      <img src="/images/getting-started/connector-pins.webp" width="120">
+    </td>
+    <td>
+      2 x Short expansion connector pins (1×10, 2mm spacing, 8 or 9 mm long) <br>
+      2 x Long expansion connector pins (1×10, 2mm spacing, 14 or 15 mm long)
+    </td>
+  </tr>
+  <tr>
+    <td width="120">
+      <img src="/images/getting-started/battery-holder.webp" width="120">
+    </td>
+    <td>
+      1 x Battery holder expansion board
+    </td>
+  </tr>
+  <tr>
+    <td width="120">
+      <img src="/images/getting-started/micro-usb-cable.webp" width="120">
+    </td>
+    <td>
+      1 x USB cable (only with the Crazyflie 2.1)
+    </td>
+  </tr>
+</table>
 
 {% endsi_step %}
 {% si_step mount the motors %}
