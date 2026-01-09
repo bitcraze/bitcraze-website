@@ -255,7 +255,7 @@ The supported way to install and run the client on a computer currently is to in
 the Crazyflie client using the python package manager *pip*.
 
 You can follow the prerequisite and instructions to install the latest release on the
-[Client installation instruction page](/documentation/repository/crazyflie-clients-python/master/installation/install/).
+[Client installation instruction page](/documentation/repository/crazyflie-clients-python/master/installation/install/). TODO: This is not applicable anymore. Needs to be updated to use virtual environment.
 
 
 When you have set up the client, insert the {% poplink crazyradio-2-0 %} or Crazyradio PA and your gamepad in
