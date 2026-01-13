@@ -5,37 +5,36 @@ page_id: home
 ---
 
 <div class="container-fluid front-top-banner">
-  <div class="snow-container" id="snowContainer"></div>
-    <div class="with_flex row">
+  <div class="with_flex row">
 
-      <div class="header-wrapper">
-        <div class="header_text">
-          <h1>Make your ideas fly!</h1>
-          <div class="header_buttons">
-            <a href="https://store.bitcraze.io/" class="btn btn-primary btn-block btn-color-primary">Shop</a>
-            <a href="/documentation/start/" class="btn btn-primary btn-block btn-color-secondary">Getting started</a>
-            <a href="https://github.com/bitcraze" class="mobile_hidden_button btn btn-primary btn-block btn-color-secondary">Github</a>
-          </div>
+    <div class="header-wrapper">
+      <div class="header_text">
+        <h1>Make your ideas fly!</h1>
+        <div class="header_buttons">
+          <a href="https://store.bitcraze.io/" class="btn btn-primary btn-block btn-color-primary">Shop</a>
+          <a href="/documentation/start/" class="btn btn-primary btn-block btn-color-secondary">Getting started</a>
+          <a href="https://github.com/bitcraze" class="mobile_hidden_button btn btn-primary btn-block btn-color-secondary">Github</a>
         </div>
-
-        <!--div class="announcements">
-          <a href="/about/events/roscon2024/">
-            <img src="/images/events/roscon2024/ROSCon2024.png" alt="ROSCon 2024">
-            <p>We are going to ROSCon on Oct 21-23! Come see us at Booth 21. >>></p>
-          </a>
-        </div-->
-
       </div>
-      <div class="header-col-wrapper">
-        <div class="what_we_do_arrow">
-          <a href="#what_we_do" class="smooth-link arrow-style"><i class="fa-solid fa-circle-arrow-down"></i></a>
-        </div>
 
-        <div class="value_proposition">
-          <h3>We create open platforms that enable people to explore the world of flying robotics</h3>
-        </div>
+      <!--div class="announcements">
+        <a href="/about/events/roscon2024/">
+          <img src="/images/events/roscon2024/ROSCon2024.png" alt="ROSCon 2024">
+          <p>We are going to ROSCon on Oct 21-23! Come see us at Booth 21. >>></p>
+        </a>
+      </div-->
+
+    </div>
+    <div class="header-col-wrapper">
+      <div class="what_we_do_arrow">
+        <a href="#what_we_do" class="smooth-link arrow-style"><i class="fa-solid fa-circle-arrow-down"></i></a>
+      </div>
+
+      <div class="value_proposition">
+        <h3>We create open platforms that enable people to explore the world of flying robotics</h3>
       </div>
     </div>
+  </div>
 </div>
 
 <!--Blog-->
@@ -423,41 +422,3 @@ page_id: home
  <script type='text/javascript'>
    $("a.smooth-link").smoothScroll();
  </script>
-
- <script> 
-document.addEventListener('DOMContentLoaded', function () {
-  const snowContainer = document.getElementById('snowContainer');
-  if (!snowContainer) return;
-
-  const snowflakeCount = 80;
-
-  function createSnowflakes() {
-    for (let i = 0; i < snowflakeCount; i++) {
-      const snowflake = document.createElement('div');
-      snowflake.classList.add('snow');
-
-      const size = Math.random() * 4 + 1;
-      const posX = Math.random() * 100;
-      const delay = Math.random() * 5;
-      const duration = Math.random() * 10 + 10;
-      const fallDistance = (Math.random() - 0.5) * 120;
-      const fallHeight = snowContainer.offsetHeight + 50;
-
-      snowflake.style.width = `${size}px`;
-      snowflake.style.height = `${size}px`;
-      snowflake.style.left = `${posX}%`;
-      snowflake.style.top = `-10px`;
-      snowflake.style.opacity = Math.random() * 0.6 + 0.2;
-      snowflake.style.animationDelay = `${delay}s`;
-      snowflake.style.animationDuration = `${duration}s`;
-      snowflake.style.setProperty('--fall-distance', `${fallDistance}px`);
-      snowflake.style.setProperty('--fall-height', `${fallHeight}px`);
-
-      snowContainer.appendChild(snowflake);
-    }
-  }
-
-  createSnowflakes();
-});
-</script>
-
