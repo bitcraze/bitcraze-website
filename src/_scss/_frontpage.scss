@@ -29,47 +29,6 @@
   height: auto;
   }
 
-  // snow effect for christmas: start
-  .front-top-banner {
-  position: relative;
-
-    .snow-container {
-      position: absolute;
-      inset: 0;
-      width: 100%;
-      height: 100%;
-      pointer-events: none;
-      z-index: 5;
-      overflow: hidden;
-    }
-
-    .snow {
-      position: absolute;
-      background-color: rgba(255, 255, 255, 0.9);
-      border-radius: 50%;
-      opacity: 0;
-      animation: fall linear infinite;
-    }
-  }
-
-  // snow animation
-  @keyframes fall {
-    0% {
-      transform: translateY(-10px) translateX(0);
-      opacity: 0;
-    }
-
-    10% {
-      opacity: 0.8;
-    }
-
-    100% {
-      transform: translateY(var(--fall-height)) translateX(var(--fall-distance));
-      opacity: 0;
-    }
-  }
-  // snow effect for christmas: end
-
   .front-top-banner {
   background-image: url("/images/frontpage/front-mobile.jpg");
   background-size: cover;
@@ -78,7 +37,7 @@
 
     //(≥768px)
     @media (min-width: $screen-sm-min) {
-      background-image: url("/images/frontpage/christmas-tree.png");
+      background-image: url("/images/frontpage/front.jpg");
       background-repeat-y: no-repeat;
     }
     @media (min-width: $screen-md-min) {
@@ -289,7 +248,7 @@
       //992px
       @media (min-width: $screen-md-min) {
       align-self: flex-end;
-      background: #1B7032;
+      background: #4c4cd2;
       width: 30%;
       margin-right: 2%;
 
