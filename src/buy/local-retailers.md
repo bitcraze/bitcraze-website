@@ -6,7 +6,7 @@ redirects:
   - /distributors/
 ---
 
-{% continent World Wide %}
+{% continent Official store (ships worldwide) %}
 {% distributor Bitcraze; https://store.bitcraze.io; /images/distributors/bitcraze-store.png %}
 
 {% continent World Wide %}
