@@ -406,6 +406,7 @@ page_id: home
       {% used_by_logo TU Delft; /images/logos/TUDelft.png; https://www.tudelft.nl/en/ %}
       {% used_by_logo Brown University; /images/logos/BrownU.png; https://www.brown.edu/ %}
       {% used_by_logo Linköping University; /images/logos/liu.png; https://www.liu.se/ %}
+      {% used_by_logo De La Salle University; /images/logos/dlsu.png; https://www.dlsu.edu.ph/ %}
 
     </div>
     <div class="row">
