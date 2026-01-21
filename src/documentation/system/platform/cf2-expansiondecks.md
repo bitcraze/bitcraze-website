@@ -40,22 +40,22 @@ Mechanical architecture
 -----------------------
 
 Expansion boards can be installed on top, bottom, or both top and bottom
-of the Crazyflie 2.x. The Crazyflie 2.x and expansion board have female,
-pass-through connectors that can be fitted with male pins. Pins in two
-differing lengths exist to permit installation of either one expansion
-board on top, one board on bottom and one on top, or two boards on top.
+of the Crazyflie 2.x. The Crazyflie 2.x and expansion board has 
+pass-through connectors that can be fitted with pins. Pins in two
+four different versions exist to permit installation of either one or two expansion
+boards on the top of the Crazyflie, and one or two expansion boards on the bottom.
 There should always be one expansion board or battery holder on top to
 secure the battery, unless the battery is held by other means (ie.
-rubber band, sticky pad, etc...).
+rubber band, sticky pad, etc). The pins can be inserted from either the top or the bottom of the Crazyflie 2.x.
 
-### Pins and Connectors
+### Pins
 
-| Pins | Description | Suitable Set Up |
-|---|---|---|
-| Short Pins | Included with the Crazyflie 2.x | Battery holder deck on top |
-| Medium Pins | Included with the Crazyflie 2.x | One deck on top |
-| Long Pins | Available in store | Three decks |
-| Long Pins adapted to the AI deck | Available in store | Three decks (AI deck stable on bottom) |
+| Pins | Name | Description | Suitable Set Up | Dimensions (Pin length x Plastic spacer x Pin length) | Datasheet |
+|---|---|---|---|---|
+| ![Short pins](/images/documentation/overview/medium_pins.webp){:width="200px"} | Short Pins | Included with the Crazyflie 2.x.<br>[Availablie in store (combined with medium pins)](https://store.bitcraze.io/collections/spare-parts-crazyflie-brushless/products/male-deck-connector) | Best suited for manual flight with only the **Battery Holder Deck** mounted on top. | 9mm x 2 mm x 2mm | [Datasheet](https://www.bitcraze.io/documentation/hardware/male_longer_deck_connector/male_longer_deck_connector-datasheet.pdf) |
+| ![Medium pins](/images/documentation/overview/medium_pins.webp){:width="200px"} | Medium Pins | Included with the Crazyflie 2.x.<br>[Availablie in store (combined with short pins)](https://store.bitcraze.io/collections/spare-parts-crazyflie-brushless/products/male-deck-connector) | Designed for **two decks** total, **one deck on top and one deck on the bottom**. | 15mm x 2 mm x 2mm | [Datasheet](https://www.bitcraze.io/documentation/hardware/male_longer_deck_connector/male_longer_deck_connector-datasheet.pdf) |
+| ![Long pins (2 on top)](/images/documentation/overview/long_pins.webp){:width="200px"} | Long Pins (Two Top Decks) | [Available in store](https://store.bitcraze.io/collections/spare-parts-crazyflie-brushless/products/male-long-deck-connector) | Designed for **three decks** total, optimized for **two decks on top and one deck on the bottom**. | 19mm x 2mm x 4 mm | [Datasheet](https://www.bitcraze.io/documentation/hardware/male_longer_deck_connector/male_longer_deck_connector-datasheet.pdf) |
+| ![Long pins (2 on bottom)](/images/documentation/overview/long_ai_pins.webp){:width="200px"} | Long Pins (Two Bottom Decks) | Included with the AI deck.<br>[Available in store](https://store.bitcraze.io/collections/spare-parts-crazyflie-brushless/products/male-long-deck-connector) | Designed for **three decks** total, optimized for **one deck on top and two decks on the bottom**. The wider plastic spacer provides extra support for the AI-deck when mounted underneath, helping keep it level. | 15 mm x 4mm x 6mm | [Datasheet](https://www.bitcraze.io/documentation/hardware/male_longer_deck_connector/male_longer_deck_connector-datasheet.pdf) |
 
 
 
