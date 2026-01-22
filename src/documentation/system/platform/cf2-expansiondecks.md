@@ -117,8 +117,8 @@ Deck info
 | 0xBC | 0x10 | bcLighthouse4 | {% poplink lighthouse-deck %}                 | 2.7g   | ~40mA                      | Above          |
 | 0xBC | 0x11 | bcActiveM     | {% poplink active-marker-deck %}              | 3.3g   | ~40mA                      | Above          |
 | 0xBC | 0x12 | bcAI          | {% poplink ai-deck %}                         | 4.4g   | depending on deck app      | Under/Above    |
-| 0xBC | 0x13 | bcHPLedDown   | {% poplink color-led-deck %} (bottom-mounted) | 3.5g   | up to 300mA per channel    | Under          |
-| 0xBC | 0x14 | bcHPLedUp     | {% poplink color-led-deck %} (top-mounted)    | 3.5g   | up to 300mA per channel    | Above          |
+| 0xBC | 0x13 | bcColorLedBot | {% poplink color-led-deck %} (bottom-mounted) | 3.5g   | up to 300mA per channel    | Under          |
+| 0xBC | 0x14 | bcColorLedTop | {% poplink color-led-deck %} (top-mounted)    | 3.5g   | up to 300mA per channel    | Above          |
 |------|------|---------------|-----------------------------------------------|--------|----------------------------|----------------|
 
 Deck pin allocation
