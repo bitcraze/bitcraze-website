@@ -8,8 +8,6 @@ redirects:
 
 {% continent World Wide %}
 {% distributor Bitcraze; https://store.bitcraze.io; /images/distributors/bitcraze-store.png %}
-
-{% continent World Wide %}
 {% distributor Seeedstudio; https://www.seeedstudio.com/catalogsearch/result/?q=crazyflie; /images/distributors/seeed_logo.png %}
 
 {% continent Asia/Pacific %}
