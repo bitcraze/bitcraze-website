@@ -28,7 +28,7 @@ This guide also requires that you have updated the Crazyflie to the latest firmw
 {% endsi_step %}
 
 {% si_step  mounting the flow deck %}
-Mount the {% poplink flow-deck %} underneath the Crazyflie 2.x using the long pin-headers supplied with the Crazyflie 2.x Kit.
+Mount the {% poplink flow-deck %} underneath the Crazyflie 2.x using the long pins supplied with the Crazyflie 2.x Kit.
 {% img Mounting the Flow deck; wide; /images/tutorials/getting_started_stem/stem_bundle_mounted_deck.jpg %}
 
 For more information about how to mount an expansion deck please see the {% id_link getting-started-expansion-decks %} tutorial.
