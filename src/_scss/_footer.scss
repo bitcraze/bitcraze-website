@@ -13,6 +13,9 @@
 
   padding-top: 10px;
   padding-bottom: 5px;
+
+  // Push footer to bottom when content is short (sticky footer)
+  margin-top: auto;
 }
 
 .site-footer,
@@ -34,6 +37,11 @@
   a:hover:not(.btn),
   a:focus:not(.btn) {
 	  color: $footer-hover-color;
+  }
+
+  // Bootstrap 5 requires .list-inline-item on each li, add inline display via CSS
+  .list-inline > li {
+    display: inline-block;
   }
 
   // Dividers between footer menu items

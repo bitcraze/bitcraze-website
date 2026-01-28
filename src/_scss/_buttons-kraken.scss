@@ -4,8 +4,8 @@ html input[type="button"],
 input[type="submit"],
 .button-link {
     color: #fff;
-    background-color: $brand-primary;
-    border-color: $brand-primary;
+    background-color: $primary;
+    border-color: $primary;
     background-image: none;
 	font-size: 16px;
 	line-height: 22px;
@@ -35,8 +35,8 @@ html input[type="button"]:focus,
 input[type="submit"]:hover,
 input[type="submit"]:focus {
     color: #fff;
-    background-color: $brand-primary;
-    border-color: $brand-primary;
+    background-color: $primary;
+    border-color: $primary;
     outline: 0;
 }
 

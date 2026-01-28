@@ -293,12 +293,19 @@
     background-color: white;
     border-color: white;
     border-width: 2px;
+    &:hover, &:focus {
+      color: black;
+    }
   }
 
   .btn-color-secondary {
-    background-color:transparent;
+    color: white;
+    background-color: transparent;
     border-color: white;
     border-width: 2px;
+    &:hover, &:focus {
+      color: white;
+    }
   }
 
   .no-padding {

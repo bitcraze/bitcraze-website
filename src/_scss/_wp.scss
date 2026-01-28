@@ -283,7 +283,7 @@ i.icon-xlg {
 .pagination>li>a,
 .pagination>li>span,
 span.page-numbers.current {
-	color: $brand-primary;
+	color: $primary;
 }
 .pagination>li>a:hover,
 .pagination>li>span:hover,
@@ -292,8 +292,8 @@ span.page-numbers.current {
 span.page-numbers.current {
 	z-index: 2;
 	color: #fff;
-    background-color: $brand-primary;
-    border-color: $brand-primary;
+    background-color: $primary;
+    border-color: $primary;
 }
 
 // Widget titles

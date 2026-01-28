@@ -1,5 +1,5 @@
-<div class="navbar-collapse collapse">
-    <ul id="menu-newmenuqnd" class="nav navbar-nav">
+<div class="navbar-collapse collapse" id="navbar-menu">
+    <ul id="menu-newmenuqnd" class="navbar-nav">
         {% for top_menu in site.data.menu %}
             {% assign is_active = false %}
 
@@ -16,15 +16,16 @@
                 {% endif %}
             {% endif %}
 
-            <li class="menu-item {% if is_active %}active{% endif %}">
+            <li class="nav-item {% if top_menu contains 'subs' %}dropdown{% endif %} {% if is_active %}active{% endif %}">
                 {% if top_menu contains "subs" %}
                 <a title="{{top_menu.title}}" href="#"
-                   data-target="#" data-toggle="dropdown"
-                   class="dropdown-toggle">{{top_menu.title}}<span class="caret"></span></a>
+                   data-bs-toggle="dropdown"
+                   class="nav-link dropdown-toggle"
+                   aria-expanded="false">{{top_menu.title}}</a>
                     {% include menu_ul.html subs=top_menu.subs %}
                 {% else %}
                     {% assign p = site.pages | where:"page_id",top_menu.page_id | first %}
-                <a title="{{p.title}}" href="{{p.url}}">{{p.title}}</a>
+                <a title="{{p.title}}" href="{{p.url}}" class="nav-link">{{p.title}}</a>
                 {% endif %}
             </li>
         {% endfor %}

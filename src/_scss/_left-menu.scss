@@ -1,6 +1,12 @@
 // Dynamic menu used in tutorials
 .left-menu {
     $padding-menu-top: 28px;
+
+    // Override Bootstrap 5's .nav flexbox display for vertical menu
+    ul.nav {
+        display: block;
+    }
+
     .affix {
         $nav-cols-width: 4;
         // This width (for floating menu) is NOT the same as for the menu in "top" position. The reason is that
@@ -29,6 +35,7 @@
             padding: 0;
             color: $side-menu-link-color;
             font-weight: $nav-font-weight;
+            text-decoration: none;
             transition: background-color 0.2s;
         }
         > ul {
@@ -76,12 +83,18 @@
 
 // Menu used in documentation
 .repo-docs-menu {
+    // Override Bootstrap 5's .nav flexbox display for vertical menu
+    ul.nav {
+        display: block;
+    }
+
     nav {
         text-align: right;
         font-weight: $nav-font-weight-strong;
         a {
             padding: 0;
             color: $side-menu-link-color;
+            text-decoration: none;
             transition: background-color 0.2s;
         }
         > ul {

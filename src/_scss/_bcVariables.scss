@@ -1,3 +1,20 @@
+// Bootstrap 5 compatible breakpoint variables
+// (for backward compatibility with existing SCSS)
+$screen-xs-min: 0;
+$screen-xs-max: 575px;
+$screen-sm-min: 576px;
+$screen-sm-max: 767px;
+$screen-md-min: 768px;
+$screen-md-max: 991px;
+$screen-lg-min: 992px;
+$screen-lg-max: 1199px;
+$screen-xl-min: 1200px;
+
+// Grid variables (for backward compatibility)
+$grid-columns: 12;
+$grid-gutter-width: 30px; // Bootstrap 3 default was 30px
+
+// Bitcraze brand colors
 $bcGreen: #95C941;
 $bcMidGreen: #00cd28;
 $bcDarkGreen: #009900;

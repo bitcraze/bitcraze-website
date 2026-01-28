@@ -16,6 +16,11 @@ body {
   max-width: 2500px;
   margin: auto;
   background-color: white;
+
+  // Sticky footer layout
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
 }
 
 b, strong {
@@ -24,6 +29,7 @@ b, strong {
 
 a {
     word-wrap: break-word;
+    text-decoration: none;
 
     -webkit-transition: color .1s ease-in, background .1s ease-in;
     -moz-transition: color .1s ease-in, background .1s ease-in;

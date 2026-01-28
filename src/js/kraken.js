@@ -11,7 +11,7 @@ firstScriptTag.parentNode.insertBefore(tag, firstScriptTag);
 
 var kraken = {
   loadYoutubeVideo: function(element) {
-    var id = $(element).attr('data-video-id');
+    var id = element.getAttribute('data-video-id');
 
     dataLayer.push({
       'video-id': id,
@@ -25,7 +25,7 @@ var kraken = {
   },
 
   scrollToNextScrollPoint: function() {
-    var scrollPoints = $('.scroll-point');
+    var scrollPoints = document.querySelectorAll('.scroll-point');
     var firstVisible = kraken.findTopMostVisibleElement(scrollPoints);
 
     if (firstVisible != null) {
@@ -60,11 +60,23 @@ var kraken = {
   },
 
   scrollEventSectionScroller: function(e) {
-    var rect = $('body')[0].getBoundingClientRect();
-    if (Math.abs(rect.bottom - $(window).height()) < 5) {
-      $('.section-scroller:visible').hide();
+    var rect = document.body.getBoundingClientRect();
+    var sectionScrollers = document.querySelectorAll('.section-scroller');
+
+    if (Math.abs(rect.bottom - window.innerHeight) < 5) {
+      // At bottom of page - hide section scrollers
+      sectionScrollers.forEach(function(el) {
+        if (el.style.display !== 'none') {
+          el.style.display = 'none';
+        }
+      });
     } else {
-      $('.section-scroller:hidden').show();
+      // Not at bottom - show section scrollers
+      sectionScrollers.forEach(function(el) {
+        if (el.style.display === 'none') {
+          el.style.display = '';
+        }
+      });
     }
   },
 
@@ -96,10 +108,18 @@ var kraken = {
   updateTabs: function() {
     let targetId = window.location.hash.substring(1);
     if (targetId.startsWith('tab-id')) {
-      $('a[href=#' + targetId + ']').tab('show');
+      // Bootstrap 5 Tab API
+      var tabEl = document.querySelector('a[href="#' + targetId + '"]');
+      if (tabEl && typeof bootstrap !== 'undefined') {
+        var tab = new bootstrap.Tab(tabEl);
+        tab.show();
+      }
 
-      let topOfTabs = document.getElementById(targetId).parentElement.parentElement;
-      topOfTabs.scrollIntoView();
+      var tabContent = document.getElementById(targetId);
+      if (tabContent) {
+        var topOfTabs = tabContent.parentElement.parentElement;
+        topOfTabs.scrollIntoView();
+      }
     }
   },
 

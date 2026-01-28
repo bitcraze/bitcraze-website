@@ -94,7 +94,9 @@ module Jekyll
       end
 
       def render(context)
-        '<div class="media-row-%2$s"><div class="embed-responsive embed-responsive-%3$s"><div class="embed-responsive-item video-item-delayed-load" data-video-id="%1$s" style="background:url(https://i1.ytimg.com/vi/%1$s/0.jpg);" onclick="kraken.loadYoutubeVideo(this)"><i class="fa-regular fa-circle-play fa-3x"></i></div></div></div>' % @params
+        # Convert aspect ratio from Bootstrap 3 format (16by9) to Bootstrap 5 format (16x9)
+        aspect_ratio = @params[2].gsub('by', 'x')
+        '<div class="media-row-%2$s"><div class="ratio ratio-%3$s"><div class="video-item-delayed-load" data-video-id="%1$s" style="background:url(https://i1.ytimg.com/vi/%1$s/0.jpg);" onclick="kraken.loadYoutubeVideo(this)"><i class="fa-regular fa-circle-play fa-3x"></i></div></div></div>' % [@params[0], @params[1], aspect_ratio]
       end
     end
 
@@ -117,7 +119,7 @@ module Jekyll
       end
 
       def render(context)
-        '<div class="media-row-%2$s"><div class="embed-responsive embed-responsive-1by1"><iframe class="embed-responsive-item-medium" src="https://www.google.com/maps/embed?pb=%1$s" allowfullscreen="allowfullscreen"></iframe></div></div>' % @params
+        '<div class="media-row-%2$s"><div class="ratio ratio-1x1"><iframe src="https://www.google.com/maps/embed?pb=%1$s" allowfullscreen="allowfullscreen"></iframe></div></div>' % @params
       end
     end
 
@@ -143,9 +145,9 @@ module Jekyll
 
       def render(context)
         if (@params.length == 1)
-          '<div class="col-xs-3 col-sm-2 col-md-2 used_by_box_text">%1$s</div>' % @params
+          '<div class="col-3 col-sm-2 col-md-2 used_by_box_text">%1$s</div>' % @params
         elsif (@params.length == 2)
-          '<div class="col-xs-3 col-sm-2 col-md-2 used_by_box_text"><a href="%2$s" target="_blank" rel="noopener noreferrer">%1$s</a></div>' % @params
+          '<div class="col-3 col-sm-2 col-md-2 used_by_box_text"><a href="%2$s" target="_blank" rel="noopener noreferrer">%1$s</a></div>' % @params
         end
       end
     end
@@ -171,13 +173,13 @@ module Jekyll
 
 
       def render(context)
-        img_element = '<img class="img-responsive" src="%2$s" alt="%1$s" title="%1$s"/>' % @params
+        img_element = '<img class="img-fluid" src="%2$s" alt="%1$s" title="%1$s"/>' % @params
 
         if (@params.length == 2)
-          '<div class="col-xs-3 col-sm-2 col-md-2 used_by_box">%1$s</div>' % [img_element]
+          '<div class="col-3 col-sm-2 col-md-2 used_by_box">%1$s</div>' % [img_element]
         elsif (@params.length == 3)
           url = @params[2]
-          '<div class="col-xs-3 col-sm-2 col-md-2 used_by_box"><a href="%2$s" target="_blank" rel="noopener noreferrer">%1$s</a></div>' % [img_element, url]
+          '<div class="col-3 col-sm-2 col-md-2 used_by_box"><a href="%2$s" target="_blank" rel="noopener noreferrer">%1$s</a></div>' % [img_element, url]
         end
       end
     end
@@ -279,7 +281,9 @@ module Jekyll
           header = '<div><h3 id="%1$s">%2$s</h3></div>' % [full_id, @params[2]]
         end
 
-        html = '<div class="col-md-6">%1$s<div class="embed-responsive embed-responsive-%3$s"><div class="embed-responsive-item video-item-delayed-load" data-video-id="%2$s" style="background:url(https://i1.ytimg.com/vi/%2$s/0.jpg);" onclick="kraken.loadYoutubeVideo(this)"><i class="fa-regular fa-circle-play fa-3x"></i></div></div></div>' % ([header] + @params)
+        # Convert aspect ratio from Bootstrap 3 format (16by9) to Bootstrap 5 format (16x9)
+        aspect_ratio = @params[1].gsub('by', 'x')
+        html = '<div class="col-md-6">%1$s<div class="ratio ratio-%3$s"><div class="video-item-delayed-load" data-video-id="%2$s" style="background:url(https://i1.ytimg.com/vi/%2$s/0.jpg);" onclick="kraken.loadYoutubeVideo(this)"><i class="fa-regular fa-circle-play fa-3x"></i></div></div></div>' % [header, @params[0], aspect_ratio]
         context['media_gallery'].add_item(html)
         html
       end
