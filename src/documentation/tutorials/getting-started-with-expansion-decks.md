@@ -31,8 +31,10 @@ Decks that are mounted on top of the Crazyflie 2.x replace the battery holder.
 {% img Deck orientation; wide; /images/getting-started/deck-orientation.png %}
 {% endsi_step %}
 
-{% si_step Which pins to use %}
-The expansion decks are **attached with pins**. Learn more about the different kinds of pins and which type suits your set-up in the overview of [Expansion Decks of the Crazyflie 2.x](/documentation/system/platform/cf2-expansiondecks/). 
+{% si_step Pins %}
+The expansion decks are **attached with pins**. Learn more about the different kinds of pins and which type suits your set-up in the overview of [Expansion Decks of the Crazyflie 2.x](/documentation/system/platform/cf2-expansiondecks/#mechanical-architecture). 
+
+{% img All pins; wide; /images/getting-started/all_pins.webp %}
 
 The pins can be inserted from either the **top or the bottom**, depending on configuration. It is most often recommended to insert the pins from the bottom since this gives more room to attach decks on the bottom and also avoids landing deck-first if a crash happens. One case where it is recommended to insert the pins from above is when using the short pins and the Battery Holder deck.
 
