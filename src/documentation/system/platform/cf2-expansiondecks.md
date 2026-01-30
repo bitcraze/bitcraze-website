@@ -40,13 +40,21 @@ Mechanical architecture
 -----------------------
 
 Expansion boards can be installed on top, bottom, or both top and bottom
-of the Crazyflie 2.x. The Crazyflie 2.x and expansion board have female,
-pass-through connectors that can be fitted with male pins. Pins in two
-differing lengths exist to permit installation of either one expansion
-board on top, one board on bottom and one on top, or two boards on top.
+of the Crazyflie 2.x. The Crazyflie 2.x and expansion boards have 
+pass-through connectors that can be fitted with pins. Pins in four different versions exist to permit installation of either one or two expansion
+boards on the top of the Crazyflie, and one or two expansion boards on the bottom.
 There should always be one expansion board or battery holder on top to
 secure the battery, unless the battery is held by other means (ie.
-rubber band, sticky pad, etc...).
+rubber band, sticky pad, etc). The pins can be inserted from either the top or the bottom of the Crazyflie 2.x.
+
+### Pins
+
+| Pins | Name | Description | Suitable Set Up | Dimensions (Pin length + Plastic spacer + Pin length) | Datasheet |
+|---|---|---|---|---|---|
+| ![Short pins](/images/documentation/overview/short_pins.webp){:width="200px"} | Short Pins | Included with the Crazyflie 2.x.<br>[Available in store (combined with medium pins)](https://store.bitcraze.io/products/short-and-medium-pins) | Best suited for manual flight with only the **Battery Holder Deck** mounted on top. | 9mm + 2 mm + 2mm | [Datasheet](/documentation/hardware/short_and_medium_pins/short_and_medium_pins-datasheet.pdf) |
+| ![Medium pins](/images/documentation/overview/medium_pins.webp){:width="200px"} | Medium Pins | Included with the Crazyflie 2.x.<br>[Available in store (combined with short pins)](https://store.bitcraze.io/products/short-and-medium-pins) | Designed for **two decks** total, **one deck on top and one deck on the bottom**. | 15mm + 2 mm + 2mm | [Datasheet](/documentation/hardware/short_and_medium_pins/short_and_medium_pins-datasheet.pdf) |
+| ![Long pins (19+2+4mm)](/images/documentation/overview/long_pins_1924.webp){:width="200px"} | Long Pins (19+2+4mm) | [Available in store](https://store.bitcraze.io/products/long-pins-1924) | Designed for **three decks** total, optimized for **two decks on top and one deck on the bottom**. | 19mm + 2mm + 4 mm | [Datasheet](/documentation/hardware/long_pins_19_2_4mm/long_pins_19_2_4mm-datasheet.pdf) |
+| ![Long pins (15+4+6mm)](/images/documentation/overview/long_pins_1546.webp){:width="200px"} | Long Pins (15+4+6mm) | Included with the AI deck.<br>[Available in store](https://store.bitcraze.io/products/long-pins-1546) | Designed for **three decks** total, optimized for **one deck on top and two decks on the bottom**. The wider plastic spacer provides extra support for the AI-deck when mounted underneath, helping keep it level. | 15 mm + 4mm + 6mm | [Datasheet](/documentation/hardware/long_pins_15_4_6mm/long_pins_15_4_6mm-datasheet.pdf) |
 
 ### Orientation
 
