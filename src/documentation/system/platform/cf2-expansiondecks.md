@@ -185,7 +185,7 @@ This table shows which deck that works on which platform.
 | **{% poplink color-led-deck %}**                  | yes                  | yes                    | yes*              |
 |---------------------------------------------------|----------------------|------------------------|-------------------|
 
-\* The LED decks will work on the Bolt but not at full power due to a power budget of 500 mA total. 
+\* The LED decks will work on the Bolt but not at full power due to a power budget of 500 mA total.
 
 ### Deck - deck
 
