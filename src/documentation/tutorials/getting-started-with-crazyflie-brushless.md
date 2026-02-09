@@ -7,7 +7,7 @@ redirects:
 ---
 
 {% si_intro Welcome to the Crazyflie™ Ecosystem! %}
-This getting started guide is split up into three parts. First we are goint to assemble the Crazyflie, secondly we move on to setting up controllers and communication, and lastly we get up in the air and start flying. 
+This getting started guide is split up into three parts. First we are going to assemble the Crazyflie, secondly we move on to setting up controllers and communication, and lastly we get up in the air and start flying. 
 Let's get started! 
 
 {% img Overview; wide; /images/getting-started/gs-brushless-overview.png %}
@@ -34,7 +34,7 @@ To fly with the Crazyflie you need to have a computer with a {% poplink crazyrad
 {% endsi_step %}
 
 {% si_step If you get stuck %}
-Dont't worry! We have many ways to figure out what might be wrong. A good place to start is to look at the [Troubleshooting](/support/troubleshooting/), [FAQ](/support/f-a-q/) and [Getting help](/support/getting-help/) pages. Our [documentation](/documentation/system/) also provides more details than this guide.
+Dont't worry! We have many ways to figure out what might be wrong. A good place to start is to look at the [Getting help](/support/getting-help/) page. Our [documentation](/documentation/system/) also provides more details than this guide.
 On our [Github Discussions](https://discussions.bitcraze.io) you can look at discussions from our community or start your own to get help.
 {% endsi_step %}
 
@@ -61,6 +61,7 @@ Start by unpacking the box. It should contain the following items:
 * 5 x CCW propellers (3 spare)
 * 5 x CW propellers (3 spare)
 * 1 x Battery holder deck
+* 1 x Rubber pad
 * 2 x Short male deck connectors
 * 2 x Long male deck connectors
 * 1 x Micro-USB cable (48cm)
@@ -81,8 +82,8 @@ Start by unpacking the box. It should contain the following items:
       <img src="/images/getting-started/props-47-17.webp" width="120">
     </td>
     <td>
-      5 x CW propellers <br>
-      5 x CCW propellers
+      5 x CW propellers (1 spare) <br>
+      5 x CCW propellers (1 spare)
     </td>
   </tr>
   <tr>
@@ -90,7 +91,7 @@ Start by unpacking the box. It should contain the following items:
       <img src="/images/getting-started/motor-mounts.webp" width="120">
     </td>
     <td>
-      6 x Motor mounts
+      6 x Motor mounts (2 spare)
     </td>
   </tr>
   <tr>
@@ -106,7 +107,7 @@ Start by unpacking the box. It should contain the following items:
       <img src="/images/getting-started/coreless-dc-motors.webp" width="120">
     </td>
     <td>
-      5 x Coreless DC motors
+      5 x Coreless DC motors (1 spare)
     </td>
   </tr>
   <tr>
@@ -153,11 +154,18 @@ Note: New motors may feel a bit stiff or stuggle to spin at low throttle levels 
 {% si_step attach the propellers %}
 Now it’s time to attach the propellers.
 
-Note: There are two types of propellers, the clock wise (CW) and counterclockwise (CCW) propellers, each kind has their own bag in the box. The CW propellers are marked “55-35R”, while the CCW propellers are marked “55-35”. They need to be mounted on the correct arm. As a guide, you’ll find arrows next to each motor on the PCB. When determining the direction of each propeller, make sure to note the following:
-
-* Make sure that the correct side is facing up, the top side should be convex.
+**Before attaching:**
+Note: There are two types of propellers, the clock wise (CW) and counterclockwise (CCW) propellers, each kind has their own bag in the box. The bags are marked "5R" for CW and "5L" for CCW. The CW propellers themselves are marked “55-35R”, while the CCW propellers are marked “55-35”. They need to be mounted on the correct arm. As a guide, you’ll find arrows next to each motor on the PCB. When determining the direction of each propeller, make sure to note the following:
 * Look at the shape of the tip, the sharper corner is on the back side of the rotation direction.
 * Look at the angle of the blades. The higher side is facing forward in the rotational direction. 
+
+**Attaching:**
+* Make sure that the correct side is facing up, the top side should be convex.
+* The arrow on the arm of the Crazyflie indicates what rotation direction the propeller should have. The correct placement is:
+  * M1: CCW
+  * M2: CW
+  * M3: CCW
+  * M4: CW
 
 Here’s a detailed view of where to attach CW and CCW propellers.
 {% img Crazyflie propeller mounting; medium; /images/crazyflie2-1brushless/bl_prop_direction.png %}
@@ -202,7 +210,10 @@ There are two types of headers in the box, long and short ones. Find the long on
 {% endsi_step %}
 
 {% si_step attach the battery %}
-Place the battery between the headers you just inserted and insert the battery holder board onto the headers. Watch out for the pins that can be a bit sharp when inserting it. The friction should hold the battery in place so tighten it until it does.
+Place the battery between the pins inserted into the expansion connector
+and insert the battery holder board onto the pins. Watch out for the
+pins that can be a bit sharp when inserting it. Have the side of the battery holder with the text facing up. The friction should hold
+the battery in place so tighten it until it does.
 
 The battery wires can preferably be bent and placed underneath the PCB to be out of the way.
 {% tutorialVideo /videos/battery.mp4 %}
@@ -235,7 +246,7 @@ sequence of events to get ready for flight.
 It must be *absolutely still* to do this, so it's best to put it on a level surface for a second.
 1. **Ready to fly!**
 
-#### Understanding LEDs
+#### Understanding the LEDs
 
 You also need to understand what the LEDs mean.
 
@@ -244,7 +255,7 @@ front right LED (1) is blinking red twice every second (see the video in the [Po
 * **Power on and all is good but sensors are not yet calibrated:** The blue LEDs
 (2 and 3) are fully lit and the front right LED (1) is blinking red with 2 seconds interval.
 Put the Crazyflie on a level surface and keep it absolutely still to calibrate.
-* **Radio connected:** The front left LED (4) is flickering in red and/or green.
+* **Radio connected:** TThe front left LED (M4) is flickering in red and/or green. The flickering of red and green means that the Crazyflie is communicating, with green indicating it is receiving data and red indicating it is sending data.
 * **Battery low:** The front right LED (1) is fully lit in red. It's time to
 land and re-charge the battery.
 * **Charging:** The back left blue LED (3) is blinking while the right back blue LED (2) is lit.
@@ -286,7 +297,8 @@ You can follow the prerequisite and instructions to install the latest release o
 
 
 When you have set up the client, insert the {% poplink crazyradio-2-0 %} or Crazyradio PA and your gamepad in
-your USB-ports and start the client. Continue reading about how to [configure the client](#config-client)
+your USB-ports and start the client.
+
 {% endtab %}
 {% tab Virtual Machine %}
 We have set up a virtual machine (VM) designed to assist you in getting started with flight and development. The VM includes essential software for your needs, all pre-installed to simplify the setup process.

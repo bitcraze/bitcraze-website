@@ -7,7 +7,7 @@ redirects:
 ---
 
 {% si_intro Welcome to the Crazyflie™ Ecosystem! %}
-This getting started guide is split up into three parts. First we are goint to assemble the Crazyflie, secondly we move on to setting up controllers and communication, and lastly we get up in the air and start flying. 
+This getting started guide is split up into three parts. First we are going to assemble the Crazyflie, secondly we move on to setting up controllers and communication, and lastly we get up in the air and start flying. 
 Let's get started! 
 
 {% img Overview; wide; /images/getting-started/gs-2.1-overview.png %}
@@ -18,7 +18,7 @@ To fly with the Crazyflie you need to have a computer with a {% poplink crazyrad
 {% endsi_step %}
 
 {% si_step If you get stuck %}
-Dont't worry! We have many ways to figure out what might be wrong. A good place to start is to look at the [Troubleshooting](/support/troubleshooting/), [FAQ](/support/f-a-q/) and [Getting help](/support/getting-help/) pages. Our [documentation](/documentation/system/) also provides more details than this guide.
+Dont't worry! We have many ways to figure out what might be wrong. A good place to start is to look at the [Getting help](/support/getting-help/) page. Our [documentation](/documentation/system/) also provides more details than this guide.
 On our [Github Discussions](https://discussions.bitcraze.io) you can look at discussions from our community or start your own to get help.
 {% endsi_step %}
 
@@ -45,8 +45,8 @@ have all of them before you start assembling.
       <img src="/images/getting-started/props-47-17.webp" width="120">
     </td>
     <td>
-      5 x CW propellers <br>
-      5 x CCW propellers
+      5 x Clockwise rotation (CW) propellers (3 spare, marked as "5R" on package) <br>
+      5 x CCW Counter clockwise (CCW) propellers (3 spare, marked as "5L" on package)
     </td>
   </tr>
   <tr>
@@ -54,7 +54,7 @@ have all of them before you start assembling.
       <img src="/images/getting-started/motor-mounts.webp" width="120">
     </td>
     <td>
-      6 x Motor mounts
+      6 x Motor mounts (2 spare)
     </td>
   </tr>
   <tr>
@@ -70,7 +70,7 @@ have all of them before you start assembling.
       <img src="/images/getting-started/coreless-dc-motors.webp" width="120">
     </td>
     <td>
-      5 x Coreless DC motors
+      5 x Coreless DC motors (1 spare)
     </td>
   </tr>
   <tr>
@@ -88,6 +88,14 @@ have all of them before you start assembling.
     </td>
     <td>
       1 x Battery holder expansion board
+    </td>
+  </tr>
+  <tr>
+    <td width="120">
+      <img src="/images/getting-started/battery-holder.webp" width="120">
+    </td>
+    <td>
+      1 x Rubber pad
     </td>
   </tr>
   <tr>
@@ -111,7 +119,7 @@ as well as in the future when mounting expansion decks. The small "bump" (the an
 
 {% si_intro Testing; test %}
 The Crazyflie is tested extensively when produced, but to make sure
-nothing has happened during shipping/storage you should run the tests before
+nothing has happened during shipping or storage you should run the tests before
 starting the assembly. 
 {% endsi_intro %}
 
@@ -151,8 +159,8 @@ noise and make the wires fit better in the motor mount “hooks”.
 
 {% si_step Insert the motors into the mounts%}
 Push the four motors into the motor mounts. You will need some force to
-insert them. If it is difficult doing it as in the video try putting the
-motor can towards a table edge and press on the mount, however, don’t press
+insert them. If it is difficult doing it as in the video, try putting the
+motor can towards a table edge and press on the mount. However, don’t press
 on the motor axis while inserting them as it might damage the motor. The
 motor should be inserted all the way to the stop in the mount.
 
@@ -182,12 +190,16 @@ Now it’s time to attach the propellers.
 **Before attaching:** 
 There are two kinds of propellers, the clock wise (CW) and counter clock wise (CCW) propellers, each kind has their own bag in the box. Here are some ways to tell them apart:
 * Notice the shape of the tips, the sharper corner is on back side of the rotation direction.
-* For the Crazyflie 2.1+ the CW propellers are marked "47-17R" while CCW "47-17", where R stands for right/CW.
+* For the Crazyflie 2.1+ the packaging for the propellers are marked "5R" for right/CW and "5L" for right/CW. The propellers themselves are marked "47-17R" for CW and "47-17" for CCW.  
 * For the Crazyflie 2.1 the propellers will look a little bit different, and the CW propellers are also usually marked with an "A", "A1" or "A2", while the CCW propellers are marked with "B", "B1" or "B2" (the number is irrelevant). 
 
 **Attaching:**
 * Make sure that the correct side is facing up, the top side should be convex.
-* The arrow on the arm of the Crazyflie indicates what rotation direction the propeller should have.
+* The arrow on the arm of the Crazyflie indicates what rotation direction the propeller should have. The correct placement is:
+  * M1: CCW
+  * M2: CW
+  * M3: CCW
+  * M4: CW
 * In the video below we are attaching the CW propellers for the Crazyflie 2.1 (not 2.1+ version).
 
 {% tutorialVideo /videos/attach_the_propellers.mp4 %}
@@ -214,7 +226,7 @@ two short ones and insert them into the expansion connector.
 {% si_step Attach the battery %}
 Place the battery between the pins inserted into the expansion connector
 and insert the battery holder board onto the pins. Watch out for the
-pins that can be a bit sharp when inserting it. The friction should hold
+pins that can be a bit sharp when inserting it. Have the side of the battery holder with the text facing up. The friction should hold
 the battery in place so tighten it until it does.
 
 Now connect the battery
@@ -241,7 +253,7 @@ It must be *absolutely still* to do this, so it's best to put it on a level surf
 1. **Ready to fly!**
 {% endsi_step %}
 
-{% si_step Understanding LEDs; leds %}
+{% si_step Understanding the LEDs; leds %}
 To understand and diagnose the Crazyflie you need to understand what the LEDs mean. Here is a short explanation of each state of the LEDs:
 
 * **Power on and All is Good:** The blue back LEDs (M2 and M3) are fully lit and the
@@ -249,7 +261,7 @@ front right LED (M1) is blinking red twice every second (see the video in the [P
 * **Power on and All is Good, but Sensors are Not Yet Calibrated:** The blue LEDs
 (M2 and M3) are fully lit and the front right LED (M1) is blinking red with 2 seconds interval.
 Put the Crazyflie on a level surface and keep it absolutely still to calibrate.
-* **Radio connected:** The front left LED (M4) is flickering in red and/or green.
+* **Radio connected:** The front left LED (M4) is flickering in red and/or green. The flickering of red and green means that the Crazyflie is communicating, with green indicating it is receiving data and red indicating it is sending data.
 * **Battery low:** The front right LED (M1) is fully lit in red. It's time to
 land and re-charge the battery.
 * **Charging:** The back left blue LED (M3) is blinking while the right back blue LED (2) is lit.
@@ -270,8 +282,8 @@ You can fly the Crazyflie either from a mobile device or a computer. Choose your
 {% tabgroup %}
 
 {% tab Computer (recommended) %}
-Using your computer to control the Crazyflie will give you more options
-and greater control. This requires:
+Using your computer to control the Crazyflie will give you the most options
+and best control. This requires:
 * A {% poplink crazyradio-2-0 %} or Crazyradio PA.
 * If you want to fly the Crazyflie manually you need a gamepad of your choice connected to your computer alongside the Crazyradio.
 
@@ -291,7 +303,8 @@ You can follow the prerequisite and instructions to install the latest release o
 
 
 When you have set up the client, insert the {% poplink crazyradio-2-0 %} or Crazyradio PA and your gamepad in
-your USB-ports and start the client. Continue reading about how to [configure the client](#config-client).
+your USB-ports and start the client.
+
 {% endsi_step %}
 
 {% si_intro Configure the client; config-client %}
@@ -388,6 +401,7 @@ of the Crazyflie in different directions.
 {% si_step Gamepad / The mobile app controls %}
 The controls on the gamepad or mobile app have the following mapping:
 {% img Control mapping; medium; /images/getting-started/controller.png %}
+This is a common mapping (often known as mapping 3) in a lot of flying robotics applications. To change between mappings and controller types as well as creating your own custom mapping check out the [documentation for input devices](/documentation/repository/crazyflie-clients-python/master/userguides/userguide_client/#input-devices).
 {% endsi_step %}
 
 {% si_step Normal flight %}
