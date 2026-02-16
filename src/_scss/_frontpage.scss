@@ -1,12 +1,12 @@
 .front-page {
   $header-font-size-small-screen: 45px;
-  $header-line-height-small-screen: 1.5;
+  $header-line-height-small-screen: 1.2;
 
   $header-font-size-medium-screen: 60px;
-  $header-line-height-medium-screen: 1.5;
+  $header-line-height-medium-screen: 1.2;
 
   $header-font-size-big-screen: 75px;
-  $header-line-height-big-screen: 1.8;
+  $header-line-height-big-screen: 1.2;
 
   $font-weight-front-page: 800;
 
@@ -19,6 +19,15 @@
   $font-size-big-screen: 22px;
   $line-height-big-screen: 1.7;
 
+  // Utility class for green highlight text
+  .highlight-green {
+    color: $bcGreen;
+  }
+
+  .highlight-dark-green {
+    color: $bcDarkGreen;
+  }
+
   $header-margin: 4vw;
 
   $section-margin-small-screen: 5vh;
@@ -30,19 +39,19 @@
   }
 
   .front-top-banner {
-  background-image: url("/images/frontpage/front-mobile.jpg");
+  // background-image: url("/images/frontpage/front-mobile.jpg");
   background-size: cover;
   background-position: center;
   max-height: 1200px;
 
-    //(≥768px)
-    @media (min-width: $screen-sm-min) {
-      background-image: url("/images/frontpage/front.jpg");
-      background-repeat-y: no-repeat;
-    }
-    @media (min-width: $screen-md-min) {
-      height: 100vh;
-    }
+    // //(≥768px)
+    // @media (min-width: $screen-sm-min) {
+    //   background-image: url("/images/frontpage/front.jpg");
+    //   background-repeat-y: no-repeat;
+    // }
+    // @media (min-width: $screen-md-min) {
+    //   height: 100vh;
+    // }
   }
 
   .with_flex {
@@ -60,12 +69,16 @@
       align-self: center;
         h1 {
         font-size: $header-font-size-small-screen;
-        line-height: $header-line-height-small-screen;
+        line-height: 1.1;
         font-weight: $font-weight-front-page;
         text-align: center;
         margin-top: 5vh;
         margin-bottom: 5vh;
-        color:white;
+        color: $bcDarkGreen;
+
+        .highlight-green {
+          color: $bcGreen;
+        }
         }
 
       //992px
@@ -74,7 +87,7 @@
         flex-grow: 1;
         h1 {
         font-size: $header-font-size-medium-screen;
-        line-height: $header-line-height-medium-screen;
+        line-height: 1.1;
         margin-top: 20vh;
         margin-bottom: 2vh;
         text-align: left;
@@ -85,7 +98,7 @@
       @media (min-width: $screen-lg-min) {
         h1 {
         font-size: $header-font-size-big-screen;
-        line-height: $header-line-height-big-screen;
+        line-height: 1.1;
         }
       }
     }
@@ -112,7 +125,12 @@
       }
       //992px
       @media (min-width: $screen-md-min) {
+        margin: 0;
+        margin-bottom: 20px;
+
         .btn-block {
+          margin: 0;
+          margin-bottom: 20px;
           width: 100%;
         }
       }
@@ -121,7 +139,9 @@
     .header_buttons {
         display: flex;
         flex-direction: column;
-        justify-content: space-between;
+        justify-content: flex-start;
+        align-self: center;
+        gap: 1rem;
 
         a {
         width: 100%;
@@ -131,16 +151,11 @@
         //992px
         @media (min-width: $screen-md-min) {
           flex-direction: row;
-          width: 80%;
-          max-width: 550px;
+          align-self: flex-start;
+          gap: 1rem;
           a {
-          width:28%;
+          width: auto;
           }
-        }
-        //1200px
-        @media (min-width: $screen-lg-min) {
-          width: 100%;
-          max-width: 600px;
         }
       }
 
@@ -148,9 +163,21 @@
       display: flex;
       flex-direction: column;
       height: 100%;
+    }
+
+    .header_image {
+      align-self: center;
+      margin-top: 2rem;
+      max-width: 100%;
 
       @media (min-width: $screen-md-min) {
-        flex-direction: row;
+        align-self: flex-end;
+        max-width: 50%;
+      }
+
+      img {
+        width: 100%;
+        height: auto;
       }
     }
 
@@ -289,22 +316,26 @@
 
   // Call to action buttons
   .btn-color-primary {
-    color: black;
-    background-color: white;
-    border-color: white;
+    color: white;
+    background-color: $bcGreen;
+    border-color: $bcGreen;
     border-width: 2px;
     &:hover, &:focus {
-      color: black;
+      color: white;
+      background-color: darken($bcGreen, 10%);
+      border-color: darken($bcGreen, 10%);
     }
   }
 
   .btn-color-secondary {
-    color: white;
+    color: $bcGreen;
     background-color: transparent;
-    border-color: white;
+    border-color: $bcGreen;
     border-width: 2px;
     &:hover, &:focus {
-      color: white;
+      color: darken($bcGreen, 10%);
+      background-color: darken(white, 10%);
+      border-color: darken($bcGreen, 10%);
     }
   }
 
@@ -504,17 +535,32 @@
       margin-bottom: 2vh;
     }
 
-    .text-box_quadcopter {
-      background: #ffa801;
-      color: white;
+    .platform-section-bg {
+      background: linear-gradient(to right, $bcGreen 0%, $bcGreen 50%, transparent 50%);
+    }
+
+    .text-box_platform {
+      background: $bcGreen;
+      color: $bcDarkGreen;
+      justify-content: center;
+      align-items: center;
+      border-radius: 0px 40px 40px 0px;
     }
     .text-box_lps {
       background: #3d6de1;
       color: white;
     }
     .text-box_open_source {
-      background: #545353;
-      color: white;
+      background: white;
+      color: $bcDarkGreen;
+      align-items: center;
+
+      // Reduce spacing for ecosystem section
+      margin-left: -15rem;
+
+      @media (max-width: $screen-md-min) {
+        margin-left: 0;
+      }
     }
 
     //What we do end

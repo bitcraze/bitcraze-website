@@ -5,7 +5,10 @@ $navbar-expand-breakpoint: 992px;
 $grid-gutter-width-bs5: 1.5rem; // Bootstrap 5 default
 
 .navigation-fluid {
-  background-color: $bcDarkGrey;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  background-color: white;
 }
 
 .navbar-nav > li {
@@ -13,7 +16,7 @@ $grid-gutter-width-bs5: 1.5rem; // Bootstrap 5 default
   > a:hover,
   > a:focus {
     color: inherit;
-    font-weight: $nav-font-weight;
+    font-weight: 900;
   }
 }
 
@@ -27,25 +30,92 @@ $break-point-small-logo: 1030px;
 
 // Navbar brand styling (replaces .navbar-default .navbar-brand)
 .navbar {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  width: 100%;
+  padding: 0.5rem 1rem;
+
+  @media (min-width: $navbar-expand-breakpoint) {
+    flex-wrap: nowrap;
+  }
+
+  .btn-color-secondary {
+    color: white;
+    background-color: $bcGreen;
+    border-color: $bcGreen;
+
+    &:hover, &:focus {
+      background-color: darken($bcGreen, 10%);
+      border-color: darken($bcGreen, 10%);
+    }
+  }
+
   .navbar-brand {
     height: auto;
     padding-left: 0;
-
-    @media (min-width: $break-point-two-line-mobile-menu) {
-      position: absolute;
-    }
+    margin-left: 0;
+    flex-shrink: 0;
 
     img {
-      height: 47px;
-    }
+      height: 30px;
 
-    @media (min-width: $break-point-small-logo) {
-      padding-top: 20px;
-
-      img {
-        height: 60px;
+      @media (min-width: $break-point-small-logo) {
+        height: 40px;
       }
     }
+  }
+}
+
+// Center menu items on desktop
+.navbar-menu-center {
+  display: none;
+
+  @media (min-width: $navbar-expand-breakpoint) {
+    display: flex;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    align-items: center;
+  }
+
+  .navbar-collapse {
+    display: flex !important;
+    flex-basis: auto;
+  }
+}
+
+// Store button on the right
+.navbar-end {
+  display: none;
+
+  @media (min-width: $navbar-expand-breakpoint) {
+    display: flex;
+    align-items: center;
+    margin-left: auto;
+  }
+}
+
+// Mobile: show collapsed menu and button
+@media (max-width: #{$navbar-expand-breakpoint - 1px}) {
+  .navbar-menu-center {
+    display: block;
+    width: 100%;
+    order: 3;
+
+    .navbar-collapse {
+      &:not(.show) {
+        display: none;
+      }
+    }
+  }
+
+  .navbar-end {
+    display: block;
+    width: 100%;
+    order: 4;
+    text-align: center;
+    margin-top: 1rem;
   }
 }
 
@@ -54,30 +124,6 @@ $break-point-small-logo: 1030px;
 }
 
 $reduced-menu-spacing: 8px;
-.navbar-menu-section {
-  text-align: right;
-  display: inline-block;
-  float: right;
-  margin-top: 10px;
-  width: 100%;
-
-  @media (min-width: $navbar-expand-breakpoint) {
-    width: auto;
-  }
-
-  // Reduced menu spacing
-  @media (max-width: $break-point-reduced-menu-spacing) {
-    .nav > li > a,
-    .navbar-nav .nav-link {
-      padding-left: $reduced-menu-spacing;
-      padding-right: $reduced-menu-spacing;
-    }
-    .nav,
-    .navbar-nav {
-      padding-right: calc(#{$grid-gutter-width-bs5} / 2 - #{$reduced-menu-spacing});
-    }
-  }
-}
 
 // Bootstrap 5: navbar-toggler (replaces navbar-toggle)
 .navbar-toggler {
@@ -94,92 +140,92 @@ $reduced-menu-spacing: 8px;
 }
 
 
-// Search bar
+// // Search bar
 
-$serach-field-width: 210px;
-$serach-field-width-narrow: 160px;
-$search-field-padding: 12px;
+// $serach-field-width: 210px;
+// $serach-field-width-narrow: 160px;
+// $search-field-padding: 12px;
 
-.navbar-menu-section {
-  .search-form,
-  .navbar-social-search {
-    display: inline-block;
-  }
+// .navbar-menu-section {
+//   .search-form,
+//   .navbar-social-search {
+//     display: inline-block;
+//   }
 
-  .navbar-social-search {
-    padding-right: calc(#{$grid-gutter-width-bs5} / 2);
-  }
+//   .navbar-social-search {
+//     padding-right: calc(#{$grid-gutter-width-bs5} / 2);
+//   }
 
-  .search-submit {
-    display: none;
-  }
+//   .search-submit {
+//     display: none;
+//   }
 
-  .search-field {
-    display: inline-block;
-    border: 0px;
-    cursor: pointer;
-    height: 26px;
-    transition: width 400ms ease, background 400ms ease;
-    vertical-align: middle;
+//   .search-field {
+//     display: inline-block;
+//     border: 0px;
+//     cursor: pointer;
+//     height: 26px;
+//     transition: width 400ms ease, background 400ms ease;
+//     vertical-align: middle;
 
-    // Gross hack! The width should be 0 but Safari does not want to set focus
-    // on an imput without width. 0.1px is not visible, but accepts focus.
-    width: 0.1px;
-    padding-left: 0;
-    padding-right: 0;
-    margin-top: 4px;
+//     // Gross hack! The width should be 0 but Safari does not want to set focus
+//     // on an imput without width. 0.1px is not visible, but accepts focus.
+//     width: 0.1px;
+//     padding-left: 0;
+//     padding-right: 0;
+//     margin-top: 4px;
 
-    @media (min-width: $navbar-expand-breakpoint) {
-      width: $serach-field-width;
-      padding-left: $search-field-padding;
-      padding-right: $search-field-padding;
-    }
-  }
+//     @media (min-width: $navbar-expand-breakpoint) {
+//       width: $serach-field-width;
+//       padding-left: $search-field-padding;
+//       padding-right: $search-field-padding;
+//     }
+//   }
 
-  .search-field:focus {
-    cursor: text;
-    outline: 0;
-    opacity: 1;
-    width: $serach-field-width;
-    @media (max-width: $navbar-expand-breakpoint) {
-      width: $serach-field-width-narrow;
-    }
-    padding-left: $search-field-padding;
-    padding-right: $search-field-padding;
+//   .search-field:focus {
+//     cursor: text;
+//     outline: 0;
+//     opacity: 1;
+//     width: $serach-field-width;
+//     @media (max-width: $navbar-expand-breakpoint) {
+//       width: $serach-field-width-narrow;
+//     }
+//     padding-left: $search-field-padding;
+//     padding-right: $search-field-padding;
 
-    margin-top: 4px;
-  }
+//     margin-top: 4px;
+//   }
 
-  .search-field:hover {
-    opacity: 1;
-  }
+//   .search-field:hover {
+//     opacity: 1;
+//   }
 
-  .search-form {
-    i {
-      margin-top: 6px;
-      @media (min-width: $navbar-expand-breakpoint) {
-        display: none;
-      }
-    }
-  }
+//   .search-form {
+//     i {
+//       margin-top: 6px;
+//       @media (min-width: $navbar-expand-breakpoint) {
+//         display: none;
+//       }
+//     }
+//   }
 
-  // Force search field to not be rounded on iOS devices
-  input.search-field {
-    -webkit-appearance: none !important;
-    border-radius: 0 !important;
-  }
-}
+//   // Force search field to not be rounded on iOS devices
+//   input.search-field {
+//     -webkit-appearance: none !important;
+//     border-radius: 0 !important;
+//   }
+// }
 
 
-// Social bar
+// // Social bar
 
-.social-bar {
-  display: none;
-  @media (min-width: $navbar-expand-breakpoint) {
-    display: inline-block;
-  }
+// .social-bar {
+//   display: none;
+//   @media (min-width: $navbar-expand-breakpoint) {
+//     display: inline-block;
+//   }
 
-  i {
-    padding-right: 10px;
-  }
-}
+//   i {
+//     padding-right: 10px;
+//   }
+// }

@@ -8,6 +8,11 @@
 	margin: 0 auto;
 }
 
+// Full width for frontpage sections
+.frontpage-section .container-fluid > .row {
+  max-width: none;
+}
+
 body {
   background-color: #eee;
 }

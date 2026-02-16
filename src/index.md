@@ -4,38 +4,104 @@ title: Home
 page_id: home
 ---
 
-<div class="container-fluid front-top-banner">
+<div class="container-fluid front-top-banner frontpage-section">
   <div class="with_flex row">
 
     <div class="header-wrapper">
       <div class="header_text">
-        <h1>Make your ideas fly!</h1>
+        <h1>Build, Research, and Teach<br>
+        with the World's Most Flexible<br>
+        Open-Source <span class="highlight-green">Drone Platform</span>.</h1>
         <div class="header_buttons">
-          <a href="https://store.bitcraze.io/" class="btn btn-primary btn-block btn-color-primary">Shop</a>
-          <a href="/documentation/start/" class="btn btn-primary btn-block btn-color-secondary">Getting started</a>
-          <a href="https://github.com/bitcraze" class="mobile_hidden_button btn btn-primary btn-block btn-color-secondary">Github</a>
+          <a href="https://store.bitcraze.io/" class="btn btn-primary btn-block btn-color-primary">Explore Research Solutions</a>
+          <a href="/documentation/start/" class="btn btn-primary btn-block btn-color-secondary">Shop Drones & Kits</a>
         </div>
       </div>
 
-      <!--div class="announcements">
-        <a href="/about/events/roscon2024/">
-          <img src="/images/events/roscon2024/ROSCon2024.png" alt="ROSCon 2024">
-          <p>We are going to ROSCon on Oct 21-23! Come see us at Booth 21. >>></p>
+      <div class="header_image">
+        <a href="/products/crazyflie-2-1-brushless/">
+          <img src="/images/frontpage/front-brushless.webp" alt="ROSCon 2024">
         </a>
-      </div-->
-
-    </div>
-    <div class="header-col-wrapper">
-      <div class="what_we_do_arrow">
-        <a href="#what_we_do" class="smooth-link arrow-style"><i class="fa-solid fa-circle-arrow-down"></i></a>
-      </div>
-
-      <div class="value_proposition">
-        <h3>We create open platforms that enable people to explore the world of flying robotics</h3>
       </div>
     </div>
   </div>
 </div>
+
+<!-- What we do -->
+<div class="container-fluid section section-spacing frontpage-section">
+
+  <div class="row what-we-do-section-padding section-content justify-content-center align-items-center" style="padding-top: 10rem;">
+    <div class="col-md-6 col-lg-5">
+      <img src="/images/frontpage/front-ecosystem.webp" alt="Open source">
+    </div>
+    <div class="col-md-4 col-lg-3 ms-n5 text-block-box text-box_open_source">
+      <div class="header-text">
+        <h1 style="text-align:right;">
+          The <span class="highlight-green">Crazyflie™</span> <br> Ecosystem
+        </h1>
+        <p style="text-align:right;">
+          A modular, programmable, drone system that powers the future of robotics, from classrooms, to labs, to industry.
+        </p>
+      </div>
+    </div>
+  </div>
+
+  <div class="row platform-section-bg what-we-do-section-padding section-content justify-content-center align-items-center">
+    <a href="/documentation/system/platform/" class="col-md-10 col-lg-8 d-flex align-items-center justify-content-center text-block-box text-box_platform">
+      <div class="col-md-4">
+        <img src="/images/frontpage/front-platform.webp" alt="Platform" class="w-100">
+      </div>
+      <div class="col-md-6" style="padding-left:30px;">
+        <h2 style="color:white; text-align:left;">
+          Drones for <br> <span class="highlight-dark-green">Indoor</span> Flight
+        </h2>
+        <p style="text-align:left;">Purpose-built nano-drones for safe, precise, and repeatable indoor flight in research and development environments.
+        </p>
+        <p style="text-align:left;"><b>Explore the Platform >>></b></p>
+      </div>
+    </a>
+  </div>
+
+  <div class="container-fluid content-header-fluid">
+    <header class="row content-header">
+        <div class="col-md-12">
+            <!-- inject wp title begin -->
+            <h1 class="page-title">{{page.title}}</h1>
+            <!-- inject wp title end -->
+        </div>
+    </header>
+    <div class="row">
+        <div class="col-md-12 breadcrumbs">
+            {% include breadcrumbs.html %}
+        </div>
+    </div>
+</div>
+
+  <div class="row section-content">
+    <a href="/documentation/system/positioning/">
+      <div class="col-md-4 col-md-push-8 text-block-box text-box_lps">
+        <h3>
+          Positioning Technology
+        </h3>
+          <p>
+            We support and manufacture a variety of positioning technologies to enable autonomous
+            flight and swarms with the Crazyflie. Our positioning systems are stand
+            alone and works equally well with other robots.
+          </p>
+          <p><b>Read more >>></b></p>
+      </div>
+    </a>
+
+    <div class="col-md-8 col-md-pull-4 no-padding video-style">
+      <video autobuffer controls autoplay muted loop>
+        <source src="/videos/swarmVid.mp4" type="video/mp4">
+      </video>
+    </div>
+  </div>
+
+</div>
+
+<!-- What we do end -->
 
 <!--Blog-->
 <div id="what_we_do" class="container-fluid blog-section scroll-point">
@@ -148,74 +214,6 @@ page_id: home
   </div>
 </div>
 
-<!-- What we do -->
-<div class="container-fluid section section-spacing">
-  <div class="row center-section-header">
-    <div class="col-md-12 style-section-header">
-      <h2>
-      What we do
-      </h2>
-    </div>
-  </div>
-
-  <div class="row what-we-do-section-padding section-content">
-    <a href="/documentation/system/platform/">
-      <div class="col-md-4 text-block-box text-box_quadcopter">
-        <h3>
-        Quadcopters
-        </h3>
-          <p>We develop and manufacture the Crazyflie, a small, versatile quadcopter
-             for research and education. We provide an ecosystem of expansion decks,
-           clients and development tools to enable rapid development, flexibility and ease of use.
-         </p>
-         <p><b>Read more >>></b></p>
-      </div>
-      <div class="col-md-8 no-padding">
-        <img src="/images/what_we_do/wwd_quadcopters.jpg" alt="Quadcopters">
-      </div>
-    </a>
-  </div>
-
-  <div class="row what-we-do-section-padding section-content">
-    <a href="/documentation/system/positioning/">
-      <div class="col-md-4 col-md-push-8 text-block-box text-box_lps">
-        <h3>
-          Positioning Technology
-        </h3>
-          <p>
-            We support and manufacture a variety of positioning technologies to enable autonomous
-            flight and swarms with the Crazyflie. Our positioning systems are stand
-            alone and works equally well with other robots.
-          </p>
-          <p><b>Read more >>></b></p>
-      </div>
-    </a>
-
-    <div class="col-md-8 col-md-pull-4 no-padding video-style">
-      <video autobuffer controls autoplay muted loop>
-        <source src="/videos/swarmVid.mp4" type="video/mp4">
-      </video>
-    </div>
-  </div>
-
-  <div class="row what-we-do-section-padding section-content">
-    <div class="col-md-4 text-block-box text-box_open_source">
-      <h3>
-        Open source
-      </h3>
-        <p>
-          All our projects are open source and hosted at GitHub.
-          We work together with our community of talented people to constantly evolve the ecosystem and add new functionality.
-          We believe in transparency, complete freedom of modification and no lock-in effects in proprietary APIs.
-        </p>
-    </div>
-    <div class="col-md-8 no-padding">
-      <img src="/images/what_we_do/wwd_open_source.jpg" alt="Open source">
-    </div>
-  </div>
-</div>
-
-<!-- What we do end -->
 
 <!--Testimonials-->
 <div class="container-fluid section testimonial-section scroll-point section-spacing">

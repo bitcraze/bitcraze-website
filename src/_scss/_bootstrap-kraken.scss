@@ -59,12 +59,12 @@ $enable-smooth-scroll: true;
 .navbar {
   min-height: 75px;
   margin-bottom: 0;
-  background-color: $bcDarkGrey;
+  background-color: white;
 
   .navbar-nav {
     .nav-link {
-      color: white;
-      font-weight: $nav-font-weight;
+      color: $bcDarkGreen;
+      font-weight: 900;
 
       &:hover,
       &:focus {

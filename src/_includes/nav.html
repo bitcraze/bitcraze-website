@@ -3,54 +3,34 @@
         <div class="col-md-12">
             <nav id="site-navigation" class="main-navigation navbar navbar-expand-lg"
                  role="navigation">
+                <!-- Logo - Left -->
                 <div class="navbar-brand">
                     <a href="/" rel="home"> <img
-                            src="/images/nav/navLogo.png"
+                            src="/images/nav/navbar-logo.webp"
                             alt="Bitcraze logo"
-                            title="Bitcraze"/></a></div>
+                            title="Bitcraze"/></a>
+                </div>
 
-                <div class="ms-auto navbar-menu-section">
-                    <div class="navbar-social-search">
-                        <div class="social-bar">
-                            <a href="https://github.com/bitcraze"><i
-                                class="fa-brands fa-github"></i></a>
-                            <a href="https://www.linkedin.com/company/bitcraze-ab/"><i
-                                class="fa-brands fa-linkedin"></i></a>
-                            <a href="https://bsky.app/profile/bitcraze.io"><i
-                                class="fa-brands fa-bluesky"></i></a>
-                            <a rel="me" href="https://fosstodon.org/@bitcraze"><i
-                                class="fa-brands fa-mastodon"></i></a>
-                            <a href="/feed/" data-proofer-ignore><i
-                                    class="fa-solid fa-rss"></i></a>
-                        </div>
-                        <form role="search" method="get"
-                              class="search-form d-inline-block"
-                              action="/">
-                            <div class="input-group">
-                                <label class="visually-hidden" for="search-field">Search for:</label>
-                                <i class="fa-solid fa-magnifying-glass"></i>
-                                <input type="search"
-                                       id="search-field"
-                                       class="search-field form-control"
-                                       placeholder="Search &hellip;"
-                                       value="" name="s">
-                                <input type="submit"
-                                       class="search-submit btn btn-primary"
-                                       value="Search">
-                            </div>
-                        </form>
-                    </div>
+                <!-- Mobile toggle button -->
+                <button type="button" class="navbar-toggler"
+                        data-bs-toggle="collapse"
+                        data-bs-target=".navbar-collapse"
+                        aria-controls="navbar-menu"
+                        aria-expanded="false"
+                        aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
 
-                    <button type="button" class="navbar-toggler"
-                            data-bs-toggle="collapse"
-                            data-bs-target=".navbar-collapse"
-                            aria-controls="navbar-menu"
-                            aria-expanded="false"
-                            aria-label="Toggle navigation">
-                        <span class="navbar-toggler-icon"></span>
-                    </button>
-
+                <!-- Menu items - Center -->
+                <div class="navbar-menu-center">
                     {% include menu.html %}
+                </div>
+
+                <!-- Store button - Right -->
+                <div class="navbar-end ms-auto">
+                    <a href="https://store.bitcraze.io/" class="btn btn-primary btn-block btn-color-secondary">
+                        <i class="fa-solid fa-cart-shopping fa-fw"></i> Store
+                    </a>
                 </div>
             </nav>
         </div>
