@@ -7,9 +7,9 @@ redirects:
 ---
 
 {% datasheet_product_status color_led_deck_bottom %}
-{% buy_online_top https://store.bitcraze.io/products/color-led-deck?variant=58838312616285 %} 
+{% buy_online_top https://store.bitcraze.io/collections/decks/products/color-led-deck-top-mounted %} 
 <br><br><br>
-{% buy_online_bottom https://store.bitcraze.io/collections/decks/products/color-led-deck-copy?variant=62615266722141 %}
+{% buy_online_bottom https://store.bitcraze.io/collections/decks/products/color-led-deck-bottom-mounted %}
 
 {% product_img Color LED deck; medium;
 /images/color-led-deck/Color-LED-top-and-bottom.jpg
