@@ -9,7 +9,7 @@ redirects:
 This page contains events where Bitcraze will exhibit or has exhibited, describing demos and similar information.
 
 ## Upcoming Events
-* March 23rd - 27th: ERF 2026, Stavanger, Norway
+* March 23rd - 27th: {% id_link erf-2026 %}, Stavanger, Norway
 * June 1st - 5th: ICRA 2026, Vienna, Austria
 
 ## Past events
