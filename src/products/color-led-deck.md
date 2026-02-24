@@ -73,9 +73,9 @@ See [the compatibility matrix]({% id_url cf2_expansiondecks %}#compatibility-mat
 {% row_icon_text_links Usage; fa-book %}
 {% row_text %}
 
-The different LED colors can selected from [CFclient's Color LED tab](/documentation/repository/crazyflie-clients-python/master/userguides/userguide_client/colorled_tab/).
+Control your Color LED deck from [CFclient's Color LED tab](/documentation/repository/crazyflie-clients-python/master/userguides/userguide_client/colorled_tab/). Choose your desired color, then take flight!
 
-Once you have selected the right color, go ahead and fly!
+You can use a single deck (top or bottom), or attach both for maximum visibility. When using both decks, control each one independently to create unique color combinations or set them to the same color for a unified effect.
 
 {% demoVideo /videos/color_led_demo.mp4 %}
 
