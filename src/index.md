@@ -27,17 +27,17 @@ page_id: home
   </div>
 </div>
 
-<!-- What we do -->
+<!-- The Crazyflie Ecosystem start -->
 <div class="container-fluid section section-spacing frontpage-section">
 
-  <div class="row what-we-do-section-padding section-content justify-content-center align-items-center" style="padding-top: 10rem;">
-    <div class="col-md-6 col-lg-5">
-      <img src="/images/frontpage/front-ecosystem.webp" alt="Open source">
+  <div class="row what-we-do-section-padding section-content justify-content-center align-items-center" style="padding-top: 10rem; padding-bottom: 5rem;">
+    <div class="col-md-5 col-lg-4">
+      <img src="/images/frontpage/front-ecosystem.webp" alt="Open source" class="w-100">
     </div>
     <div class="col-md-4 col-lg-3 ms-n5 text-block-box text-box_open_source">
       <div class="header-text">
         <h1 style="text-align:right;">
-          The <span class="highlight-green">Crazyflie™</span> <br> Ecosystem
+          The <span class="highlight-green" style="font-family: 'Quantico', sans-serif;">Crazyflie™</span> <br> Ecosystem
         </h1>
         <p style="text-align:right;">
           A modular, programmable, drone system that powers the future of robotics, from classrooms, to labs, to industry.
@@ -62,46 +62,123 @@ page_id: home
     </a>
   </div>
 
-  <div class="container-fluid content-header-fluid">
-    <header class="row content-header">
-        <div class="col-md-12">
-            <!-- inject wp title begin -->
-            <h1 class="page-title">{{page.title}}</h1>
-            <!-- inject wp title end -->
-        </div>
-    </header>
-    <div class="row">
-        <div class="col-md-12 breadcrumbs">
-            {% include breadcrumbs.html %}
-        </div>
-    </div>
-</div>
-
-  <div class="row section-content">
-    <a href="/documentation/system/positioning/">
-      <div class="col-md-4 col-md-push-8 text-block-box text-box_lps">
-        <h3>
-          Positioning Technology
-        </h3>
-          <p>
-            We support and manufacture a variety of positioning technologies to enable autonomous
-            flight and swarms with the Crazyflie. Our positioning systems are stand
-            alone and works equally well with other robots.
-          </p>
-          <p><b>Read more >>></b></p>
+  <div class="row what-we-do-section-padding section-content justify-content-center align-items-center">
+    <a href="/documentation/system/platform/" class="col-md-10 col-lg-8 d-flex align-items-center justify-content-center text-block-box text-box_decks">
+      <div class="col-md-6" style="padding-left:30px;">
+        <h2 style="text-align:left;">
+          <span class="highlight-green">Expansion</span> <br> Decks
+        </h2>
+        <p style="text-align:left;">Add sensors, compute, positioning, and communication to tailor the platform to your application.
+        </p>
+        <p style="text-align:left;"><b>Explore All Decks >>></b></p>
+      </div>
+      <div class="col-md-4">
+        <img src="/images/frontpage/front-platform.webp" alt="Platform" class="w-100">
       </div>
     </a>
+  </div>
 
+  <div class="row positioning-section-bg what-we-do-section-padding section-content justify-content-center align-items-center">
+    <a href="/documentation/system/platform/" class="col-md-10 col-lg-8 d-flex align-items-center justify-content-center text-block-box text-box_positioning">
+      <div class="col-md-4">
+        <img src="/images/frontpage/front-platform.webp" alt="Platform" class="w-100">
+      </div>
+      <div class="col-md-6" style="padding-left:30px;">
+        <h2 style="color:white; text-align:left;">
+          <span class="highlight-green">Positioning</span> <br> Systems
+        </h2>
+        <p style="text-align:left;">Precise indoor localization using laser, ultra-wideband (UWB), and vision-based systems for single drones and swarms.
+        </p>
+        <p style="text-align:left;"><b>Explore Positioning Systems >>></b></p>
+      </div>
+    </a>
+  </div>
+
+  <div class="row what-we-do-section-padding section-content justify-content-center align-items-center">
+    <a href="/documentation/system/platform/" class="col-md-10 col-lg-8 d-flex align-items-center justify-content-center text-block-box text-box_decks">
+      <div class="col-md-6" style="padding-left:30px;">
+        <h2 style="text-align:left;">
+          <span class="highlight-green">Open Source</span> <br> Software and Tools
+        </h2>
+        <p style="text-align:left;">Firmware, SDKs, simulators, and tooling for developing, testing, and deploying autonomous and swarm systems.
+        </p>
+        <p style="text-align:left;"><b>Explore Software & Tools <img src="/images/frontpage/front-arrow.png" alt="→" style="height: 0.5em; vertical-align: middle; padding-left:1em"></b></p>
+      </div>
+      <div class="col-md-4">
+        <img src="/images/frontpage/front-platform.webp" alt="Platform" class="w-100">
+      </div>
+    </a>
+  </div>
+
+  <!-- <div class="row section-content">
     <div class="col-md-8 col-md-pull-4 no-padding video-style">
       <video autobuffer controls autoplay muted loop>
         <source src="/videos/swarmVid.mp4" type="video/mp4">
       </video>
     </div>
-  </div>
+  </div> -->
 
 </div>
 
-<!-- What we do end -->
+<!-- The Crazyflie Ecosystem end -->
+
+<!-- Value Props start -->
+<div class="container-fluid value-props-banner">
+  <div class="row justify-content-center">
+    <div class="col-md-10 col-lg-8">
+      <div class="row g-4">
+        <div class="col-6 col-md-3">
+          <div class="value-prop-card">
+            <div class="card-icon">
+              <i class="fa-solid fa-lock-open"></i>
+            </div>
+            <h3>Open-Source<br>Tools</h3>
+          </div>
+        </div>
+        <div class="col-6 col-md-3">
+          <div class="value-prop-card">
+            <div class="card-icon">
+              <i class="fa-solid fa-play"></i>
+            </div>
+            <h3>Publishable<br>Results</h3>
+          </div>
+        </div>
+        <div class="col-6 col-md-3">
+          <div class="value-prop-card">
+            <div class="card-icon">
+              <i class="fa-solid fa-lightbulb"></i>
+            </div>
+            <h3>Innovate on<br>Any Level</h3>
+          </div>
+        </div>
+        <div class="col-6 col-md-3">
+          <div class="value-prop-card">
+            <div class="card-icon">
+              <i class="fa-solid fa-coins"></i>
+            </div>
+            <h3>Funding-Grade<br>Reliability</h3>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- Value Props end -->
+
+
+
+<!-- Research areas and applications start -->
+<div>
+  <div class="col-md-6" style="padding-left:30px;">
+    <h2>
+      <span class="highlight-green">Expansion</span> <br> Decks
+    </h2>
+    <p>Add sensors, compute, positioning, and communication to tailor the platform to your application.
+    </p>
+    <p style="text-align:left;"><b>Explore All Decks >>></b></p>
+  </div>
+</div>
+
 
 <!--Blog-->
 <div id="what_we_do" class="container-fluid blog-section scroll-point">
