@@ -23,7 +23,7 @@ This page contains events where Bitcraze will exhibit or has exhibited, describi
 * February 1st - 2nd: FOSDEM 2025
 
 ### 2024
-* October 22th - 23rd: {% id_link roscon-2024 %}
+* October 22nd - 23rd: {% id_link roscon-2024 %}
 * July 15th - 19th: [Robotics: Science and Systems Aerial Swarm tools workshop](https://imrclab.github.io/workshop-aerial-swarms-rss2024/)
 * July 5th: [Robotics Developer Day](https://www.theconstruct.ai/robotics-developers-day/)
 * May 14th - 16th: {% id_link icra-2024 %}
