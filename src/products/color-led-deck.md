@@ -7,7 +7,7 @@ redirects:
 ---
 
 {% datasheet_product_status color_led_deck_bottom %}
-{% buy_online_top https://store.bitcraze.io/collections/decks/products/color-led-deck-top-mounted %} 
+{% buy_online_top https://store.bitcraze.io/collections/decks/products/color-led-deck-top-mounted %}
 <br><br><br>
 {% buy_online_bottom https://store.bitcraze.io/collections/decks/products/color-led-deck-bottom-mounted %}
 
