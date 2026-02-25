@@ -48,7 +48,7 @@ Open a file browser and find the drive named **Crazyradio2**.
 
 {% si_step download firmware %}
 Go to the [release page on github](https://github.com/bitcraze/crazyradio2-firmware/releases/latest).
-Download the file named **crazyradio2-CRPA-emulation-[version].uf2** by clicking it.
+Download the .uf2 file by clicking it.
 {% endsi_step %}
 
 {% si_step install the firmware %}
@@ -58,14 +58,16 @@ In your file browser, drag and drop the downloaded file to the **Crazyradio2** d
 {% si_step check the installation %}
 The installation takes less than a second and when done, the {% poplink crazyradio-2-0 %} will restart running the new
 firmware. Since it is no longer in bootloader mode, the USB drive will no longer be available.
+This also means that you might get an error message from your operating system that the copy could not complete.
 
-When the Crayradio PA emulation firmware starts up, the LED will light up briefly in white. If you missed it when flashing,
+When the Crazyradio emulation firmware starts up, the LED will light up briefly in white. This means that
+the flashing was successful. If you missed it when flashing,
 unplug and re-plug the {% poplink crazyradio-2-0 %} to restart it.
 {% endsi_step %}
 
 {% si_step done! %}
-The {% poplink crazyradio-2-0 %} is now ready to use and it will behave like a {% id_link product-crazyradio-pa %}, which
-means it will be compatible with all the products in the Crazyflie ecosystem.
+The {% poplink crazyradio-2-0 %} is now ready to use, and is
+compatible with all the products in the Crazyflie ecosystem.
 {% endsi_step %}
 
 {% si_intro Install drivers %}
