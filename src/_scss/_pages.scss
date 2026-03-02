@@ -235,6 +235,18 @@ h2:hover {
 }
 
 // Step instruction
+.step-instruction-part {
+    p {
+        font-weight: 600;
+    }
+
+    h1 {
+        font-size: 250%;
+        font-weight: 500;
+    }
+
+}
+
 .step-instruction-intro {
     p {
         font-weight: 400;

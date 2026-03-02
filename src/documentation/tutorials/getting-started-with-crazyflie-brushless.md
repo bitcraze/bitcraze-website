@@ -6,12 +6,12 @@ redirects:
     - /getting-started-crazyflie-brushless/
 ---
 
-{% si_intro Welcome to the Crazyflie™ Ecosystem! %}
+{% si_part Welcome to the Crazyflie™ Ecosystem! %}
 This getting started guide is split up into three parts. First we are going to assemble the Crazyflie, secondly we move on to setting up controllers and communication, and lastly we get up in the air and start flying. 
 Let's get started! 
 
 {% img Overview; wide; /images/getting-started/gs-brushless-overview.png %}
-{% endsi_intro %}
+{% endsi_part %}
 
 {% si_intro Disclaimer %}
 You are responsible for handling the drone and its components. It is your responsibility to make sure you understand how your drone works and that it is in good working condition before flight. Using a drone in a reckless and negligent manner could cause damage or bodily harm, resulting in lawsuits, fines and jail time.
@@ -40,11 +40,11 @@ On our [Github Discussions](https://discussions.bitcraze.io) you can look at dis
 
 ---
 
-{% si_intro 1. Assembly %}
+{% si_part 1. Assembly %}
 
 
 Make sure to follow the instructions below for assembling your Crazyflie 2.1 Brushless.
-{% endsi_intro %}
+{% endsi_part %}
 
 {% si_step Unpacking the Crazyflie %}
 Start by unpacking the box. It should contain the following items:
@@ -231,46 +231,48 @@ button is a push button, not a sliding button. The LEDs on the Crazyflie 2.1 Bru
 {% tutorialVideo /videos/BL_power_on.mp4 %}
 {% endsi_step %}
 
-{% si_step getting to know your Crazyflie; 2.1 Brushless leds %}
+{% si_step Getting to know your Crazyflie %}
 First of all, lets look at what is front and back, this is important when flying
 and also when mounting expansion decks. The small "bump" (the antenna) is on the front and the blue LEDs are at the back.
 {% img Crazyflie board from the top; medium; /images/crazyflie2-1brushless/bl_front.png %}
+{% endsi_step %}
 
-#### Start up sequence
-
+{% si_step Start up sequence; start-up %}
 When the Crazyflie is powered on it will automatically go through a short
 sequence of events to get ready for flight.
 
-1. **Run self tests** - the Crazyflie checks that the hardware is OK
+1. **Run self tests** - the Crazyflie checks that the hardware is OK.
 1. **Calibrate sensors** - the Crazyflie reads its sensors to get base values.
 It must be *absolutely still* to do this, so it's best to put it on a level surface for a second.
 1. **Ready to fly!**
+{% endsi_step %}
 
-#### Understanding the LEDs
+{% si_step Understanding the LEDs; leds %}
+To understand and diagnose the Crazyflie you need to understand what the LEDs mean. Here is a short explanation of each state of the LEDs:
 
-You also need to understand what the LEDs mean.
-
-* **Power on and all is good:** The blue LEDs (2 and 3) are fully lit and the
-front right LED (1) is blinking red twice every second (see the video in the [Power on!](#power-on-) section above.).
-* **Power on and all is good but sensors are not yet calibrated:** The blue LEDs
-(2 and 3) are fully lit and the front right LED (1) is blinking red with 2 seconds interval.
+* **Power on and All is Good:** The blue back LEDs (M2 and M3) are fully lit and the
+front right LED (M1) is blinking red twice every second (see the video in the [Power on!](#power-on-) section above.).
+* **Power on and All is Good, but Sensors are Not Yet Calibrated:** The blue LEDs
+(M2 and M3) are fully lit and the front right LED (M1) is blinking red with 2 seconds interval.
 Put the Crazyflie on a level surface and keep it absolutely still to calibrate.
-* **Radio connected:** TThe front left LED (M4) is flickering in red and/or green. The flickering of red and green means that the Crazyflie is communicating, with green indicating it is receiving data and red indicating it is sending data.
-* **Battery low:** The front right LED (1) is fully lit in red. It's time to
+* **Radio connected:** The front left LED (M4) is flickering in red and/or green. The flickering of red and green means that the Crazyflie is communicating, with green indicating it is receiving data and red indicating it is sending data.
+* **Battery low:** The front right LED (M1) is fully lit in red. It's time to
 land and re-charge the battery.
-* **Charging:** The back left blue LED (3) is blinking while the right back blue LED (2) is lit.
-* **Boot loader mode:** The blue LEDs (2 and 3) at the back are blinking
+* **Charging:** The back left blue LED (M3) is blinking while the right back blue LED (M2) is lit.
+* **Boot loader mode:** The blue LEDs (M2 and M3) at the back are blinking
 approximately once every second.
-* **Self test fail:** The right front LED (1) is repeatedly blinking five short
+* **Self test fail:** The right front LED (M1) is repeatedly blinking five short
 red pulses with a longer pause between groups.
 {% endsi_step %}
 
 
 
-{% si_intro Controlling the Crazyflie %}
+---
+
+{% si_part 2. Controlling the Crazyflie %}
 You can fly the Crazyflie 2.1 Brushless together with a computer running Windows, MacOs or Linux.
 The Crazyflie 2.1 Brushless is built to be flied using scripting or on board automomous navigation, however it is also possible to fly it usig our client and a gamepad.
-{% endsi_intro %}
+{% endsi_part %}
 
 {% si_intro Scripted Flight Control; inst-lib %}
 When flying using a script you also need a {% poplink crazyradio-2-0 %} or Crazyradio PA for communication.
@@ -283,6 +285,10 @@ To get some inspiration on what can be done, please check out the [examples](htt
 {% si_intro Manual Flight Control; inst-comp %}
 You can use any game pad connected to your computer by cable or Bluethooth. To fly using the game pad you need to install our client.
 {% endsi_intro %}
+
+{% si_step Setting up the radio %}
+The first step to getting your computer ready for communication is to set up the Crazyradio. Using your computer requires a {% poplink crazyradio-2-0 %} or Crazyradio PA. Follow [this Getting Started tutorial](/documentation/tutorials/getting-started-with-crazyradio-2-0/) to set up the Crazyradio 2.0.
+{% endsi_step %}
 
 {% si_step Client installation ; config-client%}
 There are a few options of how to run the PC client
@@ -370,18 +376,19 @@ Continue reading about [configuring the client](#config-client)
 {% endtabgroup %}
 {% endsi_step %}
 
-{% si_step configure your controller; config-controller %}
-In the client, open the input device settings. Check if the correct device
+{% si_step Configure your controller; config-controller %}
+After you have connected your controller, open the input device settings in the client. Check if the correct device
 mapping is chosen, otherwise pick your device type.
 {% img Controller settings; wide; /images/getting-started/configure_your_controller.PNG %}
 
-For more detailed information on input devices, see the [client user-guide](/documentation/repository/crazyflie-clients-python/master/userguides/inputdevices/).
+For more detailed information on input devices, see the [Client user-guide](/documentation/repository/crazyflie-clients-python/master/userguides/inputdevices/). In this guide it is also shown how to configure your own device mapping to perfectly suit your gamepad.
 
 {% endsi_step %}
 
 
-{% si_step connect to the Crazyflie; connect-pc-client %}
-* In the Crazyflie client click the __Scan__ button in top left corner. The radio settings for your Crazyflie is displayed in the drop-down list.
+{% si_step Connect to the Crazyflie; connect-pc-client %}
+* In the Crazyflie client enter the correct __Address__. The default one for a new Crazyflie out of the box is 0xE7E7E7E7E7. To figure out or change the __Address__ of your Crazyflie, you can follow the [radio address configuration](/documentation/repository/crazyflie-clients-python/master/userguides/userguide_client/#radio-address-configuration) guide.
+* Then, with your Crazyflie powered on and radio connected, click the __Scan__ button in top left corner. The radio settings for your Crazyflie are displayed in the drop-down list.
 * Choose your Crazyflie from the drop-down list.
 
 {% img Connect dialog; wide; /images/getting-started/connect_to_the_crazyflie.PNG %}
@@ -393,27 +400,28 @@ Crazyflie around you will see the flight data being updated in realtime, as
 well as battery status and the link quality.
 {% endsi_step %}
 
-{% si_intro Update firmware in the Crazyflie; update-fw %}
-To make sure that your Crazyflie has all the latest features you should always update the firmware to the newest version. To find out how you can check out the client user-guide [here](/documentation/repository/crazyflie-clients-python/master/userguides/userguide_client/#firmware-upgrade).
+{% si_step Update firmware in the Crazyflie; update-fw %}
+To make sure that your Crazyflie has all the latest features you should always update the firmware to the newest version. To learn how, check out the client user-guide [here](/documentation/repository/crazyflie-clients-python/master/userguides/userguide_client/#firmware-upgrade).
+{% endsi_step %}
 
-{% endsi_intro %}
+---
 
-{% si_intro Flying; flying %}
+{% si_part 3. Flying; flying %}
 Now it's time to do some flying, but first there are some basics you need to know about.
-{% endsi_intro %}
+{% endsi_part %}
 
-{% si_step orientation; orientation %}
-First of all, it is much easier to fly when the copter is pointing away from you.
+{% si_step Orientation; orientation %}
+First of all, the easiest way to fly is when the copter is pointing away from you.
 The blue LEDs are on the back, so keep them pointing in your direction when
 starting to fly.
 {% endsi_step %}
 
-{% si_step maneuvering a quadcopter; maneuvering %}
+{% si_step Maneuvering a quadcopter; maneuvering %}
 When flying a quadcopter there are four main dimensions of controls; roll, pitch, yaw and thrust.
 {% img Axis; wide; /images/crazyflie2-1brushless/BL_roll_yaw.png %}
 
 * **Roll -** is the rotation around a horizontal axis going through the quadcopter
-from back to front. This literally rolls the Crazyflie and moves it left or right.
+from back to front. This rolls the Crazyflie and moves it left or right.
 * **Pitch -** is the rotation around a horizontal axis going through the quadcopter
 from left to right. This tilts the Crazyflie and moves it forwards or backwards.
 * **Yaw -** is the rotation around a vertical axis. This rotates the quadcopter
@@ -422,22 +430,53 @@ of the Crazyflie in different directions.
 * **Thrust -** adjusts the altitude, or height, of the Crazyflie.
 {% endsi_step %}
 
-{% si_step the ground effect; ground-effect %}
+{% si_step Gamepad / The mobile app controls %}
+The controls on the gamepad or mobile app have the following mapping:
+{% img Control mapping; medium; /images/getting-started/controller.png %}
+This is a common mapping (often known as mapping 3) in a lot of flying robotics applications. To change between mappings and controller types as well as creating your own custom mapping check out the [documentation for input devices](/documentation/repository/crazyflie-clients-python/master/userguides/userguide_client/#input-devices).
+{% endsi_step %}
+
+{% si_step Normal flight %}
+When thrusting without touching any other controls, this is what it might
+look like. The Crazyflie usually drifts in some direction if not
+compensated for, this is completely normal.
+{% tutorialVideo /videos/normal_flight.mp4 %}
+{% endsi_step %}
+
+{% si_step The Ground effect; ground-effect %}
 When the copter is flying close to the ground (less than a few decimeters
-above the ground) it is effected by what is called the ground effect. The
+above the ground) it is effected by what is called the Ground effect. The
 feeling is that the air is slippery, almost as if it is gliding on ice.
 To avoid this, particularly when learning to fly, use a lot of thrust just
 when taking off and then ease off for level flight.
 {% endsi_step %}
 
-{% si_step charging the battery; charging %}
-To charge the battery of the Crazyflie, just plug in a micro USB cable. Make
+{% si_step If the Crazyflie is unbalanced; unbalanced %}
+Firstly, if your Crazyflie's propellers spin but it does not properly take off, the most common reason is that the propellers are not placed correctly. Look at the image under [Attach the propellers](#attach-the-propellers) and make sure to place the correct propeller on the correct arm.
+
+If your Crazyflie drifts a lot when taking off, there are a few things you should check.
+
+* Check that the propellers are spinning freely. Blow lightly on them, one by one,
+and verify that they turn. A common problem is that hair or other debris is jammed between the
+propeller and motor. If this is the problem, just pull the propeller off from the
+motor, remove the hair and reinstall the propeller.
+* Check that the propellers are balanced, {% id_link balancing-propellers %}
+{% endsi_step %}
+
+{% si_step Charging the battery; charging %}
+To charge the battery of the Crazyflie, plug in a micro USB cable. Make
 sure the Crazyflie is powered on. While the battery is charging, the back left
 blue LED will blink. When the LED is fully lit the battery is charged.
 {% endsi_step %}
 
-{% si_step go fly! %}
+{% si_step Go fly! %}
 Have fun!
+{% endsi_step %}
+
+{% si_step Next steps %}
+Now that you are in the air you can explore more opportunities with our [Expansion Decks](https://store.bitcraze.io/collections/decks), and if you already have a deck you want to attach you can check out the [Getting started with expansion decks tutorial](/documentation/tutorials/getting-started-with-expansion-decks/).
+
+Another step is trying autonomous flight with Python scripting and the Crazyflie Python library though our [Step-by-step user guides](/documentation/repository/crazyflie-lib-python/master/user-guides/).
 {% endsi_step %}
 
 {% si_intro Support %}

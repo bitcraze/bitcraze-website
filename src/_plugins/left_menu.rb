@@ -4,7 +4,7 @@ module Jekyll
   module LeftMenu
     def bc_left_menu(content)
       doc = Nokogiri::HTML(content)
-      tags = doc.css('h2, h3')
+      tags = doc.css('h1, h2, h3')
 
       result = ''
       prevLevel = ''
@@ -36,18 +36,32 @@ module Jekyll
       case(prevLevel + '-' + level)
         when '-'
           top_ul + ule
-        when '-h2'
+        when '-h1'
           top_ul
-        when '-h3'
+        when '-h2'
           top_ul + li + ul
-        when 'h2-'
+        when '-h3'
+          top_ul + li + ul + li + ul
+        when 'h1-'
           lie + ule
+        when 'h1-h1'
+          lie
+        when 'h1-h2'
+          ul
+        when 'h1-h3'
+          ul + li + ul
+        when 'h2-'
+          lie + ule + lie + ule
+        when 'h2-h1'
+          lie + ule + lie
         when 'h2-h2'
           lie
         when 'h2-h3'
           ul
         when 'h3-'
-          lie + ule + lie + ule
+          lie + ule + lie + ule + lie + ule
+        when 'h3-h1'
+          lie + ule + lie + ule + lie
         when 'h3-h2'
           lie + ule + lie
         when 'h3-h3'
