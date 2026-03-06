@@ -1,4 +1,41 @@
 .front-page {
+  position: relative;
+  isolation: isolate;
+
+  @media (min-width: $screen-md-min) {
+    &::before {
+      content: '';
+      position: absolute;
+      inset: 0;
+      pointer-events: none;
+      z-index: -1;
+      background-image:
+        // Vertical dashed line 1
+        repeating-linear-gradient(0deg,
+          $bcGreen 0px, $bcGreen 7px,
+          transparent 7px, transparent 15px
+        ),
+        // Vertical dashed line 2
+        repeating-linear-gradient(0deg,
+          $bcGreen 0px, $bcGreen 7px,
+          transparent 7px, transparent 15px
+        ),
+        // Vertical dashed line 3
+        repeating-linear-gradient(0deg,
+          $bcGreen 0px, $bcGreen 7px,
+          transparent 7px, transparent 15px
+        );
+      // Each line: background-size  = 1px [height]
+      //             background-position = [x] [start-y]
+      // y and height are set by JS (updateFrontPageLines) so lines span
+      // exactly between specific DOM elements regardless of screen size.
+      background-size: 1px var(--vline1-h, 0px), 1px var(--vline2-h, 0px), 1px var(--vline3-h, 0px);
+      // x-positions: calc(50% ± Xpx) anchors to page center
+      background-position: calc(50% - 800px) var(--vline1-y, 0px), calc(50% - 700px) var(--vline2-y, 0px), calc(50% + 800px) var(--vline3-y, 0px);
+      background-repeat: no-repeat;
+    }
+  }
+
   $header-font-size-small-screen: 45px;
   $header-line-height-small-screen: 1.2;
 
@@ -43,6 +80,7 @@
   background-size: cover;
   background-position: center;
   max-height: 1200px;
+  position: relative;
 
     // //(≥768px)
     // @media (min-width: $screen-sm-min) {
@@ -52,6 +90,26 @@
     // @media (min-width: $screen-md-min) {
     //   height: 100vh;
     // }
+
+    @media (min-width: $screen-md-min) {
+      &::before {
+        content: '';
+        position: absolute;
+        inset: 0;
+        pointer-events: none;
+        z-index: 0;
+        background-image:
+          // Horizontal dashed line 1
+          repeating-linear-gradient(90deg,
+            $bcGreen 0px, $bcGreen 7px,
+            transparent 7px, transparent 15px
+          );
+        background-size: var(--hline-width, 58.5%) 1px;
+        background-position: 0 var(--hline-top, 80%);
+        background-repeat: no-repeat;
+        opacity: 1.0;
+      }
+    }
   }
 
   .with_flex {
@@ -173,6 +231,7 @@
       @media (min-width: $screen-md-min) {
         align-self: flex-end;
         max-width: 50%;
+        margin-top: -2rem;
       }
 
       img {
@@ -339,11 +398,6 @@
     }
   }
 
-  .no-padding {
-    padding-left: 0px;
-    padding-right: 0px;
-  }
-
   .text-block-box {
     p {
       font-size: 14px;
@@ -415,142 +469,7 @@
     padding-right: 15px;
   }
 
-  .center-section-header{
-    display: flex;
-    justify-content: center;
-  }
-
-
-  //Blog
-
-    .blog-section {
-      margin-top: 2vh;
-
-      h2 {
-        text-align: center;
-      }
-
-      h3 {
-        font-size: 21px;
-        text-align: center;
-      }
-
-      .aspect-ratio-contatiner {
-        height: 0;
-        padding-top: 66.66%;
-        position: relative;
-      }
-      .aspect-ratio-inner {
-        position: absolute;
-        top: 0;
-        width: 100%;
-        height: 100%;
-        a{
-            img {
-              height: 100%;
-              width: 100%;
-              object-fit: contain;
-          }
-        }
-      }
-
-      .blog-title {
-        text-align: center;
-      }
-
-      .display-menu{
-        display: none
-      }
-
-      .display-blog {
-        display: none;
-        @media (min-width: $screen-md-min) {
-          display: block;
-        }
-        border-left: solid 1px $bcLightGrey;
-      }
-
-      .display-menu-2 {
-        a {
-          text-decoration: underline;
-        }
-        @media (min-width: $screen-md-min) {
-          display: none;
-        }
-      }
-
-      .menu-blog-container {
-        margin-top: 0;
-        margin-bottom: 14px;
-        text-align: right;
-        ul > li:nth-child(n+2) {
-          border-left: 1px solid #dddddd;
-        }
-
-        .menu-item {
-          list-style: none;
-          display: inline-block;
-          font-size: 1.2em;
-          font-weight: 400;
-          padding-left: 10px;
-          padding-right: 10px;
-        }
-      }
-
-      //(≥768px)
-      @media (min-width: $screen-md-min) {
-        margin-top: $section-margin-small-screen;
-        margin-bottom: $section-margin-small-screen;
-      }
-
-      // ≥992px
-      @media (min-width: $screen-md-min) {
-        margin-top: $section-margin-big-screen;
-        margin-bottom: 5vh;
-
-        h3 {
-          text-align: left;
-        }
-        .display-menu{
-          display: block;
-        }
-        .blog-container{
-          margin-bottom: 10vw;
-        }
-      }
-
-      // ≥1200px
-      @media (min-width: $screen-lg-min) {
-
-        .display-menu{
-          display: block;
-        }
-        .blog-container{
-          margin-bottom: 5vw;
-        }
-      }
-    }
-    //End blog
-
-    // Product news
-    .text-box-product-news {
-      background-color: #5b085d;
-      color: #fff;
-      margin-top: 1em;
-      padding-top: 4em;
-      padding-bottom: 4em;
-    }
-
     //What we do
-
-    .style-section-header{
-      background: black;
-      color: white;
-      width: 100%;
-      display: flex;
-      justify-content: center;
-      margin-bottom: 2vh;
-    }
 
     .platform-section-bg {
       background: linear-gradient(to right, $bcGreen 0%, $bcGreen 50%, transparent 50%);
@@ -628,11 +547,6 @@
       align-items: center;
     }
 
-    .text-box_lps {
-      background: #3d6de1;
-      color: white;
-    }
-
     .text-box_open_source {
       background: white;
       color: $bcDarkGreen;
@@ -655,6 +569,7 @@
       padding: 5rem 0;
       margin-bottom: 10vh;
     }
+
 
     .value-prop-card {
       background: $bcDarkGreen;
@@ -697,232 +612,412 @@
     }
   }
 
-  //Testimonials
 
-  .testimonial-section {
-    $testimonial-margin: 2vh;
+    // New testimonials section
+    .testimonial-new-section {
+      position: relative;
+      overflow: hidden;
+      background-color: $bcDarkGreen;
+      margin-bottom: 0;
 
-    .flow-container {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: flex-end;
-
-      .header-padding {
-      padding-left: 0px;
-      padding-right: 0px;
+      @media (min-width: $screen-md-min) {
+        min-height: 700px;
       }
 
-      .background-wrapper {
-      background-color: black;
-      padding: 40px;
-      margin: -1px;
-      }
+      .testimonial-heart-img {
+        display: none;
 
-      .testimonial-item {
-      font-size: $font-size-small-screen;
-      line-height: $line-height-small-screen;
-
-        article {
-        margin-top: $testimonial-margin;
-        margin-bottom: $testimonial-margin;
-        color: white;
-        }
-        h4 {
-        font-size: $font-size-small-screen;
-        line-height: $line-height-small-screen;
-        color: white;
-        }
-      }
-    }
-
-    .testimonial-header-text {
-    background: #FF0077;
-      h3{
-      font-size: $font-size-small-screen;
-      line-height: $line-height-small-screen;
-      font-weight: $font-weight-front-page;
-      color: white;
-      text-align: center;
-      padding: 1em;
-      }
-    }
-
-    // ≥992px
-    @media (min-width: $screen-md-min) {
-      .header-padding {
-      padding-left: 15px;
-      }
-
-      .testimonial-header-text {
-        h3 {
-        font-size: $font-size-big-screen;
-        line-height: $line-height-big-screen;
-        font-weight: 500;
-        padding-top: 150px;
-        padding-left: 2em;
-        padding-right: 2em;
-        padding-bottom: 150px;
-        }
-      }
-    }
-  }
-
-  //Portals
-  .portal-section {
-    .text-box_portals {
-      h3,p {
-      color: white;
-      }
-      p {
-      font-size: 15px;
-      line-height: $line-height-small-screen;
-      text-align: center;
-      }
-      h3 {
-      font-size: $font-size-small-screen;
-      line-height: $line-height-small-screen;
-      text-align: center;
-      }
-      padding: 1em;
-    }
-
-    .text-box_development {
-    background: #FD9724;
-    }
-
-    .text-box_research {
-    background: #9600CC;
-    }
-
-    .text-box_education {
-    background: #1B7032;
-    }
-
-    .text-box_diy {
-    background: #FF4400;
-    }
-
-    // ≥992px
-    @media (min-width: $screen-md-min) {
-      .text-box_portals {
-        h3 {
-        font-size: $font-size-medium-screen;
-        line-height: $line-height-medium-screen;
-        text-align: center;
-        }
-        padding: 2em;
-      }
-
-      .text-box_development {
-      padding-top: 100px;
-      padding-bottom: 100px;
-      }
-      .text-box_research {
-      padding-top: 100px;
-      padding-bottom: 100px;
-      margin-top: 120px;
-      }
-      .text-box_education {
-      padding-top: 100px;
-      padding-bottom: 100px;
-      margin-top: -120px;
-      }
-      .text-box_diy {
-      padding-top: 100px;
-      padding-bottom: 100px;
-      }
-    }
-
-    //1200px
-    @media (min-width: $screen-lg-min) {
-      .text-box_portals {
-        p {
-        font-size: 20px;
-        line-height: $line-height-medium-screen;
-        text-align: center;
-        }
-        h3 {
-        font-size: $font-size-big-screen;
-        line-height: $line-height-big-screen;
-        }
-      }
-    }
-  }
-
-    //End portals
-
-    // Section scroller
-    .section-scroller {
-      position: fixed;
-      bottom: 0px;
-      left: 100px;
-      background: $bcGreen;
-      cursor: pointer;
-      font-size: 3em;
-      padding-left: 0.1em;
-      padding-right: 0.1em;
-      line-height: 0.8em;
-      border-top: solid 1px;
-      border-left: solid 1px;
-      border-right: solid 1px;
-      z-index: 10;
-    }
-
-    // box for used by section
-
-    .used_by_box, .used_by_box_text {
-        padding: 1%;
-        background-color: $used-by-background-color;
-        border: 2px solid $body-bg;
-
-        filter: grayscale(100%);
-        -webkit-filter: grayscale(100%);
-        transition: filter 2.0s, -webkit-filter 2.0s;
-        &:hover {
-            filter: grayscale(0%);
-            -webkit-filter: grayscale(0%);
-            transition: filter 0.1s, -webkit-filter 0.1s;
-        }
-
-        height: 100px;
-    }
-
-    .used_by_box {
-        img {
-          object-position: 50% 50%;
-          object-fit: contain;
+        @media (min-width: $screen-md-min) {
+          display: block;
+          position: absolute;
+          left: 0;
+          top: 0;
           height: 100%;
-          width: 100%;
+          width: auto;
+          pointer-events: none;
+          padding-top: 5vh;
+          padding-bottom: 5vh;
         }
-    }
+      }
 
-    .used_by_box_text {
+      .testimonial-new-content {
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 2rem 1rem;
+
+        @media (min-width: $screen-md-min) {
+          padding: 3rem 2rem;
+          justify-content: center;
+          min-height: 700px;
+        }
+
+        h2 {
+          color: white;
+          font-weight: 700;
+          margin-bottom: 1.25rem;
+          text-align: center;
+        }
+
+        .row {
+          width: 100%;
+          max-width: 600px;
+        }
+      }
+
+      .testimonial-new-card {
+        position: relative;
+        border-radius: 12px;
+        overflow: hidden;
+        aspect-ratio: 4 / 3;
+        background-size: cover;
+        background-position: center;
+
+        .testimonial-new-overlay {
+          position: absolute;
+          inset: 0;
+          background: rgba(0, 20, 0, 0.72);
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          padding: 1.25rem;
+          text-align: center;
+
+          blockquote {
+            color: white;
+            font-style: italic;
+            font-size: 0.8rem;
+            line-height: 1.55;
+            margin: 0 0 0.75rem;
+            padding: 0;
+            border: none;
+
+            @media (min-width: $screen-md-min) {
+              font-size: 0.875rem;
+            }
+          }
+
+          cite {
+            color: $bcGreen;
+            font-size: 0.75rem;
+            font-style: normal;
+            font-weight: 600;
+          }
+        }
+      }
+    }
+    // End new testimonials section
+
+    // Video slogan section
+    .video-slogan-section {
+      margin-bottom: 0;
+
+      .video-slogan-inner {
+        position: relative;
+        max-height: 70vh;
+        overflow: clip;
+        display: flex;
+        align-items: center;
+
+        .video-slogan-overlay {
+          position: absolute;
+          inset: 0;
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          background: rgba(0, 0, 0, 0.45);
+          padding: 2rem 0;
+
+          h2 {
+            color: white;
+            font-weight: 800;
+            font-size: 2rem;
+            margin-bottom: 0.5rem;
+            text-align: left;
+
+            @media (min-width: $screen-md-min) {
+              font-size: 3rem;
+            }
+
+            @media (min-width: $screen-lg-min) {
+              font-size: 4rem;
+            }
+          }
+
+          p {
+            color: white;
+            text-align: left;
+            margin-bottom: 1.5rem;
+          }
+        }
+
+        .video-slogan-buttons {
+          display: flex;
+          flex-direction: column;
+          gap: 1rem;
+          align-items: flex-start;
+
+          @media (min-width: $screen-md-min) {
+            flex-direction: row;
+          }
+        }
+      }
+    }
+    // End video slogan section
+
+    // Customer logo grid
+    .customer-section {
+      padding: 2rem 1rem;
+      margin-bottom: 20vh;
+      margin-top: 5vh;
+      position: relative;
+
+      &::before {
+        content: '';
+        position: absolute;
+        top: -50px;
+        left: 50%;
+        transform: translateX(-50%);
+        width: 100vw;
+        height: 1px;
+        background-image: repeating-linear-gradient(90deg,
+          $bcGreen 0px, $bcGreen 7px,
+          transparent 7px, transparent 15px
+        );
+      }
+
+      .customer-logo-box {
         display: flex;
         align-items: center;
         justify-content: center;
+        background-color: #F3F3F3;
+        border-radius: 12px;
+        padding: 1.25rem;
+        height: 100px;
+        width: 185px;
+        transition: box-shadow 0.2s ease;
+
+        @media (min-width: $screen-md-min) {
+          height: 120px;
+        }
+
+        &:hover {
+          box-shadow: 0 4px 14px rgba(0, 0, 0, 0.1);
+        }
+
+        img {
+          max-width: 100%;
+          max-height: 55px;
+          object-fit: contain;
+
+          @media (min-width: $screen-md-min) {
+            max-height: 65px;
+          }
+        }
+
+        &:hover img {
+          filter: grayscale(0%);
+          opacity: 1;
+        }
+      }
+    }
+    // End customer logo grid
+
+    // New blog section
+    .blog-new-section {
+      padding: 2rem 1rem;
+      margin-bottom: 5vh;
+      margin-top: 8vh;
+
+      @media (min-width: $screen-md-min) {
+        margin-bottom: 10vh;
+      }
+
+      .blog-new-heading {
+        font-size: 2rem;
+        font-weight: 700;
         text-align: center;
-        font-size: 15px;
-    }
+        margin-bottom: 2rem;
 
-    @media (min-width: $screen-sm-min) {
-        .used_by_box, .used_by_box_text {
-            height: 75px;
+        @media (min-width: $screen-md-min) {
+          font-size: 2.5rem;
         }
-    }
+      }
 
-    @media (min-width: $screen-md-min) {
-        .used_by_box, .used_by_box_text {
-            height: 100px;
-            font-size: 25px;
-        }
-    }
+      .blog-new-card {
+        display: block;
+        text-decoration: none;
+        color: inherit;
 
-    @media (min-width: $screen-lg-min) {
-        .used_by_box, .used_by_box_text {
-            height: 150px;
+        &:hover {
+          text-decoration: none;
+          color: inherit;
+
+          .blog-new-img-wrap img {
+            transform: scale(1.04);
+          }
         }
+      }
+
+      .blog-new-img-wrap {
+        border-radius: 12px;
+        overflow: hidden;
+        aspect-ratio: 3 / 2;
+        margin-bottom: 0.85rem;
+
+        img {
+          display: block;
+          width: 100%;
+          height: 100%;
+          object-fit: cover;
+          transition: transform 0.35s ease;
+        }
+      }
+
+      .blog-new-tags {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 0.4rem;
+        margin-bottom: 0.6rem;
+      }
+
+      .blog-new-tag {
+        display: inline-block;
+        padding: 0.2rem 0.7rem;
+        border-radius: 20px;
+        font-size: 0.75rem;
+        font-weight: 600;
+        background-color: $bcLighterGrey;
+        color: $bcDarkGrey;
+      }
+
+      .blog-new-title {
+        font-size: 1.1rem;
+        font-weight: 700;
+        color: #1a1a1a;
+        margin-bottom: 0.5rem;
+        line-height: 1.35;
+
+        @media (min-width: $screen-md-min) {
+          font-size: 1.15rem;
+        }
+      }
+
+      .blog-new-excerpt {
+        font-size: 0.9rem;
+        color: $bcGrey;
+        line-height: 1.55;
+        margin: 0;
+      }
     }
+    // End new blog section
+
+    // Application cards
+    .appl-cards-section {
+      padding: 4rem 1rem;
+      margin-bottom: 4rem;
+      position: relative;
+
+      &::after {
+        content: '';
+        position: absolute;
+        bottom: -50px;
+        left: 50%;
+        transform: translateX(-50%);
+        width: 100vw;
+        height: 1px;
+        background-image: repeating-linear-gradient(90deg,
+          $bcGreen 0px, $bcGreen 7px,
+          transparent 7px, transparent 15px
+        );
+      }
+
+      .appl-card {
+        position: relative;
+        border-radius: 12px;
+        overflow: hidden;
+        width: clamp(150px, 40vw, 220px);
+        min-height: 320px;
+        background-color: var(--appl-card-color);
+
+        @media (min-width: $screen-md-min) {
+          width: 220px;
+        }
+
+        @media (min-width: $screen-md-min) {
+          min-height: 300px;
+        }
+
+        // Title and button sit at the top over the solid card color
+        .appl-card-header {
+          padding: 1.4rem 1.25rem;
+
+          h3 {
+            color: white;
+            font-weight: 700;
+            font-size: 1rem;
+            line-height: 1.3;
+            margin-bottom: 0.75rem;
+            text-align: left;
+
+            @media (min-width: $screen-md-min) {
+              font-size: 1.15rem;
+            }
+          }
+        }
+
+        // Image pinned to the bottom — size is driven by card width only,
+        // gradient blends its top edge into the card color
+        .appl-card-img-wrap {
+          position: absolute;
+          bottom: 0;
+          left: 0;
+          right: 0;
+          line-height: 0;
+
+          &::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            height: 3rem;
+            background: linear-gradient(to bottom, var(--appl-card-color), transparent);
+            z-index: 1;
+          }
+
+          img {
+            width: 100%;
+            height: auto;
+            display: block;
+          }
+        }
+
+        .appl-card-btn {
+          color: white;
+          border: 1px solid rgba(255, 255, 255, 0.7);
+          background: transparent;
+          font-size: 0.75rem;
+          padding: 0.3rem 0.85rem;
+          border-radius: 20px;
+
+          &:hover, &:focus {
+            background: rgba(255, 255, 255, 0.2);
+            color: white;
+            border-color: white;
+          }
+        }
+
+        // Per-card colors — sets both the background fill and the gradient color
+        &.appl-card--swarm   { --appl-card-color: #3d3b8e; background-color: #3d3b8e; }
+        &.appl-card--hri     { --appl-card-color: #1c3445; background-color: #1c3445; }
+        &.appl-card--stem    { --appl-card-color: #1a3d22; background-color: #1a3d22; }
+        &.appl-card--autosys { --appl-card-color: #1a2b4a; background-color: #1a2b4a; }
+        &.appl-card--percept { --appl-card-color: #3a322a; background-color: #3a322a; }
+      }
+    }
+    // End application cards
 
     //video-style
 

@@ -77,11 +77,11 @@ $break-point-small-logo: 1030px;
     left: 50%;
     transform: translateX(-50%);
     align-items: center;
-  }
 
-  .navbar-collapse {
-    display: flex !important;
-    flex-basis: auto;
+    .navbar-collapse {
+      display: flex !important;
+      flex-basis: auto;
+    }
   }
 }
 
