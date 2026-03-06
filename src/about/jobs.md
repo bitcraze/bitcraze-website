@@ -10,64 +10,6 @@ redirects:
 
 If you are interested in joining the Bitcraze awesomeness, this is the page for you.
 
-## Open Roles
-
-### Production QA & Embedded Engineer
-
-As a Production QA & Embedded Engineer, you’ll help ensure high production quality while contributing to firmware and test infrastructure. The role combines production planning, quality assurance, embedded development, and supplier coordination—ideal for someone who enjoys both technical and operational challenges in a small, creative team.
-
-#### About what you will be doing
-
-The position will include the following tasks:
-
-- Developing and maintaining production test infrastructure (hardware and software)
-- Designing, programming, and improving firmware (primarily in C) for the Crazyflie platform
-- Planning and overseeing production batches in collaboration with Bitcraze’s manufacturing partner in China
-- Managing inventory, placing orders, and maintaining delivery timelines
-- Performing incoming product inspections and handling quality assessments and improvements
-- Troubleshooting urgent production or test issues and resolving them efficiently
-- Coordinating with suppliers on sourcing, negotiations, and production support
-- Proactively identifying and implementing process improvements
-- Supporting internal and external stakeholders to ensure stock availability and delivery success
-
-The role also offers the opportunity to participate in product development and business process innovation, making it ideal for someone who thrives in a startup-like, fast-moving environment. This role is a unique blend of embedded development, project management, and business processes.
-
-
-#### We Believe You Have
-
-- A degree in electronics, mechatronics, computer science, or a related field (BSc or MSc)
-- A few years of experience working with hardware and/or embedded software development
-- Strong organizational skills and a proactive mindset
-- Familiarity with embedded electrical or mechanical systems
-- Good programming skills in C (embedded systems), with additional experience in Python or Rust being a plus
-- An interest in quality control and hands-on problem solving
-- Fluency in English, both written and spoken, as it is the company language
-
-#### Bonus Points For
-
-- Experience in managing suppliers and organizing production
-- A background in electronics production, drones, or robotics
-- Familiarity with STM32, ESP32, FreeRTOS, and communication protocols like UART, SPI, I2C, and USB
-- An interest in open-source development and working with wireless technologies (Wi-Fi, Bluetooth LE, UWB)
-
-#### Additional Information
-
-- Start date: Ideally before summer, but the top priority is finding the right candidate
-- Location: Malmö
-- Scope: Full-time (100%)
-
-**Contact person:** Fredric Vernqvist (fredric.vernqvist@techtalents.se)
-
-We apply continuous selection, which means the position may be filled before the application deadline.
-
-If you have questions about the role, please contact Fredric Vernqvist – fredric.vernqvist@techtalents.se
-
-Does this sound like the position for you? We look forward to hearing from you – warmly welcome with your application!
-
-In this recruitment, Bitcraze is collaborating with Tech Talents, and we direct applications to Tech Talents.
-
-----
-
 ## Open application
 If any of the [areas we work with](#areas-we-work-with) seem appealing to you, we are always available for open applications as well which we can consider.
 
