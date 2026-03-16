@@ -57,6 +57,12 @@ Rik enjoys building autonomous systems that interact with the physical world. He
 His fascination with autonomy goes beyond the technical: years passed before he first flew a drone manually. He first encountered the Crazyflie during a university research project, which led him to join Bitcraze. Outside of work, you might find him climbing rocks, trying out new recipes, or playing around with music.
 "%}
 
+{% include teammember.html member="Stefan Thorstenson" role="Developer" img="/images/team/stefan_thorstenson_400px.jpg" bio="
+There are three main parts of Stefan that makes him passionate about Bitcraze. Already from an early age, Stefan had a huge interest in, and understanding of, mathematics and physics. Because it makes sense! Also, creating things has always been an urge - privately that means making music and cooking. And lastly, for some reason, deep engraved into his soul, there is a constant fascination for things that move, be it footballs, tennis balls, cars or drones. As this three-legged dog, Stefan chases to make safe, reliable software that puts the products in motion.
+
+Stefan's background is within controls and sensor fusion, and has previously held positions as developer, product owner and group manager, all within fields related to autonomous control. If you need to find Stefan, it is a good bet to look within the high-level software and the application layer.
+"%}
+
 {% include teammember.html member="Tobias Antonsson" role="Developer & Co-founder" img="/images/team/tobias_antonsson_400px.jpg" bio="
 Tobias Antonsson is a born computer and embedded nerd. Ever since he got his first electronics lab kit at an age of eight he has been hooked. He is an all-rounder with experience from computer graphics down to electronic hardware design and thrives best just in between, which makes embedded hardware and software a natural choice.
 He loves being creative and a lot of his spare time is being spent on various robotic and R/C projects. One of them, the Crazyflie, has become his livelihood in his co-founded company Bitcraze AB. Work experience includes mobile, medical and electromechanical industries as well as open source/hardware.
