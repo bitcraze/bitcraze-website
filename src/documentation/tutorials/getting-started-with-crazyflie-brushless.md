@@ -138,8 +138,8 @@ Start by unpacking the box. It should contain the following items:
 </table>
 
 {% endsi_step %}
-{% si_step mount the motors %}
-Position the motor above the mounting holes, the motor cable should run along the arm. Use 3 black screws in the corner holes of the motor to fasten it. There is a screwdriver in the kit you can use to fasten it.
+{% si_step Mount the motors %}
+Position the motor above the mounting holes, the motor cable should run along the arm. Use three black screws from underneath in the corner holes of the motor to fasten it. There is a screwdriver in the kit you can use to fasten it.
 {% tutorialVideo /videos/screwing_motors.mp4 %}
 
 Attach the motor cables to their connectors and twist the wire 180 degrees to attach to the connector. 
@@ -151,7 +151,7 @@ Note: New motors may feel a bit stiff or stuggle to spin at low throttle levels 
 {% endsi_step %}
 
 
-{% si_step attach the propellers %}
+{% si_step Attach the propellers %}
 Now it’s time to attach the propellers.
 
 **Before attaching:**
@@ -176,7 +176,7 @@ For safety or repair purposes, you may need to remove the propellers. This proce
 
 {% endsi_step %}
 
-{% si_step attach the propeller guards or landing legs %}
+{% si_step Attach the propeller guards or landing legs %}
 
 Choose between using the propeller guards or the landing legs. The legs are lighter and has less inertia, giving a longer and more agile flight.
 **We advise you to always use the guards if it is possible in your use case. These will protect the drone and you if something goes wrong.**
@@ -195,7 +195,7 @@ Removing the legs/guards can be a bit tricky. An easy approach is by using the p
 
 {% endsi_step %}
 
-{% si_step attach the rubber pad %}
+{% si_step Attach the rubber pad %}
 The rubber pad should be attached to the Crazyflie between the
 expansion headers. This will create friction, keep the battery from
 slipping out and also protect the electronics.
@@ -203,13 +203,13 @@ slipping out and also protect the electronics.
 {% tutorialVideo /videos/foam.mp4 %}
 {% endsi_step %}
 
-{% si_step attach headers %}
+{% si_step Attach headers %}
 There are two types of headers in the box, long and short ones. Find the long ones and insert them into the expansion connector from below.
 
 {% tutorialVideo /videos/pin_headers.mp4 %}
 {% endsi_step %}
 
-{% si_step attach the battery %}
+{% si_step Attach the battery %}
 Place the battery between the pins inserted into the expansion connector
 and insert the battery holder board onto the pins. Watch out for the
 pins that can be a bit sharp when inserting it. Have the side of the battery holder with the text facing up. The friction should hold
@@ -225,7 +225,7 @@ Your Crazyflie 2.1 Brushless is now assembled!
 
 {% endsi_step %}
 
-{% si_step power on! %}
+{% si_step Power on! %}
 The assembly is finished, now it’s time to power it on! Note that the power
 button is a push button, not a sliding button. The LEDs on the Crazyflie 2.1 Brushless will run in a startup sequence that can be seen in the video. 
 {% tutorialVideo /videos/BL_power_on.mp4 %}
@@ -287,16 +287,12 @@ You can use any game pad connected to your computer by cable or Bluethooth. To f
 {% endsi_intro %}
 
 {% si_step Setting up the radio %}
-The first step to getting your computer ready for communication is to set up the Crazyradio. Using your computer requires a {% poplink crazyradio-2-0 %} or Crazyradio PA. Follow [this Getting Started tutorial](/documentation/tutorials/getting-started-with-crazyradio-2-0/) to set up the Crazyradio 2.0.
+The first step to getting your computer ready for communication is to set up the Crazyradio. Using your computer requires a {% poplink crazyradio-2-0 %} or Crazyradio PA. Follow [this Getting Started tutorial](/documentation/tutorials/getting-started-with-crazyradio-2-0/) to set up the Crazyradio 2.0. 
 {% endsi_step %}
 
-{% si_step Client installation ; config-client%}
-There are a few options of how to run the PC client
-
-{% tabgroup %}
-{% tab Native install (recommended) %}
+{% si_step Installing the Client %}
 The supported way to install and run the client on a computer currently is to install
-the Crazyflie client using the python package manager *pip*.
+the Crazyflie client natively using the python package manager *pip*.
 
 You can follow the prerequisite and instructions to install the latest release on the
 [Client installation instruction page](/documentation/repository/crazyflie-clients-python/master/installation/install/).
@@ -305,76 +301,11 @@ You can follow the prerequisite and instructions to install the latest release o
 When you have set up the client, insert the {% poplink crazyradio-2-0 %} or Crazyradio PA and your gamepad in
 your USB-ports and start the client.
 
-{% endtab %}
-{% tab Virtual Machine %}
-We have set up a virtual machine (VM) designed to assist you in getting started with flight and development. The VM includes essential software for your needs, all pre-installed to simplify the setup process.
-
-Running on a virtual machine allows for compatibility across various operating systems. However, please be aware that the VM may not have been regularly maintained, and there could be some issues present.
-
-**Note**: Since the VM is an AMD64 install of Linux, it *does not work* on Apple-silicon Mac (M1/2/... processors).
-On an apple silicon mac you need to install the tools natively.
-
-{% si_step Installing on VM; inst-virtualmachine %}
-To help you get into the air as quickly as possible, the virtual machine (VM)
-has all the software you need for flight and development already installed.
-.
 {% endsi_step %}
 
-{% si_step Setup virtual Machine; inst-virtualbox %}
-
-Check-out the readme of the [bitcraze-VM repository](https://github.com/bitcraze/bitcraze-vm) for installation and setting-up instructions and tips.
-
-{% endsi_step %}
-
-{% si_step update source code; update-src %}
-In the virtual machine double click the "update all projects" icon on the
-desktop. This pulls down the latest source code from GitHub
-for all projects.
-{% img Update all projects icon; narrow; /images/getting-started/update-all-projects-icon.png; circle-border %}
-{% endsi_step %}
-
-{% si_step install hardware; install-hardware-vm %}
-* Insert {% poplink crazyradio-2-0 %} or Crazyradio PA in a USB port.
-* Insert game controller in a USB port.
-{% endsi_step %}
-
-{% si_step configure USB on the virtual machine; config-usb-vm %}
-{% tabgroup %}
-{% tab Windows %}
-* Install the [Crazyradio Windows USB driver](/documentation/repository/crazyradio-firmware/master/building/usbwindows/).
-* In the bottom right corner click the USB icon and choose “Bitcraze Crazyradio PA USB dongle”.
-{% img USB settings; medium; /images/getting-started/SwPic5Final.png %}
-* Now choose your game controller in the same list.
-{% endtab %}
-{% tab Linux %}
-* In the bottom right corner click the USB icon and choose “Bitcraze Crazyradio PA USB dongle”.
-{% img USB settings; medium; /images/getting-started/SwPic5Final.png %}
-* Now choose your game controller in the same list.
-{% endtab %}
-{% tab OS X %}
-* In the bottom right corner click the USB icon, then click “USB settings".
-{% img USB settings; medium; /images/getting-started/SwPic2.1Final.png %}
-* Click the USB filter "+" icon.
-{% img USB settings; wide; /images/getting-started/SwPic3Final.png %}
-* Choose your game controller from the list. Click OK.
-{% img USB settings; wide; /images/getting-started/SwPic4Final.png %}
-* Now click the USB icon again and choose the “Bitcraze Crazyradio PA USB dongle”.
-{% img USB settings; medium; /images/getting-started/SwPic5Final.png %}
-* Now choose your game controller in the same list.
-{% endtab %}
-{% endtabgroup %}
-{% endsi_step %}
-
-{% si_step start the Crazyflie client; start-client-vm %}
-Double click the “Crazyflie client” icon on the VM desktop
-{% img Crazyflie client icon; narrow; /images/getting-started/cf-client-icon.png; circle-border %}
-
-Continue reading about [configuring the client](#config-client)
-{% endsi_step %}
-
-{% endtab %}
-{% endtabgroup %}
-{% endsi_step %}
+{% si_intro Configure the client; config-client %}
+In this section we will look at the main features for getting started with the client. More details and features can be found in the [Client user-guide](/documentation/repository/crazyflie-clients-python/master/userguides/inputdevices/).
+{% endsi_intro %}
 
 {% si_step Configure your controller; config-controller %}
 After you have connected your controller, open the input device settings in the client. Check if the correct device
@@ -390,9 +321,9 @@ For more detailed information on input devices, see the [Client user-guide](/doc
 * In the Crazyflie client enter the correct __Address__. The default one for a new Crazyflie out of the box is 0xE7E7E7E7E7. To figure out or change the __Address__ of your Crazyflie, you can follow the [radio address configuration](/documentation/repository/crazyflie-clients-python/master/userguides/userguide_client/#radio-address-configuration) guide.
 * Then, with your Crazyflie powered on and radio connected, click the __Scan__ button in top left corner. The radio settings for your Crazyflie are displayed in the drop-down list.
 * Choose your Crazyflie from the drop-down list.
+* Click the __Connect__ button.
 
 {% img Connect dialog; wide; /images/getting-started/connect_to_the_crazyflie.PNG %}
-* Click the __Connect__ button.
 
 Now that you have connected your Crazyflie to your client, telemetry data
 is continuously sent from the copter to the client. When you move the
