@@ -4,17 +4,38 @@ title: Getting started with the Crazyradio 2.0
 page_id: getting-started-crazyradio-2-0
 ---
 
-{% si_intro Unpacking the Crazyradio 2.0 %}
-The first thing to do is to assemble the hardware.
+{% si_intro Assembling the Crazyradio 2.0 %}
+The first thing to do is to unpack and assemble the hardware.
 {% endsi_intro %}
 
-{% si_step package contents %}
+{% si_step Package contents %}
 * 1 x {% poplink crazyradio-2-0 %} USB dongle
 * 1 x Antenna
 {% endsi_step %}
 
-{% si_step mount the antenna %}
+{% si_step Mount the antenna %}
 Screw the antenna on to the connector on the USB dongle.
+
+{% tutorialVideo /videos/mount_the_antenna.mp4 %}
+{% endsi_step %}
+
+
+
+{% si_intro Install drivers %}
+Depending on which operating system you use, you may need to install drivers or configure USB permissions before
+the Crazyradio 2.0 can communicate with your computer. macOS users can skip this section.
+{% endsi_intro %}
+
+{% si_step Install and configure %}
+{% tabgroup %}
+{% tab Windows %}
+Please see the [Windows driver installation instructions](/documentation/repository/crazyradio-firmware/master/building/usbwindows/)
+{% endtab %}
+{% tab Linux %}
+On Linux, the Crazyradio is easily recognized, but you have to set up udev permissions. Look at the
+[usb permission instructions](/documentation/repository/crazyflie-lib-python/master/installation/usb_permissions/) to setup udev on Linux.
+{% endtab %}
+{% endtabgroup %}
 {% endsi_step %}
 
 
@@ -23,16 +44,18 @@ Screw the antenna on to the connector on the USB dongle.
 To flash new firmware to the {% poplink crazyradio-2-0 %}, it must first be set to the bootloader mode.
 {% endsi_intro %}
 
-{% si_step hold button %}
+{% si_step Hold button %}
 Press and hold the button.
+{% img The Button on the Crazyradio; medium; /images/getting-started/crazyradio-button.png %}
 {% endsi_step %}
 
-{% si_step insert into USB port %}
+{% si_step Insert into USB port %}
 Insert the USB dongle into a USB port while holding the button.
 {% endsi_step %}
 
-{% si_step red led %}
-Verify that the LED is pulsating with a red light, this indicates that the {% poplink crazyradio-2-0 %} is in bootloader mode.
+{% si_step Red LED %}
+Verify that the LED is pulsing with a red light. This indicates that the {% poplink crazyradio-2-0 %} is in bootloader mode.
+{% tutorialVideo /videos/plug_radio.mp4 %}
 {% endsi_step %}
 
 
@@ -42,47 +65,33 @@ When in bootloader mode, the {% poplink crazyradio-2-0 %} will appear as a USB d
 is installed by copying a `.uf2` firmware file to the drive.
 {% endsi_intro %}
 
-{% si_step find the drive %}
+{% si_step Find the drive %}
 Open a file browser and find the drive named **Crazyradio2**.
+{% img The Drive in the file browser; medium; /images/getting-started/drive-in-file-browser.png %}
 {% endsi_step %}
 
-{% si_step download firmware %}
+{% si_step Download firmware %}
 Go to the [release page on github](https://github.com/bitcraze/crazyradio2-firmware/releases/latest).
 Download the .uf2 file by clicking it.
 {% endsi_step %}
 
-{% si_step install the firmware %}
+{% si_step Install the firmware %}
 In your file browser, drag and drop the downloaded file to the **Crazyradio2** drive.
 {% endsi_step %}
 
-{% si_step check the installation %}
-The installation takes less than a second and when done, the {% poplink crazyradio-2-0 %} will restart running the new
-firmware. Since it is no longer in bootloader mode, the USB drive will no longer be available.
-This also means that you might get an error message from your operating system that the copy could not complete.
+{% si_step Check the installation %}
+The installation completes in less than a second. The {% poplink crazyradio-2-0 %} will automatically
+restart with the new firmware, exiting bootloader mode — the **Crazyradio2** USB drive will disappear.
 
-When the Crazyradio emulation firmware starts up, the LED will light up briefly in white. This means that
-the flashing was successful. If you missed it when flashing,
-unplug and re-plug the {% poplink crazyradio-2-0 %} to restart it.
+**You may see an error message** from your operating system saying the copy did not complete. This is expected and means the installation was successful — the radio restarted before the transfer could finish.
+{% img Error message after successful firmware installation; medium; /images/getting-started/error-message-cr.png %}
+
+To confirm the firmware is running, the LED will briefly flash white on startup. If you missed it,
+unplug and re-plug the {% poplink crazyradio-2-0 %} to see the white flash again.
+{% tutorialVideo /videos/radio_flashing_white.mp4 %}
 {% endsi_step %}
 
-{% si_step done! %}
+{% si_step Done! %}
 The {% poplink crazyradio-2-0 %} is now ready to use, and is
 compatible with all the products in the Crazyflie ecosystem.
-{% endsi_step %}
-
-{% si_intro Install drivers %}
-Depending on which operating system you use, you will have to install drivers or do some configuration to communicate
-with the Crazyradio 2.0.
-{% endsi_intro %}
-
-{% si_step install and configure %}
-{% tabgroup %}
-{% tab Windows %}
-Please see the [Windows driver installation instructions](/documentation/repository/crazyradio-firmware/master/building/usbwindows/)
-{% endtab %}
-{% tab Linux %}
-On linux, the Crazyradio is easily recognized, but you have to setup UDEVpermissions. Look at the
-[usb permission instructions](/documentation/repository/crazyflie-lib-python/master/installation/usb_permissions/) to setup udev on linux.
-{% endtab %}
-{% endtabgroup %}
 {% endsi_step %}
