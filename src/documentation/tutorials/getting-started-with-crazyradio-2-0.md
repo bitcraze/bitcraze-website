@@ -76,18 +76,18 @@ Download the .uf2 file by clicking it.
 {% endsi_step %}
 
 {% si_step Install the firmware %}
-In your file browser, drag and drop the downloaded file to the **Crazyradio2** drive.
+In your file browser, drag and drop the downloaded file to the **Crazyradio2** drive. The installation completes in less than a second.
+
+The **Crazyradio2** will automatically restart with the new firmware, exiting bootloader mode. This will make the **Crazyradio2** USB drive disappear.
+
+**You may see an error message** from your operating system saying the copy did not complete. This does not necessarily mean that the installation failed, only that the radio restarted before the transfer could fully finish. Do the check in the next step to make sure that the installation was successful.
+{% img Error message after successful firmware installation; medium; /images/getting-started/error-message-cr.png %}
 {% endsi_step %}
 
 {% si_step Check the installation %}
-The installation completes in less than a second. The {% poplink crazyradio-2-0 %} will automatically
-restart with the new firmware, exiting bootloader mode — the **Crazyradio2** USB drive will disappear.
+To confirm the firmware is running, the LED will briefly flash white on startup. 
 
-**You may see an error message** from your operating system saying the copy did not complete. This is expected and means the installation was successful — the radio restarted before the transfer could finish.
-{% img Error message after successful firmware installation; medium; /images/getting-started/error-message-cr.png %}
-
-To confirm the firmware is running, the LED will briefly flash white on startup. If you missed it,
-unplug and re-plug the {% poplink crazyradio-2-0 %} to see the white flash again.
+If you missed it, unplug and re-plug the {% poplink crazyradio-2-0 %} to see the white flash again.
 {% tutorialVideo /videos/radio_flashing_white.mp4 %}
 {% endsi_step %}
 
