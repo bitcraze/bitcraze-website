@@ -80,7 +80,7 @@ In your file browser, drag and drop the downloaded file to the **Crazyradio2** d
 
 The **Crazyradio2** will automatically restart with the new firmware, exiting bootloader mode. This will make the **Crazyradio2** USB drive disappear.
 
-**You may see an error message** from your operating system saying the copy did not complete. This does not necessarily mean that the installation failed, only that the radio restarted before the transfer could fully finish. Do the check in the next step to make sure that the installation was successful.
+**You may see an error message** from your operating system saying the copy did not complete. This does not necessarily mean that the installation failed, only that the radio restarted, which means that it exited bootloader mode and is therefore not available as a USB drive anymore. Do the check in the next step to make sure that the installation was successful.
 {% img Error message after successful firmware installation; medium; /images/getting-started/error-message-cr.png %}
 {% endsi_step %}
 
