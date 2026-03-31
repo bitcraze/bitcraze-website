@@ -26,9 +26,11 @@ Measure distances to objects all round
 
 The {% poplink multi-ranger-deck%} gives the Crazyflie 2.x the ability to detect objects around it. This is done by measuring the distance to objects in the following 5 directions: front/back/left/right/up with mm precision up to 4 meters.
 
-To get the most out of your Multi-ranger it should be paired with a {% poplink flow-deck %}, which will measure the movement along the ground and the distance to the ground. It gives the Crazyflie  the capability to sense the space around it and could react when something is close and for instance avoid obstacles.
+To get the most out of your Multi-ranger it should be paired with a {% poplink flow-deck %}, which will measure the movement along the ground and the distance to the ground. It gives the Crazyflie the capability to sense the space around it.
 
-It also allows to start working on environment-aware problems like Simultaneous Localization And Mapping (SLAM) algorithms.
+The Multi-ranger also allows to start working on environment-aware problems like Simultaneous Localization And Mapping (SLAM) algorithms.
+
+**Note:** The deck provides sensor data only. No collision avoidance or obstacle reaction is enabled by default. For examples of how to use the sensor data, see the [Crazyflie Python library examples for the Multi-ranger](https://github.com/bitcraze/crazyflie-lib-python/tree/master/examples/multiranger).
 
 
 {% endrow_text %}
