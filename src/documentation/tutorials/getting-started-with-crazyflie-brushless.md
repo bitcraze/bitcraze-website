@@ -17,6 +17,7 @@ You are responsible for handling the drone and its components. It is your respon
 * Avoid catching the drone mid-flight or while it’s landing.
 * Always make sure that the path of your drone is clear to avoid any accidents.
 * Use the propeller guards as much as possible
+* Unplug the battery when the drone is not used.
 
 {% endsi_step %}
 
