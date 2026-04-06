@@ -9,13 +9,13 @@ redirects:
 This page contains events where Bitcraze will exhibit or has exhibited, describing demos and similar information.
 
 ## Upcoming Events
-* March 23rd - 27th: {% id_link erf-2026 %}, Stavanger, Norway
 * June 1st - 5th: ICRA 2026, Vienna, Austria
 
 ## Past events
 
 ### 2026
 * January 31st - February 1st: FOSDEM 2026
+* March 23rd - 27th: {% id_link erf-2026 %}, Stavanger, Norway
 
 ### 2025
 * May 19th - 23rd: ICRA 2025
