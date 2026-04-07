@@ -24,7 +24,7 @@ Measure distances to objects all round
 {% row_icon_text_links How it works; fa-cogs %}
 {% row_text %}
 
-The {% poplink multi-ranger-deck%} gives the Crazyflie 2.x the ability to detect objects around it. This is done by measuring the distance to objects in the following 5 directions: front/back/left/right/up with mm precision up to 4 meters.
+The {% poplink multi-ranger-deck%} measures the distance to the nearest surface in five directions around the Crazyflie 2.x - front, back, left, right, and up - with millimeter precision up to 4 meters.
 
 
 The Multi-ranger can also be used as a starting point for experimenting with mapping and exploration.
