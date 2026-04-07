@@ -201,27 +201,28 @@ compatible.
  |                           | {% poplink led-ring-deck %} | {% poplink qi-1-2-wireless-charging-deck %} | {% poplink sd-card-deck %} | {% poplink loco-positioning-deck %} | {% poplink bigquad-deck %} | {% poplink buzzer-deck %} | {% poplink z-ranger-deck %}, Z-ranger V1 | {% poplink flow-deck %}, Flow deck V1 | {% poplink multi-ranger-deck%} | {% poplink motion-capture-marker-deck %} | {% poplink lighthouse-deck %} | {% poplink active-marker-deck %} | {% poplink ai-deck %} | {% poplink color-led-deck %} |
  |----------------------------------------------------|----------|----------|----------|------------------|---------|--------|----------|--------|--------------|--------------|------------|---------------|---------|-----------|
  | **{% poplink led-ring-deck %}**                    | -        |          | yes      | yes              |         | yes    |          |        | yes          | yes          | yes        | yes           | yes     | yes       |
- | **{% poplink qi-1-2-wireless-charging-deck %}**    |          | -        | yes      | yes              | yes     | yes    |          |        | yes          | yes          | yes        | yes           | yes     | yes       |
- | **{% poplink sd-card-deck %}**                     | yes      | yes      | -        | yes *1           | yes     | yes    | yes      | yes *1 | yes          | yes          | yes        | yes           | *4      | yes       |
- | **{% poplink loco-positioning-deck %}**            | yes      | yes      | yes *1   | -                | yes     | yes    | yes      | yes    | yes          | yes          | *2         | yes           | *5      | yes       |
- | **{% poplink bigquad-deck %}**                     |          | yes      | yes      | yes              | -       |        | yes      |        | yes          | yes          | *2         | yes           | *6      | yes       |
- | **{% poplink buzzer-deck %}**                      | yes      | yes      | yes      | yes              |         | -      | yes      | yes    | yes          | yes          | yes        | yes           | *6      | yes       |
+ | **{% poplink qi-1-2-wireless-charging-deck %}**    |          | -        | yes      | yes              | yes     | yes    |          |        | yes          | yes          | yes        | yes           | yes     | yes<sup>1</sup>       |
+ | **{% poplink sd-card-deck %}**                     | yes      | yes      | -        | yes<sup>2</sup>           | yes     | yes    | yes      | yes<sup>2</sup> | yes          | yes          | yes        | yes           | <sup>5</sup>      | yes       |
+ | **{% poplink loco-positioning-deck %}**            | yes      | yes      | yes<sup>2</sup>   | -                | yes     | yes    | yes      | yes    | yes          | yes          | <sup>3</sup>         | yes           | <sup>6</sup>      | yes       |
+ | **{% poplink bigquad-deck %}**                     |          | yes      | yes      | yes              | -       |        | yes      |        | yes          | yes          | <sup>3</sup>         | yes           | <sup>7</sup>      | yes       |
+ | **{% poplink buzzer-deck %}**                      | yes      | yes      | yes      | yes              |         | -      | yes      | yes    | yes          | yes          | yes        | yes           | <sup>7</sup>      | yes       |
  | **{% poplink z-ranger-deck %}, Z-ranger V1**       |          |          | yes      | yes              | yes     | yes    | -        |        | yes          | yes          | yes        | yes           | yes     | yes       |
- | **{% poplink flow-deck %}, Flow deck V1**          |          |          | yes *1   | yes              |         | yes    |          | -      | yes          | yes          | yes        | yes           | yes     | yes       |
+ | **{% poplink flow-deck %}, Flow deck V1**          |          |          | yes<sup>2</sup>   | yes              |         | yes    |          | -      | yes          | yes          | yes        | yes           | yes     | yes       |
  | **{% poplink multi-ranger-deck%}**                 | yes      | yes      | yes      | yes              | yes     | yes    | yes      | yes    | -            | yes          | yes        | yes           | yes     | yes       |
  | **{% poplink motion-capture-marker-deck %}**       | yes      | yes      | yes      | yes              | yes     | yes    | yes      | yes    | yes          | -            | yes        |               | yes     | yes       |
- | **{% poplink lighthouse-deck %}**                  | yes      | yes      | yes      | *2               | *2      | yes    | yes      | yes    | yes          | yes          | -          |               | *3      | yes       |
+ | **{% poplink lighthouse-deck %}**                  | yes      | yes      | yes      | <sup>3</sup>               | <sup>3</sup>      | yes    | yes      | yes    | yes          | yes          | -          |               | <sup>4</sup>      | yes       |
  | **{% poplink active-marker-deck %}**               | yes      | yes      | yes      | yes              | yes     | yes    | yes      | yes    | yes          |              |            | -             | yes     | yes       |
- | **{% poplink ai-deck %}**                          | yes      | yes      | *4       | *5               | *6      | *6     | yes      | yes    | yes          | yes          | *3         | yes           | -       | yes       |
+ | **{% poplink ai-deck %}**                          | yes      | yes      | <sup>5</sup>       | <sup>6</sup>               | <sup>7</sup>      | <sup>7</sup>     | yes      | yes    | yes          | yes          | <sup>4</sup>         | yes           | -       | yes       |
  | **{% poplink color-led-deck %}**                   | yes      | yes      | yes      | yes              | yes     | yes    | yes      | yes    | yes          | yes          | yes        | yes           | yes     | -         |
  |----------------------------------------------------|----------|----------|----------|------------------|---------|--------|----------|--------|--------------|--------------|------------|---------------|---------|-----------|
 
 <!--                                                  | led-ring | qi charg | sd-card  | loco-positioning | bigquad | buzzer | z-ranger | flow   | multi-ranger | mocap marker | lighthouse | active marker | ai-deck | color-LED |-->
 **Notes:**
 
-1.  SPI sharing might limit the logging speed of the uSD-card deck.
-2.  Could be patched using soldering bridges or can be supported in the future, SW update
-3.  The GAP8 module is connected to UART1, so if that is enabled there will be conflicts
-4.  The Micro-SD deck and AI deck both use IO4, the Micro-SD deck needs to be patched to use another IO for Chip Select
-5.  With a patch or workaround it is possible
-6.  CPX uses UART2 to communicate with the ESP32 by default, if that is enabled there will be conflicts.
+1.  The Qi deck is only compatible with the top-mounted Color LED deck. Mounting the Color LED deck on the bottom will physically block the Qi deck.
+2. SPI sharing might limit the logging speed of the uSD-card deck.
+3.  Could be patched using soldering bridges or can be supported in the future, SW update
+4.  The GAP8 module is connected to UART1, so if that is enabled there will be conflicts
+5.  The Micro-SD deck and AI deck both use IO4, the Micro-SD deck needs to be patched to use another IO for Chip Select
+6.  With a patch or workaround it is possible
+7.  CPX uses UART2 to communicate with the ESP32 by default, if that is enabled there will be conflicts.
