@@ -28,7 +28,7 @@ The {% poplink multi-ranger-deck%} gives the Crazyflie 2.x the ability to detect
 
 To get the most out of your Multi-ranger it should be paired with a {% poplink flow-deck %}, which will measure the movement along the ground and the distance to the ground. It gives the Crazyflie the capability to sense the space around it.
 
-The Multi-ranger also allows to start working on environment-aware problems like Simultaneous Localization And Mapping (SLAM) algorithms.
+The Multi-ranger can also be used as a starting point for experimenting with mapping and exploration.
 
 **Note:** The deck provides sensor data only. No collision avoidance or obstacle reaction is enabled by default. For examples of how to use the sensor data, see the [Crazyflie Python library examples for the Multi-ranger](https://github.com/bitcraze/crazyflie-lib-python/tree/master/examples/multiranger).
 
