@@ -213,7 +213,7 @@ compatible.
  | **{% poplink lighthouse-deck %}**                  | yes      | yes      | yes      | <sup>3</sup>               | <sup>3</sup>      | yes    | yes      | yes    | yes          | yes          | -          |               | <sup>4</sup>      | yes       |
  | **{% poplink active-marker-deck %}**               | yes      | yes      | yes      | yes              | yes     | yes    | yes      | yes    | yes          |              |            | -             | yes     | yes       |
  | **{% poplink ai-deck %}**                          | yes      | yes      | <sup>5</sup>       | <sup>6</sup>               | <sup>7</sup>      | <sup>7</sup>     | yes      | yes    | yes          | yes          | <sup>4</sup>         | yes           | -       | yes       |
- | **{% poplink color-led-deck %}**                   | yes      | yes      | yes      | yes              | yes     | yes    | yes      | yes    | yes          | yes          | yes        | yes           | yes     | -         |
+ | **{% poplink color-led-deck %}**                   | yes      | yes<sup>1</sup>      | yes      | yes              | yes     | yes    | yes      | yes    | yes          | yes          | yes        | yes           | yes     | -         |
  |----------------------------------------------------|----------|----------|----------|------------------|---------|--------|----------|--------|--------------|--------------|------------|---------------|---------|-----------|
 
 <!--                                                  | led-ring | qi charg | sd-card  | loco-positioning | bigquad | buzzer | z-ranger | flow   | multi-ranger | mocap marker | lighthouse | active marker | ai-deck | color-LED |-->
