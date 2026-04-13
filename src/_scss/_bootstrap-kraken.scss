@@ -32,13 +32,13 @@ $blockquote-font-size:  1rem;
 $navbar-padding-y:      0.5rem;
 
 // Dropdown colors
-$dropdown-bg:                       lighten($bcDarkGrey, 15%);
-$dropdown-link-color:               white;
-$dropdown-link-hover-color:         $menuColor;
-$dropdown-link-hover-bg:            $dropdown-bg;
-$dropdown-link-active-color:        $menuColor;
-$dropdown-link-active-bg:           $dropdown-bg;
-$dropdown-link-disabled-color:      #ccc;
+$dropdown-bg:                       white;
+$dropdown-link-color:               $bcDarkGreen;
+$dropdown-link-hover-color:         $bcDarkGreen;
+$dropdown-link-hover-bg:            $bcLighterGrey;
+$dropdown-link-active-color:        $bcDarkGreen;
+$dropdown-link-active-bg:           $bcLighterGrey;
+$dropdown-link-disabled-color:      #aaa;
 
 // Container max-width
 $container-max-widths: (

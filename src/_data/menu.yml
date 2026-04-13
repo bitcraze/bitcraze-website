@@ -56,6 +56,7 @@
   - {page_id: videogallery}
 
 - title: Development
+  icon: /images/nav/community-icon.webp
   subs:
   - {page_id: development-overview}
   - {page_id: contribute}

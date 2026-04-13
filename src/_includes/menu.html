@@ -22,7 +22,8 @@
                    data-bs-toggle="dropdown"
                    class="nav-link dropdown-toggle"
                    aria-expanded="false">{{top_menu.title}}</a>
-                    {% include menu_ul.html subs=top_menu.subs %}
+                    {% capture _menu_icon %}{% if top_menu contains "icon" %}{{top_menu.icon}}{% endif %}{% endcapture %}
+                    {% include menu_ul.html subs=top_menu.subs title=top_menu.title icon=_menu_icon %}
                 {% else %}
                     {% assign p = site.pages | where:"page_id",top_menu.page_id | first %}
                 <a title="{{p.title}}" href="{{p.url}}" class="nav-link">{{p.title}}</a>

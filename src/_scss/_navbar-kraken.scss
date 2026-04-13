@@ -131,6 +131,29 @@ $reduced-menu-spacing: 8px;
   margin-right: 0;
 }
 
+// Dropdown icon
+.dropdown-menu-icon-item {
+  text-align: center;
+  padding: 0.5rem 0 0;
+}
+
+.dropdown-menu-icon {
+  max-height: 48px;
+  width: auto;
+}
+
+// Dropdown section title header
+.dropdown-menu-title {
+  display: block;
+  color: $bcGreen;
+  font-weight: 700;
+  font-size: 1rem;
+  padding: 0.5rem 1rem 0.25rem;
+  pointer-events: none;
+  border-bottom: 1px solid rgba($bcGreen, 0.2);
+  margin-bottom: 0.25rem;
+}
+
 .navbar-social-search {
   i {
     font-size: 20px;
