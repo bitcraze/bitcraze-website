@@ -54,7 +54,9 @@ Being an all-rounder Marcus does most things from high level scripting down to l
 {% include teammember.html member="Rik Bouwmeester" role="Developer" img="/images/team/rik_bouwmeester_400px.jpg" bio="
 Rik enjoys building autonomous systems that interact with the physical world. He’s especially interested in writing the code that helps them figure out where they are and what to do next.
 
-His fascination with autonomy goes beyond the technical: years passed before he first flew a drone manually. He first encountered the Crazyflie during a university research project, which led him to join Bitcraze. Outside of work, you might find him climbing rocks, trying out new recipes, or playing around with music.
+His fascination with autonomy goes beyond the technical: years passed before he first flew a drone manually. He first got his hands on a Crazyflie through his master's thesis research at TU Delft, which eventually brought him to Malmö and the other side of the platform. 
+
+Outside of work, you might find him climbing rocks or improvising in the kitchen or on his guitar.
 "%}
 
 {% include teammember.html member="Stefan Thorstenson" role="Developer" img="/images/team/stefan_thorstenson_400px.jpg" bio="
