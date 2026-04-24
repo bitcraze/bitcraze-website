@@ -4,9 +4,6 @@
 {% if include.icon != "" %}
 <li class="dropdown-menu-icon-item"><img src="{{include.icon}}" alt="{{include.title}}" class="dropdown-menu-icon"></li>
 {% endif %}
-{% if include.title %}
-<li><span class="dropdown-header dropdown-menu-title">{{include.title}}</span></li>
-{% endif %}
 {% for sub in subs %}
   {% assign is_active = false %}
   {% assign m_external = '' %}

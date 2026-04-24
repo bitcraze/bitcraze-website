@@ -2,13 +2,84 @@
 .content-area {
     padding-top: $content-area-padding-top;
     padding-bottom: $content-area-padding-bottom;
+    font-size: 1.05rem;
+    line-height: 1.75;
+
     // Make sure images and video are not wider than the page
     img {
         max-width: 100%;
         height: auto;
     }
-    li {
-        padding-bottom: 7px;
+
+    p {
+        line-height: 1.75;
+        margin-bottom: 1.25rem;
+    }
+
+    h2 {
+        font-size: 1.6rem;
+        font-weight: 700;
+        color: $bcDarkGreen;
+        margin-top: 2.75rem;
+        margin-bottom: 0.9rem;
+
+        @media (min-width: $screen-md-min) {
+            font-size: 1.9rem;
+        }
+    }
+
+    h3 {
+        font-size: 1.25rem;
+        font-weight: 700;
+        color: $bcDarkGreen;
+        margin-top: 2rem;
+        margin-bottom: 0.6rem;
+
+        @media (min-width: $screen-md-min) {
+            font-size: 1.4rem;
+        }
+    }
+
+    h4 {
+        font-size: 1.1rem;
+        font-weight: 700;
+        color: $bcDarkGreen;
+        margin-top: 1.5rem;
+        margin-bottom: 0.5rem;
+    }
+
+    a {
+        color: darken($bcGreen, 20%);
+        text-decoration: underline;
+        text-underline-offset: 2px;
+
+        &:hover {
+            color: $bcDarkGreen;
+        }
+    }
+
+    ul, ol {
+        padding-left: 1.5rem;
+
+        li {
+            margin-bottom: 0.4rem;
+            line-height: 1.7;
+            padding-bottom: 0;
+        }
+    }
+
+    blockquote {
+        border-left: 4px solid $bcGreen;
+        padding: 0.75rem 1.25rem;
+        background: $bcLighterGrey;
+        border-radius: 0 8px 8px 0;
+        margin: 1.5rem 0;
+        font-style: italic;
+    }
+
+    hr {
+        border-top: 1px solid $bcLightGrey;
+        margin: 2.5rem 0;
     }
 }
 
@@ -362,4 +433,12 @@ h2:hover {
 // KaTex
 .katex-display>.katex {
     text-align: left;
+}
+
+// Page - Fulltext extra padding
+.page-fulltext {
+  #primary {
+    padding-top: 2.5rem;
+    padding-bottom: 3rem;
+  }
 }

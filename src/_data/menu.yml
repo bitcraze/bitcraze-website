@@ -1,79 +1,87 @@
-- page_id: blog
+- title: Applications
+  icon: /images/nav/doc-icon.png
+  subs:
+  - {page_id: applications_landing}
+  - {page_id: autonomous_systems}
+  - {page_id: perception_navigation}
+  - {page_id: swarm_robotics}
+  - {page_id: human_robot_interaction}
+  - {page_id: stem_education}
 
 - title: Products
-  subs:
-  - {page_id: product-crazyflie-2-1-plus}
-  - {page_id: product-crazyflie-2-1-brushless}
-  - {page_id: product-crazyflie-bolt-1-1}
-  - {page_id: product-crazyradio-pa}
-  - {page_id: product-crazyradio-2-0}
-  - {page_id: product-debug-adapter-kit}
-  - {page_id: product-battery-charger-500mA}
-  - {page_id: product-propellers-47-17}
-  - {break: true }
-  - {page_id: product-ai-deck-1-1}
-  - {page_id: product-color-led-deck}
-  - {page_id: product-led-ring-deck}
-  - {page_id: product-qi-1-2-charger}
-  - {page_id: product-buzzer-deck}
-  - {page_id: product-bigquad-deck}
-  - {page_id: product-sd-card-deck}
-  - {page_id: product-prototyping-deck}
-  - {page_id: product-breakout-deck}
-  - {page_id: product-z-ranger-deck-v2}
-  - {page_id: product-flow-deck-v2}
-  - {page_id: product-multi-ranger-deck}
-  - {page_id: product-active-marker-deck}
-  - {page_id: product-motion-capture-marker-deck}
-  - {break: true }
-  - {page_id: overview_positioning}
-  - {page_id: product-loco-pos-deck}
-  - {page_id: product-loco-pos-node}
-  - {page_id: product-lighthouse-deck}
-  - {break: true }
-  - {page_id: product-old}
+  sections:
+  - title: Platforms
+    subs:
+    - {page_id: product-crazyflie-2-1-plus}
+    - {page_id: product-crazyflie-2-1-brushless}
+    - {page_id: product-crazyflie-bolt-1-1}
+    - {page_id: product-crazyradio-pa}
+    - {page_id: product-crazyradio-2-0}
+    - {page_id: product-debug-adapter-kit}
+    - {page_id: product-battery-charger-500mA}
+    - {page_id: product-propellers-47-17}
+  - title: Expansion Decks
+    subs:
+    - {page_id: product-ai-deck-1-1}
+    - {page_id: product-color-led-deck}
+    - {page_id: product-led-ring-deck}
+    - {page_id: product-qi-1-2-charger}
+    - {page_id: product-buzzer-deck}
+    - {page_id: product-bigquad-deck}
+    - {page_id: product-sd-card-deck}
+    - {page_id: product-prototyping-deck}
+    - {page_id: product-breakout-deck}
+    - {page_id: product-z-ranger-deck-v2}
+    - {page_id: product-flow-deck-v2}
+    - {page_id: product-multi-ranger-deck}
+    - {page_id: product-active-marker-deck}
+    - {page_id: product-motion-capture-marker-deck}
+  - title: Positioning
+    subs:
+    - {page_id: overview_positioning}
+    - {page_id: product-loco-pos-deck}
+    - {page_id: product-loco-pos-node}
+    - {page_id: product-lighthouse-deck}
 
-- title: Buy
-  subs:
-  - {title: Buy online, url: "https://store.bitcraze.io/"}
-  - {page_id: buy-retailers}
+- title: Resources
+  sections:
+  - title: Getting Started
+    icon: /images/nav/rocket-icon.png
+    subs:
+    - {page_id: getting-started-start}
+    - {page_id: system-overview}
+    - {page_id: tutorials}
+  - title: Resources
+    icon: /images/nav/doc-icon.png
+    subs:
+    - {page_id: tutorials}
+    - {page_id: system-overview}
+    - {page_id: repository-overview}
+    - {title: GitHub, url: "https://github.com/bitcraze"}
+  - title: Help Center
+    icon: /images/nav/question-icon.png
+    subs:
+    - {title: Discussions, url: "https://discussions.bitcraze.io"}
+    - {page_id: support-frequently-asked-questions}
+    - {page_id: support-troubleshooting}
 
-- title: Support
+- title: Community
+  icon: /images/nav/community-icon.png
   subs:
-  - {page_id: support-getting-help}
-  - {title: Discussions, url: "https://discussions.bitcraze.io"}
-  - {page_id: support-downloads}
-  - {page_id: support-frequently-asked-questions}
-  - {page_id: support-troubleshooting}
-
-- title: Documentation
-  subs:
-  - {page_id: getting-started-start}
-  - {page_id: tutorials}
-  - {page_id: system-overview}
-  - {page_id: repository-overview}
-  - {page_id: meetings}
-  - {page_id: videogallery}
-
-- title: Development
-  icon: /images/nav/community-icon.webp
-  subs:
+  - {page_id: blog}
   - {page_id: development-overview}
   - {page_id: contribute}
-  - {title: GitHub, url: "https://github.com/bitcraze"}
-  - {title: Discussions, url: "https://discussions.bitcraze.io"}
   - {page_id: early-access}
-  - {page_id: external-projects}
+  - {page_id: external-projects}  
 
-- title: About
+- title: Company
+  icon: /images/nav/logo-icon.png
   subs:
   - {page_id: about-bitcraze}
   - {page_id: about-team}
-  - {page_id: about-press}
   - {page_id: product-cycle}
+  - {page_id: buy-retailers}
   - {page_id: thesis}
   - {page_id: jobs}
-  - {page_id: about-contact}
-  - {page_id: about-feedback}
   - {page_id: events}
-  - {page_id: credits}
+  - {page_id: about-contact}

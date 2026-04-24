@@ -18,6 +18,15 @@ $grid-gutter-width-bs5: 1.5rem; // Bootstrap 5 default
     color: inherit;
     font-weight: 900;
   }
+
+  @media (min-width: $navbar-expand-breakpoint) {
+    position: relative;
+
+    > .dropdown-menu {
+      left: 50%;
+      transform: translateX(-50%);
+    }
+  }
 }
 
 .navbar-nav hr {
@@ -69,54 +78,20 @@ $break-point-small-logo: 1030px;
 
 // Center menu items on desktop
 .navbar-menu-center {
-  display: none;
-
   @media (min-width: $navbar-expand-breakpoint) {
-    display: flex;
     position: absolute;
     left: 50%;
     transform: translateX(-50%);
-    align-items: center;
-
-    .navbar-collapse {
-      display: flex !important;
-      flex-basis: auto;
-    }
-  }
-}
-
-// Store button on the right
-.navbar-end {
-  display: none;
-
-  @media (min-width: $navbar-expand-breakpoint) {
     display: flex;
     align-items: center;
-    margin-left: auto;
   }
 }
 
-// Mobile: show collapsed menu and button
-@media (max-width: #{$navbar-expand-breakpoint - 1px}) {
-  .navbar-menu-center {
-    display: block;
-    width: 100%;
-    order: 3;
-
-    .navbar-collapse {
-      &:not(.show) {
-        display: none;
-      }
-    }
-  }
-
-  .navbar-end {
-    display: block;
-    width: 100%;
-    order: 4;
-    text-align: center;
-    margin-top: 1rem;
-  }
+// Store button at the top of mobile menu
+.navbar-mobile-store {
+  padding: 0.75rem 0 0.5rem;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.08);
+  margin-bottom: 0.5rem;
 }
 
 .navbar-collapse {
@@ -131,27 +106,89 @@ $reduced-menu-spacing: 8px;
   margin-right: 0;
 }
 
-// Dropdown icon
+// Dropdown icon (for flat menus)
 .dropdown-menu-icon-item {
   text-align: center;
-  padding: 0.5rem 0 0;
+  padding: 0.75rem 0 0.25rem;
 }
 
 .dropdown-menu-icon {
-  max-height: 48px;
+  max-height: 36px;
   width: auto;
 }
 
-// Dropdown section title header
-.dropdown-menu-title {
+// Flat dropdown — centered text, padding to match section menus
+.dropdown-menu:not(.dropdown-menu-sections) {
+  min-width: 180px;
+  padding: 0.5rem 0.75rem;
+  text-align: center;
+
+  .dropdown-item {
+    text-align: center;
+    padding: 0.35rem 0.75rem;
+  }
+}
+
+// Multi-column dropdown sections
+.dropdown-menu-sections {
+  min-width: 500px;
+  padding: 0.5rem;
+
+  @media (max-width: #{$navbar-expand-breakpoint - 1px}) {
+    min-width: 0;
+    width: 100%;
+  }
+}
+
+.dropdown-sections-row {
+  display: flex;
+  gap: 0;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+
+  @media (max-width: #{$navbar-expand-breakpoint - 1px}) {
+    flex-direction: column;
+  }
+}
+
+.dropdown-section {
+  flex: 1;
+  padding: 0.5rem 0.75rem;
+  text-align: center;
+
+  & + & {
+    border-left: 1px solid rgba($bcGreen, 0.15);
+
+    @media (max-width: #{$navbar-expand-breakpoint - 1px}) {
+      border-left: none;
+      border-top: 1px solid rgba($bcGreen, 0.15);
+    }
+  }
+
+  .dropdown-item {
+    text-align: center;
+  }
+}
+
+.dropdown-section-icon {
+  text-align: center;
+  padding: 0.5rem 0 0.25rem;
+
+  img {
+    max-height: 36px;
+    width: auto;
+  }
+}
+
+.dropdown-section-title {
   display: block;
   color: $bcGreen;
   font-weight: 700;
-  font-size: 1rem;
-  padding: 0.5rem 1rem 0.25rem;
-  pointer-events: none;
-  border-bottom: 1px solid rgba($bcGreen, 0.2);
+  font-size: 0.875rem;
+  padding: 0.25rem 0.5rem 0.5rem;
   margin-bottom: 0.25rem;
+  border-bottom: 1px solid rgba($bcGreen, 0.2);
 }
 
 .navbar-social-search {

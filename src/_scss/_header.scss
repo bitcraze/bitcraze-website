@@ -20,3 +20,42 @@ header.content-header {
 .repo-docs-content {
 	font-family: "Droid Sans";
 }
+
+// Fulltext page header banner
+.content-header-fulltext {
+  background-color: $bcDarkGreen;
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+
+  .fulltext-breadcrumbs {
+    font-size: 0.875rem;
+    margin-bottom: 0.75rem;
+
+    #breadcrumbs, span {
+      color: rgba(255, 255, 255, 0.55);
+    }
+
+    a {
+      color: $bcGreen;
+      font-weight: 500;
+      text-decoration: none;
+
+      &:hover {
+        color: lighten($bcGreen, 10%);
+        text-decoration: underline;
+      }
+    }
+  }
+
+  .fulltext-page-title {
+    color: white;
+    font-size: 2rem;
+    font-weight: 800;
+    line-height: 1.2;
+    margin: 0;
+
+    @media (min-width: $screen-md-min) {
+      font-size: 2.75rem;
+    }
+  }
+}

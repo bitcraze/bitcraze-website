@@ -1,54 +1,72 @@
-<div class="container-fluid footer-nav-fluid">
-    <footer class="row footer-nav">
-        <div class="col-md-12">
-            <div class="row after-footer">
-                <div class="col-md-9 footer-nav-menu float-start">
-                    <nav id="footer-navigation" class="secondary-navigation" role="navigation">
-                        <h1 class="menu-toggle visually-hidden">Footer Menu</h1>
+<footer class="site-footer-redesign">
+  <div class="container footer-links-container">
+    <div class="row">
 
-                        <div class="menu-footer-container">
-                            <ul id="menu-footer" class="list-inline dividers">
-                                <li id="menu-item-footer-1" class="menu-item"><a class="smoothscroll" title="Back to top of page" href="#pagetop"><span class="fa-solid fa-angle-up"></span> Top</a></li>
-                                <li id="menu-item-footer-2" class="menu-item menu-item-footer-portal"><a title="Home" href="/">Home</a></li>
-                                <li class="menu-item menu-item-footer-portal"><a title="Research" href="/portals/research/">Research</a></li>
-                                <li class="menu-item menu-item-footer-portal"><a title="Education" href="/portals/education/">Education</a></li>
-                                <li class="menu-item menu-item-footer-portal"><a title="Development" href="/portals/development/">Development</a></li>
-                                <li class="menu-item menu-item-footer-portal"><a title="DIY" href="/portals/diy/">DIY</a></li>
-                                <li id="menu-item-footer-3" class="menu-item"><a title="License" href="/license/">License</a></li>
-                                <li id="menu-item-footer-4" class="menu-item"><a title="Cookie Policy" href="/cookies/">Cookie Policy</a></li>
-                                <li id="menu-item-footer-5" class="menu-item"><a title="Privacy Policy" href="/privacy-policy/">Privacy Policy</a></li>
-                                <li id="menu-item-footer-6" class="menu-item"><a title="Signup for newsletter" href="/signup/">Sign up for newsletter</a></li>
-                                <li id="menu-item-footer-7" class="menu-item"><a title="feedback" href="/about/feedback/">Feedback</a></li>
-                            </ul>
-                        </div>
-                    </nav>
-                    <div class="improve">
-                        {% assign edit_repo = "bitcraze-website" %}
-                        {% assign edit_repo_base = "src" %}
-                        {% assign edit_repo_path = page.path %}
-                        {% assign edit_visible = true %}
+      <div class="col-6 col-md-3 footer-col">
+        <h5 class="footer-col-heading">Sitemap</h5>
+        <ul class="footer-col-links">
+          <li><a href="/">Home</a></li>
+          <li><a href="/portals/research/">Research</a></li>
+          <li><a href="/portals/education/">Education</a></li>
+          <li><a href="/portals/development/">Development</a></li>
+          <li><a href="/portals/diy/">DIY</a></li>
+        </ul>
+      </div>
 
-                        {% if page contains "repo_name" %}
-                            {% assign edit_repo = page.repo_name %}
-                            {% assign edit_repo_base = "docs" %}
-                            {% assign capture edit_repo_path = page.path | remove_first: "documentation/repository/" | remove_first: page.repo_name |  remove_first: '/' | remove_first: page.repo_tag |remove_first: '/' %}
-                            {% unless page.repo_tag == "master" %}
-                                {% assign edit_visible = false %}
-                            {% endunless %}
-                        {% endif %}
-                        {% if edit_visible %}
-                        <a href="https://github.com/bitcraze/{{edit_repo}}/edit/master/{{edit_repo_base}}/{{edit_repo_path}}"><i class="fa-solid fa-pencil"></i> &nbsp;Improve this page</a>
-                        {% endif %}
-                    </div>
-                </div>
+      <div class="col-6 col-md-3 footer-col">
+        <h5 class="footer-col-heading">Trust &amp; Legal</h5>
+        <ul class="footer-col-links">
+          <li><a href="/privacy-policy/">Privacy Policy</a></li>
+          <li><a href="/cookies/">Cookie Policy</a></li>
+          <li><a href="/license/">License</a></li>
+          <li><a href="/about/press/">Press</a></li>
+          <li><a href="/about/credits/">Credits</a></li>
+        </ul>
+      </div>
 
-                <div id="site-credits" class="col-md-3 site-credits float-end text-end">
-                    <span class="credits-copyright">&copy; 2026
-                        <a href="/" rel="home">Bitcraze AB</a>
-                    </span>
-                    <a href="/" rel="home"><img src="/images/footerLogo.png" alt="Bitcraze logo"/></a>
-                </div>
-            </div>
+      <div class="col-6 col-md-3 footer-col">
+        <h5 class="footer-col-heading">Cooperation</h5>
+        <ul class="footer-col-links">
+          <li><a href="/signup/">Sign up for newsletter</a></li>
+          <li><a href="/buy/local-retailers/">Distributors</a></li>
+        </ul>
+      </div>
+
+      <div class="col-6 col-md-3 footer-col">
+        <h5 class="footer-col-heading">Support</h5>
+        <ul class="footer-col-links">
+          <li><a href="/about/feedback/">Feedback</a></li>
+          <li><a href="/support/f-a-q/">FAQ</a></li>
+          <li><a href="/support/troubleshooting/">Troubleshooting</a></li>
+          <li><a href="https://discussions.bitcraze.io">GitHub Discussions</a></li>
+        </ul>
+      </div>
+
+    </div>
+  </div>
+
+  <hr class="footer-divider">
+
+  <div class="container footer-bottom-container">
+    <div class="row align-items-center">
+
+      <div class="col-12 col-md-auto footer-social-block">
+        <span class="footer-social-label">Follow us on social media:</span>
+        <div class="footer-social-icons">
+          <a href="https://github.com/bitcraze" aria-label="GitHub"><i class="fa-brands fa-github"></i></a>
+          <a href="https://www.linkedin.com/company/bitcraze-ab/" aria-label="LinkedIn"><i class="fa-brands fa-linkedin"></i></a>
+          <a href="https://bsky.app/profile/bitcraze.io" aria-label="Bluesky"><i class="fa-brands fa-bluesky"></i></a>
+          <a rel="me" href="https://fosstodon.org/@bitcraze" aria-label="Mastodon"><i class="fa-brands fa-mastodon"></i></a>
+          <a href="/feed/" aria-label="RSS" data-proofer-ignore><i class="fa-solid fa-rss"></i></a>
         </div>
-    </footer>
-</div>
+      </div>
+
+      <div class="col-12 col-md footer-logo-block text-md-end">
+        <a href="/" rel="home">
+          <img src="/images/nav/footer-logo.png" alt="Bitcraze logo" class="footer-logo"/>
+        </a>
+      </div>
+
+    </div>
+  </div>
+</footer>

@@ -1,37 +1,52 @@
 <div class="container-fluid navigation-fluid">
     <div class="row">
         <div class="col-md-12">
-            <nav id="site-navigation" class="main-navigation navbar navbar-expand-lg"
+            <nav id="site-navigation" class="main-navigation navbar navbar-expand-lg navbar-light"
                  role="navigation">
+
                 <!-- Logo - Left -->
                 <div class="navbar-brand">
-                    <a href="/" rel="home"> <img
-                            src="/images/nav/navbar-logo.webp"
-                            alt="Bitcraze logo"
-                            title="Bitcraze"/></a>
+                    <a href="/" rel="home">
+                        <img src="/images/nav/navbar-logo.webp"
+                             alt="Bitcraze logo"
+                             title="Bitcraze"/>
+                    </a>
                 </div>
 
-                <!-- Mobile toggle button -->
-                <button type="button" class="navbar-toggler"
+                <!-- Hamburger toggler - Right on mobile -->
+                <button type="button" class="navbar-toggler ms-auto"
                         data-bs-toggle="collapse"
-                        data-bs-target=".navbar-collapse"
+                        data-bs-target="#navbar-menu"
                         aria-controls="navbar-menu"
                         aria-expanded="false"
                         aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
 
-                <!-- Menu items - Center -->
-                <div class="navbar-menu-center">
-                    {% include menu.html %}
+                <!-- Collapsible content: store (mobile top) + menu items -->
+                <div class="navbar-collapse collapse" id="navbar-menu">
+
+                    <!-- Store button: shown at top inside mobile menu only -->
+                    <div class="navbar-mobile-store d-lg-none">
+                        <a href="https://store.bitcraze.io/" class="btn btn-primary btn-block btn-color-secondary w-100">
+                            <i class="fa-solid fa-cart-shopping fa-fw"></i> Store
+                        </a>
+                    </div>
+
+                    <!-- Menu items - Center on desktop -->
+                    <div class="navbar-menu-center">
+                        {% include menu.html %}
+                    </div>
+
                 </div>
 
-                <!-- Store button - Right -->
-                <div class="navbar-end ms-auto">
+                <!-- Store button - Right on desktop only -->
+                <div class="navbar-end d-none d-lg-flex ms-auto">
                     <a href="https://store.bitcraze.io/" class="btn btn-primary btn-block btn-color-secondary">
                         <i class="fa-solid fa-cart-shopping fa-fw"></i> Store
                     </a>
                 </div>
+
             </nav>
         </div>
     </div>
