@@ -111,9 +111,11 @@ the flight area, shaped in inverse triangles.
 
 {% img reference system; wide; /images/tutorials/getting_started_with_lps/loco_ref_system_6_anchors.png %}
 {% endtab %}
+{% tab More than 8 anchors %}
+If you have more than 8 anchors, we suggest you setup a system with 8 anchors first and then switch your system to TDoA3 to add more anchors to the system. See the [tdoa3 setup page](/documentation/repository/lps-node-firmware/master/user-guides/tdoa3_setup/) for more information.
+{% endtab %}
 {% endtabgroup %}
 
-If you have more than 8 anchors, we suggest you setup a system with 8 anchors first and then switch your system to TDoA3 to add more anchors to the system. See the [tdoa3 setup page](/documentation/repository/lps-node-firmware/master/user-guides/tdoa3_setup/) for more information.
 {% endsi_step %}
 
 {% si_step Powering the anchors %}
