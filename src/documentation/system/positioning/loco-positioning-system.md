@@ -97,8 +97,8 @@ the long range mode.
 
 {% row_image_text_links Performance %}
 {% row_text %}
-The Loco Positioning system is based on the Decawave DWM1000 chip and has an accuracy in the decimeter range.
-The 3D positioning performance depends of the system setup and environment.
+The Loco Positioning system is based on the Decawave DWM1000 chip and has an accuracy in the 10cm range.
+However, note that the 3D positioning performance depends of the system setup and environment. In reality, the accuracy translates to around ±20cm.
 
 The Loco Positioning system has mainly been designed for indoor use.
 {% endrow_text %}
