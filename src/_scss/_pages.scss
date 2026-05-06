@@ -16,33 +16,45 @@
         margin-bottom: 1.25rem;
     }
 
+    h1 {
+        font-size: 2rem;
+        font-weight: 600;
+        color: $bcDarkGreen;
+        margin-top: 0;
+        margin-bottom: 1.25rem;
+
+        @media (min-width: $screen-md-min) {
+            font-size: 2.4rem;
+        }
+    }
+
     h2 {
-        font-size: 1.6rem;
-        font-weight: 700;
+        font-size: 1.5rem;
+        font-weight: 600;
         color: $bcDarkGreen;
         margin-top: 2.75rem;
         margin-bottom: 0.9rem;
 
         @media (min-width: $screen-md-min) {
-            font-size: 1.9rem;
+            font-size: 1.75rem;
         }
     }
 
     h3 {
-        font-size: 1.25rem;
-        font-weight: 700;
+        font-size: 1.15rem;
+        font-weight: 500;
         color: $bcDarkGreen;
         margin-top: 2rem;
         margin-bottom: 0.6rem;
 
         @media (min-width: $screen-md-min) {
-            font-size: 1.4rem;
+            font-size: 1.25rem;
         }
     }
 
     h4 {
-        font-size: 1.1rem;
-        font-weight: 700;
+        font-size: 1rem;
+        font-weight: 400;
         color: $bcDarkGreen;
         margin-top: 1.5rem;
         margin-bottom: 0.5rem;
@@ -162,6 +174,12 @@ table {
     @extend .table-bordered;
 }
 
+.content-area table {
+    display: block;
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+}
+
 .collapse-section {
   a {
     line-height: 2;
@@ -200,6 +218,26 @@ table {
 // Page - Product
 .page-product {
     padding-bottom: 20px;
+
+    // On mobile: shrink the highlight icons and give the product image more room
+    @media (max-width: 767px) {
+        .bc-fa-fw {
+            font-size: 1.2rem;
+        }
+
+        // Tab section icons (fa-5x hardcoded in plugin)
+        .fa-5x {
+            font-size: 2rem;
+        }
+
+        .pp-main-image-narrow,
+        .pp-main-image-medium,
+        .pp-main-image-wide {
+            width: 80% !important;
+            margin-left: 10% !important;
+        }
+    }
+
     .pp-main-image-base {
         margin-bottom: 10px;
         width: 100%;
@@ -320,8 +358,12 @@ h2:hover {
     }
 
     h2 {
-        font-size: 200%;
-        font-weight: 500;
+        font-size: 1.5rem;
+        font-weight: 600;
+
+        @media (min-width: $screen-md-min) {
+            font-size: 1.75rem;
+        }
     }
 
 }

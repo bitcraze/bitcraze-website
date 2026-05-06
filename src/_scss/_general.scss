@@ -13,13 +13,16 @@
   max-width: none;
 }
 
-body {
-  background-color: #eee;
+html, body {
+  background-color: white;
   overflow-x: hidden;
+  margin: 0;
+  padding: 0;
 }
 
 #page {
   max-width: 2500px;
+  width: 100%;
   margin: auto;
   background-color: white;
 

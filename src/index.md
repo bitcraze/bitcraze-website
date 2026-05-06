@@ -13,16 +13,17 @@ page_id: home
         <h1>Build, Research, and Teach<br>
         with the World's Most Flexible<br>
         Open-Source <span class="highlight-green">Drone Platform</span>.</h1>
-        <div class="header_buttons">
-          <a href="https://store.bitcraze.io/" class="btn btn-primary btn-block btn-color-primary">Explore Research Solutions</a>
-          <a href="/documentation/start/" class="btn btn-primary btn-block btn-color-secondary">Shop Drones & Kits</a>
-        </div>
       </div>
 
       <div class="header_image">
         <a href="/products/crazyflie-2-1-brushless/">
           <img src="/images/frontpage/front-brushless.webp" alt="ROSCon 2024">
         </a>
+      </div>
+
+      <div class="header_buttons">
+        <a href="https://store.bitcraze.io/" class="btn btn-primary btn-block btn-color-primary">Explore Research Solutions</a>
+        <a href="/documentation/start/" class="btn btn-primary btn-block btn-color-secondary">Shop Drones & Kits</a>
       </div>
     </div>
   </div>
@@ -32,7 +33,7 @@ page_id: home
 <!-- The Crazyflie Ecosystem start -->
 <div class="container-fluid section section-spacing frontpage-section">
 
-  <div id="ecosystem-section" class="row what-we-do-section-padding section-content justify-content-center align-items-center" style="padding-top: 20rem; padding-bottom: 5rem;">
+  <div id="ecosystem-section" class="row what-we-do-section-padding section-content justify-content-center align-items-center" style="padding-bottom: 5rem;">
     <div class="col-md-5 col-lg-4">
       <img src="/images/frontpage/front-ecosystem.webp" alt="Open source" class="w-100">
     </div>
@@ -59,7 +60,7 @@ page_id: home
         </h2>
         <p style="text-align:left;">Purpose-built nano-drones for safe, precise, and repeatable indoor flight in research and development environments.
         </p>
-        <p style="text-align:left;"><b>Explore the Platform <img src="/images/frontpage/front-arrow-white.png" alt="→" style="height: 0.5em; vertical-align: middle; padding-left:1em"></b></p>
+        <p style="text-align:left;"><b style="white-space: nowrap;">Explore the Platform <img src="/images/frontpage/front-arrow-white.png" alt="→" style="height: 0.5em; vertical-align: middle; padding-left:1em;"></b></p>
       </div>
     </a>
   </div>
@@ -72,7 +73,7 @@ page_id: home
         </h2>
         <p style="text-align:left;">Add sensors, compute, positioning, and communication to tailor the platform to your application.
         </p>
-        <p style="text-align:left;"><b>Explore All Decks <img src="/images/frontpage/front-arrow.png" alt="→" style="height: 0.5em; vertical-align: middle; padding-left:1em"></b></p>
+        <p style="text-align:left;"><b style="white-space: nowrap;">Explore All Decks <img src="/images/frontpage/front-arrow.png" alt="→" style="height: 0.5em; vertical-align: middle; padding-left:1em"></b></p>
       </div>
       <div class="col-md-4">
         <img src="/images/frontpage/front-platform.webp" alt="Platform" class="w-100">
@@ -91,7 +92,7 @@ page_id: home
         </h2>
         <p style="text-align:left;">Precise indoor localization using laser, ultra-wideband (UWB), and vision-based systems for single drones and swarms.
         </p>
-        <p style="text-align:left;"><b>Explore Positioning Systems <img src="/images/frontpage/front-arrow.png" alt="→" style="height: 0.5em; vertical-align: middle; padding-left:1em"></b></p>
+        <p style="text-align:left;"><b style="white-space: nowrap;">Explore Positioning Systems <img src="/images/frontpage/front-arrow.png" alt="→" style="height: 0.5em; vertical-align: middle; padding-left:1em"></b></p>
       </div>
     </a>
   </div>
@@ -104,7 +105,7 @@ page_id: home
         </h2>
         <p style="text-align:left;">Firmware, SDKs, simulators, and tooling for developing, testing, and deploying autonomous and swarm systems.
         </p>
-        <p style="text-align:left;"><b>Explore Software & Tools <img src="/images/frontpage/front-arrow.png" alt="→" style="height: 0.5em; vertical-align: middle; padding-left:1em"></b></p>
+        <p style="text-align:left;"><b style="white-space: nowrap;">Explore Software & Tools <img src="/images/frontpage/front-arrow.png" alt="→" style="height: 0.5em; vertical-align: middle; padding-left:1em"></b></p>
       </div>
       <div class="col-md-4">
         <img src="/images/frontpage/front-platform.webp" alt="Platform" class="w-100">
@@ -177,8 +178,8 @@ page_id: home
       <p>How researchers, educators, and engineers are using<br>the Crazyflie to explore autonomy, swarms, and indoor<br>flight — from labs to early industrial prototypes.</p>
     </div>
   </div>
-  <div class="row justify-content-center g-3 mb-3">
-    <div class="col-auto">
+  <div class="row justify-content-center g-3">
+    <div class="col-6 col-md-auto">
       <div class="appl-card appl-card--swarm">
         <div class="appl-card-header">
           <h3>Swarm<br>Robotics</h3>
@@ -189,7 +190,7 @@ page_id: home
         </div>
       </div>
     </div>
-    <div class="col-auto">
+    <div class="col-6 col-md-auto">
       <div class="appl-card appl-card--hri">
         <div class="appl-card-header">
           <h3>Human–Robot Interaction &amp; Education</h3>
@@ -200,7 +201,7 @@ page_id: home
         </div>
       </div>
     </div>
-    <div class="col-auto">
+    <div class="col-6 col-md-auto">
       <div class="appl-card appl-card--stem">
         <div class="appl-card-header">
           <h3>STEM and Higher Education</h3>
@@ -211,9 +212,7 @@ page_id: home
         </div>
       </div>
     </div>
-  </div>
-  <div class="row justify-content-center g-3">
-    <div class="col-auto">
+    <div class="col-6 col-md-auto">
       <div class="appl-card appl-card--autosys">
         <div class="appl-card-header">
           <h3>Autonomous<br>Systems</h3>
@@ -224,7 +223,7 @@ page_id: home
         </div>
       </div>
     </div>
-    <div class="col-auto">
+    <div class="col-6 col-md-auto">
       <div class="appl-card appl-card--percept">
         <div class="appl-card-header">
           <h3>Perception &amp; Navigation</h3>
@@ -300,35 +299,34 @@ page_id: home
     </div>
   </div>
   <div class="row g-3 justify-content-center mb-3">
-    <div class="col-auto"><a href="https://www.nasa.gov/" class="customer-logo-box"><img src="/images/logos/NASA_logo.png" alt="NASA"></a></div>
-    <div class="col-auto"><a href="https://web.mit.edu/" class="customer-logo-box"><img src="/images/logos/mit.svg" alt="MIT"></a></div>
-    <div class="col-auto"><a href="https://www.chalmers.se/en/" class="customer-logo-box"><img src="/images/logos/chalmers.png" alt="Chalmers University of Technology"></a></div>
+    <div class="col-4 col-md-auto"><a href="https://www.nasa.gov/" class="customer-logo-box"><img src="/images/logos/NASA_logo.png" alt="NASA"></a></div>
+    <div class="col-4 col-md-auto"><a href="https://web.mit.edu/" class="customer-logo-box"><img src="/images/logos/mit.svg" alt="MIT"></a></div>
+    <div class="col-4 col-md-auto"><a href="https://www.chalmers.se/en/" class="customer-logo-box"><img src="/images/logos/chalmers.png" alt="Chalmers University of Technology"></a></div>
   </div>
   <div class="row g-3 justify-content-center mb-3">
-    <div class="col-auto"><a href="https://www.mcgill.ca/" class="customer-logo-box"><img src="/images/logos/mcgill.svg" alt="McGill University"></a></div>
-    <div class="col-auto"><a href="https://www.ethz.ch/en.html" class="customer-logo-box"><img src="/images/logos/Eth-zurich_logo_1.png" alt="ETH Zurich"></a></div>
-    <div class="col-auto"><a href="https://www.usc.edu/" class="customer-logo-box"><img src="/images/logos/usc.png" alt="USC"></a></div>
+    <div class="col-4 col-md-auto"><a href="https://www.mcgill.ca/" class="customer-logo-box"><img src="/images/logos/mcgill.svg" alt="McGill University"></a></div>
+    <div class="col-4 col-md-auto"><a href="https://www.ethz.ch/en.html" class="customer-logo-box"><img src="/images/logos/Eth-zurich_logo_1.png" alt="ETH Zurich"></a></div>
+    <div class="col-4 col-md-auto"><a href="https://www.usc.edu/" class="customer-logo-box"><img src="/images/logos/usc.png" alt="USC"></a></div>
   </div>
   <div class="row g-3 justify-content-center mb-3">
-    <div class="col-auto"><a href="https://www.uniroma1.it/en/" class="customer-logo-box"><img src="/images/logos/Sapienza_Roma.png" alt="Sapienza University of Rome"></a></div>
-    <div class="col-auto"><a href="https://www.lth.se/english" class="customer-logo-box"><img src="/images/logos/lund.png" alt="Lund University"></a></div>
-    <div class="col-auto"><a href="https://www.tudelft.nl/en/" class="customer-logo-box"><img src="/images/logos/TUDelft.png" alt="TU Delft"></a></div>
+    <div class="col-4 col-md-auto"><a href="https://www.uniroma1.it/en/" class="customer-logo-box"><img src="/images/logos/Sapienza_Roma.png" alt="Sapienza University of Rome"></a></div>
+    <div class="col-4 col-md-auto"><a href="https://www.lth.se/english" class="customer-logo-box"><img src="/images/logos/lund.png" alt="Lund University"></a></div>
+    <div class="col-4 col-md-auto"><a href="https://www.tudelft.nl/en/" class="customer-logo-box"><img src="/images/logos/TUDelft.png" alt="TU Delft"></a></div>
   </div>
   <div class="row g-3 justify-content-center">
-    <div class="col-auto"><a href="https://www.bosch-sensortec.com/" class="customer-logo-box"><img src="/images/logos/bosch.png" alt="Bosch"></a></div>
-    <div class="col-auto"><a href="https://www.microsoft.com/" class="customer-logo-box"><img src="/images/logos/microsoft.png" alt="Microsoft"></a></div>
-    <div class="col-auto"><a href="https://www.dlr.de/" class="customer-logo-box"><img src="/images/logos/DLR_Logo.png" alt="DLR"></a></div>
+    <div class="col-4 col-md-auto"><a href="https://www.bosch-sensortec.com/" class="customer-logo-box"><img src="/images/logos/bosch.png" alt="Bosch"></a></div>
+    <div class="col-4 col-md-auto"><a href="https://www.microsoft.com/" class="customer-logo-box"><img src="/images/logos/microsoft.png" alt="Microsoft"></a></div>
+    <div class="col-4 col-md-auto"><a href="https://www.dlr.de/" class="customer-logo-box"><img src="/images/logos/DLR_Logo.png" alt="DLR"></a></div>
   </div>
 </div>
 <!-- Customers end -->
 
 <!-- New testimonials start -->
 <div class="container-fluid testimonial-new-section px-0">
-  <img src="/images/frontpage/heart-flight.png" alt="Crazyflie heart flight" class="testimonial-heart-img">
   <div class="testimonial-new-content">
       <h2>Voices From the <span class="highlight-green">Community</span></h2>
       <div class="row g-3">
-        <div class="col-12 col-sm-6">
+        <div class="col-6">
           <div class="testimonial-new-card" style="background-image: url('/images/testimonials/carnegie.jpg')">
             <div class="testimonial-new-overlay">
               <blockquote>"We use the Crazyflie platform to evaluate our algorithms because the hardware is robust and the user community has helped make firmware available on which we can base our own systems"</blockquote>
@@ -336,7 +334,7 @@ page_id: home
             </div>
           </div>
         </div>
-        <div class="col-12 col-sm-6">
+        <div class="col-6">
           <div class="testimonial-new-card" style="background-image: url('/images/testimonials/usc.jpg')">
             <div class="testimonial-new-overlay">
               <blockquote>"The Crazyflie is a great platform for research because of its openness and extensibility; additionally, the size allows us to test algorithms on a swarm of robots even in space-limited indoor environments."</blockquote>
@@ -344,7 +342,7 @@ page_id: home
             </div>
           </div>
         </div>
-        <div class="col-12 col-sm-6">
+        <div class="col-6">
           <div class="testimonial-new-card" style="background-image: url('/images/testimonials/H-modquad.png')">
             <div class="testimonial-new-overlay">
               <blockquote>"In our lab, we love to work with the Crazyflie ecosystem because its open-source platform allows us to write new flight controllers. We have used them to develop modular vehicles, blimps, catenary robots, and jumping robots."</blockquote>
@@ -352,7 +350,7 @@ page_id: home
             </div>
           </div>
         </div>
-        <div class="col-12 col-sm-6">
+        <div class="col-6">
           <div class="testimonial-new-card" style="background-image: url('/images/testimonials/MIT.jpg')">
             <div class="testimonial-new-overlay">
               <blockquote>"The Crazyflie is easily obtainable, safe, and (we can certify ourselves) very robust. Moreover, since it is open-source and fully programmable, we were able to easily modify the Crazyflie to fit our needs."</blockquote>
@@ -362,6 +360,7 @@ page_id: home
         </div>
       </div>
   </div>
+  <img src="/images/frontpage/heart-flight.png" alt="Crazyflie heart flight" class="testimonial-heart-img">
 </div>
 <!-- New testimonials end -->
 

@@ -1,6 +1,9 @@
 .front-page {
   position: relative;
   isolation: isolate;
+  overflow-x: hidden;
+
+  h1, h2, h3, h4 { font-weight: 700; }
 
   @media (min-width: $screen-md-min) {
     &::before {
@@ -129,9 +132,9 @@
         font-size: $header-font-size-small-screen;
         line-height: 1.1;
         font-weight: $font-weight-front-page;
-        text-align: center;
-        margin-top: 5vh;
-        margin-bottom: 5vh;
+        text-align: left;
+        margin-top: 3vh;
+        margin-bottom: 2vh;
         color: $bcDarkGreen;
 
         .highlight-green {
@@ -199,11 +202,12 @@
         flex-direction: column;
         justify-content: flex-start;
         align-self: center;
-        gap: 1rem;
+        gap: 0rem;
+        margin-top: 1.5rem;
 
         a {
         width: 100%;
-        max-width: 400px;
+        max-width: 280px;
         }
 
         //992px
@@ -224,14 +228,17 @@
     }
 
     .header_image {
+      display: block;
       align-self: center;
-      margin-top: 2rem;
-      max-width: 100%;
+      max-width: 70%;
+      margin-bottom: 1rem;
 
       @media (min-width: $screen-md-min) {
         align-self: flex-end;
         max-width: 50%;
+        margin-bottom: 0;
         margin-top: -2rem;
+        order: 1;
       }
 
       img {
@@ -349,6 +356,14 @@
         margin-bottom: 77px;
         }
       }
+    }
+  }
+
+  #ecosystem-section {
+    padding-top: 12rem;
+
+    @media (min-width: $screen-md-min) {
+      padding-top: 20rem;
     }
   }
 
@@ -515,6 +530,38 @@
       }
     }
 
+    // On mobile, stack card contents vertically (image top, text bottom)
+    @media (max-width: 767px) {
+      .text-box_platform,
+      .text-box_positioning,
+      .text-box_decks {
+        flex-wrap: wrap;
+        border-radius: 12px;
+
+        > div {
+          width: 100% !important;
+          max-width: 100% !important;
+          flex: 0 0 100% !important;
+          padding: 1rem 1.5rem !important;
+        }
+
+        // Image div: centered, no text padding, shown first
+        > div:has(> img) {
+          padding: 1rem 0 !important;
+          order: -1;
+          display: flex;
+          justify-content: center;
+
+          img {
+            width: 75% !important;
+          }
+        }
+      }
+
+      .text-box_platform  { border-radius: 0 12px 12px 0; }
+      .text-box_positioning { border-radius: 12px 0 0 12px; }
+    }
+
     .text-box_platform {
       background: $bcGreen;
       color: $bcDarkGreen;
@@ -626,16 +673,21 @@
       }
 
       .testimonial-heart-img {
-        display: none;
+        display: block;
+        width: 60%;
+        max-width: 300px;
+        height: auto;
+        margin: 2rem 0 2rem 0;
+        pointer-events: none;
 
         @media (min-width: $screen-md-min) {
-          display: block;
           position: absolute;
           left: 0;
           top: 0;
-          height: 100%;
           width: auto;
-          pointer-events: none;
+          height: 100%;
+          max-width: none;
+          margin: 0;
           padding-top: 5vh;
           padding-bottom: 5vh;
         }
@@ -671,9 +723,13 @@
         position: relative;
         border-radius: 12px;
         overflow: hidden;
-        aspect-ratio: 4 / 3;
+        aspect-ratio: 3 / 4;
         background-size: cover;
         background-position: center;
+
+        @media (min-width: $screen-sm-min) {
+          aspect-ratio: 4 / 3;
+        }
 
         .testimonial-new-overlay {
           position: absolute;
@@ -682,17 +738,27 @@
           display: flex;
           flex-direction: column;
           justify-content: center;
-          padding: 1.25rem;
+          padding: 0.6rem;
           text-align: center;
+
+          @media (min-width: $screen-sm-min) {
+            padding: 1.25rem;
+          }
 
           blockquote {
             color: white;
             font-style: italic;
-            font-size: 0.8rem;
-            line-height: 1.55;
-            margin: 0 0 0.75rem;
+            font-size: 0.65rem;
+            line-height: 1.45;
+            margin: 0 0 0.5rem;
             padding: 0;
             border: none;
+
+            @media (min-width: $screen-sm-min) {
+              font-size: 0.8rem;
+              line-height: 1.55;
+              margin: 0 0 0.75rem;
+            }
 
             @media (min-width: $screen-md-min) {
               font-size: 0.875rem;
@@ -701,9 +767,13 @@
 
           cite {
             color: $bcGreen;
-            font-size: 0.75rem;
+            font-size: 0.6rem;
             font-style: normal;
             font-weight: 600;
+
+            @media (min-width: $screen-sm-min) {
+              font-size: 0.75rem;
+            }
           }
         }
       }
@@ -716,10 +786,15 @@
 
       .video-slogan-inner {
         position: relative;
+        min-height: 90vw;
         max-height: 70vh;
         overflow: clip;
         display: flex;
         align-items: center;
+
+        @media (min-width: $screen-md-min) {
+          min-height: unset;
+        }
 
         .video-slogan-overlay {
           position: absolute;
@@ -794,9 +869,15 @@
         justify-content: center;
         background-color: #F3F3F3;
         border-radius: 12px;
-        padding: 1.25rem;
-        height: 100px;
-        width: 185px;
+        padding: 0.5rem;
+        height: 80px;
+        width: 100%;
+
+        @media (min-width: $screen-md-min) {
+          width: 185px;
+          height: 100px;
+          padding: 1.25rem;
+        }
         transition: box-shadow 0.2s ease;
 
         @media (min-width: $screen-md-min) {
@@ -809,7 +890,7 @@
 
         img {
           max-width: 100%;
-          max-height: 55px;
+          max-height: 35px;
           object-fit: contain;
 
           @media (min-width: $screen-md-min) {
@@ -938,8 +1019,8 @@
         position: relative;
         border-radius: 12px;
         overflow: hidden;
-        width: clamp(150px, 40vw, 220px);
-        min-height: 320px;
+        width: 100%;
+        min-height: 240px;
         background-color: var(--appl-card-color);
 
         @media (min-width: $screen-md-min) {
@@ -1025,7 +1106,17 @@
     .video-style {
       video {
         width: 100%;
-        height: auto;
+        height: 100%;
+        object-fit: cover;
+        position: absolute;
+        top: 0;
+        left: 0;
+
+        @media (min-width: $screen-md-min) {
+          position: static;
+          height: auto;
+          object-fit: unset;
+        }
       }
 
       video::-webkit-media-controls {
