@@ -183,7 +183,7 @@ page_id: home
       <div class="appl-card appl-card--swarm">
         <div class="appl-card-header">
           <h3>Swarm<br>Robotics</h3>
-          <a href="#" class="btn appl-card-btn">Discover more</a>
+          <a href="/applications/swarm-robotics/" class="btn appl-card-btn">Discover more</a>
         </div>
         <div class="appl-card-img-wrap">
           <img src="/images/frontpage/appl-swarm.png" alt="Swarm Robotics">
@@ -194,7 +194,7 @@ page_id: home
       <div class="appl-card appl-card--hri">
         <div class="appl-card-header">
           <h3>Human–Robot Interaction &amp; Education</h3>
-          <a href="#" class="btn appl-card-btn">Discover more</a>
+          <a href="/applications/human-robot-interaction/" class="btn appl-card-btn">Discover more</a>
         </div>
         <div class="appl-card-img-wrap">
           <img src="/images/frontpage/appl-hri.png" alt="Human-Robot Interaction and Education">
@@ -205,7 +205,7 @@ page_id: home
       <div class="appl-card appl-card--stem">
         <div class="appl-card-header">
           <h3>STEM and Higher Education</h3>
-          <a href="#" class="btn appl-card-btn">Discover more</a>
+          <a href="/applications/stem-education/" class="btn appl-card-btn">Discover more</a>
         </div>
         <div class="appl-card-img-wrap">
           <img src="/images/frontpage/appl-stem.png" alt="STEM and Higher Education">
@@ -216,7 +216,7 @@ page_id: home
       <div class="appl-card appl-card--autosys">
         <div class="appl-card-header">
           <h3>Autonomous<br>Systems</h3>
-          <a href="#" class="btn appl-card-btn">Discover more</a>
+          <a href="/applications/autonomous-systems/" class="btn appl-card-btn">Discover more</a>
         </div>
         <div class="appl-card-img-wrap">
           <img src="/images/frontpage/appl-autosys.png" alt="Autonomous Systems">
@@ -227,7 +227,7 @@ page_id: home
       <div class="appl-card appl-card--percept">
         <div class="appl-card-header">
           <h3>Perception &amp; Navigation</h3>
-          <a href="#" class="btn appl-card-btn">Discover more</a>
+          <a href="/applications/perception-navigation/" class="btn appl-card-btn">Discover more</a>
         </div>
         <div class="appl-card-img-wrap">
           <img src="/images/frontpage/appl-percept.png" alt="Perception and Navigation">

@@ -1,12 +1,12 @@
 - title: Applications
   icon: /images/nav/doc-icon.png
   subs:
-  - {page_id: applications_landing}
-  - {page_id: autonomous_systems}
-  - {page_id: perception_navigation}
-  - {page_id: swarm_robotics}
-  - {page_id: human_robot_interaction}
-  - {page_id: stem_education}
+  - {page_id: applications-landing}
+  - {page_id: autonomous-systems}
+  - {page_id: perception-navigation}
+  - {page_id: swarm-robotics}
+  - {page_id: human-robot-interaction}
+  - {page_id: stem-education}
 
 - title: Products
   sections:

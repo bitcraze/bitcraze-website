@@ -1,20 +1,25 @@
 ---
 layout: page-front
 title: Autonomous Systems
-page_id: autonomous_systems
+page_id: autonomous-systems
 redirects:
   - /autonomous-systems/
 ---
 
 <div class="app-page">
 
+<!-- ── Page title ────────────────────────────────────────────────────────── -->
+<div class="container app-page-header">
+  <h1 class="app-page-title">Autonomous Systems</h1>
+</div>
+
 <!-- ── Section 1: Intro ──────────────────────────────────────────────────── -->
 <div class="container app-intro-section">
-  <h1 class="text-center">
+  <h2 class="text-center">
     <span class="highlight-green">Building</span> and
     <span class="highlight-green">Testing</span><br>
     the Future of <span class="highlight-green">Autonomy</span>
-  </h1>
+  </h2>
   <div class="row justify-content-center">
     <div class="col-md-7">
       <div class="app-feature-row">
@@ -33,7 +38,7 @@ redirects:
 <div class="row platform-section-bg section-content justify-content-center align-items-center app-concept-row">
   <div class="col-md-10 col-lg-8 d-flex align-items-center justify-content-center text-block-box text-box_platform">
     <div class="col-md-4">
-      <img src="/images/frontpage/front-brushless.webp" alt="Crazyflie autonomous flight" class="w-100">
+      <img src="/images/frontpage/front-platform.webp" alt="Crazyflie autonomous flight" class="w-100">
     </div>
     <div class="col-md-8" style="padding-left: 2rem;">
       <h2 style="text-align: left;">From Concept to<br><span>Controlled Autonomy</span></h2>
@@ -66,9 +71,9 @@ redirects:
 <div class="container-fluid value-props-banner">
   <div class="row justify-content-center mb-3">
     <div class="col-12 text-center">
-      <h2 style="color: white; font-weight: 700;">
-        <i class="fa-solid fa-drone" style="color: #95C941;"></i>
-        Why the <span style="color: #003000;">Crazyflie™</span>?
+      <h2 style="color: white;">
+        <i class="fa-solid fa-drone highlight-green"></i>
+        Why the <span class="highlight-dark-green">Crazyflie™</span>?
       </h2>
     </div>
   </div>
@@ -130,6 +135,25 @@ redirects:
     </div>
     <div class="col-md-6 app-product-image">
       <img src="/images/products/ai-deck-side-585px.jpg" alt="AI-Deck 1.1">
+    </div>
+  </div>
+
+  <div class="app-bundle-section">
+    <h3>Recommended Bundles</h3>
+    <div class="row g-3">
+
+      <div class="col-12 col-md-4">
+        <div class="app-bundle-card">
+          <img src="/images/products/ai-deck-side-585px.jpg" alt="AI Research Bundle" class="app-bundle-img">
+          <div class="app-bundle-tag">Featured</div>
+          <div class="app-bundle-name">AI Research Bundle</div>
+          <p class="app-bundle-desc">Crazyflie 2.1 Plus + AI-Deck 1.1 + Flow Deck v2. Everything you need to start onboard AI and autonomous flight research.</p>
+          <a href="https://store.bitcraze.io/" class="btn btn-color-primary">Shop Bundle</a>
+        </div>
+      </div>
+
+      <!-- Add more bundle cards here -->
+
     </div>
   </div>
 </div>

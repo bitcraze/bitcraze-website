@@ -1031,6 +1031,14 @@
           min-height: 300px;
         }
 
+        &.appl-card--has-desc {
+          min-height: 320px;
+
+          @media (min-width: $screen-md-min) {
+            min-height: 390px;
+          }
+        }
+
         // Title and button sit at the top over the solid card color
         .appl-card-header {
           padding: 1.4rem 1.25rem;
@@ -1046,6 +1054,14 @@
             @media (min-width: $screen-md-min) {
               font-size: 1.15rem;
             }
+          }
+
+          .appl-card-desc {
+            color: rgba(255, 255, 255, 0.75);
+            font-size: 0.75rem;
+            line-height: 1.45;
+            margin-bottom: 0.85rem;
+            text-align: left;
           }
         }
 

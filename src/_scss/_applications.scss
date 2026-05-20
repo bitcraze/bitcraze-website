@@ -1,3 +1,85 @@
+// Application landing page
+
+.appl-landing-intro {
+  padding: 5rem 1rem 3rem;
+
+  .appl-landing-title {
+    font-size: 2.25rem;
+    font-weight: 800;
+    color: $bcDarkGreen;
+    margin-bottom: 3rem;
+
+    @media (min-width: $screen-md-min) {
+      font-size: 3rem;
+      margin-bottom: 3.5rem;
+    }
+  }
+
+  .appl-landing-subtitle {
+    font-weight: 800;
+    line-height: 1.25;
+    color: $bcDarkGreen;
+    margin-bottom: 2.5rem;
+
+    @media (min-width: $screen-md-min) {
+      font-size: 1.6rem;
+      margin-bottom: 3rem;
+    }
+
+    &::before {
+      content: '';
+      display: block;
+      width: 100vw;
+      height: 1px;
+      margin-left: calc(-50vw + 50%);
+      margin-bottom: 3rem;
+      background-image: repeating-linear-gradient(90deg,
+        $bcGreen 0px, $bcGreen 7px,
+        transparent 7px, transparent 15px
+      );
+    }
+  }
+
+  p {
+    color: #111;
+    line-height: 1.8;
+    margin-bottom: 0;
+
+    & + p {
+      margin-top: 1.5rem;
+    }
+  }
+}
+
+.appl-landing-cta {
+  background: $bcDarkGreen;
+  padding: 4rem 1rem;
+  margin-top: 4rem;
+  margin-bottom: 0;
+
+  h2 {
+    color: white;
+  }
+
+  p {
+    color: rgba(255, 255, 255, 0.8);
+    max-width: 600px;
+    margin: 1rem auto 1.75rem;
+  }
+
+  .appl-landing-cta-btn {
+    margin-bottom: 1rem;
+  }
+}
+
+.front-page .appl-cards-section--no-divider::after {
+  content: none;
+}
+
+.cf-wordmark {
+  font-family: 'Quantico', sans-serif;
+}
+
 // Application pages
 
 .app-page {
@@ -10,6 +92,30 @@
     }
   }
 
+  // ── Page title ────────────────────────────────────────────────────────────
+  .app-page-header {
+    padding: 4rem 2rem 0;
+    margin-bottom: 1rem;
+
+    @media (min-width: $screen-md-min) {
+      padding: 5rem 5rem 0;
+      margin-bottom: 1.5rem;
+    }
+  }
+
+  .app-page-title {
+    font-size: 2.25rem;
+    font-weight: 800;
+    color: $bcDarkGreen;
+    line-height: 1.1;
+    margin: 0;
+    text-align: center;
+
+    @media (min-width: $screen-md-min) {
+      font-size: 3rem;
+    }
+  }
+
   // ── Section 1: intro ──────────────────────────────────────────────────────
   .app-intro-section {
     padding: 4rem 2rem 2rem;
@@ -18,7 +124,7 @@
       padding: 4rem 5rem 2rem;
     }
 
-    h1 {
+    h2 {
       font-weight: 800;
       line-height: 1.2;
       color: $bcDarkGreen;
@@ -81,9 +187,9 @@
       }
     }
 
-    h2 { color: $bcGreen; }
+    h2 { color: $bcGreen; font-size: 1.5rem; }
     h2 span { color: $bcGreen; }
-    p { color: white; }
+    p { color: white; font-size: 0.9rem; }
   }
 
   .app-concept-list {
@@ -172,6 +278,8 @@
   .value-props-banner {
     padding: 2rem 0;
 
+    h2 { font-size: 1.5rem; }
+
     .value-prop-card {
       padding: 1rem 1rem;
       height: 100%;
@@ -200,6 +308,12 @@
 
     @media (min-width: $screen-md-min) {
       padding: 2.5rem 5rem 3rem;
+    }
+
+    > .row {
+      max-width: 900px;
+      margin-left: auto;
+      margin-right: auto;
     }
 
     h2 {
@@ -242,6 +356,66 @@
       img {
         max-width: 100%;
         height: auto;
+      }
+    }
+
+    .app-bundle-section {
+      border-top: 1px solid rgba($bcGreen, 0.3);
+      padding-top: 2rem;
+      margin-top: 2.5rem;
+
+      h3 {
+        font-size: 1rem;
+        font-weight: 700;
+        color: $bcDarkGreen;
+        margin-bottom: 1.25rem;
+      }
+    }
+
+    .app-bundle-card {
+      background: rgba($bcGreen, 0.08);
+      border: 1px solid rgba($bcGreen, 0.25);
+      border-radius: 16px;
+      padding: 1.5rem;
+      height: 100%;
+      display: flex;
+      flex-direction: column;
+
+      .app-bundle-img {
+        width: 100%;
+        height: 160px;
+        object-fit: cover;
+        border-radius: 10px;
+        margin-bottom: 1rem;
+      }
+
+      .app-bundle-tag {
+        font-size: 0.7rem;
+        font-weight: 700;
+        text-transform: uppercase;
+        letter-spacing: 0.08em;
+        color: $bcGreen;
+        margin-bottom: 0.4rem;
+      }
+
+      .app-bundle-name {
+        font-family: "Cairo", sans-serif;
+        font-size: 1rem;
+        font-weight: 700;
+        color: $bcDarkGreen;
+        margin-bottom: 0.5rem;
+      }
+
+      .app-bundle-desc {
+        font-size: 0.85rem;
+        line-height: 1.6;
+        color: #555;
+        flex-grow: 1;
+        margin-bottom: 1.25rem;
+      }
+
+      .btn {
+        align-self: flex-start;
       }
     }
   }
