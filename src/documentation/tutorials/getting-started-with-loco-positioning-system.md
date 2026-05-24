@@ -98,22 +98,34 @@ In our reference set-up we accomplish this by using these
 In the repository click "Raw" and then choose "save as" and save the file as a stl file.
 
 {% tabgroup %}
+{% tab 6 anchors %}
+In our 6 anchor reference setup we have placed 3 anchors above and 3 anchors below
+the flight area, shaped in inverse triangles.
+
+{% img reference system; wide; /images/tutorials/getting_started_with_lps/loco_system_ref_6.png %}
+{% endtab %}
+
 {% tab 8 anchors %}
 In our 8 anchor reference setup we have placed the nodes in the corners of a box
 as the position estimation for TDoA works best within the convex hull. The order of the IDs
 is important for TDoA2 but can be ignored for TDoA3.
 
-{% img reference system; wide; /images/tutorials/getting_started_with_lps/loco_ref_system_8_anchors.png %}
+{% img reference system; wide; /images/tutorials/getting_started_with_lps/loco_system_ref_8.png %}
 {% endtab %}
-{% tab 6 anchors %}
-In our 6 anchor reference setup we have placed 3 anchors above and 3 anchors below
-the flight area, shaped in inverse triangles.
 
-{% img reference system; wide; /images/tutorials/getting_started_with_lps/loco_ref_system_6_anchors.png %}
+{% tab More than 8 anchors %}
+TDoA3 is required for systems with more than 8 anchors. We recommend setting up a working 8-anchor system first, then expanding. See the [TDoA3 setup page](/documentation/repository/lps-node-firmware/master/user-guides/tdoa3_setup/) for full details.
+
+To add anchors beyond 8:
+
+* Switch your existing system to TDoA3 before adding the new anchor(s).
+* Configure the new anchor(s) with TDoA3 before powering them on in the system.
+* Refer to the TDoA3 setup page for guidance on placement to optimize coverage and performance.
+
+**Note:** There is a known issue where new anchors may stop being visible in TDoA3 mode after some time.
 {% endtab %}
 {% endtabgroup %}
 
-If you have more than 8 anchors, we suggest you setup a system with 8 anchors first and then switch your system to TDoA3 to add more anchors to the system. See the [tdoa3 setup page](/documentation/repository/lps-node-firmware/master/user-guides/tdoa3_setup/) for more information.
 {% endsi_step %}
 
 {% si_step Powering the anchors %}

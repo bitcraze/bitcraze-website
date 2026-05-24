@@ -17,6 +17,15 @@ the absolute 3D position of objects in space. It is in many ways similar to a mi
 
 ---
 
+{% row_image_text_links Getting started with Loco positioning %}
+{% row_text %}
+We have created an easy to follow step-by-step guide for setting up the Loco positioning system that you will find [here]({% id_url getting-started-with-the-loco-positioning-system %}). In the tutorial we use the [Indoor explorer bundle](https://store.bitcraze.io/collections/bundles/products/indoor-explorer-bundle) that you can buy directly from our [store](https://store.bitcraze.io/).
+{% endrow_text %}
+{% row_links %}
+* {% id_link getting-started-with-the-loco-positioning-system %}
+{% endrow_links %}
+{% endrow_image_text_links %}
+
 {% row_image_text_links Anchors and Tags %}
 {% row_text %}
 The base of the system is a set of __Anchors__ that are positioned in the room
@@ -88,8 +97,8 @@ the long range mode.
 
 {% row_image_text_links Performance %}
 {% row_text %}
-The Loco Positioning system is based on the Decawave DWM1000 chip and has an accuracy in the 10 cm range.
-The 3D positioning performance depends of the system setup and environment.
+The Loco Positioning system is based on the Decawave DWM1000 chip and has an accuracy in the 10cm range.
+However, note that the 3D positioning performance depends of the system setup and environment. In reality, the accuracy translates to around ±20cm.
 
 The Loco Positioning system has mainly been designed for indoor use.
 {% endrow_text %}
@@ -114,16 +123,6 @@ for instance a robot.
 * {% id_link product-loco-pos-deck %}
 * {% id_link product-loco-pos-node %}
 * [Indoor explorer bundle](https://store.bitcraze.io/collections/bundles/products/indoor-explorer-bundle)
-{% endrow_links %}
-{% endrow_image_text_links %}
-
-
-{% row_image_text_links Getting started with Loco positioning %}
-{% row_text %}
-We have created an easy to follow step-by-step guide for setting up the Loco positioning system that you will find [here]({% id_url getting-started-with-the-loco-positioning-system %}). In the tutorial we use the [Indoor explorer bundle](https://store.bitcraze.io/collections/bundles/products/indoor-explorer-bundle) that you can buy directly from our [store](https://store.bitcraze.io/).
-{% endrow_text %}
-{% row_links %}
-* {% id_link getting-started-with-the-loco-positioning-system %}
 {% endrow_links %}
 {% endrow_image_text_links %}
 
