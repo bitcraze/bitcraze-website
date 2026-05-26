@@ -408,7 +408,7 @@ page_id: home
       {% used_by_logo Linköping University; /images/logos/liu.png; https://www.liu.se/ %}
       {% used_by_logo De La Salle University; /images/logos/dlsu.png; https://www.dlsu.edu.ph/ %}
       {% used_by_logo Facultad de Ingeniería Mecánica y Eléctrica (UANL); /images/logos/uanl_logo.png; https://www.fime.uanl.mx/ %}
-
+      {% used_by_logo Heinrich Heine University Düsseldorf; /images/logos/HeinrichHeineUniversity.jpg; https://www.hhu.de %}
     </div>
     <div class="row">
       <div class="col-md-12"><p class="text-right">Is your organization missing? <a href="https://github.com/bitcraze/bitcraze-website/edit/master/src/{{page.path}}"><i class="fa-regular fa-pen-to-square"></i> &nbsp;Improve this page</a></p>
