@@ -4,7 +4,7 @@ title: Home
 page_id: home
 ---
 
-<!-- Top banner start -->
+<!-- Top Banner Start -->
 <div class="container-fluid front-top-banner frontpage-section">
   <div class="with_flex row">
 
@@ -17,32 +17,32 @@ page_id: home
 
       <div class="header_image">
         <a href="/products/crazyflie-2-1-brushless/">
-          <img src="/images/frontpage/front-brushless.webp" alt="ROSCon 2024">
+          <img src="/images/frontpage/front-cf-bl.png" alt="Crazyflie 2.1 Brushless">
         </a>
       </div>
 
       <div class="header_buttons">
-        <a href="https://store.bitcraze.io/" class="btn btn-primary btn-block btn-color-primary">Explore Research Solutions</a>
-        <a href="/documentation/start/" class="btn btn-primary btn-block btn-color-secondary">Shop Drones & Kits</a>
+        <a href="https://store.bitcraze.io/" class="btn btn-primary btn-color-primary">Explore Research Solutions</a>
+        <a href="/documentation/start/" class="btn btn-primary btn-color-secondary">Shop Drones & Kits</a>
       </div>
     </div>
   </div>
 </div>
-<!-- Top banner end -->
+<!-- Top Banner End -->
 
-<!-- The Crazyflie Ecosystem start -->
+<!-- The Crazyflie Ecosystem Start -->
 <div class="container-fluid section section-spacing frontpage-section">
 
-  <div id="ecosystem-section" class="row what-we-do-section-padding section-content justify-content-center align-items-center" style="padding-bottom: 5rem;">
+  <div id="ecosystem-section" class="row what-we-do-section-padding section-content justify-content-center align-items-center">
     <div class="col-md-5 col-lg-4">
       <img src="/images/frontpage/front-ecosystem.webp" alt="Open source" class="w-100">
     </div>
     <div class="col-md-4 col-lg-3 ms-n5 text-block-box text-box_open_source">
       <div class="header-text">
-        <h1 style="text-align:right;">
-          The <span class="highlight-green" style="font-family: 'Quantico', sans-serif;">Crazyflie™</span> <br> Ecosystem
+        <h1>
+          The <span class="highlight-green">Crazyflie™</span> <br> Ecosystem
         </h1>
-        <p style="text-align:right;">
+        <p>
           A modular, programmable, drone system that powers the future of robotics, from classrooms, to labs, to industry.
         </p>
       </div>
@@ -54,26 +54,26 @@ page_id: home
       <div class="col-md-4">
         <img src="/images/frontpage/front-platform.webp" alt="Platform" class="w-100">
       </div>
-      <div class="col-md-6" style="padding-left:30px;">
-        <h2 style="color:white; text-align:left;">
+      <div class="col-md-6 fp-section-text">
+        <h2>
           Drones for <br> <span class="highlight-dark-green">Indoor</span> Flight
         </h2>
-        <p style="text-align:left;">Purpose-built nano-drones for safe, precise, and repeatable indoor flight in research and development environments.
+        <p>Purpose-built nano-drones for safe, precise, and repeatable indoor flight in research and development environments.
         </p>
-        <p style="text-align:left;"><b style="white-space: nowrap;">Explore the Platform <img src="/images/frontpage/front-arrow-white.png" alt="→" style="height: 0.5em; vertical-align: middle; padding-left:1em;"></b></p>
+        <p><b>Explore the Platform <img src="/images/frontpage/front-arrow-white.png" alt="→" class="fp-arrow-img"></b></p>
       </div>
     </a>
   </div>
 
   <div class="row what-we-do-section-padding section-content justify-content-center align-items-center">
     <a href="/documentation/system/platform/" class="col-md-10 col-lg-8 d-flex align-items-center justify-content-center text-block-box text-box_decks">
-      <div class="col-md-6" style="padding-left:30px;">
-        <h2 style="text-align:left;">
+      <div class="col-md-6 fp-section-text">
+        <h2>
           <span class="highlight-green">Expansion</span> <br> Decks
         </h2>
-        <p style="text-align:left;">Add sensors, compute, positioning, and communication to tailor the platform to your application.
+        <p>Add sensors, compute, positioning, and communication to tailor the platform to your application.
         </p>
-        <p style="text-align:left;"><b style="white-space: nowrap;">Explore All Decks <img src="/images/frontpage/front-arrow.png" alt="→" style="height: 0.5em; vertical-align: middle; padding-left:1em"></b></p>
+        <p><b>Explore All Decks <img src="/images/frontpage/front-arrow.png" alt="→" class="fp-arrow-img"></b></p>
       </div>
       <div class="col-md-4">
         <img src="/images/frontpage/front-platform.webp" alt="Platform" class="w-100">
@@ -86,26 +86,26 @@ page_id: home
       <div class="col-md-4">
         <img src="/images/frontpage/front-platform.webp" alt="Platform" class="w-100">
       </div>
-      <div class="col-md-6" style="padding-left:30px;">
-        <h2 style="color:white; text-align:left;">
+      <div class="col-md-6 fp-section-text">
+        <h2>
           <span class="highlight-green">Positioning</span> <br> Systems
         </h2>
-        <p style="text-align:left;">Precise indoor localization using laser, ultra-wideband (UWB), and vision-based systems for single drones and swarms.
+        <p>Precise indoor localization using laser, ultra-wideband (UWB), and vision-based systems for single drones and swarms.
         </p>
-        <p style="text-align:left;"><b style="white-space: nowrap;">Explore Positioning Systems <img src="/images/frontpage/front-arrow.png" alt="→" style="height: 0.5em; vertical-align: middle; padding-left:1em"></b></p>
+        <p><b>Explore Positioning Systems <img src="/images/frontpage/front-arrow.png" alt="→" class="fp-arrow-img"></b></p>
       </div>
     </a>
   </div>
 
   <div class="row what-we-do-section-padding section-content justify-content-center align-items-center">
     <a href="/documentation/system/platform/" class="col-md-10 col-lg-8 d-flex align-items-center justify-content-center text-block-box text-box_decks">
-      <div class="col-md-6" style="padding-left:30px;">
-        <h2 style="text-align:left;">
+      <div class="col-md-6 fp-section-text">
+        <h2>
           <span class="highlight-green">Open Source</span> <br> Software and Tools
         </h2>
-        <p style="text-align:left;">Firmware, SDKs, simulators, and tooling for developing, testing, and deploying autonomous and swarm systems.
+        <p>Firmware, SDKs, simulators, and tooling for developing, testing, and deploying autonomous and swarm systems.
         </p>
-        <p style="text-align:left;"><b style="white-space: nowrap;">Explore Software & Tools <img src="/images/frontpage/front-arrow.png" alt="→" style="height: 0.5em; vertical-align: middle; padding-left:1em"></b></p>
+        <p><b>Explore Software & Tools <img src="/images/frontpage/front-arrow.png" alt="→" class="fp-arrow-img"></b></p>
       </div>
       <div class="col-md-4">
         <img src="/images/frontpage/front-platform.webp" alt="Platform" class="w-100">
@@ -113,10 +113,9 @@ page_id: home
     </a>
   </div>
 </div>
+<!-- The Crazyflie Ecosystem End -->
 
-<!-- The Crazyflie Ecosystem end -->
-
-<!-- Value Props start -->
+<!-- Value Props Start -->
 <div class="container-fluid value-props-banner">
   <div class="row justify-content-center">
     <div class="col-md-10 col-lg-8">
@@ -164,13 +163,11 @@ page_id: home
       </div>
     </div>
   </div>
-  <div id="filler" style="display:none;"></div>
+  <div id="filler"></div>
 </div>
-<!-- Value Props end -->
+<!-- Value Props End -->
 
-
-
-<!-- Research areas and applications start -->
+<!-- Research Areas and Applications Start -->
 <div class="container appl-cards-section">
   <div class="row justify-content-center">
     <div class="col-md-6 text-center mb-4">
@@ -236,61 +233,61 @@ page_id: home
     </div>
   </div>
 </div>
-<!-- Research areas and applications end -->
+<!-- Research Areas and Applications End -->
 
-<!-- New blog section start -->
-<div class="container blog-new-section">
-  <h2 class="blog-new-heading">The latest from the Bitcraze <span class="highlight-green">Blog</span></h2>
+<!-- Blog Section Start -->
+<div class="container blog-section">
+  <h2 class="blog-heading">The latest from the Bitcraze <span class="highlight-green">Blog</span></h2>
   <div class="row g-4">
     <div class="col-12 col-md-4">
       <!-- inject wp blog img 0 begin -->
-      <a href="#" class="blog-new-card">
-        <div class="blog-new-img-wrap">
+      <a href="#" class="blog-card">
+        <div class="blog-img-wrap">
           <img src="/images/frontpage/ant-bridge_2302146k.png" alt="Blog post">
         </div>
-        <div class="blog-new-tags">
-          <span class="blog-new-tag">Fun Friday</span>
-          <span class="blog-new-tag">Random Stuff</span>
+        <div class="blog-tags">
+          <span class="blog-tag">Category 1</span>
+          <span class="blog-tag">Category 2</span>
         </div>
-        <h3 class="blog-new-title">Building a Crazyflie Flower Swarm with Rust</h3>
-        <p class="blog-new-excerpt">With spring just around the corner, we thought it was the perfect excuse to make...</p>
+        <h3 class="blog-title">Blog Post Title 1</h3>
+        <p class="blog-excerpt">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua...</p>
       </a>
       <!-- inject wp blog img 0 end -->
     </div>
     <div class="col-12 col-md-4">
       <!-- inject wp blog img 1 begin -->
-      <a href="#" class="blog-new-card">
-        <div class="blog-new-img-wrap">
+      <a href="#" class="blog-card">
+        <div class="blog-img-wrap">
           <img src="/images/frontpage/ant-bridge-narrow.png" alt="Blog post">
         </div>
-        <div class="blog-new-tags">
-          <span class="blog-new-tag">Community</span>
-          <span class="blog-new-tag">Random Stuff</span>
+        <div class="blog-tags">
+          <span class="blog-tag">Category 1</span>
+          <span class="blog-tag">Category 2</span>
         </div>
-        <h3 class="blog-new-title">Bitcraze at ERF 2026: A Scalable Testbed for Aerial Robotics</h3>
-        <p class="blog-new-excerpt">Bitcraze will exhibit at the European Robotics Forum 2026 March 23-27 in booth #90...</p>
+        <h3 class="blog-title">Blog Post Title 2</h3>
+        <p class="blog-excerpt">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua...</p>
       </a>
       <!-- inject wp blog img 1 end -->
     </div>
     <div class="col-12 col-md-4">
       <!-- inject wp blog img 2 begin -->
-      <a href="#" class="blog-new-card">
-        <div class="blog-new-img-wrap">
+      <a href="#" class="blog-card">
+        <div class="blog-img-wrap">
           <img src="/images/frontpage/ant-bridge-wide.png" alt="Blog post">
         </div>
-        <div class="blog-new-tags">
-          <span class="blog-new-tag">Guest-Blogger</span>
+        <div class="blog-tags">
+          <span class="blog-tag">Category 3</span>
         </div>
-        <h3 class="blog-new-title">My Path to Swiss Youth in Science &amp; ISEF 2026</h3>
-        <p class="blog-new-excerpt">I had officially completed my Matura thesis in October 2024 and submitted it to...</p>
+        <h3 class="blog-title">Blog Post Title 3</h3>
+        <p class="blog-excerpt">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua...</p>
       </a>
       <!-- inject wp blog img 2 end -->
     </div>
   </div>
 </div>
-<!-- New blog section end -->
+<!-- Blog Section End -->
 
-<!-- Customers start -->
+<!-- Customers Start -->
 <div class="container customer-section">
   <div class="row justify-content-center">
     <div class="col-md-6 text-center mb-4">
@@ -299,75 +296,83 @@ page_id: home
     </div>
   </div>
   <div class="row g-3 justify-content-center mb-3">
-    <div class="col-4 col-md-auto"><a href="https://www.nasa.gov/" class="customer-logo-box"><img src="/images/logos/NASA_logo.png" alt="NASA"></a></div>
-    <div class="col-4 col-md-auto"><a href="https://web.mit.edu/" class="customer-logo-box"><img src="/images/logos/mit.svg" alt="MIT"></a></div>
-    <div class="col-4 col-md-auto"><a href="https://www.chalmers.se/en/" class="customer-logo-box"><img src="/images/logos/chalmers.png" alt="Chalmers University of Technology"></a></div>
+    <div class="col-4 col-md-auto"><a href="https://www.cmu.edu/" class="customer-logo-box"><img src="/images/logos/carnegie-mellon-logo.png" alt="Carnegie Mellon University"></a></div>
+    <div class="col-4 col-md-auto"><a href="https://www.chalmers.se/en/" class="customer-logo-box"><img src="/images/logos/chalmers-logo.png" alt="Chalmers University of Technology"></a></div>
+    <div class="col-4 col-md-auto"><a href="https://www.ethz.ch/en.html" class="customer-logo-box"><img src="/images/logos/eth-logo.png" alt="ETH Zurich"></a></div>
   </div>
   <div class="row g-3 justify-content-center mb-3">
-    <div class="col-4 col-md-auto"><a href="https://www.mcgill.ca/" class="customer-logo-box"><img src="/images/logos/mcgill.svg" alt="McGill University"></a></div>
-    <div class="col-4 col-md-auto"><a href="https://www.ethz.ch/en.html" class="customer-logo-box"><img src="/images/logos/Eth-zurich_logo_1.png" alt="ETH Zurich"></a></div>
-    <div class="col-4 col-md-auto"><a href="https://www.usc.edu/" class="customer-logo-box"><img src="/images/logos/usc.png" alt="USC"></a></div>
+    <div class="col-4 col-md-auto"><a href="https://www.gatech.edu/" class="customer-logo-box"><img src="/images/logos/georgia-tech-logo.png" alt="Georgia Institute of Technology"></a></div>
+    <div class="col-4 col-md-auto"><a href="https://www.lth.se/english" class="customer-logo-box"><img src="/images/logos/lund-logo.png" alt="Lund University"></a></div>
+    <div class="col-4 col-md-auto"><a href="https://web.mit.edu/" class="customer-logo-box"><img src="/images/logos/mit-logo.png" alt="MIT"></a></div>
   </div>
   <div class="row g-3 justify-content-center mb-3">
-    <div class="col-4 col-md-auto"><a href="https://www.uniroma1.it/en/" class="customer-logo-box"><img src="/images/logos/Sapienza_Roma.png" alt="Sapienza University of Rome"></a></div>
-    <div class="col-4 col-md-auto"><a href="https://www.lth.se/english" class="customer-logo-box"><img src="/images/logos/lund.png" alt="Lund University"></a></div>
-    <div class="col-4 col-md-auto"><a href="https://www.tudelft.nl/en/" class="customer-logo-box"><img src="/images/logos/TUDelft.png" alt="TU Delft"></a></div>
+    <div class="col-4 col-md-auto"><a href="https://www.nasa.gov/" class="customer-logo-box"><img src="/images/logos/nasa-logo.png" alt="NASA"></a></div>
+    <div class="col-4 col-md-auto"><a href="https://nus.edu.sg/" class="customer-logo-box"><img src="/images/logos/nus-logo.png" alt="National University of Singapore"></a></div>
+    <div class="col-4 col-md-auto"><a href="https://www.princeton.edu/" class="customer-logo-box"><img src="/images/logos/princeton-logo.png" alt="Princeton University"></a></div>
   </div>
-  <div class="row g-3 justify-content-center">
-    <div class="col-4 col-md-auto"><a href="https://www.bosch-sensortec.com/" class="customer-logo-box"><img src="/images/logos/bosch.png" alt="Bosch"></a></div>
-    <div class="col-4 col-md-auto"><a href="https://www.microsoft.com/" class="customer-logo-box"><img src="/images/logos/microsoft.png" alt="Microsoft"></a></div>
-    <div class="col-4 col-md-auto"><a href="https://www.dlr.de/" class="customer-logo-box"><img src="/images/logos/DLR_Logo.png" alt="DLR"></a></div>
+  <div class="row g-3 justify-content-center mb-3">
+    <div class="col-4 col-md-auto"><a href="https://www.tii.ae/" class="customer-logo-box"><img src="/images/logos/tii-logo.png" alt="Technology Innovation Institute"></a></div>
+    <div class="col-4 col-md-auto"><a href="https://www.tudelft.nl/en/" class="customer-logo-box"><img src="/images/logos/tudelft-logo.png" alt="TU Delft"></a></div>
+    <div class="col-4 col-md-auto"><a href="https://www.usc.edu/" class="customer-logo-box"><img src="/images/logos/usc-logo.png" alt="USC"></a></div>
   </div>
 </div>
-<!-- Customers end -->
+<!-- Customers End -->
 
-<!-- New testimonials start -->
-<div class="container-fluid testimonial-new-section px-0">
-  <div class="testimonial-new-content">
+<!-- Testimonials Start -->
+<div class="container-fluid testimonial-section px-0">
+  <div class="testimonial-content">
       <h2>Voices From the <span class="highlight-green">Community</span></h2>
-      <div class="row g-3">
-        <div class="col-6">
-          <div class="testimonial-new-card" style="background-image: url('/images/testimonials/carnegie.jpg')">
-            <div class="testimonial-new-overlay">
-              <blockquote>"We use the Crazyflie platform to evaluate our algorithms because the hardware is robust and the user community has helped make firmware available on which we can base our own systems"</blockquote>
-              <cite>Ellen Cappo, researcher at Carnegie Mellon University</cite>
+      <div class="row g-3 justify-content-center">
+        <div class="col-6 col-md-4">
+          <a class="testimonial-card" href="/2023/11/adaptive-cooperative-flight-for-transportation-using-crazyflies/" style="background-image: url('/images/testimonials/dimitrios-testimonial.png')">
+            <div class="testimonial-overlay">
+              <blockquote>"It quickly turned out that the Crazyflies, with their small size, open-source firmware, ROS compatibility, and, as we happily found out after hours upon hours of crashes, amazing durability, would be the perfect platform to test our controllers."</blockquote>
+              <cite>Dimitrios Chaikalis, New York University</cite>
             </div>
-          </div>
+          </a>
         </div>
-        <div class="col-6">
-          <div class="testimonial-new-card" style="background-image: url('/images/testimonials/usc.jpg')">
-            <div class="testimonial-new-overlay">
-              <blockquote>"The Crazyflie is a great platform for research because of its openness and extensibility; additionally, the size allows us to test algorithms on a swarm of robots even in space-limited indoor environments."</blockquote>
-              <cite>Wolfgang Hoenig, researcher at TU Berlin</cite>
+        <div class="col-6 col-md-4">
+          <a class="testimonial-card" href="/2023/10/tired-of-crashing-use-open-gimbal/" style="background-image: url('/images/testimonials/gimbal-testimonial.jpg')">
+            <div class="testimonial-overlay">
+              <blockquote>"Crazyflies (and other drones in this weight class) are extremely fun to fly and prototype with!"</blockquote>
+              <cite>Suryansh Sharma, TU Delft</cite>
             </div>
-          </div>
+          </a>
         </div>
-        <div class="col-6">
-          <div class="testimonial-new-card" style="background-image: url('/images/testimonials/H-modquad.png')">
-            <div class="testimonial-new-overlay">
-              <blockquote>"In our lab, we love to work with the Crazyflie ecosystem because its open-source platform allows us to write new flight controllers. We have used them to develop modular vehicles, blimps, catenary robots, and jumping robots."</blockquote>
-              <cite>David Saldaña, Assistant Professor at Lehigh University</cite>
+        <div class="col-6 col-md-4">
+          <a class="testimonial-card" href="/2023/07/high-school-students-learn-about-electrical-engineering-with-the-crazyflie/" style="background-image: url('/images/testimonials/hanna-testimonial.jpg')">
+            <div class="testimonial-overlay">
+              <blockquote>"With those [Crazyflies] we had many possibilities to learn about electrical engineering – from sensors, microcontrollers, timers, and motors to LEDs, batteries, embedded systems, FreeRTOS tasks, state estimation, and controller – and all this with a high fun potential and a low risk of accidents, as with their weight of only 30g they hardly ever do any damage."</blockquote>
+              <cite>Hanna Müller, ETH Zürich</cite>
             </div>
-          </div>
+          </a>
         </div>
-        <div class="col-6">
-          <div class="testimonial-new-card" style="background-image: url('/images/testimonials/MIT.jpg')">
-            <div class="testimonial-new-overlay">
-              <blockquote>"The Crazyflie is easily obtainable, safe, and (we can certify ourselves) very robust. Moreover, since it is open-source and fully programmable, we were able to easily modify the Crazyflie to fit our needs."</blockquote>
-              <cite>Brandon Araki, researcher at MIT</cite>
+        <div class="col-6 col-md-4">
+          <a class="testimonial-card" href="/2021/07/sniffy-bug-a-fully-autonomous-swarm-of-gas-seeking-nano-quadcopters-in-cluttered-environments/" style="background-image: url('/images/testimonials/mavlab-testimonial.png')">
+            <div class="testimonial-overlay">
+              <blockquote>"Drones like the Crazyflie are ideal for such tasks, since they are small enough to navigate in narrow spaces, safe, agile, and very inexpensive."</blockquote>
+              <cite>Bart Duisterhof & Prof. Guido de Croon, TU Delft MAVLab</cite>
             </div>
-          </div>
+          </a>
+        </div>
+        <div class="col-6 col-md-4">
+          <a class="testimonial-card" href="/2024/07/bringing-model-predictive-control-to-the-crazyflie-with-tinympc/" style="background-image: url('/images/testimonials/tinympc-testimonial.png')">
+            <div class="testimonial-overlay">
+              <blockquote>"When it came time for hardware experiments, using the Crazyflie just made sense. A tiny solver deserves a tiny robot."</blockquote>
+              <cite>Sam Schoedel & Khai Nguyen, Carnegie Mellon University / TinyMPC</cite>
+            </div>
+          </a>
         </div>
       </div>
   </div>
   <img src="/images/frontpage/heart-flight.png" alt="Crazyflie heart flight" class="testimonial-heart-img">
 </div>
-<!-- New testimonials end -->
+<!-- Testimonials End -->
 
-<!-- video slogan section start -->
+<!-- Video Slogan Section Start -->
 <div class="container-fluid px-0 video-slogan-section">
-  <div class="video-slogan-inner video-style">
-    <video autobuffer autoplay muted loop>
+  <div class="video-slogan-inner video-style video-no-controls">
+    <video autoplay muted loop>
       <source src="/videos/front-hover.mp4" type="video/mp4">
     </video>
     <div class="video-slogan-overlay">
@@ -382,12 +387,9 @@ page_id: home
     </div>
   </div>
 </div>
-<!-- video slogan section end -->
+<!-- Video Slogan Section End -->
 
- <script type='text/javascript'>
-   $("a.smooth-link").smoothScroll();
- </script>
-
+<!-- JS Scripts Start -->
   <script>
     ['one', 'two', 'three', 'four', 'five', 'six'].forEach(function(id) {
       const el = document.getElementById(id);
@@ -446,8 +448,8 @@ page_id: home
           fp.style.setProperty('--vline2-h', Math.max(0, top(platform) - line2Start) + 'px');
         }
 
-        // Vertical line 3: bottom of .value-props-banner → top of .testimonial-new-section
-        const testi = document.querySelector('.testimonial-new-section');
+        // Vertical line 3: bottom of .value-props-banner → top of .testimonial-section
+        const testi = document.querySelector('.testimonial-section');
         if (vp && testi) {
           const line3Start = bot(vp);
           fp.style.setProperty('--vline3-y', (line3Start - fpTop) + 'px');
@@ -470,3 +472,4 @@ page_id: home
       window.addEventListener('resize', updateFrontPageLines);
     })();
   </script>
+  <!-- JS Scripts End -->

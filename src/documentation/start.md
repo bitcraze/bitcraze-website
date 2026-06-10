@@ -68,8 +68,8 @@ iron and dive into it! Find more information about the expansion bus on the expa
 
 ## Projects
 
-Looking for inspiration for a new project? Take a look at our [blog posts](/blog/). The {% id_link videogallery %} contains
-some really cool stuff as well as our [You Tube channel](https://www.youtube.com/user/BitcrazeVideos). We also have a [list of academic groups](/portals/research/) that have used the Crazyflie in their research.
+Looking for inspiration for a new project? Take a look at our [Application and Research areas](/applications/applications-landing/) and our [blog posts](/blog/). The {% id_link videogallery %} contains
+some really cool stuff as well as our [You Tube channel](https://www.youtube.com/user/BitcrazeVideos).
 
 {% inline_button Video Gallery; /documentation/video-gallery/ %}
 

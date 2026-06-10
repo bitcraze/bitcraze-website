@@ -2,11 +2,11 @@
 
 .site-footer-redesign {
   background: #E8EEDE;
-  padding-top: 3rem;
   // Push footer to bottom when content is short (sticky footer)
   margin-top: auto;
 
   .footer-links-container {
+    padding-top: 3rem;
     padding-bottom: 1rem;
   }
 

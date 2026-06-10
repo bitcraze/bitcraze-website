@@ -218,92 +218,63 @@ $reduced-menu-spacing: 8px;
 }
 
 
-// // Search bar
+// Search bar
 
-// $serach-field-width: 210px;
-// $serach-field-width-narrow: 160px;
-// $search-field-padding: 12px;
+$search-field-width: 210px;
+$search-field-padding: 12px;
 
-// .navbar-menu-section {
-//   .search-form,
-//   .navbar-social-search {
-//     display: inline-block;
-//   }
+.navbar-end {
+  gap: 0.75rem;
 
-//   .navbar-social-search {
-//     padding-right: calc(#{$grid-gutter-width-bs5} / 2);
-//   }
+  .search-submit {
+    display: none;
+  }
 
-//   .search-submit {
-//     display: none;
-//   }
+  .search-form {
+    position: relative;
+    display: inline-flex;
+    align-items: center;
+    z-index: 100;
+    padding-right: 6px;
+  }
 
-//   .search-field {
-//     display: inline-block;
-//     border: 0px;
-//     cursor: pointer;
-//     height: 26px;
-//     transition: width 400ms ease, background 400ms ease;
-//     vertical-align: middle;
+  .search-form i {
+    font-size: 22px;
+    color: $bcGreen;
+    cursor: pointer;
+    flex-shrink: 0;
+  }
 
-//     // Gross hack! The width should be 0 but Safari does not want to set focus
-//     // on an imput without width. 0.1px is not visible, but accepts focus.
-//     width: 0.1px;
-//     padding-left: 0;
-//     padding-right: 0;
-//     margin-top: 4px;
+  .search-field {
+    // Positioned absolute so it expands leftward without pushing the store button
+    position: absolute;
+    right: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    border: 1px solid transparent;
+    background: white;
+    cursor: pointer;
+    height: 26px;
+    transition: width 400ms ease, border-color 400ms ease;
+    // Width 0.1px: field is invisible but Safari requires non-zero width to accept focus
+    width: 0.1px;
+    padding-left: 0;
+    padding-right: 0;
+    overflow: hidden;
+  }
 
-//     @media (min-width: $navbar-expand-breakpoint) {
-//       width: $serach-field-width;
-//       padding-left: $search-field-padding;
-//       padding-right: $search-field-padding;
-//     }
-//   }
+  .search-field:focus {
+    cursor: text;
+    outline: 0;
+    border-color: rgba($bcGreen, 0.4);
+    width: $search-field-width;
+    padding-left: $search-field-padding;
+    padding-right: $search-field-padding;
+  }
 
-//   .search-field:focus {
-//     cursor: text;
-//     outline: 0;
-//     opacity: 1;
-//     width: $serach-field-width;
-//     @media (max-width: $navbar-expand-breakpoint) {
-//       width: $serach-field-width-narrow;
-//     }
-//     padding-left: $search-field-padding;
-//     padding-right: $search-field-padding;
-
-//     margin-top: 4px;
-//   }
-
-//   .search-field:hover {
-//     opacity: 1;
-//   }
-
-//   .search-form {
-//     i {
-//       margin-top: 6px;
-//       @media (min-width: $navbar-expand-breakpoint) {
-//         display: none;
-//       }
-//     }
-//   }
-
-//   // Force search field to not be rounded on iOS devices
-//   input.search-field {
-//     -webkit-appearance: none !important;
-//     border-radius: 0 !important;
-//   }
-// }
-
-
-// // Social bar
-
-// .social-bar {
-//   display: none;
-//   @media (min-width: $navbar-expand-breakpoint) {
-//     display: inline-block;
-//   }
-
-//   i {
-//     padding-right: 10px;
-//   }
-// }
+  input.search-field {
+    appearance: none;
+    -webkit-appearance: none;
+    border-radius: 4px;
+  }
+}

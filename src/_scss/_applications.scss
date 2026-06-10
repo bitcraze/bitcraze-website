@@ -92,6 +92,10 @@
     }
   }
 
+  > *:last-child {
+    margin-bottom: 0;
+  }
+
   // ── Page title ────────────────────────────────────────────────────────────
   .app-page-header {
     padding: 4rem 2rem 0;
@@ -100,6 +104,19 @@
     @media (min-width: $screen-md-min) {
       padding: 5rem 5rem 0;
       margin-bottom: 1.5rem;
+    }
+
+    &::after {
+      content: '';
+      display: block;
+      width: 100vw;
+      height: 1px;
+      margin-left: calc(-50vw + 50%);
+      margin-top: 1.5rem;
+      background-image: repeating-linear-gradient(90deg,
+        $bcGreen 0px, $bcGreen 7px,
+        transparent 7px, transparent 15px
+      );
     }
   }
 
@@ -215,6 +232,29 @@
     }
   }
 
+  .app-research-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+
+    li {
+      display: flex;
+      gap: 0.75rem;
+      margin-bottom: 0.85rem;
+      font-size: 0.9rem;
+      line-height: 1.55;
+      color: $bcDarkGreen;
+      text-align: left;
+
+      &::before {
+        content: '→';
+        color: $bcGreen;
+        flex-shrink: 0;
+        font-weight: 700;
+      }
+    }
+  }
+
   // ── Section 3: research in action card ────────────────────────────────────
   .app-research-section {
     padding: 0 2rem 4rem;
@@ -282,7 +322,7 @@
 
     .value-prop-card {
       padding: 1rem 1rem;
-      height: 100%;
+      height: 16rem;
       display: flex;
       flex-direction: column;
 
@@ -359,18 +399,6 @@
       }
     }
 
-    .app-bundle-section {
-      border-top: 1px solid rgba($bcGreen, 0.3);
-      padding-top: 2rem;
-      margin-top: 2.5rem;
-
-      h3 {
-        font-size: 1rem;
-        font-weight: 700;
-        color: $bcDarkGreen;
-        margin-bottom: 1.25rem;
-      }
-    }
 
     .app-bundle-card {
       background: rgba($bcGreen, 0.08);

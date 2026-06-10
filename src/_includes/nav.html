@@ -28,7 +28,7 @@
 
                     <!-- Store button: shown at top inside mobile menu only -->
                     <div class="navbar-mobile-store d-lg-none">
-                        <a href="https://store.bitcraze.io/" class="btn btn-primary btn-block btn-color-secondary w-100">
+                        <a href="https://store.bitcraze.io/" class="btn btn-primary btn-color-secondary w-100">
                             <i class="fa-solid fa-cart-shopping fa-fw"></i> Store
                         </a>
                     </div>
@@ -40,9 +40,20 @@
 
                 </div>
 
-                <!-- Store button - Right on desktop only -->
-                <div class="navbar-end d-none d-lg-flex ms-auto">
-                    <a href="https://store.bitcraze.io/" class="btn btn-primary btn-block btn-color-secondary">
+                <!-- Search + Store - Right on desktop only -->
+                <div class="navbar-end d-none d-lg-flex ms-auto align-items-center">
+                    <form role="search" method="get" class="search-form" action="/">
+                        <label>
+                            <span class="sr-only">Search for:</span>
+                            <i class="fa-solid fa-magnifying-glass"></i>
+                            <input type="search"
+                                   class="search-field form-control"
+                                   placeholder="Search &hellip;"
+                                   value="" name="s">
+                        </label>
+                        <input type="submit" class="search-submit btn btn-primary" value="Search">
+                    </form>
+                    <a href="https://store.bitcraze.io/" class="btn btn-primary btn-color-secondary">
                         <i class="fa-solid fa-cart-shopping fa-fw"></i> Store
                     </a>
                 </div>

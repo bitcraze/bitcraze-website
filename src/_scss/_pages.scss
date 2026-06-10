@@ -156,8 +156,8 @@
   left: 0;
   width: 100%;
   height: 100%;
-  background-size: cover !important;
-  background-position: center !important;
+  background-size: cover;
+  background-position: center;
   text-align: center;
   cursor: pointer;
   display: flex;
@@ -201,7 +201,7 @@ table {
 // Team member
 .team {
     margin-bottom: 50px;
-    h2 {
+    h3 {
         margin-top: 0px;
     }
     img {
@@ -229,13 +229,6 @@ table {
         .fa-5x {
             font-size: 2rem;
         }
-
-        .pp-main-image-narrow,
-        .pp-main-image-medium,
-        .pp-main-image-wide {
-            width: 80% !important;
-            margin-left: 10% !important;
-        }
     }
 
     .pp-main-image-base {
@@ -244,40 +237,30 @@ table {
     }
     .pp-main-image-narrow {
         @extend .pp-main-image-base;
-        @media (min-width: $screen-xs-min) {
+        @media (min-width: $screen-md-min) {
             width: 20%;
             margin-left: 40%;
         }
     }
     .pp-main-image-medium {
         @extend .pp-main-image-base;
-        @media (min-width: $screen-xs-min) {
+        @media (min-width: $screen-md-min) {
             width: 50%;
             margin-left: 25%;
         }
     }
     .pp-main-image-wide {
         @extend .pp-main-image-base;
-        width: 80%;
-        margin-left: 10%;
+        @media (min-width: $screen-md-min) {
+            width: 80%;
+            margin-left: 10%;
+        }
     }
     .pp-catch-phrase {
         @extend h4;
     }
-    button {
-        font-size: 20px;
-        font-weight: bold;
-        margin-top: 10px;
-        margin-bottom: 10px;
-        a {
-            color: white;
-        }
-        i {
-            padding-right: 30px;
-        }
-    }
     .carousel {
-        margin-bottom: 30px
+        margin-bottom: 30px;
     }
     .carousel-control {
         background-image: initial;
@@ -303,13 +286,6 @@ table {
         width: 1.5em;
         text-align: center;
     }
-}
-
-// Bootstrap 5 uses .ratio with custom aspect ratios
-// .ratio-1x1 is built-in, but keep this for any legacy references
-.embed-responsive-1by1,
-.ratio-1x1 {
-    --bs-aspect-ratio: 100%;
 }
 
 // Distributors
@@ -416,12 +392,6 @@ h2:hover {
 
 .font-awesome-color i {
     color:blue;
-}
-
-// portals
-
-.portal-img {
-  padding-right: 10%;
 }
 
 // Breadcrumbs

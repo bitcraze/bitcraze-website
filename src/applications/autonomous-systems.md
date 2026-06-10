@@ -24,11 +24,11 @@ redirects:
     <div class="col-md-7">
       <div class="app-feature-row">
         <i class="fa-solid fa-microchip"></i>
-        <p class="text-center">Autonomous systems are at the core of modern robotics research. They represent the ability of machines to perceive, decide, and act independently in dynamic environments. The Crazyflie™ platform offers a unique foundation for developing and validating these systems, combining full control access with a robust and flexible hardware–software architecture.</p>
+        <p class="text-center">Autonomous systems are at the core of modern robotics research. They represent the ability of machines to perceive, decide, and act independently in dynamic environments. The Crazyflie platform offers a unique foundation for developing and validating these systems, combining full control access with a robust and flexible hardware–software architecture.</p>
       </div>
       <div class="app-feature-row">
         <i class="fa-solid fa-chart-line"></i>
-        <p class="text-center">Researchers worldwide use the Crazyflie™ to study autonomous flight, multi-agent decision-making, and adaptive control in real-world conditions. Its compact form, open firmware, and advanced localization options make it an ideal test bed for algorithms that move seamlessly from simulation to reality.</p>
+        <p class="text-center">Researchers worldwide use Crazyflie to study autonomous flight, multi-agent decision-making, and adaptive control in real-world conditions. Its compact form, open firmware, and advanced localization options make it an ideal testbed for testing algorithms that move seamlessly from simulation to reality.</p>
       </div>
     </div>
   </div>
@@ -49,7 +49,9 @@ redirects:
         <li>Onboard autonomy using embedded AI and edge computing frameworks.</li>
         <li>Cooperative autonomy where multiple drones coordinate tasks through distributed communication.</li>
         <li>System identification and modeling for dynamic system analysis and validation.</li>
+        <li>Fault detection and resilient autonomy to evaluate system behavior under failures,and unexpected environmental conditions.</li>
       </ul>
+      <p>Each experiment can be fully instrumented, logged, and reproduced. The open architecture allows integration with ROS, Python, MATLAB, and other research tools, ensuring smooth transitions between simulation environments and hardware testing.</p>
     </div>
   </div>
 </div>
@@ -61,9 +63,11 @@ redirects:
     <h2>Research in Action</h2>
     <p>The Crazyflie™ has been used in studies ranging from adaptive flight control and multi-drone coordination to self-calibration and fault-tolerant navigation.</p>
     <p>Researchers at institutions such as ETH Zurich, Chalmers University, and Université de Rennes have used it to advance the field of autonomous robotics through experimental validation and reproducible results.</p>
-    <p class="app-research-quote"><span>"Learning-Based Control for Quadrotors in Wind Disturbances"</span> demonstrated how adaptive control algorithms can improve real-world robustness using the Crazyflie™ platform.</p>
-    <p class="app-research-quote"><span>"Cooperative Localization in Swarm Flight"</span> showcased distributed autonomy and communication-based decision-making between multiple agents.</p>
-    <a href="/products/crazyflie-2-1-plus/" class="app-research-link">Learn more about the Crazyflie™ &rarr;</a>
+    <p>For example:</p>
+    <ul class="app-research-list">
+      <li><span><strong>”Learning-Based Control for Quadrotors in Wind Disturbances”</strong> demonstrated how adaptive control algorithms can improve real-world robustness using the Crazyflie platform.</span></li>
+      <li><span><strong>”Cooperative Localization in Swarm Flight”</strong> showcased distributed autonomy and communication-based decision-making between multiple agents.</span></li>
+    </ul>
   </div>
 </div>
 
@@ -78,41 +82,48 @@ redirects:
     </div>
   </div>
   <div class="row justify-content-center">
-    <div class="col-md-10 col-lg-10">
-      <div class="row g-4">
-        <div class="col-6 col-md">
-          <div class="value-prop-card">
-            <div class="card-icon"><i class="fa-solid fa-puzzle-piece"></i></div>
-            <h3>Hardware<br>modularity</h3>
-            <p style="color: rgba(255,255,255,0.7); font-size: 0.85rem; margin-top: 0.5rem;">Extend with positioning decks, AI decks, or custom sensor payloads.</p>
-          </div>
-        </div>
-        <div class="col-6 col-md">
-          <div class="value-prop-card">
-            <div class="card-icon"><i class="fa-solid fa-people-group"></i></div>
-            <h3>Global community<br>support</h3>
-            <p style="color: rgba(255,255,255,0.7); font-size: 0.85rem; margin-top: 0.5rem;">Shared tools, tutorials, and real research collaboration.</p>
-          </div>
-        </div>
-        <div class="col-6 col-md">
-          <div class="value-prop-card">
-            <div class="card-icon"><i class="fa-solid fa-crosshairs"></i></div>
-            <h3>Precision<br>tracking</h3>
-            <p style="color: rgba(255,255,255,0.7); font-size: 0.85rem; margin-top: 0.5rem;">Compatible with Lighthouse, Loco, and motion capture systems.</p>
-          </div>
-        </div>
-        <div class="col-6 col-md">
+    <div class="col-md-8 col-lg-8">
+      <div class="row g-4 align-items-start">
+        <div class="col-6 col-md-4">
           <div class="value-prop-card">
             <div class="card-icon"><i class="fa-solid fa-code"></i></div>
             <h3>Full software<br>transparency</h3>
             <p style="color: rgba(255,255,255,0.7); font-size: 0.85rem; margin-top: 0.5rem;">Open firmware and APIs at every level.</p>
           </div>
         </div>
-        <div class="col-6 col-md">
+        <div class="col-6 col-md-4">
+          <div class="value-prop-card">
+            <div class="card-icon"><i class="fa-solid fa-puzzle-piece"></i></div>
+            <h3>Hardware<br>modularity</h3>
+            <p style="color: rgba(255,255,255,0.7); font-size: 0.85rem; margin-top: 0.5rem;">Extend with positioning decks, AI decks, or custom sensor payloads.</p>
+          </div>
+        </div>
+        <div class="col-6 col-md-4">
+          <div class="value-prop-card">
+            <div class="card-icon"><i class="fa-solid fa-location-dot"></i></div>
+            <h3>Precision<br>tracking</h3>
+            <p style="color: rgba(255,255,255,0.7); font-size: 0.85rem; margin-top: 0.5rem;">Compatible with Lighthouse, Loco, and motion capture systems.</p>
+          </div>
+        </div>
+        <div class="col-6 col-md-4">
           <div class="value-prop-card">
             <div class="card-icon"><i class="fa-solid fa-rotate"></i></div>
             <h3>Reproducible<br>experimentation</h3>
             <p style="color: rgba(255,255,255,0.7); font-size: 0.85rem; margin-top: 0.5rem;">Consistent behavior across units and experiments.</p>
+          </div>
+        </div>
+        <div class="col-6 col-md-4">
+          <div class="value-prop-card">
+            <div class="card-icon"><i class="fa-solid fa-people-group"></i></div>
+            <h3>Global community<br>support</h3>
+            <p style="color: rgba(255,255,255,0.7); font-size: 0.85rem; margin-top: 0.5rem;">Shared tools, tutorials, and real research collaboration.</p>
+          </div>
+        </div>
+        <div class="col-6 col-md-4">
+          <div class="value-prop-card">
+            <div class="card-icon"><i class="fa-solid fa-computer"></i></div>
+            <h3>Simulation-to-reality<br>workflows</h3>
+            <p style="color: rgba(255,255,255,0.7); font-size: 0.85rem; margin-top: 0.5rem;">Support for rapid iteration between simulation, hardware-in-the-loop testing, and physical flight experiments.</p>
           </div>
         </div>
       </div>
@@ -120,24 +131,8 @@ redirects:
   </div>
 </div>
 
-<!-- ── Section 5: AI-Deck product highlight ──────────────────────────────── -->
+<!-- ── Section 5: Recommended bundles ────────────────────────────────────── -->
 <div class="container app-product-section">
-  <div class="row align-items-center g-5">
-    <div class="col-md-6">
-      <h2>AI-Deck 1.1: Enabling Smarter,<br>Autonomous Flight</h2>
-      <p>Thanks to the GAP8 IoT application processor from GreenWaves Technologies and an integrated camera, the AI Deck equips the Crazyflie™ with the essential hardware to see, understand, and react to its environment.</p>
-      <p>With the AI Deck 1.1, the Crazyflie™ gains powerful onboard computation: opening the door to custom AI workloads and autonomous behaviors, including navigation and environment-aware decision-making. Designed for researchers and developers, the AI Deck empowers you to experiment with and deploy your own embedded AI applications, turning the Crazyflie™ into a truly intelligent, autonomous platform.</p>
-      <p class="app-product-caption">Ultra Low Power Deep Learning powered Autonomous Nano Drones — ETH Zurich</p>
-      <div class="app-product-buttons">
-        <a href="/products/ai-deck-1-1/" class="btn btn-color-secondary">Learn more about the AI deck</a>
-        <a href="/documentation/start/" class="btn btn-color-primary">Find your AI guide</a>
-      </div>
-    </div>
-    <div class="col-md-6 app-product-image">
-      <img src="/images/products/ai-deck-side-585px.jpg" alt="AI-Deck 1.1">
-    </div>
-  </div>
-
   <div class="app-bundle-section">
     <h3>Recommended Bundles</h3>
     <div class="row g-3">
@@ -147,7 +142,7 @@ redirects:
           <img src="/images/products/ai-deck-side-585px.jpg" alt="AI Research Bundle" class="app-bundle-img">
           <div class="app-bundle-tag">Featured</div>
           <div class="app-bundle-name">AI Research Bundle</div>
-          <p class="app-bundle-desc">Crazyflie 2.1 Plus + AI-Deck 1.1 + Flow Deck v2. Everything you need to start onboard AI and autonomous flight research.</p>
+          <p class="app-bundle-desc">Crazyflie 2.1+, AI-Deck 1.1 and Flow Deck v2. Everything you need to start onboard AI and autonomous flight research.</p>
           <a href="https://store.bitcraze.io/" class="btn btn-color-primary">Shop Bundle</a>
         </div>
       </div>
@@ -158,4 +153,40 @@ redirects:
   </div>
 </div>
 
+<!-- ── Section 6: Start exploring ────────────────────────────────────── -->
+<div class="container-fluid appl-landing-cta" id="appl-cta">
+  <div class="row justify-content-center">
+    <div class="col-md-8 text-center">
+      <h2>Start Exploring</h2>
+      <p>The Crazyflie gives researchers the freedom to experiment with autonomy in all its forms: perception-driven control, cooperative flight, or learning-based adaptation.</p>
+      <p>Whether your work focuses on embedded AI, distributed systems, or flight control, the platform provides a dependable bridge between theoretical models and real-world results.</p>
+      <p>Discover more examples and open resources in our Repository overview or visit the System overview to explore the hardware and software components that enable this research.</p>
+      <div class="d-flex gap-3 justify-content-center flex-wrap">
+        <a href="/documentation/system/" class="btn btn-color-primary appl-landing-cta-btn">System overview</a>
+        <a href="/documentation/repository/" class="btn btn-color-secondary appl-landing-cta-btn">Repository overview</a>
+      </div>
+    </div>
+  </div>
+</div>
+
 </div><!-- end .app-page -->
+
+<script>
+  (function () {
+    function updateLines() {
+      var fp  = document.querySelector('.front-page');
+      var cta = document.getElementById('appl-cta');
+      if (!fp || !cta) return;
+      var sy     = window.scrollY || window.pageYOffset || 0;
+      var fpTop  = fp.getBoundingClientRect().top  + sy;
+      var ctaTop = cta.getBoundingClientRect().top + sy;
+      // Left vertical line: navbar → top of Start Exploring
+      fp.style.setProperty('--vline1-y', '0px');
+      fp.style.setProperty('--vline1-h', Math.max(0, ctaTop - fpTop) + 'px');
+    }
+    function schedule() { requestAnimationFrame(updateLines); }
+    document.addEventListener('DOMContentLoaded', schedule);
+    window.addEventListener('load', schedule);
+    window.addEventListener('resize', schedule);
+  })();
+</script>

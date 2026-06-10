@@ -49,12 +49,11 @@
     icon: /images/nav/rocket-icon.png
     subs:
     - {page_id: getting-started-start}
-    - {page_id: system-overview}
     - {page_id: tutorials}
-  - title: Resources
+    - {page_id: support-getting-help}
+  - title: Documentation
     icon: /images/nav/doc-icon.png
     subs:
-    - {page_id: tutorials}
     - {page_id: system-overview}
     - {page_id: repository-overview}
     - {title: GitHub, url: "https://github.com/bitcraze"}
@@ -71,17 +70,14 @@
   - {page_id: blog}
   - {page_id: development-overview}
   - {page_id: contribute}
-  - {page_id: early-access}
-  - {page_id: external-projects}  
+  - {page_id: external-projects}
 
 - title: Company
   icon: /images/nav/logo-icon.png
   subs:
   - {page_id: about-bitcraze}
-  - {page_id: about-team}
-  - {page_id: product-cycle}
-  - {page_id: buy-retailers}
-  - {page_id: thesis}
-  - {page_id: jobs}
+  - {page_id: distributors}
+  - {page_id: partners}
+  - {page_id: careers}
   - {page_id: events}
   - {page_id: about-contact}

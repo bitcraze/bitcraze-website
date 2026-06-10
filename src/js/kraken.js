@@ -24,62 +24,6 @@ var kraken = {
     });
   },
 
-  scrollToNextScrollPoint: function() {
-    var scrollPoints = document.querySelectorAll('.scroll-point');
-    var firstVisible = kraken.findTopMostVisibleElement(scrollPoints);
-
-    if (firstVisible != null) {
-      kraken.scrollToElement(scrollPoints[firstVisible]);
-    }
-  },
-
-  findTopMostVisibleElement: function(elements) {
-    var firstVisible = null;
-
-    for(var i = 0; i < elements.length; i++) {
-      var rect = elements[i].getBoundingClientRect();
-      if(rect.top > 0) {
-        firstVisible = i;
-        break;
-      }
-    }
-
-    return firstVisible;
-  },
-
-  scrollToElement: function(element) {
-    element.scrollIntoView({
-      block: "start",
-      inline: "nearest",
-      behavior: 'smooth'
-    });
-  },
-
-  registerSectionScrollerSpy: function() {
-    window.addEventListener('scroll', kraken.scrollEventSectionScroller);
-  },
-
-  scrollEventSectionScroller: function(e) {
-    var rect = document.body.getBoundingClientRect();
-    var sectionScrollers = document.querySelectorAll('.section-scroller');
-
-    if (Math.abs(rect.bottom - window.innerHeight) < 5) {
-      // At bottom of page - hide section scrollers
-      sectionScrollers.forEach(function(el) {
-        if (el.style.display !== 'none') {
-          el.style.display = 'none';
-        }
-      });
-    } else {
-      // Not at bottom - show section scrollers
-      sectionScrollers.forEach(function(el) {
-        if (el.style.display === 'none') {
-          el.style.display = '';
-        }
-      });
-    }
-  },
-
   addLinksToTags: function(tag_type) {
     let elements = document.getElementsByTagName(tag_type);
     for (let element of elements) {
