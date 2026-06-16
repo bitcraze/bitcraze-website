@@ -35,7 +35,7 @@ page_id: home
 
   <div id="ecosystem-section" class="row what-we-do-section-padding section-content justify-content-center align-items-center">
     <div class="col-md-5 col-lg-4">
-      <img src="/images/frontpage/front-ecosystem.webp" alt="Open source" class="w-100">
+      <img src="/images/frontpage/front-ecosystem.webp" alt="The Crazyflie Ecosystem" class="w-100">
     </div>
     <div class="col-md-4 col-lg-3 ms-n5 text-block-box text-box_open_source">
       <div class="header-text">
@@ -76,7 +76,7 @@ page_id: home
         <p><b>Explore All Decks <img src="/images/frontpage/front-arrow.png" alt="→" class="fp-arrow-img"></b></p>
       </div>
       <div class="col-md-4">
-        <img src="/images/frontpage/front-platform.webp" alt="Platform" class="w-100">
+        <img src="/images/frontpage/front-expansion.png" alt="Expansion Decks" class="w-100">
       </div>
     </a>
   </div>
@@ -84,7 +84,7 @@ page_id: home
   <div id="two" class="row positioning-section-bg what-we-do-section-padding section-content justify-content-center align-items-center">
     <a href="/documentation/system/platform/" class="col-md-10 col-lg-8 d-flex align-items-center justify-content-center text-block-box text-box_positioning">
       <div class="col-md-4">
-        <img src="/images/frontpage/front-platform.webp" alt="Platform" class="w-100">
+        <img src="/images/frontpage/front-positioning.png" alt="Positioning Systems" class="w-100">
       </div>
       <div class="col-md-6 fp-section-text">
         <h2>
@@ -108,7 +108,7 @@ page_id: home
         <p><b>Explore Software & Tools <img src="/images/frontpage/front-arrow.png" alt="→" class="fp-arrow-img"></b></p>
       </div>
       <div class="col-md-4">
-        <img src="/images/frontpage/front-platform.webp" alt="Platform" class="w-100">
+        <img src="/images/frontpage/front-open-source.png" alt="Open Source" class="w-100">
       </div>
     </a>
   </div>
@@ -168,67 +168,72 @@ page_id: home
 <!-- Value Props End -->
 
 <!-- Research Areas and Applications Start -->
-<div class="container appl-cards-section">
+<div class="container appl-cards-section appl-cards-section--no-divider appl-cards-section--grid">
   <div class="row justify-content-center">
     <div class="col-md-6 text-center mb-4">
       <h2><span class="highlight-green">Applications</span> and<br>Research Areas</h2>
       <p>How researchers, educators, and engineers are using<br>the Crazyflie to explore autonomy, swarms, and indoor<br>flight — from labs to early industrial prototypes.</p>
     </div>
   </div>
-  <div class="row justify-content-center g-3">
-    <div class="col-6 col-md-auto">
-      <div class="appl-card appl-card--swarm">
-        <div class="appl-card-header">
-          <h3>Swarm<br>Robotics</h3>
-          <a href="/applications/swarm-robotics/" class="btn appl-card-btn">Discover more</a>
-        </div>
-        <div class="appl-card-img-wrap">
-          <img src="/images/frontpage/appl-swarm.png" alt="Swarm Robotics">
-        </div>
+  <div class="appl-cards-grid">
+    <div class="appl-card appl-card--swarm">
+      <div class="appl-card-img-wrap">
+        <img src="/images/applications/appl-card-swarm.jpg" alt="Swarm Robotics">
+      </div>
+      <div class="appl-card-header">
+        <i class="fa-solid fa-circle-nodes appl-card-icon"></i>
+        <h3>Swarm<br>Robotics</h3>
+        <a href="/applications/swarm-robotics/" class="btn appl-card-btn">Discover more →</a>
       </div>
     </div>
-    <div class="col-6 col-md-auto">
-      <div class="appl-card appl-card--hri">
-        <div class="appl-card-header">
-          <h3>Human–Robot Interaction &amp; Education</h3>
-          <a href="/applications/human-robot-interaction/" class="btn appl-card-btn">Discover more</a>
-        </div>
-        <div class="appl-card-img-wrap">
-          <img src="/images/frontpage/appl-hri.png" alt="Human-Robot Interaction and Education">
-        </div>
+    <div class="appl-card appl-card--hri">
+      <div class="appl-card-img-wrap">
+        <img src="/images/applications/appl-card-hri.jpg" alt="Human-Robot Interaction">
+      </div>
+      <div class="appl-card-header">
+        <i class="fa-solid fa-people-arrows appl-card-icon"></i>
+        <h3>Human–Robot Interaction &amp; Education</h3>
+        <a href="/applications/human-robot-interaction/" class="btn appl-card-btn">Discover more →</a>
       </div>
     </div>
-    <div class="col-6 col-md-auto">
-      <div class="appl-card appl-card--stem">
-        <div class="appl-card-header">
-          <h3>STEM and Higher Education</h3>
-          <a href="/applications/stem-education/" class="btn appl-card-btn">Discover more</a>
-        </div>
-        <div class="appl-card-img-wrap">
-          <img src="/images/frontpage/appl-stem.png" alt="STEM and Higher Education">
-        </div>
+    <div class="appl-card appl-card--stem">
+      <div class="appl-card-img-wrap">
+        <img src="/images/applications/appl-card-stem.jpg" alt="STEM and Higher Education">
+      </div>
+      <div class="appl-card-header">
+        <i class="fa-solid fa-graduation-cap appl-card-icon"></i>
+        <h3>STEM and Higher Education</h3>
+        <a href="/applications/stem-education/" class="btn appl-card-btn">Discover more →</a>
       </div>
     </div>
-    <div class="col-6 col-md-auto">
-      <div class="appl-card appl-card--autosys">
-        <div class="appl-card-header">
-          <h3>Autonomous<br>Systems</h3>
-          <a href="/applications/autonomous-systems/" class="btn appl-card-btn">Discover more</a>
-        </div>
-        <div class="appl-card-img-wrap">
-          <img src="/images/frontpage/appl-autosys.png" alt="Autonomous Systems">
-        </div>
+    <div class="appl-card appl-card--autosys">
+      <div class="appl-card-img-wrap">
+        <img src="/images/applications/appl-card-auto.jpg" alt="Autonomous Systems">
+      </div>
+      <div class="appl-card-header">
+        <i class="fa-solid fa-robot appl-card-icon"></i>
+        <h3>Autonomous<br>Systems</h3>
+        <a href="/applications/autonomous-systems/" class="btn appl-card-btn">Discover more →</a>
       </div>
     </div>
-    <div class="col-6 col-md-auto">
-      <div class="appl-card appl-card--percept">
-        <div class="appl-card-header">
-          <h3>Perception &amp; Navigation</h3>
-          <a href="/applications/perception-navigation/" class="btn appl-card-btn">Discover more</a>
-        </div>
-        <div class="appl-card-img-wrap">
-          <img src="/images/frontpage/appl-percept.png" alt="Perception and Navigation">
-        </div>
+    <div class="appl-card appl-card--percept">
+      <div class="appl-card-img-wrap">
+        <img src="/images/applications/appl-card-perc-nav.jpg" alt="Perception and Navigation">
+      </div>
+      <div class="appl-card-header">
+        <i class="fa-solid fa-compass appl-card-icon"></i>
+        <h3>Perception &amp; Navigation</h3>
+        <a href="/applications/perception-navigation/" class="btn appl-card-btn">Discover more →</a>
+      </div>
+    </div>
+    <div class="appl-card appl-card--aerial">
+      <div class="appl-card-img-wrap">
+        <img src="/images/applications/appl-card-aerial.jpg" alt="Aerial Manipulation">
+      </div>
+      <div class="appl-card-header">
+        <i class="fa-solid fa-hand appl-card-icon"></i>
+        <h3>Aerial<br>Manipulation</h3>
+        <a href="/applications/aerial-manipulation/" class="btn appl-card-btn">Discover more →</a>
       </div>
     </div>
   </div>

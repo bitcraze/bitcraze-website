@@ -5,51 +5,55 @@ page_id: stem-education
 redirects:
   - /stem/
 ---
-
 <div class="app-page">
 
 <!-- ── Page title ────────────────────────────────────────────────────────── -->
 <div class="container app-page-header">
-  <h1 class="app-page-title">Perception & Sensing</h1>
+  <h1 class="app-page-title">STEM & Higher Education</h1>
 </div>
 
 <!-- ── Section 1: Intro ──────────────────────────────────────────────────── -->
 <div class="container app-intro-section">
   <h2 class="text-center">
-    <span class="highlight-green">Seeing</span>, <span class="highlight-green">Understanding</span>, and <span class="highlight-green">Acting</span> in Real Time
+    Bringing <span class="highlight-green">Robotics</span>, 
+    <span class="highlight-green">Autonomy</span>, and <span class="highlight-green">Engineering</span> to Life
   </h2>
   <div class="row justify-content-center">
     <div class="col-md-7">
       <div class="app-feature-row">
-        <i class="fa-solid fa-eye"></i>
-        <p class="text-center">Perception and sensing are at the foundation of intelligent robotics. They define how a system interprets the world and transforms raw data into actionable understanding. With the Crazyflie, researchers gain full control over sensing modalities, sensor fusion, and environmental awareness, enabling rigorous experimentation in real-world conditions.</p>
+        <i class="fa-solid fa-terminal"></i>
+        <p class="text-center">The most effective learning often happens when theory meets practice. The Crazyflie® platform enables students to move beyond simulations and textbooks, applying concepts from robotics, programming, control theory, artificial intelligence, and systems engineering through hands-on experimentation.</p>
       </div>
       <div class="app-feature-row">
-        <i class="fa-solid fa-box-open"></i>
-        <p class="text-center">The Crazyflie’s open architecture and modular hardware make it an ideal platform for testing perception pipelines, from optical flow and stereo vision to learned sensing and probabilistic inference. The system supports edge-based processing for lightweight computation and rapid iteration between design, simulation, and flight testing.</p>
+        <i class="fa-solid fa-graduation-cap"></i>
+        <p class="text-center">Used in classrooms, laboratories, student projects, and research programs around the world, the Crazyflie provides a scalable and accessible platform that supports learners from their first flight through advanced research in autonomy and multi-agent systems. Its open architecture encourages exploration, experimentation, and a deeper understanding of how complex robotic systems work.</p>
       </div>
     </div>
   </div>
 </div>
 
 <!-- ── Section 2: From Concept to Controlled Autonomy ───────────────────── -->
-<div class="row platform-section-bg section-content justify-content-center align-items-center app-concept-row">
-  <div class="col-md-10 col-lg-8 d-flex align-items-center justify-content-center text-block-box text-box_platform">
-    <div class="col-md-4">
-      <img src="/images/frontpage/front-platform.webp" alt="Crazyflie autonomous flight" class="w-100">
-    </div>
-    <div class="col-md-8" style="padding-left: 2rem;">
-      <h2 style="text-align: left;">Research Opportunities</h2>
-      <p style="text-align: left; margin-bottom: 1rem;">With the Crazyflie™, researchers can implement and evaluate:</p>
-      <ul class="app-concept-list">
-        <li>Visual–Inertial Odometry (VIO) and SLAM benchmarking.</li>
-        <li>Sensor fusion for improved stability and positioning.</li>
-        <li>Event-based and neuromorphic sensing for low-latency perception.</li>
-        <li>Embedded AI for onboard classification and real-time interpretation.</li>
-        <li>Active sensing through adaptive control strategies.</li>
-        <li>Object detection, tracking, and scene understanding for autonomous flight.</li>
-      </ul>
-      <p>Each experiment benefits from the Crazyflie’s data transparency and reliable flight behavior, allowing researchers to isolate sensing performance and replicate complex experimental setups.</p>
+<div class="app-concept-row">
+  <div class="app-concept-img-bleed">
+    <img src="/images/applications/appl-card-stem.jpg" alt="STEM and Higher Education">
+  </div>
+  <div class="container">
+    <div class="row align-items-stretch">
+      <div class="col-md-5 app-concept-spacer"></div>
+      <div class="col-12 col-md-7 text-box_platform d-flex align-items-center">
+        <div>
+          <h2 style="text-align: left;">Teaching Opportunities</h2>
+          <ul class="app-concept-list">
+            <li>Programming and software development for autonomous systems.</li>
+            <li>Robotics, control theory, and feedback systems education.</li>
+            <li>Artificial intelligence, machine learning, and edge computing projects.</li>
+            <li>Multi-agent systems and swarm robotics coursework.</li>
+            <li>Capstone projects, thesis work, and research laboratories.</li>
+            <li>Project-based STEM learning and interdisciplinary engineering education.</li>
+          </ul>
+          <p>Students gain experience working with real hardware, real sensors, and real-world constraints, developing practical skills that complement theoretical knowledge and prepare them for future work in engineering, robotics, and computer science.</p>
+        </div>
+      </div>
     </div>
   </div>
 </div>
@@ -58,23 +62,28 @@ redirects:
 <div class="container app-research-section">
   <div class="app-research-card">
     <div class="app-research-icon"><i class="fa-solid fa-flask"></i></div>
-    <h2>Research in Action</h2>
-    <p>The Crazyflie has supported perception studies in visual–inertial navigation, AI-based object recognition, and probabilistic mapping at institutions such as EPFL, TUM, and University of Twente.</p>
-    <p>For example:</p>
+    <h2>Teaching in Action</h2>
+    <p>The Crazyflie platform is used by universities, research institutions, science centers, and schools worldwide. It supports a wide range of educational activities, from introductory programming and robotics courses to graduate-level research.</p>
+    <p>Its combination of openness, safety, and flexibility allows educators to adapt the platform to different learning objectives while providing students with meaningful, hands-on experience that extends beyond simulation environments.</p>
     <ul class="app-research-list">
-      <li><span><strong>”Vision-Based Indoor Navigation with Lightweight Drones”</strong></span></li>
-      <li><span><strong>”Learning Compact Representations for Autonomous Flight”</strong></span></li>
+      <li><span><strong><a href="https://www.cmu.edu/roboticsacademy/roboticscurriculum/drone_curriculum/robot_swarms_crazyflie.html">Carnegie Mellon Robotics Academy, U.S.A</a></strong></span></li>
+      <li><span><strong><a href="https://droneblocks.io/program/programming-a-drone/">DroneBlocks Autonomous Drones – Level II, U.S.A</a></strong></span></li>
+      <li><span><strong><a href="https://hiperlab.berkeley.edu/teaching/">Introduction to Control of Unmanned Aerial Vehicles, UC Berkeley, U.S.A.</a></strong></span></li>
+      <li><span><strong><a href="https://moseskonto.tu-berlin.de/moses/modultransfersystem/bolognamodule/beschreibung/anzeigen.html?nummer=41159&version=1">Flying Robots, Technische Universität Berlin, Germany</a></strong></span></li>
+      <li><span><strong><a href="https://registrar.princeton.edu/course-offerings/course-details?courseid=002348&term=1262">Introduction to Robotics, Princeton University, U.S.A</a></strong></span></li>
+      <li><span><strong><a href="https://eng.ox.ac.uk/control/education">Department of Engineering Science, University of Oxford, U.K.</a></strong></span></li>
+      <li><span><strong><a href="https://vitensenternordland.no/skole-barnehage/ungdomsskole/pyfly/">Vitensenter Nordland, Norway</a></strong></span></li>
     </ul>
   </div>
 </div>
 
-<!-- ── Section 4: Why the Crazyflie™? ───────────────────────────────────── -->
+<!-- ── Section 4: Why the Crazyflie®? ───────────────────────────────────── -->
 <div class="container-fluid value-props-banner">
   <div class="row justify-content-center mb-3">
     <div class="col-12 text-center">
       <h2 style="color: white;">
         <i class="fa-solid fa-drone highlight-green"></i>
-        Why the <span class="highlight-dark-green">Crazyflie™</span>?
+        Why the <span class="highlight-dark-green">Crazyflie®</span>?
       </h2>
     </div>
   </div>
@@ -84,37 +93,43 @@ redirects:
         <div class="col-6 col-md-4">
           <div class="value-prop-card">
             <div class="card-icon"><i class="fa-solid fa-code"></i></div>
-            <h3>Full software<br>transparency</h3>
+            <h3>Open-source hardware<br>& software</h3>
+            <p style="color: rgba(255,255,255,0.7); font-size: 0.85rem; margin-top: 0.5rem;">Open-source hardware and software for deeper learning and exploration.</p>
           </div>
         </div>
         <div class="col-6 col-md-4">
           <div class="value-prop-card">
-            <div class="card-icon"><i class="fa-solid fa-puzzle-piece"></i></div>
-            <h3>Hardware<br>modularity</h3>
+            <div class="card-icon"><i class="fa-solid fa-terminal"></i></div>
+            <h3>Accessible APIs<br>& frameworks</h3>
+            <p style="color: rgba(255,255,255,0.7); font-size: 0.85rem; margin-top: 0.5rem;">Accessible APIs for Python, ROS, and other educational frameworks.</p>
           </div>
         </div>
         <div class="col-6 col-md-4">
           <div class="value-prop-card">
-            <div class="card-icon"><i class="fa-solid fa-location-dot"></i></div>
-            <h3>Precision<br>tracking</h3>
+            <div class="card-icon"><i class="fa-solid fa-shield-halved"></i></div>
+            <h3>Safe classroom<br>platform</h3>
+            <p style="color: rgba(255,255,255,0.7); font-size: 0.85rem; margin-top: 0.5rem;">Safe and classroom-friendly platform for indoor experimentation.</p>
           </div>
         </div>
         <div class="col-6 col-md-4">
           <div class="value-prop-card">
-            <div class="card-icon"><i class="fa-solid fa-rotate"></i></div>
-            <h3>Reproducible<br>experimentation</h3>
+            <div class="card-icon"><i class="fa-solid fa-layer-group"></i></div>
+            <h3>Modular<br>ecosystem</h3>
+            <p style="color: rgba(255,255,255,0.7); font-size: 0.85rem; margin-top: 0.5rem;">Modular ecosystem that grows with student capabilities and project complexity.</p>
           </div>
         </div>
         <div class="col-6 col-md-4">
           <div class="value-prop-card">
-            <div class="card-icon"><i class="fa-solid fa-people-group"></i></div>
-            <h3>Global community<br>support</h3>
+            <div class="card-icon"><i class="fa-solid fa-book-open"></i></div>
+            <h3>Docs, tutorials<br>& community</h3>
+            <p style="color: rgba(255,255,255,0.7); font-size: 0.85rem; margin-top: 0.5rem;">Extensive documentation, tutorials, and community resources.</p>
           </div>
         </div>
         <div class="col-6 col-md-4">
           <div class="value-prop-card">
-            <div class="card-icon"><i class="fa-solid fa-computer"></i></div>
-            <h3>Simulation-to-reality<br>workflows</h3>
+            <div class="card-icon"><i class="fa-solid fa-graduation-cap"></i></div>
+            <h3>Proven in universities<br>worldwide</h3>
+            <p style="color: rgba(255,255,255,0.7); font-size: 0.85rem; margin-top: 0.5rem;">Proven platform used in universities and research programs worldwide.</p>
           </div>
         </div>
       </div>
@@ -122,36 +137,39 @@ redirects:
   </div>
 </div>
 
-<!-- ── Section 5: Recommended bundles ────────────────────────────────────── -->
+<!-- ── Section 5: Reference Setup ────────────────────────────────────── -->
 <div class="container app-product-section">
   <div class="app-bundle-section">
-    <h3>Recommended Bundles</h3>
+    <h3>Reference Setup</h3>
     <div class="row g-3">
-
       <div class="col-12 col-md-4">
         <div class="app-bundle-card">
-          <img src="/images/products/ai-deck-side-585px.jpg" alt="AI Research Bundle" class="app-bundle-img">
+          <img src="/images/applications/bundle-stem-2.1+.webp" alt="STEM drone bundle - Crazyflie 2.1+" class="app-bundle-img">
           <div class="app-bundle-tag">Featured</div>
-          <div class="app-bundle-name">AI Research Bundle</div>
-          <p class="app-bundle-desc">Crazyflie 2.1+, AI-Deck 1.1 and Flow Deck v2. Everything you need to start onboard AI and autonomous flight research.</p>
-          <a href="https://store.bitcraze.io/" class="btn btn-color-primary">Shop Bundle</a>
+          <div class="app-bundle-name">STEM drone bundle - Crazyflie 2.1+</div>
+          <p class="app-bundle-desc">With the STEM drone bundle you get everything you need for scripting and learning how to operate a robot in 3 dimensions.</p>
+          <a href="https://store.bitcraze.io/collections/bundles/products/stem-drone-bundle" class="btn btn-color-primary">Shop Bundle</a>
         </div>
       </div>
-
-      <!-- Add more bundle cards here -->
-
+      <div class="col-12 col-md-4">
+        <div class="app-bundle-card">
+          <img src="/images/applications/bundle-ranging-2.1+.webp" alt="STEM ranging bundle - Crazyflie 2.1+" class="app-bundle-img">
+          <div class="app-bundle-tag">Featured</div>
+          <div class="app-bundle-name">STEM ranging bundle - Crazyflie 2.1+</div>
+          <p class="app-bundle-desc">With the STEM ranging bundle you get everything you need for scripting and learning how to operate a robot in 3 dimensions and react to objects around it. </p>
+          <a href="https://store.bitcraze.io/collections/bundles-crazyflie-2-1/products/stem-ranging-bundle" class="btn btn-color-primary">Shop Bundle</a>
+        </div>
+      </div>
     </div>
   </div>
 </div>
 
-<!-- ── Section 6: Start exploring ────────────────────────────────────── -->
+<!-- ── Section 6: Related Resources ────────────────────────────────────── -->
 <div class="container-fluid appl-landing-cta" id="appl-cta">
   <div class="row justify-content-center">
     <div class="col-md-8 text-center">
-      <h2>Start Exploring</h2>
-      <p>The Crazyflie gives researchers the freedom to experiment with autonomy in all its forms: perception-driven control, cooperative flight, or learning-based adaptation.</p>
-      <p>Whether your work focuses on embedded AI, distributed systems, or flight control, the platform provides a dependable bridge between theoretical models and real-world results.</p>
-      <p>Discover more examples and open resources in our Repository overview or visit the System overview to explore the hardware and software components that enable this research.</p>
+      <h2>Related Resources</h2>
+      <p>Whether you are teaching introductory robotics, building a university laboratory, supporting student research, or developing the next generation of engineers, the Crazyflie provides a practical foundation for learning, experimentation, and innovation.</p>
       <div class="d-flex gap-3 justify-content-center flex-wrap">
         <a href="/documentation/system/" class="btn btn-color-primary appl-landing-cta-btn">System overview</a>
         <a href="/documentation/repository/" class="btn btn-color-secondary appl-landing-cta-btn">Repository overview</a>

@@ -3,6 +3,7 @@
   subs:
   - {page_id: applications-landing}
   - {page_id: autonomous-systems}
+  - {page_id: aerial-manipulation}
   - {page_id: perception-navigation}
   - {page_id: swarm-robotics}
   - {page_id: human-robot-interaction}

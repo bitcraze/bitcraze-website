@@ -22,12 +22,12 @@ class TestTabs < Testbase
     expected = '
       <div>
         <ul class="nav nav-tabs" role="tablist">
-          <li role="presentation" class="active">
-            <a href="#tab-id-single-tab" role="tab" data-toggle="tab">Single tab</a>
+          <li class="nav-item" role="presentation">
+            <a href="#tab-id-single-tab" class="nav-link active" role="tab" data-bs-toggle="tab">Single tab</a>
           </li>
         </ul>
         <div class="tab-content">
-          <div role="tabpanel" class="tab-pane fade in active" id="tab-id-single-tab">converted md</div>
+          <div role="tabpanel" class="tab-pane fade show active" id="tab-id-single-tab">converted md</div>
         </div>
       </div>'
 
@@ -47,16 +47,16 @@ class TestTabs < Testbase
     expected = '
       <div>
         <ul class="nav nav-tabs" role="tablist">
-          <li role="presentation" class="active">
-            <a href="#tab-id-first-tab" role="tab" data-toggle="tab">First tab</a>
+          <li class="nav-item" role="presentation">
+            <a href="#tab-id-first-tab" class="nav-link active" role="tab" data-bs-toggle="tab">First tab</a>
           </li>
-          <li role="presentation">
-            <a href="#tab-id-second-tab" role="tab" data-toggle="tab">Second tab</a>
+          <li class="nav-item" role="presentation">
+            <a href="#tab-id-second-tab" class="nav-link" role="tab" data-bs-toggle="tab">Second tab</a>
           </li>
         </ul>
         <div class="tab-content">
-          <div role="tabpanel" class="tab-pane fade in active" id="tab-id-first-tab">converted md</div>
-          <div role="tabpanel" class="tab-pane fade in" id="tab-id-second-tab">converted md</div>
+          <div role="tabpanel" class="tab-pane fade show active" id="tab-id-first-tab">converted md</div>
+          <div role="tabpanel" class="tab-pane fade show" id="tab-id-second-tab">converted md</div>
         </div>
       </div>'
 
@@ -76,22 +76,22 @@ class TestTabs < Testbase
     expected = '
       <div>
         <ul class="nav nav-tabs" role="tablist">
-          <li role="presentation" class="active">
-            <a href="#tab-id-same-name" role="tab" data-toggle="tab">Same name</a>
+          <li class="nav-item" role="presentation">
+            <a href="#tab-id-same-name" class="nav-link active" role="tab" data-bs-toggle="tab">Same name</a>
           </li>
         </ul>
         <div class="tab-content">
-          <div role="tabpanel" class="tab-pane fade in active" id="tab-id-same-name">converted md</div>
+          <div role="tabpanel" class="tab-pane fade show active" id="tab-id-same-name">converted md</div>
         </div>
       </div>
       <div>
         <ul class="nav nav-tabs" role="tablist">
-          <li role="presentation" class="active">
-            <a href="#tab-id-same-name-1" role="tab" data-toggle="tab">Same name</a>
+          <li class="nav-item" role="presentation">
+            <a href="#tab-id-same-name-1" class="nav-link active" role="tab" data-bs-toggle="tab">Same name</a>
           </li>
         </ul>
         <div class="tab-content">
-          <div role="tabpanel" class="tab-pane fade in active" id="tab-id-same-name-1">converted md</div>
+          <div role="tabpanel" class="tab-pane fade show active" id="tab-id-same-name-1">converted md</div>
         </div>
       </div>'
     context = {'page' => {}}

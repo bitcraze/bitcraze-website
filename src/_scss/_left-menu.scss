@@ -1,3 +1,5 @@
+@use 'sass:math' as math;
+
 // Dynamic menu used in tutorials
 .left-menu {
     $padding-menu-top: 28px;
@@ -14,15 +16,15 @@
         // body width. This width is just the body width deivided by the number of columns. The difference is
         // compensated for by the padding below. The width must be a relative (%) measurement, that's why it
         // becomes a bit complicated.
-        width: percentage(($nav-cols-width / $grid-columns));
+        width: percentage(math.div($nav-cols-width, $grid-columns));
         $bs-full-width-without-outer-gutter: $site-width - $grid-gutter-width;
-        $bs-4-cols-width-no-gutter: ($bs-full-width-without-outer-gutter * $nav-cols-width / $grid-columns) - $grid-gutter-width;
-        $full-width-4-cols: $site-width * $nav-cols-width / $grid-columns;
+        $bs-4-cols-width-no-gutter: math.div($bs-full-width-without-outer-gutter * $nav-cols-width, $grid-columns) - $grid-gutter-width;
+        $full-width-4-cols: math.div($site-width * $nav-cols-width, $grid-columns);
         $diff: $full-width-4-cols - $bs-4-cols-width-no-gutter;
         padding-right: $diff;
         top: $content-area-padding-top;
         @media (min-width: $site-width + $grid-gutter-width) {
-            width: ($site-width * $nav-cols-width / $grid-columns) - $grid-gutter-width + $diff;
+            width: math.div($site-width * $nav-cols-width, $grid-columns) - $grid-gutter-width + $diff;
         }
     }
     .affix-bottom {

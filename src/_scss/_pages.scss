@@ -1,3 +1,5 @@
+@use 'sass:color' as color;
+
 // All pages
 .content-area {
     padding-top: $content-area-padding-top;
@@ -61,7 +63,7 @@
     }
 
     a {
-        color: darken($bcGreen, 20%);
+        color: color.adjust($bcGreen, $lightness: -20%);
         text-decoration: underline;
         text-underline-offset: 2px;
 

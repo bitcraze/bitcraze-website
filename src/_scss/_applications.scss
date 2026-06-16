@@ -1,3 +1,5 @@
+@use 'sass:color' as color;
+
 // Application landing page
 
 .appl-landing-intro {
@@ -180,27 +182,59 @@
     }
   }
 
-  // ── Section 2: concept row extras ─────────────────────────────────────────
+  // ── Section 2: concept row ─────────────────────────────────────────────────
   .app-concept-row {
-    padding-top: 0;
-    padding-bottom: 0;
+    position: relative;
+    overflow: hidden;
 
-    &.platform-section-bg {
-      background: linear-gradient(to right, $bcDarkGreen 0%, $bcDarkGreen 50%, transparent 50%);
+    // Mobile: image in normal flow above text
+    .app-concept-img-bleed {
+      position: relative;
+      width: 100%;
+      height: 220px;
 
-      &::before {
-        background: $bcDarkGreen;
+      img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        display: block;
       }
+
+      // Desktop: bleed to left viewport edge, right edge aligns with col-md-5 of 840px container
+      @media (min-width: $screen-md-min) {
+        position: absolute;
+        left: 0;
+        top: 0;
+        width: calc(50vw - 70px);
+        height: 100%;
+      }
+    }
+
+    // Spacer col only shown on desktop to push text to the right half
+    .app-concept-spacer {
+      display: none;
+
+      @media (min-width: $screen-md-min) {
+        display: block;
+      }
+    }
+
+    .container {
+      position: relative;
+      z-index: 1;
+      max-width: 840px;
     }
 
     .text-box_platform {
       background: $bcDarkGreen;
-      padding-top: 1.5rem;
-      padding-bottom: 1.5rem;
+      padding: 2rem;
+      transition: none;
+      border-radius: 0;
 
-      // override text-block-box padding so it doesn't double up
-      &.text-block-box {
-        padding: 1.5rem;
+      &:hover { transform: none; }
+
+      @media (min-width: $screen-md-min) {
+        border-radius: 0 16px 16px 0;
       }
     }
 
@@ -310,7 +344,7 @@
       font-weight: 700;
       text-decoration: none;
 
-      &:hover { color: darken($bcGreen, 10%); text-decoration: underline; }
+      &:hover { color: color.adjust($bcGreen, $lightness: -10%); text-decoration: underline; }
     }
   }
 
@@ -411,8 +445,8 @@
 
       .app-bundle-img {
         width: 100%;
-        height: 160px;
-        object-fit: cover;
+        aspect-ratio: 1;
+        object-fit: contain;
         border-radius: 10px;
         margin-bottom: 1rem;
       }

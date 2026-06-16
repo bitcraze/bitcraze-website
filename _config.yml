@@ -23,6 +23,11 @@ keep_files: ['_site/css/kraken.css.map']
 sass:
   sass_dir: _scss
   style: compressed
+  silence_deprecations:
+    - import
+    - if-function
+    - global-builtin
+    - color-functions
 
 # Note: the ditaa and the jekyll-ditaa plugin are part of the bitcraze/web-builder
 plugins:

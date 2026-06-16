@@ -1,3 +1,6 @@
+@use 'sass:math' as math;
+@use 'sass:color' as color;
+
 .front-page {
   position: relative;
   isolation: isolate;
@@ -7,8 +10,8 @@
 
   // Vertical dashed line x-positions, anchored to the content boundary.
   // $site-width / 2 = the content edge; outer adds 100px margin beyond it.
-  $vline-content-edge: $site-width / 2;
-  $vline-outer-offset: $site-width / 2 + 100px;
+  $vline-content-edge: math.div($site-width, 2);
+  $vline-outer-offset: math.div($site-width, 2) + 100px;
 
   @media (min-width: $screen-md-min) {
     &::before {
@@ -233,8 +236,8 @@
     border-width: 2px;
     &:hover, &:focus {
       color: white;
-      background-color: darken($bcGreen, 10%);
-      border-color: darken($bcGreen, 10%);
+      background-color: color.adjust($bcGreen, $lightness: -10%);
+      border-color: color.adjust($bcGreen, $lightness: -10%);
     }
   }
 
@@ -244,9 +247,9 @@
     border-color: $bcGreen;
     border-width: 2px;
     &:hover, &:focus {
-      color: darken($bcGreen, 10%);
-      background-color: darken(white, 10%);
-      border-color: darken($bcGreen, 10%);
+      color: color.adjust($bcGreen, $lightness: -10%);
+      background-color: color.adjust(white, $lightness: -10%);
+      border-color: color.adjust($bcGreen, $lightness: -10%);
     }
   }
 
@@ -547,48 +550,78 @@
       }
 
       .appl-card {
-        position: relative;
-        border-radius: 12px;
+        border-radius: 16px;
         overflow: hidden;
         width: 100%;
-        min-height: 240px;
-        background-color: var(--appl-card-color);
+        height: 100%;
+        background-color: $bcDarkGreen;
+        display: flex;
+        flex-direction: column;
+        transition: transform 0.25s ease, box-shadow 0.25s ease;
 
         @media (min-width: $screen-md-min) {
           width: 220px;
         }
 
-        @media (min-width: $screen-md-min) {
-          min-height: 300px;
+        &:hover {
+          transform: translateY(-4px);
+          box-shadow: 0 10px 28px rgba(0, 0, 0, 0.3);
         }
 
-        &.appl-card--has-desc {
-          min-height: 320px;
+        // 16:9 image area
+        .appl-card-img-wrap {
+          width: 100%;
+          aspect-ratio: 16 / 9;
+          overflow: hidden;
+          flex-shrink: 0;
 
-          @media (min-width: $screen-md-min) {
-            min-height: 390px;
+          .appl-card-placeholder {
+            width: 100%;
+            height: 100%;
+            border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+          }
+
+          img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            display: block;
+            transition: transform 0.35s ease;
           }
         }
 
-        // Title and button sit at the top over the solid card color
+        &:hover .appl-card-img-wrap img {
+          transform: scale(1.04);
+        }
+
         .appl-card-header {
-          padding: 1.4rem 1.25rem;
+          padding: 1.25rem 1.25rem 1.5rem;
+          flex: 1;
+          display: flex;
+          flex-direction: column;
+
+          .appl-card-icon {
+            color: rgba(255, 255, 255, 0.6);
+            font-size: 1.25rem;
+            margin-bottom: 0.6rem;
+            display: block;
+          }
 
           h3 {
             color: white;
             font-weight: 700;
             font-size: 1rem;
             line-height: 1.3;
-            margin-bottom: 0.75rem;
+            margin-bottom: 0.85rem;
             text-align: left;
 
             @media (min-width: $screen-md-min) {
-              font-size: 1.15rem;
+              font-size: 1.1rem;
             }
           }
 
           .appl-card-desc {
-            color: rgba(255, 255, 255, 0.75);
+            color: rgba(255, 255, 255, 0.7);
             font-size: 0.75rem;
             line-height: 1.45;
             margin-bottom: 0.85rem;
@@ -596,54 +629,48 @@
           }
         }
 
-        // Image pinned to the bottom — size is driven by card width only,
-        // gradient blends its top edge into the card color
-        .appl-card-img-wrap {
-          position: absolute;
-          bottom: 0;
-          left: 0;
-          right: 0;
-          line-height: 0;
-
-          &::before {
-            content: '';
-            position: absolute;
-            top: 0;
-            left: 0;
-            right: 0;
-            height: 3rem;
-            background: linear-gradient(to bottom, var(--appl-card-color), transparent);
-            z-index: 1;
-          }
-
-          img {
-            width: 100%;
-            height: auto;
-            display: block;
-          }
-        }
-
         .appl-card-btn {
           color: white;
-          border: 1px solid rgba(255, 255, 255, 0.7);
+          border: 1px solid rgba(255, 255, 255, 0.55);
           background: transparent;
           font-size: 0.75rem;
           padding: 0.3rem 0.85rem;
           border-radius: 20px;
+          align-self: flex-start;
+          margin-top: auto;
 
           &:hover, &:focus {
-            background: rgba(255, 255, 255, 0.2);
+            background: rgba(255, 255, 255, 0.15);
             color: white;
             border-color: white;
           }
         }
 
-        // Per-card colors — sets both the background fill and the gradient color
-        &.appl-card--swarm   { --appl-card-color: #3d3b8e; background-color: #3d3b8e; }
-        &.appl-card--hri     { --appl-card-color: #1c3445; background-color: #1c3445; }
-        &.appl-card--stem    { --appl-card-color: #1a3d22; background-color: #1a3d22; }
-        &.appl-card--autosys { --appl-card-color: #1a2b4a; background-color: #1a2b4a; }
-        &.appl-card--percept { --appl-card-color: #3a322a; background-color: #3a322a; }
+        // Per-card colors on the text body
+        &.appl-card--swarm   .appl-card-header { background-color: #3d3b8e; }
+        &.appl-card--hri     .appl-card-header { background-color: #1c3445; }
+        &.appl-card--stem    .appl-card-header { background-color: #1a3d22; }
+        &.appl-card--autosys .appl-card-header { background-color: #1a2b4a; }
+        &.appl-card--percept .appl-card-header { background-color: #3a322a; }
+        &.appl-card--aerial  .appl-card-header { background-color: #1a3838; }
+      }
+
+      &.appl-cards-section--grid {
+        .appl-cards-grid {
+          display: grid;
+          grid-template-columns: repeat(2, minmax(0, 220px));
+          gap: 1rem;
+          justify-content: center;
+
+          @media (min-width: $screen-md-min) {
+            grid-template-columns: repeat(3, minmax(0, 220px));
+          }
+        }
+
+        .appl-card {
+          width: 100%;
+          height: 100%;
+        }
       }
     }
     // End application cards
@@ -814,8 +841,7 @@
 
       .testimonial-heart-img {
         display: block;
-        width: 60%;
-        max-width: 300px;
+        width: 300px;
         height: auto;
         margin: 2rem 0 2rem 0;
         pointer-events: none;
@@ -828,13 +854,12 @@
           display: block;
           position: absolute;
           left: 0;
-          top: 0;
-          width: auto;
-          height: 100%;
+          top: 50%;
+          transform: translateY(-50%);
+          width: 380px;
+          height: auto;
           max-width: none;
           margin: 0;
-          padding-top: 24vh;
-          padding-bottom: 24vh;
         }
       }
 
@@ -905,7 +930,7 @@
           blockquote {
             color: white;
             font-style: normal;
-            font-weight: 500;
+            font-weight: 700;
             font-size: 0.65rem;
             line-height: 1.45;
             margin: 0 0 0.5rem;
