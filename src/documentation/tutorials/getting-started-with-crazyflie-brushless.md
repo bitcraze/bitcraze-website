@@ -17,6 +17,7 @@ You are responsible for handling the drone and its components. It is your respon
 * Avoid catching the drone mid-flight or while it’s landing.
 * Always make sure that the path of your drone is clear to avoid any accidents.
 * Use the propeller guards as much as possible
+* Unplug the battery when the drone is not used.
 
 {% endsi_step %}
 
@@ -45,8 +46,8 @@ Start by unpacking the box. It should contain the following items:
 * 5 x CCW propellers (3 spare)
 * 5 x CW propellers (3 spare)
 * 1 x Battery holder deck
-* 2 x Short male deck connectors
-* 2 x Long male deck connectors
+* 2 x Short pins
+* 2 x Long pins
 * 1 x Micro-USB cable (48cm)
 * 1 x Screwdriver
 * 1 x Propeller tool
@@ -104,20 +105,20 @@ Removing the legs/guards can be a bit tricky. An easy approach is by using the p
 
 {% si_step attach the rubber pad %}
 The rubber pad should be attached to the Crazyflie between the
-expansion headers. This will create friction, keep the battery from
+expansion pins. This will create friction, keep the battery from
 slipping out and also protect the electronics.
 
 {% tutorialVideo /videos/foam.mp4 %}
 {% endsi_step %}
 
-{% si_step attach headers %}
-There are two types of headers in the box, long and short ones. Find the long ones and insert them into the expansion connector from below.
+{% si_step attach pins %}
+There are two types of pins in the box, long and short ones. Find the long ones and insert them into the expansion connector from below.
 
 {% tutorialVideo /videos/pin_headers.mp4 %}
 {% endsi_step %}
 
 {% si_step attach the battery %}
-Place the battery between the headers you just inserted and insert the battery holder board onto the headers. Watch out for the pins that can be a bit sharp when inserting it. The friction should hold the battery in place so tighten it until it does.
+Place the battery between the pins you just inserted and insert the battery holder board onto the pins. Watch out for the pins that can be a bit sharp when inserting it. The friction should hold the battery in place so tighten it until it does.
 
 The battery wires can preferably be bent and placed underneath the PCB to be out of the way.
 {% tutorialVideo /videos/battery.mp4 %}

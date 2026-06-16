@@ -40,13 +40,21 @@ Mechanical architecture
 -----------------------
 
 Expansion boards can be installed on top, bottom, or both top and bottom
-of the Crazyflie 2.x. The Crazyflie 2.x and expansion board have female,
-pass-through connectors that can be fitted with male pins. Pins in two
-differing lengths exist to permit installation of either one expansion
-board on top, one board on bottom and one on top, or two boards on top.
+of the Crazyflie 2.x. The Crazyflie 2.x and expansion boards have 
+pass-through connectors that can be fitted with pins. Pins in four different versions exist to permit installation of either one or two expansion
+boards on the top of the Crazyflie, and one or two expansion boards on the bottom.
 There should always be one expansion board or battery holder on top to
 secure the battery, unless the battery is held by other means (ie.
-rubber band, sticky pad, etc...).
+rubber band, sticky pad, etc). The pins can be inserted from either the top or the bottom of the Crazyflie 2.x.
+
+### Pins
+
+| Pins | Name | Description | Suitable Set Up | Dimensions (Pin length + Plastic spacer + Pin length) | Datasheet |
+|---|---|---|---|---|---|
+| ![Short pins](/images/documentation/overview/short_pins.webp){:width="200px"} | Short Pins | Included with the Crazyflie 2.x.<br>[Available in store (combined with medium pins)](https://store.bitcraze.io/products/short-and-medium-pins) | Best suited for manual flight with only the **Battery Holder Deck** mounted on top. | 9mm + 2 mm + 2mm | [Datasheet](/documentation/hardware/short_and_medium_pins/short_and_medium_pins-datasheet.pdf) |
+| ![Medium pins](/images/documentation/overview/medium_pins.webp){:width="200px"} | Medium Pins | Included with the Crazyflie 2.x.<br>[Available in store (combined with short pins)](https://store.bitcraze.io/products/short-and-medium-pins) | Designed for **two decks** total, **one deck on top and one deck on the bottom**. | 15mm + 2 mm + 2mm | [Datasheet](/documentation/hardware/short_and_medium_pins/short_and_medium_pins-datasheet.pdf) |
+| ![Long pins (19+2+4mm)](/images/documentation/overview/long_pins_1924.webp){:width="200px"} | Long Pins (19+2+4mm) | [Available in store](https://store.bitcraze.io/products/long-pins-1924) | Designed for **three decks** total, optimized for **two decks on top and one deck on the bottom**. | 19mm + 2mm + 4 mm | [Datasheet](/documentation/hardware/long_pins_19_2_4mm/long_pins_19_2_4mm-datasheet.pdf) |
+| ![Long pins (15+4+6mm)](/images/documentation/overview/long_pins_1546.webp){:width="200px"} | Long Pins (15+4+6mm) | Included with the AI deck.<br>[Available in store](https://store.bitcraze.io/products/long-pins-1546) | Designed for **three decks** total, optimized for **one deck on top and two decks on the bottom**. The wider plastic spacer provides extra support for the AI-deck when mounted underneath, helping keep it level. | 15 mm + 4mm + 6mm | [Datasheet](/documentation/hardware/long_pins_15_4_6mm/long_pins_15_4_6mm-datasheet.pdf) |
 
 ### Orientation
 
@@ -159,23 +167,25 @@ Compatibility matrixes
 
 This table shows which deck that works on which platform.
 
-|                                                   | Crazyflie 2.0, 2.1(+)| Crazyflie 2.1 Brushless|
-|---------------------------------------------------|----------------------|------------------------|
-| **{% poplink led-ring-deck %}**                   | yes                  | no                     |
-| **{% poplink qi-1-2-wireless-charging-deck %}**   | yes                  | yes                    |
-| **{% poplink sd-card-deck %}**                    | yes                  | yes                    |
-| **{% poplink loco-positioning-deck %}**           | yes                  | yes                    |
-| **{% poplink bigquad-deck %}**                    | yes                  | yes                    |
-| **{% poplink buzzer-deck %}**                     | yes                  | yes                    |
-| **{% poplink z-ranger-deck %}, Z-ranger deck V1** | yes                  | yes                    |
-| **{% poplink flow-deck %}, Flow deck V1**         | yes                  | yes                    |
-| **{% poplink multi-ranger-deck%}**                | yes                  | yes                    |
-| **{% poplink motion-capture-marker-deck %}**      | yes                  | yes                    |
-| **{% poplink lighthouse-deck %}**                 | yes                  | yes                    |
-| **{% poplink active-marker-deck %}**              | yes                  | yes                    |
-| **{% poplink ai-deck %}**                         | yes                  | yes                    |
-| **{% poplink color-led-deck %}**                  | yes                  | yes                    |
-|---------------------------------------------------|----------------------|------------------------|
+| Expansion Deck                                    | Crazyflie 2.0, 2.1(+)| Crazyflie 2.1 Brushless| Crazyflie Bolt 1.1|
+|---------------------------------------------------|----------------------|------------------------|-------------------|
+| **{% poplink led-ring-deck %}**                   | yes                  | no                     | yes*              |
+| **{% poplink qi-1-2-wireless-charging-deck %}**   | yes                  | yes                    | yes               |
+| **{% poplink sd-card-deck %}**                    | yes                  | yes                    | yes               |
+| **{% poplink loco-positioning-deck %}**           | yes                  | yes                    | yes               |
+| **{% poplink bigquad-deck %}**                    | yes                  | yes                    | yes               |
+| **{% poplink buzzer-deck %}**                     | yes                  | yes                    | yes               |
+| **{% poplink z-ranger-deck %}, Z-ranger deck V1** | yes                  | yes                    | yes               |
+| **{% poplink flow-deck %}, Flow deck V1**         | yes                  | yes                    | yes               |
+| **{% poplink multi-ranger-deck%}**                | yes                  | yes                    | yes               |
+| **{% poplink motion-capture-marker-deck %}**      | yes                  | yes                    | yes               |
+| **{% poplink lighthouse-deck %}**                 | yes                  | yes                    | yes               |
+| **{% poplink active-marker-deck %}**              | yes                  | yes                    | yes               |
+| **{% poplink ai-deck %}**                         | yes                  | yes                    | yes               |
+| **{% poplink color-led-deck %}**                  | yes                  | yes                    | yes*              |
+|---------------------------------------------------|----------------------|------------------------|-------------------|
+
+\* The LED decks will work on the Bolt but not at full power due to a power budget of 500 mA total.
 
 ### Deck - deck
 
@@ -191,27 +201,28 @@ compatible.
  |                           | {% poplink led-ring-deck %} | {% poplink qi-1-2-wireless-charging-deck %} | {% poplink sd-card-deck %} | {% poplink loco-positioning-deck %} | {% poplink bigquad-deck %} | {% poplink buzzer-deck %} | {% poplink z-ranger-deck %}, Z-ranger V1 | {% poplink flow-deck %}, Flow deck V1 | {% poplink multi-ranger-deck%} | {% poplink motion-capture-marker-deck %} | {% poplink lighthouse-deck %} | {% poplink active-marker-deck %} | {% poplink ai-deck %} | {% poplink color-led-deck %} |
  |----------------------------------------------------|----------|----------|----------|------------------|---------|--------|----------|--------|--------------|--------------|------------|---------------|---------|-----------|
  | **{% poplink led-ring-deck %}**                    | -        |          | yes      | yes              |         | yes    |          |        | yes          | yes          | yes        | yes           | yes     | yes       |
- | **{% poplink qi-1-2-wireless-charging-deck %}**    |          | -        | yes      | yes              | yes     | yes    |          |        | yes          | yes          | yes        | yes           | yes     | yes       |
- | **{% poplink sd-card-deck %}**                     | yes      | yes      | -        | yes *1           | yes     | yes    | yes      | yes *1 | yes          | yes          | yes        | yes           | *4      | yes       |
- | **{% poplink loco-positioning-deck %}**            | yes      | yes      | yes *1   | -                | yes     | yes    | yes      | yes    | yes          | yes          | *2         | yes           | *5      | yes       |
- | **{% poplink bigquad-deck %}**                     |          | yes      | yes      | yes              | -       |        | yes      |        | yes          | yes          | *2         | yes           | *6      | yes       |
- | **{% poplink buzzer-deck %}**                      | yes      | yes      | yes      | yes              |         | -      | yes      | yes    | yes          | yes          | yes        | yes           | *6      | yes       |
+ | **{% poplink qi-1-2-wireless-charging-deck %}**    |          | -        | yes      | yes              | yes     | yes    |          |        | yes          | yes          | yes        | yes           | yes     | yes<sup>1</sup>       |
+ | **{% poplink sd-card-deck %}**                     | yes      | yes      | -        | yes<sup>2</sup>           | yes     | yes    | yes      | yes<sup>2</sup> | yes          | yes          | yes        | yes           | <sup>5</sup>      | yes       |
+ | **{% poplink loco-positioning-deck %}**            | yes      | yes      | yes<sup>2</sup>   | -                | yes     | yes    | yes      | yes    | yes          | yes          | <sup>3</sup>         | yes           | <sup>6</sup>      | yes       |
+ | **{% poplink bigquad-deck %}**                     |          | yes      | yes      | yes              | -       |        | yes      |        | yes          | yes          | <sup>3</sup>         | yes           | <sup>7</sup>      | yes       |
+ | **{% poplink buzzer-deck %}**                      | yes      | yes      | yes      | yes              |         | -      | yes      | yes    | yes          | yes          | yes        | yes           | <sup>7</sup>      | yes       |
  | **{% poplink z-ranger-deck %}, Z-ranger V1**       |          |          | yes      | yes              | yes     | yes    | -        |        | yes          | yes          | yes        | yes           | yes     | yes       |
- | **{% poplink flow-deck %}, Flow deck V1**          |          |          | yes *1   | yes              |         | yes    |          | -      | yes          | yes          | yes        | yes           | yes     | yes       |
+ | **{% poplink flow-deck %}, Flow deck V1**          |          |          | yes<sup>2</sup>   | yes              |         | yes    |          | -      | yes          | yes          | yes        | yes           | yes     | yes       |
  | **{% poplink multi-ranger-deck%}**                 | yes      | yes      | yes      | yes              | yes     | yes    | yes      | yes    | -            | yes          | yes        | yes           | yes     | yes       |
  | **{% poplink motion-capture-marker-deck %}**       | yes      | yes      | yes      | yes              | yes     | yes    | yes      | yes    | yes          | -            | yes        |               | yes     | yes       |
- | **{% poplink lighthouse-deck %}**                  | yes      | yes      | yes      | *2               | *2      | yes    | yes      | yes    | yes          | yes          | -          |               | *3      | yes       |
+ | **{% poplink lighthouse-deck %}**                  | yes      | yes      | yes      | <sup>3</sup>               | <sup>3</sup>      | yes    | yes      | yes    | yes          | yes          | -          |               | <sup>4</sup>      | yes       |
  | **{% poplink active-marker-deck %}**               | yes      | yes      | yes      | yes              | yes     | yes    | yes      | yes    | yes          |              |            | -             | yes     | yes       |
- | **{% poplink ai-deck %}**                          | yes      | yes      | *4       | *5               | *6      | *6     | yes      | yes    | yes          | yes          | *3         | yes           | -       | yes       |
- | **{% poplink color-led-deck %}**                   | yes      | yes      | yes      | yes              | yes     | yes    | yes      | yes    | yes          | yes          | yes        | yes           | yes     | -         |
+ | **{% poplink ai-deck %}**                          | yes      | yes      | <sup>5</sup>       | <sup>6</sup>               | <sup>7</sup>      | <sup>7</sup>     | yes      | yes    | yes          | yes          | <sup>4</sup>         | yes           | -       | yes       |
+ | **{% poplink color-led-deck %}**                   | yes      | yes<sup>1</sup>      | yes      | yes              | yes     | yes    | yes      | yes    | yes          | yes          | yes        | yes           | yes     | -         |
  |----------------------------------------------------|----------|----------|----------|------------------|---------|--------|----------|--------|--------------|--------------|------------|---------------|---------|-----------|
 
 <!--                                                  | led-ring | qi charg | sd-card  | loco-positioning | bigquad | buzzer | z-ranger | flow   | multi-ranger | mocap marker | lighthouse | active marker | ai-deck | color-LED |-->
 **Notes:**
 
-1.  SPI sharing might limit the logging speed of the uSD-card deck.
-2.  Could be patched using soldering bridges or can be supported in the future, SW update
-3.  The GAP8 module is connected to UART1, so if that is enabled there will be conflicts
-4.  The Micro-SD deck and AI deck both use IO4, the Micro-SD deck needs to be patched to use another IO for Chip Select
-5.  With a patch or workaround it is possible
-6.  CPX uses UART2 to communicate with the ESP32 by default, if that is enabled there will be conflicts.
+1.  The Qi deck is only compatible with the top-mounted Color LED deck. Mounting the Color LED deck on the bottom will physically block the Qi deck.
+2. SPI sharing might limit the logging speed of the uSD-card deck.
+3.  Could be patched using soldering bridges or can be supported in the future, SW update
+4.  The GAP8 module is connected to UART1, so if that is enabled there will be conflicts
+5.  The Micro-SD deck and AI deck both use IO4, the Micro-SD deck needs to be patched to use another IO for Chip Select
+6.  With a patch or workaround it is possible
+7.  CPX uses UART2 to communicate with the ESP32 by default, if that is enabled there will be conflicts.

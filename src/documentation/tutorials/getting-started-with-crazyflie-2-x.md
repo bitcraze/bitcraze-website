@@ -18,8 +18,8 @@ have all of them before you start assembling.
 * 6 x Motor mounts
 * 1 x LiPo battery
 * 5 x Coreless DC motors
-* 2 x Short expansion connector pins (1×10, 2mm spacing, 8 or 9 mm long)
-* 2 x Long expansion connector pins (1×10, 2mm spacing, 14 or 15 mm long)
+* 2 x Short pins (1×10, 2mm spacing, 8 or 9 mm long)
+* 2 x Medium pins (1×10, 2mm spacing, 14 or 15 mm long)
 * 1 x Battery holder expansion board
 * 1 x USB cable (only with the Crazyflie 2.1)
 {% endsi_step %}
@@ -121,20 +121,20 @@ Here’s a detailed view of where to attach CW and CCW propellers.
 
 {% si_step attach the rubber pad %}
 The rubber pad should be attached to the Crazyflie between the
-expansion headers. This will create friction, keep the battery from
+expansion pins. This will create friction, keep the battery from
 slipping out and also protect the electronics.
 {% tutorialVideo /videos/attach_the_rubber_pad.mp4 %}
 {% endsi_step %}
 
-{% si_step attach headers %}
-There are two types of headers in the box, long and short ones. Find the
+{% si_step attach pins %}
+There are two types of pins in the box, long and short ones. Find the
 two short ones and insert them into the expansion connector.
 {% tutorialVideo /videos/attach_headers.mp4 %}
 {% endsi_step %}
 
 {% si_step attach the battery %}
-Place the battery between the headers inserted into the expansion connector
-and insert the battery holder board onto the headers. Watch out for the
+Place the battery between the pins inserted into the expansion connector
+and insert the battery holder board onto the pins. Watch out for the
 pins that can be a bit sharp when inserting it. The friction should hold
 the battery in place so tighten it until it does.
 

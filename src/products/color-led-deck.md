@@ -7,9 +7,9 @@ redirects:
 ---
 
 {% datasheet_product_status color_led_deck_bottom %}
-{% coming_soon_top https://store.bitcraze.io/products/color-led-deck?variant=58838312616285 %} 
+{% buy_online_top https://store.bitcraze.io/collections/decks/products/color-led-deck-top-mounted %}
 <br><br><br>
-{% coming_soon_bottom https://store.bitcraze.io/collections/decks/products/color-led-deck-copy?variant=62615266722141 %}
+{% buy_online_bottom https://store.bitcraze.io/collections/decks/products/color-led-deck-bottom-mounted %}
 
 {% product_img Color LED deck; medium;
 /images/color-led-deck/Color-LED-top-and-bottom.jpg
@@ -73,9 +73,9 @@ See [the compatibility matrix]({% id_url cf2_expansiondecks %}#compatibility-mat
 {% row_icon_text_links Usage; fa-book %}
 {% row_text %}
 
-The different LED colors can selected from [CFclient's Color LED tab](/documentation/repository/crazyflie-clients-python/master/userguides/userguide_client/colorled_tab/).
+Control your Color LED deck from [CFclient's Color LED tab](/documentation/repository/crazyflie-clients-python/master/userguides/userguide_client/colorled_tab/). Choose your desired color, then take flight!
 
-Once you have selected the right color, go ahead and fly!
+You can use a single deck (top or bottom), or attach both for maximum visibility. When using both decks, control each one independently to create unique color combinations or set them to the same color for a unified effect.
 
 {% demoVideo /videos/color_led_demo.mp4 %}
 

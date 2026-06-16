@@ -28,7 +28,7 @@ This guide also requires that you have updated the Crazyflie to the latest firmw
 {% endsi_step %}
 
 {% si_step  mounting the Flow V2 deck %}
-Mount the {% poplink flow-deck %} underneath and the {% poplink multi-ranger-deck%} above the Crazyflie 2.x using the long pin-headers supplied with the Crazyflie 2.x kit.
+Mount the {% poplink flow-deck %} underneath and the {% poplink multi-ranger-deck%} above the Crazyflie 2.x using the long pins supplied with the Crazyflie 2.x kit.
 {% img Mounting the Flow V2 deck; wide; /images/tutorials/getting_started_stem_ranging/getting_started_with_stem_ranging_770px.jpg %}
 {% img Mounting the Flow V2 deck; wide; /images/tutorials/getting_started_stem_ranging/getting_started_with_stem_ranging_770px-2.jpg %}
 
