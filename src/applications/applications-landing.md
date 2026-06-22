@@ -11,7 +11,7 @@ redirects:
   <h1 class="appl-landing-title">Applications</h1>
   <h2 class="appl-landing-subtitle">
     Explore What You Can <span class="highlight-green">Build</span>, <span class="highlight-green">Test</span>, and<br>
-    <span class="highlight-green">Discover</span> with the <span class="cf-wordmark">Crazyflie®</span> Ecosystem
+    <span class="highlight-green">Discover</span> with the <span class="cf-wordmark">Crazyflie<sup>®</sup></span> Ecosystem
   </h2>
   <div class="row justify-content-center">
     <div class="col-md-7">
@@ -98,8 +98,11 @@ redirects:
   <div class="row justify-content-center">
     <div class="col-md-8 text-center">
       <h2>Start Exploring</h2>
-      <p>Each of these domains represents an active frontier of research. Visit our Research Portal for detailed case studies, published papers and open-source examples that show how the Crazyflie™ platform is already being used to make new discoveries and build new educational experiences.</p>
-      <a href="#" class="btn btn-color-primary appl-landing-cta-btn">Click to visit the Research Portal</a>
+      <p>Explore the platform architecture and open-source repositories to start turning ideas into experiments.</p>
+      <div class="d-flex gap-3 justify-content-center flex-wrap">
+        <a href="/documentation/system/" class="btn btn-color-primary appl-landing-cta-btn">System overview</a>
+        <a href="/documentation/repository/" class="btn btn-color-secondary appl-landing-cta-btn">Repository overview</a>
+      </div>
     </div>
   </div>
 </div>

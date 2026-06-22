@@ -8,7 +8,7 @@ redirects:
 
 ## Quick links for development
 
-There is so many parts of the Crazyflie that can be developed, and before digging into that, it is important to know generically how the system fits togeter. Here are some quick links to some of those important places that are important for development.
+There are many parts of the Crazyflie<sup>®</sup> that can be developed, and before digging in, it helps to understand how the system fits together. Here are some links to key development resources.
 
 * **[The Eco-System](/documentation/system/)** – read about the projects, APIs, architecture, protocols and other techie details.
 
@@ -27,11 +27,11 @@ There is so many parts of the Crazyflie that can be developed, and before diggin
 
 
 The different systems use different languages. So if you are looking at using a
-specific programming language, these are the most common ones are in our {% id_link repository-overview %} :
+specific programming language, these are the most common ones in our {% id_link repository-overview %} :
 
 * **Python** for the Crazyflie PC API and client
 * **C** for the Crazyradio and Crazyflie firmware
-* **Other languages** Check out [external projects](/development/external-projects/#connectivity-libraries) for other programming language support language support.
+* **Other languages** Check out [external projects](/development/external-projects/#connectivity-libraries) for other programming language support.
 
 Make sure to use our coding standard for languages, which will be important if you want to {% id_link contribute %} your code back to our firmware/software.
 
@@ -42,7 +42,7 @@ Make sure to use our coding standard for languages, which will be important if y
 
 ## Communication Frameworks
 * **Crazyflie Native Framework**: We maintain our own repositories on how to communicate with the crazyflie. Check out our {% id_link repository-overview %}.
-* **ROS 2&#8482**: Check out the [Crazyswarm2 Project](https://imrclab.github.io/crazyswarm2/)!
+* **ROS**: Check out the [Crazyswarm2 Project](https://imrclab.github.io/crazyswarm2/)!
 * **Other Frameworks**: Check out [external projects](/development/external-projects/#connectivity-libraries) for other framework and autopilot support from our community.
 
  {% inline_button External Projects ; /development/external-projects/ %}
@@ -109,11 +109,11 @@ also for controlling the platform if you use external positioning system.
 * **Communication**
   * **Radio protocols:** The Crazyflie communicates via radio with the host. The
 protocol is very basic but has the potential to be expanded with more features.
-  * **USB:** The Crazyradio uses USB device to communication with the host
-real-time systems: The Crazyflie firmware is very time critical.
+  * **USB:** The Crazyradio uses USB device to communicate with the host.
+* **Real-time systems:** The Crazyflie firmware is very time critical.
 * **Positioning** We have many positioning systems such as the Loco Positioning System, the lighthouse system and support for mocap systems. The quality of the positioning is something that always can be improved.
 * **Autonomy**
-  * **PC** From the computer the Crazyfie can be controlled from our python library
+  * **PC** From the computer the Crazyflie can be controlled from our python library
   * **Onboard**: The app-layer enables onboard autonomy on the Crazyflie.
 
 
@@ -141,7 +141,7 @@ development, we wanted to put in some features that made this easier.
 
 The radio bootloader enables downloading and flashing firmware to the Crazyflie via the radio, so that no JTAG programmer is required. However, for on-chip debugging, the Crazyflie still has a JTAG adapter for those that really want to dig in.
 
-Moreover, the parameter and logging framework enables developers to easily define a special usage for variables. and the parameters are used to change variables in the Crazyflie in real-time.
+Moreover, the parameter and logging framework enables developers to easily define a special usage for variables, and the parameters are used to change variables in the Crazyflie in real-time.
 
 Check out all the features and specifications of the Crazyflie on the Product page.
 

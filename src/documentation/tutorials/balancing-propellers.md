@@ -8,7 +8,7 @@ redirects:
 
 {% si_intro Balancing propellers %}
 Well balanced propellers reduce the vibrations in the copter and the noise in the
-sensors, improving the stability of the Crazyflie. In most cases there is no
+sensors, improving the stability of the Crazyflie<sup>®</sup>. In most cases there is no
 need to balance the propellers, but if you want to do it this is how it's done.
 {% endsi_intro %}
 

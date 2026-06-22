@@ -19,6 +19,16 @@ header.content-header {
     background-color: $bcLighterGrey;
 }
 
+.repo-docs-header {
+    padding-top: 2.5rem;
+    padding-bottom: 2rem;
+
+    .content-header {
+        min-height: unset;
+        margin-bottom: 0.35rem;
+    }
+}
+
 .repo-docs-content {
 	font-family: "Droid Sans";
 }

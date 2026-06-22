@@ -8,7 +8,7 @@ redirects:
 
 {% si_intro The STEM drone bundle %}
 The STEM (Science Technology Engineering Mathematics) drone bundle is based on a
-Crazyflie 2.x with a {% poplink flow-deck %}. It is an autonomous drone that can be controlled
+Crazyflie<sup>®</sup> 2.x with a {% poplink flow-deck %}. It is an autonomous drone that can be controlled
 from a simple python script to explore and operate a robot in 3 dimensions.
 
 This getting started guide will help you set up the system and make your first

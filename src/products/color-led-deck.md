@@ -26,7 +26,7 @@ Light up your flights with vivid, customizable effects using the Crazyflie Color
 {% row_icon_text_links How it works; fa-cogs %}
 {% row_text %}
 
-Add vibrant illumination and visual feedback to your flights with the Crazyflie Color LED Deck. Equipped with one powerful WRGB LED, it allows you to create bright, full-color lighting effects or status indicators directly from your Crazyflie firmware. Available in top- and bottom-mounted versions, the Color LED Deck is visible from the sides and perfect for experimentation, signaling, or simply lighting up your drone in style.
+Add vibrant illumination and visual feedback to your flights with the Crazyflie<sup>®</sup> Color LED Deck. Equipped with one powerful WRGB LED, it allows you to create bright, full-color lighting effects or status indicators directly from your Crazyflie firmware. Available in top- and bottom-mounted versions, the Color LED Deck is visible from the sides and perfect for experimentation, signaling, or simply lighting up your drone in style.
 
 Follow the {% id_link getting-started-color-led-deck %} user guide to set up and test your Color LED deck. 
 

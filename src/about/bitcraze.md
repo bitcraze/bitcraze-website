@@ -5,20 +5,22 @@ page_id: about-bitcraze
 redirects:
   - /about/
 ---
-# Making Robots Fly – and Ideas Too
+# <span class="highlight-green">Making Robots Fly</span> and Ideas Take Off
 
-At Bitcraze™, we believe robotics should be an open playground for exploration, creativity, and collaboration. Since 2011, we’ve been building tools that make it easier for people everywhere to experiment with flying robots, from PhD researchers and university labs to artists, startups, and hobbyists.
+At Bitcraze, we believe robotics should be an open playground for exploration, creativity, and collaboration. Since 2011, we’ve been building tools that make it easier for people everywhere to experiment with flying robots, from PhD researchers and university labs to artists, startups, and hobbyists.
 
-Our flagship platform, the Crazyflie™, is a small but powerful open drone that has become a trusted research tool around the world. It’s used to explore swarming, autonomy, navigation, edge AI, vision systems, human-robot interaction, and much more. By combining modular and expandable hardware with a fully open software stack, we help innovators go from idea to experiment faster and more freely.
+Our flagship platform, the Crazyflie<sup>®</sup>, is a small but powerful open drone that has become a trusted research tool around the world. It’s used to explore swarming, autonomy, navigation, edge AI, vision systems, human-robot interaction, and much more. By combining modular and expandable hardware with a fully open software stack, we help innovators go from idea to experiment faster and more freely.
 
 We’re not here to sell black-box products. We’re here to enable exploration. Everything we build is designed to be extended, hacked, integrated, and improved. And everything we learn, we share openly, because we believe progress in robotics happens when knowledge is shared, not hidden.
 
 
+<div class="content-card" markdown="1">
 ## Our Philosophy
 
 We think of drones not just as flying machines, but as tools for discovery. They can map and measure, teach and learn, act and react, but also push the boundaries of what’s possible when humans and machines work together.
 
 This belief drives every design decision we make: modular, open, and flexible, so you can focus on solving the hard problems that matter.
+</div>
 
 ## The Bitcraze Team
 We’re a tight-knit team based in Malmö, Sweden, with backgrounds spanning embedded systems, robotics, software engineering, product design, and research. More importantly, we’re a group of people who love to tinker, experiment, and share what we learn.

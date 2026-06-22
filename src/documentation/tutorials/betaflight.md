@@ -16,7 +16,7 @@ The NRF51 code was intentionally left unchanged so all existing crazyflie client
 The target currently doesn't support the magnetometer, the barometer, or any expansion decks. It also doesn't support many of the crazyflie core features like the logging framework, the parameter framework, etc.
 
 ## Setup Instructions
-**WARNING: Running Betaflight on the Crazyflie 2.0 is still experimental and in development. There's very low risk of bricking or damaging your hardware (the main STM bootloader is in ROM and can't be erased), but it's recommended you only try this out if you know what you're doing and can accept a bit of risk. Access to JTAG or SWD is highly recommended and may be necessary to re-provision with the stock Crazyflie firmware/bootloader.**
+**WARNING: Running Betaflight on the Crazyflie<sup>®</sup> 2.0 is still experimental and in development. There's very low risk of bricking or damaging your hardware (the main STM bootloader is in ROM and can't be erased), but it's recommended you only try this out if you know what you're doing and can accept a bit of risk. Access to JTAG or SWD is highly recommended and may be necessary to re-provision with the stock Crazyflie firmware/bootloader.**
 
 Building
 Execute the following from a bash shell (uses the same toolchain as the crazyflie-firmware project – this can be done on the Bitcraze VM for example)

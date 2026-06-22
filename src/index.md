@@ -22,8 +22,8 @@ page_id: home
       </div>
 
       <div class="header_buttons">
-        <a href="https://store.bitcraze.io/" class="btn btn-primary btn-color-primary">Explore Research Solutions</a>
-        <a href="/documentation/start/" class="btn btn-primary btn-color-secondary">Shop Drones & Kits</a>
+        <a href="applications/applications-landing" class="btn btn-primary btn-color-primary">Explore Application Areas</a>
+        <a href="https://store.bitcraze.io/" class="btn btn-primary btn-color-secondary">Shop Drones & Kits</a>
       </div>
     </div>
   </div>
@@ -35,18 +35,19 @@ page_id: home
 
   <div id="ecosystem-section" class="row what-we-do-section-padding section-content justify-content-center align-items-center">
     <div class="col-md-5 col-lg-4">
-      <img src="/images/frontpage/front-ecosystem.webp" alt="The Crazyflie Ecosystem" class="w-100">
+      <img src="/images/frontpage/front-ecosystem.png" alt="The Crazyflie Ecosystem" class="w-100">
     </div>
-    <div class="col-md-4 col-lg-3 ms-n5 text-block-box text-box_open_source">
+    <a href="/documentation/system/" class="col-md-4 col-lg-3 ms-n5 text-block-box text-box_open_source">
       <div class="header-text">
         <h1>
-          The <span class="highlight-green">Crazyflie™</span> <br> Ecosystem
+          The <span class="highlight-green">Crazyflie<sup>®</sup></span> <br> Ecosystem
         </h1>
         <p>
           A modular, programmable, drone system that powers the future of robotics, from classrooms, to labs, to industry.
         </p>
+        <p><b>Explore the Ecosystem <img src="/images/frontpage/front-arrow.png" alt="→" class="fp-arrow-img"></b></p>
       </div>
-    </div>
+    </a>
   </div>
 
   <div id="one" class="row platform-section-bg what-we-do-section-padding section-content justify-content-center align-items-center">
@@ -66,7 +67,7 @@ page_id: home
   </div>
 
   <div class="row what-we-do-section-padding section-content justify-content-center align-items-center">
-    <a href="/documentation/system/platform/" class="col-md-10 col-lg-8 d-flex align-items-center justify-content-center text-block-box text-box_decks">
+    <a href="/documentation/system/platform/cf2-expansiondecks/" class="col-md-10 col-lg-8 d-flex align-items-center justify-content-center text-block-box text-box_decks">
       <div class="col-md-6 fp-section-text">
         <h2>
           <span class="highlight-green">Expansion</span> <br> Decks
@@ -82,7 +83,7 @@ page_id: home
   </div>
 
   <div id="two" class="row positioning-section-bg what-we-do-section-padding section-content justify-content-center align-items-center">
-    <a href="/documentation/system/platform/" class="col-md-10 col-lg-8 d-flex align-items-center justify-content-center text-block-box text-box_positioning">
+    <a href="/documentation/system/positioning/" class="col-md-10 col-lg-8 d-flex align-items-center justify-content-center text-block-box text-box_positioning">
       <div class="col-md-4">
         <img src="/images/frontpage/front-positioning.png" alt="Positioning Systems" class="w-100">
       </div>
@@ -98,7 +99,7 @@ page_id: home
   </div>
 
   <div class="row what-we-do-section-padding section-content justify-content-center align-items-center">
-    <a href="/documentation/system/platform/" class="col-md-10 col-lg-8 d-flex align-items-center justify-content-center text-block-box text-box_decks">
+    <a href="/documentation/repository/" class="col-md-10 col-lg-8 d-flex align-items-center justify-content-center text-block-box text-box_decks">
       <div class="col-md-6 fp-section-text">
         <h2>
           <span class="highlight-green">Open Source</span> <br> Software and Tools
@@ -385,8 +386,8 @@ page_id: home
         <h2>Let your <span class="highlight-green">ideas</span><br>take flight.</h2>
         <p>Get started with your own Crazyflie today.</p>
         <div class="video-slogan-buttons">
-          <a href="https://store.bitcraze.io/" class="btn btn-primary btn-color-primary">Explore Research Solutions</a>
-          <a href="/documentation/start/" class="btn btn-primary btn-color-secondary">Shop Drones & Kits</a>
+          <a href="applications/applications-landing" class="btn btn-primary btn-color-primary">Explore Application Areas</a>
+          <a href="https://store.bitcraze.io/" class="btn btn-primary btn-color-secondary">Shop Drones & Kits</a>
         </div>
       </div>
     </div>

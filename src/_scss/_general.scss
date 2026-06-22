@@ -1,5 +1,20 @@
 // General styling
 
+.highlight-green { color: $bcGreen; }
+.highlight-dark-green { color: $bcDarkGreen; }
+
+.arrow-headings {
+  h3::before {
+    content: '';
+    display: inline-block;
+    width: 35px;
+    height: 15px;
+    background: url('/images/frontpage/front-arrow.png') no-repeat center / contain;
+    margin-right: 0.6rem;
+    vertical-align: middle;
+  }
+}
+
 
 // We use a .container-fluid outside all rows to enable us to have wide plates.
 // Set the width of all rows inside

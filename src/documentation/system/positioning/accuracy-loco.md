@@ -6,7 +6,7 @@ page_id: accuracy-loco
 
 # Measurements of accuracy and precision of the Loco Positioning system 
 
-To indicate the accuracy and precision of the Loco Positioning system, we have made a few measurements on our reference system. The measurements were performed on a static Crazyflie using the log system of the client. We put the Crazyflie in a few known positions and logged the estimated position in the Crazyflie for further analyses. For each position 2000@100Hz samples were collected and the average and standard deviation were calculated for x, y, and z.
+To indicate the accuracy and precision of the Loco Positioning system, we have made a few measurements on our reference system. The measurements were performed on a static Crazyflie<sup>®</sup> using the log system of the client. We put the Crazyflie in a few known positions and logged the estimated position in the Crazyflie for further analyses. For each position 2000@100Hz samples were collected and the average and standard deviation were calculated for x, y, and z.
 
 The errors when we measured the physical positions of anchors and the Crazyflie is probably in the +/- 5 cm range.
 

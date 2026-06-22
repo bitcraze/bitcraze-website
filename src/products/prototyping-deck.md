@@ -24,7 +24,7 @@ Build your own expansion deck and add to your Crazyflie 2.x.
 {% row_icon_text_links How it works; fa-cogs %}
 {% row_text %}
 
-Add a prototyping area to your Crazyflie 2.x and lift your electronics
+Add a prototyping area to your Crazyflie<sup>®</sup> 2.x and lift your electronics
 into the air. Just solder directly on the expansion deck and plug it
 into the expansion port. Maybe try to add a few LEDs or a new sensor to detect
 properties of the world around the Crazyflie?

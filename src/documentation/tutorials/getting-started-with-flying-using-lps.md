@@ -7,7 +7,7 @@ redirects:
 ---
 
 {% si_intro Start up %}
-When the Crazyflie 2.x is used together with the Loco Positioning System, the
+When the Crazyflie<sup>®</sup> 2.x is used together with the Loco Positioning System, the
 position information can be used for assisted flight and help the pilot to
 control the quadcopter, or it can be used for scripted autonomous flight.
 {% endsi_intro %}

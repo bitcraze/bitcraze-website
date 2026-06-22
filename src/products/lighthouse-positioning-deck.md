@@ -24,7 +24,7 @@ Enabling high precision autonomous flying and swarming
 {% row_icon_text_links How it works; fa-cogs %}
 {% row_text %}
 
-With Crazyflie and the {% poplink lighthouse-deck %}, high precision autonomous flight becomes
+With Crazyflie<sup>®</sup> and the {% poplink lighthouse-deck %}, high precision autonomous flight becomes
 available for everyone. The Lighthouse deck uses the HTC Vive base stations (aka Lighthouse V1) or SteamVR Base Station 2.0 (aka Lighthouse V2) to achieve high precision positioning. The deck has 4 receivers which gives the full pose of the Crazyflie.
 
 The position and pose is calculated directly in the Crazyflie, which makes it possible to create fully autonomous systems without external communication.

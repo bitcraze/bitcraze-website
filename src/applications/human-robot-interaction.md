@@ -23,11 +23,11 @@ redirects:
     <div class="col-md-7">
       <div class="app-feature-row">
         <i class="fa-solid fa-robot"></i>
-        <p class="text-center">Human–Robot Interaction (HRI) examines how people and robots communicate, collaborate, and influence one another. As autonomous systems become increasingly capable, understanding the relationship between human intent, trust, and machine behavior becomes essential. The Crazyflie® platform provides a safe, accessible, and highly adaptable environment for studying these interactions in real-world settings.</p>
+        <p>Human–Robot Interaction (HRI) examines how people and robots communicate, collaborate, and influence one another. As autonomous systems become increasingly capable, understanding the relationship between human intent, trust, and machine behavior becomes essential. The Crazyflie<sup>®</sup> platform provides a safe, accessible, and highly adaptable environment for studying these interactions in real-world settings.</p>
       </div>
       <div class="app-feature-row">
         <i class="fa-solid fa-person-chalkboard"></i>
-        <p class="text-center">Researchers use Crazyflie to investigate how humans supervise, guide, communicate with, and learn from autonomous systems. Its compact size, open architecture, and support for real-time control make it suitable for experiments ranging from individual interactions to collaborative multi-agent scenarios involving both humans and robots.</p>
+        <p>Researchers use Crazyflie to investigate how humans supervise, guide, communicate with, and learn from autonomous systems. Its compact size, open architecture, and support for real-time control make it suitable for experiments ranging from individual interactions to collaborative multi-agent scenarios involving both humans and robots.</p>
       </div>
     </div>
   </div>
@@ -63,78 +63,69 @@ redirects:
 <!-- ── Section 3: Research in Action ────────────────────────────────────── -->
 <div class="container app-research-section">
   <div class="app-research-card">
-    <div class="app-research-icon"><i class="fa-solid fa-flask"></i></div>
     <h2>Research in Action</h2>
     <p>The Crazyflie has been used in studies exploring shared control, teleoperation, collaborative robotics, and human-swarm interaction. Researchers have leveraged the platform to investigate how humans communicate intent, build trust in autonomous systems, and coordinate with individual robots or robot teams.</p>
     <p>Its combination of safety, accessibility, and openness makes it particularly valuable for experiments involving close human proximity, iterative user testing, and rapid prototyping of new interaction concepts.</p>
-    <ul class="app-research-list">
-      <li><span><strong><a href="https://ieeexplore.ieee.org/document/10973956">”Demonstrating How To Train Your Drone”</a></strong> KTH Royal Institute of Technology</span></li>
-      <li><span><strong><a href="https://ieeexplore.ieee.org/document/8758191">"SwarmTouch: Guiding a Swarm of Micro-Quadrotors With Impedance Control Using a Wearable Tactile Interface"</a></strong> Skolkovo Institute of Science and Technology</span></li>
-      <li><span><strong><a href="https://ieeexplore.ieee.org/document/9196664">”Hand-worn Haptic Interface for Drone Teleoperation”</a></strong> École Polytechnique Fédérale de Lausanne</span></li>
-      <li><span><strong><a href="https://cdcl.umd.edu/papers/icra23.pdf">”Safe Operations of an Aerial Swarm via a Cobot Human Swarm Interface”</a></strong> University of Maryland</span></li>
-      <li><span><strong><a href="https://dl.acm.org/doi/10.1145/3569009.3572740">”Wisp: Drones as Companions for Breathing”</a></strong> Chalmers University of Technology</span></li>
-      <li><span><strong><a href="https://ieeexplore.ieee.org/document/11123327">”CrazyJoystick: A Handheld Flyable Joystick for Providing On-Demand Haptic Feedback in Extended Reality”</a></strong> Viterbi School of Engineering, University of Southern California</span></li>
+    <ul class="app-paper-card-list">
+      <li><a href="https://ieeexplore.ieee.org/document/10973956"><h3>Demonstrating How To Train Your Drone</h3><p>KTH Royal Institute of Technology</p></a></li>
+      <li><a href="https://ieeexplore.ieee.org/document/8758191"><h3>SwarmTouch: Guiding a Swarm of Micro-Quadrotors With Impedance Control Using a Wearable Tactile Interface</h3><p>Skolkovo Institute of Science and Technology</p></a></li>
+      <li><a href="https://ieeexplore.ieee.org/document/9196664"><h3>Hand-worn Haptic Interface for Drone Teleoperation</h3><p>École Polytechnique Fédérale de Lausanne</p></a></li>
+      <li><a href="https://cdcl.umd.edu/papers/icra23.pdf"><h3>Safe Operations of an Aerial Swarm via a Cobot Human Swarm Interface</h3><p>University of Maryland</p></a></li>
+      <li><a href="https://dl.acm.org/doi/10.1145/3569009.3572740"><h3>Wisp: Drones as Companions for Breathing</h3><p>Chalmers University of Technology</p></a></li>
+      <li><a href="https://ieeexplore.ieee.org/document/11123327"><h3>CrazyJoystick: A Handheld Flyable Joystick for Providing On-Demand Haptic Feedback in Extended Reality</h3><p>Viterbi School of Engineering, University of Southern California</p></a></li>
     </ul>
   </div>
 </div>
 
-<!-- ── Section 4: Why the Crazyflie®? ───────────────────────────────────── -->
+<!-- ── Section 4: Why the Crazyflie<sup>®</sup>? ───────────────────────────────────── -->
 <div class="container-fluid value-props-banner">
   <div class="row justify-content-center mb-3">
     <div class="col-12 text-center">
       <h2 style="color: white;">
         <i class="fa-solid fa-drone highlight-green"></i>
-        Why the <span class="highlight-dark-green">Crazyflie®</span>?
+        Why the <span class="highlight-dark-green">Crazyflie<sup>®</sup></span>?
       </h2>
     </div>
   </div>
-  <div class="row justify-content-center">
-    <div class="col-md-8 col-lg-8">
-      <div class="row g-4 align-items-start">
+  <div class="container">
+    <div class="row g-4 align-items-start">
         <div class="col-6 col-md-4">
           <div class="value-prop-card">
             <div class="card-icon"><i class="fa-solid fa-shield-halved"></i></div>
-            <h3>Safe & compact<br>platform</h3>
-            <p style="color: rgba(255,255,255,0.7); font-size: 0.85rem; margin-top: 0.5rem;">Safe and compact platform for close-proximity experimentation.</p>
+            <h3>Safe and compact platform for close-proximity experimentation.</h3>
           </div>
         </div>
         <div class="col-6 col-md-4">
           <div class="value-prop-card">
             <div class="card-icon"><i class="fa-solid fa-code"></i></div>
-            <h3>High-level APIs<br>& control</h3>
-            <p style="color: rgba(255,255,255,0.7); font-size: 0.85rem; margin-top: 0.5rem;">High-level APIs for real-time interaction and control.</p>
+            <h3>High-level APIs for real-time interaction and control.</h3>
           </div>
         </div>
         <div class="col-6 col-md-4">
           <div class="value-prop-card">
             <div class="card-icon"><i class="fa-solid fa-puzzle-piece"></i></div>
-            <h3>Open interaction<br>architecture</h3>
-            <p style="color: rgba(255,255,255,0.7); font-size: 0.85rem; margin-top: 0.5rem;">Open architecture for custom interfaces and interaction paradigms.</p>
+            <h3>Open architecture for custom interfaces and interaction paradigms.</h3>
           </div>
         </div>
         <div class="col-6 col-md-4">
           <div class="value-prop-card">
             <div class="card-icon"><i class="fa-solid fa-robot"></i></div>
-            <h3>Single & multi-robot<br>studies</h3>
-            <p style="color: rgba(255,255,255,0.7); font-size: 0.85rem; margin-top: 0.5rem;">Support for single-robot and multi-robot interaction studies.</p>
+            <h3>Support for single-robot and multi-robot interaction studies.</h3>
           </div>
         </div>
         <div class="col-6 col-md-4">
           <div class="value-prop-card">
             <div class="card-icon"><i class="fa-solid fa-display"></i></div>
-            <h3>Simulation &<br>visualization</h3>
-            <p style="color: rgba(255,255,255,0.7); font-size: 0.85rem; margin-top: 0.5rem;">Integrated simulation and visualization environments.</p>
+            <h3>Integrated simulation and visualization environments.</h3>
           </div>
         </div>
         <div class="col-6 col-md-4">
           <div class="value-prop-card">
             <div class="card-icon"><i class="fa-solid fa-graduation-cap"></i></div>
-            <h3>Academic research<br>& teaching</h3>
-            <p style="color: rgba(255,255,255,0.7); font-size: 0.85rem; margin-top: 0.5rem;">Widely adopted in academic research and teaching.</p>
+            <h3>Widely adopted in academic research and teaching.</h3>
           </div>
         </div>
       </div>
-    </div>
   </div>
 </div>
 
@@ -142,17 +133,18 @@ redirects:
 <div class="container app-product-section">
   <div class="app-bundle-section">
     <h3>Reference Setup</h3>
-    <div class="row g-3">
-      <div class="col-12 col-md-3">
+    <p>Every project has unique requirements, but many share common building blocks. The configurations below provide practical starting points for human–robot interaction research, supporting experiments in shared autonomy, teleoperation, human-in-the-loop control, and collaborative robotics.</p>
+    <div class="row g-3 mt-4">
+      <div class="col-12 col-md-6">
         <div class="app-bundle-card">
           <img src="/images/applications/bundle-happy-hacker-2.1+.webp" alt="Happy hacker bundle - Crazyflie 2.1+" class="app-bundle-img">
           <div class="app-bundle-tag">Featured</div>
           <div class="app-bundle-name">Happy hacker bundle - Crazyflie 2.1+</div>
           <p class="app-bundle-desc">The "Happy hacker bundle" has everything you need to get started with software, firmware and hardware development.</p>
-          <a href="https://store.bitcraze.io/collections/bundles-crazyflie-2-1/products/happy-hacker-bundles" class="btn btn-color-primary">Shop Bundle</a>
+          <a href="https://store.bitcraze.io/collections/bundles-crazyflie-2-1/products/happy-hacker-bundle" class="btn btn-color-primary">Shop Bundle</a>
         </div>
       </div>
-      <div class="col-12 col-md-3">
+      <div class="col-12 col-md-6">
         <div class="app-bundle-card">
           <img src="/images/applications/bundle-happy-hacker-bl.webp" alt="Happy hacker bundle - Crazyflie 2.1 Brushless" class="app-bundle-img">
           <div class="app-bundle-tag">Featured</div>
@@ -161,7 +153,7 @@ redirects:
           <a href="https://store.bitcraze.io/collections/bundles-crazyflie-2-1-brushless/products/happy-hacker-bundle-crazyflie-2-1-brushless" class="btn btn-color-primary">Shop Bundle</a>
         </div>
       </div>
-      <div class="col-12 col-md-3">
+      <div class="col-12 col-md-6">
         <div class="app-bundle-card">
           <img src="/images/applications/bundle-ranging-2.1+.webp" alt="STEM ranging bundle - Crazyflie 2.1+" class="app-bundle-img">
           <div class="app-bundle-tag">Featured</div>
@@ -170,7 +162,7 @@ redirects:
           <a href="https://store.bitcraze.io/collections/bundles-crazyflie-2-1/products/stem-ranging-bundle" class="btn btn-color-primary">Shop Bundle</a>
         </div>
       </div>
-      <div class="col-12 col-md-3">
+      <div class="col-12 col-md-6">
         <div class="app-bundle-card">
           <img src="/images/applications/bundle-ranging-bl.webp" alt="STEM ranging bundle - Crazyflie 2.1 Brushless" class="app-bundle-img">
           <div class="app-bundle-tag">Featured</div>

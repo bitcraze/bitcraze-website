@@ -5,7 +5,7 @@ page_id: getting-started-with-the-aideck
 ---
 
 {% si_intro Introduction %}
-The {% poplink ai-deck %} enables WiFi communication with the Crazyflie
+The {% poplink ai-deck %} enables WiFi communication with the Crazyflie<sup>®</sup>
 as well as using the power-efficient GAP8 to run neural networks on board. This tutorial will prepare your {% poplink ai-deck %} to be used together
 with the examples in our [GAP8 example repository](https://github.com/bitcraze/aideck-gap8-examples) and for you to start developing your own applications.
 {% endsi_intro %}

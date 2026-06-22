@@ -3,7 +3,7 @@ layout: page
 title: Bitcraze Open Source Philosophy
 ---
 ## Our Purpose: Enabling Research, Innovation & Education
-At Bitcraze™, we believe that meaningful progress in robotics comes when tools are open, flexible and community-driven. Our platform, the Crazyflie™ ecosystem, is built to allow researchers, educators and innovators to see under the hood, modify, extend, and share. As we state on our website: “The Crazyflie eco system is an open development platform consisting of semi-open hardware and open source firmware/software.” 
+At Bitcraze, we believe that meaningful progress in robotics comes when tools are open, flexible and community-driven. Our platform, the Crazyflie<sup>®</sup> ecosystem, is built to allow researchers, educators and innovators to see under the hood, modify, extend, and share. As we state on our website: “The Crazyflie eco system is an open development platform consisting of semi-open hardware and open source firmware/software.” 
 
 We release both hardware designs and software code under open licenses (see below) so you don’t just use the system, but own it, adapt it, and contribute back.
 

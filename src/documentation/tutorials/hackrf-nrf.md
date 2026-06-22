@@ -75,7 +75,7 @@ The GNUradio companion receiver is a simple quadrature demodulator:
 
 The source file can be downloaded there: [nrf24_demod.grc.zip](/documentation/tutorials/nrf24_demod.grc.zip)
 
-This GNU Radio program will write the demodulated samples in the fifo, it will then be read by 'cat' and be piped into the decoder. When connected to a Crazyflie the output is:
+This GNU Radio program will write the demodulated samples in the fifo, it will then be read by 'cat' and be piped into the decoder. When connected to a Crazyflie<sup>®</sup> the output is:
 
 ```
 bin $  cat /tmp/fifo | ./nrf24-btle-decoder -d 1

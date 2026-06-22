@@ -82,7 +82,7 @@ Or paste the following code in a new file and save it as FrSkyTaranis.json in th
 }
 ```
 ### Use the Taranis X9D (Plus) with the Python client
-* Before connecting to the Crazyflie, check that all axes are working (values should change in the client)
+* Before connecting to the Crazyflie<sup>®</sup>, check that all axes are working (values should change in the client)
 * **Attention: Always make sure that the thrust stick is all the way down before connecting to the Crazyflie**
 * Fly the Crazyflie with the Taranis and have fun! :-D
 

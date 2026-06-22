@@ -7,7 +7,7 @@ redirects:
 ---
 
 {% si_intro The Color LED deck %}
-The {% id_link product-color-led-deck %} gives the Crazyflie™ 2.x and Crazyflie™ Brushless the ability to light up with custom WRGB (White, Red, Green and Blue) colors, making the Crazyflie able to provide visual feedback in research, be a dazzling addition to a show, and much more. This Getting started guide shows how to get up and running with the Color LED deck in the client.
+The {% id_link product-color-led-deck %} gives the Crazyflie<sup>®</sup> 2.x and Crazyflie<sup>®</sup> Brushless the ability to light up with custom WRGB (White, Red, Green and Blue) colors, making the Crazyflie able to provide visual feedback in research, be a dazzling addition to a show, and much more. This Getting started guide shows how to get up and running with the Color LED deck in the client.
 
 {% endsi_intro %}
 

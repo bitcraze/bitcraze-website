@@ -16,7 +16,7 @@ links to help any one that is interested.
 These projects may or may not be actively maintained. We do not take any
 responsibility for the functionality or compatibility in any way.
 
-## Crazyflie firmware
+## Crazyflie<sup>®</sup> firmware
 
 Alternate firmware implementations for the Crazyflie
 
@@ -44,7 +44,7 @@ Projects aimed to modeling, developing and integrating the Crazyflie 2.x nano-qu
 | CrazySim |  Crazyflie SITL simulation with Gazebo for MPC control for a decentralized swarm | <https://github.com/gtfactslab/Llanes_ICRA2024> |
 | Sim_CF2 | The ROS2 upgrade of the Sim_CF project | <https://github.com/CrazyflieTHI/sim_cf2> |
 | LamdaFlight | A minimal SITL for Haskell to be used for webots | <https://github.com/simondlevy/LambdaFlight> |
-| Webots | Webots has a model of the Crazyflie 2.x | <https://www.cyberbotics.com/doc/guide/crazyflie> |
+| Webots | Webots has a model of the Crazyflie 2.x | <https://cyberbotics.com/doc/guide/crazyflie?version=R2023a> |
 | CrazyS | The University of Sannio in Benevento, Italy, has implemented a software-in-the-loop simulation platform for simulating Crazyflie behavior in the Gazebo 3D simulation environment. | <https://github.com/gsilano/CrazyS> |
 | gym-pybullet-drones | A [Gym environment](https://github.com/openai/gym) based on [PyBullet](https://github.com/bulletphysics/bullet3) to simulate the dynamics and learn the control of Crazyflie 2.x nano-quadcopters. | <https://github.com/JacopoPan/gym-pybullet-drones> |
 | Nvidia Isaac | Crazyflie 2.x simulation in Nvidia Isaac | <https://docs.omniverse.nvidia.com/app_isaacsim/app_isaacsim/reference_assets.html#crazyflie>

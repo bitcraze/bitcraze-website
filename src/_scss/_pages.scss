@@ -201,20 +201,81 @@ table {
 }
 
 // Team member
+.content-card {
+    background: rgba($bcGreen, 0.08);
+    border-radius: 16px;
+    padding: 1.5rem;
+    margin-bottom: 1.5rem;
+
+    > :first-child { margin-top: 0; }
+    > :last-child { margin-bottom: 0; }
+}
+
+.team-card {
+    @extend .content-card;
+}
+
 .team {
-    margin-bottom: 50px;
+    margin-bottom: 0;
     h3 {
         margin-top: 0px;
     }
     img {
         padding-top: 6px;
         padding-bottom: 6px;
+        border-radius: 10px;
     }
 }
 
 // 404 page
 .img-404 {
     width: 100%;
+}
+
+// Contact page
+.contact-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1.25rem;
+    margin-bottom: 2rem;
+
+    @media (max-width: $screen-sm-max) {
+        grid-template-columns: 1fr;
+    }
+}
+
+.contact-card {
+    background: rgba($bcGreen, 0.1);
+    border-radius: 16px;
+    padding: 1.5rem 1.75rem;
+
+    .contact-card-icon {
+        font-size: 1.75rem;
+        color: $bcGreen;
+        margin-bottom: 0.5rem;
+    }
+
+    h3 {
+        margin-top: 0;
+        margin-bottom: 0.4rem;
+        font-size: 1.1rem;
+    }
+
+    p {
+        margin-bottom: 0.25rem;
+    }
+
+    .contact-hours {
+        color: $bcDarkGrey;
+        font-size: 0.9rem;
+        margin-top: 0.25rem;
+    }
+
+    address {
+        font-style: normal;
+        margin: 0;
+        line-height: 1.8;
+    }
 }
 
 // Page - Product
@@ -338,6 +399,7 @@ h2:hover {
     h2 {
         font-size: 1.5rem;
         font-weight: 600;
+        scroll-margin-top: 70px;
 
         @media (min-width: $screen-md-min) {
             font-size: 1.75rem;
@@ -356,6 +418,7 @@ h2:hover {
         font-size: 150%;
         border-width: 0 0 1px 0;
         border-style: solid;
+        scroll-margin-top: 70px;
     }
 }
 

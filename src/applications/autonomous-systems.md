@@ -24,11 +24,11 @@ redirects:
     <div class="col-md-7">
       <div class="app-feature-row">
         <i class="fa-solid fa-microchip"></i>
-        <p class="text-center">Autonomous systems are at the core of modern robotics research. They represent the ability of machines to perceive, decide, and act independently in dynamic environments. The Crazyflie® platform offers a unique foundation for developing and validating these systems, combining full control access with a robust and flexible hardware–software architecture.</p>
+        <p>Autonomous systems are at the core of modern robotics research. They represent the ability of machines to perceive, decide, and act independently in dynamic environments. The Crazyflie<sup>®</sup> platform offers a unique foundation for developing and validating these systems, combining full control access with a robust and flexible hardware–software architecture.</p>
       </div>
       <div class="app-feature-row">
         <i class="fa-solid fa-chart-line"></i>
-        <p class="text-center">Researchers worldwide use Crazyflie to study autonomous flight, multi-agent decision-making, and adaptive control in real-world conditions. Its compact form, open firmware, and advanced localization options make it an ideal testbed for testing algorithms that move seamlessly from simulation to reality.</p>
+        <p>Researchers worldwide use Crazyflie to study autonomous flight, multi-agent decision-making, and adaptive control in real-world conditions. Its compact form, open firmware, and advanced localization options make it an ideal testbed for testing algorithms that move seamlessly from simulation to reality.</p>
       </div>
     </div>
   </div>
@@ -64,77 +64,68 @@ redirects:
 <!-- ── Section 3: Research in Action ────────────────────────────────────── -->
 <div class="container app-research-section">
   <div class="app-research-card">
-    <div class="app-research-icon"><i class="fa-solid fa-flask"></i></div>
     <h2>Research in Action</h2>
     <p>Research in autonomous systems continues to push the boundaries of what robots can perceive, decide, and accomplish independently. These examples reflect diverse approaches to autonomy, spanning control systems, onboard intelligence, multi-agent coordination, and adaptive behavior.</p>
-    <ul class="app-research-list">
-      <li><span><strong><a href="https://ieeexplore.ieee.org/document/10610987">”TinyMPC: Model-Predictive Control on Resource-Constrained Microcontrollers”</a></strong> Carnegie Mellon University</span></li>
-      <li><span><strong><a href="https://arxiv.org/abs/2310.09053">"DATT: Deep Adaptive Trajectory Tracking for Quadrotor Control"</a></strong> University of Washington</span></li>
-      <li><span><strong><a href="https://ieeexplore.ieee.org/document/10517383">”Learning to Fly in Seconds”</a></strong> New York University</span></li>
-      <li><span><strong><a href="https://ieeexplore.ieee.org/document/8769882">”Low-Level Control of a Quadrotor With Deep Model-Based Reinforcement Learning”</a></strong> University of California–Berkeley</span></li>
-      <li><span><strong><a href="https://ieeexplore.ieee.org/document/9508420">”Neural-Swarm2: Planning and Control of Heterogeneous Multirotor Swarms Using Learned Interactions”</a></strong> California Institute of Technoogy</span></li>
-      <li><span><strong><a href="https://www.science.org/doi/10.1126/scirobotics.abg5913">”A bioinspired revolving-wing drone with passive attitude stability and efficient hovering flight”</a></strong> City University of Hong Kong</span></li>
+    <ul class="app-paper-card-list">
+      <li><a href="https://ieeexplore.ieee.org/document/10610987"><h3>TinyMPC: Model-Predictive Control on Resource-Constrained Microcontrollers</h3><p>Carnegie Mellon University</p></a></li>
+      <li><a href="https://arxiv.org/abs/2310.09053"><h3>DATT: Deep Adaptive Trajectory Tracking for Quadrotor Control</h3><p>University of Washington</p></a></li>
+      <li><a href="https://ieeexplore.ieee.org/document/10517383"><h3>Learning to Fly in Seconds</h3><p>New York University</p></a></li>
+      <li><a href="https://ieeexplore.ieee.org/document/8769882"><h3>Low-Level Control of a Quadrotor With Deep Model-Based Reinforcement Learning</h3><p>University of California–Berkeley</p></a></li>
+      <li><a href="https://ieeexplore.ieee.org/document/9508420"><h3>Neural-Swarm2: Planning and Control of Heterogeneous Multirotor Swarms Using Learned Interactions</h3><p>California Institute of Technoogy</p></a></li>
+      <li><a href="https://www.science.org/doi/10.1126/scirobotics.abg5913"><h3>A bioinspired revolving-wing drone with passive attitude stability and efficient hovering flight</h3><p>City University of Hong Kong</p></a></li>
     </ul>
   </div>
 </div>
 
-<!-- ── Section 4: Why the Crazyflie®? ───────────────────────────────────── -->
+<!-- ── Section 4: Why the Crazyflie<sup>®</sup>? ───────────────────────────────────── -->
 <div class="container-fluid value-props-banner">
   <div class="row justify-content-center mb-3">
     <div class="col-12 text-center">
       <h2 style="color: white;">
         <i class="fa-solid fa-drone highlight-green"></i>
-        Why the <span class="highlight-dark-green">Crazyflie®</span>?
+        Why the <span class="highlight-dark-green">Crazyflie<sup>®</sup></span>?
       </h2>
     </div>
   </div>
-  <div class="row justify-content-center">
-    <div class="col-md-8 col-lg-8">
-      <div class="row g-4 align-items-start">
+  <div class="container">
+    <div class="row g-4 align-items-start">
         <div class="col-6 col-md-4">
           <div class="value-prop-card">
             <div class="card-icon"><i class="fa-solid fa-code"></i></div>
-            <h3>Full software<br>transparency</h3>
-            <p style="color: rgba(255,255,255,0.7); font-size: 0.85rem; margin-top: 0.5rem;">Open firmware and APIs at every level.</p>
+            <h3>Open firmware and APIs at every level.</h3>
           </div>
         </div>
         <div class="col-6 col-md-4">
           <div class="value-prop-card">
             <div class="card-icon"><i class="fa-solid fa-puzzle-piece"></i></div>
-            <h3>Hardware<br>modularity</h3>
-            <p style="color: rgba(255,255,255,0.7); font-size: 0.85rem; margin-top: 0.5rem;">Extend with positioning decks, AI decks, or custom sensor payloads.</p>
+            <h3>Extend with positioning decks, AI decks, or custom sensor payloads.</h3>
           </div>
         </div>
         <div class="col-6 col-md-4">
           <div class="value-prop-card">
             <div class="card-icon"><i class="fa-solid fa-location-dot"></i></div>
-            <h3>Precision<br>tracking</h3>
-            <p style="color: rgba(255,255,255,0.7); font-size: 0.85rem; margin-top: 0.5rem;">Compatible with Lighthouse, Loco, and motion capture systems.</p>
+            <h3>Compatible with Lighthouse, Loco, and motion capture systems.</h3>
           </div>
         </div>
         <div class="col-6 col-md-4">
           <div class="value-prop-card">
             <div class="card-icon"><i class="fa-solid fa-rotate"></i></div>
-            <h3>Reproducible<br>experimentation</h3>
-            <p style="color: rgba(255,255,255,0.7); font-size: 0.85rem; margin-top: 0.5rem;">Consistent behavior across units and experiments.</p>
+            <h3>Consistent behavior across units and experiments.</h3>
           </div>
         </div>
         <div class="col-6 col-md-4">
           <div class="value-prop-card">
             <div class="card-icon"><i class="fa-solid fa-people-group"></i></div>
-            <h3>Global community<br>support</h3>
-            <p style="color: rgba(255,255,255,0.7); font-size: 0.85rem; margin-top: 0.5rem;">Shared tools, tutorials, and real research collaboration.</p>
+            <h3>Shared tools, tutorials, and real research collaboration.</h3>
           </div>
         </div>
         <div class="col-6 col-md-4">
           <div class="value-prop-card">
             <div class="card-icon"><i class="fa-solid fa-computer"></i></div>
-            <h3>Simulation-to-reality<br>workflows</h3>
-            <p style="color: rgba(255,255,255,0.7); font-size: 0.85rem; margin-top: 0.5rem;">Support for rapid iteration between simulation, hardware-in-the-loop testing, and physical flight experiments.</p>
+            <h3>Support for rapid iteration between simulation, hardware-in-the-loop testing, and physical flight experiments.</h3>
           </div>
         </div>
       </div>
-    </div>
   </div>
 </div>
 
@@ -142,7 +133,8 @@ redirects:
 <div class="container app-product-section">
   <div class="app-bundle-section">
     <h3>Reference Setup</h3>
-    <div class="row g-3">
+    <p>Every project has unique requirements, but many share common building blocks. The configurations below provide practical starting points for autonomy research, combining hardware, software, and localization infrastructure commonly used in studies of autonomous flight, adaptive control, and onboard decision-making.</p>
+    <div class="row g-3 mt-4">
       <div class="col-12 col-md-4">
         <div class="app-bundle-card">
           <img src="/images/applications/bundle-infinite-flight.webp" alt="Infinite flight bundle - Crazyflie 2.1 Brushless" class="app-bundle-img">

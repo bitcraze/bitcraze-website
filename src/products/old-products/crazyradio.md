@@ -10,7 +10,7 @@ redirects:
 The Crazyradio 2.4GHz radio USB dongle is based on the
 [Nordic Semiconductor](https://www.nordicsemi.com/)
 [nRF24LU1+](https://www.nordicsemi.com/eng/Products/2.4GHz-RF/nRF24LU1P) SoC.
-In the Crazyflie platform it's used for communication between the host and the
+In the Crazyflie<sup>®</sup> platform it's used for communication between the host and the
 Crazyflie, but this dongle can be used separately for other projects. It has
 two status LEDs and an expansion header for programming and expanding.
 

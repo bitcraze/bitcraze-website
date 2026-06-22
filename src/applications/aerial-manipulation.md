@@ -22,11 +22,11 @@ redirects:
     <div class="col-md-7">
       <div class="app-feature-row">
         <i class="fa-solid fa-hand-lizard"></i>
-        <p class="text-center">Aerial manipulation expands the role of flying robots beyond perception and motion into physical interaction. The Crazyflie’s lightweight, modular architecture makes it ideal for exploring the control challenges and dynamics of contact-based operations and grasping in the air.</p>
+        <p>Aerial manipulation expands the role of flying robots beyond perception and motion into physical interaction. The Crazyflie<sup>®</sup>’s lightweight, modular architecture makes it ideal for exploring the control challenges and dynamics of contact-based operations and grasping in the air.</p>
       </div>
       <div class="app-feature-row">
         <i class="fa-solid fa-handshake"></i>
-        <p class="text-center">Researchers use the Crazyflie® for developing novel actuation mechanisms, adaptive control strategies, and cooperative manipulation techniques. Its open-source firmware and precise localization systems allow detailed evaluation of control responses during interaction.</p>
+        <p>Researchers use the Crazyflie<sup>®</sup> for developing novel actuation mechanisms, adaptive control strategies, and cooperative manipulation techniques. Its open-source firmware and precise localization systems allow detailed evaluation of control responses during interaction.</p>
       </div>
     </div>
   </div>
@@ -61,76 +61,67 @@ redirects:
 <!-- ── Section 3: Research in Action ────────────────────────────────────── -->
 <div class="container app-research-section">
   <div class="app-research-card">
-    <div class="app-research-icon"><i class="fa-solid fa-flask"></i></div>
     <h2>Research in Action</h2>
     <p>Aerial manipulation extends robotics beyond flight alone, combining mobility with physical interaction. Projects using Crazyflie have demonstrated payload delivery, surface interaction, and force-controlled contact using lightweight grippers and extension decks.</p>
-    <ul class="app-research-list">
-      <li><span><strong><a href="https://ieeexplore.ieee.org/document/10382688">”Efficient Optimization-Based Cable Force Allocation for Geometric Control of a Multirotor Team Transporting a Payload”</a></strong> TU Berlin</span></li>
-      <li><span><strong><a href="https://ieeexplore.ieee.org/document/10802794">"Kinodynamic Motion Planning for a Team of Multirotors Transporting a Cable-Suspended Payload in Cluttered Environments"</a></strong> TU Berlin</span></li>
-      <li><span><strong><a href="https://ieeexplore.ieee.org/document/8461014">”ModQuad: The Flying Modular Structure that Self-Assembles in Midair”</a></strong> University of Pennsylvania</span></li>
-      <li><span><strong><a href="https://ieeexplore.ieee.org/document/8460682">”A Flying Gripper Based on Cuboid Modular Robots”</a></strong> University of Pennsylvania</span></li>
-      <li><span><strong><a href="https://ieeexplore.ieee.org/document/8793936">”Compliant Bistable Gripper for Aerial Perching and Grasping”</a></strong> Colorado State University</span></li>
+    <ul class="app-paper-card-list">
+      <li><a href="https://ieeexplore.ieee.org/document/10382688"><h3>Efficient Optimization-Based Cable Force Allocation for Geometric Control of a Multirotor Team Transporting a Payload</h3><p>TU Berlin</p></a></li>
+      <li><a href="https://ieeexplore.ieee.org/document/10802794"><h3>Kinodynamic Motion Planning for a Team of Multirotors Transporting a Cable-Suspended Payload in Cluttered Environments</h3><p>TU Berlin</p></a></li>
+      <li><a href="https://ieeexplore.ieee.org/document/8461014"><h3>ModQuad: The Flying Modular Structure that Self-Assembles in Midair</h3><p>University of Pennsylvania</p></a></li>
+      <li><a href="https://ieeexplore.ieee.org/document/8460682"><h3>A Flying Gripper Based on Cuboid Modular Robots</h3><p>University of Pennsylvania</p></a></li>
+      <li><a href="https://ieeexplore.ieee.org/document/8793936"><h3>Compliant Bistable Gripper for Aerial Perching and Grasping</h3><p>Colorado State University</p></a></li>
     </ul>
   </div>
 </div>
 
-<!-- ── Section 4: Why the Crazyflie®? ───────────────────────────────────── -->
+<!-- ── Section 4: Why the Crazyflie<sup>®</sup>? ───────────────────────────────────── -->
 <div class="container-fluid value-props-banner">
   <div class="row justify-content-center mb-3">
     <div class="col-12 text-center">
       <h2 style="color: white;">
         <i class="fa-solid fa-drone highlight-green"></i>
-        Why the <span class="highlight-dark-green">Crazyflie®</span>?
+        Why the <span class="highlight-dark-green">Crazyflie<sup>®</sup></span>?
       </h2>
     </div>
   </div>
-  <div class="row justify-content-center">
-    <div class="col-md-8 col-lg-8">
-      <div class="row g-4 align-items-start">
+  <div class="container">
+    <div class="row g-4 align-items-start">
         <div class="col-6 col-md-4">
           <div class="value-prop-card">
             <div class="card-icon"><i class="fa-solid fa-screwdriver-wrench"></i></div>
-            <h3>Custom hardware<br>extensions</h3>
-            <p style="color: rgba(255,255,255,0.7); font-size: 0.85rem; margin-top: 0.5rem;">Fully customizable hardware extensions for manipulators.</p>
+            <h3>Fully customizable hardware extensions for manipulators.</h3>
           </div>
         </div>
         <div class="col-6 col-md-4">
           <div class="value-prop-card">
             <div class="card-icon"><i class="fa-solid fa-crosshairs"></i></div>
-            <h3>Motion capture &<br>Lighthouse</h3>
-            <p style="color: rgba(255,255,255,0.7); font-size: 0.85rem; margin-top: 0.5rem;">Precise motion capture and Lighthouse integration.</p>
+            <h3>Precise motion capture and Lighthouse integration.</h3>
           </div>
         </div>
         <div class="col-6 col-md-4">
           <div class="value-prop-card">
             <div class="card-icon"><i class="fa-solid fa-sliders"></i></div>
-            <h3>Open control<br>architecture</h3>
-            <p style="color: rgba(255,255,255,0.7); font-size: 0.85rem; margin-top: 0.5rem;">Open control architecture with high-rate feedback.</p>
+            <h3>Open control architecture with high-rate feedback.</h3>
           </div>
         </div>
         <div class="col-6 col-md-4">
           <div class="value-prop-card">
             <div class="card-icon"><i class="fa-solid fa-shield-halved"></i></div>
-            <h3>Safe indoor<br>experimentation</h3>
-            <p style="color: rgba(255,255,255,0.7); font-size: 0.85rem; margin-top: 0.5rem;">Safe and repeatable indoor experimentation.</p>
+            <h3>Safe and repeatable indoor experimentation.</h3>
           </div>
         </div>
         <div class="col-6 col-md-4">
           <div class="value-prop-card">
             <div class="card-icon"><i class="fa-solid fa-clone"></i></div>
-            <h3>Reproducible<br>workflows</h3>
-            <p style="color: rgba(255,255,255,0.7); font-size: 0.85rem; margin-top: 0.5rem;">Reproducible experimental workflows across hardware, software, and localization systems.</p>
+            <h3>Reproducible experimental workflows across hardware, software, and localization systems.</h3>
           </div>
         </div>
         <div class="col-6 col-md-4">
           <div class="value-prop-card">
             <div class="card-icon"><i class="fa-solid fa-flask"></i></div>
-            <h3>Sim-to-hardware<br>validation</h3>
-            <p style="color: rgba(255,255,255,0.7); font-size: 0.85rem; margin-top: 0.5rem;">Simulation-to-hardware validation for evaluating manipulation strategies in physical environments.</p>
+            <h3>Simulation-to-hardware validation for evaluating manipulation strategies in physical environments.</h3>
           </div>
         </div>
       </div>
-    </div>
   </div>
 </div>
 
@@ -138,7 +129,8 @@ redirects:
 <div class="container app-product-section">
   <div class="app-bundle-section">
     <h3>Reference Setup</h3>
-    <div class="row g-3">
+    <p>Every project has unique requirements, but many share common building blocks. The configurations below provide practical starting points for aerial manipulation research, combining flight platforms, localization systems, and expansion capabilities commonly used in grasping, payload transport, and physical interaction experiments.</p>
+    <div class="row g-3 mt-4">
       <div class="col-12 col-md-4">
         <div class="app-bundle-card">
           <img src="/images/applications/bundle-lh-exp-2.1+.webp" alt="Lighthouse explorer bundle - Crazyflie 2.1 Brushless" class="app-bundle-img">

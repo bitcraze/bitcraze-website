@@ -22,11 +22,11 @@ redirects:
     <div class="col-md-7">
       <div class="app-feature-row">
         <i class="fa-solid fa-terminal"></i>
-        <p class="text-center">The most effective learning often happens when theory meets practice. The Crazyflie® platform enables students to move beyond simulations and textbooks, applying concepts from robotics, programming, control theory, artificial intelligence, and systems engineering through hands-on experimentation.</p>
+        <p>The most effective learning often happens when theory meets practice. The Crazyflie<sup>®</sup> platform enables students to move beyond simulations and textbooks, applying concepts from robotics, programming, control theory, artificial intelligence, and systems engineering through hands-on experimentation.</p>
       </div>
       <div class="app-feature-row">
         <i class="fa-solid fa-graduation-cap"></i>
-        <p class="text-center">Used in classrooms, laboratories, student projects, and research programs around the world, the Crazyflie provides a scalable and accessible platform that supports learners from their first flight through advanced research in autonomy and multi-agent systems. Its open architecture encourages exploration, experimentation, and a deeper understanding of how complex robotic systems work.</p>
+        <p>Used in classrooms, laboratories, student projects, and research programs around the world, the Crazyflie provides a scalable and accessible platform that supports learners from their first flight through advanced research in autonomy and multi-agent systems. Its open architecture encourages exploration, experimentation, and a deeper understanding of how complex robotic systems work.</p>
       </div>
     </div>
   </div>
@@ -61,79 +61,70 @@ redirects:
 <!-- ── Section 3: Research in Action ────────────────────────────────────── -->
 <div class="container app-research-section">
   <div class="app-research-card">
-    <div class="app-research-icon"><i class="fa-solid fa-flask"></i></div>
     <h2>Teaching in Action</h2>
     <p>The Crazyflie platform is used by universities, research institutions, science centers, and schools worldwide. It supports a wide range of educational activities, from introductory programming and robotics courses to graduate-level research.</p>
     <p>Its combination of openness, safety, and flexibility allows educators to adapt the platform to different learning objectives while providing students with meaningful, hands-on experience that extends beyond simulation environments.</p>
-    <ul class="app-research-list">
-      <li><span><strong><a href="https://www.cmu.edu/roboticsacademy/roboticscurriculum/drone_curriculum/robot_swarms_crazyflie.html">Carnegie Mellon Robotics Academy, U.S.A</a></strong></span></li>
-      <li><span><strong><a href="https://droneblocks.io/program/programming-a-drone/">DroneBlocks Autonomous Drones – Level II, U.S.A</a></strong></span></li>
-      <li><span><strong><a href="https://hiperlab.berkeley.edu/teaching/">Introduction to Control of Unmanned Aerial Vehicles, UC Berkeley, U.S.A.</a></strong></span></li>
-      <li><span><strong><a href="https://moseskonto.tu-berlin.de/moses/modultransfersystem/bolognamodule/beschreibung/anzeigen.html?nummer=41159&version=1">Flying Robots, Technische Universität Berlin, Germany</a></strong></span></li>
-      <li><span><strong><a href="https://registrar.princeton.edu/course-offerings/course-details?courseid=002348&term=1262">Introduction to Robotics, Princeton University, U.S.A</a></strong></span></li>
-      <li><span><strong><a href="https://eng.ox.ac.uk/control/education">Department of Engineering Science, University of Oxford, U.K.</a></strong></span></li>
-      <li><span><strong><a href="https://vitensenternordland.no/skole-barnehage/ungdomsskole/pyfly/">Vitensenter Nordland, Norway</a></strong></span></li>
+    <ul class="app-paper-card-list">
+      <li><a href="https://www.cmu.edu/roboticsacademy/roboticscurriculum/drone_curriculum/robot_swarms_crazyflie.html"><h3>Carnegie Mellon Robotics Academy</h3><p>U.S.A</p></a></li>
+      <li><a href="https://droneblocks.io/program/programming-a-drone/"><h3>DroneBlocks Autonomous Drones – Level II</h3><p>U.S.A</p></a></li>
+      <li><a href="https://hiperlab.berkeley.edu/teaching/"><h3>Introduction to Control of Unmanned Aerial Vehicles, UC Berkeley</h3><p>U.S.A.</p></a></li>
+      <li><a href="https://moseskonto.tu-berlin.de/moses/modultransfersystem/bolognamodule/beschreibung/anzeigen.html?nummer=41159&version=1"><h3>Flying Robots, Technische Universität Berlin</h3><p>Germany</p></a></li>
+      <li><a href="https://registrar.princeton.edu/course-offerings/course-details?courseid=002348&term=1262"><h3>Introduction to Robotics, Princeton University</h3><p>U.S.A</p></a></li>
+      <li><a href="https://eng.ox.ac.uk/control/education"><h3>Department of Engineering Science, University of Oxford</h3><p>U.K.</p></a></li>
+      <li><a href="https://vitensenternordland.no/skole-barnehage/ungdomsskole/pyfly/"><h3>Vitensenter Nordland</h3><p>Norway</p></a></li>
     </ul>
   </div>
 </div>
 
-<!-- ── Section 4: Why the Crazyflie®? ───────────────────────────────────── -->
+<!-- ── Section 4: Why the Crazyflie<sup>®</sup>? ───────────────────────────────────── -->
 <div class="container-fluid value-props-banner">
   <div class="row justify-content-center mb-3">
     <div class="col-12 text-center">
       <h2 style="color: white;">
         <i class="fa-solid fa-drone highlight-green"></i>
-        Why the <span class="highlight-dark-green">Crazyflie®</span>?
+        Why the <span class="highlight-dark-green">Crazyflie<sup>®</sup></span>?
       </h2>
     </div>
   </div>
-  <div class="row justify-content-center">
-    <div class="col-md-8 col-lg-8">
-      <div class="row g-4 align-items-start">
+  <div class="container">
+    <div class="row g-4 align-items-start">
         <div class="col-6 col-md-4">
           <div class="value-prop-card">
             <div class="card-icon"><i class="fa-solid fa-code"></i></div>
-            <h3>Open-source hardware<br>& software</h3>
-            <p style="color: rgba(255,255,255,0.7); font-size: 0.85rem; margin-top: 0.5rem;">Open-source hardware and software for deeper learning and exploration.</p>
+            <h3>Open-source hardware and software for deeper learning and exploration</h3>
           </div>
         </div>
         <div class="col-6 col-md-4">
           <div class="value-prop-card">
             <div class="card-icon"><i class="fa-solid fa-terminal"></i></div>
-            <h3>Accessible APIs<br>& frameworks</h3>
-            <p style="color: rgba(255,255,255,0.7); font-size: 0.85rem; margin-top: 0.5rem;">Accessible APIs for Python, ROS, and other educational frameworks.</p>
+            <h3>Accessible APIs for Python, ROS, and other educational frameworks</h3>
           </div>
         </div>
         <div class="col-6 col-md-4">
           <div class="value-prop-card">
             <div class="card-icon"><i class="fa-solid fa-shield-halved"></i></div>
-            <h3>Safe classroom<br>platform</h3>
-            <p style="color: rgba(255,255,255,0.7); font-size: 0.85rem; margin-top: 0.5rem;">Safe and classroom-friendly platform for indoor experimentation.</p>
+            <h3>Safe and classroom-friendly platform for indoor experimentation</h3>
           </div>
         </div>
         <div class="col-6 col-md-4">
           <div class="value-prop-card">
             <div class="card-icon"><i class="fa-solid fa-layer-group"></i></div>
-            <h3>Modular<br>ecosystem</h3>
-            <p style="color: rgba(255,255,255,0.7); font-size: 0.85rem; margin-top: 0.5rem;">Modular ecosystem that grows with student capabilities and project complexity.</p>
+            <h3>Modular ecosystem that grows with student capabilities and project complexity</h3>
           </div>
         </div>
         <div class="col-6 col-md-4">
           <div class="value-prop-card">
             <div class="card-icon"><i class="fa-solid fa-book-open"></i></div>
-            <h3>Docs, tutorials<br>& community</h3>
-            <p style="color: rgba(255,255,255,0.7); font-size: 0.85rem; margin-top: 0.5rem;">Extensive documentation, tutorials, and community resources.</p>
+            <h3>Extensive documentation, tutorials, and community resources</h3>
           </div>
         </div>
         <div class="col-6 col-md-4">
           <div class="value-prop-card">
             <div class="card-icon"><i class="fa-solid fa-graduation-cap"></i></div>
-            <h3>Proven in universities<br>worldwide</h3>
-            <p style="color: rgba(255,255,255,0.7); font-size: 0.85rem; margin-top: 0.5rem;">Proven platform used in universities and research programs worldwide.</p>
+            <h3>Proven platform used in universities and research programs worldwide</h3>
           </div>
         </div>
       </div>
-    </div>
   </div>
 </div>
 
@@ -141,8 +132,9 @@ redirects:
 <div class="container app-product-section">
   <div class="app-bundle-section">
     <h3>Reference Setup</h3>
-    <div class="row g-3">
-      <div class="col-12 col-md-4">
+    <p>Every project has unique requirements, but many share common building blocks. The configurations below provide practical starting points for teaching and learning, combining accessible hardware, software, and educational resources suitable for classroom, laboratory, and project-based environments.</p>
+    <div class="row g-3 mt-4">
+      <div class="col-12 col-md-6">
         <div class="app-bundle-card">
           <img src="/images/applications/bundle-stem-2.1+.webp" alt="STEM drone bundle - Crazyflie 2.1+" class="app-bundle-img">
           <div class="app-bundle-tag">Featured</div>
@@ -151,7 +143,7 @@ redirects:
           <a href="https://store.bitcraze.io/collections/bundles/products/stem-drone-bundle" class="btn btn-color-primary">Shop Bundle</a>
         </div>
       </div>
-      <div class="col-12 col-md-4">
+      <div class="col-12 col-md-6">
         <div class="app-bundle-card">
           <img src="/images/applications/bundle-ranging-2.1+.webp" alt="STEM ranging bundle - Crazyflie 2.1+" class="app-bundle-img">
           <div class="app-bundle-tag">Featured</div>

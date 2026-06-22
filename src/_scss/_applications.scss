@@ -85,6 +85,8 @@
 // Application pages
 
 .app-page {
+  font-size: 1.05rem;
+  line-height: 1.75;
 
   > * {
     margin-bottom: 3rem;
@@ -151,13 +153,8 @@
     }
 
     p {
-      font-size: 1rem;
       line-height: 1.7;
       color: #333;
-
-      @media (min-width: $screen-md-min) {
-        font-size: 1.05rem;
-      }
     }
   }
 
@@ -176,7 +173,6 @@
 
     p {
       margin: 0;
-      font-size: 0.95rem;
       line-height: 1.7;
       color: #333;
     }
@@ -240,7 +236,7 @@
 
     h2 { color: $bcGreen; font-size: 1.5rem; }
     h2 span { color: $bcGreen; }
-    p { color: white; font-size: 0.9rem; }
+    p { color: white; }
   }
 
   .app-concept-list {
@@ -252,7 +248,6 @@
       display: flex;
       gap: 0.75rem;
       margin-bottom: 0.85rem;
-      font-size: 0.9rem;
       line-height: 1.55;
       color: white;
       text-align: left;
@@ -275,7 +270,6 @@
       display: flex;
       gap: 0.75rem;
       margin-bottom: 0.85rem;
-      font-size: 0.9rem;
       line-height: 1.55;
       color: $bcDarkGreen;
       text-align: left;
@@ -302,7 +296,7 @@
     background: rgba($bcGreen, 0.1);
     border-radius: 20px;
     padding: 2.5rem 2rem;
-    max-width: 760px;
+    max-width: 840px;
     margin: 0 auto;
 
     @media (min-width: $screen-md-min) {
@@ -323,7 +317,6 @@
     }
 
     p {
-      font-size: 0.95rem;
       line-height: 1.7;
       color: #333;
       margin-bottom: 0.85rem;
@@ -346,17 +339,76 @@
 
       &:hover { color: color.adjust($bcGreen, $lightness: -10%); text-decoration: underline; }
     }
+
+    .app-paper-card-list {
+      list-style: none;
+      padding: 0;
+      margin: 1.25rem 0 0;
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.85rem;
+
+      &::after {
+        content: '';
+        flex: 1 1 calc(50% - 0.425rem);
+      }
+
+      li {
+        flex: 1 1 calc(50% - 0.425rem);
+        min-width: 200px;
+        background: #fff;
+        border-radius: 12px;
+        transition: background 0.15s;
+
+        &:hover {
+          background: rgba($bcGreen, 0.18);
+        }
+
+        > a {
+          display: flex;
+          flex-direction: column;
+          padding: 1.1rem 1.35rem;
+          height: 100%;
+          text-decoration: none;
+          color: inherit;
+          border-radius: 12px;
+        }
+
+        h3 {
+          font-size: 1rem;
+          font-weight: 600;
+          color: $bcDarkGreen;
+          line-height: 1.45;
+          margin: 0 0 auto;
+        }
+
+        p {
+          font-size: 0.9rem;
+          font-weight: 600;
+          color: $bcGreen;
+          margin: 0.6rem 0 0;
+          text-transform: uppercase;
+          letter-spacing: 0.04em;
+        }
+      }
+    }
   }
 
   // ── Section 4: why crazyflie — reuses .value-props-banner ─────────────────
   .value-props-banner {
     padding: 2rem 0;
 
+    .container {
+      max-width: 840px;
+      padding-left: 0;
+      padding-right: 0;
+    }
+
     h2 { font-size: 1.5rem; }
 
     .value-prop-card {
       padding: 1rem 1rem;
-      height: 16rem;
+      min-height: 12rem;
       display: flex;
       flex-direction: column;
 
@@ -366,11 +418,10 @@
       }
 
       h3 {
-        font-size: 0.9rem;
+        font-size: 1rem;
       }
 
       p {
-        font-size: 0.8rem;
         margin-top: 0.35rem;
       }
     }
@@ -390,6 +441,12 @@
       margin-right: auto;
     }
 
+    .app-bundle-section {
+      max-width: 840px;
+      margin-left: auto;
+      margin-right: auto;
+    }
+
     h2 {
       font-weight: 700;
       color: $bcDarkGreen;
@@ -401,8 +458,12 @@
       }
     }
 
+    h3 {
+      font-weight: 700;
+      color: $bcDarkGreen;
+    }
+
     p {
-      font-size: 0.95rem;
       line-height: 1.7;
       color: #333;
       margin-bottom: 0.85rem;
@@ -436,7 +497,6 @@
 
     .app-bundle-card {
       background: rgba($bcGreen, 0.08);
-      border: 1px solid rgba($bcGreen, 0.25);
       border-radius: 16px;
       padding: 1.5rem;
       height: 100%;
@@ -469,7 +529,6 @@
       }
 
       .app-bundle-desc {
-        font-size: 0.85rem;
         line-height: 1.6;
         color: #555;
         flex-grow: 1;

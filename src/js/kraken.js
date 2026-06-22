@@ -132,3 +132,14 @@ window.addEventListener('click', kraken.poplinkCloseClickListener);
 window.addEventListener('keydown', kraken.poplinkCloseKeyListener);
 document.addEventListener("DOMContentLoaded", kraken.addLinksToHeaders);
 document.addEventListener("readystatechange", kraken.updateTabs);
+
+// Re-scroll to the hash after all images have loaded, since images loading
+// after DOMContentLoaded push content down and cause anchor targets to be missed.
+window.addEventListener('load', function() {
+  if (window.location.hash) {
+    var target = document.querySelector(window.location.hash);
+    if (target) {
+      target.scrollIntoView({ behavior: 'instant', block: 'start' });
+    }
+  }
+});

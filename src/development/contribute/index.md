@@ -38,7 +38,7 @@ When reporting github issues the more information you can supply the better.
 
 * **Information about the environment**:
   * What version of the firmware are you running
-  * If relevant, what are you using to control the Crazyflie. ie. What lib or client, and what version.
+  * If relevant, what are you using to control the Crazyflie<sup>®</sup>. ie. What lib or client, and what version.
 * **How to reproduce the issue**: Step-by-step guide on how the issue can be reproduced (or at least how you reproduce it). Include everything you think might be useful, the more information the better.
 
 ### Feature requests

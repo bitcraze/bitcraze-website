@@ -21,11 +21,11 @@ redirects:
     <div class="col-md-7">
       <div class="app-feature-row">
         <i class="fa-solid fa-circle-nodes"></i>
-        <p class="text-center">Swarm robotics investigates how multiple robots cooperate, self-organize, and adapt to achieve shared goals. The Crazyflie® is one of the most widely adopted physical platforms for swarm research, providing a stable, scalable, and reproducible foundation for studies of collective behavior and distributed control.</p>
+        <p>Swarm robotics investigates how multiple robots cooperate, self-organize, and adapt to achieve shared goals. The Crazyflie<sup>®</sup> is one of the most widely adopted physical platforms for swarm research, providing a stable, scalable, and reproducible foundation for studies of collective behavior and distributed control.</p>
       </div>
       <div class="app-feature-row">
         <i class="fa-solid fa-person-chalkboard"></i>
-        <p class="text-center">Researchers use the Crazyflie to transition from simulation to real-world experiments, exploring scalability, formation control, and decentralized communication frameworks. The system supports low-latency coordination, synchronized trajectories, and reliable inter-agent interaction.</p>
+        <p>Researchers use the Crazyflie to transition from simulation to real-world experiments, exploring scalability, formation control, and decentralized communication frameworks. The system supports low-latency coordination, synchronized trajectories, and reliable inter-agent interaction.</p>
       </div>
     </div>
   </div>
@@ -59,77 +59,68 @@ redirects:
 <!-- ── Section 3: Research in Action ────────────────────────────────────── -->
 <div class="container app-research-section">
   <div class="app-research-card">
-    <div class="app-research-icon"><i class="fa-solid fa-flask"></i></div>
     <h2>Research in Action</h2>
     <p>The examples below reflect recent and ongoing research in swarm robotics, highlighting how the Crazyflie platform is used to evaluate new concepts under real-world conditions across a range of topics, methodologies, and experimental scales.</p>
-    <ul class="app-research-list">
-      <li><span><strong><a href="https://link.springer.com/article/10.1007/s10514-025-10211-w">"DMPC-Swarm: distributed model predictive control on nano UAV swarms"</a></strong> RWTH Aachen University</span></li>
-      <li><span><strong><a href="https://ieeexplore.ieee.org/document/10611499">"Collision Avoidance and Navigation for a Quadrotor Swarm Using End-to-end Deep Reinforcement Learning"</a></strong> University of Southern California</span></li>
-      <li><span><strong><a href="https://ieeexplore.ieee.org/document/7989376">"CrazySwarm: A large nano-quadcopter swarm"</a></strong> University of Southern California</span></li>
-      <li><span><strong><a href="https://www.science.org/doi/10.1126/scirobotics.aaw9710">"Minimal navigation solution for a swarm of tiny flying robots to explore an unknown environment"</a></strong> TU Delft</span></li>
-      <li><span><strong><a href="https://ieeexplore.ieee.org/document/8950150">"Online Trajectory Generation With Distributed Model Predictive Control for Multi-Robot Motion Planning"</a></strong> University of Toronto</span></li>
-      <li><span><strong><a href="https://www.nature.com/articles/s42256-021-00341-y">"Predictive control of aerial swarms in cluttered environments"</a></strong> EPFL Lausanne</span></li>
+    <ul class="app-paper-card-list">
+      <li><a href="https://link.springer.com/article/10.1007/s10514-025-10211-w"><h3>DMPC-Swarm: distributed model predictive control on nano UAV swarms</h3><p>RWTH Aachen University</p></a></li>
+      <li><a href="https://ieeexplore.ieee.org/document/10611499"><h3>Collision Avoidance and Navigation for a Quadrotor Swarm Using End-to-end Deep Reinforcement Learning</h3><p>University of Southern California</p></a></li>
+      <li><a href="https://ieeexplore.ieee.org/document/7989376"><h3>CrazySwarm: A large nano-quadcopter swarm</h3><p>University of Southern California</p></a></li>
+      <li><a href="https://www.science.org/doi/10.1126/scirobotics.aaw9710"><h3>Minimal navigation solution for a swarm of tiny flying robots to explore an unknown environment</h3><p>TU Delft</p></a></li>
+      <li><a href="https://ieeexplore.ieee.org/document/8950150"><h3>Online Trajectory Generation With Distributed Model Predictive Control for Multi-Robot Motion Planning</h3><p>University of Toronto</p></a></li>
+      <li><a href="https://www.nature.com/articles/s42256-021-00341-y"><h3>Predictive control of aerial swarms in cluttered environments</h3><p>EPFL Lausanne</p></a></li>
     </ul>
   </div>
 </div>
 
-<!-- ── Section 4: Why the Crazyflie®? ───────────────────────────────────── -->
+<!-- ── Section 4: Why the Crazyflie<sup>®</sup>? ───────────────────────────────────── -->
 <div class="container-fluid value-props-banner">
   <div class="row justify-content-center mb-3">
     <div class="col-12 text-center">
       <h2 style="color: white;">
         <i class="fa-solid fa-drone highlight-green"></i>
-        Why the <span class="highlight-dark-green">Crazyflie®</span>?
+        Why the <span class="highlight-dark-green">Crazyflie<sup>®</sup></span>?
       </h2>
     </div>
   </div>
-  <div class="row justify-content-center">
-    <div class="col-md-8 col-lg-8">
-      <div class="row g-4 align-items-start">
+  <div class="container">
+    <div class="row g-4 align-items-start">
         <div class="col-6 col-md-4">
           <div class="value-prop-card">
             <div class="card-icon"><i class="fa-solid fa-people-group"></i></div>
-            <h3>Proven multi-agent<br>framework</h3>
-            <p style="color: rgba(255,255,255,0.7); font-size: 0.85rem; margin-top: 0.5rem;">Proven multi-agent framework for real-time control.</p>
+            <h3>Proven multi-agent framework for real-time control.</h3>
           </div>
         </div>
         <div class="col-6 col-md-4">
           <div class="value-prop-card">
             <div class="card-icon"><i class="fa-solid fa-location-crosshairs"></i></div>
-            <h3>Integrated positioning<br>options</h3>
-            <p style="color: rgba(255,255,255,0.7); font-size: 0.85rem; margin-top: 0.5rem;">Integrated Lighthouse and Loco positioning options.</p>
+            <h3>Integrated Lighthouse and Loco positioning options.</h3>
           </div>
         </div>
         <div class="col-6 col-md-4">
           <div class="value-prop-card">
             <div class="card-icon"><i class="fa-solid fa-code"></i></div>
-            <h3>Open-source swarm<br>tools & APIs</h3>
-            <p style="color: rgba(255,255,255,0.7); font-size: 0.85rem; margin-top: 0.5rem;">Open-source swarm management tools and APIs.</p>
+            <h3>Open-source swarm management tools and APIs.</h3>
           </div>
         </div>
         <div class="col-6 col-md-4">
           <div class="value-prop-card">
             <div class="card-icon"><i class="fa-solid fa-tower-broadcast"></i></div>
-            <h3>High-reliability<br>communication</h3>
-            <p style="color: rgba(255,255,255,0.7); font-size: 0.85rem; margin-top: 0.5rem;">High-reliability communication protocols.</p>
+            <h3>High-reliability communication protocols.</h3>
           </div>
         </div>
         <div class="col-6 col-md-4">
           <div class="value-prop-card">
             <div class="card-icon"><i class="fa-solid fa-chart-line"></i></div>
-            <h3>Scalable<br>experimentation</h3>
-            <p style="color: rgba(255,255,255,0.7); font-size: 0.85rem; margin-top: 0.5rem;">Scalable experimentation from a few agents to large swarms.</p>
+            <h3>Scalable experimentation from a few agents to large swarms.</h3>
           </div>
         </div>
         <div class="col-6 col-md-4">
           <div class="value-prop-card">
             <div class="card-icon"><i class="fa-solid fa-flask"></i></div>
-            <h3>Published swarm<br>research</h3>
-            <p style="color: rgba(255,255,255,0.7); font-size: 0.85rem; margin-top: 0.5rem;">Extensive body of published swarm research and reference implementations.</p>
+            <h3>Extensive body of published swarm research and reference implementations.</h3>
           </div>
         </div>
       </div>
-    </div>
   </div>
 </div>
 
@@ -137,8 +128,9 @@ redirects:
 <div class="container app-product-section">
   <div class="app-bundle-section">
     <h3>Reference Setup</h3>
-    <div class="row g-3">
-      <div class="col-12 col-md-3">
+    <p>Every project has unique requirements, but many share common building blocks. The configurations below provide practical starting points for swarm robotics research, combining coordinated flight infrastructure, positioning systems, and communication capabilities commonly used in multi-agent experiments.</p>
+    <div class="row g-3 mt-4">
+      <div class="col-12 col-md-6">
         <div class="app-bundle-card">
           <img src="/images/applications/bundle-lh-swarm-bl.webp" alt="Lighthouse swarm bundle - Crazyflie 2.1 Brushless" class="app-bundle-img">
           <div class="app-bundle-tag">Featured</div>
@@ -147,7 +139,7 @@ redirects:
           <a href="https://store.bitcraze.io/products/lighthouse-swarm-bundle-crazyflie-2-1-brushless" class="btn btn-color-primary">Shop Bundle</a>
         </div>
       </div>
-      <div class="col-12 col-md-3">
+      <div class="col-12 col-md-6">
         <div class="app-bundle-card">
           <img src="/images/applications/bundle-loco-swarm-bl.webp" alt="Loco Swarm bundle - Crazyflie 2.1 Brushless" class="app-bundle-img">
           <div class="app-bundle-tag">Featured</div>
@@ -156,7 +148,7 @@ redirects:
           <a href="https://store.bitcraze.io/collections/bundles-crazyflie-2-1-brushless/products/loco-swarm-bundle-crazyflie-2-1-brushless" class="btn btn-color-primary">Shop Bundle</a>
         </div>
       </div>
-      <div class="col-12 col-md-3">
+      <div class="col-12 col-md-6">
         <div class="app-bundle-card">
           <img src="/images/applications/bundle-lh-swarm-2.1+.webp" alt="Lighthouse swarm bundle - Crazyflie 2.1+" class="app-bundle-img">
           <div class="app-bundle-tag">Featured</div>
@@ -165,7 +157,7 @@ redirects:
           <a href="https://store.bitcraze.io/collections/bundles-crazyflie-2-1/products/lighthouse-swarm-bundle-21" class="btn btn-color-primary">Shop Bundle</a>
         </div>
       </div>
-      <div class="col-12 col-md-3">
+      <div class="col-12 col-md-6">
         <div class="app-bundle-card">
           <img src="/images/applications/bundle-loco-swarm-2.1+.webp" alt="Loco Swarm bundle - Crazyflie 2.1+" class="app-bundle-img">
           <div class="app-bundle-tag">Featured</div>

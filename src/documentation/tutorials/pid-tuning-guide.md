@@ -8,7 +8,7 @@ redirects:
 {% si_intro PID controller tuning %}
 <span style="color:red">**WARNING: When tuning the PID controller of a quadcopter, always take safety precautions. Secure the quadcopter in a safe environment to prevent accidents, as improper tuning can cause instability and unpredictable behavior. Use a tether or safety net, and wear protective gear to minimize risks. Make sure you have configured the emergency stop to a button on your controller.**</span>
 
-Tuning a PID controller for a quadcopter is necessary for ensuring stable, responsive and precise flight control. For a custom-built quadcopter, for example using the [Crazyflie Bolt](/products/crazyflie-bolt-1-1/), tuning becomes essential to adjust and optimize the drone's performance according to the specific components and configurations used.
+Tuning a PID controller for a quadcopter is necessary for ensuring stable, responsive and precise flight control. For a custom-built quadcopter, for example using the [Crazyflie<sup>®</sup> Bolt](/products/crazyflie-bolt-1-1/), tuning becomes essential to adjust and optimize the drone's performance according to the specific components and configurations used.
 
 This tutorial provides fundamental PID tuning information aimed at beginners, covering essential concepts and step-by-step instructions. Additionally, it demonstrates specific tuning operations within our ecosystem, offering practical guidance that can also benefit advanced users.
 {% endsi_intro %}

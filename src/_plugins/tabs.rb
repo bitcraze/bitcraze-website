@@ -45,7 +45,7 @@ module Jekyll
 
           markup = super
 
-          result = '<div><ul class="nav nav-tabs" role="tablist">'
+          result = '<div class="mt-4"><ul class="nav nav-tabs" role="tablist">'
           result = @tabs.reduce(result) do |memo, tab|
             link_active = ''
             if (tab[:is_active])

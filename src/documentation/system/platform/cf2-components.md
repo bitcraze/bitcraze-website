@@ -8,7 +8,7 @@ redirects:
 
 # Top
 
-![Crazyflie top](/images/documentation/overview/legend_top.png){:width="400px"}
+![Crazyflie<sup>®</sup> top](/images/documentation/overview/legend_top.png){:width="400px"}
 
 1.  **LED 1**: Red/green LED used for heartbeat and low-battery
     indication

@@ -7,7 +7,7 @@ redirects:
 ---
 
 
-Here is a list of expansion decks that are available for the Crazyflie 2.x:
+Here is a list of expansion decks that are available for the Crazyflie<sup>®</sup> 2.x:
 
 | Expansion Deck | Description |
 |---|---|---|

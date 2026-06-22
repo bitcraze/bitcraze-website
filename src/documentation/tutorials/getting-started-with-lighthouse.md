@@ -6,7 +6,7 @@ page_id: getting-started-with-the-lighthouse-system
 
 {% si_intro Introduction %}
 
-The Lighthouse positioning system uses the SteamVR Base stations of Valve Inc. and the Lighthouse deck on the Crazyflie. With this system, the Crazyflie can estimate its own X, Y and Z in a global coordinate system.
+The Lighthouse positioning system uses the SteamVR Base stations of Valve Inc. and the Lighthouse deck on the Crazyflie<sup>®</sup>. With this system, the Crazyflie can estimate its own X, Y and Z in a global coordinate system.
 
 This tutorial is also available as a [video](https://www.youtube.com/watch?v=DCEHht72B08).
 

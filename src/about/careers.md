@@ -1,5 +1,5 @@
 ---
-layout: page-left-menu
+layout: page
 title: Careers
 page_id: careers
 redirects:
@@ -7,6 +7,7 @@ redirects:
 ---
 Bitcraze is not a traditional workplace. We are a small, self-organizing team with a mission to make robotics more open, more collaborative, and more meaningful. We believe technology can and should contribute to society in positive ways. If you share that belief, if you enjoy solving complex problems in code, and if you want to work in a place where your ideas and curiosity truly shape the outcome, we might be the right place for you.
 
+<div class="content-card" markdown="1">
 ## How We Work
 We have no managers, and no titles. Instead, we operate as a self-managed collective built on trust, collaboration, and shared responsibility. No one tells anyone else what to do. Decisions are made together, problems are solved together, and success is measured by how well the team thrives.
 
@@ -19,11 +20,13 @@ We are based in Malmö, Sweden, and we believe deeply in the value of human conn
 We currently only accept applications from candidates who have the legal right to work in the European Union.
 
 Our working language is English.
+</div>
 
 ## What We Work On
 
 We are a small and highly collaborative team, which means you will likely work across several areas rather than staying confined to one narrow role. The work is varied, challenging, and often interdisciplinary. Some of the areas you might contribute to include:
 
+<div class="arrow-headings" markdown="1">
 ### Software and Product Development
 Design and implement new functionality for our open-source platform, from embedded firmware and client software to Python libraries and developer tools. Prototype new ideas, improve existing products, and help shape the future of flying robotics.
 
@@ -41,6 +44,7 @@ Ensure that our products reach users efficiently and reliably. Work with product
 
 ### Communication and Outreach
 Create blog posts, documentation, videos, and other materials to share our work with the world. Represent Bitcraze at conferences and events, and engage directly with the robotics community.
+</div>
 
 ## Who We Are Looking For
 We are looking for people who are motivated by curiosity. You might be a software developer, robotics engineer, researcher, or system builder. What matters most is that you enjoy learning, collaborating, and building things that matter.

@@ -6,7 +6,7 @@ redirects:
   - /download/
 ---
 
-## Crazyflie stand-alone Python client
+## Crazyflie<sup>®</sup> stand-alone Python client
 
 Follow [the installation instructions](/documentation/repository/crazyflie-clients-python/master/installation/install/#installation) for the latest release.
 

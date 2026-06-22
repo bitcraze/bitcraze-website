@@ -1,5 +1,5 @@
 ---
-layout: page-left-menu
+layout: page
 title: Distributors
 page_id: distributors
 redirects:
