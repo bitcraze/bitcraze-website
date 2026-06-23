@@ -1,50 +1,48 @@
-<div class="navbar-collapse collapse" id="navbar-menu">
-    <ul id="menu-newmenuqnd" class="navbar-nav">
-        {% for top_menu in site.data.menu %}
-            {% assign is_active = false %}
+<ul id="menu-newmenuqnd" class="navbar-nav">
+    {% for top_menu in site.data.menu %}
+        {% assign is_active = false %}
 
-            {% assign has_dropdown = false %}
-            {% if top_menu contains "subs" or top_menu contains "sections" %}
-                {% assign has_dropdown = true %}
-            {% endif %}
+        {% assign has_dropdown = false %}
+        {% if top_menu contains "subs" or top_menu contains "sections" %}
+            {% assign has_dropdown = true %}
+        {% endif %}
 
-            {% if page contains "page_id" %}
-                {% if top_menu contains "subs" %}
-                    {% assign p = top_menu.subs | where:"page_id",page.page_id | first %}
+        {% if page contains "page_id" %}
+            {% if top_menu contains "subs" %}
+                {% assign p = top_menu.subs | where:"page_id",page.page_id | first %}
+                {% if p != nil %}
+                    {% assign is_active = true %}
+                {% endif %}
+            {% elsif top_menu contains "sections" %}
+                {% for section in top_menu.sections %}
+                    {% assign p = section.subs | where:"page_id",page.page_id | first %}
                     {% if p != nil %}
                         {% assign is_active = true %}
                     {% endif %}
-                {% elsif top_menu contains "sections" %}
-                    {% for section in top_menu.sections %}
-                        {% assign p = section.subs | where:"page_id",page.page_id | first %}
-                        {% if p != nil %}
-                            {% assign is_active = true %}
-                        {% endif %}
-                    {% endfor %}
-                {% else %}
-                    {% if top_menu.page_id == page.page_id %}
-                        {% assign is_active = true %}
-                    {% endif %}
+                {% endfor %}
+            {% else %}
+                {% if top_menu.page_id == page.page_id %}
+                    {% assign is_active = true %}
                 {% endif %}
             {% endif %}
+        {% endif %}
 
-            <li class="nav-item {% if has_dropdown %}dropdown{% endif %} {% if is_active %}active{% endif %}">
-                {% if has_dropdown %}
-                <a title="{{top_menu.title}}" href="#"
-                   data-bs-toggle="dropdown"
-                   class="nav-link dropdown-toggle"
-                   aria-expanded="false">{{top_menu.title}}</a>
-                    {% capture _menu_icon %}{% if top_menu contains "icon" %}{{top_menu.icon}}{% endif %}{% endcapture %}
-                    {% if top_menu contains "sections" %}
-                        {% include menu_sections_ul.html sections=top_menu.sections title=top_menu.title icon=_menu_icon %}
-                    {% else %}
-                        {% include menu_ul.html subs=top_menu.subs title=top_menu.title icon=_menu_icon %}
-                    {% endif %}
+        <li class="nav-item {% if has_dropdown %}dropdown{% endif %} {% if is_active %}active{% endif %}">
+            {% if has_dropdown %}
+            <a title="{{top_menu.title}}" href="#"
+               data-bs-toggle="dropdown"
+               class="nav-link dropdown-toggle"
+               aria-expanded="false">{{top_menu.title}}</a>
+                {% capture _menu_icon %}{% if top_menu contains "icon" %}{{top_menu.icon}}{% endif %}{% endcapture %}
+                {% if top_menu contains "sections" %}
+                    {% include menu_sections_ul.html sections=top_menu.sections title=top_menu.title icon=_menu_icon %}
                 {% else %}
-                    {% assign p = site.pages | where:"page_id",top_menu.page_id | first %}
-                <a title="{{p.title}}" href="{{p.url}}" class="nav-link">{{p.title}}</a>
+                    {% include menu_ul.html subs=top_menu.subs title=top_menu.title icon=_menu_icon %}
                 {% endif %}
-            </li>
-        {% endfor %}
-    </ul>
-</div>
+            {% else %}
+                {% assign p = site.pages | where:"page_id",top_menu.page_id | first %}
+            <a title="{{p.title}}" href="{{p.url}}" class="nav-link">{{p.title}}</a>
+            {% endif %}
+        </li>
+    {% endfor %}
+</ul>
