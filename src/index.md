@@ -304,22 +304,17 @@ page_id: home
   <div class="row g-3 justify-content-center mb-3">
     <div class="col-4 col-md-auto"><a href="https://www.cmu.edu/" class="customer-logo-box"><img src="/images/logos/carnegie-mellon-logo.png" alt="Carnegie Mellon University"></a></div>
     <div class="col-4 col-md-auto"><a href="https://www.chalmers.se/en/" class="customer-logo-box"><img src="/images/logos/chalmers-logo.png" alt="Chalmers University of Technology"></a></div>
-    <div class="col-4 col-md-auto"><a href="https://www.ethz.ch/en.html" class="customer-logo-box"><img src="/images/logos/eth-logo.png" alt="ETH Zurich"></a></div>
+    <div class="col-4 col-md-auto"><a href="https://www.ethz.c col-h/en.html" class="customer-logo-box"><img src="/images/logos/eth-logo.png" alt="ETH Zurich"></a></div>
   </div>
   <div class="row g-3 justify-content-center mb-3">
-    <div class="col-4 col-md-auto"><a href="https://www.gatech.edu/" class="customer-logo-box"><img src="/images/logos/georgia-tech-logo.png" alt="Georgia Institute of Technology"></a></div>
     <div class="col-4 col-md-auto"><a href="https://www.lth.se/english" class="customer-logo-box"><img src="/images/logos/lund-logo.png" alt="Lund University"></a></div>
-    <div class="col-4 col-md-auto"><a href="https://web.mit.edu/" class="customer-logo-box"><img src="/images/logos/mit-logo.png" alt="MIT"></a></div>
+    <div class="col-4 col-md-auto"><a href="https://idsia.usi-supsi.ch/" class="customer-logo-box"><img src="/images/logos/idsia-logo.jpg" alt="IDSIA/SUPSI"></a></div>
+    <div class="col-4 col-md-auto"><a href="https://www.dlsu.edu.ph/" class="customer-logo-box"><img src="/images/logos/dlsu-logo.png" alt="De La Salle University"></a></div>
   </div>
   <div class="row g-3 justify-content-center mb-3">
-    <div class="col-4 col-md-auto"><a href="https://www.nasa.gov/" class="customer-logo-box"><img src="/images/logos/nasa-logo.png" alt="NASA"></a></div>
     <div class="col-4 col-md-auto"><a href="https://nus.edu.sg/" class="customer-logo-box"><img src="/images/logos/nus-logo.png" alt="National University of Singapore"></a></div>
-    <div class="col-4 col-md-auto"><a href="https://www.princeton.edu/" class="customer-logo-box"><img src="/images/logos/princeton-logo.png" alt="Princeton University"></a></div>
-  </div>
-  <div class="row g-3 justify-content-center mb-3">
     <div class="col-4 col-md-auto"><a href="https://www.tii.ae/" class="customer-logo-box"><img src="/images/logos/tii-logo.png" alt="Technology Innovation Institute"></a></div>
     <div class="col-4 col-md-auto"><a href="https://www.tudelft.nl/en/" class="customer-logo-box"><img src="/images/logos/tudelft-logo.png" alt="TU Delft"></a></div>
-    <div class="col-4 col-md-auto"><a href="https://www.usc.edu/" class="customer-logo-box"><img src="/images/logos/usc-logo.png" alt="USC"></a></div>
   </div>
 </div>
 <!-- Customers End -->
