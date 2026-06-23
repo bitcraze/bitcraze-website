@@ -119,3 +119,14 @@ of the instructions have been updated, refer to the getting started guide for th
 {% endtabgroup %}
 
 ---
+
+#### Resources
+
+- {% id_link getting-started-with-the-aideck %}
+- {% id_link getting-started-start %}
+- {% id_link development-overview %}
+- {% id_link support-frequently-asked-questions %}
+- {% id_link support-getting-help %}
+- {% id_link cf2_expansiondecks %}
+- [Datasheet](/documentation/hardware/ai_deck_1_1/ai_deck_1_1-datasheet.pdf)
+- [Schematics](/documentation/hardware/ai_deck_1_1/ai-deck-revc.pdf)
