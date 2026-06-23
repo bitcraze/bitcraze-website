@@ -20,7 +20,7 @@ class TestTabs < Testbase
     # Fixture
     tag = '{% tabgroup %}{% tab Single tab %}md{% endtab %}{% endtabgroup %}'
     expected = '
-      <div>
+      <div class="mt-4">
         <ul class="nav nav-tabs" role="tablist">
           <li class="nav-item" role="presentation">
             <a href="#tab-id-single-tab" class="nav-link active" role="tab" data-bs-toggle="tab">Single tab</a>
@@ -45,7 +45,7 @@ class TestTabs < Testbase
     # Fixture
     tag = '{% tabgroup %}{% tab First tab %}md{% endtab %}{% tab Second tab %}md{% endtab %}{% endtabgroup %}'
     expected = '
-      <div>
+      <div class="mt-4">
         <ul class="nav nav-tabs" role="tablist">
           <li class="nav-item" role="presentation">
             <a href="#tab-id-first-tab" class="nav-link active" role="tab" data-bs-toggle="tab">First tab</a>
@@ -74,7 +74,7 @@ class TestTabs < Testbase
     # Fixture
     tag = '{% tabgroup %}{% tab Same name %}md{% endtab %}{% endtabgroup %}{% tabgroup %}{% tab Same name %}md{% endtab %}{% endtabgroup %}'
     expected = '
-      <div>
+      <div class="mt-4">
         <ul class="nav nav-tabs" role="tablist">
           <li class="nav-item" role="presentation">
             <a href="#tab-id-same-name" class="nav-link active" role="tab" data-bs-toggle="tab">Same name</a>
@@ -84,7 +84,7 @@ class TestTabs < Testbase
           <div role="tabpanel" class="tab-pane fade show active" id="tab-id-same-name">converted md</div>
         </div>
       </div>
-      <div>
+      <div class="mt-4">
         <ul class="nav nav-tabs" role="tablist">
           <li class="nav-item" role="presentation">
             <a href="#tab-id-same-name-1" class="nav-link active" role="tab" data-bs-toggle="tab">Same name</a>
