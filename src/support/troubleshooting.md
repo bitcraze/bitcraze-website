@@ -10,7 +10,7 @@ redirects:
 {% endsi_intro %}
 
 {% si_step Update to latest cfclient %}
-Follow this guide to update to the [latest cfclient.](/documentation/repository/crazyflie-clients-python/master/installation/install/#installation)
+Follow this guide to update to the [latest cfclient.](/documentation/repository/crazyflie-clients-python/master/installation/install/#installation-methods)
 {% endsi_step %}
 
 {% si_step Update to latest firmware %}

@@ -1,5 +1,3 @@
-@use 'sass:math' as math;
-@use 'sass:color' as color;
 
 .front-page {
   position: relative;
@@ -10,8 +8,8 @@
 
   // Vertical dashed line x-positions, anchored to the content boundary.
   // $site-width / 2 = the content edge; outer adds 100px margin beyond it.
-  $vline-content-edge: math.div($site-width, 2);
-  $vline-outer-offset: math.div($site-width, 2) + 100px;
+  $vline-content-edge: ($site-width / 2);
+  $vline-outer-offset: ($site-width / 2) + 100px;
 
   @media (min-width: $screen-md-min) {
     &::before {
@@ -236,8 +234,8 @@
     border-width: 2px;
     &:hover, &:focus {
       color: white;
-      background-color: color.adjust($bcGreen, $lightness: -10%);
-      border-color: color.adjust($bcGreen, $lightness: -10%);
+      background-color: darken($bcGreen, 10%);
+      border-color: darken($bcGreen, 10%);
     }
   }
 
@@ -247,9 +245,9 @@
     border-color: $bcGreen;
     border-width: 2px;
     &:hover, &:focus {
-      color: color.adjust($bcGreen, $lightness: -10%);
-      background-color: color.adjust(white, $lightness: -10%);
-      border-color: color.adjust($bcGreen, $lightness: -10%);
+      color: darken($bcGreen, 10%);
+      background-color: darken(white, 10%);
+      border-color: darken($bcGreen, 10%);
     }
   }
 

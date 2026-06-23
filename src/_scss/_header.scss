@@ -1,4 +1,3 @@
-@use 'sass:color' as color;
 
 .content-header,
 .content-header-fluid {
@@ -53,7 +52,7 @@ header.content-header {
       text-decoration: none;
 
       &:hover {
-        color: color.adjust($bcGreen, $lightness: 10%);
+        color: lighten($bcGreen, 10%);
         text-decoration: underline;
       }
     }

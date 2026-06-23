@@ -1,4 +1,3 @@
-@use 'sass:color' as color;
 
 // All pages
 .content-area {
@@ -63,7 +62,7 @@
     }
 
     a {
-        color: color.adjust($bcGreen, $lightness: -20%);
+        color: darken($bcGreen, 20%);
         text-decoration: underline;
         text-underline-offset: 2px;
 

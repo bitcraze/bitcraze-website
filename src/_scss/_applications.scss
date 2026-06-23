@@ -1,4 +1,3 @@
-@use 'sass:color' as color;
 
 // Application landing page
 
@@ -337,7 +336,7 @@
       font-weight: 700;
       text-decoration: none;
 
-      &:hover { color: color.adjust($bcGreen, $lightness: -10%); text-decoration: underline; }
+      &:hover { color: darken($bcGreen, 10%); text-decoration: underline; }
     }
 
     .app-paper-card-list {
