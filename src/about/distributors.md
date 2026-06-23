@@ -4,6 +4,7 @@ title: Distributors
 page_id: distributors
 redirects:
   - /distributors/
+  - /buy-local-retailers/
 ---
 
 {% continent World Wide %}
