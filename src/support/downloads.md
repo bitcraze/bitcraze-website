@@ -8,7 +8,7 @@ redirects:
 
 ## Crazyflie<sup>®</sup> stand-alone Python client
 
-Follow [the installation instructions](/documentation/repository/crazyflie-clients-python/master/installation/install/#installation-methods) for the latest release.
+Follow [the installation instructions](/documentation/repository/crazyflie-clients-python/master/installation/install/) for the latest release.
 
 ## Crazyflie mobile clients
 
