@@ -28,7 +28,7 @@ You are responsible for handling the drone and its components. It is your respon
 {% si_intro Assembly %}
 
 
-Make sure to follow the instructions below for assembling your Crazyflie 2.1 Brushless.
+Make sure to follow the instructions below for assembling your Crazyflie<sup>®</sup> 2.1 Brushless.
 {% endsi_intro %}
 
 {% si_step Unpacking the Crazyflie %}

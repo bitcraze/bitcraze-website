@@ -4,12 +4,10 @@ title: Tutorials
 page_id: tutorials
 ---
 
-## Set up the Crazyflie
+## Set up the Crazyflie<sup>®</sup>
 
 * {% id_link getting-started-crazyflie-2 %}
 * {% id_link getting-started-crazyflie-brushless %}
-* {% id_link balancing-propellers %}
-* {% id_link pid-tuning-guide %}
 
 ## Expansion decks
 
@@ -39,6 +37,7 @@ page_id: tutorials
 ## Software
 
 * {% id_link getting-started-with-simulation %}
+* {% id_link pid-tuning-guide %}
 * Step-by-step guides crazyflie python library:
   * [Connecting, Logging and parameters](/documentation/repository/crazyflie-lib-python/master/user-guides/sbs_connect_log_param/)
   * [Motion commander](/documentation/repository/crazyflie-lib-python/master/user-guides/sbs_motion_commander/)
@@ -51,6 +50,7 @@ page_id: tutorials
 
 ## Old tutorials
 
+* {% id_link balancing-propellers %}
 * {% id_link getting-started-crazyflie %}
 * {% id_link taranis-controller %}
 * {% id_link betaflight %}

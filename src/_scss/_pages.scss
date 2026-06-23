@@ -1,14 +1,98 @@
+
 // All pages
 .content-area {
     padding-top: $content-area-padding-top;
     padding-bottom: $content-area-padding-bottom;
+    font-size: 1.05rem;
+    line-height: 1.75;
+
     // Make sure images and video are not wider than the page
     img {
         max-width: 100%;
         height: auto;
     }
-    li {
-        padding-bottom: 7px;
+
+    p {
+        line-height: 1.75;
+        margin-bottom: 1.25rem;
+    }
+
+    h1 {
+        font-size: 2rem;
+        font-weight: 600;
+        color: $bcDarkGreen;
+        margin-top: 0;
+        margin-bottom: 1.25rem;
+
+        @media (min-width: $screen-md-min) {
+            font-size: 2.4rem;
+        }
+    }
+
+    h2 {
+        font-size: 1.5rem;
+        font-weight: 600;
+        color: $bcDarkGreen;
+        margin-top: 2.75rem;
+        margin-bottom: 0.9rem;
+
+        @media (min-width: $screen-md-min) {
+            font-size: 1.75rem;
+        }
+    }
+
+    h3 {
+        font-size: 1.15rem;
+        font-weight: 500;
+        color: $bcDarkGreen;
+        margin-top: 2rem;
+        margin-bottom: 0.6rem;
+
+        @media (min-width: $screen-md-min) {
+            font-size: 1.25rem;
+        }
+    }
+
+    h4 {
+        font-size: 1rem;
+        font-weight: 400;
+        color: $bcDarkGreen;
+        margin-top: 1.5rem;
+        margin-bottom: 0.5rem;
+    }
+
+    a {
+        color: darken($bcGreen, 20%);
+        text-decoration: underline;
+        text-underline-offset: 2px;
+
+        &:hover {
+            color: $bcDarkGreen;
+        }
+    }
+
+    ul, ol {
+        padding-left: 1.5rem;
+
+        li {
+            margin-bottom: 0.4rem;
+            line-height: 1.7;
+            padding-bottom: 0;
+        }
+    }
+
+    blockquote {
+        border-left: 4px solid $bcGreen;
+        padding: 0.75rem 1.25rem;
+        background: $bcLighterGrey;
+        border-radius: 0 8px 8px 0;
+        margin: 1.5rem 0;
+        font-style: italic;
+    }
+
+    hr {
+        border-top: 1px solid $bcLightGrey;
+        margin: 2.5rem 0;
     }
 }
 
@@ -63,26 +147,38 @@
 }
 
 .img-circle-border {
-    @extend .img-circle;
+    @extend .rounded-circle;
     border: 6px solid $bcGreen;
 }
 
 .video-item-delayed-load {
-  background-size: 100%!important;
-  background-position: center!important;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  background-position: center;
   text-align: center;
   cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 
   i {
     color: white;
-    top: 39%;
-    position: relative;
   }
 }
 
 table {
     @extend .table;
     @extend .table-bordered;
+}
+
+.content-area table {
+    display: block;
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
 }
 
 .collapse-section {
@@ -104,14 +200,29 @@ table {
 }
 
 // Team member
+.content-card {
+    background: rgba($bcGreen, 0.08);
+    border-radius: 16px;
+    padding: 1.5rem;
+    margin-bottom: 1.5rem;
+
+    > :first-child { margin-top: 0; }
+    > :last-child { margin-bottom: 0; }
+}
+
+.team-card {
+    @extend .content-card;
+}
+
 .team {
-    margin-bottom: 50px;
-    h2 {
+    margin-bottom: 0;
+    h3 {
         margin-top: 0px;
     }
     img {
         padding-top: 6px;
         padding-bottom: 6px;
+        border-radius: 10px;
     }
 }
 
@@ -120,49 +231,98 @@ table {
     width: 100%;
 }
 
+// Contact page
+.contact-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1.25rem;
+    margin-bottom: 2rem;
+
+    @media (max-width: $screen-sm-max) {
+        grid-template-columns: 1fr;
+    }
+}
+
+.contact-card {
+    background: rgba($bcGreen, 0.1);
+    border-radius: 16px;
+    padding: 1.5rem 1.75rem;
+
+    .contact-card-icon {
+        font-size: 1.75rem;
+        color: $bcGreen;
+        margin-bottom: 0.5rem;
+    }
+
+    h3 {
+        margin-top: 0;
+        margin-bottom: 0.4rem;
+        font-size: 1.1rem;
+    }
+
+    p {
+        margin-bottom: 0.25rem;
+    }
+
+    .contact-hours {
+        color: $bcDarkGrey;
+        font-size: 0.9rem;
+        margin-top: 0.25rem;
+    }
+
+    address {
+        font-style: normal;
+        margin: 0;
+        line-height: 1.8;
+    }
+}
+
 // Page - Product
 .page-product {
     padding-bottom: 20px;
+
+    // On mobile: shrink the highlight icons and give the product image more room
+    @media (max-width: 767px) {
+        .bc-fa-fw {
+            font-size: 1.2rem;
+        }
+
+        // Tab section icons (fa-5x hardcoded in plugin)
+        .fa-5x {
+            font-size: 2rem;
+        }
+    }
+
     .pp-main-image-base {
         margin-bottom: 10px;
         width: 100%;
     }
     .pp-main-image-narrow {
         @extend .pp-main-image-base;
-        @media (min-width: $screen-xs-min) {
+        @media (min-width: $screen-md-min) {
             width: 20%;
             margin-left: 40%;
         }
     }
     .pp-main-image-medium {
         @extend .pp-main-image-base;
-        @media (min-width: $screen-xs-min) {
+        @media (min-width: $screen-md-min) {
             width: 50%;
             margin-left: 25%;
         }
     }
     .pp-main-image-wide {
         @extend .pp-main-image-base;
-        width: 80%;
-        margin-left: 10%;
+        @media (min-width: $screen-md-min) {
+            width: 80%;
+            margin-left: 10%;
+        }
     }
     .pp-catch-phrase {
         @extend h4;
     }
-    button {
-        font-size: 20px;
-        font-weight: bold;
-        margin-top: 10px;
-        margin-bottom: 10px;
-        a {
-            color: white;
-        }
-        i {
-            padding-right: 30px;
-        }
-    }
     .carousel {
-        margin-bottom: 30px
+        margin-bottom: 30px;
     }
     .carousel-control {
         background-image: initial;
@@ -188,11 +348,6 @@ table {
         width: 1.5em;
         text-align: center;
     }
-}
-
-// Modifier class for 1:1 aspect ratio
-.embed-responsive-1by1 {
-    padding-bottom: 100%;
 }
 
 // Distributors
@@ -241,8 +396,13 @@ h2:hover {
     }
 
     h2 {
-        font-size: 200%;
-        font-weight: 500;
+        font-size: 1.5rem;
+        font-weight: 600;
+        scroll-margin-top: 70px;
+
+        @media (min-width: $screen-md-min) {
+            font-size: 1.75rem;
+        }
     }
 
 }
@@ -257,6 +417,7 @@ h2:hover {
         font-size: 150%;
         border-width: 0 0 1px 0;
         border-style: solid;
+        scroll-margin-top: 70px;
     }
 }
 
@@ -295,12 +456,6 @@ h2:hover {
 
 .font-awesome-color i {
     color:blue;
-}
-
-// portals
-
-.portal-img {
-  padding-right: 10%;
 }
 
 // Breadcrumbs
@@ -354,4 +509,12 @@ h2:hover {
 // KaTex
 .katex-display>.katex {
     text-align: left;
+}
+
+// Page - Fulltext extra padding
+.page-fulltext {
+  #primary {
+    padding-top: 2.5rem;
+    padding-bottom: 3rem;
+  }
 }

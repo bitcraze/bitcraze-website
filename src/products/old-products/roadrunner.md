@@ -26,7 +26,7 @@ Enabling robotics and equipment to be integrated with the Loco positioning syste
 
 Using the Roadrunner you can enable other robots and equipment to be integrated
 with the Loco positioning system. The Roadrunner uses the same firmware-base
-as the Crazyflie and will merge UWB measurements together with the IMU data to
+as the Crazyflie<sup>®</sup> and will merge UWB measurements together with the IMU data to
 get better positioning precision.
 
 Using the Loco positioning system you will get the position directly in the

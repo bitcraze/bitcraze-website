@@ -11,7 +11,7 @@ redirects:
 {% img The Lighthouse Positioning System; medium; /images/documentation/overview/lighthouse.png %}
 
 The lighthouse positioning system is an optically-based positioning system that allows an object to locate itself with high precision indoors. The system allows to get a precision of tracking approaching what can be achieved with a Motion Capture system, but for a much lower cost and with the advantage that the position is acquired onboard the tracked device rather than in the infrastructure.
-For a flying robot like the Crazyflie, this means that the position information is directly available for autonomous flight without requiring low latency reliable transport of the position over radio.
+For a flying robot like the Crazyflie<sup>®</sup>, this means that the position information is directly available for autonomous flight without requiring low latency reliable transport of the position over radio.
 {% endrow_full %}
 
 ---

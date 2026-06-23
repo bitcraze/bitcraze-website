@@ -25,7 +25,7 @@ page_id: mail-signup
 <div class="mc-field-group input-group">
     <strong>Interests </strong>
     <ul><li><input type="checkbox" value="4" name="group[5053][4]" id="mce-group[5053]-5053-0"><label for="mce-group[5053]-5053-0">Bitcraze general</label></li>
-<li><input type="checkbox" value="1" name="group[5053][1]" id="mce-group[5053]-5053-1"><label for="mce-group[5053]-5053-1">Crazyflie quadcopter</label></li>
+<li><input type="checkbox" value="1" name="group[5053][1]" id="mce-group[5053]-5053-1"><label for="mce-group[5053]-5053-1">Crazyflie<sup>®</sup> quadcopter</label></li>
 <li><input type="checkbox" value="2" name="group[5053][2]" id="mce-group[5053]-5053-2"><label for="mce-group[5053]-5053-2">Loco Positioning</label></li>
 <li><input type="checkbox" value="8" name="group[5053][8]" id="mce-group[5053]-5053-3"><label for="mce-group[5053]-5053-3">Crazyradio</label></li>
 </ul>

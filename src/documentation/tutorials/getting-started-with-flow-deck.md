@@ -7,7 +7,7 @@ redirects:
 ---
 
 {% si_intro The Flow deck %}
-The {% poplink flow-deck %} gives the Crazyflie 2.x the ability to understand when it is moving in any direction.
+The {% poplink flow-deck %} gives the Crazyflie<sup>®</sup> 2.x the ability to understand when it is moving in any direction.
 With the Flow deck the Crazyflie 2.x is able to hover and act as an aid for beginners where it creates a very stable flying platform.
 
 For more information about how to mount an expansion deck please see the {% id_link getting-started-expansion-decks %} tutorial.

@@ -11,7 +11,7 @@ firstScriptTag.parentNode.insertBefore(tag, firstScriptTag);
 
 var kraken = {
   loadYoutubeVideo: function(element) {
-    var id = $(element).attr('data-video-id');
+    var id = element.getAttribute('data-video-id');
 
     dataLayer.push({
       'video-id': id,
@@ -22,50 +22,6 @@ var kraken = {
       videoId: id,
       playerVars: { 'autoplay': 1}
     });
-  },
-
-  scrollToNextScrollPoint: function() {
-    var scrollPoints = $('.scroll-point');
-    var firstVisible = kraken.findTopMostVisibleElement(scrollPoints);
-
-    if (firstVisible != null) {
-      kraken.scrollToElement(scrollPoints[firstVisible]);
-    }
-  },
-
-  findTopMostVisibleElement: function(elements) {
-    var firstVisible = null;
-
-    for(var i = 0; i < elements.length; i++) {
-      var rect = elements[i].getBoundingClientRect();
-      if(rect.top > 0) {
-        firstVisible = i;
-        break;
-      }
-    }
-
-    return firstVisible;
-  },
-
-  scrollToElement: function(element) {
-    element.scrollIntoView({
-      block: "start",
-      inline: "nearest",
-      behavior: 'smooth'
-    });
-  },
-
-  registerSectionScrollerSpy: function() {
-    window.addEventListener('scroll', kraken.scrollEventSectionScroller);
-  },
-
-  scrollEventSectionScroller: function(e) {
-    var rect = $('body')[0].getBoundingClientRect();
-    if (Math.abs(rect.bottom - $(window).height()) < 5) {
-      $('.section-scroller:visible').hide();
-    } else {
-      $('.section-scroller:hidden').show();
-    }
   },
 
   addLinksToTags: function(tag_type) {
@@ -96,10 +52,18 @@ var kraken = {
   updateTabs: function() {
     let targetId = window.location.hash.substring(1);
     if (targetId.startsWith('tab-id')) {
-      $('a[href=#' + targetId + ']').tab('show');
+      // Bootstrap 5 Tab API
+      var tabEl = document.querySelector('a[href="#' + targetId + '"]');
+      if (tabEl && typeof bootstrap !== 'undefined') {
+        var tab = new bootstrap.Tab(tabEl);
+        tab.show();
+      }
 
-      let topOfTabs = document.getElementById(targetId).parentElement.parentElement;
-      topOfTabs.scrollIntoView();
+      var tabContent = document.getElementById(targetId);
+      if (tabContent) {
+        var topOfTabs = tabContent.parentElement.parentElement;
+        topOfTabs.scrollIntoView();
+      }
     }
   },
 
@@ -168,3 +132,14 @@ window.addEventListener('click', kraken.poplinkCloseClickListener);
 window.addEventListener('keydown', kraken.poplinkCloseKeyListener);
 document.addEventListener("DOMContentLoaded", kraken.addLinksToHeaders);
 document.addEventListener("readystatechange", kraken.updateTabs);
+
+// Re-scroll to the hash after all images have loaded, since images loading
+// after DOMContentLoaded push content down and cause anchor targets to be missed.
+window.addEventListener('load', function() {
+  if (window.location.hash) {
+    var target = document.querySelector(window.location.hash);
+    if (target) {
+      target.scrollIntoView({ behavior: 'instant', block: 'start' });
+    }
+  }
+});

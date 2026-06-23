@@ -7,7 +7,7 @@ redirects:
 ---
 
 {% row_full %}
-The Crazyflie 2.x (as most other quadcopters and robots) has no real notion of
+The Crazyflie<sup>®</sup> 2.x (as most other quadcopters and robots) has no real notion of
 its position in space. The on board sensors (accelerometers and gyros) can be
 used to give a rough idea of its movements but lacks the accuracy for long term
 position awareness. The solution is to use an external system that can provide

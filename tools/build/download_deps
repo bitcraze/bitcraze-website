@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 set -e
 
-# Download Bootstrap and copy fonts and javascript into the src directory.
+# Download Bootstrap 5 and copy javascript into the src directory.
 
 echo "Downloading bootstrap..."
 
@@ -12,16 +12,23 @@ dstDir="${scriptDir}/../../src"
 bootstrap="${scriptDir}/../../bootstrap"
 mkdir -p ${bootstrap}
 
-downloadFile="bootsrap.tar.gz"
+downloadFile="bootstrap.tar.gz"
 if [ -e ${bootstrap}/${downloadFile} ]; then
-  echo "Bootsrap already downloaded"
+  echo "Bootstrap already downloaded"
 else
-  echo "Downloading bootsrap"
-  curl -L -o ${bootstrap}/${downloadFile} "https://github.com/twbs/bootstrap-sass/archive/v3.3.6.tar.gz"
+  echo "Downloading Bootstrap 5"
+  curl -L -o ${bootstrap}/${downloadFile} "https://github.com/twbs/bootstrap/archive/v5.3.3.tar.gz"
+  # Remove old bootstrap directory if it exists
+  if [ -d ${bootstrap}/bootstrap ]; then
+    echo "Removing old Bootstrap directory..."
+    rm -rf ${bootstrap}/bootstrap
+  fi
   tar zxf ${bootstrap}/${downloadFile} --directory ${bootstrap}
-  mv ${bootstrap}/bootstrap-sass-3.3.6 ${bootstrap}/bootstrap
+  mv ${bootstrap}/bootstrap-5.3.3 ${bootstrap}/bootstrap
 fi
 
-mkdir -p ${dstDir}
-cp -r ${bootstrap}/bootstrap/assets/fonts ${dstDir}
-cp -r ${bootstrap}/bootstrap/assets/javascripts ${dstDir}
+mkdir -p ${dstDir}/javascripts
+# Bootstrap 5 JS is in dist/js/
+cp ${bootstrap}/bootstrap/dist/js/bootstrap.bundle.min.js ${dstDir}/javascripts/
+cp ${bootstrap}/bootstrap/dist/js/bootstrap.bundle.min.js.map ${dstDir}/javascripts/
+# Note: Bootstrap 5 no longer includes Glyphicons fonts - use Bootstrap Icons or Font Awesome instead

@@ -4,423 +4,473 @@ title: Home
 page_id: home
 ---
 
-<div class="container-fluid front-top-banner">
+<!-- Top Banner Start -->
+<div class="container-fluid front-top-banner frontpage-section">
   <div class="with_flex row">
 
     <div class="header-wrapper">
       <div class="header_text">
-        <h1>Make your ideas fly!</h1>
-        <div class="header_buttons">
-          <a href="https://store.bitcraze.io/" class="btn btn-primary btn-block btn-color-primary">Shop</a>
-          <a href="/documentation/start/" class="btn btn-primary btn-block btn-color-secondary">Getting started</a>
-          <a href="https://github.com/bitcraze" class="mobile_hidden_button btn btn-primary btn-block btn-color-secondary">Github</a>
-        </div>
+        <h1>Build, Research, and Teach<br>
+        with the World's Most Flexible<br>
+        Open-Source <span class="highlight-green">Drone Platform</span>.</h1>
       </div>
 
-      <!--div class="announcements">
-        <a href="/about/events/roscon2024/">
-          <img src="/images/events/roscon2024/ROSCon2024.png" alt="ROSCon 2024">
-          <p>We are going to ROSCon on Oct 21-23! Come see us at Booth 21. >>></p>
+      <div class="header_image">
+        <a href="/products/crazyflie-2-1-brushless/">
+          <img src="/images/frontpage/front-cf-bl.png" alt="Crazyflie 2.1 Brushless">
         </a>
-      </div-->
-
-    </div>
-    <div class="header-col-wrapper">
-      <div class="what_we_do_arrow">
-        <a href="#what_we_do" class="smooth-link arrow-style"><i class="fa-solid fa-circle-arrow-down"></i></a>
       </div>
 
-      <div class="value_proposition">
-        <h3>We create open platforms that enable people to explore the world of flying robotics</h3>
+      <div class="header_buttons">
+        <a href="applications/applications-landing" class="btn btn-primary btn-color-primary">Explore Application Areas</a>
+        <a href="https://store.bitcraze.io/" class="btn btn-primary btn-color-secondary">Shop Drones & Kits</a>
       </div>
     </div>
   </div>
 </div>
+<!-- Top Banner End -->
 
-<!--Blog-->
-<div id="what_we_do" class="container-fluid blog-section scroll-point">
-  <div class="row center-section-header">
-    <div class="col-md-12 style-section-header">
-      <h2>
-      Latest from the blog
-      </h2>
-    </div>
-  </div>
+<!-- The Crazyflie Ecosystem Start -->
+<div class="container-fluid section section-spacing frontpage-section">
 
-  <div class="row">
-    <div class="col-md-4">
+  <div id="ecosystem-section" class="row what-we-do-section-padding section-content justify-content-center align-items-center">
+    <div class="col-md-5 col-lg-4">
+      <img src="/images/frontpage/front-ecosystem.png" alt="The Crazyflie Ecosystem" class="w-100">
     </div>
-    <div class="col-md-8 display-menu">
-      <div class="menu-blog-container">
-        <ul class="menu-blog">
-          <li class="menu-item"><a href="/blog/">All posts</a></li>
-          <li class="menu-item"><a href="/category/crazyflie/">Crazyflie</a></li>
-          <li class="menu-item"><a href="/category/loco-positioning/">Loco positioning</a></li>
-          <li class="menu-item"><a href="/category/guest-blogger/">Guest blogger</a></li>
-        </ul>
+    <a href="/documentation/system/" class="col-md-4 col-lg-3 ms-n5 text-block-box text-box_open_source">
+      <div class="header-text">
+        <h1>
+          The <span class="highlight-green">Crazyflie<sup>®</sup></span> <br> Ecosystem
+        </h1>
+        <p>
+          A modular, programmable, drone system that powers the future of robotics, from classrooms, to labs, to industry.
+        </p>
+        <p><b>Explore the Ecosystem <img src="/images/frontpage/front-arrow.png" alt="→" class="fp-arrow-img"></b></p>
       </div>
-    </div>
+    </a>
   </div>
 
-  <div class="row">
-    <div class="col-md-4 blog-container">
-      <!-- inject wp blog img 0 begin -->
-      <div class="aspect-ratio-contatiner">
-        <div class="aspect-ratio-inner">
-          <a class="flexbox-centering" href="#">
-            <img src="images/frontpage/ant-bridge_2302146k.png" alt="-">
-          </a>
+  <div id="one" class="row platform-section-bg what-we-do-section-padding section-content justify-content-center align-items-center">
+    <a href="/documentation/system/platform/" class="col-md-10 col-lg-8 d-flex align-items-center justify-content-center text-block-box text-box_platform">
+      <div class="col-md-4">
+        <img src="/images/frontpage/front-platform.webp" alt="Platform" class="w-100">
+      </div>
+      <div class="col-md-6 fp-section-text">
+        <h2>
+          Drones for <br> <span class="highlight-dark-green">Indoor</span> Flight
+        </h2>
+        <p>Purpose-built nano-drones for safe, precise, and repeatable indoor flight in research and development environments.
+        </p>
+        <p><b>Explore the Platform <img src="/images/frontpage/front-arrow-white.png" alt="→" class="fp-arrow-img"></b></p>
+      </div>
+    </a>
+  </div>
+
+  <div class="row what-we-do-section-padding section-content justify-content-center align-items-center">
+    <a href="/documentation/system/platform/cf2-expansiondecks/" class="col-md-10 col-lg-8 d-flex align-items-center justify-content-center text-block-box text-box_decks">
+      <div class="col-md-6 fp-section-text">
+        <h2>
+          <span class="highlight-green">Expansion</span> <br> Decks
+        </h2>
+        <p>Add sensors, compute, positioning, and communication to tailor the platform to your application.
+        </p>
+        <p><b>Explore All Decks <img src="/images/frontpage/front-arrow.png" alt="→" class="fp-arrow-img"></b></p>
+      </div>
+      <div class="col-md-4">
+        <img src="/images/frontpage/front-expansion.png" alt="Expansion Decks" class="w-100">
+      </div>
+    </a>
+  </div>
+
+  <div id="two" class="row positioning-section-bg what-we-do-section-padding section-content justify-content-center align-items-center">
+    <a href="/documentation/system/positioning/" class="col-md-10 col-lg-8 d-flex align-items-center justify-content-center text-block-box text-box_positioning">
+      <div class="col-md-4">
+        <img src="/images/frontpage/front-positioning.png" alt="Positioning Systems" class="w-100">
+      </div>
+      <div class="col-md-6 fp-section-text">
+        <h2>
+          <span class="highlight-green">Positioning</span> <br> Systems
+        </h2>
+        <p>Precise indoor localization using laser, ultra-wideband (UWB), and vision-based systems for single drones and swarms.
+        </p>
+        <p><b>Explore Positioning Systems <img src="/images/frontpage/front-arrow.png" alt="→" class="fp-arrow-img"></b></p>
+      </div>
+    </a>
+  </div>
+
+  <div class="row what-we-do-section-padding section-content justify-content-center align-items-center">
+    <a href="/documentation/repository/" class="col-md-10 col-lg-8 d-flex align-items-center justify-content-center text-block-box text-box_decks">
+      <div class="col-md-6 fp-section-text">
+        <h2>
+          <span class="highlight-green">Open Source</span> <br> Software and Tools
+        </h2>
+        <p>Firmware, SDKs, simulators, and tooling for developing, testing, and deploying autonomous and swarm systems.
+        </p>
+        <p><b>Explore Software & Tools <img src="/images/frontpage/front-arrow.png" alt="→" class="fp-arrow-img"></b></p>
+      </div>
+      <div class="col-md-4">
+        <img src="/images/frontpage/front-open-source.png" alt="Open Source" class="w-100">
+      </div>
+    </a>
+  </div>
+</div>
+<!-- The Crazyflie Ecosystem End -->
+
+<!-- Value Props Start -->
+<div class="container-fluid value-props-banner">
+  <div class="row justify-content-center">
+    <div class="col-md-10 col-lg-8">
+      <div class="row g-4">
+        <div class="col-6 col-md-3">
+        <div id="three">
+          <div class="value-prop-card">
+            <div class="card-icon">
+              <i class="fa-solid fa-lock-open"></i>
+            </div>
+            <h3>Open-Source<br>Tools</h3>
+          </div>
+          </div>
+        </div>
+        <div class="col-6 col-md-3">
+          <div id="four">
+          <div class="value-prop-card">
+            <div class="card-icon">
+              <i class="fa-solid fa-play"></i>
+            </div>
+            <h3>Publishable<br>Results</h3>
+          </div>
+          </div>
+        </div>
+        <div class="col-6 col-md-3">
+          <div id="five">
+          <div class="value-prop-card">
+            <div class="card-icon">
+              <i class="fa-solid fa-lightbulb"></i>
+            </div>
+            <h3>Innovate on<br>Any Level</h3>
+          </div>
+          </div>
+        </div>
+        <div class="col-6 col-md-3">
+          <div id="six">
+          <div class="value-prop-card">
+            <div class="card-icon">
+              <i class="fa-solid fa-coins"></i>
+            </div>
+            <h3>Funding-Grade<br>Reliability</h3>
+          </div>
+          </div>
         </div>
       </div>
-      <h3 class="blog-title">
-        <a href="#">Placeholder post 1</a>
-      </h3>
+    </div>
+  </div>
+  <div id="filler"></div>
+</div>
+<!-- Value Props End -->
+
+<!-- Research Areas and Applications Start -->
+<div class="container appl-cards-section appl-cards-section--no-divider appl-cards-section--grid">
+  <div class="row justify-content-center">
+    <div class="col-md-6 text-center mb-4">
+      <h2><span class="highlight-green">Applications</span> and<br>Research Areas</h2>
+      <p>How researchers, educators, and engineers are using<br>the Crazyflie to explore autonomy, swarms, and indoor<br>flight — from labs to early industrial prototypes.</p>
+    </div>
+  </div>
+  <div class="appl-cards-grid">
+    <div class="appl-card appl-card--swarm">
+      <div class="appl-card-img-wrap">
+        <img src="/images/applications/appl-card-swarm.jpg" alt="Swarm Robotics">
+      </div>
+      <div class="appl-card-header">
+        <i class="fa-solid fa-circle-nodes appl-card-icon"></i>
+        <h3>Swarm<br>Robotics</h3>
+        <a href="/applications/swarm-robotics/" class="btn appl-card-btn">Discover more →</a>
+      </div>
+    </div>
+    <div class="appl-card appl-card--hri">
+      <div class="appl-card-img-wrap">
+        <img src="/images/applications/appl-card-hri.jpg" alt="Human-Robot Interaction">
+      </div>
+      <div class="appl-card-header">
+        <i class="fa-solid fa-people-arrows appl-card-icon"></i>
+        <h3>Human–Robot Interaction &amp; Education</h3>
+        <a href="/applications/human-robot-interaction/" class="btn appl-card-btn">Discover more →</a>
+      </div>
+    </div>
+    <div class="appl-card appl-card--stem">
+      <div class="appl-card-img-wrap">
+        <img src="/images/applications/appl-card-stem.jpg" alt="STEM and Higher Education">
+      </div>
+      <div class="appl-card-header">
+        <i class="fa-solid fa-graduation-cap appl-card-icon"></i>
+        <h3>STEM and Higher Education</h3>
+        <a href="/applications/stem-education/" class="btn appl-card-btn">Discover more →</a>
+      </div>
+    </div>
+    <div class="appl-card appl-card--autosys">
+      <div class="appl-card-img-wrap">
+        <img src="/images/applications/appl-card-auto.jpg" alt="Autonomous Systems">
+      </div>
+      <div class="appl-card-header">
+        <i class="fa-solid fa-robot appl-card-icon"></i>
+        <h3>Autonomous<br>Systems</h3>
+        <a href="/applications/autonomous-systems/" class="btn appl-card-btn">Discover more →</a>
+      </div>
+    </div>
+    <div class="appl-card appl-card--percept">
+      <div class="appl-card-img-wrap">
+        <img src="/images/applications/appl-card-perc-nav.jpg" alt="Perception and Navigation">
+      </div>
+      <div class="appl-card-header">
+        <i class="fa-solid fa-compass appl-card-icon"></i>
+        <h3>Perception &amp; Navigation</h3>
+        <a href="/applications/perception-navigation/" class="btn appl-card-btn">Discover more →</a>
+      </div>
+    </div>
+    <div class="appl-card appl-card--aerial">
+      <div class="appl-card-img-wrap">
+        <img src="/images/applications/appl-card-aerial.jpg" alt="Aerial Manipulation">
+      </div>
+      <div class="appl-card-header">
+        <i class="fa-solid fa-hand appl-card-icon"></i>
+        <h3>Aerial<br>Manipulation</h3>
+        <a href="/applications/aerial-manipulation/" class="btn appl-card-btn">Discover more →</a>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- Research Areas and Applications End -->
+
+<!-- Blog Section Start -->
+<div class="container blog-section">
+  <h2 class="blog-heading">The latest from the Bitcraze <span class="highlight-green">Blog</span></h2>
+  <div class="row g-4">
+    <div class="col-12 col-md-4">
+      <!-- inject wp blog img 0 begin -->
+      <a href="#" class="blog-card">
+        <div class="blog-img-wrap">
+          <img src="/images/frontpage/ant-bridge_2302146k.png" alt="Blog post">
+        </div>
+        <div class="blog-tags">
+          <span class="blog-tag">Category 1</span>
+          <span class="blog-tag">Category 2</span>
+        </div>
+        <h3 class="blog-title">Blog Post Title 1</h3>
+        <p class="blog-excerpt">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua...</p>
+      </a>
       <!-- inject wp blog img 0 end -->
     </div>
-
-    <div class="col-md-4 blog-container display-blog">
+    <div class="col-12 col-md-4">
       <!-- inject wp blog img 1 begin -->
-      <div class="aspect-ratio-contatiner">
-        <div class="aspect-ratio-inner">
-        <a class="flexbox-centering" href="#">
-          <img src="images/frontpage/ant-bridge-narrow.png" alt="-">
-        </a>
+      <a href="#" class="blog-card">
+        <div class="blog-img-wrap">
+          <img src="/images/frontpage/ant-bridge-narrow.png" alt="Blog post">
         </div>
-      </div>
-      <h3 class="blog-title">
-        <a href="#">Placeholder post 2</a>
-      </h3>
+        <div class="blog-tags">
+          <span class="blog-tag">Category 1</span>
+          <span class="blog-tag">Category 2</span>
+        </div>
+        <h3 class="blog-title">Blog Post Title 2</h3>
+        <p class="blog-excerpt">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua...</p>
+      </a>
       <!-- inject wp blog img 1 end -->
     </div>
-
-    <div class="col-md-4 blog-container display-blog">
+    <div class="col-12 col-md-4">
       <!-- inject wp blog img 2 begin -->
-      <div class="aspect-ratio-contatiner">
-        <div class="aspect-ratio-inner">
-          <a class="flexbox-centering" href="#">
-            <img src="images/frontpage/ant-bridge-wide.png" alt="-">
-          </a>
+      <a href="#" class="blog-card">
+        <div class="blog-img-wrap">
+          <img src="/images/frontpage/ant-bridge-wide.png" alt="Blog post">
         </div>
-      </div>
-      <h3 class="blog-title">
-        <a href="#">Placeholder post 3</a>
-      </h3>
+        <div class="blog-tags">
+          <span class="blog-tag">Category 3</span>
+        </div>
+        <h3 class="blog-title">Blog Post Title 3</h3>
+        <p class="blog-excerpt">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua...</p>
+      </a>
       <!-- inject wp blog img 2 end -->
     </div>
   </div>
+</div>
+<!-- Blog Section End -->
 
-  <div class="row">
-    <div class="col-md-4 display-menu-2">
-      <div>
-        <h2>
-          <a href="/blog/">All posts</a>
-        </h2>
+<!-- Customers Start -->
+<div class="container customer-section">
+  <div class="row justify-content-center">
+    <div class="col-md-6 text-center mb-4">
+      <h2>Trusted by<span class="highlight-green"> Researchers</span> <br>Worldwide</h2>
+      <p>Used by universities and research labs worldwide for swarm robotics, autonomous flight, and indoor positioning research.</p>
+    </div>
+  </div>
+  <div class="row g-3 justify-content-center mb-3">
+    <div class="col-4 col-md-auto"><a href="https://www.cmu.edu/" class="customer-logo-box"><img src="/images/logos/carnegie-mellon-logo.png" alt="Carnegie Mellon University"></a></div>
+    <div class="col-4 col-md-auto"><a href="https://www.chalmers.se/en/" class="customer-logo-box"><img src="/images/logos/chalmers-logo.png" alt="Chalmers University of Technology"></a></div>
+    <div class="col-4 col-md-auto"><a href="https://ethz.ch/en.html" class="customer-logo-box"><img src="/images/logos/eth-logo.png" alt="ETH Zurich"></a></div>
+  </div>
+  <div class="row g-3 justify-content-center mb-3">
+    <div class="col-4 col-md-auto"><a href="https://www.lth.se/english" class="customer-logo-box"><img src="/images/logos/lund-logo.png" alt="Lund University"></a></div>
+    <div class="col-4 col-md-auto"><a href="https://idsia.usi-supsi.ch/" class="customer-logo-box"><img src="/images/logos/idsia-logo.jpg" alt="IDSIA/SUPSI"></a></div>
+    <div class="col-4 col-md-auto"><a href="https://www.dlsu.edu.ph/" class="customer-logo-box"><img src="/images/logos/dlsu-logo.png" alt="De La Salle University"></a></div>
+  </div>
+  <div class="row g-3 justify-content-center mb-3">
+    <div class="col-4 col-md-auto"><a href="https://nus.edu.sg/" class="customer-logo-box"><img src="/images/logos/nus-logo.png" alt="National University of Singapore"></a></div>
+    <div class="col-4 col-md-auto"><a href="https://www.tii.ae/" class="customer-logo-box"><img src="/images/logos/tii-logo.png" alt="Technology Innovation Institute"></a></div>
+    <div class="col-4 col-md-auto"><a href="https://www.tudelft.nl/en/" class="customer-logo-box"><img src="/images/logos/tudelft-logo.png" alt="TU Delft"></a></div>
+  </div>
+</div>
+<!-- Customers End -->
+
+<!-- Testimonials Start -->
+<div class="container-fluid testimonial-section px-0">
+  <div class="testimonial-content">
+      <h2>Voices From the <span class="highlight-green">Community</span></h2>
+      <div class="row g-3 justify-content-center">
+        <div class="col-6 col-md-4">
+          <a class="testimonial-card" href="/2023/11/adaptive-cooperative-flight-for-transportation-using-crazyflies/" style="background-image: url('/images/testimonials/dimitrios-testimonial.png')">
+            <div class="testimonial-overlay">
+              <blockquote>"It quickly turned out that the Crazyflies, with their small size, open-source firmware, ROS compatibility, and, as we happily found out after hours upon hours of crashes, amazing durability, would be the perfect platform to test our controllers."</blockquote>
+              <cite>Dimitrios Chaikalis, New York University</cite>
+            </div>
+          </a>
+        </div>
+        <div class="col-6 col-md-4">
+          <a class="testimonial-card" href="/2023/10/tired-of-crashing-use-open-gimbal/" style="background-image: url('/images/testimonials/gimbal-testimonial.jpg')">
+            <div class="testimonial-overlay">
+              <blockquote>"Crazyflies (and other drones in this weight class) are extremely fun to fly and prototype with!"</blockquote>
+              <cite>Suryansh Sharma, TU Delft</cite>
+            </div>
+          </a>
+        </div>
+        <div class="col-6 col-md-4">
+          <a class="testimonial-card" href="/2023/07/high-school-students-learn-about-electrical-engineering-with-the-crazyflie/" style="background-image: url('/images/testimonials/hanna-testimonial.jpg')">
+            <div class="testimonial-overlay">
+              <blockquote>"With those [Crazyflies] we had many possibilities to learn about electrical engineering – from sensors, microcontrollers, timers, and motors to LEDs, batteries, embedded systems, FreeRTOS tasks, state estimation, and controller – and all this with a high fun potential and a low risk of accidents, as with their weight of only 30g they hardly ever do any damage."</blockquote>
+              <cite>Hanna Müller, ETH Zürich</cite>
+            </div>
+          </a>
+        </div>
+        <div class="col-6 col-md-4">
+          <a class="testimonial-card" href="/2021/07/sniffy-bug-a-fully-autonomous-swarm-of-gas-seeking-nano-quadcopters-in-cluttered-environments/" style="background-image: url('/images/testimonials/mavlab-testimonial.png')">
+            <div class="testimonial-overlay">
+              <blockquote>"Drones like the Crazyflie are ideal for such tasks, since they are small enough to navigate in narrow spaces, safe, agile, and very inexpensive."</blockquote>
+              <cite>Bart Duisterhof & Prof. Guido de Croon, TU Delft MAVLab</cite>
+            </div>
+          </a>
+        </div>
+        <div class="col-6 col-md-4">
+          <a class="testimonial-card" href="/2024/07/bringing-model-predictive-control-to-the-crazyflie-with-tinympc/" style="background-image: url('/images/testimonials/tinympc-testimonial.png')">
+            <div class="testimonial-overlay">
+              <blockquote>"When it came time for hardware experiments, using the Crazyflie just made sense. A tiny solver deserves a tiny robot."</blockquote>
+              <cite>Sam Schoedel & Khai Nguyen, Carnegie Mellon University / TinyMPC</cite>
+            </div>
+          </a>
+        </div>
+      </div>
+  </div>
+  <img src="/images/frontpage/heart-flight.png" alt="Crazyflie heart flight" class="testimonial-heart-img">
+</div>
+<!-- Testimonials End -->
+
+<!-- Video Slogan Section Start -->
+<div class="container-fluid px-0 video-slogan-section">
+  <div class="video-slogan-inner video-style video-no-controls">
+    <video autoplay muted loop>
+      <source src="/videos/front-hover.mp4" type="video/mp4">
+    </video>
+    <div class="video-slogan-overlay">
+      <div class="container">
+        <h2>Let your <span class="highlight-green">ideas</span><br>take flight.</h2>
+        <p>Get started with your own Crazyflie today.</p>
+        <div class="video-slogan-buttons">
+          <a href="applications/applications-landing" class="btn btn-primary btn-color-primary">Explore Application Areas</a>
+          <a href="https://store.bitcraze.io/" class="btn btn-primary btn-color-secondary">Shop Drones & Kits</a>
+        </div>
       </div>
     </div>
   </div>
 </div>
+<!-- Video Slogan Section End -->
 
+<!-- JS Scripts Start -->
+  <script>
+    ['one', 'two', 'three', 'four', 'five', 'six'].forEach(function(id) {
+      const el = document.getElementById(id);
+      if (el) {
+        el.style.opacity = '0';
+        el.style.transition = 'opacity 1.0s ease';
+      }
+    });
 
-<!-- Product news -->
-<div class="container-fluid  section section-spacing">
-  <div class="row center-section-header">
-    <div class="col-md-12 style-section-header">
-      <h2>
-      Product news
-      </h2>
-    </div>
-  </div>
+    const triggered = new Set();
+    window.addEventListener('scroll', function() {
+      ['one', 'two', 'three', 'four', 'five', 'six'].forEach(function(id, i) {
+        if (triggered.has(id)) return;
+        const el = document.getElementById(id);
+        if (!el) return;
+        const rect = el.getBoundingClientRect();
+        if (rect.top < window.innerHeight * 0.85) {
+          triggered.add(id);
+          setTimeout(function() {
+            el.style.opacity = '1';
+          }, i * 200);
+        }
+      });
+    });
+  </script>
 
-  <div class="row section-content">
-    <a href="{% id_url product-crazyflie-2-1-brushless %}">
-      <div class="col-md-4 col-md-push-8 text-block-box text-box-product-news">
-        <h3>
-        The Crazyflie 2.1 Brushless is here!
-        </h3>
-          <p>Introducing the Crazyflie 2.1 Brushless,  the latest advancement in the Crazyflie series. Powerful and resilient, the Crazyflie 2.1 Brushless offers stability, flexibility and endurance. Our latest drone model comes equipped with brushless motors, offering higher payload capabilites, enhanced agility, and improved robustness.
-         </p>
-         <p><b>Read more >>></b></p>
-      </div>
-      <div class="col-md-8 col-md-pull-4 no-padding">
-        <img src="images/crazyflie2-1brushless/brushless_585px.jpg" alt="Crazyflie 2.1 Brushless">
-      </div>
-    </a>
-  </div>
-</div>
+  <script>
+    // Anchors decorative lines to specific DOM elements so their
+    // position and length stay consistent regardless of screen size.
+    (function () {
+      function updateFrontPageLines() {
+        const fp     = document.querySelector('.front-page');
+        const banner = document.querySelector('.front-top-banner');
+        if (!fp || !banner) return;
 
-<!-- What we do -->
-<div class="container-fluid section section-spacing">
-  <div class="row center-section-header">
-    <div class="col-md-12 style-section-header">
-      <h2>
-      What we do
-      </h2>
-    </div>
-  </div>
+        const sy = window.scrollY || window.pageYOffset || 0;
+        const top = el => el.getBoundingClientRect().top    + sy;
+        const bot = el => el.getBoundingClientRect().bottom + sy;
 
-  <div class="row what-we-do-section-padding section-content">
-    <a href="/documentation/system/platform/">
-      <div class="col-md-4 text-block-box text-box_quadcopter">
-        <h3>
-        Quadcopters
-        </h3>
-          <p>We develop and manufacture the Crazyflie, a small, versatile quadcopter
-             for research and education. We provide an ecosystem of expansion decks,
-           clients and development tools to enable rapid development, flexibility and ease of use.
-         </p>
-         <p><b>Read more >>></b></p>
-      </div>
-      <div class="col-md-8 no-padding">
-        <img src="/images/what_we_do/wwd_quadcopters.jpg" alt="Quadcopters">
-      </div>
-    </a>
-  </div>
+        const fpTop     = top(fp);
+        const bannerTop = top(banner);
 
-  <div class="row what-we-do-section-padding section-content">
-    <a href="/documentation/system/positioning/">
-      <div class="col-md-4 col-md-push-8 text-block-box text-box_lps">
-        <h3>
-          Positioning Technology
-        </h3>
-          <p>
-            We support and manufacture a variety of positioning technologies to enable autonomous
-            flight and swarms with the Crazyflie. Our positioning systems are stand
-            alone and works equally well with other robots.
-          </p>
-          <p><b>Read more >>></b></p>
-      </div>
-    </a>
+        // Vertical line 1: top of .front-page → top of .value-props-banner
+        const vp = document.querySelector('.value-props-banner');
+        if (vp) {
+          fp.style.setProperty('--vline1-y', '0px');
+          fp.style.setProperty('--vline1-h', Math.max(0, top(vp) - fpTop) + 'px');
+        }
 
-    <div class="col-md-8 col-md-pull-4 no-padding video-style">
-      <video autobuffer controls autoplay muted loop>
-        <source src="/videos/swarmVid.mp4" type="video/mp4">
-      </video>
-    </div>
-  </div>
+        // Vertical line 2: 20px below buttons → top of .platform-section-bg
+        const btns     = document.querySelector('.header_buttons');
+        const platform = document.querySelector('.platform-section-bg');
+        if (btns && platform) {
+          const line2Start = bot(btns) + 50;
+          fp.style.setProperty('--vline2-y', (line2Start - fpTop) + 'px');
+          fp.style.setProperty('--vline2-h', Math.max(0, top(platform) - line2Start) + 'px');
+        }
 
-  <div class="row what-we-do-section-padding section-content">
-    <div class="col-md-4 text-block-box text-box_open_source">
-      <h3>
-        Open source
-      </h3>
-        <p>
-          All our projects are open source and hosted at GitHub.
-          We work together with our community of talented people to constantly evolve the ecosystem and add new functionality.
-          We believe in transparency, complete freedom of modification and no lock-in effects in proprietary APIs.
-        </p>
-    </div>
-    <div class="col-md-8 no-padding">
-      <img src="/images/what_we_do/wwd_open_source.jpg" alt="Open source">
-    </div>
-  </div>
-</div>
+        // Vertical line 3: bottom of .value-props-banner → top of .testimonial-section
+        const testi = document.querySelector('.testimonial-section');
+        if (vp && testi) {
+          const line3Start = bot(vp);
+          fp.style.setProperty('--vline3-y', (line3Start - fpTop) + 'px');
+          fp.style.setProperty('--vline3-h', Math.max(0, top(testi) - line3Start) + 'px');
+        }
 
-<!-- What we do end -->
+        // Horizontal line in top banner: 20px below buttons, stretches to right edge of header image
+        const headerImg = document.querySelector('.header_image');
+        if (btns) {
+          banner.style.setProperty('--hline-top', (bot(btns) + 50 - bannerTop) + 'px');
+          if (headerImg) {
+            const lineWidth = headerImg.getBoundingClientRect().left - banner.getBoundingClientRect().left;
+            banner.style.setProperty('--hline-width', Math.max(0, lineWidth) + 'px');
+          }
+        }
+      }
 
-<!--Testimonials-->
-<div class="container-fluid section testimonial-section scroll-point section-spacing">
-
-  <div class="row center-section-header">
-    <div class="col-md-12 style-section-header">
-      <h2>
-      Testimonials
-      </h2>
-    </div>
-  </div>
-
-  <div class="row flow-container section-content">
-    <div class="col-md-4 header-padding">
-        <div class="testimonial-header-text">
-          <h3>Developers and researchers around the world are using our platforms for all kinds of research areas.</h3>
-        </div>
-    </div>
-
-    <div class="col-md-4 background-wrapper testimonial-item">
-      <a href="https://www.bitcraze.io/2017/07/multi-robot-path-planning-for-flying-and-driving-vehicles/"><img src="images/testimonials/MIT.jpg" alt="MIT">
-        <article>“The Crazyflie is easily obtainable, safe, and (we can certify ourselves) very robust. Moreover, since it is open-source and fully programmable, we were able to easily modify the Crazyflie to fit our needs.”
-        </article>
-        <h4>-Brandon Araki, researcher at MIT</h4>
-      </a>
-    </div>
-
-    <div class="col-md-4 background-wrapper testimonial-item video-style">
-      <a href="https://www.bitcraze.io/2017/06/towards-persistent-adaptive-multi-robot-systems/">
-        <video autobuffer controls autoplay muted loop>
-          <source src="/videos/carnegie.mp4" type="video/mp4">
-        </video>
-
-        <article>“We use the Crazyflie platform to evaluate our algorithms because the hardware
-                 is robust and the user community has helped make firmware available on which we can base our
-                 own systems”
-        </article>
-        <h4>-Ellen Cappo, researcher at Carnegie Mellon University</h4>
-      </a>
-    </div>
-
-    <div class="col-md-4 background-wrapper testimonial-item">
-      <a href="https://www.bitcraze.io/2022/07/h-modquad-modularity-for-versatility/><img src="images/testimonials/H-modquad.png" alt="Lehigh University">
-        <article>“In our lab, we love to work with the Crazyflie ecosystem because its open-source platform allows us to write new flight controllers. We have used them to develop modular vehicles, blimps, catenary robots, and jumping robots.”
-        </article>
-        <h4>-David Saldaña, Assistant Professor at Lehigh University</h4>
-      </a>
-    </div>
-
-    <div class="col-md-4 background-wrapper testimonial-item">
-      <a href="https://www.bitcraze.io/2016/08/crazyswarm/"><img src="images/testimonials/usc.jpg" alt="University of Southern California">
-        <article>“The Crazyflie is a great platform for research because of its openness and extensibility; additionally, the size allows us to test algorithms on a swarm of robots even in space-limited indoor environments.”
-        </article>
-        <h4>-Wolfgang Hoenig, researcher at TU Berlin</h4>
-      </a>
-    </div>
-  </div>
-</div>
-
-<!-- Portals -->
-
-<!-- Development portal -->
-<div class="container-fluid section portal-section scroll-point section-spacing">
-
-  <div class="row center-section-header">
-    <div class="col-md-12 style-section-header">
-      <h2>
-        Usage Areas
-      </h2>
-    </div>
-  </div>
-
-<!-- Research portal -->
-  <div class="row section-content">
-    <div class="col-md-4 no-padding">
-      <a href="/portals/research/">
-        <div class="text-box_portals text-box_research">
-          <h3>Ideal for many areas of research</h3>
-            <p>The platform is designed to be as flexible and versatile as possible to enable the user to explore any area of interest, for instance control algorithms, swarms, path finding, agriculture or failure recovery.
-            </p>
-            <p><b>Read more >>></b></p>
-        </div>
-      </a>
-    </div>
-
-    <div class="col-md-8 no-padding">
-      <a href="/portals/research/"><img src="images/frontpage/research_portal.jpg" alt="Used in research"></a>
-    </div>
-  </div>
-
-<!-- Education portal -->
-  <div class="row section-content">
-    <div class="col-md-4 col-md-push-7 col-md-offset-1 no-padding">
-      <a href="/portals/education/">
-        <div class="text-box_portals text-box_education">
-          <h3>Bring the latest in robotics to your students</h3>
-            <p>The crazyflie is a versatile platform that is designed to engage people in learning about robotics and quadcopters.
-              Help the students understand control algorithms, embedded systems, aeronautics or robotics by experimenting on a real quadcopter.
-            </p>
-            <p><b>Read more >>></b></p>
-        </div>
-      </a>
-    </div>
-    <div class="col-md-7 col-md-pull-4 no-padding">
-      <a href="/portals/education/"><img src="images/frontpage/education_portal.jpg" alt="Used in education"></a>
-    </div>
-  </div>
-
-  <div class="row section-content">
-    <div class="col-md-4 col-md-push-7 col-md-offset-1 no-padding development-portal">
-      <a href="/portals/development/">
-        <div class="text-box_portals text-box_development">
-          <h3>The perfect development tool for your flying application</h3>
-            <p>Prototype your flying application in the comfort of your lab.
-              Modify or extend the firmware of the quadcopter to access or control your hardware - it is all open source.
-            </p>
-            <p><b>Read more >>></b></p>
-        </div>
-      </a>
-    </div>
-
-    <div class="col-md-7 col-md-pull-4 portal_img_development no-padding video-style">
-      <a href="/portals/development/">
-        <video autobuffer controls autoplay muted loop>
-          <source src="/videos/solderingVideo.mp4" type="video/mp4">
-        </video>
-
-      </a>
-    </div>
-  </div>
-
-<!-- DIY portal -->
-  <div class="row section-content">
-    <div class="col-md-4 no-padding">
-      <a href="/portals/diy/">
-        <div class="text-box_portals text-box_diy">
-          <h3>Do it yourself</h3>
-            <p>Love to fly? Like to tinker? Want to modify and explore? Hate limitations and closed systems? The Crazyflie is for you!
-            </p>
-            <p><b>Read more >>></b></p>
-        </div>
-      </a>
-    </div>
-    <div class="col-md-8 no-padding">
-      <a href="/portals/diy/"><img src="images/frontpage/diy_portal.jpg" alt="DIY"></a>
-    </div>
-  </div>
-</div>
-  <!-- Portals end -->
-
-
-<div class="container-fluid section used-by-section scroll-point section">
-  <div class="row center-section-header">
-    <div class="col-md-12 style-section-header">
-      <h2>
-      Used by
-      </h2>
-    </div>
-  </div>
-
-  <div class="row">
-      {% used_by_logo NASA; /images/logos/NASA_logo.png; https://www.nasa.gov/ %}
-      {% used_by_logo Microsoft; /images/logos/microsoft.png; https://www.microsoft.com/ %}
-      {% used_by_logo Chalmers University of Technology; /images/logos/chalmers.png; https://www.chalmers.se/en/ %}
-      {% used_by_logo LTH; /images/logos/lund.png; https://www.lth.se/english %}
-      {% used_by_logo University of Bologna; /images/logos/Seal_of_the_University_of_Bologna.png; https://www.unibo.it/en/homepage %}
-      {% used_by_logo USC; /images/logos/usc.png; https://www.usc.edu/ %}
-      {% used_by_logo MIT; /images/logos/mit.svg; https://web.mit.edu/ %}
-      {% used_by_logo AdaCore; /images/logos/adacore.png; https://www.adacore.com/ %}
-      {% used_by_logo ETH Zurich; /images/logos/Eth-zurich_logo_1.png; https://www.ethz.ch/en.html %}
-      {% used_by_logo Ericsson; /images/logos/ericsson_logo.png; https://www.ericsson.com/ %}
-      {% used_by_logo University of Illinois at Urbana-Champaign; images/logos/Illinois.gif; https://illinois.edu/ %}
-      {% used_by_logo Polytechnique Montreal; images/logos/polymtl.png; https://www.polymtl.ca/en %}
-      {% used_by_logo McGill University; images/logos/mcgill.svg; https://www.mcgill.ca/ %}
-      {% used_by_logo Bosch Sensortec; images/logos/bosch.png; https://www.bosch-sensortec.com/ %}
-      {% used_by_logo Invensense; images/logos/invensense.png; https://www.invensense.com/ %}
-      {% used_by_logo PixArt; images/logos/pixart.png; https://www.pixart.com/ %}
-      {% used_by_logo DLR; /images/logos/DLR_Logo.png; https://www.dlr.de/ %}
-      {% used_by_logo Insper; /images/logos/insper.png; https://www.insper.edu.br/ %}
-      {% used_by_logo Hanyang University; /images/logos/hanyang.png; https://www.hanyang.ac.kr/web/eng %}
-      {% used_by_logo University of Sannio in Benevento; /images/logos/unisannio.png; https://www.unisannio.it/en %}
-      {% used_by_logo Saarland University; /images/logos/saarland_university.png; https://www.uni-saarland.de/en/home.html %}
-      {% used_by_logo CLRobur; /images/logos/clrobur.png; https://clrobur.com/ %}
-      {% used_by_logo Hamburg University of Applied Sciences; /images/logos/HAW_Hamburg_Logo.png; https://www.haw-hamburg.de %}
-      {% used_by_logo Sapienza University of Rome; /images/logos/Sapienza_Roma.png; https://www.uniroma1.it/en/pagina-strutturale/home %}
-      {% used_by_logo Universidad Autónoma de Occdiente; /images/logos/UAO_ogo.png; https://www.uao.edu.co %}
-      {% used_by_logo Lehigh University; /images/logos/lehigh.jpg; https://lehigh.edu/ %}
-      {% used_by_logo TU Delft; /images/logos/TUDelft.png; https://www.tudelft.nl/en/ %}
-      {% used_by_logo Brown University; /images/logos/BrownU.png; https://www.brown.edu/ %}
-      {% used_by_logo Linköping University; /images/logos/liu.png; https://www.liu.se/ %}
-      {% used_by_logo De La Salle University; /images/logos/dlsu.png; https://www.dlsu.edu.ph/ %}
-      {% used_by_logo Facultad de Ingeniería Mecánica y Eléctrica (UANL); /images/logos/uanl_logo.png; https://www.fime.uanl.mx/ %}
-
-    </div>
-    <div class="row">
-      <div class="col-md-12"><p class="text-right">Is your organization missing? <a href="https://github.com/bitcraze/bitcraze-website/edit/master/src/{{page.path}}"><i class="fa-regular fa-pen-to-square"></i> &nbsp;Improve this page</a></p>
-        </div>
-    </div>
-</div>
-
-<!-- <div class="section-scroller" onclick="kraken.scrollToNextScrollPoint()">
-  <i class="fa fa-chevron-down"></i>
-</div>
- -->
-
- <script type='text/javascript'>
-   $("a.smooth-link").smoothScroll();
- </script>
+      document.addEventListener('DOMContentLoaded', updateFrontPageLines);
+      window.addEventListener('load', updateFrontPageLines);
+      window.addEventListener('resize', updateFrontPageLines);
+    })();
+  </script>
+  <!-- JS Scripts End -->

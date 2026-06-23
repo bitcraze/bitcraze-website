@@ -7,7 +7,7 @@ redirects:
 ---
 
 {% si_intro The STEM ranging bundle %}
-The STEM (Science Technology Engineering Mathematics) ranging bundle is based on a Crazyflie 2.x with a {% poplink flow-deck %} and a {% poplink multi-ranger-deck%}.
+The STEM (Science Technology Engineering Mathematics) ranging bundle is based on a Crazyflie<sup>®</sup> 2.x with a {% poplink flow-deck %} and a {% poplink multi-ranger-deck%}.
 It is an autonomous drone that can be controlled from a simple python script to explore and operate a robot in 3 dimensions.
 It has the ability to detect obstacles around it.
 

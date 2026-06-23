@@ -7,7 +7,7 @@ redirects:
 ---
 
 {% si_intro Unpacking the Crazyflie %}
-The Crazyflie box contains the following items. Make sure that you
+The Crazyflie<sup>®</sup> box contains the following items. Make sure that you
 have all of them before you start assembling.
 {% endsi_intro %}
 

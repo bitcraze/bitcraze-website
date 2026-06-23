@@ -2,7 +2,6 @@
 layout: page
 title: Privacy Policy
 ---
-
 The bitcraze.io websites are using [Google Analytics](https://analytics.google.com) and [Hotjar](https://www.hotjar.com).
 These softwares record some data when you visit our website that allows us to get some statistics about the site usage.
 
@@ -17,7 +16,7 @@ Your payment may be processed by [Mondido Payments](https://www.mondido.com). We
 
 We are using [Mainchimp](https://mailchimp.com) to handle our mainling-lists and gmail to handle all mail going to and from the bitcraze.io domain.
 
-## What is recorded
+## What is Recorded?
 
 Our analytics softwares are collecting:
 
@@ -33,7 +32,7 @@ In order to fullfill your order and for legal reason we keep record of the detai
  - Order content
  - Payment transaction information
 
-## Information communicated to third party logistic partner
+## Information Communicated to Third Party Logistic Partner
 
 The following information may be communicated to third party logistic partner to fullfil your order
 
@@ -41,12 +40,12 @@ The following information may be communicated to third party logistic partner to
  - The content of the order
  - The cost of the order
 
-## What do we do with the data?
+## What Do We Do With the Data?
 
 The data allows us to better understand how you found us and how you are using the website.
 This guides us in the website development to make it better and more useful.
 
-## Contact and data access
+## Contact and Data Access
 
 If you have any questions or would like us to remove the data we have collected from you feel free to contact us at contact@bitcraze.io.
 We cannot remove data that we are required by law to keep.

@@ -28,7 +28,7 @@ each Anchor to the Tags and calculates the position of the Tags from that
 information.
 
 All information needed to calculate the position is available in the Tag which
-enables position estimation on board the Crazyflie, as opposed to many other
+enables position estimation on board the Crazyflie<sup>®</sup>, as opposed to many other
 positioning systems where the position is calculated in an external computer
 and sent to the Crazyflie.
 

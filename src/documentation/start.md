@@ -10,7 +10,7 @@ image: /images/documentation/landing_page/crazyflie_boxes.png
 
 ## Let's get started!
 
-If you just bought a Crazyflie 2.x, a good way to start is to head over to the
+If you just bought a Crazyflie<sup>®</sup> 2.x, a good way to start is to head over to the
 getting started guide, to see how to assemble the kit and take off for your first flight.
 
 {% inline_button Getting Started with Crazyflie 2.0, 2.1(+) Tutorial; /documentation/tutorials/getting-started-with-crazyflie-2-x/ %}
@@ -32,7 +32,7 @@ Just bought our Loco positioning system or Lighthouse positioning system? Go to 
 
 
 
-To understand the Crazyflie EcoSystem, look at our system overview documentation
+To understand the Crazyflie Ecosystem, look at our system overview documentation
 
  {% inline_button Eco-System overview; /documentation/system/
  %}
@@ -68,8 +68,8 @@ iron and dive into it! Find more information about the expansion bus on the expa
 
 ## Projects
 
-Looking for inspiration for a new project? Take a look at our [blog posts](/blog/). The {% id_link videogallery %} contains
-some really cool stuff as well as our [You Tube channel](https://www.youtube.com/user/BitcrazeVideos). We also have a [list of academic groups](/portals/research/) that have used the Crazyflie in their research.
+Looking for inspiration for a new project? Take a look at our [Application and Research areas](/applications/applications-landing/) and our [blog posts](/blog/). The {% id_link videogallery %} contains
+some really cool stuff as well as our [You Tube channel](https://www.youtube.com/user/BitcrazeVideos).
 
 {% inline_button Video Gallery; /documentation/video-gallery/ %}
 

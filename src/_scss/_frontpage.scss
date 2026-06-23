@@ -1,12 +1,58 @@
+
 .front-page {
+  position: relative;
+  isolation: isolate;
+  overflow-x: hidden;
+
+  h1, h2, h3, h4 { font-weight: 700; }
+
+  // Vertical dashed line x-positions, anchored to the content boundary.
+  // $site-width / 2 = the content edge; outer adds 100px margin beyond it.
+  $vline-content-edge: ($site-width / 2);
+  $vline-outer-offset: ($site-width / 2) + 100px;
+
+  @media (min-width: $screen-md-min) {
+    &::before {
+      content: '';
+      position: absolute;
+      inset: 0;
+      pointer-events: none;
+      z-index: -1;
+      background-image:
+        // Vertical dashed line 1
+        repeating-linear-gradient(0deg,
+          $bcGreen 0px, $bcGreen 7px,
+          transparent 7px, transparent 15px
+        ),
+        // Vertical dashed line 2
+        repeating-linear-gradient(0deg,
+          $bcGreen 0px, $bcGreen 7px,
+          transparent 7px, transparent 15px
+        ),
+        // Vertical dashed line 3
+        repeating-linear-gradient(0deg,
+          $bcGreen 0px, $bcGreen 7px,
+          transparent 7px, transparent 15px
+        );
+      // Each line: background-size  = 1px [height]
+      //             background-position = [x] [start-y]
+      // y and height are set by JS (updateFrontPageLines) so lines span
+      // exactly between specific DOM elements regardless of screen size.
+      background-size: 1px var(--vline1-h, 0px), 1px var(--vline2-h, 0px), 1px var(--vline3-h, 0px);
+      // x-positions: calc(50% ± Xpx) anchors to page center
+      background-position: calc(50% - #{$vline-outer-offset}) var(--vline1-y, 0px), calc(50% - #{$vline-content-edge}) var(--vline2-y, 0px), calc(50% + #{$vline-outer-offset}) var(--vline3-y, 0px);
+      background-repeat: no-repeat;
+    }
+  }
+
   $header-font-size-small-screen: 45px;
-  $header-line-height-small-screen: 1.5;
+  $header-line-height-small-screen: 1.2;
 
   $header-font-size-medium-screen: 60px;
-  $header-line-height-medium-screen: 1.5;
+  $header-line-height-medium-screen: 1.2;
 
   $header-font-size-big-screen: 75px;
-  $header-line-height-big-screen: 1.8;
+  $header-line-height-big-screen: 1.2;
 
   $font-weight-front-page: 800;
 
@@ -19,6 +65,15 @@
   $font-size-big-screen: 22px;
   $line-height-big-screen: 1.7;
 
+  // Utility class for green highlight text
+  .highlight-green {
+    color: $bcGreen;
+  }
+
+  .highlight-dark-green {
+    color: $bcDarkGreen;
+  }
+
   $header-margin: 4vw;
 
   $section-margin-small-screen: 5vh;
@@ -30,18 +85,29 @@
   }
 
   .front-top-banner {
-  background-image: url("/images/frontpage/front-mobile.jpg");
   background-size: cover;
   background-position: center;
   max-height: 1200px;
+  position: relative;
 
-    //(≥768px)
-    @media (min-width: $screen-sm-min) {
-      background-image: url("/images/frontpage/front.jpg");
-      background-repeat-y: no-repeat;
-    }
     @media (min-width: $screen-md-min) {
-      height: 100vh;
+      &::before {
+        content: '';
+        position: absolute;
+        inset: 0;
+        pointer-events: none;
+        z-index: 0;
+        background-image:
+          // Horizontal dashed line 1
+          repeating-linear-gradient(90deg,
+            $bcGreen 0px, $bcGreen 7px,
+            transparent 7px, transparent 15px
+          );
+        background-size: var(--hline-width, 58.5%) 1px;
+        background-position: 0 var(--hline-top, 80%);
+        background-repeat: no-repeat;
+        opacity: 1.0;
+      }
     }
   }
 
@@ -60,12 +126,16 @@
       align-self: center;
         h1 {
         font-size: $header-font-size-small-screen;
-        line-height: $header-line-height-small-screen;
+        line-height: 1.1;
         font-weight: $font-weight-front-page;
-        text-align: center;
-        margin-top: 5vh;
-        margin-bottom: 5vh;
-        color:white;
+        text-align: left;
+        margin-top: 3vh;
+        margin-bottom: 2vh;
+        color: $bcDarkGreen;
+
+        .highlight-green {
+          color: $bcGreen;
+        }
         }
 
       //992px
@@ -74,7 +144,7 @@
         flex-grow: 1;
         h1 {
         font-size: $header-font-size-medium-screen;
-        line-height: $header-line-height-medium-screen;
+        line-height: 1.1;
         margin-top: 20vh;
         margin-bottom: 2vh;
         text-align: left;
@@ -85,35 +155,7 @@
       @media (min-width: $screen-lg-min) {
         h1 {
         font-size: $header-font-size-big-screen;
-        line-height: $header-line-height-big-screen;
-        }
-      }
-    }
-
-    .mobile_hidden_button {
-      display: none;
-      @media (min-width: $screen-md-min) {
-          display: block;
-      }
-    }
-
-    .btn-block {
-      margin: auto;
-      width: 80%;
-      margin-bottom: 20px;
-
-        //≥768px
-      @media (min-width: $screen-sm-min) {
-        .btn-block {
-          margin: auto;
-          width: 50%;
-          margin-bottom: 20px;
-        }
-      }
-      //992px
-      @media (min-width: $screen-md-min) {
-        .btn-block {
-          width: 100%;
+        line-height: 1.1;
         }
       }
     }
@@ -121,26 +163,24 @@
     .header_buttons {
         display: flex;
         flex-direction: column;
-        justify-content: space-between;
+        justify-content: flex-start;
+        align-self: center;
+        gap: 0.75rem;
+        margin-top: 1.5rem;
 
         a {
         width: 100%;
-        max-width: 400px;
+        max-width: 280px;
         }
 
         //992px
         @media (min-width: $screen-md-min) {
           flex-direction: row;
-          width: 80%;
-          max-width: 550px;
+          align-self: flex-start;
+          gap: 1rem;
           a {
-          width:28%;
+          width: auto;
           }
-        }
-        //1200px
-        @media (min-width: $screen-lg-min) {
-          width: 100%;
-          max-width: 600px;
         }
       }
 
@@ -148,137 +188,36 @@
       display: flex;
       flex-direction: column;
       height: 100%;
-
-      @media (min-width: $screen-md-min) {
-        flex-direction: row;
-      }
     }
 
-    .announcements {
-      display: flex;
-      align-self:center;
-      flex-direction: column;
-      justify-content: space-around;
-      padding: 2px;
-      width: 100%;
-      max-width: 400px;
-      max-height: 400px;
-      color: black;
-      background: #000;
+    .header_image {
+      display: block;
+      align-self: center;
+      max-width: 60%;
+      margin-bottom: 1rem;
 
-      border-color: $bcDarkGrey;
-      border-width: 2px;
-      border-style: solid;
+      @media (min-width: $screen-md-min) {
+        align-self: flex-end;
+        max-width: 30%;
+        margin-bottom: 0;
+        margin-top: -2rem;
+        order: 1;
+      }
 
       img {
-        max-width: 100%;
-        max-height: 240px;
-      }
-      h3 {
-        font-size: $font-size-medium-screen;
-        line-height: $line-height-medium-screen;
-        font-weight: $font-weight-front-page;
-        text-align: center;
-        padding: 5px;
-        color: #4c4cd2;
-      }
-      a {
-        align-self: center;
-        text-align: center;
-      }
-      p {
-        font-size: $font-size-small-screen;
-        line-height: $line-height-small-screen;
-        text-align: center;
-        padding: 5px;
-        margin-bottom: 0;
-      }
-      //(≥768px)
-      @media (min-width: $screen-sm-min) {
-        max-width: 400px;
-        max-height: 370px;
-        p {
-          font-size: $font-size-medium-screen;
-          line-height: $line-height-medium-screen;
-        }
-      }
-      // ≥992px
-      @media (min-width: $screen-md-min) {
-        width: 30%;
-        max-width: 320px;
-        margin-right: 2%;
-        align-self:flex-start;
-        h3 {
-        font-size: $font-size-big-screen;
-        line-height: $line-height-big-screen;
-        font-weight: $font-weight-front-page;
-        text-align: center;
-        }
+        width: 100%;
+        height: auto;
       }
     }
 
-    .header-col-wrapper {
-      display: flex;
-      flex-direction: column;
-      justify-content: flex-end;
-
-      @media (min-width: $screen-md-min) {
-        flex-direction: column;
-      }
-    }
-
-    .value_proposition {
-      align-self: flex-end;
-
-      width: 70%;
-      color: white;
-      text-align: center;
-      align-self: center;
-
-      h3 {
-      line-height: $line-height-small-screen;
-      font-size: $font-size-small-screen;
-      font-weight: $font-weight-front-page;
-      }
-      //≥768px
-      @media (min-width: $screen-sm-min) {
-      width: 50%;
-      align-self: center;
-      }
-      //992px
-      @media (min-width: $screen-md-min) {
-      align-self: flex-end;
-      background: #4c4cd2;
-      width: 30%;
-      margin-right: 2%;
-
-        h3 {
-        line-height: $line-height-big-screen;
-        font-size: $font-size-big-screen;
-        font-weight: $font-weight-front-page;
-        text-align: center;
-        padding-left: 5%;
-        padding-right: 5%;
-        padding-bottom: 5%;
-        margin-bottom: 77px;
-        }
-      }
-    }
   }
 
-  //What we do arrow
+  #ecosystem-section {
+    padding-top: 12rem;
+    padding-bottom: 5rem;
 
-  .what_we_do_arrow {
-    display: none;
     @media (min-width: $screen-md-min) {
-      display: flex;
-      flex-direction: column;
-      justify-content: flex-start;
-      align-items: center;
-      color: white;
-      font-size: 20px;
-      align-self: center;
-      transform: translate(0, 100%);
+      padding-top: 20rem;
     }
   }
 
@@ -289,27 +228,39 @@
 
   // Call to action buttons
   .btn-color-primary {
-    color: black;
-    background-color: white;
-    border-color: white;
+    color: white;
+    background-color: $bcGreen;
+    border-color: $bcGreen;
     border-width: 2px;
+    &:hover, &:focus {
+      color: white;
+      background-color: darken($bcGreen, 10%);
+      border-color: darken($bcGreen, 10%);
+    }
   }
 
   .btn-color-secondary {
-    background-color:transparent;
-    border-color: white;
+    color: $bcGreen;
+    background-color: transparent;
+    border-color: $bcGreen;
     border-width: 2px;
-  }
-
-  .no-padding {
-    padding-left: 0px;
-    padding-right: 0px;
+    &:hover, &:focus {
+      color: darken($bcGreen, 10%);
+      background-color: darken(white, 10%);
+      border-color: darken($bcGreen, 10%);
+    }
   }
 
   .text-block-box {
     p {
-      font-size: 15px;
+      font-size: 14px;
       line-height: $line-height-small-screen;
+      text-align: center;
+    }
+
+    h2 {
+      font-size: 28px;
+      line-height: 1.3;
       text-align: center;
     }
 
@@ -323,6 +274,12 @@
 
     // ≥992px
     @media (min-width: $screen-md-min) {
+      h2 {
+        font-size: 32px;
+        line-height: 1.3;
+        text-align: center;
+      }
+
       h3 {
         font-size: $font-size-medium-screen;
         line-height: $line-height-medium-screen;
@@ -334,9 +291,14 @@
     //1200px
     @media (min-width: $screen-lg-min) {
       p {
-        font-size: 20px;
+        font-size: 18px;
         line-height: $line-height-medium-screen;
         text-align: center;
+      }
+
+      h2 {
+        font-size: 36px;
+        line-height: 1.3;
       }
 
       h3 {
@@ -360,397 +322,722 @@
     padding-right: 15px;
   }
 
-  .center-section-header{
-    display: flex;
-    justify-content: center;
-  }
+    //What we do
 
+    .platform-section-bg {
+      background: linear-gradient(to right, $bcGreen 0%, $bcGreen 50%, transparent 50%);
+      position: relative;
 
-  //Blog
-
-    .blog-section {
-      margin-top: 2vh;
-
-      h2 {
-        text-align: center;
-      }
-
-      h3 {
-        font-size: 21px;
-        text-align: center;
-      }
-
-      .aspect-ratio-contatiner {
-        height: 0;
-        padding-top: 66.66%;
-        position: relative;
-      }
-      .aspect-ratio-inner {
+      &::before {
+        content: '';
         position: absolute;
+        right: 50%;  // End at the midpoint of the container
+        left: -100vw;  // Start way off to the left (ensures it reaches viewport edge)
         top: 0;
-        width: 100%;
-        height: 100%;
-        a{
-            img {
-              height: 100%;
-              width: 100%;
-              object-fit: contain;
+        bottom: 0;
+        background: $bcGreen;
+        z-index: 0;
+      }
+
+      // Ensure content is above the pseudo-element
+      > * {
+        position: relative;
+        z-index: 1;
+      }
+    }
+
+    .positioning-section-bg {
+      background: linear-gradient(to right, transparent 50%, $bcDarkGreen 50%, $bcDarkGreen 100%);
+      position: relative;
+
+      &::before {
+        content: '';
+        position: absolute;
+        left: 50%;  // Start at the midpoint of the container
+        right: -100vw;  // Extend way off to the right (ensures it reaches viewport edge)
+        top: 0;
+        bottom: 0;
+        background: $bcDarkGreen;
+        z-index: 0;
+      }
+
+      // Ensure content is above the pseudo-element
+      > * {
+        position: relative;
+        z-index: 1;
+      }
+    }
+
+    // On mobile, stack card contents vertically (image top, text bottom)
+    @media (max-width: 767px) {
+      .text-box_platform,
+      .text-box_positioning,
+      .text-box_decks {
+        flex-wrap: wrap;
+        border-radius: 12px;
+
+        > div {
+          width: 100%;
+          max-width: 100%;
+          flex: 0 0 100%;
+          padding: 1rem 1.5rem;
+        }
+
+        // Image div: centered, no text padding, shown first
+        > div:has(> img) {
+          padding: 1rem 0;
+          order: -1;
+          display: flex;
+          justify-content: center;
+
+          img {
+            width: 75%;
           }
         }
       }
 
-      .blog-title {
-        text-align: center;
-      }
-
-      .display-menu{
-        display: none
-      }
-
-      .display-blog {
-        display: none;
-        @media (min-width: $screen-md-min) {
-          display: block;
-        }
-        border-left: solid 1px $bcLightGrey;
-      }
-
-      .display-menu-2 {
-        a {
-          text-decoration: underline;
-        }
-        @media (min-width: $screen-md-min) {
-          display: none;
-        }
-      }
-
-      .menu-blog-container {
-        margin-top: 0;
-        margin-bottom: 14px;
-        text-align: right;
-        ul > li:nth-child(n+2) {
-          border-left: 1px solid #dddddd;
-        }
-
-        .menu-item {
-          list-style: none;
-          display: inline-block;
-          font-size: 1.2em;
-          font-weight: 400;
-          padding-left: 10px;
-          padding-right: 10px;
-        }
-      }
-
-      //(≥768px)
-      @media (min-width: $screen-md-min) {
-        margin-top: $section-margin-small-screen;
-        margin-bottom: $section-margin-small-screen;
-      }
-
-      // ≥992px
-      @media (min-width: $screen-md-min) {
-        margin-top: $section-margin-big-screen;
-        margin-bottom: 5vh;
-
-        h3 {
-          text-align: left;
-        }
-        .display-menu{
-          display: block;
-        }
-        .blog-container{
-          margin-bottom: 10vw;
-        }
-      }
-
-      // ≥1200px
-      @media (min-width: $screen-lg-min) {
-
-        .display-menu{
-          display: block;
-        }
-        .blog-container{
-          margin-bottom: 5vw;
-        }
-      }
-    }
-    //End blog
-
-    // Product news
-    .text-box-product-news {
-      background-color: #5b085d;
-      color: #fff;
-      margin-top: 1em;
-      padding-top: 4em;
-      padding-bottom: 4em;
+      .text-box_platform  { border-radius: 0 12px 12px 0; }
+      .text-box_positioning { border-radius: 12px 0 0 12px; }
     }
 
-    //What we do
-
-    .style-section-header{
-      background: black;
-      color: white;
-      width: 100%;
-      display: flex;
+    .text-box_platform {
+      background: $bcGreen;
+      color: $bcDarkGreen;
       justify-content: center;
-      margin-bottom: 2vh;
+      align-items: center;
+      align-self: stretch;
+      border-radius: 0px 40px 40px 0px;
+      transition: transform 0.3s ease;
+
+      h2 { color: white; text-align: left; }
+      p  { text-align: left; }
+      b  { white-space: nowrap; }
+
+      &:hover {
+        transform: translateX(5px);
+      }
     }
 
-    .text-box_quadcopter {
-      background: #ffa801;
+    .text-box_positioning {
+      background: $bcDarkGreen;
       color: white;
+      justify-content: center;
+      align-items: center;
+      border-radius: 40px 0px 0px 40px;
+      transition: transform 0.3s ease;
+
+      h2 { color: white; text-align: left; }
+      p  { text-align: left; }
+      b  { white-space: nowrap; }
+
+      &:hover {
+        transform: translateX(-5px);
+      }
     }
-    .text-box_lps {
-      background: #3d6de1;
-      color: white;
+
+    .text-box_decks {
+      color: $bcDarkGreen;
+      justify-content: center;
+      align-items: center;
+
+      h2 { text-align: left; }
+      p  { text-align: left; }
+      b  { white-space: nowrap; }
     }
+
     .text-box_open_source {
-      background: #545353;
-      color: white;
+      background: white;
+      color: $bcDarkGreen;
+      align-items: center;
+
+      .header-text {
+        h1, p { text-align: right; }
+        h1 .highlight-green { font-family: 'Quantico', sans-serif; }
+      }
+
+      @media (max-width: $screen-md-min) {
+        margin-left: 0;
+      }
     }
+
+    // Ecosystem section utilities
+    .fp-section-text { padding-left: 30px; }
+
+    .fp-arrow-img {
+      height: 0.5em;
+      vertical-align: middle;
+      padding-left: 1em;
+    }
+
+    #filler { display: none; }
 
     //What we do end
 
+  // Value Props Banner
+  .value-props-banner {
+    background: $bcGreen;
+    padding: 4rem 0;
+    margin-bottom: 5vh;
 
-  //Testimonials
-
-  .testimonial-section {
-    $testimonial-margin: 2vh;
-
-    .flow-container {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: flex-end;
-
-      .header-padding {
-      padding-left: 0px;
-      padding-right: 0px;
-      }
-
-      .background-wrapper {
-      background-color: black;
-      padding: 40px;
-      margin: -1px;
-      }
-
-      .testimonial-item {
-      font-size: $font-size-small-screen;
-      line-height: $line-height-small-screen;
-
-        article {
-        margin-top: $testimonial-margin;
-        margin-bottom: $testimonial-margin;
-        color: white;
-        }
-        h4 {
-        font-size: $font-size-small-screen;
-        line-height: $line-height-small-screen;
-        color: white;
-        }
-      }
-    }
-
-    .testimonial-header-text {
-    background: #FF0077;
-      h3{
-      font-size: $font-size-small-screen;
-      line-height: $line-height-small-screen;
-      font-weight: $font-weight-front-page;
-      color: white;
-      text-align: center;
-      padding: 1em;
-      }
-    }
-
-    // ≥992px
     @media (min-width: $screen-md-min) {
-      .header-padding {
-      padding-left: 15px;
+      padding: 5rem 0;
+      margin-bottom: 10vh;
+    }
+
+
+    .value-prop-card {
+      background: $bcDarkGreen;
+      color: white;
+      border-radius: 20px;
+      padding: 3rem 1.5rem;
+      text-align: center;
+      height: 100%;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      transition: transform 0.3s ease;
+
+      &:hover {
+        transform: translateY(-5px);
       }
 
-      .testimonial-header-text {
-        h3 {
-        font-size: $font-size-big-screen;
-        line-height: $line-height-big-screen;
-        font-weight: 500;
-        padding-top: 150px;
-        padding-left: 2em;
-        padding-right: 2em;
-        padding-bottom: 150px;
+      .card-icon {
+        font-size: 3rem;
+        margin-bottom: 1rem;
+        color: $bcGreen;
+
+        @media (min-width: $screen-md-min) {
+          font-size: 3.5rem;
         }
       }
-    }
-  }
 
-  //Portals
-  .portal-section {
-    .text-box_portals {
-      h3,p {
-      color: white;
-      }
-      p {
-      font-size: 15px;
-      line-height: $line-height-small-screen;
-      text-align: center;
-      }
       h3 {
-      font-size: $font-size-small-screen;
-      line-height: $line-height-small-screen;
-      text-align: center;
-      }
-      padding: 1em;
-    }
+        font-size: 16px;
+        font-weight: 700;
+        line-height: 1.4;
+        margin: 0;
+        color: white;
 
-    .text-box_development {
-    background: #FD9724;
-    }
-
-    .text-box_research {
-    background: #9600CC;
-    }
-
-    .text-box_education {
-    background: #1B7032;
-    }
-
-    .text-box_diy {
-    background: #FF4400;
-    }
-
-    // ≥992px
-    @media (min-width: $screen-md-min) {
-      .text-box_portals {
-        h3 {
-        font-size: $font-size-medium-screen;
-        line-height: $line-height-medium-screen;
-        text-align: center;
-        }
-        padding: 2em;
-      }
-
-      .text-box_development {
-      padding-top: 100px;
-      padding-bottom: 100px;
-      }
-      .text-box_research {
-      padding-top: 100px;
-      padding-bottom: 100px;
-      margin-top: 120px;
-      }
-      .text-box_education {
-      padding-top: 100px;
-      padding-bottom: 100px;
-      margin-top: -120px;
-      }
-      .text-box_diy {
-      padding-top: 100px;
-      padding-bottom: 100px;
-      }
-    }
-
-    //1200px
-    @media (min-width: $screen-lg-min) {
-      .text-box_portals {
-        p {
-        font-size: 20px;
-        line-height: $line-height-medium-screen;
-        text-align: center;
-        }
-        h3 {
-        font-size: $font-size-big-screen;
-        line-height: $line-height-big-screen;
+        @media (min-width: $screen-md-min) {
+          font-size: 18px;
         }
       }
     }
   }
 
-    //End portals
 
-    // Section scroller
-    .section-scroller {
-      position: fixed;
-      bottom: 0px;
-      left: 100px;
-      background: $bcGreen;
-      cursor: pointer;
-      font-size: 3em;
-      padding-left: 0.1em;
-      padding-right: 0.1em;
-      line-height: 0.8em;
-      border-top: solid 1px;
-      border-left: solid 1px;
-      border-right: solid 1px;
-      z-index: 10;
-    }
+    // Application cards
+    .appl-cards-section {
+      padding: 4rem 1rem;
+      margin-bottom: 4rem;
+      position: relative;
 
-    // box for used by section
+      &::after {
+        content: '';
+        position: absolute;
+        bottom: -50px;
+        left: 50%;
+        transform: translateX(-50%);
+        width: 100vw;
+        height: 1px;
+        background-image: repeating-linear-gradient(90deg,
+          $bcGreen 0px, $bcGreen 7px,
+          transparent 7px, transparent 15px
+        );
+      }
 
-    .used_by_box, .used_by_box_text {
-        padding: 1%;
-        background-color: $used-by-background-color;
-        border: 2px solid $body-bg;
+      .appl-card {
+        border-radius: 16px;
+        overflow: hidden;
+        width: 100%;
+        height: 100%;
+        background-color: $bcDarkGreen;
+        display: flex;
+        flex-direction: column;
+        transition: transform 0.25s ease, box-shadow 0.25s ease;
 
-        filter: grayscale(100%);
-        -webkit-filter: grayscale(100%);
-        transition: filter 2.0s, -webkit-filter 2.0s;
+        @media (min-width: $screen-md-min) {
+          width: 220px;
+        }
+
         &:hover {
-            filter: grayscale(0%);
-            -webkit-filter: grayscale(0%);
-            transition: filter 0.1s, -webkit-filter 0.1s;
+          transform: translateY(-4px);
+          box-shadow: 0 10px 28px rgba(0, 0, 0, 0.3);
         }
 
-        height: 100px;
-    }
-
-    .used_by_box {
-        img {
-          object-position: 50% 50%;
-          object-fit: contain;
-          height: 100%;
+        // 16:9 image area
+        .appl-card-img-wrap {
           width: 100%;
-        }
-    }
+          aspect-ratio: 16 / 9;
+          overflow: hidden;
+          flex-shrink: 0;
 
-    .used_by_box_text {
+          .appl-card-placeholder {
+            width: 100%;
+            height: 100%;
+            border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+          }
+
+          img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            display: block;
+            transition: transform 0.35s ease;
+          }
+        }
+
+        &:hover .appl-card-img-wrap img {
+          transform: scale(1.04);
+        }
+
+        .appl-card-header {
+          padding: 1.25rem 1.25rem 1.5rem;
+          flex: 1;
+          display: flex;
+          flex-direction: column;
+
+          .appl-card-icon {
+            color: rgba(255, 255, 255, 0.6);
+            font-size: 1.25rem;
+            margin-bottom: 0.6rem;
+            display: block;
+          }
+
+          h3 {
+            color: white;
+            font-weight: 700;
+            font-size: 1rem;
+            line-height: 1.3;
+            margin-bottom: 0.85rem;
+            text-align: left;
+
+            @media (min-width: $screen-md-min) {
+              font-size: 1.1rem;
+            }
+          }
+
+          .appl-card-desc {
+            color: rgba(255, 255, 255, 0.7);
+            font-size: 0.75rem;
+            line-height: 1.45;
+            margin-bottom: 0.85rem;
+            text-align: left;
+          }
+        }
+
+        .appl-card-btn {
+          color: white;
+          border: 1px solid rgba(255, 255, 255, 0.55);
+          background: transparent;
+          font-size: 0.75rem;
+          padding: 0.3rem 0.85rem;
+          border-radius: 20px;
+          align-self: flex-start;
+          margin-top: auto;
+
+          &:hover, &:focus {
+            background: rgba(255, 255, 255, 0.15);
+            color: white;
+            border-color: white;
+          }
+        }
+
+        // Per-card colors on the text body
+        &.appl-card--swarm   .appl-card-header { background-color: #3d3b8e; }
+        &.appl-card--hri     .appl-card-header { background-color: #1c3445; }
+        &.appl-card--stem    .appl-card-header { background-color: #1a3d22; }
+        &.appl-card--autosys .appl-card-header { background-color: #1a2b4a; }
+        &.appl-card--percept .appl-card-header { background-color: #3a322a; }
+        &.appl-card--aerial  .appl-card-header { background-color: #1a3838; }
+      }
+
+      &.appl-cards-section--grid {
+        .appl-cards-grid {
+          display: grid;
+          grid-template-columns: repeat(2, minmax(0, 220px));
+          gap: 1rem;
+          justify-content: center;
+
+          @media (min-width: $screen-md-min) {
+            grid-template-columns: repeat(3, minmax(0, 220px));
+          }
+        }
+
+        .appl-card {
+          width: 100%;
+          height: 100%;
+        }
+      }
+    }
+    // End application cards
+
+    // Blog section
+    .blog-section {
+      padding: 2rem 1rem;
+      margin-bottom: 5vh;
+      margin-top: 8vh;
+
+      @media (min-width: $screen-md-min) {
+        margin-bottom: 10vh;
+      }
+
+      .blog-heading {
+        font-size: 2rem;
+        font-weight: 700;
+        text-align: center;
+        margin-bottom: 2rem;
+
+        @media (min-width: $screen-md-min) {
+          font-size: 2.5rem;
+        }
+      }
+
+      .blog-card {
+        display: block;
+        text-decoration: none;
+        color: inherit;
+
+        &:hover {
+          text-decoration: none;
+          color: inherit;
+
+          .blog-img-wrap img {
+            transform: scale(1.04);
+          }
+        }
+      }
+
+      .blog-img-wrap {
+        border-radius: 12px;
+        overflow: hidden;
+        aspect-ratio: 3 / 2;
+        margin-bottom: 0.85rem;
+
+        img {
+          display: block;
+          width: 100%;
+          height: 100%;
+          object-fit: cover;
+          transition: transform 0.35s ease;
+        }
+      }
+
+      .blog-tags {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 0.4rem;
+        margin-bottom: 0.6rem;
+      }
+
+      .blog-tag {
+        display: inline-block;
+        padding: 0.2rem 0.7rem;
+        border-radius: 20px;
+        font-size: 0.75rem;
+        font-weight: 600;
+        background-color: $bcLighterGrey;
+        color: $bcDarkGrey;
+      }
+
+      .blog-title {
+        font-size: 1.1rem;
+        font-weight: 700;
+        color: #1a1a1a;
+        margin-bottom: 0.5rem;
+        line-height: 1.35;
+
+        @media (min-width: $screen-md-min) {
+          font-size: 1.15rem;
+        }
+      }
+
+      .blog-excerpt {
+        font-size: 0.9rem;
+        color: $bcGrey;
+        line-height: 1.55;
+        margin: 0;
+      }
+    }
+    // End blog section
+
+    // Customer logo grid
+    .customer-section {
+      padding: 2rem 1rem;
+      margin-bottom: 20vh;
+      margin-top: 5vh;
+      position: relative;
+
+      &::before {
+        content: '';
+        position: absolute;
+        top: -50px;
+        left: 50%;
+        transform: translateX(-50%);
+        width: 100vw;
+        height: 1px;
+        background-image: repeating-linear-gradient(90deg,
+          $bcGreen 0px, $bcGreen 7px,
+          transparent 7px, transparent 15px
+        );
+      }
+
+      .customer-logo-box {
         display: flex;
         align-items: center;
         justify-content: center;
-        text-align: center;
-        font-size: 15px;
-    }
+        background-color: #F3F3F3;
+        border-radius: 12px;
+        padding: 0.5rem;
+        height: 80px;
+        width: 100%;
 
-    @media (min-width: $screen-sm-min) {
-        .used_by_box, .used_by_box_text {
-            height: 75px;
+        @media (min-width: $screen-md-min) {
+          width: 185px;
+          height: 100px;
+          padding: 1.25rem;
         }
-    }
+        transition: box-shadow 0.2s ease;
 
-    @media (min-width: $screen-md-min) {
-        .used_by_box, .used_by_box_text {
-            height: 100px;
-            font-size: 25px;
+        @media (min-width: $screen-md-min) {
+          height: 120px;
         }
-    }
 
-    @media (min-width: $screen-lg-min) {
-        .used_by_box, .used_by_box_text {
-            height: 150px;
+        &:hover {
+          box-shadow: 0 4px 14px rgba(0, 0, 0, 0.1);
         }
-    }
 
-    //video-style
+        img {
+          max-width: 100%;
+          max-height: 35px;
+          object-fit: contain;
+
+          @media (min-width: $screen-md-min) {
+            max-height: 65px;
+          }
+        }
+
+        &:hover img {
+          filter: grayscale(0%);
+          opacity: 1;
+        }
+      }
+    }
+    // End customer logo grid
+
+    // Testimonials section
+    .testimonial-section {
+      position: relative;
+      overflow: hidden;
+      background-color: $bcDarkGreen;
+      margin-bottom: 0;
+
+      @media (min-width: $screen-md-min) {
+        min-height: 700px;
+      }
+
+      .testimonial-heart-img {
+        display: block;
+        width: 300px;
+        height: auto;
+        margin: 2rem 0 2rem 0;
+        pointer-events: none;
+
+        @media (min-width: $screen-md-min) {
+          display: none;
+        }
+
+        @media (min-width: $site-width) {
+          display: block;
+          position: absolute;
+          left: 0;
+          top: 50%;
+          transform: translateY(-50%);
+          width: 380px;
+          height: auto;
+          max-width: none;
+          margin: 0;
+        }
+      }
+
+      .testimonial-content {
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 2rem 1rem;
+
+        @media (min-width: $screen-md-min) {
+          padding: 3rem 2rem;
+          justify-content: center;
+          min-height: 700px;
+        }
+
+        h2 {
+          color: white;
+          font-weight: 700;
+          margin-bottom: 1.25rem;
+          text-align: center;
+        }
+
+        .row {
+          width: 100%;
+          max-width: 840px;
+        }
+      }
+
+      .testimonial-card {
+        display: block;
+        position: relative;
+        border-radius: 12px;
+        overflow: hidden;
+        aspect-ratio: 3 / 4;
+        background-size: cover;
+        background-position: center;
+        transition: transform 0.2s ease, box-shadow 0.2s ease;
+        text-decoration: none;
+
+        &:hover {
+          transform: translateY(-3px);
+          box-shadow: 0 8px 24px rgba(0, 0, 0, 0.35);
+        }
+
+        @media (min-width: $screen-sm-min) {
+          aspect-ratio: 4 / 3;
+        }
+
+        @media (min-width: $screen-md-min) {
+          aspect-ratio: 3 / 4;
+        }
+
+        .testimonial-overlay {
+          position: absolute;
+          inset: 0;
+          background: rgba(0, 20, 0, 0.72);
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          padding: 0.6rem;
+          text-align: center;
+
+          @media (min-width: $screen-sm-min) {
+            padding: 1.25rem;
+          }
+
+          blockquote {
+            color: white;
+            font-style: normal;
+            font-weight: 700;
+            font-size: 0.65rem;
+            line-height: 1.45;
+            margin: 0 0 0.5rem;
+            padding: 0;
+            border: none;
+
+            @media (min-width: $screen-sm-min) {
+              font-size: 0.8rem;
+              line-height: 1.55;
+              margin: 0 0 0.75rem;
+            }
+
+            @media (min-width: $screen-md-min) {
+              font-size: 0.875rem;
+            }
+          }
+
+          cite {
+            color: $bcGreen;
+            font-size: 0.6rem;
+            font-style: normal;
+            font-weight: 600;
+
+            @media (min-width: $screen-sm-min) {
+              font-size: 0.75rem;
+            }
+          }
+        }
+      }
+    }
+    // End testimonials section
+
+    // Video slogan section
+    .video-slogan-section {
+      margin-bottom: -1rem;
+
+      .video-slogan-inner {
+        position: relative;
+        min-height: 90vw;
+        max-height: 70vh;
+        overflow: clip;
+        display: flex;
+        align-items: center;
+
+        @media (min-width: $screen-md-min) {
+          min-height: unset;
+        }
+
+        .video-slogan-overlay {
+          position: absolute;
+          inset: 0;
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          background: rgba(0, 0, 0, 0.45);
+          padding: 2rem 0;
+
+          h2 {
+            color: white;
+            font-weight: 800;
+            font-size: 2rem;
+            margin-bottom: 0.5rem;
+            text-align: left;
+
+            @media (min-width: $screen-md-min) {
+              font-size: 3rem;
+            }
+
+            @media (min-width: $screen-lg-min) {
+              font-size: 4rem;
+            }
+          }
+
+          p {
+            color: white;
+            text-align: left;
+            margin-bottom: 1.5rem;
+          }
+        }
+
+        .video-slogan-buttons {
+          display: flex;
+          flex-direction: column;
+          gap: 1rem;
+          align-items: flex-start;
+
+          @media (min-width: $screen-md-min) {
+            flex-direction: row;
+          }
+        }
+      }
+    }
 
     .video-style {
       video {
         width: 100%;
-        height: auto;
+        height: 100%;
+        object-fit: cover;
+        position: absolute;
+        top: 0;
+        left: 0;
+
+        @media (min-width: $screen-md-min) {
+          position: static;
+          height: auto;
+          object-fit: unset;
+        }
       }
 
-      video::-webkit-media-controls {
-        display: none;
-        -webkit-appearance: none;
-      }
     }
+    // End video slogan section
 }

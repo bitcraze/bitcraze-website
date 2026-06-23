@@ -1,63 +1,103 @@
 // Footer
 
-.site-footer,
-.site-footer-fluid {
-  background-color: $footer-background-color;
+.site-footer-redesign {
+  background: #E8EEDE;
+  // Push footer to bottom when content is short (sticky footer)
+  margin-top: auto;
 
-	padding-top: 15px;
-}
-
-.footer-nav,
-.footer-nav-fluid {
-	background-color: $footer-nav-background-color;
-
-  padding-top: 10px;
-  padding-bottom: 5px;
-}
-
-.site-footer,
-.footer-nav {
-  color: $footer-text-color;
-
-  h1,
-  h2,
-  h3 {
-    margin-top: 0;
-    padding-bottom: 15px;
+  .footer-links-container {
+    padding-top: 3rem;
+    padding-bottom: 1rem;
   }
 
-  a:not(.btn),
-  a:not(.btn) {
-	  color: $footer-link-color;
+  .footer-col {
+    margin-bottom: 2rem;
   }
 
-  a:hover:not(.btn),
-  a:focus:not(.btn) {
-	  color: $footer-hover-color;
+  .footer-col-heading {
+    font-weight: 700;
+    font-size: 0.85rem;
+    color: $bcDarkGreen;
+    margin-bottom: 1rem;
+    text-transform: uppercase;
+    letter-spacing: 0.06em;
   }
 
-  // Dividers between footer menu items
-  #footer-navigation ul.dividers > li:nth-child(n+2):before {
-    content: "";
-    display: inline-block;
-    height: 10px;
-    margin-right: 10px;
-    border-left: 1px solid #dddddd;
-  }
+  .footer-col-links {
+    list-style: none;
+    padding: 0;
+    margin: 0;
 
-  .menu-item-footer-portal {
-    font-weight: bold;
-  }
-
-  .site-credits img {
-    margin: 10px;
-  }
-
-  // Center menu and credits for phones
-  @media (max-width: 640px) {
-    .footer-nav-menu, .site-credits {
-      text-align: center;
-      float: none !important;
+    li {
+      margin-bottom: 0.5rem;
     }
+
+    a {
+      color: $bcDarkGrey;
+      text-decoration: none;
+      font-size: 0.9rem;
+
+      &:hover, &:focus {
+        color: $bcGreen;
+        text-decoration: none;
+      }
+    }
+  }
+
+  .footer-divider {
+    border: none;
+    border-top: 1px solid $bcLightGrey;
+    margin: 0;
+  }
+
+  .footer-bottom-container {
+    padding: 1.25rem 0;
+  }
+
+  .footer-social-block {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 0.75rem;
+    margin-bottom: 1rem;
+
+    @media (min-width: $screen-md-min) {
+      margin-bottom: 0;
+    }
+  }
+
+  .footer-social-label {
+    font-size: 0.85rem;
+    color: $bcGrey;
+    white-space: nowrap;
+  }
+
+  .footer-social-icons {
+    display: inline-flex;
+    gap: 1rem;
+
+    a {
+      color: $bcDarkGreen;
+      font-size: 1.2rem;
+      text-decoration: none;
+
+      &:hover, &:focus {
+        color: $bcGreen;
+      }
+    }
+  }
+
+  .footer-logo-block {
+    display: flex;
+    align-items: center;
+
+    @media (min-width: $screen-md-min) {
+      justify-content: flex-end;
+    }
+  }
+
+  .footer-logo {
+    height: 28px;
+    width: auto;
   }
 }

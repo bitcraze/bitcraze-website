@@ -1,61 +1,80 @@
 <div class="container-fluid navigation-fluid">
     <div class="row">
         <div class="col-md-12">
-            <nav id="site-navigation" class="main-navigation"
+            <nav id="site-navigation" class="main-navigation navbar navbar-expand-lg navbar-light"
                  role="navigation">
-                <div class="navbar navbar-default navbar-static-top">
-                    <div class="navbar-brand">
-                        <a href="/" rel="home"> <img
-                                src="/images/nav/navLogo.png"
-                                alt="Bitcraze logo"
-                                title="Bitcraze"/></a></div>
 
-                    <div class="navbar-right navbar-menu-section">
-                        <div class="navbar-social-search">
-                            <div class="social-bar">
-                                <a href="https://github.com/bitcraze"><i
-                                    class="fa-brands fa-github"></i></a>
-                                <a href="https://www.linkedin.com/company/bitcraze-ab/"><i
-                                    class="fa-brands fa-linkedin"></i></a>
-                                <a href="https://www.youtube.com/@BitcrazeVideos"><i 
-                                    class="fa-brands fa-youtube"></i></a>
-                                <a href="https://bsky.app/profile/bitcraze.io"><i
-                                    class="fa-brands fa-bluesky"></i></a>
-                                <a rel="me" href="https://fosstodon.org/@bitcraze"><i
-                                    class="fa-brands fa-mastodon"></i></a>
-                                <a href="/feed/" data-proofer-ignore><i
-                                        class="fa-solid fa-rss"></i></a>
-                            </div>
-                            <form role="search" method="get"
-                                  class="search-form form-inline"
-                                  action="/">
-                                <div class="form-group">
-                                    <label>
-                                        <span class="screen-reader-text sr-only">Search for:</span>
-                                        <i class="fa-solid fa-magnifying-glass"></i>
-                                        <input type="search"
-                                               class="search-field form-control"
-                                               placeholder="Search &hellip;"
-                                               value="" name="s">
-                                    </label>
-                                    <input type="submit"
-                                           class="search-submit btn btn-primary"
-                                           value="Search">
-                                </div>
-                            </form>
-                        </div>
+                <!-- Logo - Left -->
+                <div class="navbar-brand">
+                    <a href="/" rel="home">
+                        <img src="/images/nav/navbar-logo.webp"
+                             alt="Bitcraze logo"
+                             title="Bitcraze"/>
+                    </a>
+                </div>
 
-                        <button type="button" class="navbar-toggle"
-                                data-toggle="collapse"
-                                data-target=".navbar-collapse">
-                            <span class="icon-bar"></span>
-                            <span class="icon-bar"></span>
-                            <span class="icon-bar"></span>
-                        </button>
+                <!-- Hamburger toggler - Right on mobile -->
+                <button type="button" class="navbar-toggler ms-auto"
+                        data-bs-toggle="collapse"
+                        data-bs-target="#navbar-menu"
+                        aria-controls="navbar-menu"
+                        aria-expanded="false"
+                        aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
 
+                <!-- Collapsible content: store (mobile top) + menu items -->
+                <div class="navbar-collapse collapse" id="navbar-menu">
+
+                    <!-- Search bar: shown at top inside mobile menu only -->
+                    <div class="navbar-mobile-search d-lg-none">
+                        <form role="search" method="get" class="search-form w-100" action="/">
+                            <label class="w-100">
+                                <span class="sr-only">Search for:</span>
+                                <input type="search"
+                                       class="search-field form-control"
+                                       placeholder="Search &hellip;"
+                                       value="" name="s">
+                            </label>
+                            <button type="submit" class="search-submit">
+                                <i class="fa-solid fa-magnifying-glass"></i>
+                                <span class="sr-only">Search</span>
+                            </button>
+                        </form>
+                    </div>
+
+                    <!-- Store button: shown at top inside mobile menu only -->
+                    <div class="navbar-mobile-store d-lg-none">
+                        <a href="https://store.bitcraze.io/" class="btn btn-primary btn-color-secondary w-100">
+                            <i class="fa-solid fa-cart-shopping fa-fw"></i> Store
+                        </a>
+                    </div>
+
+                    <!-- Menu items - Center on desktop -->
+                    <div class="navbar-menu-center">
                         {% include menu.html %}
                     </div>
+
                 </div>
+
+                <!-- Search + Store - Right on desktop only -->
+                <div class="navbar-end d-none d-lg-flex ms-auto align-items-center">
+                    <form role="search" method="get" class="search-form" action="/">
+                        <label>
+                            <span class="sr-only">Search for:</span>
+                            <i class="fa-solid fa-magnifying-glass"></i>
+                            <input type="search"
+                                   class="search-field form-control"
+                                   placeholder="Search &hellip;"
+                                   value="" name="s">
+                        </label>
+                        <input type="submit" class="search-submit btn btn-primary" value="Search">
+                    </form>
+                    <a href="https://store.bitcraze.io/" class="btn btn-primary btn-color-secondary">
+                        <i class="fa-solid fa-cart-shopping fa-fw"></i> Store
+                    </a>
+                </div>
+
             </nav>
         </div>
     </div>

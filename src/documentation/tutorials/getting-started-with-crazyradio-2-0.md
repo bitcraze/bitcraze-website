@@ -93,5 +93,5 @@ If you missed it, unplug and re-plug the {% poplink crazyradio-2-0 %} to see the
 
 {% si_step Done! %}
 The {% poplink crazyradio-2-0 %} is now ready to use, and is
-compatible with all the products in the Crazyflie ecosystem.
+compatible with all the products in the Crazyflie<sup>®</sup> ecosystem.
 {% endsi_step %}

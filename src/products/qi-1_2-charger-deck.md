@@ -23,7 +23,7 @@ Charge your Crazyflie without plugging in a USB cable
 
 {% row_icon_text_links How it works; fa-cogs %}
 {% row_text %}
-Want to charge your Crazyflie without connecting the &mu;USB cable?
+Want to charge your Crazyflie<sup>®</sup> without connecting the &mu;USB cable?
 Then the Qi 1.2 inductive charging expansion board is a great
 option. It supports the Qi standard and can be used with the same Qi
 charger you have for your phone or tablet. It also supports the latest

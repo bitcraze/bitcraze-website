@@ -1,14 +1,12 @@
-<div class="container-fluid content-header-fluid">
-    <header class="row content-header">
-        <div class="col-md-12">
-            <!-- inject wp title begin -->
-            <h1 class="page-title">{{page.title}}</h1>
-            <!-- inject wp title end -->
-        </div>
-    </header>
+<div class="content-header-fulltext">
+  <div class="container-fluid">
     <div class="row">
-        <div class="col-md-12 breadcrumbs">
-            {% include breadcrumbs.html %}
-        </div>
+      <div class="col-md-12">
+        <nav class="fulltext-breadcrumbs">{% include breadcrumbs.html %}</nav>
+        <!-- inject wp title begin -->
+        <h1 class="fulltext-page-title">{{page.title}}</h1>
+        <!-- inject wp title end -->
+      </div>
     </div>
+  </div>
 </div>

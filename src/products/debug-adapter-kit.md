@@ -23,7 +23,7 @@ Connect a standard JTAG and SWD debugger to the Crazyflie 2.x.
 
 {% row_icon_text_links How it works; fa-cogs %}
 {% row_text %}
-One of our goals is to make development with the Crazyflie 2.x as easy
+One of our goals is to make development with the Crazyflie<sup>®</sup> 2.x as easy
 as possible. Due to the small size of the platform there are limitations
 in what connectors we can have and therefore we designed a debug-adapter
 kit that makes connecting a debugger to either of the MCUs a lot

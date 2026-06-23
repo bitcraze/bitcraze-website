@@ -20,7 +20,7 @@ All you need and a bit more
 
 {% collapse_section Read more %}
 
-It's not only a good flyer, the Crazyflie 2.0 is also equipped with low-latency/long-range
+It's not only a good flyer, the Crazyflie<sup>®</sup> 2.0 is also equipped with low-latency/long-range
 radio as well as Bluetooth LE. This gives you the option of downloading our app and using your mobile device as a controller or,
 in combination with the {% poplink crazyradio-2-0 %} or [Crazyradio PA](/products/crazyradio-pa/), using your computer to display data and fly with a game
 controller.
@@ -160,7 +160,7 @@ it's a breeze to update.
 
 #### Projects
 
-{% hackster chathuranga-liyanage/beginner-s-guide-to-autonomous-quadcopters-9b5382 %}
+{% hackster tharindu-liyanage/beginner-s-guide-to-autonomous-quadcopters-9b5382 %}
 {% hackster krichardsson/light-paint-with-a-drone-d050af %}
 {% hackster ataffanel/crazyfblimp-6a081b %}
 {% hackster krichardsson/bike-turning-signal-75d988 %}

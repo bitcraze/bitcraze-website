@@ -8,7 +8,7 @@ redirects:
 
 {% row_full %}
 
-The main client for controlling the Crazyflie device family is the python client that runs on a PC and communicates via the {% poplink crazyradio-2-0 %} USB dongle. The client uses a python library, which also is the main connection point for programs and scripts that communicate with the devices.
+The main client for controlling the Crazyflie<sup>®</sup> device family is the python client that runs on a PC and communicates via the {% poplink crazyradio-2-0 %} USB dongle. The client uses a python library, which also is the main connection point for programs and scripts that communicate with the devices.
 
 Swarms of Crazyflies can be controlled through the python library, the external CrazySwarm project or other software.
 

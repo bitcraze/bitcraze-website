@@ -7,7 +7,7 @@ redirects:
 ---
 
 {% si_intro Crazyflie assembly %}
-The Crazyflie is sold as a kit, it requires some assembly and soldering.
+The Crazyflie<sup>®</sup> is sold as a kit, it requires some assembly and soldering.
 There is  a video describing the assembly steps:
 
 {% youtube KeqiUPIDpV8; medium; 16by9 %}

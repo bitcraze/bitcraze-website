@@ -5,7 +5,7 @@ title: License
 
 ## It's open
 
-The Crazyflie eco system is an open development platform consisting of open
+The Crazyflie<sup>®</sup> eco system is an open development platform consisting of open
 hardware and open source firmware/software. The reason for making it open is
 that we want users to be able to hack, modify, experiment and learn from our
 platform. The projects are developed using only open tools. Since our projects

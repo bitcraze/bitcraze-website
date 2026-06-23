@@ -19,7 +19,7 @@ page_id: product-crazyradio-2-0
 Crazyradio 2.0 is a long range open USB radio dongle based on the nRF52840 from Nordic Semiconductor, featuring a
 20dBm power amplifier and LNA.
 
-The Crazyradio 2.0 is not only for usage together with the Crazyflie family of devices, since
+The Crazyradio 2.0 is not only for usage together with the Crazyflie<sup>®</sup> family of devices, since
 it's an open project with open firmware and a Python API, it's a great
 building block for systems that require more predictable latency compared to WiFi and doesn't have the same
 requirements for bandwidth. The hardware comes with a

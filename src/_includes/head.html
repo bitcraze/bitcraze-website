@@ -9,21 +9,23 @@
     <!-- Load KaTeX CSS. Note this must match the version of katex in the docker-web-builder -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.13.3/katex.min.css" type='text/css' media='all'>
     <link rel='stylesheet' href='/css/kraken.css?t={{ site.time | date: "%Y%m%d-%H%M%S"}}' type='text/css' media='all' />
-    <link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Lato:300,400,700|Raleway:400,300,500,600,700|Droid Sans:300,400,700;' type='text/css' media='screen' />
+    <link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Lato:300,400,700,900|Cairo:400,300,500,600,700|Quantico:400,300,500,600,700|Droid Sans:300,400,700;' type='text/css' media='screen' />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
 
-    <script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
-    <script type='text/javascript' src='/js/jquery.smooth-scroll.min.js'></script>
-
-    <script type='text/javascript' src='/js/cookiepopup.js?t={{ site.time | date: "%Y%m%d-%H%M%S"}}'></script>
-    <script type='text/javascript' src='/js/kraken.js?t={{ site.time | date: "%Y%m%d-%H%M%S"}}'></script>
+    <script type='text/javascript' src='/javascripts/bootstrap.bundle.min.js' defer></script>
+    <script type='text/javascript' src='/js/cookiepopup.js?t={{ site.time | date: "%Y%m%d-%H%M%S"}}' defer></script>
+    <script type='text/javascript' src='/js/kraken.js?t={{ site.time | date: "%Y%m%d-%H%M%S"}}' defer></script>
     <script>
         window.addEventListener("DOMContentLoaded", function(){
             cookiepopup.start();
+            document.querySelectorAll('a[href^="http"]').forEach(function(link) {
+                if (link.hostname !== window.location.hostname) {
+                    link.setAttribute('target', '_blank');
+                    link.setAttribute('rel', 'noopener noreferrer');
+                }
+            });
         });
     </script>
-
-    <script type='text/javascript' src='/javascripts/bootstrap.min.js'></script>
     <!-- inject wp header title begin -->
     <title>{{page.title}} | Bitcraze</title>
     <!-- inject wp header title end -->
