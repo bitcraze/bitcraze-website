@@ -373,7 +373,7 @@ page_id: home
 <!-- Video Slogan Section Start -->
 <div class="container-fluid px-0 video-slogan-section">
   <div class="video-slogan-inner video-style video-no-controls">
-    <video autoplay muted loop>
+    <video autoplay muted loop playsinline webkit-playsinline aria-hidden="true">
       <source src="/videos/front-hover.mp4" type="video/mp4">
     </video>
     <div class="video-slogan-overlay">

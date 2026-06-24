@@ -213,11 +213,11 @@
   }
 
   #ecosystem-section {
-    padding-top: 12rem;
+    padding-top: 7rem;
     padding-bottom: 5rem;
 
     @media (min-width: $screen-md-min) {
-      padding-top: 20rem;
+      padding-top: 12rem;
     }
   }
 
@@ -496,11 +496,6 @@
       flex-direction: column;
       justify-content: center;
       align-items: center;
-      transition: transform 0.3s ease;
-
-      &:hover {
-        transform: translateY(-5px);
-      }
 
       .card-icon {
         font-size: 3rem;
