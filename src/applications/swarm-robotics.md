@@ -34,7 +34,7 @@ redirects:
 <!-- ── Section 2: Research Opportunities ─────────────────────────────────── -->
 <div class="app-concept-row">
   <div class="app-concept-img-bleed">
-    <img src="/images/applications/appl-card-swarm.jpg" alt="Swarm Robotics">
+    <img src="/images/applications/appl-card-swarm.webp" alt="Swarm Robotics">
   </div>
   <div class="container">
     <div class="row align-items-stretch">

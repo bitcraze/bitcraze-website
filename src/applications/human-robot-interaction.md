@@ -36,7 +36,7 @@ redirects:
 <!-- ── Section 2: From Concept to Controlled Autonomy ───────────────────── -->
 <div class="app-concept-row">
   <div class="app-concept-img-bleed">
-    <img src="/images/applications/appl-card-hri.jpg" alt="Human-Robot Interaction">
+    <img src="/images/applications/appl-card-hri.webp" alt="Human-Robot Interaction">
   </div>
   <div class="container">
     <div class="row align-items-stretch">
