@@ -373,8 +373,9 @@ page_id: home
 <!-- Video Slogan Section Start -->
 <div class="container-fluid px-0 video-slogan-section">
   <div class="video-slogan-inner video-style video-no-controls">
-    <video autoplay muted loop playsinline webkit-playsinline aria-hidden="true">
-      <source src="/videos/front-hover.mp4" type="video/mp4">
+    <video muted loop playsinline webkit-playsinline aria-hidden="true"
+           preload="none" poster="/videos/front-hover-poster.webp" data-lazy-video>
+      <source data-src="/videos/front-hover.mp4" type="video/mp4">
     </video>
     <div class="video-slogan-overlay">
       <div class="container">
@@ -391,6 +392,40 @@ page_id: home
 <!-- Video Slogan Section End -->
 
 <!-- JS Scripts Start -->
+  <script>
+    // Lazy-load the below-the-fold background video: it only fetches and plays
+    // once it nears the viewport, keeping ~0.4 MB off the initial page load.
+    (function () {
+      const video = document.querySelector('video[data-lazy-video]');
+      if (!video) return;
+
+      function loadAndPlay() {
+        const source = video.querySelector('source[data-src]');
+        if (source && !source.src) {
+          source.src = source.dataset.src;
+          video.load();
+        }
+        const p = video.play();
+        if (p && p.catch) p.catch(function () {});
+      }
+
+      if ('IntersectionObserver' in window) {
+        const io = new IntersectionObserver(function (entries) {
+          entries.forEach(function (entry) {
+            if (entry.isIntersecting) {
+              loadAndPlay();
+              io.disconnect();
+            }
+          });
+        }, { rootMargin: '200px' });
+        io.observe(video);
+      } else {
+        // Fallback for browsers without IntersectionObserver
+        loadAndPlay();
+      }
+    })();
+  </script>
+
   <script>
     ['one', 'two', 'three', 'four', 'five', 'six'].forEach(function(id) {
       const el = document.getElementById(id);
