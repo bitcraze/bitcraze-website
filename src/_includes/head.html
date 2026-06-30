@@ -6,11 +6,26 @@
     {% endif %}
     <link rel="alternate" type="application/rss+xml" title="Bitcraze » Feed" href="/feed/" data-proofer-ignore>
     <link rel="alternate" type="application/rss+xml" title="Bitcraze » Comments Feed" href="/comments/feed/" data-proofer-ignore>
-    <!-- Load KaTeX CSS. Note this must match the version of katex in the docker-web-builder -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.13.3/katex.min.css" type='text/css' media='all'>
+    <!-- Speed up the third-party CSS connections (DNS + TLS) before they are requested -->
+    <link rel="preconnect" href="https://cdnjs.cloudflare.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <!-- Critical site styles: kept render-blocking to avoid a flash of unstyled content -->
     <link rel='stylesheet' href='/css/kraken.css?t={{ site.time | date: "%Y%m%d-%H%M%S"}}' type='text/css' media='all' />
-    <link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Lato:300,400,700,900|Cairo:400,300,500,600,700|Quantico:400,300,500,600,700|Droid Sans:300,400,700;' type='text/css' media='screen' />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+
+    <!-- Non-critical CSS: loaded asynchronously so it no longer blocks first render / LCP.
+         The media="print" + onload swap trick lets the browser fetch them at low priority
+         and apply them once ready; the <noscript> fallback covers JS-disabled clients. -->
+    <!-- Load KaTeX CSS. Note this must match the version of katex in the docker-web-builder -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.13.3/katex.min.css" media="print" onload="this.media='all'">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" media="print" onload="this.media='all'">
+    <link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Lato:300,400,700,900|Cairo:400,300,500,600,700|Quantico:400,300,500,600,700|Droid Sans:300,400,700;&display=swap' media="print" onload="this.media='all'" />
+    <noscript>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.13.3/katex.min.css" type='text/css' media='all'>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+        <link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Lato:300,400,700,900|Cairo:400,300,500,600,700|Quantico:400,300,500,600,700|Droid Sans:300,400,700;&display=swap' type='text/css' media='screen' />
+    </noscript>
 
     <script type='text/javascript' src='/javascripts/bootstrap.bundle.min.js' defer></script>
     <script type='text/javascript' src='/js/cookiepopup.js?t={{ site.time | date: "%Y%m%d-%H%M%S"}}' defer></script>
