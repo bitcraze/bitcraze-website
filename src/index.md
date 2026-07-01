@@ -375,7 +375,7 @@ page_id: home
   <div class="video-slogan-inner video-style video-no-controls">
     <video muted loop playsinline webkit-playsinline aria-hidden="true"
            preload="none" poster="/videos/front-hover-poster.webp" data-lazy-video>
-      <source data-src="/videos/front-hover.mp4" type="video/mp4">
+      <source data-src="/videos/front-hover.mp4" type="video/mp4" data-proofer-ignore>
     </video>
     <div class="video-slogan-overlay">
       <div class="container">
