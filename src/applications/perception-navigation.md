@@ -35,7 +35,7 @@ redirects:
 <!-- ── Section 2: From Concept to Controlled Autonomy ───────────────────── -->
 <div class="app-concept-row">
   <div class="app-concept-img-bleed">
-    <img src="/images/applications/appl-card-perc-nav.jpg" alt="Perception and Navigation">
+    <img src="/images/applications/appl-card-perc-nav.webp" alt="Perception and Navigation">
   </div>
   <div class="container">
     <div class="row align-items-stretch">

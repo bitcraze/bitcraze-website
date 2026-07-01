@@ -35,7 +35,7 @@ redirects:
 <!-- ── Section 2: From Concept to Controlled Autonomy ───────────────────── -->
 <div class="app-concept-row">
   <div class="app-concept-img-bleed">
-    <img src="/images/applications/appl-card-aerial.jpg" alt="Aerial Manipulation">
+    <img src="/images/applications/appl-card-aerial.webp" alt="Aerial Manipulation">
   </div>
   <div class="container">
     <div class="row align-items-stretch">
