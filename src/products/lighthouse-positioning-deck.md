@@ -25,7 +25,7 @@ Enabling high precision autonomous flying and swarming
 {% row_text %}
 
 With Crazyflie<sup>®</sup> and the {% poplink lighthouse-deck %}, high precision autonomous flight becomes
-available for everyone. The Lighthouse deck uses the HTC Vive base stations (aka Lighthouse V1) or SteamVR Base Station 2.0 (aka Lighthouse V2) to achieve high precision positioning. The deck has 4 receivers which gives the full pose of the Crazyflie.
+available for everyone. The deck has 4 receivers which gives the full pose of the Crazyflie. The Lighthouse deck uses the HTC Vive base stations (aka Lighthouse V1) or SteamVR Base Station 2.0 (aka Lighthouse V2) to achieve high precision positioning.
 
 The position and pose is calculated directly in the Crazyflie, which makes it possible to create fully autonomous systems without external communication.
 
@@ -62,8 +62,9 @@ See [the compatibility matrix]({% id_url cf2_expansiondecks %}#compatibility-mat
 {% row_icon_text_links Usage; fa-book %}
 {% row_text %}
 
-Go to the [getting started tutorial of the lighthouse positioning system]({% id_url getting-started-with-the-lighthouse-system %}). Also for more general information over how the crazyflie fits in our positioning systems in general, go to {% id_link overview_positioning %}.
-{% youtube DCEHht72B08; wide; 16by9 %}
+To get from zero to an autonomously flying Crazyflie with the Lighthouse system, follow the [Getting started tutorial of the Lighthouse positioning system]({% id_url getting-started-with-the-lighthouse-system %}). 
+
+For more general information about our positioning systems in general and how the Lighthouse system compares, go to {% id_link overview_positioning %}.
 
 {% endrow_text %}
 {% row_links %}
@@ -85,9 +86,9 @@ Go to the [getting started tutorial of the lighthouse positioning system]({% id_
 
 #### Firmware Implementation
 
-All the Lighthouse positioning is estimated onboard of the crazyflie. Go the the [technical documentation of the lighthouse positioning system](/documentation/repository/crazyflie-firmware/master/functional-areas/lighthouse/) of it is implemented into the [Crazyflie Firmware](https://github.com/bitcraze/crazyflie-firmware).
+The Lighthouse position is calculated onboard the Crazyflie. For implementation details, see the [technical documentation of the Lighthouse positioning system](/documentation/repository/crazyflie-firmware/master/functional-areas/lighthouse/) and the [Crazyflie Firmware](https://github.com/bitcraze/crazyflie-firmware).
 
-It is important to have a good feel for the [stabilizer module of the crazyflie](/documentation/repository/crazyflie-firmware/master/functional-areas/sensor-to-control/), in particular state estimation with the [Extended Kalman Filter](/documentation/repository/crazyflie-firmware/master/functional-areas/sensor-to-control/state_estimators/#extended-kalman-filter)
+To work with the implementation of the Lighthouse system, it is important to have a good feel for the [stabilizer module of the crazyflie](/documentation/repository/crazyflie-firmware/master/functional-areas/sensor-to-control/), in particular state estimation with the [Extended Kalman Filter](/documentation/repository/crazyflie-firmware/master/functional-areas/sensor-to-control/state_estimators/#extended-kalman-filter)
 
 #### Hardware Hack: Using a LH deck with other hardware
 
@@ -97,7 +98,7 @@ The pads GND and VCOM can be used to supply power to the deck. There is a 3.0V L
 
 RX and TX are connected directly to the iCE40LP5K FPGA. The FPGA is quite sensitive and the maximum voltage that can be applied to these pins is 3.2V, applying more than that will damage the FPGA. This makes the deck incompatible with 3.3V system out of the box, but adding a voltage-divider before RX and making sure there is never a pull-up to TX would be enough to interface the deck with a 3.3V system.
 
-The deck boots in [bootloader mode](/documentation/repository/lighthouse-bootloader/master/) , the external system is responsible to update the bitstream if necessary and boot the board using the serial port.
+The deck boots in [bootloader mode](/documentation/repository/lighthouse-bootloader/master/), the external system is responsible to update the bitstream if necessary and boot the board using the serial port.
 
 Note: there is no software support for using the {% poplink lighthouse-deck %} with other hardware.
 
