@@ -39,7 +39,7 @@ Using multiple receivers, the Crazyflie can determine its own position and orien
 ### V1 and V2
 
 The lighthouse system uses [Lighthouse base stations](https://store.bitcraze.io/products/lighthouse-v2-base-station) as beacons.
-Two generations are supported: [V1](https://www.vive.com/eu/accessory/base-station/) and [V2](https://store.bitcraze.io/products/lighthouse-v2-base-station).
+Two generations are supported: [V1](https://www.vive.com/us/accessory/base-station/) and [V2](https://store.bitcraze.io/products/lighthouse-v2-base-station).
 
 Lighthouse V1 uses two rotating drums while V2 uses one drum with two slanted light planes. V1 supports up to 2 base stations; V2 is designed for up to 16. The Crazyflie firmware currently supports up to 4 base stations by default, with more available through custom firmware configuration. V2 is the recommended and actively developed option in the Crazyflie ecosystem.
 
@@ -56,7 +56,6 @@ Lighthouse V1 uses two rotating drums while V2 uses one drum with two slanted li
 {% endrow_text %}
 {% row_links %}
 * [Lighthouse base station V2](https://store.bitcraze.io/products/lighthouse-v2-base-station)
-* [Vive Base Station Information](https://www.vive.com/eu/accessory/base-station2/)
 {% endrow_links %}
 {% endrow_video_text_links %}
 

@@ -49,7 +49,7 @@ The table below compares these three positioning systems, highlighting their dif
 
 |                          | Loco Positioning System                     | Lighthouse Positioning System              | Motion Capture |
 |--------------------------|---------------------------------------------|--------------------------------------------|----------------|
-| Area max covered         | 50x50 m (not tested)                        | 5x5x5 m                                    | Unlimited      |
+| Area max covered         | 50x50 m (not tested)                        | 8x8x3 m                                    | Unlimited      |
 | Accuracy                 | dm                                          | mm                                         | mm             |
 | Environment requirements | Line of sight preferred for better accuracy | Line of sight <br><br> No glass or mirrors | Line of sight  |
 | Scalability              | Good                                        | To 4 base stations                         | Good           |

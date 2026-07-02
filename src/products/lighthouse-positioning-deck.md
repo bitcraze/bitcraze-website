@@ -62,9 +62,9 @@ See [the compatibility matrix]({% id_url cf2_expansiondecks %}#compatibility-mat
 {% row_icon_text_links Usage; fa-book %}
 {% row_text %}
 
-To get from zero to an autonomously flying Crazyflie with the Lighthouse system, follow the [Getting started tutorial of the Lighthouse positioning system]({% id_url getting-started-with-the-lighthouse-system %}). 
+To get from zero to an autonomously flying Crazyflie with the Lighthouse system, follow the [Getting started with the Lighthouse system]({% id_url getting-started-with-the-lighthouse-system %}) tutorial. 
 
-For more general information about our positioning systems in general and how the Lighthouse system compares, go to {% id_link overview_positioning %}.
+For more general information about our positioning systems and how the Lighthouse system compares, go to {% id_link overview_positioning %}.
 
 {% endrow_text %}
 {% row_links %}
