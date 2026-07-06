@@ -14,10 +14,10 @@ The Lighthouse positioning system uses the SteamVR Base Stations from Valve Inc.
 
 {% si_step Prerequisites - hardware %}
 Make sure that you have the following available:
-* A [Crazyflie platform]({% id_url overview_crazyflie; family-tree %})
+* A [Crazyflie platform]({% id_url overview_crazyflie; family-tree %}) - if you haven't set it up yet, follow the [getting started tutorial](/documentation/tutorials/#set-up-the-crazyflie)
 * A {% poplink lighthouse-deck %}
 * 2-4 [Lighthouse base stations V2.0](https://store.bitcraze.io/products/lighthouse-v2-base-station) (recommended) or 2 Lighthouse base stations V1.0
-* {% poplink crazyradio-2-0 %} or {% id_link product-crazyradio-pa %}
+* {% poplink crazyradio-2-0 %} or {% id_link product-crazyradio-pa %} - if you haven't set the Crazyradio 2.0 up yet, follow the [getting started tutorial](/documentation/tutorials/getting-started-with-crazyradio-2-0/)
 {% endsi_step %}
 
 {% si_step  Prerequisites - software %}
