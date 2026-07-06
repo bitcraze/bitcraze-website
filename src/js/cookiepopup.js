@@ -27,7 +27,11 @@ var cookiepopup = {
     sessionKey: "CookiePolicyAccepted",
     start: function() {
         if (!cookiepopup.isCrawler() && !cookiepopup.hasUserAcceptedPolicy()) {
-            document.body.innerHTML = '<div id="cookiePolicyPopup" style="line-height: 1.5; position: fixed; bottom: 16px; right: 16px; width: 300px; background-color: #003000; color: white; font-family: Lato, sans-serif; font-size: 14px; padding: 16px; border: 2px solid #95C941; border-radius: 8px; z-index:999; box-shadow: 0 4px 24px rgba(0,0,0,0.4);"><span style="color:#95C941; font-weight:bold;">&gt;&gt;</span> We use cookies to give you a good experience when visiting bitcraze.io. By using our site, you agree to our <a href="https://www.bitcraze.io/cookies/" target="_blank" rel="noopener noreferrer" style="color:#95C941;">use of cookies</a>.<br><br><a onclick="cookiepopup.acceptCookiePolicy();" style="display:inline-block; cursor:pointer; text-decoration:none; color:#003000; background-color:#95C941; padding: 6px 20px; border-radius: 20px; font-weight: bold; font-size: 13px;">OK, got it!</a></div>' + document.body.innerHTML;
+            // Prepend the (position:fixed) popup without rebuilding the body.
+            // Reassigning document.body.innerHTML would re-parse the whole page,
+            // orphaning existing event listeners, IntersectionObservers and media
+            // element state (e.g. the lazy-loaded front-page background video).
+            document.body.insertAdjacentHTML('afterbegin', '<div id="cookiePolicyPopup" style="line-height: 1.5; position: fixed; bottom: 16px; right: 16px; width: 300px; background-color: #003000; color: white; font-family: Lato, sans-serif; font-size: 14px; padding: 16px; border: 2px solid #95C941; border-radius: 8px; z-index:999; box-shadow: 0 4px 24px rgba(0,0,0,0.4);"><span style="color:#95C941; font-weight:bold;">&gt;&gt;</span> We use cookies to give you a good experience when visiting bitcraze.io. By using our site, you agree to our <a href="https://www.bitcraze.io/cookies/" target="_blank" rel="noopener noreferrer" style="color:#95C941;">use of cookies</a>.<br><br><a onclick="cookiepopup.acceptCookiePolicy();" style="display:inline-block; cursor:pointer; text-decoration:none; color:#003000; background-color:#95C941; padding: 6px 20px; border-radius: 20px; font-weight: bold; font-size: 13px;">OK, got it!</a></div>');
         }
     },
     isCrawler: function() {
