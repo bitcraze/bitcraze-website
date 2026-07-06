@@ -7,18 +7,14 @@ redirects:
 ---
 
 {% row_full %}
-The Crazyflie<sup>®</sup> 2.x (as most other quadcopters and robots) has no real notion of
-its position in space. The on board sensors (accelerometers and gyros) can be
-used to give a rough idea of its movements but lacks the accuracy for long term
-position awareness. The solution is to use an external system that can provide
-information of the current position.
+The Crazyflie<sup>®</sup> 2.x (as most other quadcopters and robots) has no inherent notion of its position in space. The onboard sensors (accelerometers and gyros) can give a rough idea of movement but lack the accuracy for long-term position awareness. The solution is to use an external system that provides information about the current position.
 {% endrow_full %}
 
 ---
 
 {% row_image_text_links Lighthouse positioning System; /images/documentation/overview/lighthouse.png %}
 {% row_text %}
-The lighthouse positioning system is our latest method of positioning on the Crazyflie 2.x. The [Lighthouse base stations](https://store.bitcraze.io/products/lighthouse-v2-base-station) are used here, and they emit infrared laser scans that are detected by our {% poplink lighthouse-deck %}. This enables the crazyflie to (like with the Loco Positioning System) calculate its own position on board.
+The Lighthouse positioning system is our latest method of positioning on the Crazyflie 2.x. The [Lighthouse base stations](https://store.bitcraze.io/products/lighthouse-v2-base-station) emit infrared laser scans that are detected by our {% poplink lighthouse-deck %}, enabling the Crazyflie to calculate its own position onboard, just like with the Loco Positioning System.
 {% endrow_text %}
 
 {% row_links %}
@@ -29,7 +25,7 @@ The lighthouse positioning system is our latest method of positioning on the Cra
 
 {% row_image_text_links Loco Positioning System; /images/documentation/overview/lpssystem.png %}
 {% row_text %}
-The crazyflie can detect its position by means of our Loco Positioning System. Here we use UWB modules (Decawave's DWM1000), which can measure the distance between each other. With the ranges of at least 4, but rather 8, {% id_link product-loco-pos-node %}, and a {% poplink loco-positioning-deck %}, the crazyflie can calculate its own position onboard. Our {% id_link product-roadrunner %} is a stand-alone tag which can also work with our Loco Positioning System system, if you require another platform than the Crazyflie.
+The Crazyflie can calculate its position using our Loco Positioning System. It uses UWB modules (Decawave's DWM1000) that measure the distance between each other. With at least 4, but preferably 8, {% id_link product-loco-pos-node %}, and a {% poplink loco-positioning-deck %}, the Crazyflie can calculate its own position onboard.
 {% endrow_text %}
 
 {% row_links %}
@@ -40,7 +36,7 @@ The crazyflie can detect its position by means of our Loco Positioning System. H
 
 {% row_image_text_links Motion Capture Positioning; /images/documentation/overview/motioncapture.png %}
 {% row_text %}
-The Crazyflie can be positioned using reflective markers and infrared motion capture cameras. We use [Qualysis](https://www.qualisys.com/) in our own office but researchers and hobbiest have used the Crazyflie with MCS cameras of [Vicon](https://www.vicon.com/) and [Optitrack](https://optitrack.com/) as well. The main principle of using the MCS for positioning is that the cameras emit infrared light, which are reflected back by special reflective markers. This will enable the IR-cameras to detect the location of the marker, which the MPC software on an external computer will calculate the actual position from. This information can then send to the Crazyflie through the {% poplink crazyradio-2-0 %} / Crazyradio PA. Also, check out our {% poplink motion-capture-marker-deck %}.
+The Crazyflie can be positioned using reflective markers and infrared motion capture cameras. We use [Qualisys](https://www.qualisys.com/) in our own office, but researchers and hobbyists have used the Crazyflie with MCS cameras from [Vicon](https://www.vicon.com/) and [Optitrack](https://optitrack.com/) as well. The main principle is that the cameras emit infrared light, which is reflected back by special reflective markers, enabling the IR-cameras to detect the location of the marker, which the MPC software on an external computer will calculate the actual position from. This information can then be sent to the Crazyflie through the {% poplink crazyradio-2-0 %}. Check out our {% poplink motion-capture-marker-deck %} for an easy way of placing the reflective markers on the Crazyflie.
 {% endrow_text %}
 
 {% row_links %}
@@ -48,15 +44,16 @@ The Crazyflie can be positioned using reflective markers and infrared motion cap
 {% endrow_links %}
 {% endrow_image_text_links %}
 
---- 
-The table below compares these three positioning systems, highlighting their differences and similarities. This side-by-side comparison provides a clear overview to help you quickly assess which system best suits your needs. 
+{% row_full %}
+The table below compares these three positioning systems, highlighting their differences and similarities. This side-by-side comparison provides a clear overview to help you quickly assess which system best suits your needs.
 
-|                          | Loco Positioning system                     | Lighthouse Positioning system              | Motion Capture |
+|                          | Loco Positioning System                     | Lighthouse Positioning System              | Motion Capture |
 |--------------------------|---------------------------------------------|--------------------------------------------|----------------|
-| Area max covered         | 50mx50m (not tested)                        | 5x5x5                                      | Unlimited      |
-| Accuracy                 | cm                                          | mm                                         | mm             |
+| Area max covered         | 50x50 m (not tested)                        | 8x8x3 m                                    | Unlimited      |
+| Accuracy                 | dm                                          | mm                                         | mm             |
 | Environment requirements | Line of sight preferred for better accuracy | Line of sight <br><br> No glass or mirrors | Line of sight  |
 | Scalability              | Good                                        | To 4 base stations                         | Good           |
 | Ease of setup            | Medium                                      | Easy                                       | Difficult      |
-| Positioning              | On Board                                    | On Board                                   | Off board      |
+| Positioning              | Onboard                                     | Onboard                                    | Offboard       |
 | Cost                     | $$                                          | $                                          | $$$            |
+{% endrow_full %}
