@@ -136,11 +136,12 @@ Place the Crazyflie within the flight area so that it has a clear line of sight 
 
 {% si_step Estimate the geometry %}
 Once you have received the calibration data, it is time to estimate where the base stations are located.
-This process will generate a configuration file that is stored in the Crazyflie and used to estimate its position.
+For this geometry estimation process, a series of estimation samples need to be collected.
+The final result, is a configuration file that is stored in the Crazyflie and used to estimate its position.
 
 1. Press **Start set up** in the **System Management** section to expand the setup sections.
 
-2. Follow the steps in the **Sample Collection** section, using the "**<**" and "**>**" buttons to move between them:
+2. Follow the steps in the **Sample Collection** section for collecting the estimation and optionally some verification samples. Use the "**<**" and "**>**" buttons to move between the steps:
 
 * **Origin sample**: Place the Crazyflie at the desired origin of your coordinate system and press **Start measurement**
 * **X-axis sample**: Place the Crazyflie 1 m along the positive X-axis and press **Start measurement**
