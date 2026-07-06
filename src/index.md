@@ -17,7 +17,7 @@ page_id: home
 
       <div class="header_image">
         <a href="/products/crazyflie-2-1-brushless/">
-          <img src="/images/frontpage/front-cf-bl.png" alt="Crazyflie 2.1 Brushless">
+          <img src="/images/frontpage/front-cf-bl.webp" alt="Crazyflie 2.1 Brushless">
         </a>
       </div>
 
@@ -35,7 +35,7 @@ page_id: home
 
   <div id="ecosystem-section" class="row what-we-do-section-padding section-content justify-content-center align-items-center">
     <div class="col-md-5 col-lg-4">
-      <img src="/images/frontpage/front-ecosystem.png" alt="The Crazyflie Ecosystem" class="w-100">
+      <img src="/images/frontpage/front-ecosystem.webp" alt="The Crazyflie Ecosystem" class="w-100">
     </div>
     <a href="/documentation/system/" class="col-md-4 col-lg-3 ms-n5 text-block-box text-box_open_source">
       <div class="header-text">
@@ -77,7 +77,7 @@ page_id: home
         <p><b>Explore All Decks <img src="/images/frontpage/front-arrow.png" alt="→" class="fp-arrow-img"></b></p>
       </div>
       <div class="col-md-4">
-        <img src="/images/frontpage/front-expansion.png" alt="Expansion Decks" class="w-100">
+        <img src="/images/frontpage/front-expansion.webp" alt="Expansion Decks" class="w-100">
       </div>
     </a>
   </div>
@@ -85,7 +85,7 @@ page_id: home
   <div id="two" class="row positioning-section-bg what-we-do-section-padding section-content justify-content-center align-items-center">
     <a href="/documentation/system/positioning/" class="col-md-10 col-lg-8 d-flex align-items-center justify-content-center text-block-box text-box_positioning">
       <div class="col-md-4">
-        <img src="/images/frontpage/front-positioning.png" alt="Positioning Systems" class="w-100">
+        <img src="/images/frontpage/front-positioning.webp" alt="Positioning Systems" class="w-100">
       </div>
       <div class="col-md-6 fp-section-text">
         <h2>
@@ -109,7 +109,7 @@ page_id: home
         <p><b>Explore Software & Tools <img src="/images/frontpage/front-arrow.png" alt="→" class="fp-arrow-img"></b></p>
       </div>
       <div class="col-md-4">
-        <img src="/images/frontpage/front-open-source.png" alt="Open Source" class="w-100">
+        <img src="/images/frontpage/front-open-source.webp" alt="Open Source" class="w-100">
       </div>
     </a>
   </div>
@@ -179,7 +179,7 @@ page_id: home
   <div class="appl-cards-grid">
     <div class="appl-card appl-card--swarm">
       <div class="appl-card-img-wrap">
-        <img src="/images/applications/appl-card-swarm.jpg" alt="Swarm Robotics">
+        <img src="/images/applications/appl-card-swarm-card.webp" alt="Swarm Robotics">
       </div>
       <div class="appl-card-header">
         <i class="fa-solid fa-circle-nodes appl-card-icon"></i>
@@ -189,7 +189,7 @@ page_id: home
     </div>
     <div class="appl-card appl-card--hri">
       <div class="appl-card-img-wrap">
-        <img src="/images/applications/appl-card-hri.jpg" alt="Human-Robot Interaction">
+        <img src="/images/applications/appl-card-hri-card.webp" alt="Human-Robot Interaction">
       </div>
       <div class="appl-card-header">
         <i class="fa-solid fa-people-arrows appl-card-icon"></i>
@@ -199,7 +199,7 @@ page_id: home
     </div>
     <div class="appl-card appl-card--stem">
       <div class="appl-card-img-wrap">
-        <img src="/images/applications/appl-card-stem.jpg" alt="STEM and Higher Education">
+        <img src="/images/applications/appl-card-stem-card.webp" alt="STEM and Higher Education">
       </div>
       <div class="appl-card-header">
         <i class="fa-solid fa-graduation-cap appl-card-icon"></i>
@@ -209,7 +209,7 @@ page_id: home
     </div>
     <div class="appl-card appl-card--autosys">
       <div class="appl-card-img-wrap">
-        <img src="/images/applications/appl-card-auto.jpg" alt="Autonomous Systems">
+        <img src="/images/applications/appl-card-auto-card.webp" alt="Autonomous Systems">
       </div>
       <div class="appl-card-header">
         <i class="fa-solid fa-robot appl-card-icon"></i>
@@ -219,7 +219,7 @@ page_id: home
     </div>
     <div class="appl-card appl-card--percept">
       <div class="appl-card-img-wrap">
-        <img src="/images/applications/appl-card-perc-nav.jpg" alt="Perception and Navigation">
+        <img src="/images/applications/appl-card-perc-nav-card.webp" alt="Perception and Navigation">
       </div>
       <div class="appl-card-header">
         <i class="fa-solid fa-compass appl-card-icon"></i>
@@ -229,7 +229,7 @@ page_id: home
     </div>
     <div class="appl-card appl-card--aerial">
       <div class="appl-card-img-wrap">
-        <img src="/images/applications/appl-card-aerial.jpg" alt="Aerial Manipulation">
+        <img src="/images/applications/appl-card-aerial-card.webp" alt="Aerial Manipulation">
       </div>
       <div class="appl-card-header">
         <i class="fa-solid fa-hand appl-card-icon"></i>
@@ -249,7 +249,7 @@ page_id: home
       <!-- inject wp blog img 0 begin -->
       <a href="#" class="blog-card">
         <div class="blog-img-wrap">
-          <img src="/images/frontpage/ant-bridge_2302146k.png" alt="Blog post">
+          <img src="/images/frontpage/ant-bridge_2302146k.webp" alt="Blog post">
         </div>
         <div class="blog-tags">
           <span class="blog-tag">Category 1</span>
@@ -264,7 +264,7 @@ page_id: home
       <!-- inject wp blog img 1 begin -->
       <a href="#" class="blog-card">
         <div class="blog-img-wrap">
-          <img src="/images/frontpage/ant-bridge-narrow.png" alt="Blog post">
+          <img src="/images/frontpage/ant-bridge-narrow.webp" alt="Blog post">
         </div>
         <div class="blog-tags">
           <span class="blog-tag">Category 1</span>
@@ -279,7 +279,7 @@ page_id: home
       <!-- inject wp blog img 2 begin -->
       <a href="#" class="blog-card">
         <div class="blog-img-wrap">
-          <img src="/images/frontpage/ant-bridge-wide.png" alt="Blog post">
+          <img src="/images/frontpage/ant-bridge-wide.webp" alt="Blog post">
         </div>
         <div class="blog-tags">
           <span class="blog-tag">Category 3</span>
@@ -373,8 +373,9 @@ page_id: home
 <!-- Video Slogan Section Start -->
 <div class="container-fluid px-0 video-slogan-section">
   <div class="video-slogan-inner video-style video-no-controls">
-    <video autoplay muted loop playsinline webkit-playsinline aria-hidden="true">
-      <source src="/videos/front-hover.mp4" type="video/mp4">
+    <video muted loop playsinline webkit-playsinline aria-hidden="true"
+           preload="none" poster="/videos/front-hover-poster.webp" data-lazy-video>
+      <source data-src="/videos/front-hover.mp4" type="video/mp4" data-proofer-ignore>
     </video>
     <div class="video-slogan-overlay">
       <div class="container">
@@ -391,6 +392,40 @@ page_id: home
 <!-- Video Slogan Section End -->
 
 <!-- JS Scripts Start -->
+  <script>
+    // Lazy-load the below-the-fold background video: it only fetches and plays
+    // once it nears the viewport, keeping ~0.4 MB off the initial page load.
+    (function () {
+      const video = document.querySelector('video[data-lazy-video]');
+      if (!video) return;
+
+      function loadAndPlay() {
+        const source = video.querySelector('source[data-src]');
+        if (source && !source.src) {
+          source.src = source.dataset.src;
+          video.load();
+        }
+        const p = video.play();
+        if (p && p.catch) p.catch(function () {});
+      }
+
+      if ('IntersectionObserver' in window) {
+        const io = new IntersectionObserver(function (entries) {
+          entries.forEach(function (entry) {
+            if (entry.isIntersecting) {
+              loadAndPlay();
+              io.disconnect();
+            }
+          });
+        }, { rootMargin: '200px' });
+        io.observe(video);
+      } else {
+        // Fallback for browsers without IntersectionObserver
+        loadAndPlay();
+      }
+    })();
+  </script>
+
   <script>
     ['one', 'two', 'three', 'four', 'five', 'six'].forEach(function(id) {
       const el = document.getElementById(id);

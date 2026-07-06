@@ -26,7 +26,7 @@ redirects:
   <div class="appl-cards-grid">
     <div class="appl-card appl-card--swarm">
       <div class="appl-card-img-wrap">
-        <img src="/images/applications/appl-card-swarm.jpg" alt="Swarm Robotics">
+        <img src="/images/applications/appl-card-swarm-card.webp" alt="Swarm Robotics">
       </div>
       <div class="appl-card-header">
         <i class="fa-solid fa-circle-nodes appl-card-icon"></i>
@@ -37,7 +37,7 @@ redirects:
     </div>
     <div class="appl-card appl-card--autosys">
       <div class="appl-card-img-wrap">
-        <img src="/images/applications/appl-card-auto.jpg" alt="Autonomous Systems">
+        <img src="/images/applications/appl-card-auto-card.webp" alt="Autonomous Systems">
       </div>
       <div class="appl-card-header">
         <i class="fa-solid fa-robot appl-card-icon"></i>
@@ -48,7 +48,7 @@ redirects:
     </div>
     <div class="appl-card appl-card--percept">
       <div class="appl-card-img-wrap">
-        <img src="/images/applications/appl-card-perc-nav.jpg" alt="Perception and Navigation">
+        <img src="/images/applications/appl-card-perc-nav-card.webp" alt="Perception and Navigation">
       </div>
       <div class="appl-card-header">
         <i class="fa-solid fa-compass appl-card-icon"></i>
@@ -59,7 +59,7 @@ redirects:
     </div>
     <div class="appl-card appl-card--aerial">
       <div class="appl-card-img-wrap">
-        <img src="/images/applications/appl-card-aerial.jpg" alt="Aerial Manipulation">
+        <img src="/images/applications/appl-card-aerial-card.webp" alt="Aerial Manipulation">
       </div>
       <div class="appl-card-header">
         <i class="fa-solid fa-hand appl-card-icon"></i>
@@ -70,7 +70,7 @@ redirects:
     </div>
     <div class="appl-card appl-card--stem">
       <div class="appl-card-img-wrap">
-        <img src="/images/applications/appl-card-stem.jpg" alt="STEM and Higher Education">
+        <img src="/images/applications/appl-card-stem-card.webp" alt="STEM and Higher Education">
       </div>
       <div class="appl-card-header">
         <i class="fa-solid fa-graduation-cap appl-card-icon"></i>
@@ -81,7 +81,7 @@ redirects:
     </div>
     <div class="appl-card appl-card--hri">
       <div class="appl-card-img-wrap">
-        <img src="/images/applications/appl-card-hri.jpg" alt="Human-Robot Interaction">
+        <img src="/images/applications/appl-card-hri-card.webp" alt="Human-Robot Interaction">
       </div>
       <div class="appl-card-header">
         <i class="fa-solid fa-people-arrows appl-card-icon"></i>

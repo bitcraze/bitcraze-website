@@ -37,7 +37,7 @@ redirects:
 <!-- ── Section 2: From Concept to Controlled Autonomy ───────────────────── -->
 <div class="app-concept-row">
   <div class="app-concept-img-bleed">
-    <img src="/images/applications/appl-card-auto.jpg" alt="Autonomous Systems">
+    <img src="/images/applications/appl-card-auto.webp" alt="Autonomous Systems">
   </div>
   <div class="container">
     <div class="row align-items-stretch">

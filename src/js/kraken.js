@@ -70,7 +70,10 @@ var kraken = {
   poplinkShowPopup: function(id, popupKey) {
     var container = document.getElementById("poplinkcontainer");
     if (container == null) {
-      document.body.innerHTML = '<div id="poplinkcontainer" class="poplinkcontainer"></div>' + document.body.innerHTML;
+      // Prepend without rebuilding the body: reassigning document.body.innerHTML
+      // would re-parse the whole page and orphan existing event listeners,
+      // IntersectionObservers and media element state.
+      document.body.insertAdjacentHTML('afterbegin', '<div id="poplinkcontainer" class="poplinkcontainer"></div>');
       container = document.getElementById("poplinkcontainer");
     }
 
