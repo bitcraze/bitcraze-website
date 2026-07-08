@@ -74,7 +74,7 @@ The group consists of two parameters:
 
 {% si_step What's Next? %}
 * Learn how to control a Crazyflie with scripting and the Crazyflie Pyton lib using our [Software User Guides](/documentation/repository/crazyflie-lib-python/master/user-guides/).
-* Check out the [Color LED examples](https://github.com/bitcraze/crazyflie-lib-python/tree/master/examples/color_led_deck) in our Python lib.
-* Try out the [LED Color Cycle Example Firmware App](https://github.com/bitcraze/crazyflie-firmware/tree/master/examples/app_color_led_cycle) to see an example of how to create an app in the firmware to run light patterns for the Color LED deck.
+* Check out the [Color LED examples](https://github.com/bitcraze/crazyflie-demos/tree/main/demos/scripts/cflib/color_led_deck) using our Python lib.
+* Try out the [LED Color Cycle Example Firmware App](https://github.com/bitcraze/crazyflie-demos/tree/main/demos/firmware/color_led_cycle) to see an example of how to create an app in the firmware to run light patterns for the Color LED deck.
 {% endsi_step %}
 
