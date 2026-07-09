@@ -161,7 +161,7 @@ The geometry is estimated and uploaded to the Crazyflie automatically. The statu
 {% si_step Check the positioning %}
 The Lighthouse Deck's LED should now be green, and the 3D visualization should show the base stations with their channels and the Crazyflie as a blue dot.
 
-Sanity check the position estimation by moving the Crazyflie around with your hand.
+Sanity-check the position estimation by placing the Crazyflie in different positions. The estimated position should remain relatively stable and should not drift or jump unexpectedly.
 {% img base station status; wide; /images/tutorials/getting_started_with_lighthouse/6_setup_completed.png %}
 {% endsi_step %}
 
