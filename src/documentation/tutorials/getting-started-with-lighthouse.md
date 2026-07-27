@@ -146,8 +146,8 @@ The final result, is a configuration file that is stored in the Crazyflie and us
 * **Origin sample**: Place the Crazyflie at the desired origin of your coordinate system and press **Start measurement**
 * **X-axis sample**: Place the Crazyflie 1 m along the positive X-axis and press **Start measurement**
 * **XY-plane samples**: Place the Crazyflie in the XY-plane on the floor (not on the X-axis) and press **Start measurement**. You can repeat this multiple times to get a more precise approximation.
-* **XYZ-space samples**: Carry the Crazyflie to several positions in your flight space and record samples. You can do that either by clicking the **Sample Position** button, or by quickly rotating it left-right around the Z-axis and then holding it still.
-* **Verification samples (optional)**: Unlike the rest of the samples (estimation samples), the verification samples are not used for the system's geometry estimation. They can be used for checking the accuracy of areas between the estimation samples. If the verification sample error is high, try adding more XYZ-space samples around the verification location. For more information, see the [Sample details](#sample-details) section below.
+* **XYZ-space samples**: Carry the Crazyflie to a position in your flight space. To record a sample, quickly rotate it left-right around its Z-axis and hold it still until confirmation. Alternatively, click the **Sample Position** button while holding the Crazyflie still.
+* **Verification samples (optional)**: Unlike the estimation samples, verification samples are not used for the system's geometry estimation. They can be used for checking the accuracy of areas between the estimation samples. If the verification sample error is high, try adding more XYZ-space samples around the verification location. For more information, see the [Sample details](#sample-details) section below.
 
 
 The geometry is estimated and uploaded to the Crazyflie automatically. The status label turns green and shows **Uploaded** when done.
@@ -178,7 +178,7 @@ The **Base stations** table shows the estimated position of each base station an
 
 The **Samples** table lists all collected samples (both estimation and verification) along with their error. The error measures how closely the base stations agree on the Crazyflie's position at that sampling location: a low error means the geometry fits that sample well, a high error (> 10 mm) means the base stations disagree.
 
-* For estimation samples with a high error, the most effective fix is to delete the sample, or change its type to verification.
+* For estimation samples with a high error, the most effective fix is to delete the sample.
 * For verification samples with a high error, add more XYZ-space samples in that area and let the geometry re-estimate. Verification errors give the most useful insight about real-world accuracy, since they reflect positions that were not used during estimation.
 
 
