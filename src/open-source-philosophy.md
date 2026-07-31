@@ -5,7 +5,7 @@ title: Bitcraze Open Source Philosophy
 ## Our Purpose: Enabling Research, Innovation & Education
 At Bitcraze, we believe that meaningful progress in robotics comes when tools are open, flexible and community-driven. Our platform, the Crazyflie<sup>®</sup> ecosystem, is built to allow researchers, educators and innovators to see under the hood, modify, extend, and share. As we state on our website: “The Crazyflie eco system is an open development platform consisting of semi-open hardware and open source firmware/software.” 
 
-We release both hardware designs and software code under open licenses (see below) so you don’t just use the system, but own it, adapt it, and contribute back.
+We release our software code under open licenses and publish hardware schematics and datasheets, so you don't just use the system, but own it, adapt it and contribute back.
 
 This approach purposefully targets three key communities:
 
@@ -16,8 +16,8 @@ This approach purposefully targets three key communities:
 ## What “Open” Means for Us
 Open means multiple things, and we try to live up to each:
 
-- Semi-open hardware: Our board designs, expansion decks, schematics and component choices are published so you can inspect and modify.
-- Open software: Firmware, client libraries, and tools are available from our GitHub. Our repository overview lists dozens of them (firmware for STM32, NRF, clients in Python, mobile, etc) 
+- Open software: Firmware, client libraries, and tools are available from our GitHub. Our repository overview lists dozens of them (firmware for STM32, NRF, clients in Python, mobile, etc)
+- Semi-open hardware: Our schematics and datasheets are published as PDFs so you can inspect and modify a design. We publish an expansion deck KiCad template you can build on.
 - Open tooling: We build using open-source tools and dependencies so there are no hidden black boxes.
 - Open community & contribution: You can raise issues, propose changes, submit pull requests. As we say: “Contribute your work – Open source is all about sharing and caring!” 
 - Open knowledge: Documentation, tutorials and example projects are published so others can replicate, extend, and build upon.
@@ -40,7 +40,7 @@ Here’s a summary of how we apply licensing, and what it means for you:
 |---|---|---|
 | Website content & sample code | LICENSE.md (often MIT/BSD-style) | You can reuse it, adapt it, reference it (with attribution) as per the license. |
 | Firmware / client libraries | Open source (check each GitHub repo for license header) | You can modify, build, use for research and commercial prototyping (check specific terms). |
-| Hardware reference designs | Open-hardware friendly licences (see repo) | You can inspect, modify board designs, build your own variants. Again, verify license. |
+| Hardware reference designs | Varies by product, check the relevant repo | Schematics and datasheets are published as PDFs, enough to inspect a design, modify a board, or design your own against it. For most products the editable design files (layout, Gerbers, BOM) are not published; some older or simpler designs are exceptions. A KiCad deck template is published for building your own expansion decks. |
 | Trademarks & branding (Bitcraze, Crazyflie) | Retained by Bitcraze AB | You may not use the brands/logos in a way that implies endorsement or causes confusion. |
 | Community / contributions | Contributor license or terms in repo | If you contribute, your contribution is typically covered by the repo’s license and you may grant us rights to incorporate it. |
 
@@ -61,7 +61,7 @@ In a fast-moving ecosystem like ours, change is inevitable, yet we want users to
 
 ## What This Means for Research, Education & Innovation
 ### For Researchers
-- You have full access to internals, both for hardware and software, to validate, replicate or extend experiments.
+- You have full access to the software and firmware, and published schematics for the hardware, to validate, replicate or extend experiments.
 - You can build custom decks, instrument sensors, integrate with simulation, and modify firmware.
 - The ecosystem is already used in peer-reviewed research, so you’re not starting from a closed black box. 
 
@@ -83,7 +83,7 @@ Openness only works if the community participates. Here’s how you can help:
 - Respect others: when you incorporate community work, attribute appropriately, follow license terms, and contribute improvements back when possible.
 
 ## Our Promise to You
-- We will keep releasing hardware and software under openly disclosed licences.
+- We will keep releasing software under openly disclosed licences, and documenting hardware with published schematics and datasheets.
 - We will publish definitions, schemas, and APIs openly and strive to keep backward compatibility where feasible.
 - We will maintain documentation, tutorials and example code to help you onboard and get productive.
 - We will operate transparently: you will know what is open, what is controlled, and why.
