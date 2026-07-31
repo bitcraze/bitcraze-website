@@ -6,10 +6,10 @@ title: License
 ## It's open
 
 The Crazyflie<sup>®</sup> eco system is an open development platform consisting of open
-hardware and open source firmware/software. The reason for making it open is
+source firmware/software and semi-open hardware. The reason for making it open is
 that we want users to be able to hack, modify, experiment and learn from our
-platform. The projects are developed using only open tools. Since our projects
-are open we want users to have access to the tools needed for viewing,
+platform. The projects are developed using open tools wherever we can. Since our
+projects are open we want users to have access to the tools needed for viewing,
 editing and using them.
 
 ## License for the content of Bitcraze web sites
