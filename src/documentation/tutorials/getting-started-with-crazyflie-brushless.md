@@ -1,5 +1,5 @@
 ---
-layout: page-left-menu
+layout: page-tutorial
 title: Getting started with the Crazyflie 2.1 Brushless
 page_id: getting-started-crazyflie-brushless
 redirects:

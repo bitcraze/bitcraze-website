@@ -1,17 +1,17 @@
 ---
-layout: page-left-menu
+layout: page-tutorial
 title: Getting started with the Crazyflie 2.0 or Crazyflie 2.1(+)
 page_id: getting-started-crazyflie-2
 redirects:
   - /getting-started-with-the-crazyflie-2-0/
 ---
 
-{% si_intro Welcome to the Crazyflie™ Ecosystem! %}
+{% si_part Welcome to the Crazyflie™ Ecosystem! %}
 This getting started guide is split up into three parts. First we are going to assemble the Crazyflie, secondly we move on to setting up controllers and communication, and lastly we get up in the air and start flying. 
 Let's get started! 
 
 {% img Overview; wide; /images/getting-started/gs-2.1-overview.png %}
-{% endsi_intro %}
+{% endsi_part %}
 
 {% si_step Requirements %}
 To fly with the Crazyflie you need to have a computer with a {% poplink crazyradio-2-0 %} or PA, which is the recommended way, or a mobile device. To fly manually with your computer you also need a gamepad of your choice. 
@@ -24,9 +24,9 @@ On our [Github Discussions](https://discussions.bitcraze.io) you can look at dis
 
 ---
 
-{% si_intro 1. Assembly %}
+{% si_part 1. Assembly %}
 Make sure to follow the instructions below for assembling your Crazyflie 2.1 or 2.1+.
-{% endsi_intro %}
+{% endsi_part %}
 {% si_step Unpacking the Crazyflie %}
 The Crazyflie box contains the following items. Make sure that you
 have all of them before you start assembling.
@@ -273,10 +273,10 @@ red pulses with a longer pause between groups.
 
 ---
 
-{% si_intro 2. Setting up communication %}
+{% si_part 2. Setting up communication %}
 Now that you have assembled the Crazyflie, its time to get ready to control it. To control the Crazyflie, we need to be able to communicate with it to give commands on how to fly and receive information back from the copter. 
 You can fly the Crazyflie either from a mobile device or a computer. Choose your preferred way to control the Crazyflie below and follow the instructions to set up communication. 
-{% endsi_intro %}
+{% endsi_part %}
 
 {% si_step Choose your controller device: %}
 {% tabgroup %}
@@ -374,9 +374,9 @@ appearances in the Android and iOS apps, you can see them below.
 
 ---
 
-{% si_intro 3. Flying; flying %}
+{% si_part 3. Flying; flying %}
 Now it's time to do some flying, but first there are some basics you need to know about.
-{% endsi_intro %}
+{% endsi_part %}
 
 {% si_step Orientation; orientation %}
 First of all, the easiest way to fly is when the copter is pointing away from you.
