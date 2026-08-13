@@ -1,6 +1,19 @@
+// Bootstrap 5 compatible breakpoint variables
+// (for backward compatibility with existing SCSS)
+$screen-xs-min: 0;
+$screen-xs-max: 575px;
+$screen-sm-min: 576px;
+$screen-sm-max: 767px;
+$screen-md-min: 768px;
+$screen-lg-min: 992px;
+
+// Grid variables (for backward compatibility)
+$grid-columns: 12;
+$grid-gutter-width: 30px; // Bootstrap 3 default was 30px
+
+// Bitcraze brand colors
 $bcGreen: #95C941;
-$bcMidGreen: #00cd28;
-$bcDarkGreen: #009900;
+$bcDarkGreen: #003000;
 
 $bcLighterGrey: #F1F1F1;
 $bcLightGrey: #ccc;
@@ -9,7 +22,6 @@ $bcDarkGrey: #666666;
 
 
 $menuColor: $bcGreen;
-$themeColor: $bcDarkGreen;
 $focusColor: #19B798;
 
 $header-font-size: 35px;
@@ -19,20 +31,14 @@ $breadcrumbs-link-color: black;
 $breadcrumbs-font-weight: 500;
 $breadcrumbs-link-weight: 500;
 $breadcrumbs-margin-bottom: 5px;
-$breadcrumbs-version-color: black;;
+$breadcrumbs-version-color: black;
 
 $navbar-social-icon-color: #ddd;
 
-$footer-background-color: #2f2f2f;
-$footer-nav-background-color: #222222;
-$footer-text-color: white;
-$footer-link-color: #ccc;
-$footer-hover-color: $bcGrey;
-
 $used-by-background-color: $bcLighterGrey;
 
-$font-weight: 300;
-$font-weight-strong: 400;
+$font-weight: 400;
+$font-weight-strong: 700;
 $nav-font-weight: 500;
 $nav-font-weight-strong: 700;
 
@@ -48,8 +54,4 @@ $table-line-color: $bcLightGrey;
 $side-menu-link-color: #444;
 $side-menu-background-color: #eee;
 
-$sidebar-background-color: $bcLighterGrey;
-
-$portal-background-color: #FAFFF5;
-
-$poplink-background-color: $bcLighterGrey
+$poplink-background-color: $bcLighterGrey;

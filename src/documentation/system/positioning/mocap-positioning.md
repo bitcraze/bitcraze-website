@@ -9,7 +9,7 @@ page_id: mocap-system-overview
 
 Bitcraze does not manufacture Motion Capture systems, but there are many variations available on the market, for instance from
 [Qualysis](https://www.qualisys.com/), [Vicon](https://www.vicon.com/) and [Optitrack](https://optitrack.com/). Most mocap
-systems are supported by the Crazyflie ecosystem or can be integrated with it.
+systems are supported by the Crazyflie<sup>®</sup> ecosystem or can be integrated with it.
 
 {% endrow_full %}
 

@@ -1,6 +1,9 @@
 {% assign subs = include.subs %}
 
 <ul class="dropdown-menu">
+{% if include.icon != "" %}
+<li class="dropdown-menu-icon-item"><img src="{{include.icon}}" alt="{{include.title}}" class="dropdown-menu-icon"></li>
+{% endif %}
 {% for sub in subs %}
   {% assign is_active = false %}
   {% assign m_external = '' %}
@@ -24,15 +27,17 @@
   {% else %}
     {% assign m_title = sub.title %}
     {% assign m_url = sub.url %}
-    {% assign m_external = '&nbsp;&nbsp;<i class="fa-solid fa-angle-right"></i>' %}
+    {% assign m_external = '&nbsp;&nbsp;<i class="fa-solid fa-arrow-up-right-from-square" style="font-size: 0.75em;"></i>' %}
   {% endif %}
 
   {% if m_is_break %}
-  <li class="menu-item"><hr></li>
+  <li><hr class="dropdown-divider"></li>
   {% else %}
-  <li class="menu-item {% if is_active %}active{% endif %}">
+  <li>
     <a title="{{m_title}}"
-       href="{{m_url}}">{{m_title}}{{m_external}}</a>
+       href="{{m_url}}"
+       {% if m_external != '' %}target="_blank" rel="noopener noreferrer"{% endif %}
+       class="dropdown-item {% if is_active %}active{% endif %}">{{m_title}}{{m_external}}</a>
   </li>
   {% endif %}
 {% endfor %}

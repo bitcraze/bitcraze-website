@@ -6,7 +6,7 @@ redirects:
   - /docs/cf2_architecture/
 ---
 
-Crazyflie 2.x is architectured around 2 microcontrollers:
+Crazyflie<sup>®</sup> 2.x is architectured around 2 microcontrollers:
 
 -   A **NRF51**, Cortex-M0, that handles radio communication and power
     management:

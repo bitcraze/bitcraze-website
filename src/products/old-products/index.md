@@ -37,7 +37,7 @@ Some distributors are still carrying these products, but they are no longer in p
 
 [Read more](/products/old-products/z-ranger-deck/)
 
-### Crazyflie 1.0
+### Crazyflie<sup>®</sup> 1.0
 
 <a href="/products/old-products/crazyflie-1-0/"><img width="150" height="150" src="/images/cf_800-150x150.jpg" alt="Crazyflie 1.0"/></a>
 

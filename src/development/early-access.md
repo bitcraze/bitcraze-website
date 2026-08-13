@@ -17,9 +17,6 @@ and from distributors, but the software is still in a rudimentary state. There
 are probably drivers to communicate with the hardware, but no higher level
 functionality is implemented yet.
 
-You can read more about how "Early access" fits in the bigger picture on the
-[product cycle](/about/product-cycle/) page.
-
 ## Collaborate
 
 The benefits are mutual, we make it possible for our users to get started with

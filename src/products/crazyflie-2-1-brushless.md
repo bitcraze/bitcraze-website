@@ -30,7 +30,7 @@ Make your ideas fly!; Your imagination sets the limits
 {% row_icon_text_links How it works; fa-cogs %}
 {% row_text %}
 
-The Crazyflie 2.1 Brushless a versatile open source flying development platform that only weighs 32g and fits in the palm of your hand.
+The Crazyflie<sup>®</sup> 2.1 Brushless a versatile open source flying development platform that only weighs 32g and fits in the palm of your hand.
 
 It's not only a good flyer, the Crazyflie 2.1 Brushless is equipped with low-latency/long-range
 radio as well as Bluetooth LE. This allows you to use you computer in combination with {% poplink crazyradio-2-0 %} or [Crazyradio PA](/products/crazyradio-pa/), to fly with a game pad or to do scripting to fly autonomously. The platform is also equipped with contact pads that enables on-board charging via the [Crazyflie 2.1 Brushless Charging Dock](https://store.bitcraze.io/collections/accessories/products/crazyflie-2-1-brushless-charging-dock-3d), making it possible to land and charge between flights, even with decks attached to the bottom of the Crazyflie.

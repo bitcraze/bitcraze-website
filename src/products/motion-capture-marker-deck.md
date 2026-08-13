@@ -25,7 +25,7 @@ Add reflective markers with ease
 {% row_text %}
 
 The {% poplink motion-capture-marker-deck %} makes it easy to attach reflective markers to a
-Crazyflie for tracking in a motion capture system. The markers are tracked by
+Crazyflie<sup>®</sup> for tracking in a motion capture system. The markers are tracked by
 cameras in the motion capture system and the system uses the information to calculate
 the current position of the Crazyflie. The position can be used for precise
 measurements or can be fed back to the Crazyflie for autonomous flight.

@@ -6,7 +6,7 @@ page_id: getting-started-with-the-lighthouse-system
 
 {% si_intro Introduction %}
 
-The Lighthouse positioning system uses the SteamVR Base stations of Valve Inc. and the Lighthouse deck on the Crazyflie. With this system, the Crazyflie can estimate its own X, Y and Z in a global coordinate system.
+The Lighthouse positioning system uses the SteamVR Base stations of Valve Inc. and the Lighthouse deck on the Crazyflie<sup>®</sup>. With this system, the Crazyflie can estimate its own X, Y and Z in a global coordinate system.
 
 This tutorial is also available as a [video](https://www.youtube.com/watch?v=DCEHht72B08).
 
@@ -33,7 +33,7 @@ The first thing to do is to make sure the firmware in the Crazyflie and Lighthou
 {% endsi_intro %}
 
 {% si_step Mount the Lighthouse deck %}
-For mounting the {% poplink lighthouse-deck %} on a Crazyflie check out the {% id_link getting-started-expansion-decks %} tutorial. Be careful When mounting the Lighthouse positioning deck with the long pin headers ([Male long deck connectors](https://store.bitcraze.io/products/male-long-deck-connector)). Make sure they do not block the laser sweeps from the base stations, as this could affect the drone's performance.
+For mounting the {% poplink lighthouse-deck %} on a Crazyflie check out the {% id_link getting-started-expansion-decks %} tutorial. Be careful When mounting the Lighthouse positioning deck with the long pins ([Male long deck connectors](https://store.bitcraze.io/products/male-long-deck-connector)). Make sure they do not block the laser sweeps from the base stations, as this could affect the drone's performance.
 {% endsi_step %}
 
 {% si_step Update firmware in the Crazyflie and Lighthouse deck %}

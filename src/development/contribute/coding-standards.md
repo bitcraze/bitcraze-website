@@ -182,6 +182,6 @@ For documentation doc strings are used.
 For static code analysis [Flake8](https://pypi.python.org/pypi/flake8) and [pylint](https://www.logilab.org/857) are used. For pylint the following exceptions has been made:
   * These has been added to the list of good variables
     * pk - used all over for variables that are CRTPPacket
-    * cf - used all over for variables that are Crazyflie
+    * cf - used all over for variables that are Crazyflie<sup>®</sup>
     * logger - used all over as a file-global logger
     * cb - used all over to describe an argument or variable that is a callback

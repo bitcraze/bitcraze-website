@@ -6,7 +6,7 @@ page_id: getting-started-with-simulation
 
 {% si_intro Introduction %}
 
-This short guide shows how to run a very simple Crazyflie simulation using [Webots](https://cyberbotics.com/). It’s not realistic, feature-rich, or actively maintained, but it might be fun to play around with or help spark ideas.
+This short guide shows how to run a very simple Crazyflie<sup>®</sup> simulation using [Webots](https://cyberbotics.com/). It’s not realistic, feature-rich, or actively maintained, but it might be fun to play around with or help spark ideas.
 
 If you're looking for more serious simulators, check out our [overview of simulation options](/development/external-projects/#crazyflie-simulators).
 

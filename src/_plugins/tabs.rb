@@ -45,14 +45,14 @@ module Jekyll
 
           markup = super
 
-          result = '<div><ul class="nav nav-tabs" role="tablist">'
+          result = '<div class="mt-4"><ul class="nav nav-tabs" role="tablist">'
           result = @tabs.reduce(result) do |memo, tab|
-            class_active = ''
+            link_active = ''
             if (tab[:is_active])
-              class_active = ' class="active"'
+              link_active = ' active'
             end
 
-            memo + '<li role="presentation"%1$s><a href="#%2$s" role="tab" data-toggle="tab">%3$s</a></li>' % [class_active, tab[:id], tab[:title]]
+            memo + '<li class="nav-item" role="presentation"><a href="#%2$s" class="nav-link%1$s" role="tab" data-bs-toggle="tab">%3$s</a></li>' % [link_active, tab[:id], tab[:title]]
           end
           result += '</ul><div class="tab-content">'
           result += markup
@@ -119,7 +119,7 @@ module Jekyll
           active = ' active'
         end
 
-        '<div role="tabpanel" class="tab-pane fade in%3$s" id="%1$s">%2$s</div>' % [data[:id], markup, active]
+        '<div role="tabpanel" class="tab-pane fade show%3$s" id="%1$s">%2$s</div>' % [data[:id], markup, active]
       end
 
     end

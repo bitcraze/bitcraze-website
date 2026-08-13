@@ -8,22 +8,28 @@ layout: page-base
         <div class="col-md-3"></div>
         <div class="col-md-6">
             {{ content }}
-           <div class="panel-group" id="accordion" role="tablist" aria-multiselectable="false">
+           <div class="accordion" id="accordion">
                 {% for item in page.faq %}
-                <div class="panel panel-default">
-                    <div class="panel-heading" role="tab" id="heading{{ forloop.index }}">
-                        <h5 class="panel-title">
-                            <a role="button" data-toggle="collapse" class="accordion-plus-toggle collapsed" data-parent="#accordion{{ forloop.index }}" href="#collapse{{ forloop.index }}" aria-expanded="false" aria-controls="collapse{{ forloop.index }}">{{ item.question }}</a>
-                        </h5>
-                    </div>
-                    <div id="collapse{{ forloop.index }}" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading{{ forloop.index }}">
-                        <div class="panel-body">{{ item.answer | markdownify }}</div>
+                <div class="accordion-item">
+                    <h5 class="accordion-header" id="heading{{ forloop.index }}">
+                        <button class="accordion-button collapsed" type="button"
+                                data-bs-toggle="collapse"
+                                data-bs-target="#collapse{{ forloop.index }}"
+                                aria-expanded="false"
+                                aria-controls="collapse{{ forloop.index }}">
+                            {{ item.question }}
+                        </button>
+                    </h5>
+                    <div id="collapse{{ forloop.index }}" class="accordion-collapse collapse"
+                         aria-labelledby="heading{{ forloop.index }}"
+                         data-bs-parent="#accordion">
+                        <div class="accordion-body">{{ item.answer | markdownify }}</div>
                     </div>
                 </div>
                 {% endfor %}
             </div>
             <div class="col-md-12">
-            <p class="text-right">Want to add a FAQ? <a href="https://github.com/bitcraze/bitcraze-website/edit/master/src/{{page.path}}"><i class="fa-solid fa-pencil"></i> &nbsp;Improve this page</a></p>
+            <p class="text-end">Want to add a FAQ? <a href="https://github.com/bitcraze/bitcraze-website/edit/master/src/{{page.path}}"><i class="fa-solid fa-pencil"></i> &nbsp;Improve this page</a></p>
             </div>
         </div>
         <div class="col-md-3"></div>

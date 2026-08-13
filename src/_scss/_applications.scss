@@ -1,0 +1,542 @@
+
+// Application landing page
+
+.appl-landing-intro {
+  padding: 5rem 1rem 3rem;
+
+  .appl-landing-title {
+    font-size: 2.25rem;
+    font-weight: 800;
+    color: $bcDarkGreen;
+    margin-bottom: 3rem;
+
+    @media (min-width: $screen-md-min) {
+      font-size: 3rem;
+      margin-bottom: 3.5rem;
+    }
+  }
+
+  .appl-landing-subtitle {
+    font-weight: 800;
+    line-height: 1.25;
+    color: $bcDarkGreen;
+    margin-bottom: 2.5rem;
+
+    @media (min-width: $screen-md-min) {
+      font-size: 1.6rem;
+      margin-bottom: 3rem;
+    }
+
+    &::before {
+      content: '';
+      display: block;
+      width: 100vw;
+      height: 1px;
+      margin-left: calc(-50vw + 50%);
+      margin-bottom: 3rem;
+      background-image: repeating-linear-gradient(90deg,
+        $bcGreen 0px, $bcGreen 7px,
+        transparent 7px, transparent 15px
+      );
+    }
+  }
+
+  p {
+    color: #111;
+    line-height: 1.8;
+    margin-bottom: 0;
+
+    & + p {
+      margin-top: 1.5rem;
+    }
+  }
+}
+
+.appl-landing-cta {
+  background: $bcDarkGreen;
+  padding: 4rem 1rem;
+  margin-top: 4rem;
+  margin-bottom: 0;
+
+  h2 {
+    color: white;
+  }
+
+  p {
+    color: rgba(255, 255, 255, 0.8);
+    max-width: 600px;
+    margin: 1rem auto 1.75rem;
+  }
+
+  .appl-landing-cta-btn {
+    margin-bottom: 1rem;
+  }
+}
+
+.front-page .appl-cards-section--no-divider::after {
+  content: none;
+}
+
+.cf-wordmark {
+  font-family: 'Quantico', sans-serif;
+}
+
+// Application pages
+
+.app-page {
+  font-size: 1.05rem;
+  line-height: 1.75;
+
+  > * {
+    margin-bottom: 3rem;
+
+    @media (min-width: $screen-md-min) {
+      margin-bottom: 5rem;
+    }
+  }
+
+  > *:last-child {
+    margin-bottom: 0;
+  }
+
+  // ── Page title ────────────────────────────────────────────────────────────
+  .app-page-header {
+    padding: 4rem 2rem 0;
+    margin-bottom: 1rem;
+
+    @media (min-width: $screen-md-min) {
+      padding: 5rem 5rem 0;
+      margin-bottom: 1.5rem;
+    }
+
+    &::after {
+      content: '';
+      display: block;
+      width: 100vw;
+      height: 1px;
+      margin-left: calc(-50vw + 50%);
+      margin-top: 1.5rem;
+      background-image: repeating-linear-gradient(90deg,
+        $bcGreen 0px, $bcGreen 7px,
+        transparent 7px, transparent 15px
+      );
+    }
+  }
+
+  .app-page-title {
+    font-size: 2.25rem;
+    font-weight: 800;
+    color: $bcDarkGreen;
+    line-height: 1.1;
+    margin: 0;
+    text-align: center;
+
+    @media (min-width: $screen-md-min) {
+      font-size: 3rem;
+    }
+  }
+
+  // ── Section 1: intro ──────────────────────────────────────────────────────
+  .app-intro-section {
+    padding: 4rem 2rem 2rem;
+
+    @media (min-width: $screen-md-min) {
+      padding: 4rem 5rem 2rem;
+    }
+
+    h2 {
+      font-weight: 800;
+      line-height: 1.2;
+      color: $bcDarkGreen;
+      margin-bottom: 2rem;
+    }
+
+    p {
+      line-height: 1.7;
+      color: #333;
+    }
+  }
+
+  .app-feature-row {
+    display: flex;
+    align-items: flex-start;
+    gap: 1.25rem;
+    margin-bottom: 1.5rem;
+
+    > i {
+      color: $bcGreen;
+      font-size: 1.75rem;
+      flex-shrink: 0;
+      margin-top: 0.2rem;
+    }
+
+    p {
+      margin: 0;
+      line-height: 1.7;
+      color: #333;
+    }
+  }
+
+  // ── Section 2: concept row ─────────────────────────────────────────────────
+  .app-concept-row {
+    position: relative;
+    overflow: hidden;
+
+    // Mobile: image in normal flow above text
+    .app-concept-img-bleed {
+      position: relative;
+      width: 100%;
+      height: 220px;
+
+      img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        display: block;
+      }
+
+      // Desktop: bleed to left viewport edge, right edge aligns with col-md-5 of 840px container
+      @media (min-width: $screen-md-min) {
+        position: absolute;
+        left: 0;
+        top: 0;
+        width: calc(50vw - 70px);
+        height: 100%;
+      }
+    }
+
+    // Spacer col only shown on desktop to push text to the right half
+    .app-concept-spacer {
+      display: none;
+
+      @media (min-width: $screen-md-min) {
+        display: block;
+      }
+    }
+
+    .container {
+      position: relative;
+      z-index: 1;
+      max-width: 840px;
+    }
+
+    .text-box_platform {
+      background: $bcDarkGreen;
+      padding: 2rem;
+      transition: none;
+      border-radius: 0;
+
+      &:hover { transform: none; }
+
+      @media (min-width: $screen-md-min) {
+        border-radius: 0 16px 16px 0;
+      }
+    }
+
+    h2 { color: $bcGreen; font-size: 1.5rem; }
+    h2 span { color: $bcGreen; }
+    p { color: white; }
+  }
+
+  .app-concept-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+
+    li {
+      display: flex;
+      gap: 0.75rem;
+      margin-bottom: 0.85rem;
+      line-height: 1.55;
+      color: white;
+      text-align: left;
+
+      &::before {
+        content: '→';
+        color: $bcGreen;
+        flex-shrink: 0;
+        font-weight: 700;
+      }
+    }
+  }
+
+  .app-research-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+
+    li {
+      display: flex;
+      gap: 0.75rem;
+      margin-bottom: 0.85rem;
+      line-height: 1.55;
+      color: $bcDarkGreen;
+      text-align: left;
+
+      &::before {
+        content: '→';
+        color: $bcGreen;
+        flex-shrink: 0;
+        font-weight: 700;
+      }
+    }
+  }
+
+  // ── Section 3: research in action card ────────────────────────────────────
+  .app-research-section {
+    padding: 0 2rem 4rem;
+
+    @media (min-width: $screen-md-min) {
+      padding: 0 5rem 4rem;
+    }
+  }
+
+  .app-research-card {
+    background: rgba($bcGreen, 0.1);
+    border-radius: 20px;
+    padding: 2.5rem 2rem;
+    max-width: 840px;
+    margin: 0 auto;
+
+    @media (min-width: $screen-md-min) {
+      padding: 3rem 3.5rem;
+    }
+
+    .app-research-icon {
+      color: $bcGreen;
+      font-size: 2rem;
+      margin-bottom: 0.75rem;
+    }
+
+    h2 {
+      font-weight: 700;
+      font-size: 1.5rem;
+      color: $bcDarkGreen;
+      margin-bottom: 1rem;
+    }
+
+    p {
+      line-height: 1.7;
+      color: #333;
+      margin-bottom: 0.85rem;
+    }
+
+    .app-research-quote {
+      font-style: italic;
+      font-weight: 600;
+      color: $bcDarkGreen;
+
+      span { color: $bcGreen; }
+    }
+
+    .app-research-link {
+      display: inline-block;
+      margin-top: 1rem;
+      color: $bcGreen;
+      font-weight: 700;
+      text-decoration: none;
+
+      &:hover { color: darken($bcGreen, 10%); text-decoration: underline; }
+    }
+
+    .app-paper-card-list {
+      list-style: none;
+      padding: 0;
+      margin: 1.25rem 0 0;
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.85rem;
+
+      &::after {
+        content: '';
+        flex: 1 1 calc(50% - 0.425rem);
+      }
+
+      li {
+        flex: 1 1 calc(50% - 0.425rem);
+        min-width: 200px;
+        background: #fff;
+        border-radius: 12px;
+        transition: background 0.15s;
+
+        &:hover {
+          background: rgba($bcGreen, 0.18);
+        }
+
+        > a {
+          display: flex;
+          flex-direction: column;
+          padding: 1.1rem 1.35rem;
+          height: 100%;
+          text-decoration: none;
+          color: inherit;
+          border-radius: 12px;
+        }
+
+        h3 {
+          font-size: 1rem;
+          font-weight: 600;
+          color: $bcDarkGreen;
+          line-height: 1.45;
+          margin: 0 0 auto;
+        }
+
+        p {
+          font-size: 0.9rem;
+          font-weight: 600;
+          color: $bcGreen;
+          margin: 0.6rem 0 0;
+          text-transform: uppercase;
+          letter-spacing: 0.04em;
+        }
+      }
+    }
+  }
+
+  // ── Section 4: why crazyflie — reuses .value-props-banner ─────────────────
+  .value-props-banner {
+    padding: 2rem 0;
+
+    .container {
+      max-width: 840px;
+      padding-left: 0;
+      padding-right: 0;
+    }
+
+    h2 { font-size: 1.5rem; }
+
+    .value-prop-card {
+      padding: 1rem 1rem;
+      min-height: 12rem;
+      display: flex;
+      flex-direction: column;
+
+      .card-icon {
+        font-size: 2rem;
+        margin-bottom: 0.5rem;
+      }
+
+      h3 {
+        font-size: 1rem;
+      }
+
+      p {
+        margin-top: 0.35rem;
+      }
+    }
+  }
+
+  // ── Section 5: product highlight ──────────────────────────────────────────
+  .app-product-section {
+    padding: 2rem 2rem 3rem;
+
+    @media (min-width: $screen-md-min) {
+      padding: 2.5rem 5rem 3rem;
+    }
+
+    > .row {
+      max-width: 900px;
+      margin-left: auto;
+      margin-right: auto;
+    }
+
+    .app-bundle-section {
+      max-width: 840px;
+      margin-left: auto;
+      margin-right: auto;
+    }
+
+    h2 {
+      font-weight: 700;
+      color: $bcDarkGreen;
+      font-size: 1.75rem;
+      margin-bottom: 1.25rem;
+
+      @media (min-width: $screen-md-min) {
+        font-size: 2rem;
+      }
+    }
+
+    h3 {
+      font-weight: 700;
+      color: $bcDarkGreen;
+    }
+
+    p {
+      line-height: 1.7;
+      color: #333;
+      margin-bottom: 0.85rem;
+    }
+
+    .app-product-caption {
+      font-style: italic;
+      font-size: 0.8rem;
+      color: $bcGrey;
+      margin-top: 0.5rem;
+    }
+
+    .app-product-buttons {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 1rem;
+      margin-top: 1.5rem;
+    }
+
+    .app-product-image {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+
+      img {
+        max-width: 100%;
+        height: auto;
+      }
+    }
+
+
+    .app-bundle-card {
+      background: rgba($bcGreen, 0.08);
+      border-radius: 16px;
+      padding: 1.5rem;
+      height: 100%;
+      display: flex;
+      flex-direction: column;
+
+      .app-bundle-img {
+        width: 100%;
+        aspect-ratio: 1;
+        object-fit: contain;
+        border-radius: 10px;
+        margin-bottom: 1rem;
+      }
+
+      .app-bundle-tag {
+        font-size: 0.7rem;
+        font-weight: 700;
+        text-transform: uppercase;
+        letter-spacing: 0.08em;
+        color: $bcGreen;
+        margin-bottom: 0.4rem;
+      }
+
+      .app-bundle-name {
+        font-family: "Cairo", sans-serif;
+        font-size: 1rem;
+        font-weight: 700;
+        color: $bcDarkGreen;
+        margin-bottom: 0.5rem;
+      }
+
+      .app-bundle-desc {
+        line-height: 1.6;
+        color: #555;
+        flex-grow: 1;
+        margin-bottom: 1.25rem;
+      }
+
+      .btn {
+        align-self: flex-start;
+      }
+    }
+  }
+}

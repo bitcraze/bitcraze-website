@@ -13,7 +13,7 @@ The Loco Positioning system is based on the [DecaWave](https://www.decawave.com/
 
 ## The setup
 
-We used one anchor and one Crazyflie with a Loco Position Deck mounted. The system was set up in the Two way ranging mode, that is each ranging is actually 4 packets sent back and forth between the Crazyflie and Anchor. The ranging operation is initiated by the Crazyflie deck and is complete when the fourth packed is received by the deck.
+We used one anchor and one Crazyflie<sup>®</sup> with a Loco Position Deck mounted. The system was set up in the Two way ranging mode, that is each ranging is actually 4 packets sent back and forth between the Crazyflie and Anchor. The ranging operation is initiated by the Crazyflie deck and is complete when the fourth packed is received by the deck.
 
 The LEDs on the deck and anchor indicates when the module is in transmit and receive mode as well as when a ranging operation is completed. Our measurement method was simply to walk away from the anchor with the Crazyflie and watch the LEDs and observe when we stared to loose packets.
 

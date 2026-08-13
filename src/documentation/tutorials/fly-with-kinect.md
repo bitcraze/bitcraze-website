@@ -4,7 +4,7 @@ title: Crazyflie Kinect system Architecture
 page_id: fly-with-kinect
 ---
 
-This page contains information about projects, applications and scripts for automatically piloting the Crazyflie using cameras from the host. The parts needed for controlling is split up in numerous scripts connected together using [ZMQ](https://zeromq.org/).
+This page contains information about projects, applications and scripts for automatically piloting the Crazyflie<sup>®</sup> using cameras from the host. The parts needed for controlling is split up in numerous scripts connected together using [ZMQ](https://zeromq.org/).
 
 **Note:  Currently this is all pretty hackish.** 
 

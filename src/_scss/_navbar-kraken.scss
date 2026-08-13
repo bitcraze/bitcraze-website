@@ -1,15 +1,32 @@
-// Navigation
+
+// Navigation - Bootstrap 5 compatible
+
+// Define breakpoints (Bootstrap 5 uses lg = 992px as navbar expand default)
+$navbar-expand-breakpoint: 992px;
+$grid-gutter-width-bs5: 1.5rem; // Bootstrap 5 default
 
 .navigation-fluid {
-  background-color: $navbar-default-bg;
+  position: sticky;
+  top: 0;
+  z-index: 1030;
+  background-color: white;
 }
 
-.navbar-nav>li {
-  >a,
-  >a:hover,
-  >a:focus {
+.navbar-nav > li {
+  > a,
+  > a:hover,
+  > a:focus {
     color: inherit;
-    font-weight: $nav-font-weight;
+    font-weight: 900;
+  }
+
+  @media (min-width: $navbar-expand-breakpoint) {
+    position: relative;
+
+    > .dropdown-menu {
+      left: 50%;
+      transform: translateX(-50%);
+    }
   }
 }
 
@@ -21,60 +38,208 @@ $break-point-two-line-mobile-menu: 550px;
 $break-point-reduced-menu-spacing: 1120px;
 $break-point-small-logo: 1030px;
 
-.navbar-default {
-  .navbar-brand {
-  	height: auto;
-    padding-left: 0;
+// Navbar brand styling (replaces .navbar-default .navbar-brand)
+.navbar {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  width: 100%;
+  padding: 0.5rem 1rem;
 
-    @media (min-width: $break-point-two-line-mobile-menu) {
-      position: absolute;
+  @media (min-width: $navbar-expand-breakpoint) {
+    flex-wrap: nowrap;
+  }
+
+  .btn-color-secondary {
+    color: white;
+    background-color: $bcGreen;
+    border-color: $bcGreen;
+
+    &:hover, &:focus {
+      background-color: darken($bcGreen, 10%);
+      border-color: darken($bcGreen, 10%);
     }
+  }
+
+  .navbar-brand {
+    height: auto;
+    padding-left: 0;
+    margin-left: 0;
+    flex-shrink: 0;
 
     img {
-      height: 47px;
-    }
+      height: 30px;
 
-    @media (min-width: $break-point-small-logo) {
-      padding-top: 20px;
-
-      img {
-        height: 60px;
+      @media (min-width: $break-point-small-logo) {
+        height: 40px;
       }
     }
   }
 }
 
-.navbar-collapse {
-	text-align: left;
+// Center menu items on desktop
+.navbar-menu-center {
+  @media (min-width: $navbar-expand-breakpoint) {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    align-items: center;
+  }
 }
 
-$reduced-menu-spacing: 8px;
-.navbar-menu-section {
-	text-align: right;
-  display: inline-block;
-  float: right;
-  margin-top: 10px;
-	width: 100%;
+// Search bar at the top of mobile menu
+.navbar-mobile-search {
+  padding: 0.75rem 0 0.5rem;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.08);
+  margin-bottom: 0.5rem;
 
-  @media (min-width: $grid-float-breakpoint) {
-		width: auto;
-	}
+  .search-form {
+    display: flex;
+    gap: 0.5rem;
+    align-items: center;
 
-  // Reduced menu spacing
-  @media (max-width: $break-point-reduced-menu-spacing) {
-    .nav > li > a {
-      padding-left: $reduced-menu-spacing;
-      padding-right: $reduced-menu-spacing;
+    label {
+      flex: 1;
+      margin: 0;
+
+      .search-field {
+        width: 100%;
+      }
     }
-    .nav {
-      padding-right: floor(($grid-gutter-width / 2)) - $reduced-menu-spacing;
+
+    .search-submit {
+      background: none;
+      border: none;
+      padding: 0 0.25rem;
+      font-size: 22px;
+      color: $bcGreen;
+      cursor: pointer;
+      flex-shrink: 0;
     }
   }
 }
 
-.navbar-toggle {
-	margin-top: 0;
-	margin-right: 0;
+// Store button at the top of mobile menu
+.navbar-mobile-store {
+  padding: 0.75rem 0 0.5rem;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.08);
+  margin-bottom: 0.5rem;
+}
+
+.navbar-collapse {
+  text-align: left;
+}
+
+$reduced-menu-spacing: 8px;
+
+// Bootstrap 5: navbar-toggler (replaces navbar-toggle)
+.navbar-toggler {
+  margin-top: 0;
+  margin-right: 0;
+  border-color: $bcDarkGreen;
+
+  .navbar-toggler-icon {
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='%2300e064' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+  }
+
+  &[aria-expanded="true"] {
+    border-color: $bcGreen;
+
+    .navbar-toggler-icon {
+      background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='%23005228' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+    }
+  }
+
+  &:focus, &:active, &:focus-visible {
+    box-shadow: none;
+    background-color: transparent;
+  }
+}
+
+// Dropdown icon (for flat menus)
+.dropdown-menu-icon-item {
+  text-align: center;
+  padding: 0.75rem 0 0.25rem;
+}
+
+.dropdown-menu-icon {
+  max-height: 36px;
+  width: auto;
+}
+
+// Flat dropdown — centered text, padding to match section menus
+.dropdown-menu:not(.dropdown-menu-sections) {
+  min-width: 180px;
+  padding: 0.5rem 0.75rem;
+  text-align: center;
+
+  .dropdown-item {
+    text-align: center;
+    padding: 0.35rem 0.75rem;
+  }
+}
+
+// Multi-column dropdown sections
+.dropdown-menu-sections {
+  min-width: 500px;
+  padding: 0.5rem;
+
+  @media (max-width: #{$navbar-expand-breakpoint - 1px}) {
+    min-width: 0;
+    width: 100%;
+  }
+}
+
+.dropdown-sections-row {
+  display: flex;
+  gap: 0;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+
+  @media (max-width: #{$navbar-expand-breakpoint - 1px}) {
+    flex-direction: column;
+  }
+}
+
+.dropdown-section {
+  flex: 1;
+  padding: 0.5rem 0.75rem;
+  text-align: center;
+
+  & + & {
+    border-left: 1px solid rgba($bcGreen, 0.15);
+
+    @media (max-width: #{$navbar-expand-breakpoint - 1px}) {
+      border-left: none;
+      border-top: 1px solid rgba($bcGreen, 0.15);
+    }
+  }
+
+  .dropdown-item {
+    text-align: center;
+  }
+}
+
+.dropdown-section-icon {
+  text-align: center;
+  padding: 0.5rem 0 0.25rem;
+
+  img {
+    max-height: 36px;
+    width: auto;
+  }
+}
+
+.dropdown-section-title {
+  display: block;
+  color: $bcGreen;
+  font-weight: 700;
+  font-size: 0.875rem;
+  padding: 0.25rem 0.5rem 0.5rem;
+  margin-bottom: 0.25rem;
+  border-bottom: 1px solid rgba($bcGreen, 0.2);
 }
 
 .navbar-social-search {
@@ -88,93 +253,61 @@ $reduced-menu-spacing: 8px;
 
 // Search bar
 
-$serach-field-width: 210px;
-$serach-field-width-narrow: 160px;
+$search-field-width: 210px;
 $search-field-padding: 12px;
 
-.navbar-menu-section  {
-  .search-form,
-  .navbar-social-search {
-    display: inline-block;
-  }
-
-  .navbar-social-search {
-    padding-right: floor(($grid-gutter-width / 2));
-  }
+.navbar-end {
+  gap: 0.75rem;
 
   .search-submit {
     display: none;
   }
 
+  .search-form {
+    position: relative;
+    display: inline-flex;
+    align-items: center;
+    z-index: 100;
+    padding-right: 6px;
+  }
+
+  .search-form i {
+    font-size: 22px;
+    color: $bcGreen;
+    cursor: pointer;
+    flex-shrink: 0;
+  }
+
   .search-field {
-    display: inline-block;
-    border: 0px;
+    // Positioned absolute so it expands leftward without pushing the store button
+    position: absolute;
+    right: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    border: 1px solid transparent;
+    background: white;
     cursor: pointer;
     height: 26px;
-    -webkit-transition: width 400ms ease, background 400ms ease;
-    transition:         width 400ms ease, background 400ms ease;
-    vertical-align: middle;
-
-    // Gross hack! The width should be 0 but Safari does not want to set focus
-    // on an imput without width. 0.1px is not visible, but accepts focus.
+    transition: width 400ms ease, border-color 400ms ease;
+    // Width 0.1px: field is invisible but Safari requires non-zero width to accept focus
     width: 0.1px;
     padding-left: 0;
     padding-right: 0;
-    margin-top: 4px;
-
-    @media (min-width: $grid-float-breakpoint) {
-      width: $serach-field-width;
-      padding-left: $search-field-padding;
-      padding-right: $search-field-padding;
-    }
+    overflow: hidden;
   }
 
   .search-field:focus {
     cursor: text;
     outline: 0;
-    opacity: 1;
-    width: $serach-field-width;
-    @media (max-width: $grid-float-breakpoint) {
-      width: $serach-field-width-narrow;
-    }
+    border-color: rgba($bcGreen, 0.4);
+    width: $search-field-width;
     padding-left: $search-field-padding;
     padding-right: $search-field-padding;
-
-    margin-top: 4px;
   }
 
-  .search-field:hover {
-    opacity: 1;
-  }
-
-  .search-form {
-    i {
-      margin-top: 6px;
-      @media (min-width: $grid-float-breakpoint) {
-        display: none;
-      }
-    }
-  }
-
-  // Force search field to not be rounded on iOS devices
   input.search-field {
-    -webkit-appearance: none !important;
-    -webkit-border-radius: 0 !important;
-    -moz-border-radius: 0 !important;
-    border-radius: 0 !important;
-  }
-}
-
-
-// Social bar
-
-.social-bar {
-  display: none;
-  @media (min-width: $grid-float-breakpoint) {
-    display: inline-block;
-  }
-
-  i {
-    padding-right: 10px;
+    appearance: none;
+    -webkit-appearance: none;
+    border-radius: 4px;
   }
 }

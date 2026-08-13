@@ -10,7 +10,7 @@ redirects:
 
 {% img Crazyflie; medium; /images/crazyflie_page.png %}
 
-The Crazyflie Nano Quadcopter is a miniature quadcopter that fits in your hand.
+The Crazyflie<sup>®</sup> Nano Quadcopter is a miniature quadcopter that fits in your hand.
 It only weights about 19 grams and is 9 cm motor-to-motor. Aside from being fun
 to fly, it's main purpose is to be a versatile development platform that can be
 used to experiment, develop and explore a lot of different areas of technology.

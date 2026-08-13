@@ -15,7 +15,7 @@ redirects:
 
 {% row_icon_text_links How it works; fa-cogs %}
 {% row_text %}
-The {% poplink sd-card-deck %} adds a Micro SD card reader to the Crazyflie and makes it possible to read and write files to the SD-card.
+The {% poplink sd-card-deck %} adds a Micro SD card reader to the Crazyflie<sup>®</sup> and makes it possible to read and write files to the SD-card.
 The standard firmware has support for high speed logging (up to 1 kHz) to the SD-card which can record data at rates
 that are higher than what can be transfered via radio in real time. When the recoding is finished the
 SD-card can be moved to a computer for data analyses.

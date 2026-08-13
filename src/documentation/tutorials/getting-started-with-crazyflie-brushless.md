@@ -24,6 +24,7 @@ You are responsible for handling the drone and its components. It is your respon
 * Avoid catching the drone mid-flight or while it’s landing.
 * Always make sure that the path of your drone is clear to avoid any accidents.
 * Use the propeller guards as much as possible.
+* Unplug the battery when the drone is not used.
 
 {% endsi_step %}
 
@@ -43,7 +44,7 @@ On our [Github Discussions](https://discussions.bitcraze.io) you can look at dis
 {% si_part 1. Assembly %}
 
 
-Make sure to follow the instructions below for assembling your Crazyflie 2.1 Brushless.
+Make sure to follow the instructions below for assembling your Crazyflie<sup>®</sup> 2.1 Brushless.
 {% endsi_part %}
 
 {% si_step Unpacking the Crazyflie %}
@@ -62,8 +63,8 @@ Start by unpacking the box. It should contain the following items:
 * 5 x CW propellers (3 spare)
 * 1 x Battery holder deck
 * 1 x Rubber pad
-* 2 x Short male deck connectors
-* 2 x Long male deck connectors
+* 2 x Short pins
+* 2 x Long pins
 * 1 x Micro-USB cable (48cm)
 * 1 x Screwdriver
 * 1 x Propeller tool
@@ -197,14 +198,14 @@ Removing the legs/guards can be a bit tricky. An easy approach is by using the p
 
 {% si_step Attach the rubber pad %}
 The rubber pad should be attached to the Crazyflie between the
-expansion headers. This will create friction, keep the battery from
+expansion pins. This will create friction, keep the battery from
 slipping out and also protect the electronics.
 
 {% tutorialVideo /videos/foam.mp4 %}
 {% endsi_step %}
 
-{% si_step Attach headers %}
-There are two types of headers in the box, long and short ones. Find the long ones and insert them into the expansion connector from below.
+{% si_step Attach pins %}
+There are two types of pins in the box, long and short ones. Find the long ones and insert them into the expansion connector from below.
 
 {% tutorialVideo /videos/pin_headers.mp4 %}
 {% endsi_step %}

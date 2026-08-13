@@ -56,8 +56,8 @@ class TestMedia < Testbase
     # Fixture
     tag = '{% youtube id; narrow; 16by9 %}'
     expected = '<div class="media-row-narrow">
-                  <div class="embed-responsive embed-responsive-16by9">
-                    <div class="embed-responsive-item video-item-delayed-load" data-video-id="id" style="background:url(https://i1.ytimg.com/vi/id/0.jpg);" onclick="kraken.loadYoutubeVideo(this)">
+                  <div class="ratio ratio-16x9">
+                    <div class="video-item-delayed-load" data-video-id="id" style="background:url(https://i1.ytimg.com/vi/id/0.jpg);" onclick="kraken.loadYoutubeVideo(this)">
                       <i class="fa-regular fa-circle-play fa-3x"></i>
                     </div>
                   </div>
@@ -75,8 +75,8 @@ class TestMedia < Testbase
     # Fixture
     tag = '{% map id; wide %}'
     expected = '<div class="media-row-wide">
-                    <div class="embed-responsive embed-responsive-1by1">
-                        <iframe class="embed-responsive-item-medium" src="https://www.google.com/maps/embed?pb=id" allowfullscreen="allowfullscreen"></iframe>
+                    <div class="ratio ratio-1x1">
+                        <iframe src="https://www.google.com/maps/embed?pb=id" allowfullscreen="allowfullscreen"></iframe>
                     </div>
                 </div>'
 
@@ -91,7 +91,7 @@ class TestMedia < Testbase
   def test_that_used_by_text_is_rendered
     # Fixture
     tag = '{% used_by_text company %}'
-    expected = '<div class="col-xs-3 col-sm-2 col-md-2 used_by_box_text">company</div>'
+    expected = '<div class="col-3 col-sm-2 col-md-2 used_by_box_text">company</div>'
 
     # Test
     actual = Liquid::Template.parse(tag).render
@@ -104,7 +104,7 @@ class TestMedia < Testbase
   def test_that_used_by_text_is_rendered_with_link
     # Fixture
     tag = '{% used_by_text company; https://the.url %}'
-    expected = '<div class="col-xs-3 col-sm-2 col-md-2 used_by_box_text"><a href="https://the.url" target="_blank" rel="noopener noreferrer">company</a></div>'
+    expected = '<div class="col-3 col-sm-2 col-md-2 used_by_box_text"><a href="https://the.url" target="_blank" rel="noopener noreferrer">company</a></div>'
 
     # Test
     actual = Liquid::Template.parse(tag).render
@@ -117,8 +117,8 @@ class TestMedia < Testbase
   def test_that_used_by_logo_is_rendered
     # Fixture
     tag = '{% used_by_logo company; my_image %}'
-    expected = '<div class="col-xs-3 col-sm-2 col-md-2 used_by_box">
-                  <img class="img-responsive" src="my_image" alt="company" title="company"/>
+    expected = '<div class="col-3 col-sm-2 col-md-2 used_by_box">
+                  <img class="img-fluid" src="my_image" alt="company" title="company"/>
                 </div>'
 
     # Test
@@ -132,9 +132,9 @@ class TestMedia < Testbase
   def test_that_used_by_logo_is_rendered_with_link
     # Fixture
     tag = '{% used_by_logo company; my_image; https://the.url %}'
-    expected = '<div class="col-xs-3 col-sm-2 col-md-2 used_by_box">
+    expected = '<div class="col-3 col-sm-2 col-md-2 used_by_box">
                   <a href="https://the.url" target="_blank" rel="noopener noreferrer">
-                    <img class="img-responsive" src="my_image" alt="company" title="company"/>
+                    <img class="img-fluid" src="my_image" alt="company" title="company"/>
                   </a>
                 </div>'
 
@@ -155,8 +155,8 @@ class TestMedia < Testbase
                       <div>
                         <h3 id="some-header">Some header</h3>
                       </div>
-                      <div class="embed-responsive embed-responsive-16by9">
-                        <div class="embed-responsive-item video-item-delayed-load" data-video-id="id" style="background:url(https://i1.ytimg.com/vi/id/0.jpg);" onclick="kraken.loadYoutubeVideo(this)">
+                      <div class="ratio ratio-16x9">
+                        <div class="video-item-delayed-load" data-video-id="id" style="background:url(https://i1.ytimg.com/vi/id/0.jpg);" onclick="kraken.loadYoutubeVideo(this)">
                           <i class="fa-regular fa-circle-play fa-3x"></i>
                         </div>
                       </div>
@@ -181,8 +181,8 @@ class TestMedia < Testbase
                       <div>
                         <h3 id="some-header">Some header</h3>
                       </div>
-                      <div class="embed-responsive embed-responsive-16by9">
-                        <div class="embed-responsive-item video-item-delayed-load" data-video-id="id1" style="background:url(https://i1.ytimg.com/vi/id1/0.jpg);" onclick="kraken.loadYoutubeVideo(this)">
+                      <div class="ratio ratio-16x9">
+                        <div class="video-item-delayed-load" data-video-id="id1" style="background:url(https://i1.ytimg.com/vi/id1/0.jpg);" onclick="kraken.loadYoutubeVideo(this)">
                           <i class="fa-regular fa-circle-play fa-3x"></i>
                         </div>
                       </div>
@@ -191,8 +191,8 @@ class TestMedia < Testbase
                       <div>
                         <h3 id="other-header">Other header</h3>
                       </div>
-                      <div class="embed-responsive embed-responsive-16by9">
-                        <div class="embed-responsive-item video-item-delayed-load" data-video-id="id2" style="background:url(https://i1.ytimg.com/vi/id2/0.jpg);" onclick="kraken.loadYoutubeVideo(this)">
+                      <div class="ratio ratio-16x9">
+                        <div class="video-item-delayed-load" data-video-id="id2" style="background:url(https://i1.ytimg.com/vi/id2/0.jpg);" onclick="kraken.loadYoutubeVideo(this)">
                           <i class="fa-regular fa-circle-play fa-3x"></i>
                         </div>
                       </div>
@@ -203,8 +203,8 @@ class TestMedia < Testbase
                       <div>
                         <h3 id="some-header">Some header</h3>
                       </div>
-                      <div class="embed-responsive embed-responsive-16by9">
-                        <div class="embed-responsive-item video-item-delayed-load" data-video-id="id3" style="background:url(https://i1.ytimg.com/vi/id3/0.jpg);" onclick="kraken.loadYoutubeVideo(this)">
+                      <div class="ratio ratio-16x9">
+                        <div class="video-item-delayed-load" data-video-id="id3" style="background:url(https://i1.ytimg.com/vi/id3/0.jpg);" onclick="kraken.loadYoutubeVideo(this)">
                           <i class="fa-regular fa-circle-play fa-3x"></i>
                         </div>
                       </div>
@@ -213,8 +213,8 @@ class TestMedia < Testbase
                       <div>
                         <h3 id="some-header">Some header</h3>
                       </div>
-                      <div class="embed-responsive embed-responsive-16by9">
-                        <div class="embed-responsive-item video-item-delayed-load" data-video-id="id4" style="background:url(https://i1.ytimg.com/vi/id4/0.jpg);" onclick="kraken.loadYoutubeVideo(this)">
+                      <div class="ratio ratio-16x9">
+                        <div class="video-item-delayed-load" data-video-id="id4" style="background:url(https://i1.ytimg.com/vi/id4/0.jpg);" onclick="kraken.loadYoutubeVideo(this)">
                           <i class="fa-regular fa-circle-play fa-3x"></i>
                         </div>
                       </div>

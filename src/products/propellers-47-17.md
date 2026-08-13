@@ -22,7 +22,7 @@ Increased flight time and thrust;
 {% row_icon_text_links How it works; fa-cogs %}
 {% row_text %}
 
-With a new and improved design these propellers gives the Crazyflie a boost in efficiency. Both flight time and maximum thrust is increased with up to 15%! The design is available in two colors, black and green.
+With a new and improved design these propellers gives the Crazyflie<sup>®</sup> a boost in efficiency. Both flight time and maximum thrust is increased with up to 15%! The design is available in two colors, black and green.
 
 Note: This propeller is not the stock propeller delivered with the Crazyflie 2.1
 

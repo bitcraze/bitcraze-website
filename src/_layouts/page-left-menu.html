@@ -2,11 +2,11 @@
 layout: page-base
 ---
 
-{% include header-banner.html %}
+{% include header-banner-left-menu.html %}
 <div class="container-fluid" >
     <section id="primary" class="row content-area page-left-menu" >
         <div class="col-md-4 left-menu">
-            <nav id="tracking-menu" class="hidden-print hidden-xs hidden-sm">
+            <nav id="tracking-menu" class="d-print-none d-none d-md-block sticky-top">
                 {{ content | bc_left_menu }}
             </nav>
         </div>
@@ -16,35 +16,42 @@ layout: page-base
     </section>
 </div>
 
-<!-- JS to handle position and update of the menu -->
+<style>
+/* Sticky menu positioning (replaces Bootstrap 3 Affix) */
+#tracking-menu {
+    top: 100px; /* Offset from top for navbar */
+    max-height: calc(100vh - 120px);
+    overflow-y: auto;
+}
+</style>
+
+<!-- Bootstrap 5 ScrollSpy initialization -->
 <script type="text/javascript">
-( function( $ ) {
-
-  $('body').scrollspy({ target: '#tracking-menu' })
-
-  $('#tracking-menu').affix({
-    offset: {
-      top: function () {
-        this.top = $('.navigation-fluid').outerHeight(true) +
-          $('.content-header-fluid').outerHeight(true);
-
-        return this.top;
-      }
-      ,
-      bottom: function () {
-        this.bottom = $('.site-footer-fluid').outerHeight(true) +
-          $('.footer-nav-fluid').outerHeight(true) + 20;
-
-        return this.bottom;
-      }
+document.addEventListener('DOMContentLoaded', function() {
+    // Initialize Bootstrap 5 ScrollSpy
+    var scrollSpyElement = document.body;
+    if (typeof bootstrap !== 'undefined' && bootstrap.ScrollSpy) {
+        new bootstrap.ScrollSpy(scrollSpyElement, {
+            target: '#tracking-menu',
+            offset: 100
+        });
     }
-  });
 
-  $('#tracking-menu a').smoothScroll({
-    afterScroll: function(options) {
-      window.location.hash = options.scrollTarget;
-    }
-  });
-
-} )( jQuery );
+    // Smooth scroll for menu links
+    var menuLinks = document.querySelectorAll('#tracking-menu a');
+    menuLinks.forEach(function(link) {
+        link.addEventListener('click', function(e) {
+            var href = this.getAttribute('href');
+            if (href && href.startsWith('#')) {
+                e.preventDefault();
+                var target = document.querySelector(href);
+                if (target) {
+                    target.scrollIntoView({ behavior: 'smooth' });
+                    // Update URL hash after scroll
+                    history.pushState(null, null, href);
+                }
+            }
+        });
+    });
+});
 </script>

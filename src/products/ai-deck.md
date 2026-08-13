@@ -22,7 +22,7 @@ Artificial Intelligence in a Nutshell
 {% tabgroup %}
 {% tab How it Works %}
 {% row_icon_text_links How it works; fa-cogs %}
-{% row_text %} Edge AI computing for the Crazyflie is now available!
+{% row_text %} Edge AI computing for the Crazyflie<sup>®</sup> is now available!
 
 Thanks to the GAP8 IoT application processor from GreenWaves Technologies and a camera, the AI-deck provides the essential hardware for capturing, analyzing, and classifying its environment. Originally presented by [ETH Zurich](https://ethz.ch/en.html) as the [PULP-Shield PCB design from IIS-ETHZ](https://arxiv.org/abs/1905.04166), this lightweight, low-power combination is ideal for embedded AI research and development on the micro-sized Crazyflie 2.x.
 
@@ -119,3 +119,14 @@ of the instructions have been updated, refer to the getting started guide for th
 {% endtabgroup %}
 
 ---
+
+#### Resources
+
+- {% id_link getting-started-with-the-aideck %}
+- {% id_link getting-started-start %}
+- {% id_link development-overview %}
+- {% id_link support-frequently-asked-questions %}
+- {% id_link support-getting-help %}
+- {% id_link cf2_expansiondecks %}
+- [Datasheet](/documentation/hardware/ai_deck_1_1/ai_deck_1_1-datasheet.pdf)
+- [Schematics](/documentation/hardware/ai_deck_1_1/ai-deck-revc.pdf)

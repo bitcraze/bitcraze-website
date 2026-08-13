@@ -22,7 +22,7 @@ class TestCollapseSection < Testbase
     tag = '{% collapse_section Read more %}md{% endcollapse_section %}'
 
     expected = '
-    <div class="collapse-section"><a href="#CollapseSection1" data-toggle="collapse"><strong>Read more</strong></a>
+    <div class="collapse-section"><a href="#CollapseSection1" data-bs-toggle="collapse" data-bs-target="#CollapseSection1"><strong>Read more</strong></a>
     <div id="CollapseSection1" class="collapse">converted md</div></div>
     '
 
@@ -39,10 +39,10 @@ class TestCollapseSection < Testbase
     {% collapse_section second %}md{% endcollapse_section %}'
 
     expected = '
-    <div class="collapse-section"><a href="#CollapseSection1" data-toggle="collapse"><strong>first</strong></a>
+    <div class="collapse-section"><a href="#CollapseSection1" data-bs-toggle="collapse" data-bs-target="#CollapseSection1"><strong>first</strong></a>
     <div id="CollapseSection1" class="collapse">converted md</div></div>
 
-    <div class="collapse-section"><a href="#CollapseSection2" data-toggle="collapse"><strong>second</strong></a>
+    <div class="collapse-section"><a href="#CollapseSection2" data-bs-toggle="collapse" data-bs-target="#CollapseSection2"><strong>second</strong></a>
     <div id="CollapseSection2" class="collapse">converted md</div></div>
     '
 

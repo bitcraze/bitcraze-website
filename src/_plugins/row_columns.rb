@@ -162,7 +162,7 @@ module Jekyll
 
           image_tag = image ? '<img src="' + image + '" alt="' + title + '">' : ''
 
-          '<section class="row content-area"><div class="col-md-12"><h3 id="' + full_id + '">' + title + '</h3></div>' +
+          '<section class="row content-area"><div class="col-md-12"><h2 id="' + full_id + '">' + title + '</h2></div>' +
           '</section><section class="row content-area">' +
           '<div class="col-md-3 doc-section-image">' + image_tag + '</div>' +
           '<div class="col-md-6">' + @text_content + '</div>' +
@@ -226,7 +226,7 @@ module Jekyll
 
           icon_tag =  icon ? '<i class="fa-solid '+ icon + ' fa-5x"></i>' : ''
 
-          '<section class="row content-area"><div class="col-md-12"><h3 id="' + full_id + '">' + title + '</h3></div>' +
+          '<section class="row content-area"><div class="col-md-12"><h2 id="' + full_id + '">' + title + '</h2></div>' +
           '</section><section class="row content-area">' +
           '<div class="col-md-2">' + icon_tag + '</div>' +
           '<div class="col-md-7">'  + @text_content  + '</div>' +
@@ -289,7 +289,7 @@ module Jekyll
 
           video_tag = video ? '<video autobuffer controls autoplay muted loop><source src="' + video + '" type="video/mp4"></video>' : ''
 
-          '<section class="row content-area"><div class="col-md-12"><h3 id="' + full_id + '">' + title + '</h3></div>' +
+          '<section class="row content-area"><div class="col-md-12"><h2 id="' + full_id + '">' + title + '</h2></div>' +
           '</section><section class="row content-area">' +
           '<div class="col-md-3 doc-section-image video-no-controls">' + video_tag + '</div>' +
           '<div class="col-md-6">' + @text_content + '</div>' +

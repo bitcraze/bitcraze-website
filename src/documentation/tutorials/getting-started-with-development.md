@@ -8,7 +8,7 @@ redirects:
 
 {% si_intro Programming the Crazyflie %}
 In this tutorial we show the steps needed to change the software running in the
-Crazyflie, often called firmware. We will show how to modify the source code ,
+Crazyflie<sup>®</sup>, often called firmware. We will show how to modify the source code ,
 how to build it and finally download and flash it to your Crazyflie.
 These are the necessary steps to write your own code and change the behaviour
 of your Crazyflie.
