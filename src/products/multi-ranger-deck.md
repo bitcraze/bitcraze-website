@@ -29,7 +29,7 @@ The {% poplink multi-ranger-deck%} measures the distance to the nearest surface 
 
 The Multi-ranger can also be used as a starting point for experimenting with mapping and exploration.
 
-**Note:** The deck provides sensor data only. No collision avoidance or obstacle reaction is enabled by default. For examples of how to use the sensor data, see the [Crazyflie Python library examples for the Multi-ranger](https://github.com/bitcraze/crazyflie-lib-python/tree/master/examples/multiranger).
+**Note:** The deck provides sensor data only. No collision avoidance or obstacle reaction is enabled by default. For examples of how to use the sensor data, see the [Multi-ranger examples](https://github.com/bitcraze/crazyflie-demos/tree/main/demos/scripts/cflib/multiranger) in the [crazyflie-demos](https://github.com/bitcraze/crazyflie-demos) repository.
 
 
 {% endrow_text %}
@@ -85,7 +85,7 @@ Follow the [STEM bundle tutorial]({% id_url getting-started-stem-ranging-bundle 
 The Multi-ranger deck is being handled in [its driver in the crazyflie firmware](https://github.com/bitcraze/crazyflie-firmware/blob/master/src/deck/drivers/src/multiranger.c).
 
 #### Examples
-Check out the multi-ranger based python demos in the [Crazyflie Python Library](https://github.com/bitcraze/crazyflie-lib-python/tree/master/) example folder.
+In the [crazyflie-demos](https://github.com/bitcraze/crazyflie-demos) repository you can find [python scripts](https://github.com/bitcraze/crazyflie-demos/tree/main/demos/scripts/cflib/multiranger) and [firmware apps](https://github.com/bitcraze/crazyflie-demos/tree/main/demos/firmware) using the Multi-ranger deck.
 
 Here is the video of the point cloud example
 
