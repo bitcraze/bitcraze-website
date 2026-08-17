@@ -12,6 +12,14 @@ The Lighthouse positioning system uses the SteamVR Base Stations from Valve Inc.
 
 {% endsi_intro %}
 
+{% si_step Video Tutorial %}
+
+This tutorial is also available as a video. The text tutorial on this page goes into more detail, so it's worth following along if you run into trouble or want the full picture.
+
+{% youtube Hn7QwtgrzEk; wide; 16by9 %}
+
+{% endsi_step %}
+
 {% si_step Prerequisites - hardware %}
 Make sure that you have the following available:
 * A [Crazyflie platform]({% id_url overview_crazyflie; family-tree %}) - if you haven't set it up yet, follow the [Getting started]({% id_url tutorials; set-up-the-crazyflie %}) tutorial.
@@ -23,7 +31,6 @@ Make sure that you have the following available:
 {% si_step  Prerequisites - software %}
 * The latest version of the [Crazyflie client](https://github.com/bitcraze/crazyflie-clients-python/releases). Follow the [Installation instructions](/documentation/repository/crazyflie-clients-python/master/installation/install/).
 {% endsi_step %}
-
 
 
 {% si_intro Preparing the Crazyflie %}

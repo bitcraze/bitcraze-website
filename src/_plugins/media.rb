@@ -96,7 +96,7 @@ module Jekyll
       def render(context)
         # Convert aspect ratio from Bootstrap 3 format (16by9) to Bootstrap 5 format (16x9)
         aspect_ratio = @params[2].gsub('by', 'x')
-        '<div class="media-row-%2$s"><div class="ratio ratio-%3$s"><div class="video-item-delayed-load" data-video-id="%1$s" style="background:url(https://i1.ytimg.com/vi/%1$s/0.jpg);" onclick="kraken.loadYoutubeVideo(this)"><i class="fa-regular fa-circle-play fa-3x"></i></div></div></div>' % [@params[0], @params[1], aspect_ratio]
+        '<div class="media-row-%2$s"><div class="ratio ratio-%3$s"><div class="video-item-delayed-load" data-video-id="%1$s" style="background-image:url(https://i1.ytimg.com/vi/%1$s/0.jpg);" onclick="kraken.loadYoutubeVideo(this)"><i class="fa-solid fa-circle-play fa-3x"></i></div></div></div>' % [@params[0], @params[1], aspect_ratio]
       end
     end
 
@@ -283,7 +283,7 @@ module Jekyll
 
         # Convert aspect ratio from Bootstrap 3 format (16by9) to Bootstrap 5 format (16x9)
         aspect_ratio = @params[1].gsub('by', 'x')
-        html = '<div class="col-md-6">%1$s<div class="ratio ratio-%3$s"><div class="video-item-delayed-load" data-video-id="%2$s" style="background:url(https://i1.ytimg.com/vi/%2$s/0.jpg);" onclick="kraken.loadYoutubeVideo(this)"><i class="fa-regular fa-circle-play fa-3x"></i></div></div></div>' % [header, @params[0], aspect_ratio]
+        html = '<div class="col-md-6">%1$s<div class="ratio ratio-%3$s"><div class="video-item-delayed-load" data-video-id="%2$s" style="background-image:url(https://i1.ytimg.com/vi/%2$s/0.jpg);" onclick="kraken.loadYoutubeVideo(this)"><i class="fa-regular fa-circle-play fa-3x"></i></div></div></div>' % [header, @params[0], aspect_ratio]
         context['media_gallery'].add_item(html)
         html
       end
