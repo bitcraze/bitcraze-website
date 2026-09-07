@@ -113,7 +113,7 @@ the flight area, shaped in inverse triangles.
 {% endtab %}
 {% endtabgroup %}
 
-If you have more than 8 anchors, we suggest you setup a system with 8 anchors first and then switch your system to TDoA3 to add more anchors to the system. See the [tdoa3 setup page](/documentation/repository/lps-node-firmware/master/user-guides/tdoa3_setup/) for more information.
+If you have more than 8 anchors, we suggest you setup a system with 8 anchors first and then switch your system to TDoA3 to add more anchors to the system. See the [tdoa3 setup page](/documentation/repository/lps-node-firmware/2022.09/user-guides/tdoa3_setup/) for more information.
 {% endsi_step %}
 
 {% si_step Powering the anchors %}
@@ -142,7 +142,7 @@ is relayed through the Crazyflie and the Loco Positioning deck.
 
 * Place your Crazyflie 2.x in the center of the flying area.
 * Open the CF client and connect to the Crazyflie 2.x
-* If not already done, [configure](/documentation/repository/crazyflie-clients-python/master/userguides/userguide_client#firmware-configuration)
+* If not already done, [configure](/documentation/repository/crazyflie-clients-python/2026.8/userguides/userguide_client#firmware-configuration)
 the Crazyflie 2.x in __2Mbit__ radio mode. This reduces interference with the
 UWB radio. If the configuration is changed a restart of the Crazyflie 2.x is required.
 {% img open the crazyflie client; wide; /images/tutorials/getting_started_with_lps/open_the_crazyflie_client.jpg %}
@@ -246,7 +246,7 @@ Crazyflie 2.x is no longer receiving TWR data from the anchors.
 
 {% img Switch anchors to TDoA mode; wide; /images/tutorials/getting_started_with_lps/lps-system-mode-switch-2.jpg %}
 
-For details on system mode switching and troubleshooting, please see [the documentation](/documentation/repository/lps-node-firmware/master/user-guides/configure-mode/)
+For details on system mode switching and troubleshooting, please see [the documentation](/documentation/repository/lps-node-firmware/2022.09/user-guides/configure-mode/)
 {% endsi_step %}
 
 {% si_step Switch the Crazyflie back to auto mode %}
@@ -258,7 +258,7 @@ starts to receive data from the anchors.
 
 {% img Switch to auto mode; wide; /images/tutorials/getting_started_with_lps/lps-system-mode-switch-3.jpg %}
 
-If not all anchor boxes go green, please see the [documentation for touble shooting](/documentation/repository/lps-node-firmware/master/user-guides/configure-mode/).
+If not all anchor boxes go green, please see the [documentation for touble shooting](/documentation/repository/lps-node-firmware/2022.09/user-guides/configure-mode/).
 {% endsi_step %}
 
 
@@ -268,5 +268,5 @@ If not all anchor boxes go green, please see the [documentation for touble shoot
 Now when you got the basic functionality of the system up and running you might
 want to try {% id_link getting-started-with-assisted-flight-position-hold %}.
 
-To read the more techy documentation go to the [Loco positioning documentation page](/documentation/repository/lps-node-firmware/master/).
+To read the more techy documentation go to the [Loco positioning documentation page](/documentation/repository/lps-node-firmware/2022.09/).
 {% endsi_intro %}

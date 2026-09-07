@@ -98,7 +98,7 @@ And here from the push demo (also featured in Usage tab)
 {% endrow_text %}
 {% row_links %}
 
-- [Logging variables](/documentation/repository/crazyflie-firmware/master/api/logs/#range)
+- [Logging variables](/documentation/repository/crazyflie-firmware/2026.08/api/logs/#range)
 
 {% endrow_links %}
 {% endrow_icon_text_links %}

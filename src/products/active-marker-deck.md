@@ -60,7 +60,7 @@ The hardware comes pre-programmed for Qualisys tracking systems, but can be re-p
 
 The Active Marker deck is mainly designed for [Qualisys mocap systems](https://www.qualisys.com/) and supports Qualisys Active markers, but it can also be used with other systems in a simplified mode. The deck has 4 arms with one IR LED on the tip of each arm and a light sensor in the center of the deck.
 
-The deck is configured using the [parameter sub system](/documentation/repository/crazyflie-firmware/master/userguides/logparam/), for details on which parameter to use, see below.
+The deck is configured using the [parameter sub system](/documentation/repository/crazyflie-firmware/2026.08/userguides/logparam/), for details on which parameter to use, see below.
 
 ## Modes
 
@@ -91,13 +91,13 @@ In this mode the LEDs act as Active markers with IDs that are identified by the 
 
 ## Marker parameters
 
-Each marker is associated with a parameters that is used to set brightness or id. Please check out the parameter documentation for ['activeMarker'](/documentation/repository/crazyflie-firmware/master/api/params/#activemarker)
+Each marker is associated with a parameters that is used to set brightness or id. Please check out the parameter documentation for ['activeMarker'](/documentation/repository/crazyflie-firmware/2026.08/api/params/#activemarker)
 {% endrow_text %}
 
 {% row_links %}
 * {% id_link getting-started-expansion-decks %}
-* [Parameters](/documentation/repository/crazyflie-firmware/master/api/params/#activemarker)
-* [Logging Variables](/documentation/repository/crazyflie-firmware/master/api/logs/#activemarker)
+* [Parameters](/documentation/repository/crazyflie-firmware/2026.08/api/params/#activemarker)
+* [Logging Variables](/documentation/repository/crazyflie-firmware/2026.08/api/logs/#activemarker)
 {% endrow_links %}
 
 

@@ -33,7 +33,7 @@ Please see the [Windows driver installation instructions](/documentation/reposit
 {% endtab %}
 {% tab Linux %}
 On Linux, the Crazyradio is easily recognized, but you have to set up udev permissions. Look at the
-[usb permission instructions](/documentation/repository/crazyflie-lib-python/master/installation/usb_permissions/) to setup udev on Linux.
+[usb permission instructions](/documentation/repository/crazyflie-lib-python/0.1.33/installation/usb_permissions/) to setup udev on Linux.
 {% endtab %}
 {% endtabgroup %}
 {% endsi_step %}

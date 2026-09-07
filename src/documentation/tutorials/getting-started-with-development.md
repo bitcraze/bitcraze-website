@@ -22,7 +22,7 @@ For this tutorial you need:
 * A Crazyflie
 * A {% poplink crazyradio-2-0 %} or Crazyradio PA
 * A computer with an IDE installed. In this tutorial we will use [Visual Studio Code](https://code.visualstudio.com/).
-* Compile dependencies installed. In this tutorial we will compile the `crazyflie-firmware` repository. For more information on how to install the dependencies, see the [repository documentation](/documentation/repository/crazyflie-firmware/master/building-and-flashing/build/#dependencies). Compiling different projects may require different dependencies.
+* Compile dependencies installed. In this tutorial we will compile the `crazyflie-firmware` repository. For more information on how to install the dependencies, see the [repository documentation](/documentation/repository/crazyflie-firmware/2026.08/building-and-flashing/build/#dependencies). Compiling different projects may require different dependencies.
 {% endsi_step %}
 
 {% si_step set-up %}
@@ -82,7 +82,7 @@ Now it's time to build the source code into binary files that can be
 downloaded to the Crazyflie.
 
 For more, and more detailed, information about developing the Crazyflie firmware you can
-go to the repository documentation [here.](/documentation/repository/crazyflie-firmware/master/)
+go to the repository documentation [here.](/documentation/repository/crazyflie-firmware/2026.08/)
 {% endsi_intro %}
 
 {% si_step start the build; build %}
@@ -111,7 +111,7 @@ $ make bolt_defconfig
 {% endtab %}
 {% endtabgroup %}
 
-If you want to build firmware for a different platform, please checkout the [build instructions of the crazyflie-firmware.](/documentation/repository/crazyflie-firmware/master/building-and-flashing/build/#compiling)
+If you want to build firmware for a different platform, please checkout the [build instructions of the crazyflie-firmware.](/documentation/repository/crazyflie-firmware/2026.08/building-and-flashing/build/#compiling)
 
 Then you can start a build by issuing the following command in the terminal window in Visual Studio Code:
 ```
@@ -208,12 +208,12 @@ Congratulations to your first Crazyflie hack!
 {% endsi_intro %}
 
 {% si_step Debugging using GDB; debugging %}
-For a guide on debugging the Crazyflie firmware using GDB, see the firmware documentation [here.](/documentation/repository/crazyflie-firmware/master/development/openocd_gdb_debugging/)
+For a guide on debugging the Crazyflie firmware using GDB, see the firmware documentation [here.](/documentation/repository/crazyflie-firmware/2026.08/development/openocd_gdb_debugging/)
 {% endsi_step %}
 
 {% si_step Alternatives to the VM; alt-to-vm %}
 In this tutorial we used the VM, mainly because it is the easiest way to get started. However there two other ways to
-compile the code; [installing the toolchain on your machine](/documentation/repository/crazyflie-firmware/master/building-and-flashing/build/)
+compile the code; [installing the toolchain on your machine](/documentation/repository/crazyflie-firmware/2026.08/building-and-flashing/build/)
 or using the [Toolbelt](/documentation/repository/toolbelt/master/). All solutions have their pros and
 cons but it is probably worth looking into all options if you plan to do some serious development.
 {% endsi_step %}

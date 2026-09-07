@@ -23,12 +23,12 @@ There are mobile phone apps for Android and IOS that connects via BLE, mainly fo
 
 {% row_image_text_links PC clients; /images/documentation/overview/pc_thumbnail.jpg %}
 {% row_text %}
-We have a Crazyflie 2.x python-based client for the PC, of which all the documentation can be found [here](/documentation/repository/crazyflie-clients-python/master/). The PC client runs on the Crazyflie library (CFlib), of which all the documentation can be found [here](/documentation/repository/crazyflie-lib-python/master/).
+We have a Crazyflie 2.x python-based client for the PC, of which all the documentation can be found [here](/documentation/repository/crazyflie-clients-python/2026.8/). The PC client runs on the Crazyflie library (CFlib), of which all the documentation can be found [here](/documentation/repository/crazyflie-lib-python/0.1.33/).
 
 {% endrow_text %}
 {% row_links %}
-* [Crazyflie Python-based client documentation](/documentation/repository/crazyflie-clients-python/master/)
-* [Crazyflie Python library documentation](/documentation/repository/crazyflie-lib-python/master/)
+* [Crazyflie Python-based client documentation](/documentation/repository/crazyflie-clients-python/2026.8/)
+* [Crazyflie Python library documentation](/documentation/repository/crazyflie-lib-python/0.1.33/)
 {% endrow_links %}
 {% endrow_image_text_links %}
 

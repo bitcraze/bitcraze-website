@@ -58,7 +58,7 @@ See [the compatibility matrix]({% id_url cf2_expansiondecks %}#compatibility-mat
 {% row_icon_text_links Usage; fa-book %}
 {% row_text %}
 
-The different LED patterns can selected from [CFclient's Flight tab](/documentation/repository/crazyflie-clients-python/master/userguides/userguide_client/flightcontrol_tab/).
+The different LED patterns can selected from [CFclient's Flight tab](/documentation/repository/crazyflie-clients-python/2026.8/userguides/userguide_client/flightcontrol_tab/).
 
 Once you have selected the right pattern, go ahead and fly!
 {% youtube 1xtvRCmk3qY; wide; 16by9 %}
@@ -67,7 +67,7 @@ Once you have selected the right pattern, go ahead and fly!
 
 {% endrow_text %}
 {% row_links %}
-- [CFclient's Flight tab](/documentation/repository/crazyflie-clients-python/master/userguides/userguide_client/flightcontrol_tab/).
+- [CFclient's Flight tab](/documentation/repository/crazyflie-clients-python/2026.8/userguides/userguide_client/flightcontrol_tab/).
 
 #### Tutorials:
 
@@ -119,8 +119,8 @@ We tested the converted LED deck with the {% poplink flow-deck %} with the CFcli
 {% endrow_text %}
 {% row_links %}
 
-* [Logging Variables](/documentation/repository/crazyflie-firmware/master/api/logs/#ring)
-* [Parameters](/documentation/repository/crazyflie-firmware/master/api/params/#ring)
+* [Logging Variables](/documentation/repository/crazyflie-firmware/2026.08/api/logs/#ring)
+* [Parameters](/documentation/repository/crazyflie-firmware/2026.08/api/params/#ring)
 
 
 #### Projects

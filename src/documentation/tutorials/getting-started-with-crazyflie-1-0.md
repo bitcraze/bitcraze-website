@@ -28,7 +28,7 @@ Other gamepads can be configured in the Crazyflie client software.
 The Crazyradio dongle shall also be connected to the computer. The documentation
 contains the [Windows driver installation instructions](/documentation/repository/crazyradio-firmware/master/building/usbwindows/).
 Mac and Linux does not require drivers but Linux requires
-[some configuration](/documentation/repository/crazyflie-lib-python/master/installation/usb_permissions/).
+[some configuration](/documentation/repository/crazyflie-lib-python/0.1.33/installation/usb_permissions/).
 {% endsi_intro %}
 
 

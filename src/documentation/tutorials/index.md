@@ -39,9 +39,9 @@ page_id: tutorials
 * {% id_link getting-started-with-simulation %}
 * {% id_link pid-tuning-guide %}
 * Step-by-step guides crazyflie python library:
-  * [Connecting, Logging and parameters](/documentation/repository/crazyflie-lib-python/master/user-guides/sbs_connect_log_param/)
-  * [Motion commander](/documentation/repository/crazyflie-lib-python/master/user-guides/sbs_motion_commander/)
-  * [Swarm interface](/documentation/repository/crazyflie-lib-python/master/user-guides/sbs_swarm_interface/)
+  * [Connecting, Logging and parameters](/documentation/repository/crazyflie-lib-python/0.1.33/user-guides/sbs_connect_log_param/)
+  * [Motion commander](/documentation/repository/crazyflie-lib-python/0.1.33/user-guides/sbs_motion_commander/)
+  * [Swarm interface](/documentation/repository/crazyflie-lib-python/0.1.33/user-guides/sbs_swarm_interface/)
 
 ## Development
 

@@ -68,7 +68,7 @@ functions is likely to change over time and if it will break the application. It
 Areas that can be versioned using a version number, for instance protocols, should update the version number when
 something is changed. Check the documentation for the specific area/protocol to see if there
 is a specific update policy for this area. An example would be
-[CRTP](/documentation/repository/crazyflie-firmware/master/functional-areas/crtp/index.md#protocol-version-and-stability-guarantee).
+[CRTP](/documentation/repository/crazyflie-firmware/2026.08/functional-areas/crtp/index.md#protocol-version-and-stability-guarantee).
 
 For functions in the code base, there is not always a version number tied to the function (except the release version) that
 clearly tells the programmer if there has been an API break or not. The approach we use is to mark functions that we

@@ -4,4 +4,4 @@
 
 [Other deck compatibility](/documentation/system/platform/cf2-expansiondecks/#deck---deck)
 
-[Parameters](/documentation/repository/crazyflie-firmware/master/api/params/#usd)
+[Parameters](/documentation/repository/crazyflie-firmware/2026.08/api/params/#usd)

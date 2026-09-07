@@ -64,7 +64,7 @@ Lighthouse V1 uses two rotating drums while V2 uses one drum with two slanted li
 {% row_text %}
 To measure position and orientation, the Crazyflie needs to know the position and orientation of each base station in the room. This is called the system geometry.
 
-Geometry setup is done through the [Cfclient](/documentation/repository/crazyflie-clients-python/master/). The client can automatically estimate and store the geometry on the Crazyflie. The geometry can also be saved to a file and written to multiple Crazyflies, making it straightforward to fly a swarm in the same tracked space.
+Geometry setup is done through the [Cfclient](/documentation/repository/crazyflie-clients-python/2026.8/). The client can automatically estimate and store the geometry on the Crazyflie. The geometry can also be saved to a file and written to multiple Crazyflies, making it straightforward to fly a swarm in the same tracked space.
 {% endrow_text %}
 {% endrow_image_text_links %}
 
@@ -113,11 +113,11 @@ It will guide you from zero to having your Crazyflie autonomously flying in your
 
 {% row_image_text_links Technical information %}
 {% row_text %}
-For more in depth information, please see the documentation for the Lighthouse system in the [crazyflie-firmware repository](/documentation/repository/crazyflie-firmware/master/functional-areas/lighthouse/).
+For more in depth information, please see the documentation for the Lighthouse system in the [crazyflie-firmware repository](/documentation/repository/crazyflie-firmware/2026.08/functional-areas/lighthouse/).
 {% endrow_text%}
 {% row_links %}
 * [Lighthouse Positioning System: Dataset, Accuracy, and Precision for UAV Research](https://whoenig.github.io/publications/2021_ICRA-Swarm-workshop_Taffanel.pdf)
-* [Lighthouse positioning documentation](/documentation/repository/crazyflie-firmware/master/functional-areas/lighthouse/)
+* [Lighthouse positioning documentation](/documentation/repository/crazyflie-firmware/2026.08/functional-areas/lighthouse/)
 * [Dataset](/documentation/system/positioning/positioning-datasets/)
 {% endrow_links %}
 {% endrow_image_text_links %}

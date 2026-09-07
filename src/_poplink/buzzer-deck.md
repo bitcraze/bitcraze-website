@@ -6,6 +6,6 @@
 
 [Tutorial](/documentation/tutorials/getting-started-with-buzzer-deck/)
 
-[Parameters](/documentation/repository/crazyflie-firmware/master/api/params/#sound)
+[Parameters](/documentation/repository/crazyflie-firmware/2026.08/api/params/#sound)
 
 

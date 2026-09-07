@@ -84,14 +84,14 @@ Go to the [Loco positioning system tutorial]({% id_url getting-started-with-the-
 {% row_icon_text_links Development;  fa-laptop %}
 {% row_text %}
 
-Please check out the [Loco positioning node firmware](https://github.com/bitcraze/lps-node-firmware) for implementation details, with its accomendating [documentation](/documentation/repository/lps-node-firmware/master/).
+Please check out the [Loco positioning node firmware](https://github.com/bitcraze/lps-node-firmware) for implementation details, with its accomendating [documentation](/documentation/repository/lps-node-firmware/2022.09/).
 
 
 
 {% endrow_text %}
 {% row_links %}
 
-- [Firmware documentation](/documentation/repository/lps-node-firmware/master/)
+- [Firmware documentation](/documentation/repository/lps-node-firmware/2022.09/)
 - [Dataset](/documentation/system/positioning/positioning-datasets/)
 
 #### Investigations

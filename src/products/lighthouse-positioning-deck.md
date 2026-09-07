@@ -86,9 +86,9 @@ For more general information about our positioning systems and how the Lighthous
 
 #### Firmware Implementation
 
-The Lighthouse position is calculated onboard the Crazyflie. For implementation details, see the [technical documentation of the Lighthouse positioning system](/documentation/repository/crazyflie-firmware/master/functional-areas/lighthouse/) and the [Crazyflie Firmware](https://github.com/bitcraze/crazyflie-firmware).
+The Lighthouse position is calculated onboard the Crazyflie. For implementation details, see the [technical documentation of the Lighthouse positioning system](/documentation/repository/crazyflie-firmware/2026.08/functional-areas/lighthouse/) and the [Crazyflie Firmware](https://github.com/bitcraze/crazyflie-firmware).
 
-To work with the implementation of the Lighthouse system, it is important to have a good feel for the [stabilizer module of the crazyflie](/documentation/repository/crazyflie-firmware/master/functional-areas/sensor-to-control/), in particular state estimation with the [Extended Kalman Filter](/documentation/repository/crazyflie-firmware/master/functional-areas/sensor-to-control/state_estimators/#extended-kalman-filter)
+To work with the implementation of the Lighthouse system, it is important to have a good feel for the [stabilizer module of the crazyflie](/documentation/repository/crazyflie-firmware/2026.08/functional-areas/sensor-to-control/), in particular state estimation with the [Extended Kalman Filter](/documentation/repository/crazyflie-firmware/2026.08/functional-areas/sensor-to-control/state_estimators/#extended-kalman-filter)
 
 #### Hardware Hack: Using a LH deck with other hardware
 
@@ -105,10 +105,10 @@ Note: there is no software support for using the {% poplink lighthouse-deck %} w
 {% endrow_text %}
 {% row_links %}
 
-- [Technical details](/documentation/repository/crazyflie-firmware/master/functional-areas/lighthouse/)
-- [Stabilizer Module](/documentation/repository/crazyflie-firmware/master/functional-areas/sensor-to-control/)
-- [Log Variables](/documentation/repository/crazyflie-firmware/master/api/logs/#lighthouse)
-- [Parameters](/documentation/repository/crazyflie-firmware/master/api/params/#lighthouse)
+- [Technical details](/documentation/repository/crazyflie-firmware/2026.08/functional-areas/lighthouse/)
+- [Stabilizer Module](/documentation/repository/crazyflie-firmware/2026.08/functional-areas/sensor-to-control/)
+- [Log Variables](/documentation/repository/crazyflie-firmware/2026.08/api/logs/#lighthouse)
+- [Parameters](/documentation/repository/crazyflie-firmware/2026.08/api/params/#lighthouse)
 - [Dataset](/documentation/system/positioning/positioning-datasets/)
 
 {% endrow_links %}
@@ -122,7 +122,7 @@ Note: there is no software support for using the {% poplink lighthouse-deck %} w
 
 #### Resources
 
-- [Lighthouse positioning information](/documentation/repository/crazyflie-firmware/master/functional-areas/lighthouse/)
+- [Lighthouse positioning information](/documentation/repository/crazyflie-firmware/2026.08/functional-areas/lighthouse/)
 - {% id_link getting-started-start %}
 - {% id_link support-frequently-asked-questions %}
 - {% id_link support-getting-help %}

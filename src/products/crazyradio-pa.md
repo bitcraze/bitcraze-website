@@ -65,16 +65,16 @@ range increase as with the Crazyflie 2.x.
 {% row_text %}
 Connect the Crazyradio PA to a USB port on your computer.
 
-On Windows you have to install drivers, please see [Crazyradio Windows USB driver installation instructions](/documentation/repository/crazyradio-firmware/master/building/usbwindows/). For Linux, you will need to setup udev permissions, so for that the [linux udev crazyradio instructions](/documentation/repository/crazyflie-lib-python/master/installation/usb_permissions/).
+On Windows you have to install drivers, please see [Crazyradio Windows USB driver installation instructions](/documentation/repository/crazyradio-firmware/master/building/usbwindows/). For Linux, you will need to setup udev permissions, so for that the [linux udev crazyradio instructions](/documentation/repository/crazyflie-lib-python/0.1.33/installation/usb_permissions/).
 
-From there, you are able to install the [CFclient](/documentation/repository/crazyflie-clients-python/master/installation/install/) and communicate with the Crazyflie.
+From there, you are able to install the [CFclient](/documentation/repository/crazyflie-clients-python/2026.8/installation/install/) and communicate with the Crazyflie.
 {% endrow_text %}
 {% row_links %}
 * [Windows driver instructions](/documentation/repository/crazyradio-firmware/master/building/usbwindows/)
 
-* [Linux driver instructions](/documentation/repository/crazyflie-lib-python/master/installation/usb_permissions/)
+* [Linux driver instructions](/documentation/repository/crazyflie-lib-python/0.1.33/installation/usb_permissions/)
 
-* [Client installation Instructions](/documentation/repository/crazyflie-clients-python/master/installation/install/)
+* [Client installation Instructions](/documentation/repository/crazyflie-clients-python/2026.8/installation/install/)
 
 {% endrow_links %}
 {% endrow_icon_text_links %}

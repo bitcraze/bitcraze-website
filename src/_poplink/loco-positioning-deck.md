@@ -9,6 +9,6 @@
 [Other deck compatibility](/documentation/system/platform/cf2-expansiondecks/#deck---deck)
 
 
-[Implementation details](/documentation/repository/crazyflie-firmware/master/functional-areas/loco-positioning-system/)
+[Implementation details](/documentation/repository/crazyflie-firmware/2026.08/functional-areas/loco-positioning-system/)
 
-[Modes and protocols](/documentation/repository/lps-node-firmware/master/)
+[Modes and protocols](/documentation/repository/lps-node-firmware/2022.09/)

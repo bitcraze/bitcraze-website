@@ -4,6 +4,6 @@
 
 [Other deck compatibility](/documentation/system/platform/cf2-expansiondecks/#deck---deck)
 
-[Parameters](/documentation/repository/crazyflie-firmware/master/api/params/#activemarker)
+[Parameters](/documentation/repository/crazyflie-firmware/2026.08/api/params/#activemarker)
 
 [Motion Capture Positioning](/documentation/system/positioning/mocap-positioning/)

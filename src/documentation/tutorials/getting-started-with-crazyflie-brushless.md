@@ -198,7 +198,7 @@ The supported way to install and run the client on a computer currently is to in
 the Crazyflie client using the python package manager *pip*.
 
 You can follow the prerequisite and instructions to install the latest release on the
-[Client installation instruction page](/documentation/repository/crazyflie-clients-python/master/installation/install/).
+[Client installation instruction page](/documentation/repository/crazyflie-clients-python/2026.8/installation/install/).
 
 
 When you have set up the client, insert the {% poplink crazyradio-2-0 %} or Crazyradio PA and your gamepad in
@@ -279,7 +279,7 @@ In the client, open the input device settings. Check if the correct device
 mapping is chosen, otherwise pick your device type.
 {% img Controller settings; wide; /images/getting-started/configure_your_controller.PNG %}
 
-For more detailed information on input devices, see the [client user-guide](/documentation/repository/crazyflie-clients-python/master/userguides/inputdevices/).
+For more detailed information on input devices, see the [client user-guide](/documentation/repository/crazyflie-clients-python/2026.8/userguides/inputdevices/).
 
 {% endsi_step %}
 
@@ -298,7 +298,7 @@ well as battery status and the link quality.
 {% endsi_step %}
 
 {% si_intro Update firmware in the Crazyflie; update-fw %}
-To make sure that your Crazyflie has all the latest features you should always update the firmware to the newest version. To find out how you can check out the client user-guide [here](/documentation/repository/crazyflie-clients-python/master/userguides/userguide_client/#firmware-upgrade).
+To make sure that your Crazyflie has all the latest features you should always update the firmware to the newest version. To find out how you can check out the client user-guide [here](/documentation/repository/crazyflie-clients-python/2026.8/userguides/userguide_client/#firmware-upgrade).
 
 {% endsi_intro %}
 

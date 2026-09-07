@@ -70,7 +70,7 @@ There are two flavors of the firmware: **Crazyradio PA emulation firmware** and 
 
 The **Crazyradio PA emulation firmware**, makes the Crazyradio 2.0 behave like a {% id_link product-crazyradio-pa %}. The
 {% id_link getting-started-crazyradio-2-0 %} tutorial shows the steps to install the firmware and drivers. From there,
-you are able to install the [CFclient](/documentation/repository/crazyflie-clients-python/master/installation/install/)
+you are able to install the [CFclient](/documentation/repository/crazyflie-clients-python/2026.8/installation/install/)
 and communicate with the Crazyflie.
 
 The **Crazyradio 2.0 firmware** is under development and more instructions will be added here later.
@@ -90,9 +90,9 @@ copying a `.uf2` file to the USB drive.
 
 * [Windows driver instructions](/documentation/repository/crazyradio-firmware/master/building/usbwindows/)
 
-* [Linux driver instructions](/documentation/repository/crazyflie-lib-python/master/installation/usb_permissions/)
+* [Linux driver instructions](/documentation/repository/crazyflie-lib-python/0.1.33/installation/usb_permissions/)
 
-* [Client installation Instructions](/documentation/repository/crazyflie-clients-python/master/installation/install/)
+* [Client installation Instructions](/documentation/repository/crazyflie-clients-python/2026.8/installation/install/)
 
 * [Releases](https://github.com/bitcraze/crazyradio2-firmware/releases)
 {% endrow_links %}

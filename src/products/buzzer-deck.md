@@ -67,7 +67,7 @@ See [the compatibility matrix]({% id_url cf2_expansiondecks %}#compatibility-mat
 
 
 
-You can change the ['Sound parameters'](/documentation/repository/crazyflie-firmware/master/api/params/#sound) to change the tune. Also follow the [buzzer deck tutorial]({% id_url getting-started-buzzer-deck %})
+You can change the ['Sound parameters'](/documentation/repository/crazyflie-firmware/2026.08/api/params/#sound) to change the tune. Also follow the [buzzer deck tutorial]({% id_url getting-started-buzzer-deck %})
 
 
 {% youtube m6rL3y-gLG4; wide; 16by9 %}
@@ -97,7 +97,7 @@ The effects are defined in the effects array. Each entry takes a function to cal
 To add a new melody, use the melodyplayer function for the .call member and assign your Melody struct to the .melody member.
 {% endrow_text %}
 {% row_links %}
-- [Parameters](/documentation/repository/crazyflie-firmware/master/api/params/#sound)
+- [Parameters](/documentation/repository/crazyflie-firmware/2026.08/api/params/#sound)
 
 {% endrow_links %}
 {% endrow_icon_text_links %}
