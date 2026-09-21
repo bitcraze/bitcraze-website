@@ -49,6 +49,7 @@ redirects:
 {% country Italy %}
 {% distributor Robot Domestici; https://store.robot-domestici.it/en/search?q=bitcraze; /images/distributors/robot-domestici.png %}
 {% distributor Compass DHM Projects; https://www.dhm-online.com/en/brand/97-bitcraze-ab; /images/distributors/compassDHMprojects-logo.png %}
+{% distributor Robotics 3D; https://www.robotics-3d.com/833-bitcraze; /images/distributors/logo3d.jpg %}
 
 {% country Spain %}
 {% distributor Drone Prix; https://droneprix.es/167-bitcraze; /images/distributors/droneprix.png %}
