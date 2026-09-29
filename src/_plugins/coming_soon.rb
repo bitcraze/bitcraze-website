@@ -18,7 +18,7 @@ module Jekyll
             <div class="col-md-12">
                 <button type="button" class="buy-button" disabled><i class="fa-solid fa-cart-shopping fa-fw"></i>Coming soon</button>
                 <h4>Soon available in stores,
-                  <a title="Signup for newsletter" href="/signup/">sign up for our newsletter.</a>
+                  <a title="Signup for newsletter" href="https://eepurl.com/hiqdJ9">sign up for our newsletter.</a>
                 </h4>
             </div>
         </div>'
