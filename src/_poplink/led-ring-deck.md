@@ -4,8 +4,8 @@
 
 [Other deck compatibility](/documentation/system/platform/cf2-expansiondecks/#deck---deck)
 
-[Guide CFlient](/documentation/repository/crazyflie-clients-python/2026.8/userguides/userguide_client/flightcontrol_tab/)
+[Guide CFlient]({% repo_doc_url crazyflie-clients-python; userguides/userguide_client/flightcontrol_tab %})
 
-[Parameters](/documentation/repository/crazyflie-firmware/2026.08/api/params/#ring)
+[Parameters]({% repo_doc_url crazyflie-firmware; api/params %}#ring)
 
 

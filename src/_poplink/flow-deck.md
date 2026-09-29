@@ -8,5 +8,5 @@
 
 [STEM Tutorial](/documentation/tutorials/getting-started-with-stem-drone-bundle/)
 
-[Logging](/documentation/repository/crazyflie-firmware/2026.08/api/logs/#motion)
+[Logging]({% repo_doc_url crazyflie-firmware; api/logs %}#motion)
 

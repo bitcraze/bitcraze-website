@@ -68,7 +68,7 @@ functions is likely to change over time and if it will break the application. It
 Areas that can be versioned using a version number, for instance protocols, should update the version number when
 something is changed. Check the documentation for the specific area/protocol to see if there
 is a specific update policy for this area. An example would be
-[CRTP](/documentation/repository/crazyflie-firmware/2026.08/functional-areas/crtp/index.md#protocol-version-and-stability-guarantee).
+[CRTP]({% repo_doc_url crazyflie-firmware; functional-areas/crtp %}#protocol-version-and-stability-guarantee).
 
 For functions in the code base, there is not always a version number tied to the function (except the release version) that
 clearly tells the programmer if there has been an API break or not. The approach we use is to mark functions that we
@@ -126,7 +126,7 @@ Even though we detail how to set up the different development environments for
 the Crazyflie platform, this can be a hassle. Here we will provide a list of tools that can be used to make development easier:
 
 * **The Virtual Machine**: we provide a pre-compiled virtual machine with the full development environment already preinstalled for you. {% id_link getting-started-crazyflie-2 %} under 'installing on VM' shows installation instructions of how to install the VM on your computer.
-* **The Toolbelt**: The toolbelt is a utility to run tools for testing and building of software modules. Go to the [toolbelt documentation](/documentation/repository/toolbelt/master/) for more information
+* **The Toolbelt**: The toolbelt is a utility to run tools for testing and building of software modules. Go to the [toolbelt documentation]({% repo_doc_url toolbelt %}) for more information
 * **Native install**: This means that you want setup the development environment on your native machine from scratch. You should checkout the  {% id_link repository-overview %} to go to the part of the eco system you would like to develop for and follow the documentation for the install and setup instructions.
 
 Also check which open source tools we are using / have used at Bitcraze internally to get inspiration on what you would like to use for your case.

@@ -23,12 +23,12 @@ There are mobile phone apps for Android and IOS that connects via BLE, mainly fo
 
 {% row_image_text_links PC clients; /images/documentation/overview/pc_thumbnail.jpg %}
 {% row_text %}
-We have a Crazyflie 2.x python-based client for the PC, of which all the documentation can be found [here](/documentation/repository/crazyflie-clients-python/2026.8/). The PC client runs on the Crazyflie library (CFlib), of which all the documentation can be found [here](/documentation/repository/crazyflie-lib-python/0.1.33/).
+We have a Crazyflie 2.x python-based client for the PC, of which all the documentation can be found [here]({% repo_doc_url crazyflie-clients-python %}). The PC client runs on the Crazyflie library (CFlib), of which all the documentation can be found [here]({% repo_doc_url crazyflie-lib-python %}).
 
 {% endrow_text %}
 {% row_links %}
-* [Crazyflie Python-based client documentation](/documentation/repository/crazyflie-clients-python/2026.8/)
-* [Crazyflie Python library documentation](/documentation/repository/crazyflie-lib-python/0.1.33/)
+* [Crazyflie Python-based client documentation]({% repo_doc_url crazyflie-clients-python %})
+* [Crazyflie Python library documentation]({% repo_doc_url crazyflie-lib-python %})
 {% endrow_links %}
 {% endrow_image_text_links %}
 
@@ -38,8 +38,8 @@ We have a Crazyflie 2.x python-based client for the PC, of which all the documen
 The PC needs a {% poplink crazyradio-2-0 %} or Crazyradio PA in order to communicate with the Crazyflie 2.x. This relays the CTRP protocol from the PC client or the Crazyflie library to and from the CF2. The documentation also explains how to setup the USB permissions on your specific OS or machine.
 {% endrow_text %}
 {% row_links %}
-* [Crazyradio 2.0 documentation](/documentation/repository/crazyradio2-firmware/5.5/).
-* [Crazyradio PA documentation](/documentation/repository/crazyradio-firmware/master/).
+* [Crazyradio 2.0 documentation]({% repo_doc_url crazyradio2-firmware %}).
+* [Crazyradio PA documentation]({% repo_doc_url crazyradio-firmware %}).
 {% endrow_links %}
 {% endrow_image_text_links %}
 
@@ -49,7 +49,7 @@ The PC needs a {% poplink crazyradio-2-0 %} or Crazyradio PA in order to communi
 There are apps existing for controlling the Crazyflie 2.x on both [IOS](https://apps.apple.com/us/app/crazyflie-2-0/id946151480) and [Android](https://play.google.com/store/apps/details?id=se.bitcraze.crazyfliecontrol2) with Bluetooth LE communication.
 {% endrow_text %}
 {% row_links %}
-* [Android Client Documentation](/documentation/repository/crazyflie-android-client/master/)
-* [IOS Client Documentation](/documentation/repository/crazyflie2-ios-client/master/)
+* [Android Client Documentation]({% repo_doc_url crazyflie-android-client %})
+* [IOS Client Documentation]({% repo_doc_url crazyflie2-ios-client %})
 {% endrow_links %}
 {% endrow_image_text_links %}

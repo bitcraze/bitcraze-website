@@ -82,18 +82,18 @@ Go to the [Loco positioning system tutorial]({% id_url getting-started-with-the-
 
 #### Implementation Firmware
 
-All the Loco positioning is estimated onboard of the crazyflie. Go the the [technical documentation of the loco positioning system](/documentation/repository/lps-node-firmware/2022.09/) of how it is implemented into the [Crazyflie Firmware](https://github.com/bitcraze/crazyflie-firmware) and the [Loco positioning node firmware](https://github.com/bitcraze/lps-node-firmware)
+All the Loco positioning is estimated onboard of the crazyflie. Go the the [technical documentation of the loco positioning system]({% repo_doc_url lps-node-firmware %}) of how it is implemented into the [Crazyflie Firmware](https://github.com/bitcraze/crazyflie-firmware) and the [Loco positioning node firmware](https://github.com/bitcraze/lps-node-firmware)
 
-It is important to have a good feel for the [stabilizer module of the crazyflie](/documentation/repository/crazyflie-firmware/2026.08/functional-areas/sensor-to-control/), in particular state estimation with the [Extended Kalman Filter](/documentation/repository/crazyflie-firmware/2026.08/functional-areas/sensor-to-control/state_estimators/#extended-kalman-filter)
+It is important to have a good feel for the [stabilizer module of the crazyflie]({% repo_doc_url crazyflie-firmware; functional-areas/sensor-to-control %}), in particular state estimation with the [Extended Kalman Filter]({% repo_doc_url crazyflie-firmware; functional-areas/sensor-to-control/state_estimators %}#extended-kalman-filter)
 
 {% endrow_text %}
 {% row_links %}
 
-- [Technical details](/documentation/repository/lps-node-firmware/2022.09/)
-- [Stabilizer Module](/documentation/repository/crazyflie-firmware/2026.08/functional-areas/sensor-to-control/)
-- [Log variables Loco](/documentation/repository/crazyflie-firmware/2026.08/api/logs/#loco)
-- [Log variables Ranging](/documentation/repository/crazyflie-firmware/2026.08/api/logs/#ranging)
-- [Parameters](/documentation/repository/crazyflie-firmware/2026.08/api/params/#loco)
+- [Technical details]({% repo_doc_url lps-node-firmware %})
+- [Stabilizer Module]({% repo_doc_url crazyflie-firmware; functional-areas/sensor-to-control %})
+- [Log variables Loco]({% repo_doc_url crazyflie-firmware; api/logs %}#loco)
+- [Log variables Ranging]({% repo_doc_url crazyflie-firmware; api/logs %}#ranging)
+- [Parameters]({% repo_doc_url crazyflie-firmware; api/params %}#loco)
 
 #### Investigations
 * {% id_link accuracy-loco %}

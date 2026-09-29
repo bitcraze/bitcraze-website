@@ -8,7 +8,7 @@ redirects:
 
 ## Crazyflie<sup>®</sup> stand-alone Python client
 
-Follow [the installation instructions](/documentation/repository/crazyflie-clients-python/2026.8/installation/install/) for the latest release.
+Follow [the installation instructions]({% repo_doc_url crazyflie-clients-python; installation/install %}) for the latest release.
 
 ## Crazyflie mobile clients
 
@@ -17,7 +17,7 @@ Follow [the installation instructions](/documentation/repository/crazyflie-clien
 
 ## Crazyflie 2.x firmware
 
-Reflash the crazyflie's firmware with [the cfclient firmware instructions](/documentation/repository/crazyflie-clients-python/2026.8/userguides/userguide_client/#firmware-upgrade) with a {% poplink crazyradio-2-0 %} or a {% id_link product-crazyradio-pa %}.
+Reflash the crazyflie's firmware with [the cfclient firmware instructions]({% repo_doc_url crazyflie-clients-python; userguides/userguide_client %}#firmware-upgrade) with a {% poplink crazyradio-2-0 %} or a {% id_link product-crazyradio-pa %}.
 
 Latest stable release of the binary files can be found
 [in the github releases page](https://github.com/bitcraze/crazyflie-release/releases "GitHub releases for crazyflie-firmware").

@@ -81,7 +81,7 @@ unfortunately also makes the position a bit more noisy. Both the anchors and the
 the long range mode.
 {% endrow_text %}
 {% row_links %}
-* [TDoA3 Long Range mode](/documentation/repository/lps-node-firmware/2022.09/user-guides/tdoa3_long_range/)
+* [TDoA3 Long Range mode]({% repo_doc_url lps-node-firmware; user-guides/tdoa3_long_range %})
 {% endrow_links %}
 {% endrow_image_text_links %}
 
@@ -130,10 +130,10 @@ We have created an easy to follow step-by-step guide for setting up the Loco pos
 
 {% row_image_text_links Tech information %}
 {% row_text %}
-For more technical information about the Loco positioning system please visit the [Loco Positioning System and node Documentation](/documentation/repository/lps-node-firmware/2022.09/).
+For more technical information about the Loco positioning system please visit the [Loco Positioning System and node Documentation]({% repo_doc_url lps-node-firmware %}).
 {% endrow_text %}
 {% row_links %}
-* [Loco Positioning System and node Documentation](/documentation/repository/lps-node-firmware/2022.09/)
+* [Loco Positioning System and node Documentation]({% repo_doc_url lps-node-firmware %})
 * {% id_link max-range-loco %}
 * [Dataset](/documentation/system/positioning/positioning-datasets/)
 {% endrow_links %}

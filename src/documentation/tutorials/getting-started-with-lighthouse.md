@@ -29,7 +29,7 @@ Make sure that you have the following available:
 {% endsi_step %}
 
 {% si_step  Prerequisites - software %}
-* The latest version of the [Crazyflie client](https://github.com/bitcraze/crazyflie-clients-python/releases). Follow the [Installation instructions](/documentation/repository/crazyflie-clients-python/2026.8/installation/install/).
+* The latest version of the [Crazyflie client](https://github.com/bitcraze/crazyflie-clients-python/releases). Follow the [Installation instructions]({% repo_doc_url crazyflie-clients-python; installation/install %}).
 {% endsi_step %}
 
 
@@ -45,7 +45,7 @@ For mounting the {% poplink lighthouse-deck %} on a Crazyflie follow the {% id_l
 
 **Note:** The Lighthouse deck firmware is updated automatically together with the Crazyflie firmware when flashing from the client. The deck needs to be mounted on the Crazyflie during the flashing process.
 
-Follow the [firmware upgrade instructions](/documentation/repository/crazyflie-clients-python/2026.8/userguides/userguide_client/#firmware-upgrade).
+Follow the [firmware upgrade instructions]({% repo_doc_url crazyflie-clients-python; userguides/userguide_client %}#firmware-upgrade).
 
 {% endsi_step %}
 
@@ -190,7 +190,7 @@ The **Samples** table lists all collected samples (both estimation and verificat
 
 
 
-For a full description of each button, see the [cfclient lighthouse tab user guide](/documentation/repository/crazyflie-clients-python/2026.8/userguides/userguide_client/lighthouse_tab/).
+For a full description of each button, see the [cfclient lighthouse tab user guide]({% repo_doc_url crazyflie-clients-python; userguides/userguide_client/lighthouse_tab %}).
 
 
 {% endsi_step %}
@@ -212,8 +212,8 @@ Click the **Take off** button to start flying and use the other controls to move
 
 {% si_intro Next %}
 
-* With the base stations V2.0, it is possible to use more than 4 base stations but firmware modifications are required. See the [instructions to configure the firmware](/documentation/repository/crazyflie-firmware/2026.08/functional-areas/lighthouse/multi_base_stations/) to enable support for more than 4 Lighthouse base stations.
-* See the [cfclient lighthouse tab user guide](/documentation/repository/crazyflie-clients-python/2026.8/userguides/userguide_client/lighthouse_tab/) for a detailed explanation of each button.
-* The [Lighthouse system documentation](/documentation/repository/crazyflie-firmware/2026.08/functional-areas/lighthouse/) presents the in-depth theory of the lighthouse positioning system and more advanced guides.
+* With the base stations V2.0, it is possible to use more than 4 base stations but firmware modifications are required. See the [instructions to configure the firmware]({% repo_doc_url crazyflie-firmware; functional-areas/lighthouse/multi_base_stations %}) to enable support for more than 4 Lighthouse base stations.
+* See the [cfclient lighthouse tab user guide]({% repo_doc_url crazyflie-clients-python; userguides/userguide_client/lighthouse_tab %}) for a detailed explanation of each button.
+* The [Lighthouse system documentation]({% repo_doc_url crazyflie-firmware; functional-areas/lighthouse %}) presents the in-depth theory of the lighthouse positioning system and more advanced guides.
 
 {% endsi_intro %}
