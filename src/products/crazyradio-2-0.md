@@ -111,7 +111,7 @@ The source code for the Crazyradio 2.0 firmware can be found on [github](https:/
 {% endrow_text %}
 {% row_links %}
 - [Source code](https://github.com/bitcraze/crazyradio2-firmware)
-- [Documentation](/documentation/repository/crazyradio2-firmware/main/)
+- [Documentation](/documentation/repository/crazyradio2-firmware/5.5/)
 {% endrow_links %}
 
 {% endrow_icon_text_links %}
@@ -123,7 +123,7 @@ The source code for the Crazyradio 2.0 firmware can be found on [github](https:/
 #### Resources
 
 - {% id_link getting-started-start %}
-- [Development](/documentation/repository/crazyradio2-firmware/main/)
+- [Development](/documentation/repository/crazyradio2-firmware/5.5/)
 - {% id_link support-frequently-asked-questions %}
 - {% id_link support-getting-help %}
 - [Datasheet](/documentation/hardware/crazyradio_2_0/crazyradio_2_0-datasheet.pdf)

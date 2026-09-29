@@ -162,6 +162,7 @@ downloadGithubRepoDoc "lps-node-firmware" "2020.09" "no_search_index"
 downloadGithubRepoDoc "crazyradio-firmware" "master"
 
 downloadGithubRepoDoc "crazyradio2-firmware" "main"
+downloadGithubRepoDoc "crazyradio2-firmware" "5.5" "no_search_index"
 
 downloadGithubRepoDoc "lighthouse-bootloader" "master"
 

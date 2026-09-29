@@ -38,7 +38,7 @@ We have a Crazyflie 2.x python-based client for the PC, of which all the documen
 The PC needs a {% poplink crazyradio-2-0 %} or Crazyradio PA in order to communicate with the Crazyflie 2.x. This relays the CTRP protocol from the PC client or the Crazyflie library to and from the CF2. The documentation also explains how to setup the USB permissions on your specific OS or machine.
 {% endrow_text %}
 {% row_links %}
-* [Crazyradio 2.0 documentation](/documentation/repository/crazyradio2-firmware/main/).
+* [Crazyradio 2.0 documentation](/documentation/repository/crazyradio2-firmware/5.5/).
 * [Crazyradio PA documentation](/documentation/repository/crazyradio-firmware/master/).
 {% endrow_links %}
 {% endrow_image_text_links %}
