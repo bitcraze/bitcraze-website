@@ -52,7 +52,7 @@ redirects:
 {% distributor Robotics 3D; https://www.robotics-3d.com/833-bitcraze; /images/distributors/logo3d.jpg %}
 
 {% country Romania %}
-{% distributor Dronerion; https://dronerion.ro; /images/distributors/dronerion-logo.png %}
+{% distributor Dronerion; https://dronerion.com/en/brands/bitcraze-9311; /images/distributors/dronerion-logo.png %}
 
 {% country Spain %}
 {% distributor Drone Prix; https://droneprix.es/167-bitcraze; /images/distributors/droneprix.png %}
