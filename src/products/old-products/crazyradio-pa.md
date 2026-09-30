@@ -4,13 +4,13 @@ title: Crazyradio PA
 page_id: product-crazyradio-pa
 redirects:
   - /crazyradio-pa/
+  - /products/crazyradio-pa/
 ---
 
+{% notice_info This product is discontinued and has been replaced with <a href="/products/crazyradio-2-0/">Crazyradio 2.0</a>. %}
 {% datasheet_product_status crazyradio_pa %}
-{% buy_online https://store.bitcraze.io/collections/kits/products/crazyradio-pa %}
 
 {% product_img Crazyradio PA; narrow; /images/crazyradio-pa/Radio-PA-585px.JPG %}
-{% notice_info This product is being replaced with <a href="/products/crazyradio-2-0/">Crazyradio 2.0</a> %}
 {% product_highlight fa-wifi; Connecting at a Distance; Long distance communication %}
 
 {% tabgroup %}

@@ -8,6 +8,16 @@ redirects:
 
 Some distributors are still carrying these products, but they are no longer in production.
 
+### Crazyradio PA
+<a href="/products/old-products/crazyradio-pa/"><img width="150" height="150" src="/images/crazyradio-pa/Radio-PA-585px.JPG" alt="Crazyradio PA"/></a>
+
+[Read more](/products/old-products/crazyradio-pa/)
+
+### Z-Ranger v2
+<a href="/products/old-products/z-ranger-deck-v2/"><img width="150" height="150" src="/images/z-ranger-deck-v2/z-ranger_v2_585px-1.jpg" alt="Z-ranger Deck v2"/></a>
+
+[Read more](/products/old-products/z-ranger-deck-v2/)
+
 ### Roadrunner
 <a href="/products/old-products/roadrunner/"><img width="150" height="150" src="/images/roadrunner/roadrunner_585px.jpg" alt="roadrunner"/></a>
 
