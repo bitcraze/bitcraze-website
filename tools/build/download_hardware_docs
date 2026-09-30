@@ -48,4 +48,4 @@ function downloadGithubRelease() {
 
 echo "Downloading hardware documentation..."
 
-downloadGithubRelease "hardware" "44"
+downloadGithubRelease "hardware" "45"
