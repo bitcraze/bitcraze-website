@@ -6,5 +6,5 @@
 
 [STEM Tutorial](/documentation/tutorials/getting-started-with-stem-ranging-bundle/)
 
-[Logging](/documentation/repository/crazyflie-firmware/master/api/logs/#range)
+[Logging]({% repo_doc_url crazyflie-firmware; api/logs %}#range)
 

@@ -6,4 +6,4 @@
 
 [Other deck compatibility](/documentation/system/platform/cf2-expansiondecks/#deck---deck)
 
-[CPX](/documentation/repository/crazyflie-firmware/master/functional-areas/cpx/)
+[CPX]({% repo_doc_url crazyflie-firmware; functional-areas/cpx %})

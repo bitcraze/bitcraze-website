@@ -9,25 +9,30 @@ layout: page-base
         </div>
     </header>
     <div class="row">
-        <div class="col-md-9 breadcrumbs">
+        <div class="col-12 col-md-9 breadcrumbs">
             {% include breadcrumbs.html %}
         </div>
-        <div class="col-md-3 breadcrumbs repo-version">
-            <span class="docs-version-dropdown">
-                Version:
-                <input id="docs-version-check" type="checkbox" name="menu" />
-                [ <label for="docs-version-check">{{page.repo_tag}}</label>
-                <versionitems class="docs-version-dropdown-submenu">
-                    {% for tag in site.data.docs_tag_list[page.repo_name] %}
-                        {% if page.repo_tag != tag %}
-                            {% assign parts = page.url | split: page.repo_tag %}
+        <div class="col-12 col-md-3 breadcrumbs repo-version">
+            {% assign tag_list = site.data.docs_tag_list[page.repo_name] %}
+            {% if tag_list.size > 1 %}
+                {% assign parts = page.url | split: page.repo_tag %}
+                <span class="docs-version-select">
+                    <label for="docs-version-select">Version:</label>
+                    <select id="docs-version-select" onchange="window.location = this.value;">
+                        {% for tag in tag_list %}
                             {% assign url = parts[0] | append: tag | append: '/' %}
-                            , <a href="{{url}}">{{tag}}</a>
-                        {% endif %}
-                    {% endfor %}
-                </versionitems>
-                ]
-            </span>
+                            {% if forloop.first %}
+                                {% assign label = tag | append: ' (dev)' %}
+                            {% elsif forloop.index0 == 1 %}
+                                {% assign label = tag | append: ' (latest release)' %}
+                            {% else %}
+                                {% assign label = tag %}
+                            {% endif %}
+                            <option value="{{ url }}" {% if tag == page.repo_tag %}selected{% endif %}>{{ label }}</option>
+                        {% endfor %}
+                    </select>
+                </span>
+            {% endif %}
         </div>
     </div>
 </div>

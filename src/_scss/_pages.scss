@@ -476,23 +476,45 @@ h2:hover {
 .repo-version {
     text-align: right;
 
-    .docs-version-dropdown {
-        input, .docs-version-dropdown-submenu {
-            display: none;
-            a {
-                color: $breadcrumbs-version-color;
-            }
-        }
+    .docs-version-select {
+        display: inline-flex;
+        align-items: center;
 
         label {
-            position: relative;
-            cursor: pointer;
             margin-bottom: 0px;
+            margin-right: 0.5em;
+            font-weight: $nav-font-weight-strong;
+            color: $bcDarkGrey;
         }
 
-        // show the submenu when input is checked
-        input:checked~.docs-version-dropdown-submenu {
-            display: inline;
+        select {
+            $arrow-color-hex: str-slice(#{$bcDarkGrey}, 2);
+
+            appearance: none;
+            -webkit-appearance: none;
+            -moz-appearance: none;
+            color: $bcDarkGreen;
+            background-color: white;
+            border: 1px solid $bcLightGrey;
+            border-radius: 4px;
+            padding: 4px 28px 4px 10px;
+            font-family: inherit;
+            font-size: 1rem;
+            cursor: pointer;
+            background-image: url("data:image/svg+xml;charset=UTF-8,%3Csvg xmlns='http://www.w3.org/2000/svg' width='10' height='6'%3E%3Cpath d='M0 0l5 6 5-6z' fill='%23#{$arrow-color-hex}'/%3E%3C/svg%3E");
+            background-repeat: no-repeat;
+            background-position: right 10px center;
+            transition: border-color 0.15s ease-in-out;
+
+            &:hover {
+                border-color: $bcGreen;
+            }
+
+            &:focus {
+                outline: none;
+                border-color: rgba($bcGreen, 0.4);
+                box-shadow: 0 0 0 2px rgba($bcGreen, 0.15);
+            }
         }
     }
 }

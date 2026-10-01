@@ -1,3 +1,3 @@
-[Top version](/documentation/repository/crazyflie-firmware/master/api/params/#colorledtop)
+[Top version]({% repo_doc_url crazyflie-firmware; api/params %}#colorledtop)
 
-[Bottom version](/documentation/repository/crazyflie-firmware/master/api/params/#colorledbot)
+[Bottom version]({% repo_doc_url crazyflie-firmware; api/params %}#colorledbot)
