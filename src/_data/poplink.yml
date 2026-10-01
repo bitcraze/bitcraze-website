@@ -42,7 +42,7 @@ poplinks:
     content: multi-ranger-deck.md
   z-ranger-deck:
     title: Z-ranger deck V2
-    default-link: /products/z-ranger-deck-v2/
+    default-link: /products/old-products/z-ranger-deck-v2/
     content: z-ranger-deck.md
   buzzer-deck:
     title: Buzzer deck

@@ -4,10 +4,11 @@ title: Z-ranger deck v2
 page_id: product-z-ranger-deck-v2
 redirects:
   - /z-ranger-deck-v2/
+  - /products/z-ranger-deck-v2/
 ---
 
+{% notice_info This product is discontinued. We recommend using the <a href="/products/flow-deck-v2/">Flow Deck v2</a> instead, which also provides ranging functionality. %}
 {% datasheet_product_status z_ranger_deck_2 %}
-{% buy_online https://store.bitcraze.io/collections/decks/products/z-ranger-deck-v2 %}
 
 {% product_img Z-ranger deck v2; narrow;
 /images/z-ranger-deck-v2/z-ranger_v2_585px-1.jpg

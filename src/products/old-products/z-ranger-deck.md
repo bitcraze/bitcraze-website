@@ -6,7 +6,7 @@ redirects:
   - /z-ranger-deck/
 ---
 
-{% notice_info This product is discontinued and has been replaced with <a href="/products/z-ranger-deck-v2/">Z-ranger deck v2</a> %}
+{% notice_info This product is discontinued and has been replaced with <a href="/products/old-products/z-ranger-deck-v2/">Z-ranger deck v2</a> %}
 
 {% product_img Z-ranger deck; medium;
 /images/z-ranger-deck/z-ranger_deck_side_585px.JPG
