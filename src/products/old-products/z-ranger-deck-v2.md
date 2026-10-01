@@ -7,7 +7,7 @@ redirects:
   - /products/z-ranger-deck-v2/
 ---
 
-{% notice_info This product is discontinued and has been replaced with <a href="/products/flow-deck-v2/">Flow Deck v2</a>. %}
+{% notice_info This product is discontinued. We recommend using the <a href="/products/flow-deck-v2/">Flow Deck v2</a> instead, which also provides ranging functionality. %}
 {% datasheet_product_status z_ranger_deck_2 %}
 
 {% product_img Z-ranger deck v2; narrow;
