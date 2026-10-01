@@ -65,16 +65,16 @@ range increase as with the Crazyflie 2.x.
 {% row_text %}
 Connect the Crazyradio PA to a USB port on your computer.
 
-On Windows you have to install drivers, please see [Crazyradio Windows USB driver installation instructions](/documentation/repository/crazyradio-firmware/master/building/usbwindows/). For Linux, you will need to setup udev permissions, so for that the [linux udev crazyradio instructions](/documentation/repository/crazyflie-lib-python/master/installation/usb_permissions/).
+On Windows you have to install drivers, please see [Crazyradio Windows USB driver installation instructions]({% repo_doc_url crazyradio-firmware; building/usbwindows %}). For Linux, you will need to setup udev permissions, so for that the [linux udev crazyradio instructions]({% repo_doc_url crazyflie-lib-python; installation/usb_permissions %}).
 
-From there, you are able to install the [CFclient](/documentation/repository/crazyflie-clients-python/master/installation/install/) and communicate with the Crazyflie.
+From there, you are able to install the [CFclient]({% repo_doc_url crazyflie-clients-python; installation/install %}) and communicate with the Crazyflie.
 {% endrow_text %}
 {% row_links %}
-* [Windows driver instructions](/documentation/repository/crazyradio-firmware/master/building/usbwindows/)
+* [Windows driver instructions]({% repo_doc_url crazyradio-firmware; building/usbwindows %})
 
-* [Linux driver instructions](/documentation/repository/crazyflie-lib-python/master/installation/usb_permissions/)
+* [Linux driver instructions]({% repo_doc_url crazyflie-lib-python; installation/usb_permissions %})
 
-* [Client installation Instructions](/documentation/repository/crazyflie-clients-python/master/installation/install/)
+* [Client installation Instructions]({% repo_doc_url crazyflie-clients-python; installation/install %})
 
 {% endrow_links %}
 {% endrow_icon_text_links %}
@@ -90,7 +90,7 @@ The source code for the Crazyradio PA firmware can be found on [github](https://
 {% endrow_text %}
 {% row_links %}
 - [Source code](https://github.com/bitcraze/crazyradio-firmware)
-- [Documentation](/documentation/repository/crazyradio-firmware/master/)
+- [Documentation]({% repo_doc_url crazyradio-firmware %})
 {% endrow_links %}
 {% endrow_icon_text_links %}
 {% endtab %}
@@ -101,7 +101,7 @@ The source code for the Crazyradio PA firmware can be found on [github](https://
 #### Resources
 
 - {% id_link getting-started-start %}
-- [Development](/documentation/repository/crazyradio-firmware/master/)
+- [Development]({% repo_doc_url crazyradio-firmware %})
 - {% id_link support-frequently-asked-questions %}
 - {% id_link support-getting-help %}
 - [Datasheet](/documentation/hardware/crazyradio_pa/crazyradio_pa-datasheet.pdf)

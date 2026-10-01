@@ -29,11 +29,11 @@ the Crazyradio 2.0 can communicate with your computer. macOS users can skip this
 {% si_step Install and configure %}
 {% tabgroup %}
 {% tab Windows %}
-Please see the [Windows driver installation instructions](/documentation/repository/crazyradio-firmware/master/building/usbwindows/)
+Please see the [Windows driver installation instructions]({% repo_doc_url crazyradio-firmware; building/usbwindows %})
 {% endtab %}
 {% tab Linux %}
 On Linux, the Crazyradio is easily recognized, but you have to set up udev permissions. Look at the
-[usb permission instructions](/documentation/repository/crazyflie-lib-python/master/installation/usb_permissions/) to setup udev on Linux.
+[usb permission instructions]({% repo_doc_url crazyflie-lib-python; installation/usb_permissions %}) to setup udev on Linux.
 {% endtab %}
 {% endtabgroup %}
 {% endsi_step %}

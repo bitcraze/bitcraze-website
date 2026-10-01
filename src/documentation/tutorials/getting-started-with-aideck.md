@@ -21,7 +21,7 @@ To run this tutorial and set up the AI deck you will need the following:
   * {% id_link product-crazyflie-2-1-plus %}
   * {% poplink ai-deck %}
   * {% poplink crazyradio-2-0 %} or {% id_link product-crazyradio-pa %}
-  * A compatible [JTAG programmer/debugger](/documentation/repository/aideck-gap8-examples/master/development/jtag-programmer/). We recommend the [Olimex ARM-USB-TINY-H](https://store.bitcraze.io/products/olimex-arm-usb-tiny-h-bundle).
+  * A compatible [JTAG programmer/debugger]({% repo_doc_url aideck-gap8-examples; development/jtag-programmer %}). We recommend the [Olimex ARM-USB-TINY-H](https://store.bitcraze.io/products/olimex-arm-usb-tiny-h-bundle).
 
 * Software
   * Latest release of the cfclient
@@ -72,7 +72,7 @@ must be flashed to the deck. The symptom of an old bootloader is that flashing o
 please go back to this step and flash the bootloader.
 
 You will need to flash the bootloader on the GAP8 separately. This can only be done from a native linux computer or
-virtual machine (not WSL) with a [jtag enabled programmer](/documentation/repository/aideck-gap8-examples/master/development/jtag-programmer/) (Olimex ARM-USB-TINY-H JTAG or Jlink).
+virtual machine (not WSL) with a [jtag enabled programmer]({% repo_doc_url aideck-gap8-examples; development/jtag-programmer %}) (Olimex ARM-USB-TINY-H JTAG or Jlink).
 
 Clone, build and flash the bootloader with an Olimex ARM-USB-TINY-H JTAG or a Jlink using the following commands:
 
@@ -82,7 +82,7 @@ $ cd aideck-gap8-bootloader
 $ docker run --rm -it -v $PWD:/module/ --device /dev/ttyUSB0 --privileged -P bitcraze/aideck /bin/bash -c 'export GAPY_OPENOCD_CABLE=interface/ftdi/olimex-arm-usb-tiny-h.cfg; source /gap_sdk/configs/ai_deck.sh; cd /module/;  make all image flash'
 ```
 
-Check out the [aideck flashing documentation](/documentation/repository/aideck-gap8-examples/master/getting-started/flashing/) for more detailed instructions.
+Check out the [aideck flashing documentation]({% repo_doc_url aideck-gap8-examples; getting-started/flashing %}) for more detailed instructions.
 
 Once you see the following it means you were successful
 ```
@@ -143,7 +143,7 @@ Expansion deck configuration->Support the AI-deck->Wifi setup at startup->
 Connect to a Wifi network->Credentials for access point
 
 Input your network credentials here. Build the FW and flash it over the radio. 
-Please see the [Building and Flashing instructions](/documentation/repository/crazyflie-firmware/master/building-and-flashing/build.md) guide.
+Please see the [Building and Flashing instructions]({% repo_doc_url crazyflie-firmware; building-and-flashing/build %}) guide.
 
 Check the IP address/hostname in the cfclient logs when connecting to the drone to make sure it is correctly connected to the network
 {% endtab %}
@@ -217,15 +217,15 @@ $ git clone https://github.com/bitcraze/aideck-gap8-examples.git
 ```
 and jump over to one of the following examples:
 
-* [WiFi image streamer](/documentation/repository/aideck-gap8-examples/master/test-functions/wifi-streamer)
-* [Classification example](/documentation/repository/aideck-gap8-examples/master/examples/classification-demo)
+* [WiFi image streamer]({% repo_doc_url aideck-gap8-examples; test-functions %}wifi-streamer)
+* [Classification example]({% repo_doc_url aideck-gap8-examples; examples %}classification-demo)
 
 {% endsi_intro %}
 
 {% si_intro Further reading %}
 
-* Check out [the CPX documentation](/documentation/repository/crazyflie-firmware/master/functional-areas/cpx/) for more explanation of how to communicate with the {% poplink ai-deck %}
-* [The GAP8 repository examples](/documentation/repository/aideck-gap8-examples/master/) to read about what examples we provide and to try them out
+* Check out [the CPX documentation]({% repo_doc_url crazyflie-firmware; functional-areas/cpx %}) for more explanation of how to communicate with the {% poplink ai-deck %}
+* [The GAP8 repository examples]({% repo_doc_url aideck-gap8-examples %}) to read about what examples we provide and to try them out
 * [Greenwaves GAP github repository](https://github.com/GreenWaves-Technologies/gap_sdk) for the gap8 sdk and various examples.
 
 {% endsi_intro %}

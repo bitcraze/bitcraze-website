@@ -89,13 +89,13 @@ Here's a short explanation of the connectors:
     - SWCLK
 
 #### Debug instructions
-For some basic debug instructions go to the [instructions for the STM32](/documentation/repository/crazyflie-firmware/master/development/openocd_gdb_debugging/) or [the instructions for the NRF](/documentation/repository/crazyflie2-nrf-firmware/master/development/starting_development/) of the crazyflie.
+For some basic debug instructions go to the [instructions for the STM32]({% repo_doc_url crazyflie-firmware; development/openocd_gdb_debugging %}) or [the instructions for the NRF]({% repo_doc_url crazyflie2-nrf-firmware; development/starting_development %}) of the crazyflie.
 
 {% endrow_text %}
 {% row_links %}
 * {% id_link getting-started-development %}
-* [instructions for the STM32](/documentation/repository/crazyflie-firmware/master/development/openocd_gdb_debugging/)
-* [Instructions for the NRF](/documentation/repository/crazyflie2-nrf-firmware/master/development/starting_development/)
+* [instructions for the STM32]({% repo_doc_url crazyflie-firmware; development/openocd_gdb_debugging %})
+* [Instructions for the NRF]({% repo_doc_url crazyflie2-nrf-firmware; development/starting_development %})
 {% endrow_links %}
 {%endrow_icon_text_links%}
 

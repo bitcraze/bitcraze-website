@@ -8,4 +8,4 @@
 
 [Other deck compatibility](/documentation/system/platform/cf2-expansiondecks/#deck---deck)
 
-[Technical details](/documentation/repository/crazyflie-firmware/master/functional-areas/lighthouse/)
+[Technical details]({% repo_doc_url crazyflie-firmware; functional-areas/lighthouse %})
