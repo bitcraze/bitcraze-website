@@ -46,58 +46,6 @@ The tags for Doxygen should use the @ and the comments should use the notation e
  */
 ```
 
-#### Dox files
-There's a couple of special files used to set everything up:
-  * config.dox - holds the Doxygen configuration
-  * mainpage.dox - hold the main page for the doxygen documentation
-  * groups.dox - holds the definitions of the groups used
-
-#### Grouping
-A group is detailed in the groups.dox file and is documented using:
-```
-/**
- * @defgroup drivers
- *
- * This is a brief description of the drivers group.
- *
- * This is a detailed description of what the driver
- * group does etc..
- */
-```
-
-Any tag can then be added to the group by using the ingroup tag:
-```
-/**
- * This documents a file.
- *
- * Detailed description of file. This can be multi-line
- * and multi-sentance.
- *
- * @file
- * @ingroup hal
- */
-...
-
-/**
- * Main task for LEDs.
- *
- * This task is responsible for driving the LEDs and lighting
- * them according to the scheme that is currently set.
- *
- * @param[in] param The parameters for the task
- *
- * @ingroup tasks
- */
-void ledTask(void *param);
-
-/**
- * Keeps track of number of blinks.
- *
- * @ingroup variables
- */
-uint32_t nbrOfBlinks;
-
-```
 #### Files
 The file header should follow this template:
 ```
@@ -112,7 +60,6 @@ Insert license text here.
  * and multi-sentance.
  *
  * @file
- * @ingroup drivers
  */
 ```
 
@@ -129,7 +76,6 @@ Functions should be documented according to the following:
  * @param[out] param2 Pass buffer to put return data into
  *
  * @return Description of the return (omitted if void)
- * @ingroup group
  */
 ```
 
