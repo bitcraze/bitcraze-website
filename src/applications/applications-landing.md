@@ -4,6 +4,11 @@ title: Applications Overview
 page_id: applications-landing
 redirects:
   - /applications/
+  - /portals/research/
+  - /portals/education/
+  - /portals/industry/
+  - /portals/development/
+  - /portals/diy/
 ---
 
 <!-- Intro section -->
