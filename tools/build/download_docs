@@ -170,6 +170,9 @@ downloadGithubRepoDoc "aideck-gap8-examples" "master"
 downloadGithubRepoDoc "aideck-gap8-examples" "2025.02" "no_search_index"
 downloadGithubRepoDoc "aideck-gap8-examples" "2022.05" "no_search_index"
 
+downloadGithubRepoDoc "aideck-esp-firmware-v2" "main"
+downloadGithubRepoDoc "aideck-esp-firmware-v2" "2026.10" "no_search_index"
+
 downloadGithubRepoDoc "crazyflie2-ios-client" "master"
 
 downloadGithubRepoDoc "crazyflie-android-client" "master"
