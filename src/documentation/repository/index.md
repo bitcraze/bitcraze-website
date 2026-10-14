@@ -28,6 +28,7 @@ Check out the {% id_link doc-nav %} if you want to have a tree like structure of
 |![Crazyradio 2.0](/images/documentation/overview/crazyradiopa.png){:width="50px"}|  [crazyradio-2-0-firmware](https://github.com/bitcraze/crazyradio2-firmware) | [Docs]({% repo_doc_url crazyradio2-firmware %}) | This GitHub repository contains the source code for the firmware of the {% poplink crazyradio-2-0 %}.|
 ![Loco Positioning System](/images/documentation/overview/lpssystem.png){:width="100px"}| [lps-node-firmware](https://github.com/bitcraze/lps-node-firmware) | [Docs]({% repo_doc_url lps-node-firmware %}) | This GitHub repository contains the source code for the {% id_link product-loco-pos-node %}. The documentation also includes several user guides how to set the system up and also explains the interaction with the {% poplink loco-positioning-deck %} of the Crazyflie. |
 ||[aideck-gap8-examples](https://github.com/bitcraze/aideck-gap8-examples ) | [Docs]({% repo_doc_url aideck-gap8-examples %}) | This repository contains examples for the {% id_link product-ai-deck-1-1 %}. |
+||[aideck-esp-firmware-v2](https://github.com/bitcraze/aideck-esp-firmware-v2) | [Docs]({% repo_doc_url aideck-esp-firmware-v2 %}) | This repository contains the NanoCockpit firmware for the ESP32 on the {% id_link product-ai-deck-1-1 %}. |
 
 ## Other languages
 
