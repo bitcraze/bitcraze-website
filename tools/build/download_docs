@@ -167,8 +167,10 @@ downloadGithubRepoDoc "crazyradio2-firmware" "5.5" "no_search_index"
 downloadGithubRepoDoc "lighthouse-bootloader" "master"
 
 downloadGithubRepoDoc "aideck-gap8-examples" "master"
+downloadGithubRepoDoc "aideck-gap8-examples" "2026.10.1" "no_search_index"
+# downloadGithubRepoDoc "aideck-gap8-examples" "2026.10" "no_search_index"
 downloadGithubRepoDoc "aideck-gap8-examples" "2025.02" "no_search_index"
-downloadGithubRepoDoc "aideck-gap8-examples" "2022.05" "no_search_index"
+# downloadGithubRepoDoc "aideck-gap8-examples" "2022.05" "no_search_index"
 
 downloadGithubRepoDoc "aideck-esp-firmware-v2" "main"
 downloadGithubRepoDoc "aideck-esp-firmware-v2" "2026.10" "no_search_index"
