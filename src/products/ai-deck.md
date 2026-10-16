@@ -30,7 +30,7 @@ The {% poplink ai-deck %} 1.1 expands onboard computational capabilities, enabli
 
 The {% poplink ai-deck %} 1.1 version only has minor updates compared to the {% poplink ai-deck %} 1.0. The Himax camera module is now the greyscale version and the GAP8 is now revision C instead of B. For more details read [this blog post](https://www.bitcraze.io/2021/01/ai-deck-product-update/) and if the Bayer RGB version camera is wanted it can be bought stand alone here.
 
-> **Note:** A compatible [JTAG programmer/debugger]({% repo_doc_url aideck-gap8-examples; development/jtag-programmer %}) is required for flashing, debugging, and restoring the bootloader. For detailed instructions, please refer to the [GAP8 bootloader README](https://github.com/bitcraze/aideck-gap8-bootloader#building) and the [flashing documentation]({% repo_doc_url aideck-gap8-examples; development/flashing %}). We recommend the [Olimex ARM-USB-TINY-H](https://store.bitcraze.io/products/olimex-arm-usb-tiny-h-bundle). Familiarity with embedded system development is recommended for effective use of this platform.
+> **Note:** A compatible [JTAG programmer/debugger]({% repo_doc_url aideck-gap8-examples; development/jtag-programmer %}) is required to flash the GAP8, see the [flashing documentation]({% repo_doc_url aideck-gap8-examples; development/flashing %}). We recommend the [Olimex ARM-USB-TINY-H](https://store.bitcraze.io/products/olimex-arm-usb-tiny-h-bundle). Familiarity with embedded system development is recommended for effective use of this platform.
 
 {% endrow_text %}
 {% row_links %}
@@ -72,7 +72,7 @@ To get up and running with the deck see our [getting started guide](/documentati
 after which you will be able to either try out the pre-made examples or start making your
 own AI powered applications.
 
-> **Note:** A compatible [JTAG programmer/debugger]({% repo_doc_url aideck-gap8-examples; development/jtag-programmer %}) is required for flashing, debugging, and restoring the bootloader. For detailed instructions, please refer to the [GAP8 bootloader README](https://github.com/bitcraze/aideck-gap8-bootloader#building) and the [flashing documentation]({% repo_doc_url aideck-gap8-examples; development/flashing %}). We recommend the [Olimex ARM-USB-TINY-H](https://store.bitcraze.io/products/olimex-arm-usb-tiny-h-bundle). Familiarity with embedded system development is recommended for effective use of this platform.
+> **Note:** A compatible [JTAG programmer/debugger]({% repo_doc_url aideck-gap8-examples; development/jtag-programmer %}) is required to flash the GAP8, see the [flashing documentation]({% repo_doc_url aideck-gap8-examples; development/flashing %}). We recommend the [Olimex ARM-USB-TINY-H](https://store.bitcraze.io/products/olimex-arm-usb-tiny-h-bundle). Familiarity with embedded system development is recommended for effective use of this platform.
 
 {% endrow_text %}
 {% row_links %}
