@@ -47,15 +47,10 @@ NanoCockpit, and a NanoCockpit application on the GAP8.
 
 
 {% si_step Update the Crazyflie firmware %}
-Update the Crazyflie to the latest release, as described in the
+With the AI-deck mounted, update the Crazyflie to the latest release, as described in the
 [firmware upgrade section]({% repo_doc_url crazyflie-clients-python; userguides/userguide_client %}#firmware-upgrade)
-of the cfclient user guide.
-{% endsi_step %}
-
-
-{% si_step Flash the ESP32 firmware %}
-Flash the ESP32 firmware for NanoCockpit through the Crazyflie, as described in its
-[documentation]({% repo_doc_url aideck-esp-firmware-v2; building-and-flashing %}#flashing-through-the-crazyflie).
+of the cfclient user guide. The release also contains the ESP32 firmware for NanoCockpit, which
+is flashed to the AI-deck automatically.
 
 When it runs, the AI-deck creates the WiFi network `aideck-nanocockpit`.
 {% endsi_step %}
