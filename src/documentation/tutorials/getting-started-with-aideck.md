@@ -64,7 +64,13 @@ ready-made image, so there is nothing to build, see
 
 
 {% si_step Start the viewer %}
-Install the viewer, connect your computer to the `aideck-nanocockpit` network and start the
+The viewer runs from a copy of the GAP8 example repository. If you do not have one yet, clone it:
+
+```bash
+git clone https://github.com/bitcraze/aideck-gap8-examples.git
+```
+
+Then install the viewer, connect your computer to the `aideck-nanocockpit` network and start the
 viewer, as described in
 [starting the viewer]({% repo_doc_url aideck-gap8-examples; examples/nanocockpit/streamer %}#starting-the-viewer).
 The viewer shows the camera images of the AI-deck.
