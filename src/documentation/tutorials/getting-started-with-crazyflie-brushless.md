@@ -364,9 +364,7 @@ Now it's time to do some flying, but first there are some basics you need to kno
 {% endsi_part %}
 
 {% si_step Orientation; orientation %}
-First of all, the easiest way to fly is when the copter is pointing away from you.
-The blue LEDs are on the back, so keep them pointing in your direction when
-starting.
+First of all, the easiest way to fly is when the copter is pointing away from you. The blue LEDs are on the back, so keep them pointing in your direction when starting to fly.
 {% endsi_step %}
 
 {% si_step Maneuvering a quadcopter; maneuvering %}
@@ -385,8 +383,8 @@ of the Crazyflie in different directions.
 Lear more about the coordinate system of a Crazyflie [here](/documentation/system/platform/cf2-coordinate-system/).
 {% endsi_step %}
 
-{% si_step Gamepad / The mobile app controls %}
-The controls on the gamepad or mobile app have the following mapping:
+{% si_step Gamepad %}
+The controls on the gamepad have the following mapping:
 {% img Control mapping; medium; /images/getting-started/controller.png %}
 This is a common mapping (often known as mapping 3) in a lot of flying robotics applications. To change between mappings and gamepad types as well as creating your own custom mapping check out the [documentation for input devices](/documentation/repository/crazyflie-clients-python/master/userguides/userguide_client/#input-devices).
 {% endsi_step %}

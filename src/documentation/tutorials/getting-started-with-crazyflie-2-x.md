@@ -297,19 +297,9 @@ your USB-ports and start the client.
 
 {% endsi_step %}
 
-{% si_intro Configure the client; config-client %}
+{% si_intro Using the client; config-client %}
 In this section we will look at the main features for getting started with the client. More details and features can be found in the [Client user-guide](/documentation/repository/crazyflie-clients-python/master/userguides/inputdevices/).
 {% endsi_intro %}
-
-{% si_step Configure your gamepad; config-controller %}
-After you have connected your gamepad, open the input device settings in the client. Check if the correct device
-mapping is chosen, otherwise pick your device type.
-{% img Gamepad settings; wide; /images/getting-started/configure_your_controller.PNG %}
-
-For more detailed information on input devices, see the [Client user-guide](/documentation/repository/crazyflie-clients-python/master/userguides/inputdevices/). In this guide it is also shown how to configure your own device mapping to perfectly suit your gamepad.
-
-{% endsi_step %}
-
 
 {% si_step Connect to the Crazyflie; connect-pc-client %}
 * In the Crazyflie client enter the correct __Address__. The default one for a new Crazyflie out of the box is 0xE7E7E7E7E7. To figure out or change the __Address__ of your Crazyflie, you can follow the [radio address configuration](/documentation/repository/crazyflie-clients-python/master/userguides/userguide_client/#radio-address-configuration) guide.
@@ -329,13 +319,32 @@ well as battery status and the link quality.
 To make sure that your Crazyflie has all the latest features you should always update the firmware to the newest version. To learn how, check out the client user-guide [here](/documentation/repository/crazyflie-clients-python/master/userguides/userguide_client/#firmware-upgrade).
 {% endsi_step %}
 
+{% si_intro Manual Flight Control %}
+You can use any gamepad connected to your computer by cable or Bluethooth.
+{% endsi_intro %}
+
+{% si_step Configure your gamepad; config-controller %}
+After you have connected your gamepad, open the input device settings in the client. Check if the correct device
+mapping is chosen, otherwise pick your device type.
+{% img Gamepad settings; wide; /images/getting-started/gamepad-configuration.png %}
+
+For more detailed information on input devices, see the [Client user-guide](/documentation/repository/crazyflie-clients-python/master/userguides/inputdevices/). In this guide it is also shown how to configure your own device mapping to perfectly suit your gamepad.
+
+{% endsi_step %}
+
+{% si_intro Scripted Flight Control; inst-lib %}
+When flying using a script you need a {% poplink crazyradio-2-0 %} for communication.
+To start, you need to install and familiarize yourself with our library [cflib](https://github.com/bitcraze/crazyflie-lib-python).
+This software enables you to fly one or more quadcopters in predetermined way using Python to control the quadcopter. Get started with Python scripting and the Crazyflie Python library though our [Step-by-step user guides](/documentation/repository/crazyflie-lib-python/master/user-guides/). To get some inspiration on what can be done, please check out the [examples](https://github.com/bitcraze/crazyflie-lib-python/tree/master/examples) and the [demos repository](https://github.com/bitcraze/crazyflie-demos).
+{% endsi_intro %}
+
 {% endtab %}
 
 {% tab Mobile device %}
 Using a mobile device is the fastest way to get into the air, but it is designed mostly for testing purposes.
 If you want to get the most out of your Crazyflie, flying using a PC and Crazyradio is what we recommend.
 
-It is really easy to install the app and connect to the Crazyflie and get it flying. However, it might demand some extra piloting skills.
+It is easy to install the app and connect to the Crazyflie and get it flying. However, it might demand some extra piloting skills.
 All you need is an Android or iOS device that supports Bluetooth Low Energy (BLE).
 
 
@@ -386,6 +395,8 @@ from left to right. This tilts the Crazyflie and moves it forwards or backwards.
 left or right. Yaw is used when changing flying direction by pointing the front
 of the Crazyflie in different directions.
 * **Thrust -** adjusts the altitude, or height, of the Crazyflie.
+
+Lear more about the coordinate system of a Crazyflie [here](/documentation/system/platform/cf2-coordinate-system/).
 {% endsi_step %}
 
 {% si_step Gamepad / The mobile app controls %}
@@ -439,7 +450,3 @@ Now that you are in the air you can explore more opportunities with our [Expansi
 
 Another step is trying autonomous flight with Python scripting and the Crazyflie Python library though our [Step-by-step user guides](/documentation/repository/crazyflie-lib-python/master/user-guides/).
 {% endsi_step %}
-
-{% si_intro Support %}
-If anything is wrong with the Crazyflie after following this guide, make sure to checkout the {% id_link support-getting-help %} page.
-{% endsi_intro %}
