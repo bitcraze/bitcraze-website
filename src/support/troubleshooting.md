@@ -35,7 +35,7 @@ Do not pair your Android device to the Crazyflie 2.x like other Bluetooth device
 {% si_step Make sure propellers are mounted correctly %}
 Check that the propellers are mounted on the correct motor. Check each propeller
 to see if it is a clock wise or a counter clock wise turning propeller and mount it according to the detailed view below.
-{% img Crazyflie 2.x propeller mounting; medium; /images/getting-started/cf2_props.png %}
+{% img Crazyflie 2.x propeller mounting; medium; /images/getting-started/21-prop-placement.png %}
 {% endsi_step %}
 
 {% si_step Make sure propellers are mounted with right side up %}

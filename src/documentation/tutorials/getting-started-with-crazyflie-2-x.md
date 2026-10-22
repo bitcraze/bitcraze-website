@@ -34,7 +34,7 @@ have all of them before you start assembling.
 <table>
   <tr>
     <td width="120">
-      <img src="/images/getting-started/bare-pcb.webp" width="120">
+      <img src="/images/getting-started/bare-pcb.webp" alt="Crazyflie 2.x control board" width="120">
     </td>
     <td>
       Crazyflie 2.0 or 2.1 control board with all components mounted
@@ -42,16 +42,16 @@ have all of them before you start assembling.
   </tr>
   <tr>
     <td width="120">
-      <img src="/images/getting-started/props-47-17.webp" width="120">
+      <img src="/images/getting-started/props-47-17.webp" alt="Clockwise and counter clockwise propellers" width="120">
     </td>
     <td>
       5 x Clockwise rotation (CW) propellers (3 spare, marked as "5R" on package) <br>
-      5 x CCW Counter clockwise (CCW) propellers (3 spare, marked as "5L" on package)
+      5 x Counter clockwise (CCW) propellers (3 spare, marked as "5L" on package)
     </td>
   </tr>
   <tr>
     <td width="120">
-      <img src="/images/getting-started/motor-mounts.webp" width="120">
+      <img src="/images/getting-started/motor-mounts-21.webp" alt="Motor mounts" width="120">
     </td>
     <td>
       6 x Motor mounts (2 spare)
@@ -59,7 +59,7 @@ have all of them before you start assembling.
   </tr>
   <tr>
     <td width="120">
-      <img src="/images/getting-started/250-lipo-battery.webp" width="120">
+      <img src="/images/getting-started/250-lipo-battery.webp" alt="LiPo battery" width="120">
     </td>
     <td>
       1 x 250mAh LiPo battery
@@ -67,7 +67,7 @@ have all of them before you start assembling.
   </tr>
   <tr>
     <td width="120">
-      <img src="/images/getting-started/coreless-dc-motors.webp" width="120">
+      <img src="/images/getting-started/coreless-dc-motors.webp" alt="Coreless DC motors" width="120">
     </td>
     <td>
       5 x Coreless DC motors (1 spare)
@@ -75,7 +75,7 @@ have all of them before you start assembling.
   </tr>
   <tr>
     <td width="120">
-      <img src="/images/getting-started/connector-pins.webp" width="120">
+      <img src="/images/getting-started/connector-pins.webp" alt="Short and long expansion connector pins" width="120">
     </td>
     <td>
       2 x Short expansion connector pins (1×10, 2mm spacing, 8 or 9 mm long) <br>
@@ -84,7 +84,7 @@ have all of them before you start assembling.
   </tr>
   <tr>
     <td width="120">
-      <img src="/images/getting-started/battery-holder.webp" width="120">
+      <img src="/images/getting-started/battery-holder.webp" alt="Battery holder expansion board" width="120">
     </td>
     <td>
       1 x Battery holder expansion board
@@ -92,7 +92,7 @@ have all of them before you start assembling.
   </tr>
   <tr>
     <td width="120">
-      <img src="/images/getting-started/foam-pad.webp" width="120">
+      <img src="/images/getting-started/foam-pad.webp" alt="Foam pad" width="120">
     </td>
     <td>
       1 x Foam pad
@@ -100,7 +100,7 @@ have all of them before you start assembling.
   </tr>
   <tr>
     <td width="120">
-      <img src="/images/getting-started/micro-usb-cable.webp" width="120">
+      <img src="/images/getting-started/micro-usb-cable.webp" alt="Micro-USB cable" width="120">
     </td>
     <td>
       1 x USB cable (only with the Crazyflie 2.1)
@@ -188,7 +188,7 @@ Now it’s time to attach the propellers.
 **Before attaching:** 
 
 There are two kinds of propellers, the clock wise (CW) and counter clock wise (CCW) propellers, each kind has their own bag in the box:
-* For the Crazyflie 2.1+ the packaging for the propellers are marked "5R" for right/CW and "5L" for right/CW. The propellers are marked "47-17R" for CW and "47-17" for CCW.  
+* For the Crazyflie 2.1+ the packaging for the propellers are marked "5R" for right/CW and "5L" for left/CCW. The propellers are marked "47-17R" for CW and "47-17" for CCW.  
 * For the Crazyflie 2.1 the propellers will look a little bit different, and the CW propellers are also usually marked with an "A", "A1" or "A2", while the CCW propellers are marked with "B", "B1" or "B2" (the number is irrelevant). 
 
 **Attaching:**
@@ -229,10 +229,7 @@ bent and placed underneath the PCB to be out of the way.
 {% endsi_step %}
 
 {% si_step Power on! %}
-The assembly is finished, now it’s time to power it on! While powering on, keep the Crazyflie still on a flat surface to let it complete the [start up sequence](#start-up). The power button is placed on the front right of the Crazyflie, right next to the M1 LED. Note that the power
-button is a push button, not a sliding button. During the power-on
-self-test all the propellers will spin in sequence. Make sure they all
-spin, if they don’t then check the motor connections.
+The assembly is finished, now it’s time to power it on! While powering on, keep the Crazyflie still on a flat surface to let it complete the [start up sequence](#start-up). The power button is placed on the front right of the Crazyflie, right next to the M1 LED. Note that the power button is a push button, not a sliding button.
 {% tutorialVideo /videos/power_on.mp4 %}
 {% endsi_step %}
 
@@ -240,13 +237,13 @@ spin, if they don’t then check the motor connections.
 When the Crazyflie is powered on it will automatically go through a short
 sequence of events to get ready for flight.
 
-1. **Run self tests** - the Crazyflie checks that the hardware is OK.
+1. **Run self tests** - the Crazyflie checks that the hardware is OK. During the power-on self-test all the propellers will spin in sequence. Make sure they all spin, if they don’t then check the motor connections.
 1. **Calibrate sensors** - the Crazyflie reads its sensors to get base values.
 It must be *absolutely still* to do this, so it's best to put it on a level surface for a second.
 1. **Ready to fly!**
 {% endsi_step %}
 
-{% si_step Understanding the LEDs; leds %}
+{% si_step Understanding the LEDs; understanding-leds %}
 To understand and diagnose the Crazyflie you need to understand what the LEDs mean. Here is a short explanation of each state of the LEDs:
 
 * **Power on and All is Good:** The blue back LEDs (M2 and M3) are fully lit and the
@@ -277,7 +274,7 @@ You can fly the Crazyflie either from a mobile device or a computer. Choose your
 {% tab Computer (recommended) %}
 Using your computer to control the Crazyflie will give you the most options
 and best control. This requires:
-* A {% poplink crazyradio-2-0 %} or Crazyradio PA.
+* A {% poplink crazyradio-2-0 %}.
 * If you want to fly the Crazyflie manually you need a gamepad of your choice connected to your computer alongside the Crazyradio.
 
 {% si_intro Installing on a computer; inst-comp %}

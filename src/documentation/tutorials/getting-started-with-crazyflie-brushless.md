@@ -53,7 +53,7 @@ Start by unpacking the box. It should contain the following items:
 <table>
   <tr>
     <td width="120">
-      <img src="/images/getting-started/bl-pcb.webp" width="120">
+      <img src="/images/getting-started/bl-pcb.webp" alt="Crazyflie Brushless control board" width="120">
     </td>
     <td>
       1 x Crazyflie Brushless control board
@@ -61,16 +61,16 @@ Start by unpacking the box. It should contain the following items:
   </tr>
   <tr>
     <td width="120">
-      <img src="/images/getting-started/bl-props.webp" width="120">
+      <img src="/images/getting-started/bl-props.webp" alt="Clockwise and counter clockwise propellers" width="120">
     </td>
     <td>
-      5 x CCW Counter clockwise (CCW) propellers (3 spare) <br>
+      5 x Counter clockwise (CCW) propellers (3 spare) <br>
       5 x Clockwise rotation (CW) propellers (3 spare)
     </td>
   </tr>
   <tr>
     <td width="120">
-      <img src="/images/getting-started/bl-guards-legs.webp" width="120">
+      <img src="/images/getting-started/bl-guards-legs.webp" alt="Legs and propeller guards" width="120">
     </td>
     <td>
       5 x Legs (1 spare) <br>
@@ -79,7 +79,7 @@ Start by unpacking the box. It should contain the following items:
   </tr>
   <tr>
     <td width="120">
-      <img src="/images/getting-started/350-lipo-battery.webp" width="120">
+      <img src="/images/getting-started/350-lipo-battery.webp" alt="350mAh LiPo battery" width="120">
     </td>
     <td>
       1 x 350mAh LiPo battery
@@ -87,7 +87,7 @@ Start by unpacking the box. It should contain the following items:
   </tr>
   <tr>
     <td width="120">
-      <img src="/images/getting-started/bl-motor.webp" width="120">
+      <img src="/images/getting-started/bl-motor.webp" alt="Brushless motor" width="120">
     </td>
     <td>
       4 x  Brushless motors
@@ -95,7 +95,7 @@ Start by unpacking the box. It should contain the following items:
   </tr>
   <tr>
     <td width="120">
-      <img src="/images/getting-started/connector-pins.webp" width="120">
+      <img src="/images/getting-started/connector-pins.webp" alt="Short and long expansion connector pins" width="120">
     </td>
     <td>
       2 x Short expansion connector pins (1×10, 2mm spacing, 8 or 9 mm long) <br>
@@ -104,7 +104,7 @@ Start by unpacking the box. It should contain the following items:
   </tr>
   <tr>
     <td width="120">
-      <img src="/images/getting-started/battery-holder.webp" width="120">
+      <img src="/images/getting-started/battery-holder.webp" alt="Battery holder expansion board" width="120">
     </td>
     <td>
       1 x Battery holder deck
@@ -112,7 +112,7 @@ Start by unpacking the box. It should contain the following items:
   </tr>
   <tr>
     <td width="120">
-      <img src="/images/getting-started/micro-usb-cable.webp" width="120">
+      <img src="/images/getting-started/micro-usb-cable.webp" alt="Micro-USB cable" width="120">
     </td>
     <td>
       1 x Micro-USB cable (48cm)
@@ -120,7 +120,7 @@ Start by unpacking the box. It should contain the following items:
   </tr>
   <tr>
     <td width="120">
-      <img src="/images/getting-started/black-screws.webp" width="120">
+      <img src="/images/getting-started/black-screws.webp" alt="Short black screws" width="120">
     </td>
     <td>
       14 x Short (black) screws
@@ -128,7 +128,7 @@ Start by unpacking the box. It should contain the following items:
   </tr>
   <tr>
     <td width="120">
-      <img src="/images/getting-started/silver-screws.webp" width="120">
+      <img src="/images/getting-started/silver-screws.webp" alt="Longer silver screws" width="120">
     </td>
     <td>
       5 x Longer (silver) screws
@@ -136,7 +136,7 @@ Start by unpacking the box. It should contain the following items:
   </tr>
   <tr>
     <td width="120">
-      <img src="/images/getting-started/foam-pad.webp" width="120">
+      <img src="/images/getting-started/foam-pad.webp" alt="Foam pad" width="120">
     </td>
     <td>
       1 x Foam battery pad
@@ -144,7 +144,7 @@ Start by unpacking the box. It should contain the following items:
   </tr>
   <tr>
     <td width="120">
-      <img src="/images/getting-started/screwdriver.webp" width="120">
+      <img src="/images/getting-started/screwdriver.webp" alt="Screwdriver" width="120">
     </td>
     <td>
       1 x Screwdriver
@@ -152,7 +152,7 @@ Start by unpacking the box. It should contain the following items:
   </tr>
   <tr>
     <td width="120">
-      <img src="/images/getting-started/prop-tool.webp" width="120">
+      <img src="/images/getting-started/prop-tool.webp" alt="Propeller tool" width="120">
     </td>
     <td>
       1 x Propeller tool
