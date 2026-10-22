@@ -63,5 +63,5 @@ Here is a list of the pre-programmed sounds you can choose from:
 |13    |Siren           |                                                        |
 |14    |Tilt            |Tilt the Crazyflie to play the sound                    |
 
-Also check out the [automated documentation of the parameters](/documentation/repository/crazyflie-firmware/master/api/params/#sound)
+Also check out the [automated documentation of the parameters]({% repo_doc_url crazyflie-firmware; api/params %}#sound)
 {% endsi_step %}

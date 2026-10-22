@@ -7,6 +7,26 @@
       {% assign is_repo_docs_url = true %}
     {% endif %}
 
+    {%- assign anchor_url = "" -%}
+    {%- assign menu_prefix = "" -%}
+    {%- unless is_repo_docs_url -%}
+      {%- for crumb in crumbs offset: 1 -%}
+        {%- assign anc_limit = forloop.index | plus: 1 -%}
+        {%- capture anc_url -%}
+          {%- for c in crumbs limit: anc_limit -%}{{ c | append: '/' }}{%- endfor -%}
+        {%- endcapture -%}
+        {%- if forloop.last -%}
+          {%- assign anc = page -%}
+        {%- else -%}
+          {%- assign anc = site.pages | where:"url", anc_url | first -%}
+        {%- endif -%}
+        {%- if anc contains "page_id" -%}
+          {%- include breadcrumb-menu-lookup.html pid=anc.page_id url=anc_url -%}
+        {%- endif -%}
+      {%- endfor -%}
+    {%- endunless -%}
+    {{ menu_prefix }}
+
     {% for crumb in crumbs offset: 1 %}
       {%- assign crumb_limit = forloop.index | plus: 1 -%}
       {%- capture crumb_url -%}
@@ -17,6 +37,14 @@
 
       {%- assign p = site.pages | where:"url", crumb_url | first -%}
       {%- assign crumb_title = "" -%}
+
+      {%- if forloop.last and is_repo_docs_url == false -%}
+        {%- continue -%}
+      {%- endif -%}
+
+      {%- if anchor_url != "" and crumb_url != anchor_url and anchor_url contains crumb_url -%}
+        {%- continue -%}
+      {%- endif -%}
 
       {%- if is_repo_docs_url and crumb_limit == 4 -%}
         {%- assign crumb_title = page.repo_name -%}

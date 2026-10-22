@@ -4,10 +4,11 @@ title: Z-ranger deck v2
 page_id: product-z-ranger-deck-v2
 redirects:
   - /z-ranger-deck-v2/
+  - /products/z-ranger-deck-v2/
 ---
 
+{% notice_info This product is discontinued. We recommend using the <a href="/products/flow-deck-v2/">Flow Deck v2</a> instead, which also provides ranging functionality. %}
 {% datasheet_product_status z_ranger_deck_2 %}
-{% buy_online https://store.bitcraze.io/collections/decks/products/z-ranger-deck-v2 %}
 
 {% product_img Z-ranger deck v2; narrow;
 /images/z-ranger-deck-v2/z-ranger_v2_585px-1.jpg
@@ -80,13 +81,13 @@ Follow the [zranger tutorial]({% id_url getting-started-z-ranger-deck %})
 #### Firmware implementation
 
 The [Z-ranger's driver](https://github.com/bitcraze/crazyflie-firmware/blob/master/src/deck/drivers/src/zranger2.c) is currently implemented in the [crazyflie firmware](https://github.com/bitcraze/crazyflie-firmware).
-Its measurement is mostly used for the [Complementary Filter for state estimation](/documentation/repository/crazyflie-firmware/master/functional-areas/sensor-to-control/state_estimators/#complementary-filter).
+Its measurement is mostly used for the [Complementary Filter for state estimation]({% repo_doc_url crazyflie-firmware; functional-areas/sensor-to-control/state_estimators %}#complementary-filter).
 
 {% endrow_text %}
 {% row_links %}
 
-- [Logging variables](/documentation/repository/crazyflie-firmware/master/api/logs/#range)
-- [Stabilizer module](/documentation/repository/crazyflie-firmware/master/functional-areas/sensor-to-control/)
+- [Logging variables]({% repo_doc_url crazyflie-firmware; api/logs %}#range)
+- [Stabilizer module]({% repo_doc_url crazyflie-firmware; functional-areas/sensor-to-control %})
 {% endrow_links %}
 {% endrow_icon_text_links %}
 {% endtab %}

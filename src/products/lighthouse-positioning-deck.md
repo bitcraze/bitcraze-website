@@ -86,9 +86,9 @@ For more general information about our positioning systems and how the Lighthous
 
 #### Firmware Implementation
 
-The Lighthouse position is calculated onboard the Crazyflie. For implementation details, see the [technical documentation of the Lighthouse positioning system](/documentation/repository/crazyflie-firmware/master/functional-areas/lighthouse/) and the [Crazyflie Firmware](https://github.com/bitcraze/crazyflie-firmware).
+The Lighthouse position is calculated onboard the Crazyflie. For implementation details, see the [technical documentation of the Lighthouse positioning system]({% repo_doc_url crazyflie-firmware; functional-areas/lighthouse %}) and the [Crazyflie Firmware](https://github.com/bitcraze/crazyflie-firmware).
 
-To work with the implementation of the Lighthouse system, it is important to have a good feel for the [stabilizer module of the crazyflie](/documentation/repository/crazyflie-firmware/master/functional-areas/sensor-to-control/), in particular state estimation with the [Extended Kalman Filter](/documentation/repository/crazyflie-firmware/master/functional-areas/sensor-to-control/state_estimators/#extended-kalman-filter)
+To work with the implementation of the Lighthouse system, it is important to have a good feel for the [stabilizer module of the crazyflie]({% repo_doc_url crazyflie-firmware; functional-areas/sensor-to-control %}), in particular state estimation with the [Extended Kalman Filter]({% repo_doc_url crazyflie-firmware; functional-areas/sensor-to-control/state_estimators %}#extended-kalman-filter)
 
 #### Hardware Hack: Using a LH deck with other hardware
 
@@ -98,17 +98,17 @@ The pads GND and VCOM can be used to supply power to the deck. There is a 3.0V L
 
 RX and TX are connected directly to the iCE40LP5K FPGA. The FPGA is quite sensitive and the maximum voltage that can be applied to these pins is 3.2V, applying more than that will damage the FPGA. This makes the deck incompatible with 3.3V system out of the box, but adding a voltage-divider before RX and making sure there is never a pull-up to TX would be enough to interface the deck with a 3.3V system.
 
-The deck boots in [bootloader mode](/documentation/repository/lighthouse-bootloader/master/), the external system is responsible to update the bitstream if necessary and boot the board using the serial port.
+The deck boots in [bootloader mode]({% repo_doc_url lighthouse-bootloader %}), the external system is responsible to update the bitstream if necessary and boot the board using the serial port.
 
 Note: there is no software support for using the {% poplink lighthouse-deck %} with other hardware.
 
 {% endrow_text %}
 {% row_links %}
 
-- [Technical details](/documentation/repository/crazyflie-firmware/master/functional-areas/lighthouse/)
-- [Stabilizer Module](/documentation/repository/crazyflie-firmware/master/functional-areas/sensor-to-control/)
-- [Log Variables](/documentation/repository/crazyflie-firmware/master/api/logs/#lighthouse)
-- [Parameters](/documentation/repository/crazyflie-firmware/master/api/params/#lighthouse)
+- [Technical details]({% repo_doc_url crazyflie-firmware; functional-areas/lighthouse %})
+- [Stabilizer Module]({% repo_doc_url crazyflie-firmware; functional-areas/sensor-to-control %})
+- [Log Variables]({% repo_doc_url crazyflie-firmware; api/logs %}#lighthouse)
+- [Parameters]({% repo_doc_url crazyflie-firmware; api/params %}#lighthouse)
 - [Dataset](/documentation/system/positioning/positioning-datasets/)
 
 {% endrow_links %}
@@ -122,7 +122,7 @@ Note: there is no software support for using the {% poplink lighthouse-deck %} w
 
 #### Resources
 
-- [Lighthouse positioning information](/documentation/repository/crazyflie-firmware/master/functional-areas/lighthouse/)
+- [Lighthouse positioning information]({% repo_doc_url crazyflie-firmware; functional-areas/lighthouse %})
 - {% id_link getting-started-start %}
 - {% id_link support-frequently-asked-questions %}
 - {% id_link support-getting-help %}

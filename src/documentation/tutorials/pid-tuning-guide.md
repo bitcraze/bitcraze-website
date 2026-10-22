@@ -21,9 +21,9 @@ This tutorial provides fundamental PID tuning information aimed at beginners, co
   * Recommended: a controller (e.g., PS3, Xbox, or a custom controller)
 
 * Software
-  * Latest release of the [cfclient](/documentation/repository/crazyflie-clients-python/master/)
+  * Latest release of the [cfclient]({% repo_doc_url crazyflie-clients-python %})
 
-Make sure that you have gone through the [how to get flying with a controller userguide](/documentation/repository/crazyflie-clients-python/master/userguides/userguide_client/#how-to-get-flying-with-a-controller) before continuing with this tutorial.
+Make sure that you have gone through the [how to get flying with a controller userguide]({% repo_doc_url crazyflie-clients-python; userguides/userguide_client %}#how-to-get-flying-with-a-controller) before continuing with this tutorial.
 
 {% endsi_step %}
 
@@ -51,18 +51,18 @@ The gains $$K_p$$ (Proportional Gain), $$K_i$$ (Integral Gain), and $$K_d$$ (Der
 
 Tuning involves balancing these gains to achieve stable and accurate control.
 
-Our firmware uses a [cascaded PID controller](/documentation/repository/crazyflie-firmware/master/functional-areas/sensor-to-control/controllers/#cascaded-pid-controller) structure, with separate controllers for attitude rate, attitude, velocity, and position. 
+Our firmware uses a [cascaded PID controller]({% repo_doc_url crazyflie-firmware; functional-areas/sensor-to-control/controllers %}#cascaded-pid-controller) structure, with separate controllers for attitude rate, attitude, velocity, and position. 
 {% endsi_step %}
 
 {% si_step Setup %}
-In this tutorial, we use [cfclient](/documentation/repository/crazyflie-clients-python/master/) to tune the PID controllers because it provides a comprehensive environment that allows us to simultaneously adjust PID gains, plot setpoints and state estimates, and control the drone with a controller or position setpoints.
+In this tutorial, we use [cfclient]({% repo_doc_url crazyflie-clients-python %}) to tune the PID controllers because it provides a comprehensive environment that allows us to simultaneously adjust PID gains, plot setpoints and state estimates, and control the drone with a controller or position setpoints.
 
-To effectively tune each controller in the cascaded PID system, you must provide setpoints of the same order or higher than the respective controller's level. For instance, position setpoints are necessary for tuning the position controller, while attitude, velocity or position setpoints suffice for the attitude controller. Attitude rate, attitude and velocity controllers are best made by conducting manual flight tests with a controller, as it allows for testing a variety of maneuvers. In this tutorial, we assume users will use a controller for manual flight tests. Setpoints can also be written and adjusted using other methods like through [cflib](/documentation/repository/crazyflie-lib-python/master/) or the [app layer](/documentation/repository/crazyflie-firmware/master/userguides/app_layer/). However, using cflib to connect to the drone will prevent cfclient from connecting, so you cannot plot data or adjust gains directly from cfclient. Using the app layer can be cumbersome since it requires firmware flashing each time setpoints need adjustment, making the process more time-consuming.
+To effectively tune each controller in the cascaded PID system, you must provide setpoints of the same order or higher than the respective controller's level. For instance, position setpoints are necessary for tuning the position controller, while attitude, velocity or position setpoints suffice for the attitude controller. Attitude rate, attitude and velocity controllers are best made by conducting manual flight tests with a controller, as it allows for testing a variety of maneuvers. In this tutorial, we assume users will use a controller for manual flight tests. Setpoints can also be written and adjusted using other methods like through [cflib]({% repo_doc_url crazyflie-lib-python %}) or the [app layer]({% repo_doc_url crazyflie-firmware; userguides/app_layer %}). However, using cflib to connect to the drone will prevent cfclient from connecting, so you cannot plot data or adjust gains directly from cfclient. Using the app layer can be cumbersome since it requires firmware flashing each time setpoints need adjustment, making the process more time-consuming.
 
-> Depending on what [controller mode](/documentation/repository/crazyflie-firmware/master/functional-areas/sensor-to-control/commanders_setpoints/#setpoint-structure) you will use to control your Crazyflie, it may be unnecessary to tune the higher level controllers.
+> Depending on what [controller mode]({% repo_doc_url crazyflie-firmware; functional-areas/sensor-to-control/commanders_setpoints %}#setpoint-structure) you will use to control your Crazyflie, it may be unnecessary to tune the higher level controllers.
 
 1. Open up cfclient
-2. Connect and [configure your controller](/documentation/repository/crazyflie-clients-python/master/userguides/userguide_client/#input-devices)
+2. Connect and [configure your controller]({% repo_doc_url crazyflie-clients-python; userguides/userguide_client %}#input-devices)
 3. Connect to your Crazyflie
 4. Enable the plotter tab
 5. Enable the tuning toolbox

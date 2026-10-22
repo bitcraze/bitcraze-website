@@ -57,8 +57,8 @@ class TestMedia < Testbase
     tag = '{% youtube id; narrow; 16by9 %}'
     expected = '<div class="media-row-narrow">
                   <div class="ratio ratio-16x9">
-                    <div class="video-item-delayed-load" data-video-id="id" style="background:url(https://i1.ytimg.com/vi/id/0.jpg);" onclick="kraken.loadYoutubeVideo(this)">
-                      <i class="fa-regular fa-circle-play fa-3x"></i>
+                    <div class="video-item-delayed-load" data-video-id="id" style="background-image:url(https://i1.ytimg.com/vi/id/0.jpg);" onclick="kraken.loadYoutubeVideo(this)">
+                      <i class="fa-solid fa-circle-play fa-3x"></i>
                     </div>
                   </div>
                 </div>'
@@ -156,7 +156,7 @@ class TestMedia < Testbase
                         <h3 id="some-header">Some header</h3>
                       </div>
                       <div class="ratio ratio-16x9">
-                        <div class="video-item-delayed-load" data-video-id="id" style="background:url(https://i1.ytimg.com/vi/id/0.jpg);" onclick="kraken.loadYoutubeVideo(this)">
+                        <div class="video-item-delayed-load" data-video-id="id" style="background-image:url(https://i1.ytimg.com/vi/id/0.jpg);" onclick="kraken.loadYoutubeVideo(this)">
                           <i class="fa-regular fa-circle-play fa-3x"></i>
                         </div>
                       </div>
@@ -182,7 +182,7 @@ class TestMedia < Testbase
                         <h3 id="some-header">Some header</h3>
                       </div>
                       <div class="ratio ratio-16x9">
-                        <div class="video-item-delayed-load" data-video-id="id1" style="background:url(https://i1.ytimg.com/vi/id1/0.jpg);" onclick="kraken.loadYoutubeVideo(this)">
+                        <div class="video-item-delayed-load" data-video-id="id1" style="background-image:url(https://i1.ytimg.com/vi/id1/0.jpg);" onclick="kraken.loadYoutubeVideo(this)">
                           <i class="fa-regular fa-circle-play fa-3x"></i>
                         </div>
                       </div>
@@ -192,7 +192,7 @@ class TestMedia < Testbase
                         <h3 id="other-header">Other header</h3>
                       </div>
                       <div class="ratio ratio-16x9">
-                        <div class="video-item-delayed-load" data-video-id="id2" style="background:url(https://i1.ytimg.com/vi/id2/0.jpg);" onclick="kraken.loadYoutubeVideo(this)">
+                        <div class="video-item-delayed-load" data-video-id="id2" style="background-image:url(https://i1.ytimg.com/vi/id2/0.jpg);" onclick="kraken.loadYoutubeVideo(this)">
                           <i class="fa-regular fa-circle-play fa-3x"></i>
                         </div>
                       </div>
@@ -204,7 +204,7 @@ class TestMedia < Testbase
                         <h3 id="some-header">Some header</h3>
                       </div>
                       <div class="ratio ratio-16x9">
-                        <div class="video-item-delayed-load" data-video-id="id3" style="background:url(https://i1.ytimg.com/vi/id3/0.jpg);" onclick="kraken.loadYoutubeVideo(this)">
+                        <div class="video-item-delayed-load" data-video-id="id3" style="background-image:url(https://i1.ytimg.com/vi/id3/0.jpg);" onclick="kraken.loadYoutubeVideo(this)">
                           <i class="fa-regular fa-circle-play fa-3x"></i>
                         </div>
                       </div>
@@ -214,7 +214,7 @@ class TestMedia < Testbase
                         <h3 id="some-header">Some header</h3>
                       </div>
                       <div class="ratio ratio-16x9">
-                        <div class="video-item-delayed-load" data-video-id="id4" style="background:url(https://i1.ytimg.com/vi/id4/0.jpg);" onclick="kraken.loadYoutubeVideo(this)">
+                        <div class="video-item-delayed-load" data-video-id="id4" style="background-image:url(https://i1.ytimg.com/vi/id4/0.jpg);" onclick="kraken.loadYoutubeVideo(this)">
                           <i class="fa-regular fa-circle-play fa-3x"></i>
                         </div>
                       </div>

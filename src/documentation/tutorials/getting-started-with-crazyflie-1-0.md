@@ -26,9 +26,9 @@ Any gamepad with at least four axes will work. The following gamepads are suppor
 Other gamepads can be configured in the Crazyflie client software.
 
 The Crazyradio dongle shall also be connected to the computer. The documentation
-contains the [Windows driver installation instructions](/documentation/repository/crazyradio-firmware/master/building/usbwindows/).
+contains the [Windows driver installation instructions]({% repo_doc_url crazyradio-firmware; building/usbwindows %}).
 Mac and Linux does not require drivers but Linux requires
-[some configuration](/documentation/repository/crazyflie-lib-python/master/installation/usb_permissions/).
+[some configuration]({% repo_doc_url crazyflie-lib-python; installation/usb_permissions %}).
 {% endsi_intro %}
 
 
@@ -46,7 +46,7 @@ running the software directly on your machine or using our virtual machine.
 The windows installer can be downloaded from
 [GitHub](https://github.com/bitcraze/crazyflie-clients-python/releases)
 It installs the Crazyflie PC client. The Crazyradio USB dongle driver has to be
-[installed independently](/documentation/repository/crazyradio-firmware/master/building/usbwindows/).
+[installed independently]({% repo_doc_url crazyradio-firmware; building/usbwindows %}).
 {% endsi_step %}
 
 

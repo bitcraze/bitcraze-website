@@ -308,7 +308,7 @@ The first step to getting your computer ready for communication is to set up you
 
 {% si_step Installing the Client %}
 There are different ways to run the Client, for example uvx, pip or through the client repository. You can see what will suit you best and follow the prerequisites and instructions to install the latest release on the
-[Client installation instruction page](/documentation/repository/crazyflie-clients-python/master/installation/install/).
+[Client installation instruction page]({% repo_doc_url crazyflie-clients-python; installation/install %}).
 
 
 When you have set up the client, insert the {% poplink crazyradio-2-0 %} and your gamepad in
@@ -317,11 +317,11 @@ your USB-ports and start the client.
 {% endsi_step %}
 
 {% si_intro Using the client; config-client %}
-In this section we will look at the main features for getting started with the client. More details and features can be found in the [Client user-guide](/documentation/repository/crazyflie-clients-python/master/userguides/inputdevices/).
+In this section we will look at the main features for getting started with the client. More details and features can be found in the [Client user-guide]({% repo_doc_url crazyflie-clients-python; userguides/inputdevices %}).
 {% endsi_intro %}
 
 {% si_step Connect to the Crazyflie; connect-pc-client %}
-* In the Crazyflie client enter the correct __Address__. The default one for a new Crazyflie out of the box is 0xE7E7E7E7E7. To figure out or change the __Address__ of your Crazyflie, you can follow the [radio address configuration](/documentation/repository/crazyflie-clients-python/master/userguides/userguide_client/#radio-address-configuration) guide.
+* In the Crazyflie client enter the correct __Address__. The default one for a new Crazyflie out of the box is 0xE7E7E7E7E7. To figure out or change the __Address__ of your Crazyflie, you can follow the [radio address configuration]({% repo_doc_url crazyflie-clients-python; userguides/userguide_client %}#radio-address-configuration) guide.
 * Then, with your Crazyflie powered on and radio connected, click the __Scan__ button in top left corner. The radio settings for your Crazyflie are displayed in the drop-down list.
 * Choose your Crazyflie from the drop-down list.
 * Click the __Connect__ button.
@@ -335,7 +335,7 @@ well as battery status and the link quality.
 {% endsi_step %}
 
 {% si_step Update firmware in the Crazyflie; update-fw %}
-To make sure that your Crazyflie has all the latest features you should always update the firmware to the newest version. To learn how, check out the client user-guide [here](/documentation/repository/crazyflie-clients-python/master/userguides/userguide_client/#firmware-upgrade).
+To make sure that your Crazyflie has all the latest features you should always update the firmware to the newest version. To learn how, check out the client user-guide [here]({% repo_doc_url crazyflie-clients-python; userguides/userguide_client %}#firmware-upgrade).
 {% endsi_step %}
 
 {% si_intro Manual Flight Control; inst-comp %}
@@ -347,14 +347,14 @@ After you have connected your gamepad, open the input device settings in the cli
 mapping is chosen, otherwise pick your device type.
 {% img Gamepad settings; wide; /images/getting-started/gamepad-configuration.png %}
 
-For more detailed information on input devices, see the [Client user-guide](/documentation/repository/crazyflie-clients-python/master/userguides/inputdevices/). In this guide it is also shown how to configure your own device mapping to perfectly suit your gamepad.
+For more detailed information on input devices, see the [Client user-guide]({% repo_doc_url crazyflie-clients-python; userguides/inputdevices %}). In this guide it is also shown how to configure your own device mapping to perfectly suit your gamepad.
 
 {% endsi_step %}
 
 {% si_intro Scripted Flight Control; inst-lib %}
 When flying using a script you need a {% poplink crazyradio-2-0 %} for communication.
 To start, you need to install and familiarize yourself with our library [cflib](https://github.com/bitcraze/crazyflie-lib-python).
-This software enables you to fly one or more quadcopters in predetermined way using Python to control the quadcopter. Get started with Python scripting and the Crazyflie Python library though our [Step-by-step user guides](/documentation/repository/crazyflie-lib-python/master/user-guides/). To get some inspiration on what can be done, please check out the [examples](https://github.com/bitcraze/crazyflie-lib-python/tree/master/examples) and the [demos repository](https://github.com/bitcraze/crazyflie-demos).
+This software enables you to fly one or more quadcopters in predetermined way using Python to control the quadcopter. Get started with Python scripting and the Crazyflie Python library though our [Step-by-step user guides]({% repo_doc_url crazyflie-lib-python; user-guides %}). To get some inspiration on what can be done, please check out the [examples](https://github.com/bitcraze/crazyflie-lib-python/tree/master/examples) and the [demos repository](https://github.com/bitcraze/crazyflie-demos).
 {% endsi_intro %}
 
 ---
@@ -386,7 +386,7 @@ Lear more about the coordinate system of a Crazyflie [here](/documentation/syste
 {% si_step Gamepad %}
 The controls on the gamepad have the following mapping:
 {% img Control mapping; medium; /images/getting-started/controller.png %}
-This is a common mapping (often known as mapping 3) in a lot of flying robotics applications. To change between mappings and gamepad types as well as creating your own custom mapping check out the [documentation for input devices](/documentation/repository/crazyflie-clients-python/master/userguides/userguide_client/#input-devices).
+This is a common mapping (often known as mapping 3) in a lot of flying robotics applications. To change between mappings and gamepad types as well as creating your own custom mapping check out the [documentation for input devices]({% repo_doc_url crazyflie-clients-python; userguides/userguide_client %}#input-devices).
 {% endsi_step %}
 
 {% si_step Normal flight %}
@@ -423,5 +423,5 @@ Have fun!
 {% si_step Next steps %}
 Now that you are in the air you can explore more opportunities with our [Expansion Decks](https://store.bitcraze.io/collections/decks), and if you already have a deck you want to attach you can check out the [Getting started with expansion decks tutorial](/documentation/tutorials/getting-started-with-expansion-decks/).
 
-Another step is trying autonomous flight with Python scripting and the Crazyflie Python library though our [Step-by-step user guides](/documentation/repository/crazyflie-lib-python/master/user-guides/).
+Another step is trying autonomous flight with Python scripting and the Crazyflie Python library though our [Step-by-step user guides]({% repo_doc_url crazyflie-lib-python; user-guides %}).
 {% endsi_step %}

@@ -1,0 +1,14 @@
+{%- for top in site.data.menu -%}
+  {%- if top contains "subs" -%}
+    {%- assign groups = "" | split: "" | push: top -%}
+  {%- else -%}
+    {%- assign groups = top.sections -%}
+  {%- endif -%}
+  {%- for group in groups -%}
+    {%- assign hit = group.subs | where: "page_id", include.pid | first -%}
+    {%- if hit -%}
+      {%- assign anchor_url = include.url -%}
+      {%- capture menu_prefix %} / {{ top.title }}{% if group != top %} / {{ group.title }}{% endif %}{% endcapture -%}
+    {%- endif -%}
+  {%- endfor -%}
+{%- endfor -%}

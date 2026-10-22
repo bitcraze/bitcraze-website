@@ -79,7 +79,7 @@ Go to the [getting started tutorial of the flowdeck]({% id_url getting-started-f
 
 #### Firmware intergration
 
-The flowdeck provides optical flow and height measurements which are fused in the [Extended Kalman Filter](/documentation/repository/crazyflie-firmware/master/functional-areas/sensor-to-control/state_estimators/#extended-kalman-filter) of the [Crazyflie Firmware](https://github.com/bitcraze/crazyflie-firmware).
+The flowdeck provides optical flow and height measurements which are fused in the [Extended Kalman Filter]({% repo_doc_url crazyflie-firmware; functional-areas/sensor-to-control/state_estimators %}#extended-kalman-filter) of the [Crazyflie Firmware](https://github.com/bitcraze/crazyflie-firmware).
 
 #### Hardware Hacks
 
@@ -89,10 +89,10 @@ We did a light painting with the flowdeck together the {% poplink led-ring-deck 
 {% endrow_text %}
 {% row_links %}
 
-* [Extended Kalman Filter](/documentation/repository/crazyflie-firmware/master/functional-areas/sensor-to-control/state_estimators/#extended-kalman-filter)
+* [Extended Kalman Filter]({% repo_doc_url crazyflie-firmware; functional-areas/sensor-to-control/state_estimators %}#extended-kalman-filter)
 * {% id_link development-overview %}
-* [Parameters](/documentation/repository/crazyflie-firmware/master/api/params/#motion)
-* [Logging variables](/documentation/repository/crazyflie-firmware/master/api/logs/#motion)
+* [Parameters]({% repo_doc_url crazyflie-firmware; api/params %}#motion)
+* [Logging variables]({% repo_doc_url crazyflie-firmware; api/logs %}#motion)
 * [Dataset](/documentation/system/positioning/positioning-datasets/)
 
 * [Light painting with flowdeck](https://www.hackster.io/krichardsson/light-paint-with-a-drone-d050af)
