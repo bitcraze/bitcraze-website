@@ -7,7 +7,7 @@ redirects:
 ---
 
 {% si_part Welcome to the Crazyflie™ Ecosystem! %}
-This getting started guide is split up into three parts. First we are going to assemble the Crazyflie, secondly we move on to setting up controllers and communication, and lastly we get up in the air and start flying. 
+This getting started guide is split up into three parts. First we are going to assemble the Crazyflie, secondly we move on to setting up a gamepad and communication, and lastly we get up in the air and start flying. 
 Let's get started! 
 
 {% img Overview; wide; /images/getting-started/gs-brushless-overview.png %}
@@ -31,7 +31,7 @@ You are responsible for handling the drone and its components. It is your respon
 {% endsi_intro %}
 
 {% si_step Requirements %}
-To fly with the Crazyflie you need to have a computer with a {% poplink crazyradio-2-0 %} or PA, which is the recommended way, or a mobile device. To fly manually with your computer you also need a gamepad of your choice. 
+To fly with the Crazyflie you need to have a computer with a {% poplink crazyradio-2-0 %}. To fly manually with your computer you also need a gamepad of your choice. 
 {% endsi_step %}
 
 {% si_step If you get stuck %}
@@ -50,65 +50,47 @@ Make sure to follow the instructions below for assembling your Crazyflie<sup>®<
 {% si_step Unpacking the Crazyflie %}
 Start by unpacking the box. It should contain the following items:
 
-
-* 1 x Crazyflie Brushless control board
-* 1 x 350mAh LiPo battery
-* 4 x  Brushless motors
-* 5 x Legs (1 spare)
-* 5 x Legs/propeller guards (1 spare)
-* 14 x Short (black) screws
-* 5 x Longer (silver) screws
-* 1 x Foam battery pad
-* 5 x CCW propellers (3 spare)
-* 5 x CW propellers (3 spare)
-* 1 x Battery holder deck
-* 1 x Rubber pad
-* 2 x Short pins
-* 2 x Long pins
-* 1 x Micro-USB cable (48cm)
-* 1 x Screwdriver
-* 1 x Propeller tool
-
 <table>
   <tr>
     <td width="120">
-      <img src="/images/getting-started/bare-pcb.webp" width="120">
+      <img src="/images/getting-started/bl-pcb.webp" width="120">
     </td>
     <td>
-      Crazyflie 2.0 or 2.1 control board with all components mounted
+      1 x Crazyflie Brushless control board
     </td>
   </tr>
   <tr>
     <td width="120">
-      <img src="/images/getting-started/props-47-17.webp" width="120">
+      <img src="/images/getting-started/bl-props.webp" width="120">
     </td>
     <td>
-      5 x CW propellers (1 spare) <br>
-      5 x CCW propellers (1 spare)
+      5 x CCW Counter clockwise (CCW) propellers (3 spare) <br>
+      5 x Clockwise rotation (CW) propellers (3 spare)
     </td>
   </tr>
   <tr>
     <td width="120">
-      <img src="/images/getting-started/motor-mounts.webp" width="120">
+      <img src="/images/getting-started/bl-guards-legs.webp" width="120">
     </td>
     <td>
-      6 x Motor mounts (2 spare)
+      5 x Legs (1 spare) <br>
+      5 x Legs/propeller guards (1 spare)
     </td>
   </tr>
   <tr>
     <td width="120">
-      <img src="/images/getting-started/250-lipo-battery.webp" width="120">
+      <img src="/images/getting-started/350-lipo-battery.webp" width="120">
     </td>
     <td>
-      1 x LiPo battery
+      1 x 350mAh LiPo battery
     </td>
   </tr>
   <tr>
     <td width="120">
-      <img src="/images/getting-started/coreless-dc-motors.webp" width="120">
+      <img src="/images/getting-started/bl-motor.webp" width="120">
     </td>
     <td>
-      5 x Coreless DC motors (1 spare)
+      4 x  Brushless motors
     </td>
   </tr>
   <tr>
@@ -125,7 +107,7 @@ Start by unpacking the box. It should contain the following items:
       <img src="/images/getting-started/battery-holder.webp" width="120">
     </td>
     <td>
-      1 x Battery holder expansion board
+      1 x Battery holder deck
     </td>
   </tr>
   <tr>
@@ -133,14 +115,62 @@ Start by unpacking the box. It should contain the following items:
       <img src="/images/getting-started/micro-usb-cable.webp" width="120">
     </td>
     <td>
-      1 x USB cable (only with the Crazyflie 2.1)
+      1 x Micro-USB cable (48cm)
+    </td>
+  </tr>
+  <tr>
+    <td width="120">
+      <img src="/images/getting-started/black-screws.webp" width="120">
+    </td>
+    <td>
+      14 x Short (black) screws
+    </td>
+  </tr>
+  <tr>
+    <td width="120">
+      <img src="/images/getting-started/silver-screws.webp" width="120">
+    </td>
+    <td>
+      5 x Longer (silver) screws
+    </td>
+  </tr>
+  <tr>
+    <td width="120">
+      <img src="/images/getting-started/foam-pad.webp" width="120">
+    </td>
+    <td>
+      1 x Foam battery pad
+    </td>
+  </tr>
+  <tr>
+    <td width="120">
+      <img src="/images/getting-started/screwdriver.webp" width="120">
+    </td>
+    <td>
+      1 x Screwdriver
+    </td>
+  </tr>
+  <tr>
+    <td width="120">
+      <img src="/images/getting-started/prop-tool.webp" width="120">
+    </td>
+    <td>
+      1 x Propeller tool
     </td>
   </tr>
 </table>
 
 {% endsi_step %}
+
+{% si_step Getting to know your Crazyflie %}
+First of all, lets look at what is front and back before starting. This is a good reference point while assembling the Crazyflie, later when flying, as well as in the future when mounting expansion decks. The small "bump" (the antenna) is on the front of the Crazyflie. On the top you can also see that each arm has an LED. Here you can also see where the power button and M1, M2, M3 and M4 are.
+{% img Crazyflie board from the top; medium; /images/getting-started/get-to-know-bl.png %}
+{% endsi_step %}
+
 {% si_step Mount the motors %}
 Position the motor above the mounting holes, the motor cable should run along the arm. Use three black screws from underneath in the corner holes of the motor to fasten it. There is a screwdriver in the kit you can use to fasten it.
+{% img Crazyflie motor placement; medium; /images/getting-started/bl-motor-placement.webp %}
+
 {% tutorialVideo /videos/screwing_motors.mp4 %}
 
 Attach the motor cables to their connectors and twist the wire 180 degrees to attach to the connector. 
@@ -156,17 +186,16 @@ Note: New motors may feel a bit stiff or stuggle to spin at low throttle levels 
 Now it’s time to attach the propellers.
 
 **Before attaching:**
-Note: There are two types of propellers, the clock wise (CW) and counterclockwise (CCW) propellers, each kind has their own bag in the box. The bags are marked "5R" for CW and "5L" for CCW. The CW propellers themselves are marked “55-35R”, while the CCW propellers are marked “55-35”. They need to be mounted on the correct arm. As a guide, you’ll find arrows next to each motor on the PCB. When determining the direction of each propeller, make sure to note the following:
-* Look at the shape of the tip, the sharper corner is on the back side of the rotation direction.
-* Look at the angle of the blades. The higher side is facing forward in the rotational direction. 
+
+There are two types of propellers, the clock wise (CW) and counterclockwise (CCW) propellers, each kind has their own bag in the box.
+* The bags are marked "5R" for CW and "5L" for CCW.
+* The CW propellers are marked “55-35R” on the propeller itself, while the CCW propellers are marked “55-35”.
+
+They need to be mounted on the correct arm. As a guide, you’ll find arrows next to each motor on the PCB.
 
 **Attaching:**
 * Make sure that the correct side is facing up, the top side should be convex.
-* The arrow on the arm of the Crazyflie indicates what rotation direction the propeller should have. The correct placement is:
-  * M1: CCW
-  * M2: CW
-  * M3: CCW
-  * M4: CW
+* The arrow on the arm of the Crazyflie indicates what rotation direction the propeller should have.
 
 Here’s a detailed view of where to attach CW and CCW propellers.
 {% img Crazyflie propeller mounting; medium; /images/crazyflie2-1brushless/bl_prop_direction.png %}
@@ -196,8 +225,8 @@ Removing the legs/guards can be a bit tricky. An easy approach is by using the p
 
 {% endsi_step %}
 
-{% si_step Attach the rubber pad %}
-The rubber pad should be attached to the Crazyflie between the
+{% si_step Attach the foam pad %}
+The foam pad should be attached to the Crazyflie between the
 expansion pins. This will create friction, keep the battery from
 slipping out and also protect the electronics.
 
@@ -211,8 +240,7 @@ There are two types of pins in the box, long and short ones. Find the long ones 
 {% endsi_step %}
 
 {% si_step Attach the battery %}
-Place the battery between the pins inserted into the expansion connector
-and insert the battery holder board onto the pins. Watch out for the
+Place the battery between the pins and insert the battery holder board onto the pins. Watch out for the
 pins that can be a bit sharp when inserting it. Have the side of the battery holder with the text facing up. The friction should hold
 the battery in place so tighten it until it does.
 
@@ -227,15 +255,9 @@ Your Crazyflie 2.1 Brushless is now assembled!
 {% endsi_step %}
 
 {% si_step Power on! %}
-The assembly is finished, now it’s time to power it on! Note that the power
+TThe assembly is finished, now it’s time to power it on! While powering on, keep the Crazyflie still on a flat surface to let it complete the [start up sequence](#start-up). The power button is placed on the front right of the Crazyflie, right next to the M1 LED. Note that the power
 button is a push button, not a sliding button. The LEDs on the Crazyflie 2.1 Brushless will run in a startup sequence that can be seen in the video. 
 {% tutorialVideo /videos/BL_power_on.mp4 %}
-{% endsi_step %}
-
-{% si_step Getting to know your Crazyflie %}
-First of all, lets look at what is front and back, this is important when flying
-and also when mounting expansion decks. The small "bump" (the antenna) is on the front and the blue LEDs are at the back.
-{% img Crazyflie board from the top; medium; /images/crazyflie2-1brushless/bl_front.png %}
 {% endsi_step %}
 
 {% si_step Start up sequence; start-up %}
@@ -270,53 +292,33 @@ red pulses with a longer pause between groups.
 
 ---
 
-{% si_part 2. Controlling the Crazyflie %}
-You can fly the Crazyflie 2.1 Brushless together with a computer running Windows, MacOs or Linux.
-The Crazyflie 2.1 Brushless is built to be flied using scripting or on board automomous navigation, however it is also possible to fly it usig our client and a gamepad.
+{% si_part 2. Setting up communication %}
+Now that you have assembled the Crazyflie, its time to get ready to control it. To control the Crazyflie, we need to be able to communicate with it to give commands on how to fly and receive information back from the copter. You can fly the Crazyflie 2.1 Brushless with a computer running Windows, MacOs or Linux.
+The Crazyflie 2.1 Brushless is built to be flown using scripting or on board automomous navigation, however it is also possible to fly it using our client and a gamepad.
 {% endsi_part %}
 
-{% si_intro Scripted Flight Control; inst-lib %}
-When flying using a script you also need a {% poplink crazyradio-2-0 %} or Crazyradio PA for communication.
-To start of you need to install and familiarize yourself with our library [cflib](https://github.com/bitcraze/crazyflie-lib-python).
-This software enables you to fly one or more quadcopters in predetermined way using python to control the quadcopter.
-To get some inspiration on what can be done, please check out the [examples](https://github.com/bitcraze/crazyflie-lib-python/tree/master/examples).
-{% endsi_intro %}
-
-
-{% si_intro Manual Flight Control; inst-comp %}
-You can use any game pad connected to your computer by cable or Bluethooth. To fly using the game pad you need to install our client.
+{% si_intro Setting up %}
+To get started, you need to set up communication with the Crazyflie and install the client.
+Both ways of flying need a {% poplink crazyradio-2-0 %}.
 {% endsi_intro %}
 
 {% si_step Setting up the radio %}
-The first step to getting your computer ready for communication is to set up the Crazyradio. Using your computer requires a {% poplink crazyradio-2-0 %} or Crazyradio PA. Follow [this Getting Started tutorial](/documentation/tutorials/getting-started-with-crazyradio-2-0/) to set up the Crazyradio 2.0. 
+The first step to getting your computer ready for communication is to set up your {% poplink crazyradio-2-0 %}. Follow [this Getting Started tutorial](/documentation/tutorials/getting-started-with-crazyradio-2-0/) to set it up. 
 {% endsi_step %}
 
 {% si_step Installing the Client %}
-The supported way to install and run the client on a computer currently is to install
-the Crazyflie client natively using the python package manager *pip*.
-
-You can follow the prerequisite and instructions to install the latest release on the
+There are different ways to run the Client, for example uvx, pip or through the client repository. You can see what will suit you best and follow the prerequisites and instructions to install the latest release on the
 [Client installation instruction page](/documentation/repository/crazyflie-clients-python/master/installation/install/).
 
 
-When you have set up the client, insert the {% poplink crazyradio-2-0 %} or Crazyradio PA and your gamepad in
+When you have set up the client, insert the {% poplink crazyradio-2-0 %} and your gamepad in
 your USB-ports and start the client.
 
 {% endsi_step %}
 
-{% si_intro Configure the client; config-client %}
+{% si_intro Using the client; config-client %}
 In this section we will look at the main features for getting started with the client. More details and features can be found in the [Client user-guide](/documentation/repository/crazyflie-clients-python/master/userguides/inputdevices/).
 {% endsi_intro %}
-
-{% si_step Configure your controller; config-controller %}
-After you have connected your controller, open the input device settings in the client. Check if the correct device
-mapping is chosen, otherwise pick your device type.
-{% img Controller settings; wide; /images/getting-started/configure_your_controller.PNG %}
-
-For more detailed information on input devices, see the [Client user-guide](/documentation/repository/crazyflie-clients-python/master/userguides/inputdevices/). In this guide it is also shown how to configure your own device mapping to perfectly suit your gamepad.
-
-{% endsi_step %}
-
 
 {% si_step Connect to the Crazyflie; connect-pc-client %}
 * In the Crazyflie client enter the correct __Address__. The default one for a new Crazyflie out of the box is 0xE7E7E7E7E7. To figure out or change the __Address__ of your Crazyflie, you can follow the [radio address configuration](/documentation/repository/crazyflie-clients-python/master/userguides/userguide_client/#radio-address-configuration) guide.
@@ -336,6 +338,25 @@ well as battery status and the link quality.
 To make sure that your Crazyflie has all the latest features you should always update the firmware to the newest version. To learn how, check out the client user-guide [here](/documentation/repository/crazyflie-clients-python/master/userguides/userguide_client/#firmware-upgrade).
 {% endsi_step %}
 
+{% si_intro Manual Flight Control; inst-comp %}
+You can use any gamepad connected to your computer by cable or Bluethooth.
+{% endsi_intro %}
+
+{% si_step Configure your gamepad; config-controller %}
+After you have connected your gamepad, open the input device settings in the client. Check if the correct device
+mapping is chosen, otherwise pick your device type.
+{% img Gamepad settings; wide; /images/getting-started/gamepad-configuration.png %}
+
+For more detailed information on input devices, see the [Client user-guide](/documentation/repository/crazyflie-clients-python/master/userguides/inputdevices/). In this guide it is also shown how to configure your own device mapping to perfectly suit your gamepad.
+
+{% endsi_step %}
+
+{% si_intro Scripted Flight Control; inst-lib %}
+When flying using a script you need a {% poplink crazyradio-2-0 %} for communication.
+To start, you need to install and familiarize yourself with our library [cflib](https://github.com/bitcraze/crazyflie-lib-python).
+This software enables you to fly one or more quadcopters in predetermined way using Python to control the quadcopter. Get started with Python scripting and the Crazyflie Python library though our [Step-by-step user guides](/documentation/repository/crazyflie-lib-python/master/user-guides/). To get some inspiration on what can be done, please check out the [examples](https://github.com/bitcraze/crazyflie-lib-python/tree/master/examples) and the [demos repository](https://github.com/bitcraze/crazyflie-demos).
+{% endsi_intro %}
+
 ---
 
 {% si_part 3. Flying; flying %}
@@ -345,7 +366,7 @@ Now it's time to do some flying, but first there are some basics you need to kno
 {% si_step Orientation; orientation %}
 First of all, the easiest way to fly is when the copter is pointing away from you.
 The blue LEDs are on the back, so keep them pointing in your direction when
-starting to fly.
+starting.
 {% endsi_step %}
 
 {% si_step Maneuvering a quadcopter; maneuvering %}
@@ -360,12 +381,14 @@ from left to right. This tilts the Crazyflie and moves it forwards or backwards.
 left or right. Yaw is used when changing flying direction by pointing the front
 of the Crazyflie in different directions.
 * **Thrust -** adjusts the altitude, or height, of the Crazyflie.
+
+Lear more about the coordinate system of a Crazyflie [here](/documentation/system/platform/cf2-coordinate-system/).
 {% endsi_step %}
 
 {% si_step Gamepad / The mobile app controls %}
 The controls on the gamepad or mobile app have the following mapping:
 {% img Control mapping; medium; /images/getting-started/controller.png %}
-This is a common mapping (often known as mapping 3) in a lot of flying robotics applications. To change between mappings and controller types as well as creating your own custom mapping check out the [documentation for input devices](/documentation/repository/crazyflie-clients-python/master/userguides/userguide_client/#input-devices).
+This is a common mapping (often known as mapping 3) in a lot of flying robotics applications. To change between mappings and gamepad types as well as creating your own custom mapping check out the [documentation for input devices](/documentation/repository/crazyflie-clients-python/master/userguides/userguide_client/#input-devices).
 {% endsi_step %}
 
 {% si_step Normal flight %}
@@ -386,13 +409,7 @@ when taking off and then ease off for level flight.
 {% si_step If the Crazyflie is unbalanced; unbalanced %}
 Firstly, if your Crazyflie's propellers spin but it does not properly take off, the most common reason is that the propellers are not placed correctly. Look at the image under [Attach the propellers](#attach-the-propellers) and make sure to place the correct propeller on the correct arm.
 
-If your Crazyflie drifts a lot when taking off, there are a few things you should check.
-
-* Check that the propellers are spinning freely. Blow lightly on them, one by one,
-and verify that they turn. A common problem is that hair or other debris is jammed between the
-propeller and motor. If this is the problem, just pull the propeller off from the
-motor, remove the hair and reinstall the propeller.
-* Check that the propellers are balanced, {% id_link balancing-propellers %}
+Check that the propellers are spinning freely. Verify that they turn, one by one. A common problem is that hair or other debris is jammed between the propeller and motor. If this is the problem, just pull the propeller off from the motor, remove the hair and reinstall the propeller.
 {% endsi_step %}
 
 {% si_step Charging the battery; charging %}
@@ -410,7 +427,3 @@ Now that you are in the air you can explore more opportunities with our [Expansi
 
 Another step is trying autonomous flight with Python scripting and the Crazyflie Python library though our [Step-by-step user guides](/documentation/repository/crazyflie-lib-python/master/user-guides/).
 {% endsi_step %}
-
-{% si_intro Support %}
-If anything is wrong with the Crazyflie after following this guide, make sure to checkout the {% id_link support-getting-help %} page.
-{% endsi_intro %}

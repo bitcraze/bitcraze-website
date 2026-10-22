@@ -7,14 +7,14 @@ redirects:
 ---
 
 {% si_part Welcome to the Crazyflie™ Ecosystem! %}
-This getting started guide is split up into three parts. First we are going to assemble the Crazyflie, secondly we move on to setting up controllers and communication, and lastly we get up in the air and start flying. 
+This getting started guide is split up into three parts. First we are going to assemble the Crazyflie, secondly we move on to setting up a gamepad and communication, and lastly we get up in the air and start flying. 
 Let's get started! 
 
 {% img Overview; wide; /images/getting-started/gs-2.1-overview.png %}
 {% endsi_part %}
 
 {% si_step Requirements %}
-To fly with the Crazyflie you need to have a computer with a {% poplink crazyradio-2-0 %} or PA, which is the recommended way, or a mobile device. To fly manually with your computer you also need a gamepad of your choice. 
+To fly with the Crazyflie you need to have a computer with a {% poplink crazyradio-2-0 %}, which is the recommended way, or a mobile device. To fly manually with your computer you also need a gamepad of your choice. 
 {% endsi_step %}
 
 {% si_step If you get stuck %}
@@ -62,7 +62,7 @@ have all of them before you start assembling.
       <img src="/images/getting-started/250-lipo-battery.webp" width="120">
     </td>
     <td>
-      1 x LiPo battery
+      1 x 250mAh LiPo battery
     </td>
   </tr>
   <tr>
@@ -92,10 +92,10 @@ have all of them before you start assembling.
   </tr>
   <tr>
     <td width="120">
-      <img src="/images/getting-started/battery-holder.webp" width="120">
+      <img src="/images/getting-started/foam-pad.webp" width="120">
     </td>
     <td>
-      1 x Rubber pad
+      1 x Foam pad
     </td>
   </tr>
   <tr>
@@ -112,9 +112,8 @@ have all of them before you start assembling.
 {% endsi_step %}
 
 {% si_step Getting to know your Crazyflie %}
-First of all, lets look at what is front and back before starting. This is a good reference point while assembling the Crazyflie, and is also important later when flying
-as well as in the future when mounting expansion decks. The small "bump" (the antenna) is on the front of the Crazyflie. On the top you can also see that each arm has an LED. The LEDs are called (clockwise) M1, M2, M3 and M4.
-{% img Crazyflie board from the top; medium; /images/getting-started/front-CF.png %}
+First of all, lets look at what is front and back before starting. This is a good reference point while assembling the Crazyflie, later when flying, as well as in the future when mounting expansion decks. The small "bump" (the antenna) is on the front of the Crazyflie. On the top you can also see that each arm has an LED. Here you can also see where the power button and M1, M2, M3 and M4 are.
+{% img Crazyflie board from the top; medium; /images/getting-started/get-to-know-21.png %}
 {% endsi_step %}
 
 {% si_intro Testing; test %}
@@ -127,7 +126,7 @@ starting the assembly.
 Before you start assembling anything, run the power on self-test by
 connecting the Crazyflie to a USB power source (either
 computer or charger). Note that it’s
-important to hold the Crazyflie steady during the test and away from strong
+important to lay the Crazyflie on a flat surface during the test and away from strong
 magnetic sources. The LEDs M1 and M4
 will indicate the result of the test. If the M4 LED blinks GREEN five times
 fast, then the test has passed.
@@ -145,8 +144,7 @@ and does it again. In case of failure, go to our [Support Discussions](https://d
 
 
 {% si_intro Assembling; assembling %}
-Assembling your Crazyflie is a quick process that usually takes less than 10 minutes, but
-there are a few pitfalls to watch out for. Make sure to follow the instructions below to avoid them and get flying in no time!
+Make sure to follow the instructions below for assembling your Crazyflie<sup>®</sup>.
 {% endsi_intro %}
 
 {% si_step Twisting the wires %}
@@ -188,30 +186,26 @@ inserted, connect the motor connectors to the Crazyflie.
 Now it’s time to attach the propellers.
 
 **Before attaching:** 
-There are two kinds of propellers, the clock wise (CW) and counter clock wise (CCW) propellers, each kind has their own bag in the box. Here are some ways to tell them apart:
-* Notice the shape of the tips, the sharper corner is on back side of the rotation direction.
-* For the Crazyflie 2.1+ the packaging for the propellers are marked "5R" for right/CW and "5L" for right/CW. The propellers themselves are marked "47-17R" for CW and "47-17" for CCW.  
+
+There are two kinds of propellers, the clock wise (CW) and counter clock wise (CCW) propellers, each kind has their own bag in the box:
+* For the Crazyflie 2.1+ the packaging for the propellers are marked "5R" for right/CW and "5L" for right/CW. The propellers are marked "47-17R" for CW and "47-17" for CCW.  
 * For the Crazyflie 2.1 the propellers will look a little bit different, and the CW propellers are also usually marked with an "A", "A1" or "A2", while the CCW propellers are marked with "B", "B1" or "B2" (the number is irrelevant). 
 
 **Attaching:**
 * Make sure that the correct side is facing up, the top side should be convex.
-* The arrow on the arm of the Crazyflie indicates what rotation direction the propeller should have. The correct placement is:
-  * M1: CCW
-  * M2: CW
-  * M3: CCW
-  * M4: CW
+* The arrow on the arm of the Crazyflie indicates what rotation direction the propeller should have.
 * In the video below we are attaching the CW propellers for the Crazyflie 2.1 (not 2.1+ version).
 
 {% tutorialVideo /videos/attach_the_propellers.mp4 %}
 
 Here’s a detailed view of where to attach CW and CCW propellers:
-{% img Crazyflie propeller mounting; medium; /images/getting-started/cf2_props.png %}
+{% img Crazyflie propeller mounting; medium; /images/getting-started/21-prop-placement.png %}
 
 {% endsi_step %}
 
 
-{% si_step Attach the rubber pad %}
-The rubber pad should be attached to the Crazyflie between the
+{% si_step Attach the foam pad %}
+The foam pad should be attached to the Crazyflie between the
 expansion connector pins. This will create friction, keep the battery from
 slipping out and also protect the electronics.
 {% tutorialVideo /videos/attach_the_rubber_pad.mp4 %}
@@ -224,8 +218,7 @@ two short ones and insert them into the expansion connector.
 {% endsi_step %}
 
 {% si_step Attach the battery %}
-Place the battery between the pins inserted into the expansion connector
-and insert the battery holder board onto the pins. Watch out for the
+Place the battery between the pins and insert the battery holder board onto the pins. Watch out for the
 pins that can be a bit sharp when inserting it. Have the side of the battery holder with the text facing up. The friction should hold
 the battery in place so tighten it until it does.
 
@@ -278,7 +271,7 @@ Now that you have assembled the Crazyflie, its time to get ready to control it. 
 You can fly the Crazyflie either from a mobile device or a computer. Choose your preferred way to control the Crazyflie below and follow the instructions to set up communication. 
 {% endsi_part %}
 
-{% si_step Choose your controller device: %}
+{% si_step Choose how to control the Crazyflie: %}
 {% tabgroup %}
 
 {% tab Computer (recommended) %}
@@ -291,18 +284,15 @@ and best control. This requires:
 {% endsi_intro %}
 
 {% si_step Setting up the radio %}
-The first step to getting your computer ready for communication is to set up the Crazyradio. Using your computer requires a {% poplink crazyradio-2-0 %} or Crazyradio PA. Follow [this Getting Started tutorial](/documentation/tutorials/getting-started-with-crazyradio-2-0/) to set up the Crazyradio 2.0. 
+The first step to getting your computer ready for communication is to set up your {% poplink crazyradio-2-0 %}. Follow [this Getting Started tutorial](/documentation/tutorials/getting-started-with-crazyradio-2-0/) to set it up. 
 {% endsi_step %}
 
 {% si_step Installing the Client %}
-The supported way to install and run the client on a computer currently is to install
-the Crazyflie client natively using the python package manager *pip*.
-
-You can follow the prerequisite and instructions to install the latest release on the
+There are different ways to run the Client, for example uvx, pip or through the client repository. You can see what will suit you best and follow the prerequisites and instructions to install the latest release on the
 [Client installation instruction page](/documentation/repository/crazyflie-clients-python/master/installation/install/).
 
 
-When you have set up the client, insert the {% poplink crazyradio-2-0 %} or Crazyradio PA and your gamepad in
+When you have set up the client, insert the {% poplink crazyradio-2-0 %} and your gamepad in
 your USB-ports and start the client.
 
 {% endsi_step %}
@@ -311,10 +301,10 @@ your USB-ports and start the client.
 In this section we will look at the main features for getting started with the client. More details and features can be found in the [Client user-guide](/documentation/repository/crazyflie-clients-python/master/userguides/inputdevices/).
 {% endsi_intro %}
 
-{% si_step Configure your controller; config-controller %}
-After you have connected your controller, open the input device settings in the client. Check if the correct device
+{% si_step Configure your gamepad; config-controller %}
+After you have connected your gamepad, open the input device settings in the client. Check if the correct device
 mapping is chosen, otherwise pick your device type.
-{% img Controller settings; wide; /images/getting-started/configure_your_controller.PNG %}
+{% img Gamepad settings; wide; /images/getting-started/configure_your_controller.PNG %}
 
 For more detailed information on input devices, see the [Client user-guide](/documentation/repository/crazyflie-clients-python/master/userguides/inputdevices/). In this guide it is also shown how to configure your own device mapping to perfectly suit your gamepad.
 
@@ -401,7 +391,7 @@ of the Crazyflie in different directions.
 {% si_step Gamepad / The mobile app controls %}
 The controls on the gamepad or mobile app have the following mapping:
 {% img Control mapping; medium; /images/getting-started/controller.png %}
-This is a common mapping (often known as mapping 3) in a lot of flying robotics applications. To change between mappings and controller types as well as creating your own custom mapping check out the [documentation for input devices](/documentation/repository/crazyflie-clients-python/master/userguides/userguide_client/#input-devices).
+This is a common mapping (often known as mapping 3) in a lot of flying robotics applications. To change between mappings and gamepad types as well as creating your own custom mapping check out the [documentation for input devices](/documentation/repository/crazyflie-clients-python/master/userguides/userguide_client/#input-devices).
 {% endsi_step %}
 
 {% si_step Normal flight %}
