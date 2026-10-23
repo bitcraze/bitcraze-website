@@ -1,0 +1,181 @@
+---
+layout: page-base
+---
+
+{% include header-banner-left-menu.html %}
+<div class="container-fluid">
+    <section id="primary" class="row content-area page-left-menu">
+        <div class="col-md-4">
+            <nav id="tutorial-menu" class="tutorial-menu-wrapper d-print-none d-none d-md-block sticky-top">
+                {{ content | bc_tutorial_menu }}
+            </nav>
+        </div>
+        <div class="col-md-8 left-menu-content tutorial-content" data-searchable="true">
+            {{ content }}
+        </div>
+    </section>
+</div>
+
+<script type="text/javascript">
+// Scroll tracking for the tutorial menu. Bootstrap's ScrollSpy marks the <a>
+// rather than the <li>, which is no use here: the menu needs to open the whole
+// branch leading to the current heading, so the ancestors have to be marked
+// too. It is little enough work to just do it directly.
+(function () {
+    'use strict';
+
+    document.addEventListener('DOMContentLoaded', function () {
+        var nav = document.getElementById('tutorial-menu');
+        if (!nav) {
+            return;
+        }
+
+        var items = Array.prototype.slice.call(nav.querySelectorAll('.tm-item'));
+        var targets = [];
+
+        items.forEach(function (item) {
+            var heading = document.getElementById(item.getAttribute('data-target'));
+            if (heading) {
+                targets.push({ item: item, heading: heading });
+            }
+        });
+
+        if (targets.length === 0) {
+            return;
+        }
+
+        // How far down the viewport a heading counts as "the one being read".
+        // Matches the offset the menu itself sticks at.
+        var ACTIVE_OFFSET = 130;
+        var current = null;
+
+        function documentTop(element) {
+            return element.getBoundingClientRect().top + window.pageYOffset;
+        }
+
+        function keepInView(item) {
+            var link = item.querySelector('a');
+            if (!link) {
+                return;
+            }
+
+            var navBox = nav.getBoundingClientRect();
+            var linkBox = link.getBoundingClientRect();
+            var margin = 12;
+
+            if (linkBox.top < navBox.top + margin) {
+                nav.scrollTop -= (navBox.top + margin) - linkBox.top;
+            } else if (linkBox.bottom > navBox.bottom - margin) {
+                nav.scrollTop += linkBox.bottom - (navBox.bottom - margin);
+            }
+        }
+
+        function update() {
+            var probe = window.pageYOffset + ACTIVE_OFFSET;
+            var best = null;
+            var bestTop = -Infinity;
+            var firstVisible = null;
+            var lastVisible = null;
+
+            for (var i = 0; i < targets.length; i++) {
+                var target = targets[i];
+
+                // Steps inside an inactive tab are display:none and report a
+                // position of zero, so they have to be left out of the
+                // comparison entirely rather than just skipped over.
+                if (target.heading.offsetParent === null) {
+                    continue;
+                }
+                if (firstVisible === null) {
+                    firstVisible = target;
+                }
+                lastVisible = target;
+
+                // Take the lowest heading still above the probe. Scanning all
+                // of them rather than stopping at the first one below keeps
+                // this correct even when the headings are not in document
+                // order, which tabs and collapsed sections can cause.
+                var top = documentTop(target.heading);
+                if (top <= probe && top >= bestTop) {
+                    best = target;
+                    bestTop = top;
+                }
+            }
+
+            // The last few headings sit below the probe line even when the page
+            // is scrolled as far as it goes, so once the bottom is reached the
+            // final heading takes over. Without this the closing sections can
+            // never be reached in the menu.
+            var scrollBottom = window.pageYOffset + window.innerHeight;
+            if (lastVisible !== null && scrollBottom >= document.documentElement.scrollHeight - 2) {
+                best = lastVisible;
+            }
+
+            var active = best || firstVisible;
+            if (active === null || active.item === current) {
+                return;
+            }
+            current = active.item;
+
+            items.forEach(function (item) {
+                item.classList.remove('tm-active', 'tm-open');
+            });
+
+            // Mark the heading being read, then open every ancestor so the
+            // branch it lives in is the only one expanded.
+            current.classList.add('tm-active', 'tm-open');
+            var parent = current.parentElement;
+            while (parent && parent !== nav) {
+                if (parent.classList.contains('tm-item')) {
+                    parent.classList.add('tm-open');
+                }
+                parent = parent.parentElement;
+            }
+
+            keepInView(current);
+        }
+
+        // Throttled on a timer rather than requestAnimationFrame, so that a
+        // frame that never gets scheduled cannot leave the menu stuck.
+        var lastRun = 0;
+        var pending = null;
+        function onScroll() {
+            var since = Date.now() - lastRun;
+            if (since >= 100) {
+                lastRun = Date.now();
+                update();
+                return;
+            }
+            clearTimeout(pending);
+            pending = setTimeout(function () {
+                lastRun = Date.now();
+                update();
+            }, 100 - since);
+        }
+
+        window.addEventListener('scroll', onScroll, { passive: true });
+        window.addEventListener('resize', onScroll);
+
+        nav.addEventListener('click', function (event) {
+            var link = event.target.closest('a[href^="#"]');
+            if (!link) {
+                return;
+            }
+
+            var heading = document.getElementById(link.getAttribute('href').slice(1));
+            if (!heading) {
+                return;
+            }
+
+            event.preventDefault();
+            window.scrollTo({
+                top: documentTop(heading) - ACTIVE_OFFSET + 1,
+                behavior: 'smooth'
+            });
+            history.pushState(null, null, link.getAttribute('href'));
+        });
+
+        update();
+    });
+})();
+</script>

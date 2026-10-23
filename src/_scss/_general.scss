@@ -30,7 +30,11 @@
 
 html, body {
   background-color: white;
-  overflow-x: hidden;
+  // clip, not hidden: overflow-x: hidden forces overflow-y to auto, which makes
+  // html/body a scroll container and stops position: sticky from working for
+  // anything inside it (the tutorial and left hand menus). clip keeps the same
+  // "no sideways scrolling" behaviour without creating that scroll container.
+  overflow-x: clip;
   margin: 0;
   padding: 0;
 }
