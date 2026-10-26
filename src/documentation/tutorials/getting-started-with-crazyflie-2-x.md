@@ -179,7 +179,7 @@ Insert the motor mounts on the Crazyflie wings. They are press fit and
 might need a small amount of force. Make sure they go all the way to the
 stop. It’s not important which motor you put where. After it’s been
 inserted, connect the motor connectors to the Crazyflie.
-{% tutorialVideo /videos/insert_the_motor.mp4 %}
+{% tutorialVideo /videos/attach-motor-mount.mp4 %}
 {% endsi_step %}
 
 {% si_step Attach the propellers; props %}
@@ -188,15 +188,15 @@ Now it’s time to attach the propellers.
 **Before attaching:** 
 
 There are two kinds of propellers, the clock wise (CW) and counter clock wise (CCW) propellers, each kind has their own bag in the box:
-* For the Crazyflie 2.1+ the packaging for the propellers are marked "5R" for right/CW and "5L" for left/CCW. The propellers are marked "47-17R" for CW and "47-17" for CCW.  
-* For the Crazyflie 2.1 the propellers will look a little bit different, and the CW propellers are also usually marked with an "A", "A1" or "A2", while the CCW propellers are marked with "B", "B1" or "B2" (the number is irrelevant). 
+* Clock wise (CW): The packaging for the propellers are marked "5R" for right/CW. The propellers are marked "47-17R" for CW on the propeller itself.
+* Counter clock wise (CCW): The packaging for the propellers are marked "5L" for left/CCW. The propellers are marked "47-17" for CCW on the propeller itself.
 
 **Attaching:**
-* Make sure that the correct side is facing up, the top side should be convex.
+* Make sure that the correct side is facing up, the top side should be convex (the text on the propeller should be up).
 * The arrow on the arm of the Crazyflie indicates what rotation direction the propeller should have.
-* In the video below we are attaching the CW propellers for the Crazyflie 2.1 (not 2.1+ version).
+* In the video below we are attaching the CCW propellers for the Crazyflie 2.1+.
 
-{% tutorialVideo /videos/attach_the_propellers.mp4 %}
+{% tutorialVideo /videos/attach-props-21.mp4 %}
 
 Here’s a detailed view of where to attach CW and CCW propellers:
 {% img Crazyflie propeller mounting; medium; /images/getting-started/21-prop-placement.png %}
@@ -213,8 +213,8 @@ slipping out and also protect the electronics.
 
 {% si_step Attach expansion connector pins %}
 There are two types of pins in the box, long and short ones. Find the
-two short ones and insert them into the expansion connector.
-{% tutorialVideo /videos/attach_headers.mp4 %}
+long ones and insert them into the expansion connector from below.
+{% tutorialVideo /videos/attach-pins-21.mp4 %}
 {% endsi_step %}
 
 {% si_step Attach the battery %}

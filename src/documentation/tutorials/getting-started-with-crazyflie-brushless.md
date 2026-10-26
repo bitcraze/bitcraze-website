@@ -187,9 +187,9 @@ Now it’s time to attach the propellers.
 
 **Before attaching:**
 
-There are two types of propellers, the clock wise (CW) and counterclockwise (CCW) propellers, each kind has their own bag in the box.
-* The bags are marked "5R" for CW and "5L" for CCW.
-* The CW propellers are marked “55-35R” on the propeller itself, while the CCW propellers are marked “55-35”.
+There are two types of propellers, the clock wise (CW) and counterclockwise (CCW) propellers, each kind has their own bag in the box:
+* Clock wise (CW): The bags are marked "5R" for right/CW. The CW propellers are marked “55-35R” on the propeller itself.
+* Counter clock wise (CW): The bags are marked "5L" for left/CCW. The CCW propellers are marked “55-35” on the propeller itself.
 
 They need to be mounted on the correct arm. As a guide, you’ll find arrows next to each motor on the PCB.
 
@@ -197,8 +197,10 @@ They need to be mounted on the correct arm. As a guide, you’ll find arrows nex
 * Make sure that the correct side is facing up, the top side should be convex.
 * The arrow on the arm of the Crazyflie indicates what rotation direction the propeller should have.
 
+{% tutorialVideo /videos/attach-props-bl.mp4 %}
+
 Here’s a detailed view of where to attach CW and CCW propellers.
-{% img Crazyflie propeller mounting; medium; /images/crazyflie2-1brushless/bl_prop_direction.png %}
+{% img Crazyflie propeller mounting; medium; /images/getting-started/motor-placement-bl.png %}
 
 For safety or repair purposes, you may need to remove the propellers. This process can be challenging to perform by hand, which is why a propeller tool is included in the box.
 
@@ -255,9 +257,9 @@ Your Crazyflie 2.1 Brushless is now assembled!
 {% endsi_step %}
 
 {% si_step Power on! %}
-TThe assembly is finished, now it’s time to power it on! While powering on, keep the Crazyflie still on a flat surface to let it complete the [start up sequence](#start-up). The power button is placed on the front right of the Crazyflie, right next to the M1 LED. Note that the power
+The assembly is finished, now it’s time to power it on! While powering on, keep the Crazyflie still on a flat surface to let it complete the [start up sequence](#start-up). The power button is placed on the front right of the Crazyflie, right next to the M1 LED. Note that the power
 button is a push button, not a sliding button. The LEDs on the Crazyflie 2.1 Brushless will run in a startup sequence that can be seen in the video. 
-{% tutorialVideo /videos/BL_power_on.mp4 %}
+{% tutorialVideo /videos/power-on-bl.mp4 %}
 {% endsi_step %}
 
 {% si_step Start up sequence; start-up %}
