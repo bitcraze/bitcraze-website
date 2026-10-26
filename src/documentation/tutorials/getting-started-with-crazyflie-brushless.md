@@ -17,7 +17,7 @@ Let's get started!
 You are responsible for handling the drone and its components. It is your responsibility to make sure you understand how your drone works and that it is in good working condition before flight. Using a drone in a reckless and negligent manner could cause damage or bodily harm, resulting in lawsuits, fines and jail time.
 
 **There are things you should do to ensure maximum safety:**	
-{% si_step  Safety instructons%}
+{% si_step  Safety instructions%}
 * You should check your drone before and after each flight to make sure it’s working properly and there isn’t any damage. 
 * Don’t make contact with a spinning propeller. A spinning propeller is hazardous if carelessly handled. Always avoid getting your fingers close to the propellers.
 * When possible, build, test and configure your drone without its propellers attached.
@@ -341,7 +341,7 @@ To make sure that your Crazyflie has all the latest features you should always u
 {% endsi_step %}
 
 {% si_intro Manual Flight Control; inst-comp %}
-You can use any gamepad connected to your computer by cable or Bluethooth.
+You can use any gamepad connected to your computer by cable or Bluetooth. The game pad has to be connected before you start the client to be recognized by the client.
 {% endsi_intro %}
 
 {% si_step Configure your gamepad; config-controller %}
@@ -385,10 +385,10 @@ of the Crazyflie in different directions.
 Lear more about the coordinate system of a Crazyflie [here](/documentation/system/platform/cf2-coordinate-system/).
 {% endsi_step %}
 
-{% si_step Gamepad %}
-The controls on the gamepad have the following mapping:
+{% si_step Gamepad controls %}
+The controls on the gamepad have multiple different input mappings to select from. A common mapping to use in a lot of flying robotics applications is mapping 3, and it is mapped the following way:
 {% img Control mapping; medium; /images/getting-started/controller.png %}
-This is a common mapping (often known as mapping 3) in a lot of flying robotics applications. To change between mappings and gamepad types as well as creating your own custom mapping check out the [documentation for input devices]({% repo_doc_url crazyflie-clients-python; userguides/userguide_client %}#input-devices).
+To change between mappings and gamepad types as well as creating your own custom mapping check out the [documentation for input devices]({% repo_doc_url crazyflie-clients-python; userguides/userguide_client %}#input-devices).
 {% endsi_step %}
 
 {% si_step Normal flight %}

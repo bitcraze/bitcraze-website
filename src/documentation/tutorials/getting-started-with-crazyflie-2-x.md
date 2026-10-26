@@ -103,7 +103,7 @@ have all of them before you start assembling.
       <img src="/images/getting-started/micro-usb-cable.webp" alt="Micro-USB cable" width="120">
     </td>
     <td>
-      1 x USB cable (only with the Crazyflie 2.1)
+      1 x USB cable
     </td>
   </tr>
 </table>
@@ -317,7 +317,7 @@ To make sure that your Crazyflie has all the latest features you should always u
 {% endsi_step %}
 
 {% si_intro Manual Flight Control %}
-You can use any gamepad connected to your computer by cable or Bluethooth.
+You can use any gamepad connected to your computer by cable or Bluetooth. The game pad has to be connected before you start the client to be recognized by the client.
 {% endsi_intro %}
 
 {% si_step Configure your gamepad; config-controller %}
@@ -397,9 +397,9 @@ Lear more about the coordinate system of a Crazyflie [here](/documentation/syste
 {% endsi_step %}
 
 {% si_step Gamepad / The mobile app controls %}
-The controls on the gamepad or mobile app have the following mapping:
+The controls on the gamepad or mobile app have multiple different input mappings to select from. A common mapping to use in a lot of flying robotics applications is mapping 3, and it is mapped the following way:
 {% img Control mapping; medium; /images/getting-started/controller.png %}
-This is a common mapping (often known as mapping 3) in a lot of flying robotics applications. To change between mappings and gamepad types as well as creating your own custom mapping check out the [documentation for input devices]({% repo_doc_url crazyflie-clients-python; userguides/userguide_client %}#input-devices).
+To change between mappings and gamepad types as well as creating your own custom mapping check out the [documentation for input devices]({% repo_doc_url crazyflie-clients-python; userguides/userguide_client %}#input-devices) or the settings menu in the mobile app.
 {% endsi_step %}
 
 {% si_step Normal flight %}
