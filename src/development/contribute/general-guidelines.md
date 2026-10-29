@@ -58,8 +58,9 @@ changes. See the [repository documentation guidelines](../repo-doc-guidelines).
 or renaming unrelated code. It should be possible to merge the pull request as it is.
 
 1. **You are responsible for code written.** Using AI tools is fine, but you must understand
-every change you submit and be able to explain it and answer reviewers' questions in your own words. Don't
-list AI tools as co-authors; you are the author.
+every change you submit and be able to explain it and answer reviewers' questions in your own words.
+Read and review all AI-generated code yourself before you ask maintainers to review it. Don't list AI
+tools as co-authors; you are the author.
 
 ## Submitting the pull request
 
