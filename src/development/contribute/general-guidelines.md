@@ -47,8 +47,9 @@ may not. Keep in mind that your code will live for a long time and that others w
 1. **Keep the existing style.** We are not very strict, but your code should look like the code
 around it. When in doubt, follow the [coding standard guidelines](coding-standards.md).
 
-1. **Add automated tests where possible.** If the repository has automated tests, add tests for your
-code. Tests must check real behavior, not just pass.
+1. **Add automated tests when they add value.** Not every change needs a test, but logic that can be
+tested without hardware, usually should have one. Tests must check real behavior, not just pass. If you
+are not sure, feel free to ask and we will let you know in the review.
 
 1. **Update the documentation.** Each repository has documentation; add or update it for your
 changes. See the [repository documentation guidelines](../repo-doc-guidelines).
