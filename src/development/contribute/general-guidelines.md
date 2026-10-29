@@ -18,7 +18,9 @@ ask in [Discussions](https://discussions.bitcraze.io), or email us at [support@b
 
 1. **Agree on the approach before you write code.** Many issues need design decisions that we make
 as a team. Comment on the issue describing how you want to solve it, and wait for a maintainer to
-agree before you open a pull request. If there is no issue for your change, open one first. Typos, documentation corrections and other small, obvious fixes can go straight to a pull request.
+agree before you open a pull request. If there is no issue for your change, open one first. Fixes that
+don’t involve any design decision, such as typos or documentation corrections, can go straight to a pull
+request.
 
 1. **New functionality should be useful for other users and somewhat generic.** The codebase is used
 by many people, so additions must not be too specific. Unused functionality adds complexity and
