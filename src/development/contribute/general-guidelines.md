@@ -56,7 +56,7 @@ changes. See the [repository documentation guidelines](../repo-doc-guidelines).
 1. **Avoid noise.** Don't include changes that aren't part of the pull request, such as reformatting
 or renaming unrelated code. It should be possible to merge the pull request as it is.
 
-1. **You are responsible for code written with AI tools.** Using AI tools is fine, but you must understand
+1. **You are responsible for code written.** Using AI tools is fine, but you must understand
 every change you submit and be able to explain it and answer reviewers' questions in your own words. Don't
 list AI tools as co-authors; you are the author.
 
