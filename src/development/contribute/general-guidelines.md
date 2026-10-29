@@ -89,8 +89,7 @@ request from the description alone. Include:
 1. **Test on hardware and describe how.** Passing CI or compiling the firmware is not enough for
 changes that affect behavior on our platforms. In the description, state:
     * the OS, platform(s), decks and firmware or library versions you used
-    * what you tested and what you observed
-    * what you did not test
+    * what hardware tests you ran and what you observed
 
 ## After submitting
 
