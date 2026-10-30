@@ -28,7 +28,7 @@ Viewed from the origin looking outward along the positive axis:
 
  - **roll (φ)** is positive clockwise - a positive roll drops the drone's right side.
  - **pitch (θ)** is positive counter-clockwise - a positive pitch raises the drone's nose.
- - **yaw (ψ)** is positive clockwise - a positive yaw turns the drone's nose to the left.
+ - **yaw (ψ)** is positive clockwise - a positive yaw turns the drone's nose to the right.
 
 _Note: pitch runs counter-clockwise only in the reported Euler angles - the estimator's quaternion treats it clockwise, like roll and yaw, so the pitch it encodes has the opposite sign to attitude.pitch; negate the pitch when converting between the two, in either direction._
 
