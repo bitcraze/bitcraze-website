@@ -70,10 +70,10 @@ tools as co-authors; you are the author.
 1. **Use a recent branch point.** A pull request based on an old commit is more likely to have merge
 conflicts, and makes it harder to see what has changed.
 
-1. **Use clean commits with clear messages.** Several commits are fine, but each commit should
-contain one change; for example, keep a cleanup of existing code separate from new functionality.
-Start the message with a short summary of what changed, followed by why if it isn't obvious. Don't
-add sign-off lines or lines that tools add automatically.
+1. **Use clean commits in the pull request.** Multiple commits are fine and can help the reader
+understand what has changed, as long as each commit contains one change. If you want to clean up
+existing code for instance, it is probably better to do that in a separate commit instead of mixing
+it with new functionality.
 
 1. **Write a descriptive title.** The title is used in the release notes.
 
