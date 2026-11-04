@@ -46,18 +46,9 @@ If you are missing anything in terms of functionality, we and the community are 
 
 
 ### Pull Requests
-We use pull requests for code contributions, read more about how it works on
-[this article github](https://help.github.com/articles/about-pull-requests/).
+Code contributions are welcome and we use [pull requests for code contributions](https://docs.github.com/en/pull-requests/reference/pull-requests) to handle them.
 
-Code Contributions are of great value to the project and we are very happy for any contribution, large or small,
-but to make it possible for us to merge your additions into the codebase there are general guide-lines to follow:
-
-* Describe the change
-* Refer to any issues it effects
-* Separate one pull request per functionality: if you start writing "and" in the feature description consider if it could be separated in two pull requests.
-* The pull request must pass the automated testing
-
-Please look at the general code contributing Guidelines and code standards for more information.
+To make it easy for us to review and merge your work, please have a look at our General guidelines for code contributions and Coding standards before you start.
 
  {% inline_button General Code Contributing Guidelines; /development/contribute/general-guidelines/ %}
 
@@ -65,7 +56,7 @@ Please look at the general code contributing Guidelines and code standards for m
 
 ## Improving Documentation
 
-The main documentation of this website is handled in its own repository on our [our github](https://github.com/bitcraze/bitcraze-website), so submit a pull request for your improvements.
+The main documentation of this website is handled in its own repository on [our github](https://github.com/bitcraze/bitcraze-website), so submit a pull request for your improvements.
 
 The more detailed [repository documentation](/documentation/repository/) is hosted on this website but its source exists in the doc folders of the [repos on github](https://github.com/bitcraze) of which we also have some guidelines to keep in mind.
 
@@ -81,4 +72,4 @@ We are here to help you!
 Post a question in the [discussion page](https://discussions.bitcraze.io), add an issue on
 [github](https://github.com/bitcraze) or drop us an email at
 contact@bitcraze.io to get help.
-You can also submit a issue with the request to one of the [repos on github](https://github.com/bitcraze) to get the communities opinion.
+You can also submit an issue with the request to one of the [repos on github](https://github.com/bitcraze) to get the communities opinion.
