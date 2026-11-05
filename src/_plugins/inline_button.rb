@@ -19,7 +19,7 @@ module Jekyll
     end
 
     def render(context)
-        '<a href="' + @params[1] + '"><button type="button">'+@params[0] +'</button></a>'
+        '<a class="btn btn-primary btn-color-primary" href="' + @params[1] + '">' + @params[0] + '</a>'
     end
   end
 end
