@@ -1,0 +1,288 @@
+// "Start here" page. Builds on the front page styles (buttons, application cards)
+// and the generic .content-card from _pages.scss.
+$start-content-width: 1040px;
+
+// Decorative dashed lines, same look as on the front page. The x positions are offsets
+// from the page center, picked to match the design. Positions use the edge offset syntax
+// (`left X`), since plain percentages are relative to the leftover space.
+$start-dash-v: repeating-linear-gradient(0deg, $bcGreen 0, $bcGreen 7px, transparent 7px, transparent 15px);
+$start-dash-h: repeating-linear-gradient(90deg, $bcGreen 0, $bcGreen 7px, transparent 7px, transparent 15px);
+$start-line-outer: 660px;  // left of the content
+$start-line-right: 420px;  // right of the center
+
+// Distance from the viewport edge to the band's rounded end: 22% on wide screens, but never
+// so far in that the band ends inside the content column (plus 3rem of padding).
+// (A string, since libsass would otherwise try to evaluate min() and max() itself.)
+$start-band-inset: unquote("max(0px, min(22%, calc(50% - #{$start-content-width * 0.5} - 3rem)))");
+
+// A layer behind the content that is as wide as the viewport, to draw the lines in.
+@mixin start-lines {
+  position: relative;
+  isolation: isolate;
+
+  @media (min-width: $screen-md-min) {
+    &::before {
+      content: '';
+      position: absolute;
+      top: 0;
+      bottom: 0;
+      left: 50%;
+      width: 100vw;
+      transform: translateX(-50%);
+      z-index: -1;
+      pointer-events: none;
+      background-repeat: no-repeat;
+      @content;
+    }
+  }
+}
+
+.front-page {
+  // Narrower than the default 1400px container, to match the design
+  .start-hero > .container,
+  .start-section,
+  .start-band > .container {
+    max-width: $start-content-width;
+  }
+
+  .start-hero {
+    background-color: $bcDarkGreen;
+    color: white;
+    padding: 2.5rem 0;
+
+    h1 {
+      font-size: 2rem;
+      font-weight: 700;
+      line-height: 1.15;
+      color: white;
+
+      @media (min-width: $screen-md-min) {
+        font-size: 2.5rem;
+      }
+    }
+
+    p {
+      margin: 1.25rem 0 1.5rem;
+    }
+
+    .btn-color-secondary:hover,
+    .btn-color-secondary:focus {
+      color: white;
+      background-color: rgba(white, 0.15);
+    }
+  }
+
+  .start-hero-img {
+    border-radius: 12px;
+    width: 100%;
+  }
+
+  .start-buttons {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.75rem;
+  }
+
+  .start-section {
+    padding-top: 5rem;
+    text-align: center;
+  }
+
+  // First section: the left line from the hero down, and the lines across the cards and below
+  .start-section--lines {
+    padding-bottom: 2.5rem;
+
+    @include start-lines {
+      background-image: $start-dash-v, $start-dash-h, $start-dash-h;
+      background-size: 1px 100%, 100% 1px, 100% 1px;
+      background-position: left calc(50vw - #{$start-line-outer}) top 0, left 0 top 15.5rem, left 0 bottom 0;
+    }
+  }
+
+  // Everything below the first section. flow-root keeps the last margin inside, so
+  // the lines run all the way to the footer.
+  .start-lines {
+    display: flow-root;
+
+    @include start-lines {
+      background-image: $start-dash-v, $start-dash-v;
+      background-size: 1px 100%, 1px 100%;
+      background-position: left calc(50vw - #{$start-line-outer}) top 0, left calc(50vw + #{$start-line-right}) top 0;
+    }
+
+    .appl-cards-section {
+      @include start-lines {
+        background-image: $start-dash-h;
+        background-size: 100% 1px;
+        background-position: left 0 top 0.75rem;
+      }
+    }
+  }
+
+  .start-heading {
+    font-size: 2rem;
+    font-weight: 700;
+    color: $bcDarkGreen;
+  }
+
+  .start-lead {
+    max-width: 32rem;
+    margin: 0 auto 2rem;
+  }
+
+  .start-card {
+    background: mix($bcGreen, white, 8%);
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    text-align: left;
+    color: $bcDarkGreen;
+
+    &:hover, &:focus {
+      color: $bcDarkGreen;
+    }
+
+    img {
+      width: 100%;
+      aspect-ratio: 16 / 10;
+      object-fit: contain;
+      margin-bottom: 0.75rem;
+    }
+
+    h3 {
+      font-size: 1rem;
+      font-weight: 700;
+      margin: 0 0 0.5rem;
+    }
+  }
+
+  .start-card--outline {
+    background: white;
+    border: 1px solid rgba($bcGreen, 0.3);
+  }
+
+  .start-card-link {
+    margin-top: auto;
+    font-size: 0.75rem;
+    font-weight: 700;
+    color: $bcGreen;
+  }
+
+  // Colored bands. The background is a pseudo element, so the content stays in the same
+  // centered column as the other sections while the band is rounded on the side that
+  // does not touch the viewport edge.
+  .start-band {
+    position: relative;
+    isolation: isolate;
+    margin: 6rem 0;
+    padding: 2.5rem 0;
+
+    &::before {
+      content: '';
+      position: absolute;
+      inset: 0;
+      z-index: -1;
+      background-color: var(--start-band-bg);
+    }
+
+    h2 {
+      font-size: 1.75rem;
+      font-weight: 700;
+    }
+
+    @media (min-width: $screen-md-min) {
+      &.start-band--left::before {
+        right: $start-band-inset;
+        border-radius: 0 24px 24px 0;
+      }
+
+      &.start-band--right::before {
+        left: $start-band-inset;
+        border-radius: 24px 0 0 24px;
+      }
+    }
+  }
+
+  .start-band--green {
+    --start-band-bg: #{$bcGreen};
+    color: $bcDarkGreen;
+
+    h2 {
+      color: white;
+    }
+  }
+
+  .start-band--dark {
+    --start-band-bg: #{$bcDarkGreen};
+    color: white;
+
+    h2, h3 {
+      color: white;
+    }
+
+    h3 {
+      font-size: 1.25rem;
+    }
+  }
+
+  .start-link-list {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+
+    a {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 0.9rem 0;
+      border-bottom: 1px solid rgba($bcDarkGreen, 0.25);
+      font-weight: 600;
+      color: white;
+
+      // The arrow stays dark green until the link is hovered
+      i {
+        color: $bcDarkGreen;
+      }
+
+      &:hover, &:focus {
+        color: white;
+
+        i {
+          color: white;
+        }
+      }
+    }
+  }
+
+  .start-support-link {
+    display: inline-flex;
+    align-items: center;
+    gap: 1rem;
+    margin: 0.5rem 0 1rem;
+    color: white;
+
+    i {
+      font-size: 3rem;
+      color: $bcGreen;
+    }
+
+    &:hover, &:focus {
+      color: $bcGreen;
+    }
+  }
+
+  // Text in the first cell of the application cards grid
+  .start-inspiration {
+    align-self: center;
+    padding-right: 1rem;
+
+    h2 {
+      font-size: 1.5rem;
+      font-weight: 700;
+    }
+
+    p {
+      font-size: 0.85rem;
+    }
+  }
+}
