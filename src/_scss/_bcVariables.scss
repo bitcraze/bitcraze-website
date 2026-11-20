@@ -54,3 +54,7 @@ $side-menu-link-color: #444;
 $side-menu-background-color: #eee;
 
 $poplink-background-color: $bcLighterGrey;
+
+// Hover lift shared by the application cards and the start page cards
+$card-lift: translateY(-4px);
+$card-lift-transition: 0.25s ease;

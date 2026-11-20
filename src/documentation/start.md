@@ -19,7 +19,7 @@ redirects:
         </div>
       </div>
       <div class="col-md-6">
-        <img src="/images/frontpage/diy_portal.jpg" alt="Crazyflie on a workbench" class="start-hero-img">
+        <img src="/images/frontpage/diy_portal.webp" alt="Crazyflie on a workbench" class="start-hero-img">
       </div>
     </div>
   </div>
@@ -33,14 +33,14 @@ redirects:
   <div class="row g-3 justify-content-center">
     <div class="col-6 col-md-3">
       <a href="/documentation/tutorials/getting-started-with-crazyflie-brushless/" class="content-card start-card start-card--outline">
-        <img src="/images/crazyflie2-1brushless/brushless_585px.jpg" alt="Crazyflie 2.1 Brushless">
+        <img loading="lazy" src="/images/crazyflie2-1brushless/brushless_585px.webp" alt="Crazyflie 2.1 Brushless">
         <h3>Crazyflie 2.1 Brushless</h3>
         <span class="start-card-link">Get Started →</span>
       </a>
     </div>
     <div class="col-6 col-md-3">
       <a href="/documentation/tutorials/getting-started-with-crazyflie-2-x/" class="content-card start-card start-card--outline">
-        <img src="/images/crazyflie2-1-plus/CF21_plus_585px.jpg" alt="Crazyflie 2.1+">
+        <img loading="lazy" src="/images/crazyflie2-1-plus/CF21_plus_585px.webp" alt="Crazyflie 2.1+">
         <h3>Crazyflie 2.1+</h3>
         <span class="start-card-link">Get Started →</span>
       </a>
@@ -57,28 +57,28 @@ redirects:
   <div class="row g-3 justify-content-center">
     <div class="col-6 col-md-3">
       <a href="/documentation/tutorials/getting-started-with-crazyradio-2-0/" class="content-card start-card">
-        <img src="/images/crazyradio2-0/CR%202.0-dongle-%20585px.jpg" alt="Crazyradio 2.0">
+        <img loading="lazy" src="/images/frontpage/crazyradio-no-bg.webp" alt="Crazyradio 2.0">
         <h3>Crazyradio 2.0</h3>
         <span class="start-card-link">Get Started →</span>
       </a>
     </div>
     <div class="col-6 col-md-3">
       <a href="/documentation/tutorials/getting-started-with-expansion-decks/" class="content-card start-card">
-        <img src="/images/frontpage/front-expansion.webp" alt="Expansion Decks">
+        <img loading="lazy" src="/images/frontpage/decks-no-bg.webp" alt="Expansion Decks">
         <h3>Expansion Decks</h3>
         <span class="start-card-link">Get Started →</span>
       </a>
     </div>
     <div class="col-6 col-md-3">
       <a href="/documentation/system/positioning/" class="content-card start-card">
-        <img src="/images/frontpage/front-positioning.webp" alt="Positioning Systems">
+        <img loading="lazy" src="/images/frontpage/positioning-no-bg.webp" class="start-card-img--small" alt="Positioning Systems">
         <h3>Positioning Systems</h3>
         <span class="start-card-link">Get Started →</span>
       </a>
     </div>
     <div class="col-6 col-md-3">
       <a href="/documentation/tutorials/" class="content-card start-card">
-        <img src="/images/frontpage/front-platform.webp" alt="All tutorials">
+        <span class="start-card-dots" aria-hidden="true"></span>
         <h3>All Tutorials</h3>
         <span class="start-card-link">Get Started →</span>
       </a>
@@ -117,7 +117,7 @@ redirects:
     </div>
     <div class="appl-card appl-card--swarm">
       <div class="appl-card-img-wrap">
-        <img src="/images/applications/appl-card-swarm-card.webp" alt="Swarm Robotics">
+        <img loading="lazy" src="/images/applications/appl-card-swarm-card.webp" alt="Swarm Robotics">
       </div>
       <div class="appl-card-header">
         <i class="fa-solid fa-circle-nodes appl-card-icon"></i>
@@ -127,7 +127,7 @@ redirects:
     </div>
     <div class="appl-card appl-card--hri">
       <div class="appl-card-img-wrap">
-        <img src="/images/applications/appl-card-hri-card.webp" alt="Human-Robot Interaction">
+        <img loading="lazy" src="/images/applications/appl-card-hri-card.webp" alt="Human-Robot Interaction">
       </div>
       <div class="appl-card-header">
         <i class="fa-solid fa-people-arrows appl-card-icon"></i>
@@ -137,7 +137,7 @@ redirects:
     </div>
     <div class="appl-card appl-card--autosys">
       <div class="appl-card-img-wrap">
-        <img src="/images/applications/appl-card-auto-card.webp" alt="Autonomous Systems">
+        <img loading="lazy" src="/images/applications/appl-card-auto-card.webp" alt="Autonomous Systems">
       </div>
       <div class="appl-card-header">
         <i class="fa-solid fa-robot appl-card-icon"></i>
@@ -147,7 +147,7 @@ redirects:
     </div>
     <div class="appl-card appl-card--percept">
       <div class="appl-card-img-wrap">
-        <img src="/images/applications/appl-card-perc-nav-card.webp" alt="Perception and Navigation">
+        <img loading="lazy" src="/images/applications/appl-card-perc-nav-card.webp" alt="Perception and Navigation">
       </div>
       <div class="appl-card-header">
         <i class="fa-solid fa-compass appl-card-icon"></i>
@@ -157,7 +157,7 @@ redirects:
     </div>
     <div class="appl-card appl-card--stem">
       <div class="appl-card-img-wrap">
-        <img src="/images/applications/appl-card-stem-card.webp" alt="STEM and Higher Education">
+        <img loading="lazy" src="/images/applications/appl-card-stem-card.webp" alt="STEM and Higher Education">
       </div>
       <div class="appl-card-header">
         <i class="fa-solid fa-graduation-cap appl-card-icon"></i>
@@ -179,11 +179,11 @@ redirects:
       </div>
       <div class="col-md-6 offset-md-1">
         <h3>Get support through:</h3>
-        <a href="https://discussions.bitcraze.io/" class="start-support-link">GitHub Discussions <i class="fa-brands fa-github"></i></a>
+        <a href="https://discussions.bitcraze.io/" class="btn btn-primary btn-color-primary start-support-link"><i class="fa-brands fa-github"></i> GitHub Discussions</a>
         <p>Or start with checking out our resources:</p>
         <div class="start-buttons">
-          <a href="/documentation/tutorials/" class="btn btn-primary btn-color-primary">Resources Overview →</a>
-          <a href="/support/getting-help/" class="btn btn-primary btn-color-primary">Help Center →</a>
+          <a href="/support/troubleshooting/" class="btn btn-primary btn-color-primary">Troubleshooting →</a>
+          <a href="/support/getting-help/" class="btn btn-primary btn-color-primary">Getting Help →</a>
         </div>
       </div>
     </div>

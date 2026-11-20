@@ -88,14 +88,24 @@ $start-band-inset: unquote("max(0px, min(22%, calc(50% - #{$start-content-width 
     text-align: center;
   }
 
-  // First section: the left line from the hero down, and the lines across the cards and below
+  // First section: the left line from the hero down, the line across the cards and the one below
   .start-section--lines {
     padding-bottom: 2.5rem;
 
     @include start-lines {
-      background-image: $start-dash-v, $start-dash-h, $start-dash-h;
-      background-size: 1px 100%, 100% 1px, 100% 1px;
-      background-position: left calc(50vw - #{$start-line-outer}) top 0, left 0 top 15.5rem, left 0 bottom 0;
+      background-image: $start-dash-v, $start-dash-h;
+      background-size: 1px 100%, 100% 1px;
+      background-position: left calc(50vw - #{$start-line-outer}) top 0, left 0 bottom 0;
+    }
+
+    // The line across the cards is drawn from the row, so it follows the cards
+    // instead of depending on the height of the heading above them.
+    .row {
+      @include start-lines {
+        background-image: $start-dash-h;
+        background-size: 100% 1px;
+        background-position: left 0 top 3.5rem; // 1rem row gutter + 2.5rem into the cards
+      }
     }
   }
 
@@ -137,16 +147,41 @@ $start-band-inset: unquote("max(0px, min(22%, calc(50% - #{$start-content-width 
     height: 100%;
     text-align: left;
     color: $bcDarkGreen;
+    transition: transform $card-lift-transition;
 
+    // Same lift as the application cards
     &:hover, &:focus {
       color: $bcDarkGreen;
+      transform: $card-lift;
+
+      .start-card-link {
+        color: darken($bcGreen, 15%);
+      }
+    }
+
+    // Photo or icon area, the same size on every card
+    img, .start-card-dots {
+      display: block;
+      width: 100%;
+      aspect-ratio: 16 / 10;
+      margin-bottom: 0.75rem;
     }
 
     img {
-      width: 100%;
-      aspect-ratio: 16 / 10;
       object-fit: contain;
-      margin-bottom: 0.75rem;
+    }
+
+    // Wide image that looks too large at full width; padding shrinks it but keeps the row height
+    img.start-card-img--small {
+      box-sizing: border-box;
+      padding: 0 1.5rem;
+    }
+
+    // Icon in place of a photo (All Tutorials), coloured via mask
+    .start-card-dots {
+      background-color: $bcGreen;
+      -webkit-mask: url("/images/frontpage/three-dots.svg") center / 4rem no-repeat;
+      mask: url("/images/frontpage/three-dots.svg") center / 4rem no-repeat;
     }
 
     h3 {
@@ -159,6 +194,10 @@ $start-band-inset: unquote("max(0px, min(22%, calc(50% - #{$start-content-width 
   .start-card--outline {
     background: white;
     border: 1px solid rgba($bcGreen, 0.3);
+
+    &:hover, &:focus {
+      border-color: $bcGreen;
+    }
   }
 
   .start-card-link {
@@ -166,6 +205,7 @@ $start-band-inset: unquote("max(0px, min(22%, calc(50% - #{$start-content-width 
     font-size: 0.75rem;
     font-weight: 700;
     color: $bcGreen;
+    transition: color $card-lift-transition;
   }
 
   // Colored bands. The background is a pseudo element, so the content stays in the same
@@ -188,6 +228,7 @@ $start-band-inset: unquote("max(0px, min(22%, calc(50% - #{$start-content-width 
     h2 {
       font-size: 1.75rem;
       font-weight: 700;
+      color: white;
     }
 
     @media (min-width: $screen-md-min) {
@@ -206,22 +247,15 @@ $start-band-inset: unquote("max(0px, min(22%, calc(50% - #{$start-content-width 
   .start-band--green {
     --start-band-bg: #{$bcGreen};
     color: $bcDarkGreen;
-
-    h2 {
-      color: white;
-    }
   }
 
   .start-band--dark {
     --start-band-bg: #{$bcDarkGreen};
     color: white;
 
-    h2, h3 {
-      color: white;
-    }
-
     h3 {
       font-size: 1.25rem;
+      color: white;
     }
   }
 
@@ -238,36 +272,31 @@ $start-band-inset: unquote("max(0px, min(22%, calc(50% - #{$start-content-width 
       border-bottom: 1px solid rgba($bcDarkGreen, 0.25);
       font-weight: 600;
       color: white;
+      transition: border-color 0.2s ease;
 
       // The arrow stays dark green until the link is hovered
       i {
         color: $bcDarkGreen;
+        transition: color 0.2s ease, transform 0.2s ease;
       }
 
       &:hover, &:focus {
         color: white;
+        border-bottom-color: white;
 
         i {
           color: white;
+          transform: translateX(4px);
         }
       }
     }
   }
 
   .start-support-link {
-    display: inline-flex;
-    align-items: center;
-    gap: 1rem;
     margin: 0.5rem 0 1rem;
-    color: white;
 
     i {
-      font-size: 3rem;
-      color: $bcGreen;
-    }
-
-    &:hover, &:focus {
-      color: $bcGreen;
+      margin-right: 0.35rem;
     }
   }
 
