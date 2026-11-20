@@ -4,6 +4,7 @@ title: Crazyflie 2.1+
 page_id: product-crazyflie-2-1-plus
 redirects:
   - /crazyflie-2-1-plus/
+  - /products/crazyflie-2-1/
 ---
 {% datasheet_product_status crazyflie_2_1_plus  %}
 
