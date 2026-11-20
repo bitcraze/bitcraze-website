@@ -49,3 +49,17 @@ input[type="submit"]:disabled:focus {
     border-color: $bcGrey;
     outline: 0;
 }
+
+a.btn-color-primary {
+    color: #fff;
+    background-color: $bcGreen;
+    border-color: $bcGreen;
+    border-width: 2px;
+    text-decoration: none;
+    &:hover, &:focus {
+        color: #fff;
+        background-color: darken($bcGreen, 10%);
+        border-color: darken($bcGreen, 10%);
+        text-decoration: none;
+    }
+}
