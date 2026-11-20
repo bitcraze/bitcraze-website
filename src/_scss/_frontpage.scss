@@ -550,14 +550,14 @@
         background-color: $bcDarkGreen;
         display: flex;
         flex-direction: column;
-        transition: transform 0.25s ease, box-shadow 0.25s ease;
+        transition: transform $card-lift-transition, box-shadow $card-lift-transition;
 
         @media (min-width: $screen-md-min) {
           width: 220px;
         }
 
         &:hover {
-          transform: translateY(-4px);
+          transform: $card-lift;
           box-shadow: 0 10px 28px rgba(0, 0, 0, 0.3);
         }
 
