@@ -129,6 +129,15 @@ $break-point-small-logo: 1030px;
 
 .navbar-collapse {
   text-align: left;
+
+  // The navbar is sticky, so on mobile an expanded menu taller than the
+  // screen can't be scrolled to the bottom. Cap its height and scroll inside it.
+  @media (max-width: #{$navbar-expand-breakpoint - 1px}) {
+    max-height: calc(100vh - 50px);
+    max-height: calc(100dvh - 50px);
+    overflow-y: auto;
+    overscroll-behavior: contain;
+  }
 }
 
 $reduced-menu-spacing: 8px;
