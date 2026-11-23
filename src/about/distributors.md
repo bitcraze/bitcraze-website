@@ -22,7 +22,7 @@ redirects:
 
 
 {% country South Korea %}
-{% distributor Clrobur; https://www.clrobur.com/en/sub0203.php; /images/distributors/clrobur.png %}
+{% distributor DeviceMart (NTREX Co., Ltd.); https://www.devicemart.co.kr/goods/brand?code=2836; /images/distributors/logo_devicemart_ntrex.gif %}
 
 {% country Taiwan %}
 {% distributor Icshop; https://www.icshop.com.tw/product_list.php?header_search=crazyflie; /images/distributors/icsshop.jpg %}
